@@ -1,0 +1,558 @@
+Ecoregion,Park,Point transect name,Point transect identification,Elevation (m),Year,Month,Day,Temperature (Celcius),Sky condition,Wind speed (km/h),Common_Name,Scientific_Name,Number of Birds Detected from 0-3:20 (minutes),Number of Birds Detected from 3:20-6:40 (minutes),Number of Birds Detected from 6:40-10:00 (minutes),Behaviour,Easting coordinate,Northing coordinate
+Écorégion,Parc,Nom du point-transect,Identification du point-transect,Élévation (m),Anneé,Mois,Jour,Température (Celcius),Condition du ciel,Vitesse du vent (km/h),Nom commun,Nom scientifique,Nombre doiseaux observés entre 0 et 3 min 20 (minutes),Nombre doiseaux observés entre 3 min 20 et 6 min 40 (minutes),Nombre doiseaux observés entre 6 min 40 et 10 min (minutes),Comportement,Abscisse,Ordonnée
+Alpine,GNP,Abbott Ridge,3,2334,2014,7,9,14.8,clear,1.6,PINE SISKIN,Carduelis pinus,1,1,2,Calling,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2016,6,28,10.6,Broken,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2018,7,8,11.3,broken,0,AMERICAN PIPIT,Anthus spinoletta,0,1,0,Singing,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2018,7,8,11.3,broken,0,SWAINSON'S THRUSH,Catharus ustulatus,0,0,1,Calling,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2019,7,12,9.5,Broken,9,PINE SISKIN,Carduelis pinus,3,0,1,Calling,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2019,7,12,9.5,Broken,9,HERMIT THRUSH,Catharus guttatus,2,2,2,Singing,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2020,7,11,9,Clear,2,CHIPPING SPARROW,Spizella passerina,1,1,1,Singing,464268,5677100
+Alpine,GNP,Abbott Ridge,3,2334,2020,7,11,9,Clear,2,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,464268,5677100
+Alpine,GNP,Abbott Ridge,4,2365,2014,7,9,13.2,clear,5.5,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2014,7,9,13.2,clear,5.5,PINE SISKIN,Carduelis pinus,1,1,0,Calling,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2016,6,28,9.8,Scattered,0,PIKA,Ochotona princeps,1,0,0,Calling,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2016,6,28,9.8,Scattered,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,0,1,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2018,7,8,9.8,clear,4.5,AMERICAN PIPIT,Anthus spinoletta,1,1,0,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2018,7,8,9.8,clear,4.5,PINE SISKIN,Carduelis pinus,1,1,0,Calling,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2018,7,8,9.8,clear,4.5,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,0,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2018,7,8,9.8,clear,4.5,WARBLING VIREO,Vireo gilvus,1,0,0,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2019,7,12,8.2,Overcast,9,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,0,1,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2019,7,12,8.2,Overcast,9,HERMIT THRUSH,Catharus guttatus,0,0,1,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2019,7,12,8.2,Overcast,9,PIKA,Ochotona princeps,2,0,0,Calling,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2019,7,12,8.2,Overcast,9,PINE SISKIN,Carduelis pinus,1,1,0,Calling,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2020,7,11,8.3,Clear,3,PINE SISKIN,Carduelis pinus,1,0,0,Calling,464364,5676817
+Alpine,GNP,Abbott Ridge,4,2365,2020,7,11,8.3,Clear,3,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,464364,5676817
+Alpine,GNP,Abbott Ridge,5,2351,2014,7,9,15.7,broken,1,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2014,7,9,15.7,broken,1,CHIPPING SPARROW,Spizella passerina,1,1,0,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2014,7,9,15.7,broken,1,PINE SISKIN,Carduelis pinus,1,1,1,Calling,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2016,6,28,16.5,Clear,4,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2016,6,28,16.5,Clear,4,HERMIT THRUSH,Catharus guttatus,0,0,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2016,6,28,16.5,Clear,4,PINE SISKIN,Carduelis pinus,1,1,0,Calling,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2016,6,28,16.5,Clear,4,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2018,7,8,12.3,scattered,0,FOX SPARROW,Passerella iliaca,1,1,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2018,7,8,12.3,scattered,0,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,PINE SISKIN,Carduelis pinus,1,0,0,Calling,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,VARIED THRUSH,Ixoreus naevius,0,0,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,1,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,AMERICAN PIPIT,Anthus spinoletta,0,1,0,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,NORTHERN FLICKER,Colaptes auratus,1,0,0,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,0,2,Calling,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,HERMIT THRUSH,Catharus guttatus,2,2,2,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2019,7,12,9,Broken,9,PIKA,Ochotona princeps,0,0,2,Calling,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2020,7,11,8.7,Clear,7,PINE SISKIN,Carduelis pinus,1,0,0,Calling,464367,5676510
+Alpine,GNP,Abbott Ridge,5,2351,2020,7,11,8.7,Clear,7,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,464367,5676510
+Alpine,GNP,Abbott Ridge,6,2461,2014,7,9,13.1,broken,2,PINE SISKIN,Carduelis pinus,1,2,1,Calling,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2018,7,8,13.1,scattered,7.7,HERMIT THRUSH,Catharus guttatus,0,1,0,Singing,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2018,7,8,13.1,scattered,7.7,PINE SISKIN,Carduelis pinus,0,1,0,Calling,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2018,7,8,13.1,scattered,7.7,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,1,0,Singing,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2019,7,12,10,Scattered,9,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2019,7,12,10,Scattered,9,PIKA,Ochotona princeps,0,0,1,Calling,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2019,7,12,10,Scattered,9,PINE SISKIN,Carduelis pinus,1,1,1,Calling,464463,5676224
+Alpine,GNP,Abbott Ridge,6,2461,2020,7,11,11.3,Clear,3,RED CROSSBILL,Loxia curvirostra,2,0,0,Calling,464463,5676224
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,AMERICAN ROBIN,Turdus migratorius,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,CHIPPING SPARROW,Spizella passerina,0,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,FOX SPARROW,Passerella iliaca,1,2,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,PINE SISKIN,Carduelis pinus,3,3,3,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,VARIED THRUSH,Ixoreus naevius,2,2,3,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2013,7,4,9.6,clear,4.5,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,DARK-EYED JUNCO,Junco hyemalis,0,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,VARIED THRUSH,Ixoreus naevius,3,2,2,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,RED CROSSBILL,Loxia curvirostra,2,0,0,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,PINE SISKIN,Carduelis pinus,1,0,0,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,HERMIT THRUSH,Catharus guttatus,1,0,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,FOX SPARROW,Passerella iliaca,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,CHIPPING SPARROW,Spizella passerina,2,2,2,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,AMERICAN ROBIN,Turdus migratorius,0,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2014,6,23,8.2,scattered,5.8,GROUND SQUIRREL,,2,2,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,GROUND SQUIRREL,,2,2,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,RUBY-CROWNED KINGLET,Regulus calendula,1,0,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,PINE SISKIN,Carduelis pinus,1,0,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,CHIPPING SPARROW,Spizella passerina,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,1,0,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,GOLDEN-CROWNED KINGLET,Regulus satrapa,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,CLARK'S NUTCRACKER,Nucifraga columbiana,0,0,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,AMERICAN ROBIN,Turdus migratorius,1,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,AMERICAN PIPIT,Anthus spinoletta,1,0,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,GOLDEN-CROWNED SPARROW,Zonotrichia atricapilla,1,0,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2016,6,29,13.8,Clear,5,FOX SPARROW,Passerella iliaca,1,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,HERMIT THRUSH,Catharus guttatus,2,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,WHITE-WINGED CROSSBILL,Loxia leucoptera,0,1,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,RUFOUS HUMMINGBIRD,Selasphorus rufus,0,0,1,Flying,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,Pacific Wren,Troglodytes pacificus,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,GROUND SQUIRREL,,2,2,2,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,FOX SPARROW,Passerella iliaca,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,CHIPPING SPARROW,Spizella passerina,0,0,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,AMERICAN ROBIN,Turdus migratorius,1,0,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2018,7,13,17.1,clear,2,RUBY-CROWNED KINGLET,Regulus calendula,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,GROUND SQUIRREL,,2,1,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,0,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,RED CROSSBILL,Loxia curvirostra,0,0,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,RUBY-CROWNED KINGLET,Regulus calendula,0,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,FOX SPARROW,Passerella iliaca,3,2,2,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,0,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,CHIPPING SPARROW,Spizella passerina,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,PINE SISKIN,Carduelis pinus,2,1,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2019,7,9,11.4,Scattered,2,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2020,7,21,10.8,Overcast,4.5,AMERICAN ROBIN,Turdus migratorius,0,0,1,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2020,7,21,10.8,Overcast,4.5,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,0,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2020,7,21,10.8,Overcast,4.5,PINE SISKIN,Carduelis pinus,1,1,0,Calling,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2020,7,21,10.8,Overcast,4.5,GOLDEN-CROWNED SPARROW,Zonotrichia atricapilla,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,1,2113,2020,7,21,10.8,Overcast,4.5,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,478277,5681410
+Alpine,GNP,Bald Hills,10,2261,2014,6,23,11.9,broken,5,NORTHERN ROUGH-WINGED SWALLOW,Stelgidopteryx serripennis,1,0,0,Calling,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2014,6,23,11.9,broken,5,YELLOW-RUMPED WARBLER,Dendroica coronata,0,0,1,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2014,6,23,11.9,broken,5,HORNED LARK,Eremophila alpestris,2,2,2,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2014,6,23,11.9,broken,5,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,2,Calling,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2014,6,23,11.9,broken,5,AMERICAN PIPIT,Anthus spinoletta,1,0,0,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,FOX SPARROW,Passerella iliaca,1,0,0,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,1,0,Calling,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,GROUND SQUIRREL,,1,1,1,Calling,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,HORNED LARK,Eremophila alpestris,1,1,1,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,MOUNTAIN BLUEBIRD,Sialia currucoides,0,0,1,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2016,6,29,13.8,Clear,3,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,479021,5682207
+Alpine,GNP,Bald Hills,10,2261,2018,7,13,13.7,clear,2.5,PINE SISKIN,Carduelis pinus,0,0,1,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2018,7,13,13.7,clear,2.5,AMERICAN PIPIT,Anthus spinoletta,2,2,2,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2018,7,13,13.7,clear,2.5,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2018,7,13,13.7,clear,2.5,GROUND SQUIRREL,,1,1,1,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2018,7,13,13.7,clear,2.5,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2018,7,13,13.7,clear,2.5,HORNED LARK,Eremophila alpestris,1,1,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,VAUX'S SWIFT,Chaetura vauxi,0,1,0,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,PINE SISKIN,Carduelis pinus,2,2,2,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,HORNED LARK,Eremophila alpestris,1,2,2,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,GROUND SQUIRREL,,1,1,1,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,0,2,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2019,7,9,11.1,Scattered,4.6,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,0,1,0,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2020,7,21,11.4,Overcast,7.4,PINE SISKIN,Carduelis pinus,0,1,0,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2020,7,21,11.4,Overcast,7.4,CLARK'S NUTCRACKER,Nucifraga columbiana,0,0,1,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2020,7,21,11.4,Overcast,7.4,FOX SPARROW,Passerella iliaca,0,0,1,Singing,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2020,7,21,11.4,Overcast,7.4,GRAY JAY,Perisoreus canadensis,1,1,1,Calling,477137,5680688
+Alpine,GNP,Bald Hills,10,2261,2020,7,21,11.4,Overcast,7.4,GROUND SQUIRREL,,1,1,2,Calling,477137,5680688
+Alpine,GNP,Bald Hills,11,2260,2014,6,23,8.2,broken,4.6,AMERICAN ROBIN,Turdus migratorius,1,1,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2014,6,23,8.2,broken,4.6,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,0,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2014,6,23,8.2,broken,4.6,HORNED LARK,Eremophila alpestris,1,1,0,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2014,6,23,8.2,broken,4.6,MOUNTAIN BLUEBIRD,Sialia currucoides,0,0,1,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2014,6,23,8.2,broken,4.6,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,0,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,WHITE-WINGED CROSSBILL,Loxia leucoptera,0,1,0,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,PINE SISKIN,Carduelis pinus,0,1,1,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,0,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,GROUND SQUIRREL,,1,0,0,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,FOX SPARROW,Passerella iliaca,2,2,2,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2018,7,13,13.1,clear,5.2,HORNED LARK,Eremophila alpestris,1,1,2,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,HORNED LARK,Eremophila alpestris,2,0,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,AMERICAN PIPIT,Anthus spinoletta,1,0,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,PINE SISKIN,Carduelis pinus,3,3,1,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,GROUND SQUIRREL,,2,2,2,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,1,1,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,DARK-EYED JUNCO,Junco hyemalis,0,1,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,0,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,CHIPPING SPARROW,Spizella passerina,1,0,0,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,AMERICAN ROBIN,Turdus migratorius,1,0,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2019,7,9,15,Scattered,2.2,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,1,0,0,Singing,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2020,7,21,12.2,Overcast,1.9,GROUND SQUIRREL,,2,2,1,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2020,7,21,12.2,Overcast,1.9,COMMON RAVEN,Corvus corax,0,1,0,Calling,477339,5680336
+Alpine,GNP,Bald Hills,11,2260,2020,7,21,12.2,Overcast,1.9,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,1,Calling,477339,5680336
+Alpine,GNP,Bald Hills,2,2155,2013,7,4,10,scattered,2,PINE SISKIN,Carduelis pinus,0,0,1,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2013,7,4,10,scattered,2,VARIED THRUSH,Ixoreus naevius,1,1,2,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2013,7,4,10,scattered,2,YELLOW-RUMPED WARBLER,Dendroica coronata,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2013,7,4,10,scattered,2,AMERICAN ROBIN,Turdus migratorius,2,2,2,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2013,7,4,10,scattered,2,HERMIT THRUSH,Catharus guttatus,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2013,7,4,10,scattered,2,FOX SPARROW,Passerella iliaca,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2014,6,23,7,clear,5.9,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2014,6,23,7,clear,5.9,AMERICAN ROBIN,Turdus migratorius,0,0,1,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2014,6,23,7,clear,5.9,FOX SPARROW,Passerella iliaca,0,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2014,6,23,7,clear,5.9,SAVANNAH SPARROW,Passerculus sandwichensis,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2014,6,23,7,clear,5.9,VARIED THRUSH,Ixoreus naevius,1,2,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,VARIED THRUSH,Ixoreus naevius,1,0,0,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,PINE SISKIN,Carduelis pinus,1,0,0,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,unidentified hummingbird,,0,0,1,Other,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,HORNED LARK,Eremophila alpestris,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,GOLDEN-CROWNED SPARROW,Zonotrichia atricapilla,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2016,6,29,13.8,Clear,5,GROUND SQUIRREL,,1,1,1,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,AMERICAN PIPIT,Anthus spinoletta,1,2,2,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,HORNED LARK,Eremophila alpestris,1,0,0,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,1,1,0,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,DARK-EYED JUNCO,Junco hyemalis,1,0,0,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,FOX SPARROW,Passerella iliaca,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2018,7,13,16.1,clear,6.9,HERMIT THRUSH,Catharus guttatus,2,2,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,AMERICAN PIPIT,Anthus spinoletta,1,2,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,FOX SPARROW,Passerella iliaca,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,HERMIT THRUSH,Catharus guttatus,0,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,PINE SISKIN,Carduelis pinus,3,2,2,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,2,2,2,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2019,7,9,9.1,Scattered,1.6,YELLOW-RUMPED WARBLER,Dendroica coronata,1,0,0,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,HERMIT THRUSH,Catharus guttatus,0,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,GROUND SQUIRREL,,1,0,0,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,GOLDEN-CROWNED SPARROW,Zonotrichia atricapilla,1,1,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Calling,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,FOX SPARROW,Passerella iliaca,1,0,0,Singing,478009,5681551
+Alpine,GNP,Bald Hills,2,2155,2020,7,21,10.6,Overcast,3.7,SAVANNAH SPARROW,Passerculus sandwichensis,0,0,1,Singing,478009,5681551
+Alpine,GNP,Bald Hills,3,2187,2013,7,4,10.3,broken,4,AMERICAN ROBIN,Turdus migratorius,1,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2013,7,4,10.3,broken,4,VARIED THRUSH,Ixoreus naevius,1,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2013,7,4,10.3,broken,4,DARK-EYED JUNCO,Junco hyemalis,1,0,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2013,7,4,10.3,broken,4,FOX SPARROW,Passerella iliaca,1,0,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2014,6,23,11.2,clear,1.8,AMERICAN ROBIN,Turdus migratorius,1,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2014,6,23,11.2,clear,1.8,CHIPPING SPARROW,Spizella passerina,0,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2014,6,23,11.2,clear,1.8,FOX SPARROW,Passerella iliaca,0,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2014,6,23,11.2,clear,1.8,SAVANNAH SPARROW,Passerculus sandwichensis,0,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2014,6,23,11.2,clear,1.8,VARIED THRUSH,Ixoreus naevius,1,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,AMERICAN ROBIN,Turdus migratorius,0,0,1,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,VARIED THRUSH,Ixoreus naevius,1,0,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,HORNED LARK,Eremophila alpestris,1,0,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,HERMIT THRUSH,Catharus guttatus,1,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2016,6,29,15.3,Clear,5,DARK-EYED JUNCO,Junco hyemalis,1,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,HORNED LARK,Eremophila alpestris,0,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,SECOND UNKNOWN,,0,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,PINE SISKIN,Carduelis pinus,1,0,0,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,GROUND SQUIRREL,,1,2,1,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,CHIPPING SPARROW,Spizella passerina,0,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,AMERICAN ROBIN,Turdus migratorius,0,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,AMERICAN PIPIT,Anthus spinoletta,2,1,2,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2018,7,13,16.3,clear,1.1,SAVANNAH SPARROW,Passerculus sandwichensis,2,2,2,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,HERMIT THRUSH,Catharus guttatus,1,2,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,0,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,SAVANNAH SPARROW,Passerculus sandwichensis,1,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,YELLOW-RUMPED WARBLER,Dendroica coronata,0,1,0,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,PINE SISKIN,Carduelis pinus,0,1,0,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,FOX SPARROW,Passerella iliaca,2,1,2,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,CHIPPING SPARROW,Spizella passerina,0,1,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,AMERICAN PIPIT,Anthus spinoletta,2,2,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,RED CROSSBILL,Loxia curvirostra,0,0,2,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2019,7,9,9,Scattered,1,GROUND SQUIRREL,,1,1,1,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2020,7,21,11.1,Overcast,5.4,GROUND SQUIRREL,,3,3,1,Calling,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2020,7,21,11.1,Overcast,5.4,HERMIT THRUSH,Catharus guttatus,1,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2020,7,21,11.1,Overcast,5.4,AMERICAN PIPIT,Anthus spinoletta,1,0,1,Singing,477763,5681723
+Alpine,GNP,Bald Hills,3,2187,2020,7,21,11.1,Overcast,5.4,PINE SISKIN,Carduelis pinus,0,1,0,Calling,477763,5681723
+Alpine,GNP,Bald Hills,4,2223,2013,7,4,12,clear,2.5,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2013,7,4,12,clear,2.5,GROUND SQUIRREL,,1,1,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2013,7,4,12,clear,2.5,PINE SISKIN,Carduelis pinus,0,1,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,CLARK'S NUTCRACKER,Nucifraga columbiana,1,0,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,RED CROSSBILL,Loxia curvirostra,0,0,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,PINE GROSBEAK,Pinicola enucleator,0,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,HERMIT THRUSH,Catharus guttatus,1,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,1,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,DARK-EYED JUNCO,Junco hyemalis,1,1,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,CHIPPING SPARROW,Spizella passerina,0,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,AMERICAN ROBIN,Turdus migratorius,1,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2014,6,23,8.5,clear,0,FOX SPARROW,Passerella iliaca,1,1,2,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,RUBY-CROWNED KINGLET,Regulus calendula,1,1,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,MOUNTAIN BLUEBIRD,Sialia currucoides,0,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,YELLOW-RUMPED WARBLER,Dendroica coronata,1,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,AMERICAN ROBIN,Turdus migratorius,0,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,HERMIT THRUSH,Catharus guttatus,0,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2016,6,29,15,Clear,0,GROUND SQUIRREL,,1,2,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,PINE SISKIN,Carduelis pinus,0,0,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,WHITE-WINGED CROSSBILL,Loxia leucoptera,1,1,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,1,1,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,SAVANNAH SPARROW,Passerculus sandwichensis,0,1,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,FOX SPARROW,Passerella iliaca,2,2,2,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,CHIPPING SPARROW,Spizella passerina,1,0,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,CASSIN'S FINCH,Carpodacus cassinii,0,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,AMERICAN PIPIT,Anthus spinoletta,2,2,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2018,7,13,13.2,clear,2.6,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,0,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,HERMIT THRUSH,Catharus guttatus,1,1,2,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,CLARK'S NUTCRACKER,Nucifraga columbiana,0,0,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,YELLOW-RUMPED WARBLER,Dendroica coronata,2,2,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,WHITE-CROWNED SPARROW,Zonotrichia leucophrys,0,1,2,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,RED CROSSBILL,Loxia curvirostra,1,0,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,RUBY-CROWNED KINGLET,Regulus calendula,1,0,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,PINE SISKIN,Carduelis pinus,3,2,2,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,FOX SPARROW,Passerella iliaca,2,1,2,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,AMERICAN PIPIT,Anthus spinoletta,2,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,COMMON RAVEN,Corvus corax,1,0,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,GOLDEN-CROWNED SPARROW,Zonotrichia atricapilla,1,0,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,CHIPPING SPARROW,Spizella passerina,1,1,0,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2019,7,9,6.6,Scattered,0,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2020,7,21,12.8,Overcast,0,HERMIT THRUSH,Catharus guttatus,1,0,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2020,7,21,12.8,Overcast,0,PINE SISKIN,Carduelis pinus,0,0,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2020,7,21,12.8,Overcast,0,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,0,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2020,7,21,12.8,Overcast,0,GROUND SQUIRREL,,4,4,2,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2020,7,21,12.8,Overcast,0,AMERICAN PIPIT,Anthus spinoletta,1,0,1,Calling,477481,5681611
+Alpine,GNP,Bald Hills,4,2223,2020,7,21,12.8,Overcast,0,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,477481,5681611
+Alpine,GNP,Bald Hills,5,2269,2013,7,4,15,clear,1.5,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2013,7,4,15,clear,1.5,AMERICAN ROBIN,Turdus migratorius,0,0,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2013,7,4,15,clear,1.5,FOX SPARROW,Passerella iliaca,0,0,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2013,7,4,15,clear,1.5,GROUND SQUIRREL,,0,1,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2013,7,4,15,clear,1.5,HORNED LARK,Eremophila alpestris,0,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2013,7,4,15,clear,1.5,PINE SISKIN,Carduelis pinus,2,1,0,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2014,6,23,5.4,clear,2.5,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2014,6,23,5.4,clear,2.5,AMERICAN ROBIN,Turdus migratorius,2,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2014,6,23,5.4,clear,2.5,PINE SISKIN,Carduelis pinus,1,0,0,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,AMERICAN PIPIT,Anthus spinoletta,1,0,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,AMERICAN ROBIN,Turdus migratorius,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,DARK-EYED JUNCO,Junco hyemalis,1,0,0,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,GROUND SQUIRREL,,1,1,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,HORNED LARK,Eremophila alpestris,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2016,6,29,11.3,Clear,0,RUBY-CROWNED KINGLET,Regulus calendula,0,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,PINE SISKIN,Carduelis pinus,1,0,0,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,YELLOW-RUMPED WARBLER,Dendroica coronata,1,0,0,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,RUBY-CROWNED KINGLET,Regulus calendula,1,0,0,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,CHIPPING SPARROW,Spizella passerina,1,0,0,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,AMERICAN PIPIT,Anthus spinoletta,2,2,2,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,AMERICAN ROBIN,Turdus migratorius,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2018,7,13,12.1,clear,3.1,FOX SPARROW,Passerella iliaca,1,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,HERMIT THRUSH,Catharus guttatus,1,0,0,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,PINE SISKIN,Carduelis pinus,0,1,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,1,2,0,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,FOX SPARROW,Passerella iliaca,2,1,2,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,AMERICAN ROBIN,Turdus migratorius,1,0,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2019,7,9,7,Scattered,3.1,AMERICAN PIPIT,Anthus spinoletta,1,2,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2020,7,21,14.1,Broken,5.5,SAVANNAH SPARROW,Passerculus sandwichensis,0,1,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2020,7,21,14.1,Broken,5.5,FOX SPARROW,Passerella iliaca,0,1,1,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2020,7,21,14.1,Broken,5.5,GROUND SQUIRREL,,1,0,1,Calling,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2020,7,21,14.1,Broken,5.5,AMERICAN PIPIT,Anthus spinoletta,1,0,0,Singing,477185,5681655
+Alpine,GNP,Bald Hills,5,2269,2020,7,21,14.1,Broken,5.5,HERMIT THRUSH,Catharus guttatus,1,0,0,Singing,477185,5681655
+Alpine,GNP,Bald Hills,8,2060,2014,6,23,6.7,scattered,2.2,YELLOW-RUMPED WARBLER,Dendroica coronata,0,1,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2014,6,23,6.7,scattered,2.2,DARK-EYED JUNCO,Junco hyemalis,0,1,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2014,6,23,6.7,scattered,2.2,FOX SPARROW,Passerella iliaca,1,1,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2014,6,23,6.7,scattered,2.2,HORNED LARK,Eremophila alpestris,1,1,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2014,6,23,6.7,scattered,2.2,WHITE-TAILED PTARMIGAN,Lagopus leucurus,1,0,0,Calling,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,SAVANNAH SPARROW,Passerculus sandwichensis,0,1,0,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,RUBY-CROWNED KINGLET,Regulus calendula,0,0,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,PINE SISKIN,Carduelis pinus,1,0,0,Calling,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,HORNED LARK,Eremophila alpestris,1,1,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,GROUND SQUIRREL,,1,0,0,Calling,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,FOX SPARROW,Passerella iliaca,1,1,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,AMERICAN PIPIT,Anthus spinoletta,1,0,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2016,6,29,15,Clear,2,DARK-EYED JUNCO,Junco hyemalis,1,0,1,Singing,478577,5681599
+Alpine,GNP,Bald Hills,8,2060,2018,7,13,14.5,clear,7,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2018,7,13,14.5,clear,7,PINE SISKIN,Carduelis pinus,2,1,1,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2018,7,13,14.5,clear,7,FOX SPARROW,Passerella iliaca,0,1,1,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2018,7,13,14.5,clear,7,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2018,7,13,14.5,clear,7,GROUND SQUIRREL,,2,0,1,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,PINE SISKIN,Carduelis pinus,2,3,3,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,WILSON'S WARBLER,Wilsonia pusilla,1,0,0,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,RED CROSSBILL,Loxia curvirostra,5,0,0,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,MOUNTAIN BLUEBIRD,Sialia currucoides,0,1,0,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,HORNED LARK,Eremophila alpestris,1,1,1,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,GROUND SQUIRREL,,2,2,2,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,3,0,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,FOX SPARROW,Passerella iliaca,2,0,1,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,AMERICAN PIPIT,Anthus spinoletta,1,1,2,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2019,7,9,8.1,Broken,0,SAVANNAH SPARROW,Passerculus sandwichensis,1,0,0,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2020,7,21,10.7,Overcast,3.2,FOX SPARROW,Passerella iliaca,1,0,1,Singing,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2020,7,21,10.7,Overcast,3.2,AMERICAN PIPIT,Anthus spinoletta,1,0,0,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2020,7,21,10.7,Overcast,3.2,PINE SISKIN,Carduelis pinus,2,0,0,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2020,7,21,10.7,Overcast,3.2,GROUND SQUIRREL,,1,1,0,Calling,476955,5681271
+Alpine,GNP,Bald Hills,8,2060,2020,7,21,10.7,Overcast,3.2,HAIRY WOODPECKER,Picoides villosus,0,1,1,Calling,476955,5681271
+Alpine,GNP,Bald Hills,9,2184,2014,6,23,12.1,scattered,3.4,AMERICAN PIPIT,Anthus spinoletta,0,0,1,Calling,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2014,6,23,12.1,scattered,3.4,AMERICAN ROBIN,Turdus migratorius,1,1,0,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2014,6,23,12.1,scattered,3.4,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,0,Calling,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2014,6,23,12.1,scattered,3.4,FOX SPARROW,Passerella iliaca,0,1,0,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2014,6,23,12.1,scattered,3.4,HORNED LARK,Eremophila alpestris,2,2,2,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,HORNED LARK,Eremophila alpestris,1,1,1,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,GROUND SQUIRREL,,1,1,1,Calling,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,PINE SISKIN,Carduelis pinus,1,0,1,Calling,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,CLARK'S NUTCRACKER,Nucifraga columbiana,1,0,0,Calling,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,FOX SPARROW,Passerella iliaca,0,0,1,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2016,6,29,15.3,Clear,2,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,478877,5681923
+Alpine,GNP,Bald Hills,9,2184,2018,7,13,13,clear,4,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2018,7,13,13,clear,4,FOX SPARROW,Passerella iliaca,1,1,0,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2018,7,13,13,clear,4,GROUND SQUIRREL,,1,1,1,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2018,7,13,13,clear,4,HORNED LARK,Eremophila alpestris,1,1,1,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2018,7,13,13,clear,4,PINE SISKIN,Carduelis pinus,0,1,1,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2018,7,13,13,clear,4,SAVANNAH SPARROW,Passerculus sandwichensis,1,0,0,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,0,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,SAVANNAH SPARROW,Passerculus sandwichensis,1,1,1,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,RED CROSSBILL,Loxia curvirostra,0,3,0,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,PINE SISKIN,Carduelis pinus,1,2,0,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,HORNED LARK,Eremophila alpestris,1,1,1,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,FOX SPARROW,Passerella iliaca,1,0,0,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,AMERICAN PIPIT,Anthus spinoletta,2,2,1,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2019,7,9,10,Broken,1.1,GROUND SQUIRREL,,1,1,1,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2020,7,21,10.9,Overcast,4.7,GROUND SQUIRREL,,4,4,4,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2020,7,21,10.9,Overcast,4.7,HORNED LARK,Eremophila alpestris,1,1,1,Calling,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2020,7,21,10.9,Overcast,4.7,FOX SPARROW,Passerella iliaca,0,1,0,Singing,476931,5680954
+Alpine,GNP,Bald Hills,9,2184,2020,7,21,10.9,Overcast,4.7,AMERICAN PIPIT,Anthus spinoletta,1,0,0,Singing,476931,5680954
+Alpine,GNP,Balu,1,2352,2014,7,8,7.3,clear,2.7,AMERICAN PIPIT,Anthus spinoletta,1,0,0,Singing,458925,5682533
+Alpine,GNP,Balu,1,2352,2014,7,8,7.3,clear,2.7,CHIPPING SPARROW,Spizella passerina,1,1,1,Singing,458925,5682533
+Alpine,GNP,Balu,1,2352,2014,7,8,7.3,clear,2.7,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,1,0,Calling,458925,5682533
+Alpine,GNP,Balu,1,2352,2016,6,29,10.5,Clear,9.3,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,458925,5682533
+Alpine,GNP,Balu,1,2352,2016,6,29,10.5,Clear,9.3,HERMIT THRUSH,Catharus guttatus,1,0,0,Singing,458925,5682533
+Alpine,GNP,Balu,1,2352,2019,7,9,6.8,Clear,2.1,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Singing,458925,5682533
+Alpine,GNP,Balu,1,2352,2019,7,9,6.8,Clear,2.1,PINE SISKIN,Carduelis pinus,0,1,0,Calling,458925,5682533
+Alpine,GNP,Balu,1,2352,2019,7,9,6.8,Clear,2.1,PIKA,Ochotona princeps,0,0,1,Calling,458925,5682533
+Alpine,GNP,Balu,1,2352,2019,7,9,6.8,Clear,2.1,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,1,1,1,Calling,458925,5682533
+Alpine,GNP,Fidelity Subalpine,13,2059,2013,6,29,17.7,scattered,1.1,VARIED THRUSH,Ixoreus naevius,0,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2013,6,29,17.7,scattered,1.1,CHIPPING SPARROW,Spizella passerina,0,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2013,6,29,17.7,scattered,1.1,FOX SPARROW,Passerella iliaca,1,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2013,6,29,17.7,scattered,1.1,HERMIT THRUSH,Catharus guttatus,1,0,0,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,HERMIT THRUSH,Catharus guttatus,0,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,SWAINSON'S THRUSH,Catharus ustulatus,1,0,0,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,PINE SISKIN,Carduelis pinus,2,1,2,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,DARK-EYED JUNCO,Junco hyemalis,1,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,CLARK'S NUTCRACKER,Nucifraga columbiana,2,0,0,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,CHIPPING SPARROW,Spizella passerina,0,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2014,7,10,11.6,clear,1.1,FOX SPARROW,Passerella iliaca,1,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2016,6,27,11.5,Clear,0,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2016,6,27,11.5,Clear,0,MOUNTAIN BLUEBIRD,Sialia currucoides,1,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2016,6,27,11.5,Clear,0,PINE SISKIN,Carduelis pinus,0,0,1,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2016,6,27,11.5,Clear,0,VARIED THRUSH,Ixoreus naevius,1,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,AMERICAN PIPIT,Anthus spinoletta,1,1,0,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,RUBY-CROWNED KINGLET,Regulus calendula,0,1,0,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,PINE SISKIN,Carduelis pinus,0,0,1,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,HERMIT THRUSH,Catharus guttatus,1,0,0,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,DARK-EYED JUNCO,Junco hyemalis,1,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2018,7,5,14.6,broken,0,FOX SPARROW,Passerella iliaca,2,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,PINE SISKIN,Carduelis pinus,1,2,1,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,RED CROSSBILL,Loxia curvirostra,1,1,0,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,RED-BREASTED NUTHATCH,Sitta canadensis,0,1,1,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,FOX SPARROW,Passerella iliaca,1,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,CHIPPING SPARROW,Spizella passerina,1,1,2,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,AMERICAN ROBIN,Turdus migratorius,1,0,0,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2019,7,12,8.6,Scattered,5.5,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2020,7,11,10.3,Clear,0,FOX SPARROW,Passerella iliaca,1,1,0,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2020,7,11,10.3,Clear,0,DARK-EYED JUNCO,Junco hyemalis,2,2,2,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2020,7,11,10.3,Clear,0,YELLOW-RUMPED WARBLER,Dendroica coronata,0,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2020,7,11,10.3,Clear,0,HERMIT THRUSH,Catharus guttatus,1,0,1,Singing,450545,5676203
+Alpine,GNP,Fidelity Subalpine,13,2059,2020,7,11,10.3,Clear,0,PINE SISKIN,Carduelis pinus,1,0,1,Calling,450545,5676203
+Alpine,GNP,Fidelity Subalpine,14,2094,2013,6,29,18.6,broken,1.3,FOX SPARROW,Passerella iliaca,0,1,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2013,6,29,18.6,broken,1.3,HERMIT THRUSH,Catharus guttatus,0,1,2,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2013,6,29,18.6,broken,1.3,PINE SISKIN,Carduelis pinus,1,0,0,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2013,6,29,18.6,broken,1.3,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,0,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2013,6,29,18.6,broken,1.3,VARIED THRUSH,Ixoreus naevius,1,1,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2013,6,29,18.6,broken,1.3,DARK-EYED JUNCO,Junco hyemalis,2,1,2,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2014,7,10,16.1,clear,1,DARK-EYED JUNCO,Junco hyemalis,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2014,7,10,16.1,clear,1,YELLOW-RUMPED WARBLER,Dendroica coronata,1,0,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2014,7,10,16.1,clear,1,FOX SPARROW,Passerella iliaca,1,2,2,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2014,7,10,16.1,clear,1,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2014,7,10,16.1,clear,1,PINE SISKIN,Carduelis pinus,2,0,1,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,DARK-EYED JUNCO,Junco hyemalis,1,0,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,FOX SPARROW,Passerella iliaca,0,0,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,PINE SISKIN,Carduelis pinus,1,0,0,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,RUBY-CROWNED KINGLET,Regulus calendula,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,2,2,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2016,6,27,11.2,Clear,0,VARIED THRUSH,Ixoreus naevius,1,0,0,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,NORTHERN FLICKER,Colaptes auratus,1,0,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,RUBY-CROWNED KINGLET,Regulus calendula,1,1,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,0,1,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,CHIPPING SPARROW,Spizella passerina,2,0,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,FOX SPARROW,Passerella iliaca,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2018,7,5,13.2,scattered,0,YELLOW-RUMPED WARBLER,Dendroica coronata,0,1,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,CHIPPING SPARROW,Spizella passerina,1,1,3,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,FOX SPARROW,Passerella iliaca,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,PINE SISKIN,Carduelis pinus,3,3,2,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,RED-BREASTED NUTHATCH,Sitta canadensis,0,1,0,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2019,7,12,7.5,Broken,1.2,RED CROSSBILL,Loxia curvirostra,2,0,0,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2020,7,11,10.7,Clear,1.4,PINE SISKIN,Carduelis pinus,1,0,0,Calling,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2020,7,11,10.7,Clear,1.4,DARK-EYED JUNCO,Junco hyemalis,1,0,0,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2020,7,11,10.7,Clear,1.4,VARIED THRUSH,Ixoreus naevius,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2020,7,11,10.7,Clear,1.4,Pacific Wren,Troglodytes pacificus,1,1,1,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,14,2094,2020,7,11,10.7,Clear,1.4,HERMIT THRUSH,Catharus guttatus,1,2,2,Singing,450251,5676081
+Alpine,GNP,Fidelity Subalpine,16,2137,2014,7,10,10.2,clear,5.5,AMERICAN PIPIT,Anthus spinoletta,0,1,1,Singing,450143,5677392
+Alpine,GNP,Fidelity Subalpine,16,2137,2014,7,10,10.2,clear,5.5,DARK-EYED JUNCO,Junco hyemalis,0,0,1,Singing,450143,5677392
+Alpine,GNP,Fidelity Subalpine,16,2137,2014,7,10,10.2,clear,5.5,GRAY JAY,Perisoreus canadensis,1,1,0,Calling,450143,5677392
+Alpine,GNP,Mountain Creek,10,2348,2014,7,8,22.6,clear,0,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,1,1,1,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2014,7,8,22.6,clear,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,0,Singing,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2014,7,8,22.6,clear,0,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2016,6,29,12.8,Clear,5.6,BOREAL CHICKADEE,Parus hudsonicus,1,0,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2016,6,29,12.8,Clear,5.6,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,1,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2016,6,29,12.8,Clear,5.6,HERMIT THRUSH,Catharus guttatus,0,0,1,Singing,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2016,6,29,12.8,Clear,5.6,PIKA,Ochotona princeps,1,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2016,6,29,12.8,Clear,5.6,PINE SISKIN,Carduelis pinus,0,1,1,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2018,7,13,13.1,clear,3.5,RED CROSSBILL,Loxia curvirostra,0,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2018,7,13,13.1,clear,3.5,YELLOW-RUMPED WARBLER,Dendroica coronata,1,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2018,7,13,13.1,clear,3.5,PIKA,Ochotona princeps,0,0,1,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2018,7,13,13.1,clear,3.5,AMERICAN PIPIT,Anthus spinoletta,0,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2019,7,9,10.3,Broken,2,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2019,7,9,10.3,Broken,2,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,1,0,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2019,7,9,10.3,Broken,2,PINE SISKIN,Carduelis pinus,2,2,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2019,7,9,10.3,Broken,2,AMERICAN PIPIT,Anthus spinoletta,2,0,1,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2020,7,14,5.5,Scattered,6,PINE SISKIN,Carduelis pinus,1,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,10,2348,2020,7,14,5.5,Scattered,6,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,0,Calling,462978,5693673
+Alpine,GNP,Mountain Creek,11,2403,2014,7,8,17,clear,0,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2016,6,29,12.3,Clear,2.8,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2018,7,13,13,clear,2,PIKA,Ochotona princeps,0,0,2,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2018,7,13,13,clear,2,PINE SISKIN,Carduelis pinus,2,0,0,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2018,7,13,13,clear,2,GROUND SQUIRREL,,0,1,0,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2018,7,13,13,clear,2,AMERICAN PIPIT,Anthus spinoletta,0,0,1,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2019,7,9,10.9,Broken,0,CHIPPING SPARROW,Spizella passerina,1,0,1,Singing,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2019,7,9,10.9,Broken,0,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2019,7,9,10.9,Broken,0,HERMIT THRUSH,Catharus guttatus,1,1,1,Singing,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2019,7,9,10.9,Broken,0,PINE SISKIN,Carduelis pinus,2,1,1,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2019,7,9,10.9,Broken,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,0,Singing,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2019,7,9,10.9,Broken,0,AMERICAN PIPIT,Anthus spinoletta,0,1,0,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2020,7,14,5.5,Scattered,1,CLARK'S NUTCRACKER,Nucifraga columbiana,1,0,2,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,11,2403,2020,7,14,5.5,Scattered,1,RED CROSSBILL,Loxia curvirostra,0,0,1,Calling,462968,5693371
+Alpine,GNP,Mountain Creek,12,2415,2014,7,8,14.5,clear,0,AMERICAN PIPIT,Anthus spinoletta,0,1,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2014,7,8,14.5,clear,0,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,1,2,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2014,7,8,14.5,clear,0,PIKA,Ochotona princeps,0,1,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2016,6,29,13,Clear,2,PINE SISKIN,Carduelis pinus,0,1,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2018,7,13,11.3,clear,2,PINE SISKIN,Carduelis pinus,0,0,1,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2018,7,13,11.3,clear,2,HERMIT THRUSH,Catharus guttatus,1,0,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2018,7,13,11.3,clear,2,PIKA,Ochotona princeps,2,0,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2019,7,9,10.1,Broken,3,PIKA,Ochotona princeps,1,0,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2019,7,9,10.1,Broken,3,PINE SISKIN,Carduelis pinus,1,2,2,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2020,7,14,3.2,Scattered,4,PINE SISKIN,Carduelis pinus,1,0,0,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2020,7,14,3.2,Scattered,4,RED CROSSBILL,Loxia curvirostra,0,0,1,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,12,2415,2020,7,14,3.2,Scattered,4,CLARK'S NUTCRACKER,Nucifraga columbiana,3,3,3,Calling,463076,5693091
+Alpine,GNP,Mountain Creek,13,2484,2014,7,8,9.9,clear,6.6,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,1,0,0,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2014,7,8,9.9,clear,6.6,PINE SISKIN,Carduelis pinus,0,0,1,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2016,6,29,11.5,Clear,5.7,unknown,,0,0,0,Other,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2018,7,13,12,clear,1.4,AMERICAN PIPIT,Anthus spinoletta,1,0,1,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2018,7,13,12,clear,1.4,CHIPPING SPARROW,Spizella passerina,0,1,0,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2018,7,13,12,clear,1.4,PIKA,Ochotona princeps,1,0,1,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2019,7,9,8.8,Broken,5,PINE SISKIN,Carduelis pinus,1,1,1,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2020,7,14,3.3,Scattered,2.5,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,1,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,13,2484,2020,7,14,3.3,Scattered,2.5,PINE SISKIN,Carduelis pinus,1,1,0,Calling,463053,5692795
+Alpine,GNP,Mountain Creek,14,2533,2014,7,8,9.6,clear,6.9,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,1,1,2,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2014,7,8,9.6,clear,6.9,PINE SISKIN,Carduelis pinus,1,0,0,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2016,6,29,11.3,Clear,1.7,PIKA,Ochotona princeps,0,1,0,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2016,6,29,11.3,Clear,1.7,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2018,7,13,9.4,clear,9,HERMIT THRUSH,Catharus guttatus,0,0,1,Singing,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2018,7,13,9.4,clear,9,PINE SISKIN,Carduelis pinus,0,1,0,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2018,7,13,9.4,clear,9,YELLOW-RUMPED WARBLER,Dendroica coronata,1,0,0,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2019,7,9,10,Broken,2,PIKA,Ochotona princeps,0,0,1,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2019,7,9,10,Broken,2,PINE SISKIN,Carduelis pinus,2,1,2,Calling,463089,5692499
+Alpine,GNP,Mountain Creek,14,2533,2020,7,14,0.5,Scattered,10,SECOND UNKNOWN,,0,0,0,,463089,5692499
+Alpine,GNP,Mountain Creek,9,2411,2014,7,8,14.4,clear,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,0,Singing,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2014,7,8,14.4,clear,0,NORTHERN FLICKER,Colaptes auratus,0,0,1,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2014,7,8,14.4,clear,0,GRAY-CROWNED ROSY-FINCH,LEUCOSTICTE TEPHROCOTIS,0,1,1,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2014,7,8,14.4,clear,0,CLARK'S NUTCRACKER,Nucifraga columbiana,1,0,1,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2014,7,8,14.4,clear,0,FOX SPARROW,Passerella iliaca,1,1,0,Singing,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2016,6,29,13.2,Clear,2.1,CLARK'S NUTCRACKER,Nucifraga columbiana,1,1,1,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2018,7,13,16,clear,1.2,CLARK'S NUTCRACKER,Nucifraga columbiana,1,0,0,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2019,7,9,9.8,Broken,4,AMERICAN PIPIT,Anthus spinoletta,1,1,1,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2020,7,14,6.8,Scattered,0,RED CROSSBILL,Loxia curvirostra,0,0,1,Calling,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2020,7,14,6.8,Scattered,0,TOWNSEND'S SOLITAIRE,Myadestes townsendi,1,1,1,Singing,462970,5693974
+Alpine,GNP,Mountain Creek,9,2411,2020,7,14,6.8,Scattered,0,CLARK'S NUTCRACKER,Nucifraga columbiana,0,1,0,Calling,462970,5693974

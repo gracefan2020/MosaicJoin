@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""
+Parallel Sketch Building Script
+Generates and executes commands for building sketches in parallel chunks.
+"""
+
+import os
+import subprocess
+from pathlib import Path
+
+def discover_embedding_tables(embeddings_dir: Path):
+    """Discover all tables that have embeddings."""
+    table_dirs = [d for d in embeddings_dir.iterdir() if d.is_dir()]
+    return sorted([d.name for d in table_dirs])
+
+def split_into_chunks(items, num_chunks):
+    """Split a list of items into roughly equal chunks."""
+    chunk_size = len(items) // num_chunks
+    remainder = len(items) % num_chunks
+    
+    chunks = []
+    start_idx = 0
+    
+    for i in range(num_chunks):
+        current_chunk_size = chunk_size + (1 if i < remainder else 0)
+        end_idx = start_idx + current_chunk_size
+        chunks.append(items[start_idx:end_idx])
+        start_idx = end_idx
+    
+    return chunks
+
+def main():
+    # Configuration
+    datalake_dir = "datasets/freyja-semantic-join/datalake"
+    embeddings_dir = "offline_data/embeddings"
+    output_dir = "offline_data"
+    num_chunks = 4
+    device = "auto"
+    sketch_size = 1024
+    similarity_threshold = 0.7
+    
+    # Discover tables with embeddings
+    tables = discover_embedding_tables(Path(embeddings_dir))
+    print(f"Found {len(tables)} tables with embeddings")
+    
+    # Split into chunks
+    chunks = split_into_chunks(tables, num_chunks)
+    
+    # Generate and execute commands
+    commands = []
+    for i, chunk_tables in enumerate(chunks, 1):
+        tables_with_ext = [f"{table}.csv" for table in chunk_tables]
+        
+        cmd = f"""python run_offline_processing.py "{datalake_dir}" \\
+    --output-dir "{output_dir}_chunk_{i}" \\
+    --device "{device}" \\
+    --tables {' '.join(f'"{table}"' for table in tables_with_ext)} \\
+    --sketch-size {sketch_size} \\
+    --similarity-threshold {similarity_threshold} \\
+    --sketches-only \\
+    --embeddings-dir "{embeddings_dir}" """
+        
+        commands.append(cmd)
+        print(f"\n# Chunk {i} ({len(chunk_tables)} tables)")
+        print(cmd)
+    
+    # Execute commands in parallel
+    print(f"\nExecuting {len(commands)} chunks in parallel...")
+    
+    for i, cmd in enumerate(commands, 1):
+        print(cmd)
+        slurm_cmd = 'sbatch -c 1 -G 1 -J sketch-chunk-%i --tasks-per-node=1 --output=sketch_chunk_%i.log --wrap="%s"' % (i, i, cmd.replace('"', r'\"'))
+        os.system(slurm_cmd)
+
+if __name__ == "__main__":
+    main()
