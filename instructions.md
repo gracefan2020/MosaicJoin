@@ -31,7 +31,7 @@ python run_query_processing.py datasets/freyja-semantic-join/datalake offline_da
 
 ### Evaluate Results (Direct)
 ```bash
-python evaluate_semantic_join.py query_results/all_query_results.csv join/Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results
+python evaluate_semantic_join.py query_results/all_query_results.csv Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results
 ```
 
 ## Key Hyperparameters

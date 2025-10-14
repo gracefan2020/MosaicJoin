@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Configuration variables
 : "${GROUND_TRUTH:=datasets/freyja-semantic-join/freyja_ground_truth.csv}"
-: "${DEEPJOIN_RESULTS:=join/Deepjoin/output/deepjoin_results_T0.7_exact.csv}"
+: "${DEEPJOIN_RESULTS:=Deepjoin/output/deepjoin_results_T0.7_exact.csv}"
 : "${SEMANTIC_SKETCHES_DIR:=freyja-semantic-join-results-k1024}"
 : "${ANALYSES_DIR:=analyses-disagreements-index-k1024}"
 

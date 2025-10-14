@@ -65,7 +65,7 @@ python run_query_processing.py datasets/freyja-semantic-join/datalake offline_da
 ### 4. Evaluate Results
 
 ```bash
-python evaluate_semantic_join.py query_results/all_query_results.csv join/Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results
+python evaluate_semantic_join.py query_results/all_query_results.csv Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results
 ```
 
 ## Hyperparameters
@@ -197,7 +197,7 @@ python run_sketch_parallel.py
 python run_sketch_parallel.py
 
 # Compare results
-python evaluate_semantic_join.py query_results/all_query_results.csv join/Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results_k512
+python evaluate_semantic_join.py query_results/all_query_results.csv Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results_k512
 ```
 
 ### Experiment 2: Different Similarity Thresholds

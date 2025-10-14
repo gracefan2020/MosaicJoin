@@ -10,7 +10,7 @@ from pathlib import Path
 def main():
     # Configuration
     semantic_results = "query_results/all_query_results.csv"
-    deepjoin_results = "join/Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
+    deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
     ground_truth = "datasets/freyja-semantic-join/freyja_ground_truth.csv"
     output_dir = "evaluation_results"
     

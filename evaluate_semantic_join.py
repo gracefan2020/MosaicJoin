@@ -7,7 +7,7 @@ and ground truth, providing comprehensive comparison metrics.
 Usage:
     python evaluate_semantic_join.py \
         --semantic-results query_results/all_query_results.csv \
-        --deepjoin-results join/Deepjoin/output/deepjoin_results.csv \
+        --deepjoin-results Deepjoin/output/deepjoin_results.csv \
         --ground-truth datasets/freyja-semantic-join/freyja_ground_truth.csv \
         --output-dir evaluation_results
 """

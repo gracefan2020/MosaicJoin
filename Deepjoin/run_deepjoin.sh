@@ -31,9 +31,9 @@ except LookupError:
     nltk.download('punkt', quiet=True)
 PY
 
-python /Users/gracefan/Documents/semantic-join/join/Deepjoin/run_deepjoin.py \
+python /Users/gracefan/Documents/semantic-join/Deepjoin/run_deepjoin.py \
   --dataset_root /Users/gracefan/Documents/LakeBench/datasets/freyja-semantic-join \
-  --out_dir /Users/gracefan/Documents/semantic-join/join/Deepjoin/output \
+  --out_dir /Users/gracefan/Documents/semantic-join/Deepjoin/output \
   --model_dir sentence-transformers/all-mpnet-base-v2 \
   --lake_subdir datalake \
   --queries_subdir datalake \
