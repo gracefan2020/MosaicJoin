@@ -5,6 +5,7 @@ Generates and executes commands for building sketches in parallel chunks.
 """
 
 import os
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -29,15 +30,29 @@ def split_into_chunks(items, num_chunks):
     
     return chunks
 
+def cleanup_sketch_data(output_dir: str, sketch_size: int):
+    """Clean up previous sketch data."""
+    print("🧹 Cleaning up previous sketch data...")
+    
+    # Clean sketch directories
+    sketches_dir = Path(output_dir) / f"sketches_k{sketch_size}"
+    if sketches_dir.exists():
+        print(f"Removing previous sketches: {sketches_dir}")
+        shutil.rmtree(sketches_dir)
+        print("✅ Cleaned previous sketches")
+    
+    print("🎉 Sketch cleanup completed!\n")
+
 def main():
     # Configuration
-    datalake_dir = "datasets/freyja-semantic-join/datalake"
     embeddings_dir = "offline_data/embeddings"
     output_dir = "offline_data"
-    num_chunks = 4
-    device = "auto"
+    num_chunks = 2  # Changed from 32 to 2 for testing
     sketch_size = 1024
     similarity_threshold = 0.7
+    
+    # Clean up previous sketch data
+    cleanup_sketch_data(output_dir, sketch_size)
     
     # Discover tables with embeddings
     tables = discover_embedding_tables(Path(embeddings_dir))
@@ -49,28 +64,25 @@ def main():
     # Generate and execute commands
     commands = []
     for i, chunk_tables in enumerate(chunks, 1):
-        tables_with_ext = [f"{table}.csv" for table in chunk_tables]
-        
-        cmd = f"""python run_offline_processing.py "{datalake_dir}" \\
-    --output-dir "{output_dir}_chunk_{i}" \\
-    --device "{device}" \\
-    --tables {' '.join(f'"{table}"' for table in tables_with_ext)} \\
+        # Don't add .csv extension since table names are already directory names
+        cmd = f"""python offline_sketch.py "{embeddings_dir}" \\
+    --output-dir "{output_dir}/sketches_k{sketch_size}" \\
     --sketch-size {sketch_size} \\
     --similarity-threshold {similarity_threshold} \\
-    --sketches-only \\
-    --embeddings-dir "{embeddings_dir}" """
+    --tables {' '.join(f'"{table}"' for table in chunk_tables)}"""
         
         commands.append(cmd)
         print(f"\n# Chunk {i} ({len(chunk_tables)} tables)")
-        print(cmd)
+        if i > 1:
+            break
     
     # Execute commands in parallel
     print(f"\nExecuting {len(commands)} chunks in parallel...")
     
     for i, cmd in enumerate(commands, 1):
-        print(cmd)
-        slurm_cmd = 'sbatch -c 1 -G 1 -J sketch-chunk-%i --tasks-per-node=1 --output=sketch_chunk_%i.log --wrap="%s"' % (i, i, cmd.replace('"', r'\"'))
-        os.system(slurm_cmd)
+        # slurm_cmd = 'sbatch -c 1 -G 1 -J sketch-chunk-%i --tasks-per-node=1 --output=sketch_chunk_%i.log --wrap="%s"' % (i, i, cmd.replace('"', r'\"'))
+        # os.system(slurm_cmd)
+        os.system(cmd)
 
 if __name__ == "__main__":
     main()

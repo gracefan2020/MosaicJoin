@@ -361,24 +361,24 @@ def main():
     
     # Overall metrics table
     print(f"\nOVERALL METRICS:")
-    print(f"{'Method':<12} {'Precision':<12} {'Recall':<12} {'F1':<12}")
-    print(f"{'-'*12} {'-'*12} {'-'*12} {'-'*12}")
-    print(f"{'SemSketch':<12} {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
-    print(f"{'DeepJoin':<12} {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
+    print(f"{'Method':<12} \t\t\t {'Precision':<12} {'Recall':<12} {'F1':<12}")
+    print(f"{'-'*12} \t\t\t {'-'*12} {'-'*12} {'-'*12}")
+    print(f"{'SemSketch':<12} \t\t\t {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
+    print(f"{'DeepJoin':<12} \t\t\t {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
     
     # Calculate percentage improvements for overall metrics
     precision_improvement = ((semantic_metrics['Total_Precision']['mean'] - deepjoin_metrics['Total_Precision']['mean']) / deepjoin_metrics['Total_Precision']['mean']) * 100
     recall_improvement = ((semantic_metrics['Total_Recall']['mean'] - deepjoin_metrics['Total_Recall']['mean']) / deepjoin_metrics['Total_Recall']['mean']) * 100
     f1_improvement = ((semantic_metrics['Total_F1']['mean'] - deepjoin_metrics['Total_F1']['mean']) / deepjoin_metrics['Total_F1']['mean']) * 100
     
-    print(f"{'% vs DeepJoin':<12} {precision_improvement:<+12.1f}% {recall_improvement:<+12.1f}% {f1_improvement:<+12.1f}%")
+    print(f"{'Improvement over DeepJoin':<12}{precision_improvement:+12.1f}%{recall_improvement:+12.1f}%{f1_improvement:+12.1f}%")
     
     # @k metrics table
     print(f"\nMETRICS BY TOP-K:")
     # Create column headers
     headers = ['Method']
     for k in args.k_values:
-        headers.extend([f'P@{k}', f'R@{k}', f'F1@{k}'])
+        headers.extend([f'\tP@{k}', f'R@{k}', f'F1@{k}'])
     
     # Print header row
     header_line = ""
@@ -393,7 +393,7 @@ def main():
     print(separator_line)
     
     # Print SemSketch row
-    semsketch_line = "SemSketch   "
+    semsketch_line = "SemSketch   \t"
     for k in args.k_values:
         semsketch_line += f"{semantic_metrics[f'P@{k}']['mean']:<12.3f}"
         semsketch_line += f"{semantic_metrics[f'R@{k}']['mean']:<12.3f}"
@@ -401,7 +401,7 @@ def main():
     print(semsketch_line)
     
     # Print DeepJoin row
-    deepjoin_line = "DeepJoin    "
+    deepjoin_line = "DeepJoin    \t"
     for k in args.k_values:
         deepjoin_line += f"{deepjoin_metrics[f'P@{k}']['mean']:<12.3f}"
         deepjoin_line += f"{deepjoin_metrics[f'R@{k}']['mean']:<12.3f}"
@@ -409,16 +409,16 @@ def main():
     print(deepjoin_line)
     
     # Print percentage improvement row
-    improvement_line = "% vs DeepJoin"
+    improvement_line = "Improvement over DeepJoin"
     for k in args.k_values:
         # Calculate percentage improvements
         p_improvement = ((semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
         r_improvement = ((semantic_metrics[f'R@{k}']['mean'] - deepjoin_metrics[f'R@{k}']['mean']) / deepjoin_metrics[f'R@{k}']['mean']) * 100
         f1_improvement = ((semantic_metrics[f'F1@{k}']['mean'] - deepjoin_metrics[f'F1@{k}']['mean']) / deepjoin_metrics[f'F1@{k}']['mean']) * 100
         
-        improvement_line += f"{p_improvement:<+12.1f}%"
-        improvement_line += f"{r_improvement:<+12.1f}%"
-        improvement_line += f"{f1_improvement:<+12.1f}%"
+        improvement_line += f"{p_improvement:+12.1f}%"
+        improvement_line += f"{r_improvement:+12.1f}%"
+        improvement_line += f"{f1_improvement:+12.1f}%"
     print(improvement_line)
     
     # Disagreement analysis table

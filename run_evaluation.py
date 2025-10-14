@@ -4,8 +4,7 @@ Evaluation Runner Script
 Simple script to run evaluation with common configurations.
 """
 
-import subprocess
-import sys
+import os
 from pathlib import Path
 
 def main():
@@ -32,7 +31,10 @@ def main():
         return 1
     
     # Build command
-    cmd = f"""python evaluate_semantic_join.py "{semantic_results}" "{deepjoin_results}" "{ground_truth}" \\
+    cmd = f"""python evaluate_semantic_join.py \\
+    --semantic-results "{semantic_results}" \\
+    --deepjoin-results "{deepjoin_results}" \\
+    --ground-truth "{ground_truth}" \\
     --output-dir "{output_dir}" """
     
     print("Running evaluation...")
@@ -40,16 +42,7 @@ def main():
     print()
     
     # Execute command
-    result = subprocess.run(cmd, shell=True)
-    
-    if result.returncode == 0:
-        print(f"\nEvaluation completed successfully!")
-        print(f"Results saved to: {output_dir}")
-    else:
-        print(f"\nEvaluation failed with return code {result.returncode}")
-        return 1
-    
-    return 0
+    os.system(cmd)
 
 if __name__ == "__main__":
-    exit(main())
+    main()

@@ -4,9 +4,20 @@ Query Processing Runner Script
 Simple script to run query processing with common configurations.
 """
 
-import subprocess
-import sys
+import os
+import shutil
 from pathlib import Path
+
+def cleanup_query_data(output_dir: str):
+    """Clean up previous query data."""
+    print("🧹 Cleaning up previous query data...")
+    
+    # Clean query results directory
+    query_results_dir = Path(output_dir)
+    if query_results_dir.exists():
+        print(f"Removing previous query results: {query_results_dir}")
+        shutil.rmtree(query_results_dir)
+        print("✅ Cleaned previous query results")
 
 def main():
     # Configuration
@@ -14,6 +25,9 @@ def main():
     sketches_dir = "offline_data/sketches_k1024"
     query_file = "datasets/freyja-semantic-join/freyja_query_columns.csv"
     output_dir = "query_results"
+    
+    # Clean up previous query data
+    cleanup_query_data(output_dir)
     
     # Query parameters
     top_k_return = 50
@@ -56,18 +70,7 @@ def main():
     print()
     
     # Execute command
-    result = subprocess.run(cmd, shell=True)
-    
-    if result.returncode == 0:
-        print(f"\nQuery processing completed successfully!")
-        print(f"Results saved to: {output_dir}")
-        print(f"\nTo evaluate results, run:")
-        print(f"python evaluate_semantic_join.py {output_dir}/all_query_results.csv join/Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv datasets/freyja-semantic-join/freyja_ground_truth.csv --output-dir evaluation_results")
-    else:
-        print(f"\nQuery processing failed with return code {result.returncode}")
-        return 1
-    
-    return 0
+    os.system(cmd)
 
 if __name__ == "__main__":
-    exit(main())
+    main()

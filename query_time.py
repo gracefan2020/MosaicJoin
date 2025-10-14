@@ -135,12 +135,12 @@ class SemanticJoinQueryProcessor:
             table_name = table_dir.name
             
             # Find all sketch files in this table directory
-            sketch_files = list(table_dir.glob("*.npz"))
+            sketch_files = list(table_dir.glob("*.pkl"))
             
             for sketch_file in sketch_files:
                 try:
                     # Extract column name and index from filename
-                    # Format: column_name_column_index.npz
+                    # Format: column_name_column_index.pkl
                     filename = sketch_file.stem
                     if '_' in filename:
                         # Find the last underscore to split column name and index

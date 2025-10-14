@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import pickle
 import time
 from dataclasses import dataclass, asdict
 from pathlib import Path
@@ -40,8 +41,6 @@ class SketchConfig:
     
     # Processing options
     skip_empty_columns: bool = True
-    skip_single_value_columns: bool = True
-    min_values_per_column: int = 2
     
     # Output options
     output_dir: str = "offline_sketches"
@@ -189,12 +188,12 @@ class OfflineSketchBuilder:
             table_name = table_dir.name
             
             # Find all embedding files in this table directory
-            embedding_files = list(table_dir.glob("*.npz"))
+            embedding_files = list(table_dir.glob("*.pkl"))
             
             for embedding_file in embedding_files:
                 try:
                     # Extract column name and index from filename
-                    # Format: column_name_column_index.npz
+                    # Format: column_name_column_index.pkl
                     filename = embedding_file.stem
                     if '_' in filename:
                         # Find the last underscore to split column name and index
@@ -231,7 +230,7 @@ class OfflineSketchBuilder:
                 return None
             
             # Check if should skip
-            if self._should_skip_column(embeddings):
+            if self._should_skip_column(embeddings, column_name):
                 self.stats.skipped_columns += 1
                 return None
             
@@ -263,29 +262,25 @@ class OfflineSketchBuilder:
     def _load_column_embeddings(self, embeddings_dir: Path, table_name: str, column_name: str, column_index: int) -> Optional[np.ndarray]:
         """Load embeddings for a specific column."""
         try:
-            embedding_file = embeddings_dir / table_name / f"{column_name}_{column_index}.npz"
+            embedding_file = embeddings_dir / table_name / f"{column_name}_{column_index}.pkl"
             if not embedding_file.exists():
                 return None
             
-            data = np.load(embedding_file)
+            with open(embedding_file, 'rb') as f:
+                data = pickle.load(f)
             return data["embeddings"]
             
         except Exception as e:
             self.logger.warning(f"Could not load embeddings from {table_name}.{column_name}: {e}")
             return None
     
-    def _should_skip_column(self, embeddings: np.ndarray) -> bool:
+    def _should_skip_column(self, embeddings: np.ndarray, column_name: str) -> bool:
         """Determine if a column should be skipped."""
         if len(embeddings) == 0:
             return True
         
         if self.config.skip_empty_columns and len(embeddings) == 0:
-            return True
-        
-        if self.config.skip_single_value_columns and len(embeddings) == 1:
-            return True
-        
-        if len(embeddings) < self.config.min_values_per_column:
+            self.logger.warning(f"Skipping column {column_name} because it has no values ({embeddings})")
             return True
         
         return False
@@ -350,19 +345,19 @@ class OfflineSketchBuilder:
             table_dir = self.output_dir / table_name
             table_dir.mkdir(exist_ok=True)
             
-            # Save sketch as NPZ file
-            sketch_file = table_dir / f"{column_name}_{column_index}.npz"
-            np.savez_compressed(
-                sketch_file,
-                representative_vectors=sketch.representative_vectors,
-                representative_ids=np.array(sketch.representative_ids),
-                distances_to_origin=sketch.distances_to_origin,
-                embedding_dim=sketch.embedding_dim,
-                k=sketch.k,
-                centroid=sketch.centroid,
-                representative_names=np.array(sketch.representative_names, dtype=object) 
-                    if sketch.representative_names is not None else np.array([], dtype=object)
-            )
+            # Save sketch as pickle file
+            sketch_file = table_dir / f"{column_name}_{column_index}.pkl"
+            sketch_data = {
+                'representative_vectors': sketch.representative_vectors,
+                'representative_ids': sketch.representative_ids,
+                'distances_to_origin': sketch.distances_to_origin,
+                'embedding_dim': sketch.embedding_dim,
+                'k': sketch.k,
+                'centroid': sketch.centroid,
+                'representative_names': sketch.representative_names
+            }
+            with open(sketch_file, 'wb') as f:
+                pickle.dump(sketch_data, f)
             
             # Save metadata as JSON
             if self.config.save_metadata:
@@ -380,20 +375,11 @@ class OfflineSketchBuilder:
         with open(stats_file, 'w') as f:
             json.dump(asdict(self.stats), f, indent=2)
         
-        # Print summary
-        self.logger.info("=== BUILD STATISTICS ===")
-        self.logger.info(f"Total tables: {self.stats.total_tables}")
-        self.logger.info(f"Total columns: {self.stats.total_columns}")
-        self.logger.info(f"Processed columns: {self.stats.processed_columns}")
-        self.logger.info(f"Skipped columns: {self.stats.skipped_columns}")
-        self.logger.info(f"Failed columns: {self.stats.failed_columns}")
-        self.logger.info(f"Total processing time: {self.stats.total_processing_time:.2f}s")
-        self.logger.info(f"Total embeddings processed: {self.stats.total_embeddings_processed}")
-        self.logger.info(f"Total sketches generated: {self.stats.total_sketches_generated}")
-        
         if self.stats.processed_columns > 0:
             avg_time_per_column = self.stats.total_processing_time / self.stats.processed_columns
-            self.logger.info(f"Average time per column: {avg_time_per_column:.4f}s")
+            avg_size_per_column = self.stats.total_embeddings_processed / self.stats.processed_columns
+            self.logger.info(f"Total sketch build time: {self.stats.total_processing_time:.4f}s, Average sketch build time per column: {avg_time_per_column:.4f}s")
+            self.logger.info(f"Created {self.stats.processed_columns} embeddings with an average of {int(avg_size_per_column)} values per column")
 
 # =============================================================================
 # Utility Functions
@@ -403,20 +389,21 @@ def load_offline_sketch(table_name: str, column_name: str, column_index: int,
                        sketches_dir: Path) -> Optional[SemanticSketch]:
     """Load a pre-built sketch from disk."""
     try:
-        sketch_file = sketches_dir / table_name / f"{column_name}_{column_index}.npz"
+        sketch_file = sketches_dir / table_name / f"{column_name}_{column_index}.pkl"
         if not sketch_file.exists():
             return None
         
-        data = np.load(sketch_file, allow_pickle=True)
+        with open(sketch_file, 'rb') as f:
+            data = pickle.load(f)
+        
         sketch = SemanticSketch(
             representative_vectors=data["representative_vectors"],
-            representative_ids=data["representative_ids"].tolist(),
+            representative_ids=data["representative_ids"],
             distances_to_origin=data["distances_to_origin"],
-            embedding_dim=int(data["embedding_dim"]),
-            k=int(data["k"]),
+            embedding_dim=data["embedding_dim"],
+            k=data["k"],
             centroid=data["centroid"],
-            representative_names=data["representative_names"].tolist() 
-                if "representative_names" in data else None,
+            representative_names=data["representative_names"]
         )
         return sketch
         

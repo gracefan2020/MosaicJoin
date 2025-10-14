@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import pickle
 import time
 from dataclasses import dataclass, asdict
 from pathlib import Path
@@ -37,8 +38,6 @@ class EmbeddingConfig:
     """Configuration for offline embedding building."""
     # Processing options
     skip_empty_columns: bool = True
-    skip_single_value_columns: bool = True
-    min_values_per_column: int = 2
 
     # Output options
     output_dir: str = "offline_embeddings"
@@ -213,7 +212,6 @@ class OfflineEmbeddingBuilder:
 
     def build_embeddings_for_datalake(self, datalake_dir: Path, tables_to_process: Optional[List[str]] = None) -> EmbeddingStats:
         """Build embeddings for all columns in a datalake."""
-        self.logger.info("Starting offline embedding building")
 
         # Initialize embedder
         self.embedder = create_mpnet_embedder(self.config.device)
@@ -221,17 +219,8 @@ class OfflineEmbeddingBuilder:
         # Discover all columns
         all_columns = self._discover_columns(datalake_dir, tables_to_process)
 
-        # Filter out already processed columns
-        remaining_columns = [
-            col for col in all_columns
-            if (col[0], col[1], col[2]) not in self.processed_columns
-        ]
-
-        self.logger.info(f"Processing {len(remaining_columns)} remaining columns "
-                        f"(already processed: {len(self.processed_columns)})")
-
         # Process columns with tqdm progress bar
-        for table_name, column_name, column_index in tqdm(remaining_columns, desc="Building embeddings"):
+        for table_name, column_name, column_index in tqdm(all_columns, desc="Building embeddings"):
             # Check if already processed
             column_key = (table_name, column_name, column_index)
             if column_key in self.processed_columns:
@@ -260,7 +249,6 @@ class OfflineEmbeddingBuilder:
         # Save final statistics
         self._save_final_stats()
 
-        self.logger.info("Offline embedding building completed")
         return self.stats
 
     def _discover_columns(self, datalake_dir: Path, tables_to_process: Optional[List[str]] = None) -> List[Tuple[str, str, int]]:
@@ -272,8 +260,18 @@ class OfflineEmbeddingBuilder:
         csv_files = list(datalake_dir.glob("*.csv"))
         if tables_to_process:
             # Filter to only specified tables
-            csv_files = [f for f in csv_files if f.stem in tables_to_process]
-            self.logger.info(f"Filtering to specified tables: {tables_to_process}")
+            # Handle both .csv and non-.csv table names
+            table_stems = set()
+            for table in tables_to_process:
+                if table.endswith('.csv'):
+                    table_stems.add(table[:-4])  # Remove .csv extension
+                else:
+                    table_stems.add(table)
+            
+            filtered_csv_files = [f for f in csv_files if f.stem in table_stems]
+            filtered_table_names = [f.stem for f in filtered_csv_files]
+            self.logger.info(f"Filtering to process tables: {sorted(filtered_table_names)}")
+            csv_files = filtered_csv_files
 
         self.logger.info(f"Found {len(csv_files)} CSV files")
 
@@ -309,7 +307,7 @@ class OfflineEmbeddingBuilder:
                 return None
 
             # Check if should skip
-            if self._should_skip_column(values):
+            if self._should_skip_column(values, column_name):
                 self.stats.skipped_columns += 1
                 return None
 
@@ -370,18 +368,14 @@ class OfflineEmbeddingBuilder:
         s = str(value) if value is not None else ""
         return s.strip().lower()
 
-    def _should_skip_column(self, values: List[str]) -> bool:
+    def _should_skip_column(self, values: List[str], column_name: str) -> bool:
         """Determine if a column should be skipped."""
         if not values:
+            self.logger.warning(f"Skipping column {column_name} because it has no values ({values})")
             return True
 
         if self.config.skip_empty_columns and len(values) == 0:
-            return True
-
-        if self.config.skip_single_value_columns and len(set(values)) == 1:
-            return True
-
-        if len(values) < self.config.min_values_per_column:
+            self.logger.warning(f"Skipping column {column_name} because it has no values ({values})")
             return True
 
         return False
@@ -433,14 +427,15 @@ class OfflineEmbeddingBuilder:
             table_dir = self.output_dir / table_name
             table_dir.mkdir(exist_ok=True)
 
-            # Save embedding as NPZ file
-            embedding_file = table_dir / f"{column_name}_{column_index}.npz"
-            np.savez_compressed(
-                embedding_file,
-                embeddings=embedding,
-                embedding_dim=embedding.shape[1],
-                num_values=embedding.shape[0]
-            )
+            # Save embedding as pickle file
+            embedding_file = table_dir / f"{column_name}_{column_index}.pkl"
+            embedding_data = {
+                'embeddings': embedding,
+                'embedding_dim': embedding.shape[1],
+                'num_values': embedding.shape[0]
+            }
+            with open(embedding_file, 'wb') as f:
+                pickle.dump(embedding_data, f)
 
             # Save metadata as JSON
             if self.config.save_metadata:
@@ -459,7 +454,9 @@ class OfflineEmbeddingBuilder:
             json.dump(asdict(self.stats), f, indent=2)
         if self.stats.processed_columns > 0:
             avg_time_per_column = self.stats.total_processing_time / self.stats.processed_columns
-            self.logger.info(f"Average time per column: {avg_time_per_column:.4f}s")
+            avg_size_per_column = self.stats.total_values_processed / self.stats.processed_columns
+            self.logger.info(f"Total embedding build time: {self.stats.total_processing_time:.4f}s, Average embedding build time per column: {avg_time_per_column:.4f}s")
+            self.logger.info(f"Created {self.stats.processed_columns} embeddings with an average of {int(avg_size_per_column)} values per column")
 
 # =============================================================================
 # Utility Functions
@@ -476,18 +473,19 @@ def create_mpnet_embedder(device: str = "auto") -> MPNetEmbedder:
                 device = "cuda"
         except Exception:
             device = "cpu"
-    print(f"MPNet device selected: {device}")
+    print(f"Device selected: {device}")
     return MPNetEmbedder(device=device)
 
 def load_column_embedding(table_name: str, column_name: str, column_index: int,
                          embeddings_dir: Path) -> Optional[np.ndarray]:
     """Load a pre-built embedding from disk."""
     try:
-        embedding_file = embeddings_dir / table_name / f"{column_name}_{column_index}.npz"
+        embedding_file = embeddings_dir / table_name / f"{column_name}_{column_index}.pkl"
         if not embedding_file.exists():
             return None
 
-        data = np.load(embedding_file)
+        with open(embedding_file, 'rb') as f:
+            data = pickle.load(f)
         return data["embeddings"]
 
     except Exception as e:
