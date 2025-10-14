@@ -5,14 +5,34 @@ Simple script to run evaluation with common configurations.
 """
 
 import os
+import glob
 from pathlib import Path
+
+def find_latest_query_results():
+    """Find the most recent query results directory."""
+    query_dirs = glob.glob("query_results_k*_t*_top*")
+    if not query_dirs:
+        return "query_results"  # fallback to default
+    # Return the most recent one (assuming they're created in order)
+    return sorted(query_dirs)[-1]
 
 def main():
     # Configuration
-    semantic_results = "query_results/all_query_results.csv"
+    query_results_dir = find_latest_query_results()
+    semantic_results = f"{query_results_dir}/all_query_results.csv"
     deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
     ground_truth = "datasets/freyja-semantic-join/freyja_ground_truth.csv"
-    output_dir = "evaluation_results"
+    
+    # Create matching evaluation directory name
+    if query_results_dir.startswith("query_results_"):
+        config_suffix = query_results_dir.replace("query_results_", "")
+        output_dir = f"evaluation_results_{config_suffix}"
+    else:
+        output_dir = "evaluation_results"
+    
+    print(f"Using query results from: {query_results_dir}")
+    print(f"Evaluation results will be saved to: {output_dir}")
+    print()
     
     # Check if required files exist
     if not Path(semantic_results).exists():

@@ -20,20 +20,22 @@ def cleanup_query_data(output_dir: str):
         print("✅ Cleaned previous query results")
 
 def main():
-    # Configuration
-    datalake_dir = "datasets/freyja-semantic-join/datalake"
-    sketches_dir = "offline_data/sketches_k1024"
-    query_file = "datasets/freyja-semantic-join/freyja_query_columns.csv"
-    output_dir = "query_results"
-    
-    # Clean up previous query data
-    cleanup_query_data(output_dir)
-    
     # Query parameters
     top_k_return = 50
     similarity_threshold = 0.7
     sketch_size = 1024
     device = "auto"
+    
+    # Configuration
+    datalake_dir = "datasets/freyja-semantic-join/datalake"
+    sketches_dir = f"offline_data/sketches_k{sketch_size}"
+    query_file = "datasets/freyja-semantic-join/freyja_query_columns.csv"
+    
+    # Generate configuration-based output directory name
+    output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}"
+    
+    # Clean up previous query data
+    cleanup_query_data(output_dir)
     
     # Optional embeddings directory (for query sketch building)
     embeddings_dir = "offline_data/embeddings"

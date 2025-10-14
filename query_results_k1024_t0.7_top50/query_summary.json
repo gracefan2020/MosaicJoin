@@ -1,0 +1,13 @@
+{
+  "total_queries": 50,
+  "successful_queries": 23,
+  "failed_queries": 27,
+  "total_results": 43,
+  "avg_results_per_query": 1.8695652173913044,
+  "query_config": {
+    "top_k_return": 50,
+    "similarity_threshold": 0.7,
+    "sketch_size": 1024,
+    "device": "auto"
+  }
+}
