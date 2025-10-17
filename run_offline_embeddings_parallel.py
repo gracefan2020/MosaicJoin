@@ -31,37 +31,37 @@ def split_into_chunks(items, num_chunks):
 
 def cleanup_previous_runs(output_dir: str):
     """Clean up all previous run data."""
-    print("🧹 Cleaning up previous runs...")
     
     # Clean main offline data directory
     offline_data_dir = Path(output_dir)
     if offline_data_dir.exists():
         print(f"Removing previous offline data: {offline_data_dir}")
         shutil.rmtree(offline_data_dir)
-        print("✅ Cleaned previous offline data")
     
     # Clean any chunk directories
     chunk_dirs = list(Path(".").glob(f"{output_dir}_chunk_*"))
     for chunk_dir in chunk_dirs:
         print(f"Removing chunk directory: {chunk_dir}")
         shutil.rmtree(chunk_dir)
-        print(f"✅ Cleaned {chunk_dir}")
     
     
-    # Clean log files
-    log_files = list(Path(".").glob("*.log")) + list(Path(".").glob("*_chunk_*.log"))
-    for log_file in log_files:
-        print(f"Removing log file: {log_file}")
-        log_file.unlink()
-        print(f"✅ Cleaned {log_file}")
+    # # Clean log files
+    # log_files = list(Path(".").glob("*.log")) + list(Path(".").glob("*_chunk_*.log"))
+    # for log_file in log_files:
+    #     print(f"Removing log file: {log_file}")
+    #     log_file.unlink()
     
-    print("🎉 Cleanup completed!\n")
+    # Clean bash script files
+    script_files = list(Path(".").glob("embedding_chunk_*.sh"))
+    for script_file in script_files:
+        print(f"Removing script file: {script_file}")
+        script_file.unlink()
 
 def main():
     # Configuration
     datalake_dir = "datasets/freyja-semantic-join/datalake"
     output_dir = "offline_data"
-    num_chunks = 32
+    num_chunks = 4
     device = "auto"
     
     # Clean up all previous runs
@@ -86,16 +86,36 @@ def main():
         
         commands.append(cmd)
         print(f"\n# Chunk {i} ({len(chunk_tables)} tables)")
-        if i > 1:
-            break
+        # if i > 1:
+        #     break
     
     # Execute commands in parallel
     print(f"\nExecuting {len(commands)} chunks in parallel...")
     
     for i, cmd in enumerate(commands, 1):
-        # slurm_cmd = 'sbatch -c 1 -G 1 -J embedding-chunk-%i --tasks-per-node=1 --output=embedding_chunk_%i.log --wrap="%s"' % (i, i, cmd.replace('"', r'\"'))
-        # os.system(slurm_cmd)
-        os.system(cmd)
+        # Create bash script for this chunk
+        script_filename = f"embedding_chunk_{i}.sh"
+        
+        # Write the bash script
+        with open(script_filename, 'w') as f:
+            f.write("#!/bin/bash\n")
+            f.write(f"# Chunk {i} embedding script\n")
+            f.write(f"{cmd}\n")
+        
+        # Make the script executable
+        os.chmod(script_filename, 0o755)
+        
+        # Submit the script to SLURM
+        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output=embedding_chunk_{i}.log {script_filename}'
+        
+        print(f"Created script: {script_filename}")
+        print(f"Running slurm command: {slurm_cmd}")
+            
+        result = os.system(slurm_cmd)
+        if result != 0:
+            print(f"ERROR: SLURM submission failed for chunk {i}")
+        else:
+            print(f"Successfully submitted chunk {i}")
 
 if __name__ == "__main__":
     main()
