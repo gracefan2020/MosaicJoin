@@ -32,22 +32,18 @@ def split_into_chunks(items, num_chunks):
 
 def cleanup_sketch_data(output_dir: str, sketch_size: int):
     """Clean up previous sketch data."""
-    print("🧹 Cleaning up previous sketch data...")
     
     # Clean sketch directories
     sketches_dir = Path(output_dir) / f"sketches_k{sketch_size}"
     if sketches_dir.exists():
         print(f"Removing previous sketches: {sketches_dir}")
         shutil.rmtree(sketches_dir)
-        print("✅ Cleaned previous sketches")
-    
-    print("🎉 Sketch cleanup completed!\n")
 
 def main():
     # Configuration
     embeddings_dir = "offline_data/embeddings"
     output_dir = "offline_data"
-    num_chunks = 2  # Changed from 32 to 2 for testing
+    num_chunks = 4
     sketch_size = 1024
     similarity_threshold = 0.7
     
@@ -64,7 +60,6 @@ def main():
     # Generate and execute commands
     commands = []
     for i, chunk_tables in enumerate(chunks, 1):
-        # Don't add .csv extension since table names are already directory names
         cmd = f"""python offline_sketch.py "{embeddings_dir}" \\
     --output-dir "{output_dir}/sketches_k{sketch_size}" \\
     --sketch-size {sketch_size} \\
@@ -73,16 +68,36 @@ def main():
         
         commands.append(cmd)
         print(f"\n# Chunk {i} ({len(chunk_tables)} tables)")
-        if i > 1:
-            break
+        # if i > 1:
+        #     break
     
     # Execute commands in parallel
     print(f"\nExecuting {len(commands)} chunks in parallel...")
-    
+
     for i, cmd in enumerate(commands, 1):
-        # slurm_cmd = 'sbatch -c 1 -G 1 -J sketch-chunk-%i --tasks-per-node=1 --output=sketch_chunk_%i.log --wrap="%s"' % (i, i, cmd.replace('"', r'\"'))
-        # os.system(slurm_cmd)
-        os.system(cmd)
+        # Create bash script for this chunk
+        script_filename = f"sketch_chunk_{i}.sh"
+        
+        # Write the bash script
+        with open(script_filename, 'w') as f:
+            f.write("#!/bin/bash\n")
+            f.write(f"# Chunk {i} sketch script\n")
+            f.write(f"{cmd}\n")
+        
+        # Make the script executable
+        os.chmod(script_filename, 0o755)
+        
+        # Submit the script to SLURM
+        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output=sketch_chunk_{i}.log {script_filename}'
+        
+        print(f"Created script: {script_filename}")
+        print(f"Running slurm command: {slurm_cmd}")
+            
+        result = os.system(slurm_cmd)
+        if result != 0:
+            print(f"ERROR: SLURM submission failed for chunk {i}")
+        else:
+            print(f"Successfully submitted chunk {i}")
 
 if __name__ == "__main__":
     main()
