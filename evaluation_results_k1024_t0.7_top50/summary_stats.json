@@ -1,11 +1,11 @@
 {
   "total_queries": 50,
-  "semantic_predictions": 41,
+  "semantic_predictions": 1388,
   "deepjoin_predictions": 29859,
   "disagreements": {
-    "semantic_right_deepjoin_wrong": 28,
-    "deepjoin_right_semantic_wrong": 423,
-    "semantic_false_positives": 4,
-    "deepjoin_false_positives": 89
+    "semantic_right_deepjoin_wrong": 274,
+    "deepjoin_right_semantic_wrong": 109,
+    "semantic_false_positives": 256,
+    "deepjoin_false_positives": 144
   }
 }
