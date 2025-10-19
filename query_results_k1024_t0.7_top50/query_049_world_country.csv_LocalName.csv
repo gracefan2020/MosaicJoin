@@ -1,3 +1,8 @@
 candidate_table,candidate_column,similarity_score,semantic_matches,semantic_density
+world_country,LocalName,21.686192468619247,5183,21.686192468619247
+countries_and_continents,name,1.6652719665271967,398,1.6652719665271967
+world_country,Name,1.6150627615062763,386,1.6150627615062763
 AdventureWorks2014_CountryRegion,Name,1.5924369747899159,379,1.5924369747899159
+countries_data,CountryName,1.3389121338912133,320,1.3389121338912133
+countries_metadatacountries,CountryName,0.9037656903765691,216,0.9037656903765691
 AdventureWorks2014_culture,Name,0.75,6,0.75

@@ -35,7 +35,7 @@ def main():
     output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}"
     
     # Clean up previous query data
-    cleanup_query_data(output_dir)
+    # cleanup_query_data(output_dir)
     
     # Optional embeddings directory (for query sketch building)
     embeddings_dir = "offline_data/embeddings"

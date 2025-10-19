@@ -21,6 +21,8 @@ def main():
     query_results_dir = find_latest_query_results()
     semantic_results = f"{query_results_dir}/all_query_results.csv"
     deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
+    # deepjoin_results = "Deepjoin/output/deepjoin_results_T0.7_exact.csv"
+
     ground_truth = "datasets/freyja-semantic-join/freyja_ground_truth.csv"
     
     # Create matching evaluation directory name

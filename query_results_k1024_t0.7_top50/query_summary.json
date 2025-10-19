@@ -1,9 +1,9 @@
 {
   "total_queries": 50,
-  "successful_queries": 23,
-  "failed_queries": 27,
-  "total_results": 43,
-  "avg_results_per_query": 1.8695652173913044,
+  "successful_queries": 50,
+  "failed_queries": 0,
+  "total_results": 1438,
+  "avg_results_per_query": 28.76,
   "query_config": {
     "top_k_return": 50,
     "similarity_threshold": 0.7,
