@@ -1,272 +1,272 @@
 query,candidate,semantic_score,deepjoin_score,query_samples,candidate_samples,overlapping_values,Jaccard_similarity,intersection_query_fraction
-adventureworks2014_countryregion.Name,who_suicide_statistics.country,4.302521008403361,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","mexico,ireland,bulgaria,malta,ecuador",0.452,0.496
+adventureworks2014_countryregion.Name,who_suicide_statistics.country,4.302521008403361,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","antigua and barbuda,israel,martinique,norway,kyrgyzstan",0.452,0.496
 adventureworks2014_countryregion.Name,world_countries_env_vars.Country,1.5546218487394958,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
-adventureworks2014_countryregion.Name,word_university_rank_2020.Country,3.596638655462185,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","United Kingdom,United States,Switzerland,Canada,China","mexico,ireland,algeria,bulgaria,malta",0.347,0.357
 adventureworks2014_countryregion.Name,adventureworks2014_salesterritory.Name,5.8,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
+adventureworks2014_countryregion.Name,word_university_rank_2020.Country,3.596638655462185,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","United Kingdom,United States,Switzerland,Canada,China","israel,norway,sri lanka,united arab emirates,iceland",0.347,0.357
 adventureworks2014_countryregion.Name,cwurdata.country,1.899159663865546,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
-adventureworks2014_salesterritory.Name,adventureworks2014_countryregion.Name,5.8,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
-adventureworks2014_salesterritory.Name,countries_and_continents.name,5.4,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
-adventureworks2014_salesterritory.Name,hfi_cc_2018.countries,1.8,0.0,,"Albania,Algeria,Angola,Argentina,Armenia",,0.0,0.0
 adventureworks2014_salesterritory.Name,who_suicide_statistics.country,42.0,0.0,,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,0.0,0.0
-adventureworks2014_salesterritory.Name,countries_data.CountryName,8.8,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+adventureworks2014_salesterritory.Name,adventureworks2014_countryregion.Name,5.8,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
 adventureworks2014_salesterritory.Name,word_university_rank_2020.Country,15.1,0.0,,"United Kingdom,United States,Switzerland,Canada,China",,0.0,0.0
-adventureworks2014_salesterritory.Name,world_country.Name,5.7,0.0,,"Aruba,Afghanistan,Angola,Anguilla,Albania",,0.0,0.0
 adventureworks2014_salesterritory.Name,countries_metadatacountries.CountryName,0.9,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
-adventureworks2014_salesterritory.Name,edu.country,9.6,0.0,,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,0.0,0.0
 adventureworks2014_salesterritory.Name,cwurdata.country,13.0,0.0,,,,0.0,0.0
-affirmative_asylum.ContinentCountryofNationality,population_by_country_2020.CountryDependency,0.7706422018348624,0.0,"Africa,Asia,Europe,North America,Oceania","China,India,United States,Indonesia,Pakistan","mexico,eritrea,sierra leone,central african republic,algeria",0.356,0.833
-affirmative_asylum.ContinentCountryofNationality,world_country.Continent,4.055045871559633,0.0,"Africa,Asia,Europe,North America,Oceania","North America,Asia,Africa,Europe,South America","africa,oceania,asia,south america,europe",0.055,0.056
-countries_and_continents.name,adventureworks2014_salesterritory.Name,5.4,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
+adventureworks2014_salesterritory.Name,hfi_cc_2018.countries,1.8,0.0,,"Albania,Algeria,Angola,Argentina,Armenia",,0.0,0.0
+adventureworks2014_salesterritory.Name,edu.country,9.6,0.0,,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,0.0,0.0
+adventureworks2014_salesterritory.Name,world_country.Name,5.7,0.0,,"Aruba,Afghanistan,Angola,Anguilla,Albania",,0.0,0.0
+adventureworks2014_salesterritory.Name,countries_and_continents.name,5.4,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
+adventureworks2014_salesterritory.Name,countries_data.CountryName,8.8,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+affirmative_asylum.ContinentCountryofNationality,population_by_country_2020.CountryDependency,0.7706422018348624,0.0,"Africa,Asia,Europe,North America,Oceania","China,India,United States,Indonesia,Pakistan","israel,kyrgyzstan,djibouti,angola,azerbaijan",0.356,0.833
+affirmative_asylum.ContinentCountryofNationality,world_country.Continent,4.055045871559633,0.0,"Africa,Asia,Europe,North America,Oceania","North America,Asia,Africa,Europe,South America","oceania,africa,south america,asia,north america",0.055,0.056
 countries_and_continents.name,cwurdata.country,1.8152610441767068,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
-countries_and_continents.official_name_fr,hfi_cc_2018.countries,1.3443983402489628,0.0,"Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","Albania,Algeria,Angola,Argentina,Armenia","sierra leone,gabon,panama,togo,botswana",0.129,0.191
-countries_data.CountryName,adventureworks2014_salesterritory.Name,3.6,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
+countries_and_continents.name,adventureworks2014_salesterritory.Name,5.4,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
+countries_and_continents.official_name_fr,hfi_cc_2018.countries,1.3443983402489628,0.0,"Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","Albania,Algeria,Angola,Argentina,Armenia","togo,guatemala,mozambique,ghana,philippines",0.129,0.191
 countries_data.CountryName,ukdebate.country,36.864,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
 countries_data.CountryName,usa_cars_datasets.country,33.792,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
-countries_metadatacountries.CountryName,adventureworks2014_salesterritory.Name,0.9,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
+countries_data.CountryName,adventureworks2014_salesterritory.Name,3.6,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
 countries_metadatacountries.CountryName,ukdebate.country,33.16599190283401,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
 countries_metadatacountries.CountryName,usa_cars_datasets.country,33.16599190283401,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
-countries_of_the_world.Country,adventureworks2014_countryregion.Name,1.5814977973568285,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","mexico,eritrea,sierra leone,gabon,ireland",0.734,0.871
+countries_metadatacountries.CountryName,adventureworks2014_salesterritory.Name,0.9,0.0,"Aruba,Afghanistan,Angola,Albania,Andorra",,,0.0,0.0
 countries_of_the_world.Country,ukdebate.country,135.33039647577093,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
 countries_of_the_world.Country,usa_cars_datasets.country,216.5286343612335,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
-cwurdata.country,adventureworks2014_countryregion.Name,2.8445378151260505,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
-cwurdata.country,countries_and_continents.name,2.783132530120482,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
-cwurdata.country,ukdebate.country,729.088,0.0,,,,0.0,0.0
-cwurdata.country,world_country.Name,2.912133891213389,0.0,,"Aruba,Afghanistan,Angola,Anguilla,Albania",,0.0,0.0
-cwurdata.country,countries_metadatacountries.CountryName,29.76923076923077,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+countries_of_the_world.Country,adventureworks2014_countryregion.Name,1.5814977973568285,0.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,namibia,andorra,martinique,norway",0.734,0.871
 cwurdata.country,adventureworks2014_salesterritory.Name,14.1,0.0,,,,0.0,0.0
-edu.country,adventureworks2014_countryregion.Name,5.945378151260504,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","mexico,eritrea,sierra leone,gabon,ireland",0.559,0.682
-edu.country,ukdebate.country,116.736,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,,0.0,0.0
-edu.country,adventureworks2014_salesterritory.Name,0.9,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,,0.0,0.0
+cwurdata.country,adventureworks2014_countryregion.Name,2.8445378151260505,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
+cwurdata.country,countries_metadatacountries.CountryName,29.76923076923077,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+cwurdata.country,world_country.Name,2.912133891213389,0.0,,"Aruba,Afghanistan,Angola,Anguilla,Albania",,0.0,0.0
+cwurdata.country,ukdebate.country,729.088,0.0,,,,0.0,0.0
+cwurdata.country,countries_and_continents.name,2.783132530120482,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
+edu.country,population_by_country_2020.CountryDependency,1.25531914893617,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","China,India,United States,Indonesia,Pakistan","israel,antigua and barbuda,namibia,andorra,norway",0.579,0.693
 edu.country,usa_cars_datasets.country,185.344,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,,0.0,0.0
-edu.country,population_by_country_2020.CountryDependency,1.25531914893617,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","China,India,United States,Indonesia,Pakistan","mexico,eritrea,sierra leone,gabon,ireland",0.579,0.693
+edu.country,adventureworks2014_salesterritory.Name,0.9,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,,0.0,0.0
+edu.country,adventureworks2014_countryregion.Name,5.945378151260504,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","antigua and barbuda,israel,namibia,andorra,norway",0.559,0.682
+edu.country,ukdebate.country,116.736,0.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,,0.0,0.0
 fifa_ranking.country_full,adventureworks2014_salesterritory.Name,1.3,0.0,"Germany,Italy,Switzerland,Sweden,Argentina",,,0.0,0.0
-gender_development.Country,adventureworks2014_countryregion.Name,1.6923076923076923,0.0,"Norway,Australia,Switzerland,Denmark,Netherlands","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","mexico,eritrea,sierra leone,gabon,ireland",0.604,0.836
+gender_development.Country,netflix_titles.country,120.77948717948718,0.0,"Norway,Australia,Switzerland,Denmark,Netherlands","United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","israel,germany,guatemala,singapore,ghana",0.08,0.282
 gender_development.Country,ukdebate.country,152.2871794871795,0.0,"Norway,Australia,Switzerland,Denmark,Netherlands",,,0.0,0.0
 gender_development.Country,usa_cars_datasets.country,225.8051282051282,0.0,"Norway,Australia,Switzerland,Denmark,Netherlands",,,0.0,0.0
-gender_development.Country,netflix_titles.country,120.77948717948718,0.0,"Norway,Australia,Switzerland,Denmark,Netherlands","United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","poland,iceland,mexico,cambodia,ireland",0.08,0.282
+gender_development.Country,adventureworks2014_countryregion.Name,1.6923076923076923,0.0,"Norway,Australia,Switzerland,Denmark,Netherlands","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,antigua and barbuda,namibia,andorra,norway",0.604,0.836
+hfi_cc_2018.countries,population_by_country_2020.CountryDependency,3.587234042553192,0.0,"Albania,Algeria,Angola,Argentina,Armenia","China,India,United States,Indonesia,Pakistan","israel,namibia,norway,angola,azerbaijan",0.582,0.901
+hfi_cc_2018.countries,usa_cars_datasets.country,7.168,0.0,"Albania,Algeria,Angola,Argentina,Armenia",,,0.0,0.0
 hfi_cc_2018.countries,adventureworks2014_salesterritory.Name,1.1,0.0,"Albania,Algeria,Angola,Argentina,Armenia",,,0.0,0.0
 hfi_cc_2018.countries,ukdebate.country,7.168,0.0,"Albania,Algeria,Angola,Argentina,Armenia",,,0.0,0.0
-hfi_cc_2018.countries,usa_cars_datasets.country,7.168,0.0,"Albania,Algeria,Angola,Argentina,Armenia",,,0.0,0.0
-hfi_cc_2018.countries,population_by_country_2020.CountryDependency,3.587234042553192,0.0,"Albania,Algeria,Angola,Argentina,Armenia","China,India,United States,Indonesia,Pakistan","mexico,sierra leone,gabon,ireland,algeria",0.582,0.901
-movie_metadata.country,adventureworks2014_salesterritory.Name,9.1,0.0,"USA,UK,New Zealand,Canada,Australia",,,0.0,0.0
 movie_metadata.country,ukdebate.country,957.44,0.0,"USA,UK,New Zealand,Canada,Australia",,,0.0,0.0
 movie_metadata.country,usa_cars_datasets.country,1000.448,0.0,"USA,UK,New Zealand,Canada,Australia",,,0.0,0.0
-movies.country,adventureworks2014_countryregion.Name,0.773109243697479,0.0,"USA,UK,Australia,Italy,France","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","poland,iceland,mexico,czech republic,ireland",0.19,0.825
-movies.country,countries_and_continents.name,0.7630522088353414,0.0,"USA,UK,Australia,Italy,France","Afghanistan,Albania,Algeria,American Samoa,Andorra","poland,iceland,mexico,czech republic,ireland",0.205,0.912
-movies.country,world-cities.country,913.539,0.0,"USA,UK,Australia,Italy,France","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","poland,iceland,mexico,czech republic,ireland",0.199,0.877
-movies.country,ukdebate.country,935.936,0.0,"USA,UK,Australia,Italy,France",,,0.0,0.0
-movies.country,world_country.Name,0.7949790794979079,0.0,"USA,UK,Australia,Italy,France","Aruba,Afghanistan,Angola,Anguilla,Albania","poland,iceland,mexico,czech republic,ireland",0.203,0.877
-movies.country,countries_metadatacountries.CountryName,31.611336032388664,0.0,"USA,UK,Australia,Italy,France","Aruba,Afghanistan,Angola,Albania,Andorra","poland,iceland,mexico,czech republic,ireland",0.169,0.772
+movie_metadata.country,adventureworks2014_salesterritory.Name,9.1,0.0,"USA,UK,New Zealand,Canada,Australia",,,0.0,0.0
 movies.country,adventureworks2014_salesterritory.Name,10.7,0.0,"USA,UK,Australia,Italy,France",,,0.0,0.0
-moviesonstreamingplatforms_updated.Country,adventureworks2014_countryregion.Name,1.3067226890756305,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,countries_and_continents.name,1.2931726907630523,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,ukdebate.country,845.824,0.0,,,,0.0,0.0
-moviesonstreamingplatforms_updated.Country,world_country.Name,1.3472803347280335,0.0,,"Aruba,Afghanistan,Angola,Anguilla,Albania",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,countries_metadatacountries.CountryName,23.157894736842103,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,adventureworks2014_salesterritory.Name,10.1,0.0,,,,0.0,0.0
+movies.country,adventureworks2014_countryregion.Name,0.773109243697479,0.0,"USA,UK,Australia,Italy,France","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,germany,mexico,norway,peru",0.19,0.825
+movies.country,world-cities.country,913.539,0.0,"USA,UK,Australia,Italy,France","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,germany,mexico,norway,peru",0.199,0.877
+movies.country,countries_metadatacountries.CountryName,31.611336032388664,0.0,"USA,UK,Australia,Italy,France","Aruba,Afghanistan,Angola,Albania,Andorra","israel,germany,mexico,norway,peru",0.169,0.772
+movies.country,world_country.Name,0.7949790794979079,0.0,"USA,UK,Australia,Italy,France","Aruba,Afghanistan,Angola,Anguilla,Albania","israel,germany,mexico,norway,peru",0.203,0.877
+movies.country,ukdebate.country,935.936,0.0,"USA,UK,Australia,Italy,France",,,0.0,0.0
+movies.country,countries_and_continents.name,0.7630522088353414,0.0,"USA,UK,Australia,Italy,France","Afghanistan,Albania,Algeria,American Samoa,Andorra","israel,germany,mexico,norway,peru",0.205,0.912
 moviesonstreamingplatforms_updated.Country,usa_cars_datasets.country,893.952,0.0,,,,0.0,0.0
-netflix_titles.country,adventureworks2014_countryregion.Name,2.138655462184874,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","poland,iceland,mexico,cambodia,ireland",0.081,0.107
-netflix_titles.country,countries_of_the_world.Country,104.45374449339208,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Afghanistan,Albania,Algeria,American Samoa,Andorra","poland,iceland,mexico,cambodia,ireland",0.084,0.109
-netflix_titles.country,gender_development.Country,106.96923076923076,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Norway,Australia,Switzerland,Denmark,Netherlands","poland,iceland,mexico,cambodia,ireland",0.08,0.1
-netflix_titles.country,countries_and_continents.name,2.0923694779116464,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Afghanistan,Albania,Algeria,American Samoa,Andorra","poland,iceland,mexico,cambodia,ireland",0.08,0.107
-netflix_titles.country,ukdebate.country,775.168,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
+moviesonstreamingplatforms_updated.Country,adventureworks2014_salesterritory.Name,10.1,0.0,,,,0.0,0.0
+moviesonstreamingplatforms_updated.Country,adventureworks2014_countryregion.Name,1.3067226890756305,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,countries_metadatacountries.CountryName,23.157894736842103,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,world_country.Name,1.3472803347280335,0.0,,"Aruba,Afghanistan,Angola,Anguilla,Albania",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,ukdebate.country,845.824,0.0,,,,0.0,0.0
+moviesonstreamingplatforms_updated.Country,countries_and_continents.name,1.2931726907630523,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
+netflix_titles.country,countries_of_the_world.Country,104.45374449339208,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Afghanistan,Albania,Algeria,American Samoa,Andorra","israel,germany,guatemala,singapore,ghana",0.084,0.109
 netflix_titles.country,world_countries_env_vars.Country,98.10288065843622,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
-netflix_titles.country,world_country.Name,2.1757322175732217,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Aruba,Afghanistan,Angola,Anguilla,Albania","poland,iceland,mexico,cambodia,ireland",0.082,0.109
-netflix_titles.country,countries_metadatacountries.CountryName,35.020242914979754,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Aruba,Afghanistan,Angola,Albania,Andorra","poland,iceland,mexico,cambodia,ireland",0.074,0.1
-netflix_titles.country,adventureworks2014_salesterritory.Name,6.5,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
+netflix_titles.country,gender_development.Country,106.96923076923076,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Norway,Australia,Switzerland,Denmark,Netherlands","israel,germany,guatemala,singapore,ghana",0.08,0.1
 netflix_titles.country,usa_cars_datasets.country,873.472,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
-population_by_country_2020.CountryDependency,affirmative_asylum.ContinentCountryofNationality,0.7706422018348624,0.0,"China,India,United States,Indonesia,Pakistan","Africa,Asia,Europe,North America,Oceania","mexico,eritrea,sierra leone,central african republic,algeria",0.356,0.383
+netflix_titles.country,adventureworks2014_salesterritory.Name,6.5,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
+netflix_titles.country,adventureworks2014_countryregion.Name,2.138655462184874,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,germany,guatemala,singapore,ghana",0.081,0.107
+netflix_titles.country,countries_metadatacountries.CountryName,35.020242914979754,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Aruba,Afghanistan,Angola,Albania,Andorra","israel,germany,guatemala,singapore,ghana",0.074,0.1
+netflix_titles.country,world_country.Name,2.1757322175732217,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Aruba,Afghanistan,Angola,Anguilla,Albania","israel,germany,guatemala,singapore,ghana",0.082,0.109
+netflix_titles.country,ukdebate.country,775.168,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
+netflix_titles.country,countries_and_continents.name,2.0923694779116464,0.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Afghanistan,Albania,Algeria,American Samoa,Andorra","israel,germany,guatemala,singapore,ghana",0.08,0.107
+population_by_country_2020.CountryDependency,affirmative_asylum.ContinentCountryofNationality,0.7706422018348624,0.0,"China,India,United States,Indonesia,Pakistan","Africa,Asia,Europe,North America,Oceania","israel,kyrgyzstan,djibouti,angola,azerbaijan",0.356,0.383
 pte_alcohol.Arg0,pte_mutagenic.Arg0,138.0,0.0,"d65,d72,d78,d89,d97","d101,d104,d106,d107,d112","d89,d78,d72",0.021,0.6
+pte_alcohol.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d7,d23_2,d2,d70,d11","d65,d78,d72,d97,d89",0.015,1.0
+pte_alcohol.Arg0,pte_atm_count.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d158,d194,d115,d178,d310","d65,d78,d72,d97,d89",0.015,1.0
+pte_alcohol.Arg0,pte_bound_cnt.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d158,d194,d115,d178,d310","d65,d78,d72,d97,d89",0.015,1.0
+pte_alcohol.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d319,d239,d119,d193,d245","d65,d78,d72,d97,d89",0.015,1.0
 pte_alcohol.Arg0,pte_active.Arg0,162.0,0.0,"d65,d72,d78,d89,d97","d1,d10,d100,d101,d102","d89,d97",0.012,0.4
-pte_alcohol.Arg0,pte_bound_cnt.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d158,d194,d115,d178,d310","d78,d72,d65,d89,d97",0.015,1.0
 pte_alcohol.Arg0,pte_ames.Arg0,142.0,0.0,"d65,d72,d78,d89,d97","d1,d10,d11,d113,d12","d78,d72",0.014,0.4
-pte_alcohol.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d7,d23_2,d2,d70,d11","d78,d72,d65,d89,d97",0.015,1.0
-pte_alcohol.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d319,d239,d119,d193,d245","d78,d72,d65,d89,d97",0.015,1.0
-pte_alcohol.Arg0,pte_atm_count.Arg0,340.0,0.0,"d65,d72,d78,d89,d97","d158,d194,d115,d178,d310","d78,d72,d65,d89,d97",0.015,1.0
-pte_alkyl_halide.Arg0,pte_has_property.Arg0,1023.6473988439308,0.0,"d101,d102,d103,d104,d106","d1,d10,d100,d101,d102","d251,d290,d263,d258,d264",0.145,0.94
 pte_alkyl_halide.Arg0,pte_postestactive.Arg0,173.0,0.0,"d101,d102,d103,d104,d106","d296,d305,d306,d307,d308","d306,d337,d332",0.045,0.06
-pte_alkyl_halide.Arg0,pte_ind.Arg0,393.8323699421965,0.0,"d101,d102,d103,d104,d106","d1,d10,d109,d114,d118","d251,d290,d263,d258,d264",0.206,0.96
-pte_alkyl_halide.Arg0,pte_active.Arg0,172.90123456790124,0.0,"d101,d102,d103,d104,d106","d1,d10,d100,d101,d102","d251,d290,d89,d239,d104",0.158,0.58
-pte_ames.Arg0,pte_ester.Arg0,146.9225352112676,0.0,"d1,d10,d11,d113,d12","d136,d137,d139,d141,d143","d282,d248,d287,d258,d331",0.028,0.035
+pte_alkyl_halide.Arg0,pte_ind.Arg0,393.8323699421965,0.0,"d101,d102,d103,d104,d106","d1,d10,d109,d114,d118","d337,d258,d67,d102,d107",0.206,0.96
+pte_alkyl_halide.Arg0,pte_active.Arg0,172.90123456790124,0.0,"d101,d102,d103,d104,d106","d1,d10,d100,d101,d102","d102,d107,d89,d241,d231",0.158,0.58
+pte_alkyl_halide.Arg0,pte_has_property.Arg0,1023.6473988439308,0.0,"d101,d102,d103,d104,d106","d1,d10,d100,d101,d102","d337,d258,d67,d102,d125",0.145,0.94
+pte_ames.Arg0,pte_nitro.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d127,d13,d131,d16,d18","d13,d58,d72,d21,d49",0.231,0.239
+pte_ames.Arg0,pte_postestactive.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d296,d305,d306,d307,d308","d316,d337,d331,d325,d320",0.066,0.07
 pte_ames.Arg0,pte_non_ar_5c_ring.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d101,d106,d112,d121,d128","d328,d128,d249,d19",0.026,0.028
+pte_ames.Arg0,pte_testactive.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d297,d298,d299,d300,d302","d316,d337,d331,d319,d325",0.09,0.106
 pte_ames.Arg0,pte_alcohol.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d65,d72,d78,d89,d97","d78,d72",0.014,0.014
-pte_ames.Arg0,pte_testactive.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d297,d298,d299,d300,d302","d323,d329,d333,d324,d332",0.09,0.106
-pte_ames.Arg0,pte_alkyl_halide.Arg0,172.9225352112676,0.0,"d1,d10,d11,d113,d12","d101,d102,d103,d104,d106","d290,d263,d258,d337,d239",0.129,0.155
+pte_ames.Arg0,pte_non_ar_hetero_5_ring.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d109,d112,d121,d128,d137","d232,d27,d293,d128,d240",0.089,0.106
+pte_ames.Arg0,pte_postestactive_neg.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d296,d305,d306,d307,d308","d316,d337,d331,d319,d325",0.09,0.106
 pte_ames.Arg0,pte_testactive_neg.Arg0,142.0,0.0,"d1,d10,d11,d113,d12",,,0.0,0.0
-pte_ames.Arg0,pte_nitro.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d127,d13,d131,d16,d18","d38,d13,d18,d58,d16",0.231,0.239
-pte_ames.Arg0,pte_postestactive.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d296,d305,d306,d307,d308","d323,d329,d333,d332,d336",0.066,0.07
-pte_ames.Arg0,pte_imine.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d175,d211,d217,d252,d27","d252,d27,d7,d51,d37",0.048,0.049
-pte_ames.Arg0,pte_sulfo.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d212,d221,d224,d280,d301","d36,d280,d329,d58",0.026,0.028
-pte_ames.Arg0,pte_postestactive_neg.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d296,d305,d306,d307,d308","d323,d329,d333,d332,d319",0.09,0.106
-pte_ames.Arg0,pte_non_ar_hetero_5_ring.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d109,d112,d121,d128,d137","d254,d28,d50,d290,d293",0.089,0.106
-pte_amine.Arg0,pte_testactive.Arg0,181.0,0.0,"d1,d109,d11,d114,d117","d297,d298,d299,d300,d302","d330,d333,d317,d322,d318",0.09,0.109
-pte_amine.Arg0,pte_postestactive_neg.Arg0,181.0,0.0,"d1,d109,d11,d114,d117","d296,d305,d306,d307,d308","d330,d333,d317,d322,d318",0.09,0.109
+pte_ames.Arg0,pte_alkyl_halide.Arg0,172.9225352112676,0.0,"d1,d10,d11,d113,d12","d101,d102,d103,d104,d106","d337,d258,d67,d241,d235",0.129,0.155
+pte_ames.Arg0,pte_ester.Arg0,146.9225352112676,0.0,"d1,d10,d11,d113,d12","d136,d137,d139,d141,d143","d331,d258,d287,d248,d282",0.028,0.035
+pte_ames.Arg0,pte_sulfo.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d212,d221,d224,d280,d301","d329,d280,d58,d36",0.026,0.028
+pte_ames.Arg0,pte_imine.Arg0,142.0,0.0,"d1,d10,d11,d113,d12","d175,d211,d217,d252,d27","d27,d51,d7,d28,d37",0.048,0.049
+pte_amine.Arg0,pte_postestactive.Arg0,181.0,0.0,"d1,d109,d11,d114,d117","d296,d305,d306,d307,d308","d325,d314,d311,d315,d333",0.053,0.059
+pte_amine.Arg0,pte_postestactive_neg.Arg0,181.0,0.0,"d1,d109,d11,d114,d117","d296,d305,d306,d307,d308","d318,d325,d335,d317,d314",0.09,0.109
+pte_amine.Arg0,pte_testactive.Arg0,181.0,0.0,"d1,d109,d11,d114,d117","d297,d298,d299,d300,d302","d318,d325,d335,d317,d314",0.09,0.109
 pte_amine.Arg0,pte_testactive_neg.Arg0,181.0,0.0,"d1,d109,d11,d114,d117",,,0.0,0.0
-pte_amine.Arg0,pte_postestactive.Arg0,181.0,0.0,"d1,d109,d11,d114,d117","d296,d305,d306,d307,d308","d330,d333,d325,d314,d322",0.053,0.059
-pte_ester.Arg0,pte_has_property.Arg0,1023.4829931972788,0.0,"d136,d137,d139,d141,d143","d1,d10,d100,d101,d102","d292,d291,d266,d258,d285",0.118,0.95
-pte_ester.Arg0,pte_active.Arg0,161.89115646258503,0.0,"d136,d137,d139,d141,d143","d1,d10,d100,d101,d102","d144,d248,d139,d292,d137",0.069,0.325
-pte_ester.Arg0,pte_ames.Arg0,146.9225352112676,0.0,"d136,d137,d139,d141,d143","d1,d10,d11,d113,d12","d282,d248,d287,d258,d331",0.028,0.125
-pte_ester.Arg0,pte_atm_min_charge.Arg0,339.8707482993197,0.0,"d136,d137,d139,d141,d143","d7,d23_2,d2,d70,d11","d292,d291,d266,d258,d285",0.118,1.0
-pte_ester.Arg0,pte_ind.Arg0,393.78231292517006,0.0,"d136,d137,d139,d141,d143","d1,d10,d109,d114,d118","d292,d291,d266,d258,d285",0.097,0.6
-pte_five_ring.Arg0,pte_has_property.Arg0,1023.8,0.0,"d101,d106,d109,d112,d121","d1,d10,d100,d101,d102","d217,d290,d170,d242,d2",0.149,0.96
+pte_ester.Arg0,pte_atm_min_charge.Arg0,339.8707482993197,0.0,"d136,d137,d139,d141,d143","d7,d23_2,d2,d70,d11","d191,d182,d185,d258,d291",0.118,1.0
+pte_ester.Arg0,pte_ind.Arg0,393.78231292517006,0.0,"d136,d137,d139,d141,d143","d1,d10,d109,d114,d118","d182,d258,d291,d283,d266",0.097,0.6
+pte_ester.Arg0,pte_has_property.Arg0,1023.4829931972788,0.0,"d136,d137,d139,d141,d143","d1,d10,d100,d101,d102","d191,d182,d185,d258,d291",0.118,0.95
+pte_ester.Arg0,pte_active.Arg0,161.89115646258503,0.0,"d136,d137,d139,d141,d143","d1,d10,d100,d101,d102","d191,d139,d291,d283,d292",0.069,0.325
+pte_ester.Arg0,pte_ames.Arg0,146.9225352112676,0.0,"d136,d137,d139,d141,d143","d1,d10,d11,d113,d12","d331,d258,d287,d248,d282",0.028,0.125
 pte_five_ring.Arg0,pte_postestactive.Arg0,75.0,0.0,"d101,d106,d109,d112,d121","d296,d305,d306,d307,d308","d315,d322",0.029,0.04
-pte_five_ring.Arg0,pte_ind.Arg0,393.96,0.0,"d101,d106,d109,d112,d121","d1,d10,d109,d114,d118","d217,d290,d242,d2,d18",0.142,0.7
-pte_five_ring.Arg0,pte_active.Arg0,162.0,0.0,"d101,d106,d109,d112,d121","d1,d10,d100,d101,d102","d290,d242,d2,d18,d142",0.146,0.54
-pte_imine.Arg0,pte_mutagenic.Arg0,137.94117647058823,0.0,"d175,d211,d217,d252,d27","d101,d104,d106,d107,d112","d66,d211,d27,d37,d51",0.042,0.545
-pte_imine.Arg0,pte_has_property.Arg0,1023.7058823529412,0.0,"d175,d211,d217,d252,d27","d1,d10,d100,d101,d102","d217,d66,d211,d252,d27",0.031,0.909
-pte_imine.Arg0,pte_active.Arg0,162.0,0.0,"d175,d211,d217,d252,d27","d1,d10,d100,d101,d102","d252,d27,d7,d51,d37",0.042,0.636
-pte_imine.Arg0,pte_bound_cnt.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d158,d194,d115,d178,d310","d217,d175,d66,d211,d252",0.032,1.0
-pte_imine.Arg0,pte_ames.Arg0,142.0,0.0,"d175,d211,d217,d252,d27","d1,d10,d11,d113,d12","d252,d27,d7,d51,d37",0.048,0.636
-pte_imine.Arg0,pte_atm_min_charge.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d7,d23_2,d2,d70,d11","d217,d175,d66,d211,d252",0.032,1.0
-pte_imine.Arg0,pte_atm_max_charge.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d319,d239,d119,d193,d245","d217,d175,d66,d211,d252",0.032,1.0
-pte_imine.Arg0,pte_atm_count.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d158,d194,d115,d178,d310","d217,d175,d66,d211,d252",0.032,1.0
-pte_ketone.Arg0,pte_testactive.Arg0,143.0,0.0,"d1,d109,d114,d123,d124","d297,d298,d299,d300,d302","d297,d300,d302,d320,d312",0.098,0.125
-pte_ketone.Arg0,pte_postestactive_neg.Arg0,143.0,0.0,"d1,d109,d114,d123,d124","d296,d305,d306,d307,d308","d297,d300,d302,d320,d312",0.098,0.125
+pte_five_ring.Arg0,pte_ind.Arg0,393.96,0.0,"d101,d106,d109,d112,d121","d1,d10,d109,d114,d118","d182,d164,d89,d231,d152",0.142,0.7
+pte_five_ring.Arg0,pte_active.Arg0,162.0,0.0,"d101,d106,d109,d112,d121","d1,d10,d100,d101,d102","d89,d231,d19,d50,d195",0.146,0.54
+pte_five_ring.Arg0,pte_has_property.Arg0,1023.8,0.0,"d101,d106,d109,d112,d121","d1,d10,d100,d101,d102","d182,d185,d177,d328,d89",0.149,0.96
+pte_imine.Arg0,pte_mutagenic.Arg0,137.94117647058823,0.0,"d175,d211,d217,d252,d27","d101,d104,d106,d107,d112","d27,d211,d51,d28,d37",0.042,0.545
+pte_imine.Arg0,pte_atm_min_charge.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d7,d23_2,d2,d70,d11","d217,d27,d211,d51,d7",0.032,1.0
+pte_imine.Arg0,pte_atm_count.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d158,d194,d115,d178,d310","d217,d27,d211,d51,d7",0.032,1.0
+pte_imine.Arg0,pte_bound_cnt.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d158,d194,d115,d178,d310","d217,d27,d211,d51,d7",0.032,1.0
+pte_imine.Arg0,pte_atm_max_charge.Arg0,339.94117647058823,0.0,"d175,d211,d217,d252,d27","d319,d239,d119,d193,d245","d217,d27,d211,d51,d7",0.032,1.0
+pte_imine.Arg0,pte_has_property.Arg0,1023.7058823529412,0.0,"d175,d211,d217,d252,d27","d1,d10,d100,d101,d102","d217,d27,d211,d51,d7",0.031,0.909
+pte_imine.Arg0,pte_active.Arg0,162.0,0.0,"d175,d211,d217,d252,d27","d1,d10,d100,d101,d102","d27,d51,d7,d28,d37",0.042,0.636
+pte_imine.Arg0,pte_ames.Arg0,142.0,0.0,"d175,d211,d217,d252,d27","d1,d10,d11,d113,d12","d27,d51,d7,d28,d37",0.048,0.636
+pte_ketone.Arg0,pte_postestactive.Arg0,143.0,0.0,"d1,d109,d114,d123,d124","d296,d305,d306,d307,d308","d308,d331,d320,d311,d315",0.045,0.052
+pte_ketone.Arg0,pte_postestactive_neg.Arg0,143.0,0.0,"d1,d109,d114,d123,d124","d296,d305,d306,d307,d308","d308,d297,d312,d331,d320",0.098,0.125
+pte_ketone.Arg0,pte_testactive.Arg0,143.0,0.0,"d1,d109,d114,d123,d124","d297,d298,d299,d300,d302","d308,d312,d331,d320,d311",0.098,0.125
 pte_ketone.Arg0,pte_testactive_neg.Arg0,143.0,0.0,"d1,d109,d114,d123,d124",,,0.0,0.0
-pte_ketone.Arg0,pte_postestactive.Arg0,143.0,0.0,"d1,d109,d114,d123,d124","d296,d305,d306,d307,d308","d320,d331,d315,d311,d308",0.045,0.052
-pte_methoxy.Arg0,pte_has_property.Arg0,1023.9166666666666,0.0,"d11,d122,d131,d137,d150","d1,d10,d100,d101,d102","d256,d291,d266,d258,d233",0.109,1.0
-pte_methoxy.Arg0,pte_active.Arg0,162.0,0.0,"d11,d122,d131,d137,d150","d1,d10,d100,d101,d102","d31,d44,d137,d291,d237",0.082,0.429
-pte_methoxy.Arg0,pte_postestactive.Arg0,60.0,0.0,"d11,d122,d131,d137,d150","d296,d305,d306,d307,d308","d336,d316,d330,d311",0.078,0.114
-pte_methoxy.Arg0,pte_ames.Arg0,142.0,0.0,"d11,d122,d131,d137,d150","d1,d10,d11,d113,d12","d256,d258,d265,d11,d59",0.12,0.543
-pte_methoxy.Arg0,pte_atm_max_charge.Arg0,339.9833333333333,0.0,"d11,d122,d131,d137,d150","d319,d239,d119,d193,d245","d256,d291,d266,d258,d233",0.103,1.0
-pte_nitro.Arg0,pte_mutagenic.Arg0,137.9375,0.0,"d127,d13,d131,d16,d18","d101,d104,d106,d107,d112","d323,d78,d38,d50,d63",0.113,0.462
-pte_nitro.Arg0,pte_has_property.Arg0,1023.6875,0.0,"d127,d13,d131,d16,d18","d1,d10,d100,d101,d102","d38,d13,d18,d58,d16",0.121,1.0
-pte_nitro.Arg0,pte_active.Arg0,162.0,0.0,"d127,d13,d131,d16,d18","d1,d10,d100,d101,d102","d38,d13,d18,d58,d16",0.11,0.513
-pte_nitro.Arg0,pte_bound_cnt.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d158,d194,d115,d178,d310","d38,d13,d18,d58,d16",0.115,1.0
-pte_nitro.Arg0,pte_ames.Arg0,142.0,0.0,"d127,d13,d131,d16,d18","d1,d10,d11,d113,d12","d38,d13,d18,d58,d16",0.231,0.872
-pte_nitro.Arg0,pte_atm_min_charge.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d7,d23_2,d2,d70,d11","d38,d13,d18,d58,d16",0.115,1.0
-pte_nitro.Arg0,pte_atm_max_charge.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d319,d239,d119,d193,d245","d38,d13,d18,d58,d16",0.115,1.0
-pte_nitro.Arg0,pte_atm_count.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d158,d194,d115,d178,d310","d38,d13,d18,d58,d16",0.115,1.0
-pte_non_ar_5c_ring.Arg0,pte_mutagenic.Arg0,137.96875,0.0,"d101,d106,d112,d121,d128","d101,d104,d106,d107,d112","d231,d246,d106,d173,d112",0.086,0.923
-pte_non_ar_5c_ring.Arg0,pte_has_property.Arg0,1023.84375,0.0,"d101,d106,d112,d121,d128","d1,d10,d100,d101,d102","d231,d106,d173,d112,d101",0.037,0.923
-pte_non_ar_5c_ring.Arg0,pte_active.Arg0,162.0,0.0,"d101,d106,d112,d121,d128","d1,d10,d100,d101,d102","d231,d246,d106,d101,d249",0.048,0.615
-pte_non_ar_5c_ring.Arg0,pte_bound_cnt.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d158,d194,d115,d178,d310","d231,d246,d106,d173,d112",0.038,1.0
+pte_methoxy.Arg0,pte_postestactive.Arg0,60.0,0.0,"d11,d122,d131,d137,d150","d296,d305,d306,d307,d308","d311,d330,d316,d336",0.078,0.114
+pte_methoxy.Arg0,pte_atm_max_charge.Arg0,339.9833333333333,0.0,"d11,d122,d131,d137,d150","d319,d239,d119,d193,d245","d9,d258,d291,d266,d122",0.103,1.0
+pte_methoxy.Arg0,pte_has_property.Arg0,1023.9166666666666,0.0,"d11,d122,d131,d137,d150","d1,d10,d100,d101,d102","d9,d258,d291,d266,d122",0.109,1.0
+pte_methoxy.Arg0,pte_active.Arg0,162.0,0.0,"d11,d122,d131,d137,d150","d1,d10,d100,d101,d102","d20,d9,d44,d247,d291",0.082,0.429
+pte_methoxy.Arg0,pte_ames.Arg0,142.0,0.0,"d11,d122,d131,d137,d150","d1,d10,d11,d113,d12","d9,d258,d234,d20,d44",0.12,0.543
+pte_nitro.Arg0,pte_mutagenic.Arg0,137.9375,0.0,"d127,d13,d131,d16,d18","d101,d104,d106,d107,d112","d38,d41,d13,d58,d19",0.113,0.462
+pte_nitro.Arg0,pte_atm_min_charge.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d7,d23_2,d2,d70,d11","d13,d58,d72,d21,d49",0.115,1.0
+pte_nitro.Arg0,pte_atm_count.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d158,d194,d115,d178,d310","d13,d58,d72,d21,d49",0.115,1.0
+pte_nitro.Arg0,pte_bound_cnt.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d158,d194,d115,d178,d310","d13,d58,d72,d21,d49",0.115,1.0
+pte_nitro.Arg0,pte_atm_max_charge.Arg0,339.9375,0.0,"d127,d13,d131,d16,d18","d319,d239,d119,d193,d245","d13,d58,d72,d21,d49",0.115,1.0
+pte_nitro.Arg0,pte_has_property.Arg0,1023.6875,0.0,"d127,d13,d131,d16,d18","d1,d10,d100,d101,d102","d13,d58,d72,d21,d49",0.121,1.0
+pte_nitro.Arg0,pte_active.Arg0,162.0,0.0,"d127,d13,d131,d16,d18","d1,d10,d100,d101,d102","d13,d58,d21,d49,d39",0.11,0.513
+pte_nitro.Arg0,pte_ames.Arg0,142.0,0.0,"d127,d13,d131,d16,d18","d1,d10,d11,d113,d12","d13,d58,d72,d21,d49",0.231,0.872
+pte_non_ar_5c_ring.Arg0,pte_atm_min_charge.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d7,d23_2,d2,d70,d11","d249,d96,d19,d121,d128",0.038,1.0
+pte_non_ar_5c_ring.Arg0,pte_mutagenic.Arg0,137.96875,0.0,"d101,d106,d112,d121,d128","d101,d104,d106,d107,d112","d249,d96,d19,d121,d128",0.086,0.923
+pte_non_ar_5c_ring.Arg0,pte_atm_count.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d158,d194,d115,d178,d310","d249,d96,d19,d121,d128",0.038,1.0
+pte_non_ar_5c_ring.Arg0,pte_bound_cnt.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d158,d194,d115,d178,d310","d249,d96,d19,d121,d128",0.038,1.0
+pte_non_ar_5c_ring.Arg0,pte_atm_max_charge.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d319,d239,d119,d193,d245","d249,d96,d19,d121,d128",0.038,1.0
+pte_non_ar_5c_ring.Arg0,pte_has_property.Arg0,1023.84375,0.0,"d101,d106,d112,d121,d128","d1,d10,d100,d101,d102","d249,d96,d19,d121,d128",0.037,0.923
+pte_non_ar_5c_ring.Arg0,pte_active.Arg0,162.0,0.0,"d101,d106,d112,d121,d128","d1,d10,d100,d101,d102","d249,d96,d19,d246,d106",0.048,0.615
 pte_non_ar_5c_ring.Arg0,pte_ames.Arg0,142.0,0.0,"d101,d106,d112,d121,d128","d1,d10,d11,d113,d12","d328,d128,d249,d19",0.026,0.308
-pte_non_ar_5c_ring.Arg0,pte_atm_min_charge.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d7,d23_2,d2,d70,d11","d231,d246,d106,d173,d112",0.038,1.0
-pte_non_ar_5c_ring.Arg0,pte_atm_max_charge.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d319,d239,d119,d193,d245","d231,d246,d106,d173,d112",0.038,1.0
-pte_non_ar_5c_ring.Arg0,pte_atm_count.Arg0,339.96875,0.0,"d101,d106,d112,d121,d128","d158,d194,d115,d178,d310","d231,d246,d106,d173,d112",0.038,1.0
-pte_non_ar_hetero_5_ring.Arg0,pte_mutagenic.Arg0,137.97435897435898,0.0,"d109,d112,d121,d128,d137","d101,d104,d106,d107,d112","d242,d2,d18,d245,d121",0.178,0.659
-pte_non_ar_hetero_5_ring.Arg0,pte_has_property.Arg0,1023.8717948717948,0.0,"d109,d112,d121,d128,d137","d1,d10,d100,d101,d102","d217,d290,d170,d242,d2",0.124,0.976
-pte_non_ar_hetero_5_ring.Arg0,pte_active.Arg0,162.0,0.0,"d109,d112,d121,d128,d137","d1,d10,d100,d101,d102","d290,d242,d2,d18,d142",0.109,0.488
-pte_non_ar_hetero_5_ring.Arg0,pte_bound_cnt.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d158,d194,d115,d178,d310","d217,d290,d170,d242,d2",0.121,1.0
-pte_non_ar_hetero_5_ring.Arg0,pte_ames.Arg0,142.0,0.0,"d109,d112,d121,d128,d137","d1,d10,d11,d113,d12","d254,d28,d50,d290,d293",0.089,0.366
-pte_non_ar_hetero_5_ring.Arg0,pte_atm_min_charge.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d7,d23_2,d2,d70,d11","d217,d290,d170,d242,d2",0.121,1.0
-pte_non_ar_hetero_5_ring.Arg0,pte_atm_max_charge.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d319,d239,d119,d193,d245","d217,d290,d170,d242,d2",0.121,1.0
-pte_non_ar_hetero_5_ring.Arg0,pte_atm_count.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d158,d194,d115,d178,d310","d217,d290,d170,d242,d2",0.121,1.0
-pte_non_ar_hetero_6_ring.Arg0,pte_mutagenic.Arg0,137.93103448275863,0.0,"d111,d112,d114,d117,d118","d101,d104,d106,d107,d112","d242,d216,d269,d314,d245",0.174,0.549
-pte_non_ar_hetero_6_ring.Arg0,pte_has_property.Arg0,1023.2988505747128,0.0,"d111,d112,d114,d117,d118","d1,d10,d100,d101,d102","d256,d269,d242,d216,d314",0.145,0.922
-pte_non_ar_hetero_6_ring.Arg0,pte_active.Arg0,161.816091954023,0.0,"d111,d112,d114,d117,d118","d1,d10,d100,d101,d102","d247,d248,d85_1,d205,d254",0.092,0.353
-pte_non_ar_hetero_6_ring.Arg0,pte_postestactive.Arg0,87.0,0.0,"d111,d112,d114,d117,d118","d296,d305,d306,d307,d308","d314,d331,d322,d311,d308",0.076,0.098
-pte_non_ar_hetero_6_ring.Arg0,pte_atm_min_charge.Arg0,339.81609195402297,0.0,"d111,d112,d114,d117,d118","d7,d23_2,d2,d70,d11","d256,d269,d242,d216,d314",0.15,1.0
-pte_non_ar_hetero_6_ring.Arg0,pte_atm_max_charge.Arg0,339.81609195402297,0.0,"d111,d112,d114,d117,d118","d319,d239,d119,d193,d245","d256,d269,d242,d216,d314",0.15,1.0
-pte_non_ar_hetero_6_ring.Arg0,pte_atm_count.Arg0,339.81609195402297,0.0,"d111,d112,d114,d117,d118","d158,d194,d115,d178,d310","d256,d269,d242,d216,d314",0.15,1.0
-pte_phenol.Arg0,pte_has_property.Arg0,1023.8979591836736,0.0,"d133,d138,d140,d149,d151","d1,d10,d100,d101,d102","d187,d36,d233,d8,d326",0.115,0.949
-pte_phenol.Arg0,pte_active.Arg0,162.0,0.0,"d133,d138,d140,d149,d151","d1,d10,d100,d101,d102","d138,d93,d47,d36,d49",0.058,0.282
-pte_phenol.Arg0,pte_postestactive.Arg0,49.0,0.0,"d133,d138,d140,d149,d151","d296,d305,d306,d307,d308","d323,d330,d329,d325,d305",0.093,0.128
-pte_phenol.Arg0,pte_ames.Arg0,142.0,0.0,"d133,d138,d140,d149,d151","d1,d10,d11,d113,d12","d323,d329,d47,d36,d49",0.071,0.308
-pte_phenol.Arg0,pte_atm_max_charge.Arg0,339.9795918367347,0.0,"d133,d138,d140,d149,d151","d319,d239,d119,d193,d245","d187,d36,d233,d8,d326",0.115,1.0
-pte_postestactive.Arg0,pte_ketone.Arg0,143.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d114,d123,d124","d320,d331,d315,d311,d308",0.045,0.25
-pte_postestactive.Arg0,pte_mutagenic.Arg0,138.0,0.0,"d296,d305,d306,d307,d308","d101,d104,d106,d107,d112","d323,d330,d329,d332,d296",0.06,0.45
-pte_postestactive.Arg0,pte_has_property.Arg0,1024.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d102","d314,d307,d315,d337,d306",0.062,1.0
+pte_non_ar_hetero_5_ring.Arg0,pte_mutagenic.Arg0,137.97435897435898,0.0,"d109,d112,d121,d128,d137","d101,d104,d106,d107,d112","d182,d185,d177,d164,d300",0.178,0.659
+pte_non_ar_hetero_5_ring.Arg0,pte_atm_min_charge.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d7,d23_2,d2,d70,d11","d182,d185,d177,d164,d300",0.121,1.0
+pte_non_ar_hetero_5_ring.Arg0,pte_atm_count.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d158,d194,d115,d178,d310","d182,d185,d177,d164,d300",0.121,1.0
+pte_non_ar_hetero_5_ring.Arg0,pte_bound_cnt.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d158,d194,d115,d178,d310","d182,d185,d177,d164,d300",0.121,1.0
+pte_non_ar_hetero_5_ring.Arg0,pte_atm_max_charge.Arg0,339.9743589743589,0.0,"d109,d112,d121,d128,d137","d319,d239,d119,d193,d245","d182,d185,d177,d164,d300",0.121,1.0
+pte_non_ar_hetero_5_ring.Arg0,pte_has_property.Arg0,1023.8717948717948,0.0,"d109,d112,d121,d128,d137","d1,d10,d100,d101,d102","d182,d185,d177,d300,d152",0.124,0.976
+pte_non_ar_hetero_5_ring.Arg0,pte_active.Arg0,162.0,0.0,"d109,d112,d121,d128,d137","d1,d10,d100,d101,d102","d50,d195,d254,d238,d2",0.109,0.488
+pte_non_ar_hetero_5_ring.Arg0,pte_ames.Arg0,142.0,0.0,"d109,d112,d121,d128,d137","d1,d10,d11,d113,d12","d232,d27,d293,d128,d240",0.089,0.366
+pte_non_ar_hetero_6_ring.Arg0,pte_postestactive.Arg0,87.0,0.0,"d111,d112,d114,d117,d118","d296,d305,d306,d307,d308","d308,d331,d314,d311,d322",0.076,0.098
+pte_non_ar_hetero_6_ring.Arg0,pte_mutagenic.Arg0,137.93103448275863,0.0,"d111,d112,d114,d117,d118","d101,d104,d106,d107,d112","d269,d182,d215,d164,d152",0.174,0.549
+pte_non_ar_hetero_6_ring.Arg0,pte_atm_min_charge.Arg0,339.81609195402297,0.0,"d111,d112,d114,d117,d118","d7,d23_2,d2,d70,d11","d111,d118,d269,d182,d215",0.15,1.0
+pte_non_ar_hetero_6_ring.Arg0,pte_atm_count.Arg0,339.81609195402297,0.0,"d111,d112,d114,d117,d118","d158,d194,d115,d178,d310","d111,d118,d269,d182,d215",0.15,1.0
+pte_non_ar_hetero_6_ring.Arg0,pte_atm_max_charge.Arg0,339.81609195402297,0.0,"d111,d112,d114,d117,d118","d319,d239,d119,d193,d245","d111,d118,d269,d182,d215",0.15,1.0
+pte_non_ar_hetero_6_ring.Arg0,pte_has_property.Arg0,1023.2988505747128,0.0,"d111,d112,d114,d117,d118","d1,d10,d100,d101,d102","d111,d118,d269,d182,d215",0.145,0.922
+pte_non_ar_hetero_6_ring.Arg0,pte_active.Arg0,161.816091954023,0.0,"d111,d112,d114,d117,d118","d1,d10,d100,d101,d102","d232,d87,d203,d242,d193",0.092,0.353
+pte_phenol.Arg0,pte_postestactive.Arg0,49.0,0.0,"d133,d138,d140,d149,d151","d296,d305,d306,d307,d308","d325,d329,d330,d305,d323",0.093,0.128
+pte_phenol.Arg0,pte_atm_max_charge.Arg0,339.9795918367347,0.0,"d133,d138,d140,d149,d151","d319,d239,d119,d193,d245","d325,d299,d221,d149,d49",0.115,1.0
+pte_phenol.Arg0,pte_has_property.Arg0,1023.8979591836736,0.0,"d133,d138,d140,d149,d151","d1,d10,d100,d101,d102","d325,d299,d221,d149,d49",0.115,0.949
+pte_phenol.Arg0,pte_active.Arg0,162.0,0.0,"d133,d138,d140,d149,d151","d1,d10,d100,d101,d102","d140,d47,d233,d93,d49",0.058,0.282
+pte_phenol.Arg0,pte_ames.Arg0,142.0,0.0,"d133,d138,d140,d149,d151","d1,d10,d11,d113,d12","d47,d325,d294,d49,d329",0.071,0.308
+pte_postestactive.Arg0,pte_ether.Arg0,336.0,0.0,"d296,d305,d306,d307,d308","d10,d108,d109,d11,d111","d308,d316,d331,d320,d306",0.074,0.6
+pte_postestactive.Arg0,pte_mutagenic.Arg0,138.0,0.0,"d296,d305,d306,d307,d308","d101,d104,d106,d107,d112","d308,d314,d311,d329,d332",0.06,0.45
+pte_postestactive.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d7,d23_2,d2,d70,d11","d337,d325,d333,d323,d336",0.059,1.0
+pte_postestactive.Arg0,pte_atm_count.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d158,d194,d115,d178,d310","d337,d325,d333,d323,d336",0.059,1.0
+pte_postestactive.Arg0,pte_ketone.Arg0,143.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d114,d123,d124","d308,d331,d320,d311,d315",0.045,0.25
+pte_postestactive.Arg0,pte_amine.Arg0,181.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d11,d114,d117","d325,d314,d311,d315,d333",0.053,0.35
+pte_postestactive.Arg0,pte_ames.Arg0,142.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d11,d113,d12","d316,d337,d331,d325,d320",0.066,0.5
+pte_postestactive.Arg0,pte_bound_cnt.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d158,d194,d115,d178,d310","d337,d325,d333,d323,d336",0.059,1.0
+pte_postestactive.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d319,d239,d119,d193,d245","d337,d325,d333,d323,d336",0.059,1.0
+pte_postestactive.Arg0,pte_has_property.Arg0,1024.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d102","d337,d325,d333,d323,d336",0.062,1.0
 pte_postestactive.Arg0,pte_active.Arg0,162.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d102",,0.0,0.0
-pte_postestactive.Arg0,pte_amine.Arg0,181.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d11,d114,d117","d330,d333,d325,d314,d322",0.053,0.35
-pte_postestactive.Arg0,pte_bound_cnt.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d158,d194,d115,d178,d310","d314,d307,d315,d337,d306",0.059,1.0
-pte_postestactive.Arg0,pte_ames.Arg0,142.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d11,d113,d12","d323,d329,d333,d332,d336",0.066,0.5
-pte_postestactive.Arg0,pte_methyl.Arg0,378.0,0.0,"d296,d305,d306,d307,d308","d107,d11,d113,d119,d12","d323,d330,d329,d333,d336",0.047,0.4
-pte_postestactive.Arg0,pte_ether.Arg0,336.0,0.0,"d296,d305,d306,d307,d308","d10,d108,d109,d11,d111","d323,d306,d330,d329,d336",0.074,0.6
-pte_postestactive.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d7,d23_2,d2,d70,d11","d314,d307,d315,d337,d306",0.059,1.0
-pte_postestactive.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d319,d239,d119,d193,d245","d314,d307,d315,d337,d306",0.059,1.0
-pte_postestactive.Arg0,pte_atm_count.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d158,d194,d115,d178,d310","d314,d307,d315,d337,d306",0.059,1.0
-pte_postestactive_neg.Arg0,pte_ketone.Arg0,143.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d114,d123,d124","d297,d300,d302,d320,d312",0.098,0.308
+pte_postestactive.Arg0,pte_methyl.Arg0,378.0,0.0,"d296,d305,d306,d307,d308","d107,d11,d113,d119,d12","d316,d336,d307,d311,d329",0.047,0.4
+pte_postestactive_neg.Arg0,pte_non_ar_6c_ring.Arg0,365.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d106","d325,d299,d333,d323,d336",0.115,0.692
+pte_postestactive_neg.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d7,d23_2,d2,d70,d11","d337,d325,d317,d299,d328",0.115,1.0
 pte_postestactive_neg.Arg0,pte_non_ar_5c_ring.Arg0,39.0,0.0,"d296,d305,d306,d307,d308","d101,d106,d112,d121,d128",d328,0.02,0.026
-pte_postestactive_neg.Arg0,pte_alcohol.Arg0,39.0,0.0,"d296,d305,d306,d307,d308","d65,d72,d78,d89,d97",,0.0,0.0
-pte_postestactive_neg.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d7,d23_2,d2,d70,d11","d319,d314,d326,d313,d307",0.115,1.0
-pte_postestactive_neg.Arg0,pte_active.Arg0,162.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d102",,0.0,0.0
-pte_postestactive_neg.Arg0,pte_amine.Arg0,181.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d11,d114,d117","d330,d333,d317,d322,d318",0.09,0.333
-pte_postestactive_neg.Arg0,pte_ames.Arg0,142.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d11,d113,d12","d323,d329,d333,d332,d319",0.09,0.385
-pte_postestactive_neg.Arg0,pte_methyl.Arg0,378.0,0.0,"d296,d305,d306,d307,d308","d107,d11,d113,d119,d12","d323,d329,d330,d333,d297",0.087,0.41
-pte_postestactive_neg.Arg0,pte_non_ar_6c_ring.Arg0,365.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d106","d314,d326,d313,d315,d304",0.115,0.692
 pte_postestactive_neg.Arg0,pte_imine.Arg0,39.0,0.0,"d296,d305,d306,d307,d308","d175,d211,d217,d252,d27",,0.0,0.0
-pte_postestactive_neg.Arg0,pte_sulfo.Arg0,39.0,0.0,"d296,d305,d306,d307,d308","d212,d221,d224,d280,d301","d330,d329,d322,d318",0.083,0.103
-pte_postestactive_neg.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d319,d239,d119,d193,d245","d319,d314,d326,d313,d307",0.115,1.0
-pte_sulfide.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d109,d117,d124,d142,d146","d7,d23_2,d2,d70,d11","d256,d171,d290,d36,d208_2",0.124,1.0
-pte_sulfide.Arg0,pte_active.Arg0,162.0,0.0,"d109,d117,d124,d142,d146","d1,d10,d100,d101,d102","d205,d109,d288,d36,d290",0.052,0.238
-pte_sulfide.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d109,d117,d124,d142,d146","d319,d239,d119,d193,d245","d256,d171,d290,d36,d208_2",0.124,1.0
-pte_sulfide.Arg0,pte_postestactive.Arg0,62.0,0.0,"d109,d117,d124,d142,d146","d296,d305,d306,d307,d308","d330,d329,d322",0.051,0.071
-pte_testactive.Arg0,pte_ketone.Arg0,143.0,0.0,"d297,d298,d299,d300,d302","d1,d109,d114,d123,d124","d297,d300,d302,d320,d312",0.098,0.308
+pte_postestactive_neg.Arg0,pte_alcohol.Arg0,39.0,0.0,"d296,d305,d306,d307,d308","d65,d72,d78,d89,d97",,0.0,0.0
+pte_postestactive_neg.Arg0,pte_ketone.Arg0,143.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d114,d123,d124","d308,d297,d312,d331,d320",0.098,0.308
+pte_postestactive_neg.Arg0,pte_amine.Arg0,181.0,0.0,"d296,d305,d306,d307,d308","d1,d109,d11,d114,d117","d318,d325,d335,d317,d314",0.09,0.333
+pte_postestactive_neg.Arg0,pte_ames.Arg0,142.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d11,d113,d12","d316,d337,d331,d319,d325",0.09,0.385
+pte_postestactive_neg.Arg0,pte_sulfo.Arg0,39.0,0.0,"d296,d305,d306,d307,d308","d212,d221,d224,d280,d301","d322,d329,d318,d330",0.083,0.103
+pte_postestactive_neg.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d296,d305,d306,d307,d308","d319,d239,d119,d193,d245","d337,d325,d317,d299,d328",0.115,1.0
+pte_postestactive_neg.Arg0,pte_active.Arg0,162.0,0.0,"d296,d305,d306,d307,d308","d1,d10,d100,d101,d102",,0.0,0.0
+pte_postestactive_neg.Arg0,pte_methyl.Arg0,378.0,0.0,"d296,d305,d306,d307,d308","d107,d11,d113,d119,d12","d312,d316,d319,d313,d336",0.087,0.41
+pte_sulfide.Arg0,pte_postestactive.Arg0,62.0,0.0,"d109,d117,d124,d142,d146","d296,d305,d306,d307,d308","d329,d322,d330",0.051,0.071
+pte_sulfide.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d109,d117,d124,d142,d146","d7,d23_2,d2,d70,d11","d124,d182,d58,d280,d221",0.124,1.0
+pte_sulfide.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d109,d117,d124,d142,d146","d319,d239,d119,d193,d245","d124,d182,d58,d280,d221",0.124,1.0
+pte_sulfide.Arg0,pte_active.Arg0,162.0,0.0,"d109,d117,d124,d142,d146","d1,d10,d100,d101,d102","d288,d58,d40,d109,d36",0.052,0.238
+pte_testactive.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d297,d298,d299,d300,d302","d7,d23_2,d2,d70,d11","d337,d325,d317,d299,d328",0.115,1.0
 pte_testactive.Arg0,pte_non_ar_5c_ring.Arg0,39.0,0.0,"d297,d298,d299,d300,d302","d101,d106,d112,d121,d128",d328,0.02,0.026
-pte_testactive.Arg0,pte_alcohol.Arg0,39.0,0.0,"d297,d298,d299,d300,d302","d65,d72,d78,d89,d97",,0.0,0.0
-pte_testactive.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,"d297,d298,d299,d300,d302","d7,d23_2,d2,d70,d11","d319,d314,d326,d307,d313",0.115,1.0
-pte_testactive.Arg0,pte_active.Arg0,162.0,0.0,"d297,d298,d299,d300,d302","d1,d10,d100,d101,d102",,0.0,0.0
-pte_testactive.Arg0,pte_amine.Arg0,181.0,0.0,"d297,d298,d299,d300,d302","d1,d109,d11,d114,d117","d330,d333,d317,d322,d318",0.09,0.333
-pte_testactive.Arg0,pte_bound_cnt.Arg0,340.0,0.0,"d297,d298,d299,d300,d302","d158,d194,d115,d178,d310","d319,d314,d326,d307,d313",0.115,1.0
-pte_testactive.Arg0,pte_ames.Arg0,142.0,0.0,"d297,d298,d299,d300,d302","d1,d10,d11,d113,d12","d323,d329,d333,d324,d332",0.09,0.385
-pte_testactive.Arg0,pte_methyl.Arg0,378.0,0.0,"d297,d298,d299,d300,d302","d107,d11,d113,d119,d12","d323,d329,d330,d297,d333",0.087,0.41
 pte_testactive.Arg0,pte_imine.Arg0,39.0,0.0,"d297,d298,d299,d300,d302","d175,d211,d217,d252,d27",,0.0,0.0
-pte_testactive.Arg0,pte_sulfo.Arg0,39.0,0.0,"d297,d298,d299,d300,d302","d212,d221,d224,d280,d301","d330,d329,d322,d318",0.083,0.103
-pte_testactive.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d297,d298,d299,d300,d302","d319,d239,d119,d193,d245","d319,d314,d326,d307,d313",0.115,1.0
-pte_testactive_neg.Arg0,pte_ketone.Arg0,143.0,0.0,,"d1,d109,d114,d123,d124",,0.0,0.0
-pte_testactive_neg.Arg0,pte_non_ar_5c_ring.Arg0,39.0,0.0,,"d101,d106,d112,d121,d128",,0.0,0.0
-pte_testactive_neg.Arg0,pte_alcohol.Arg0,39.0,0.0,,"d65,d72,d78,d89,d97",,0.0,0.0
+pte_testactive.Arg0,pte_alcohol.Arg0,39.0,0.0,"d297,d298,d299,d300,d302","d65,d72,d78,d89,d97",,0.0,0.0
+pte_testactive.Arg0,pte_ketone.Arg0,143.0,0.0,"d297,d298,d299,d300,d302","d1,d109,d114,d123,d124","d308,d312,d331,d320,d311",0.098,0.308
+pte_testactive.Arg0,pte_amine.Arg0,181.0,0.0,"d297,d298,d299,d300,d302","d1,d109,d11,d114,d117","d318,d325,d335,d317,d314",0.09,0.333
+pte_testactive.Arg0,pte_ames.Arg0,142.0,0.0,"d297,d298,d299,d300,d302","d1,d10,d11,d113,d12","d316,d337,d331,d319,d325",0.09,0.385
+pte_testactive.Arg0,pte_sulfo.Arg0,39.0,0.0,"d297,d298,d299,d300,d302","d212,d221,d224,d280,d301","d322,d329,d318,d330",0.083,0.103
+pte_testactive.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,"d297,d298,d299,d300,d302","d319,d239,d119,d193,d245","d337,d325,d317,d299,d328",0.115,1.0
+pte_testactive.Arg0,pte_bound_cnt.Arg0,340.0,0.0,"d297,d298,d299,d300,d302","d158,d194,d115,d178,d310","d337,d325,d317,d299,d328",0.115,1.0
+pte_testactive.Arg0,pte_active.Arg0,162.0,0.0,"d297,d298,d299,d300,d302","d1,d10,d100,d101,d102",,0.0,0.0
+pte_testactive.Arg0,pte_methyl.Arg0,378.0,0.0,"d297,d298,d299,d300,d302","d107,d11,d113,d119,d12","d312,d316,d319,d313,d336",0.087,0.41
+pte_testactive_neg.Arg0,pte_non_ar_6c_ring.Arg0,365.0,0.0,,"d1,d10,d100,d101,d106",,0.0,0.0
 pte_testactive_neg.Arg0,pte_atm_min_charge.Arg0,340.0,0.0,,"d7,d23_2,d2,d70,d11",,0.0,0.0
-pte_testactive_neg.Arg0,pte_active.Arg0,162.0,0.0,,"d1,d10,d100,d101,d102",,0.0,0.0
+pte_testactive_neg.Arg0,pte_non_ar_5c_ring.Arg0,39.0,0.0,,"d101,d106,d112,d121,d128",,0.0,0.0
+pte_testactive_neg.Arg0,pte_imine.Arg0,39.0,0.0,,"d175,d211,d217,d252,d27",,0.0,0.0
+pte_testactive_neg.Arg0,pte_alcohol.Arg0,39.0,0.0,,"d65,d72,d78,d89,d97",,0.0,0.0
+pte_testactive_neg.Arg0,pte_ketone.Arg0,143.0,0.0,,"d1,d109,d114,d123,d124",,0.0,0.0
 pte_testactive_neg.Arg0,pte_amine.Arg0,181.0,0.0,,"d1,d109,d11,d114,d117",,0.0,0.0
 pte_testactive_neg.Arg0,pte_ames.Arg0,142.0,0.0,,"d1,d10,d11,d113,d12",,0.0,0.0
-pte_testactive_neg.Arg0,pte_methyl.Arg0,378.0,0.0,,"d107,d11,d113,d119,d12",,0.0,0.0
-pte_testactive_neg.Arg0,pte_non_ar_6c_ring.Arg0,365.0,0.0,,"d1,d10,d100,d101,d106",,0.0,0.0
-pte_testactive_neg.Arg0,pte_imine.Arg0,39.0,0.0,,"d175,d211,d217,d252,d27",,0.0,0.0
 pte_testactive_neg.Arg0,pte_sulfo.Arg0,39.0,0.0,,"d212,d221,d224,d280,d301",,0.0,0.0
 pte_testactive_neg.Arg0,pte_atm_max_charge.Arg0,340.0,0.0,,"d319,d239,d119,d193,d245",,0.0,0.0
-ukdebate.country,gender_development.Country,148.71794871794873,0.0,,"Norway,Australia,Switzerland,Denmark,Netherlands",,0.0,0.0
-ukdebate.country,who_suicide_statistics.country,420.0,0.0,,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,0.0,0.0
-ukdebate.country,countries_data.CountryName,176.0,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+pte_testactive_neg.Arg0,pte_active.Arg0,162.0,0.0,,"d1,d10,d100,d101,d102",,0.0,0.0
+pte_testactive_neg.Arg0,pte_methyl.Arg0,378.0,0.0,,"d107,d11,d113,d119,d12",,0.0,0.0
 ukdebate.country,world_countries_env_vars.Country,119.34156378600824,0.0,,,,0.0,0.0
+ukdebate.country,gender_development.Country,148.71794871794873,0.0,,"Norway,Australia,Switzerland,Denmark,Netherlands",,0.0,0.0
+ukdebate.country,whr2015.Country,189.873417721519,0.0,,"Switzerland,Iceland,Denmark,Norway,Canada",,0.0,0.0
 ukdebate.country,word_university_rank_2020.Country,645.0,0.0,,"United Kingdom,United States,Switzerland,Canada,China",,0.0,0.0
 ukdebate.country,countries_metadatacountries.CountryName,32.388663967611336,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
-ukdebate.country,usa_cars_datasets.country,1024.0,0.0,,,,0.0,0.0
-ukdebate.country,edu.country,270.0,0.0,,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,0.0,0.0
 ukdebate.country,movie_metadata.country,1024.0,0.0,,"USA,UK,New Zealand,Canada,Australia",,0.0,0.0
-ukdebate.country,countries_of_the_world.Country,132.15859030837004,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
-ukdebate.country,world-cities.country,1023.0,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
+ukdebate.country,edu.country,270.0,0.0,,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,0.0,0.0
 ukdebate.country,movies.country,1024.0,0.0,,"USA,UK,Australia,Italy,France",,0.0,0.0
-ukdebate.country,whr2015.Country,189.873417721519,0.0,,"Switzerland,Iceland,Denmark,Norway,Canada",,0.0,0.0
+ukdebate.country,who_suicide_statistics.country,420.0,0.0,,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,0.0,0.0
+ukdebate.country,countries_of_the_world.Country,132.15859030837004,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
+ukdebate.country,netflix_titles.country,1024.0,0.0,,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,0.0,0.0
+ukdebate.country,usa_cars_datasets.country,1024.0,0.0,,,,0.0,0.0
+ukdebate.country,world-cities.country,1023.0,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
 ukdebate.country,moviesonstreamingplatforms_updated.Country,1024.0,0.0,,,,0.0,0.0
 ukdebate.country,cwurdata.country,912.0,0.0,,,,0.0,0.0
-ukdebate.country,netflix_titles.country,1024.0,0.0,,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,0.0,0.0
-usa_cars_datasets.country,gender_development.Country,219.89743589743588,0.0,,"Norway,Australia,Switzerland,Denmark,Netherlands",,0.0,0.0
-usa_cars_datasets.country,who_suicide_statistics.country,734.736,0.0,,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,0.0,0.0
-usa_cars_datasets.country,countries_data.CountryName,263.648,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+ukdebate.country,countries_data.CountryName,176.0,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
 usa_cars_datasets.country,world_countries_env_vars.Country,201.0699588477366,0.0,,,,0.0,0.0
+usa_cars_datasets.country,gender_development.Country,219.89743589743588,0.0,,"Norway,Australia,Switzerland,Denmark,Netherlands",,0.0,0.0
+usa_cars_datasets.country,whr2015.Country,277.746835443038,0.0,,"Switzerland,Iceland,Denmark,Norway,Canada",,0.0,0.0
 usa_cars_datasets.country,word_university_rank_2020.Country,827.328,0.0,,"United Kingdom,United States,Switzerland,Canada,China",,0.0,0.0
 usa_cars_datasets.country,countries_metadatacountries.CountryName,32.35627530364373,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
-usa_cars_datasets.country,edu.country,500.84,0.0,,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,0.0,0.0
-usa_cars_datasets.country,movie_metadata.country,1024.0,0.0,,"USA,UK,New Zealand,Canada,Australia",,0.0,0.0
-usa_cars_datasets.country,countries_of_the_world.Country,210.87224669603523,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
 usa_cars_datasets.country,hfi_cc_2018.countries,9.0,0.0,,"Albania,Algeria,Angola,Argentina,Armenia",,0.0,0.0
-usa_cars_datasets.country,world-cities.country,1023.0,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
-usa_cars_datasets.country,ukdebate.country,1024.0,0.0,,,,0.0,0.0
-usa_cars_datasets.country,whr2015.Country,277.746835443038,0.0,,"Switzerland,Iceland,Denmark,Norway,Canada",,0.0,0.0
-usa_cars_datasets.country,moviesonstreamingplatforms_updated.Country,1024.0,0.0,,,,0.0,0.0
+usa_cars_datasets.country,movie_metadata.country,1024.0,0.0,,"USA,UK,New Zealand,Canada,Australia",,0.0,0.0
+usa_cars_datasets.country,edu.country,500.84,0.0,,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",,0.0,0.0
+usa_cars_datasets.country,who_suicide_statistics.country,734.736,0.0,,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,0.0,0.0
+usa_cars_datasets.country,countries_of_the_world.Country,210.87224669603523,0.0,,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,0.0,0.0
 usa_cars_datasets.country,netflix_titles.country,1024.0,0.0,,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,0.0,0.0
-who_suicide_statistics.country,adventureworks2014_countryregion.Name,5.436974789915967,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","mexico,ireland,bulgaria,malta,ecuador",0.452,0.837
-who_suicide_statistics.country,ukdebate.country,193.536,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,,0.0,0.0
-who_suicide_statistics.country,adventureworks2014_salesterritory.Name,3.1,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,,0.0,0.0
+usa_cars_datasets.country,world-cities.country,1023.0,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
+usa_cars_datasets.country,moviesonstreamingplatforms_updated.Country,1024.0,0.0,,,,0.0,0.0
+usa_cars_datasets.country,ukdebate.country,1024.0,0.0,,,,0.0,0.0
+usa_cars_datasets.country,countries_data.CountryName,263.648,0.0,,"Aruba,Afghanistan,Angola,Albania,Andorra",,0.0,0.0
+who_suicide_statistics.country,affirmative_asylum.ContinentCountryofNationality,2.091743119266055,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Africa,Asia,Europe,North America,Oceania","israel,guatemala,belarus,mexico,philippines",0.215,0.312
 who_suicide_statistics.country,usa_cars_datasets.country,297.984,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,,0.0,0.0
-who_suicide_statistics.country,affirmative_asylum.ContinentCountryofNationality,2.091743119266055,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Africa,Asia,Europe,North America,Oceania","mexico,jordan,armenia,haiti,guyana",0.215,0.312
-whr2015.Country,adventureworks2014_countryregion.Name,1.810126582278481,0.0,"Switzerland,Iceland,Denmark,Norway,Canada","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","mexico,sierra leone,gabon,ireland,central african republic",0.584,0.924
+who_suicide_statistics.country,adventureworks2014_salesterritory.Name,3.1,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,,0.0,0.0
+who_suicide_statistics.country,adventureworks2014_countryregion.Name,5.436974789915967,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","antigua and barbuda,israel,martinique,norway,kyrgyzstan",0.452,0.837
+who_suicide_statistics.country,ukdebate.country,193.536,0.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",,,0.0,0.0
 whr2015.Country,ukdebate.country,194.43037974683543,0.0,"Switzerland,Iceland,Denmark,Norway,Canada",,,0.0,0.0
 whr2015.Country,usa_cars_datasets.country,285.1645569620253,0.0,"Switzerland,Iceland,Denmark,Norway,Canada",,,0.0,0.0
-word_university_rank_2020.Country,adventureworks2014_countryregion.Name,3.6554621848739495,0.0,"United Kingdom,United States,Switzerland,Canada,China","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","mexico,ireland,algeria,bulgaria,malta",0.347,0.924
-word_university_rank_2020.Country,ukdebate.country,618.496,0.0,"United Kingdom,United States,Switzerland,Canada,China",,,0.0,0.0
-word_university_rank_2020.Country,world_country.Name,3.640167364016736,0.0,"United Kingdom,United States,Switzerland,Canada,China","Aruba,Afghanistan,Angola,Anguilla,Albania","mexico,ireland,algeria,bulgaria,malta",0.362,0.957
-word_university_rank_2020.Country,adventureworks2014_salesterritory.Name,12.2,0.0,"United Kingdom,United States,Switzerland,Canada,China",,,0.0,0.0
+whr2015.Country,adventureworks2014_countryregion.Name,1.810126582278481,0.0,"Switzerland,Iceland,Denmark,Norway,Canada","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,norway,kyrgyzstan,djibouti,angola",0.584,0.924
 word_university_rank_2020.Country,usa_cars_datasets.country,768.0,0.0,"United Kingdom,United States,Switzerland,Canada,China",,,0.0,0.0
-world_countries_env_vars.Country,adventureworks2014_countryregion.Name,1.5546218487394958,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
+word_university_rank_2020.Country,adventureworks2014_salesterritory.Name,12.2,0.0,"United Kingdom,United States,Switzerland,Canada,China",,,0.0,0.0
+word_university_rank_2020.Country,adventureworks2014_countryregion.Name,3.6554621848739495,0.0,"United Kingdom,United States,Switzerland,Canada,China","Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","israel,norway,sri lanka,united arab emirates,iceland",0.347,0.924
+word_university_rank_2020.Country,world_country.Name,3.640167364016736,0.0,"United Kingdom,United States,Switzerland,Canada,China","Aruba,Afghanistan,Angola,Anguilla,Albania","israel,norway,sri lanka,united arab emirates,iceland",0.362,0.957
+word_university_rank_2020.Country,ukdebate.country,618.496,0.0,"United Kingdom,United States,Switzerland,Canada,China",,,0.0,0.0
+world_countries_env_vars.Country,netflix_titles.country,122.20576131687244,0.0,,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,0.0,0.0
 world_countries_env_vars.Country,ukdebate.country,122.20576131687244,0.0,,,,0.0,0.0
 world_countries_env_vars.Country,usa_cars_datasets.country,206.48559670781893,0.0,,,,0.0,0.0
-world_countries_env_vars.Country,netflix_titles.country,122.20576131687244,0.0,,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,0.0,0.0
-world_country.Name,adventureworks2014_salesterritory.Name,5.7,0.0,"Aruba,Afghanistan,Angola,Anguilla,Albania",,,0.0,0.0
+world_countries_env_vars.Country,adventureworks2014_countryregion.Name,1.5546218487394958,0.0,,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,0.0,0.0
 world_country.Name,cwurdata.country,1.891213389121339,0.0,"Aruba,Afghanistan,Angola,Anguilla,Albania",,,0.0,0.0
-world-cities.country,adventureworks2014_salesterritory.Name,9.0,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
+world_country.Name,adventureworks2014_salesterritory.Name,5.7,0.0,"Aruba,Afghanistan,Angola,Anguilla,Albania",,,0.0,0.0
 world-cities.country,ukdebate.country,545.792,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
 world-cities.country,usa_cars_datasets.country,740.352,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
+world-cities.country,adventureworks2014_salesterritory.Name,9.0,0.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0

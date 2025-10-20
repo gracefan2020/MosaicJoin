@@ -1,145 +1,145 @@
 query,candidate,deepjoin_score,query_samples,candidate_samples,overlapping_values,Jaccard_similarity,intersection_query_fraction
-adventureworks2014_countryregion.Name,world_city.Name,0.8483,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.029
-adventureworks2014_countryregion.Name,adventureworks2014_currency.Name,0.7672,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
 adventureworks2014_countryregion.Name,language.Name,0.7584,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
-adventureworks2014_salesterritory.Name,worldcitiespop.Country,0.7023,,"ad,ae,af,ag,ai",,0.0,0.0
+adventureworks2014_countryregion.Name,adventureworks2014_currency.Name,0.7672,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
+adventureworks2014_countryregion.Name,world_city.Name,0.8483,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","singapore,kuwait,armenia,san marino,mexico",0.002,0.029
 adventureworks2014_salesterritory.Name,countries_of_the_world.Region,0.7437,,"ASIA (EX. NEAR EAST),EASTERN EUROPE,NORTHERN AFRICA,OCEANIA,WESTERN EUROPE",,0.0,0.0
+adventureworks2014_salesterritory.Name,worldcitiespop.Country,0.7023,,"ad,ae,af,ag,ai",,0.0,0.0
 affirmative_asylum.ContinentCountryofNationality,acquisitions.Country,0.7088,"Africa,Asia,Europe,North America,Oceania","USA,GER,FIN,CAN,UK",,0.0,0.0
 affirmative_asylum.ContinentCountryofNationality,countries_and_continents.Continent,0.7175,"Africa,Asia,Europe,North America,Oceania","AS,EU,AF,OC,AN",,0.0,0.0
-countries_and_continents.name,adventureworks2014_currency.Name,0.7975,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
+countries_and_continents.name,countries_and_continents.official_name_en,0.8915,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Channel Islands,Sark,Afghanistan,Albania,Algeria","israel,namibia,andorra,martinique,norway",0.661,0.783
 countries_and_continents.name,language.Name,0.7712,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
-countries_and_continents.name,countries_and_continents.ISO4217-currency_country_name,0.7233,"Afghanistan,Albania,Algeria,American Samoa,Andorra","AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","mexico,eritrea,sierra leone,gabon,ireland",0.669,0.779
-countries_and_continents.name,countries_and_continents.official_name_fr,0.7436,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","sierra leone,gabon,panama,togo,kiribati",0.169,0.285
-countries_and_continents.name,countries_and_continents.official_name_en,0.8915,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Channel Islands,Sark,Afghanistan,Albania,Algeria","mexico,eritrea,sierra leone,gabon,ireland",0.661,0.783
-countries_and_continents.name,world_city.Name,0.8539,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.028
-countries_and_continents.official_name_en,countries_and_continents.name,0.8915,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Afghanistan,Albania,Algeria,American Samoa,Andorra","mexico,eritrea,sierra leone,gabon,ireland",0.661,0.809
-countries_and_continents.official_name_en,adventureworks2014_currency.Name,0.7282,"Channel Islands,Sark,Afghanistan,Albania,Algeria",,,0.0,0.0
+countries_and_continents.name,adventureworks2014_currency.Name,0.7975,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
+countries_and_continents.name,countries_and_continents.ISO4217-currency_country_name,0.7233,"Afghanistan,Albania,Algeria,American Samoa,Andorra","AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","israel,namibia,andorra,martinique,norway",0.669,0.779
+countries_and_continents.name,countries_and_continents.official_name_fr,0.7436,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","togo,guatemala,mozambique,vanuatu,ghana",0.169,0.285
+countries_and_continents.name,world_city.Name,0.8539,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","singapore,kuwait,armenia,san marino,mexico",0.002,0.028
 countries_and_continents.official_name_en,language.Name,0.7204,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
-countries_and_continents.official_name_en,countries_and_continents.ISO4217-currency_country_name,0.7456,"Channel Islands,Sark,Afghanistan,Albania,Algeria","AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","mexico,eritrea,sierra leone,gabon,ireland",0.859,0.913
-countries_and_continents.official_name_en,countries_and_continents.official_name_fr,0.8269,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","sierra leone,gabon,panama,cabo verde,togo",0.184,0.311
-countries_and_continents.official_name_en,world_city.Name,0.7355,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.029
+countries_and_continents.official_name_en,adventureworks2014_currency.Name,0.7282,"Channel Islands,Sark,Afghanistan,Albania,Algeria",,,0.0,0.0
+countries_and_continents.official_name_en,countries_and_continents.ISO4217-currency_country_name,0.7456,"Channel Islands,Sark,Afghanistan,Albania,Algeria","AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","antigua and barbuda,israel,namibia,andorra,martinique",0.859,0.913
+countries_and_continents.official_name_en,countries_and_continents.official_name_fr,0.8269,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","togo,guatemala,mozambique,vanuatu,ghana",0.184,0.311
+countries_and_continents.official_name_en,world_city.Name,0.7355,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","singapore,kuwait,armenia,san marino,mexico",0.002,0.029
+countries_and_continents.official_name_en,countries_and_continents.name,0.8915,"Channel Islands,Sark,Afghanistan,Albania,Algeria","Afghanistan,Albania,Algeria,American Samoa,Andorra","israel,namibia,andorra,martinique,norway",0.661,0.809
+countries_and_continents.ISO4217-currency_country_name,countries_and_continents.name,0.7233,"AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","Afghanistan,Albania,Algeria,American Samoa,Andorra","israel,namibia,andorra,martinique,norway",0.669,0.826
+countries_and_continents.ISO4217-currency_country_name,countries_and_continents.official_name_en,0.7456,"AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","Channel Islands,Sark,Afghanistan,Albania,Algeria","antigua and barbuda,israel,namibia,andorra,martinique",0.859,0.936
 countries_and_continents.ISO4217-currency_country_name,countries_and_continents.ISO4217-currency_name,0.7965,"AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","Afghani,Lek,Algerian Dinar,US Dollar,Euro",,0.0,0.0
-countries_and_continents.ISO4217-currency_country_name,countries_and_continents.official_name_en,0.7456,"AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","Channel Islands,Sark,Afghanistan,Albania,Algeria","mexico,eritrea,sierra leone,gabon,ireland",0.859,0.936
-countries_and_continents.ISO4217-currency_country_name,countries_and_continents.name,0.7233,"AFGHANISTAN,ALBANIA,ALGERIA,AMERICAN SAMOA,ANDORRA","Afghanistan,Albania,Algeria,American Samoa,Andorra","mexico,eritrea,sierra leone,gabon,ireland",0.669,0.826
-countries_and_continents.official_name_fr,countries_and_continents.official_name_en,0.8269,"Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","Channel Islands,Sark,Afghanistan,Albania,Algeria","sierra leone,gabon,panama,cabo verde,togo",0.184,0.311
-countries_and_continents.official_name_fr,countries_and_continents.name,0.7436,"Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","Afghanistan,Albania,Algeria,American Samoa,Andorra","sierra leone,gabon,panama,togo,kiribati",0.169,0.295
-countries_data.CountryName,directory.Country,0.7081,"Aruba,Afghanistan,Angola,Albania,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
-countries_data.CountryName,worldcitiespop.Country,0.7399,"Aruba,Afghanistan,Angola,Albania,Andorra","ad,ae,af,ag,ai",,0.0,0.0
+countries_and_continents.official_name_fr,countries_and_continents.name,0.7436,"Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","Afghanistan,Albania,Algeria,American Samoa,Andorra","togo,guatemala,mozambique,vanuatu,ghana",0.169,0.295
+countries_and_continents.official_name_fr,countries_and_continents.official_name_en,0.8269,"Îles Anglo-Normandes,Sercq,Afghanistan,Albanie,Algérie","Channel Islands,Sark,Afghanistan,Albania,Algeria","togo,guatemala,mozambique,vanuatu,ghana",0.184,0.311
 countries_data.CountryName,acquisitions.Country,0.7772,"Aruba,Afghanistan,Angola,Albania,Andorra","USA,GER,FIN,CAN,UK",,0.0,0.0
-countries_metadatacountries.CountryName,directory.Country,0.7211,"Aruba,Afghanistan,Angola,Albania,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
-countries_metadatacountries.CountryName,worldcitiespop.Country,0.7476,"Aruba,Afghanistan,Angola,Albania,Andorra","ad,ae,af,ag,ai",,0.0,0.0
+countries_data.CountryName,worldcitiespop.Country,0.7399,"Aruba,Afghanistan,Angola,Albania,Andorra","ad,ae,af,ag,ai",,0.0,0.0
+countries_data.CountryName,directory.Country,0.7081,"Aruba,Afghanistan,Angola,Albania,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
 countries_metadatacountries.CountryName,acquisitions.Country,0.7812,"Aruba,Afghanistan,Angola,Albania,Andorra","USA,GER,FIN,CAN,UK",,0.0,0.0
-countries_of_the_world.Country,directory.Country,0.7047,"Afghanistan,Albania,Algeria,American Samoa,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
-countries_of_the_world.Country,worldcitiespop.Country,0.74,"Afghanistan,Albania,Algeria,American Samoa,Andorra","ad,ae,af,ag,ai",,0.0,0.0
-countries_of_the_world.Country,countries_and_continents.Capital,0.7256,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","monaco,djibouti,hong kong,singapore,gibraltar",0.015,0.031
+countries_metadatacountries.CountryName,worldcitiespop.Country,0.7476,"Aruba,Afghanistan,Angola,Albania,Andorra","ad,ae,af,ag,ai",,0.0,0.0
+countries_metadatacountries.CountryName,directory.Country,0.7211,"Aruba,Afghanistan,Angola,Albania,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
 countries_of_the_world.Country,acquisitions.Country,0.8038,"Afghanistan,Albania,Algeria,American Samoa,Andorra","USA,GER,FIN,CAN,UK",,0.0,0.0
-cwurdata.country,directory.Country,0.8342,,"AD,AE,AR,AT,AU",,0.0,0.0
-cwurdata.country,worldcitiespop.Country,0.8401,,"ad,ae,af,ag,ai",,0.0,0.0
+countries_of_the_world.Country,countries_and_continents.Capital,0.7256,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","singapore,san marino,luxembourg,djibouti,hong kong",0.015,0.031
+countries_of_the_world.Country,worldcitiespop.Country,0.74,"Afghanistan,Albania,Algeria,American Samoa,Andorra","ad,ae,af,ag,ai",,0.0,0.0
+countries_of_the_world.Country,directory.Country,0.7047,"Afghanistan,Albania,Algeria,American Samoa,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
 cwurdata.country,acquisitions.Country,0.9361,,"USA,GER,FIN,CAN,UK",,0.0,0.0
-edu.country,worldcitiespop.Country,0.7319,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","ad,ae,af,ag,ai",,0.0,0.0
-edu.country,countries_and_continents.Capital,0.7167,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","monaco,djibouti,singapore,gibraltar,luxembourg",0.012,0.023
+cwurdata.country,worldcitiespop.Country,0.8401,,"ad,ae,af,ag,ai",,0.0,0.0
+cwurdata.country,directory.Country,0.8342,,"AD,AE,AR,AT,AU",,0.0,0.0
 edu.country,acquisitions.Country,0.8016,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","USA,GER,FIN,CAN,UK",,0.0,0.0
+edu.country,countries_and_continents.Capital,0.7167,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","singapore,san marino,luxembourg,djibouti,gibraltar",0.012,0.023
+edu.country,worldcitiespop.Country,0.7319,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","ad,ae,af,ag,ai",,0.0,0.0
 fifa_ranking.country_full,acquisitions.Country,0.8191,"Germany,Italy,Switzerland,Sweden,Argentina","USA,GER,FIN,CAN,UK",usa,0.004,0.005
-fifa_ranking.country_full,world_city.CountryCode,0.7096,"Germany,Italy,Switzerland,Sweden,Argentina","AFG,NLD,ANT,ALB,DZA",usa,0.002,0.005
-fifa_ranking.country_full,worldcitiespop.Country,0.8387,"Germany,Italy,Switzerland,Sweden,Argentina","ad,ae,af,ag,ai",,0.0,0.0
-fifa_ranking.country_full,countries_target.CountryCode,0.7207,"Germany,Italy,Switzerland,Sweden,Argentina","ABW,AFG,AGO,ALB,AND",usa,0.002,0.005
-fifa_ranking.country_full,directory.Country,0.8007,"Germany,Italy,Switzerland,Sweden,Argentina","AD,AE,AR,AT,AU",,0.0,0.0
-fifa_ranking.country_full,countries_metadatacountries.CountryCode,0.7207,"Germany,Italy,Switzerland,Sweden,Argentina","ABW,AFG,AGO,ALB,AND",usa,0.002,0.005
 fifa_ranking.country_full,countries_data.CountryCode,0.7358,"Germany,Italy,Switzerland,Sweden,Argentina","ABW,AFG,AGO,ALB,AND",,0.0,0.0
+fifa_ranking.country_full,world_city.CountryCode,0.7096,"Germany,Italy,Switzerland,Sweden,Argentina","AFG,NLD,ANT,ALB,DZA",usa,0.002,0.005
+fifa_ranking.country_full,countries_target.CountryCode,0.7207,"Germany,Italy,Switzerland,Sweden,Argentina","ABW,AFG,AGO,ALB,AND",usa,0.002,0.005
 fifa_ranking.country_full,world_countrylanguage.CountryCode,0.7194,"Germany,Italy,Switzerland,Sweden,Argentina",,,0.0,0.0
-gender_development.Country,worldcitiespop.Country,0.7462,"Norway,Australia,Switzerland,Denmark,Netherlands","ad,ae,af,ag,ai",,0.0,0.0
+fifa_ranking.country_full,worldcitiespop.Country,0.8387,"Germany,Italy,Switzerland,Sweden,Argentina","ad,ae,af,ag,ai",,0.0,0.0
+fifa_ranking.country_full,countries_metadatacountries.CountryCode,0.7207,"Germany,Italy,Switzerland,Sweden,Argentina","ABW,AFG,AGO,ALB,AND",usa,0.002,0.005
+fifa_ranking.country_full,directory.Country,0.8007,"Germany,Italy,Switzerland,Sweden,Argentina","AD,AE,AR,AT,AU",,0.0,0.0
 gender_development.Country,acquisitions.Country,0.8069,"Norway,Australia,Switzerland,Denmark,Netherlands","USA,GER,FIN,CAN,UK",,0.0,0.0
-hfi_cc_2018.countries,worldcitiespop.Country,0.7693,"Albania,Algeria,Angola,Argentina,Armenia","ad,ae,af,ag,ai",,0.0,0.0
+gender_development.Country,worldcitiespop.Country,0.7462,"Norway,Australia,Switzerland,Denmark,Netherlands","ad,ae,af,ag,ai",,0.0,0.0
 hfi_cc_2018.countries,acquisitions.Country,0.7998,"Albania,Algeria,Angola,Argentina,Armenia","USA,GER,FIN,CAN,UK",,0.0,0.0
-movie_metadata.country,directory.Country,0.8386,"USA,UK,New Zealand,Canada,Australia","AD,AE,AR,AT,AU",,0.0,0.0
-movie_metadata.country,us_companies.country,0.7048,"USA,UK,New Zealand,Canada,Australia",us,,0.0,0.0
+hfi_cc_2018.countries,worldcitiespop.Country,0.7693,"Albania,Algeria,Angola,Argentina,Armenia","ad,ae,af,ag,ai",,0.0,0.0
+movie_metadata.country,acquisitions.Country,0.9302,"USA,UK,New Zealand,Canada,Australia","USA,GER,FIN,CAN,UK","uk,usa",0.02,0.032
 movie_metadata.country,worldcitiespop.Country,0.8547,"USA,UK,New Zealand,Canada,Australia","ad,ae,af,ag,ai",,0.0,0.0
-movie_metadata.country,acquisitions.Country,0.9302,"USA,UK,New Zealand,Canada,Australia","USA,GER,FIN,CAN,UK","usa,uk",0.02,0.032
-movies.country,worldcitiespop.Country,0.8461,"USA,UK,Australia,Italy,France","ad,ae,af,ag,ai",,0.0,0.0
-movies.country,acquisitions.Country,0.9383,"USA,UK,Australia,Italy,France","USA,GER,FIN,CAN,UK","usa,uk",0.021,0.035
+movie_metadata.country,us_companies.country,0.7048,"USA,UK,New Zealand,Canada,Australia",us,,0.0,0.0
+movie_metadata.country,directory.Country,0.8386,"USA,UK,New Zealand,Canada,Australia","AD,AE,AR,AT,AU",,0.0,0.0
+movies.country,acquisitions.Country,0.9383,"USA,UK,Australia,Italy,France","USA,GER,FIN,CAN,UK","uk,usa",0.021,0.035
 movies.country,us_companies_copy.country,0.7184,"USA,UK,Australia,Italy,France",us,,0.0,0.0
+movies.country,worldcitiespop.Country,0.8461,"USA,UK,Australia,Italy,France","ad,ae,af,ag,ai",,0.0,0.0
 moviesonstreamingplatforms_updated.Country,acquisitions.Country,0.8826,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,countries_data.CountryCode,0.7508,,"ABW,AFG,AGO,ALB,AND",,0.0,0.0
 moviesonstreamingplatforms_updated.Country,world_city.CountryCode,0.7184,,"AFG,NLD,ANT,ALB,DZA",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,fifa_ranking.country_abrv,0.707,,"GER,ITA,SUI,SWE,ARG",,0.0,0.0
 moviesonstreamingplatforms_updated.Country,countries_and_continents.ISO4217-currency_name,0.7065,,"Afghani,Lek,Algerian Dinar,US Dollar,Euro",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,fifa_ranking.country_abrv,0.707,,"GER,ITA,SUI,SWE,ARG",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,world_countrylanguage.CountryCode,0.7185,,,,0.0,0.0
 moviesonstreamingplatforms_updated.Country,worldcitiespop.Country,0.8901,,"ad,ae,af,ag,ai",,0.0,0.0
 moviesonstreamingplatforms_updated.Country,directory.Country,0.8927,,"AD,AE,AR,AT,AU",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,countries_data.CountryCode,0.7508,,"ABW,AFG,AGO,ALB,AND",,0.0,0.0
-moviesonstreamingplatforms_updated.Country,world_countrylanguage.CountryCode,0.7185,,,,0.0,0.0
 netflix_titles.country,acquisitions.Country,0.8516,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","USA,GER,FIN,CAN,UK",,0.0,0.0
+netflix_titles.country,countries_data.CountryCode,0.789,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","ABW,AFG,AGO,ALB,AND",,0.0,0.0
 netflix_titles.country,world_city.CountryCode,0.7653,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","AFG,NLD,ANT,ALB,DZA",,0.0,0.0
 netflix_titles.country,fifa_ranking.country_abrv,0.726,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","GER,ITA,SUI,SWE,ARG",,0.0,0.0
 netflix_titles.country,countries_target.CountryCode,0.766,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","ABW,AFG,AGO,ALB,AND",,0.0,0.0
-netflix_titles.country,directory.Country,0.8769,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","AD,AE,AR,AT,AU",,0.0,0.0
-netflix_titles.country,countries_data.CountryCode,0.789,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","ABW,AFG,AGO,ALB,AND",,0.0,0.0
 netflix_titles.country,world_countrylanguage.CountryCode,0.7657,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",,,0.0,0.0
+netflix_titles.country,directory.Country,0.8769,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","AD,AE,AR,AT,AU",,0.0,0.0
 pte_alcohol.Arg0,pte_has_property.Arg2,0.7487,"d65,d72,d78,d89,d97","p,n",,0.0,0.0
-pte_alcohol.Arg0,pte_ind.Arg2,0.8032,"d65,d72,d78,d89,d97","1,16,18,2,20",,0.0,0.0
-pte_alcohol.Arg0,pte_ind.Arg1,0.7313,"d65,d72,d78,d89,d97","amino,di10,di64,halide10,nitro",,0.0,0.0
 pte_alcohol.Arg0,pte_bound.Arg3,0.8694,"d65,d72,d78,d89,d97","7,1,2,3",,0.0,0.0
+pte_alcohol.Arg0,pte_ind.Arg1,0.7313,"d65,d72,d78,d89,d97","amino,di10,di64,halide10,nitro",,0.0,0.0
+pte_alcohol.Arg0,pte_ind.Arg2,0.8032,"d65,d72,d78,d89,d97","1,16,18,2,20",,0.0,0.0
 pte_ames.Arg0,pte_ketone.Set,0.7013,"d1,d10,d11,d113,d12","[d1_22,d1_14,d1_13,d1_4],[d1_23,d1_11,d1_12,d1_3],[d109_17,d109_12,d109_10,d109_13],[d114_15,d114_10,d114_11,d114_3],[d123_21,d123_9,d123_18,d123_6]",,0.0,0.0
-pte_ames.Arg0,pte_ind.Arg2,0.7597,"d1,d10,d11,d113,d12","1,16,18,2,20",,0.0,0.0
 pte_ames.Arg0,pte_ind.Arg1,0.7035,"d1,d10,d11,d113,d12","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_amine.Arg0,pte_ind.Arg2,0.7713,"d1,d109,d11,d114,d117","1,16,18,2,20",,0.0,0.0
+pte_ames.Arg0,pte_ind.Arg2,0.7597,"d1,d10,d11,d113,d12","1,16,18,2,20",,0.0,0.0
 pte_amine.Arg0,pte_ind.Arg1,0.7164,"d1,d109,d11,d114,d117","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_has_property.Arg0,pte_ind.Arg2,0.7539,"d1,d10,d100,d101,d102","1,16,18,2,20",,0.0,0.0
-pte_has_property.Arg0,pte_bound.Arg3,0.7061,"d1,d10,d100,d101,d102","7,1,2,3",,0.0,0.0
+pte_amine.Arg0,pte_ind.Arg2,0.7713,"d1,d109,d11,d114,d117","1,16,18,2,20",,0.0,0.0
 pte_has_property.Arg0,pte_ester.Set,0.7117,"d1,d10,d100,d101,d102","[d136_15,d136_18,d136_19,d136_14,d136_16],[d136_15,d136_18,d136_19,d136_14,d136_17],[d136_15,d136_18,d136_19,d136_14,d136_1],[d136_3,d136_7,d136_6,d136_2,d136_1],[d136_3,d136_7,d136_6,d136_2,d136_4]",,0.0,0.0
-pte_imine.Arg0,pte_ind.Arg2,0.8627,"d175,d211,d217,d252,d27","1,16,18,2,20",,0.0,0.0
+pte_has_property.Arg0,pte_bound.Arg3,0.7061,"d1,d10,d100,d101,d102","7,1,2,3",,0.0,0.0
+pte_has_property.Arg0,pte_ind.Arg2,0.7539,"d1,d10,d100,d101,d102","1,16,18,2,20",,0.0,0.0
 pte_imine.Arg0,pte_ind.Arg1,0.8031,"d175,d211,d217,d252,d27","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_ketone.Arg0,pte_ind.Arg2,0.7583,"d1,d109,d114,d123,d124","1,16,18,2,20",,0.0,0.0
+pte_imine.Arg0,pte_ind.Arg2,0.8627,"d175,d211,d217,d252,d27","1,16,18,2,20",,0.0,0.0
 pte_ketone.Arg0,pte_ind.Arg1,0.7106,"d1,d109,d114,d123,d124","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_methoxy.Arg0,pte_ind.Arg2,0.8396,"d11,d122,d131,d137,d150","1,16,18,2,20",,0.0,0.0
+pte_ketone.Arg0,pte_ind.Arg2,0.7583,"d1,d109,d114,d123,d124","1,16,18,2,20",,0.0,0.0
 pte_methoxy.Arg0,pte_ind.Arg1,0.7658,"d11,d122,d131,d137,d150","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_nitro.Arg0,pte_ind.Arg2,0.8402,"d127,d13,d131,d16,d18","1,16,18,2,20",,0.0,0.0
+pte_methoxy.Arg0,pte_ind.Arg2,0.8396,"d11,d122,d131,d137,d150","1,16,18,2,20",,0.0,0.0
 pte_nitro.Arg0,pte_ind.Arg1,0.7845,"d127,d13,d131,d16,d18","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_non_ar_5c_ring.Arg0,pte_ind.Arg2,0.8509,"d101,d106,d112,d121,d128","1,16,18,2,20",,0.0,0.0
+pte_nitro.Arg0,pte_ind.Arg2,0.8402,"d127,d13,d131,d16,d18","1,16,18,2,20",,0.0,0.0
 pte_non_ar_5c_ring.Arg0,pte_ind.Arg1,0.7886,"d101,d106,d112,d121,d128","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_non_ar_hetero_5_ring.Arg0,pte_ind.Arg2,0.8349,"d109,d112,d121,d128,d137","1,16,18,2,20",,0.0,0.0
+pte_non_ar_5c_ring.Arg0,pte_ind.Arg2,0.8509,"d101,d106,d112,d121,d128","1,16,18,2,20",,0.0,0.0
 pte_non_ar_hetero_5_ring.Arg0,pte_ind.Arg1,0.787,"d109,d112,d121,d128,d137","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_non_ar_hetero_6_ring.Arg0,pte_ind.Arg2,0.8349,"d111,d112,d114,d117,d118","1,16,18,2,20",,0.0,0.0
+pte_non_ar_hetero_5_ring.Arg0,pte_ind.Arg2,0.8349,"d109,d112,d121,d128,d137","1,16,18,2,20",,0.0,0.0
 pte_non_ar_hetero_6_ring.Arg0,pte_ind.Arg1,0.745,"d111,d112,d114,d117,d118","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_phenol.Arg0,pte_ind.Arg2,0.84,"d133,d138,d140,d149,d151","1,16,18,2,20",,0.0,0.0
+pte_non_ar_hetero_6_ring.Arg0,pte_ind.Arg2,0.8349,"d111,d112,d114,d117,d118","1,16,18,2,20",,0.0,0.0
 pte_phenol.Arg0,pte_ind.Arg1,0.7814,"d133,d138,d140,d149,d151","amino,di10,di64,halide10,nitro",,0.0,0.0
-pte_postestactive.Arg0,pte_ind.Arg2,0.8528,"d296,d305,d306,d307,d308","1,16,18,2,20",,0.0,0.0
+pte_phenol.Arg0,pte_ind.Arg2,0.84,"d133,d138,d140,d149,d151","1,16,18,2,20",,0.0,0.0
 pte_postestactive.Arg0,pte_ind.Arg1,0.7689,"d296,d305,d306,d307,d308","amino,di10,di64,halide10,nitro",,0.0,0.0
+pte_postestactive.Arg0,pte_ind.Arg2,0.8528,"d296,d305,d306,d307,d308","1,16,18,2,20",,0.0,0.0
 pte_postestactive_neg.Arg0,pte_has_property.Arg2,0.7072,"d296,d305,d306,d307,d308","p,n",,0.0,0.0
-pte_postestactive_neg.Arg0,pte_ind.Arg2,0.8355,"d296,d305,d306,d307,d308","1,16,18,2,20",,0.0,0.0
 pte_postestactive_neg.Arg0,pte_ind.Arg1,0.7574,"d296,d305,d306,d307,d308","amino,di10,di64,halide10,nitro",,0.0,0.0
+pte_postestactive_neg.Arg0,pte_ind.Arg2,0.8355,"d296,d305,d306,d307,d308","1,16,18,2,20",,0.0,0.0
 pte_sulfide.Arg0,pte_has_property.Arg2,0.7079,"d109,d117,d124,d142,d146","p,n",,0.0,0.0
-pte_sulfide.Arg0,pte_ind.Arg2,0.8314,"d109,d117,d124,d142,d146","1,16,18,2,20",,0.0,0.0
 pte_sulfide.Arg0,pte_ind.Arg1,0.7593,"d109,d117,d124,d142,d146","amino,di10,di64,halide10,nitro",,0.0,0.0
+pte_sulfide.Arg0,pte_ind.Arg2,0.8314,"d109,d117,d124,d142,d146","1,16,18,2,20",,0.0,0.0
 pte_testactive.Arg0,pte_has_property.Arg2,0.7088,"d297,d298,d299,d300,d302","p,n",,0.0,0.0
-pte_testactive.Arg0,pte_ind.Arg2,0.8353,"d297,d298,d299,d300,d302","1,16,18,2,20",,0.0,0.0
 pte_testactive.Arg0,pte_ind.Arg1,0.7605,"d297,d298,d299,d300,d302","amino,di10,di64,halide10,nitro",,0.0,0.0
+pte_testactive.Arg0,pte_ind.Arg2,0.8353,"d297,d298,d299,d300,d302","1,16,18,2,20",,0.0,0.0
 pte_testactive_neg.Arg0,pte_has_property.Arg2,0.7072,,"p,n",,0.0,0.0
-pte_testactive_neg.Arg0,pte_ind.Arg2,0.8355,,"1,16,18,2,20",,0.0,0.0
 pte_testactive_neg.Arg0,pte_ind.Arg1,0.7574,,"amino,di10,di64,halide10,nitro",,0.0,0.0
+pte_testactive_neg.Arg0,pte_ind.Arg2,0.8355,,"1,16,18,2,20",,0.0,0.0
 ukdebate.country,us_companies.country,0.758,,us,,0.0,0.0
 ukdebate.country,us_companies_copy.country,0.758,,us,,0.0,0.0
 ukdebate.country,ukdebate.region,0.7085,,,,0.0,0.0
-usa_cars_datasets.country,us_companies.country,0.7432,,us,,0.0,0.0
 usa_cars_datasets.country,acquisitions.Country,0.7177,,"USA,GER,FIN,CAN,UK",,0.0,0.0
 usa_cars_datasets.country,us_companies_copy.country,0.7432,,us,,0.0,0.0
-who_suicide_statistics.country,worldcitiespop.Country,0.7545,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","ad,ae,af,ag,ai",,0.0,0.0
-who_suicide_statistics.country,countries_and_continents.Capital,0.7198,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","luxembourg,monaco,singapore,san marino",0.011,0.028
+usa_cars_datasets.country,us_companies.country,0.7432,,us,,0.0,0.0
 who_suicide_statistics.country,acquisitions.Country,0.8266,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","USA,GER,FIN,CAN,UK",,0.0,0.0
-whr2015.Country,worldcitiespop.Country,0.7744,"Switzerland,Iceland,Denmark,Norway,Canada","ad,ae,af,ag,ai",,0.0,0.0
+who_suicide_statistics.country,countries_and_continents.Capital,0.7198,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","luxembourg,singapore,monaco,san marino",0.011,0.028
+who_suicide_statistics.country,worldcitiespop.Country,0.7545,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","ad,ae,af,ag,ai",,0.0,0.0
 whr2015.Country,acquisitions.Country,0.8348,"Switzerland,Iceland,Denmark,Norway,Canada","USA,GER,FIN,CAN,UK",,0.0,0.0
-word_university_rank_2020.Country,directory.Country,0.7993,"United Kingdom,United States,Switzerland,Canada,China","AD,AE,AR,AT,AU",,0.0,0.0
-word_university_rank_2020.Country,worldcitiespop.Country,0.8176,"United Kingdom,United States,Switzerland,Canada,China","ad,ae,af,ag,ai",,0.0,0.0
+whr2015.Country,worldcitiespop.Country,0.7744,"Switzerland,Iceland,Denmark,Norway,Canada","ad,ae,af,ag,ai",,0.0,0.0
 word_university_rank_2020.Country,acquisitions.Country,0.8879,"United Kingdom,United States,Switzerland,Canada,China","USA,GER,FIN,CAN,UK",,0.0,0.0
-world_countries_env_vars.Country,worldcitiespop.Country,0.7267,,"ad,ae,af,ag,ai",,0.0,0.0
-world_countries_env_vars.Country,countries_and_continents.Capital,0.7254,,"Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella",,0.0,0.0
+word_university_rank_2020.Country,worldcitiespop.Country,0.8176,"United Kingdom,United States,Switzerland,Canada,China","ad,ae,af,ag,ai",,0.0,0.0
+word_university_rank_2020.Country,directory.Country,0.7993,"United Kingdom,United States,Switzerland,Canada,China","AD,AE,AR,AT,AU",,0.0,0.0
 world_countries_env_vars.Country,acquisitions.Country,0.7996,,"USA,GER,FIN,CAN,UK",,0.0,0.0
-world_country.Name,world_city.Name,0.8413,"Aruba,Afghanistan,Angola,Anguilla,Albania","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.033
-world_country.Name,world_country.LocalName,0.8598,"Aruba,Afghanistan,Angola,Anguilla,Albania","Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","sierra leone,tuvalu,fiji islands,malta,ecuador",0.269,0.423
+world_countries_env_vars.Country,countries_and_continents.Capital,0.7254,,"Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella",,0.0,0.0
+world_countries_env_vars.Country,worldcitiespop.Country,0.7267,,"ad,ae,af,ag,ai",,0.0,0.0
 world_country.Name,language.Name,0.7457,"Aruba,Afghanistan,Angola,Anguilla,Albania","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
 world_country.Name,adventureworks2014_currency.Name,0.747,"Aruba,Afghanistan,Angola,Anguilla,Albania",,,0.0,0.0
-world_country.LocalName,world_country.Name,0.8598,"Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","Aruba,Afghanistan,Angola,Anguilla,Albania","sierra leone,tuvalu,fiji islands,malta,ecuador",0.269,0.424
+world_country.Name,world_country.LocalName,0.8598,"Aruba,Afghanistan,Angola,Anguilla,Albania","Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","antigua and barbuda,namibia,andorra,martinique,british indian ocean territory",0.269,0.423
+world_country.Name,world_city.Name,0.8413,"Aruba,Afghanistan,Angola,Anguilla,Albania","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","singapore,kuwait,armenia,san marino,mexico",0.002,0.033
+world_country.LocalName,language.Name,0.7718,"Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati,lao",0.001,0.013
+world_country.LocalName,world_country.Name,0.8598,"Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","Aruba,Afghanistan,Angola,Anguilla,Albania","antigua and barbuda,namibia,andorra,martinique,british indian ocean territory",0.269,0.424
 world_country.LocalName,world_city.Name,0.783,"Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","uman,san marino,gibraltar",0.001,0.013
-world_country.LocalName,language.Name,0.7718,"Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","lao,mali,kiribati",0.001,0.013
-world-cities.country,directory.Country,0.7252,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","AD,AE,AR,AT,AU",,0.0,0.0
-world-cities.country,worldcitiespop.Country,0.7557,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","ad,ae,af,ag,ai",,0.0,0.0
-world-cities.country,countries_and_continents.Capital,0.7092,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","monaco,djibouti,singapore,hong kong,gibraltar",0.017,0.033
 world-cities.country,acquisitions.Country,0.8249,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","USA,GER,FIN,CAN,UK",,0.0,0.0
+world-cities.country,countries_and_continents.Capital,0.7092,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Kabul,Tirana,Algiers,Pago Pago,Andorra la Vella","singapore,san marino,luxembourg,djibouti,hong kong",0.017,0.033
+world-cities.country,worldcitiespop.Country,0.7557,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","ad,ae,af,ag,ai",,0.0,0.0
+world-cities.country,directory.Country,0.7252,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","AD,AE,AR,AT,AU",,0.0,0.0
