@@ -1,257 +1,143 @@
-query,candidate,semantic_score
-adventureworks2014_countryregion.Name,language.Name,2.0
-adventureworks2014_countryregion.Name,adventureworks2014_stateprovince.Name,1.0165745856353592
-adventureworks2014_countryregion.Name,adventureworks2014_culture.Name,1.0
-adventureworks2014_countryregion.Name,world_city.Name,1.5630252100840336
-adventureworks2014_countryregion.Name,world-cities.name,1.0588235294117647
-adventureworks2014_countryregion.Name,most_frequent_names.Name,0.9327731092436976
-adventureworks2014_salesterritory.Name,acquisitions.Country,2.8
-adventureworks2014_salesterritory.Name,adventureworks2014_stateprovince.Name,1.8
-affirmative_asylum.ContinentCountryofNationality,countries_and_continents.Continent,1.5229357798165135
-countries_and_continents.name,language.Name,1.7228915662650603
-countries_and_continents.name,adventureworks2014_stateprovince.Name,1.049723756906077
-countries_and_continents.name,adventureworks2014_culture.Name,1.125
-countries_and_continents.name,countries_and_continents.official_name_en,0.9875518672199172
-countries_and_continents.name,world_city.Name,1.3373493975903614
-countries_and_continents.name,world-cities.name,0.9718875502008032
-countries_and_continents.name,most_frequent_names.Name,0.8955823293172691
-countries_and_continents.official_name_en,countries_and_continents.name,0.9875518672199172
-countries_and_continents.official_name_en,countries_and_continents.official_name_fr,3.672199170124481
-countries_and_continents.ISO4217-currency_country_name,countries_and_continents.ISO4217-currency_name,151.5276595744681
-countries_and_continents.ISO4217-currency_country_name,countries_and_continents.ISO4217-currency_minor_unit,1.735042735042735
-countries_and_continents.ISO4217-currency_country_name,countries_and_continents.ISO4217-currency_alphabetic_code,0.7136752136752137
-countries_and_continents.ISO4217-currency_country_name,countries_and_continents.ISO4217-currency_numeric_code,38.55982905982906
-countries_and_continents.official_name_fr,countries_and_continents.official_name_en,3.672199170124481
-countries_data.CountryName,booking.city,0.8820960698689956
-countries_data.CountryName,us_companies_copy.country,33.0
-countries_data.CountryName,adventureworks2014_stateprovince.Name,0.7016574585635359
-countries_data.CountryName,us_companies.country,33.0
-countries_data.CountryName,acquisitions.Country,26.29425287356322
-countries_data.CountryName,countries_metadatacountries.Region,9.948598130841122
-countries_data.CountryName,whr2015.Region,9.879746835443038
-countries_data.CountryName,countries_metadatacountries.IncomeGroup,0.7242990654205608
-countries_data.CountryName,countries_of_the_world.Region,4.704845814977974
-countries_data.CountryName,world_country.Region,3.1589958158995817
-countries_data.CountryName,hfi_cc_2018.region,9.398
-countries_metadatacountries.CountryName,booking.city,0.8582995951417004
-countries_metadatacountries.CountryName,us_companies_copy.country,8.0
-countries_metadatacountries.CountryName,us_companies.country,17.133603238866396
-countries_metadatacountries.CountryName,acquisitions.Country,22.732793522267208
-countries_metadatacountries.CountryName,countries_metadatacountries.Region,1.9345794392523368
-countries_metadatacountries.CountryName,whr2015.Region,1.860759493670886
-countries_metadatacountries.CountryName,directory.Country,3.0121457489878543
-countries_metadatacountries.CountryName,countries_of_the_world.Region,0.7092511013215859
-countries_metadatacountries.CountryName,hfi_cc_2018.region,6.651821862348178
-countries_of_the_world.Country,booking.city,1.0088105726872247
-countries_of_the_world.Country,us_companies_copy.country,43.0
-countries_of_the_world.Country,acquisitions.Country,139.18942731277534
-countries_of_the_world.Country,us_companies.country,100.2070484581498
-cwurdata.country,booking.city,0.7849344978165939
-cwurdata.country,us_companies_copy.country,793.0
-cwurdata.country,us_companies.country,793.0
-cwurdata.country,acquisitions.Country,633.1344827586207
-cwurdata.country,directory.Country,9.54
-cwurdata.country,hfi_cc_2018.region,2.295
-edu.country,booking.city,1.0436681222707425
-edu.country,us_companies_copy.country,154.0
-edu.country,us_companies.country,154.0
-edu.country,acquisitions.Country,137.28850574712644
-edu.country,countries_metadatacountries.Region,11.004672897196262
-edu.country,whr2015.Region,11.816455696202532
-edu.country,countries_metadatacountries.IncomeGroup,1.5420560747663552
-edu.country,directory.Country,5.97
-edu.country,countries_of_the_world.Region,6.39647577092511
-edu.country,world_country.Region,6.828451882845188
-edu.country,hfi_cc_2018.region,12.405
-gender_development.Country,booking.city,1.1743589743589744
-gender_development.Country,us_companies_copy.country,38.0
-gender_development.Country,us_companies.country,103.08717948717948
-gender_development.Country,acquisitions.Country,145.75384615384615
-gender_development.Country,countries_metadatacountries.Region,1.123076923076923
-gender_development.Country,whr2015.Region,0.9430379746835444
-gender_development.Country,directory.Country,5.102564102564102
-gender_development.Country,world_country.Region,1.4564102564102563
-gender_development.Country,hfi_cc_2018.region,6.220512820512821
-hfi_cc_2018.countries,us_companies_copy.country,7.0
-hfi_cc_2018.countries,us_companies.country,7.0
-hfi_cc_2018.countries,acquisitions.Country,5.482758620689655
-hfi_cc_2018.countries,world_country.Region,1.5355648535564854
-hfi_cc_2018.countries,hfi_cc_2018.region,1.071
-movie_metadata.country,us_companies_copy.country,972.0
-movie_metadata.country,us_companies.country,972.0
-movie_metadata.country,acquisitions.Country,772.5126436781609
-movie_metadata.country,directory.Country,30.456
-movie_metadata.country,hfi_cc_2018.region,0.765
-movies.country,us_companies_copy.country,971.0
-movies.country,us_companies.country,971.0
-movies.country,acquisitions.Country,767.3252873563218
-movies.country,directory.Country,29.268
-movies.country,hfi_cc_2018.region,1.224
-moviesonstreamingplatforms_updated.Country,us_companies_copy.country,866.0
-moviesonstreamingplatforms_updated.Country,us_companies.country,866.0
-moviesonstreamingplatforms_updated.Country,acquisitions.Country,684.3793103448276
-moviesonstreamingplatforms_updated.Country,countries_metadatacountries.Region,1.8691588785046729
-moviesonstreamingplatforms_updated.Country,hfi_cc_2018.region,7.65
-netflix_titles.country,booking.city,1.0709606986899562
-netflix_titles.country,us_companies_copy.country,839.0
-netflix_titles.country,us_companies.country,839.0
-netflix_titles.country,acquisitions.Country,664.383908045977
-netflix_titles.country,countries_metadatacountries.Region,5.121495327102804
-netflix_titles.country,hfi_cc_2018.region,20.961
-pte_alcohol.Arg0,pte_ind.Arg2,317.875
-pte_alcohol.Arg0,pte_has_property.Arg2,666.0
-pte_alcohol.Arg0,pte_ind.Arg1,237.0
-pte_alcohol.Arg0,pte_atm.Arg4,599.375
-pte_alcohol.Arg0,pte_bound.Arg3,601.375
-pte_alkyl_halide.Arg0,pte_ind.Arg2,227.1387283236994
-pte_alkyl_halide.Arg0,pte_has_property.Arg2,339.7225433526012
-pte_alkyl_halide.Arg0,pte_ind.Arg1,234.4913294797688
-pte_alkyl_halide.Arg0,pte_atm.Arg4,519.4508670520231
-pte_alkyl_halide.Arg0,pte_bound.Arg3,412.3699421965318
-pte_ames.Arg0,pte_atm.Arg3,100.95774647887325
-pte_ames.Arg0,pte_ind.Arg2,135.59859154929578
-pte_ames.Arg0,pte_has_property.Arg2,282.3380281690141
-pte_ames.Arg0,pte_ind.Arg1,230.79577464788733
-pte_ames.Arg0,pte_atm.Arg4,345.2464788732394
-pte_ames.Arg0,pte_bound.Arg3,308.16901408450707
-pte_amine.Arg0,pte_atm.Arg3,113.14917127071824
-pte_amine.Arg0,pte_ind.Arg2,182.68508287292815
-pte_amine.Arg0,pte_has_property.Arg2,366.5193370165746
-pte_amine.Arg0,pte_ind.Arg1,231.76243093922653
-pte_amine.Arg0,pte_atm.Arg4,441.2154696132597
-pte_amine.Arg0,pte_bound.Arg3,464.8563535911602
-pte_ester.Arg0,pte_ind.Arg2,110.85714285714286
-pte_ester.Arg0,pte_has_property.Arg2,244.9795918367347
-pte_ester.Arg0,pte_ind.Arg1,235.2925170068027
-pte_ester.Arg0,pte_atm.Arg4,387.74149659863946
-pte_ester.Arg0,pte_bound.Arg3,242.94557823129253
-pte_five_ring.Arg0,pte_atm.Arg3,40.96
-pte_five_ring.Arg0,pte_ind.Arg2,184.97333333333333
-pte_five_ring.Arg0,pte_has_property.Arg2,302.24
-pte_five_ring.Arg0,pte_ind.Arg1,236.56
-pte_five_ring.Arg0,pte_atm.Arg4,433.5733333333333
-pte_five_ring.Arg0,pte_bound.Arg3,234.6266666666667
-pte_has_property.Arg0,pte_atm.Arg3,50.176
-pte_has_property.Arg0,pte_ind.Arg2,372.4746192893401
-pte_has_property.Arg0,pte_has_property.Arg2,279.516
-pte_has_property.Arg0,pte_ind.Arg1,591.7918781725888
-pte_has_property.Arg0,pte_atm.Arg4,408.501
-pte_has_property.Arg0,pte_bound.Arg3,302.218
-pte_imine.Arg0,pte_ind.Arg2,64.0
-pte_imine.Arg0,pte_has_property.Arg2,277.6470588235294
-pte_imine.Arg0,pte_ind.Arg1,236.8823529411765
-pte_imine.Arg0,pte_atm.Arg4,402.2941176470589
-pte_imine.Arg0,pte_bound.Arg3,190.4705882352941
-pte_ketone.Arg0,pte_atm.Arg3,42.96503496503497
-pte_ketone.Arg0,pte_ind.Arg2,129.5174825174825
-pte_ketone.Arg0,pte_has_property.Arg2,280.4755244755245
-pte_ketone.Arg0,pte_ind.Arg1,231.02797202797203
-pte_ketone.Arg0,pte_atm.Arg4,430.38461538461536
-pte_ketone.Arg0,pte_bound.Arg3,311.46853146853147
-pte_methoxy.Arg0,pte_atm.Arg3,34.13333333333333
-pte_methoxy.Arg0,pte_ind.Arg2,109.6
-pte_methoxy.Arg0,pte_has_property.Arg2,198.4
-pte_methoxy.Arg0,pte_ind.Arg1,234.01666666666668
-pte_methoxy.Arg0,pte_atm.Arg4,381.95
-pte_methoxy.Arg0,pte_bound.Arg3,231.5
-pte_nitro.Arg0,pte_atm.Arg3,64.0
-pte_nitro.Arg0,pte_ind.Arg2,144.95833333333334
-pte_nitro.Arg0,pte_has_property.Arg2,245.75
-pte_nitro.Arg0,pte_ind.Arg1,236.14583333333331
-pte_nitro.Arg0,pte_atm.Arg4,357.125
-pte_nitro.Arg0,pte_bound.Arg3,318.4375
-pte_non_ar_5c_ring.Arg0,pte_atm.Arg3,32.0
-pte_non_ar_5c_ring.Arg0,pte_ind.Arg2,260.71875
-pte_non_ar_5c_ring.Arg0,pte_has_property.Arg2,394.125
-pte_non_ar_5c_ring.Arg0,pte_ind.Arg1,236.78125
-pte_non_ar_5c_ring.Arg0,pte_atm.Arg4,494.21875
-pte_non_ar_5c_ring.Arg0,pte_bound.Arg3,248.84375
-pte_non_ar_hetero_5_ring.Arg0,pte_atm.Arg3,26.256410256410252
-pte_non_ar_hetero_5_ring.Arg0,pte_ind.Arg2,105.52564102564102
-pte_non_ar_hetero_5_ring.Arg0,pte_has_property.Arg2,184.2051282051282
-pte_non_ar_hetero_5_ring.Arg0,pte_ind.Arg1,236.66666666666663
-pte_non_ar_hetero_5_ring.Arg0,pte_atm.Arg4,331.02564102564105
-pte_non_ar_hetero_5_ring.Arg0,pte_bound.Arg3,123.51282051282053
-pte_non_ar_hetero_6_ring.Arg0,pte_atm.Arg3,11.770114942528735
-pte_non_ar_hetero_6_ring.Arg0,pte_ind.Arg2,118.64367816091954
-pte_non_ar_hetero_6_ring.Arg0,pte_has_property.Arg2,217.1034482758621
-pte_non_ar_hetero_6_ring.Arg0,pte_ind.Arg1,233.60919540229884
-pte_non_ar_hetero_6_ring.Arg0,pte_atm.Arg4,385.735632183908
-pte_non_ar_hetero_6_ring.Arg0,pte_bound.Arg3,140.44827586206895
-pte_phenol.Arg0,pte_atm.Arg3,41.795918367346935
-pte_phenol.Arg0,pte_ind.Arg2,125.51020408163264
-pte_phenol.Arg0,pte_has_property.Arg2,242.9387755102041
-pte_phenol.Arg0,pte_ind.Arg1,232.12244897959184
-pte_phenol.Arg0,pte_atm.Arg4,444.1428571428572
-pte_phenol.Arg0,pte_bound.Arg3,226.8367346938776
-pte_postestactive.Arg0,pte_atm.Arg3,51.2
-pte_postestactive.Arg0,pte_ind.Arg2,51.45
-pte_postestactive.Arg0,pte_has_property.Arg2,138.6
-pte_postestactive.Arg0,pte_ind.Arg1,237.0
-pte_postestactive.Arg0,pte_atm.Arg4,270.7
-pte_postestactive.Arg0,pte_bound.Arg3,129.85
-pte_postestactive_neg.Arg0,pte_atm.Arg3,26.256410256410252
-pte_postestactive_neg.Arg0,pte_ind.Arg2,40.05128205128205
-pte_postestactive_neg.Arg0,pte_has_property.Arg2,110.56410256410255
-pte_postestactive_neg.Arg0,pte_ind.Arg1,236.8717948717949
-pte_postestactive_neg.Arg0,pte_atm.Arg4,258.4102564102564
-pte_postestactive_neg.Arg0,pte_bound.Arg3,106.92307692307692
-pte_sulfide.Arg0,pte_ind.Arg2,69.37096774193549
-pte_sulfide.Arg0,pte_has_property.Arg2,205.29032258064515
-pte_sulfide.Arg0,pte_ind.Arg1,234.38709677419357
-pte_sulfide.Arg0,pte_atm.Arg4,294.0806451612903
-pte_sulfide.Arg0,pte_bound.Arg3,122.35483870967742
-pte_testactive.Arg0,pte_atm.Arg3,26.256410256410252
-pte_testactive.Arg0,pte_ind.Arg2,40.05128205128205
-pte_testactive.Arg0,pte_has_property.Arg2,110.56410256410255
-pte_testactive.Arg0,pte_ind.Arg1,236.8717948717949
-pte_testactive.Arg0,pte_atm.Arg4,258.4102564102564
-pte_testactive.Arg0,pte_bound.Arg3,106.92307692307692
-pte_testactive_neg.Arg0,pte_atm.Arg3,26.256410256410252
-pte_testactive_neg.Arg0,pte_ind.Arg2,40.05128205128205
-pte_testactive_neg.Arg0,pte_has_property.Arg2,110.56410256410255
-pte_testactive_neg.Arg0,pte_ind.Arg1,236.8717948717949
-pte_testactive_neg.Arg0,pte_atm.Arg4,258.4102564102564
-pte_testactive_neg.Arg0,pte_bound.Arg3,106.92307692307692
-ukdebate.country,acquisitions.Country,782.7586206896551
-ukdebate.country,us_companies_copy.country,1000.0
-ukdebate.country,us_companies.country,1000.0
-usa_cars_datasets.country,acquisitions.Country,793.0574712643678
-usa_cars_datasets.country,us_companies_copy.country,1000.0
-usa_cars_datasets.country,us_companies.country,1000.0
-usa_cars_datasets.country,directory.Country,35.856
-who_suicide_statistics.country,booking.city,2.0294759825327517
-who_suicide_statistics.country,us_companies_copy.country,264.0
-who_suicide_statistics.country,acquisitions.Country,221.5494252873563
-who_suicide_statistics.country,us_companies.country,264.0
-whr2015.Country,booking.city,1.4493670886075949
-whr2015.Country,us_companies_copy.country,39.0
-whr2015.Country,us_companies.country,130.5759493670886
-whr2015.Country,acquisitions.Country,183.8227848101266
-whr2015.Country,hfi_cc_2018.region,0.9683544303797468
-word_university_rank_2020.Country,booking.city,2.027292576419214
-word_university_rank_2020.Country,us_companies_copy.country,687.0
-word_university_rank_2020.Country,us_companies.country,687.0
-word_university_rank_2020.Country,acquisitions.Country,577.1701149425287
-word_university_rank_2020.Country,countries_metadatacountries.Region,1.4579439252336448
-word_university_rank_2020.Country,hfi_cc_2018.region,5.967
-world_countries_env_vars.Country,booking.city,0.9423868312757202
-world_countries_env_vars.Country,us_companies_copy.country,42.0
-world_countries_env_vars.Country,acquisitions.Country,132.46090534979425
-world_countries_env_vars.Country,us_companies.country,91.4320987654321
-world_country.Name,language.Name,1.887029288702929
-world_country.Name,adventureworks2014_stateprovince.Name,1.0
-world_country.Name,adventureworks2014_culture.Name,1.125
-world_country.Name,world_country.LocalName,1.6150627615062765
-world_country.Name,world_city.Name,1.497907949790795
-world_country.Name,world-cities.name,1.0376569037656904
-world_country.Name,most_frequent_names.Name,0.9414225941422594
-world_country.LocalName,adventureworks2014_culture.Name,0.75
-world_country.LocalName,world_country.Name,1.6150627615062765
-world-cities.country,booking.city,1.6419213973799127
-world-cities.country,us_companies_copy.country,640.0
-world-cities.country,us_companies.country,640.0
-world-cities.country,acquisitions.Country,557.2873563218391
-world-cities.country,countries_metadatacountries.Region,4.11214953271028
-world-cities.country,world_country.Region,1.3682008368200838
-world-cities.country,hfi_cc_2018.region,16.83
+query,candidate,semantic_score,query_samples,candidate_samples,overlapping_values,Jaccard_similarity,intersection_query_fraction
+adventureworks2014_countryregion.Name,language.Name,2.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
+adventureworks2014_countryregion.Name,adventureworks2014_stateprovince.Name,1.0165745856353592,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Alberta,Alaska,Alabama,Arkansas,American Samoa","northern mariana islands,guam,micronesia,puerto rico,palau",0.022,0.038
+adventureworks2014_countryregion.Name,world-cities.name,1.0588235294117647,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","les Escaldes,Andorra la Vella,Umm al Qaywayn,Ras al-Khaimah,Khawr Fakkān","monaco,mexico,vatican city,djibouti,armenia",0.001,0.071
+adventureworks2014_countryregion.Name,most_frequent_names.Name,0.9327731092436976,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","MARIA,CARMEN,JOSEFA,MONTSERRAT,ROSA",montserrat,0.002,0.004
+adventureworks2014_countryregion.Name,world_city.Name,1.5630252100840336,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.029
+adventureworks2014_countryregion.Name,adventureworks2014_culture.Name,1.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",,,0.0,0.0
+adventureworks2014_salesterritory.Name,acquisitions.Country,2.8,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+adventureworks2014_salesterritory.Name,adventureworks2014_stateprovince.Name,1.8,,"Alberta,Alaska,Alabama,Arkansas,American Samoa",,0.0,0.0
+affirmative_asylum.ContinentCountryofNationality,countries_and_continents.Continent,1.5229357798165135,"Africa,Asia,Europe,North America,Oceania","AS,EU,AF,OC,AN",,0.0,0.0
+countries_and_continents.name,language.Name,1.7228915662650603,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
+countries_and_continents.name,adventureworks2014_stateprovince.Name,1.049723756906077,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Alberta,Alaska,Alabama,Arkansas,American Samoa","northern mariana islands,guam,micronesia,puerto rico,palau",0.021,0.036
+countries_and_continents.name,world-cities.name,0.9718875502008032,"Afghanistan,Albania,Algeria,American Samoa,Andorra","les Escaldes,Andorra la Vella,Umm al Qaywayn,Ras al-Khaimah,Khawr Fakkān","mexico,armenia,venezuela,luxembourg,tonga",0.001,0.08
+countries_and_continents.name,most_frequent_names.Name,0.8955823293172691,"Afghanistan,Albania,Algeria,American Samoa,Andorra","MARIA,CARMEN,JOSEFA,MONTSERRAT,ROSA",montserrat,0.002,0.004
+countries_and_continents.name,world_city.Name,1.3373493975903614,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.028
+countries_and_continents.name,adventureworks2014_culture.Name,1.125,"Afghanistan,Albania,Algeria,American Samoa,Andorra",,,0.0,0.0
+countries_data.CountryName,booking.city,0.8820960698689956,"Aruba,Afghanistan,Angola,Albania,Andorra","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+countries_data.CountryName,acquisitions.Country,26.29425287356322,"Aruba,Afghanistan,Angola,Albania,Andorra","USA,GER,FIN,CAN,UK",,0.0,0.0
+countries_data.CountryName,adventureworks2014_stateprovince.Name,0.7016574585635359,"Aruba,Afghanistan,Angola,Albania,Andorra","Alberta,Alaska,Alabama,Arkansas,American Samoa","northern mariana islands,guam,puerto rico,palau,marshall islands",0.02,0.035
+countries_data.CountryName,us_companies.country,33.0,"Aruba,Afghanistan,Angola,Albania,Andorra",us,,0.0,0.0
+countries_data.CountryName,us_companies_copy.country,33.0,"Aruba,Afghanistan,Angola,Albania,Andorra",us,,0.0,0.0
+countries_data.CountryName,hfi_cc_2018.region,9.398,"Aruba,Afghanistan,Angola,Albania,Andorra","Eastern Europe,Middle East & North Africa,Sub-Saharan Africa,Latin America & the Caribbean,Caucasus & Central Asia","south asia,north america",0.008,0.009
+countries_metadatacountries.CountryName,booking.city,0.8582995951417004,"Aruba,Afghanistan,Angola,Albania,Andorra","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+countries_metadatacountries.CountryName,acquisitions.Country,22.732793522267208,"Aruba,Afghanistan,Angola,Albania,Andorra","USA,GER,FIN,CAN,UK",,0.0,0.0
+countries_metadatacountries.CountryName,us_companies.country,17.133603238866396,"Aruba,Afghanistan,Angola,Albania,Andorra",us,,0.0,0.0
+countries_metadatacountries.CountryName,us_companies_copy.country,8.0,"Aruba,Afghanistan,Angola,Albania,Andorra",us,,0.0,0.0
+countries_metadatacountries.CountryName,directory.Country,3.0121457489878543,"Aruba,Afghanistan,Angola,Albania,Andorra","AD,AE,AR,AT,AU",,0.0,0.0
+countries_metadatacountries.CountryName,hfi_cc_2018.region,6.651821862348178,"Aruba,Afghanistan,Angola,Albania,Andorra","Eastern Europe,Middle East & North Africa,Sub-Saharan Africa,Latin America & the Caribbean,Caucasus & Central Asia","south asia,middle east  north africa,north america,subsaharan africa",0.016,0.016
+countries_of_the_world.Country,us_companies.country,100.2070484581498,"Afghanistan,Albania,Algeria,American Samoa,Andorra",us,,0.0,0.0
+countries_of_the_world.Country,booking.city,1.0088105726872247,"Afghanistan,Albania,Algeria,American Samoa,Andorra","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+countries_of_the_world.Country,acquisitions.Country,139.18942731277534,"Afghanistan,Albania,Algeria,American Samoa,Andorra","USA,GER,FIN,CAN,UK",,0.0,0.0
+countries_of_the_world.Country,us_companies_copy.country,43.0,"Afghanistan,Albania,Algeria,American Samoa,Andorra",us,,0.0,0.0
+cwurdata.country,acquisitions.Country,633.1344827586207,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+cwurdata.country,us_companies.country,793.0,,us,,0.0,0.0
+cwurdata.country,us_companies_copy.country,793.0,,us,,0.0,0.0
+cwurdata.country,directory.Country,9.54,,"AD,AE,AR,AT,AU",,0.0,0.0
+cwurdata.country,booking.city,0.7849344978165939,,"Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+edu.country,booking.city,1.0436681222707425,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+edu.country,world_country.Region,6.828451882845188,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Caribbean,Southern and Central Asia,Central Africa,Southern Europe,Middle East",north america,0.003,0.004
+edu.country,acquisitions.Country,137.28850574712644,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","USA,GER,FIN,CAN,UK",,0.0,0.0
+edu.country,us_companies.country,154.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",us,,0.0,0.0
+edu.country,us_companies_copy.country,154.0,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC",us,,0.0,0.0
+edu.country,directory.Country,5.97,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","AD,AE,AR,AT,AU",,0.0,0.0
+edu.country,hfi_cc_2018.region,12.405,"ARAB WORLD,CARIBBEAN SMALL STATES,CENTRAL EUROPE AND THE BALTICS,EARLY-DEMOGRAPHIC DIVIDEND,EAST ASIA & PACIFIC","Eastern Europe,Middle East & North Africa,Sub-Saharan Africa,Latin America & the Caribbean,Caucasus & Central Asia","south asia,middle east  north africa,north america,subsaharan africa",0.015,0.015
+gender_development.Country,acquisitions.Country,145.75384615384615,"Norway,Australia,Switzerland,Denmark,Netherlands","USA,GER,FIN,CAN,UK",,0.0,0.0
+gender_development.Country,us_companies.country,103.08717948717948,"Norway,Australia,Switzerland,Denmark,Netherlands",us,,0.0,0.0
+gender_development.Country,us_companies_copy.country,38.0,"Norway,Australia,Switzerland,Denmark,Netherlands",us,,0.0,0.0
+gender_development.Country,directory.Country,5.102564102564102,"Norway,Australia,Switzerland,Denmark,Netherlands","AD,AE,AR,AT,AU",,0.0,0.0
+gender_development.Country,booking.city,1.1743589743589744,"Norway,Australia,Switzerland,Denmark,Netherlands","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+hfi_cc_2018.countries,us_companies.country,7.0,"Albania,Algeria,Angola,Argentina,Armenia",us,,0.0,0.0
+hfi_cc_2018.countries,acquisitions.Country,5.482758620689655,"Albania,Algeria,Angola,Argentina,Armenia","USA,GER,FIN,CAN,UK",,0.0,0.0
+hfi_cc_2018.countries,us_companies_copy.country,7.0,"Albania,Algeria,Angola,Argentina,Armenia",us,,0.0,0.0
+movie_metadata.country,directory.Country,30.456,"USA,UK,New Zealand,Canada,Australia","AD,AE,AR,AT,AU",,0.0,0.0
+movie_metadata.country,us_companies.country,972.0,"USA,UK,New Zealand,Canada,Australia",us,,0.0,0.0
+movie_metadata.country,acquisitions.Country,772.5126436781609,"USA,UK,New Zealand,Canada,Australia","USA,GER,FIN,CAN,UK","usa,uk",0.02,0.032
+movie_metadata.country,us_companies_copy.country,972.0,"USA,UK,New Zealand,Canada,Australia",us,,0.0,0.0
+movies.country,directory.Country,29.268,"USA,UK,Australia,Italy,France","AD,AE,AR,AT,AU",,0.0,0.0
+movies.country,us_companies.country,971.0,"USA,UK,Australia,Italy,France",us,,0.0,0.0
+movies.country,acquisitions.Country,767.3252873563218,"USA,UK,Australia,Italy,France","USA,GER,FIN,CAN,UK","usa,uk",0.021,0.035
+movies.country,us_companies_copy.country,971.0,"USA,UK,Australia,Italy,France",us,,0.0,0.0
+moviesonstreamingplatforms_updated.Country,us_companies.country,866.0,,us,,0.0,0.0
+moviesonstreamingplatforms_updated.Country,acquisitions.Country,684.3793103448276,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+moviesonstreamingplatforms_updated.Country,us_companies_copy.country,866.0,,us,,0.0,0.0
+netflix_titles.country,booking.city,1.0709606986899562,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+netflix_titles.country,acquisitions.Country,664.383908045977,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","USA,GER,FIN,CAN,UK",,0.0,0.0
+netflix_titles.country,us_companies.country,839.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",us,,0.0,0.0
+netflix_titles.country,us_companies_copy.country,839.0,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada",us,,0.0,0.0
+netflix_titles.country,hfi_cc_2018.region,20.961,"United States, India, South Korea, China,United Kingdom,United States,Spain,Bulgaria, United States, Spain, Canada","Eastern Europe,Middle East & North Africa,Sub-Saharan Africa,Latin America & the Caribbean,Caucasus & Central Asia",,0.0,0.0
+pte_alcohol.Arg0,pte_atm.Arg4,599.375,"d65,d72,d78,d89,d97","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_alcohol.Arg0,pte_bound.Arg3,601.375,"d65,d72,d78,d89,d97","7,1,2,3",,0.0,0.0
+pte_alkyl_halide.Arg0,pte_atm.Arg4,519.4508670520231,"d101,d102,d103,d104,d106","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_alkyl_halide.Arg0,pte_bound.Arg3,412.3699421965318,"d101,d102,d103,d104,d106","7,1,2,3",,0.0,0.0
+pte_ames.Arg0,pte_atm.Arg4,345.2464788732394,"d1,d10,d11,d113,d12","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_ames.Arg0,pte_bound.Arg3,308.16901408450707,"d1,d10,d11,d113,d12","7,1,2,3",,0.0,0.0
+pte_amine.Arg0,pte_atm.Arg4,441.2154696132597,"d1,d109,d11,d114,d117","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_amine.Arg0,pte_bound.Arg3,464.8563535911602,"d1,d109,d11,d114,d117","7,1,2,3",,0.0,0.0
+pte_ester.Arg0,pte_atm.Arg4,387.74149659863946,"d136,d137,d139,d141,d143","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_ester.Arg0,pte_bound.Arg3,242.94557823129253,"d136,d137,d139,d141,d143","7,1,2,3",,0.0,0.0
+pte_five_ring.Arg0,pte_atm.Arg4,433.5733333333333,"d101,d106,d109,d112,d121","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_five_ring.Arg0,pte_bound.Arg3,234.6266666666667,"d101,d106,d109,d112,d121","7,1,2,3",,0.0,0.0
+pte_has_property.Arg0,pte_atm.Arg4,408.501,"d1,d10,d100,d101,d102","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_has_property.Arg0,pte_bound.Arg3,302.218,"d1,d10,d100,d101,d102","7,1,2,3",,0.0,0.0
+pte_imine.Arg0,pte_atm.Arg4,402.2941176470589,"d175,d211,d217,d252,d27","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_imine.Arg0,pte_bound.Arg3,190.4705882352941,"d175,d211,d217,d252,d27","7,1,2,3",,0.0,0.0
+pte_ketone.Arg0,pte_atm.Arg4,430.38461538461536,"d1,d109,d114,d123,d124","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_ketone.Arg0,pte_bound.Arg3,311.46853146853147,"d1,d109,d114,d123,d124","7,1,2,3",,0.0,0.0
+pte_methoxy.Arg0,pte_atm.Arg4,381.95,"d11,d122,d131,d137,d150","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_methoxy.Arg0,pte_bound.Arg3,231.5,"d11,d122,d131,d137,d150","7,1,2,3",,0.0,0.0
+pte_nitro.Arg0,pte_atm.Arg4,357.125,"d127,d13,d131,d16,d18","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_nitro.Arg0,pte_bound.Arg3,318.4375,"d127,d13,d131,d16,d18","7,1,2,3",,0.0,0.0
+pte_non_ar_5c_ring.Arg0,pte_atm.Arg4,494.21875,"d101,d106,d112,d121,d128","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_non_ar_5c_ring.Arg0,pte_bound.Arg3,248.84375,"d101,d106,d112,d121,d128","7,1,2,3",,0.0,0.0
+pte_non_ar_hetero_5_ring.Arg0,pte_atm.Arg4,331.02564102564105,"d109,d112,d121,d128,d137","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_non_ar_hetero_5_ring.Arg0,pte_bound.Arg3,123.51282051282053,"d109,d112,d121,d128,d137","7,1,2,3",,0.0,0.0
+pte_non_ar_hetero_6_ring.Arg0,pte_atm.Arg4,385.735632183908,"d111,d112,d114,d117,d118","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_non_ar_hetero_6_ring.Arg0,pte_bound.Arg3,140.44827586206895,"d111,d112,d114,d117,d118","7,1,2,3",,0.0,0.0
+pte_phenol.Arg0,pte_atm.Arg4,444.1428571428572,"d133,d138,d140,d149,d151","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_phenol.Arg0,pte_bound.Arg3,226.8367346938776,"d133,d138,d140,d149,d151","7,1,2,3",,0.0,0.0
+pte_postestactive.Arg0,pte_atm.Arg4,270.7,"d296,d305,d306,d307,d308","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_postestactive.Arg0,pte_bound.Arg3,129.85,"d296,d305,d306,d307,d308","7,1,2,3",,0.0,0.0
+pte_postestactive_neg.Arg0,pte_atm.Arg4,258.4102564102564,"d296,d305,d306,d307,d308","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_postestactive_neg.Arg0,pte_bound.Arg3,106.92307692307692,"d296,d305,d306,d307,d308","7,1,2,3",,0.0,0.0
+pte_sulfide.Arg0,pte_atm.Arg4,294.0806451612903,"d109,d117,d124,d142,d146","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_sulfide.Arg0,pte_bound.Arg3,122.35483870967742,"d109,d117,d124,d142,d146","7,1,2,3",,0.0,0.0
+pte_testactive.Arg0,pte_atm.Arg4,258.4102564102564,"d297,d298,d299,d300,d302","-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_testactive.Arg0,pte_bound.Arg3,106.92307692307692,"d297,d298,d299,d300,d302","7,1,2,3",,0.0,0.0
+pte_testactive_neg.Arg0,pte_atm.Arg4,258.4102564102564,,"-0.105,0.156,0.125,0.155,-0.174",,0.0,0.0
+pte_testactive_neg.Arg0,pte_bound.Arg3,106.92307692307692,,"7,1,2,3",,0.0,0.0
+ukdebate.country,us_companies.country,1000.0,,us,,0.0,0.0
+ukdebate.country,acquisitions.Country,782.7586206896551,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+ukdebate.country,us_companies_copy.country,1000.0,,us,,0.0,0.0
+usa_cars_datasets.country,directory.Country,35.856,,"AD,AE,AR,AT,AU",,0.0,0.0
+usa_cars_datasets.country,us_companies.country,1000.0,,us,,0.0,0.0
+usa_cars_datasets.country,acquisitions.Country,793.0574712643678,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+usa_cars_datasets.country,us_companies_copy.country,1000.0,,us,,0.0,0.0
+who_suicide_statistics.country,us_companies.country,264.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",us,,0.0,0.0
+who_suicide_statistics.country,booking.city,2.0294759825327517,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+who_suicide_statistics.country,acquisitions.Country,221.5494252873563,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia","USA,GER,FIN,CAN,UK",,0.0,0.0
+who_suicide_statistics.country,us_companies_copy.country,264.0,"Albania,Anguilla,Antigua and Barbuda,Argentina,Armenia",us,,0.0,0.0
+whr2015.Country,us_companies.country,130.5759493670886,"Switzerland,Iceland,Denmark,Norway,Canada",us,,0.0,0.0
+whr2015.Country,booking.city,1.4493670886075949,"Switzerland,Iceland,Denmark,Norway,Canada","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+whr2015.Country,acquisitions.Country,183.8227848101266,"Switzerland,Iceland,Denmark,Norway,Canada","USA,GER,FIN,CAN,UK",,0.0,0.0
+whr2015.Country,us_companies_copy.country,39.0,"Switzerland,Iceland,Denmark,Norway,Canada",us,,0.0,0.0
+word_university_rank_2020.Country,us_companies.country,687.0,"United Kingdom,United States,Switzerland,Canada,China",us,,0.0,0.0
+word_university_rank_2020.Country,booking.city,2.027292576419214,"United Kingdom,United States,Switzerland,Canada,China","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+word_university_rank_2020.Country,acquisitions.Country,577.1701149425287,"United Kingdom,United States,Switzerland,Canada,China","USA,GER,FIN,CAN,UK",,0.0,0.0
+word_university_rank_2020.Country,us_companies_copy.country,687.0,"United Kingdom,United States,Switzerland,Canada,China",us,,0.0,0.0
+world_countries_env_vars.Country,us_companies.country,91.4320987654321,,us,,0.0,0.0
+world_countries_env_vars.Country,booking.city,0.9423868312757202,,"Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+world_countries_env_vars.Country,acquisitions.Country,132.46090534979425,,"USA,GER,FIN,CAN,UK",,0.0,0.0
+world_countries_env_vars.Country,us_companies_copy.country,42.0,,us,,0.0,0.0
+world_country.Name,language.Name,1.887029288702929,"Aruba,Afghanistan,Angola,Anguilla,Albania","Arapesh (Abu),Aari,Abau,Arabic (Abbéché Chad),Abidji","mali,kiribati",0.001,0.008
+world_country.Name,adventureworks2014_stateprovince.Name,1.0,"Aruba,Afghanistan,Angola,Anguilla,Albania","Alberta,Alaska,Alabama,Arkansas,American Samoa","northern mariana islands,guam,puerto rico,palau,marshall islands",0.019,0.033
+world_country.Name,world-cities.name,1.0376569037656904,"Aruba,Afghanistan,Angola,Anguilla,Albania","les Escaldes,Andorra la Vella,Umm al Qaywayn,Ras al-Khaimah,Khawr Fakkān","monaco,mexico,djibouti,armenia,colombia",0.001,0.071
+world_country.Name,most_frequent_names.Name,0.9414225941422594,"Aruba,Afghanistan,Angola,Anguilla,Albania","MARIA,CARMEN,JOSEFA,MONTSERRAT,ROSA",montserrat,0.002,0.004
+world_country.Name,world_city.Name,1.497907949790795,"Aruba,Afghanistan,Angola,Anguilla,Albania","Kabul,Qandahar,Herat,Mazar-e-Sharif,Amsterdam","mexico,djibouti,armenia,singapore,gibraltar",0.002,0.033
+world_country.Name,adventureworks2014_culture.Name,1.125,"Aruba,Afghanistan,Angola,Anguilla,Albania",,,0.0,0.0
+world_country.LocalName,adventureworks2014_culture.Name,0.75,"Aruba,Afganistan/Afqanestan,Angola,Anguilla,Shqipëria",,,0.0,0.0
+world-cities.country,booking.city,1.6419213973799127,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Fatih, Istanbul,Beyoglu, Istanbul,European Side, Istanbul,Sisli, Istanbul,Istanbul",,0.0,0.0
+world-cities.country,acquisitions.Country,557.2873563218391,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","USA,GER,FIN,CAN,UK",,0.0,0.0
+world-cities.country,us_companies.country,640.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",us,,0.0,0.0
+world-cities.country,us_companies_copy.country,640.0,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla",us,,0.0,0.0
+world-cities.country,hfi_cc_2018.region,16.83,"Andorra,United Arab Emirates,Afghanistan,Antigua and Barbuda,Anguilla","Eastern Europe,Middle East & North Africa,Sub-Saharan Africa,Latin America & the Caribbean,Caucasus & Central Asia",,0.0,0.0

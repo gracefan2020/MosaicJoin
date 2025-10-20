@@ -6,6 +6,7 @@ Simple script to run evaluation with common configurations.
 
 import os
 import glob
+import argparse
 from pathlib import Path
 
 def find_latest_query_results():
@@ -17,6 +18,17 @@ def find_latest_query_results():
     return sorted(query_dirs)[-1]
 
 def main():
+    parser = argparse.ArgumentParser(description='Run evaluation with enhanced sample analysis')
+    parser.add_argument('--print-samples', action='store_true', 
+                       help='Print sample values and metrics to console')
+    parser.add_argument('--sample-count', type=int, default=5,
+                       help='Number of sample values per column to include')
+    parser.add_argument('--no-samples', action='store_true',
+                       help='Disable sample analysis (faster execution)')
+    parser.add_argument('--similarity-threshold', type=float, default=0.7,
+                       help='Similarity threshold for filtering semantic results (default: 0.7)')
+    args = parser.parse_args()
+    
     # Configuration
     query_results_dir = find_latest_query_results()
     semantic_results = f"{query_results_dir}/all_query_results.csv"
@@ -24,6 +36,7 @@ def main():
     # deepjoin_results = "Deepjoin/output/deepjoin_results_T0.7_exact.csv"
 
     ground_truth = "datasets/freyja-semantic-join/freyja_ground_truth.csv"
+    datalake_dir = "datasets/freyja-semantic-join/datalake"
     
     # Create matching evaluation directory name
     if query_results_dir.startswith("query_results_"):
@@ -52,12 +65,30 @@ def main():
         print(f"Error: Ground truth file not found: {ground_truth}")
         return 1
     
+    if not Path(datalake_dir).exists():
+        print(f"Warning: Datalake directory not found: {datalake_dir}")
+        print("Sample values and overlap metrics will not be available")
+        datalake_dir = None
+    
     # Build command
-    cmd = f"""python evaluate_semantic_join.py \\
-    --semantic-results "{semantic_results}" \\
-    --deepjoin-results "{deepjoin_results}" \\
-    --ground-truth "{ground_truth}" \\
-    --output-dir "{output_dir}" """
+    cmd_parts = [
+        "python evaluate_semantic_join.py",
+        f"--semantic-results \"{semantic_results}\"",
+        f"--deepjoin-results \"{deepjoin_results}\"",
+        f"--ground-truth \"{ground_truth}\"",
+        f"--output-dir \"{output_dir}\"",
+        f"--similarity-threshold {args.similarity_threshold}"
+    ]
+    
+    # Add sample analysis options if not disabled
+    if not args.no_samples:
+        cmd_parts.append(f"--sample-count {args.sample_count}")
+        if args.print_samples:
+            cmd_parts.append("--print-samples")
+        if datalake_dir:
+            cmd_parts.append(f"--datalake-dir \"{datalake_dir}\"")
+    
+    cmd = " \\\n    ".join(cmd_parts)
     
     print("Running evaluation...")
     print(f"Command: {cmd}")

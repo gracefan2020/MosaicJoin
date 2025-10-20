@@ -10,10 +10,7 @@ pte_atm_min_charge,Arg0,339.96,25497,339.96
 pte_atm_max_charge,Arg0,339.96,25497,339.96
 pte_atm_count,Arg0,339.96,25497,339.96
 pte_ether,Arg0,335.84,25188,335.84
-pte_has_property,Arg2,302.24,22668,302.24
-pte_ind,Arg1,236.56,17742,236.56
 pte_bound,Arg3,234.62666666666667,17597,234.62666666666667
-pte_ind,Arg2,184.97333333333333,13873,184.97333333333333
 pte_amine,Arg0,181.0,13575,181.0
 pte_alkyl_halide,Arg0,172.96,12972,172.96
 pte_active,Arg0,162.0,12150,162.0
@@ -36,4 +33,3 @@ pte_testactive,Arg0,75.0,2925,75.0
 pte_postestactive_neg,Arg0,75.0,2925,75.0
 pte_five_ring,Arg0,75.0,5625,75.0
 pte_non_ar_5c_ring,Arg0,75.0,2400,75.0
-pte_atm,Arg3,40.96,3072,40.96

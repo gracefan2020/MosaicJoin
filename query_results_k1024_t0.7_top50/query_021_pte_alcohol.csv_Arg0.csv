@@ -1,6 +1,5 @@
 candidate_table,candidate_column,similarity_score,semantic_matches,semantic_density
 pte_has_property,Arg0,1024.0,8192,1024.0
-pte_has_property,Arg2,666.0,5328,666.0
 pte_bound,Arg3,601.375,4811,601.375
 pte_atm,Arg4,599.375,4795,599.375
 pte_six_ring,Arg0,446.0,3568,446.0
@@ -12,8 +11,6 @@ pte_atm_min_charge,Arg0,340.0,2720,340.0
 pte_atm_max_charge,Arg0,340.0,2720,340.0
 pte_atm_count,Arg0,340.0,2720,340.0
 pte_ether,Arg0,336.0,2688,336.0
-pte_ind,Arg2,317.875,2543,317.875
-pte_ind,Arg1,237.0,1896,237.0
 pte_amine,Arg0,181.0,1448,181.0
 pte_alkyl_halide,Arg0,173.0,1384,173.0
 pte_active,Arg0,162.0,1296,162.0

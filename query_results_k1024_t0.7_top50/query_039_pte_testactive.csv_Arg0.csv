@@ -10,7 +10,6 @@ pte_atm_max_charge,Arg0,340.0,13260,340.0
 pte_atm_count,Arg0,340.0,13260,340.0
 pte_ether,Arg0,336.0,13104,336.0
 pte_atm,Arg4,258.4102564102564,10078,258.4102564102564
-pte_ind,Arg1,236.87179487179486,9238,236.87179487179486
 pte_amine,Arg0,181.0,7059,181.0
 pte_alkyl_halide,Arg0,173.0,6747,173.0
 pte_active,Arg0,162.0,6318,162.0
@@ -18,7 +17,6 @@ pte_ester,Arg0,147.0,5733,147.0
 pte_ketone,Arg0,143.0,5577,143.0
 pte_ames,Arg0,142.0,5538,142.0
 pte_mutagenic,Arg0,138.0,5382,138.0
-pte_has_property,Arg2,110.56410256410257,4312,110.56410256410257
 pte_bound,Arg3,106.92307692307692,4170,106.92307692307692
 pte_non_ar_hetero_6_ring,Arg0,87.0,3393,87.0
 pte_non_ar_hetero_5_ring,Arg0,78.0,3042,78.0
@@ -27,7 +25,6 @@ pte_sulfide,Arg0,62.0,2418,62.0
 pte_methoxy,Arg0,60.0,2340,60.0
 pte_phenol,Arg0,49.0,1911,49.0
 pte_nitro,Arg0,48.0,1872,48.0
-pte_ind,Arg2,40.05128205128205,1562,40.05128205128205
 pte_sulfo,Arg0,39.0,975,39.0
 pte_imine,Arg0,39.0,663,39.0
 pte_alcohol,Arg0,39.0,312,39.0
@@ -36,4 +33,3 @@ pte_testactive_Neg,Arg0,39.0,1521,39.0
 pte_testactive,Arg0,39.0,1521,39.0
 pte_postestactive_neg,Arg0,39.0,1521,39.0
 pte_non_ar_5c_ring,Arg0,39.0,1248,39.0
-pte_atm,Arg3,26.256410256410255,1024,26.256410256410255

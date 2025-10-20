@@ -53,12 +53,16 @@ def load_deepjoin_results(deepjoin_path: str) -> Dict[str, List[Tuple[str, float
     
     return out
 
-def load_semantic_results(semantic_path: str) -> Dict[str, List[Tuple[str, float]]]:
-    """Load semantic join results from CSV file."""
+def load_semantic_results(semantic_path: str, similarity_threshold: float = 0.7) -> Dict[str, List[Tuple[str, float]]]:
+    """Load semantic join results from CSV file, filtering by similarity threshold."""
     df = pd.read_csv(semantic_path)
     
+    # Filter by similarity threshold
+    df_filtered = df[df['similarity_score'] >= similarity_threshold]
+    print(f"Filtered semantic results: {len(df)} -> {len(df_filtered)} (threshold: {similarity_threshold})")
+    
     out: Dict[str, List[Tuple[str, float]]] = {}
-    for _, r in df.iterrows():
+    for _, r in df_filtered.iterrows():
         # Remove .csv extension from table names to match ground truth format
         query_table = str(r['query_table']).replace('.csv', '').lower()
         candidate_table = str(r['candidate_table']).replace('.csv', '').lower()
@@ -168,9 +172,176 @@ def calculate_metrics(predictions: Dict[str, List[Tuple[str, float]]],
     
     return metrics
 
+def load_column_samples(table: str, column: str, datalake_root: str, k: int) -> List[str]:
+    """Load sample values from a column in CSV or Parquet format."""
+    # Try different case variations of the table name
+    def transform_table_name(table_name: str) -> str:
+        """Transform table name to match actual filenames."""
+        parts = table_name.split('_')
+        transformed_parts = []
+        for part in parts:
+            if part.startswith('adventureworks'):
+                # Special case for AdventureWorks
+                transformed = part.replace('adventureworks', 'AdventureWorks')
+            else:
+                # Special handling for compound words
+                if 'country' in part.lower() and 'region' in part.lower():
+                    transformed = 'CountryRegion'
+                elif 'state' in part.lower() and 'province' in part.lower():
+                    transformed = 'stateprovince'  # This one is lowercase in the actual file
+                elif 'sales' in part.lower() and 'territory' in part.lower():
+                    transformed = 'SalesTerritory'
+                elif 'credit' in part.lower() and 'card' in part.lower():
+                    transformed = 'CreditCard'
+                elif 'currency' in part.lower() and 'rate' in part.lower():
+                    transformed = 'CurrencyRate'
+                elif 'country' in part.lower() and 'region' in part.lower() and 'currency' in part.lower():
+                    transformed = 'CountryRegionCurrency'
+                else:
+                    # Title case for other parts
+                    transformed = part.title()
+            transformed_parts.append(transformed)
+        return '_'.join(transformed_parts)
+    
+    table_variations = [
+        table,  # original case
+        table.title(),  # Title Case
+        table.upper(),  # UPPER CASE
+        table.lower(),  # lower case
+        table.replace('_', '').title(),  # Remove underscores and title case
+        table.replace('_', ' ').title().replace(' ', ''),  # Remove spaces and underscores
+        transform_table_name(table),  # Smart transformation
+        # Try lowercasing the smart transformation
+        transform_table_name(table).lower(),
+        # Try lowercasing original table name
+        table.lower(),
+    ]
+    
+    values: List[str] = []
+    for table_var in table_variations:
+        csv_path = Path(datalake_root) / f"{table_var}.csv"
+        pq_path = Path(datalake_root) / f"{table_var}.parquet"
+        
+        try:
+            if csv_path.exists():
+                ser = pd.read_csv(csv_path, usecols=[column], dtype=str)[column]
+            elif pq_path.exists():
+                ser = pd.read_parquet(pq_path, columns=[column]).astype(str)[column]
+            else:
+                continue
+                
+            # Dropna, strip, take unique order-preserving
+            seen = set()
+            for v in ser.dropna().astype(str):
+                sv = v.strip()
+                if not sv:
+                    continue
+                if sv in seen:
+                    continue
+                seen.add(sv)
+                values.append(sv)
+                if len(values) >= k:
+                    break
+            break  # Found the file, stop trying other variations
+        except Exception:
+            continue
+    
+    return values
+
+def get_value_set(table: str, column: str, datalake_root: str) -> Set[str]:
+    """Get normalized unique values from a column for overlap computation."""
+    # Try different case variations of the table name
+    def transform_table_name(table_name: str) -> str:
+        """Transform table name to match actual filenames."""
+        parts = table_name.split('_')
+        transformed_parts = []
+        for part in parts:
+            if part.startswith('adventureworks'):
+                # Special case for AdventureWorks
+                transformed = part.replace('adventureworks', 'AdventureWorks')
+            else:
+                # Special handling for compound words
+                if 'country' in part.lower() and 'region' in part.lower():
+                    transformed = 'CountryRegion'
+                elif 'state' in part.lower() and 'province' in part.lower():
+                    transformed = 'stateprovince'  # This one is lowercase in the actual file
+                elif 'sales' in part.lower() and 'territory' in part.lower():
+                    transformed = 'SalesTerritory'
+                elif 'credit' in part.lower() and 'card' in part.lower():
+                    transformed = 'CreditCard'
+                elif 'currency' in part.lower() and 'rate' in part.lower():
+                    transformed = 'CurrencyRate'
+                elif 'country' in part.lower() and 'region' in part.lower() and 'currency' in part.lower():
+                    transformed = 'CountryRegionCurrency'
+                else:
+                    # Title case for other parts
+                    transformed = part.title()
+            transformed_parts.append(transformed)
+        return '_'.join(transformed_parts)
+    
+    table_variations = [
+        table,  # original case
+        table.title(),  # Title Case
+        table.upper(),  # UPPER CASE
+        table.lower(),  # lower case
+        table.replace('_', '').title(),  # Remove underscores and title case
+        table.replace('_', ' ').title().replace(' ', ''),  # Remove spaces and underscores
+        transform_table_name(table),  # Smart transformation
+        # Try lowercasing the smart transformation
+        transform_table_name(table).lower(),
+        # Try lowercasing original table name
+        table.lower(),
+    ]
+    
+    vals: Set[str] = set()
+    for table_var in table_variations:
+        csv_path = Path(datalake_root) / f"{table_var}.csv"
+        pq_path = Path(datalake_root) / f"{table_var}.parquet"
+        
+        try:
+            if csv_path.exists():
+                ser = pd.read_csv(csv_path, usecols=[column], dtype=str)[column]
+            elif pq_path.exists():
+                ser = pd.read_parquet(pq_path, columns=[column]).astype(str)[column]
+            else:
+                continue
+                
+            # Normalize similar to value_overlap: remove non-word chars, trim, lowercase
+            ser = ser.dropna().astype(str)
+            ser = ser.str.replace(r'[^\w\s]', '', regex=True).str.strip().str.lower()
+            vals = set(ser[ser != ''])
+            break  # Found the file, stop trying other variations
+        except Exception:
+            continue
+    
+    return vals
+
+def split_key(key: str) -> Tuple[str, str]:
+    """Split table.column key into table and column parts."""
+    if '.' in key:
+        t, c = key.split('.', 1)
+        return t, c
+    return key, ''
+
+def print_sample_info(q_table: str, q_col: str, c_table: str, c_col: str, 
+                      q_samples: List[str], c_samples: List[str], 
+                      overlap: float, intersection_fraction: float, category: str):
+    """Print sample values and metrics to console for inspection."""
+    print(f"\n=== {category.upper()} ===")
+    print(f"Query: {q_table}.{q_col}")
+    print(f"Candidate: {c_table}.{c_col}")
+    print(f"Query samples: {q_samples}")
+    print(f"Candidate samples: {c_samples}")
+    print(f"Jaccard similarity: {overlap}")
+    print(f"Set Containment: {intersection_fraction}")
+    print("-" * 50)
+
 def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
                         deepjoin_preds: Dict[str, List[Tuple[str, float]]],
-                        ground_truth: Dict[str, Set[str]]) -> Dict[str, List[Dict]]:
+                        ground_truth: Dict[str, Set[str]], 
+                        datalake_dir: str = 'datasets/freyja-semantic-join/datalake',
+                        sample_count: int = 5,
+                        print_samples: bool = False) -> Dict[str, List[Dict]]:
     """Analyze disagreements between semantic and DeepJoin predictions."""
     
     disagreements = {
@@ -194,38 +365,122 @@ def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
         
         semantic_only_correct = semantic_correct - deepjoin_correct
         for cand in semantic_only_correct:
+            q_table, q_col = split_key(query)
+            c_table, c_col = split_key(cand)
+            
+            # Load sample values and compute metrics
+            q_samples = load_column_samples(q_table, q_col, datalake_dir, sample_count)
+            c_samples = load_column_samples(c_table, c_col, datalake_dir, sample_count)
+            set_q = get_value_set(q_table, q_col, datalake_dir)
+            set_c = get_value_set(c_table, c_col, datalake_dir)
+            overlap = round((len(set_q & set_c) / len(set_q | set_c)), 3) if (set_q or set_c) else 0.0
+            intersection_fraction = round(len(set_q & set_c) / len(set_q), 3) if set_q else 0.0
+            
+            if print_samples:
+                print_sample_info(q_table, q_col, c_table, c_col, q_samples, c_samples, 
+                                 overlap, intersection_fraction, 
+                                 "Semantic Right, DeepJoin Wrong")
+            
             disagreements['semantic_right_deepjoin_wrong'].append({
                 'query': query,
                 'candidate': cand,
                 'semantic_score': next(score for c, score in semantic_preds[query] if c == cand),
-                'deepjoin_score': next((score for c, score in deepjoin_preds[query] if c == cand), 0.0)
+                'deepjoin_score': next((score for c, score in deepjoin_preds[query] if c == cand), 0.0),
+                'query_samples': ','.join(q_samples),
+                'candidate_samples': ','.join(c_samples),
+                'overlapping_values': ','.join(list(set_q & set_c)[:sample_count]),
+                'Jaccard_similarity': overlap,
+                'intersection_query_fraction': intersection_fraction,
             })
         
         # DeepJoin right, semantic wrong
         deepjoin_only_correct = deepjoin_correct - semantic_correct
         for cand in deepjoin_only_correct:
+            q_table, q_col = split_key(query)
+            c_table, c_col = split_key(cand)
+            
+            # Load sample values and compute metrics
+            q_samples = load_column_samples(q_table, q_col, datalake_dir, sample_count)
+            c_samples = load_column_samples(c_table, c_col, datalake_dir, sample_count)
+            set_q = get_value_set(q_table, q_col, datalake_dir)
+            set_c = get_value_set(c_table, c_col, datalake_dir)
+            overlap = round((len(set_q & set_c) / len(set_q | set_c)), 3) if (set_q or set_c) else 0.0
+            intersection_fraction = round(len(set_q & set_c) / len(set_q), 3) if set_q else 0.0
+            
+            if print_samples:
+                print_sample_info(q_table, q_col, c_table, c_col, q_samples, c_samples, 
+                                 overlap, intersection_fraction, 
+                                 "DeepJoin Right, Semantic Wrong")
+            
             disagreements['deepjoin_right_semantic_wrong'].append({
                 'query': query,
                 'candidate': cand,
                 'semantic_score': next((score for c, score in semantic_preds[query] if c == cand), 0.0),
-                'deepjoin_score': next(score for c, score in deepjoin_preds[query] if c == cand)
+                'deepjoin_score': next(score for c, score in deepjoin_preds[query] if c == cand),
+                'query_samples': ','.join(q_samples),
+                'candidate_samples': ','.join(c_samples),
+                'overlapping_values': ','.join(list(set_q & set_c)[:sample_count]),
+                'Jaccard_similarity': overlap,
+                'intersection_query_fraction': intersection_fraction,
             })
         
         # False positives
         semantic_fp = semantic_set - gt_set
         for cand in semantic_fp:
+            q_table, q_col = split_key(query)
+            c_table, c_col = split_key(cand)
+            
+            # Load sample values and compute metrics
+            q_samples = load_column_samples(q_table, q_col, datalake_dir, sample_count)
+            c_samples = load_column_samples(c_table, c_col, datalake_dir, sample_count)
+            set_q = get_value_set(q_table, q_col, datalake_dir)
+            set_c = get_value_set(c_table, c_col, datalake_dir)
+            overlap = round((len(set_q & set_c) / len(set_q | set_c)), 3) if (set_q or set_c) else 0.0
+            intersection_fraction = round(len(set_q & set_c) / len(set_q), 3) if set_q else 0.0
+            
+            if print_samples:
+                print_sample_info(q_table, q_col, c_table, c_col, q_samples, c_samples, 
+                                 overlap, intersection_fraction, 
+                                 "Semantic False Positive")
+            
             disagreements['semantic_false_positives'].append({
                 'query': query,
                 'candidate': cand,
-                'semantic_score': next(score for c, score in semantic_preds[query] if c == cand)
+                'semantic_score': next(score for c, score in semantic_preds[query] if c == cand),
+                'query_samples': ','.join(q_samples),
+                'candidate_samples': ','.join(c_samples),
+                'overlapping_values': ','.join(list(set_q & set_c)[:sample_count]),
+                'Jaccard_similarity': overlap,
+                'intersection_query_fraction': intersection_fraction,
             })
         
         deepjoin_fp = deepjoin_set - gt_set
         for cand in deepjoin_fp:
+            q_table, q_col = split_key(query)
+            c_table, c_col = split_key(cand)
+            
+            # Load sample values and compute metrics
+            q_samples = load_column_samples(q_table, q_col, datalake_dir, sample_count)
+            c_samples = load_column_samples(c_table, c_col, datalake_dir, sample_count)
+            set_q = get_value_set(q_table, q_col, datalake_dir)
+            set_c = get_value_set(c_table, c_col, datalake_dir)
+            overlap = round((len(set_q & set_c) / len(set_q | set_c)), 3) if (set_q or set_c) else 0.0
+            intersection_fraction = round(len(set_q & set_c) / len(set_q), 3) if set_q else 0.0
+            
+            if print_samples:
+                print_sample_info(q_table, q_col, c_table, c_col, q_samples, c_samples, 
+                                 overlap, intersection_fraction, 
+                                 "DeepJoin False Positive")
+            
             disagreements['deepjoin_false_positives'].append({
                 'query': query,
                 'candidate': cand,
-                'deepjoin_score': next(score for c, score in deepjoin_preds[query] if c == cand)
+                'deepjoin_score': next(score for c, score in deepjoin_preds[query] if c == cand),
+                'query_samples': ','.join(q_samples),
+                'candidate_samples': ','.join(c_samples),
+                'overlapping_values': ','.join(list(set_q & set_c)[:sample_count]),
+                'Jaccard_similarity': overlap,
+                'intersection_query_fraction': intersection_fraction,
             })
     
     return disagreements
@@ -243,6 +498,12 @@ def main():
                        help='Output directory for evaluation results')
     parser.add_argument('--k-values', type=int, nargs='*', default=[1, 5, 10, 20, 50],
                        help='K values for Precision@k, Recall@k, F1@k calculations')
+    parser.add_argument('--datalake-dir', required=False, default='datasets/freyja-semantic-join/datalake',
+                       help='Root directory of the datalake for sampling column values')
+    parser.add_argument('--sample-count', type=int, default=5, help='Number of sample values per column to include')
+    parser.add_argument('--print-samples', action='store_true', help='Print sample values and metrics to console')
+    parser.add_argument('--similarity-threshold', type=float, default=0.7, 
+                       help='Similarity threshold for filtering semantic results (default: 0.7)')
     
     args = parser.parse_args()
     
@@ -254,7 +515,7 @@ def main():
     # Load data
     ground_truth = load_ground_truth(args.ground_truth)
     deepjoin_preds = load_deepjoin_results(args.deepjoin_results)
-    semantic_preds = load_semantic_results(args.semantic_results)
+    semantic_preds = load_semantic_results(args.semantic_results, args.similarity_threshold)
     
     # Remove self-joins
     deepjoin_preds = remove_self_joins(deepjoin_preds)
@@ -272,7 +533,8 @@ def main():
     
     # Analyze disagreements
     print("Analyzing disagreements...")
-    disagreements = analyze_disagreements(semantic_preds, deepjoin_preds, ground_truth)
+    disagreements = analyze_disagreements(semantic_preds, deepjoin_preds, ground_truth, 
+                                         args.datalake_dir, args.sample_count, args.print_samples)
     
     # Save results
     print("Saving results...")

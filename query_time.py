@@ -310,6 +310,7 @@ class SemanticJoinQueryProcessor:
     def _find_similar_columns(self, query_sketch: SemanticSketch, query: QueryColumn) -> List[QueryResult]:
         """Find similar columns using sketch comparison."""
         results = []
+        table_best_scores = {}  # Track best score per table
         
         self.logger.info(f"Comparing query sketch against {len(self.available_sketches)} candidate sketches")
         
@@ -338,11 +339,17 @@ class SemanticJoinQueryProcessor:
                         semantic_matches=int(semantic_matches),
                         semantic_density=float(semantic_density)
                     )
-                    results.append(result)
+                    
+                    # Keep only the best result per table
+                    if table_name not in table_best_scores or semantic_density > table_best_scores[table_name].similarity_score:
+                        table_best_scores[table_name] = result
                 
             except Exception as e:
                 self.logger.warning(f"Error processing candidate {table_name}.{column_name}: {e}")
                 continue
+        
+        # Convert dictionary values to list
+        results = list(table_best_scores.values())
         
         return results
     
