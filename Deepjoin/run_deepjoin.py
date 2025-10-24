@@ -2,12 +2,93 @@ import os
 import argparse
 import csv
 import pickle
+from typing import Dict, List, Tuple, Set
 
 from dataprocess.process_table_tosentence import process_table_sentense
 from Forward1 import process_onedataset
 import hnsw_search as hnsw_search_module
 
 import pandas as pd
+
+
+def load_ground_truth(gt_path: str) -> Dict[str, Set[str]]:
+    """Load ground truth from CSV file."""
+    gt_df = pd.read_csv(gt_path)
+    gt_df['target_ds'] = gt_df['target_ds'].str.replace('.csv', '', regex=False).str.lower()
+    gt_df['candidate_ds'] = gt_df['candidate_ds'].str.replace('.csv', '', regex=False).str.lower()
+    
+    by_query: Dict[str, Set[str]] = {}
+    for _, r in gt_df.iterrows():
+        q = f"{r['target_ds']}.{r['target_attr']}"
+        c = f"{r['candidate_ds']}.{r['candidate_attr']}"
+        by_query.setdefault(q, set()).add(c)
+    
+    return by_query
+
+
+def load_deepjoin_results(deepjoin_path: str) -> Dict[str, List[Tuple[str, float]]]:
+    """Load DeepJoin results from CSV file."""
+    df = pd.read_csv(deepjoin_path)
+    df['query_table'] = df['query_table'].str.replace('datalake-', '', regex=False).str.replace('.csv', '', regex=False).str.lower()
+    df['candidate_table'] = df['candidate_table'].str.replace('datalake-', '', regex=False).str.replace('.csv', '', regex=False).str.lower()
+    
+    out: Dict[str, List[Tuple[str, float]]] = {}
+    for _, r in df.iterrows():
+        q = f"{r['query_table']}.{r['query_col']}"
+        c = f"{r['candidate_table']}.{r['candidate_col']}"
+        out.setdefault(q, []).append((c, float(r['score'])))
+    
+    # Sort by score descending
+    for k in out:
+        out[k].sort(key=lambda x: x[1], reverse=True)
+    
+    return out
+
+
+def remove_self_joins(preds: Dict[str, List[Tuple[str, float]]]) -> Dict[str, List[Tuple[str, float]]]:
+    """Remove self-joins from predictions."""
+    cleaned: Dict[str, List[Tuple[str, float]]] = {}
+    for q, items in preds.items():
+        cleaned[q] = [(c, s) for c, s in items if c != q]
+    return cleaned
+
+
+def calculate_traditional_metrics(predictions: Dict[str, List[Tuple[str, float]]], 
+                                ground_truth: Dict[str, Set[str]]) -> Dict[str, float]:
+    """Calculate traditional Precision, Recall, and F1 metrics."""
+    
+    total_tp = 0
+    total_fp = 0
+    total_fn = 0
+    
+    for query, preds in predictions.items():
+        if query not in ground_truth:
+            continue
+        
+        gt_set = ground_truth[query]
+        pred_set = set([cand for cand, _ in preds])
+        
+        tp = len(pred_set.intersection(gt_set))
+        fp = len(pred_set - gt_set)
+        fn = len(gt_set - pred_set)
+        
+        total_tp += tp
+        total_fp += fp
+        total_fn += fn
+    
+    # Calculate total metrics
+    total_precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
+    total_recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+    total_f1 = 2 * total_precision * total_recall / (total_precision + total_recall) if (total_precision + total_recall) > 0 else 0.0
+    
+    return {
+        'true_positives': total_tp,
+        'total_predictions': total_tp + total_fp,
+        'total_ground_truth': total_tp + total_fn,
+        'precision': total_precision,
+        'recall': total_recall,
+        'f1': total_f1
+    }
 
 
 def main():
@@ -83,6 +164,12 @@ def main():
     parser.add_argument("--self_join", action="store_true", default=False,
                        help="Use datalake tables as queries as well (discover joinable pairs within the lake)")
 
+    # Sampling parameters
+    parser.add_argument("--sampling_mode", type=str, default="frequent", 
+                       choices=["frequent", "random", "mixed", "weighted", "priority_sampling"],
+                       help="Sampling strategy for column values: 'frequent' (original Deepjoin), "
+                            "'random', 'mixed', 'weighted', or 'priority_sampling'")
+
     args = parser.parse_args()
 
     # Setup paths
@@ -110,6 +197,7 @@ def main():
             data_pkl_name=os.path.basename(lake_sentences),
             tmppath=tmp_dir,
             split_num=args.split_lake,
+            sampling_mode=args.sampling_mode,
         )
     else:
         print(f"Using existing lake sentences: {lake_sentences}")
@@ -124,6 +212,7 @@ def main():
                 data_pkl_name=os.path.basename(query_sentences),
                 tmppath=tmp_dir,
                 split_num=args.split_queries,
+                sampling_mode=args.sampling_mode,
             )
         else:
             print(f"Using existing query sentences: {query_sentences}")
@@ -180,7 +269,7 @@ def main():
                 print(f"[WARN] Column {args.queries_csv_col} not found in {args.queries_csv}; skipping restriction")
         except Exception as e:
             print(f"[WARN] Failed to read/parse queries_csv {args.queries_csv}: {e}")
-    results_csv = os.path.join(out_dir, f"deepjoin_results_K{args.K}_N{args.N}_T{args.threshold}.csv")
+    results_csv = os.path.join(out_dir, f"deepjoin_results_{args.sampling_mode}_K{args.K}_N{args.N}_T{args.threshold}.csv")
     if os.path.exists(results_csv):
         os.remove(results_csv)
 
@@ -260,16 +349,9 @@ def main():
 
     print("Saved:", results_csv)
 
-    # Optional: Evaluate against ground truth using evaluate_final.py functions
+    # Optional: Evaluate against ground truth using built-in evaluation functions
     if args.ground_truth and os.path.isfile(args.ground_truth):
         try:
-            # Import evaluation functions from evaluate_final.py
-            import sys
-            # Add the root directory to path so we can import evaluate_final
-            root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-            sys.path.append(root_dir)
-            from evaluate_final import load_ground_truth, load_deepjoin_results, calculate_traditional_metrics
-            
             print("Loading ground truth...")
             ground_truth = load_ground_truth(args.ground_truth)
             
@@ -279,21 +361,24 @@ def main():
             print(f"Ground truth: {len(ground_truth)} query tables")
             print(f"DeepJoin: {len(deepjoin_predictions)} query tables")
             
+            # Remove self-joins
+            deepjoin_predictions = remove_self_joins(deepjoin_predictions)
+            
             # Filter to ground truth queries only
             gt_queries = set(ground_truth.keys())
             deepjoin_filtered = {q: deepjoin_predictions[q] for q in gt_queries if q in deepjoin_predictions}
             
             print(f"Filtering to ground truth queries only: {len(deepjoin_filtered)} queries")
             
-            # Calculate traditional metrics using the same function as evaluate_final.py
+            # Calculate traditional metrics using the same function as evaluate_semantic_join.py
             traditional_results = calculate_traditional_metrics(deepjoin_filtered, ground_truth)
             
             print("Evaluation (column-pair level):")
             print(f"  TP: {traditional_results['true_positives']}  Total Predictions: {traditional_results['total_predictions']}  Total Ground Truth: {traditional_results['total_ground_truth']}")
-            print(f"  Precision: {traditional_results['precision']:.4f}  Recall: {traditional_results['recall']:.4f}  F1: {traditional_results['f1']:.4f}")
+            print(f"  Precision: {traditional_results['precision']:.3f}  Recall: {traditional_results['recall']:.3f}  F1: {traditional_results['f1']:.3f}")
             
         except Exception as e:
-            print(f"[WARN] Failed to evaluate using evaluate_final.py functions: {e}")
+            print(f"[WARN] Failed to evaluate using built-in functions: {e}")
             print("Falling back to simple table-pair evaluation...")
             
             # Fallback to simple evaluation

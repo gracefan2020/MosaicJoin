@@ -13,9 +13,97 @@ import time
 import nltk
 import torch.multiprocessing
 import csv
+import hashlib
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 
+
+# Constants for priority sampling
+PHI_FRACTION = 0.6180339887  # φ - 1
+
+def fibonacci_hash(x):
+    """Calculate fibonacci hash for priority sampling."""
+    result = (x * PHI_FRACTION) % 1  # Take fractional part
+    return result
+
+def get_samples(values, mode="frequent"):
+    """
+    Sample values from a pandas Series using different strategies.
+    
+    Args:
+        values: pandas Series containing the values to sample
+        mode: sampling strategy ('random', 'frequent', 'mixed', 'weighted', 'priority_sampling')
+            - 'random': completely random sampling from unique values
+            - 'frequent': only the most frequent values (original Deepjoin behavior)
+            - 'mixed': combination of frequent and diverse values
+            - 'weighted': weighted sampling based on value counts
+            - 'priority_sampling': uses priority sampling based on frequency and hash of the values
+    
+    Returns:
+        List of string representations of sampled values
+    """
+    unique_values = values.dropna().unique()
+    total_unique = len(unique_values)
+    
+    # Use all unique values (no sampling limit)
+    n = total_unique
+    
+    if mode == "random":
+        # Completely random sampling
+        random_indices = np.random.choice(total_unique, size=n, replace=False)
+        sampled_values = unique_values[random_indices]
+        tokens = sorted([str(val) for val in sampled_values])
+        
+    elif mode == "frequent":
+        # Only most frequent values (original Deepjoin behavior)
+        value_counts = values.dropna().value_counts()
+        tokens = [str(val) for val in value_counts.index.tolist()]
+        tokens.sort()
+        
+    elif mode == "mixed":
+        # Mix of most frequent and evenly spaced values
+        n_frequent = n // 2
+        value_counts = values.dropna().value_counts()
+        most_frequent_values = value_counts.head(n_frequent).index.tolist()
+        
+        # Calculate evenly spaced samples for diversity
+        n_diverse = n - n_frequent
+        spacing_interval = max(1, total_unique // n_diverse)
+        diverse_values = unique_values[::spacing_interval][:n_diverse]
+        
+        # Combine frequent and diverse samples, remove duplicates
+        tokens = sorted(set([str(val) for val in most_frequent_values + list(diverse_values)]))
+        
+    elif mode == "weighted":
+        # Weighted sampling based on value counts
+        value_counts = values.dropna().value_counts(sort=False)
+        weights = value_counts / value_counts.sum()
+        sampled_indices = np.random.choice(
+            total_unique, size=n, replace=False, p=weights
+        )
+        sampled_values = unique_values[sampled_indices]
+        tokens = sorted([str(val) for val in sampled_values])
+        
+    elif mode == "priority_sampling":
+        value_counts = values.dropna().value_counts(sort=False)
+        
+        # Calculate priorities: qi = freq / hash(value)
+        priorities = pd.Series({
+            val: freq / fibonacci_hash(hash(str(val)) % (2**32))
+            for val, freq in value_counts.items()
+        })
+        
+        # Select the top elements based on priority scores
+        sampled_values = priorities.nlargest(n).index.tolist()
+        tokens = sorted([str(val) for val in sampled_values])
+        
+    else:
+        # Default to frequent sampling
+        value_counts = values.dropna().value_counts()
+        tokens = [str(val) for val in value_counts.index.tolist()]
+        tokens.sort()
+    
+    return tokens
 
 
 def shuffle_sentence(sentence):
@@ -46,37 +134,37 @@ def split_dataframe(df, num_parts):
     return parts
 
 
-def analyze_column_values(file_path, column_name):
+def analyze_column_values(file_path, column_name, sampling_mode="frequent"):
     # 读取CSV文件
     df = pd.read_csv(file_path)
 
-    # 获取指定列的所有不同的列值数据和它们的频率
-    value_counts = df[column_name].astype(str).value_counts()
-
-    # 按照频率由高到低对列值进行排序
-    sorted_values = value_counts.index.tolist()
-
-    n = len(sorted_values)
-    # 以逗号分隔列值
-    col = ', '.join(sorted_values)
-
-    # 统计列值的最大、最小和平均长度
-    lengths = [len(str(value)) for value in sorted_values]
-    max_len = max(lengths)
-    min_len = min(lengths)
-    avg_len = sum(lengths) / len(lengths)
+    # Get column values and apply sampling strategy
+    column_values = df[column_name].astype(str)
+    
+    # Use the new sampling method
+    sampled_values = get_samples(column_values, mode=sampling_mode)
+    
+    n = len(sampled_values)
+    # Join sampled values with commas
+    col = ', '.join(sampled_values)
+    
+    # Calculate statistics for the sampled values
+    lengths = [len(str(value)) for value in sampled_values]
+    max_len = max(lengths) if lengths else 0
+    min_len = min(lengths) if lengths else 0
+    avg_len = sum(lengths) / len(lengths) if lengths else 0
+    
     tokens = f"{column_name} contains {str(n)} values ({str(max_len)}, {str(min_len)}, {str(avg_len)}): {col}"
-    # 返回结果
-
+    
+    # Tokenize and truncate
     tokens = nltk.word_tokenize(tokens)
     truncated_tokens = tokens[:512]
     truncated_sentence = ' '.join(truncated_tokens)
-
     return truncated_sentence
 
 
 
-def process_task4(input_values,queue,queue_inforgather_train,queue_inforgather_evluate,file_train_path):
+def process_task4(input_values,queue,queue_inforgather_train,queue_inforgather_evluate,file_train_path,sampling_mode="frequent"):
     # 执行任务，并返回结果列表
     train_samples = []
     dev_samples = []
@@ -110,8 +198,8 @@ def process_task4(input_values,queue,queue_inforgather_train,queue_inforgather_e
 
         file2_path = os.path.join(file_train_path,row[1])
         try:
-            sentence_text1 = analyze_column_values(file1_path,row[2])
-            sentence_text2 = analyze_column_values(file2_path, row[3])
+            sentence_text1 = analyze_column_values(file1_path,row[2],sampling_mode=sampling_mode)
+            sentence_text2 = analyze_column_values(file2_path, row[3],sampling_mode=sampling_mode)
         except Exception as e:
             continue
         score = float(row[4])  # Normalize score to range 0 ... 1
@@ -181,7 +269,7 @@ def processdate(train_file,dev_file,num_partitions):
     return return_train,return_dev
 
 
-def process_before_train(file_train_path,filecsv,filepath = "/data/lijiajun/deepjoin/pretrain_data_list/",name = "train_list.pkl",name2 = "evluate_list.pkl"):
+def process_before_train(file_train_path,filecsv,filepath = "/data/lijiajun/deepjoin/pretrain_data_list/",name = "train_list.pkl",name2 = "evluate_list.pkl",sampling_mode="frequent"):
 
     #file = '../sato_webtable_new.csv'
     #file = '../test.csv'
@@ -213,7 +301,7 @@ def process_before_train(file_train_path,filecsv,filepath = "/data/lijiajun/deep
     queue_inforgather_evluate = multiprocessing.Manager().Queue()
 
     for i in range(split_num):
-        process = Process(target=process_task4, args=(sub_file_ls[i], queues[i], queue_inforgather_train,queue_inforgather_evluate,file_train_path))
+        process = Process(target=process_task4, args=(sub_file_ls[i], queues[i], queue_inforgather_train,queue_inforgather_evluate,file_train_path,sampling_mode))
         process_list.append(process)
         process.start()
 

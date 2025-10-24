@@ -31,9 +31,9 @@ except LookupError:
     nltk.download('punkt', quiet=True)
 PY
 
-python /Users/gracefan/Documents/semantic-join/Deepjoin/run_deepjoin.py \
-  --dataset_root /Users/gracefan/Documents/LakeBench/datasets/freyja-semantic-join \
-  --out_dir /Users/gracefan/Documents/semantic-join/Deepjoin/output \
+python ./run_deepjoin.py \
+  --dataset_root ../datasets/freyja-semantic-join \
+  --out_dir ./output \
   --model_dir sentence-transformers/all-mpnet-base-v2 \
   --lake_subdir datalake \
   --queries_subdir datalake \
@@ -44,9 +44,10 @@ python /Users/gracefan/Documents/semantic-join/Deepjoin/run_deepjoin.py \
   --N 20 \
   --threshold 0.7 \
   --min_matches 1 \
-  --queries_csv /Users/gracefan/Documents/semantic-join/datasets/freyja-semantic-join/freyja_query_columns.csv \
+  --sampling_mode priority_sampling \
+  --queries_csv ../datasets/freyja-semantic-join/freyja_query_columns.csv \
   --queries_csv_col target_ds \
-  --ground_truth /Users/gracefan/Documents/LakeBench/datasets/freyja-semantic-join/freyja_ground_truth.csv \
+  --ground_truth ../datasets/freyja-semantic-join/freyja_ground_truth.csv \
   --gt_query_col target_ds \
   --gt_candidate_col candidate_ds
 
