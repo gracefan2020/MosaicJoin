@@ -30,6 +30,13 @@ from tqdm import tqdm
 from offline_embedding import MPNetEmbedder, create_mpnet_embedder, load_column_embedding
 from offline_sketch import SemanticSketch, load_offline_sketch
 
+# Import DeepJoin retriever
+try:
+    from deepjoin_retriever import DeepJoinIndexRetriever, create_deepjoin_retriever
+except ImportError:
+    DeepJoinIndexRetriever = None
+    create_deepjoin_retriever = None
+
 # =============================================================================
 # Configuration Classes
 # =============================================================================
@@ -41,6 +48,17 @@ class QueryConfig:
     top_k_return: int = 50  # final results to return
     similarity_threshold: float = 0.7  # threshold for semantic matching
     sketch_size: int = 1024  # k for k-closest selection
+    
+    # DeepJoin integration options
+    use_deepjoin_index: bool = False  # Use DeepJoin for candidate filtering
+    deepjoin_embeddings_path: Optional[str] = None  # Path to DeepJoin embeddings
+    deepjoin_query_embeddings_path: Optional[str] = None  # Path to DeepJoin query embeddings
+    deepjoin_index_path: Optional[str] = None  # Path to DeepJoin HNSW index
+    deepjoin_scale: float = 1.0  # Scale factor for DeepJoin dataset
+    deepjoin_encoder: str = "sherlock"  # DeepJoin encoder type
+    deepjoin_candidate_limit: int = 5  # Number of candidates from DeepJoin index
+    deepjoin_top_k: int = 200  # Number of top results from DeepJoin (for candidate filtering)
+    deepjoin_threshold: float = 0.6  # DeepJoin similarity threshold
     
     # Processing options
     enable_early_stopping: bool = True
@@ -77,6 +95,9 @@ class QueryStats:
     failed_queries: int = 0
     total_processing_time: float = 0.0
     total_candidates_found: int = 0
+    total_high_quality_candidates: int = 0
+    total_deepjoin_candidates: int = 0
+    deepjoin_queries_processed: int = 0
 
 # =============================================================================
 # Core Classes
@@ -94,6 +115,13 @@ class SemanticJoinQueryProcessor:
         
         # Setup logging
         self.logger = self._setup_logging()
+        
+        # Initialize DeepJoin retriever if enabled
+        self.deepjoin_retriever = None
+        self.deepjoin_query_embeddings = None
+        # if config.use_deepjoin_index:
+        #     self._initialize_deepjoin_retriever()
+        #     self._load_deepjoin_query_embeddings()
         
         # Load all available sketches for fast lookup
         self.available_sketches = self._discover_available_sketches()
@@ -119,6 +147,51 @@ class SemanticJoinQueryProcessor:
         logger.addHandler(console_handler)
         
         return logger
+    
+    def _initialize_deepjoin_retriever(self):
+        """Initialize the DeepJoin retriever if enabled."""
+        if not self.config.use_deepjoin_index:
+            return
+        
+        if DeepJoinIndexRetriever is None:
+            self.logger.warning("DeepJoin integration requested but DeepJoin modules not available")
+            return
+        
+        if not self.config.deepjoin_embeddings_path:
+            self.logger.error("DeepJoin integration enabled but no embeddings path provided")
+            return
+        
+        try:
+            self.deepjoin_retriever = create_deepjoin_retriever(
+                deepjoin_embeddings_path=self.config.deepjoin_embeddings_path,
+                index_path=self.config.deepjoin_index_path,
+                scale=self.config.deepjoin_scale,
+                encoder=self.config.deepjoin_encoder
+            )
+            
+            if self.deepjoin_retriever:
+                self.logger.info("DeepJoin retriever initialized successfully")
+            else:
+                self.logger.error("Failed to initialize DeepJoin retriever")
+                
+        except Exception as e:
+            self.logger.error(f"Error initializing DeepJoin retriever: {e}")
+            self.deepjoin_retriever = None
+    
+    def _load_deepjoin_query_embeddings(self):
+        """Load DeepJoin query embeddings if available."""
+        if not self.config.deepjoin_query_embeddings_path:
+            self.logger.warning("DeepJoin query embeddings path not provided")
+            return
+        
+        try:
+            import pickle
+            with open(self.config.deepjoin_query_embeddings_path, 'rb') as f:
+                self.deepjoin_query_embeddings = pickle.load(f)
+            self.logger.info(f"Loaded DeepJoin query embeddings from {self.config.deepjoin_query_embeddings_path}")
+        except Exception as e:
+            self.logger.error(f"Error loading DeepJoin query embeddings: {e}")
+            self.deepjoin_query_embeddings = None
     
     def _discover_available_sketches(self) -> Dict[Tuple[str, str, int], Path]:
         """Discover all available sketches."""
@@ -166,6 +239,11 @@ class SemanticJoinQueryProcessor:
         self.stats.total_queries += 1
         
         try:
+            # Use DeepJoin for candidate filtering if enabled
+            candidate_tables = None
+            if self.deepjoin_retriever and self.deepjoin_query_embeddings:
+                candidate_tables = self._get_deepjoin_candidates(query)
+            
             # Build query sketch
             query_sketch = self._build_query_sketch(query)
             if query_sketch is None:
@@ -173,10 +251,11 @@ class SemanticJoinQueryProcessor:
                 return []
             
             # Find similar columns using sketch comparison
-            results = self._find_similar_columns(query_sketch, query)
+            results = self._find_similar_columns(query_sketch, query, candidate_tables)
             
             # Sort by similarity score and limit results
             results.sort(key=lambda x: x.similarity_score, reverse=True)
+            # Return up to top_k_return high-quality results, or fewer if not enough meet threshold
             final_results = results[:self.config.top_k_return]
             
             # Update statistics
@@ -184,6 +263,7 @@ class SemanticJoinQueryProcessor:
             self.stats.successful_queries += 1
             self.stats.total_processing_time += processing_time
             self.stats.total_candidates_found += len(final_results)
+            self.stats.total_high_quality_candidates += len(results)
             
             self.logger.info(f"Query processed in {processing_time:.2f}s, found {len(final_results)} candidates")
             
@@ -193,6 +273,74 @@ class SemanticJoinQueryProcessor:
             self.logger.error(f"Error processing query: {e}")
             self.stats.failed_queries += 1
             return []
+    
+    def _get_deepjoin_candidates(self, query: QueryColumn) -> Optional[Set[str]]:
+        """Get candidate tables using DeepJoin query embeddings."""
+        if not self.deepjoin_query_embeddings:
+            return None
+        
+        try:
+            # Find query embeddings for this specific query
+            query_key = f"{query.table_name}.{query.column_name}"
+            query_embeddings = None
+            
+            # Search for matching query embeddings
+            # DeepJoin embeddings use "datalake-" prefix and no .csv extension
+            # Query table names may include .csv extension
+            query_table_base = query.table_name.replace('.csv', '')
+            
+            for table_name, embeddings in self.deepjoin_query_embeddings:
+                # Try exact match first
+                if table_name == query.table_name:
+                    query_embeddings = embeddings
+                    break
+                # Try with datalake- prefix
+                elif table_name == f"datalake-{query.table_name}":
+                    query_embeddings = embeddings
+                    break
+                # Try removing datalake- prefix from embeddings
+                elif table_name.startswith("datalake-") and table_name[9:] == query.table_name:
+                    query_embeddings = embeddings
+                    break
+                # Try with datalake- prefix and without .csv extension
+                elif table_name == f"datalake-{query_table_base}":
+                    query_embeddings = embeddings
+                    break
+                # Try removing datalake- prefix and comparing without .csv extension
+                elif table_name.startswith("datalake-") and table_name[9:] == query_table_base:
+                    query_embeddings = embeddings
+                    break
+            
+            if query_embeddings is None:
+                self.logger.warning(f"No DeepJoin query embeddings found for {query_key}")
+                # Debug: show available table names
+                available_tables = [name for name, _ in self.deepjoin_query_embeddings[:5]]
+                self.logger.debug(f"Available DeepJoin tables (first 5): {available_tables}")
+                return None
+            
+            # Use DeepJoin to find similar tables
+            similar_columns = self.deepjoin_retriever.find_similar_columns(
+                query_embeddings=query_embeddings,
+                top_k=self.config.deepjoin_top_k,  # Use separate DeepJoin top-k for more candidates
+                candidate_limit=self.config.deepjoin_candidate_limit,
+                threshold=self.config.deepjoin_threshold
+            )
+            
+            # Extract unique table names
+            candidate_tables = set(table_name for table_name, _ in similar_columns)
+            num_candidates = len(candidate_tables)
+            
+            # Track DeepJoin statistics
+            self.stats.total_deepjoin_candidates += num_candidates
+            self.stats.deepjoin_queries_processed += 1
+            
+            self.logger.info(f"DeepJoin found {num_candidates} candidate tables for {query_key}")
+            
+            return candidate_tables
+            
+        except Exception as e:
+            self.logger.error(f"Error getting DeepJoin candidates: {e}")
+            return None
     
     def _build_query_sketch(self, query: QueryColumn) -> Optional[SemanticSketch]:
         """Build semantic sketch for query column."""
@@ -307,14 +455,24 @@ class SemanticJoinQueryProcessor:
         idx_sorted = idx[np.argsort(norms[idx])]
         return idx_sorted, norms[idx_sorted]
     
-    def _find_similar_columns(self, query_sketch: SemanticSketch, query: QueryColumn) -> List[QueryResult]:
+    def _find_similar_columns(self, query_sketch: SemanticSketch, query: QueryColumn, candidate_tables: Optional[Set[str]] = None) -> List[QueryResult]:
         """Find similar columns using sketch comparison."""
         results = []
         table_best_scores = {}  # Track best score per table
         
-        self.logger.info(f"Comparing query sketch against {len(self.available_sketches)} candidate sketches")
+        # Filter sketches by candidate tables if provided
+        sketches_to_process = self.available_sketches
+        if candidate_tables:
+            sketches_to_process = {
+                (table_name, column_name, column_index): sketch_path
+                for (table_name, column_name, column_index), sketch_path in self.available_sketches.items()
+                if table_name in candidate_tables
+            }
+            self.logger.info(f"DeepJoin filtering: comparing against {len(sketches_to_process)} candidate sketches (filtered from {len(self.available_sketches)})")
+        else:
+            self.logger.info(f"Comparing query sketch against {len(self.available_sketches)} candidate sketches")
         
-        for (table_name, column_name, column_index), sketch_path in self.available_sketches.items():
+        for (table_name, column_name, column_index), sketch_path in sketches_to_process.items():
             try:
                 # Skip the query table itself
                 if table_name == query.table_name:
@@ -340,9 +498,8 @@ class SemanticJoinQueryProcessor:
                         semantic_density=float(semantic_density)
                     )
                     
-                    # Keep only the best result per table
-                    if table_name not in table_best_scores or semantic_density > table_best_scores[table_name].similarity_score:
-                        table_best_scores[table_name] = result
+                    # Keep all candidates
+                    results.append(result)
                 
             except Exception as e:
                 self.logger.warning(f"Error processing candidate {table_name}.{column_name}: {e}")
@@ -370,7 +527,7 @@ class SemanticJoinQueryProcessor:
         semantic_matches = np.sum(similarity_matrix > self.config.similarity_threshold)
         
         # Calculate semantic density
-        semantic_density = semantic_matches / min(a.k, b.k)
+        semantic_density = semantic_matches / a.k
         
         return int(semantic_matches), float(semantic_density)
     
@@ -387,12 +544,24 @@ class SemanticJoinQueryProcessor:
         print(f"Failed queries: {stats.failed_queries}")
         print(f"Total processing time: {stats.total_processing_time:.2f}s")
         print(f"Total candidates found: {stats.total_candidates_found}")
+        print(f"Total high-quality candidates: {stats.total_high_quality_candidates}")
         
         if stats.successful_queries > 0:
             avg_time_per_query = stats.total_processing_time / stats.successful_queries
             avg_candidates_per_query = stats.total_candidates_found / stats.successful_queries
+            avg_high_quality_per_query = stats.total_high_quality_candidates / stats.successful_queries
             print(f"Average time per query: {avg_time_per_query:.4f}s")
             print(f"Average candidates per query: {avg_candidates_per_query:.2f}")
+            print(f"Average high-quality candidates per query: {avg_high_quality_per_query:.2f}")
+            
+        # DeepJoin statistics
+        if stats.deepjoin_queries_processed > 0:
+            avg_deepjoin_candidates = stats.total_deepjoin_candidates / stats.deepjoin_queries_processed
+            print(f"DeepJoin queries processed: {stats.deepjoin_queries_processed}")
+            print(f"Total DeepJoin candidates: {stats.total_deepjoin_candidates}")
+            print(f"Average DeepJoin candidates per query: {avg_deepjoin_candidates:.2f}")
+        else:
+            print("DeepJoin integration: Not used")
 
 # =============================================================================
 # Utility Functions
@@ -456,6 +625,27 @@ def main():
     parser.add_argument("--embeddings-dir", type=str,
                        help="Path to embeddings directory (optional)")
     
+    # DeepJoin integration arguments
+    parser.add_argument("--use-deepjoin-index", action="store_true",
+                       help="Use DeepJoin index for candidate filtering")
+    parser.add_argument("--deepjoin-embeddings-path", type=str,
+                       help="Path to DeepJoin embeddings pickle file")
+    parser.add_argument("--deepjoin-query-embeddings-path", type=str,
+                       help="Path to DeepJoin query embeddings pickle file")
+    parser.add_argument("--deepjoin-index-path", type=str,
+                       help="Path to DeepJoin HNSW index file (optional)")
+    parser.add_argument("--deepjoin-scale", type=float, default=1.0,
+                       help="Scale factor for DeepJoin dataset (0.0-1.0)")
+    parser.add_argument("--deepjoin-encoder", type=str, default="sherlock",
+                       choices=["sherlock", "sato"],
+                       help="DeepJoin encoder type")
+    parser.add_argument("--deepjoin-candidate-limit", type=int, default=5,
+                       help="Number of candidates from DeepJoin index")
+    parser.add_argument("--deepjoin-top-k", type=int, default=200,
+                       help="Number of top results from DeepJoin (for candidate filtering)")
+    parser.add_argument("--deepjoin-threshold", type=float, default=0.6,
+                       help="DeepJoin similarity threshold")
+    
     args = parser.parse_args()
     
     # Create config
@@ -463,7 +653,16 @@ def main():
         top_k_return=args.top_k_return,
         similarity_threshold=args.similarity_threshold,
         sketch_size=args.sketch_size,
-        device=args.device
+        device=args.device,
+        use_deepjoin_index=args.use_deepjoin_index,
+        deepjoin_embeddings_path=args.deepjoin_embeddings_path,
+        deepjoin_query_embeddings_path=args.deepjoin_query_embeddings_path,
+        deepjoin_index_path=args.deepjoin_index_path,
+        deepjoin_scale=args.deepjoin_scale,
+        deepjoin_encoder=args.deepjoin_encoder,
+        deepjoin_candidate_limit=args.deepjoin_candidate_limit,
+        deepjoin_top_k=args.deepjoin_top_k,
+        deepjoin_threshold=args.deepjoin_threshold
     )
     
     # Load query values

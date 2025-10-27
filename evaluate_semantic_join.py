@@ -20,6 +20,7 @@ import pandas as pd
 from pathlib import Path
 from typing import Dict, List, Tuple, Set
 import numpy as np
+from tqdm import tqdm
 
 def load_ground_truth(gt_path: str) -> Dict[str, Set[str]]:
     """Load ground truth from CSV file."""
@@ -53,7 +54,7 @@ def load_deepjoin_results(deepjoin_path: str) -> Dict[str, List[Tuple[str, float
     
     return out
 
-def load_semantic_results(semantic_path: str, similarity_threshold: float = 0.7) -> Dict[str, List[Tuple[str, float]]]:
+def load_semantic_results(semantic_path: str, similarity_threshold: float = 0.7) -> Tuple[Dict[str, List[Tuple[str, float]]], Dict[str, Dict[str, int]]]:
     """Load semantic join results from CSV file, filtering by similarity threshold."""
     df = pd.read_csv(semantic_path)
     
@@ -62,6 +63,8 @@ def load_semantic_results(semantic_path: str, similarity_threshold: float = 0.7)
     print(f"Filtered semantic results: {len(df)} -> {len(df_filtered)} (threshold: {similarity_threshold})")
     
     out: Dict[str, List[Tuple[str, float]]] = {}
+    semantic_matches: Dict[str, Dict[str, int]] = {}
+    
     for _, r in df_filtered.iterrows():
         # Remove .csv extension from table names to match ground truth format
         query_table = str(r['query_table']).replace('.csv', '').lower()
@@ -70,12 +73,17 @@ def load_semantic_results(semantic_path: str, similarity_threshold: float = 0.7)
         q = f"{query_table}.{r['query_column']}"
         c = f"{candidate_table}.{r['candidate_column']}"
         out.setdefault(q, []).append((c, float(r['similarity_score'])))
+        
+        # Store semantic matches count for each query-candidate pair
+        if q not in semantic_matches:
+            semantic_matches[q] = {}
+        semantic_matches[q][c] = int(r['semantic_matches'])
     
     # Sort by similarity score descending
     for k in out:
         out[k].sort(key=lambda x: x[1], reverse=True)
     
-    return out
+    return out, semantic_matches
 
 def remove_self_joins(preds: Dict[str, List[Tuple[str, float]]]) -> Dict[str, List[Tuple[str, float]]]:
     """Remove self-joins from predictions."""
@@ -316,6 +324,96 @@ def get_value_set(table: str, column: str, datalake_root: str) -> Set[str]:
     
     return vals
 
+def extract_matching_values_for_false_positive(query_table: str, query_column: str, 
+                                             candidate_table: str, candidate_column: str,
+                                             semantic_matches: int, datalake_dir: str,
+                                             similarity_threshold: float = 0.7) -> Tuple[List[str], List[str], float]:
+    """
+    Extract the values that likely contributed to the semantic matches for a false positive
+    by calculating embedding similarity between individual values.
+    
+    Returns:
+        - query_matching_values: Values from query column that likely matched
+        - candidate_matching_values: Values from candidate column that likely matched  
+        - jaccard_similarity: Jaccard similarity between the two value sets
+    """
+    try:
+        # Load all values from both columns
+        query_values = get_value_set(query_table, query_column, datalake_dir)
+        candidate_values = get_value_set(candidate_table, candidate_column, datalake_dir)
+        
+        if not query_values or not candidate_values:
+            return [], [], 0.0
+        
+        # Calculate Jaccard similarity
+        union = query_values | candidate_values
+        jaccard_similarity = len(query_values & candidate_values) / len(union) if union else 0.0
+        
+        # Convert sets to lists for easier handling
+        query_list = list(query_values)
+        candidate_list = list(candidate_values)
+        
+        # If we have semantic matches, find the most similar value pairs using embeddings
+        if semantic_matches > 0 and query_list and candidate_list:
+            try:
+                # Import the embedding functionality
+                from offline_embedding import create_mpnet_embedder
+                import numpy as np
+                
+                # Create embedder directly
+                embedder = create_mpnet_embedder("cpu")
+                
+                # Get embeddings for query values with column context
+                query_contextual = [f"{query_column}: {v}" for v in query_list]
+                query_embeddings = embedder.embed_texts(query_contextual)
+                
+                # Get embeddings for candidate values with column context  
+                candidate_contextual = [f"{candidate_column}: {v}" for v in candidate_list]
+                candidate_embeddings = embedder.embed_texts(candidate_contextual)
+                
+                # Normalize embeddings for cosine similarity
+                query_norm = query_embeddings / (np.linalg.norm(query_embeddings, axis=1, keepdims=True) + 1e-12)
+                candidate_norm = candidate_embeddings / (np.linalg.norm(candidate_embeddings, axis=1, keepdims=True) + 1e-12)
+                
+                # Calculate similarity matrix
+                similarity_matrix = np.dot(query_norm, candidate_norm.T)
+                
+                # Find pairs above similarity threshold (using same threshold as query time)
+                threshold = similarity_threshold
+                matching_pairs = []
+                
+                for i, q_val in enumerate(query_list):
+                    for j, c_val in enumerate(candidate_list):
+                        if similarity_matrix[i, j] > threshold:
+                            matching_pairs.append((q_val, c_val, similarity_matrix[i, j]))
+                
+                # Sort by similarity score and take the top matches
+                matching_pairs.sort(key=lambda x: x[2], reverse=True)
+                
+                # Limit to the number of semantic matches or available pairs
+                top_pairs = matching_pairs[:min(semantic_matches, len(matching_pairs))]
+                
+                matching_query_values = [pair[0] for pair in top_pairs]
+                matching_candidate_values = [pair[1] for pair in top_pairs]
+                
+            except Exception as e:
+                print(f"Error calculating embedding similarity: {e}")
+                # Fallback to intersection-based approach
+                intersection = query_values & candidate_values
+                intersection_list = list(intersection)
+                matching_query_values = intersection_list[:min(semantic_matches, len(intersection_list))]
+                matching_candidate_values = intersection_list[:min(semantic_matches, len(intersection_list))]
+        else:
+            # If no semantic matches, return empty lists
+            matching_query_values = []
+            matching_candidate_values = []
+        
+        return matching_query_values, matching_candidate_values, jaccard_similarity
+        
+    except Exception as e:
+        print(f"Error extracting matching values for {query_table}.{query_column} vs {candidate_table}.{candidate_column}: {e}")
+        return [], [], 0.0
+
 def split_key(key: str) -> Tuple[str, str]:
     """Split table.column key into table and column parts."""
     if '.' in key:
@@ -336,22 +434,85 @@ def print_sample_info(q_table: str, q_col: str, c_table: str, c_col: str,
     print(f"Set Containment: {intersection_fraction}")
     print("-" * 50)
 
-def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
-                        deepjoin_preds: Dict[str, List[Tuple[str, float]]],
-                        ground_truth: Dict[str, Set[str]], 
-                        datalake_dir: str = 'datasets/freyja-semantic-join/datalake',
-                        sample_count: int = 5,
-                        print_samples: bool = False) -> Dict[str, List[Dict]]:
-    """Analyze disagreements between semantic and DeepJoin predictions."""
+def analyze_false_positives(semantic_preds: Dict[str, List[Tuple[str, float]]],
+                           ground_truth: Dict[str, Set[str]], 
+                           semantic_matches: Dict[str, Dict[str, int]],
+                           datalake_dir: str = 'datasets/freyja-semantic-join/datalake',
+                           sample_count: int = 5,
+                           print_samples: bool = False,
+                           similarity_threshold: float = 0.7) -> List[Dict]:
+    """Analyze semantic method false positives."""
+    false_positives = []
     
-    disagreements = {
-        'semantic_right_deepjoin_wrong': [],
-        'deepjoin_right_semantic_wrong': [],
-        'semantic_false_positives': [],
-        'deepjoin_false_positives': []
-    }
+    for query in tqdm(ground_truth):
+        if query not in semantic_preds:
+            continue
+        
+        gt_set = ground_truth[query]
+        semantic_set = set([cand for cand, _ in semantic_preds[query]])
+        
+        # False positives
+        semantic_fp = semantic_set - gt_set
+        for cand in semantic_fp:
+            q_table, q_col = split_key(query)
+            c_table, c_col = split_key(cand)
+            
+            # Get semantic matches count for this query-candidate pair
+            matches_count = semantic_matches.get(query, {}).get(cand, 0)
+            
+            # Extract the actual matching values that contributed to the high semantic score
+            matching_query_values, matching_candidate_values, jaccard_similarity = extract_matching_values_for_false_positive(
+                q_table, q_col, c_table, c_col, matches_count, datalake_dir, similarity_threshold
+            )
+            
+            # Also load regular samples for comparison
+            q_samples = load_column_samples(q_table, q_col, datalake_dir, sample_count)
+            c_samples = load_column_samples(c_table, c_col, datalake_dir, sample_count)
+            set_q = get_value_set(q_table, q_col, datalake_dir)
+            set_c = get_value_set(c_table, c_col, datalake_dir)
+            intersection_fraction = round(len(set_q & set_c) / len(set_q), 3) if set_q else 0.0
+            
+            if print_samples:
+                print(f"\n=== SEMANTIC FALSE POSITIVE ===")
+                print(f"Query: {q_table}.{q_col}")
+                print(f"Candidate: {c_table}.{c_col}")
+                print(f"Semantic Score: {next(score for c, score in semantic_preds[query] if c == cand)}")
+                print(f"Semantic Matches: {matches_count}")
+                print(f"Matching Query Values: {matching_query_values}")
+                print(f"Matching Candidate Values: {matching_candidate_values}")
+                print(f"Jaccard Similarity: {jaccard_similarity}")
+                print(f"Regular Query Samples: {q_samples}")
+                print(f"Regular Candidate Samples: {c_samples}")
+                print("-" * 50)
+            
+            false_positives.append({
+                'query': query,
+                'candidate': cand,
+                'semantic_score': next(score for c, score in semantic_preds[query] if c == cand),
+                'semantic_matches': matches_count,
+                'matching_query_values': ','.join(matching_query_values) if matching_query_values else '',
+                'matching_candidate_values': ','.join(matching_candidate_values) if matching_candidate_values else '',
+                'matching_jaccard_similarity': jaccard_similarity,
+                'query_samples': ','.join(q_samples),
+                'candidate_samples': ','.join(c_samples),
+                'overlapping_values': ','.join(list(set_q & set_c)[:sample_count]),
+                'Jaccard_similarity': round((len(set_q & set_c) / len(set_q | set_c)), 3) if (set_q or set_c) else 0.0,
+                'intersection_query_fraction': intersection_fraction,
+            })
     
-    for query in ground_truth:
+    return false_positives
+
+def analyze_method_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
+                                deepjoin_preds: Dict[str, List[Tuple[str, float]]],
+                                ground_truth: Dict[str, Set[str]], 
+                                datalake_dir: str = 'datasets/freyja-semantic-join/datalake',
+                                sample_count: int = 5,
+                                print_samples: bool = False) -> Tuple[List[Dict], List[Dict]]:
+    """Analyze disagreements where one method is right and the other is wrong."""
+    semantic_right_deepjoin_wrong = []
+    deepjoin_right_semantic_wrong = []
+    
+    for query in tqdm(ground_truth):
         if query not in semantic_preds or query not in deepjoin_preds:
             continue
         
@@ -381,7 +542,7 @@ def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
                                  overlap, intersection_fraction, 
                                  "Semantic Right, DeepJoin Wrong")
             
-            disagreements['semantic_right_deepjoin_wrong'].append({
+            semantic_right_deepjoin_wrong.append({
                 'query': query,
                 'candidate': cand,
                 'semantic_score': next(score for c, score in semantic_preds[query] if c == cand),
@@ -412,7 +573,7 @@ def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
                                  overlap, intersection_fraction, 
                                  "DeepJoin Right, Semantic Wrong")
             
-            disagreements['deepjoin_right_semantic_wrong'].append({
+            deepjoin_right_semantic_wrong.append({
                 'query': query,
                 'candidate': cand,
                 'semantic_score': next((score for c, score in semantic_preds[query] if c == cand), 0.0),
@@ -423,36 +584,68 @@ def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
                 'Jaccard_similarity': overlap,
                 'intersection_query_fraction': intersection_fraction,
             })
+    
+    return semantic_right_deepjoin_wrong, deepjoin_right_semantic_wrong
+
+def print_metrics_summary(semantic_metrics: Dict[str, Dict[str, float]], 
+                         deepjoin_metrics: Dict[str, Dict[str, float]], 
+                         k_values: List[int] = [1, 5, 10, 20, 50]):
+    """Print a quick summary of metric scores."""
+    print("\n" + "="*80)
+    print("QUICK METRICS SUMMARY")
+    print("="*80)
+    
+    # Overall metrics
+    print(f"\nOVERALL METRICS:")
+    print(f"{'Method':<12} {'Precision':<12} {'Recall':<12} {'F1':<12}")
+    print(f"{'-'*12} {'-'*12} {'-'*12} {'-'*12}")
+    print(f"{'SemSketch':<12} {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
+    print(f"{'DeepJoin':<12} {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
+    
+    # Calculate percentage improvements
+    precision_improvement = ((semantic_metrics['Total_Precision']['mean'] - deepjoin_metrics['Total_Precision']['mean']) / deepjoin_metrics['Total_Precision']['mean']) * 100
+    recall_improvement = ((semantic_metrics['Total_Recall']['mean'] - deepjoin_metrics['Total_Recall']['mean']) / deepjoin_metrics['Total_Recall']['mean']) * 100
+    f1_improvement = ((semantic_metrics['Total_F1']['mean'] - deepjoin_metrics['Total_F1']['mean']) / deepjoin_metrics['Total_F1']['mean']) * 100
+    
+    print(f"{'Improvement':<12} {precision_improvement:+12.1f}% {recall_improvement:+12.1f}% {f1_improvement:+12.1f}%")
+    
+    # @k metrics
+    print(f"\nTOP-K METRICS:")
+    print(f"{'K':<4} {'SemSketch P@k':<15} {'DeepJoin P@k':<15} {'Improvement':<12}")
+    print(f"{'-'*4} {'-'*15} {'-'*15} {'-'*12}")
+    for k in k_values:
+        p_improvement = ((semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
+        print(f"{k:<4} {semantic_metrics[f'P@{k}']['mean']:<15.3f} {deepjoin_metrics[f'P@{k}']['mean']:<15.3f} {p_improvement:+12.1f}%")
+    
+    print("="*80)
+
+def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
+                        deepjoin_preds: Dict[str, List[Tuple[str, float]]],
+                        ground_truth: Dict[str, Set[str]], 
+                        semantic_matches: Dict[str, Dict[str, int]],
+                        datalake_dir: str = 'datasets/freyja-semantic-join/datalake',
+                        sample_count: int = 5,
+                        print_samples: bool = False,
+                        similarity_threshold: float = 0.7) -> Dict[str, List[Dict]]:
+    """Analyze disagreements between semantic and DeepJoin predictions."""
+    
+    # Use factored functions for cleaner code
+    semantic_right_deepjoin_wrong, deepjoin_right_semantic_wrong = analyze_method_disagreements(
+        semantic_preds, deepjoin_preds, ground_truth, datalake_dir, sample_count, print_samples
+    )
+    
+    semantic_false_positives = analyze_false_positives(
+        semantic_preds, ground_truth, semantic_matches, datalake_dir, sample_count, print_samples, similarity_threshold
+    )
+    
+    # Analyze DeepJoin false positives
+    deepjoin_false_positives = []
+    for query in tqdm(ground_truth):
+        if query not in deepjoin_preds:
+            continue
         
-        # False positives
-        semantic_fp = semantic_set - gt_set
-        for cand in semantic_fp:
-            q_table, q_col = split_key(query)
-            c_table, c_col = split_key(cand)
-            
-            # Load sample values and compute metrics
-            q_samples = load_column_samples(q_table, q_col, datalake_dir, sample_count)
-            c_samples = load_column_samples(c_table, c_col, datalake_dir, sample_count)
-            set_q = get_value_set(q_table, q_col, datalake_dir)
-            set_c = get_value_set(c_table, c_col, datalake_dir)
-            overlap = round((len(set_q & set_c) / len(set_q | set_c)), 3) if (set_q or set_c) else 0.0
-            intersection_fraction = round(len(set_q & set_c) / len(set_q), 3) if set_q else 0.0
-            
-            if print_samples:
-                print_sample_info(q_table, q_col, c_table, c_col, q_samples, c_samples, 
-                                 overlap, intersection_fraction, 
-                                 "Semantic False Positive")
-            
-            disagreements['semantic_false_positives'].append({
-                'query': query,
-                'candidate': cand,
-                'semantic_score': next(score for c, score in semantic_preds[query] if c == cand),
-                'query_samples': ','.join(q_samples),
-                'candidate_samples': ','.join(c_samples),
-                'overlapping_values': ','.join(list(set_q & set_c)[:sample_count]),
-                'Jaccard_similarity': overlap,
-                'intersection_query_fraction': intersection_fraction,
-            })
+        gt_set = ground_truth[query]
+        deepjoin_set = set([cand for cand, _ in deepjoin_preds[query]])
         
         deepjoin_fp = deepjoin_set - gt_set
         for cand in deepjoin_fp:
@@ -472,7 +665,7 @@ def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
                                  overlap, intersection_fraction, 
                                  "DeepJoin False Positive")
             
-            disagreements['deepjoin_false_positives'].append({
+            deepjoin_false_positives.append({
                 'query': query,
                 'candidate': cand,
                 'deepjoin_score': next(score for c, score in deepjoin_preds[query] if c == cand),
@@ -483,7 +676,12 @@ def analyze_disagreements(semantic_preds: Dict[str, List[Tuple[str, float]]],
                 'intersection_query_fraction': intersection_fraction,
             })
     
-    return disagreements
+    return {
+        'semantic_right_deepjoin_wrong': semantic_right_deepjoin_wrong,
+        'deepjoin_right_semantic_wrong': deepjoin_right_semantic_wrong,
+        'semantic_false_positives': semantic_false_positives,
+        'deepjoin_false_positives': deepjoin_false_positives
+    }
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate semantic join results against DeepJoin baseline')
@@ -504,6 +702,12 @@ def main():
     parser.add_argument('--print-samples', action='store_true', help='Print sample values and metrics to console')
     parser.add_argument('--similarity-threshold', type=float, default=0.7, 
                        help='Similarity threshold for filtering semantic results (default: 0.7)')
+    parser.add_argument('--quick-metrics', action='store_true',
+                       help='Only print quick metrics summary, skip detailed analysis')
+    parser.add_argument('--analyze-false-positives', action='store_true',
+                       help='Only analyze false positives (semantic method)')
+    parser.add_argument('--analyze-disagreements', action='store_true',
+                       help='Only analyze method disagreements (one right, one wrong)')
     
     args = parser.parse_args()
     
@@ -515,7 +719,7 @@ def main():
     # Load data
     ground_truth = load_ground_truth(args.ground_truth)
     deepjoin_preds = load_deepjoin_results(args.deepjoin_results)
-    semantic_preds = load_semantic_results(args.semantic_results, args.similarity_threshold)
+    semantic_preds, semantic_matches = load_semantic_results(args.semantic_results, args.similarity_threshold)
     
     # Remove self-joins
     deepjoin_preds = remove_self_joins(deepjoin_preds)
@@ -531,10 +735,49 @@ def main():
     semantic_metrics = calculate_metrics(semantic_preds, ground_truth, args.k_values)
     deepjoin_metrics = calculate_metrics(deepjoin_preds, ground_truth, args.k_values)
     
-    # Analyze disagreements
+    # Print quick metrics summary
+    print_metrics_summary(semantic_metrics, deepjoin_metrics, args.k_values)
+    
+    # Handle different analysis modes
+    if args.quick_metrics:
+        print("\nQuick metrics summary completed. Skipping detailed analysis.")
+        return 0
+    elif args.analyze_false_positives:
+        print("Analyzing semantic false positives...")
+        false_positives = analyze_false_positives(semantic_preds, ground_truth, semantic_matches,
+                                                args.datalake_dir, args.sample_count, args.print_samples, args.similarity_threshold)
+        
+        # Save false positives
+        if false_positives:
+            df = pd.DataFrame(false_positives)
+            df.to_csv(output_dir / 'semantic_false_positives.csv', index=False)
+            print(f"Saved {len(false_positives)} semantic false positives to {output_dir / 'semantic_false_positives.csv'}")
+        else:
+            print("No semantic false positives found.")
+        return 0
+    elif args.analyze_disagreements:
+        print("Analyzing method disagreements...")
+        semantic_right_deepjoin_wrong, deepjoin_right_semantic_wrong = analyze_method_disagreements(
+            semantic_preds, deepjoin_preds, ground_truth, args.datalake_dir, args.sample_count, args.print_samples
+        )
+        
+        # Save disagreements
+        if semantic_right_deepjoin_wrong:
+            df = pd.DataFrame(semantic_right_deepjoin_wrong)
+            df.to_csv(output_dir / 'semantic_right_deepjoin_wrong.csv', index=False)
+            print(f"Saved {len(semantic_right_deepjoin_wrong)} cases where semantic was right and DeepJoin was wrong")
+        
+        if deepjoin_right_semantic_wrong:
+            df = pd.DataFrame(deepjoin_right_semantic_wrong)
+            df.to_csv(output_dir / 'deepjoin_right_semantic_wrong.csv', index=False)
+            print(f"Saved {len(deepjoin_right_semantic_wrong)} cases where DeepJoin was right and semantic was wrong")
+        
+        return 0
+    
+    # Full analysis (default behavior)
     print("Analyzing disagreements...")
-    disagreements = analyze_disagreements(semantic_preds, deepjoin_preds, ground_truth, 
-                                         args.datalake_dir, args.sample_count, args.print_samples)
+    disagreements = analyze_disagreements(semantic_preds, deepjoin_preds, ground_truth, semantic_matches,
+                                         args.datalake_dir, args.sample_count, args.print_samples, args.similarity_threshold)
     
     # Save results
     print("Saving results...")

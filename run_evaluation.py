@@ -27,12 +27,25 @@ def main():
                        help='Disable sample analysis (faster execution)')
     parser.add_argument('--similarity-threshold', type=float, default=0.7,
                        help='Similarity threshold for filtering semantic results (default: 0.7)')
+    parser.add_argument('--quick-metrics', action='store_true',
+                       help='Only print quick metrics summary, skip detailed analysis')
+    parser.add_argument('--analyze-false-positives', action='store_true',
+                       help='Only analyze false positives (semantic method)')
+    parser.add_argument('--analyze-disagreements', action='store_true',
+                       help='Only analyze method disagreements (one right, one wrong)')
     args = parser.parse_args()
     
     # Configuration
-    query_results_dir = find_latest_query_results()
+    # query_results_dir = find_latest_query_results()
+    # query_results_dir = "query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6"
+    # query_results_dir = "query_results_k1024_t0.7_top50_slurm"
+    query_results_dir = "query_results_k1024_t0.7_top50_0"
+
     semantic_results = f"{query_results_dir}/all_query_results.csv"
-    deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
+    # semantic_results = f"{query_results_dir}/llm_pruned_query_results.csv"
+
+    deepjoin_results = "Deepjoin/output/deepjoin_results_frequent_K50_N20_T0.7.csv"
+    # deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
     # deepjoin_results = "Deepjoin/output/deepjoin_results_T0.7_exact.csv"
 
     ground_truth = "datasets/freyja-semantic-join/freyja_ground_truth.csv"
@@ -77,8 +90,17 @@ def main():
         f"--deepjoin-results \"{deepjoin_results}\"",
         f"--ground-truth \"{ground_truth}\"",
         f"--output-dir \"{output_dir}\"",
-        f"--similarity-threshold {args.similarity_threshold}"
+        f"--similarity-threshold {args.similarity_threshold}",
+        f"--quick-metrics"
     ]
+    
+    # # Add analysis mode options
+    # if args.quick_metrics:
+    #     cmd_parts.append("--quick-metrics")
+    # elif args.analyze_false_positives:
+    #     cmd_parts.append("--analyze-false-positives")
+    # elif args.analyze_disagreements:
+    #     cmd_parts.append("--analyze-disagreements")
     
     # Add sample analysis options if not disabled
     if not args.no_samples:
