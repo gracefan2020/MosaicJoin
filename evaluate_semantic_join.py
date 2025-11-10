@@ -589,7 +589,8 @@ def analyze_method_disagreements(semantic_preds: Dict[str, List[Tuple[str, float
 
 def print_metrics_summary(semantic_metrics: Dict[str, Dict[str, float]], 
                          deepjoin_metrics: Dict[str, Dict[str, float]], 
-                         k_values: List[int] = [1, 5, 10, 20, 50]):
+                         k_values: List[int] = [1, 5, 10, 20, 50],
+                         additional_semantic_metrics: List[tuple] = None):
     """Print a quick summary of metric scores."""
     print("\n" + "="*80)
     print("QUICK METRICS SUMMARY")
@@ -597,17 +598,23 @@ def print_metrics_summary(semantic_metrics: Dict[str, Dict[str, float]],
     
     # Overall metrics
     print(f"\nOVERALL METRICS:")
-    print(f"{'Method':<12} {'Precision':<12} {'Recall':<12} {'F1':<12}")
-    print(f"{'-'*12} {'-'*12} {'-'*12} {'-'*12}")
-    print(f"{'SemSketch':<12} {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
-    print(f"{'DeepJoin':<12} {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
+    print(f"{'Method':<20} {'Precision':<12} {'Recall':<12} {'F1':<12}")
+    print(f"{'-'*20} {'-'*12} {'-'*12} {'-'*12}")
+    print(f"{'SemSketch (sketch)':<20} {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
     
-    # Calculate percentage improvements
+    # Print additional semantic results if available
+    if additional_semantic_metrics:
+        for name, metrics in additional_semantic_metrics:
+            print(f"{'SemSketch (w/ LLM)':<20} {metrics['Total_Precision']['mean']:<12.3f} {metrics['Total_Recall']['mean']:<12.3f} {metrics['Total_F1']['mean']:<12.3f}")
+    
+    print(f"{'DeepJoin':<20} {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
+    
+    # Calculate percentage improvements vs DeepJoin
     precision_improvement = ((semantic_metrics['Total_Precision']['mean'] - deepjoin_metrics['Total_Precision']['mean']) / deepjoin_metrics['Total_Precision']['mean']) * 100
     recall_improvement = ((semantic_metrics['Total_Recall']['mean'] - deepjoin_metrics['Total_Recall']['mean']) / deepjoin_metrics['Total_Recall']['mean']) * 100
     f1_improvement = ((semantic_metrics['Total_F1']['mean'] - deepjoin_metrics['Total_F1']['mean']) / deepjoin_metrics['Total_F1']['mean']) * 100
     
-    print(f"{'Improvement':<12} {precision_improvement:+12.1f}% {recall_improvement:+12.1f}% {f1_improvement:+12.1f}%")
+    print(f"{'Improvement':<20} {precision_improvement:+12.1f}% {recall_improvement:+12.1f}% {f1_improvement:+12.1f}%")
     
     # @k metrics
     print(f"\nTOP-K METRICS:")
@@ -702,6 +709,8 @@ def main():
     parser.add_argument('--print-samples', action='store_true', help='Print sample values and metrics to console')
     parser.add_argument('--similarity-threshold', type=float, default=0.7, 
                        help='Similarity threshold for filtering semantic results (default: 0.7)')
+    parser.add_argument('--additional-semantic-results', type=str, nargs='*',
+                       help='Additional semantic result files to compare in the same table')
     parser.add_argument('--quick-metrics', action='store_true',
                        help='Only print quick metrics summary, skip detailed analysis')
     parser.add_argument('--analyze-false-positives', action='store_true',
@@ -735,8 +744,22 @@ def main():
     semantic_metrics = calculate_metrics(semantic_preds, ground_truth, args.k_values)
     deepjoin_metrics = calculate_metrics(deepjoin_preds, ground_truth, args.k_values)
     
+    # Load additional semantic results if provided
+    additional_semantic_metrics_list = []
+    if args.additional_semantic_results:
+        for idx, add_result_path in enumerate(args.additional_semantic_results):
+            if Path(add_result_path).exists():
+                print(f"Loading additional semantic results: {add_result_path}")
+                add_semantic_preds, _ = load_semantic_results(add_result_path, args.similarity_threshold)
+                add_semantic_preds = remove_self_joins(add_semantic_preds)
+                add_semantic_metrics = calculate_metrics(add_semantic_preds, ground_truth, args.k_values)
+                
+                # Generate a name for this result (e.g., "llm_pruned")
+                result_name = Path(add_result_path).parent.name if 'pruned' in add_result_path else f"semantic_{idx+1}"
+                additional_semantic_metrics_list.append((result_name, add_semantic_metrics))
+    
     # Print quick metrics summary
-    print_metrics_summary(semantic_metrics, deepjoin_metrics, args.k_values)
+    print_metrics_summary(semantic_metrics, deepjoin_metrics, args.k_values, additional_semantic_metrics_list)
     
     # Handle different analysis modes
     if args.quick_metrics:

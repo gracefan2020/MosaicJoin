@@ -91,8 +91,8 @@ def submit_slurm_jobs(
     
     array_script = f"""#!/bin/bash
 #SBATCH --job-name=semantic_query
-#SBATCH --output={output_dir}/slurm_%A_%a.out
-#SBATCH --error={output_dir}/slurm_%A_%a.err
+#SBATCH --output={output_dir}/slurm_%a.out
+#SBATCH --error=/dev/null
 #SBATCH --array=0-{num_jobs-1}
 #SBATCH --time=4:00:00
 #SBATCH --mem=16G
@@ -173,7 +173,7 @@ def main():
     queries_per_job = 10  # Process 10 queries per SLURM job
     
     # DeepJoin integration options
-    use_deepjoin_index = False
+    use_deepjoin_index = True  # Disabled as requested
     deepjoin_embeddings_path = "Deepjoin/output/freyja_lake_embeddings_frequent.pkl"
     deepjoin_query_embeddings_path = "Deepjoin/output/freyja_queries_embeddings_frequent.pkl"
     deepjoin_index_path = None
@@ -202,18 +202,17 @@ def main():
     num_queries = count_queries(query_file)
     print(f"Found {num_queries} queries in {query_file}")
     
-    # # Prepare DeepJoin parameters
-    # deepjoin_params = {
-    #     'embeddings_path': deepjoin_embeddings_path,
-    #     'query_embeddings_path': deepjoin_query_embeddings_path,
-    #     'index_path': deepjoin_index_path,
-    #     'scale': deepjoin_scale,
-    #     'encoder': deepjoin_encoder,
-    #     'candidate_limit': deepjoin_candidate_limit,
-    #     'top_k': deepjoin_top_k,
-    #     'threshold': deepjoin_threshold
-    # }
-    deepjoin_params = None
+    # Prepare DeepJoin parameters
+    deepjoin_params = {
+        'embeddings_path': deepjoin_embeddings_path,
+        'query_embeddings_path': deepjoin_query_embeddings_path,
+        'index_path': deepjoin_index_path,
+        'scale': deepjoin_scale,
+        'encoder': deepjoin_encoder,
+        'candidate_limit': deepjoin_candidate_limit,
+        'top_k': deepjoin_top_k,
+        'threshold': deepjoin_threshold
+    }
     
     # Submit jobs
     submit_slurm_jobs(
@@ -228,7 +227,7 @@ def main():
         sketch_size=sketch_size,
         device=device,
         embeddings_dir=embeddings_dir,
-        use_deepjoin=False,
+        use_deepjoin=use_deepjoin_index,
         deepjoin_params=deepjoin_params
     )
     
