@@ -119,9 +119,9 @@ class SemanticJoinQueryProcessor:
         # Initialize DeepJoin retriever if enabled
         self.deepjoin_retriever = None
         self.deepjoin_query_embeddings = None
-        # if config.use_deepjoin_index:
-        #     self._initialize_deepjoin_retriever()
-        #     self._load_deepjoin_query_embeddings()
+        if config.use_deepjoin_index:
+            self._initialize_deepjoin_retriever()
+            self._load_deepjoin_query_embeddings()
         
         # Load all available sketches for fast lookup
         self.available_sketches = self._discover_available_sketches()
@@ -458,7 +458,6 @@ class SemanticJoinQueryProcessor:
     def _find_similar_columns(self, query_sketch: SemanticSketch, query: QueryColumn, candidate_tables: Optional[Set[str]] = None) -> List[QueryResult]:
         """Find similar columns using sketch comparison."""
         results = []
-        table_best_scores = {}  # Track best score per table
         
         # Filter sketches by candidate tables if provided
         sketches_to_process = self.available_sketches
@@ -505,9 +504,6 @@ class SemanticJoinQueryProcessor:
                 self.logger.warning(f"Error processing candidate {table_name}.{column_name}: {e}")
                 continue
         
-        # Convert dictionary values to list
-        results = list(table_best_scores.values())
-        
         return results
     
     def _estimate_semantic_joinability(self, a: SemanticSketch, b: SemanticSketch) -> Tuple[int, float]:
@@ -527,7 +523,7 @@ class SemanticJoinQueryProcessor:
         semantic_matches = np.sum(similarity_matrix > self.config.similarity_threshold)
         
         # Calculate semantic density
-        semantic_density = semantic_matches / a.k
+        semantic_density = semantic_matches / min(a.k, b.k)
         
         return int(semantic_matches), float(semantic_density)
     
