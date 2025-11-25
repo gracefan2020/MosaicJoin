@@ -2,6 +2,20 @@
 """
 Query Processing Runner Script
 Simple script to run query processing with common configurations.
+
+DeepJoin Integration:
+To enable DeepJoin integration during query processing, set use_deepjoin_index = True and provide:
+- deepjoin_embeddings_path: Path to DeepJoin lake embeddings
+- deepjoin_query_embeddings_path: Path to DeepJoin query embeddings
+- deepjoin_index_path: Path to DeepJoin HNSW index (optional)
+
+⚠️ IMPORTANT: DeepJoin filtering should NOT be used during sketch building as it can skip useful columns.
+
+Example DeepJoin configuration:
+use_deepjoin_index = True
+deepjoin_embeddings_path = "Deepjoin/output/lake_embeddings.pkl"
+deepjoin_query_embeddings_path = "Deepjoin/output/query_embeddings.pkl"
+deepjoin_index_path = "Deepjoin/output/hnsw_index.bin"
 """
 
 import os
@@ -61,6 +75,23 @@ def parse_query_stats(output: str) -> Dict[str, Any]:
         # Parse average candidates per query
         elif "Average candidates per query:" in line:
             stats['avg_candidates_per_query'] = float(re.search(r'Average candidates per query: ([\d.]+)', line).group(1))
+        
+        # Parse high-quality candidates statistics
+        elif "Total high-quality candidates:" in line:
+            stats['total_high_quality_candidates'] = int(re.search(r'Total high-quality candidates: (\d+)', line).group(1))
+        
+        elif "Average high-quality candidates per query:" in line:
+            stats['avg_high_quality_candidates'] = float(re.search(r'Average high-quality candidates per query: ([\d.]+)', line).group(1))
+        
+        # Parse DeepJoin statistics
+        elif "DeepJoin queries processed:" in line:
+            stats['deepjoin_queries_processed'] = int(re.search(r'DeepJoin queries processed: (\d+)', line).group(1))
+        
+        elif "Total DeepJoin candidates:" in line:
+            stats['total_deepjoin_candidates'] = int(re.search(r'Total DeepJoin candidates: (\d+)', line).group(1))
+        
+        elif "Average DeepJoin candidates per query:" in line:
+            stats['avg_deepjoin_candidates'] = float(re.search(r'Average DeepJoin candidates per query: ([\d.]+)', line).group(1))
     
     return stats
 
@@ -76,9 +107,6 @@ def save_timing_stats(stats: Dict[str, Any], output_dir: str):
 
 def run_with_progress(cmd: str, max_queries: int = None):
     """Run command with progress indicators."""
-    print("🚀 Starting query processing...")
-    print(f"Command: {cmd}")
-    print()
     
     # Show expected progress
     if max_queries is None:
@@ -157,15 +185,26 @@ def run_with_progress(cmd: str, max_queries: int = None):
         process.wait()
         raise
 
-def main():
-    print("🚀 Starting query processing with timing analysis...")
-    
+def main():    
     # Query parameters
     top_k_return = 50
     similarity_threshold = 0.7
     sketch_size = 1024
     device = "auto"
     max_queries = None  # Set to a number to limit queries for testing (e.g., 5)
+    
+    # DeepJoin integration options
+    # Use DeepJoin during query processing to filter candidates before sketch comparison
+    # This provides faster query processing by reducing the number of sketches to compare
+    use_deepjoin_index = False  # Set to True to enable DeepJoin filtering during query processing
+    deepjoin_embeddings_path = "Deepjoin/output/freyja_lake_embeddings_frequent.pkl"  # Path to DeepJoin embeddings pickle file (e.g., "Deepjoin/output/lake_embeddings.pkl")
+    deepjoin_query_embeddings_path = "Deepjoin/output/freyja_queries_embeddings_frequent.pkl"  # Path to DeepJoin query embeddings pickle file (e.g., "Deepjoin/output/query_embeddings.pkl")
+    deepjoin_index_path = None  # Path to DeepJoin HNSW index file (optional, will create if not exists)
+    deepjoin_scale = 1.0  # Scale factor for DeepJoin dataset (0.0-1.0)
+    deepjoin_encoder = "sherlock"  # DeepJoin encoder type ("sherlock" or "sato")
+    deepjoin_candidate_limit = 100  # Number of candidates from DeepJoin index (N parameter)
+    deepjoin_top_k = 500  # Number of top results from DeepJoin (for candidate filtering)
+    deepjoin_threshold = 0.6  # DeepJoin similarity threshold for verification
     
     # Progress display options
     progress_mode = "detailed"
@@ -176,7 +215,28 @@ def main():
     query_file = "datasets/freyja-semantic-join/freyja_query_columns.csv"
     
     # Generate configuration-based output directory name
-    output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}"
+    deepjoin_suffix = f"_deepjoin_N{deepjoin_candidate_limit}_K{deepjoin_top_k}_T{deepjoin_threshold}" if use_deepjoin_index else ""
+    output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}{deepjoin_suffix}"
+    
+    # Print DeepJoin status
+    print("🔧 Configuration:")
+    print(f"  - Sketch size: {sketch_size}")
+    print(f"  - Similarity threshold: {similarity_threshold}")
+    print(f"  - Top-k return: {top_k_return}")
+    print(f"  - Device: {device}")
+    if use_deepjoin_index:
+        print(f"  - DeepJoin integration: ENABLED")
+        print(f"    * Embeddings path: {deepjoin_embeddings_path}")
+        print(f"    * Query embeddings path: {deepjoin_query_embeddings_path}")
+        print(f"    * Index path: {deepjoin_index_path}")
+        print(f"    * Scale: {deepjoin_scale}")
+        print(f"    * Encoder: {deepjoin_encoder}")
+        print(f"    * Candidate limit: {deepjoin_candidate_limit}")
+        print(f"    * Top-k: {deepjoin_top_k}")
+        print(f"    * Threshold: {deepjoin_threshold}")
+    else:
+        print(f"  - DeepJoin integration: DISABLED (standard sketch processing)")
+    print()
     
     # Clean up previous query data
     # cleanup_query_data(output_dir)
@@ -202,6 +262,23 @@ def main():
         print(f"Error: Query file not found: {query_file}")
         return 1
     
+    # Check DeepJoin files if integration is enabled
+    if use_deepjoin_index:
+        if deepjoin_embeddings_path and not Path(deepjoin_embeddings_path).exists():
+            print(f"Error: DeepJoin embeddings file not found: {deepjoin_embeddings_path}")
+            print("Please generate DeepJoin embeddings first:")
+            print("  python Deepjoin/run_deepjoin.py --mode build_index")
+            return 1
+        
+        if deepjoin_query_embeddings_path and not Path(deepjoin_query_embeddings_path).exists():
+            print(f"Error: DeepJoin query embeddings file not found: {deepjoin_query_embeddings_path}")
+            print("Please generate DeepJoin query embeddings first")
+            return 1
+        
+        if deepjoin_index_path and not Path(deepjoin_index_path).exists():
+            print(f"Warning: DeepJoin index file not found: {deepjoin_index_path}")
+            print("Index will be created automatically during processing")
+    
     # Build command
     cmd = f"""python run_query_processing.py "{datalake_dir}" "{sketches_dir}" "{query_file}" \\
     --output-dir "{output_dir}" \\
@@ -210,6 +287,21 @@ def main():
     --sketch-size {sketch_size} \\
     --device "{device}" \\
     --embeddings-dir "{embeddings_dir}" """
+    
+    # Add DeepJoin parameters if enabled
+    if use_deepjoin_index:
+        cmd += f" \\\n    --use-deepjoin-index"
+        if deepjoin_embeddings_path:
+            cmd += f" \\\n    --deepjoin-embeddings-path \"{deepjoin_embeddings_path}\""
+        if deepjoin_query_embeddings_path:
+            cmd += f" \\\n    --deepjoin-query-embeddings-path \"{deepjoin_query_embeddings_path}\""
+        if deepjoin_index_path:
+            cmd += f" \\\n    --deepjoin-index-path \"{deepjoin_index_path}\""
+        cmd += f" \\\n    --deepjoin-scale {deepjoin_scale}"
+        cmd += f" \\\n    --deepjoin-encoder {deepjoin_encoder}"
+        cmd += f" \\\n    --deepjoin-candidate-limit {deepjoin_candidate_limit}"
+        cmd += f" \\\n    --deepjoin-top-k {deepjoin_top_k}"
+        cmd += f" \\\n    --deepjoin-threshold {deepjoin_threshold}"
     
     # Add max-queries parameter if specified
     if max_queries is not None:
@@ -255,6 +347,21 @@ def main():
             
             if 'avg_candidates_per_query' in stats:
                 print(f"Average candidates per query: {stats['avg_candidates_per_query']:.2f}")
+            
+            if 'total_high_quality_candidates' in stats:
+                print(f"Total high-quality candidates: {stats['total_high_quality_candidates']}")
+            
+            if 'avg_high_quality_candidates' in stats:
+                print(f"Average high-quality candidates per query: {stats['avg_high_quality_candidates']:.2f}")
+            
+            # DeepJoin statistics
+            if 'deepjoin_queries_processed' in stats and stats['deepjoin_queries_processed'] > 0:
+                print(f"\nDeepJoin Statistics:")
+                print(f"  DeepJoin queries processed: {stats['deepjoin_queries_processed']}")
+                print(f"  Total DeepJoin candidates: {stats['total_deepjoin_candidates']}")
+                print(f"  Average DeepJoin candidates per query: {stats['avg_deepjoin_candidates']:.2f}")
+            elif 'deepjoin_queries_processed' in stats:
+                print(f"\nDeepJoin integration: Not used")
             
             # Calculate additional metrics
             if 'total_processing_time' in stats and 'successful_queries' in stats and stats['successful_queries'] > 0:

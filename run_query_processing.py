@@ -93,6 +93,27 @@ def main():
     parser.add_argument("--query-indices", type=int, nargs="*",
                        help="Specific query indices to process (0-based)")
     
+    # DeepJoin integration arguments
+    parser.add_argument("--use-deepjoin-index", action="store_true",
+                       help="Use DeepJoin index for candidate filtering")
+    parser.add_argument("--deepjoin-embeddings-path", type=str,
+                       help="Path to DeepJoin embeddings pickle file")
+    parser.add_argument("--deepjoin-query-embeddings-path", type=str,
+                       help="Path to DeepJoin query embeddings pickle file")
+    parser.add_argument("--deepjoin-index-path", type=str,
+                       help="Path to DeepJoin HNSW index file (optional)")
+    parser.add_argument("--deepjoin-scale", type=float, default=1.0,
+                       help="Scale factor for DeepJoin dataset (0.0-1.0)")
+    parser.add_argument("--deepjoin-encoder", type=str, default="sherlock",
+                       choices=["sherlock", "sato"],
+                       help="DeepJoin encoder type")
+    parser.add_argument("--deepjoin-candidate-limit", type=int, default=5,
+                       help="Number of candidates from DeepJoin index")
+    parser.add_argument("--deepjoin-top-k", type=int, default=200,
+                       help="Number of top results from DeepJoin (for candidate filtering)")
+    parser.add_argument("--deepjoin-threshold", type=float, default=0.6,
+                       help="DeepJoin similarity threshold")
+    
     args = parser.parse_args()
     
     # Setup paths
@@ -142,7 +163,16 @@ def main():
         top_k_return=args.top_k_return,
         similarity_threshold=args.similarity_threshold,
         sketch_size=args.sketch_size,
-        device=args.device
+        device=args.device,
+        use_deepjoin_index=False,
+        deepjoin_embeddings_path=args.deepjoin_embeddings_path,
+        deepjoin_query_embeddings_path=args.deepjoin_query_embeddings_path,
+        deepjoin_index_path=args.deepjoin_index_path,
+        deepjoin_scale=args.deepjoin_scale,
+        deepjoin_encoder=args.deepjoin_encoder,
+        deepjoin_candidate_limit=args.deepjoin_candidate_limit,
+        deepjoin_top_k=args.deepjoin_top_k,
+        deepjoin_threshold=args.deepjoin_threshold
     )
     
     processor = SemanticJoinQueryProcessor(query_config, sketches_path, embeddings_dir)
