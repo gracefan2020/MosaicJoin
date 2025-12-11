@@ -9,6 +9,7 @@ from Forward1 import process_onedataset
 import hnsw_search as hnsw_search_module
 
 import pandas as pd
+import numpy as np
 
 
 def load_ground_truth(gt_path: str) -> Dict[str, Set[str]]:
@@ -45,18 +46,53 @@ def load_deepjoin_results(deepjoin_path: str) -> Dict[str, List[Tuple[str, float
     return out
 
 
-def remove_self_joins(preds: Dict[str, List[Tuple[str, float]]]) -> Dict[str, List[Tuple[str, float]]]:
-    """Remove self-joins from predictions."""
-    cleaned: Dict[str, List[Tuple[str, float]]] = {}
-    for q, items in preds.items():
-        cleaned[q] = [(c, s) for c, s in items if c != q]
-    return cleaned
-
-
 def calculate_traditional_metrics(predictions: Dict[str, List[Tuple[str, float]]], 
-                                ground_truth: Dict[str, Set[str]]) -> Dict[str, float]:
-    """Calculate traditional Precision, Recall, and F1 metrics."""
+                                ground_truth: Dict[str, Set[str]],
+                                k_values: List[int] = [1, 5, 10, 20, 50]) -> Dict[str, float]:
+    """Calculate Precision@k, Recall@k, and F1@k metrics."""
     
+    metrics = {}
+    
+    # Calculate @k metrics
+    for k in k_values:
+        precision_scores = []
+        recall_scores = []
+        f1_scores = []
+        
+        for query, preds in predictions.items():
+            if query not in ground_truth:
+                continue
+            
+            gt_set = ground_truth[query]
+            top_k_preds = [cand for cand, _ in preds[:k]]
+            pred_set = set(top_k_preds)
+            
+            # Calculate metrics
+            if len(pred_set) == 0:
+                precision = 0.0
+                recall = 0.0
+                f1 = 0.0
+            else:
+                tp = len(pred_set.intersection(gt_set))
+                precision = tp / len(pred_set)
+                recall = tp / len(gt_set) if len(gt_set) > 0 else 0.0
+                f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+            
+            precision_scores.append(precision)
+            recall_scores.append(recall)
+            f1_scores.append(f1)
+        
+        # Calculate mean metrics
+        if precision_scores:
+            metrics[f'P@{k}'] = np.mean(precision_scores)
+            metrics[f'R@{k}'] = np.mean(recall_scores)
+            metrics[f'F1@{k}'] = np.mean(f1_scores)
+        else:
+            metrics[f'P@{k}'] = 0.0
+            metrics[f'R@{k}'] = 0.0
+            metrics[f'F1@{k}'] = 0.0
+    
+    # Also calculate overall metrics (using all predictions)
     total_tp = 0
     total_fp = 0
     total_fn = 0
@@ -81,29 +117,50 @@ def calculate_traditional_metrics(predictions: Dict[str, List[Tuple[str, float]]
     total_recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
     total_f1 = 2 * total_precision * total_recall / (total_precision + total_recall) if (total_precision + total_recall) > 0 else 0.0
     
-    return {
-        'true_positives': total_tp,
-        'total_predictions': total_tp + total_fp,
-        'total_ground_truth': total_tp + total_fn,
-        'precision': total_precision,
-        'recall': total_recall,
-        'f1': total_f1
-    }
+    metrics['true_positives'] = total_tp
+    metrics['total_predictions'] = total_tp + total_fp
+    metrics['total_ground_truth'] = total_tp + total_fn
+    metrics['precision'] = total_precision
+    metrics['recall'] = total_recall
+    metrics['f1'] = total_f1
+    
+    return metrics
+
+
+def get_column_names(table_name, col_index, lake_dir):
+    """Get column name from CSV file."""
+    try:
+        clean_name = table_name.replace("datalake-", "")
+        if not clean_name.endswith('.csv'):
+            clean_name += '.csv'
+        
+        csv_path = os.path.join(lake_dir, clean_name)
+        if os.path.exists(csv_path):
+            df = pd.read_csv(csv_path, nrows=0)
+            if col_index < len(df.columns):
+                return df.columns[col_index]
+        return f"col_{col_index}"
+    except Exception:
+        return f"col_{col_index}"
+
+
+def clean_table_name(table_name):
+    """Remove 'datalake-' prefix from table name if present."""
+    return table_name.replace("datalake-", "")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="End-to-end DeepJoin runner")
+    parser = argparse.ArgumentParser(description="DeepJoin: Joinable Table Discovery with Pre-trained Language Models")
     
     # Dataset and output paths
     parser.add_argument("--dataset_root", required=True, 
                        help="Path to dataset root containing lake/ and queries/ subdirectories")
     parser.add_argument("--out_dir", required=True, 
-                       help="Directory to store intermediate files (sentences, embeddings) and final results")
+                       help="Directory to store intermediate files and final results")
     
     # Model configuration
-    parser.add_argument("--model_dir", default="all-mpnet-base-v2", 
-                       help="Local model directory path OR HuggingFace model name (e.g., 'sentence-transformers/all-mpnet-base-v2'). "
-                            "If local path doesn't exist, will download from HF.")
+    parser.add_argument("--model_dir", default="sentence-transformers/all-mpnet-base-v2", 
+                       help="HuggingFace model name or local model directory path")
     
     # Dataset structure
     parser.add_argument("--lake_subdir", default="lake", 
@@ -113,62 +170,25 @@ def main():
     
     # Preprocessing parallelism
     parser.add_argument("--split_lake", type=int, default=8, 
-                       help="Number of parallel processes for preprocessing data lake tables. "
-                            "Higher = faster but more memory usage. Adjust based on CPU cores.")
+                       help="Number of parallel processes for preprocessing data lake tables")
     parser.add_argument("--split_queries", type=int, default=4, 
-                       help="Number of parallel processes for preprocessing query tables. "
-                            "Usually smaller than lake since fewer query tables.")
-    
-    # Indexing and retrieval
-    parser.add_argument("--scale", type=float, default=1.0, 
-                       help="Fraction of data lake tables to index (0.0-1.0]. "
-                            "1.0 = use all tables, 0.5 = use 50% randomly sampled. "
-                            "Lower values speed up iteration on large datasets.")
-    
-    # Retrieval parameters
-    parser.add_argument("--K", type=int, default=10, 
-                       help="Top-K candidate tables to return per query. "
-                            "Ignored if --all_above_threshold is used.")
-    parser.add_argument("--N", type=int, default=10, 
-                       help="Number of nearest neighbor columns retrieved from HNSW index per query column. "
-                            "Higher N = more candidates considered, slower but potentially better recall.")
-    parser.add_argument("--threshold", type=float, default=0.7, 
-                       help="Cosine similarity threshold for column matching (0.0-1.0). "
-                            "Only column pairs with similarity >= threshold are considered matches. "
-                            "Higher = stricter matching, fewer false positives.")
-    parser.add_argument("--min_matches", type=int, default=1,
-                       help="Minimum number of matched columns required to output a candidate table.")
-    
-    # Retrieval mode
-    parser.add_argument("--all_above_threshold", action="store_true", default=False, 
-                       help="Return ALL candidates with >= threshold matches (disable top-K truncation). "
-                            "Use this for threshold-based retrieval instead of top-K ranking.")
-    parser.add_argument("--exact_matching", action="store_true", default=False,
-                       help="Use exact matching instead of HNSW (slower but more accurate)")
+                       help="Number of parallel processes for preprocessing query tables")
 
+    
+    # Retrieval parameters (matching original DeepJoin)
+    parser.add_argument("--K", type=int, default=10, 
+                       help="Top-K candidate tables to return per query")
+    parser.add_argument("--N", type=int, default=10, 
+                       help="Number of nearest neighbor columns retrieved from HNSW index per query column")
+    parser.add_argument("--threshold", type=float, default=0.6, 
+                       help="Cosine similarity threshold for column matching (0.0-1.0)")
+    parser.add_argument("--encoder", type=str, default="cl", 
+                       choices=["cl", "sherlock", "sato"],
+                       help="Encoder type (cl=column-level, sherlock, sato)")
+    
     # Evaluation (optional)
     parser.add_argument("--ground_truth", default=None, 
                        help="Path to ground truth CSV for evaluation (optional)")
-    parser.add_argument("--gt_query_col", default="query_table", 
-                       help="Ground truth column name for query table identifiers")
-    parser.add_argument("--gt_candidate_col", default="candidate_table", 
-                       help="Ground truth column name for candidate table identifiers")
-
-    # Optional: Restrict queries to a list from CSV (to match evaluation set)
-    parser.add_argument("--queries_csv", default=None,
-                       help="CSV file listing query tables to run (e.g., freyja_query_columns.csv)")
-    parser.add_argument("--queries_csv_col", default=None,
-                       help="Column in --queries_csv that contains query table names (e.g., target_ds)")
-
-    # Self-join mode: use datalake as both query set and candidate set
-    parser.add_argument("--self_join", action="store_true", default=False,
-                       help="Use datalake tables as queries as well (discover joinable pairs within the lake)")
-
-    # Sampling parameters
-    parser.add_argument("--sampling_mode", type=str, default="frequent", 
-                       choices=["frequent", "random", "mixed", "weighted", "priority_sampling"],
-                       help="Sampling strategy for column values: 'frequent' (original Deepjoin), "
-                            "'random', 'mixed', 'weighted', or 'priority_sampling'")
 
     args = parser.parse_args()
 
@@ -181,242 +201,196 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
     tmp_dir = os.path.join(out_dir, "tmp")
 
-    lake_sentences = os.path.join(out_dir, "freyja_lake_sentences.pkl")
-    query_sentences = os.path.join(out_dir, "freyja_queries_sentences.pkl")
+    # File paths for intermediate results
+    lake_sentences = os.path.join(out_dir, "lake_sentences.pkl")
+    query_sentences = os.path.join(out_dir, "query_sentences.pkl")
+    lake_embeddings = os.path.join(out_dir, "lake_embeddings.pkl")
+    query_embeddings = os.path.join(out_dir, "query_embeddings.pkl")
 
     # Step 1: Preprocess CSVs -> column-level sentences
-    # Converts each CSV table into a list of "sentences" describing each column's values
-    # Format: [(table_name, [sentence1, sentence2, ...]), ...]
+    print("Step 1: Preprocessing data lake tables...")
+    process_table_sentense(
+        filepathstore=out_dir,
+        datadir=lake_dir,
+        data_pkl_name=os.path.basename(lake_sentences),
+        tmppath=tmp_dir,
+        split_num=args.split_lake,
+        sampling_mode="frequent",  # Original DeepJoin uses frequent sampling
+    )
     
-    # Check if lake sentences already exist
-    if not os.path.exists(lake_sentences):
-        print(f"Creating lake sentences: {lake_sentences}")
-        process_table_sentense(
-            filepathstore=out_dir,
-            datadir=lake_dir,
-            data_pkl_name=os.path.basename(lake_sentences),
-            tmppath=tmp_dir,
-            split_num=args.split_lake,
-            sampling_mode=args.sampling_mode,
-        )
-    else:
-        print(f"Using existing lake sentences: {lake_sentences}")
-    
-    if not args.self_join:
-        # Check if query sentences already exist
-        if not os.path.exists(query_sentences):
-            print(f"Creating query sentences: {query_sentences}")
-            process_table_sentense(
-                filepathstore=out_dir,
-                datadir=queries_dir,
-                data_pkl_name=os.path.basename(query_sentences),
-                tmppath=tmp_dir,
-                split_num=args.split_queries,
-                sampling_mode=args.sampling_mode,
-            )
-        else:
-            print(f"Using existing query sentences: {query_sentences}")
+    print("Step 1: Preprocessing query tables...")
+    process_table_sentense(
+        filepathstore=out_dir,
+        datadir=queries_dir,
+        data_pkl_name=os.path.basename(query_sentences),
+        tmppath=tmp_dir,
+        split_num=args.split_queries,
+        sampling_mode="frequent",
+    )
 
     # Step 2: Embed sentences with MPNet
-    # Uses SentenceTransformer to convert text sentences into dense vectors
-    # Each table becomes: (table_name, numpy_array[columns, embedding_dim])
-    model_path = args.model_dir if os.path.isdir(args.model_dir) else "sentence-transformers/all-mpnet-base-v2"
-    # Generate embeddings from sentence pickles; write to distinct output files
-    lake_embeddings = os.path.join(out_dir, "freyja_lake_embeddings.pkl")
-    query_embeddings = os.path.join(out_dir, "freyja_queries_embeddings.pkl")
+    print("Step 2: Generating embeddings for data lake...")
+    model_path = args.model_dir if os.path.isdir(args.model_dir) else args.model_dir
     process_onedataset(
         dataset_file=lake_sentences,
         model_name=model_path,
         storepath=out_dir,
         output_filename=os.path.basename(lake_embeddings),
     )
-    if args.self_join:
-        # In self-join, queries are the lake itself
-        query_sentences = lake_sentences
-    else:
-        process_onedataset(
-            dataset_file=query_sentences,
-            model_name=model_path,
-            storepath=out_dir,
-            output_filename=os.path.basename(query_embeddings),
-        )
+    
+    print("Step 2: Generating embeddings for queries...")
+    process_onedataset(
+        dataset_file=query_sentences,
+        model_name=model_path,
+        storepath=out_dir,
+        output_filename=os.path.basename(query_embeddings),
+    )
 
-    # Step 3: Build index and perform retrieval
-    if args.exact_matching:
-        # Exact matching: compare all query columns against all candidate columns
-        print("Using exact matching (slower but more accurate)...")
-        searcher = None  # Will implement exact matching in the query loop
-    else:
-        # HNSW (Hierarchical Navigable Small World) is a fast approximate nearest neighbor search
-        # Indexes all data lake table columns for sublinear search time
-        index_path = os.path.join(out_dir, "hnsw_index.bin")
-        searcher = hnsw_search_module.HNSWSearcher(table_path=lake_embeddings, index_path=index_path, scale=args.scale)
+    # Step 3: Build HNSW index and perform retrieval
+    print("Step 3: Building HNSW index...")
+    index_path = os.path.join(out_dir, "hnsw_index.bin")
+    searcher = hnsw_search_module.HNSWSearcher(
+        table_path=lake_embeddings, 
+        index_path=index_path, 
+        scale=1.0
+    )
 
-    queries = pickle.load(open(query_embeddings if not args.self_join else lake_embeddings, "rb"))
-
-    # Optional filter: restrict queries to those listed in a CSV
-    if args.queries_csv and os.path.isfile(args.queries_csv) and args.queries_csv_col:
-        try:
-            qdf = pd.read_csv(args.queries_csv)
-            if args.queries_csv_col in qdf.columns:
-                # Normalize names: remove .csv for comparison
-                allowed = set(qdf[args.queries_csv_col].astype(str).str.replace(".csv", "", regex=False))
-                def clean_table_name(name):
-                    return name.replace("datalake-", "").replace(".csv", "")
-                queries = [q for q in queries if clean_table_name(q[0]) in allowed]
-                print(f"Restricted queries to {len(queries)} tables from {args.queries_csv}")
-            else:
-                print(f"[WARN] Column {args.queries_csv_col} not found in {args.queries_csv}; skipping restriction")
-        except Exception as e:
-            print(f"[WARN] Failed to read/parse queries_csv {args.queries_csv}: {e}")
-    results_csv = os.path.join(out_dir, f"deepjoin_results_{args.sampling_mode}_K{args.K}_N{args.N}_T{args.threshold}.csv")
+    print("Step 4: Processing queries...")
+    queries = pickle.load(open(query_embeddings, "rb"))
+    
+    # Cache column names to avoid repeated CSV reads
+    print("Caching column names...")
+    column_name_cache = {}  # {(table_name, col_index, dir): column_name}
+    
+    def get_column_names_cached(table_name, col_index, dir_path):
+        """Get column name with caching."""
+        cache_key = (table_name, col_index, dir_path)
+        if cache_key not in column_name_cache:
+            column_name_cache[cache_key] = get_column_names(table_name, col_index, dir_path)
+        return column_name_cache[cache_key]
+    
+    results_csv = os.path.join(out_dir, f"deepjoin_results_K{args.K}_N{args.N}_T{args.threshold}.csv")
     if os.path.exists(results_csv):
         os.remove(results_csv)
 
     # Step 4: Query processing and result output
-    # For each query table, find candidate tables and compute column-level matches
+    # Track statistics per query column
+    candidates_per_query_col = []  # List of (query_table.col, num_candidates)
+    
     with open(results_csv, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["query_table", "candidate_table", "query_col", "candidate_col", "score"])
-        
-        # Helper function to get column names from CSV files
-        def get_column_names(table_name, col_index):
-            try:
-                # Remove datalake- prefix if present and add .csv extension
-                clean_name = table_name.replace("datalake-", "")
-                if not clean_name.endswith('.csv'):
-                    clean_name += '.csv'
-                
-                # Try to find the CSV file in the datalake directory
-                csv_path = os.path.join(lake_dir, clean_name)
-                if os.path.exists(csv_path):
-                    df = pd.read_csv(csv_path, nrows=0)  # Read only header
-                    if col_index < len(df.columns):
-                        return df.columns[col_index]
-                return f"col_{col_index}"  # Fallback to index if file not found
-            except Exception:
-                return f"col_{col_index}"  # Fallback to index on any error
+        w.writerow(["query_table", "query_col", "candidate_table", "candidate_col", "score"])
         
         for q in queries:
             q_name = q[0]
             
-            if args.exact_matching:
-                # Exact matching: compare against all tables in the lake
-                lake_tables = pickle.load(open(lake_sentences, "rb"))
-                for cand in lake_tables:
-                    cand_name = cand[0]
-                    if args.self_join and cand_name == q_name:
-                        continue
-                    
-                    # Use the same verification function as HNSW
-                    # Create a temporary searcher instance to access the _verify method
-                    temp_searcher = hnsw_search_module.HNSWSearcher(table_path=lake_sentences, index_path="", scale=1.0)
-                    score, union_columns = temp_searcher._verify(q[1], cand[1], args.threshold)
-                    
-                    if union_columns and len(union_columns) >= args.min_matches:
-                        for (qi, ci, sim) in union_columns:
-                            query_col_name = get_column_names(q_name, qi)
-                            candidate_col_name = get_column_names(cand_name, ci)
-                            w.writerow([q_name, cand_name, query_col_name, candidate_col_name, f"{sim:.4f}"])
-            else:
-                # HNSW-based matching
-                if args.all_above_threshold:
-                    # Threshold-only mode: return ALL candidates with >= threshold matches
-                    # No top-K truncation - useful when you want all matches above a threshold
-                    query_cols = [col for col in q[1]]
-                    candidates = searcher._find_candidates(query_cols, N=args.N)
-                    for cand in candidates:
-                        cand_name = cand[0]
-                        if args.self_join and cand_name == q_name:
+            # Use original DeepJoin topk interface
+            res, _ = searcher.topk(
+                enc=args.encoder, 
+                query=q, 
+                K=args.K, 
+                N=args.N, 
+                threshold=args.threshold
+            )
+            
+            # Collect all column-level matches per query column, sorted by similarity
+            query_col_matches = {}  # {query_col_name: [(cand_table, cand_col, sim), ...]}
+            
+            # Process results: res contains (score, union_columns, cand_name) tuples
+            for score, union_columns, cand_name in res:
+                if union_columns:
+                    for (qi, ci, sim) in union_columns:
+                        query_col_name = get_column_names_cached(q_name, qi, queries_dir)
+                        candidate_col_name = get_column_names_cached(cand_name, ci, lake_dir)
+                        
+                        # Skip self-matches
+                        if q_name == cand_name and query_col_name == candidate_col_name:
                             continue
-                        score, union_columns = searcher._verify(q[1], cand[1], args.threshold)
-                        if union_columns and len(union_columns) >= args.min_matches:
-                            for (qi, ci, sim) in union_columns:
-                                query_col_name = get_column_names(q_name, qi)
-                                candidate_col_name = get_column_names(cand_name, ci)
-                                w.writerow([q_name, cand_name, query_col_name, candidate_col_name, f"{sim:.4f}"])
-                else:
-                    # Default: Top-K mode - return best K candidates ranked by total similarity score
-                    res, _ = searcher.topk(enc="cl", query=q, K=args.K, N=args.N, threshold=args.threshold)
-                    for score, union_columns, cand_name in res:
-                        if args.self_join and cand_name == q_name:
-                            continue
-                        if union_columns and len(union_columns) >= args.min_matches:
-                            for (qi, ci, sim) in union_columns:
-                                query_col_name = get_column_names(q_name, qi)
-                                candidate_col_name = get_column_names(cand_name, ci)
-                                w.writerow([q_name, cand_name, query_col_name, candidate_col_name, f"{sim:.4f}"])
+                        
+                        # Collect matches per query column
+                        if query_col_name not in query_col_matches:
+                            query_col_matches[query_col_name] = []
+                        query_col_matches[query_col_name].append((
+                            clean_table_name(cand_name),
+                            candidate_col_name,
+                            sim
+                        ))
+            
+            # For each query column, take top K results (sorted by similarity)
+            for query_col_name, matches in query_col_matches.items():
+                # Sort by similarity (descending) and take top K
+                matches_sorted = sorted(matches, key=lambda x: x[2], reverse=True)
+                top_k_matches = matches_sorted[:args.K]
+                
+                # Track count
+                query_col_key = f"{clean_table_name(q_name)}.{query_col_name}"
+                candidates_per_query_col.append((query_col_key, len(top_k_matches)))
+                
+                # Write top K results for this query column
+                for cand_table, cand_col, sim in top_k_matches:
+                    w.writerow([
+                        clean_table_name(q_name), 
+                        query_col_name, 
+                        cand_table, 
+                        cand_col, 
+                        f"{sim:.4f}"
+                    ])
 
-    print("Saved:", results_csv)
+    print(f"Results saved to: {results_csv}")
+    
+    # Print statistics about candidates per query column
+    if candidates_per_query_col:
+        counts = [count for _, count in candidates_per_query_col]
+        if counts:
+            avg_count = sum(counts) / len(counts)
+            min_count = min(counts)
+            max_count = max(counts)
+            print(f"\nCandidates per query column statistics:")
+            print(f"  Total query columns: {len(candidates_per_query_col)}")
+            print(f"  Average candidates per query column: {avg_count:.2f}")
+            print(f"  Min candidates per query column: {min_count}")
+            print(f"  Max candidates per query column: {max_count}")
+        else:
+            print("\nNo candidates found for any query column.")
 
-    # Optional: Evaluate against ground truth using built-in evaluation functions
+    # Optional: Evaluate against ground truth
     if args.ground_truth and os.path.isfile(args.ground_truth):
         try:
-            print("Loading ground truth...")
+            print("\nEvaluating against ground truth...")
             ground_truth = load_ground_truth(args.ground_truth)
-            
-            print("Loading DeepJoin results...")
             deepjoin_predictions = load_deepjoin_results(results_csv)
             
-            print(f"Ground truth: {len(ground_truth)} query tables")
-            print(f"DeepJoin: {len(deepjoin_predictions)} query tables")
-            
-            # Remove self-joins
-            deepjoin_predictions = remove_self_joins(deepjoin_predictions)
-            
-            # Filter to ground truth queries only
+            # Filter to ground truth queries only and skip self-joins
             gt_queries = set(ground_truth.keys())
-            deepjoin_filtered = {q: deepjoin_predictions[q] for q in gt_queries if q in deepjoin_predictions}
+            deepjoin_filtered = {}
+            for q in gt_queries:
+                if q in deepjoin_predictions:
+                    # Skip candidates that are the same as the query column
+                    deepjoin_filtered[q] = [(c, s) for c, s in deepjoin_predictions[q] if c != q]
             
-            print(f"Filtering to ground truth queries only: {len(deepjoin_filtered)} queries")
+            print(f"Ground truth queries: {len(ground_truth)}")
+            print(f"DeepJoin predictions: {len(deepjoin_filtered)}")
             
-            # Calculate traditional metrics using the same function as evaluate_semantic_join.py
             traditional_results = calculate_traditional_metrics(deepjoin_filtered, ground_truth)
             
-            print("Evaluation (column-pair level):")
-            print(f"  TP: {traditional_results['true_positives']}  Total Predictions: {traditional_results['total_predictions']}  Total Ground Truth: {traditional_results['total_ground_truth']}")
-            print(f"  Precision: {traditional_results['precision']:.3f}  Recall: {traditional_results['recall']:.3f}  F1: {traditional_results['f1']:.3f}")
+            print("\nEvaluation (column-pair level):")
+            print(f"  TP: {traditional_results['true_positives']}")
+            print(f"  Total Predictions: {traditional_results['total_predictions']}")
+            print(f"  Total Ground Truth: {traditional_results['total_ground_truth']}")
+            print(f"  Overall Precision: {traditional_results['precision']:.3f}")
+            print(f"  Overall Recall: {traditional_results['recall']:.3f}")
+            print(f"  Overall F1: {traditional_results['f1']:.3f}")
+            
+            print("\nTop-K Metrics:")
+            print(f"  {'K':<4} {'P@K':<10} {'R@K':<10} {'F1@K':<10}")
+            print(f"  {'-'*4} {'-'*10} {'-'*10} {'-'*10}")
+            for k in [1, 5, 10, 20, 50]:
+                if f'P@{k}' in traditional_results:
+                    print(f"  {k:<4} {traditional_results[f'P@{k}']:<10.3f} {traditional_results[f'R@{k}']:<10.3f} {traditional_results[f'F1@{k}']:<10.3f}")
             
         except Exception as e:
-            print(f"[WARN] Failed to evaluate using built-in functions: {e}")
-            print("Falling back to simple table-pair evaluation...")
-            
-            # Fallback to simple evaluation
-            gt = pd.read_csv(args.ground_truth)
-            gt_q = args.gt_query_col
-            gt_c = args.gt_candidate_col
-            if gt_q not in gt.columns or gt_c not in gt.columns:
-                print(f"[WARN] Ground truth missing required columns: {gt_q}, {gt_c}")
-                return
-
-            # Load predictions: set of (query_table, candidate_table)
-            preds = pd.read_csv(results_csv)
-            
-            # Clean table names by removing datalake- prefix and .csv extension for comparison
-            def clean_table_name(name):
-                clean = name.replace("datalake-", "").replace(".csv", "")
-                return clean
-            
-            pred_pairs = set(zip(preds["query_table"].apply(clean_table_name), 
-                                preds["candidate_table"].apply(clean_table_name)))
-
-            # Ground truth: set of (query_table, candidate_table) - also clean names
-            gt_pairs = set(zip(gt[gt_q].apply(lambda x: x.replace(".csv", "")), 
-                              gt[gt_c].apply(lambda x: x.replace(".csv", ""))))
-
-            tp = len(pred_pairs & gt_pairs)
-            fp = len(pred_pairs - gt_pairs)
-            fn = len(gt_pairs - pred_pairs)
-            precision = tp / (tp + fp) if (tp + fp) else 0.0
-            recall = tp / (tp + fn) if (tp + fn) else 0.0
-            f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) else 0.0
-
-            print("Evaluation (table-pair level):")
-            print(f"  TP: {tp}  FP: {fp}  FN: {fn}")
-            print(f"  Precision: {precision:.4f}  Recall: {recall:.4f}  F1: {f1:.4f}")
+            print(f"[WARN] Failed to evaluate: {e}")
 
 
 if __name__ == "__main__":
     main()
-
-
