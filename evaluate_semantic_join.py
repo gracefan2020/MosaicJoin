@@ -54,18 +54,14 @@ def load_deepjoin_results(deepjoin_path: str) -> Dict[str, List[Tuple[str, float
     
     return out
 
-def load_semantic_results(semantic_path: str, similarity_threshold: float = 0.7) -> Tuple[Dict[str, List[Tuple[str, float]]], Dict[str, Dict[str, int]]]:
-    """Load semantic join results from CSV file, filtering by similarity threshold."""
+def load_semantic_results(semantic_path: str) -> Tuple[Dict[str, List[Tuple[str, float]]], Dict[str, Dict[str, int]]]:
+    """Load semantic join results from CSV file."""
     df = pd.read_csv(semantic_path)
-    
-    # Filter by similarity threshold
-    df_filtered = df[df['similarity_score'] >= similarity_threshold]
-    print(f"Filtered semantic results: {len(df)} -> {len(df_filtered)} (threshold: {similarity_threshold})")
     
     out: Dict[str, List[Tuple[str, float]]] = {}
     semantic_matches: Dict[str, Dict[str, int]] = {}
     
-    for _, r in df_filtered.iterrows():
+    for _, r in df.iterrows():
         # Remove .csv extension from table names to match ground truth format
         query_table = str(r['query_table']).replace('.csv', '').lower()
         candidate_table = str(r['candidate_table']).replace('.csv', '').lower()
@@ -98,34 +94,42 @@ def calculate_metrics(predictions: Dict[str, List[Tuple[str, float]]],
     """Calculate Precision@k, Recall@k, and F1@k metrics."""
     metrics = {}
     
-    # Calculate total precision, recall, F1 (not @k)
-    total_tp = 0
-    total_fp = 0
-    total_fn = 0
+    # Calculate average precision, recall, f1 using adaptive k (all predictions per query)
+    # Each query may return different number of results, so we use all of them
+    avg_precision = []
+    avg_recall = []
+    avg_f1 = []
+    pred_counts = []  # Track number of predictions per query
     
     for query, preds in predictions.items():
         if query not in ground_truth:
             continue
         
         gt_set = ground_truth[query]
+        # Use all predictions for this query (adaptive k based on actual number returned)
         pred_set = set([cand for cand, _ in preds])
+        pred_counts.append(len(pred_set))
         
-        tp = len(pred_set.intersection(gt_set))
-        fp = len(pred_set - gt_set)
-        fn = len(gt_set - pred_set)
+        # Calculate metrics
+        if len(pred_set) == 0:
+            precision = 0.0
+            recall = 0.0
+            f1 = 0.0
+        else:
+            tp = len(pred_set.intersection(gt_set))
+            precision = tp / len(pred_set)
+            recall = tp / len(gt_set) if len(gt_set) > 0 else 0.0
+            f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
         
-        total_tp += tp
-        total_fp += fp
-        total_fn += fn
+        avg_precision.append(precision)
+        avg_recall.append(recall)
+        avg_f1.append(f1)
     
-    # Calculate total metrics
-    total_precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
-    total_recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
-    total_f1 = 2 * total_precision * total_recall / (total_precision + total_recall) if (total_precision + total_recall) > 0 else 0.0
-    
-    metrics['Total_Precision'] = {'mean': total_precision, 'std': 0.0, 'median': total_precision}
-    metrics['Total_Recall'] = {'mean': total_recall, 'std': 0.0, 'median': total_recall}
-    metrics['Total_F1'] = {'mean': total_f1, 'std': 0.0, 'median': total_f1}
+    metrics['Average_Precision'] = {'mean': np.mean(avg_precision), 'std': np.std(avg_precision), 'median': np.median(avg_precision)}
+    metrics['Average_Recall'] = {'mean': np.mean(avg_recall), 'std': np.std(avg_recall), 'median': np.median(avg_recall)}
+    metrics['Average_F1'] = {'mean': np.mean(avg_f1), 'std': np.std(avg_f1), 'median': np.median(avg_f1)}
+    # Store average number of predictions per query
+    metrics['Avg_Pred_Count'] = {'mean': np.mean(pred_counts) if pred_counts else 0.0, 'std': np.std(pred_counts) if pred_counts else 0.0, 'median': np.median(pred_counts) if pred_counts else 0.0}
     
     # Calculate @k metrics
     for k in k_values:
@@ -177,6 +181,68 @@ def calculate_metrics(predictions: Dict[str, List[Tuple[str, float]]],
             metrics[f'P@{k}'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
             metrics[f'R@{k}'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
             metrics[f'F1@{k}'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
+    
+    # Calculate metrics at ground truth size (adaptive k per query)
+    precision_at_gt_size = []
+    recall_at_gt_size = []
+    f1_at_gt_size = []
+    gt_sizes = []
+    
+    for query, preds in predictions.items():
+        if query not in ground_truth:
+            continue
+        
+        gt_set = ground_truth[query]
+        gt_size = len(gt_set)
+        gt_sizes.append(gt_size)
+        
+        # Use top-k predictions where k = size of ground truth
+        top_k_preds = [cand for cand, _ in preds[:gt_size]]
+        pred_set = set(top_k_preds)
+        
+        # Calculate metrics
+        if len(pred_set) == 0:
+            precision = 0.0
+            recall = 0.0
+            f1 = 0.0
+        else:
+            tp = len(pred_set.intersection(gt_set))
+            precision = tp / len(pred_set)
+            recall = tp / len(gt_set) if len(gt_set) > 0 else 0.0
+            f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+        
+        precision_at_gt_size.append(precision)
+        recall_at_gt_size.append(recall)
+        f1_at_gt_size.append(f1)
+    
+    # Store metrics at ground truth size
+    if precision_at_gt_size:
+        metrics['P@GT_Size'] = {
+            'mean': np.mean(precision_at_gt_size),
+            'std': np.std(precision_at_gt_size),
+            'median': np.median(precision_at_gt_size)
+        }
+        metrics['R@GT_Size'] = {
+            'mean': np.mean(recall_at_gt_size),
+            'std': np.std(recall_at_gt_size),
+            'median': np.median(recall_at_gt_size)
+        }
+        metrics['F1@GT_Size'] = {
+            'mean': np.mean(f1_at_gt_size),
+            'std': np.std(f1_at_gt_size),
+            'median': np.median(f1_at_gt_size)
+        }
+        # Also store average ground truth size for reference
+        metrics['Avg_GT_Size'] = {
+            'mean': np.mean(gt_sizes),
+            'std': np.std(gt_sizes),
+            'median': np.median(gt_sizes)
+        }
+    else:
+        metrics['P@GT_Size'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
+        metrics['R@GT_Size'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
+        metrics['F1@GT_Size'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
+        metrics['Avg_GT_Size'] = {'mean': 0.0, 'std': 0.0, 'median': 0.0}
     
     return metrics
 
@@ -593,36 +659,117 @@ def print_metrics_summary(semantic_metrics: Dict[str, Dict[str, float]],
                          additional_semantic_metrics: List[tuple] = None):
     """Print a quick summary of metric scores."""
     print("\n" + "="*80)
-    print("QUICK METRICS SUMMARY")
+    print("SUMMARY")
     print("="*80)
     
-    # Overall metrics
-    print(f"\nOVERALL METRICS:")
+    # Overall metrics (using adaptive k - all predictions per query)
+    semantic_avg_preds = semantic_metrics.get('Avg_Pred_Count', {}).get('mean', 0.0)
+    deepjoin_avg_preds = deepjoin_metrics.get('Avg_Pred_Count', {}).get('mean', 0.0)
+    print(f"\nOVERALL METRICS (using adaptive k - all predictions per query):")
+    print(f"  Average predictions per query - SemSketch: {semantic_avg_preds:.1f}, DeepJoin: {deepjoin_avg_preds:.1f}")
     print(f"{'Method':<20} {'Precision':<12} {'Recall':<12} {'F1':<12}")
     print(f"{'-'*20} {'-'*12} {'-'*12} {'-'*12}")
-    print(f"{'SemSketch (sketch)':<20} {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
+    print(f"{'SemSketch (sketch)':<20} {semantic_metrics['Average_Precision']['mean']:<12.3f} {semantic_metrics['Average_Recall']['mean']:<12.3f} {semantic_metrics['Average_F1']['mean']:<12.3f}")
     
     # Print additional semantic results if available
     if additional_semantic_metrics:
         for name, metrics in additional_semantic_metrics:
-            print(f"{'SemSketch (w/ LLM)':<20} {metrics['Total_Precision']['mean']:<12.3f} {metrics['Total_Recall']['mean']:<12.3f} {metrics['Total_F1']['mean']:<12.3f}")
+            print(f"{'SemSketch (w/ LLM)':<20} {metrics['Average_Precision']['mean']:<12.3f} {metrics['Average_Recall']['mean']:<12.3f} {metrics['Average_F1']['mean']:<12.3f}")
     
-    print(f"{'DeepJoin':<20} {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
+    print(f"{'DeepJoin':<20} {deepjoin_metrics['Average_Precision']['mean']:<12.3f} {deepjoin_metrics['Average_Recall']['mean']:<12.3f} {deepjoin_metrics['Average_F1']['mean']:<12.3f}")
     
     # Calculate percentage improvements vs DeepJoin
-    precision_improvement = ((semantic_metrics['Total_Precision']['mean'] - deepjoin_metrics['Total_Precision']['mean']) / deepjoin_metrics['Total_Precision']['mean']) * 100
-    recall_improvement = ((semantic_metrics['Total_Recall']['mean'] - deepjoin_metrics['Total_Recall']['mean']) / deepjoin_metrics['Total_Recall']['mean']) * 100
-    f1_improvement = ((semantic_metrics['Total_F1']['mean'] - deepjoin_metrics['Total_F1']['mean']) / deepjoin_metrics['Total_F1']['mean']) * 100
+    precision_improvement = ((semantic_metrics['Average_Precision']['mean'] - deepjoin_metrics['Average_Precision']['mean']) / deepjoin_metrics['Average_Precision']['mean']) * 100
+    recall_improvement = ((semantic_metrics['Average_Recall']['mean'] - deepjoin_metrics['Average_Recall']['mean']) / deepjoin_metrics['Average_Recall']['mean']) * 100
+    f1_improvement = ((semantic_metrics['Average_F1']['mean'] - deepjoin_metrics['Average_F1']['mean']) / deepjoin_metrics['Average_F1']['mean']) * 100
     
-    print(f"{'Improvement':<20} {precision_improvement:+12.1f}% {recall_improvement:+12.1f}% {f1_improvement:+12.1f}%")
+    print(f"{'Improvement (sketch)':<20} {precision_improvement:+12.1f}% {recall_improvement:+12.1f}% {f1_improvement:+12.1f}%")
     
-    # @k metrics
-    print(f"\nTOP-K METRICS:")
-    print(f"{'K':<4} {'SemSketch P@k':<15} {'DeepJoin P@k':<15} {'Improvement':<12}")
-    print(f"{'-'*4} {'-'*15} {'-'*15} {'-'*12}")
-    for k in k_values:
-        p_improvement = ((semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
-        print(f"{k:<4} {semantic_metrics[f'P@{k}']['mean']:<15.3f} {deepjoin_metrics[f'P@{k}']['mean']:<15.3f} {p_improvement:+12.1f}%")
+    # Calculate improvement for SemSketch with LLM vs DeepJoin if available
+    if additional_semantic_metrics:
+        llm_metrics = additional_semantic_metrics[0][1] if additional_semantic_metrics else None
+        if llm_metrics:
+            precision_llm_improvement = ((llm_metrics['Average_Precision']['mean'] - deepjoin_metrics['Average_Precision']['mean']) / deepjoin_metrics['Average_Precision']['mean']) * 100
+            recall_llm_improvement = ((llm_metrics['Average_Recall']['mean'] - deepjoin_metrics['Average_Recall']['mean']) / deepjoin_metrics['Average_Recall']['mean']) * 100
+            f1_llm_improvement = ((llm_metrics['Average_F1']['mean'] - deepjoin_metrics['Average_F1']['mean']) / deepjoin_metrics['Average_F1']['mean']) * 100
+            print(f"{'Improvement (w/ LLM)':<20} {precision_llm_improvement:+12.1f}% {recall_llm_improvement:+12.1f}% {f1_llm_improvement:+12.1f}%")
+    
+    # @k metrics - Precision
+    print(f"\nTOP-K METRICS - PRECISION:")
+    if additional_semantic_metrics:
+        # Include SemSketch w/ LLM column
+        print(f"{'K':<4} {'SemSketch P@k':<15} {'SemSketch+LLM P@k':<18} {'DeepJoin P@k':<15} {'Imp (sketch)':<15} {'Imp (w/ LLM)':<15}")
+        print(f"{'-'*4} {'-'*15} {'-'*18} {'-'*15} {'-'*15} {'-'*15}")
+        llm_metrics = additional_semantic_metrics[0][1] if additional_semantic_metrics else None
+        for k in k_values:
+            p_improvement = ((semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
+            if llm_metrics:
+                llm_p_at_k = llm_metrics[f'P@{k}']['mean']
+                p_llm_improvement = ((llm_p_at_k - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
+                print(f"{k:<4} {semantic_metrics[f'P@{k}']['mean']:<15.3f} {llm_p_at_k:<18.3f} {deepjoin_metrics[f'P@{k}']['mean']:<15.3f} {p_improvement:+15.1f}% {p_llm_improvement:+15.1f}%")
+            else:
+                print(f"{k:<4} {semantic_metrics[f'P@{k}']['mean']:<15.3f} {'N/A':<18} {deepjoin_metrics[f'P@{k}']['mean']:<15.3f} {p_improvement:+15.1f}% {'N/A':<15}")
+    else:
+        # Original format without LLM
+        print(f"{'K':<4} {'SemSketch P@k':<15} {'DeepJoin P@k':<15} {'Improvement':<12}")
+        print(f"{'-'*4} {'-'*15} {'-'*15} {'-'*12}")
+        for k in k_values:
+            p_improvement = ((semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
+            print(f"{k:<4} {semantic_metrics[f'P@{k}']['mean']:<15.3f} {deepjoin_metrics[f'P@{k}']['mean']:<15.3f} {p_improvement:+12.1f}%")
+    
+    # @k metrics - Recall
+    print(f"\nTOP-K METRICS - RECALL:")
+    if additional_semantic_metrics:
+        # Include SemSketch w/ LLM column
+        print(f"{'K':<4} {'SemSketch R@k':<15} {'SemSketch+LLM R@k':<18} {'DeepJoin R@k':<15} {'Imp (sketch)':<15} {'Imp (w/ LLM)':<15}")
+        print(f"{'-'*4} {'-'*15} {'-'*18} {'-'*15} {'-'*15} {'-'*15}")
+        llm_metrics = additional_semantic_metrics[0][1] if additional_semantic_metrics else None
+        for k in k_values:
+            r_improvement = ((semantic_metrics[f'R@{k}']['mean'] - deepjoin_metrics[f'R@{k}']['mean']) / deepjoin_metrics[f'R@{k}']['mean']) * 100 if deepjoin_metrics[f'R@{k}']['mean'] > 0 else 0.0
+            if llm_metrics:
+                llm_r_at_k = llm_metrics[f'R@{k}']['mean']
+                r_llm_improvement = ((llm_r_at_k - deepjoin_metrics[f'R@{k}']['mean']) / deepjoin_metrics[f'R@{k}']['mean']) * 100 if deepjoin_metrics[f'R@{k}']['mean'] > 0 else 0.0
+                print(f"{k:<4} {semantic_metrics[f'R@{k}']['mean']:<15.3f} {llm_r_at_k:<18.3f} {deepjoin_metrics[f'R@{k}']['mean']:<15.3f} {r_improvement:+15.1f}% {r_llm_improvement:+15.1f}%")
+            else:
+                print(f"{k:<4} {semantic_metrics[f'R@{k}']['mean']:<15.3f} {'N/A':<18} {deepjoin_metrics[f'R@{k}']['mean']:<15.3f} {r_improvement:+15.1f}% {'N/A':<15}")
+    else:
+        # Original format without LLM
+        print(f"{'K':<4} {'SemSketch R@k':<15} {'DeepJoin R@k':<15} {'Improvement':<12}")
+        print(f"{'-'*4} {'-'*15} {'-'*15} {'-'*12}")
+        for k in k_values:
+            r_improvement = ((semantic_metrics[f'R@{k}']['mean'] - deepjoin_metrics[f'R@{k}']['mean']) / deepjoin_metrics[f'R@{k}']['mean']) * 100 if deepjoin_metrics[f'R@{k}']['mean'] > 0 else 0.0
+            print(f"{k:<4} {semantic_metrics[f'R@{k}']['mean']:<15.3f} {deepjoin_metrics[f'R@{k}']['mean']:<15.3f} {r_improvement:+12.1f}%")
+    
+    # Metrics at ground truth size (adaptive k per query)
+    print(f"\nMETRICS AT GROUND TRUTH SIZE (adaptive k per query):")
+    avg_gt_size = semantic_metrics.get('Avg_GT_Size', {}).get('mean', 0.0)
+    print(f"Average ground truth size: {avg_gt_size:.1f}")
+    print(f"{'Method':<20} {'Precision@GT':<15} {'Recall@GT':<15} {'F1@GT':<15}")
+    print(f"{'-'*20} {'-'*15} {'-'*15} {'-'*15}")
+    print(f"{'SemSketch (sketch)':<20} {semantic_metrics.get('P@GT_Size', {}).get('mean', 0.0):<15.3f} {semantic_metrics.get('R@GT_Size', {}).get('mean', 0.0):<15.3f} {semantic_metrics.get('F1@GT_Size', {}).get('mean', 0.0):<15.3f}")
+    
+    # Print additional semantic results if available
+    if additional_semantic_metrics:
+        for name, metrics in additional_semantic_metrics:
+            print(f"{'SemSketch (w/ LLM)':<20} {metrics.get('P@GT_Size', {}).get('mean', 0.0):<15.3f} {metrics.get('R@GT_Size', {}).get('mean', 0.0):<15.3f} {metrics.get('F1@GT_Size', {}).get('mean', 0.0):<15.3f}")
+    
+    print(f"{'DeepJoin':<20} {deepjoin_metrics.get('P@GT_Size', {}).get('mean', 0.0):<15.3f} {deepjoin_metrics.get('R@GT_Size', {}).get('mean', 0.0):<15.3f} {deepjoin_metrics.get('F1@GT_Size', {}).get('mean', 0.0):<15.3f}")
+    
+    # Calculate percentage improvements vs DeepJoin
+    if deepjoin_metrics.get('P@GT_Size', {}).get('mean', 0.0) > 0:
+        p_gt_improvement = ((semantic_metrics.get('P@GT_Size', {}).get('mean', 0.0) - deepjoin_metrics.get('P@GT_Size', {}).get('mean', 0.0)) / deepjoin_metrics.get('P@GT_Size', {}).get('mean', 0.0)) * 100
+        r_gt_improvement = ((semantic_metrics.get('R@GT_Size', {}).get('mean', 0.0) - deepjoin_metrics.get('R@GT_Size', {}).get('mean', 0.0)) / deepjoin_metrics.get('R@GT_Size', {}).get('mean', 0.0)) * 100
+        f1_gt_improvement = ((semantic_metrics.get('F1@GT_Size', {}).get('mean', 0.0) - deepjoin_metrics.get('F1@GT_Size', {}).get('mean', 0.0)) / deepjoin_metrics.get('F1@GT_Size', {}).get('mean', 0.0)) * 100
+        print(f"{'Improvement (sketch)':<20} {p_gt_improvement:+15.1f}% {r_gt_improvement:+15.1f}% {f1_gt_improvement:+15.1f}%")
+        
+        # Calculate improvement for SemSketch with LLM vs DeepJoin if available
+        if additional_semantic_metrics:
+            llm_metrics = additional_semantic_metrics[0][1] if additional_semantic_metrics else None
+            if llm_metrics:
+                p_gt_llm_improvement = ((llm_metrics.get('P@GT_Size', {}).get('mean', 0.0) - deepjoin_metrics.get('P@GT_Size', {}).get('mean', 0.0)) / deepjoin_metrics.get('P@GT_Size', {}).get('mean', 0.0)) * 100
+                r_gt_llm_improvement = ((llm_metrics.get('R@GT_Size', {}).get('mean', 0.0) - deepjoin_metrics.get('R@GT_Size', {}).get('mean', 0.0)) / deepjoin_metrics.get('R@GT_Size', {}).get('mean', 0.0)) * 100
+                f1_gt_llm_improvement = ((llm_metrics.get('F1@GT_Size', {}).get('mean', 0.0) - deepjoin_metrics.get('F1@GT_Size', {}).get('mean', 0.0)) / deepjoin_metrics.get('F1@GT_Size', {}).get('mean', 0.0)) * 100
+                print(f"{'Improvement (w/ LLM)':<20} {p_gt_llm_improvement:+15.1f}% {r_gt_llm_improvement:+15.1f}% {f1_gt_llm_improvement:+15.1f}%")
     
     print("="*80)
 
@@ -707,12 +854,8 @@ def main():
                        help='Root directory of the datalake for sampling column values')
     parser.add_argument('--sample-count', type=int, default=5, help='Number of sample values per column to include')
     parser.add_argument('--print-samples', action='store_true', help='Print sample values and metrics to console')
-    parser.add_argument('--similarity-threshold', type=float, default=0.7, 
-                       help='Similarity threshold for filtering semantic results (default: 0.7)')
     parser.add_argument('--additional-semantic-results', type=str, nargs='*',
                        help='Additional semantic result files to compare in the same table')
-    parser.add_argument('--quick-metrics', action='store_true',
-                       help='Only print quick metrics summary, skip detailed analysis')
     parser.add_argument('--analyze-false-positives', action='store_true',
                        help='Only analyze false positives (semantic method)')
     parser.add_argument('--analyze-disagreements', action='store_true',
@@ -728,7 +871,7 @@ def main():
     # Load data
     ground_truth = load_ground_truth(args.ground_truth)
     deepjoin_preds = load_deepjoin_results(args.deepjoin_results)
-    semantic_preds, semantic_matches = load_semantic_results(args.semantic_results, args.similarity_threshold)
+    semantic_preds, semantic_matches = load_semantic_results(args.semantic_results)
     
     # Remove self-joins
     deepjoin_preds = remove_self_joins(deepjoin_preds)
@@ -738,8 +881,22 @@ def main():
     print(f"Loaded {len(deepjoin_preds)} DeepJoin predictions")
     print(f"Loaded {len(semantic_preds)} semantic predictions")
     
+    # Diagnostic: Check average predictions per query
+    deepjoin_avg_preds = np.mean([len(preds) for preds in deepjoin_preds.values()]) if deepjoin_preds else 0
+    semantic_avg_preds = np.mean([len(preds) for preds in semantic_preds.values()]) if semantic_preds else 0
+    max_k = max(args.k_values) if args.k_values else 50
+    
+    print(f"\nDiagnostic Info:")
+    print(f"  Average predictions per query - DeepJoin: {deepjoin_avg_preds:.1f}, SemSketch: {semantic_avg_preds:.1f}")
+    print(f"  Using top-{max_k} predictions for Average_Precision calculation")
+    
+    # Check how many queries have fewer than max_k predictions
+    deepjoin_below_k = sum(1 for preds in deepjoin_preds.values() if len(preds) < max_k)
+    semantic_below_k = sum(1 for preds in semantic_preds.values() if len(preds) < max_k)
+    print(f"  Queries with <{max_k} predictions - DeepJoin: {deepjoin_below_k}/{len(deepjoin_preds)}, SemSketch: {semantic_below_k}/{len(semantic_preds)}")
+    
     # Calculate metrics
-    print("Calculating metrics...")
+    print("\nCalculating metrics...")
     
     semantic_metrics = calculate_metrics(semantic_preds, ground_truth, args.k_values)
     deepjoin_metrics = calculate_metrics(deepjoin_preds, ground_truth, args.k_values)
@@ -750,7 +907,7 @@ def main():
         for idx, add_result_path in enumerate(args.additional_semantic_results):
             if Path(add_result_path).exists():
                 print(f"Loading additional semantic results: {add_result_path}")
-                add_semantic_preds, _ = load_semantic_results(add_result_path, args.similarity_threshold)
+                add_semantic_preds, _ = load_semantic_results(add_result_path)
                 add_semantic_preds = remove_self_joins(add_semantic_preds)
                 add_semantic_metrics = calculate_metrics(add_semantic_preds, ground_truth, args.k_values)
                 
@@ -761,206 +918,6 @@ def main():
     # Print quick metrics summary
     print_metrics_summary(semantic_metrics, deepjoin_metrics, args.k_values, additional_semantic_metrics_list)
     
-    # Handle different analysis modes
-    if args.quick_metrics:
-        print("\nQuick metrics summary completed. Skipping detailed analysis.")
-        return 0
-    elif args.analyze_false_positives:
-        print("Analyzing semantic false positives...")
-        false_positives = analyze_false_positives(semantic_preds, ground_truth, semantic_matches,
-                                                args.datalake_dir, args.sample_count, args.print_samples, args.similarity_threshold)
-        
-        # Save false positives
-        if false_positives:
-            df = pd.DataFrame(false_positives)
-            df.to_csv(output_dir / 'semantic_false_positives.csv', index=False)
-            print(f"Saved {len(false_positives)} semantic false positives to {output_dir / 'semantic_false_positives.csv'}")
-        else:
-            print("No semantic false positives found.")
-        return 0
-    elif args.analyze_disagreements:
-        print("Analyzing method disagreements...")
-        semantic_right_deepjoin_wrong, deepjoin_right_semantic_wrong = analyze_method_disagreements(
-            semantic_preds, deepjoin_preds, ground_truth, args.datalake_dir, args.sample_count, args.print_samples
-        )
-        
-        # Save disagreements
-        if semantic_right_deepjoin_wrong:
-            df = pd.DataFrame(semantic_right_deepjoin_wrong)
-            df.to_csv(output_dir / 'semantic_right_deepjoin_wrong.csv', index=False)
-            print(f"Saved {len(semantic_right_deepjoin_wrong)} cases where semantic was right and DeepJoin was wrong")
-        
-        if deepjoin_right_semantic_wrong:
-            df = pd.DataFrame(deepjoin_right_semantic_wrong)
-            df.to_csv(output_dir / 'deepjoin_right_semantic_wrong.csv', index=False)
-            print(f"Saved {len(deepjoin_right_semantic_wrong)} cases where DeepJoin was right and semantic was wrong")
-        
-        return 0
-    
-    # Full analysis (default behavior)
-    print("Analyzing disagreements...")
-    disagreements = analyze_disagreements(semantic_preds, deepjoin_preds, ground_truth, semantic_matches,
-                                         args.datalake_dir, args.sample_count, args.print_samples, args.similarity_threshold)
-    
-    # Save results
-    print("Saving results...")
-    
-    # Save metrics
-    metrics_summary = {
-        'semantic_metrics': semantic_metrics,
-        'deepjoin_metrics': deepjoin_metrics,
-        'comparison': {}
-    }
-    
-    # Add total comparison metrics
-    metrics_summary['comparison']['Total_Precision'] = {
-        'semantic': semantic_metrics['Total_Precision']['mean'],
-        'deepjoin': deepjoin_metrics['Total_Precision']['mean'],
-        'improvement': semantic_metrics['Total_Precision']['mean'] - deepjoin_metrics['Total_Precision']['mean']
-    }
-    metrics_summary['comparison']['Total_Recall'] = {
-        'semantic': semantic_metrics['Total_Recall']['mean'],
-        'deepjoin': deepjoin_metrics['Total_Recall']['mean'],
-        'improvement': semantic_metrics['Total_Recall']['mean'] - deepjoin_metrics['Total_Recall']['mean']
-    }
-    metrics_summary['comparison']['Total_F1'] = {
-        'semantic': semantic_metrics['Total_F1']['mean'],
-        'deepjoin': deepjoin_metrics['Total_F1']['mean'],
-        'improvement': semantic_metrics['Total_F1']['mean'] - deepjoin_metrics['Total_F1']['mean']
-    }
-    
-    # Add comparison metrics
-    for k in args.k_values:
-        metrics_summary['comparison'][f'P@{k}'] = {
-            'semantic': semantic_metrics[f'P@{k}']['mean'],
-            'deepjoin': deepjoin_metrics[f'P@{k}']['mean'],
-            'improvement': semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']
-        }
-        metrics_summary['comparison'][f'R@{k}'] = {
-            'semantic': semantic_metrics[f'R@{k}']['mean'],
-            'deepjoin': deepjoin_metrics[f'R@{k}']['mean'],
-            'improvement': semantic_metrics[f'R@{k}']['mean'] - deepjoin_metrics[f'R@{k}']['mean']
-        }
-        metrics_summary['comparison'][f'F1@{k}'] = {
-            'semantic': semantic_metrics[f'F1@{k}']['mean'],
-            'deepjoin': deepjoin_metrics[f'F1@{k}']['mean'],
-            'improvement': semantic_metrics[f'F1@{k}']['mean'] - deepjoin_metrics[f'F1@{k}']['mean']
-        }
-    
-    with open(output_dir / 'evaluation_metrics.json', 'w') as f:
-        json.dump(metrics_summary, f, indent=2)
-    
-    # Save disagreement analysis
-    for category, data in disagreements.items():
-        if data:
-            df = pd.DataFrame(data)
-            df.to_csv(output_dir / f'{category}.csv', index=False)
-    
-    # Save summary statistics
-    summary_stats = {
-        'total_queries': len(ground_truth),
-        'semantic_predictions': sum(len(preds) for preds in semantic_preds.values()),
-        'deepjoin_predictions': sum(len(preds) for preds in deepjoin_preds.values()),
-        'disagreements': {
-            'semantic_right_deepjoin_wrong': len(disagreements['semantic_right_deepjoin_wrong']),
-            'deepjoin_right_semantic_wrong': len(disagreements['deepjoin_right_semantic_wrong']),
-            'semantic_false_positives': len(disagreements['semantic_false_positives']),
-            'deepjoin_false_positives': len(disagreements['deepjoin_false_positives'])
-        }
-    }
-    
-    with open(output_dir / 'summary_stats.json', 'w') as f:
-        json.dump(summary_stats, f, indent=2)
-    
-    # Print summary
-    print("\n" + "="*50)
-    print("EVALUATION SUMMARY")
-    print("="*50)
-    
-    print(f"\nSUMMARY:")
-    print(f"Total queries: {summary_stats['total_queries']}")
-    print(f"Semantic predictions: {summary_stats['semantic_predictions']}")
-    print(f"DeepJoin predictions: {summary_stats['deepjoin_predictions']}")
-    
-    # Print results in table format (methods as rows, metrics as columns)
-    print(f"\n{'='*120}")
-    print(f"EVALUATION RESULTS TABLE")
-    print(f"{'='*120}")
-    
-    # Overall metrics table
-    print(f"\nOVERALL METRICS:")
-    print(f"{'Method':<12} \t\t\t {'Precision':<12} {'Recall':<12} {'F1':<12}")
-    print(f"{'-'*12} \t\t\t {'-'*12} {'-'*12} {'-'*12}")
-    print(f"{'SemSketch':<12} \t\t\t {semantic_metrics['Total_Precision']['mean']:<12.3f} {semantic_metrics['Total_Recall']['mean']:<12.3f} {semantic_metrics['Total_F1']['mean']:<12.3f}")
-    print(f"{'DeepJoin':<12} \t\t\t {deepjoin_metrics['Total_Precision']['mean']:<12.3f} {deepjoin_metrics['Total_Recall']['mean']:<12.3f} {deepjoin_metrics['Total_F1']['mean']:<12.3f}")
-    
-    # Calculate percentage improvements for overall metrics
-    precision_improvement = ((semantic_metrics['Total_Precision']['mean'] - deepjoin_metrics['Total_Precision']['mean']) / deepjoin_metrics['Total_Precision']['mean']) * 100
-    recall_improvement = ((semantic_metrics['Total_Recall']['mean'] - deepjoin_metrics['Total_Recall']['mean']) / deepjoin_metrics['Total_Recall']['mean']) * 100
-    f1_improvement = ((semantic_metrics['Total_F1']['mean'] - deepjoin_metrics['Total_F1']['mean']) / deepjoin_metrics['Total_F1']['mean']) * 100
-    
-    print(f"{'Improvement over DeepJoin':<12}{precision_improvement:+12.1f}%{recall_improvement:+12.1f}%{f1_improvement:+12.1f}%")
-    
-    # @k metrics table
-    print(f"\nMETRICS BY TOP-K:")
-    # Create column headers
-    headers = ['Method']
-    for k in args.k_values:
-        headers.extend([f'\tP@{k}', f'R@{k}', f'F1@{k}'])
-    
-    # Print header row
-    header_line = ""
-    for header in headers:
-        header_line += f"{header:<12}"
-    print(header_line)
-    
-    # Print separator line
-    separator_line = ""
-    for header in headers:
-        separator_line += f"{'-'*12}"
-    print(separator_line)
-    
-    # Print SemSketch row
-    semsketch_line = "SemSketch   \t"
-    for k in args.k_values:
-        semsketch_line += f"{semantic_metrics[f'P@{k}']['mean']:<12.3f}"
-        semsketch_line += f"{semantic_metrics[f'R@{k}']['mean']:<12.3f}"
-        semsketch_line += f"{semantic_metrics[f'F1@{k}']['mean']:<12.3f}"
-    print(semsketch_line)
-    
-    # Print DeepJoin row
-    deepjoin_line = "DeepJoin    \t"
-    for k in args.k_values:
-        deepjoin_line += f"{deepjoin_metrics[f'P@{k}']['mean']:<12.3f}"
-        deepjoin_line += f"{deepjoin_metrics[f'R@{k}']['mean']:<12.3f}"
-        deepjoin_line += f"{deepjoin_metrics[f'F1@{k}']['mean']:<12.3f}"
-    print(deepjoin_line)
-    
-    # Print percentage improvement row
-    improvement_line = "Improvement over DeepJoin"
-    for k in args.k_values:
-        # Calculate percentage improvements
-        p_improvement = ((semantic_metrics[f'P@{k}']['mean'] - deepjoin_metrics[f'P@{k}']['mean']) / deepjoin_metrics[f'P@{k}']['mean']) * 100
-        r_improvement = ((semantic_metrics[f'R@{k}']['mean'] - deepjoin_metrics[f'R@{k}']['mean']) / deepjoin_metrics[f'R@{k}']['mean']) * 100
-        f1_improvement = ((semantic_metrics[f'F1@{k}']['mean'] - deepjoin_metrics[f'F1@{k}']['mean']) / deepjoin_metrics[f'F1@{k}']['mean']) * 100
-        
-        improvement_line += f"{p_improvement:+12.1f}%"
-        improvement_line += f"{r_improvement:+12.1f}%"
-        improvement_line += f"{f1_improvement:+12.1f}%"
-    print(improvement_line)
-    
-    # Disagreement analysis table
-    print(f"\nDISAGREEMENT ANALYSIS:")
-    print(f"{'Category':<30} {'Count':<10}")
-    print(f"{'-'*30} {'-'*10}")
-    print(f"{'SemSketch right, DeepJoin wrong':<30} {summary_stats['disagreements']['semantic_right_deepjoin_wrong']:<10}")
-    print(f"{'DeepJoin right, SemSketch wrong':<30} {summary_stats['disagreements']['deepjoin_right_semantic_wrong']:<10}")
-    print(f"{'SemSketch false positives':<30} {summary_stats['disagreements']['semantic_false_positives']:<10}")
-    print(f"{'DeepJoin false positives':<30} {summary_stats['disagreements']['deepjoin_false_positives']:<10}")
-    
-    print(f"\n{'='*120}")
-    
-    print(f"\nResults saved to: {output_dir}")
     
     return 0
 

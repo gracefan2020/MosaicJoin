@@ -8,6 +8,7 @@ import os
 import glob
 import argparse
 from pathlib import Path
+from evaluate_semantic_join import load_semantic_results, load_ground_truth, remove_self_joins
 
 def find_latest_query_results():
     """Find the most recent query results directory."""
@@ -16,6 +17,52 @@ def find_latest_query_results():
         return "query_results"  # fallback to default
     # Return the most recent one (assuming they're created in order)
     return sorted(query_dirs)[-1]
+
+def calculate_fp_fn(predictions, ground_truth):
+    """Calculate false positives and false negatives for given predictions."""
+    total_fp = 0
+    total_fn = 0
+    total_tp = 0
+    
+    false_positives = []
+    false_negatives = []
+    
+    for query, preds in predictions.items():
+        if query not in ground_truth:
+            continue
+        
+        gt_set = ground_truth[query]
+        pred_set = set([cand for cand, _ in preds])
+        
+        tp = len(pred_set.intersection(gt_set))
+        fp = len(pred_set - gt_set)
+        fn = len(gt_set - pred_set)
+        
+        total_tp += tp
+        total_fp += fp
+        total_fn += fn
+        
+        # Collect false positives
+        for cand in (pred_set - gt_set):
+            false_positives.append({
+                'query': query,
+                'candidate': cand
+            })
+        
+        # Collect false negatives
+        for cand in (gt_set - pred_set):
+            false_negatives.append({
+                'query': query,
+                'candidate': cand
+            })
+    
+    return {
+        'total_tp': total_tp,
+        'total_fp': total_fp,
+        'total_fn': total_fn,
+        'false_positives': false_positives,
+        'false_negatives': false_negatives
+    }
 
 def main():
     parser = argparse.ArgumentParser(description='Run evaluation with enhanced sample analysis')
@@ -27,8 +74,6 @@ def main():
                        help='Disable sample analysis (faster execution)')
     parser.add_argument('--similarity-threshold', type=float, default=0.7,
                        help='Similarity threshold for filtering semantic results (default: 0.7)')
-    parser.add_argument('--quick-metrics', action='store_true',
-                       help='Only print quick metrics summary, skip detailed analysis')
     parser.add_argument('--analyze-false-positives', action='store_true',
                        help='Only analyze false positives (semantic method)')
     parser.add_argument('--analyze-disagreements', action='store_true',
@@ -38,13 +83,20 @@ def main():
     # Configuration
     # query_results_dir = find_latest_query_results()
     # query_results_dir = "query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6"
+    query_results_dir = "query_results_k1024_t0.1_top50_slurm"
     # query_results_dir = "query_results_k1024_t0.7_top50_slurm"
-    query_results_dir = "query_results_k1024_t0.7_top50_0"
+    # query_results_dir = "query_results_k1024_t0.7_top50_0"
 
     semantic_results = f"{query_results_dir}/all_query_results.csv"
-    # semantic_results = f"{query_results_dir}/llm_pruned_query_results.csv"
+    semantic_results_llm = f"{query_results_dir}/llm_pruned_query_results.csv"
 
-    deepjoin_results = "Deepjoin/output/deepjoin_results_frequent_K50_N20_T0.7.csv"
+    # Check if llm_pruned exists as additional result
+    additional_results = []
+    if Path(semantic_results_llm).exists():
+        additional_results.append(semantic_results_llm)
+
+    # deepjoin_results = "Deepjoin/output/deepjoin_results_frequent_K50_N20_T0.7.csv"
+    deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N30_T0.1_touse.csv"
     # deepjoin_results = "Deepjoin/output/deepjoin_results_K50_N20_T0.7.csv"
     # deepjoin_results = "Deepjoin/output/deepjoin_results_T0.7_exact.csv"
 
@@ -90,17 +142,13 @@ def main():
         f"--deepjoin-results \"{deepjoin_results}\"",
         f"--ground-truth \"{ground_truth}\"",
         f"--output-dir \"{output_dir}\"",
-        f"--similarity-threshold {args.similarity_threshold}",
-        f"--quick-metrics"
+        f"--k-values 1 5 10 20 30 40 50"
     ]
     
-    # # Add analysis mode options
-    # if args.quick_metrics:
-    #     cmd_parts.append("--quick-metrics")
-    # elif args.analyze_false_positives:
-    #     cmd_parts.append("--analyze-false-positives")
-    # elif args.analyze_disagreements:
-    #     cmd_parts.append("--analyze-disagreements")
+    # Add additional semantic result files if they exist
+    for additional_result in additional_results:
+        cmd_parts.append(f"--additional-semantic-results \"{additional_result}\"")
+    
     
     # Add sample analysis options if not disabled
     if not args.no_samples:

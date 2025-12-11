@@ -58,7 +58,9 @@ def submit_slurm_jobs(
     --similarity-threshold {similarity_threshold} \\
     --sketch-size {sketch_size} \\
     --device "{device}" \\
-    --embeddings-dir "{embeddings_dir}" """
+    --embeddings-dir "{embeddings_dir}" \\
+    --sort-by "similarity_score"
+    """
     
     # Add DeepJoin parameters if enabled
     if use_deepjoin:
@@ -92,7 +94,7 @@ def submit_slurm_jobs(
     array_script = f"""#!/bin/bash
 #SBATCH --job-name=semantic_query
 #SBATCH --output={output_dir}/slurm_%a.out
-#SBATCH --error=/dev/null
+#SBATCH --error={output_dir}/slurm_%a.err
 #SBATCH --array=0-{num_jobs-1}
 #SBATCH --time=4:00:00
 #SBATCH --mem=16G
@@ -124,6 +126,7 @@ python run_query_processing.py "{datalake_dir}" "{sketches_dir}" "{query_file}" 
     --sketch-size {sketch_size} \\
     --device "{device}" \\
     --embeddings-dir "{embeddings_dir}" \\
+    --sort-by "similarity_score" \\
     --query-indices ${{QUERY_INDICES}}{deepjoin_args}
 
 echo "Job $SLURM_ARRAY_TASK_ID completed successfully"
@@ -146,6 +149,9 @@ echo "Job $SLURM_ARRAY_TASK_ID completed successfully"
     print("To view job output:")
     print(f"  tail -f {output_dir}/slurm_*.out")
     print()
+    print("To view job errors:")
+    print(f"  tail -f {output_dir}/slurm_*.err")
+    print()
     
     # Ask if user wants to submit now
     response = input("Submit jobs now? (y/n): ")
@@ -167,13 +173,13 @@ def main():
     """Main function."""
     # Query parameters
     top_k_return = 50
-    similarity_threshold = 0.7
+    similarity_threshold = 0.1
     sketch_size = 1024
     device = "auto"
     queries_per_job = 10  # Process 10 queries per SLURM job
     
     # DeepJoin integration options
-    use_deepjoin_index = True  # Disabled as requested
+    use_deepjoin_index = False  # Disabled as requested
     deepjoin_embeddings_path = "Deepjoin/output/freyja_lake_embeddings_frequent.pkl"
     deepjoin_query_embeddings_path = "Deepjoin/output/freyja_queries_embeddings_frequent.pkl"
     deepjoin_index_path = None
@@ -191,7 +197,7 @@ def main():
     
     # Generate output directory name
     deepjoin_suffix = f"_deepjoin_N{deepjoin_candidate_limit}_K{deepjoin_top_k}_T{deepjoin_threshold}" if use_deepjoin_index else ""
-    output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}{deepjoin_suffix}_slurm"
+    output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_similarity_score{deepjoin_suffix}_slurm"
     
     # Check if required files exist
     if not Path(query_file).exists():

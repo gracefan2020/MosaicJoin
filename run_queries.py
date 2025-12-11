@@ -188,7 +188,7 @@ def run_with_progress(cmd: str, max_queries: int = None):
 def main():    
     # Query parameters
     top_k_return = 50
-    similarity_threshold = 0.7
+    similarity_threshold = 0.1  # Set to 0.1 or lower to return all results (no threshold filtering)
     sketch_size = 1024
     device = "auto"
     max_queries = None  # Set to a number to limit queries for testing (e.g., 5)

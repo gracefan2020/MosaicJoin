@@ -2,7 +2,7 @@
 # Monitor Slurm jobs and combine results when complete
 
 # OUTPUT_DIR=${1:-"query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6_slurm"}
-OUTPUT_DIR=${1:-"query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6_slurm"}
+OUTPUT_DIR=${1:-"query_results_k1024_t0.1_top50_semantic_matches_slurm"}
 NUM_JOBS=${2:-5}
 
 echo "🔍 Monitoring Slurm jobs for query processing..."

@@ -23,7 +23,7 @@ def load_all_datalake_tables() -> List[str]:
     return table_dfs
 
 def load_semantic_preds(query_results_dir: str) -> Dict[str, List[str]]:
-    _, semantic_matches = load_semantic_results(f"{query_results_dir}/all_query_results.csv", 0.7)
+    _, semantic_matches = load_semantic_results(f"{query_results_dir}/all_query_results.csv")
     sketch_results = {q: [c for c in semantic_matches[q].keys()] for q in semantic_matches.keys()}
     return sketch_results
 
@@ -120,6 +120,15 @@ Values: ["Apple", "Google", "Ford", "Dell", "Tiffany"]
 Answer: No
 Reason: Completely different entity types (people names vs company names) with no semantic relationship or value overlap. These represent fundamentally different concepts.
 
+Example 3:
+Query: table="world_cities", column="city", schema=["city_id", "city", "country", "population"]
+Values: ["Paris", "London", "Berlin", "Madrid", "Rome"]
+
+Candidate: table="movies", column="location", schema=["movie_id", "title", "year", "location", "genre"]
+Values: ["Paris", "London", "Berlin", "Madrid", "Rome"]
+
+Answer: Yes
+Reason: Despite different table contexts (world cities vs movies), there is semantic overlap in the values (both represent cities). 
 ---
 
 Query: table="{query_table_name}", column="{query_column_name}", schema={query_schema}

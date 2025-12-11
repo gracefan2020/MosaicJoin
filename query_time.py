@@ -68,6 +68,10 @@ class QueryConfig:
     enable_large_table_sampling: bool = True
     large_table_sample_size: int = 1000
     
+    # Ranking options
+    sort_by: str = "similarity_score"  # "similarity_score" or "semantic_matches"
+    semantic_matches_threshold: float = 0.5  # Threshold for counting semantic matches when similarity_threshold is low
+    
     # Device settings
     device: str = "auto"  # device for MPNet model
 
@@ -253,10 +257,17 @@ class SemanticJoinQueryProcessor:
             # Find similar columns using sketch comparison
             results = self._find_similar_columns(query_sketch, query, candidate_tables)
             
-            # Sort by similarity score and limit results
-            results.sort(key=lambda x: x.similarity_score, reverse=True)
-            # Return up to top_k_return high-quality results, or fewer if not enough meet threshold
+            # Sort by configured metric and limit to exactly top_k_return results
+            if self.config.sort_by == "semantic_matches":
+                results.sort(key=lambda x: (x.semantic_matches, x.similarity_score), reverse=True)
+            else:  # default to similarity_score
+                results.sort(key=lambda x: x.similarity_score, reverse=True)
+            # Return exactly top_k_return results (or all available if fewer than top_k_return)
             final_results = results[:self.config.top_k_return]
+            
+            # Log if we couldn't return exactly k results
+            if len(final_results) < self.config.top_k_return:
+                self.logger.warning(f"Only {len(final_results)} results available (requested {self.config.top_k_return})")
             
             # Update statistics
             processing_time = time.time() - start_time
@@ -487,8 +498,9 @@ class SemanticJoinQueryProcessor:
                     query_sketch, candidate_sketch
                 )
                 
-                # Only include results above threshold
-                if semantic_density >= self.config.similarity_threshold:
+                # Include all results when threshold is 0.0 or very low (<= 0.1)
+                # Otherwise, only include results above threshold
+                if self.config.similarity_threshold <= 0.1 or semantic_density >= self.config.similarity_threshold:
                     result = QueryResult(
                         candidate_table=table_name,
                         candidate_column=column_name,
@@ -519,11 +531,29 @@ class SemanticJoinQueryProcessor:
         # Compute similarity matrix
         similarity_matrix = np.dot(a_norm, b_norm.T)  # shape (a.k, b.k)
         
-        # Find semantic matches (similarity > threshold)
-        semantic_matches = np.sum(similarity_matrix > self.config.similarity_threshold)
-        
-        # Calculate semantic density
-        semantic_density = semantic_matches / min(a.k, b.k)
+        # If threshold is 0.0 or very low (<= 0.1), use average similarity instead of threshold-based matching
+        # This ensures we get meaningful scores even when threshold filtering is disabled
+        if self.config.similarity_threshold <= 0.1:
+            # Use average similarity as the semantic density when threshold is disabled
+            # This gives a meaningful score for ranking while including all results
+            semantic_density = float(np.mean(similarity_matrix))
+            # For semantic_matches, use a dynamic threshold based on the similarity distribution
+            # This prevents inflation from counting all positive similarities (which would be ~1M for k=1024)
+            # Use a high percentile (90th) to count only the best matches, ensuring quality over quantity
+            # This better reflects actual high-quality semantic matches
+            similarity_values = similarity_matrix.flatten()
+            if len(similarity_values) > 0:
+                # Use 90th percentile as threshold, with a minimum of 0.7 to ensure high quality
+                # This focuses on the top 10% of matches, which are the most semantically similar
+                percentile_threshold = max(0.7, float(np.percentile(similarity_values, 90)))
+                semantic_matches = int(np.sum(similarity_matrix > percentile_threshold))
+            else:
+                semantic_matches = 0
+        else:
+            # Find semantic matches (similarity > threshold)
+            semantic_matches = np.sum(similarity_matrix > self.config.similarity_threshold)
+            # Calculate semantic density
+            semantic_density = semantic_matches / min(a.k, b.k)
         
         return int(semantic_matches), float(semantic_density)
     
@@ -620,6 +650,11 @@ def main():
                        help="Device for MPNet model (auto, cpu, cuda, mps)")
     parser.add_argument("--embeddings-dir", type=str,
                        help="Path to embeddings directory (optional)")
+    parser.add_argument("--sort-by", type=str, default="similarity_score",
+                       choices=["similarity_score", "semantic_matches"],
+                       help="Metric to use for ranking results (similarity_score or semantic_matches)")
+    parser.add_argument("--semantic-matches-threshold", type=float, default=0.5,
+                       help="Threshold for counting semantic matches when similarity_threshold is low (default: 0.5)")
     
     # DeepJoin integration arguments
     parser.add_argument("--use-deepjoin-index", action="store_true",
@@ -650,6 +685,8 @@ def main():
         similarity_threshold=args.similarity_threshold,
         sketch_size=args.sketch_size,
         device=args.device,
+        sort_by=args.sort_by,
+        semantic_matches_threshold=args.semantic_matches_threshold,
         use_deepjoin_index=args.use_deepjoin_index,
         deepjoin_embeddings_path=args.deepjoin_embeddings_path,
         deepjoin_query_embeddings_path=args.deepjoin_query_embeddings_path,
