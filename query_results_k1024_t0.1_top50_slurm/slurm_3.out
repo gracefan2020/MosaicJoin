@@ -1,0 +1,68 @@
+Job 3: Processing queries 30 to 39
+Total queries in job: 10
+Loading query specifications from datasets/freyja-semantic-join/freyja_query_columns.csv
+Found 50 query specifications
+Processing 10 specified queries
+
+Processing 10 queries...
+Processing query 1/10: pte_nitro.csv.Arg0
+  Loaded 48 values
+Device selected: cpu
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_001_pte_nitro.csv_Arg0.csv
+Processing query 2/10: pte_non_ar_5c_ring.csv.Arg0
+  Loaded 32 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_002_pte_non_ar_5c_ring.csv_Arg0.csv
+Processing query 3/10: pte_non_ar_hetero_5_ring.csv.Arg0
+  Loaded 78 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_003_pte_non_ar_hetero_5_ring.csv_Arg0.csv
+Processing query 4/10: pte_non_ar_hetero_6_ring.csv.Arg0
+  Loaded 87 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_004_pte_non_ar_hetero_6_ring.csv_Arg0.csv
+Processing query 5/10: pte_phenol.csv.Arg0
+  Loaded 49 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_005_pte_phenol.csv_Arg0.csv
+Processing query 6/10: pte_postestactive.csv.Arg0
+  Loaded 20 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_006_pte_postestactive.csv_Arg0.csv
+Processing query 7/10: pte_postestactive_neg.csv.Arg0
+  Loaded 39 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_007_pte_postestactive_neg.csv_Arg0.csv
+Processing query 8/10: pte_sulfide.csv.Arg0
+  Loaded 62 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_008_pte_sulfide.csv_Arg0.csv
+Processing query 9/10: pte_testactive.csv.Arg0
+  Loaded 39 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_009_pte_testactive.csv_Arg0.csv
+Processing query 10/10: pte_testactive_Neg.csv.Arg0
+  Loaded 39 values
+  Found 50 similar columns
+Saved 50 results to query_results_k1024_t0.1_top50_slurm/job_3/query_010_pte_testactive_Neg.csv_Arg0.csv
+
+Combined results saved to: query_results_k1024_t0.1_top50_slurm/job_3/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 107.86s
+Total candidates found: 500
+Total high-quality candidates: 13080
+Average time per query: 10.7858s
+Average candidates per query: 50.00
+Average high-quality candidates per query: 1308.00
+DeepJoin integration: Not used
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 500
+Results saved to: query_results_k1024_t0.1_top50_slurm/job_3
+Job 3 completed successfully
