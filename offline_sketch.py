@@ -124,7 +124,8 @@ class OfflineSketchBuilder:
         
         return logger
     
-    def build_sketches_for_embeddings(self, embeddings_dir: Path, tables_to_process: Optional[List[str]] = None) -> SketchStats:
+    def build_sketches_for_embeddings(self, embeddings_dir: Path, tables_to_process: Optional[List[str]] = None, 
+                                     datalake_dir: Optional[Path] = None) -> SketchStats:
         """Build sketches for all embeddings in the embeddings directory."""
         self.logger.info("Starting offline sketch building")
         
@@ -144,7 +145,7 @@ class OfflineSketchBuilder:
                 continue
 
             # Create sketch
-            result = self._build_sketch_for_column(embeddings_dir, table_name, column_name, column_index)
+            result = self._build_sketch_for_column(embeddings_dir, table_name, column_name, column_index, datalake_dir)
 
             if result is not None:
                 sketch, metadata = result
@@ -219,7 +220,8 @@ class OfflineSketchBuilder:
     
     
     def _build_sketch_for_column(self, embeddings_dir: Path, table_name: str, 
-                                column_name: str, column_index: int) -> Optional[Tuple[SemanticSketch, SketchMetadata]]:
+                                column_name: str, column_index: int, 
+                                datalake_dir: Optional[Path] = None) -> Optional[Tuple[SemanticSketch, SketchMetadata]]:
         """Build semantic sketch for a single column."""
         start_time = time.time()
         
@@ -234,8 +236,13 @@ class OfflineSketchBuilder:
                 self.stats.skipped_columns += 1
                 return None
             
+            # Load values from CSV to store in sketch (if datalake_dir provided)
+            values = None
+            if datalake_dir is not None:
+                values = self._load_column_values_for_sketch(datalake_dir, table_name, column_name)
+            
             # Build semantic sketch
-            sketch = self._build_semantic_sketch_from_embeddings(embeddings)
+            sketch = self._build_semantic_sketch_from_embeddings(embeddings, values)
             
             if sketch is None:
                 return None
@@ -274,6 +281,36 @@ class OfflineSketchBuilder:
             self.logger.warning(f"Could not load embeddings from {table_name}.{column_name}: {e}")
             return None
     
+    def _load_column_values_for_sketch(self, datalake_dir: Path, table_name: str, column_name: str) -> Optional[List[str]]:
+        """Load and normalize column values for storing in sketch.
+        
+        Returns normalized values in the same order as embeddings were created.
+        """
+        try:
+            csv_file = datalake_dir / f"{table_name}.csv"
+            if not csv_file.exists():
+                return None
+            
+            df = pd.read_csv(csv_file)
+            if column_name not in df.columns:
+                return None
+            
+            # Extract values and normalize (same normalization as in offline_embedding.py)
+            values = df[column_name].dropna().astype(str).tolist()
+            normalized_values = [self._normalize_value(v) for v in values]
+            clean_values = [v for v in normalized_values if v]
+            
+            return clean_values
+            
+        except Exception as e:
+            self.logger.warning(f"Could not load values for sketch from {table_name}.{column_name}: {e}")
+            return None
+    
+    def _normalize_value(self, value: Any) -> str:
+        """Normalize a raw cell value (same as offline_embedding.py)."""
+        s = str(value) if value is not None else ""
+        return s.strip().lower()
+    
     def _should_skip_column(self, embeddings: np.ndarray, column_name: str) -> bool:
         """Determine if a column should be skipped."""
         if len(embeddings) == 0:
@@ -285,8 +322,14 @@ class OfflineSketchBuilder:
         
         return False
     
-    def _build_semantic_sketch_from_embeddings(self, embeddings: np.ndarray) -> Optional[SemanticSketch]:
-        """Build a semantic sketch using k-closest points to origin."""
+    def _build_semantic_sketch_from_embeddings(self, embeddings: np.ndarray, 
+                                              values: Optional[List[str]] = None) -> Optional[SemanticSketch]:
+        """Build a semantic sketch using k-closest points to origin.
+        
+        Args:
+            embeddings: Array of embeddings
+            values: Optional list of normalized values corresponding to embeddings (same order)
+        """
         if len(embeddings) == 0:
             return SemanticSketch(
                 representative_vectors=np.zeros((0, 0)),
@@ -294,7 +337,8 @@ class OfflineSketchBuilder:
                 distances_to_origin=np.zeros(0),
                 embedding_dim=0,
                 k=0,
-                centroid=np.zeros(0)
+                centroid=np.zeros(0),
+                representative_names=None
             )
         
         # Calculate centroid of all embeddings
@@ -318,6 +362,11 @@ class OfflineSketchBuilder:
         # Calculate distances to origin for all representatives
         distances_to_origin = np.linalg.norm(representative_vectors, axis=1)
         
+        # Extract representative values if provided
+        representative_names = None
+        if values is not None and len(values) == len(embeddings):
+            representative_names = [values[i] for i in idx_sorted]
+        
         return SemanticSketch(
             representative_vectors=representative_vectors,
             representative_ids=representative_ids,
@@ -325,7 +374,7 @@ class OfflineSketchBuilder:
             embedding_dim=embeddings.shape[1],
             k=len(idx_sorted),
             centroid=centroid,
-            representative_names=None
+            representative_names=representative_names
         )
     
     def _k_closest_to_origin(self, X: np.ndarray, k: int) -> Tuple[np.ndarray, np.ndarray]:
@@ -403,7 +452,7 @@ def load_offline_sketch(table_name: str, column_name: str, column_index: int,
             embedding_dim=data["embedding_dim"],
             k=data["k"],
             centroid=data["centroid"],
-            representative_names=data["representative_names"]
+            representative_names=data.get("representative_names", None)  # Backward compatible
         )
         return sketch
         

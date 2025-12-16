@@ -16,7 +16,14 @@ import pandas as pd
 from pathlib import Path
 from typing import List, Dict, Any
 
-from query_time import SemanticJoinQueryProcessor, QueryConfig, QueryColumn, save_query_results
+from query_time import (
+    SemanticJoinQueryProcessor,
+    QueryConfig,
+    QueryColumn,
+    save_query_results,
+    save_value_matches,
+    save_contributing_entities,
+)
 
 def load_query_specifications(query_file: Path) -> List[Dict[str, str]]:
     """Load query specifications from CSV file."""
@@ -41,12 +48,9 @@ def load_query_values_from_datalake(datalake_dir: Path, table_name: str, column_
     try:
         # Handle different possible file extensions
         csv_file = datalake_dir / f"{table_name}.csv"
-        if not csv_file.exists():
+        if not csv_file.exists() and table_name.endswith('.csv'):
             # Try without .csv extension if table_name already includes it
-            if table_name.endswith('.csv'):
-                csv_file = datalake_dir / table_name
-        else:
-                csv_file = datalake_dir / f"{table_name}.csv"
+            csv_file = datalake_dir / table_name
         
         if not csv_file.exists():
             print(f"Warning: Table file not found: {csv_file}")
@@ -80,6 +84,9 @@ def main():
                        help="Number of final results to return per query")
     parser.add_argument("--similarity-threshold", type=float, default=0.7,
                        help="Similarity threshold for semantic matching")
+    parser.add_argument("--value-match-threshold", type=float, default=None,
+                       help="Similarity threshold for VALUE-LEVEL entity link matching (default: use --similarity-threshold). "
+                            "Set this higher (e.g., 0.5-0.8) to avoid millions of false-positive links while keeping retrieval permissive.")
     parser.add_argument("--sketch-size", type=int, default=1024,
                        help="Number of representative vectors per sketch")
     parser.add_argument("--device", type=str, default="auto",
@@ -92,27 +99,8 @@ def main():
                        help="Maximum number of queries to process (for testing)")
     parser.add_argument("--query-indices", type=int, nargs="*",
                        help="Specific query indices to process (0-based)")
-    
-    # DeepJoin integration arguments
-    parser.add_argument("--use-deepjoin-index", action="store_true",
-                       help="Use DeepJoin index for candidate filtering")
-    parser.add_argument("--deepjoin-embeddings-path", type=str,
-                       help="Path to DeepJoin embeddings pickle file")
-    parser.add_argument("--deepjoin-query-embeddings-path", type=str,
-                       help="Path to DeepJoin query embeddings pickle file")
-    parser.add_argument("--deepjoin-index-path", type=str,
-                       help="Path to DeepJoin HNSW index file (optional)")
-    parser.add_argument("--deepjoin-scale", type=float, default=1.0,
-                       help="Scale factor for DeepJoin dataset (0.0-1.0)")
-    parser.add_argument("--deepjoin-encoder", type=str, default="sherlock",
-                       choices=["sherlock", "sato"],
-                       help="DeepJoin encoder type")
-    parser.add_argument("--deepjoin-candidate-limit", type=int, default=5,
-                       help="Number of candidates from DeepJoin index")
-    parser.add_argument("--deepjoin-top-k", type=int, default=200,
-                       help="Number of top results from DeepJoin (for candidate filtering)")
-    parser.add_argument("--deepjoin-threshold", type=float, default=0.6,
-                       help="DeepJoin similarity threshold")
+    parser.add_argument("--save-entity-links", action="store_true",
+                       help="For each query, compute and save value-level matches for the top-1 candidate")
     
     args = parser.parse_args()
     
@@ -163,19 +151,15 @@ def main():
         top_k_return=args.top_k_return,
         similarity_threshold=args.similarity_threshold,
         sketch_size=args.sketch_size,
-        device=args.device,
-        use_deepjoin_index=False,
-        deepjoin_embeddings_path=args.deepjoin_embeddings_path,
-        deepjoin_query_embeddings_path=args.deepjoin_query_embeddings_path,
-        deepjoin_index_path=args.deepjoin_index_path,
-        deepjoin_scale=args.deepjoin_scale,
-        deepjoin_encoder=args.deepjoin_encoder,
-        deepjoin_candidate_limit=args.deepjoin_candidate_limit,
-        deepjoin_top_k=args.deepjoin_top_k,
-        deepjoin_threshold=args.deepjoin_threshold
+        device=args.device
     )
     
-    processor = SemanticJoinQueryProcessor(query_config, sketches_path, embeddings_dir)
+    processor = SemanticJoinQueryProcessor(
+        query_config,
+        sketches_path,
+        embeddings_dir,
+        datalake_dir=datalake_path,
+    )
     
     # Process all queries
     all_results = []
@@ -200,12 +184,12 @@ def main():
         
         # Create query column
         query = QueryColumn(
-        table_name=table_name,
+            table_name=table_name,
             column_name=column_name,
             values=query_values
         )
         
-        # Process query
+        # Process query (sketch-based joinability)
         results = processor.process_query(query)
         
         if results:
@@ -214,10 +198,36 @@ def main():
             
             # Save individual query results
             query_output_file = output_dir / f"query_{i+1:03d}_{table_name}_{column_name}.csv"
-            save_query_results(results, query_output_file)
+            save_query_results(results, query_output_file, 
+                             query_sample_values=query_values,
+                             datalake_dir=datalake_path)
+            
+            # Save contributing entities for all results (values from sketches that led to matches)
+            for result in results:
+                if result.contributing_entities:
+                    contributing_output = output_dir / f"query_{i+1:03d}_{table_name}_{column_name}_{result.candidate_table}_{result.candidate_column}"
+                    save_contributing_entities(
+                        result.contributing_entities,
+                        contributing_output,
+                        query.table_name,
+                        query.column_name,
+                        result.candidate_table,
+                        result.candidate_column
+                    )
+            
+            # Get first 5 query values for combined results
+            query_sample = query_values[:5] if query_values else []
+            query_sample_str = ", ".join(str(v) for v in query_sample) if query_sample else ""
             
             # Add to combined results
             for result in results:
+                # Get first 5 candidate values
+                candidate_values = load_query_values_from_datalake(
+                    datalake_path, result.candidate_table, result.candidate_column
+                )
+                candidate_sample = candidate_values[:5] if candidate_values else []
+                candidate_sample_str = ", ".join(str(v) for v in candidate_sample) if candidate_sample else ""
+                
                 all_results.append({
                     'query_table': table_name,
                     'query_column': column_name,
@@ -225,9 +235,39 @@ def main():
                     'candidate_table': result.candidate_table,
                     'candidate_column': result.candidate_column,
                     'similarity_score': result.similarity_score,
-                    'semantic_matches': result.semantic_matches,
-                    'semantic_density': result.semantic_density
+                    'query_sample_values': query_sample_str,
+                    'candidate_sample_values': candidate_sample_str
                 })
+
+            # Optionally compute and save value-level entity links for top-1 candidate
+            if args.save_entity_links:
+                top1 = results[0]
+                try:
+                    print(f"  Computing value-level matches for top-1: {top1.candidate_table}.{top1.candidate_column}")
+                    from pathlib import Path as _Path
+                    matches, match_stats = processor.analyze_value_level_matches(
+                        query=query,
+                        candidate_table=top1.candidate_table,
+                        candidate_column=top1.candidate_column,
+                        datalake_dir=datalake_path,
+                        max_query_values=None,
+                        max_candidate_values=None,
+                        use_sketch_values=True,  # Use only values from sketches for entity linking
+                        match_threshold=args.value_match_threshold,
+                    )
+                    value_match_output = output_dir / f"query_{i+1:03d}_{table_name}_{column_name}_top1_value_matches"
+                    save_value_matches(
+                        matches,
+                        match_stats,
+                        value_match_output,
+                        query.table_name,
+                        query.column_name,
+                        top1.candidate_table,
+                        top1.candidate_column,
+                    )
+                    print(f"  Saved {len(matches)} value-level matches for top-1 candidate")
+                except Exception as e:
+                    print(f"  Warning: failed to compute value-level matches for top-1 candidate: {e}")
         else:
             print(f"  No similar columns found")
     
