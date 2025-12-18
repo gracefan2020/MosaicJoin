@@ -2,6 +2,7 @@ import os
 import argparse
 import csv
 import pickle
+import shutil
 from typing import Dict, List, Tuple, Set
 
 from dataprocess.process_table_tosentence import process_table_sentense
@@ -189,14 +190,29 @@ def main():
     # Evaluation (optional)
     parser.add_argument("--ground_truth", default=None, 
                        help="Path to ground truth CSV for evaluation (optional)")
+    parser.add_argument(
+        "--prepare-only",
+        action="store_true",
+        help="Only run preprocessing + embedding + HNSW indexing; skip query retrieval (useful for SLURM sharding of retrieval).",
+    )
+    parser.add_argument(
+        "--preprocess-only",
+        action="store_true",
+        help="Only run preprocessing (CSV -> sentences); skip embedding and retrieval. Use CPU-only job.",
+    )
+    parser.add_argument(
+        "--embed-only",
+        action="store_true",
+        help="Only run embedding generation (sentences -> embeddings); skip preprocessing. Requires preprocessed files. Use GPU job.",
+    )
 
     args = parser.parse_args()
 
     # Setup paths
     dataset_root = os.path.abspath(args.dataset_root)
     out_dir = os.path.abspath(args.out_dir)
-    lake_dir = os.path.join(dataset_root, args.lake_subdir)
-    queries_dir = os.path.join(dataset_root, args.queries_subdir)
+    lake_dir = os.path.abspath(os.path.join(dataset_root, args.lake_subdir))
+    queries_dir = os.path.abspath(os.path.join(dataset_root, args.queries_subdir))
 
     os.makedirs(out_dir, exist_ok=True)
     tmp_dir = os.path.join(out_dir, "tmp")
@@ -207,6 +223,94 @@ def main():
     lake_embeddings = os.path.join(out_dir, "lake_embeddings.pkl")
     query_embeddings = os.path.join(out_dir, "query_embeddings.pkl")
 
+    # Check if lake and queries directories are the same (optimization)
+    same_directory = (lake_dir == queries_dir)
+    if same_directory:
+        print(f"[OPTIMIZATION] lake_subdir and queries_subdir both point to the same directory: {lake_dir}")
+        print("[OPTIMIZATION] Will reuse embeddings to avoid duplicate processing.")
+
+    # Handle preprocess-only mode (CPU job)
+    if args.preprocess_only:
+        print("=" * 60)
+        print("PREPROCESS-ONLY MODE: Running preprocessing only (CPU)")
+        print("=" * 60)
+        
+        # Step 1: Preprocess CSVs -> column-level sentences
+        print("Step 1: Preprocessing data lake tables...")
+        process_table_sentense(
+            filepathstore=out_dir,
+            datadir=lake_dir,
+            data_pkl_name=os.path.basename(lake_sentences),
+            tmppath=tmp_dir,
+            split_num=args.split_lake,
+            sampling_mode="frequent",
+        )
+        
+        if same_directory:
+            print("[OPTIMIZATION] Skipping duplicate preprocessing for queries (same as lake)...")
+            if os.path.exists(lake_sentences) and not os.path.exists(query_sentences):
+                shutil.copy2(lake_sentences, query_sentences)
+                print(f"[OPTIMIZATION] Copied {lake_sentences} to {query_sentences}")
+        else:
+            print("Step 1: Preprocessing query tables...")
+            process_table_sentense(
+                filepathstore=out_dir,
+                datadir=queries_dir,
+                data_pkl_name=os.path.basename(query_sentences),
+                tmppath=tmp_dir,
+                split_num=args.split_queries,
+                sampling_mode="frequent",
+            )
+        
+        print("\nPreprocessing complete! Generated:")
+        print(f"  - {lake_sentences}")
+        print(f"  - {query_sentences}")
+        print("\nNext step: Run with --embed-only flag in a GPU job")
+        return 0
+
+    # Handle embed-only mode (GPU job)
+    if args.embed_only:
+        print("=" * 60)
+        print("EMBED-ONLY MODE: Running embedding generation only (GPU)")
+        print("=" * 60)
+        
+        # Check that preprocessed files exist
+        if not os.path.exists(lake_sentences):
+            raise FileNotFoundError(f"Preprocessed file not found: {lake_sentences}. Run with --preprocess-only first.")
+        if not same_directory and not os.path.exists(query_sentences):
+            raise FileNotFoundError(f"Preprocessed file not found: {query_sentences}. Run with --preprocess-only first.")
+        
+        # Step 2: Embed sentences with MPNet
+        print("Step 2: Generating embeddings for data lake...")
+        model_path = args.model_dir if os.path.isdir(args.model_dir) else args.model_dir
+        process_onedataset(
+            dataset_file=lake_sentences,
+            model_name=model_path,
+            storepath=out_dir,
+            output_filename=os.path.basename(lake_embeddings),
+        )
+        
+        if same_directory:
+            print("[OPTIMIZATION] Skipping duplicate embedding generation for queries (same as lake)...")
+            if os.path.exists(lake_embeddings) and not os.path.exists(query_embeddings):
+                shutil.copy2(lake_embeddings, query_embeddings)
+                print(f"[OPTIMIZATION] Copied {lake_embeddings} to {query_embeddings}")
+        else:
+            print("Step 2: Generating embeddings for queries...")
+            process_onedataset(
+                dataset_file=query_sentences,
+                model_name=model_path,
+                storepath=out_dir,
+                output_filename=os.path.basename(query_embeddings),
+            )
+        
+        print("\nEmbedding generation complete! Generated:")
+        print(f"  - {lake_embeddings}")
+        print(f"  - {query_embeddings}")
+        print("\nNext step: Run full pipeline or with --prepare-only to build HNSW index")
+        return 0
+
+    # Normal mode: Run preprocessing
     # Step 1: Preprocess CSVs -> column-level sentences
     print("Step 1: Preprocessing data lake tables...")
     process_table_sentense(
@@ -218,15 +322,22 @@ def main():
         sampling_mode="frequent",  # Original DeepJoin uses frequent sampling
     )
     
-    print("Step 1: Preprocessing query tables...")
-    process_table_sentense(
-        filepathstore=out_dir,
-        datadir=queries_dir,
-        data_pkl_name=os.path.basename(query_sentences),
-        tmppath=tmp_dir,
-        split_num=args.split_queries,
-        sampling_mode="frequent",
-    )
+    if same_directory:
+        print("[OPTIMIZATION] Skipping duplicate preprocessing for queries (same as lake)...")
+        # Reuse lake sentences for queries
+        if os.path.exists(lake_sentences) and not os.path.exists(query_sentences):
+            shutil.copy2(lake_sentences, query_sentences)
+            print(f"[OPTIMIZATION] Copied {lake_sentences} to {query_sentences}")
+    else:
+        print("Step 1: Preprocessing query tables...")
+        process_table_sentense(
+            filepathstore=out_dir,
+            datadir=queries_dir,
+            data_pkl_name=os.path.basename(query_sentences),
+            tmppath=tmp_dir,
+            split_num=args.split_queries,
+            sampling_mode="frequent",
+        )
 
     # Step 2: Embed sentences with MPNet
     print("Step 2: Generating embeddings for data lake...")
@@ -238,13 +349,20 @@ def main():
         output_filename=os.path.basename(lake_embeddings),
     )
     
-    print("Step 2: Generating embeddings for queries...")
-    process_onedataset(
-        dataset_file=query_sentences,
-        model_name=model_path,
-        storepath=out_dir,
-        output_filename=os.path.basename(query_embeddings),
-    )
+    if same_directory:
+        print("[OPTIMIZATION] Skipping duplicate embedding generation for queries (same as lake)...")
+        # Reuse lake embeddings for queries
+        if os.path.exists(lake_embeddings) and not os.path.exists(query_embeddings):
+            shutil.copy2(lake_embeddings, query_embeddings)
+            print(f"[OPTIMIZATION] Copied {lake_embeddings} to {query_embeddings}")
+    else:
+        print("Step 2: Generating embeddings for queries...")
+        process_onedataset(
+            dataset_file=query_sentences,
+            model_name=model_path,
+            storepath=out_dir,
+            output_filename=os.path.basename(query_embeddings),
+        )
 
     # Step 3: Build HNSW index and perform retrieval
     print("Step 3: Building HNSW index...")
@@ -254,6 +372,15 @@ def main():
         index_path=index_path, 
         scale=1.0
     )
+
+    if args.prepare_only:
+        print("Prepare-only mode enabled: skipping retrieval. Generated:")
+        print(f"  - {lake_sentences}")
+        print(f"  - {query_sentences}")
+        print(f"  - {lake_embeddings}")
+        print(f"  - {query_embeddings}")
+        print(f"  - {index_path}")
+        return 0
 
     print("Step 4: Processing queries...")
     queries = pickle.load(open(query_embeddings, "rb"))
@@ -384,7 +511,7 @@ def main():
             print("\nTop-K Metrics:")
             print(f"  {'K':<4} {'P@K':<10} {'R@K':<10} {'F1@K':<10}")
             print(f"  {'-'*4} {'-'*10} {'-'*10} {'-'*10}")
-            for k in [1, 5, 10, 20, 50]:
+            for k in [1, 5, 10, 20, 30, 40, 50, 75, 100]:
                 if f'P@{k}' in traditional_results:
                     print(f"  {k:<4} {traditional_results[f'P@{k}']:<10.3f} {traditional_results[f'R@{k}']:<10.3f} {traditional_results[f'F1@{k}']:<10.3f}")
             
