@@ -44,13 +44,6 @@ def cleanup_previous_runs(output_dir: str):
         print(f"Removing chunk directory: {chunk_dir}")
         shutil.rmtree(chunk_dir)
     
-    
-    # # Clean log files
-    # log_files = list(Path(".").glob("*.log")) + list(Path(".").glob("*_chunk_*.log"))
-    # for log_file in log_files:
-    #     print(f"Removing log file: {log_file}")
-    #     log_file.unlink()
-    
     # Clean bash script files
     script_files = list(Path(".").glob("embedding_chunk_*.sh"))
     for script_file in script_files:
@@ -59,8 +52,12 @@ def cleanup_previous_runs(output_dir: str):
 
 def main():
     # Configuration
-    datalake_dir = "datasets/freyja-semantic-join/datalake"
-    output_dir = "offline_data"
+    # For Freyja
+    # datalake_dir = "datasets/freyja-semantic-join/datalake"
+    # output_dir = "offline_data"
+    # For AutoFuzzyJoin
+    datalake_dir = "datasets/autofj_join_benchmark/datalake"
+    output_dir = "autofj_offline_data"
     num_chunks = 4
     device = "auto"
     

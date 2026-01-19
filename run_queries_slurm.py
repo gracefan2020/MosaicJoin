@@ -13,10 +13,7 @@ import pandas as pd
 def main():
     # Configuration
     top_k_return = 10
-    similarity_threshold = 0.1
-    # Value-level entity-link threshold (used only when saving entity links)
-    # Keep retrieval permissive (similarity_threshold) but make entity links stricter.
-    value_match_threshold = 0.7
+    similarity_threshold = 0.1  # For column-level matching
     sketch_size = 1024
     queries_per_job = 10
     
@@ -27,10 +24,10 @@ def main():
     # output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
 
     datalake_dir = "datasets/autofj_join_benchmark/datalake"
-    sketches_dir = f"autofj_offline_data/sketches_k{sketch_size}"
+    sketches_dir = f"entity-linking-experiments/autofj_offline_data/sketches_k{sketch_size}"
     query_file = "datasets/autofj_join_benchmark/autofj_query_columns.csv"
-    embeddings_dir = "autofj_offline_data/embeddings"
-    output_dir = f"autofj_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
+    embeddings_dir = "entity-linking-experiments/autofj_offline_data/embeddings"
+    output_dir = f"entity-linking-experiments/autofj_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
     
     # Validate query file
     if not Path(query_file).exists():
@@ -72,12 +69,11 @@ python run_query_processing.py "{datalake_dir}" "{sketches_dir}" "{query_file}" 
     --output-dir "{output_dir}/job_$SLURM_ARRAY_TASK_ID" \\
     --top-k-return {top_k_return} \\
     --similarity-threshold {similarity_threshold} \\
-    --value-match-threshold {value_match_threshold} \\
+    --similarity-method "greedy_match" \\
     --sketch-size {sketch_size} \\
     --device auto \\
     --embeddings-dir "{embeddings_dir}" \\
-    --query-indices ${{QUERY_INDICES}} \\
-    --save-entity-links
+    --query-indices ${{QUERY_INDICES}}
 """
     
     with open(slurm_script, 'w') as f:

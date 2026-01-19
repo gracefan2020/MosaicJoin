@@ -2,7 +2,7 @@
 # Monitor Slurm jobs and combine results when complete
 
 # OUTPUT_DIR=${1:-"query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6_slurm"}
-OUTPUT_DIR=${1:-"query_results_k1024_t0.1_top50_semantic_matches_slurm"}
+OUTPUT_DIR=${1:-"entity-linking-experiments/autofj_query_results_k1024_t0.1_top10_slurm"}
 NUM_JOBS=${2:-5}
 
 echo "🔍 Monitoring Slurm jobs for query processing..."
@@ -28,6 +28,19 @@ echo "🔗 Combining results from all jobs..."
 python combine_slurm_results.py "$OUTPUT_DIR" --num-jobs $NUM_JOBS
 
 echo ""
+echo "📂 Organizing contributing entities files..."
+
+CONTRIB_DIR="$OUTPUT_DIR/contributing_entities"
+mkdir -p "$CONTRIB_DIR"
+
+# Move all query_*_contributing_entities.csv into the new folder,
+# from any subdirectory inside OUTPUT_DIR
+find "$OUTPUT_DIR"/job_* -type f -name "query_*_contributing_entities.csv" -exec mv {} "$CONTRIB_DIR"/ \;
+
+echo "🗑️  Removing job_* folders..."
+find "$OUTPUT_DIR" -type d -name "job_*" -exec rm -rf {} +
+
+echo ""
 echo "📊 Checking for errors in job outputs..."
 ERROR_COUNT=$(grep -l "Error\|Error\|FAILED" $OUTPUT_DIR/slurm_*.err 2>/dev/null | wc -l)
 if [ "$ERROR_COUNT" -gt 0 ]; then
@@ -38,4 +51,5 @@ fi
 
 echo ""
 echo "✅ Done! Results are in $OUTPUT_DIR/all_query_results.csv"
+echo "   All contributing_entities have been moved to $CONTRIB_DIR"
 

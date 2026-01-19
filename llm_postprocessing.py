@@ -12,9 +12,7 @@ from openai import OpenAI
 MODEL = "openai/gpt-oss-20b"
 DEEPINFRA_API_KEY = "VtgGIBPqTAZKNsQrzerTy2YuzHeh4bXk"
 
-datalake_dir = "datasets/freyja-semantic-join/datalake"
-
-def load_all_datalake_tables() -> List[str]:
+def load_all_datalake_tables(datalake_dir: str) -> List[str]:
     table_dfs = {}
     all_datalake_tables = glob.glob(f"{datalake_dir}/*.csv")
     for table in all_datalake_tables:
@@ -23,8 +21,9 @@ def load_all_datalake_tables() -> List[str]:
     return table_dfs
 
 def load_semantic_preds(query_results_dir: str) -> Dict[str, List[str]]:
-    _, semantic_matches = load_semantic_results(f"{query_results_dir}/all_query_results.csv")
-    sketch_results = {q: [c for c in semantic_matches[q].keys()] for q in semantic_matches.keys()}
+    semantic_preds, _ = load_semantic_results(f"{query_results_dir}/all_query_results.csv")
+    # Extract candidates from (candidate, score) tuples
+    sketch_results = {q: [c for c, _ in candidates] for q, candidates in semantic_preds.items()}
     return sketch_results
 
 def load_original_results(query_results_dir: str):
@@ -171,8 +170,11 @@ def load_llm_checkpoint(checkpoint_file: str) -> Dict[Tuple[str, str], Tuple[str
     df = pd.read_csv(checkpoint_file)
     checkpoint = {}
     for _, row in df.iterrows():
-        query_key = f"{row['query_table']}.{row['query_column']}"
-        candidate_key = f"{row['candidate_table']}.{row['candidate_column']}"
+        # Normalize table names to match the format used in sketch_results
+        query_table = str(row['query_table']).replace('.csv', '').lower()
+        candidate_table = str(row['candidate_table']).replace('.csv', '').lower()
+        query_key = f"{query_table}.{row['query_column']}"
+        candidate_key = f"{candidate_table}.{row['candidate_column']}"
         llm_response = row['llm_response']
         approved = bool(row['approved'])
         checkpoint[(query_key, candidate_key)] = (llm_response, approved)
@@ -204,13 +206,24 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='LLM post-processing for semantic join results')
     parser.add_argument('query_results_dir', type=str, 
                        help='Directory containing the query results CSV')
+    parser.add_argument('--datalake-dir', type=str, required=True,
+                       help='Directory containing the datalake tables')
+    parser.add_argument('--query-indices', type=int, nargs='*',
+                       help='Specific query indices to process (0-based)')
     args = parser.parse_args()
     
     query_results_dir = args.query_results_dir
+    datalake_dir = args.datalake_dir
     
-    all_datalake_table_dfs = load_all_datalake_tables()
+    all_datalake_table_dfs = load_all_datalake_tables(datalake_dir)
     sketch_results = load_semantic_preds(query_results_dir)
     original_results_df = load_original_results(query_results_dir)
+    
+    # Filter queries if indices specified
+    if args.query_indices:
+        all_queries = list(sketch_results.keys())
+        filtered_queries = [all_queries[i] for i in args.query_indices if i < len(all_queries)]
+        sketch_results = {q: sketch_results[q] for q in filtered_queries if q in sketch_results}
 
     # LLM checkpoint files
     checkpoint_file = f"{query_results_dir}/llm_responses_checkpoint.csv"

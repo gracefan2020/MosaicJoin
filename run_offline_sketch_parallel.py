@@ -41,8 +41,8 @@ def cleanup_sketch_data(output_dir: str, sketch_size: int):
 
 def main():
     # Configuration
-    embeddings_dir = "offline_data/embeddings"
-    output_dir = "offline_data"
+    embeddings_dir = "entity-linking-experiments/autofj_offline_data/embeddings"
+    output_dir = "entity-linking-experiments/autofj_offline_data"
     num_chunks = 4
     sketch_size = 1024
     similarity_threshold = 0.7
@@ -63,6 +63,7 @@ def main():
         cmd = f"""python offline_sketch.py "{embeddings_dir}" \\
     --output-dir "{output_dir}/sketches_k{sketch_size}" \\
     --sketch-size {sketch_size} \\
+    --selection-method "farthest_point" \\
     --similarity-threshold {similarity_threshold} \\
     --tables {' '.join(f'"{table}"' for table in chunk_tables)}"""
         
