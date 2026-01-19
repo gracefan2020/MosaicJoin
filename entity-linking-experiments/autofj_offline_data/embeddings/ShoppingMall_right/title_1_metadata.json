@@ -1,0 +1,11 @@
+{
+  "table_name": "ShoppingMall_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 227,
+  "unique_values": 226,
+  "processed_values": 227,
+  "embedding_dim": 768,
+  "processing_time": 0.17951178550720215,
+  "file_path": "datasets/autofj_join_benchmark/datalake/ShoppingMall_right.csv"
+}

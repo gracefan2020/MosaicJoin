@@ -1,0 +1,28 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SportsLeague_left.csv,title,championnat de france amateur 2,TennisTournament_right,title,2011 challenger banque nationale de saguenay,0.8074949383735657
+SportsLeague_left.csv,title,uci road world cup,TennisTournament_right,title,2013 challenger banque nationale de rimouski,0.792883038520813
+SportsLeague_left.csv,title,australian provincial championship,TennisTournament_right,title,2012 commonwealth bank tournament of champions,0.7745634317398071
+SportsLeague_left.csv,title,bwf world championships,TennisTournament_right,title,2012 korea open,0.7504642605781555
+SportsLeague_left.csv,title,uci world tour,TennisTournament_right,title,2012 challenger banque nationale de saguenay,0.7413710355758667
+SportsLeague_left.csv,title,women's challenge cup (volleyball),TennisTournament_right,title,2010 blu-express.com tennis cup,0.7332103252410889
+SportsLeague_left.csv,title,iwbf challenge cup,TennisTournament_right,title,2012 arimex challenger trophy,0.7233000993728638
+SportsLeague_left.csv,title,european champions league (table tennis),TennisTournament_right,title,2013 garanti koza wta tournament of champions,0.7156399488449097
+SportsLeague_left.csv,title,championnat de france (water polo),TennisTournament_right,title,2011 challenger banque nationale de rimouski,0.7085446715354919
+SportsLeague_left.csv,title,montserrat championship,TennisTournament_right,title,2010 challenger banque nationale de rimouski,0.6943410634994507
+SportsLeague_left.csv,title,naia national women's tennis championship,TennisTournament_right,title,2012 blu-express.com tennis cup,0.6661182641983032
+SportsLeague_left.csv,title,list of davis cup champions,TennisTournament_right,title,2000 tennis masters cup and atp tour world championships,0.6587668657302856
+SportsLeague_left.csv,title,fira women's european championship,TennisTournament_right,title,2012 challenger banque nationale de rimouski,0.6583894491195679
+SportsLeague_left.csv,title,anz championship,TennisTournament_right,title,2010 aegon championships,0.6547929048538208
+SportsLeague_left.csv,title,regal trophy,TennisTournament_right,title,2012 aegon championships,0.651881992816925
+SportsLeague_left.csv,title,pan american cup,TennisTournament_right,title,2009 san benedetto tennis cup,0.6357791423797607
+SportsLeague_left.csv,title,peter leitch qsm challenge trophy,TennisTournament_right,title,2010 challenge bell,0.6317296028137207
+SportsLeague_left.csv,title,esf men's ec club championships,TennisTournament_right,title,2011 aegon championships,0.6280826330184937
+SportsLeague_left.csv,title,churchill cup,TennisTournament_right,title,2011 challenge bell,0.6209675073623657
+SportsLeague_left.csv,title,liberty bell classic (baseball),TennisTournament_right,title,1996 challenge bell,0.6183356046676636
+SportsLeague_left.csv,title,ama supersport championship,TennisTournament_right,title,2008 challenge bell,0.6126730442047119
+SportsLeague_left.csv,title,emerald coast classic,TennisTournament_right,title,2011 aegon classic,0.6115974187850952
+SportsLeague_left.csv,title,evolution championship series,TennisTournament_right,title,2012 aegon pro-series loughborough,0.6091597080230713
+SportsLeague_left.csv,title,qni north queensland trophy,TennisTournament_right,title,2009 challenge bell,0.6054733991622925
+SportsLeague_left.csv,title,supersport world championship,TennisTournament_right,title,2012 challenge bell,0.5950779914855957
+SportsLeague_left.csv,title,individual speedway junior world championship,TennisTournament_right,title,1998 challenge bell,0.5884747505187988
+SportsLeague_left.csv,title,northern league (speedway),TennisTournament_right,title,1997 challenge bell,0.5605733394622803

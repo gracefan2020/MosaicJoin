@@ -1,0 +1,73 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+GovernmentAgency_left.csv,title,ministry of justice (afghanistan),ArtificialSatellite_right,title,afghansat 1,0.638636589050293
+GovernmentAgency_left.csv,title,watersecure,ArtificialSatellite_right,title,seasat,0.6347088813781738
+GovernmentAgency_left.csv,title,prime mission,ArtificialSatellite_right,title,orion 3,0.634591281414032
+GovernmentAgency_left.csv,title,cesis,ArtificialSatellite_right,title,hylas,0.6200953722000122
+GovernmentAgency_left.csv,title,satish dhawan space centre,ArtificialSatellite_right,title,aditya (satellite),0.6154809594154358
+GovernmentAgency_left.csv,title,vikram sarabhai space centre,ArtificialSatellite_right,title,prisma (satellite project),0.611657977104187
+GovernmentAgency_left.csv,title,majlis amanah rakyat,ArtificialSatellite_right,title,acrimsat,0.6054009199142456
+GovernmentAgency_left.csv,title,national defence radio establishment (sweden),ArtificialSatellite_right,title,eutelsat 117 west a,0.5960180759429932
+GovernmentAgency_left.csv,title,memorial museum of astronautics,ArtificialSatellite_right,title,mars orbiter mission,0.5877734422683716
+GovernmentAgency_left.csv,title,philippine nuclear research institute,ArtificialSatellite_right,title,nuclear spectroscopic telescope array,0.5855782628059387
+GovernmentAgency_left.csv,title,dryden flight research center,ArtificialSatellite_right,title,cots demo flight 1,0.5792843103408813
+GovernmentAgency_left.csv,title,sismi,ArtificialSatellite_right,title,ses-7,0.5765182375907898
+GovernmentAgency_left.csv,title,kgb,ArtificialSatellite_right,title,sentinel-3,0.5653331279754639
+GovernmentAgency_left.csv,title,defence signals directorate,ArtificialSatellite_right,title,eutelsat 25c,0.5640572309494019
+GovernmentAgency_left.csv,title,national institute of information and communications technology,ArtificialSatellite_right,title,irnss-1a,0.558087944984436
+GovernmentAgency_left.csv,title,ministry of communications (morocco),ArtificialSatellite_right,title,eutelsat 113 west a,0.5570217967033386
+GovernmentAgency_left.csv,title,united states citizenship and immigration services,ArtificialSatellite_right,title,usa-242,0.5551326274871826
+GovernmentAgency_left.csv,title,singapore aviation academy,ArtificialSatellite_right,title,cots demo flight 2,0.5548715591430664
+GovernmentAgency_left.csv,title,pami,ArtificialSatellite_right,title,nee-01 pegaso,0.5544649362564087
+GovernmentAgency_left.csv,title,agresearch,ArtificialSatellite_right,title,geotail,0.5527937412261963
+GovernmentAgency_left.csv,title,cheka,ArtificialSatellite_right,title,kosmos 605,0.5500058531761169
+GovernmentAgency_left.csv,title,estyn,ArtificialSatellite_right,title,uosat-1,0.5487154126167297
+GovernmentAgency_left.csv,title,naro space center,ArtificialSatellite_right,title,opportunity rover,0.544951319694519
+GovernmentAgency_left.csv,title,europol,ArtificialSatellite_right,title,eutelsat 33c,0.5425207614898682
+GovernmentAgency_left.csv,title,ministry of transport (russia),ArtificialSatellite_right,title,soyuz 7k-st no. 16l,0.5419690608978271
+GovernmentAgency_left.csv,title,department of space,ArtificialSatellite_right,title,as-104 (spacecraft),0.5381819009780884
+GovernmentAgency_left.csv,title,examination yuan,ArtificialSatellite_right,title,ziyuan iii-01,0.5361180305480957
+GovernmentAgency_left.csv,title,joint intelligence objectives agency,ArtificialSatellite_right,title,intelsat 28,0.5320214033126831
+GovernmentAgency_left.csv,title,john h. chapman space centre,ArtificialSatellite_right,title,azerspace,0.5305569767951965
+GovernmentAgency_left.csv,title,cadivi,ArtificialSatellite_right,title,dragon c3,0.5301573276519775
+GovernmentAgency_left.csv,title,botswana national broadcasting board,ArtificialSatellite_right,title,eutelsat 16b,0.5253912210464478
+GovernmentAgency_left.csv,title,ss-rasse- und siedlungshauptamt,ArtificialSatellite_right,title,resurs-dk no.1,0.5252138376235962
+GovernmentAgency_left.csv,title,millennium challenge corporation,ArtificialSatellite_right,title,amc-1,0.5172499418258667
+GovernmentAgency_left.csv,title,ministry of culture (republic of china),ArtificialSatellite_right,title,fengyun 2d,0.5155520439147949
+GovernmentAgency_left.csv,title,ministry of unification,ArtificialSatellite_right,title,uo-11,0.515208899974823
+GovernmentAgency_left.csv,title,sst-1 (tokamak),ArtificialSatellite_right,title,as-103 (spacecraft),0.5113455653190613
+GovernmentAgency_left.csv,title,asaish,ArtificialSatellite_right,title,aida (mission),0.5105307102203369
+GovernmentAgency_left.csv,title,electronic and postal communications authority,ArtificialSatellite_right,title,eutelsat 4a,0.5102154612541199
+GovernmentAgency_left.csv,title,airservices australia,ArtificialSatellite_right,title,spaceshipone flight 17p,0.5046591758728027
+GovernmentAgency_left.csv,title,kela (finnish),ArtificialSatellite_right,title,ekspress am4,0.503164529800415
+GovernmentAgency_left.csv,title,cyprus joint rescue coordination center,ArtificialSatellite_right,title,tdrs-11,0.5025913715362549
+GovernmentAgency_left.csv,title,cap digital,ArtificialSatellite_right,title,cp6 (satellite),0.502295970916748
+GovernmentAgency_left.csv,title,commission for communications regulation,ArtificialSatellite_right,title,eutelsat 31a,0.49866944551467896
+GovernmentAgency_left.csv,title,setwin,ArtificialSatellite_right,title,solwind,0.49801796674728394
+GovernmentAgency_left.csv,title,vietnam news agency,ArtificialSatellite_right,title,eutelsat 48d,0.49581772089004517
+GovernmentAgency_left.csv,title,transadelaide,ArtificialSatellite_right,title,abrixas,0.4947701692581177
+GovernmentAgency_left.csv,title,oman news agency,ArtificialSatellite_right,title,eutelsat 48b,0.4946615695953369
+GovernmentAgency_left.csv,title,sudan news agency,ArtificialSatellite_right,title,eutelsat 33b,0.48977479338645935
+GovernmentAgency_left.csv,title,hauptamt volksdeutsche mittelstelle,ArtificialSatellite_right,title,venera 3mv-1 no.2,0.48924267292022705
+GovernmentAgency_left.csv,title,sigurimi,ArtificialSatellite_right,title,telstar 14,0.48881468176841736
+GovernmentAgency_left.csv,title,academia de marinha,ArtificialSatellite_right,title,kosmos 1667,0.48027676343917847
+GovernmentAgency_left.csv,title,linkwater,ArtificialSatellite_right,title,lightsail 2,0.4791174530982971
+GovernmentAgency_left.csv,title,national institute of ocean technology,ArtificialSatellite_right,title,soil moisture and ocean salinity,0.46985486149787903
+GovernmentAgency_left.csv,title,scion (crown research institute),ArtificialSatellite_right,title,as-105 (spacecraft),0.4615810215473175
+GovernmentAgency_left.csv,title,marine scotland,ArtificialSatellite_right,title,spirit rover,0.455308735370636
+GovernmentAgency_left.csv,title,ofwat,ArtificialSatellite_right,title,cute-1.7 + apd,0.45452800393104553
+GovernmentAgency_left.csv,title,new zealand film commission,ArtificialSatellite_right,title,uosat-oscar 9,0.45404428243637085
+GovernmentAgency_left.csv,title,ministry of defence (montenegro),ArtificialSatellite_right,title,soyuz 7k-t no.39,0.45364224910736084
+GovernmentAgency_left.csv,title,room 39,ArtificialSatellite_right,title,hot bird 13c,0.44752466678619385
+GovernmentAgency_left.csv,title,ballistic missile defense organization,ArtificialSatellite_right,title,as-102 (spacecraft),0.4413953721523285
+GovernmentAgency_left.csv,title,napolcom,ArtificialSatellite_right,title,champ (satellite),0.438152015209198
+GovernmentAgency_left.csv,title,shik,ArtificialSatellite_right,title,dragon c4,0.42364266514778137
+GovernmentAgency_left.csv,title,defence science and technology agency,ArtificialSatellite_right,title,as-101 (spacecraft),0.42114704847335815
+GovernmentAgency_left.csv,title,department of atomic energy (india),ArtificialSatellite_right,title,foton-m no.2,0.41811245679855347
+GovernmentAgency_left.csv,title,codeplan,ArtificialSatellite_right,title,pad abort test 1,0.4111582636833191
+GovernmentAgency_left.csv,title,national land survey of finland,ArtificialSatellite_right,title,landsat 8,0.409191370010376
+GovernmentAgency_left.csv,title,new jersey lottery,ArtificialSatellite_right,title,proba2,0.3998473882675171
+GovernmentAgency_left.csv,title,nepal post,ArtificialSatellite_right,title,mightysat-2.1,0.37797605991363525
+GovernmentAgency_left.csv,title,john c. stennis space center,ArtificialSatellite_right,title,cygnus orb-d1,0.3747716546058655
+GovernmentAgency_left.csv,title,ofsted,ArtificialSatellite_right,title,pad abort test 2,0.37287378311157227
+GovernmentAgency_left.csv,title,mossad,ArtificialSatellite_right,title,abs-3,0.36697831749916077
+GovernmentAgency_left.csv,title,statistics mauritius,ArtificialSatellite_right,title,laplace-p,0.32775580883026123

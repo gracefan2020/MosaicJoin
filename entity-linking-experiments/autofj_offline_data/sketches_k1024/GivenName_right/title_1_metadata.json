@@ -1,0 +1,9 @@
+{
+  "table_name": "GivenName_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 154,
+  "sketch_k": 154,
+  "processing_time": 0.04443550109863281,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/GivenName_right/title_1.npz"
+}

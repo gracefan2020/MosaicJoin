@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,1861 mendoza earthquake,RailwayLine_right,title,north argentine railway,0.6183145046234131
+NaturalEvent_left.csv,title,1960 valdivia earthquake,RailwayLine_right,title,vallvidrera funicular,0.5927797555923462
+NaturalEvent_left.csv,title,1509 istanbul earthquake,RailwayLine_right,title,m5 (istanbul metro),0.5842723846435547
+NaturalEvent_left.csv,title,2006 hawaii earthquake,RailwayLine_right,title,honolulu rail transit,0.5817196369171143
+NaturalEvent_left.csv,title,1892 recreo earthquake,RailwayLine_right,title,domingo faustino sarmiento railway,0.5763490200042725
+NaturalEvent_left.csv,title,1920 haiyuan earthquake,RailwayLine_right,title,hainan eastern ring railway,0.5709143877029419
+NaturalEvent_left.csv,title,2001 geiyo earthquake,RailwayLine_right,title,geumgangsan electric railway,0.5666528940200806
+NaturalEvent_left.csv,title,1931 zangezur earthquake,RailwayLine_right,title,reichenbachfall funicular,0.5630887746810913
+NaturalEvent_left.csv,title,1967 caracas earthquake,RailwayLine_right,title,premetro (buenos aires),0.5629013776779175
+NaturalEvent_left.csv,title,1732 montreal earthquake,RailwayLine_right,title,montreal subdivision (csx transportation),0.560819685459137
+NaturalEvent_left.csv,title,1931 oaxaca earthquake,RailwayLine_right,title,province of santa fe railway,0.5604109168052673
+NaturalEvent_left.csv,title,2012 yangzhou earthquake,RailwayLine_right,title,"line 2, shenzhen metro",0.5553232431411743
+NaturalEvent_left.csv,title,1998 ninglang earthquake,RailwayLine_right,title,uijeongbu lrt,0.5543130040168762
+NaturalEvent_left.csv,title,1906 meishan earthquake,RailwayLine_right,title,"line 5, shenzhen metro",0.5523087382316589
+NaturalEvent_left.csv,title,1897 assam earthquake,RailwayLine_right,title,pichi richi railway,0.5509146451950073
+NaturalEvent_left.csv,title,2000 yunnan earthquake,RailwayLine_right,title,"line 4, shenzhen metro",0.5506801605224609
+NaturalEvent_left.csv,title,1994 bolivia earthquake,RailwayLine_right,title,buenos aires central railway,0.5503970980644226
+NaturalEvent_left.csv,title,1995 neftegorsk earthquake,RailwayLine_right,title,kalininsko-solntsevskaya line,0.547390341758728
+NaturalEvent_left.csv,title,1641 caracas earthquake,RailwayLine_right,title,line f (buenos aires underground),0.5470848083496094
+NaturalEvent_left.csv,title,2010 central canada earthquake,RailwayLine_right,title,relief line (toronto),0.5438429117202759
+NaturalEvent_left.csv,title,1905 calabria earthquake,RailwayLine_right,title,general urquiza railway,0.5409195423126221
+NaturalEvent_left.csv,title,1929 arthur's pass earthquake,RailwayLine_right,title,calder valley line,0.5408790111541748
+NaturalEvent_left.csv,title,2009 xinjiang earthquake,RailwayLine_right,title,"line 19, beijing subway",0.540122389793396
+NaturalEvent_left.csv,title,1974 zhaotong earthquake,RailwayLine_right,title,"line 17, beijing subway",0.5400259494781494
+NaturalEvent_left.csv,title,2009 yunnan earthquake,RailwayLine_right,title,"line 9, shenzhen metro",0.5379678010940552
+NaturalEvent_left.csv,title,1940 vrancea earthquake,RailwayLine_right,title,general roca railway,0.537674069404602
+NaturalEvent_left.csv,title,2011 yunnan earthquake,RailwayLine_right,title,"line 11, shenzhen metro",0.5368314385414124
+NaturalEvent_left.csv,title,1868 ecuador earthquakes,RailwayLine_right,title,andean railway,0.5367428660392761
+NaturalEvent_left.csv,title,1947 wisconsin earthquake,RailwayLine_right,title,milwaukee district / west line,0.5353151559829712
+NaturalEvent_left.csv,title,2003 zhaosu earthquake,RailwayLine_right,title,"line 3, shenzhen metro",0.5352767705917358
+NaturalEvent_left.csv,title,1989 newcastle earthquake,RailwayLine_right,title,sydney metro northwest,0.5337522625923157
+NaturalEvent_left.csv,title,1969 yangjiang earthquake,RailwayLine_right,title,changyån line,0.5335888266563416
+NaturalEvent_left.csv,title,1920 gori earthquake,RailwayLine_right,title,gornergrat railway,0.5331326723098755
+NaturalEvent_left.csv,title,1971 san fernando earthquake,RailwayLine_right,title,los angeles streetcar,0.5314505100250244
+NaturalEvent_left.csv,title,1987 whittier narrows earthquake,RailwayLine_right,title,crenshaw/lax line,0.5310747027397156
+NaturalEvent_left.csv,title,1997 cap-rouge earthquake,RailwayLine_right,title,montmartre funicular,0.5301038026809692
+NaturalEvent_left.csv,title,1984 otaki earthquake,RailwayLine_right,title,keiå inokashira line,0.5295040011405945
+NaturalEvent_left.csv,title,1907 kingston earthquake,RailwayLine_right,title,kingston branch,0.5288690328598022
+NaturalEvent_left.csv,title,1858 hietsu earthquake,RailwayLine_right,title,yokkaichi asunarou railway utsube line,0.5278929471969604
+NaturalEvent_left.csv,title,1911 kebin earthquake,RailwayLine_right,title,kelani valley railway line,0.5264032483100891
+NaturalEvent_left.csv,title,2001 nisqually earthquake,RailwayLine_right,title,niesenbahn funicular,0.5247100591659546
+NaturalEvent_left.csv,title,1982 flores earthquake,RailwayLine_right,title,province of buenos aires railway,0.5246108174324036
+NaturalEvent_left.csv,title,1996 lijiang earthquake,RailwayLine_right,title,"line 1, shenzhen metro",0.5240256190299988
+NaturalEvent_left.csv,title,1927 gulang earthquake,RailwayLine_right,title,gurtenbahn,0.5221505165100098
+NaturalEvent_left.csv,title,1915 pleasant valley earthquake,RailwayLine_right,title,valley metro rail,0.520806074142456
+NaturalEvent_left.csv,title,1958 lituya bay megatsunami,RailwayLine_right,title,hankyå« takarazuka main line,0.520122230052948
+NaturalEvent_left.csv,title,1783 new jersey earthquake,RailwayLine_right,title,trenton subdivision (csx transportation),0.5198293924331665
+NaturalEvent_left.csv,title,2001 kunlun earthquake,RailwayLine_right,title,busan subway line 3,0.5190073251724243
+NaturalEvent_left.csv,title,1976 tangshan earthquake,RailwayLine_right,title,"line 3, changchun rail transit",0.5182225704193115
+NaturalEvent_left.csv,title,1356 basel earthquake,RailwayLine_right,title,reichenbachfall-bahn,0.5165851712226868
+NaturalEvent_left.csv,title,1888 north canterbury earthquake,RailwayLine_right,title,central northern railway,0.5163415670394897
+NaturalEvent_left.csv,title,1904 douliu earthquake,RailwayLine_right,title,daegu subway line 2,0.5158140659332275
+NaturalEvent_left.csv,title,1997 cariaco earthquake,RailwayLine_right,title,monte generoso railway,0.5140974521636963
+NaturalEvent_left.csv,title,2009 shizuoka earthquake,RailwayLine_right,title,ishiyama sakamoto line,0.5132505297660828
+NaturalEvent_left.csv,title,1915 avezzano earthquake,RailwayLine_right,title,general manuel belgrano railway,0.5126962661743164
+NaturalEvent_left.csv,title,1991 limon earthquake,RailwayLine_right,title,parsenn funicular,0.5121338367462158
+NaturalEvent_left.csv,title,1946 hsinhua earthquake,RailwayLine_right,title,"line 22, shanghai metro",0.5103435516357422
+NaturalEvent_left.csv,title,great hanshin earthquake,RailwayLine_right,title,shinbundang line,0.5097970962524414
+NaturalEvent_left.csv,title,1981 playa azul earthquake,RailwayLine_right,title,line a (buenos aires underground),0.5097594857215881
+NaturalEvent_left.csv,title,1992 flores earthquake,RailwayLine_right,title,rosario and puerto belgrano railway,0.5094897747039795
+NaturalEvent_left.csv,title,2012 gippsland earthquake,RailwayLine_right,title,"pinnaroo railway line, victoria",0.5094219446182251
+NaturalEvent_left.csv,title,1268 cilicia earthquake,RailwayLine_right,title,circumflegrea railway,0.5094122886657715
+NaturalEvent_left.csv,title,2005 ruichang earthquake,RailwayLine_right,title,busan subway line 4,0.5090965032577515
+NaturalEvent_left.csv,title,1994 northridge earthquake,RailwayLine_right,title,north side main line (cta),0.5090700387954712
+NaturalEvent_left.csv,title,2012 yunnan earthquakes,RailwayLine_right,title,"line 7, suzhou rail transit",0.5068995356559753
+NaturalEvent_left.csv,title,2011 lorca earthquake,RailwayLine_right,title,hurontario lrt,0.5067179203033447
+NaturalEvent_left.csv,title,2000 baku earthquake,RailwayLine_right,title,livoberezhna line (kiev metro),0.5064141750335693
+NaturalEvent_left.csv,title,1647 santiago earthquake,RailwayLine_right,title,line c (buenos aires underground),0.5062633752822876
+NaturalEvent_left.csv,title,1940 new hampshire earthquake,RailwayLine_right,title,cape cod & hyannis railroad,0.504449188709259
+NaturalEvent_left.csv,title,2009 izu islands earthquake,RailwayLine_right,title,aizu line,0.5042117238044739
+NaturalEvent_left.csv,title,1981 dawu earthquake,RailwayLine_right,title,daegu subway line 1,0.5033165216445923
+NaturalEvent_left.csv,title,2006 yanjin earthquake,RailwayLine_right,title,"line 4, changchun rail transit",0.5027310848236084
+NaturalEvent_left.csv,title,1985 mexico city earthquake,RailwayLine_right,title,line d (buenos aires underground),0.502152681350708
+NaturalEvent_left.csv,title,1996 biak earthquake,RailwayLine_right,title,busan subway line 2,0.5000485181808472
+NaturalEvent_left.csv,title,2008 yingjiang earthquakes,RailwayLine_right,title,blue line (taoyuan metro),0.49918919801712036
+NaturalEvent_left.csv,title,1947 assam earthquake,RailwayLine_right,title,cumana railway,0.49902573227882385
+NaturalEvent_left.csv,title,2012 samar earthquake,RailwayLine_right,title,sar north south railway line,0.49855196475982666
+NaturalEvent_left.csv,title,july 2010 iran earthquake,RailwayLine_right,title,list of railway stations in iran,0.4976714849472046
+NaturalEvent_left.csv,title,2008 damxung earthquake,RailwayLine_right,title,gwangju metro line 1,0.4963584542274475
+NaturalEvent_left.csv,title,1970 gediz earthquake,RailwayLine_right,title,giessbachbahn,0.4945432245731354
+NaturalEvent_left.csv,title,duvall earthquake,RailwayLine_right,title,jacksonville skyway,0.4936181306838989
+NaturalEvent_left.csv,title,869 jogan sanriku earthquake,RailwayLine_right,title,busan subway line 1,0.4929673969745636
+NaturalEvent_left.csv,title,1995 wuding earthquake,RailwayLine_right,title,wengernalpbahn,0.4925002455711365
+NaturalEvent_left.csv,title,1993 scotts mills earthquake,RailwayLine_right,title,south side main line (cta),0.49098312854766846
+NaturalEvent_left.csv,title,1992 cairo earthquake,RailwayLine_right,title,casablanca tramway,0.49056267738342285
+NaturalEvent_left.csv,title,1906 swansea earthquake,RailwayLine_right,title,seaford railway line,0.489309698343277
+NaturalEvent_left.csv,title,1880 zagreb earthquake,RailwayLine_right,title,gorokhovskoye peat narrow gauge railway,0.4887751340866089
+NaturalEvent_left.csv,title,1889 kumamoto earthquake,RailwayLine_right,title,mooka line,0.48774170875549316
+NaturalEvent_left.csv,title,1987 santiago de chuco earthquake,RailwayLine_right,title,line h (buenos aires underground),0.4874453544616699
+NaturalEvent_left.csv,title,2007 martinique earthquake,RailwayLine_right,title,mont-saint-hilaire line,0.48738640546798706
+NaturalEvent_left.csv,title,1986 vrancea earthquake,RailwayLine_right,title,grenaa line,0.4869133234024048
+NaturalEvent_left.csv,title,1980 el asnam earthquake,RailwayLine_right,title,line e (buenos aires underground),0.48544901609420776
+NaturalEvent_left.csv,title,2001 gujarat earthquake,RailwayLine_right,title,"line 1, kolkata metro",0.4848478436470032
+NaturalEvent_left.csv,title,2008 lincolnshire earthquake,RailwayLine_right,title,north warwickshire line,0.48434978723526
+NaturalEvent_left.csv,title,1863 jujuy earthquake,RailwayLine_right,title,jurong region line,0.48401588201522827
+NaturalEvent_left.csv,title,1556 shaanxi earthquake,RailwayLine_right,title,"line 17, shanghai metro",0.483376681804657
+NaturalEvent_left.csv,title,1909 wabash river earthquake,RailwayLine_right,title,riverfront loop,0.4825562834739685
+NaturalEvent_left.csv,title,1645 luzon earthquake,RailwayLine_right,title,manila lrt purple line,0.4821336269378662
+NaturalEvent_left.csv,title,2007 iberian peninsula earthquake,RailwayLine_right,title,line 1 (metro valencia),0.48189860582351685
+NaturalEvent_left.csv,title,1940 el centro earthquake,RailwayLine_right,title,southwest lrt,0.4812464118003845
+NaturalEvent_left.csv,title,1968 illinois earthquake,RailwayLine_right,title,the loop (chicago transit authority),0.48120808601379395
+NaturalEvent_left.csv,title,1985 algarrobo earthquake,RailwayLine_right,title,line b (buenos aires underground),0.48115435242652893
+NaturalEvent_left.csv,title,1978 tabas earthquake,RailwayLine_right,title,south side main line (cta),0.4805893898010254
+NaturalEvent_left.csv,title,1933 long beach earthquake,RailwayLine_right,title,east bayfront lrt,0.4801830053329468
+NaturalEvent_left.csv,title,1762 arakan earthquake,RailwayLine_right,title,hankyå« arashiyama line,0.48004376888275146
+NaturalEvent_left.csv,title,1979 imperial valley earthquake,RailwayLine_right,title,crenshaw/lax line (los angeles metro),0.4790322482585907
+NaturalEvent_left.csv,title,"1867 manhattan, kansas earthquake",RailwayLine_right,title,state street subway (cta),0.47528788447380066
+NaturalEvent_left.csv,title,1938 banda sea earthquake,RailwayLine_right,title,sealdah south lines,0.4742908179759979
+NaturalEvent_left.csv,title,1948 litang earthquake,RailwayLine_right,title,pukch'ång line,0.4734914302825928
+NaturalEvent_left.csv,title,62 pompeii earthquake,RailwayLine_right,title,line 6 (naples metro),0.4725210964679718
+NaturalEvent_left.csv,title,2011 colorado earthquake,RailwayLine_right,title,west corridor (rtd),0.4723321199417114
+NaturalEvent_left.csv,title,2010 eureka earthquake,RailwayLine_right,title,lynx west corridor,0.47160789370536804
+NaturalEvent_left.csv,title,2002 denali earthquake,RailwayLine_right,title,lynx west corridor,0.4702528715133667
+NaturalEvent_left.csv,title,2007 noto earthquake,RailwayLine_right,title,noto line,0.46834397315979004
+NaturalEvent_left.csv,title,2007 gisborne earthquake,RailwayLine_right,title,south shore line,0.4681739807128906
+NaturalEvent_left.csv,title,2012 shwebo earthquake,RailwayLine_right,title,doomben-pinkenba railway line,0.4679720401763916
+NaturalEvent_left.csv,title,2009 fiordland earthquake,RailwayLine_right,title,gelmerbahn funicular,0.46763497591018677
+NaturalEvent_left.csv,title,1590 neulengbach earthquake,RailwayLine_right,title,nibelung railway,0.46746528148651123
+NaturalEvent_left.csv,title,2008 chino hills earthquake,RailwayLine_right,title,lake street elevated (cta),0.46538013219833374
+NaturalEvent_left.csv,title,1117 verona earthquake,RailwayLine_right,title,line 1 (naples metro),0.46343162655830383
+NaturalEvent_left.csv,title,1983 erzurum earthquake,RailwayLine_right,title,rheinfall railway,0.4619230031967163
+NaturalEvent_left.csv,title,2010 illinois earthquake,RailwayLine_right,title,chicagoâdetroit line,0.4617547392845154
+NaturalEvent_left.csv,title,2012 kamaishi earthquake,RailwayLine_right,title,rinkai line,0.4615299701690674
+NaturalEvent_left.csv,title,1975 kinnaur earthquake,RailwayLine_right,title,kirnitzschtal tramway,0.46132218837738037
+NaturalEvent_left.csv,title,1992 roermond earthquake,RailwayLine_right,title,waverley route,0.45912620425224304
+NaturalEvent_left.csv,title,guy-greenbrier earthquake swarm,RailwayLine_right,title,gotthardbahn,0.4589349627494812
+NaturalEvent_left.csv,title,1703 genroku earthquake,RailwayLine_right,title,sukumo line,0.45861393213272095
+NaturalEvent_left.csv,title,1976 friuli earthquake,RailwayLine_right,title,fl6 (lazio regional railways),0.45825785398483276
+NaturalEvent_left.csv,title,2008 illinois earthquake,RailwayLine_right,title,red line (chicago transit authority),0.45790964365005493
+NaturalEvent_left.csv,title,1998 mionica earthquake,RailwayLine_right,title,metropolitan main line (cta),0.45767658948898315
+NaturalEvent_left.csv,title,2006 borujerd earthquake,RailwayLine_right,title,seilbahn rigiblick,0.4570028483867645
+NaturalEvent_left.csv,title,1988 spitak earthquake,RailwayLine_right,title,riffelalp tram,0.45591264963150024
+NaturalEvent_left.csv,title,2010 canterbury earthquake,RailwayLine_right,title,oxford branch (new zealand),0.45545145869255066
+NaturalEvent_left.csv,title,1906 san francisco earthquake,RailwayLine_right,title,canal streetcar line,0.45530515909194946
+NaturalEvent_left.csv,title,1916 irondale earthquake,RailwayLine_right,title,armadale/thornlie railway line,0.4546213746070862
+NaturalEvent_left.csv,title,1688 izmir earthquake,RailwayLine_right,title,marzilibahn,0.4541698694229126
+NaturalEvent_left.csv,title,1812 wrightwood earthquake,RailwayLine_right,title,ravenswood branch (cta),0.4535394012928009
+NaturalEvent_left.csv,title,1918 vancouver island earthquake,RailwayLine_right,title,hull to scarborough line,0.4535108804702759
+NaturalEvent_left.csv,title,1854 ansei-nankai earthquake,RailwayLine_right,title,nanboku line (sendai),0.45291846990585327
+NaturalEvent_left.csv,title,2010 kaohsiung earthquakes,RailwayLine_right,title,jungfraubahn,0.45282429456710815
+NaturalEvent_left.csv,title,1868 arica earthquake,RailwayLine_right,title,archer avenue lines,0.45265471935272217
+NaturalEvent_left.csv,title,1908 messina earthquake,RailwayLine_right,title,pilatus railway,0.450855553150177
+NaturalEvent_left.csv,title,1931 hawke's bay earthquake,RailwayLine_right,title,hervey bay (urangan) railway line,0.4502450227737427
+NaturalEvent_left.csv,title,1954 adelaide earthquake,RailwayLine_right,title,sydney freight network,0.4501427114009857
+NaturalEvent_left.csv,title,1909 borujerd earthquake,RailwayLine_right,title,berner oberland bahn,0.45007580518722534
+NaturalEvent_left.csv,title,1933 baffin bay earthquake,RailwayLine_right,title,east coast main trunk,0.4475599527359009
+NaturalEvent_left.csv,title,1903 malazgirt earthquake,RailwayLine_right,title,mittelschwaben railway,0.44753649830818176
+NaturalEvent_left.csv,title,1914 burdur earthquake,RailwayLine_right,title,prussian northern railway,0.4465300142765045
+NaturalEvent_left.csv,title,1861 sumatra earthquake,RailwayLine_right,title,sin ansan line,0.44652101397514343
+NaturalEvent_left.csv,title,1993 latur earthquake,RailwayLine_right,title,bottineau lrt,0.446036696434021
+NaturalEvent_left.csv,title,2008 bandar abbas earthquake,RailwayLine_right,title,dubai tram,0.44517236948013306
+NaturalEvent_left.csv,title,1865 memphis earthquake,RailwayLine_right,title,metro streetcar,0.4444858133792877
+NaturalEvent_left.csv,title,1961 new south wales earthquake,RailwayLine_right,title,sydney monorail,0.44414055347442627
+NaturalEvent_left.csv,title,1989 loma prieta earthquake,RailwayLine_right,title,state street subway (cta),0.44263190031051636
+NaturalEvent_left.csv,title,2011 van earthquake,RailwayLine_right,title,trams in volchansk,0.4422491788864136
+NaturalEvent_left.csv,title,1783 calabrian earthquakes,RailwayLine_right,title,fl7 (lazio regional railways),0.44162583351135254
+NaturalEvent_left.csv,title,1930 pyu earthquake,RailwayLine_right,title,p'yångbuk line,0.44143208861351013
+NaturalEvent_left.csv,title,2012 northern italy earthquakes,RailwayLine_right,title,fl2 (lazio regional railways),0.44018781185150146
+NaturalEvent_left.csv,title,1991 uttarkashi earthquake,RailwayLine_right,title,central line (mumbai suburban railway),0.4374042749404907
+NaturalEvent_left.csv,title,2007 kent earthquake,RailwayLine_right,title,thomson-east coast mrt line,0.43727490305900574
+NaturalEvent_left.csv,title,1977 vrancea earthquake,RailwayLine_right,title,seetal railway line,0.43658751249313354
+NaturalEvent_left.csv,title,1848 marlborough earthquake,RailwayLine_right,title,tyne valley line,0.43512097001075745
+NaturalEvent_left.csv,title,1974 hunza earthquake,RailwayLine_right,title,hythe pier,0.43377846479415894
+NaturalEvent_left.csv,title,2010 yushu earthquake,RailwayLine_right,title,hokuhoku line,0.4337517023086548
+NaturalEvent_left.csv,title,2010 kalgoorlie-boulder earthquake,RailwayLine_right,title,western railway elevated corridor,0.43226519227027893
+NaturalEvent_left.csv,title,1293 kamakura earthquake,RailwayLine_right,title,hankyå« kyåto main line,0.43098822236061096
+NaturalEvent_left.csv,title,1967 koynanagar earthquake,RailwayLine_right,title,pink line (jaipur metro),0.43046003580093384
+NaturalEvent_left.csv,title,1931 dogger bank earthquake,RailwayLine_right,title,schynige platte railway,0.4274241030216217
+NaturalEvent_left.csv,title,1924 pasinler earthquake,RailwayLine_right,title,polybahn,0.4272601306438446
+NaturalEvent_left.csv,title,1833 sumatra earthquake,RailwayLine_right,title,sin bundang line,0.4266514778137207
+NaturalEvent_left.csv,title,893 dvin earthquake,RailwayLine_right,title,citylynx gold line,0.4262751340866089
+NaturalEvent_left.csv,title,2009 l'aquila earthquake,RailwayLine_right,title,deux-montagnes line,0.4256136417388916
+NaturalEvent_left.csv,title,1886 charleston earthquake,RailwayLine_right,title,south wind (passenger train),0.425296813249588
+NaturalEvent_left.csv,title,"solar eclipse of september 11, 1988",RailwayLine_right,title,skyway (george bush intercontinental airport),0.4244731664657593
+NaturalEvent_left.csv,title,2005 kashmir earthquake,RailwayLine_right,title,western line (mumbai suburban railway),0.4238635301589966
+NaturalEvent_left.csv,title,2002 dudley earthquake,RailwayLine_right,title,benwick goods railway,0.42370128631591797
+NaturalEvent_left.csv,title,1667 dubrovnik earthquake,RailwayLine_right,title,gribskov line,0.4225490987300873
+NaturalEvent_left.csv,title,1909 lambesc earthquake,RailwayLine_right,title,dresden park railway,0.42235496640205383
+NaturalEvent_left.csv,title,2011 burma earthquake,RailwayLine_right,title,grey line (bangkok rapid transit),0.42206642031669617
+NaturalEvent_left.csv,title,1984 morgan hill earthquake,RailwayLine_right,title,metrorail red line,0.4220258295536041
+NaturalEvent_left.csv,title,1996 nazca earthquake,RailwayLine_right,title,mascouche line,0.4215475618839264
+NaturalEvent_left.csv,title,1997 umbria and marche earthquake,RailwayLine_right,title,fl3 (lazio regional railways),0.4212895631790161
+NaturalEvent_left.csv,title,1580 dover straits earthquake,RailwayLine_right,title,port klang line,0.4206272065639496
+NaturalEvent_left.csv,title,1975 morris earthquake,RailwayLine_right,title,line 3 scarborough,0.4203380048274994
+NaturalEvent_left.csv,title,2008 el calvario earthquake,RailwayLine_right,title,citylynx gold line,0.42005306482315063
+NaturalEvent_left.csv,title,1653 east symirna earthquake,RailwayLine_right,title,sernftal tramway,0.4190918803215027
+NaturalEvent_left.csv,title,1570 ferrara earthquake,RailwayLine_right,title,fl8 (lazio regional railways),0.416961133480072
+NaturalEvent_left.csv,title,1893 quchan earthquake,RailwayLine_right,title,forch railway,0.41628384590148926
+NaturalEvent_left.csv,title,2006 gulf of mexico earthquake,RailwayLine_right,title,florida high speed corridor,0.41533300280570984
+NaturalEvent_left.csv,title,2011 oklahoma earthquake,RailwayLine_right,title,heartland light rail system (kansas city),0.41268351674079895
+NaturalEvent_left.csv,title,1978 miyagi earthquake,RailwayLine_right,title,hankyå« senri line,0.4115288257598877
+NaturalEvent_left.csv,title,1907 qaratog earthquake,RailwayLine_right,title,north west rail link,0.4115236699581146
+NaturalEvent_left.csv,title,1988 saguenay earthquake,RailwayLine_right,title,sernftalbahn,0.4110233783721924
+NaturalEvent_left.csv,title,1979 tumaco earthquake,RailwayLine_right,title,tarumi line,0.4085409641265869
+NaturalEvent_left.csv,title,2013 nantou earthquake,RailwayLine_right,title,etsumi-nan line,0.40811553597450256
+NaturalEvent_left.csv,title,2003 bam earthquake,RailwayLine_right,title,metro blue line (minnesota),0.40749025344848633
+NaturalEvent_left.csv,title,1348 friuli earthquake,RailwayLine_right,title,rigi-bahnen,0.40582072734832764
+NaturalEvent_left.csv,title,1960 agadir earthquake,RailwayLine_right,title,63rd street lines,0.4050607979297638
+NaturalEvent_left.csv,title,1939 erzincan earthquake,RailwayLine_right,title,mascouche line (amt),0.4045919179916382
+NaturalEvent_left.csv,title,1877 iquique earthquake,RailwayLine_right,title,line 2 orange (montreal metro),0.403647780418396

@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SportsLeague_left.csv,title,swedish football division 2,FootballLeagueSeason_right,title,2010 swedish football division 2,0.9719669818878174
+SportsLeague_left.csv,title,malaysia premier league,FootballLeagueSeason_right,title,2009 premier league malaysia,0.9256359338760376
+SportsLeague_left.csv,title,soviet first league,FootballLeagueSeason_right,title,1991 soviet first league,0.9089639782905579
+SportsLeague_left.csv,title,girabola,FootballLeagueSeason_right,title,2013 girabola,0.9038025140762329
+SportsLeague_left.csv,title,danish 1st division,FootballLeagueSeason_right,title,2013 norwegian first division,0.8895323276519775
+SportsLeague_left.csv,title,southern football league (south australia),FootballLeagueSeason_right,title,2010 south australian premier league,0.8808289766311646
+SportsLeague_left.csv,title,k league,FootballLeagueSeason_right,title,2012 k league,0.879204273223877
+SportsLeague_left.csv,title,malaysia fa cup,FootballLeagueSeason_right,title,2005 super league malaysia,0.8719295263290405
+SportsLeague_left.csv,title,slovenian republic football league,FootballLeagueSeason_right,title,slovenian republic league 1950-51,0.8690613508224487
+SportsLeague_left.csv,title,slovenian republic football cup,FootballLeagueSeason_right,title,slovenian republic league 1946,0.8658231496810913
+SportsLeague_left.csv,title,swedish super league,FootballLeagueSeason_right,title,2013 division 1 (swedish football),0.8583241105079651
+SportsLeague_left.csv,title,south australian amateur football league,FootballLeagueSeason_right,title,2009 south australian premier league,0.8543102145195007
+SportsLeague_left.csv,title,turkish cup,FootballLeagueSeason_right,title,1959 turkish national league,0.8447775840759277
+SportsLeague_left.csv,title,south wales senior league,FootballLeagueSeason_right,title,2008 ffas senior league,0.8353304862976074
+SportsLeague_left.csv,title,korea national league,FootballLeagueSeason_right,title,1999 korea semi-professional football league,0.8270633816719055
+SportsLeague_left.csv,title,northern ireland intermediate league,FootballLeagueSeason_right,title,national hurling league 2008,0.8253718018531799
+SportsLeague_left.csv,title,russian second division,FootballLeagueSeason_right,title,1991 soviet second league,0.821259617805481
+SportsLeague_left.csv,title,norwegian first division (women),FootballLeagueSeason_right,title,2012 norwegian second division,0.8207449316978455
+SportsLeague_left.csv,title,thai league,FootballLeagueSeason_right,title,2009 thai division 2 league bangkok & field region,0.8205592632293701
+SportsLeague_left.csv,title,belarusian first league,FootballLeagueSeason_right,title,1990 soviet first league,0.8152303695678711
+SportsLeague_left.csv,title,ukrainian women's league,FootballLeagueSeason_right,title,ukrainian football amateur league 2006,0.8138588666915894
+SportsLeague_left.csv,title,first league of serbia and montenegro,FootballLeagueSeason_right,title,1992 croatian first football league,0.8137686848640442
+SportsLeague_left.csv,title,irish intermediate cup,FootballLeagueSeason_right,title,meath intermediate football championship 2012,0.8124479055404663
+SportsLeague_left.csv,title,nsw premier league,FootballLeagueSeason_right,title,2011 south australian premier league,0.8012968301773071
+SportsLeague_left.csv,title,malaysia fam league,FootballLeagueSeason_right,title,2009 super league malaysia,0.80100017786026
+SportsLeague_left.csv,title,danish superliga,FootballLeagueSeason_right,title,2012 norwegian third division,0.7997868657112122
+SportsLeague_left.csv,title,essex senior football league,FootballLeagueSeason_right,title,2010 ffas senior league,0.7987732887268066
+SportsLeague_left.csv,title,uzbekistan first league,FootballLeagueSeason_right,title,2006 mongolian premier league,0.7983129024505615
+SportsLeague_left.csv,title,nottinghamshire senior league,FootballLeagueSeason_right,title,2009 ffas senior league,0.7963644862174988
+SportsLeague_left.csv,title,ukraine rugby superliga,FootballLeagueSeason_right,title,ukrainian football amateur league 2008,0.7909457683563232
+SportsLeague_left.csv,title,midlands junior league,FootballLeagueSeason_right,title,2011 ffas senior league,0.7884317636489868
+SportsLeague_left.csv,title,junior league world series,FootballLeagueSeason_right,title,2000 j.league division 2,0.7872209548950195
+SportsLeague_left.csv,title,swedish basketball league,FootballLeagueSeason_right,title,2010 swedish football division 3,0.785767674446106
+SportsLeague_left.csv,title,jordanian premier basketball league,FootballLeagueSeason_right,title,1947 jordan league,0.785253643989563
+SportsLeague_left.csv,title,w-league,FootballLeagueSeason_right,title,2012 wpsl season,0.7812579870223999
+SportsLeague_left.csv,title,national league b,FootballLeagueSeason_right,title,2009 a-division,0.7795946002006531
+SportsLeague_left.csv,title,connacht schools rugby senior cup,FootballLeagueSeason_right,title,meath senior football championship 2012,0.777857780456543
+SportsLeague_left.csv,title,league of ireland first division,FootballLeagueSeason_right,title,national hurling league 2007,0.7771084904670715
+SportsLeague_left.csv,title,usl premier development league,FootballLeagueSeason_right,title,2002 usl a-league,0.7757220268249512
+SportsLeague_left.csv,title,afghan premier league,FootballLeagueSeason_right,title,2010 mongolian premier league,0.775691568851471
+SportsLeague_left.csv,title,belarusian premier league,FootballLeagueSeason_right,title,ukrainian football amateur league 2007,0.7753074169158936
+SportsLeague_left.csv,title,liga indonesia u-23,FootballLeagueSeason_right,title,2008 indonesian womens football tournament,0.7745848298072815
+SportsLeague_left.csv,title,liga indonesia second division,FootballLeagueSeason_right,title,2011â12 united football league (philippines),0.7723455429077148
+SportsLeague_left.csv,title,bulgarian state football championship,FootballLeagueSeason_right,title,ukrainian football amateur league 2002,0.7712757587432861
+SportsLeague_left.csv,title,new south wales major league,FootballLeagueSeason_right,title,1999 a-division,0.7702999114990234
+SportsLeague_left.csv,title,regional league north-east division,FootballLeagueSeason_right,title,2013 j.league division 2,0.7693281173706055
+SportsLeague_left.csv,title,ulster senior league (association football),FootballLeagueSeason_right,title,meath senior football championship 2010,0.7688980102539062
+SportsLeague_left.csv,title,premier soccer league,FootballLeagueSeason_right,title,2010 premier arena soccer league summer season,0.7680901288986206
+SportsLeague_left.csv,title,liga indonesia premier division,FootballLeagueSeason_right,title,2009â10 united football league (philippines),0.7674318552017212
+SportsLeague_left.csv,title,belarusian futsal premier league,FootballLeagueSeason_right,title,ukrainian football amateur league 2003,0.7655385732650757
+SportsLeague_left.csv,title,czech fourth division,FootballLeagueSeason_right,title,1990 soviet second league,0.7643094062805176
+SportsLeague_left.csv,title,yugoslav basketball league,FootballLeagueSeason_right,title,slovenian republic league 1951-52,0.7635287642478943
+SportsLeague_left.csv,title,national league 3 south west,FootballLeagueSeason_right,title,2006 a-division,0.7628848552703857
+SportsLeague_left.csv,title,copa america (indoor),FootballLeagueSeason_right,title,2011 torneo apertura (chile),0.7595083713531494
+SportsLeague_left.csv,title,national star soccer league,FootballLeagueSeason_right,title,2013 telikom national soccer league,0.7587124109268188
+SportsLeague_left.csv,title,brunei super league,FootballLeagueSeason_right,title,2012 vietnamese super league,0.757678210735321
+SportsLeague_left.csv,title,kazakhstani championship,FootballLeagueSeason_right,title,1990 mongolian national championship,0.757560133934021
+SportsLeague_left.csv,title,australian baseball league,FootballLeagueSeason_right,title,2008 a-division,0.7565582990646362
+SportsLeague_left.csv,title,myanmar premier league,FootballLeagueSeason_right,title,2012 vietnamese national football first league,0.7557148933410645
+SportsLeague_left.csv,title,south east combination women's football league,FootballLeagueSeason_right,title,1993 japan women's football league,0.75538569688797
+SportsLeague_left.csv,title,philippine collegiate champions league,FootballLeagueSeason_right,title,2010â11 united football league (philippines),0.754890501499176
+SportsLeague_left.csv,title,azerbaijan premier league,FootballLeagueSeason_right,title,2007 mongolian premier league,0.7531342506408691
+SportsLeague_left.csv,title,professional arena soccer league,FootballLeagueSeason_right,title,2012 premier arena soccer league summer season,0.7526576519012451
+SportsLeague_left.csv,title,national first division,FootballLeagueSeason_right,title,2010 a-division,0.7524426579475403
+SportsLeague_left.csv,title,elite league knockout cup,FootballLeagueSeason_right,title,2013 v.league 1,0.7521597743034363
+SportsLeague_left.csv,title,russian major league,FootballLeagueSeason_right,title,1991 soviet second league b,0.7519940137863159
+SportsLeague_left.csv,title,second league of the republika srpska,FootballLeagueSeason_right,title,1992 ukrainian transitional league,0.7519320249557495
+SportsLeague_left.csv,title,cev champions league,FootballLeagueSeason_right,title,2013 v.league 2,0.7516112327575684
+SportsLeague_left.csv,title,v.league (japan),FootballLeagueSeason_right,title,2006 japan women's football league,0.750602126121521
+SportsLeague_left.csv,title,safa second division,FootballLeagueSeason_right,title,2007 a-division,0.7504262924194336
+SportsLeague_left.csv,title,armenian first league,FootballLeagueSeason_right,title,2009 mongolian premier league,0.7483919858932495
+SportsLeague_left.csv,title,women's football alliance,FootballLeagueSeason_right,title,2012 japan women's football league,0.744692325592041
+SportsLeague_left.csv,title,ukrainian men's handball super league,FootballLeagueSeason_right,title,ukrainian football amateur league 2001,0.743675708770752
+SportsLeague_left.csv,title,omani super cup,FootballLeagueSeason_right,title,2004 super league malaysia,0.743229866027832
+SportsLeague_left.csv,title,samoa national league,FootballLeagueSeason_right,title,2013 papua new guinea national soccer league,0.7427268624305725
+SportsLeague_left.csv,title,eastern region women's football league,FootballLeagueSeason_right,title,2010 japan women's football league,0.7421810626983643
+SportsLeague_left.csv,title,premier league,FootballLeagueSeason_right,title,summer 2011 pasl-premier season,0.738855242729187
+SportsLeague_left.csv,title,brunei premier league,FootballLeagueSeason_right,title,2003 malaysia premier league 1,0.738835334777832
+SportsLeague_left.csv,title,japanese regional leagues,FootballLeagueSeason_right,title,2007 japan women's football league,0.73809415102005
+SportsLeague_left.csv,title,premier academy league,FootballLeagueSeason_right,title,summer 2009 pasl-premier season,0.7374459505081177
+SportsLeague_left.csv,title,bosnia and herzegovina women's football championship,FootballLeagueSeason_right,title,2010 indonesia women football tournament,0.7363946437835693
+SportsLeague_left.csv,title,regional league championships,FootballLeagueSeason_right,title,2012 j.league division 2,0.7356436252593994
+SportsLeague_left.csv,title,svenska serien (ice hockey),FootballLeagueSeason_right,title,2012 division 1 (swedish football),0.7354240417480469
+SportsLeague_left.csv,title,european champions league (table tennis),FootballLeagueSeason_right,title,1996 eliteserien,0.7340505123138428
+SportsLeague_left.csv,title,hampshire league 2004,FootballLeagueSeason_right,title,2004 a-division,0.7336422204971313
+SportsLeague_left.csv,title,vietnam women's football championship,FootballLeagueSeason_right,title,2010 vietnamese national football first league,0.7305259704589844
+SportsLeague_left.csv,title,north west women's regional football league,FootballLeagueSeason_right,title,2009 japan women's football league,0.7285658717155457
+SportsLeague_left.csv,title,premier league (iceland),FootballLeagueSeason_right,title,2010 division 1 (swedish football),0.7277579307556152
+SportsLeague_left.csv,title,lkf cup,FootballLeagueSeason_right,title,2008 k league,0.7275699377059937
+SportsLeague_left.csv,title,victorian state league division 1,FootballLeagueSeason_right,title,1998 a-division,0.7263429164886475
+SportsLeague_left.csv,title,kuwaiti division i basketball league,FootballLeagueSeason_right,title,1956 jordan league,0.7253067493438721
+SportsLeague_left.csv,title,belgrade zone league,FootballLeagueSeason_right,title,1990 baltic league,0.724994421005249
+SportsLeague_left.csv,title,australian provincial championship,FootballLeagueSeason_right,title,2000 a-division,0.7237856388092041
+SportsLeague_left.csv,title,hong kong fourth division league,FootballLeagueSeason_right,title,2010 vietnamese second division,0.7237371206283569
+SportsLeague_left.csv,title,continental indoor soccer league,FootballLeagueSeason_right,title,2011 premier arena soccer league summer season,0.72355055809021
+SportsLeague_left.csv,title,scottish junior football north division two,FootballLeagueSeason_right,title,meath intermediate football championship 2010,0.7233864665031433
+SportsLeague_left.csv,title,uaap baseball championship,FootballLeagueSeason_right,title,2002 a-division,0.7224276065826416
+SportsLeague_left.csv,title,south west combination women's football league,FootballLeagueSeason_right,title,1999 japan women's football league,0.7222185730934143
+SportsLeague_left.csv,title,women's premiership,FootballLeagueSeason_right,title,2008 japan women's football league,0.721930742263794
+SportsLeague_left.csv,title,munster senior league senior premier division,FootballLeagueSeason_right,title,meath senior football championship 2011,0.7210640907287598
+SportsLeague_left.csv,title,national league,FootballLeagueSeason_right,title,2013 j.league division 1,0.72015780210495
+SportsLeague_left.csv,title,china league two,FootballLeagueSeason_right,title,2012 mongolian premier league,0.7190327644348145
+SportsLeague_left.csv,title,siam cup,FootballLeagueSeason_right,title,2002 bhutan a-division,0.7182283401489258
+SportsLeague_left.csv,title,east merit league,FootballLeagueSeason_right,title,2012 wpsl elite league season,0.7177907824516296
+SportsLeague_left.csv,title,british league division two,FootballLeagueSeason_right,title,2007 j.league division 2,0.7176626324653625
+SportsLeague_left.csv,title,national league 3 midlands,FootballLeagueSeason_right,title,2005 a-division,0.7172681093215942
+SportsLeague_left.csv,title,championnat national,FootballLeagueSeason_right,title,1999 eliteserien,0.7163099646568298
+SportsLeague_left.csv,title,bulgarian supercup,FootballLeagueSeason_right,title,1990 soviet second league b,0.7162640690803528
+SportsLeague_left.csv,title,ehf women's champions league,FootballLeagueSeason_right,title,2011 japan women's football league,0.7158572673797607
+SportsLeague_left.csv,title,basketball bundesliga,FootballLeagueSeason_right,title,2001 jordan league,0.7153635025024414
+SportsLeague_left.csv,title,hong kong futsal league,FootballLeagueSeason_right,title,2010 vietnamese national football second league,0.715120792388916
+SportsLeague_left.csv,title,victorian state league division 2,FootballLeagueSeason_right,title,2003 a-division,0.7148059606552124
+SportsLeague_left.csv,title,turkish women's first football league,FootballLeagueSeason_right,title,2000 japan women's football league,0.7144435048103333
+SportsLeague_left.csv,title,icelandic hockey league,FootballLeagueSeason_right,title,2011 swedish football division 3,0.7141693830490112
+SportsLeague_left.csv,title,turkish ice hockey super league,FootballLeagueSeason_right,title,2011 mongolian premier league,0.712300181388855
+SportsLeague_left.csv,title,nationalliga a (women's football),FootballLeagueSeason_right,title,2002 japan women's football league,0.7111411094665527
+SportsLeague_left.csv,title,united states baseball league,FootballLeagueSeason_right,title,2001 j.league division 2,0.7108423709869385
+SportsLeague_left.csv,title,championnat de france amateur 2,FootballLeagueSeason_right,title,1997 eliteserien,0.7107102870941162
+SportsLeague_left.csv,title,kenyan premier league,FootballLeagueSeason_right,title,2011 k league,0.7101192474365234
+SportsLeague_left.csv,title,kyrgyzstan futsal league,FootballLeagueSeason_right,title,2000 mongolian premier league,0.710089921951294
+SportsLeague_left.csv,title,aba league,FootballLeagueSeason_right,title,1999 jordan league,0.7088915109634399
+SportsLeague_left.csv,title,iranian basketball super league,FootballLeagueSeason_right,title,2005 mongolian premier league,0.7088403701782227
+SportsLeague_left.csv,title,inter-american league,FootballLeagueSeason_right,title,2010 j.league division 2,0.7085868120193481
+SportsLeague_left.csv,title,albanian third division,FootballLeagueSeason_right,title,"1990 soviet lower second league, zone 1",0.7049537897109985
+SportsLeague_left.csv,title,american football league (1926),FootballLeagueSeason_right,title,1921 detroit tigers season (nfl),0.704835057258606
+SportsLeague_left.csv,title,south australian women's football league,FootballLeagueSeason_right,title,1992 japan women's football league,0.7040786147117615
+SportsLeague_left.csv,title,ulster senior schoolgirls' cup,FootballLeagueSeason_right,title,meath intermediate football championship 2011,0.7029043436050415
+SportsLeague_left.csv,title,european junior baseball championship,FootballLeagueSeason_right,title,2003 j.league division 2,0.702518880367279
+SportsLeague_left.csv,title,federation professional league,FootballLeagueSeason_right,title,2010 k league,0.7025051116943359
+SportsLeague_left.csv,title,kingdom caledonian football league,FootballLeagueSeason_right,title,2009 vietnamese national football second league,0.7019774913787842
+SportsLeague_left.csv,title,western baseball league,FootballLeagueSeason_right,title,2000 j.league division 1,0.7006021738052368
+SportsLeague_left.csv,title,swedish super league (women's floorball),FootballLeagueSeason_right,title,2009 swedish football division 2,0.6980797052383423
+SportsLeague_left.csv,title,serie a (women's football),FootballLeagueSeason_right,title,2005 japan women's football league,0.6975274085998535
+SportsLeague_left.csv,title,fk-league,FootballLeagueSeason_right,title,2011 swedish football division 2,0.6967465877532959
+SportsLeague_left.csv,title,belgian third division,FootballLeagueSeason_right,title,2005 swedish football division 3,0.6962196826934814
+SportsLeague_left.csv,title,bbl cup,FootballLeagueSeason_right,title,2009 k league,0.6960108280181885
+SportsLeague_left.csv,title,2. liga (slovakia),FootballLeagueSeason_right,title,2006 swedish football division 2,0.6957297325134277
+SportsLeague_left.csv,title,bundesliga (baseball),FootballLeagueSeason_right,title,2001 a-division,0.6952893733978271
+SportsLeague_left.csv,title,history of malaysian football,FootballLeagueSeason_right,title,2002 malaysia premier league 1,0.69486403465271
+SportsLeague_left.csv,title,south atlantic league,FootballLeagueSeason_right,title,2012 j.league division 1,0.694615364074707
+SportsLeague_left.csv,title,albanian a-1 league (women),FootballLeagueSeason_right,title,1994 japan women's football league,0.6940973401069641
+SportsLeague_left.csv,title,j.league,FootballLeagueSeason_right,title,2000 jordan league,0.6928902268409729
+SportsLeague_left.csv,title,scottish women's football league second division,FootballLeagueSeason_right,title,1991 japan women's football league,0.6922358870506287
+SportsLeague_left.csv,title,southwest international league,FootballLeagueSeason_right,title,2010 wpsl season,0.6922019124031067
+SportsLeague_left.csv,title,north east norfolk league,FootballLeagueSeason_right,title,2007 j.league division 1,0.6915276050567627
+SportsLeague_left.csv,title,kvalserien (hockeyallsvenskan),FootballLeagueSeason_right,title,2006 division 1 (swedish football),0.6909658312797546
+SportsLeague_left.csv,title,lebanese basketball league,FootballLeagueSeason_right,title,1954 jordan league,0.6907393336296082
+SportsLeague_left.csv,title,botswana premier league,FootballLeagueSeason_right,title,1996 mongolian premier league,0.6899524927139282
+SportsLeague_left.csv,title,baseball challenge league,FootballLeagueSeason_right,title,2006 j.league division 2,0.6890020370483398
+SportsLeague_left.csv,title,midwest league,FootballLeagueSeason_right,title,2008 j.league division 2,0.6885788440704346
+SportsLeague_left.csv,title,victorian women's football league,FootballLeagueSeason_right,title,1989 japan women's football league,0.6885125637054443
+SportsLeague_left.csv,title,milan kosanovic cup,FootballLeagueSeason_right,title,1998 eliteserien,0.6867275238037109
+SportsLeague_left.csv,title,collegiate rugby championship,FootballLeagueSeason_right,title,meath senior football championship 2009,0.6864185333251953
+SportsLeague_left.csv,title,major league soccer,FootballLeagueSeason_right,title,2009 premier arena soccer league summer season,0.6863356828689575
+SportsLeague_left.csv,title,afl japan,FootballLeagueSeason_right,title,2004 japan women's football league,0.6856505870819092
+SportsLeague_left.csv,title,libyan second division,FootballLeagueSeason_right,title,2009 vietnamese second division,0.6852351427078247
+SportsLeague_left.csv,title,assam state premier league,FootballLeagueSeason_right,title,2009 bhutan a-division,0.6851686239242554
+SportsLeague_left.csv,title,hockey asia cup,FootballLeagueSeason_right,title,2006 bhutan a-division,0.6847296953201294
+SportsLeague_left.csv,title,slovak 1.liga,FootballLeagueSeason_right,title,2006 swedish football division 3,0.6836035847663879
+SportsLeague_left.csv,title,armenian futsal premier league,FootballLeagueSeason_right,title,1999 mongolian premier league,0.683387279510498
+SportsLeague_left.csv,title,calcutta premier division,FootballLeagueSeason_right,title,1999 bhutan a-division,0.6824861168861389
+SportsLeague_left.csv,title,dutch basketball league,FootballLeagueSeason_right,title,1997 jordan league,0.6821717023849487
+SportsLeague_left.csv,title,asian baseball championship,FootballLeagueSeason_right,title,2004 j.league division 2,0.6821472644805908
+SportsLeague_left.csv,title,korea baseball championship,FootballLeagueSeason_right,title,2002 j.league division 2,0.6818144917488098
+SportsLeague_left.csv,title,congo premier league,FootballLeagueSeason_right,title,2011 vietnamese national football first league,0.6798719167709351
+SportsLeague_left.csv,title,eastern league (japanese baseball),FootballLeagueSeason_right,title,2001 j.league division 1,0.6795654296875
+SportsLeague_left.csv,title,japanese high school baseball championship,FootballLeagueSeason_right,title,1999 j.league division 2,0.6790637373924255
+SportsLeague_left.csv,title,maltese second division,FootballLeagueSeason_right,title,2004 swedish football division 3,0.6788987517356873
+SportsLeague_left.csv,title,minnesota junior hockey league,FootballLeagueSeason_right,title,2007 swedish football division 3,0.6777478456497192
+SportsLeague_left.csv,title,central australian basketball league,FootballLeagueSeason_right,title,1998 jordan league,0.6769638061523438
+SportsLeague_left.csv,title,oceania baseball championship,FootballLeagueSeason_right,title,1997 a-division,0.6767122745513916
+SportsLeague_left.csv,title,czech 2. liga,FootballLeagueSeason_right,title,2008 swedish football division 2,0.6764736175537109
+SportsLeague_left.csv,title,japan ice hockey league,FootballLeagueSeason_right,title,2001 japan women's football league,0.6761674880981445
+SportsLeague_left.csv,title,austrian national league,FootballLeagueSeason_right,title,2008 swedish football division 3,0.6751905083656311
+SportsLeague_left.csv,title,qatar stars league,FootballLeagueSeason_right,title,2001 mongolian premier league,0.6729344129562378
+SportsLeague_left.csv,title,pakistan roller hockey national championship,FootballLeagueSeason_right,title,1985 mongolian national championship,0.6727800369262695
+SportsLeague_left.csv,title,ncaa men's lacrosse championship,FootballLeagueSeason_right,title,2013 pac-12 conference men's soccer season,0.6726491451263428
+SportsLeague_left.csv,title,kitchener and district soccer league,FootballLeagueSeason_right,title,2007 swedish football division 2,0.6722416877746582
+SportsLeague_left.csv,title,super league world nines,FootballLeagueSeason_right,title,2011 wpsl season,0.6720816493034363
+SportsLeague_left.csv,title,libyan premier league,FootballLeagueSeason_right,title,2004 mongolian premier league,0.6719635128974915
+SportsLeague_left.csv,title,women's korean basketball league,FootballLeagueSeason_right,title,1965 korea semi-professional football league,0.6716728210449219
+SportsLeague_left.csv,title,egyptian premier league,FootballLeagueSeason_right,title,2002 mongolian premier league,0.6712936162948608
+SportsLeague_left.csv,title,fa national futsal league,FootballLeagueSeason_right,title,2009 vietnamese national football first league,0.6708438396453857
+SportsLeague_left.csv,title,oberliga westfalen,FootballLeagueSeason_right,title,2001 tippeligaen,0.670333743095398
+SportsLeague_left.csv,title,all-japan university rugby championship,FootballLeagueSeason_right,title,2003 japan women's football league,0.6702686548233032
+SportsLeague_left.csv,title,major league baseball,FootballLeagueSeason_right,title,1996 a-division,0.6698843240737915
+SportsLeague_left.csv,title,cypriot third division,FootballLeagueSeason_right,title,2003 swedish football division 3,0.6693904399871826
+SportsLeague_left.csv,title,welsh premier women's football league,FootballLeagueSeason_right,title,1990 japan women's football league,0.6676604747772217
+SportsLeague_left.csv,title,amateurliga saarland,FootballLeagueSeason_right,title,2009 swedish football division 3,0.667635440826416
+SportsLeague_left.csv,title,iranian volleyball super league,FootballLeagueSeason_right,title,2003 mongolian premier league,0.6671510934829712
+SportsLeague_left.csv,title,shillong premier league,FootballLeagueSeason_right,title,1997 mongolian premier league,0.6654762029647827
+SportsLeague_left.csv,title,eastern league (baseball),FootballLeagueSeason_right,title,2010 j.league division 1,0.6654186248779297
+SportsLeague_left.csv,title,maltese first division,FootballLeagueSeason_right,title,2001 swedish football division 3,0.6637837290763855
+SportsLeague_left.csv,title,lancashire amateur league,FootballLeagueSeason_right,title,1911 canton professionals season,0.6631324887275696
+SportsLeague_left.csv,title,winfield state league,FootballLeagueSeason_right,title,1914 canton professionals season,0.6630412340164185
+SportsLeague_left.csv,title,united regional basketball league,FootballLeagueSeason_right,title,2006 j.league division 1,0.6628759503364563
+SportsLeague_left.csv,title,little league world series (new england region),FootballLeagueSeason_right,title,2004 j.league division 1,0.661918580532074
+SportsLeague_left.csv,title,florida international league,FootballLeagueSeason_right,title,2005 j.league division 2,0.6609207987785339
+SportsLeague_left.csv,title,dominican professional baseball league,FootballLeagueSeason_right,title,2003 j.league division 1,0.6607673168182373
+SportsLeague_left.csv,title,fiba asia under-18 championship,FootballLeagueSeason_right,title,1994 mongolian national championship,0.660520076751709

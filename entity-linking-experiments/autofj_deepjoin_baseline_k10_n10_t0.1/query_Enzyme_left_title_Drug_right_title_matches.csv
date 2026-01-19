@@ -1,0 +1,8 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Enzyme_left.csv,title,Tryptase,Drug_right.csv,title,"N,N-Dimethyltryptamine",0.6847
+Enzyme_left.csv,title,5-oxoprolinase (ATP-hydrolysing),Drug_right.csv,title,5-MeO-aMT,0.6847
+Enzyme_left.csv,title,Benzylsuccinate synthase,Drug_right.csv,title,HPV vaccines,0.6847
+Enzyme_left.csv,title,Beta-nitroacrylate reductase,Drug_right.csv,title,Betamethylfentanyl,0.6847
+Enzyme_left.csv,title,Salutaridine synthase,Drug_right.csv,title,SB-258585,0.6847
+Enzyme_left.csv,title,Chorismate lyase,Drug_right.csv,title,CP-93129,0.6847
+Enzyme_left.csv,title,Vanillate monooxygenase,Drug_right.csv,title,Valsartan/sacubitril,0.6847

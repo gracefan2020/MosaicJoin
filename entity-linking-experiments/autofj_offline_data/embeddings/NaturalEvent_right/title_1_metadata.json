@@ -1,0 +1,11 @@
+{
+  "table_name": "NaturalEvent_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 51,
+  "unique_values": 51,
+  "processed_values": 51,
+  "embedding_dim": 768,
+  "processing_time": 0.05502772331237793,
+  "file_path": "datasets/autofj_join_benchmark/datalake/NaturalEvent_right.csv"
+}

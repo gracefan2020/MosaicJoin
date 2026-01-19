@@ -1,0 +1,52 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Election_left.csv,title,"burmese general election, 2010",NaturalEvent_right,title,2011 myanmar earthquake,0.6300663352012634
+Election_left.csv,title,"solomon islands general election, 2010",NaturalEvent_right,title,2010 solomon islands earthquake,0.624711811542511
+Election_left.csv,title,"armenian presidential election, 2008",NaturalEvent_right,title,1988 armenian earthquake,0.6147359013557434
+Election_left.csv,title,"afghan parliamentary election, 2010",NaturalEvent_right,title,2012 afghanistan earthquakes,0.6080341935157776
+Election_left.csv,title,"samoan general election, 2011",NaturalEvent_right,title,2009 samoa earthquake and tsunami,0.5926551222801208
+Election_left.csv,title,"guatemalan general election, 2011",NaturalEvent_right,title,january 2001 el salvador earthquake,0.5631166696548462
+Election_left.csv,title,"egyptian parliamentary election, 2010",NaturalEvent_right,title,1995 egypt earthquake,0.5497775077819824
+Election_left.csv,title,"guatemalan general election, 2003",NaturalEvent_right,title,1980 oaxaca earthquake,0.5388604998588562
+Election_left.csv,title,"los angeles mayoral election, 1911",NaturalEvent_right,title,1911 guerrero earthquake,0.5303067564964294
+Election_left.csv,title,"new hampshire gubernatorial election, 2002",NaturalEvent_right,title,1940 new hampshire earthquakes,0.5280748605728149
+Election_left.csv,title,"guamanian general election, 2006",NaturalEvent_right,title,2006 pangandaran earthquake and tsunami,0.5197723507881165
+Election_left.csv,title,"iraqi parliamentary election, 2000",NaturalEvent_right,title,2004 al hoceima earthquake,0.5105879306793213
+Election_left.csv,title,"mongolian presidential election, 2001",NaturalEvent_right,title,may 1998 afghanistan earthquake,0.5051808953285217
+Election_left.csv,title,"chilean presidential election, 1932",NaturalEvent_right,title,1932 jalisco earthquakes,0.5023401379585266
+Election_left.csv,title,"pakistani general election, 2008",NaturalEvent_right,title,2008 bandar abbas earthquake,0.5023374557495117
+Election_left.csv,title,"costa rican general election, 1986",NaturalEvent_right,title,1985 santiago earthquake,0.49854177236557007
+Election_left.csv,title,"republic of china municipal elections, 2002",NaturalEvent_right,title,2012 yangzhou earthquake,0.4938124716281891
+Election_left.csv,title,"kazakhstani presidential election, 1991",NaturalEvent_right,title,february 1998 afghanistan earthquake,0.49327370524406433
+Election_left.csv,title,"new orleans mayoral election, 1986",NaturalEvent_right,title,1996 duvall earthquake,0.4857174754142761
+Election_left.csv,title,"los angeles mayoral election, 1896",NaturalEvent_right,title,1894 tokyo earthquake,0.4824928045272827
+Election_left.csv,title,"french legislative election, 1936",NaturalEvent_right,title,1909 provence earthquake,0.4762364625930786
+Election_left.csv,title,"japanese general election, 1955",NaturalEvent_right,title,1855 edo earthquake,0.47218894958496094
+Election_left.csv,title,"philippine assembly elections, 1912",NaturalEvent_right,title,1929 kopet dag earthquake,0.4705422520637512
+Election_left.csv,title,"cambodian parliamentary election, 2008",NaturalEvent_right,title,2009 papua earthquakes,0.4683486819267273
+Election_left.csv,title,"canadian federal election, 1935",NaturalEvent_right,title,1935 quetta earthquake,0.4678215980529785
+Election_left.csv,title,"honolulu mayoral election, 2012",NaturalEvent_right,title,2006 yogyakarta earthquake,0.4626741409301758
+Election_left.csv,title,"town of christchurch by-election, 1860",NaturalEvent_right,title,great adelaide earthquake,0.46060067415237427
+Election_left.csv,title,"hong kong municipal election, 1953",NaturalEvent_right,title,1854 nankai earthquake,0.4520743191242218
+Election_left.csv,title,"south korean local elections, 2010",NaturalEvent_right,title,2010 kaohsiung earthquake,0.44893190264701843
+Election_left.csv,title,"san francisco mayoral election, 1995",NaturalEvent_right,title,1896 sanriku earthquake,0.44789862632751465
+Election_left.csv,title,"hong kong municipal elections, 1986",NaturalEvent_right,title,march 2013 nantou earthquake,0.44153892993927
+Election_left.csv,title,"japanese general election, 1980",NaturalEvent_right,title,869 sanriku earthquake,0.4414750039577484
+Election_left.csv,title,"los angeles mayoral election, 1925",NaturalEvent_right,title,1927 jericho earthquake,0.42816653847694397
+Election_left.csv,title,"hong kong municipal elections, 1991",NaturalEvent_right,title,2000 enggano earthquake,0.42494845390319824
+Election_left.csv,title,"indian general election in sikkim, 2009",NaturalEvent_right,title,2008 qeshm earthquake,0.4239611029624939
+Election_left.csv,title,"marilao local elections, 2010",NaturalEvent_right,title,2006 hengchun earthquakes,0.4238690137863159
+Election_left.csv,title,"newfoundland general election, 1985",NaturalEvent_right,title,1755 cape ann earthquake,0.41832736134529114
+Election_left.csv,title,"german federal election, march 1933",NaturalEvent_right,title,1903 manzikert earthquake,0.4143030047416687
+Election_left.csv,title,"turkish presidential election, 1993",NaturalEvent_right,title,1509 constantinople earthquake,0.41395291686058044
+Election_left.csv,title,"british general election, 1761",NaturalEvent_right,title,near east earthquake of 1759,0.41118288040161133
+Election_left.csv,title,"indian general election, 1962",NaturalEvent_right,title,1962 bou'in-zahra earthquake,0.41046494245529175
+Election_left.csv,title,elections in uttarakhand,NaturalEvent_right,title,2012 indian ocean earthquake,0.40632563829421997
+Election_left.csv,title,"los angeles mayoral election, 1913",NaturalEvent_right,title,1914 afyon-bolvadin earthquake,0.3959001302719116
+Election_left.csv,title,"lebanese general election, 2009",NaturalEvent_right,title,749 galilee earthquake,0.39510953426361084
+Election_left.csv,title,"iraqi parliamentary election, 1953",NaturalEvent_right,title,1953 ionian earthquake,0.3941861391067505
+Election_left.csv,title,"soviet union legislative election, 1984",NaturalEvent_right,title,1688 smyrna earthquake,0.38868820667266846
+Election_left.csv,title,"iraqi parliamentary election, 1984",NaturalEvent_right,title,847 antioch earthquake,0.38549721240997314
+Election_left.csv,title,"elections to the madrid assembly, 1987",NaturalEvent_right,title,1968 dasht-e bayaz and ferdows earthquakes,0.38154441118240356
+Election_left.csv,title,"sammarinese general election, 1909",NaturalEvent_right,title,1653 east smyrna earthquake,0.38041841983795166
+Election_left.csv,title,"japanese house of councillors election, 1995",NaturalEvent_right,title,1611 sanriku earthquake,0.37271642684936523
+Election_left.csv,title,"hamburg state election, 1993",NaturalEvent_right,title,1959 hebgen lake earthquake,0.3712387681007385

@@ -1,0 +1,11 @@
+{
+  "table_name": "HistoricBuilding_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 512,
+  "unique_values": 512,
+  "processed_values": 512,
+  "embedding_dim": 768,
+  "processing_time": 0.2482001781463623,
+  "file_path": "datasets/autofj_join_benchmark/datalake/HistoricBuilding_right.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "table_name": "Device_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 658,
+  "unique_values": 658,
+  "processed_values": 658,
+  "embedding_dim": 768,
+  "processing_time": 0.3565194606781006,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Device_right.csv"
+}

@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+UnitOfWork_left.csv,title,Williams v. Lee,MemberOfParliament_right.csv,title,William Lee Martin,0.6013

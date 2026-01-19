@@ -1,0 +1,155 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Hospital_left.csv,title,milad hospital,GivenName_right,title,medad,0.7528982162475586
+Hospital_left.csv,title,dar al fouad,GivenName_right,title,hamad,0.6939425468444824
+Hospital_left.csv,title,rnh bighi,GivenName_right,title,bauyrzhan,0.689271867275238
+Hospital_left.csv,title,the medical center of aurora,GivenName_right,title,aurora (given name),0.6601532697677612
+Hospital_left.csv,title,hoima hospital,GivenName_right,title,hristo,0.6481990814208984
+Hospital_left.csv,title,st christopher's hospice,GivenName_right,title,christopher,0.6476384401321411
+Hospital_left.csv,title,oku-komyo-en sanatorium,GivenName_right,title,okonma,0.6475231647491455
+Hospital_left.csv,title,karen hospital,GivenName_right,title,kathryn,0.6403325200080872
+Hospital_left.csv,title,alyn hospital,GivenName_right,title,aileen,0.6359735727310181
+Hospital_left.csv,title,ruijin hospital,GivenName_right,title,harutyun,0.6296491622924805
+Hospital_left.csv,title,queens,GivenName_right,title,margaret,0.6269099116325378
+Hospital_left.csv,title,itojo hospital,GivenName_right,title,junichi,0.6231673955917358
+Hospital_left.csv,title,chris hani baragwanath hospital,GivenName_right,title,chetan (name),0.6220738887786865
+Hospital_left.csv,title,the meriden hospital,GivenName_right,title,mervin,0.620267391204834
+Hospital_left.csv,title,nakornthon hospital,GivenName_right,title,navneet,0.6170690059661865
+Hospital_left.csv,title,inselspital,GivenName_right,title,indulis,0.6156251430511475
+Hospital_left.csv,title,soroti hospital,GivenName_right,title,sorin (given name),0.6154354214668274
+Hospital_left.csv,title,kalongo hospital,GivenName_right,title,kayo (name),0.6148256063461304
+Hospital_left.csv,title,our lady of maryknoll hospital,GivenName_right,title,mary (name),0.6143336892127991
+Hospital_left.csv,title,masaka hospital,GivenName_right,title,maki (name),0.6120003461837769
+Hospital_left.csv,title,edith cavell hospital,GivenName_right,title,edwina,0.6054961085319519
+Hospital_left.csv,title,kantonsspital st. gallen,GivenName_right,title,guillaume,0.6053543090820312
+Hospital_left.csv,title,istituto giannina gaslini,GivenName_right,title,alessia,0.6046088337898254
+Hospital_left.csv,title,st. anne mercy hospital,GivenName_right,title,annetta (given name),0.6021294593811035
+Hospital_left.csv,title,st. luke's international hospital,GivenName_right,title,luke (name),0.5966445207595825
+Hospital_left.csv,title,lambeth hospital,GivenName_right,title,maytham,0.595826268196106
+Hospital_left.csv,title,jinja hospital,GivenName_right,title,kaj,0.5944026708602905
+Hospital_left.csv,title,laniado hospital,GivenName_right,title,lindita (given name),0.5936266183853149
+Hospital_left.csv,title,ubh denton,GivenName_right,title,jahsh,0.5932414531707764
+Hospital_left.csv,title,al assad university hospital,GivenName_right,title,abd al-rahman,0.5899573564529419
+Hospital_left.csv,title,st. mark's hospital,GivenName_right,title,mark (name),0.587534487247467
+Hospital_left.csv,title,danderyds sjukhus,GivenName_right,title,dzintars,0.5862575173377991
+Hospital_left.csv,title,alexandra hospital,GivenName_right,title,alison (given name),0.5849411487579346
+Hospital_left.csv,title,mackenzie richmond hill hospital,GivenName_right,title,heather (given name),0.5847618579864502
+Hospital_left.csv,title,assunta hospital,GivenName_right,title,aida (name),0.5827746391296387
+Hospital_left.csv,title,vejthani hospital,GivenName_right,title,parvati (given name),0.5823612213134766
+Hospital_left.csv,title,sanjeevan hospital,GivenName_right,title,arun (given name),0.5816034078598022
+Hospital_left.csv,title,suruga sanatorium,GivenName_right,title,sujata (name),0.5777801871299744
+Hospital_left.csv,title,hospital maciel,GivenName_right,title,gerard,0.5776188969612122
+Hospital_left.csv,title,al khalidi medical center,GivenName_right,title,abd al-aziz,0.575324296951294
+Hospital_left.csv,title,donka hospital,GivenName_right,title,tuukka,0.5740660429000854
+Hospital_left.csv,title,cecilia makiwane hospital,GivenName_right,title,haruna (given name),0.5740319490432739
+Hospital_left.csv,title,farleigh hospice,GivenName_right,title,corinne,0.571992039680481
+Hospital_left.csv,title,hospital kiang wu,GivenName_right,title,soo-young (name),0.5715335607528687
+Hospital_left.csv,title,milpark hospital,GivenName_right,title,milica,0.5685705542564392
+Hospital_left.csv,title,bombo hospital,GivenName_right,title,nelofar,0.5672922730445862
+Hospital_left.csv,title,paulton memorial hospital,GivenName_right,title,paulina (given name),0.5665055513381958
+Hospital_left.csv,title,dora nginza hospital,GivenName_right,title,mira (given name),0.5662035942077637
+Hospital_left.csv,title,jorvi hospital,GivenName_right,title,julia,0.565326452255249
+Hospital_left.csv,title,nishtar hospital,GivenName_right,title,dalia (given name),0.5601277351379395
+Hospital_left.csv,title,beechworth asylum,GivenName_right,title,marvin (given name),0.5592688918113708
+Hospital_left.csv,title,the nazareth hospital,GivenName_right,title,joseph,0.5574119091033936
+Hospital_left.csv,title,aizawl adventist hospital,GivenName_right,title,asa (name),0.5560070276260376
+Hospital_left.csv,title,kayts hospital,GivenName_right,title,katherine,0.5551027059555054
+Hospital_left.csv,title,dar al shifaa hospital,GivenName_right,title,farah (name),0.5530006885528564
+Hospital_left.csv,title,hinchingbrooke hospital,GivenName_right,title,hannah (name),0.5525639057159424
+Hospital_left.csv,title,sabbatsbergs sjukhus,GivenName_right,title,schuyler (name),0.5515671968460083
+Hospital_left.csv,title,gartnavel general hospital,GivenName_right,title,gatis,0.5514582395553589
+Hospital_left.csv,title,the christ hospital,GivenName_right,title,faith (name),0.5506892204284668
+Hospital_left.csv,title,bispebjerg hospital,GivenName_right,title,bojan,0.5500409603118896
+Hospital_left.csv,title,danviken hospital,GivenName_right,title,kaede,0.547588586807251
+Hospital_left.csv,title,amami wakoen sanatorium,GivenName_right,title,anupama (given name),0.5466939210891724
+Hospital_left.csv,title,albyn hospital,GivenName_right,title,amos (name),0.546078085899353
+Hospital_left.csv,title,pok oi hospital,GivenName_right,title,oladapo,0.5445175170898438
+Hospital_left.csv,title,hornsby ku-ring-gai hospital,GivenName_right,title,yasmin (given name),0.5419466495513916
+Hospital_left.csv,title,phoebe putney memorial hospital,GivenName_right,title,tess (given name),0.5400406718254089
+Hospital_left.csv,title,estrella hospital,GivenName_right,title,michele,0.5395547151565552
+Hospital_left.csv,title,bryce hospital,GivenName_right,title,brooke (name),0.5382872819900513
+Hospital_left.csv,title,richmond hospital,GivenName_right,title,rei (given name),0.5375074148178101
+Hospital_left.csv,title,horton general hospital,GivenName_right,title,hayley (given name),0.5366804599761963
+Hospital_left.csv,title,hospital pantai mutiara,GivenName_right,title,enn,0.5359790921211243
+Hospital_left.csv,title,st emlyn's,GivenName_right,title,llewellyn (name),0.5358560681343079
+Hospital_left.csv,title,kilinochchi hospital,GivenName_right,title,haruchika (given name),0.5353432893753052
+Hospital_left.csv,title,jarvis hospital,GivenName_right,title,vivian (given name),0.5349888205528259
+Hospital_left.csv,title,labette health,GivenName_right,title,lyfing,0.5329062938690186
+Hospital_left.csv,title,thomas embling hospital,GivenName_right,title,tom (given name),0.5314933657646179
+Hospital_left.csv,title,jester iv unit,GivenName_right,title,padraic,0.5313984155654907
+Hospital_left.csv,title,st. joseph's regional medical center,GivenName_right,title,joseph (name),0.5306934118270874
+Hospital_left.csv,title,assaf harofeh medical center,GivenName_right,title,asad (name),0.5300954580307007
+Hospital_left.csv,title,salford royal,GivenName_right,title,william (given name),0.5284608006477356
+Hospital_left.csv,title,abington memorial hospital,GivenName_right,title,abid (name),0.5277634263038635
+Hospital_left.csv,title,hoshizuka keiaien sanatorium,GivenName_right,title,hana (name),0.5276209712028503
+Hospital_left.csv,title,west park hospital,GivenName_right,title,ellen,0.5268188714981079
+Hospital_left.csv,title,gracie square hospital,GivenName_right,title,graciela (disambiguation),0.5262480974197388
+Hospital_left.csv,title,danbury hospital,GivenName_right,title,daniel,0.5261170864105225
+Hospital_left.csv,title,umlamli hospital,GivenName_right,title,uldis,0.5257952809333801
+Hospital_left.csv,title,le bonheur children's hospital,GivenName_right,title,madeleine (name),0.5241652131080627
+Hospital_left.csv,title,vavuniya hospital,GivenName_right,title,priya (given name),0.5230449438095093
+Hospital_left.csv,title,sassoon hospital,GivenName_right,title,sandy (given name),0.5208465456962585
+Hospital_left.csv,title,bambisana hospital,GivenName_right,title,fatima (name),0.5196753144264221
+Hospital_left.csv,title,alice ho miu ling nethersole hospital,GivenName_right,title,aisling (name),0.5192544460296631
+Hospital_left.csv,title,barwon health,GivenName_right,title,banu,0.5179172158241272
+Hospital_left.csv,title,pukeora sanatorium,GivenName_right,title,ljubica,0.516723096370697
+Hospital_left.csv,title,lozenetz hospital,GivenName_right,title,zvonimir,0.5157702565193176
+Hospital_left.csv,title,baptist health,GivenName_right,title,verity,0.5117448568344116
+Hospital_left.csv,title,kibuli hospital,GivenName_right,title,kalina (name),0.5113325119018555
+Hospital_left.csv,title,caton merchant house,GivenName_right,title,leonie,0.5100203156471252
+Hospital_left.csv,title,selly oak hospital,GivenName_right,title,jerry (given name),0.5090705156326294
+Hospital_left.csv,title,greaves hall,GivenName_right,title,domagoj (given name),0.5082619190216064
+Hospital_left.csv,title,st philip's hospital,GivenName_right,title,pia (given name),0.508136510848999
+Hospital_left.csv,title,miyako nanseien sanatorium,GivenName_right,title,takeru (name),0.5076979398727417
+Hospital_left.csv,title,kitojo hospital,GivenName_right,title,keon,0.5070159435272217
+Hospital_left.csv,title,floreasca hospital,GivenName_right,title,ludovica,0.5046128630638123
+Hospital_left.csv,title,khoo teck puat hospital,GivenName_right,title,tawfik,0.49957817792892456
+Hospital_left.csv,title,cheddikulam hospital,GivenName_right,title,ctirad,0.49839526414871216
+Hospital_left.csv,title,jehangir hospital,GivenName_right,title,ranald,0.49834883213043213
+Hospital_left.csv,title,lachine hospital,GivenName_right,title,laimonis,0.49757152795791626
+Hospital_left.csv,title,sunbury asylum,GivenName_right,title,sophie (given name),0.49691468477249146
+Hospital_left.csv,title,john hunter hospital,GivenName_right,title,jeffrey (name),0.4966367483139038
+Hospital_left.csv,title,craig hospital,GivenName_right,title,anthony (name),0.49632662534713745
+Hospital_left.csv,title,jackson memorial hospital,GivenName_right,title,michelle (name),0.49560585618019104
+Hospital_left.csv,title,hadassah medical center,GivenName_right,title,zakiah,0.4954894781112671
+Hospital_left.csv,title,maimonides medical center,GivenName_right,title,modris,0.49481552839279175
+Hospital_left.csv,title,ruby hall clinic,GivenName_right,title,coralie,0.49131086468696594
+Hospital_left.csv,title,ben taub general hospital,GivenName_right,title,bram (given name),0.49126386642456055
+Hospital_left.csv,title,almas hospital,GivenName_right,title,alexis,0.4888736605644226
+Hospital_left.csv,title,arnold lodge,GivenName_right,title,cadwallader,0.4875854253768921
+Hospital_left.csv,title,harold wood hospital,GivenName_right,title,stanley (name),0.48340287804603577
+Hospital_left.csv,title,simi valley hospital,GivenName_right,title,veronica (name),0.483323872089386
+Hospital_left.csv,title,swedish medical center,GivenName_right,title,gun (swedish name),0.4826328754425049
+Hospital_left.csv,title,tohoku shinseien sanatorium,GivenName_right,title,sora (japanese given name),0.4824913442134857
+Hospital_left.csv,title,frank r. howard memorial hospital,GivenName_right,title,roosevelt (name),0.48077279329299927
+Hospital_left.csv,title,kirkwood hospice,GivenName_right,title,leonard,0.4801270067691803
+Hospital_left.csv,title,amager hospital,GivenName_right,title,arif (given name),0.4799914062023163
+Hospital_left.csv,title,hvidovre hospital,GivenName_right,title,dobroslav,0.4773562550544739
+Hospital_left.csv,title,tameside general hospital,GivenName_right,title,merwin,0.4759483337402344
+Hospital_left.csv,title,manarom hospital,GivenName_right,title,alexandru,0.47477787733078003
+Hospital_left.csv,title,upmc hamot,GivenName_right,title,ziemowit,0.47292637825012207
+Hospital_left.csv,title,jamestown hospital,GivenName_right,title,fanny (name),0.46965059638023376
+Hospital_left.csv,title,sutherland hospital,GivenName_right,title,brianna,0.4680325984954834
+Hospital_left.csv,title,madwaleni hospital,GivenName_right,title,damayanti (disambiguation),0.4667721390724182
+Hospital_left.csv,title,xavier hospital,GivenName_right,title,calvin (name),0.4645164906978607
+Hospital_left.csv,title,spynie hospital,GivenName_right,title,miley (given name),0.4619560241699219
+Hospital_left.csv,title,turku university hospital,GivenName_right,title,bora (turkish name),0.45996516942977905
+Hospital_left.csv,title,chung-ho memorial hospital,GivenName_right,title,lee (english given name),0.4599282741546631
+Hospital_left.csv,title,paradise valley hospital,GivenName_right,title,cory,0.45803797245025635
+Hospital_left.csv,title,gorgas hospital,GivenName_right,title,gita (given name),0.45677924156188965
+Hospital_left.csv,title,ludlow hospital,GivenName_right,title,lubomir,0.4503698945045471
+Hospital_left.csv,title,wellstar kennestone hospital,GivenName_right,title,dustin (name),0.44669753313064575
+Hospital_left.csv,title,american hospital of paris,GivenName_right,title,parisa (disambiguation),0.44483619928359985
+Hospital_left.csv,title,hospital del divino salvador,GivenName_right,title,juanfran (disambiguation),0.4374105930328369
+Hospital_left.csv,title,westmoreland lock hospital,GivenName_right,title,kanye (name),0.4331969618797302
+Hospital_left.csv,title,abbasi shaheed hospital,GivenName_right,title,shahrokh (mythical bird),0.4313381612300873
+Hospital_left.csv,title,shima hospital,GivenName_right,title,sania (disambiguation),0.4296490550041199
+Hospital_left.csv,title,hatyai hospital,GivenName_right,title,raizo,0.4272415339946747
+Hospital_left.csv,title,jaseng hospital of oriental medicine,GivenName_right,title,hannu (disambiguation),0.4231950640678406
+Hospital_left.csv,title,box hill hospital,GivenName_right,title,casper,0.41935494542121887
+Hospital_left.csv,title,st audry's hospital,GivenName_right,title,adele,0.41132184863090515
+Hospital_left.csv,title,bahrain royal medical services,GivenName_right,title,bita (persian),0.411162793636322
+Hospital_left.csv,title,swedish covenant hospital,GivenName_right,title,hjalmar (disambiguation),0.40313124656677246
+Hospital_left.csv,title,broomfield hospital,GivenName_right,title,travis,0.40072518587112427
+Hospital_left.csv,title,st john of god subiaco hospital,GivenName_right,title,raffaello (disambiguation),0.35678523778915405
+Hospital_left.csv,title,king fahd medical city,GivenName_right,title,faiz (disambiguation),0.35203397274017334
+Hospital_left.csv,title,asian heart institute,GivenName_right,title,hideyoshi (disambiguation),0.34249746799468994

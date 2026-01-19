@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Wrestler_left.csv,title,tiny the terrible,Wrestler_right,title,tiny the terrible,1.000000238418579
+Wrestler_left.csv,title,kim gwang-seok (wrestler),Wrestler_right,title,kim gwang-seok (wrestler),1.0
+Wrestler_left.csv,title,dewayne bruce,Wrestler_right,title,dewayne bruce,1.0
+Wrestler_left.csv,title,"chavo guerrero, sr.",Wrestler_right,title,chavo guerrero sr.,0.9937736988067627
+Wrestler_left.csv,title,"zack sabre, jr.",Wrestler_right,title,zack sabre jr.,0.9937151074409485
+Wrestler_left.csv,title,"chavo guerrero, jr.",Wrestler_right,title,chavo guerrero jr.,0.9911526441574097
+Wrestler_left.csv,title,"bobby duncum, sr.",Wrestler_right,title,bobby duncum sr.,0.9909875392913818
+Wrestler_left.csv,title,"dr. wagner, jr.",Wrestler_right,title,dr. wagner jr.,0.9905723333358765
+Wrestler_left.csv,title,"karloff lagarde, jr.",Wrestler_right,title,karloff lagarde jr.,0.988561749458313
+Wrestler_left.csv,title,"tiger conway, sr.",Wrestler_right,title,tiger conway sr.,0.987351655960083
+Wrestler_left.csv,title,"perro aguayo, jr.",Wrestler_right,title,perro aguayo jr.,0.9865877628326416
+Wrestler_left.csv,title,great sasuke,Wrestler_right,title,the great sasuke,0.9854868650436401
+Wrestler_left.csv,title,"rayo de jalisco, sr.",Wrestler_right,title,rayo de jalisco sr.,0.9849421977996826
+Wrestler_left.csv,title,"blue demon, jr.",Wrestler_right,title,blue demon jr.,0.9843099117279053
+Wrestler_left.csv,title,lee wang pyo,Wrestler_right,title,lee wang-pyo,0.9807933568954468
+Wrestler_left.csv,title,"sicodelico, jr.",Wrestler_right,title,sicodelico jr.,0.9724040031433105
+Wrestler_left.csv,title,uk kid,Wrestler_right,title,the uk kid,0.9484329223632812
+Wrestler_left.csv,title,ted dibiase,Wrestler_right,title,ted dibiase jr.,0.943724513053894
+Wrestler_left.csv,title,leon (wrestler),Wrestler_right,title,leon (japanese wrestler),0.930546760559082
+Wrestler_left.csv,title,jon hugger,Wrestler_right,title,john hugger,0.9300158023834229
+Wrestler_left.csv,title,georg hackenschmidt,Wrestler_right,title,george hackenschmidt,0.9272115230560303
+Wrestler_left.csv,title,la parka ii,Wrestler_right,title,la parka,0.9261959791183472
+Wrestler_left.csv,title,randy orton,Wrestler_right,title,bob orton jr.,0.898725152015686
+Wrestler_left.csv,title,bill wiles,Wrestler_right,title,billy wiles,0.8944462537765503
+Wrestler_left.csv,title,el texano,Wrestler_right,title,el texano jr.,0.8928076028823853
+Wrestler_left.csv,title,eddie creatchman,Wrestler_right,title,eddy creatchman,0.8927578926086426
+Wrestler_left.csv,title,scott hudson (wrestling commentator),Wrestler_right,title,scott hudson (commentator),0.8912906646728516
+Wrestler_left.csv,title,dory funk,Wrestler_right,title,dory funk jr.,0.8900938034057617
+Wrestler_left.csv,title,wagner brown,Wrestler_right,title,slyck wagner brown,0.8859124183654785
+Wrestler_left.csv,title,kevin sullivan (wrestler),Wrestler_right,title,dave sullivan (wrestler),0.8838459253311157
+Wrestler_left.csv,title,takashi ishikawa,Wrestler_right,title,takashi iizuka,0.8750208616256714
+Wrestler_left.csv,title,takahiro suwa,Wrestler_right,title,hiroshi takizawa,0.8708895444869995
+Wrestler_left.csv,title,mikhail ivanov (wrestler),Wrestler_right,title,vladimir petrov (wrestler),0.8693079352378845
+Wrestler_left.csv,title,misterioso (wrestler),Wrestler_right,title,misterioso jr.,0.8669809103012085
+Wrestler_left.csv,title,julio estrada (wrestler),Wrestler_right,title,francisco flores (wrestling),0.8650464415550232
+Wrestler_left.csv,title,j-dawg,Wrestler_right,title,j-dawg (wrestler),0.86328125
+Wrestler_left.csv,title,mahmoud hassan,Wrestler_right,title,hassan madani,0.8588393330574036
+Wrestler_left.csv,title,takeshi morishima,Wrestler_right,title,atsushi maruyama,0.8577243089675903
+Wrestler_left.csv,title,ed whalen,Wrestler_right,title,ed whalen (broadcaster),0.856593132019043
+Wrestler_left.csv,title,tokibayama toshio,Wrestler_right,title,tokuo sawada,0.8553345203399658
+Wrestler_left.csv,title,mohamed nakdali,Wrestler_right,title,mohamed paziraie,0.8533990383148193
+Wrestler_left.csv,title,steve bradley,Wrestler_right,title,jeff bradley,0.8528878092765808
+Wrestler_left.csv,title,michael smith (wrestler),Wrestler_right,title,j.t. smith (wrestler),0.8502905368804932
+Wrestler_left.csv,title,ray stevens (wrestler),Wrestler_right,title,aaron stevens (wrestler),0.8476859331130981
+Wrestler_left.csv,title,becky bayless,Wrestler_right,title,becky lynch,0.8472943305969238
+Wrestler_left.csv,title,anastasija grigorjeva,Wrestler_right,title,anatoli beloglazov,0.8456835746765137
+Wrestler_left.csv,title,rick wilson (wrestler),Wrestler_right,title,ryan wilson (wrestler),0.8455576300621033
+Wrestler_left.csv,title,konstantin aleksandrov,Wrestler_right,title,boris zhukov,0.8446581363677979
+Wrestler_left.csv,title,kasugafuji akihiro,Wrestler_right,title,kaoru matsumoto,0.8410330414772034
+Wrestler_left.csv,title,fred curry (wrestler),Wrestler_right,title,fred curry jr.,0.8405083417892456
+Wrestler_left.csv,title,gordon smith (wrestler),Wrestler_right,title,gordon mackay (wrestler),0.8400901556015015
+Wrestler_left.csv,title,alex pourteau,Wrestler_right,title,alex porteau,0.8385181427001953
+Wrestler_left.csv,title,sheik ali,Wrestler_right,title,the sheik ii,0.8333780169487
+Wrestler_left.csv,title,jaden (wrestler),Wrestler_right,title,jaden,0.8326908349990845
+Wrestler_left.csv,title,tony jones (wrestler),Wrestler_right,title,tony parisi (wrestler),0.8321665525436401
+Wrestler_left.csv,title,masato yoshino,Wrestler_right,title,hiro matsuda,0.8307748436927795
+Wrestler_left.csv,title,fujinokawa takeo,Wrestler_right,title,hayato fujita,0.830742597579956
+Wrestler_left.csv,title,amarjit singh,Wrestler_right,title,gama singh,0.8303875923156738
+Wrestler_left.csv,title,tommy lee jones (wrestler),Wrestler_right,title,tommy rogers (wrestler),0.8281552791595459
+Wrestler_left.csv,title,michael hayes (wrestler),Wrestler_right,title,michael cole (wrestling),0.8280901908874512
+Wrestler_left.csv,title,fujiazuma kazuyoshi,Wrestler_right,title,kazma sakamoto,0.8269244432449341
+Wrestler_left.csv,title,rocky johnson,Wrestler_right,title,rocky king,0.8264708518981934
+Wrestler_left.csv,title,stukita,Wrestler_right,title,stuka jr.,0.8255345225334167
+Wrestler_left.csv,title,dino bravo,Wrestler_right,title,dino casanova,0.8214559555053711
+Wrestler_left.csv,title,daniel garcia soto,Wrestler_right,title,anthony garcia,0.8177831172943115
+Wrestler_left.csv,title,melanie cruise,Wrestler_right,title,melanie cruise (wrestler),0.8160704374313354
+Wrestler_left.csv,title,matt bentley,Wrestler_right,title,matt knowles,0.8159559965133667
+Wrestler_left.csv,title,saeid abdevali,Wrestler_right,title,mustafa saed,0.8159112930297852
+Wrestler_left.csv,title,nobuo yoshihashi,Wrestler_right,title,yoshi-hashi,0.8152631521224976
+Wrestler_left.csv,title,kohei sato,Wrestler_right,title,shu sato & kei sato,0.8143758773803711
+Wrestler_left.csv,title,julio dinero,Wrestler_right,title,d'angelo dinero,0.8116292953491211
+Wrestler_left.csv,title,tito santana,Wrestler_right,title,ricky santana,0.8115947246551514
+Wrestler_left.csv,title,ron fuller (wrestler),Wrestler_right,title,ron bass (wrestler),0.8113940358161926
+Wrestler_left.csv,title,kaoru (wrestler),Wrestler_right,title,kazarian (wrestler),0.8092315196990967
+Wrestler_left.csv,title,gory guerrero,Wrestler_right,title,gran guerrero,0.8084225654602051
+Wrestler_left.csv,title,robert nihon,Wrestler_right,title,robert roode,0.8077166080474854
+Wrestler_left.csv,title,dean ambrose,Wrestler_right,title,dean ho (wrestler),0.8072144985198975
+Wrestler_left.csv,title,brian pillman,Wrestler_right,title,brian christopher,0.8006765842437744
+Wrestler_left.csv,title,ricardo rodriguez (wrestler),Wrestler_right,title,guerrero maya jr.,0.8002581596374512
+Wrestler_left.csv,title,danny doring,Wrestler_right,title,danny burch,0.8001677989959717
+Wrestler_left.csv,title,melina perez,Wrestler_right,title,gilberto melendez,0.7982327938079834
+Wrestler_left.csv,title,kazushige nosawa,Wrestler_right,title,nobuhiko oshima,0.7977147698402405
+Wrestler_left.csv,title,haguroiwa tomomi,Wrestler_right,title,touru ito,0.7953922748565674
+Wrestler_left.csv,title,igor grabovetchi,Wrestler_right,title,jedrek grabowski,0.7938858270645142
+Wrestler_left.csv,title,"ricky steamboat, jr.",Wrestler_right,title,sammy steamboat,0.7929326295852661
+Wrestler_left.csv,title,pat o'connor (wrestler),Wrestler_right,title,pat barrett (wrestler),0.7914673089981079
+Wrestler_left.csv,title,lita (wrestler),Wrestler_right,title,paige (wrestler),0.7909080386161804
+Wrestler_left.csv,title,jack evans,Wrestler_right,title,jack evans (wrestler),0.7899783849716187
+Wrestler_left.csv,title,igor kanygin,Wrestler_right,title,oleksandr kolchynskiy,0.788056492805481
+Wrestler_left.csv,title,jun kasai,Wrestler_right,title,teijo khan,0.7873279452323914
+Wrestler_left.csv,title,ivan putski,Wrestler_right,title,ivan bogdan,0.7865336537361145
+Wrestler_left.csv,title,bill verna,Wrestler_right,title,bill dannenhauer,0.7860238552093506
+Wrestler_left.csv,title,mosh (wrestler),Wrestler_right,title,mo (wrestler),0.7860139608383179
+Wrestler_left.csv,title,vakhtang balavadze,Wrestler_right,title,byambajav ulambayaryn,0.7854524850845337
+Wrestler_left.csv,title,kirby mack,Wrestler_right,title,rodney mack,0.7851476669311523
+Wrestler_left.csv,title,romeo roselli,Wrestler_right,title,kid romeo,0.784965991973877
+Wrestler_left.csv,title,horus (wrestler),Wrestler_right,title,tyrus (wrestler),0.7848228216171265
+Wrestler_left.csv,title,shawn mcgrath,Wrestler_right,title,shawn spears,0.7845677137374878
+Wrestler_left.csv,title,arn anderson,Wrestler_right,title,c.w. anderson,0.7845135927200317
+Wrestler_left.csv,title,steve robinson (wrestler),Wrestler_right,title,steve simpson (wrestler),0.784318208694458
+Wrestler_left.csv,title,tommy rich,Wrestler_right,title,tommy mercer,0.7838566303253174
+Wrestler_left.csv,title,mima shimoda,Wrestler_right,title,suwama,0.7820994853973389
+Wrestler_left.csv,title,matt stryker,Wrestler_right,title,matt morgan,0.7820882201194763
+Wrestler_left.csv,title,bill white (wrestler),Wrestler_right,title,bill irwin (wrestler),0.7806687951087952
+Wrestler_left.csv,title,chris masters,Wrestler_right,title,chris champion,0.7798513174057007
+Wrestler_left.csv,title,adolfo tapia,Wrestler_right,title,adolfo bermudez,0.7791404128074646
+Wrestler_left.csv,title,doug basham,Wrestler_right,title,doug flex,0.7783097624778748
+Wrestler_left.csv,title,jordan mccoll,Wrestler_right,title,jay bradley,0.7772759199142456
+Wrestler_left.csv,title,todd bradford,Wrestler_right,title,todd passmore,0.7770382165908813
+Wrestler_left.csv,title,nick gulas,Wrestler_right,title,nick aldis,0.7760589122772217
+Wrestler_left.csv,title,marty wright,Wrestler_right,title,mr. scott wright,0.7757399082183838
+Wrestler_left.csv,title,john yurmet,Wrestler_right,title,john kinsela,0.7755300998687744
+Wrestler_left.csv,title,ricky rickard,Wrestler_right,title,rick williams,0.7755008935928345
+Wrestler_left.csv,title,jonathan ellis (wrestler),Wrestler_right,title,jonathan ayala (wrestler),0.7754124999046326
+Wrestler_left.csv,title,el ligero,Wrestler_right,title,el soberano,0.7748231291770935
+Wrestler_left.csv,title,john richmond (wrestler),Wrestler_right,title,ken johnson (wrestling),0.7742489576339722
+Wrestler_left.csv,title,ghulam dastagir,Wrestler_right,title,ghulam dastagir (wrestler),0.7735432386398315
+Wrestler_left.csv,title,chris jericho,Wrestler_right,title,kevin owens,0.7733792066574097
+Wrestler_left.csv,title,victor dolipschi,Wrestler_right,title,eddy dorozowsky,0.7733560800552368
+Wrestler_left.csv,title,melissa bellin,Wrestler_right,title,brooke tessmacher,0.7723957896232605
+Wrestler_left.csv,title,aleksander chekov,Wrestler_right,title,aleksander chekov (wrestler),0.7722030282020569
+Wrestler_left.csv,title,john armitt (wrestler),Wrestler_right,title,john cutler (wrestler),0.7716832160949707
+Wrestler_left.csv,title,lodi (wrestler),Wrestler_right,title,lollipop (wrestler),0.7694448828697205
+Wrestler_left.csv,title,stan lane,Wrestler_right,title,tommy lane,0.7689395546913147
+Wrestler_left.csv,title,ricky vega,Wrestler_right,title,ricky ortiz,0.768929123878479
+Wrestler_left.csv,title,swede hanson (wrestler),Wrestler_right,title,lars anderson (wrestler),0.7685111165046692
+Wrestler_left.csv,title,brazo de oro (wrestler),Wrestler_right,title,joe bravo (wrestler),0.7684996128082275
+Wrestler_left.csv,title,monty brown,Wrestler_right,title,monty sopp,0.768346905708313
+Wrestler_left.csv,title,tim woods,Wrestler_right,title,xavier woods,0.7677603960037231
+Wrestler_left.csv,title,gerhard weisenberger,Wrestler_right,title,saul weingeroff,0.7676869034767151
+Wrestler_left.csv,title,kana (wrestler),Wrestler_right,title,hayabusa (wrestler),0.7674991488456726
+Wrestler_left.csv,title,ilie matei,Wrestler_right,title,iliya mate,0.7651757001876831
+Wrestler_left.csv,title,vakhtang blagidze,Wrestler_right,title,byambajav ulambayar,0.7650666832923889
+Wrestler_left.csv,title,puma king,Wrestler_right,title,puma (luchador),0.7650659084320068
+Wrestler_left.csv,title,robert anthony,Wrestler_right,title,anthony michaels,0.7645934820175171
+Wrestler_left.csv,title,manny fernandez (wrestler),Wrestler_right,title,hernandez (wrestler),0.7637250423431396
+Wrestler_left.csv,title,ashley massaro,Wrestler_right,title,donna adamo,0.7633943557739258
+Wrestler_left.csv,title,magnus (luchador),Wrestler_right,title,viscera (wrestler),0.7632732391357422
+Wrestler_left.csv,title,christina crawford (wrestler),Wrestler_right,title,charlotte (wrestler),0.7627553939819336
+Wrestler_left.csv,title,steve rizzono,Wrestler_right,title,alex rizzo,0.7626367807388306
+Wrestler_left.csv,title,shawn stasiak,Wrestler_right,title,shawn osborne,0.7611234188079834
+Wrestler_left.csv,title,tony salazar,Wrestler_right,title,david sierra,0.7608770132064819
+Wrestler_left.csv,title,magnus (wrestler),Wrestler_right,title,mark magnus,0.7607280611991882
+Wrestler_left.csv,title,adam cole,Wrestler_right,title,adam rose,0.7603654265403748
+Wrestler_left.csv,title,wladek zbyszko,Wrestler_right,title,boby zavala,0.7595397233963013
+Wrestler_left.csv,title,mike hallick,Wrestler_right,title,mike polchlopek,0.7594875693321228
+Wrestler_left.csv,title,niles young,Wrestler_right,title,darren young,0.7592960596084595
+Wrestler_left.csv,title,ricky marvin,Wrestler_right,title,marvin lambert,0.759159505367279
+Wrestler_left.csv,title,black buffalo (wrestler),Wrestler_right,title,black bart (wrestler),0.7588019371032715
+Wrestler_left.csv,title,eddie edwards (wrestler),Wrestler_right,title,don owen (wrestling),0.7578216791152954
+Wrestler_left.csv,title,tony garea,Wrestler_right,title,tony borne,0.7574821710586548
+Wrestler_left.csv,title,ricky romero (wrestler),Wrestler_right,title,rico suave (wrestler),0.7567588090896606
+Wrestler_left.csv,title,tommy chesbro,Wrestler_right,title,tommy diablo,0.7555203437805176
+Wrestler_left.csv,title,jonny storm,Wrestler_right,title,j. w. storm,0.7552660703659058
+Wrestler_left.csv,title,drew mcdonald,Wrestler_right,title,drew galloway,0.7540431022644043
+Wrestler_left.csv,title,jason knight,Wrestler_right,title,jason the terrible,0.7533053159713745
+Wrestler_left.csv,title,zaza turmanidze,Wrestler_right,title,georgi skhirtladze,0.7519081234931946
+Wrestler_left.csv,title,michael depoli,Wrestler_right,title,michael brendli,0.7517822980880737
+Wrestler_left.csv,title,alberto del rio,Wrestler_right,title,antonio cesaro,0.7514424324035645
+Wrestler_left.csv,title,brian mailhot,Wrestler_right,title,brian wohl,0.7511242032051086
+Wrestler_left.csv,title,al perez,Wrestler_right,title,rayo de jalisco jr.,0.7504828572273254
+Wrestler_left.csv,title,ms-1 (wrestler),Wrestler_right,title,a-1 (wrestler),0.7503894567489624
+Wrestler_left.csv,title,jackie sato,Wrestler_right,title,jackie fulton,0.7494316697120667
+Wrestler_left.csv,title,m.c.kz,Wrestler_right,title,kzy,0.7490369081497192
+Wrestler_left.csv,title,suicide (character),Wrestler_right,title,suicide (wrestling),0.7478411793708801
+Wrestler_left.csv,title,onyx (wrestler),Wrestler_right,title,ares (wrestler),0.7473921775817871
+Wrestler_left.csv,title,mike bell (wrestler),Wrestler_right,title,michael bennett (wrestler),0.7473244667053223
+Wrestler_left.csv,title,stevie richards,Wrestler_right,title,stevie ray,0.7455390691757202
+Wrestler_left.csv,title,sean casey (wrestler),Wrestler_right,title,brian lee (wrestler),0.7443288564682007
+Wrestler_left.csv,title,chris sabin,Wrestler_right,title,christopher bauman,0.7429328560829163
+Wrestler_left.csv,title,johnny barend,Wrestler_right,title,johnny hotbody,0.7420767545700073
+Wrestler_left.csv,title,chris andrews (wrestler),Wrestler_right,title,cris brown (wrestler),0.741553008556366
+Wrestler_left.csv,title,kurt hornfischer,Wrestler_right,title,kurt von hess,0.7410147190093994
+Wrestler_left.csv,title,gail kim,Wrestler_right,title,kim jae-gang,0.7408150434494019
+Wrestler_left.csv,title,bart sawyer,Wrestler_right,title,brett sawyer,0.739689290523529
+Wrestler_left.csv,title,nick busick,Wrestler_right,title,big bully busick,0.7386177778244019
+Wrestler_left.csv,title,kurohimeyama hideo,Wrestler_right,title,givi kartoziya,0.7375901937484741
+Wrestler_left.csv,title,jay lethal,Wrestler_right,title,kenny jay,0.7365039587020874
+Wrestler_left.csv,title,akio sato (wrestler),Wrestler_right,title,muhammad hassan (wrestler),0.7363563776016235
+Wrestler_left.csv,title,kazma (wrestler),Wrestler_right,title,kalisto (wrestler),0.7360990047454834
+Wrestler_left.csv,title,buzz tyler,Wrestler_right,title,tyler breeze,0.7360771894454956
+Wrestler_left.csv,title,ezekiel jackson,Wrestler_right,title,jackson andrews,0.735688328742981
+Wrestler_left.csv,title,michael grundy,Wrestler_right,title,michael hutter,0.7353185415267944
+Wrestler_left.csv,title,barry orton,Wrestler_right,title,bray wyatt,0.7352226972579956
+Wrestler_left.csv,title,pat buck,Wrestler_right,title,pat kenney,0.7350066900253296
+Wrestler_left.csv,title,vladimir kozlov,Wrestler_right,title,karl istaz,0.7346979975700378
+Wrestler_left.csv,title,red berry (wrestler),Wrestler_right,title,cherry (wrestler),0.7341328263282776
+Wrestler_left.csv,title,daniel rodimer,Wrestler_right,title,daniel briley,0.733781635761261
+Wrestler_left.csv,title,shian-li tsang,Wrestler_right,title,cha kwang-su,0.7335169315338135
+Wrestler_left.csv,title,tamie sheffield,Wrestler_right,title,traci brooks,0.7320339679718018
+Wrestler_left.csv,title,victor mar manuel,Wrestler_right,title,emilio charles jr.,0.7316473722457886
+Wrestler_left.csv,title,james dudley,Wrestler_right,title,"joseph james, jr.",0.7310613393783569
+Wrestler_left.csv,title,maxine (wrestler),Wrestler_right,title,jennifer thomas (wrestler),0.7271380424499512
+Wrestler_left.csv,title,jack gallagher (wrestler),Wrestler_right,title,outback jack (wrestler),0.7269730567932129
+Wrestler_left.csv,title,mohammad bana,Wrestler_right,title,muhammad yone,0.72629314661026
+Wrestler_left.csv,title,taylor matheny,Wrestler_right,title,taylor wilde,0.7262378931045532
+Wrestler_left.csv,title,ric converse,Wrestler_right,title,ric savage,0.7261326909065247
+Wrestler_left.csv,title,earl black (wrestler),Wrestler_right,title,black cat (wrestler),0.7249759435653687
+Wrestler_left.csv,title,killer karl kox,Wrestler_right,title,killer kyle,0.7248712778091431
+Wrestler_left.csv,title,joe acton,Wrestler_right,title,joe e. legend,0.7248387336730957

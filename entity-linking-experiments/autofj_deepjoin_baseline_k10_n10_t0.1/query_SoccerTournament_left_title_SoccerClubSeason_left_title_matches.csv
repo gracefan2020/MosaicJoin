@@ -1,0 +1,15 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerTournament_left.csv,title,2008 Singapore Cup,SoccerClubSeason_left.csv,title,2008 Singapore Armed Forces FC season,0.764
+SoccerTournament_left.csv,title,2010 Dallas Cup,SoccerClubSeason_left.csv,title,2010 FC Dallas season,0.764
+SoccerTournament_left.csv,title,2011 Dallas Cup,SoccerClubSeason_left.csv,title,2011 FC Dallas season,0.764
+SoccerTournament_left.csv,title,2011 Uzbekistan Cup,SoccerClubSeason_left.csv,title,2011 Uzbekistan national football team results,0.764
+SoccerTournament_left.csv,title,Edmonton Cup,SoccerClubSeason_left.csv,title,2011 FC Edmonton season,0.764
+SoccerTournament_left.csv,title,2012 Dallas Cup,SoccerClubSeason_left.csv,title,2012 FC Dallas season,0.764
+SoccerTournament_left.csv,title,2011 FK Cup,SoccerClubSeason_left.csv,title,2011 Molde FK season,0.764
+SoccerTournament_left.csv,title,2012 Uzbekistan Cup,SoccerClubSeason_left.csv,title,2012 Uzbekistan national football team results,0.764
+SoccerTournament_left.csv,title,2012 Tajik Cup,SoccerClubSeason_left.csv,title,2012 Tajikistan national football team results,0.764
+SoccerTournament_left.csv,title,Edmonton Cup,SoccerClubSeason_left.csv,title,2012 FC Edmonton season,0.764
+SoccerTournament_left.csv,title,2010 FK Cup,SoccerClubSeason_left.csv,title,2010 Molde FK season,0.764
+SoccerTournament_left.csv,title,2013 Dallas Cup,SoccerClubSeason_left.csv,title,2013 FC Dallas season,0.764
+SoccerTournament_left.csv,title,2013 King's Cup,SoccerClubSeason_left.csv,title,2013 Cincinnati Kings season,0.764
+SoccerTournament_left.csv,title,2013 Uzbekistan Cup,SoccerClubSeason_left.csv,title,2013 Uzbekistan national football team results,0.764

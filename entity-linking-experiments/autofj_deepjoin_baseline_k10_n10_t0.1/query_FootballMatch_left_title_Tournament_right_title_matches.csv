@@ -1,0 +1,4 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballMatch_left.csv,title,2011 UEFA European Under-21 Football Championship Final,Tournament_right.csv,title,2011 UEFA European Under-21 Championship,0.7438
+FootballMatch_left.csv,title,2011 FIFA Beach Soccer World Cup Final,Tournament_right.csv,title,2011 FIFA Beach Soccer World Cup qualification (OFC),0.7438
+FootballMatch_left.csv,title,UEFA Euro 2012 Final,Tournament_right.csv,title,UEFA Futsal Euro 2012,0.7438

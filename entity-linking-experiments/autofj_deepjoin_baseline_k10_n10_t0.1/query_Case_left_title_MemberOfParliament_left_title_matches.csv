@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Case_left.csv,title,United States v. Georgia,MemberOfParliament_left.csv,title,George Gear,0.6305

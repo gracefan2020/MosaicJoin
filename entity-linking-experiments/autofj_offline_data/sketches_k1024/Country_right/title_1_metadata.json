@@ -1,0 +1,9 @@
+{
+  "table_name": "Country_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 291,
+  "sketch_k": 291,
+  "processing_time": 0.10643720626831055,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Country_right/title_1.npz"
+}

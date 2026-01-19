@@ -1,0 +1,18 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+TennisTournament_left.csv,title,2000 Tennis Masters Cup,TennisTournament_right.csv,title,2000 Tennis Masters Cup and ATP Tour World Championships,0.8951
+TennisTournament_left.csv,title,2008 Bell Challenge,TennisTournament_right.csv,title,2008 Challenge Bell,0.8951
+TennisTournament_left.csv,title,2009 Bell Challenge,TennisTournament_right.csv,title,2009 Challenge Bell,0.8951
+TennisTournament_left.csv,title,1996 Bell Challenge,TennisTournament_right.csv,title,1996 Challenge Bell,0.8951
+TennisTournament_left.csv,title,1997 Bell Challenge,TennisTournament_right.csv,title,1997 Challenge Bell,0.8951
+TennisTournament_left.csv,title,1998 Bell Challenge,TennisTournament_right.csv,title,1998 Challenge Bell,0.8951
+TennisTournament_left.csv,title,2010 Challenger Banque Nationale,TennisTournament_right.csv,title,2010 Challenger Banque Nationale de Rimouski,0.8951
+TennisTournament_left.csv,title,2010 Bell Challenge,TennisTournament_right.csv,title,2010 Challenge Bell,0.8951
+TennisTournament_left.csv,title,2011 AEGON Championships,TennisTournament_right.csv,title,2011 Aegon Championships,0.8951
+TennisTournament_left.csv,title,2011 AEGON Classic,TennisTournament_right.csv,title,2011 Aegon Classic,0.8951
+TennisTournament_left.csv,title,2011 Bell Challenge,TennisTournament_right.csv,title,2011 Challenge Bell,0.8951
+TennisTournament_left.csv,title,2011 Challenger Banque Nationale de Granby,TennisTournament_right.csv,title,2011 Challenger Banque Nationale de Saguenay,0.8951
+TennisTournament_left.csv,title,2012 AEGON Championships,TennisTournament_right.csv,title,2012 Aegon Championships,0.8951
+TennisTournament_left.csv,title,2012 Bell Challenge,TennisTournament_right.csv,title,2012 Challenge Bell,0.8951
+TennisTournament_left.csv,title,2012 Hansol Korea Open,TennisTournament_right.csv,title,2012 Korea Open,0.8951
+TennisTournament_left.csv,title,2012 AEGON Pro-Series Loughborough,TennisTournament_right.csv,title,2012 Aegon Pro-Series Loughborough,0.8951
+TennisTournament_left.csv,title,2013 Challenger Banque Nationale,TennisTournament_right.csv,title,2013 Challenger Banque Nationale de Rimouski,0.8951

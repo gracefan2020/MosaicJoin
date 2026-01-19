@@ -1,0 +1,11 @@
+{
+  "table_name": "SportFacility_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 6392,
+  "unique_values": 6392,
+  "processed_values": 6392,
+  "embedding_dim": 768,
+  "processing_time": 3.6976351737976074,
+  "file_path": "datasets/autofj_join_benchmark/datalake/SportFacility_left.csv"
+}

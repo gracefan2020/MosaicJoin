@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Drug_left.csv,title,ur-144,Device_left,title,ur-100,0.8516848087310791
+Drug_left.csv,title,brl-52537,Device_left,title,bl755,0.8330543041229248
+Drug_left.csv,title,ms-245,Device_left,title,scr-245,0.8310644626617432
+Drug_left.csv,title,tp-003,Device_left,title,tkb-010,0.8246140480041504
+Drug_left.csv,title,cetilistat,Device_left,title,celurit,0.818831205368042
+Drug_left.csv,title,ozanezumab,Device_left,title,ozm,0.807689905166626
+Drug_left.csv,title,ah-7921,Device_left,title,gaz-3937,0.8062155842781067
+Drug_left.csv,title,tas-108,Device_left,title,trs-80,0.8037838935852051
+Drug_left.csv,title,entacapone,Device_left,title,entac,0.8004934787750244
+Drug_left.csv,title,afdx-384,Device_left,title,amx-40,0.8004239797592163
+Drug_left.csv,title,jwh-081,Device_left,title,fhj 84,0.8000418543815613
+Drug_left.csv,title,ic-26,Device_left,title,t-26,0.7997147440910339
+Drug_left.csv,title,bms-945429,Device_left,title,bm-14,0.798995852470398
+Drug_left.csv,title,ht-0712,Device_left,title,tkb-022pm,0.7936461567878723
+Drug_left.csv,title,otenabant,Device_left,title,otomat,0.7930026650428772
+Drug_left.csv,title,pf-04457845,Device_left,title,p60b40,0.792797327041626
+Drug_left.csv,title,mam-2201,Device_left,title,agm-129 acm,0.792007327079773
+Drug_left.csv,title,bu-48,Device_left,title,cbu-24,0.7919559478759766
+Drug_left.csv,title,zomepirac,Device_left,title,zypad,0.7909345626831055
+Drug_left.csv,title,brl-44408,Device_left,title,l42a1,0.7886794805526733
+Drug_left.csv,title,cx-546,Device_left,title,comx-35,0.7885465621948242
+Drug_left.csv,title,a-41988,Device_left,title,9a-91,0.7880481481552124
+Drug_left.csv,title,sdz ser-082,Device_left,title,sd.kfz. 250,0.7877945899963379
+Drug_left.csv,title,bd1067,Device_left,title,p107,0.7860197424888611
+Drug_left.csv,title,sr-48692,Device_left,title,stg-556,0.7841846942901611
+Drug_left.csv,title,uh-232,Device_left,title,ur-200,0.7840155959129333
+Drug_left.csv,title,jwh-015,Device_left,title,tkb-0146,0.78103107213974
+Drug_left.csv,title,mld-41,Device_left,title,mli-84,0.7806383371353149
+Drug_left.csv,title,jwh-196,Device_left,title,ws-199,0.7805724143981934
+Drug_left.csv,title,jd5037,Device_left,title,vk4501,0.7783045768737793
+Drug_left.csv,title,nalbuphine,Device_left,title,nagmachon,0.7757110595703125
+Drug_left.csv,title,spiraprilat,Device_left,title,splanch,0.7743794918060303
+Drug_left.csv,title,bd1063,Device_left,title,tkb-059,0.7714447975158691
+Drug_left.csv,title,ver-3323,Device_left,title,vk3001p,0.770934522151947
+Drug_left.csv,title,jwh-398,Device_left,title,tkb-408,0.7659805417060852
+Drug_left.csv,title,o-1602,Device_left,title,lar-160,0.7652801275253296
+Drug_left.csv,title,ro10-5824,Device_left,title,rk-55,0.7651111483573914
+Drug_left.csv,title,"bmy-7,378",Device_left,title,82-bm-37,0.7625705003738403
+Drug_left.csv,title,toceranib,Device_left,title,tog2,0.7621281147003174
+Drug_left.csv,title,emedastine,Device_left,title,elefant,0.7594097256660461
+Drug_left.csv,title,jwh-249,Device_left,title,kh-23,0.7586687803268433
+Drug_left.csv,title,gevokizumab,Device_left,title,vezdekhod,0.7586222887039185
+Drug_left.csv,title,u0126,Device_left,title,m830,0.757543683052063
+Drug_left.csv,title,bd1052,Device_left,title,zbd2000,0.7572174072265625
+Drug_left.csv,title,motavizumab,Device_left,title,mambi amr,0.7560001611709595
+Drug_left.csv,title,jwh-161,Device_left,title,qjy-88,0.7551825642585754
+Drug_left.csv,title,aciclovir,Device_left,title,acv-s,0.7536039352416992
+Drug_left.csv,title,fezakinumab,Device_left,title,fukuryu,0.7535914182662964
+Drug_left.csv,title,am-2232,Device_left,title,amr-2,0.7532854676246643
+Drug_left.csv,title,ro4491533,Device_left,title,4fff n618,0.7531300187110901
+Drug_left.csv,title,cinepazide,Device_left,title,cinquedea,0.7525333166122437
+Drug_left.csv,title,elb-139,Device_left,title,tkb-011,0.7522245645523071
+Drug_left.csv,title,prx-08066,Device_left,title,zx81,0.7517324090003967
+Drug_left.csv,title,sabarubicin,Device_left,title,sakb,0.7513587474822998
+Drug_left.csv,title,nelotanserin,Device_left,title,neubaufahrzeug,0.749678373336792
+Drug_left.csv,title,u-50488,Device_left,title,tkb-506,0.7487937808036804
+Drug_left.csv,title,arfendazam,Device_left,title,aruval,0.7475864887237549
+Drug_left.csv,title,valganciclovir,Device_left,title,volkspistole,0.7450978755950928
+Drug_left.csv,title,gts-21,Device_left,title,gsh-18,0.744783341884613
+Drug_left.csv,title,jwh-047,Device_left,title,gw525,0.7439548969268799
+Drug_left.csv,title,"ly-310,762",Device_left,title,ly-60 / fd-60 / pl10,0.7435353994369507
+Drug_left.csv,title,drospirenone,Device_left,title,dreyse m1907,0.7417194843292236
+Drug_left.csv,title,jwh-185,Device_left,title,kh-90,0.7414945363998413
+Drug_left.csv,title,s-18986,Device_left,title,agm-158 jassm,0.7412816286087036
+Drug_left.csv,title,rti-113,Device_left,title,lahti l-39,0.7409001588821411
+Drug_left.csv,title,"cp-809,101",Device_left,title,c-803,0.7397856712341309
+Drug_left.csv,title,cgp-35348,Device_left,title,rg-35,0.7368941307067871
+Drug_left.csv,title,bucindolol,Device_left,title,bulawa,0.7364671230316162
+Drug_left.csv,title,ro48-8684,Device_left,title,zk-383,0.735466718673706
+Drug_left.csv,title,"cp-93,129",Device_left,title,scr-189,0.7348442077636719
+Drug_left.csv,title,efungumab,Device_left,title,efika,0.7345538139343262
+Drug_left.csv,title,2c-b-bzp,Device_left,title,bmp-2,0.7335425615310669
+Drug_left.csv,title,mefenorex,Device_left,title,mexeflote,0.7332623600959778
+Drug_left.csv,title,"pf-219,061",Device_left,title,prb 408,0.7321235537528992
+Drug_left.csv,title,tositumomab,Device_left,title,tog1,0.7309955358505249
+Drug_left.csv,title,litracen,Device_left,title,litl,0.7301356792449951
+Drug_left.csv,title,jwh-302,Device_left,title,jl-2,0.7301121950149536
+Drug_left.csv,title,srt1460,Device_left,title,vrt35,0.7280474901199341
+Drug_left.csv,title,nelarabine,Device_left,title,negcon,0.7268798351287842
+Drug_left.csv,title,olmesartan,Device_left,title,oerlikon kba,0.7264756560325623
+Drug_left.csv,title,valperinol,Device_left,title,valanx,0.7241134643554688
+Drug_left.csv,title,4-ho-dbt,Device_left,title,btr-4,0.7233723402023315
+Drug_left.csv,title,y-23684,Device_left,title,daf yp-408,0.7226448059082031
+Drug_left.csv,title,bnc210,Device_left,title,bwp-2000,0.7224180102348328
+Drug_left.csv,title,s1ra,Device_left,title,pantsir-s1,0.7208751440048218
+Drug_left.csv,title,norvinisterone,Device_left,title,norinco cq,0.7207274436950684
+Drug_left.csv,title,pranlukast,Device_left,title,kanonenjagdpanzer,0.720427393913269
+Drug_left.csv,title,maslimomab,Device_left,title,mesbah 1,0.7183037996292114
+Drug_left.csv,title,"car-226,086",Device_left,title,car-15,0.7177902460098267
+Drug_left.csv,title,guselkumab,Device_left,title,kropatschek,0.7176731824874878
+Drug_left.csv,title,l-ap4,Device_left,title,apav40,0.7173780202865601
+Drug_left.csv,title,sevirumab,Device_left,title,sejjil,0.7168104648590088
+Drug_left.csv,title,styramate,Device_left,title,strela 2,0.7160161137580872
+Drug_left.csv,title,fioricet,Device_left,title,faule grete,0.7159948348999023
+Drug_left.csv,title,vesparax,Device_left,title,vectrex,0.7153339385986328
+Drug_left.csv,title,rti-112,Device_left,title,rbu-1000,0.7145940065383911
+Drug_left.csv,title,rasagiline,Device_left,title,rasit,0.7136831283569336
+Drug_left.csv,title,sc-17599,Device_left,title,scr-108,0.7130348682403564
+Drug_left.csv,title,"ici-190,622",Device_left,title,giat cn120-26/52,0.70819091796875
+Drug_left.csv,title,ro60-0213,Device_left,title,wz551,0.7079464793205261
+Drug_left.csv,title,cck-4,Device_left,title,fmk 9c1,0.7074462175369263
+Drug_left.csv,title,hexylcaine,Device_left,title,helram,0.7072352170944214
+Drug_left.csv,title,nifurtimox,Device_left,title,rm nimbus,0.7072114944458008
+Drug_left.csv,title,traxoprodil,Device_left,title,trf1,0.706618070602417
+Drug_left.csv,title,solanezumab,Device_left,title,soltam m-65,0.7062844038009644
+Drug_left.csv,title,o-1057,Device_left,title,su-85,0.7051292657852173
+Drug_left.csv,title,aviptadil,Device_left,title,nurol ejder,0.7032279968261719
+Drug_left.csv,title,lorbamate,Device_left,title,lov-1,0.7031925916671753
+Drug_left.csv,title,"rs-127,445",Device_left,title,rsm-56 bulava,0.7031399011611938
+Drug_left.csv,title,sabcomeline,Device_left,title,sa80,0.7025810480117798
+Drug_left.csv,title,stavudine,Device_left,title,stridsvagn 103,0.7025249004364014
+Drug_left.csv,title,5-meo-mipt,Device_left,title,bul m-5,0.7024618983268738
+Drug_left.csv,title,fospropofol,Device_left,title,fs-a1wsx,0.7014956474304199
+Drug_left.csv,title,duligotumab,Device_left,title,dukw,0.7006863355636597
+Drug_left.csv,title,seletracetam,Device_left,title,semmerling,0.7006819248199463
+Drug_left.csv,title,raxibacumab,Device_left,title,raad-1,0.7004832029342651
+Drug_left.csv,title,al-34662,Device_left,title,agm-130,0.7004629969596863
+Drug_left.csv,title,3c-p,Device_left,title,rp-3,0.6999425888061523
+Drug_left.csv,title,gadofosveset,Device_left,title,gavilan sc,0.6999132633209229
+Drug_left.csv,title,ocinaplon,Device_left,title,o-i,0.6997900605201721
+Drug_left.csv,title,droperidol,Device_left,title,drop point,0.6997189521789551
+Drug_left.csv,title,talsupram,Device_left,title,asraam,0.6977053880691528
+Drug_left.csv,title,moxaverine,Device_left,title,msx,0.6975497007369995
+Drug_left.csv,title,belimumab,Device_left,title,f b,0.6940441131591797
+Drug_left.csv,title,"ssr-180,711",Device_left,title,ss.10,0.6935345530509949
+Drug_left.csv,title,"l-687,384",Device_left,title,80.002,0.6933548450469971
+Drug_left.csv,title,ganciclovir,Device_left,title,gryazev-shipunov gsh-30-2,0.6928228139877319
+Drug_left.csv,title,indacrinone,Device_left,title,indumil imc-40,0.6924360990524292
+Drug_left.csv,title,"l-733,060",Device_left,title,zil-157,0.6914488077163696
+Drug_left.csv,title,rti-120,Device_left,title,zis-151,0.6913384199142456
+Drug_left.csv,title,"sb-649,915",Device_left,title,ks-23,0.6910193562507629
+Drug_left.csv,title,estropipate,Device_left,title,estdcu,0.6908807754516602
+Drug_left.csv,title,cgp-37849,Device_left,title,rg-34,0.6906881332397461
+Drug_left.csv,title,ivacaftor,Device_left,title,aifv,0.6902196407318115
+Drug_left.csv,title,raltitrexed,Device_left,title,raad-2,0.6900160312652588
+Drug_left.csv,title,ci-988,Device_left,title,wist-94,0.6897863745689392
+Drug_left.csv,title,volinanserin,Device_left,title,volkssturmgewehr 1-5,0.6893356442451477
+Drug_left.csv,title,morinamide,Device_left,title,mersad,0.6890650987625122
+Drug_left.csv,title,ascomycin,Device_left,title,ascod,0.6879500150680542
+Drug_left.csv,title,8-oh-pbzi,Device_left,title,uzi,0.6873987913131714
+Drug_left.csv,title,faxeladol,Device_left,title,famas,0.6864662170410156
+Drug_left.csv,title,lerisetron,Device_left,title,lefaucheux m1858,0.6857229471206665
+Drug_left.csv,title,kelatorphan,Device_left,title,kirpan,0.6847660541534424
+Drug_left.csv,title,bufexamac,Device_left,title,boox,0.6843250393867493
+Drug_left.csv,title,ngd-4715,Device_left,title,mp-445,0.6831669807434082
+Drug_left.csv,title,flucindole,Device_left,title,fliegerfaust,0.6828609108924866
+Drug_left.csv,title,ritipenem,Device_left,title,r4m,0.6828495264053345
+Drug_left.csv,title,erlizumab,Device_left,title,mera-elzab meritum,0.6806997656822205
+Drug_left.csv,title,abt-202,Device_left,title,ofab-100-120,0.6798899173736572
+Drug_left.csv,title,tiazesim,Device_left,title,naze'at,0.6796348094940186
+Drug_left.csv,title,pro 140,Device_left,title,tm-170,0.6788088083267212
+Drug_left.csv,title,rti-32,Device_left,title,zis-30,0.6775120496749878
+Drug_left.csv,title,oblimersen,Device_left,title,sturmpanzerwagen oberschlesien,0.6774760484695435
+Drug_left.csv,title,nivolumab,Device_left,title,nimr,0.6773521900177002
+Drug_left.csv,title,odanacatib,Device_left,title,oyumi,0.6767549514770508
+Drug_left.csv,title,snc-80,Device_left,title,t-80,0.6763543486595154
+Drug_left.csv,title,tidiacic,Device_left,title,szczerbiec,0.6749906539916992
+Drug_left.csv,title,doripenem,Device_left,title,doloire,0.6749624013900757
+Drug_left.csv,title,lapatinib,Device_left,title,lapv enok,0.6746020317077637
+Drug_left.csv,title,sulprostone,Device_left,title,spetum,0.6734597682952881
+Drug_left.csv,title,larotaxel,Device_left,title,laffly v15,0.6730109453201294
+Drug_left.csv,title,crenezumab,Device_left,title,cray x-mp,0.6727043390274048
+Drug_left.csv,title,tofisopam,Device_left,title,tos-1,0.6721141338348389
+Drug_left.csv,title,pazinaclone,Device_left,title,zastava m88,0.6703901886940002
+Drug_left.csv,title,"pnu-99,194",Device_left,title,aps-95,0.6694097518920898
+Drug_left.csv,title,tesaglitazar,Device_left,title,amz tur,0.6692904233932495
+Drug_left.csv,title,dimethazan,Device_left,title,amz dzik,0.6683558225631714
+Drug_left.csv,title,clobenpropit,Device_left,title,vdp cloche,0.6680276989936829
+Drug_left.csv,title,isamoltane,Device_left,title,imbel md97,0.6677701473236084
+Drug_left.csv,title,tcs-ox2-29,Device_left,title,c12a1,0.6672513484954834
+Drug_left.csv,title,sargramostim,Device_left,title,sraam,0.6671644449234009
+Drug_left.csv,title,letosteine,Device_left,title,breda folgore,0.6667757034301758
+Drug_left.csv,title,bemegride,Device_left,title,bechowiec-1,0.6667138934135437
+Drug_left.csv,title,5-meo-amt,Device_left,title,m5 mine,0.6665599346160889
+Drug_left.csv,title,adbica,Device_left,title,adgz,0.6663261651992798
+Drug_left.csv,title,"s-14,671",Device_left,title,su-14,0.6660971641540527
+Drug_left.csv,title,am-411,Device_left,title,amr 33,0.6650959253311157
+Drug_left.csv,title,zolmitriptan,Device_left,title,roketsan cirit,0.664156436920166
+Drug_left.csv,title,bortezomib,Device_left,title,borz,0.662908673286438
+Drug_left.csv,title,edaravone,Device_left,title,ee-3 jararaca,0.6628693342208862
+Drug_left.csv,title,metamfepramone,Device_left,title,fmraam,0.6624908447265625
+Drug_left.csv,title,biphalin,Device_left,title,kp-bil,0.6622463464736938
+Drug_left.csv,title,ebalzotan,Device_left,title,bazalt,0.6605879068374634
+Drug_left.csv,title,2-oh-npa,Device_left,title,2b1 oka,0.6604570150375366
+Drug_left.csv,title,entecavir,Device_left,title,namer,0.6599065065383911
+Drug_left.csv,title,fosinopril,Device_left,title,fn fnp,0.6595108509063721
+Drug_left.csv,title,azepindole,Device_left,title,zelzal-2,0.6592410802841187
+Drug_left.csv,title,sep-225289,Device_left,title,sd.kfz. 252,0.6590012311935425
+Drug_left.csv,title,pemtumomab,Device_left,title,ft pgb,0.6587363481521606
+Drug_left.csv,title,mipomersen,Device_left,title,m19 maschinengranatwerfer,0.6586071848869324
+Drug_left.csv,title,ursodiol,Device_left,title,ur-100n,0.6581414937973022
+Drug_left.csv,title,dpi-287,Device_left,title,zcrs-122,0.6570455431938171
+Drug_left.csv,title,rintatolimod,Device_left,title,riscpc,0.6563971042633057
+Drug_left.csv,title,robatumumab,Device_left,title,mbombe,0.6556668877601624
+Drug_left.csv,title,darusentan,Device_left,title,dard 120,0.654700756072998
+Drug_left.csv,title,stamulumab,Device_left,title,stridsvagn 122,0.6545195579528809
+Drug_left.csv,title,moroctocog alfa,Device_left,title,karabin maszynowy obserwatora wz.37,0.6541587710380554
+Drug_left.csv,title,befuraline,Device_left,title,berezin ub,0.6537516117095947
+Drug_left.csv,title,ceftiofur,Device_left,title,hatf-i,0.6536423563957214
+Drug_left.csv,title,7-pet,Device_left,title,pg-7vr,0.6535583734512329

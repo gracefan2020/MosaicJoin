@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerClubSeason_left.csv,title,2001 Omiya Ardija season,SoccerTournament_right.csv,title,2001 UEFA European Under-16 Championship,0.7961

@@ -1,0 +1,11 @@
+{
+  "table_name": "SoccerClubSeason_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 1197,
+  "unique_values": 1197,
+  "processed_values": 1197,
+  "embedding_dim": 768,
+  "processing_time": 0.6965129375457764,
+  "file_path": "datasets/autofj_join_benchmark/datalake/SoccerClubSeason_left.csv"
+}

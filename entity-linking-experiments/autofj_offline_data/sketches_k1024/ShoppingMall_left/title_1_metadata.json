@@ -1,0 +1,9 @@
+{
+  "table_name": "ShoppingMall_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 201,
+  "sketch_k": 201,
+  "processing_time": 0.058823347091674805,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/ShoppingMall_left/title_1.npz"
+}

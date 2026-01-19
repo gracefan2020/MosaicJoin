@@ -1,0 +1,9 @@
+{
+  "table_name": "Tournament_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 4858,
+  "sketch_k": 1024,
+  "processing_time": 6.9070940017700195,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Tournament_left/title_1.npz"
+}

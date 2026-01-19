@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Enzyme_left.csv,title,acrosin,Amphibian_right,title,acris crepitans,0.6799790859222412
+Enzyme_left.csv,title,tryptophanase,Amphibian_right,title,hypogeophis,0.6719725131988525
+Enzyme_left.csv,title,guanidinoacetase,Amphibian_right,title,engystomops guayaco,0.6662300229072571
+Enzyme_left.csv,title,rubisco,Amphibian_right,title,rhadinosteus,0.639060914516449
+Enzyme_left.csv,title,agarase,Amphibian_right,title,gansi caecilian,0.6310955286026001
+Enzyme_left.csv,title,allantoinase,Amphibian_right,title,lyciasalamandra antalyana,0.6224404573440552
+Enzyme_left.csv,title,chorismate lyase,Amphibian_right,title,chiropterotriton chondrostega,0.6193183660507202
+Enzyme_left.csv,title,cutinase,Amphibian_right,title,stefania riae,0.6175965666770935
+Enzyme_left.csv,title,lysin,Amphibian_right,title,lyciasalamandra atifi,0.6164594888687134
+Enzyme_left.csv,title,lambda-carrageenase,Amphibian_right,title,bolitoglossa carri,0.6125302910804749
+Enzyme_left.csv,title,ferrochelatase,Amphibian_right,title,bolitoglossa rufescens,0.5903139114379883
+Enzyme_left.csv,title,imidazolonepropionase,Amphibian_right,title,ommatotriton ophryticus,0.5879836082458496
+Enzyme_left.csv,title,lysozyme,Amphibian_right,title,phyllodytes,0.5871068239212036
+Enzyme_left.csv,title,urease,Amphibian_right,title,uraeotyphlus interruptus,0.5856744050979614
+Enzyme_left.csv,title,pappalysin-1,Amphibian_right,title,pilbara toadlet,0.5855458378791809
+Enzyme_left.csv,title,cyclomaltodextrinase,Amphibian_right,title,cyclorana platycephala,0.5734351873397827
+Enzyme_left.csv,title,laccase,Amphibian_right,title,litoria leucova,0.5683139562606812
+Enzyme_left.csv,title,ferroxidase,Amphibian_right,title,fejervarya frithii,0.5625665187835693
+Enzyme_left.csv,title,nepenthesin,Amphibian_right,title,neurergus kaiseri,0.5574454665184021
+Enzyme_left.csv,title,mannokinase,Amphibian_right,title,firebelly newt,0.5532814264297485
+Enzyme_left.csv,title,fucokinase,Amphibian_right,title,fuding fire belly newt,0.5512337684631348
+Enzyme_left.csv,title,staphylokinase,Amphibian_right,title,arthroleptis sylvaticus,0.5509189367294312
+Enzyme_left.csv,title,stem bromelain,Amphibian_right,title,brongersma's toad,0.5492525696754456
+Enzyme_left.csv,title,galactosylgalactosylglucosylceramidase,Amphibian_right,title,gastrotheca ovifera,0.5434977412223816
+Enzyme_left.csv,title,chymotrypsin,Amphibian_right,title,ichthyophis hypocyaneus,0.5395840406417847
+Enzyme_left.csv,title,endoglycosylceramidase,Amphibian_right,title,bolitoglossa anthracina,0.5394600629806519
+Enzyme_left.csv,title,allantoin racemase,Amphibian_right,title,brown mantella,0.5368326902389526
+Enzyme_left.csv,title,chitin synthase,Amphibian_right,title,chiromantis samkosensis,0.5348565578460693
+Enzyme_left.csv,title,xylanase,Amphibian_right,title,hyla chrysoscelis,0.5348380208015442
+Enzyme_left.csv,title,formamidase,Amphibian_right,title,lyciasalamandra fazilae,0.5330871343612671
+Enzyme_left.csv,title,aconitase,Amphibian_right,title,litoria arfakiana,0.532493531703949
+Enzyme_left.csv,title,d-arabinokinase,Amphibian_right,title,pleurodema thaul,0.527248740196228
+Enzyme_left.csv,title,iodotyrosine deiodinase,Amphibian_right,title,ichthyophis sikkimensis,0.5206748247146606
+Enzyme_left.csv,title,argininosuccinate lyase,Amphibian_right,title,paramesotriton zhijinensis,0.511082112789154
+Enzyme_left.csv,title,threonine racemase,Amphibian_right,title,chiromantis punctatus,0.5108689069747925
+Enzyme_left.csv,title,carboxypeptidase u,Amphibian_right,title,uraeotyphlus oommeni,0.5103707313537598
+Enzyme_left.csv,title,phosphopentomutase,Amphibian_right,title,pseudopaludicola pusilla,0.5081063508987427
+Enzyme_left.csv,title,cathepsin v,Amphibian_right,title,hemisus barotseensis,0.5068436861038208
+Enzyme_left.csv,title,l-arabinokinase,Amphibian_right,title,litoria aruensis,0.5060329437255859
+Enzyme_left.csv,title,calpain-3,Amphibian_right,title,cryptotriton monzoni,0.5018603205680847
+Enzyme_left.csv,title,aspartyltransferase,Amphibian_right,title,plethodon asupak,0.501032829284668
+Enzyme_left.csv,title,lignin peroxidase,Amphibian_right,title,bolitoglossa lignicolor,0.5009198188781738
+Enzyme_left.csv,title,pepsin a,Amphibian_right,title,otton frog,0.49645566940307617
+Enzyme_left.csv,title,allantoate deiminase,Amphibian_right,title,adelastes hylonomos,0.4938335418701172
+Enzyme_left.csv,title,magnesium chelatase,Amphibian_right,title,metamagnusia slateri,0.4929109215736389
+Enzyme_left.csv,title,salutaridine synthase,Amphibian_right,title,salamandrina perspicillata,0.4900120794773102
+Enzyme_left.csv,title,proline dehydrogenase,Amphibian_right,title,proteidae,0.4896770715713501
+Enzyme_left.csv,title,proline racemase,Amphibian_right,title,litoria prora,0.48770812153816223
+Enzyme_left.csv,title,beta-l-arabinosidase,Amphibian_right,title,bolitoglossa medemi,0.4876106083393097
+Enzyme_left.csv,title,phosphoenolpyruvate phosphatase,Amphibian_right,title,physalaemus spiniger,0.48757874965667725
+Enzyme_left.csv,title,d-arabinonolactonase,Amphibian_right,title,caudacaecilia nigroflava,0.4867480397224426
+Enzyme_left.csv,title,"4-chlorophenylacetate 3,4-dioxygenase",Amphibian_right,title,hyloxalus chlorocraspedus,0.48576945066452026
+Enzyme_left.csv,title,autolysin,Amphibian_right,title,eurycea,0.4850788712501526
+Enzyme_left.csv,title,5-phytase,Amphibian_right,title,phyllomã©duse de vaillant,0.4833803176879883
+Enzyme_left.csv,title,uroporphyrinogen iii synthase,Amphibian_right,title,uraeotyphlus oxyurus,0.4811493158340454
+Enzyme_left.csv,title,archaeosine synthase,Amphibian_right,title,amolops archotaphus,0.4781144857406616
+Enzyme_left.csv,title,rhamnogalacturonan acetylesterase,Amphibian_right,title,rhacophorus cyanopunctatus,0.47740042209625244
+Enzyme_left.csv,title,uracilylalanine synthase,Amphibian_right,title,uraeotyphlus narayani,0.47416073083877563
+Enzyme_left.csv,title,polo kinase,Amphibian_right,title,nankiang horned toad,0.47409310936927795
+Enzyme_left.csv,title,aureusidin synthase,Amphibian_right,title,phyllobates aurotaenia,0.4736469089984894
+Enzyme_left.csv,title,octadecanal decarbonylase,Amphibian_right,title,bolitoglossa hypacra,0.470425009727478
+Enzyme_left.csv,title,endopeptidase clp,Amphibian_right,title,crotaphatrema lamottei,0.4694269895553589
+Enzyme_left.csv,title,mandelonitrile lyase,Amphibian_right,title,mantidactylus pulcher,0.4682830572128296
+Enzyme_left.csv,title,l-lysine-lactamase,Amphibian_right,title,lyciasalamandra flavimembris,0.46731430292129517
+Enzyme_left.csv,title,pseudobaptigenin synthase,Amphibian_right,title,pseudophilautus halyi,0.464819997549057
+Enzyme_left.csv,title,gentisate decarboxylase,Amphibian_right,title,gegeneophis fulleri,0.4641251564025879
+Enzyme_left.csv,title,nitrite dismutase,Amphibian_right,title,nyctimystes narinosus,0.4633536636829376
+Enzyme_left.csv,title,micrococcal nuclease,Amphibian_right,title,caudacaecilia larutensis,0.46193087100982666
+Enzyme_left.csv,title,celloxylanase,Amphibian_right,title,pachymedusa dacnicolor,0.46013450622558594
+Enzyme_left.csv,title,acetylcholinesterase,Amphibian_right,title,caudacaecilia asplenia,0.4588826298713684
+Enzyme_left.csv,title,diaminobutyrate decarboxylase,Amphibian_right,title,bolitoglossa diaphora,0.4582729935646057
+Enzyme_left.csv,title,"9,9'-dicis-zeta-carotene desaturase",Amphibian_right,title,synapturanus mirandaribeiroi,0.45713961124420166
+Enzyme_left.csv,title,1-phosphofructokinase,Amphibian_right,title,rhacophorus pardalis,0.45515912771224976
+Enzyme_left.csv,title,perakine reductase,Amphibian_right,title,notophthalmus perstriatus,0.4545075297355652
+Enzyme_left.csv,title,phosphatidate phosphatase,Amphibian_right,title,phrynomedusa fimbriata,0.4531770944595337
+Enzyme_left.csv,title,linoleoyl-coa desaturase,Amphibian_right,title,litoria chloronota,0.4516258239746094
+Enzyme_left.csv,title,glycosylceramidase,Amphibian_right,title,scolecomorphus uluguruensis,0.4507371187210083
+Enzyme_left.csv,title,pseudouridine kinase,Amphibian_right,title,pseudophilautus zal,0.44974082708358765
+Enzyme_left.csv,title,dihydroorotate dehydrogenase,Amphibian_right,title,dhofar toad,0.4483049511909485
+Enzyme_left.csv,title,l-pipecolate dehydrogenase,Amphibian_right,title,protohynobius puxiongensis,0.44816166162490845
+Enzyme_left.csv,title,phenylacetaldoxime dehydratase,Amphibian_right,title,paramesotriton laoensis,0.4480017423629761
+Enzyme_left.csv,title,neopentalenolactone d synthase,Amphibian_right,title,eurycea neotenes,0.44705623388290405
+Enzyme_left.csv,title,acetolactate decarboxylase,Amphibian_right,title,bolitoglossa platydactyla,0.4468157887458801
+Enzyme_left.csv,title,peptidyl transferase,Amphibian_right,title,pedostibes tuberculosus,0.4465214014053345
+Enzyme_left.csv,title,interstitial collagenase,Amphibian_right,title,nyctimystes humeralis,0.44550710916519165
+Enzyme_left.csv,title,red chlorophyll catabolite reductase,Amphibian_right,title,rhacophorus dulitensis,0.44493192434310913
+Enzyme_left.csv,title,taxoid 14beta-hydroxylase,Amphibian_right,title,glandirana tientaiensis,0.4444948136806488
+Enzyme_left.csv,title,lysine decarboxylase,Amphibian_right,title,lyciasalamandra helverseni,0.4436039328575134
+Enzyme_left.csv,title,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,Amphibian_right,title,dendrophryniscus proboscideus,0.4400712251663208
+Enzyme_left.csv,title,ribonuclease t2,Amphibian_right,title,many-ribbed salamander,0.4381900429725647
+Enzyme_left.csv,title,formimidoylaspartate deiminase,Amphibian_right,title,gegeneophis danieli,0.43810924887657166
+Enzyme_left.csv,title,allophanate hydrolase,Amphibian_right,title,hynobius yiwuensis,0.43775540590286255
+Enzyme_left.csv,title,sirohydrochlorin ferrochelatase,Amphibian_right,title,chiropterotriton mosaueri,0.4374399483203888
+Enzyme_left.csv,title,indole-2-monooxygenase,Amphibian_right,title,ichthyophis supachaii,0.4372726082801819
+Enzyme_left.csv,title,pyruvate dehydrogenase,Amphibian_right,title,pyrenean frog,0.43698155879974365
+Enzyme_left.csv,title,6-phospho-beta-galactosidase,Amphibian_right,title,bolitoglossa phalarosoma,0.4365563988685608
+Enzyme_left.csv,title,squalene monooxygenase,Amphibian_right,title,ichthyophis garoensis,0.436441570520401
+Enzyme_left.csv,title,exodeoxyribonuclease i,Amphibian_right,title,eleutherodactylus verrucipes,0.43557316064834595
+Enzyme_left.csv,title,geraniol dehydrogenase,Amphibian_right,title,grandisonia brevis,0.4345318675041199
+Enzyme_left.csv,title,l-lysine 6-oxidase,Amphibian_right,title,litoria pygmaea,0.4326596260070801
+Enzyme_left.csv,title,3-oxo-5beta-steroid 4-dehydrogenase,Amphibian_right,title,anotheca spinosa,0.4320227801799774
+Enzyme_left.csv,title,amylosucrase,Amphibian_right,title,bolitoglossa epimela,0.4317992329597473
+Enzyme_left.csv,title,lithocholate 6beta-hydroxylase,Amphibian_right,title,litoria wisselensis,0.4314316511154175
+Enzyme_left.csv,title,dethiobiotin synthase,Amphibian_right,title,ichthyophis beddomei,0.43136799335479736
+Enzyme_left.csv,title,acetylene hydratase,Amphibian_right,title,hochstetter's frog,0.4305388033390045
+Enzyme_left.csv,title,hyoscyamine (6s)-dioxygenase,Amphibian_right,title,hynobius amjiensis,0.43004992604255676
+Enzyme_left.csv,title,deoxyhypusine monooxygenase,Amphibian_right,title,ichthyophis husaini,0.42968595027923584
+Enzyme_left.csv,title,aminoimidazolase,Amphibian_right,title,ichthyophis acuminatus,0.42872002720832825
+Enzyme_left.csv,title,rna polymerase,Amphibian_right,title,rana temporaria temporaria,0.4277884364128113
+Enzyme_left.csv,title,bisphosphoglycerate mutase,Amphibian_right,title,mixtured pygmy frog,0.42748865485191345
+Enzyme_left.csv,title,epoxide hydrolase,Amphibian_right,title,epirus water frog,0.42717432975769043
+Enzyme_left.csv,title,reticuline oxidase,Amphibian_right,title,rhacophorus nigropalmatus,0.4269302785396576
+Enzyme_left.csv,title,phosphoglycolate phosphatase,Amphibian_right,title,cascades frog,0.4263717532157898
+Enzyme_left.csv,title,formylaspartate deformylase,Amphibian_right,title,pseudocallulops pullifer,0.42570778727531433
+Enzyme_left.csv,title,phosphoglycerol geranylgeranyltransferase,Amphibian_right,title,glauert's froglet,0.4257046580314636
+Enzyme_left.csv,title,aminobenzoate decarboxylase,Amphibian_right,title,bolitoglossa adspersa,0.42563503980636597
+Enzyme_left.csv,title,"pyruvate, water dikinase",Amphibian_right,title,uraeotyphlus menoni,0.42508256435394287
+Enzyme_left.csv,title,"1-hydroxy-2-naphthoate 1,2-dioxygenase",Amphibian_right,title,hynobius chinensis,0.4244743585586548
+Enzyme_left.csv,title,plant seed peroxygenase,Amphibian_right,title,peron's tree frog,0.42393532395362854
+Enzyme_left.csv,title,"l-rhamnono-1,4-lactonase",Amphibian_right,title,rhacophorus dennysi,0.4232245683670044
+Enzyme_left.csv,title,3-oxosteroid 1-dehydrogenase,Amphibian_right,title,pseudophilautus oxyrhynchus,0.4230048954486847
+Enzyme_left.csv,title,stearoyl-coa 9-desaturase,Amphibian_right,title,callulina kreffti,0.4226866364479065
+Enzyme_left.csv,title,hydroperoxide dehydratase,Amphibian_right,title,hosmer's frog,0.4221765398979187
+Enzyme_left.csv,title,"1,6-alpha-d-mannosidase",Amphibian_right,title,mantidactylus klemmeri,0.4207114577293396
+Enzyme_left.csv,title,phosphomannomutase,Amphibian_right,title,philippine toad,0.41976672410964966
+Enzyme_left.csv,title,glycosyltransferase desvii,Amphibian_right,title,bolitoglossa helmrichi,0.41899824142456055
+Enzyme_left.csv,title,phospholipase a2,Amphibian_right,title,aplastodiscus callipygius,0.41681766510009766
+Enzyme_left.csv,title,galactitol 2-dehydrogenase,Amphibian_right,title,mantidactylus granulatus,0.4167843759059906
+Enzyme_left.csv,title,glutaminase,Amphibian_right,title,plethodon glutinosus,0.4167273938655853
+Enzyme_left.csv,title,arabinonate dehydratase,Amphibian_right,title,arouss al ayn,0.4156346917152405
+Enzyme_left.csv,title,beta-glucuronidase,Amphibian_right,title,bolitoglossa gracilis,0.41534388065338135
+Enzyme_left.csv,title,geranyltranstransferase,Amphibian_right,title,rhinella gnustae,0.4150843620300293
+Enzyme_left.csv,title,3-beta-hsd,Amphibian_right,title,notophthalmus meridionalis,0.41505271196365356
+Enzyme_left.csv,title,acetoin dehydrogenase,Amphibian_right,title,atelopus monohernandezii,0.4149550199508667
+Enzyme_left.csv,title,l-xylose 1-dehydrogenase,Amphibian_right,title,lyciasalamandra billae,0.4149407744407654
+Enzyme_left.csv,title,malate oxidase,Amphibian_right,title,ambystoma mavortium,0.41437333822250366
+Enzyme_left.csv,title,sinapine esterase,Amphibian_right,title,sylvacaecilia,0.4134010374546051
+Enzyme_left.csv,title,leghemoglobin reductase,Amphibian_right,title,red-legged salamander,0.41323381662368774
+Enzyme_left.csv,title,acetylenedicarboxylate decarboxylase,Amphibian_right,title,rana chevronta,0.41289612650871277
+Enzyme_left.csv,title,cytidylate cyclase,Amphibian_right,title,ctenophryne geayi,0.4117872714996338
+Enzyme_left.csv,title,licodione synthase,Amphibian_right,title,litoria louisiadensis,0.4110538959503174
+Enzyme_left.csv,title,fluorinase,Amphibian_right,title,bolitoglossa flaviventris,0.41090694069862366
+Enzyme_left.csv,title,3-oxoadipyl-coa thiolase,Amphibian_right,title,ameerega trivittatus,0.4107314646244049
+Enzyme_left.csv,title,undecaprenyl-diphosphatase,Amphibian_right,title,rhinella diptycha,0.41046851873397827
+Enzyme_left.csv,title,haloacetate dehalogenase,Amphibian_right,title,blue poison dart frog,0.4104122519493103
+Enzyme_left.csv,title,phenylpyruvate decarboxylase,Amphibian_right,title,mantidactylus decaryi,0.4102926552295685
+Enzyme_left.csv,title,formaldehyde dismutase,Amphibian_right,title,dermophis mexicanus,0.40971991419792175
+Enzyme_left.csv,title,gelatinase b,Amphibian_right,title,scolecomorphus vittatus,0.40947818756103516
+Enzyme_left.csv,title,galactarate dehydratase,Amphibian_right,title,nyctimystes gularis,0.40946096181869507
+Enzyme_left.csv,title,beta-aspartyl-n-acetylglucosaminidase,Amphibian_right,title,bolitoglossa guaramacalensis,0.4094220995903015
+Enzyme_left.csv,title,d-threo-aldose 1-dehydrogenase,Amphibian_right,title,rana chaochiaoensis,0.4090561866760254
+Enzyme_left.csv,title,cysteine desulfurase,Amphibian_right,title,sudell's frog,0.40861549973487854
+Enzyme_left.csv,title,ascopyrone tautomerase,Amphibian_right,title,nyctimystes semipalmatus,0.4084930419921875
+Enzyme_left.csv,title,peptide deformylase,Amphibian_right,title,wrinkled toadlet,0.4080692231655121
+Enzyme_left.csv,title,penicillin amidase,Amphibian_right,title,epipedobates machalilla,0.4075353145599365
+Enzyme_left.csv,title,15-oxoprostaglandin 13-oxidase,Amphibian_right,title,bolitoglossa porrasorum,0.40596288442611694
+Enzyme_left.csv,title,6-hydroxypseudooxynicotine dehydrogenase,Amphibian_right,title,ichthyophis kohtaoensis,0.4059029817581177
+Enzyme_left.csv,title,sarcosine reductase,Amphibian_right,title,sardinata tree frog,0.405111700296402
+Enzyme_left.csv,title,"selenide, water dikinase",Amphibian_right,title,sequoyah slimy salamander,0.40492528676986694
+Enzyme_left.csv,title,haloalkane dehalogenase,Amphibian_right,title,golfodulcean poison frog,0.40458425879478455
+Enzyme_left.csv,title,6-oxocineole dehydrogenase,Amphibian_right,title,ocoee salamander,0.40420183539390564
+Enzyme_left.csv,title,alkaline phosphatase,Amphibian_right,title,karpathos frog,0.4031773805618286
+Enzyme_left.csv,title,superoxide dismutase,Amphibian_right,title,suweon tree frog,0.40315815806388855
+Enzyme_left.csv,title,2-hydroxyglutarate dehydrogenase,Amphibian_right,title,hynobius guabangshanensis,0.4024260342121124
+Enzyme_left.csv,title,3-phytase,Amphibian_right,title,ambystoma texanum,0.4015554189682007
+Enzyme_left.csv,title,salicylaldehyde dehydrogenase,Amphibian_right,title,liaoning salamander,0.40137535333633423
+Enzyme_left.csv,title,imidazoleglycerol-phosphate dehydratase,Amphibian_right,title,inelegant frog,0.4004271924495697
+Enzyme_left.csv,title,l-dopachrome isomerase,Amphibian_right,title,litoria dorsivena,0.4000014662742615
+Enzyme_left.csv,title,hydroxylamine dehydrogenase,Amphibian_right,title,hida salamander,0.3998081386089325
+Enzyme_left.csv,title,(+)-menthofuran synthase,Amphibian_right,title,cowan's mantella,0.3981969356536865
+Enzyme_left.csv,title,anhydrotetracycline monooxygenase,Amphibian_right,title,ichthyophis paucisulcus,0.39813703298568726
+Enzyme_left.csv,title,"1,5-anhydro-d-fructose dehydratase",Amphibian_right,title,cannatella's plump toad,0.39752352237701416
+Enzyme_left.csv,title,xanthoxin dehydrogenase,Amphibian_right,title,ichthyophis longicephalus,0.3974756896495819
+Enzyme_left.csv,title,pantoate kinase,Amphibian_right,title,mink frog,0.3974088132381439
+Enzyme_left.csv,title,deoxycytidine deaminase,Amphibian_right,title,nyctimystes perimetri,0.396986722946167
+Enzyme_left.csv,title,pyranose oxidase,Amphibian_right,title,rhinella pygmaea,0.39676433801651
+Enzyme_left.csv,title,polyprenol reductase,Amphibian_right,title,polypedates occidentalis,0.3961607813835144
+Enzyme_left.csv,title,geraniol 8-hydroxylase,Amphibian_right,title,rhinella atacamensis,0.39555656909942627
+Enzyme_left.csv,title,"3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-enoyl-coa hydratase",Amphibian_right,title,litoria cyclorhyncha,0.39425569772720337
+Enzyme_left.csv,title,coniferyl-alcohol dehydrogenase,Amphibian_right,title,incilius coniferus,0.39331942796707153
+Enzyme_left.csv,title,opine dehydrogenase,Amphibian_right,title,oita salamander,0.39291131496429443
+Enzyme_left.csv,title,cytochrome c oxidase,Amphibian_right,title,cabalian frog,0.39272621273994446
+Enzyme_left.csv,title,alcohol dehydrogenase,Amphibian_right,title,brewer's carrying frog,0.392551064491272
+Enzyme_left.csv,title,d-fuconate dehydratase,Amphibian_right,title,dermophis costaricense,0.39146554470062256
+Enzyme_left.csv,title,nitric-oxide reductase,Amphibian_right,title,neurergus crocatus,0.3913719654083252
+Enzyme_left.csv,title,n-acetylgalactosamine-4-sulfatase,Amphibian_right,title,caudacaecilia weberi,0.3912585973739624
+Enzyme_left.csv,title,"9beta-pimara-7,15-diene oxidase",Amphibian_right,title,ranitomeya claudiae,0.39053845405578613
+Enzyme_left.csv,title,thiamine diphosphokinase,Amphibian_right,title,yonahlossee salamander,0.39047300815582275
+Enzyme_left.csv,title,mevalonate kinase,Amphibian_right,title,vaillant's frog,0.3903852701187134
+Enzyme_left.csv,title,maleylpyruvate isomerase,Amphibian_right,title,mantidactylus leucocephalus,0.3897365927696228
+Enzyme_left.csv,title,glycerophosphoinositol glycerophosphodiesterase,Amphibian_right,title,gegeneophis ramaswamii,0.38963234424591064
+Enzyme_left.csv,title,dimethylargininase,Amphibian_right,title,mantidactylus silvanus,0.38835328817367554
+Enzyme_left.csv,title,dctp deaminase,Amphibian_right,title,cryptotriton wakei,0.3879711329936981
+Enzyme_left.csv,title,protein kinase a,Amphibian_right,title,kunapalari frog,0.38673046231269836
+Enzyme_left.csv,title,trithionate hydrolase,Amphibian_right,title,trilling frog,0.385753870010376
+Enzyme_left.csv,title,alpha-glucuronidase,Amphibian_right,title,calyptocephalella gayi,0.38539111614227295
+Enzyme_left.csv,title,tetrahydroberberine oxidase,Amphibian_right,title,bolitoglossa silverstonei,0.38482236862182617
+Enzyme_left.csv,title,carvone reductase,Amphibian_right,title,stefania scalae,0.38456809520721436
+Enzyme_left.csv,title,ump kinase,Amphibian_right,title,duttaphrynus kotagamai,0.38440006971359253
+Enzyme_left.csv,title,phosphatidylglycerophosphatase,Amphibian_right,title,philautus stellatus,0.38415729999542236

@@ -1,0 +1,59 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SportsLeague_left.csv,title,all stars match,RugbyLeague_right,title,all stars match,0.9999999403953552
+SportsLeague_left.csv,title,all-japan university rugby championship,RugbyLeague_right,title,all japan university rugby championship,0.9917002320289612
+SportsLeague_left.csv,title,2nd rugby-bundesliga,RugbyLeague_right,title,2. rugby-bundesliga,0.9586836099624634
+SportsLeague_left.csv,title,rugby world cup,RugbyLeague_right,title,world rugby nations cup,0.9564878940582275
+SportsLeague_left.csv,title,south american women's sevens championship,RugbyLeague_right,title,south american women's sevens,0.9503438472747803
+SportsLeague_left.csv,title,rugby league charity shield (australia),RugbyLeague_right,title,charity shield (nrl),0.9413802027702332
+SportsLeague_left.csv,title,pacific women's sevens championship,RugbyLeague_right,title,oceania women's sevens championship,0.9298173189163208
+SportsLeague_left.csv,title,tom richards trophy,RugbyLeague_right,title,tom richards cup,0.9224591851234436
+SportsLeague_left.csv,title,rugby league conference,RugbyLeague_right,title,rugby league conference london & south division,0.9119013547897339
+SportsLeague_left.csv,title,rugby league world sevens,RugbyLeague_right,title,world rugby sevens series,0.9117842316627502
+SportsLeague_left.csv,title,oceania cup,RugbyLeague_right,title,oceania rugby cup,0.9027172327041626
+SportsLeague_left.csv,title,women's rugby league conference,RugbyLeague_right,title,national women's rugby championship,0.892936110496521
+SportsLeague_left.csv,title,midlands rugby league premier division,RugbyLeague_right,title,north east rugby league premier division,0.8806922435760498
+SportsLeague_left.csv,title,scottish premiership division one,RugbyLeague_right,title,scottish premiership (rugby),0.8768633604049683
+SportsLeague_left.csv,title,rugby football league championship,RugbyLeague_right,title,rugby league european championship c,0.8767441511154175
+SportsLeague_left.csv,title,midlands rugby league division one,RugbyLeague_right,title,rugby league conference south premier,0.8594805002212524
+SportsLeague_left.csv,title,rugby world cup final,RugbyLeague_right,title,list of rugby world cup finals,0.8579741716384888
+SportsLeague_left.csv,title,national rugby league,RugbyLeague_right,title,tonga national rugby league,0.8551636934280396
+SportsLeague_left.csv,title,championship cup,RugbyLeague_right,title,top league champions cup,0.8551530838012695
+SportsLeague_left.csv,title,central coast division rugby league,RugbyLeague_right,title,rugby league conference north east division,0.8486968278884888
+SportsLeague_left.csv,title,french rugby league championship,RugbyLeague_right,title,rugby league european championship b,0.8482434749603271
+SportsLeague_left.csv,title,group 18 rugby league,RugbyLeague_right,title,division 1-a rugby,0.8444257974624634
+SportsLeague_left.csv,title,south pacific championship,RugbyLeague_right,title,pacific nations cup,0.8442416191101074
+SportsLeague_left.csv,title,paris sevens,RugbyLeague_right,title,france sevens,0.8425190448760986
+SportsLeague_left.csv,title,fiba africa championship for women,RugbyLeague_right,title,african women's sevens championship,0.8319907784461975
+SportsLeague_left.csv,title,new zealand national rugby sevens tournament,RugbyLeague_right,title,world rugby pacific nations cup,0.8312211036682129
+SportsLeague_left.csv,title,women's six nations championship,RugbyLeague_right,title,women's nations cup (rugby union),0.8293520212173462
+SportsLeague_left.csv,title,caribbean women's rugby championship,RugbyLeague_right,title,north america and caribbean women's sevens championship,0.8266982436180115
+SportsLeague_left.csv,title,yorkshire & humber merit league,RugbyLeague_right,title,"london, south and east merit league",0.8264756202697754
+SportsLeague_left.csv,title,national youth competition (rugby league),RugbyLeague_right,title,world rugby under 20 championship,0.8239501714706421
+SportsLeague_left.csv,title,nsw premier league,RugbyLeague_right,title,intrust super premiership nsw,0.8198262453079224
+SportsLeague_left.csv,title,australian football international cup,RugbyLeague_right,title,league cup (rugby league),0.8108437061309814
+SportsLeague_left.csv,title,group 19 rugby league,RugbyLeague_right,title,asia rugby championship,0.8004341125488281
+SportsLeague_left.csv,title,fiba asia championship for women,RugbyLeague_right,title,asian women's sevens championship,0.7991709113121033
+SportsLeague_left.csv,title,mru super cup,RugbyLeague_right,title,saru gold cup,0.7979501485824585
+SportsLeague_left.csv,title,world club challenge,RugbyLeague_right,title,world club series,0.7839221954345703
+SportsLeague_left.csv,title,rugbywa,RugbyLeague_right,title,world rugby pacific challenge,0.7828465104103088
+SportsLeague_left.csv,title,norway rugby championship,RugbyLeague_right,title,ekstraliga (rugby),0.7806840538978577
+SportsLeague_left.csv,title,queensland cup,RugbyLeague_right,title,anzac day cup,0.7803798317909241
+SportsLeague_left.csv,title,collegiate rugby championship,RugbyLeague_right,title,asian rugby championship,0.7802664637565613
+SportsLeague_left.csv,title,fiba africa championship,RugbyLeague_right,title,african development trophy,0.7789974212646484
+SportsLeague_left.csv,title,allan cup,RugbyLeague_right,title,the ron coote cup,0.7767316102981567
+SportsLeague_left.csv,title,kingdom caledonian football league,RugbyLeague_right,title,caledonia regional league,0.7733901739120483
+SportsLeague_left.csv,title,connacht schools rugby senior cup,RugbyLeague_right,title,world rugby under 20 trophy,0.7563773393630981
+SportsLeague_left.csv,title,serie a,RugbyLeague_right,title,national championship of excellence (italian premiership),0.7498612403869629
+SportsLeague_left.csv,title,lion red cup,RugbyLeague_right,title,bundaberg red cup,0.7477309107780457
+SportsLeague_left.csv,title,queen's cup,RugbyLeague_right,title,colonial cup,0.7422364950180054
+SportsLeague_left.csv,title,group 3 rugby league,RugbyLeague_right,title,asia rugby women's championship,0.7169474959373474
+SportsLeague_left.csv,title,s. g. ball cup,RugbyLeague_right,title,gio schoolboy cup,0.7132385969161987
+SportsLeague_left.csv,title,supersport world championship,RugbyLeague_right,title,sevens world series,0.7097526788711548
+SportsLeague_left.csv,title,currie cup,RugbyLeague_right,title,sri lanka sevens,0.6980170011520386
+SportsLeague_left.csv,title,south west peninsula league,RugbyLeague_right,title,south premier,0.6946777105331421
+SportsLeague_left.csv,title,campeonato nacional de rugby feminino,RugbyLeague_right,title,women's rugby sevens in south america,0.6905471086502075
+SportsLeague_left.csv,title,uber cup,RugbyLeague_right,title,mitre 10 cup,0.6892326474189758
+SportsLeague_left.csv,title,international fight league,RugbyLeague_right,title,international origin match,0.6817981600761414
+SportsLeague_left.csv,title,lega pro,RugbyLeague_right,title,pro12,0.6633524298667908
+SportsLeague_left.csv,title,new zealand football championship,RugbyLeague_right,title,world rugby women's sevens series,0.6534727811813354
+SportsLeague_left.csv,title,ulster senior schoolgirls' cup,RugbyLeague_right,title,st. patrick's day test,0.4158201217651367

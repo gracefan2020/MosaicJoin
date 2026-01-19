@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Venue_left.csv,title,bradford playhouse,ShoppingMall_right,title,"the broadway, bradford",0.8300703763961792
+Venue_left.csv,title,st. lawrence centre for the arts,ShoppingMall_right,title,strathpine centre,0.782982349395752
+Venue_left.csv,title,tulsa performing arts center,ShoppingMall_right,title,tulsa promenade,0.7534080743789673
+Venue_left.csv,title,irving plaza,ShoppingMall_right,title,plaza central (texas),0.7522701025009155
+Venue_left.csv,title,civic center of greater des moines,ShoppingMall_right,title,"crossroads center (waterloo, iowa)",0.7511304020881653
+Venue_left.csv,title,perth entertainment centre,ShoppingMall_right,title,galleria shopping centre (perth),0.7497884631156921
+Venue_left.csv,title,sampas pavilion,ShoppingMall_right,title,the pavilions,0.7483417987823486
+Venue_left.csv,title,shepherds bush empire,ShoppingMall_right,title,west 12 shepherd's bush,0.7462623119354248
+Venue_left.csv,title,crown center,ShoppingMall_right,title,victoria centre,0.7370693683624268
+Venue_left.csv,title,paradise center for the arts,ShoppingMall_right,title,paradise park (mall),0.727485179901123
+Venue_left.csv,title,estadio el gigante del norte,ShoppingMall_right,title,el con center,0.723035991191864
+Venue_left.csv,title,southbank centre,ShoppingMall_right,title,south city mall,0.7224932909011841
+Venue_left.csv,title,kripalu center,ShoppingMall_right,title,kukui grove center,0.7213246822357178
+Venue_left.csv,title,the palladium at the center for performing arts,ShoppingMall_right,title,palladium world,0.720268189907074
+Venue_left.csv,title,minersville park,ShoppingMall_right,title,yorkville village,0.7188265919685364
+Venue_left.csv,title,town hall arts center,ShoppingMall_right,title,west manchester town center,0.7172888517379761
+Venue_left.csv,title,city centre aquatic complex,ShoppingMall_right,title,harbourfront centre (singapore),0.7165688276290894
+Venue_left.csv,title,glens falls civic center,ShoppingMall_right,title,the glen shopping centre,0.7099633812904358
+Venue_left.csv,title,the pavilion (uc davis),ShoppingMall_right,title,"university place (chapel hill, north carolina)",0.708317756652832
+Venue_left.csv,title,nethermoor park,ShoppingMall_right,title,newpark mall,0.7073532342910767
+Venue_left.csv,title,cincinnati gardens,ShoppingMall_right,title,victoria gardens (rancho cucamonga),0.7018951177597046
+Venue_left.csv,title,"international convention centre, birmingham",ShoppingMall_right,title,"grand central, birmingham",0.6964032649993896
+Venue_left.csv,title,mile one centre,ShoppingMall_right,title,the centrepoint,0.6910722851753235
+Venue_left.csv,title,palais theatre,ShoppingMall_right,title,les promenades gatineau,0.6899639368057251
+Venue_left.csv,title,knighton community centre,ShoppingMall_right,title,shelter cove towne centre,0.6880048513412476
+Venue_left.csv,title,metro arts theatre,ShoppingMall_right,title,metrotown,0.6873006820678711
+Venue_left.csv,title,hoxton hall,ShoppingMall_right,title,hamilton place,0.6864078640937805
+Venue_left.csv,title,max bell centre,ShoppingMall_right,title,winrock center,0.6848316192626953
+Venue_left.csv,title,junell center,ShoppingMall_right,title,downtown summerlin (shopping center),0.6843132972717285
+Venue_left.csv,title,darwin entertainment centre,ShoppingMall_right,title,"domain central, townsville",0.6839002370834351
+Venue_left.csv,title,vizelj park,ShoppingMall_right,title,omni park,0.683405876159668
+Venue_left.csv,title,ravindra kalakshetra,ShoppingMall_right,title,mahatma jyotiba phule mandai,0.6822113990783691
+Venue_left.csv,title,newport centre,ShoppingMall_right,title,granada centre,0.6804657578468323
+Venue_left.csv,title,park west (music venue),ShoppingMall_right,title,westgate entertainment district,0.6778068542480469
+Venue_left.csv,title,princes hall,ShoppingMall_right,title,castlecourt,0.6761269569396973
+Venue_left.csv,title,"albert park, hawick",ShoppingMall_right,title,ellsworth place,0.672119140625
+Venue_left.csv,title,carrow road,ShoppingMall_right,title,bentley bridge,0.6642661094665527
+Venue_left.csv,title,upper brown street,ShoppingMall_right,title,brentwood town centre (mall),0.6641553640365601
+Venue_left.csv,title,prospera centre,ShoppingMall_right,title,sydney central plaza,0.6627090573310852
+Venue_left.csv,title,manatee civic center,ShoppingMall_right,title,centre of tallahassee,0.6624810099601746
+Venue_left.csv,title,memorial drive park,ShoppingMall_right,title,parkway plaza,0.6612426042556763
+Venue_left.csv,title,"city ground, cambridge",ShoppingMall_right,title,"westgate, oxford",0.6609768867492676
+Venue_left.csv,title,showbox at the market,ShoppingMall_right,title,megabox (shopping mall),0.6609077453613281
+Venue_left.csv,title,barbican centre,ShoppingMall_right,title,cataraqui centre,0.6598454713821411
+Venue_left.csv,title,columbia theatre for the performing arts,ShoppingMall_right,title,the columbia mall,0.6591857671737671
+Venue_left.csv,title,goldington road,ShoppingMall_right,title,river drive mall,0.6587687134742737
+Venue_left.csv,title,american bank center,ShoppingMall_right,title,bankstown central shopping centre,0.658107340335846
+Venue_left.csv,title,cake shop nyc,ShoppingMall_right,title,"saratoga mall (wilton, new york)",0.658052384853363
+Venue_left.csv,title,palacio vistalegre,ShoppingMall_right,title,galleria 220,0.6579923629760742
+Venue_left.csv,title,four seasons centre,ShoppingMall_right,title,galleria shopping centre (toronto),0.6578385233879089
+Venue_left.csv,title,times union center,ShoppingMall_right,title,capital mall,0.657770037651062
+Venue_left.csv,title,herald square theatre,ShoppingMall_right,title,harbor square,0.6565982103347778
+Venue_left.csv,title,abbeydale picture house,ShoppingMall_right,title,riverdale village,0.6563608646392822
+Venue_left.csv,title,"alhambra, blackpool",ShoppingMall_right,title,"touchwood, solihull",0.6558426022529602
+Venue_left.csv,title,arts center of the ozarks,ShoppingMall_right,title,"crossroads center (st. cloud, minnesota)",0.6548718214035034
+Venue_left.csv,title,adelaide festival centre,ShoppingMall_right,title,festival alabang,0.6541268229484558
+Venue_left.csv,title,lahden kisapuisto,ShoppingMall_right,title,iluma,0.6537339687347412
+Venue_left.csv,title,victoria hall (hanley),ShoppingMall_right,title,victoria gate,0.6508044600486755
+Venue_left.csv,title,grand theatre (new york city),ShoppingMall_right,title,great northern mall (new york),0.6496829986572266
+Venue_left.csv,title,yizhong sports center,ShoppingMall_right,title,shangri-la plaza (shopping mall),0.6493213176727295
+Venue_left.csv,title,mountain lakes amphitheater,ShoppingMall_right,title,the summit (wheatfield),0.6489018201828003
+Venue_left.csv,title,city national grove of anaheim,ShoppingMall_right,title,figtree grove,0.6487600803375244
+Venue_left.csv,title,gulustan palace,ShoppingMall_right,title,pakuranga plaza,0.6447741985321045
+Venue_left.csv,title,plaza theatre (bangalore),ShoppingMall_right,title,toa payoh entertainment centre,0.6427123546600342
+Venue_left.csv,title,bumi sriwijaya stadium,ShoppingMall_right,title,seacon square srinakarin,0.6423035860061646
+Venue_left.csv,title,electric factory,ShoppingMall_right,title,uni hill factory outlets,0.6404333710670471
+Venue_left.csv,title,stair park,ShoppingMall_right,title,playground pier,0.6402018070220947
+Venue_left.csv,title,teatro la caridad,ShoppingMall_right,title,la encantada (shopping center),0.63909912109375
+Venue_left.csv,title,sheridan square playhouse,ShoppingMall_right,title,the legends at village west,0.638957142829895
+Venue_left.csv,title,hongshan arena,ShoppingMall_right,title,splendid china mall,0.6372595429420471
+Venue_left.csv,title,farris center,ShoppingMall_right,title,city centre deira,0.6370447278022766
+Venue_left.csv,title,paper mill playhouse,ShoppingMall_right,title,philadelphia mills,0.6352200508117676
+Venue_left.csv,title,green cinema,ShoppingMall_right,title,greenstreet,0.6345348358154297
+Venue_left.csv,title,theatre building chicago,ShoppingMall_right,title,chicago ridge mall,0.6344856023788452
+Venue_left.csv,title,dalian sports center,ShoppingMall_right,title,karingal hub shopping centre,0.6330230236053467
+Venue_left.csv,title,hakiriya arena,ShoppingMall_right,title,warrawong plaza,0.6323869228363037
+Venue_left.csv,title,the kentucky center,ShoppingMall_right,title,chesapeake square,0.6288809776306152
+Venue_left.csv,title,desert sky pavilion,ShoppingMall_right,title,sunway putra mall,0.6270178556442261
+Venue_left.csv,title,richmond centerstage,ShoppingMall_right,title,glen burnie mall,0.6268550157546997
+Venue_left.csv,title,"empire, leicester square",ShoppingMall_right,title,westfield royal victoria place,0.6261564493179321
+Venue_left.csv,title,birmingham repertory theatre,ShoppingMall_right,title,the summit (birmingham),0.6255410313606262
+Venue_left.csv,title,soldotna sports center,ShoppingMall_right,title,jantzen beach center,0.6253993511199951
+Venue_left.csv,title,aitken centre,ShoppingMall_right,title,city centre mirdif,0.624282956123352
+Venue_left.csv,title,"manor ground, plumstead",ShoppingMall_right,title,worcester common outlets,0.6234763860702515
+Venue_left.csv,title,mutual street arena,ShoppingMall_right,title,maple hill mall,0.6233549118041992
+Venue_left.csv,title,preston guild hall,ShoppingMall_right,title,"bishops corner, west hartford",0.6231094002723694
+Venue_left.csv,title,florence gould hall,ShoppingMall_right,title,florence mall (alabama),0.6223921179771423
+Venue_left.csv,title,jalak harupat soreang stadium,ShoppingMall_right,title,shaktan thampuran private bus stand,0.6207517981529236
+Venue_left.csv,title,the ritz (manchester),ShoppingMall_right,title,riyadh sahara mall,0.6179633140563965
+Venue_left.csv,title,marriott theatre,ShoppingMall_right,title,downtown disney (walt disney world resort),0.6169930696487427
+Venue_left.csv,title,lake ainsworth recreation hall,ShoppingMall_right,title,forest lake village shopping centre,0.616855800151825
+Venue_left.csv,title,station inn,ShoppingMall_right,title,downtown commons,0.6162927150726318
+Venue_left.csv,title,the comedy store (london),ShoppingMall_right,title,shoppes at knollwood,0.6157457828521729
+Venue_left.csv,title,arclight hollywood,ShoppingMall_right,title,liffey valley,0.6141380667686462
+Venue_left.csv,title,conexus arts centre,ShoppingMall_right,title,conestoga mall,0.6136431097984314
+Venue_left.csv,title,atlanta civic center,ShoppingMall_right,title,mall of acadiana,0.6126798391342163
+Venue_left.csv,title,apollon patras indoor hall,ShoppingMall_right,title,the galleria,0.6117560863494873
+Venue_left.csv,title,"fox theatre (redwood city, california)",ShoppingMall_right,title,fox valley mall,0.6116530895233154
+Venue_left.csv,title,bluebird theater,ShoppingMall_right,title,bluewater,0.6115766763687134
+Venue_left.csv,title,druid park,ShoppingMall_right,title,forest fair village,0.6107959747314453
+Venue_left.csv,title,xl center,ShoppingMall_right,title,the shops at prudential center,0.6097922325134277
+Venue_left.csv,title,king edward hotel (calgary),ShoppingMall_right,title,shangri-la plaza,0.6097451448440552
+Venue_left.csv,title,stadium metallurg 1st district,ShoppingMall_right,title,plaza mayor (oklahoma),0.6082987785339355
+Venue_left.csv,title,"the garage, london",ShoppingMall_right,title,enfield square mall,0.6082028746604919
+Venue_left.csv,title,duckworth centre,ShoppingMall_right,title,bole dembel shopping center,0.6080538034439087
+Venue_left.csv,title,"star theater (portland, oregon)",ShoppingMall_right,title,star city (shopping mall),0.6074658632278442
+Venue_left.csv,title,krohnsminde,ShoppingMall_right,title,spinderiet,0.6071358919143677
+Venue_left.csv,title,hollywood pacific theatre,ShoppingMall_right,title,pacific werribee,0.6070196628570557
+Venue_left.csv,title,big man's west,ShoppingMall_right,title,west 12,0.6044210195541382
+Venue_left.csv,title,"fox theatre (atlanta, georgia)",ShoppingMall_right,title,the mall at fox run,0.6041996479034424
+Venue_left.csv,title,abu dhabi international tennis complex,ShoppingMall_right,title,city centre bahrain,0.6030435562133789
+Venue_left.csv,title,"the spa, bridlington",ShoppingMall_right,title,motherwell shopping centre,0.6029433012008667
+Venue_left.csv,title,"princes park, dartford",ShoppingMall_right,title,"st david's, cardiff",0.6023257970809937
+Venue_left.csv,title,tseung kwan o sports ground,ShoppingMall_right,title,taigum square shopping centre,0.6018254160881042
+Venue_left.csv,title,manila grand opera house,ShoppingMall_right,title,grand indonesia,0.6009994745254517
+Venue_left.csv,title,smx convention center,ShoppingMall_right,title,south point mall,0.5998404622077942
+Venue_left.csv,title,faliro sports pavilion arena,ShoppingMall_right,title,plaza west covina,0.5993218421936035
+Venue_left.csv,title,morecambe winter gardens,ShoppingMall_right,title,hillside village,0.5972149968147278
+Venue_left.csv,title,first avenue (nightclub),ShoppingMall_right,title,franklin park mall,0.5970118045806885
+Venue_left.csv,title,virginia mason athletic center,ShoppingMall_right,title,springfield mall (virginia),0.5958757996559143
+Venue_left.csv,title,ashby avenue (stadium),ShoppingMall_right,title,"village mall (auburn, alabama)",0.5956317186355591
+Venue_left.csv,title,paisley park soccer complex,ShoppingMall_right,title,northfield square mall,0.5928933024406433
+Venue_left.csv,title,caledonia opera house,ShoppingMall_right,title,westfield solano,0.5918867588043213
+Venue_left.csv,title,crocus city hall,ShoppingMall_right,title,"city centre plaza, rockhampton",0.5918110609054565
+Venue_left.csv,title,coronet theatre,ShoppingMall_right,title,cortana mall,0.5906107425689697
+Venue_left.csv,title,milanello,ShoppingMall_right,title,centrale,0.5902701616287231
+Venue_left.csv,title,oakdale theatre,ShoppingMall_right,title,the oaks shopping center,0.5896042585372925
+Venue_left.csv,title,stereo nightclub,ShoppingMall_right,title,bass pro complex (dieppe),0.5894110202789307
+Venue_left.csv,title,hyde road,ShoppingMall_right,title,hickory hollow mall,0.5893962383270264
+Venue_left.csv,title,the louisville palace,ShoppingMall_right,title,florence mall (kentucky),0.5889869928359985
+Venue_left.csv,title,san jose civic auditorium,ShoppingMall_right,title,irvine spectrum,0.587037205696106
+Venue_left.csv,title,woking park,ShoppingMall_right,title,"langham place, hong kong",0.5869796276092529
+Venue_left.csv,title,sterling cineplex,ShoppingMall_right,title,brentwood country mart,0.5866920948028564
+Venue_left.csv,title,"fine arts center (amherst, massachusetts)",ShoppingMall_right,title,auburn mall (massachusetts),0.5861809849739075
+Venue_left.csv,title,nangang gymnasium,ShoppingMall_right,title,sm city taguig,0.5857653617858887
+Venue_left.csv,title,changchun gymnasium,ShoppingMall_right,title,"change alley, singapore",0.5853966474533081
+Venue_left.csv,title,friedrichstadt-palast,ShoppingMall_right,title,lutwyche city shopping centre,0.5852929949760437
+Venue_left.csv,title,enid event center,ShoppingMall_right,title,belden village mall,0.5849864482879639
+Venue_left.csv,title,max's kansas city,ShoppingMall_right,title,st. louis mills,0.5842756032943726
+Venue_left.csv,title,taibhdhearc na gaillimhe,ShoppingMall_right,title,sta. lucia east grandmall,0.5835161209106445
+Venue_left.csv,title,massmutual center,ShoppingMall_right,title,mainplace mall,0.5829041004180908
+Venue_left.csv,title,mareel,ShoppingMall_right,title,broadmarsh,0.5807117223739624
+Venue_left.csv,title,rosemont theatre,ShoppingMall_right,title,roselands shopping centre,0.5807000398635864
+Venue_left.csv,title,susquehanna sports center,ShoppingMall_right,title,parmatown mall,0.5795882344245911
+Venue_left.csv,title,mayfair theatre,ShoppingMall_right,title,"the exchange, ilford",0.5786030888557434
+Venue_left.csv,title,the arches (glasgow),ShoppingMall_right,title,the spires shopping centre,0.5766139626502991
+Venue_left.csv,title,recreation ground (whitehaven),ShoppingMall_right,title,north rocks shopping centre,0.575718879699707
+Venue_left.csv,title,october palace,ShoppingMall_right,title,disney springs,0.573959231376648
+Venue_left.csv,title,old citadel (edmonton),ShoppingMall_right,title,champlain mall,0.5728347301483154
+Venue_left.csv,title,wells fargo center for the arts,ShoppingMall_right,title,lakeview square mall,0.5726526975631714
+Venue_left.csv,title,shenley training centre,ShoppingMall_right,title,box hill central shopping centre,0.5714716911315918
+Venue_left.csv,title,goodwin sports centre,ShoppingMall_right,title,colonnades shopping centre,0.5713552832603455
+Venue_left.csv,title,bullock hotel,ShoppingMall_right,title,the summit (reno),0.5708259344100952
+Venue_left.csv,title,centre des arts juliette-lassonde,ShoppingMall_right,title,st. laurent shopping centre,0.5699406862258911
+Venue_left.csv,title,adrienne arsht center for the performing arts,ShoppingMall_right,title,fashion centre at pentagon city,0.5674136877059937
+Venue_left.csv,title,aronoff center,ShoppingMall_right,title,annapolis mall,0.5665652751922607
+Venue_left.csv,title,tokyo bay nk hall,ShoppingMall_right,title,harbor point (subic),0.566360592842102
+Venue_left.csv,title,"capitol theatre, manchester",ShoppingMall_right,title,"the triangle, manchester",0.5658555626869202
+Venue_left.csv,title,the lowry,ShoppingMall_right,title,the oaks mall (florida),0.5651910305023193
+Venue_left.csv,title,axa sports center,ShoppingMall_right,title,"auburn mall (auburn, alabama)",0.5649346709251404
+Venue_left.csv,title,brighton bar,ShoppingMall_right,title,cityplace (west palm beach),0.5647433400154114
+Venue_left.csv,title,saville theatre,ShoppingMall_right,title,monroe crossing,0.5642255544662476
+Venue_left.csv,title,alfred-kunze-sportpark,ShoppingMall_right,title,zona rosa (kansas city),0.5630238056182861
+Venue_left.csv,title,energy events centre,ShoppingMall_right,title,mercury shopping centre,0.5629832148551941
+Venue_left.csv,title,antoinette hatfield hall,ShoppingMall_right,title,westfield louis joliet,0.5629005432128906
+Venue_left.csv,title,signature theatre company (new york city),ShoppingMall_right,title,"northway mall (colonie, new york)",0.5626670122146606
+Venue_left.csv,title,tanglewood,ShoppingMall_right,title,the kenwood collection,0.5625044107437134
+Venue_left.csv,title,canadian music centre,ShoppingMall_right,title,brunswick shopping centre,0.5621441006660461
+Venue_left.csv,title,west meadows ice arena,ShoppingMall_right,title,lakeshore mall,0.5617434978485107
+Venue_left.csv,title,pontardawe arts centre,ShoppingMall_right,title,toombul shopping centre,0.5608142614364624
+Venue_left.csv,title,bargemusic,ShoppingMall_right,title,rhodes waterside,0.5597723722457886
+Venue_left.csv,title,theatre cedar rapids,ShoppingMall_right,title,cross county mall,0.5571471452713013
+Venue_left.csv,title,jenny craig pavilion,ShoppingMall_right,title,lulu international shopping mall,0.5562974810600281
+Venue_left.csv,title,bootham crescent,ShoppingMall_right,title,military circle mall,0.5547741651535034
+Venue_left.csv,title,vizura sports center,ShoppingMall_right,title,"regency square mall (jacksonville, florida)",0.5538959503173828
+Venue_left.csv,title,dalhousie arts centre,ShoppingMall_right,title,the quad st. charles,0.5536494851112366
+Venue_left.csv,title,club sesso,ShoppingMall_right,title,my mall limassol,0.5535398721694946
+Venue_left.csv,title,shahid heidarian arena,ShoppingMall_right,title,city mall (amman),0.5535050630569458
+Venue_left.csv,title,a.o. shirley recreation ground,ShoppingMall_right,title,lavington square shopping centre,0.5522661805152893
+Venue_left.csv,title,boardwalk hall,ShoppingMall_right,title,the shoppes at sands,0.551333487033844
+Venue_left.csv,title,14th street theatre,ShoppingMall_right,title,westfield downtown,0.5499467849731445
+Venue_left.csv,title,hull's drive in,ShoppingMall_right,title,antioch crossing,0.5494632720947266
+Venue_left.csv,title,the brewhouse theatre & arts centre,ShoppingMall_right,title,the centre on barton,0.5477255582809448
+Venue_left.csv,title,the warehouse project,ShoppingMall_right,title,fars shopping complex,0.5458772778511047
+Venue_left.csv,title,colonial life arena,ShoppingMall_right,title,settlers green,0.5454505085945129
+Venue_left.csv,title,jacobs pavilion at nautica,ShoppingMall_right,title,northwoods mall (illinois),0.5451357960700989
+Venue_left.csv,title,o'connell center,ShoppingMall_right,title,atlantic terminal (shopping mall),0.5445237755775452
+Venue_left.csv,title,"palace theatre (columbus, ohio)",ShoppingMall_right,title,great northern mall (ohio),0.5431625843048096
+Venue_left.csv,title,roxy community theatre,ShoppingMall_right,title,the shoppes at gateway,0.5422755479812622
+Venue_left.csv,title,project arts centre,ShoppingMall_right,title,the base (shopping centre),0.538928210735321
+Venue_left.csv,title,riverina theatre company,ShoppingMall_right,title,the outlet collection at riverwalk,0.5385109186172485
+Venue_left.csv,title,envision athletic centre,ShoppingMall_right,title,westfield downtown plaza,0.5383260250091553
+Venue_left.csv,title,el rey theatre,ShoppingMall_right,title,santa rosa mall,0.5346544981002808
+Venue_left.csv,title,traverse theatre,ShoppingMall_right,title,carriage crossing,0.5336040258407593
+Venue_left.csv,title,eddie smith field house,ShoppingMall_right,title,westfield eastland,0.533535361289978
+Venue_left.csv,title,"national theater and concert hall, taipei",ShoppingMall_right,title,"the paragon, singapore",0.5331846475601196
+Venue_left.csv,title,jacksonville ice,ShoppingMall_right,title,viaport florida,0.5322123765945435
+Venue_left.csv,title,toyama athletic stadium,ShoppingMall_right,title,"auburn mall (auburn, massachusetts)",0.5317513942718506
+Venue_left.csv,title,clarke stadium,ShoppingMall_right,title,westfield southpark,0.5311253070831299
+Venue_left.csv,title,"gaiety theatre, dublin",ShoppingMall_right,title,the square tallaght,0.5293542742729187

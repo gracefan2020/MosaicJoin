@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+GovernmentAgency_left.csv,title,iceland geosurvey,GovernmentAgency_right,title,iceland geosurvey,1.0
+GovernmentAgency_left.csv,title,new york city department of design & construction,GovernmentAgency_right,title,new york city department of design and construction,0.9985422492027283
+GovernmentAgency_left.csv,title,federal ministry for the interior (austria),GovernmentAgency_right,title,federal ministry of the interior (austria),0.9966748356819153
+GovernmentAgency_left.csv,title,ministry of defense and armed forces logistics (iran),GovernmentAgency_right,title,ministry of defence and armed forces logistics (iran),0.9955996870994568
+GovernmentAgency_left.csv,title,ministry of the federal territories (malaysia),GovernmentAgency_right,title,ministry of federal territories (malaysia),0.9953908324241638
+GovernmentAgency_left.csv,title,roads and traffic authority,GovernmentAgency_right,title,roads & traffic authority,0.9946922063827515
+GovernmentAgency_left.csv,title,national bureau of statistics of tanzania,GovernmentAgency_right,title,national bureau of statistics (tanzania),0.9946218729019165
+GovernmentAgency_left.csv,title,ministry of interior and administration (poland),GovernmentAgency_right,title,ministry of the interior and administration (poland),0.9945111274719238
+GovernmentAgency_left.csv,title,dhs management directorate,GovernmentAgency_right,title,dhs directorate for management,0.9941906332969666
+GovernmentAgency_left.csv,title,"ministry of internally displaced persons from the occupied territories, accommodation and refugees (georgia)",GovernmentAgency_right,title,"ministry of internally displaced persons from the occupied territories, accommodation and refugees of georgia",0.9932827949523926
+GovernmentAgency_left.csv,title,national statistics office (georgia),GovernmentAgency_right,title,national statistics office of georgia,0.9912042617797852
+GovernmentAgency_left.csv,title,washington department of natural resources,GovernmentAgency_right,title,washington state department of natural resources,0.9911750555038452
+GovernmentAgency_left.csv,title,puerto rico department of treasury,GovernmentAgency_right,title,puerto rico treasury department,0.9893734455108643
+GovernmentAgency_left.csv,title,financial services commission of mauritius,GovernmentAgency_right,title,financial services commission (mauritius),0.9890755414962769
+GovernmentAgency_left.csv,title,ministry of development of north eastern region,GovernmentAgency_right,title,ministry for development of north eastern region,0.988788366317749
+GovernmentAgency_left.csv,title,ministry of industry and foreign trade (egypt),GovernmentAgency_right,title,ministry of trade and industry (egypt),0.9885852336883545
+GovernmentAgency_left.csv,title,puerto rico office of the commissioner of financial institutions,GovernmentAgency_right,title,office of the commissioner of financial institutions of puerto rico,0.9882830381393433
+GovernmentAgency_left.csv,title,"the academic center for education, culture and research",GovernmentAgency_right,title,"academic center for education, culture and research",0.9870262145996094
+GovernmentAgency_left.csv,title,ministry of communications and information technologies (azerbaijan),GovernmentAgency_right,title,ministry of communication and information technology (azerbaijan),0.9861966371536255
+GovernmentAgency_left.csv,title,california office of real estate appraisers,GovernmentAgency_right,title,california bureau of real estate appraisers,0.9856775999069214
+GovernmentAgency_left.csv,title,virginia state lottery,GovernmentAgency_right,title,virginia lottery,0.9854944944381714
+GovernmentAgency_left.csv,title,electricity commission (nz),GovernmentAgency_right,title,electricity commission (new zealand),0.9853945970535278
+GovernmentAgency_left.csv,title,ministry of cultural heritage and activities (italy),GovernmentAgency_right,title,ministry of cultural heritage and activities and tourism (italy),0.9837779402732849
+GovernmentAgency_left.csv,title,"research, development and evaluation commission",GovernmentAgency_right,title,"research, development, and evaluation commission",0.9836660623550415
+GovernmentAgency_left.csv,title,electricity authority (nz),GovernmentAgency_right,title,electricity authority (new zealand),0.9834620952606201
+GovernmentAgency_left.csv,title,new york division of military and naval affairs,GovernmentAgency_right,title,new york state division of military and naval affairs,0.9825788736343384
+GovernmentAgency_left.csv,title,ministry of justice (new zealand),GovernmentAgency_right,title,new zealand ministry of justice,0.9811956286430359
+GovernmentAgency_left.csv,title,"department of premier and cabinet, queensland",GovernmentAgency_right,title,department of the premier and cabinet (queensland),0.9811607003211975
+GovernmentAgency_left.csv,title,ministry of labour and social solidarity,GovernmentAgency_right,title,"ministry of labour, solidarity and social security",0.9805336594581604
+GovernmentAgency_left.csv,title,bangladesh election commission,GovernmentAgency_right,title,election commission bangladesh,0.9804362058639526
+GovernmentAgency_left.csv,title,puerto rico department of justice,GovernmentAgency_right,title,department of justice (puerto rico),0.9785168170928955
+GovernmentAgency_left.csv,title,puerto rico state commission on elections,GovernmentAgency_right,title,state elections commission of puerto rico,0.9784300923347473
+GovernmentAgency_left.csv,title,department of atomic energy (india),GovernmentAgency_right,title,"department of atomic energy, government of india",0.9774061441421509
+GovernmentAgency_left.csv,title,ministry of railways (pakistan),GovernmentAgency_right,title,pakistan ministry of railways,0.9772962927818298
+GovernmentAgency_left.csv,title,california department of real estate,GovernmentAgency_right,title,california bureau of real estate,0.9758957028388977
+GovernmentAgency_left.csv,title,ministry of industry (pakistan),GovernmentAgency_right,title,ministry of industries and production (pakistan),0.97552490234375
+GovernmentAgency_left.csv,title,california department of fish and wildlife,GovernmentAgency_right,title,california department of fish and game,0.9731560945510864
+GovernmentAgency_left.csv,title,ministry of construction (burma),GovernmentAgency_right,title,ministry of construction (myanmar),0.9714870452880859
+GovernmentAgency_left.csv,title,puerto rico department of natural and environmental resources,GovernmentAgency_right,title,department of natural and environmental resources (puerto rico),0.9694841504096985
+GovernmentAgency_left.csv,title,federal law enforcement training center,GovernmentAgency_right,title,federal law enforcement training centers,0.9692233204841614
+GovernmentAgency_left.csv,title,secretariat for human rights,GovernmentAgency_right,title,special secretariat for human rights,0.9688916206359863
+GovernmentAgency_left.csv,title,women national committee (yemen),GovernmentAgency_right,title,yemeni women's national committee,0.9681941270828247
+GovernmentAgency_left.csv,title,national bureau of statistics of the people's republic of china,GovernmentAgency_right,title,national bureau of statistics of china,0.9675941467285156
+GovernmentAgency_left.csv,title,ministry of religious affairs (burma),GovernmentAgency_right,title,ministry of religious affairs (myanmar),0.967414379119873
+GovernmentAgency_left.csv,title,hakka affairs council,GovernmentAgency_right,title,council for hakka affairs,0.9667450189590454
+GovernmentAgency_left.csv,title,"ministry of education, culture and higher education (somalia)",GovernmentAgency_right,title,ministry of education and culture (somalia),0.9665762782096863
+GovernmentAgency_left.csv,title,ministry of energy (burma),GovernmentAgency_right,title,ministry of energy (myanmar),0.9654145240783691
+GovernmentAgency_left.csv,title,department of civil aviation (burma),GovernmentAgency_right,title,department of civil aviation (myanmar),0.9645491242408752
+GovernmentAgency_left.csv,title,ministry of finance (pakistan),GovernmentAgency_right,title,pakistan ministry of finance,0.9629855155944824
+GovernmentAgency_left.csv,title,ministry of information (burma),GovernmentAgency_right,title,ministry of information (myanmar),0.9608718156814575
+GovernmentAgency_left.csv,title,texas agrilife extension service,GovernmentAgency_right,title,texas a&m agrilife extension service,0.9573268294334412
+GovernmentAgency_left.csv,title,ministry of the environment (sweden),GovernmentAgency_right,title,ministry of the environment and energy (sweden),0.9550173282623291
+GovernmentAgency_left.csv,title,"ministry of agriculture, rural development and fisheries",GovernmentAgency_right,title,"ministry of livestock, fisheries and rural development",0.9517112970352173
+GovernmentAgency_left.csv,title,department for transport,GovernmentAgency_right,title,transport department,0.951341450214386
+GovernmentAgency_left.csv,title,european network and information security agency,GovernmentAgency_right,title,european union agency for network and information security,0.9506405591964722
+GovernmentAgency_left.csv,title,oklahoma office of the chief medical examiner,GovernmentAgency_right,title,oklahoma chief medical examiner,0.9488404393196106
+GovernmentAgency_left.csv,title,state council general office,GovernmentAgency_right,title,general office of the state council,0.9473041296005249
+GovernmentAgency_left.csv,title,ministry of road transport and highways (india),GovernmentAgency_right,title,ministry of road transport and highways,0.9469398260116577
+GovernmentAgency_left.csv,title,the office of azerbaijan president,GovernmentAgency_right,title,presidential administration of azerbaijan,0.9464291334152222
+GovernmentAgency_left.csv,title,ministry of finance and planning (sri lanka),GovernmentAgency_right,title,ministry of finance (sri lanka),0.9457144737243652
+GovernmentAgency_left.csv,title,ministry of drinking water and sanitation (india),GovernmentAgency_right,title,ministry of drinking water and sanitation,0.9444826245307922
+GovernmentAgency_left.csv,title,los angeles county coroner's office,GovernmentAgency_right,title,los angeles county department of medical examiner-coroner,0.9419846534729004
+GovernmentAgency_left.csv,title,ministry of agriculture and irrigation,GovernmentAgency_right,title,ministry of water and irrigation,0.93935227394104
+GovernmentAgency_left.csv,title,new south wales department of aboriginal affairs,GovernmentAgency_right,title,aboriginal affairs nsw,0.9382820725440979
+GovernmentAgency_left.csv,title,ministry of communications and information technology (india),GovernmentAgency_right,title,ministry of information technology and telecommunication,0.9335572719573975
+GovernmentAgency_left.csv,title,ministry of public safety and security,GovernmentAgency_right,title,ministry of security and public administration,0.9295767545700073
+GovernmentAgency_left.csv,title,institute for nature conservation and biodiversity,GovernmentAgency_right,title,institute for nature conservation and forests,0.9288325905799866
+GovernmentAgency_left.csv,title,veterans affairs commission,GovernmentAgency_right,title,veterans affairs council,0.9287089109420776
+GovernmentAgency_left.csv,title,agency for information society of republika srpska,GovernmentAgency_right,title,agency for information society of republic of srpska,0.9285814762115479
+GovernmentAgency_left.csv,title,"department of infrastructure, transport, regional development and local government",GovernmentAgency_right,title,department of infrastructure and regional development,0.9215940237045288
+GovernmentAgency_left.csv,title,ministry of finance (portugal),GovernmentAgency_right,title,ministry of economy (portugal),0.9190961122512817
+GovernmentAgency_left.csv,title,"ministry of community development, youth and sports",GovernmentAgency_right,title,ministry of youth affairs and sports,0.9172340631484985
+GovernmentAgency_left.csv,title,ministry of health and family welfare (india),GovernmentAgency_right,title,ministry of health and family welfare,0.9165986776351929
+GovernmentAgency_left.csv,title,manitoba aboriginal and northern affairs,GovernmentAgency_right,title,indigenous and northern affairs canada,0.9146095514297485
+GovernmentAgency_left.csv,title,new york city health and hospitals corporation,GovernmentAgency_right,title,nyc health + hospitals,0.9128538370132446
+GovernmentAgency_left.csv,title,national statistics office (philippines),GovernmentAgency_right,title,philippine statistics authority,0.9117786884307861
+GovernmentAgency_left.csv,title,new south wales division of local government,GovernmentAgency_right,title,office of local government (new south wales),0.9114354848861694
+GovernmentAgency_left.csv,title,ambulance tasmania,GovernmentAgency_right,title,new south wales ambulance,0.9112941026687622
+GovernmentAgency_left.csv,title,puerto rico education council,GovernmentAgency_right,title,council on higher education of puerto rico,0.9090222120285034
+GovernmentAgency_left.csv,title,ministry of infrastructure and the environment,GovernmentAgency_right,title,ministry of planning and infrastructure,0.9087735414505005
+GovernmentAgency_left.csv,title,department of forests and wildlife (kerala),GovernmentAgency_right,title,environment and forests department (tamil nadu),0.905299186706543
+GovernmentAgency_left.csv,title,crime and misconduct commission,GovernmentAgency_right,title,crime and corruption commission,0.9033580422401428
+GovernmentAgency_left.csv,title,ministry of transportation and communications (republic of china),GovernmentAgency_right,title,ministry of transportation and communications (taiwan),0.9013756513595581
+GovernmentAgency_left.csv,title,"department of agriculture, fisheries and forestry (australia)",GovernmentAgency_right,title,department of agriculture (australia),0.8977820873260498
+GovernmentAgency_left.csv,title,department of environment and heritage protection (queensland),GovernmentAgency_right,title,office of environment and heritage (new south wales),0.8957493305206299
+GovernmentAgency_left.csv,title,ministry of foreign affairs (republic of china),GovernmentAgency_right,title,ministry of foreign affairs (taiwan),0.8940980434417725
+GovernmentAgency_left.csv,title,"department of trade and investment, regional infrastructure and services (new south wales)",GovernmentAgency_right,title,"department of industry, skills and regional development (new south wales)",0.8922361135482788
+GovernmentAgency_left.csv,title,ministry of education and sciences (albania),GovernmentAgency_right,title,ministry of education and sport (albania),0.8920973539352417
+GovernmentAgency_left.csv,title,department of transport (victoria),GovernmentAgency_right,title,department of transport (western australia),0.8914655447006226
+GovernmentAgency_left.csv,title,"apitong, boac, marinduque",GovernmentAgency_right,title,"apitong, marinduque",0.8908452391624451
+GovernmentAgency_left.csv,title,memorial museum of astronautics,GovernmentAgency_right,title,memorial museum of cosmonautics,0.8894336819648743
+GovernmentAgency_left.csv,title,"ministry of business, innovation and employment",GovernmentAgency_right,title,"ministry of industry, trade and small industries",0.887334942817688
+GovernmentAgency_left.csv,title,general intelligence directorate (jordan),GovernmentAgency_right,title,general intelligence directorate (egypt),0.8871123790740967
+GovernmentAgency_left.csv,title,ministry of culture (republic of china),GovernmentAgency_right,title,ministry of culture (taiwan),0.8866288661956787
+GovernmentAgency_left.csv,title,general company for maritime transport (iraq),GovernmentAgency_right,title,state company of iraq ports,0.8845635652542114
+GovernmentAgency_left.csv,title,department of transport and main roads,GovernmentAgency_right,title,motor transport and traffic directorate,0.8808587193489075
+GovernmentAgency_left.csv,title,ministry of science and technology (india),GovernmentAgency_right,title,ministry of technology and research,0.8807372450828552
+GovernmentAgency_left.csv,title,"department of agriculture, fisheries and forestry (queensland)",GovernmentAgency_right,title,department of environment and natural resources (south australia),0.8793293237686157
+GovernmentAgency_left.csv,title,ministry for chieftaincy and traditional affairs,GovernmentAgency_right,title,ministry of tribal affairs,0.8784035444259644
+GovernmentAgency_left.csv,title,ministry of foreign affairs and international cooperation (cambodia),GovernmentAgency_right,title,ministry of national defense (cambodia),0.877053439617157
+GovernmentAgency_left.csv,title,federal transit administration,GovernmentAgency_right,title,state transit authority,0.875757098197937
+GovernmentAgency_left.csv,title,"federal department of economic affairs, education and research",GovernmentAgency_right,title,federal department of economic affairs,0.8729290962219238
+GovernmentAgency_left.csv,title,"ministry of information, communication and culture (malaysia)",GovernmentAgency_right,title,ministry of communications and multimedia (malaysia),0.872238039970398
+GovernmentAgency_left.csv,title,state emergency service of ukraine,GovernmentAgency_right,title,ministry of emergencies (ukraine),0.8716340065002441
+GovernmentAgency_left.csv,title,norwegian post and telecommunications authority,GovernmentAgency_right,title,norwegian communications authority,0.8701859712600708
+GovernmentAgency_left.csv,title,ministry of counter narcotics (afghanistan),GovernmentAgency_right,title,ministry of interior and narcotics control (pakistan),0.8692926168441772
+GovernmentAgency_left.csv,title,ministry of petroleum (iran),GovernmentAgency_right,title,ministry of petroleum (egypt),0.8692525625228882
+GovernmentAgency_left.csv,title,"department of resources, energy and tourism",GovernmentAgency_right,title,department of environment and resource management,0.8685035705566406
+GovernmentAgency_left.csv,title,ministry of home and cultural affairs,GovernmentAgency_right,title,ministry of heritage and culture,0.8664592504501343
+GovernmentAgency_left.csv,title,australian security intelligence organisation,GovernmentAgency_right,title,australian geospatial-intelligence organisation,0.8649942874908447
+GovernmentAgency_left.csv,title,united states citizenship and immigration services,GovernmentAgency_right,title,"department of immigration, refugees and citizenship",0.8647286891937256
+GovernmentAgency_left.csv,title,central election commission of the republic of china,GovernmentAgency_right,title,central election commission (taiwan),0.8637467622756958
+GovernmentAgency_left.csv,title,ministry of defence (singapore),GovernmentAgency_right,title,ministry of national defense (taiwan),0.8631541132926941
+GovernmentAgency_left.csv,title,ministry of finance (singapore),GovernmentAgency_right,title,ministry of finance (taiwan),0.862738311290741
+GovernmentAgency_left.csv,title,massachusetts department of transportation,GovernmentAgency_right,title,district department of transportation,0.8626118898391724
+GovernmentAgency_left.csv,title,singapore sports council,GovernmentAgency_right,title,sport singapore,0.8626021146774292
+GovernmentAgency_left.csv,title,ministry of human resources and social security of the people's republic of china,GovernmentAgency_right,title,ministry of labor (republic of china),0.8618725538253784
+GovernmentAgency_left.csv,title,puerto rico federal affairs administration,GovernmentAgency_right,title,civil defense state agency of puerto rico,0.8617758750915527
+GovernmentAgency_left.csv,title,tamil nadu government's departments,GovernmentAgency_right,title,list of tamil nadu governmental organisations,0.8593263030052185
+GovernmentAgency_left.csv,title,ministry of land & land reforms (west bengal),GovernmentAgency_right,title,ministry of land and land development,0.858041524887085
+GovernmentAgency_left.csv,title,department of family and community services (new south wales),GovernmentAgency_right,title,"department of communities, child safety and disability services (queensland)",0.8571616411209106
+GovernmentAgency_left.csv,title,ministry of foreign affairs (portugal),GovernmentAgency_right,title,ministry of internal administration (portugal),0.856952965259552
+GovernmentAgency_left.csv,title,council of people's commissars (ukraine),GovernmentAgency_right,title,high council of justice (ukraine),0.8562809228897095
+GovernmentAgency_left.csv,title,provincial emergency program (british columbia),GovernmentAgency_right,title,emergency management bc,0.8553949594497681
+GovernmentAgency_left.csv,title,federal ministry of interior (federation of bosnia and herzegovina),GovernmentAgency_right,title,ministry of interior affairs and public administration (montenegro),0.8548437356948853
+GovernmentAgency_left.csv,title,ministry of welfare and social security (iran),GovernmentAgency_right,title,social security organization (iran),0.8547706604003906
+GovernmentAgency_left.csv,title,immigration and naturalization service,GovernmentAgency_right,title,department of immigration and border protection,0.8543686866760254
+GovernmentAgency_left.csv,title,united states atomic energy commission,GovernmentAgency_right,title,department of atomic energy,0.851120114326477
+GovernmentAgency_left.csv,title,people's commissariat for posts and telegraphs,GovernmentAgency_right,title,people's commissariat for posts and telegraphs of the rsfsr,0.8500263690948486
+GovernmentAgency_left.csv,title,security and intelligence division,GovernmentAgency_right,title,ministry of intelligence,0.8499211072921753
+GovernmentAgency_left.csv,title,"administrative department of science, technology and innovation",GovernmentAgency_right,title,dhs directorate for science and technology,0.8494778871536255
+GovernmentAgency_left.csv,title,ministry of pensions and national insurance,GovernmentAgency_right,title,"ministry of personnel, public grievances and pensions",0.8488291501998901
+GovernmentAgency_left.csv,title,federal security force,GovernmentAgency_right,title,military security agency,0.8477886915206909
+GovernmentAgency_left.csv,title,department of citizenship and immigration canada,GovernmentAgency_right,title,ministry of citizenship and immigration,0.847579300403595
+GovernmentAgency_left.csv,title,new york city department of education,GovernmentAgency_right,title,new york city panel for educational policy,0.8475037813186646
+GovernmentAgency_left.csv,title,united states forest service,GovernmentAgency_right,title,texas a&m forest service,0.8469148874282837
+GovernmentAgency_left.csv,title,ministry of economic development (colombia),GovernmentAgency_right,title,national administrative department of solidarity economy (colombia),0.8467352390289307
+GovernmentAgency_left.csv,title,ministry of labor (south korea),GovernmentAgency_right,title,ministry of the interior (south korea),0.8465485572814941
+GovernmentAgency_left.csv,title,ministry of agriculture and cooperatives (thailand),GovernmentAgency_right,title,"ministry of agriculture, food security and cooperatives",0.8445922136306763
+GovernmentAgency_left.csv,title,intelligence bureau (pakistan),GovernmentAgency_right,title,pakistan ministry of interior,0.8441610336303711
+GovernmentAgency_left.csv,title,defence signals directorate,GovernmentAgency_right,title,australian signals directorate,0.842770516872406
+GovernmentAgency_left.csv,title,oklahoma housing finance agency,GovernmentAgency_right,title,oklahoma office of state finance,0.8423576354980469
+GovernmentAgency_left.csv,title,ministry of the interior (turkey),GovernmentAgency_right,title,ministry of interior (republika srpska),0.8416019678115845
+GovernmentAgency_left.csv,title,ministry of european integration (albania),GovernmentAgency_right,title,"ministry of labor, social affairs, and equal opportunities (albania)",0.8411843776702881
+GovernmentAgency_left.csv,title,energy market authority,GovernmentAgency_right,title,electricity regulatory authority,0.841064453125
+GovernmentAgency_left.csv,title,ministry of northern development and mines,GovernmentAgency_right,title,ministry of land and resources,0.8410516977310181
+GovernmentAgency_left.csv,title,ministry of housing and urban development (iran),GovernmentAgency_right,title,ministry of housing and urban-rural development,0.8408379554748535
+GovernmentAgency_left.csv,title,ministry of education of the people's republic of china,GovernmentAgency_right,title,ministry of education (taiwan),0.8364862203598022
+GovernmentAgency_left.csv,title,secretariat of foreign affairs (mexico),GovernmentAgency_right,title,secretary of tourism (mexico),0.8352925777435303
+GovernmentAgency_left.csv,title,pennsylvania department of aging,GovernmentAgency_right,title,pennsylvania department of human services,0.8343185186386108
+GovernmentAgency_left.csv,title,electronic and postal communications authority,GovernmentAgency_right,title,communications authority,0.8340088129043579
+GovernmentAgency_left.csv,title,directorate of military intelligence,GovernmentAgency_right,title,egyptian general intelligence directorate,0.833835244178772
+GovernmentAgency_left.csv,title,department of justice (hong kong),GovernmentAgency_right,title,ministry of justice (taiwan),0.8330519795417786
+GovernmentAgency_left.csv,title,ministry of education (new zealand),GovernmentAgency_right,title,education review office (new zealand),0.8329912424087524
+GovernmentAgency_left.csv,title,ministry of labour (ontario),GovernmentAgency_right,title,ministry of employment and labor,0.8328189849853516
+GovernmentAgency_left.csv,title,ministry of defence (montenegro),GovernmentAgency_right,title,ministry of foreign affairs and european integration of montenegro,0.8322080373764038
+GovernmentAgency_left.csv,title,ministry of transportation (indonesia),GovernmentAgency_right,title,ministry of transport (myanmar),0.8308271169662476
+GovernmentAgency_left.csv,title,national fire agency,GovernmentAgency_right,title,department of fire and emergency services,0.8298860788345337
+GovernmentAgency_left.csv,title,water authority of western australia,GovernmentAgency_right,title,water corporation (western australia),0.8286607265472412
+GovernmentAgency_left.csv,title,dhs national protection and programs directorate,GovernmentAgency_right,title,national protection and programs directorate,0.828021764755249
+GovernmentAgency_left.csv,title,federal railroad administration,GovernmentAgency_right,title,state rail authority,0.8279297351837158
+GovernmentAgency_left.csv,title,ministry of natural resources and environment (thailand),GovernmentAgency_right,title,ministry of environmental conservation and forestry (myanmar),0.8277864456176758
+GovernmentAgency_left.csv,title,ministry of education and vocational training (tanzania),GovernmentAgency_right,title,"ministry of agriculture, food and cooperatives (tanzania)",0.8276379704475403
+GovernmentAgency_left.csv,title,national defence radio establishment (sweden),GovernmentAgency_right,title,national defence radio establishment,0.8272603750228882
+GovernmentAgency_left.csv,title,kela (finnish),GovernmentAgency_right,title,kela,0.8261991143226624
+GovernmentAgency_left.csv,title,puerto rico department of economic development and commerce,GovernmentAgency_right,title,office of management and budget of puerto rico,0.825161337852478
+GovernmentAgency_left.csv,title,ministry of justice (poland),GovernmentAgency_right,title,supreme audit office (poland),0.8250041007995605
+GovernmentAgency_left.csv,title,ministry of defence (ghana),GovernmentAgency_right,title,ministry of east african cooperation,0.8248477578163147
+GovernmentAgency_left.csv,title,"oklahoma department of agriculture, food, and forestry",GovernmentAgency_right,title,department of agriculture and water resources,0.8247873783111572
+GovernmentAgency_left.csv,title,department of justice (canada),GovernmentAgency_right,title,department of justice (new south wales),0.8237497806549072
+GovernmentAgency_left.csv,title,ministry of energy (lithuania),GovernmentAgency_right,title,ministry of energy (azerbaijan),0.8237396478652954
+GovernmentAgency_left.csv,title,ministry of health (vietnam),GovernmentAgency_right,title,ministry of health (myanmar),0.8235964179039001
+GovernmentAgency_left.csv,title,national forest corporation (chile),GovernmentAgency_right,title,corporaciã³n nacional forestal,0.8235912919044495
+GovernmentAgency_left.csv,title,national road safety commission,GovernmentAgency_right,title,ministry of transport and road safety,0.8225928544998169
+GovernmentAgency_left.csv,title,court of justice of the european union,GovernmentAgency_right,title,european court of auditors,0.8203426599502563
+GovernmentAgency_left.csv,title,general directorate of general security,GovernmentAgency_right,title,secretariat of national defense,0.8198719024658203
+GovernmentAgency_left.csv,title,electoral commission (new zealand),GovernmentAgency_right,title,electoral commission of south africa,0.8194745779037476
+GovernmentAgency_left.csv,title,ministry of natural resources (ontario),GovernmentAgency_right,title,ministry of natural resources and forestry,0.8194724321365356
+GovernmentAgency_left.csv,title,ministry of defense (israel),GovernmentAgency_right,title,prime minister's office (israel),0.8187035322189331
+GovernmentAgency_left.csv,title,government procurement service,GovernmentAgency_right,title,state procurement agency (georgia),0.8173784017562866
+GovernmentAgency_left.csv,title,land transportation office (philippines),GovernmentAgency_right,title,land management bureau (philippines),0.8169071674346924
+GovernmentAgency_left.csv,title,australian competition and consumer commission,GovernmentAgency_right,title,competition commission,0.8165148496627808
+GovernmentAgency_left.csv,title,office of the auditor general of colombia,GovernmentAgency_right,title,administrative department of public service (colombia),0.8149166107177734
+GovernmentAgency_left.csv,title,ministry of health (south sudan),GovernmentAgency_right,title,ministry of health (egypt),0.8140311241149902
+GovernmentAgency_left.csv,title,sports administration,GovernmentAgency_right,title,sports affairs council,0.8136757612228394
+GovernmentAgency_left.csv,title,urban transit authority of new south wales,GovernmentAgency_right,title,urban transit authority,0.8136659860610962
+GovernmentAgency_left.csv,title,ministry of infrastructure (ukraine),GovernmentAgency_right,title,ministry of energy and coal mining (ukraine),0.8135012984275818
+GovernmentAgency_left.csv,title,ministry of labour and social affairs (russia),GovernmentAgency_right,title,ministry of social policy of ukraine,0.813414454460144
+GovernmentAgency_left.csv,title,ministry of health & family welfare (west bengal),GovernmentAgency_right,title,ministry of health and social welfare,0.8133805394172668
+GovernmentAgency_left.csv,title,ministry of foreign affairs (ethiopia),GovernmentAgency_right,title,ministry of foreign affairs and international co-operation (tanzania),0.8121350407600403
+GovernmentAgency_left.csv,title,ministry of the environment (japan),GovernmentAgency_right,title,ministry of natural resources and the environment,0.8117276430130005
+GovernmentAgency_left.csv,title,ministry of justice (finland),GovernmentAgency_right,title,state police (finland),0.8114888668060303
+GovernmentAgency_left.csv,title,department of justice (philippines),GovernmentAgency_right,title,national police commission (philippines),0.8105523586273193
+GovernmentAgency_left.csv,title,office of federal financial management,GovernmentAgency_right,title,federal financial markets service,0.809723973274231
+GovernmentAgency_left.csv,title,ministry of defence (united kingdom),GovernmentAgency_right,title,pakistan ministry of defence,0.8090636134147644
+GovernmentAgency_left.csv,title,national commission for culture and the arts (philippines),GovernmentAgency_right,title,national commission for culture and the arts,0.8087700009346008
+GovernmentAgency_left.csv,title,directorate-general for external security,GovernmentAgency_right,title,ministry of internal security,0.8078283071517944
+GovernmentAgency_left.csv,title,secretariat of public security (mexico),GovernmentAgency_right,title,secretariat of public security,0.8076014518737793
+GovernmentAgency_left.csv,title,bureau of near eastern affairs,GovernmentAgency_right,title,office for foreign relations and information,0.8073281645774841
+GovernmentAgency_left.csv,title,ministry of intelligence and national security (iran),GovernmentAgency_right,title,ministry of information and communications technology of iran,0.8071985244750977

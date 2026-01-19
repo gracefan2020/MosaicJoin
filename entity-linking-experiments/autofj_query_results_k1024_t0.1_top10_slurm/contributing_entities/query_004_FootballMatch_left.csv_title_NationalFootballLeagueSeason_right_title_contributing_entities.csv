@@ -1,0 +1,11 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballMatch_left.csv,title,2009 uefa champions league final,NationalFootballLeagueSeason_right,title,2002 fc barcelona dragons season,0.7030050158500671
+FootballMatch_left.csv,title,2003 football league second division play-off final,NationalFootballLeagueSeason_right,title,2003 fc barcelona dragons season,0.6982672214508057
+FootballMatch_left.csv,title,1905 german football championship,NationalFootballLeagueSeason_right,title,1905 canton athletic club season,0.6648064851760864
+FootballMatch_left.csv,title,1911 german football championship,NationalFootballLeagueSeason_right,title,1911 canton professionals season,0.6544183492660522
+FootballMatch_left.csv,title,1913 german football championship,NationalFootballLeagueSeason_right,title,1913 canton professionals season,0.6238428950309753
+FootballMatch_left.csv,title,1914 all-ireland senior football championship final,NationalFootballLeagueSeason_right,title,1914 canton professionals season,0.6068544387817383
+FootballMatch_left.csv,title,1921 german football championship,NationalFootballLeagueSeason_right,title,1921 detroit tigers season (nfl),0.591742753982544
+FootballMatch_left.csv,title,1912 fa charity shield,NationalFootballLeagueSeason_right,title,1912 canton professionals season,0.5823219418525696
+FootballMatch_left.csv,title,1903 german football championship,NationalFootballLeagueSeason_right,title,1900 homestead library & athletic club football season,0.5305689573287964
+FootballMatch_left.csv,title,2012 chatham cup,NationalFootballLeagueSeason_right,title,1996 minnesota fighting pike season,0.4791233241558075

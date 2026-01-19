@@ -1,0 +1,158 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Drug_left.csv,title,5-meo-amt,Drug_right,title,5-meo-amt,1.0
+Drug_left.csv,title,thiambutenes,Drug_right,title,thiambutene,0.9781991839408875
+Drug_left.csv,title,tenofovir alafenamide fumarate,Drug_right,title,tenofovir alafenamide,0.9487037062644958
+Drug_left.csv,title,4-ethylamphetamine,Drug_right,title,4-hydroxyamphetamine,0.9298750162124634
+Drug_left.csv,title,a-41988,Drug_right,title,a-372159,0.924945592880249
+Drug_left.csv,title,norethisterone,Drug_right,title,norbolethone,0.9241400957107544
+Drug_left.csv,title,s-18986,Drug_right,title,s-14671,0.9185483455657959
+Drug_left.csv,title,"cp-93,129",Drug_right,title,cp-93129,0.9165396690368652
+Drug_left.csv,title,ro10-5824,Drug_right,title,ro 04-6790,0.9123775959014893
+Drug_left.csv,title,interferon alpha-n3,Drug_right,title,interferon alfa 2b,0.9115287065505981
+Drug_left.csv,title,"cp-809,101",Drug_right,title,cp-809101,0.9086645245552063
+Drug_left.csv,title,3-methoxy-4-methylamphetamine,Drug_right,title,4-fluoro-n-methylamphetamine,0.9070256948471069
+Drug_left.csv,title,"rs-127,445",Drug_right,title,rs-127445,0.8989208340644836
+Drug_left.csv,title,ocaratuzumab,Drug_right,title,obinutuzumab,0.8889807462692261
+Drug_left.csv,title,"ly-310,762",Drug_right,title,ly-310762,0.8856092691421509
+Drug_left.csv,title,meclozine,Drug_right,title,meclizine,0.8848874568939209
+Drug_left.csv,title,"sb-649,915",Drug_right,title,sb-399885,0.8848199844360352
+Drug_left.csv,title,n-methyltryptamine,Drug_right,title,"n,n-dimethyltryptamine",0.8845357894897461
+Drug_left.csv,title,sulfathiazole,Drug_right,title,suloctidil,0.8730932474136353
+Drug_left.csv,title,"sb-258,585",Drug_right,title,sb-258585,0.8666598796844482
+Drug_left.csv,title,lysergic acid diethylamide,Drug_right,title,n1-methyl-lysergic acid diethylamide,0.8651469945907593
+Drug_left.csv,title,pericyazine,Drug_right,title,periciazine,0.864598274230957
+Drug_left.csv,title,quinidine,Drug_right,title,quinacrine,0.8644542694091797
+Drug_left.csv,title,pivalylbenzhydrazine,Drug_right,title,pivhydrazine,0.8569033145904541
+Drug_left.csv,title,insulin detemir,Drug_right,title,insulin (medication),0.8525375127792358
+Drug_left.csv,title,bms-945429,Drug_right,title,sb-699551,0.8514243364334106
+Drug_left.csv,title,y-23684,Drug_right,title,sb-216641,0.8505724668502808
+Drug_left.csv,title,sr-48692,Drug_right,title,sb-242084,0.8448219299316406
+Drug_left.csv,title,jd5037,Drug_right,title,gw501516,0.8424803614616394
+Drug_left.csv,title,jwh-081,Drug_right,title,cj-033466,0.8422418832778931
+Drug_left.csv,title,"2,5-dimethoxy-4-ethylamphetamine",Drug_right,title,ethylamphetamine,0.841034471988678
+Drug_left.csv,title,salvinorin a,Drug_right,title,2-methoxymethyl salvinorin b,0.8401486873626709
+Drug_left.csv,title,triazolam,Drug_right,title,triflunordazepam,0.8352693319320679
+Drug_left.csv,title,sc-17599,Drug_right,title,sb-258719,0.8321380019187927
+Drug_left.csv,title,clocapramine,Drug_right,title,phencyclamine,0.8297840356826782
+Drug_left.csv,title,ro4491533,Drug_right,title,rg7795,0.8290335536003113
+Drug_left.csv,title,pf-04457845,Drug_right,title,sb-357134,0.8278415203094482
+Drug_left.csv,title,"pf-219,061",Drug_right,title,cp-94253,0.8270828723907471
+Drug_left.csv,title,erlizumab,Drug_right,title,erbuzole,0.8265126943588257
+Drug_left.csv,title,ah-7921,Drug_right,title,sb-204741,0.8230662941932678
+Drug_left.csv,title,doxorubicin,Drug_right,title,zoptarelin doxorubicin,0.8193244934082031
+Drug_left.csv,title,docetaxel,Drug_right,title,docusate,0.8177317976951599
+Drug_left.csv,title,noretynodrel,Drug_right,title,mestranol/noretynodrel,0.8170688152313232
+Drug_left.csv,title,spiramycin,Drug_right,title,dactinomycin,0.8162273168563843
+Drug_left.csv,title,brl-52537,Drug_right,title,sb-271046,0.8154807090759277
+Drug_left.csv,title,clobenzepam,Drug_right,title,clazakizumab,0.8132998943328857
+Drug_left.csv,title,varicella vaccine,Drug_right,title,hpv vaccines,0.8112503290176392
+Drug_left.csv,title,pericine,Drug_right,title,percodan,0.8020889163017273
+Drug_left.csv,title,metamfepramone,Drug_right,title,metandienone,0.8017597794532776
+Drug_left.csv,title,u-50488,Drug_right,title,sb-206553,0.8010656237602234
+Drug_left.csv,title,ver-3323,Drug_right,title,ly-293284,0.794867992401123
+Drug_left.csv,title,oxabolone cipionate,Drug_right,title,enoxolone,0.7938556671142578
+Drug_left.csv,title,droxicam,Drug_right,title,droxidopa,0.7930641174316406
+Drug_left.csv,title,hydroxychloroquine,Drug_right,title,"1,8-dihydroxyanthraquinone",0.7928071618080139
+Drug_left.csv,title,metenolone enanthate,Drug_right,title,norethisterone enanthate,0.7927412390708923
+Drug_left.csv,title,thiofentanyl,Drug_right,title,betamethylfentanyl,0.7926406860351562
+Drug_left.csv,title,azidamfenicol,Drug_right,title,phenyramidol,0.7905318737030029
+Drug_left.csv,title,cediranib,Drug_right,title,censavudine,0.7898945808410645
+Drug_left.csv,title,metyrapone,Drug_right,title,methopholine,0.7888645529747009
+Drug_left.csv,title,valperinol,Drug_right,title,valproate,0.7882386445999146
+Drug_left.csv,title,delmadinone,Drug_right,title,deleobuvir,0.7879263758659363
+Drug_left.csv,title,brl-44408,Drug_right,title,sb-269970,0.7878577709197998
+Drug_left.csv,title,"1,4,6-androstatriene-3,17-dione",Drug_right,title,4-androstenedione,0.7876558303833008
+Drug_left.csv,title,caroverine,Drug_right,title,carbaldrate,0.7844615578651428
+Drug_left.csv,title,etynodiol,Drug_right,title,ethinylestradiol,0.7840402722358704
+Drug_left.csv,title,trimethoprim/polymyxin,Drug_right,title,bacitracin/polymyxin b,0.781914472579956
+Drug_left.csv,title,clofazimine,Drug_right,title,homarylamine,0.7785773277282715
+Drug_left.csv,title,flucindole,Drug_right,title,flumist,0.7783045768737793
+Drug_left.csv,title,thiamylal,Drug_right,title,thiobromadol,0.7771430015563965
+Drug_left.csv,title,prx-08066,Drug_right,title,sb-204070,0.77674800157547
+Drug_left.csv,title,ro48-8684,Drug_right,title,gr-113808,0.776033341884613
+Drug_left.csv,title,ro60-0213,Drug_right,title,sb-215505,0.7755402326583862
+Drug_left.csv,title,"5,n-dimethyl-n-isopropyltryptamine",Drug_right,title,6-methyl-2-ethyl-3-hydroxypyridine,0.7751071453094482
+Drug_left.csv,title,ht-0712,Drug_right,title,cp-135807,0.7731181383132935
+Drug_left.csv,title,hydrocortisone buteprate,Drug_right,title,hydroxyprogesterone caproate,0.7708912491798401
+Drug_left.csv,title,14-hydroxydihydrocodeine,Drug_right,title,hyoscine hydrobromide,0.7684727311134338
+Drug_left.csv,title,5-methyl-mda,Drug_right,title,mmdma (drug),0.7673803567886353
+Drug_left.csv,title,perindopril,Drug_right,title,perfosfamide,0.7664151787757874
+Drug_left.csv,title,elb-139,Drug_right,title,emd-386088,0.7662063241004944
+Drug_left.csv,title,androstadienone,Drug_right,title,andexanet alfa,0.7645403742790222
+Drug_left.csv,title,tp-003,Drug_right,title,tm38837,0.7633823156356812
+Drug_left.csv,title,diallyllysergamide,Drug_right,title,dimethyllysergamide,0.7626192569732666
+Drug_left.csv,title,codeine methylbromide,Drug_right,title,hyoscine butylbromide,0.761333703994751
+Drug_left.csv,title,chlorothiazide,Drug_right,title,chlordiazepoxide/clidinium bromide,0.7610999345779419
+Drug_left.csv,title,difenpiramide,Drug_right,title,oxomemazine/guaifenesin,0.7570860981941223
+Drug_left.csv,title,bucladesine,Drug_right,title,bradanicline,0.7567457556724548
+Drug_left.csv,title,ivabradine,Drug_right,title,doravirine,0.7566318511962891
+Drug_left.csv,title,acetophenazine,Drug_right,title,abiraterone acetate,0.756580114364624
+Drug_left.csv,title,fadrozole,Drug_right,title,fabomotizole,0.7565152645111084
+Drug_left.csv,title,abatacept,Drug_right,title,abaloparatide,0.7548253536224365
+Drug_left.csv,title,cgp-35348,Drug_right,title,gr-127935,0.7517459988594055
+Drug_left.csv,title,spectinomycin,Drug_right,title,paromomycin sulfate,0.748412013053894
+Drug_left.csv,title,entacapone,Drug_right,title,entolimod,0.7481253147125244
+Drug_left.csv,title,cx-546,Drug_right,title,vx-809,0.7466913461685181
+Drug_left.csv,title,diphtheria vaccine,Drug_right,title,zoster vaccine,0.7454952597618103
+Drug_left.csv,title,tenoxicam,Drug_right,title,tenofovir disoproxil,0.7440154552459717
+Drug_left.csv,title,rti-112,Drug_right,title,rs-102221,0.7423595190048218
+Drug_left.csv,title,8-carboxamidocyclazocine,Drug_right,title,c16 (drug),0.7423450946807861
+Drug_left.csv,title,5-bromo-dmt,Drug_right,title,4-bromomethcathinone,0.7417770624160767
+Drug_left.csv,title,aprotinin,Drug_right,title,afegostat,0.741763710975647
+Drug_left.csv,title,cinchocaine,Drug_right,title,corbadrine,0.7404658198356628
+Drug_left.csv,title,chromium polynicotinate,Drug_right,title,chromium(iii) nicotinate,0.7402200102806091
+Drug_left.csv,title,diphenoxylate,Drug_right,title,acetylsalicylic acid/dipyridamole,0.738910436630249
+Drug_left.csv,title,omecamtiv mecarbil,Drug_right,title,omecamtiv mecarbil (ck-1827452),0.737641453742981
+Drug_left.csv,title,vinblastine,Drug_right,title,lavoltidine,0.7372602224349976
+Drug_left.csv,title,tipranavir,Drug_right,title,ledipasvir,0.7371783256530762
+Drug_left.csv,title,tipepidine,Drug_right,title,trifluridine/tipiracil,0.7367984056472778
+Drug_left.csv,title,iodocyanopindolol,Drug_right,title,idalopirdine,0.7332759499549866
+Drug_left.csv,title,rolicyclidine,Drug_right,title,roxatidine acetate,0.7268043756484985
+Drug_left.csv,title,etravirine,Drug_right,title,efavirenz/emtricitabine/tenofovir,0.7252794504165649
+Drug_left.csv,title,desmethylsertraline,Drug_right,title,dasotraline,0.7226666212081909
+Drug_left.csv,title,ceftiofur,Drug_right,title,elafibranor,0.7200459837913513
+Drug_left.csv,title,mesterolone,Drug_right,title,meclinertant,0.7188657522201538
+Drug_left.csv,title,ms-245,Drug_right,title,mdv3100,0.7187042236328125
+Drug_left.csv,title,1-aminomethyl-5-methoxyindane,Drug_right,title,1-(thiophen-2-yl)-2-aminopropane,0.7181061506271362
+Drug_left.csv,title,mam-2201,Drug_right,title,mn-18,0.7166551351547241
+Drug_left.csv,title,midecamycin,Drug_right,title,neomycin/polymyxin b/bacitracin,0.7126327753067017
+Drug_left.csv,title,etilamfetamine,Drug_right,title,caffeine/ergotamine,0.7094841003417969
+Drug_left.csv,title,artelinic acid,Drug_right,title,ursodeoxycholic acid,0.7084736227989197
+Drug_left.csv,title,cicletanine,Drug_right,title,gestonorone caproate,0.7047003507614136
+Drug_left.csv,title,ozanezumab,Drug_right,title,umifenovir,0.7033759355545044
+Drug_left.csv,title,bd1052,Drug_right,title,bdpc,0.6986539959907532
+Drug_left.csv,title,apaziquone,Drug_right,title,asaq,0.6986087560653687
+Drug_left.csv,title,sabarubicin,Drug_right,title,valsartan/sacubitril,0.696198582649231
+Drug_left.csv,title,gts-21,Drug_right,title,gs 7340,0.6888457536697388
+Drug_left.csv,title,bd1067,Drug_right,title,ana773,0.6862986087799072
+Drug_left.csv,title,o-1602,Drug_right,title,org 12962,0.6827285289764404
+Drug_left.csv,title,xylazine,Drug_right,title,xyrem,0.6810345649719238
+Drug_left.csv,title,pirisudanol,Drug_right,title,rapastinel,0.6800075173377991
+Drug_left.csv,title,enpiprazole,Drug_right,title,carbidopa/levodopa/entacapone,0.6799119710922241
+Drug_left.csv,title,psi-dom,Drug_right,title,psi-7977,0.6750091314315796
+Drug_left.csv,title,motavizumab,Drug_right,title,mdmai,0.6665134429931641
+Drug_left.csv,title,5-meo-mipt,Drug_right,title,5-it,0.6607520580291748
+Drug_left.csv,title,dapagliflozin,Drug_right,title,digoxin immune fab,0.6603158712387085
+Drug_left.csv,title,quinethazone,Drug_right,title,quchic,0.6583254933357239
+Drug_left.csv,title,bacampicillin,Drug_right,title,bacillus calmette-guã©rin,0.6563262939453125
+Drug_left.csv,title,am-2232,Drug_right,title,radium-223,0.6502825021743774
+Drug_left.csv,title,diphenhydramine,Drug_right,title,carphenazine,0.6489555835723877
+Drug_left.csv,title,2c-b-bzp,Drug_right,title,25c-nbome,0.6470850110054016
+Drug_left.csv,title,tetragalacturonic acid hydroxymethylester,Drug_right,title,ethinyl estradiol/drospirenone/levomefolic acid,0.6432268619537354
+Drug_left.csv,title,mivacurium chloride,Drug_right,title,radium-223 chloride,0.6410756707191467
+Drug_left.csv,title,cannabidivarin,Drug_right,title,apica (synthetic cannabinoid drug),0.6383457779884338
+Drug_left.csv,title,acarbose,Drug_right,title,apinaca,0.6373851895332336
+Drug_left.csv,title,moxaverine,Drug_right,title,surfaxin,0.635942816734314
+Drug_left.csv,title,bnc210,Drug_right,title,25tfm-nbome,0.630832850933075
+Drug_left.csv,title,glatiramer acetate,Drug_right,title,glycopyrrolate,0.6270220875740051
+Drug_left.csv,title,talarozole,Drug_right,title,tenoretic,0.6221064925193787
+Drug_left.csv,title,rintatolimod,Drug_right,title,tedizolid,0.6220300793647766
+Drug_left.csv,title,pemirolast,Drug_right,title,politor,0.6174341440200806
+Drug_left.csv,title,azepindole,Drug_right,title,qupic,0.6069190502166748
+Drug_left.csv,title,"s-14,671",Drug_right,title,w-18,0.6013234257698059
+Drug_left.csv,title,hepatitis b immune globulin,Drug_right,title,interferon beta 1a,0.5988746881484985
+Drug_left.csv,title,bcg vaccine,Drug_right,title,interferon beta 1b,0.5986514687538147
+Drug_left.csv,title,6-fluoronorepinephrine,Drug_right,title,ghrp-6,0.5897518396377563
+Drug_left.csv,title,carbetocin,Drug_right,title,regular insulin,0.5860046148300171
+Drug_left.csv,title,taliglucerase alfa,Drug_right,title,senna glycosides,0.5711449980735779
+Drug_left.csv,title,pneumococcal conjugate vaccine,Drug_right,title,crotalidae polyvalent immune fab,0.5013699531555176

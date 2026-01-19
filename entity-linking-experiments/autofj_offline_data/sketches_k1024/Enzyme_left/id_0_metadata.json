@@ -1,0 +1,9 @@
+{
+  "table_name": "Enzyme_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_embeddings": 3917,
+  "sketch_k": 1024,
+  "processing_time": 4.396466016769409,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Enzyme_left/id_0.npz"
+}

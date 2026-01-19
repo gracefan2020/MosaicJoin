@@ -1,0 +1,11 @@
+{
+  "table_name": "Venue_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 4079,
+  "unique_values": 4079,
+  "processed_values": 4079,
+  "embedding_dim": 768,
+  "processing_time": 2.859238624572754,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Venue_left.csv"
+}

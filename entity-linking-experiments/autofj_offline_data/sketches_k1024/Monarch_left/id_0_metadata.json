@@ -1,0 +1,9 @@
+{
+  "table_name": "Monarch_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_embeddings": 2033,
+  "sketch_k": 1024,
+  "processing_time": 1.9339771270751953,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Monarch_left/id_0.npz"
+}

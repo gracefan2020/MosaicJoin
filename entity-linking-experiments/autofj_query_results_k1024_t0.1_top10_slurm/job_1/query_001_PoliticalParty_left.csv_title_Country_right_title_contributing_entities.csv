@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+PoliticalParty_left.csv,title,prosperous armenia,Country_right,title,first republic of armenia,0.850807785987854
+PoliticalParty_left.csv,title,patriotic union of kurdistan,Country_right,title,kurdistansky uyezd,0.8478251695632935
+PoliticalParty_left.csv,title,united poland,Country_right,title,polish people's republic,0.8364396095275879
+PoliticalParty_left.csv,title,people's movement of kosovo,Country_right,title,kosovo (region),0.8358163237571716
+PoliticalParty_left.csv,title,democratic alternative (republic of macedonia),Country_right,title,independent state of macedonia,0.8313098549842834
+PoliticalParty_left.csv,title,greater romania party,Country_right,title,communist romania,0.8285173177719116
+PoliticalParty_left.csv,title,bangladesh nationalist party,Country_right,title,provisional government of bangladesh,0.8196636438369751
+PoliticalParty_left.csv,title,kenya people's union,Country_right,title,british kenya,0.8009464740753174
+PoliticalParty_left.csv,title,croatian democratic union of bosnia and herzegovina,Country_right,title,condominium of bosnia and herzegovina,0.795920193195343
+PoliticalParty_left.csv,title,belarusian christian democracy,Country_right,title,belarusian central council,0.795626163482666
+PoliticalParty_left.csv,title,hungarian justice and life party,Country_right,title,hungarian people's republic,0.78733229637146
+PoliticalParty_left.csv,title,united rhodesia party,Country_right,title,zimbabwe rhodesia,0.780047595500946
+PoliticalParty_left.csv,title,jeunesse gabonais,Country_right,title,cã´te d'ivoire,0.7798891067504883
+PoliticalParty_left.csv,title,slovene union,Country_right,title,croatia in the union with hungary,0.7739818096160889
+PoliticalParty_left.csv,title,revolutionary communist party of turkey,Country_right,title,turkish provisional government,0.7660577297210693
+PoliticalParty_left.csv,title,arab socialist union (iraq),Country_right,title,arab kingdom of syria,0.764896035194397
+PoliticalParty_left.csv,title,islamic iran participation front,Country_right,title,interim government of iran,0.7598288059234619
+PoliticalParty_left.csv,title,jeay sindh qaumi mahaz,Country_right,title,qara khitai,0.7554991245269775
+PoliticalParty_left.csv,title,bharipa bahujan mahasangh,Country_right,title,nakhchivan,0.7540199160575867
+PoliticalParty_left.csv,title,left of croatia,Country_right,title,duchy of croatia,0.7537465691566467
+PoliticalParty_left.csv,title,burma socialist programme party,Country_right,title,myanmar,0.7464548349380493
+PoliticalParty_left.csv,title,palestinian arab front,Country_right,title,jordanian occupation of the west bank and east jerusalem,0.7415759563446045
+PoliticalParty_left.csv,title,tamil desiyak katchi,Country_right,title,kartl-kakheti,0.7368743419647217
+PoliticalParty_left.csv,title,national democratic congress (ghana),Country_right,title,federation of nigeria,0.7351919412612915
+PoliticalParty_left.csv,title,lapiang malaya,Country_right,title,japanese occupation of malaya,0.734391450881958
+PoliticalParty_left.csv,title,eurasia party,Country_right,title,eurasian economic union,0.7328850030899048
+PoliticalParty_left.csv,title,social democratic union of bosnia and herzegovina,Country_right,title,austro-hungarian rule in bosnia and herzegovina,0.7328172922134399
+PoliticalParty_left.csv,title,people's mujahedin of iran,Country_right,title,muzaffarids (iran),0.724531888961792
+PoliticalParty_left.csv,title,batkivshchyna,Country_right,title,shirvan baylarbaylik,0.7219908237457275
+PoliticalParty_left.csv,title,gaumee itthihaad,Country_right,title,gazikumukh shamkhalate,0.7161734104156494
+PoliticalParty_left.csv,title,khana ratsadon,Country_right,title,ganja khanate,0.7157362699508667
+PoliticalParty_left.csv,title,aitaira,Country_right,title,arminiya,0.7144986987113953
+PoliticalParty_left.csv,title,croix-de-feu,Country_right,title,isle de france,0.7123891711235046
+PoliticalParty_left.csv,title,iraqi accord front,Country_right,title,armi (syria),0.7122951745986938
+PoliticalParty_left.csv,title,solidarity (ukraine),Country_right,title,post-soviet transition in ukraine,0.7117339372634888
+PoliticalParty_left.csv,title,janganotantrik morcha,Country_right,title,namayan,0.7045807838439941
+PoliticalParty_left.csv,title,kurdistan list,Country_right,title,occupation of turkish armenia,0.702917218208313
+PoliticalParty_left.csv,title,periyar dravidar kazhagam,Country_right,title,dzungar khanate,0.7019935250282288
+PoliticalParty_left.csv,title,german social union (east germany),Country_right,title,bavarian council republic,0.7007505893707275
+PoliticalParty_left.csv,title,communist party of the republic of china,Country_right,title,reorganized national government of the republic of china,0.6989349126815796
+PoliticalParty_left.csv,title,democratic union of albanians,Country_right,title,principality of albania (medieval),0.6974220275878906
+PoliticalParty_left.csv,title,national restoration,Country_right,title,restoration (spain),0.6951918601989746
+PoliticalParty_left.csv,title,arab ba'ath movement,Country_right,title,history of iraq under ba'athist rule,0.689276933670044
+PoliticalParty_left.csv,title,communist people's party of kazakhstan,Country_right,title,provisional government of autonomous siberia,0.6888664960861206
+PoliticalParty_left.csv,title,bangladesh jamaat-e-islami,Country_right,title,bengal sultanate,0.6860740184783936
+PoliticalParty_left.csv,title,kalibapi,Country_right,title,pasai,0.6851601600646973
+PoliticalParty_left.csv,title,alliance for the future of austria,Country_right,title,first austrian republic,0.6849661469459534
+PoliticalParty_left.csv,title,dhiravida thelugar munnetra kazhagam,Country_right,title,nayakas of keladi,0.6843022108078003
+PoliticalParty_left.csv,title,hezbe wahdat,Country_right,title,khereid,0.6840851306915283
+PoliticalParty_left.csv,title,slovak social democratic party of the kingdom of hungary,Country_right,title,first hungarian republic,0.6830108165740967
+PoliticalParty_left.csv,title,lithuanian russian union,Country_right,title,principality of turov,0.6804378032684326
+PoliticalParty_left.csv,title,jamiat-e islami,Country_right,title,jalairid sultanate,0.6801587343215942
+PoliticalParty_left.csv,title,inner mongolian people's party,Country_right,title,gazikumukh khanate,0.6796380877494812
+PoliticalParty_left.csv,title,independence republic of sardinia,Country_right,title,kingdom of italy (1861â1946),0.6788634061813354
+PoliticalParty_left.csv,title,united people of cambodia,Country_right,title,french protectorate of cambodia,0.6753143668174744
+PoliticalParty_left.csv,title,hayisraelim,Country_right,title,jalayirids,0.6750401258468628
+PoliticalParty_left.csv,title,morasha,Country_right,title,margraviate of moravia,0.6740409135818481
+PoliticalParty_left.csv,title,te tiarama,Country_right,title,nueva navarra,0.6740095615386963
+PoliticalParty_left.csv,title,cuban democratic socialist current,Country_right,title,united states military government in cuba,0.6731300354003906
+PoliticalParty_left.csv,title,life of the egyptians party,Country_right,title,early dynastic period (egypt),0.670018196105957
+PoliticalParty_left.csv,title,bangladesh khilafat andolan,Country_right,title,kalinyamat sultanate,0.6700029373168945
+PoliticalParty_left.csv,title,islamic front for the liberation of bahrain,Country_right,title,sultanate of ifat,0.6664968132972717
+PoliticalParty_left.csv,title,rodina,Country_right,title,kara del,0.6650348901748657
+PoliticalParty_left.csv,title,jordanian arab party,Country_right,title,jabal al-druze (state),0.6646255850791931
+PoliticalParty_left.csv,title,free national movement,Country_right,title,free france,0.6635401844978333
+PoliticalParty_left.csv,title,himachal kranti party,Country_right,title,pudukkottai state,0.6619349122047424
+PoliticalParty_left.csv,title,aruaa,Country_right,title,amecatl,0.6618317365646362
+PoliticalParty_left.csv,title,lega nord toscana,Country_right,title,tierra firma,0.6614269018173218
+PoliticalParty_left.csv,title,social democratic party of montenegro,Country_right,title,grand principality of serbia,0.6614025831222534
+PoliticalParty_left.csv,title,macedonian party,Country_right,title,byzantium under the macedonians,0.6600843667984009
+PoliticalParty_left.csv,title,united somali parliamentarians,Country_right,title,trust territory of somaliland,0.6586419343948364
+PoliticalParty_left.csv,title,shiromani akali dal (democratic),Country_right,title,nakhchivan autonomous republic,0.6537203788757324
+PoliticalParty_left.csv,title,democratic unionist party (sudan),Country_right,title,mahdist sudan,0.6535743474960327
+PoliticalParty_left.csv,title,people's alliance (spain),Country_right,title,spain under joseph bonaparte,0.6508893966674805
+PoliticalParty_left.csv,title,forum for restoration of democracy (tanzania),Country_right,title,people's republic of zanzibar,0.6496299505233765
+PoliticalParty_left.csv,title,krantikari mukti morcha,Country_right,title,kartids,0.6481094360351562
+PoliticalParty_left.csv,title,nafarroa bai,Country_right,title,rojava,0.647883415222168
+PoliticalParty_left.csv,title,sunni ittehad council,Country_right,title,hadiya sultanate,0.6436969041824341
+PoliticalParty_left.csv,title,democracia cristiana vasca,Country_right,title,albona republic,0.6398882269859314
+PoliticalParty_left.csv,title,communist party of china,Country_right,title,qing dynasty,0.6392316818237305
+PoliticalParty_left.csv,title,venezuelan popular unity,Country_right,title,unification of hispaniola,0.638799786567688
+PoliticalParty_left.csv,title,japan nation party,Country_right,title,japanese colonial empire,0.6374400854110718
+PoliticalParty_left.csv,title,ceylon communist party (maoist),Country_right,title,dutch ceylon,0.6372498273849487
+PoliticalParty_left.csv,title,german socialist labour party of poland,Country_right,title,german military administration in occupied poland,0.637139618396759
+PoliticalParty_left.csv,title,punjab janata morcha,Country_right,title,nawabs of bengal & murshidabad,0.6369658708572388
+PoliticalParty_left.csv,title,the greens (mauritius),Country_right,title,dominion of mauritius,0.6368789672851562
+PoliticalParty_left.csv,title,socialist party of albania,Country_right,title,kingdom of albania (medieval),0.6345927715301514
+PoliticalParty_left.csv,title,hizb ut-tahrir,Country_right,title,beylik of dulkadir,0.6344594955444336
+PoliticalParty_left.csv,title,camp of the autonomous islands,Country_right,title,colony of fiji,0.6342321634292603
+PoliticalParty_left.csv,title,agang south africa,Country_right,title,tanganyika (territory),0.6336336135864258
+PoliticalParty_left.csv,title,nationalist party (malta),Country_right,title,crown colony of malta,0.6334959268569946
+PoliticalParty_left.csv,title,kurdistan democratic party/north,Country_right,title,khanate of kazi-kumukh,0.6319860219955444
+PoliticalParty_left.csv,title,inekaren,Country_right,title,keraites,0.631377100944519
+PoliticalParty_left.csv,title,musavat,Country_right,title,erivan khanate,0.6304693222045898
+PoliticalParty_left.csv,title,alliance for italy,Country_right,title,republic of ancona,0.6274697780609131
+PoliticalParty_left.csv,title,cape party,Country_right,title,cape colony,0.6271135807037354
+PoliticalParty_left.csv,title,indian uzhavar uzhaippalar katchi,Country_right,title,tuyuhun,0.6260436177253723
+PoliticalParty_left.csv,title,european nation state,Country_right,title,passports issued by the european union candidate states,0.6200520992279053
+PoliticalParty_left.csv,title,marz-e por gohar,Country_right,title,gozo (1798â1800),0.6174578070640564
+PoliticalParty_left.csv,title,akhil bharatiya rashtravadi kisan sangathan,Country_right,title,nagas of padmavati,0.6173729300498962
+PoliticalParty_left.csv,title,national democratic front for the liberation of oman and the arabian gulf,Country_right,title,sultanate of ternate,0.6172067523002625
+PoliticalParty_left.csv,title,kokang democracy and unity party,Country_right,title,kalingga kingdom,0.6167764663696289
+PoliticalParty_left.csv,title,chadema,Country_right,title,cupul,0.6161426305770874
+PoliticalParty_left.csv,title,social liberal party (netherlands),Country_right,title,general government of belgium,0.6152864694595337
+PoliticalParty_left.csv,title,iraqi islamic party,Country_right,title,mandatory iraq,0.6150045394897461
+PoliticalParty_left.csv,title,cartel des gauches,Country_right,title,moche,0.6148919463157654
+PoliticalParty_left.csv,title,fatherland (kazakhstan),Country_right,title,karabakh beylerbeylik,0.614128589630127
+PoliticalParty_left.csv,title,dominica freedom party,Country_right,title,free and independent republic of west florida,0.6134442090988159
+PoliticalParty_left.csv,title,vohibato tapa-kevitsa,Country_right,title,yamataikoku,0.6132279634475708
+PoliticalParty_left.csv,title,alliance of builders of kongo,Country_right,title,wadai empire,0.6129056215286255
+PoliticalParty_left.csv,title,parti rakyat sarawak,Country_right,title,malacca sultanate,0.6113051772117615
+PoliticalParty_left.csv,title,national liberation front (algeria),Country_right,title,french protectorate of morocco,0.6109007596969604
+PoliticalParty_left.csv,title,national solidarity party (singapore),Country_right,title,colony of singapore,0.610170841217041
+PoliticalParty_left.csv,title,llais gwynedd,Country_right,title,lordship of glamorgan,0.60896897315979
+PoliticalParty_left.csv,title,el-ghad party,Country_right,title,alavids,0.6089342832565308
+PoliticalParty_left.csv,title,democratic regional union,Country_right,title,transnistria autonomous territorial unit with special legal status,0.604651689529419
+PoliticalParty_left.csv,title,rashtrawadi shiv sena,Country_right,title,rashtrakuta dynasty,0.6034146547317505
+PoliticalParty_left.csv,title,democratic area,Country_right,title,insular government,0.6029114127159119
+PoliticalParty_left.csv,title,chondoist chongu party,Country_right,title,qi (li maozhen's state),0.6010764837265015
+PoliticalParty_left.csv,title,party for the netherlands,Country_right,title,united belgian states,0.6003574132919312
+PoliticalParty_left.csv,title,new space (uruguay),Country_right,title,colony of santiago,0.5999297499656677
+PoliticalParty_left.csv,title,all-malaya council of joint action,Country_right,title,malacca (british crown colony),0.599906325340271
+PoliticalParty_left.csv,title,naujawan kisan party,Country_right,title,heungyo,0.5996386408805847
+PoliticalParty_left.csv,title,andean renaissance,Country_right,title,aztec empire,0.594922661781311
+PoliticalParty_left.csv,title,berber arouch citizen's movement,Country_right,title,zanzibar sultanate,0.5935219526290894
+PoliticalParty_left.csv,title,venetian independence,Country_right,title,italian islands of the aegean,0.592127799987793
+PoliticalParty_left.csv,title,oleksandr omelchenko bloc,Country_right,title,"eastern slavonia, baranja and western syrmia",0.5906546115875244
+PoliticalParty_left.csv,title,malaysian chinese association,Country_right,title,kingdom of chiang mai,0.5897784233093262
+PoliticalParty_left.csv,title,garo national council,Country_right,title,saar protectorate,0.5867910385131836
+PoliticalParty_left.csv,title,deutscher volksverband,Country_right,title,anhalt,0.5863944292068481
+PoliticalParty_left.csv,title,new sinhala heritage,Country_right,title,rajahnate of butuan,0.5859637260437012
+PoliticalParty_left.csv,title,swabhimani paksha,Country_right,title,panchala kingdom,0.5853629112243652
+PoliticalParty_left.csv,title,khmer people's national liberation front,Country_right,title,french protectorate of laos,0.5842759609222412
+PoliticalParty_left.csv,title,national democratic alliance (kuwait),Country_right,title,emirate of transjordan,0.5815120935440063
+PoliticalParty_left.csv,title,azerbaijan liberal party,Country_right,title,bagratid armenia,0.5779569149017334
+PoliticalParty_left.csv,title,safina,Country_right,title,sallarid,0.5766064524650574
+PoliticalParty_left.csv,title,meimad,Country_right,title,merkit,0.5757213830947876
+PoliticalParty_left.csv,title,qaumi watan party,Country_right,title,jeongan,0.5751782655715942
+PoliticalParty_left.csv,title,mahoran departmentalist movement,Country_right,title,maha-meghavahana dynasty,0.5751646757125854
+PoliticalParty_left.csv,title,lega nord sardinia,Country_right,title,adriatic ionian euroregion,0.5713481903076172
+PoliticalParty_left.csv,title,anti-imperialist front,Country_right,title,imperial throne (sovereign nation),0.5701717138290405
+PoliticalParty_left.csv,title,co-operative commonwealth federation,Country_right,title,commonwealth of independent states free trade area,0.5700327157974243
+PoliticalParty_left.csv,title,egyptian bloc,Country_right,title,seljuq empire,0.5679582357406616
+PoliticalParty_left.csv,title,shas,Country_right,title,rustamid,0.5674103498458862
+PoliticalParty_left.csv,title,new york republican state committee,Country_right,title,nassau (state),0.5640345811843872
+PoliticalParty_left.csv,title,sammarinese socialist party,Country_right,title,samanid empire,0.5631151795387268
+PoliticalParty_left.csv,title,gabriela,Country_right,title,buyeo,0.5593807697296143
+PoliticalParty_left.csv,title,mongolian people's party,Country_right,title,tarkhan dynasty,0.5590555667877197
+PoliticalParty_left.csv,title,freedom movement of iran,Country_right,title,alid dynasties of northern iran,0.5577766299247742
+PoliticalParty_left.csv,title,viplavakari lanka sama samaja party,Country_right,title,vaspurakan kingdom,0.5569497346878052
+PoliticalParty_left.csv,title,eusko abertzale ekintza,Country_right,title,later baekje,0.5527929067611694
+PoliticalParty_left.csv,title,liberal party of switzerland,Country_right,title,restoration and regeneration in switzerland,0.5505868792533875
+PoliticalParty_left.csv,title,motherland party (azerbaijan),Country_right,title,gozo (independent state),0.5502890348434448
+PoliticalParty_left.csv,title,terra galega,Country_right,title,osraige,0.5498796701431274
+PoliticalParty_left.csv,title,valencian union,Country_right,title,kingdom of iberia,0.5497983694076538
+PoliticalParty_left.csv,title,lai people's party,Country_right,title,liu song dynasty,0.549717903137207
+PoliticalParty_left.csv,title,the greens (luxembourg),Country_right,title,"county, duchy and grand duchy of luxembourg",0.5490769147872925
+PoliticalParty_left.csv,title,east kilbride alliance,Country_right,title,kingdom of northumbria,0.5488961338996887
+PoliticalParty_left.csv,title,plain tribals council of assam,Country_right,title,indian-ocean rim association,0.5473020076751709
+PoliticalParty_left.csv,title,big bang (faction),Country_right,title,hotaki empire,0.5470132827758789
+PoliticalParty_left.csv,title,hellenic front,Country_right,title,byzantium under the heraclians,0.5426034927368164
+PoliticalParty_left.csv,title,anaithinthiya thamizhaga munnetra kazhagam,Country_right,title,shamkhalate of kazi-kumukh,0.5422521829605103
+PoliticalParty_left.csv,title,iraqi independence party,Country_right,title,sultanate of the geledi,0.5410785675048828
+PoliticalParty_left.csv,title,party for the restructured antilles,Country_right,title,crown colony of labuan,0.5403093099594116
+PoliticalParty_left.csv,title,democratic alliance for egypt,Country_right,title,cyrenaica emirate,0.5401018261909485
+PoliticalParty_left.csv,title,free list (liechtenstein),Country_right,title,kempten (imperial free city),0.5397375822067261
+PoliticalParty_left.csv,title,kuomintang youth league,Country_right,title,yueban,0.5389776229858398
+PoliticalParty_left.csv,title,socialist left party (austria),Country_right,title,margraviate of austria,0.5379917621612549
+PoliticalParty_left.csv,title,kdp-i,Country_right,title,kediri kingdom,0.5379328727722168
+PoliticalParty_left.csv,title,russian unity,Country_right,title,realm of stefan dragutin,0.5368170142173767
+PoliticalParty_left.csv,title,taiwanese people's party,Country_right,title,chen dynasty,0.5366111397743225
+PoliticalParty_left.csv,title,concordancia (argentina),Country_right,title,principality of iberia,0.5347135066986084
+PoliticalParty_left.csv,title,eelam people's revolutionary liberation front,Country_right,title,"yanam, french india",0.5346662998199463
+PoliticalParty_left.csv,title,breton revolutionary army,Country_right,title,duchy of lorraine,0.5346388220787048
+PoliticalParty_left.csv,title,sarawak united peoples' party,Country_right,title,crown colony of malacca,0.5343767404556274
+PoliticalParty_left.csv,title,socialist alternative (netherlands),Country_right,title,county of brabant,0.5339460372924805
+PoliticalParty_left.csv,title,unitalia,Country_right,title,odanad,0.5338913202285767
+PoliticalParty_left.csv,title,egyptian renaissance party,Country_right,title,armani (ancient kingdom),0.5323654413223267
+PoliticalParty_left.csv,title,project republic of sardinia,Country_right,title,byzantium under the palaiologoi,0.5322558283805847
+PoliticalParty_left.csv,title,progressive hong kong society,Country_right,title,shang dynasty,0.5313860177993774
+PoliticalParty_left.csv,title,shan national league for democracy,Country_right,title,nanda dynasty,0.5311705470085144
+PoliticalParty_left.csv,title,communist party of kyrgyzstan,Country_right,title,provisional administration of south ossetia,0.5310679078102112
+PoliticalParty_left.csv,title,saenuri party,Country_right,title,shunga empire,0.5308574438095093
+PoliticalParty_left.csv,title,ephraim union,Country_right,title,hammadid,0.5285596251487732
+PoliticalParty_left.csv,title,fatherland and liberty,Country_right,title,bushmanland,0.5284191966056824
+PoliticalParty_left.csv,title,chaldean national congress,Country_right,title,chavda dynasty,0.5266751646995544
+PoliticalParty_left.csv,title,tibet improvement party,Country_right,title,tang dynasty,0.526498556137085
+PoliticalParty_left.csv,title,arab unification party,Country_right,title,mamluk dynasty of iraq,0.5253469944000244
+PoliticalParty_left.csv,title,ambedkar makkal katchi,Country_right,title,kerma culture,0.5251502990722656
+PoliticalParty_left.csv,title,union of democratic forces (mauritania),Country_right,title,sultanate of aussa,0.5243252515792847
+PoliticalParty_left.csv,title,agudat yisrael,Country_right,title,seljuk empire,0.5234095454216003
+PoliticalParty_left.csv,title,coalition for bulgaria,Country_right,title,principality of arbã«r,0.5204610228538513
+PoliticalParty_left.csv,title,communist party of the philippines,Country_right,title,british invasion of manila,0.5185135006904602
+PoliticalParty_left.csv,title,autonomous galician republican organization,Country_right,title,spanish protectorate of morocco,0.518297016620636
+PoliticalParty_left.csv,title,federation for the stability of hong kong,Country_right,title,special administrative regions of china,0.5176990628242493
+PoliticalParty_left.csv,title,jubilee alliance,Country_right,title,kingdom of ava,0.5155560970306396
+PoliticalParty_left.csv,title,rashtriya samaj paksha,Country_right,title,pandyan dynasty,0.5154651999473572
+PoliticalParty_left.csv,title,al-muthanna club,Country_right,title,k'iche' kingdom of q'umarkaj,0.5143951177597046
+PoliticalParty_left.csv,title,bolshevik samasamaja party,Country_right,title,samma dynasty,0.5138847827911377
+PoliticalParty_left.csv,title,people's union of estonia,Country_right,title,emirate of armenia,0.5117645859718323

@@ -1,0 +1,11 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballLeagueSeason_left.csv,title,1997 barcelona dragons season,NationalFootballLeagueSeason_right,title,2003 fc barcelona dragons season,0.9458807706832886
+FootballLeagueSeason_left.csv,title,1995 barcelona dragons season,NationalFootballLeagueSeason_right,title,2002 fc barcelona dragons season,0.9382266998291016
+FootballLeagueSeason_left.csv,title,1921 cleveland indians (nfl) season,NationalFootballLeagueSeason_right,title,1921 detroit tigers season (nfl),0.8563833236694336
+FootballLeagueSeason_left.csv,title,1923 canton bulldogs season,NationalFootballLeagueSeason_right,title,1905 canton athletic club season,0.8478400707244873
+FootballLeagueSeason_left.csv,title,1919 canton bulldogs season,NationalFootballLeagueSeason_right,title,1914 canton professionals season,0.8474957942962646
+FootballLeagueSeason_left.csv,title,1922 canton bulldogs season,NationalFootballLeagueSeason_right,title,1912 canton professionals season,0.821258008480072
+FootballLeagueSeason_left.csv,title,1902 latrobe athletic association season,NationalFootballLeagueSeason_right,title,1900 homestead library & athletic club football season,0.7472708225250244
+FootballLeagueSeason_left.csv,title,1923 akron pros season,NationalFootballLeagueSeason_right,title,1913 canton professionals season,0.7362880110740662
+FootballLeagueSeason_left.csv,title,1905 latrobe athletic association season,NationalFootballLeagueSeason_right,title,1911 canton professionals season,0.7290204763412476
+FootballLeagueSeason_left.csv,title,1923 duluth kelleys season,NationalFootballLeagueSeason_right,title,1996 minnesota fighting pike season,0.625845730304718

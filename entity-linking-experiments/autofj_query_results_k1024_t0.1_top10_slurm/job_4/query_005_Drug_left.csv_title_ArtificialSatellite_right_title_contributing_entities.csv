@@ -1,0 +1,73 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Drug_left.csv,title,ur-144,ArtificialSatellite_right,title,uosat-1,0.7496155500411987
+Drug_left.csv,title,u0126,ArtificialSatellite_right,title,uo-11,0.7417182326316833
+Drug_left.csv,title,tas-108,ArtificialSatellite_right,title,tdrs-11,0.736640214920044
+Drug_left.csv,title,am-2232,ArtificialSatellite_right,title,usa-242,0.7323814034461975
+Drug_left.csv,title,liotrix,ArtificialSatellite_right,title,abrixas,0.7149319052696228
+Drug_left.csv,title,prx-08066,ArtificialSatellite_right,title,nee-01 pegaso,0.706093430519104
+Drug_left.csv,title,azepindole,ArtificialSatellite_right,title,azerspace,0.7050496935844421
+Drug_left.csv,title,solanezumab,ArtificialSatellite_right,title,solwind,0.6986063718795776
+Drug_left.csv,title,afdx-384,ArtificialSatellite_right,title,ekspress am4,0.6911551356315613
+Drug_left.csv,title,rti-112,ArtificialSatellite_right,title,irnss-1a,0.6875580549240112
+Drug_left.csv,title,cck-4,ArtificialSatellite_right,title,dragon c4,0.6757649183273315
+Drug_left.csv,title,srt1460,ArtificialSatellite_right,title,telstar 14,0.671636700630188
+Drug_left.csv,title,captodiame,ArtificialSatellite_right,title,seasat,0.6632794141769409
+Drug_left.csv,title,raltitrexed,ArtificialSatellite_right,title,resurs-dk no.1,0.6552208662033081
+Drug_left.csv,title,sr-48692,ArtificialSatellite_right,title,kosmos 605,0.6539322137832642
+Drug_left.csv,title,procarbazine,ArtificialSatellite_right,title,proba2,0.6513634920120239
+Drug_left.csv,title,seletracetam,ArtificialSatellite_right,title,ses-7,0.6484521627426147
+Drug_left.csv,title,ic-26,ArtificialSatellite_right,title,intelsat 28,0.6456044912338257
+Drug_left.csv,title,litracen,ArtificialSatellite_right,title,lightsail 2,0.6301144361495972
+Drug_left.csv,title,adbica,ArtificialSatellite_right,title,aida (mission),0.6237964630126953
+Drug_left.csv,title,homatropine,ArtificialSatellite_right,title,hylas,0.6201754808425903
+Drug_left.csv,title,al-34662,ArtificialSatellite_right,title,acrimsat,0.6181414127349854
+Drug_left.csv,title,ver-3323,ArtificialSatellite_right,title,venera 3mv-1 no.2,0.6172624230384827
+Drug_left.csv,title,aviptadil,ArtificialSatellite_right,title,aditya (satellite),0.6029958724975586
+Drug_left.csv,title,fezakinumab,ArtificialSatellite_right,title,ziyuan iii-01,0.600400447845459
+Drug_left.csv,title,bu-48,ArtificialSatellite_right,title,amc-1,0.5948225259780884
+Drug_left.csv,title,gts-21,ArtificialSatellite_right,title,hot bird 13c,0.5947728157043457
+Drug_left.csv,title,cx-546,ArtificialSatellite_right,title,cp6 (satellite),0.5862655639648438
+Drug_left.csv,title,technetium (99mtc) sestamibi,ArtificialSatellite_right,title,soyuz 7k-t no.39,0.5807583332061768
+Drug_left.csv,title,ms-245,ArtificialSatellite_right,title,sentinel-3,0.5790428519248962
+Drug_left.csv,title,3c-p,ArtificialSatellite_right,title,dragon c3,0.5746704339981079
+Drug_left.csv,title,o-1602,ArtificialSatellite_right,title,spaceshipone flight 17p,0.5738644003868103
+Drug_left.csv,title,duligotumab,ArtificialSatellite_right,title,uosat-oscar 9,0.571784257888794
+Drug_left.csv,title,technetium (99mtc) pintumomab,ArtificialSatellite_right,title,as-102 (spacecraft),0.567678689956665
+Drug_left.csv,title,ad-1211,ArtificialSatellite_right,title,kosmos 1667,0.5653043985366821
+Drug_left.csv,title,cyclothiazide,ArtificialSatellite_right,title,cygnus orb-d1,0.5587097406387329
+Drug_left.csv,title,u-50488,ArtificialSatellite_right,title,eutelsat 48b,0.5577480792999268
+Drug_left.csv,title,technetium (99mtc) arcitumomab,ArtificialSatellite_right,title,as-101 (spacecraft),0.5565037727355957
+Drug_left.csv,title,elb-139,ArtificialSatellite_right,title,eutelsat 33b,0.5543727874755859
+Drug_left.csv,title,abt-202,ArtificialSatellite_right,title,pad abort test 2,0.5540176630020142
+Drug_left.csv,title,am-411,ArtificialSatellite_right,title,abs-3,0.5529134273529053
+Drug_left.csv,title,s-18986,ArtificialSatellite_right,title,eutelsat 117 west a,0.5518636107444763
+Drug_left.csv,title,cgp-37849,ArtificialSatellite_right,title,eutelsat 33c,0.548133373260498
+Drug_left.csv,title,dpi-287,ArtificialSatellite_right,title,cute-1.7 + apd,0.5480276346206665
+Drug_left.csv,title,glipizide,ArtificialSatellite_right,title,geotail,0.5478432178497314
+Drug_left.csv,title,alosetron,ArtificialSatellite_right,title,orion 3,0.5387821197509766
+Drug_left.csv,title,sep-225289,ArtificialSatellite_right,title,eutelsat 31a,0.5373315811157227
+Drug_left.csv,title,"ssr-180,711",ArtificialSatellite_right,title,afghansat 1,0.5345617532730103
+Drug_left.csv,title,conorfone,ArtificialSatellite_right,title,champ (satellite),0.5329978466033936
+Drug_left.csv,title,sdz ser-082,ArtificialSatellite_right,title,soyuz 7k-st no. 16l,0.5304250717163086
+Drug_left.csv,title,traxoprodil,ArtificialSatellite_right,title,cots demo flight 2,0.5288898944854736
+Drug_left.csv,title,technetium (99mtc) sulesomab,ArtificialSatellite_right,title,as-103 (spacecraft),0.5259407758712769
+Drug_left.csv,title,bms-945429,ArtificialSatellite_right,title,eutelsat 16b,0.5248703360557556
+Drug_left.csv,title,"rs-127,445",ArtificialSatellite_right,title,eutelsat 113 west a,0.523400604724884
+Drug_left.csv,title,cgp-35348,ArtificialSatellite_right,title,eutelsat 25c,0.5211069583892822
+Drug_left.csv,title,technetium (99mtc) tilmanocept,ArtificialSatellite_right,title,as-104 (spacecraft),0.5115727782249451
+Drug_left.csv,title,ioxilan,ArtificialSatellite_right,title,fengyun 2d,0.5109890103340149
+Drug_left.csv,title,ro48-8684,ArtificialSatellite_right,title,eutelsat 48d,0.5091094970703125
+Drug_left.csv,title,"cp-93,129",ArtificialSatellite_right,title,cots demo flight 1,0.5086867213249207
+Drug_left.csv,title,fosinopril,ArtificialSatellite_right,title,foton-m no.2,0.5038825869560242
+Drug_left.csv,title,abatacept,ArtificialSatellite_right,title,pad abort test 1,0.5004875063896179
+Drug_left.csv,title,ro4491533,ArtificialSatellite_right,title,spirit rover,0.4963580369949341
+Drug_left.csv,title,mam-2201,ArtificialSatellite_right,title,opportunity rover,0.49499833583831787
+Drug_left.csv,title,ht-0712,ArtificialSatellite_right,title,mightysat-2.1,0.4904097020626068
+Drug_left.csv,title,o-1057,ArtificialSatellite_right,title,as-105 (spacecraft),0.4900065064430237
+Drug_left.csv,title,"ici-190,622",ArtificialSatellite_right,title,eutelsat 4a,0.45776110887527466
+Drug_left.csv,title,halometasone,ArtificialSatellite_right,title,mars orbiter mission,0.4523013234138489
+Drug_left.csv,title,landiolol,ArtificialSatellite_right,title,landsat 8,0.4477270841598511
+Drug_left.csv,title,lerisetron,ArtificialSatellite_right,title,prisma (satellite project),0.42235735058784485
+Drug_left.csv,title,indium (111in) igovomab,ArtificialSatellite_right,title,nuclear spectroscopic telescope array,0.40709012746810913
+Drug_left.csv,title,l-ap4,ArtificialSatellite_right,title,laplace-p,0.3828834295272827
+Drug_left.csv,title,sulfur,ArtificialSatellite_right,title,soil moisture and ocean salinity,0.31309637427330017

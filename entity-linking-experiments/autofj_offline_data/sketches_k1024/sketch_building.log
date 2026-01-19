@@ -1,0 +1,36 @@
+2026-01-18 19:37:04,526 - OfflineSketchBuilder - INFO - Starting offline sketch building
+2026-01-18 19:37:04,526 - OfflineSketchBuilder - INFO - Discovering embedding files in: entity-linking-experiments/autofj_offline_data/embeddings
+2026-01-18 19:37:04,528 - OfflineSketchBuilder - INFO - Starting offline sketch building
+2026-01-18 19:37:04,530 - OfflineSketchBuilder - INFO - Starting offline sketch building
+2026-01-18 19:37:04,530 - OfflineSketchBuilder - INFO - Starting offline sketch building
+2026-01-18 19:37:04,530 - OfflineSketchBuilder - INFO - Discovering embedding files in: entity-linking-experiments/autofj_offline_data/embeddings
+2026-01-18 19:37:04,532 - OfflineSketchBuilder - INFO - Discovering embedding files in: entity-linking-experiments/autofj_offline_data/embeddings
+2026-01-18 19:37:04,532 - OfflineSketchBuilder - INFO - Discovering embedding files in: entity-linking-experiments/autofj_offline_data/embeddings
+2026-01-18 19:37:04,548 - OfflineSketchBuilder - INFO - Filtering to specified tables: ['Enzyme_right', 'EthnicGroup_left', 'EthnicGroup_right', 'FootballLeagueSeason_left', 'FootballLeagueSeason_right', 'FootballMatch_left', 'FootballMatch_right', 'Galaxy_left', 'Galaxy_right', 'GivenName_left', 'GivenName_right', 'GovernmentAgency_left', 'GovernmentAgency_right', 'HistoricBuilding_left', 'HistoricBuilding_right', 'Hospital_left', 'Hospital_right', 'Legislature_left', 'Legislature_right', 'Magazine_left', 'Magazine_right', 'MemberOfParliament_left', 'MemberOfParliament_right', 'Monarch_left', 'Monarch_right']
+2026-01-18 19:37:04,549 - OfflineSketchBuilder - INFO - Found 25 table directories
+2026-01-18 19:37:04,551 - OfflineSketchBuilder - INFO - Discovered 50 embedding files across 25 tables
+2026-01-18 19:37:04,551 - OfflineSketchBuilder - INFO - Processing 50 columns
+2026-01-18 19:37:04,554 - OfflineSketchBuilder - INFO - Filtering to specified tables: ['MotorsportSeason_left', 'MotorsportSeason_right', 'Museum_left', 'Museum_right', 'NCAATeamSeason_left', 'NCAATeamSeason_right', 'NationalFootballLeagueSeason_left', 'NationalFootballLeagueSeason_right', 'NaturalEvent_left', 'NaturalEvent_right', 'Noble_left', 'Noble_right', 'PoliticalParty_left', 'PoliticalParty_right', 'Race_left', 'Race_right', 'RailwayLine_left', 'RailwayLine_right', 'Reptile_left', 'Reptile_right', 'RugbyLeague_left', 'RugbyLeague_right', 'ShoppingMall_left', 'ShoppingMall_right', 'SoccerClubSeason_left']
+2026-01-18 19:37:04,555 - OfflineSketchBuilder - INFO - Filtering to specified tables: ['Amphibian_left', 'Amphibian_right', 'ArtificialSatellite_left', 'ArtificialSatellite_right', 'Artwork_left', 'Artwork_right', 'Award_left', 'Award_right', 'BasketballTeam_left', 'BasketballTeam_right', 'Case_left', 'Case_right', 'ChristianBishop_left', 'ChristianBishop_right', 'ClericalAdministrativeRegion_left', 'ClericalAdministrativeRegion_right', 'Country_left', 'Country_right', 'Device_left', 'Device_right', 'Drug_left', 'Drug_right', 'Election_left', 'Election_right', 'Enzyme_left']
+2026-01-18 19:37:04,555 - OfflineSketchBuilder - INFO - Filtering to specified tables: ['SoccerClubSeason_right', 'SoccerLeague_left', 'SoccerLeague_right', 'SoccerTournament_left', 'SoccerTournament_right', 'Song_left', 'Song_right', 'SportFacility_left', 'SportFacility_right', 'SportsLeague_left', 'SportsLeague_right', 'Stadium_left', 'Stadium_right', 'TelevisionStation_left', 'TelevisionStation_right', 'TennisTournament_left', 'TennisTournament_right', 'Tournament_left', 'Tournament_right', 'UnitOfWork_left', 'UnitOfWork_right', 'Venue_left', 'Venue_right', 'Wrestler_left', 'Wrestler_right']
+2026-01-18 19:37:04,556 - OfflineSketchBuilder - INFO - Found 25 table directories
+2026-01-18 19:37:04,557 - OfflineSketchBuilder - INFO - Found 25 table directories
+2026-01-18 19:37:04,559 - OfflineSketchBuilder - INFO - Found 25 table directories
+2026-01-18 19:37:04,561 - OfflineSketchBuilder - INFO - Discovered 50 embedding files across 25 tables
+2026-01-18 19:37:04,562 - OfflineSketchBuilder - INFO - Discovered 50 embedding files across 25 tables
+2026-01-18 19:37:04,567 - OfflineSketchBuilder - INFO - Discovered 50 embedding files across 25 tables
+2026-01-18 19:37:04,623 - OfflineSketchBuilder - INFO - Processing 50 columns
+2026-01-18 19:37:04,625 - OfflineSketchBuilder - INFO - Processing 50 columns
+2026-01-18 19:37:04,628 - OfflineSketchBuilder - INFO - Processing 50 columns
+2026-01-18 19:38:27,352 - OfflineSketchBuilder - INFO - Total sketch build time: 82.2566s, Average sketch build time per column: 1.6451s
+2026-01-18 19:38:27,362 - OfflineSketchBuilder - INFO - Created 50 embeddings with an average of 1367 values per column
+2026-01-18 19:38:27,362 - OfflineSketchBuilder - INFO - Offline sketch building completed
+2026-01-18 19:38:33,705 - OfflineSketchBuilder - INFO - Total sketch build time: 88.7397s, Average sketch build time per column: 1.7748s
+2026-01-18 19:38:33,707 - OfflineSketchBuilder - INFO - Created 50 embeddings with an average of 1720 values per column
+2026-01-18 19:38:33,707 - OfflineSketchBuilder - INFO - Offline sketch building completed
+2026-01-18 19:39:10,695 - OfflineSketchBuilder - INFO - Total sketch build time: 125.6244s, Average sketch build time per column: 2.5125s
+2026-01-18 19:39:10,724 - OfflineSketchBuilder - INFO - Created 50 embeddings with an average of 2150 values per column
+2026-01-18 19:39:10,724 - OfflineSketchBuilder - INFO - Offline sketch building completed
+2026-01-18 19:39:28,616 - OfflineSketchBuilder - INFO - Total sketch build time: 143.5730s, Average sketch build time per column: 2.8715s
+2026-01-18 19:39:28,618 - OfflineSketchBuilder - INFO - Created 50 embeddings with an average of 2066 values per column
+2026-01-18 19:39:28,618 - OfflineSketchBuilder - INFO - Offline sketch building completed

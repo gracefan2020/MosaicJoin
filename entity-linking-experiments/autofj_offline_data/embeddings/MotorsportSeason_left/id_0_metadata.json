@@ -1,0 +1,11 @@
+{
+  "table_name": "MotorsportSeason_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 1465,
+  "unique_values": 1465,
+  "processed_values": 1465,
+  "embedding_dim": 768,
+  "processing_time": 0.8361167907714844,
+  "file_path": "datasets/autofj_join_benchmark/datalake/MotorsportSeason_left.csv"
+}

@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+PoliticalParty_left.csv,title,kansas republican party,Election_right,title,"kansas republican caucuses, 2012",0.8643149137496948
+PoliticalParty_left.csv,title,michigan republican party,Election_right,title,"michigan republican primary, 2012",0.8632766008377075
+PoliticalParty_left.csv,title,maine republican party,Election_right,title,"maine republican caucuses, 2012",0.8562934398651123
+PoliticalParty_left.csv,title,republican party of minnesota,Election_right,title,"minnesota republican caucuses, 2012",0.8533973693847656
+PoliticalParty_left.csv,title,janata dal (gujarat),Election_right,title,"gujarat legislative assembly election, 2012",0.8413302302360535
+PoliticalParty_left.csv,title,assam pradesh congress committee,Election_right,title,"assam legislative assembly election, 2011",0.841240406036377
+PoliticalParty_left.csv,title,serbian democratic party (bosnia and herzegovina),Election_right,title,"bosnian general election, 2006",0.8385831117630005
+PoliticalParty_left.csv,title,zimbabwe people's democratic party,Election_right,title,"zimbabwean presidential election, 2012",0.8356730937957764
+PoliticalParty_left.csv,title,egyptian current party,Election_right,title,"egyptian parliamentary election, 2014",0.8312351107597351
+PoliticalParty_left.csv,title,people's national party (ghana),Election_right,title,"ghanaian presidential election, 2012",0.8294810056686401
+PoliticalParty_left.csv,title,people's democratic party (chile),Election_right,title,"chilean general election, 2013",0.8280783891677856
+PoliticalParty_left.csv,title,republican party of louisiana,Election_right,title,"louisiana republican primary and caucuses, 2012",0.8272683620452881
+PoliticalParty_left.csv,title,conservative party of quebec (historical),Election_right,title,40th quebec general election,0.8270838856697083
+PoliticalParty_left.csv,title,catalan state-proletarian party,Election_right,title,"catalan parliamentary election, 2006",0.8255922794342041
+PoliticalParty_left.csv,title,chhatisgarh pradesh congress committee,Election_right,title,"chhattisgarh legislative assembly election, 2008",0.8255881071090698
+PoliticalParty_left.csv,title,liberal democratic party (serbia 2005),Election_right,title,"serbian presidential election, december 1997",0.8182547092437744
+PoliticalParty_left.csv,title,democratic people's party (ghana),Election_right,title,"ghanaian presidential election, 2008",0.8167875409126282
+PoliticalParty_left.csv,title,haryana pradesh congress committee,Election_right,title,"haryana legislative assembly election, 2009",0.813449501991272
+PoliticalParty_left.csv,title,social democratic party of bosnia and herzegovina,Election_right,title,"bosnian general election, 2010",0.8105202913284302
+PoliticalParty_left.csv,title,california democratic party,Election_right,title,"california state assembly election, 2008",0.8100504875183105
+PoliticalParty_left.csv,title,independent democrats (czech republic),Election_right,title,"czech legislative election, 2013",0.808139979839325
+PoliticalParty_left.csv,title,puducherry pradesh congress committee,Election_right,title,"puducherry legislative assembly election, 2011",0.8073831796646118
+PoliticalParty_left.csv,title,bhutan peace and prosperity party,Election_right,title,"bhutanese national assembly election, 2008",0.8073827028274536
+PoliticalParty_left.csv,title,ukrainian national democratic alliance,Election_right,title,"kiev local election, 2014",0.8017197847366333
+PoliticalParty_left.csv,title,mississippi democratic party,Election_right,title,"mississippi republican primary, 2012",0.8005809187889099
+PoliticalParty_left.csv,title,alliance party of northern ireland,Election_right,title,"northern ireland assembly election, 2016",0.7994779348373413
+PoliticalParty_left.csv,title,radical democracy party (chile),Election_right,title,"chilean general election, 1993",0.7986248731613159
+PoliticalParty_left.csv,title,brazilian labour party (current),Election_right,title,"brazilian general election, 2014",0.7980045080184937
+PoliticalParty_left.csv,title,punjab janata morcha,Election_right,title,"punjab legislative assembly election, 2012",0.7951940894126892
+PoliticalParty_left.csv,title,human rights party (cambodia),Election_right,title,"cambodian general election, 2008",0.7950356006622314
+PoliticalParty_left.csv,title,platform for catalonia,Election_right,title,"catalonian parliamentary election, 2015",0.7929893732070923
+PoliticalParty_left.csv,title,democratic centre union (greece),Election_right,title,"greek legislative election, january 2015",0.7927420139312744
+PoliticalParty_left.csv,title,christian democrats (sweden),Election_right,title,"swedish general election, 2018",0.7924748063087463
+PoliticalParty_left.csv,title,united somali parliamentarians,Election_right,title,"somaliland parliamentary election, 2012",0.7919164299964905
+PoliticalParty_left.csv,title,new zealand labour party,Election_right,title,"new zealand general election, 2014",0.7910727262496948
+PoliticalParty_left.csv,title,kurdistan democratic party/north,Election_right,title,"iraqi kurdistan parliamentary election, 2009",0.7909971475601196
+PoliticalParty_left.csv,title,himachal kranti party,Election_right,title,"himachal pradesh legislative assembly election, 2012",0.7885262966156006
+PoliticalParty_left.csv,title,burma socialist programme party,Election_right,title,"myanmar general election, 2010",0.7864620685577393
+PoliticalParty_left.csv,title,reform party (singapore),Election_right,title,"singaporean general election, 2015",0.7851136922836304
+PoliticalParty_left.csv,title,social democratic party (portugal),Election_right,title,"portuguese legislative election, 2015",0.7844499945640564
+PoliticalParty_left.csv,title,social liberal party (brazil),Election_right,title,"brazilian legislative election, 2010",0.7836520671844482
+PoliticalParty_left.csv,title,new york republican state committee,Election_right,title,"new york republican primary, 2012",0.7812526226043701
+PoliticalParty_left.csv,title,tamil national alliance,Election_right,title,"tamil nadu legislative assembly election, 2006",0.779889702796936
+PoliticalParty_left.csv,title,regionalist action party of chile,Election_right,title,"chilean general election, 1989",0.7791517972946167
+PoliticalParty_left.csv,title,moderate party of rhode island,Election_right,title,"rhode island republican primary, 2012",0.7782535552978516
+PoliticalParty_left.csv,title,christian democratic party (bolivia),Election_right,title,"bolivian general election, 2005",0.7777575850486755
+PoliticalParty_left.csv,title,congress of the people (trinidad and tobago),Election_right,title,"trinidad and tobago local election, 2010",0.7771396636962891
+PoliticalParty_left.csv,title,sikkim himali congress,Election_right,title,"sikkim legislative assembly election, 2009",0.7769742608070374
+PoliticalParty_left.csv,title,bangladesh nationalist party,Election_right,title,"bangladeshi general election, 2014",0.7766168117523193
+PoliticalParty_left.csv,title,"people's party (serbia, 2008)",Election_right,title,"serbian presidential election, 1990",0.7761707305908203
+PoliticalParty_left.csv,title,lithuanian national union,Election_right,title,"lithuanian supreme soviet election, 1990",0.7756255865097046
+PoliticalParty_left.csv,title,social democratic party (benin),Election_right,title,"nigerien general election, 2004",0.7745950222015381
+PoliticalParty_left.csv,title,party of national unity (kenya),Election_right,title,"kenyan presidential election, 2013",0.7728428840637207
+PoliticalParty_left.csv,title,national party of scotland,Election_right,title,"scottish parliament election, 2007",0.7706263065338135
+PoliticalParty_left.csv,title,justice party (turkey),Election_right,title,"turkish presidential election, 2012",0.7690644860267639
+PoliticalParty_left.csv,title,jharkhand party,Election_right,title,"indian general election, 2009 (jharkhand)",0.7683058977127075
+PoliticalParty_left.csv,title,dadra and nagar haveli pradesh congress committee,Election_right,title,"delhi legislative assembly election, 2013",0.7681549787521362
+PoliticalParty_left.csv,title,scottish conservative party,Election_right,title,"scottish parliament election, 2016",0.7666035890579224
+PoliticalParty_left.csv,title,croatian labour party,Election_right,title,"croatian parliamentary election, 2015",0.7639504671096802
+PoliticalParty_left.csv,title,patriotic union of kurdistan,Election_right,title,"iraqi kurdistan parliamentary election, 2005",0.7636085748672485
+PoliticalParty_left.csv,title,meghalaya pradesh congress committee,Election_right,title,"madhya pradesh legislative assembly election, 2008",0.7631317377090454
+PoliticalParty_left.csv,title,national democratic party (northern ireland),Election_right,title,"northern ireland local government elections, 2005",0.7628077268600464
+PoliticalParty_left.csv,title,democratic union party (egypt),Election_right,title,"egyptian parliamentary election, 2015",0.762590765953064
+PoliticalParty_left.csv,title,ukrainian people's party,Election_right,title,"ukrainian presidential election, 2014",0.7622045278549194
+PoliticalParty_left.csv,title,union of democratic forces (mauritania),Election_right,title,"mauritanian parliamentary election, 2013",0.7619454860687256
+PoliticalParty_left.csv,title,manipur pradesh congress committee,Election_right,title,"indian general election, 2009 (manipur)",0.761367678642273
+PoliticalParty_left.csv,title,liberal party (utah),Election_right,title,"utah republican primary, 2012",0.760201096534729
+PoliticalParty_left.csv,title,kerala revolutionary socialist party (baby john),Election_right,title,"kerala legislative assembly election, 2011",0.7596207857131958
+PoliticalParty_left.csv,title,khmer republican party,Election_right,title,"cambodian general election, 2003",0.7590744495391846
+PoliticalParty_left.csv,title,taiwanese people's party,Election_right,title,"taiwanese local elections, 2001",0.7574341893196106
+PoliticalParty_left.csv,title,kerala congress (joseph),Election_right,title,"kerala legislative assembly election, 2006",0.7569493055343628
+PoliticalParty_left.csv,title,green party taiwan,Election_right,title,"taiwanese municipal elections, 2010",0.7544945478439331
+PoliticalParty_left.csv,title,shiromani akali dal (democratic),Election_right,title,"delhi legislative assembly election, 2008",0.7527682781219482
+PoliticalParty_left.csv,title,new jersey reform party,Election_right,title,"new jersey republican primary, 2012",0.7513619661331177
+PoliticalParty_left.csv,title,progress party of equatorial guinea,Election_right,title,"guinean legislative election, 2012",0.7512614727020264
+PoliticalParty_left.csv,title,sikkim independent front,Election_right,title,"sikkim state assembly elections, 2009",0.7505728006362915
+PoliticalParty_left.csv,title,free democratic party (germany),Election_right,title,next german federal election,0.7488453388214111
+PoliticalParty_left.csv,title,haryana republican party,Election_right,title,"indian general election, 2009 (haryana)",0.7476176023483276
+PoliticalParty_left.csv,title,liberal party of australia,Election_right,title,"australian labor party leadership spill, march 2013",0.7462525963783264
+PoliticalParty_left.csv,title,national labour party (ireland),Election_right,title,"irish general election, 2016",0.745549201965332
+PoliticalParty_left.csv,title,democratic party of equatorial guinea,Election_right,title,"guinea-bissau general election, 2014",0.745266318321228
+PoliticalParty_left.csv,title,people's union of estonia,Election_right,title,"estonian constituent assembly election, 1919",0.7446895837783813
+PoliticalParty_left.csv,title,socialist party of ireland (1971),Election_right,title,"northern ireland local government elections, 1973",0.7445697784423828
+PoliticalParty_left.csv,title,sabah progressive party,Election_right,title,"people's party for freedom and democracy leadership election, 2006",0.7430385947227478
+PoliticalParty_left.csv,title,catalan workers bloc,Election_right,title,"catalan parliamentary election, 2012",0.7413233518600464
+PoliticalParty_left.csv,title,tripura pradesh congress committee,Election_right,title,"indian general election, 2009 (tripura)",0.7412960529327393
+PoliticalParty_left.csv,title,northern ireland unionist party,Election_right,title,"northern ireland local government elections, 1989",0.741087019443512
+PoliticalParty_left.csv,title,parti rakyat sarawak,Election_right,title,"hougang by-election, 2012",0.74044269323349
+PoliticalParty_left.csv,title,radical democratic party (spain),Election_right,title,"madrid assembly election, 1995",0.7400703430175781
+PoliticalParty_left.csv,title,greek national socialist party,Election_right,title,"greek legislative election, 2015",0.7394018173217773
+PoliticalParty_left.csv,title,liberal democratic party (france),Election_right,title,"french presidential election, 2017",0.7377169132232666
+PoliticalParty_left.csv,title,northern ireland conservatives,Election_right,title,"northern ireland local government elections, 1997",0.7375643253326416
+PoliticalParty_left.csv,title,green party in northern ireland,Election_right,title,"northern ireland local government elections, 2011",0.7367209196090698
+PoliticalParty_left.csv,title,romanian national party (moldova),Election_right,title,"madrilenian parliamentary election, 2011",0.7311433553695679
+PoliticalParty_left.csv,title,communist party of kyrgyzstan,Election_right,title,"kyrgyz presidential election, 2011",0.7300306558609009
+PoliticalParty_left.csv,title,british people's party (2005),Election_right,title,"united kingdom general election, 2005 (bristol)",0.728868842124939
+PoliticalParty_left.csv,title,constitution party (united states) federal candidates in 2010,Election_right,title,"district of columbia republican primary, 2012",0.7275853157043457
+PoliticalParty_left.csv,title,convention of christian democrats,Election_right,title,"christian democratic appeal leadership election, 2012",0.7269430160522461
+PoliticalParty_left.csv,title,progressive democratic alliance (equatorial guinea),Election_right,title,"guinea-bissau legislative election, 2012",0.7267190217971802
+PoliticalParty_left.csv,title,national democratic party (british virgin islands),Election_right,title,"british virgin islands general election, 1990",0.7255479097366333
+PoliticalParty_left.csv,title,democratic party (serbia),Election_right,title,"serbian presidential election, 1992",0.7255134582519531
+PoliticalParty_left.csv,title,communist party of spain (international) (1975),Election_right,title,"madrid assembly election, 1983",0.7227464318275452
+PoliticalParty_left.csv,title,national party of honduras,Election_right,title,"castilla-la mancha cortes election, 2011",0.7222427725791931
+PoliticalParty_left.csv,title,kurdistan list,Election_right,title,"iraqi kurdistan parliamentary election, 1992",0.7208691835403442
+PoliticalParty_left.csv,title,all india progressive janata dal,Election_right,title,"bihar legislative assembly election, 2010",0.7207653522491455
+PoliticalParty_left.csv,title,united wa state party,Election_right,title,"washington state senate election, 2008",0.7205170392990112
+PoliticalParty_left.csv,title,japan nation party,Election_right,title,next japanese general election,0.7196680307388306
+PoliticalParty_left.csv,title,the greens (denmark),Election_right,title,"danish general election, 2007",0.7184255123138428
+PoliticalParty_left.csv,title,democrats in norway,Election_right,title,"danish general election, 2011",0.7183709144592285
+PoliticalParty_left.csv,title,khmer neutral party,Election_right,title,"cambodian general election, 2013",0.717898964881897
+PoliticalParty_left.csv,title,party of social democracy (chile),Election_right,title,"chilean general election, 1932",0.716887354850769
+PoliticalParty_left.csv,title,agrarian party of moldova,Election_right,title,"madrilenian parliamentary election, may 2003",0.7163736820220947
+PoliticalParty_left.csv,title,hong kong civic association,Election_right,title,"hong kong district councils election, 2011",0.7160994410514832
+PoliticalParty_left.csv,title,sikkim congress (revolutionary),Election_right,title,1st nepalese constituent assembly,0.7153874635696411
+PoliticalParty_left.csv,title,national democratic alliance (kuwait),Election_right,title,"bahraini general election, 2006",0.7137251496315002
+PoliticalParty_left.csv,title,valencian union,Election_right,title,"valencian parliamentary election, 2011",0.7135919332504272
+PoliticalParty_left.csv,title,brazilian republican party,Election_right,title,"rio grande do sul state elections, 2006",0.7127262353897095
+PoliticalParty_left.csv,title,national liberal party (germany),Election_right,title,"bavarian state election, 2003",0.7113422155380249
+PoliticalParty_left.csv,title,oregon progressive party,Election_right,title,"oregon democratic primary, 2008",0.7111958265304565
+PoliticalParty_left.csv,title,pragatisheel manav samaj party,Election_right,title,"maharashtra state assembly election, 2009",0.7098020315170288
+PoliticalParty_left.csv,title,jordanian democratic people's party,Election_right,title,"bahraini general election, 2010",0.709317684173584
+PoliticalParty_left.csv,title,alliance party (malaysia),Election_right,title,"myanma general election, 2010",0.709244966506958
+PoliticalParty_left.csv,title,social liberal party (netherlands),Election_right,title,"belgian general election, 2003",0.7085233926773071
+PoliticalParty_left.csv,title,ulster democratic party,Election_right,title,"northern ireland local government elections, 1993",0.708463191986084
+PoliticalParty_left.csv,title,himachal vikas congress,Election_right,title,"arunachal pradesh legislative assembly election, 2009",0.7070667147636414
+PoliticalParty_left.csv,title,kokang democracy and unity party,Election_right,title,"ceutan assembly election, 2011",0.7070375680923462
+PoliticalParty_left.csv,title,revolutionary socialist party (zambia),Election_right,title,"zimbabwean parliamentary election, 1990",0.7068341970443726
+PoliticalParty_left.csv,title,democratic bahujan samaj morcha,Election_right,title,"west bengal legislative assembly election, 2006",0.7060759663581848
+PoliticalParty_left.csv,title,bjp kisan morcha,Election_right,title,"uttarakhand legislative assembly election, 2007",0.7053119540214539
+PoliticalParty_left.csv,title,the greens (luxembourg),Election_right,title,"luxembourg general election, 2004",0.7044647336006165
+PoliticalParty_left.csv,title,labour party of brazil,Election_right,title,"la riojan parliamentary election, 2011",0.7043784856796265
+PoliticalParty_left.csv,title,centre party (norway),Election_right,title,"danish general election, 2015",0.7043668031692505
+PoliticalParty_left.csv,title,secular party of australia,Election_right,title,next australian federal election,0.7042175531387329
+PoliticalParty_left.csv,title,liberal democratic party of germany,Election_right,title,"bavarian state election, 2008",0.7027549743652344
+PoliticalParty_left.csv,title,akhil bharatiya ram rajya parishad,Election_right,title,"uttarakhand legislative assembly election, 2012",0.7026737928390503
+PoliticalParty_left.csv,title,eelam people's democratic party,Election_right,title,"pondicherry legislative assembly election, 2011",0.7021790742874146
+PoliticalParty_left.csv,title,canarian nationalist party,Election_right,title,"canarian parliamentary election, 2011",0.7018542289733887
+PoliticalParty_left.csv,title,farmers' party (ireland),Election_right,title,"northern ireland local government elections, 1977",0.701600193977356
+PoliticalParty_left.csv,title,republican party of india (b.c. kamble),Election_right,title,"west bengal legislative assembly election, 1951",0.6994469165802002
+PoliticalParty_left.csv,title,united people of cambodia,Election_right,title,"cambodian general election, 1993",0.6993736624717712
+PoliticalParty_left.csv,title,pan-iranist party,Election_right,title,"iranian local elections, 2006",0.6970731019973755
+PoliticalParty_left.csv,title,greater romania party,Election_right,title,"moldavian supreme soviet election, 1990",0.6965960264205933
+PoliticalParty_left.csv,title,"labor party (united states, 1996)",Election_right,title,"reform party presidential primaries, 1996",0.6964950561523438
+PoliticalParty_left.csv,title,sociaal-liberale partij,Election_right,title,"corts valencianes election, 2015",0.6958795785903931
+PoliticalParty_left.csv,title,islamic front for the liberation of bahrain,Election_right,title,"bahraini general election, 1973",0.6956416964530945
+PoliticalParty_left.csv,title,communist labour party (scotland),Election_right,title,"scottish local elections, 1984",0.6954410672187805
+PoliticalParty_left.csv,title,liberal party of new york,Election_right,title,"new york city comptroller election, 2009",0.6943869590759277
+PoliticalParty_left.csv,title,greens south australia,Election_right,title,"tasmanian state election, 2014",0.6936090588569641
+PoliticalParty_left.csv,title,german national movement in liechtenstein,Election_right,title,"liechtenstein general election, 2009",0.6932871341705322
+PoliticalParty_left.csv,title,communist party of the republic of china,Election_right,title,"republic of china presidential election, 1948",0.6927326917648315
+PoliticalParty_left.csv,title,galician people's party,Election_right,title,"navarrese parliamentary election, 2011",0.6926164627075195
+PoliticalParty_left.csv,title,vermont progressive party,Election_right,title,"vermont republican primary, 2012",0.6915771961212158
+PoliticalParty_left.csv,title,national democratic party (united states),Election_right,title,"democratic progressive party presidential primary, 2008",0.6915362477302551
+PoliticalParty_left.csv,title,national democrats party,Election_right,title,"democrats 66 leadership election, 2006",0.6908594369888306
+PoliticalParty_left.csv,title,manipur peoples party,Election_right,title,"uttar pradesh legislative assembly election, 2012",0.6887657046318054
+PoliticalParty_left.csv,title,labour party (nigeria),Election_right,title,"calamba local election, 2013",0.6884899139404297
+PoliticalParty_left.csv,title,communist party of spain (reconstituted),Election_right,title,"aragonese corts election, 1983",0.6865638494491577
+PoliticalParty_left.csv,title,brunei people's party,Election_right,title,"cambodian senate election, 2012",0.6864097118377686
+PoliticalParty_left.csv,title,akhil bharatiya rashtravadi kisan sangathan,Election_right,title,"jammu and kashmir legislative assembly election, 2008",0.6863384246826172
+PoliticalParty_left.csv,title,autonomous galician republican organization,Election_right,title,"elections to the general council of the principality of asturias, 2011",0.6855310797691345
+PoliticalParty_left.csv,title,democratic labour party (barbados),Election_right,title,"jamaican general election, 2016",0.6851027011871338
+PoliticalParty_left.csv,title,city vision (auckland political ticket),Election_right,title,"newcastle city council election, 2012",0.68476802110672
+PoliticalParty_left.csv,title,lanka sama samaja party,Election_right,title,"sri lankan provincial council elections, 2004",0.6845976114273071
+PoliticalParty_left.csv,title,workers' party (czech republic),Election_right,title,"czechoslovak parliamentary election, 1946",0.6839544177055359
+PoliticalParty_left.csv,title,justice party (kosovo),Election_right,title,"republika srpska presidential election, 2010",0.6838282942771912
+PoliticalParty_left.csv,title,socialist unity party of germany,Election_right,title,"bavarian state election, 2013",0.6836116313934326
+PoliticalParty_left.csv,title,national democratic congress (ghana),Election_right,title,"malian parliamentary election, 2012",0.683021605014801
+PoliticalParty_left.csv,title,motherland party (azerbaijan),Election_right,title,"madrilenian parliamentary election, 1995",0.682759165763855
+PoliticalParty_left.csv,title,communist party of the people of spain,Election_right,title,"madrid assembly election, 1991",0.6826409697532654
+PoliticalParty_left.csv,title,democratic renewal (lebanon),Election_right,title,"tunisian general election, 2014",0.6822443008422852
+PoliticalParty_left.csv,title,islamic iran participation front,Election_right,title,"iranian local elections, 2013",0.6814419031143188
+PoliticalParty_left.csv,title,red party (norway),Election_right,title,next danish general election,0.681259274482727
+PoliticalParty_left.csv,title,socialist alternative (netherlands),Election_right,title,"belgian general election, 2007",0.6808199882507324
+PoliticalParty_left.csv,title,communist party of germany (1990),Election_right,title,"luxembourg general election, 1989",0.6794196963310242
+PoliticalParty_left.csv,title,ambedkar national congress,Election_right,title,"madras legislative assembly election, 1957",0.6787575483322144
+PoliticalParty_left.csv,title,wales green party,Election_right,title,"united kingdom general election, 2010 (wales)",0.6778240203857422
+PoliticalParty_left.csv,title,southern ethiopia peoples' democratic coalition,Election_right,title,"somaliland general election, 2015",0.6771727800369263
+PoliticalParty_left.csv,title,reform and development misruna party,Election_right,title,"riojan parliamentary election, 2011",0.6759060621261597
+PoliticalParty_left.csv,title,national republican party,Election_right,title,"reform party presidential primaries, 2004",0.6755989193916321
+PoliticalParty_left.csv,title,fatherland party (norway),Election_right,title,"danish general election, 1984",0.6752233505249023
+PoliticalParty_left.csv,title,new britain party,Election_right,title,"newham london borough council election, 2010",0.6740144491195679
+PoliticalParty_left.csv,title,agrarian party (belarus),Election_right,title,"madrilenian parliamentary election, 1987",0.6737390160560608
+PoliticalParty_left.csv,title,viplavakari lanka sama samaja party,Election_right,title,"sri lankan provincial council elections, 2012",0.6727293729782104
+PoliticalParty_left.csv,title,socialist party (portugal),Election_right,title,"madrid assembly election, 2011",0.6726365089416504
+PoliticalParty_left.csv,title,ceylon workers' congress,Election_right,title,"madras presidency legislative council election, 1937",0.6720997095108032
+PoliticalParty_left.csv,title,national solidarity party (peru),Election_right,title,"castile-la mancha parliamentary election, 2011",0.6715887784957886
+PoliticalParty_left.csv,title,irish republican socialist party,Election_right,title,"northern ireland local government elections, 1985",0.6713912487030029
+PoliticalParty_left.csv,title,loktantrik jan samta party,Election_right,title,"indian general election, 2009 (lakshadweep)",0.6708129048347473
+PoliticalParty_left.csv,title,communist party of the philippines,Election_right,title,"philippine local elections, 1937",0.6704518795013428
+PoliticalParty_left.csv,title,communist party of china,Election_right,title,"republic of china national assembly election, 1918",0.6703448295593262
+PoliticalParty_left.csv,title,liberal party (moldova),Election_right,title,"madrilenian parliamentary election, 1999",0.6703039407730103
+PoliticalParty_left.csv,title,communist party of indonesia,Election_right,title,"cambodian general election, 1998",0.6697674989700317
+PoliticalParty_left.csv,title,scottish senior citizens unity party,Election_right,title,"scottish parliament election, 2003",0.669693112373352
+PoliticalParty_left.csv,title,pensioners' party (norway),Election_right,title,"danish general election, 2005",0.6680079698562622
+PoliticalParty_left.csv,title,bhumjaithai party,Election_right,title,"west bengal legislative assembly election, 2011",0.6674156188964844
+PoliticalParty_left.csv,title,janhit samaj party,Election_right,title,2009 indian general election in pondicherry,0.667306661605835
+PoliticalParty_left.csv,title,party of action (kenya),Election_right,title,"somaliland general election, 2017",0.6661297678947449
+PoliticalParty_left.csv,title,australian stable population party,Election_right,title,"queensland state election, 2015",0.6658828258514404
+PoliticalParty_left.csv,title,national liberal party (lebanon),Election_right,title,"libyan house of representatives election, 2014",0.6655335426330566
+PoliticalParty_left.csv,title,unified communist party of spain,Election_right,title,"madrid assembly election, 1987",0.6651856899261475

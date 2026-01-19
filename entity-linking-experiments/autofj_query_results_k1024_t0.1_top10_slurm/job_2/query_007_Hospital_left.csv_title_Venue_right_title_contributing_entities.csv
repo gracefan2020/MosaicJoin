@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Hospital_left.csv,title,istituto giannina gaslini,Venue_right,title,stadio gaetano bonolis,0.7649602890014648
+Hospital_left.csv,title,salford royal,Venue_right,title,"victoria hall, stoke-on-trent",0.6941888332366943
+Hospital_left.csv,title,mubende hospital,Venue_right,title,medeu,0.6904495358467102
+Hospital_left.csv,title,shepherd center,Venue_right,title,northtown center,0.686895489692688
+Hospital_left.csv,title,greaves hall,Venue_right,title,willett hall,0.6852930784225464
+Hospital_left.csv,title,"jinnah hospital, lahore",Venue_right,title,"bagh-e-jinnah, lahore",0.6795288920402527
+Hospital_left.csv,title,buntingford almshouses,Venue_right,title,manor ground (plumstead),0.6792844533920288
+Hospital_left.csv,title,kantonsspital st. gallen,Venue_right,title,maison de la culture de grenoble,0.6783826351165771
+Hospital_left.csv,title,rancho los amigos national rehabilitation center,Venue_right,title,veterans united home loans amphitheater,0.673711895942688
+Hospital_left.csv,title,klinikum aachen,Venue_right,title,theunissen stadium,0.6712056398391724
+Hospital_left.csv,title,sheldon m. chumir centre,Venue_right,title,firstontario centre,0.66956627368927
+Hospital_left.csv,title,"diocesan house, st albans",Venue_right,title,clarence park (st albans),0.6620200872421265
+Hospital_left.csv,title,caton merchant house,Venue_right,title,cameron public house,0.6547616124153137
+Hospital_left.csv,title,hospital kiang wu,Venue_right,title,ak-chin pavilion,0.6465336084365845
+Hospital_left.csv,title,sabbatsbergs sjukhus,Venue_right,title,kehrwegstadion,0.6453100442886353
+Hospital_left.csv,title,danviken hospital,Venue_right,title,boligmappa arena larvik,0.6390701532363892
+Hospital_left.csv,title,murphy medical center,Venue_right,title,murphy theatre,0.6357983350753784
+Hospital_left.csv,title,detroit receiving hospital,Venue_right,title,the shelter (detroit),0.6353544592857361
+Hospital_left.csv,title,hospital pantai mutiara,Venue_right,title,yau ma tei theatre,0.634617805480957
+Hospital_left.csv,title,thomas embling hospital,Venue_right,title,e. j. thomas hall,0.6289400458335876
+Hospital_left.csv,title,king's daughters medical center,Venue_right,title,king center for the performing arts,0.624207615852356
+Hospital_left.csv,title,crossroads centre,Venue_right,title,revention music center,0.6230654716491699
+Hospital_left.csv,title,concord hospital (new hampshire),Venue_right,title,bank of new hampshire pavilion,0.622794508934021
+Hospital_left.csv,title,st emlyn's,Venue_right,title,st james park (exeter),0.6218407154083252
+Hospital_left.csv,title,dar al shifaa hospital,Venue_right,title,bassel al-assad stadium (al-hasakah),0.620736837387085
+Hospital_left.csv,title,bispebjerg hospital,Venue_right,title,idrottens hus (helsingborg),0.6184999942779541
+Hospital_left.csv,title,chung-ho memorial hospital,Venue_right,title,hwaseong sports complex,0.6181066036224365
+Hospital_left.csv,title,dar al fouad,Venue_right,title,stade wad medani,0.6119012832641602
+Hospital_left.csv,title,blue mountain hospital,Venue_right,title,blue hills bank pavilion,0.6117532253265381
+Hospital_left.csv,title,olympic medical center,Venue_right,title,owensboro sports center,0.610779881477356
+Hospital_left.csv,title,view road hospital,Venue_right,title,hayes lane,0.6074289083480835
+Hospital_left.csv,title,khoo teck puat hospital,Venue_right,title,nelum pokuna mahinda rajapaksa theatre,0.6049637198448181
+Hospital_left.csv,title,queens,Venue_right,title,kings theatre (brooklyn),0.6029201745986938
+Hospital_left.csv,title,park city medical center,Venue_right,title,hayden park,0.6022549867630005
+Hospital_left.csv,title,brighton hospital,Venue_right,title,studio theatre (brighton),0.6010525226593018
+Hospital_left.csv,title,selma community hospital,Venue_right,title,verizon wireless amphitheater (selma),0.5980604887008667
+Hospital_left.csv,title,pikeville medical center,Venue_right,title,pikes peak center for the performing arts,0.592255711555481
+Hospital_left.csv,title,al khalidi medical center,Venue_right,title,mubarak al-aiar stadium,0.5908380150794983
+Hospital_left.csv,title,new cross hospital,Venue_right,title,cross insurance arena,0.5881989002227783
+Hospital_left.csv,title,abbasi shaheed hospital,Venue_right,title,shahid poursharifi arena,0.5876363515853882
+Hospital_left.csv,title,medical city dallas hospital,Venue_right,title,dallas city performance hall,0.5864297747612
+Hospital_left.csv,title,indu and raj soin medical center,Venue_right,title,kursaal congress centre and auditorium,0.5845489501953125
+Hospital_left.csv,title,kisiizi hospital,Venue_right,title,iai stadium nihondaira,0.5830539464950562
+Hospital_left.csv,title,lambeth hospital,Venue_right,title,camden head,0.5825278162956238
+Hospital_left.csv,title,john f. cotton corporate wellness center,Venue_right,title,donald l. tucker civic center,0.5808264017105103
+Hospital_left.csv,title,metropolitan hospital center,Venue_right,title,"xfinity center (mansfield, massachusetts)",0.5784966349601746
+Hospital_left.csv,title,peel memorial hospital,Venue_right,title,the orange peel,0.5776188373565674
+Hospital_left.csv,title,belfast city hospital,Venue_right,title,o'brians event centre,0.5775313377380371
+Hospital_left.csv,title,florida hospital lake placid,Venue_right,title,bradenton area convention center,0.5771506428718567
+Hospital_left.csv,title,health city cayman islands,Venue_right,title,city national civic,0.5752755403518677
+Hospital_left.csv,title,jehangir hospital,Venue_right,title,markaziy stadium jizzakh,0.5742476582527161
+Hospital_left.csv,title,arnold lodge,Venue_right,title,a. o. shirley recreation ground,0.5700173377990723
+Hospital_left.csv,title,hadassah medical center,Venue_right,title,culture palace (tel aviv),0.5696055293083191
+Hospital_left.csv,title,nevill hall hospital,Venue_right,title,the town hall,0.5688974857330322
+Hospital_left.csv,title,suruga sanatorium,Venue_right,title,shkumbini stadium,0.5668606758117676
+Hospital_left.csv,title,palisades medical center,Venue_right,title,dr. phillips center for the performing arts,0.5662890672683716
+Hospital_left.csv,title,rouge valley centenary,Venue_right,title,parc saint-victor,0.5660648345947266
+Hospital_left.csv,title,london health sciences centre,Venue_right,title,london forum,0.5657134056091309
+Hospital_left.csv,title,al assad university hospital,Venue_right,title,ali sabah al-salem stadium,0.5656602382659912
+Hospital_left.csv,title,paradise valley hospital,Venue_right,title,paradise theater (bronx),0.5653727054595947
+Hospital_left.csv,title,kwai chung hospital,Venue_right,title,the national center for korean traditional performing arts,0.5644775629043579
+Hospital_left.csv,title,brooklyn hospital center,Venue_right,title,luther burbank center for the arts,0.5644292831420898
+Hospital_left.csv,title,kilmarnock infirmary,Venue_right,title,mill theatre dundrum,0.5643153786659241
+Hospital_left.csv,title,tohoku shinseien sanatorium,Venue_right,title,imperial theatre (japan),0.5639500617980957
+Hospital_left.csv,title,hinchingbrooke hospital,Venue_right,title,bank of new hampshire pavilion at meadowbrook,0.5637804269790649
+Hospital_left.csv,title,sunbury asylum,Venue_right,title,brookhaven amphitheater,0.5634027123451233
+Hospital_left.csv,title,hospital de damas,Venue_right,title,cidade deportiva de abegondo,0.562193751335144
+Hospital_left.csv,title,laniado hospital,Venue_right,title,lido theater (medellã­n),0.5618307590484619
+Hospital_left.csv,title,aliwal north hospital,Venue_right,title,anyang sports complex,0.5612735748291016
+Hospital_left.csv,title,gouverneur hospital,Venue_right,title,place bell (laval),0.5609464645385742
+Hospital_left.csv,title,hospital del divino salvador,Venue_right,title,"lope de vega theater, seville",0.560129702091217
+Hospital_left.csv,title,barwon health,Venue_right,title,changwon sports park,0.5589205026626587
+Hospital_left.csv,title,allan memorial institute,Venue_right,title,overture center for the arts,0.5578994750976562
+Hospital_left.csv,title,royal park hospital,Venue_right,title,princes park (dartford),0.5566996932029724
+Hospital_left.csv,title,xavier hospital,Venue_right,title,fox performing arts center,0.5564303398132324
+Hospital_left.csv,title,sanjeevan hospital,Venue_right,title,shahid rajai stadium,0.5558408498764038
+Hospital_left.csv,title,redland hospital,Venue_right,title,"the old red lion, islington",0.5556199550628662
+Hospital_left.csv,title,severalls hospital,Venue_right,title,modell performing arts center,0.5527564287185669
+Hospital_left.csv,title,whitecourt healthcare centre,Venue_right,title,firstmerit bank pavilion,0.5519351363182068
+Hospital_left.csv,title,dora nginza hospital,Venue_right,title,na fontanke youth theatre,0.5518072843551636
+Hospital_left.csv,title,beckomberga hospital,Venue_right,title,tivolivredenburg,0.5516136884689331
+Hospital_left.csv,title,sobell house hospice,Venue_right,title,ashley furniture homestore pavilion,0.5509581565856934
+Hospital_left.csv,title,estrella hospital,Venue_right,title,"lope de vega theater, madrid",0.5490182638168335
+Hospital_left.csv,title,mullaitivu hospital,Venue_right,title,munaishy stadium,0.5484668016433716
+Hospital_left.csv,title,ruby hall clinic,Venue_right,title,"rko proctor's theater, new rochelle",0.5462191104888916
+Hospital_left.csv,title,legacy meridian park medical center,Venue_right,title,centennial park pan am bmx centre,0.5455073118209839
+Hospital_left.csv,title,canberra hospital,Venue_right,title,capitol theatre (melbourne),0.5440797209739685
+Hospital_left.csv,title,london bridge hospital,Venue_right,title,"olympia, london",0.5436760187149048
+Hospital_left.csv,title,coney island hospital,Venue_right,title,"terminal bar, new york",0.5421853065490723
+Hospital_left.csv,title,hornsby ku-ring-gai hospital,Venue_right,title,sandra feinstein-gamm theatre,0.5419509410858154
+Hospital_left.csv,title,alberta children's hospital,Venue_right,title,calgary soccer centre,0.5415421724319458
+Hospital_left.csv,title,musgrove park hospital,Venue_right,title,yadkin bank park,0.540525496006012
+Hospital_left.csv,title,danderyds sjukhus,Venue_right,title,det ny teater,0.54039466381073
+Hospital_left.csv,title,harlem hospital center,Venue_right,title,the town hall (new york city),0.5395303964614868
+Hospital_left.csv,title,montefiore medical center,Venue_right,title,midflorida credit union amphitheatre,0.5377181768417358
+Hospital_left.csv,title,oku-komyo-en sanatorium,Venue_right,title,koko (music venue),0.5375934839248657
+Hospital_left.csv,title,west park hospital,Venue_right,title,schroeder park,0.5374124050140381
+Hospital_left.csv,title,jackson memorial hospital,Venue_right,title,the ballpark at jackson,0.5361879467964172
+Hospital_left.csv,title,soroti hospital,Venue_right,title,sogdiana stadium,0.535189688205719
+Hospital_left.csv,title,selly oak hospital,Venue_right,title,oak mountain amphitheatre,0.5348466634750366
+Hospital_left.csv,title,liverpool hospital,Venue_right,title,arsenal training centre,0.5343677401542664
+Hospital_left.csv,title,holland bloorview kids rehabilitation hospital,Venue_right,title,youth arena,0.5338715314865112
+Hospital_left.csv,title,le bonheur children's hospital,Venue_right,title,stade henri-jooris,0.5333313345909119
+Hospital_left.csv,title,ubh denton,Venue_right,title,david geffen hall,0.5328186750411987
+Hospital_left.csv,title,beechworth asylum,Venue_right,title,gresty road,0.5321394205093384
+Hospital_left.csv,title,eleanor slater hospital,Venue_right,title,epstein theatre,0.5299876928329468
+Hospital_left.csv,title,fulbourn hospital,Venue_right,title,henry fok stadium,0.5298993587493896
+Hospital_left.csv,title,new york eye and ear infirmary,Venue_right,title,olympia theatre (new york city),0.5292261838912964
+Hospital_left.csv,title,north tyneside general hospital,Venue_right,title,tyne theatre and opera house,0.5290276408195496
+Hospital_left.csv,title,bellevue hospital center,Venue_right,title,duke energy center for the performing arts,0.5269845724105835
+Hospital_left.csv,title,western missouri medical center,Venue_right,title,"hollywood casino amphitheatre (maryland heights, missouri)",0.5260733366012573
+Hospital_left.csv,title,hollywood presbyterian medical center,Venue_right,title,hollywood casino amphitheatre,0.5244007706642151
+Hospital_left.csv,title,king abdulaziz medical city,Venue_right,title,abdullah bin khalifa stadium,0.5243958234786987
+Hospital_left.csv,title,miyako nanseien sanatorium,Venue_right,title,nya parken,0.5232385396957397
+Hospital_left.csv,title,karanda mission hospital,Venue_right,title,kapital bank arena,0.5226465463638306
+Hospital_left.csv,title,bombo hospital,Venue_right,title,theatre of n.o.t.e.,0.5223376750946045
+Hospital_left.csv,title,hinton healthcare centre,Venue_right,title,belconnen soccer centre,0.5221384167671204
+Hospital_left.csv,title,somerset hospital (cape town),Venue_right,title,people's stadium (seychelles),0.5209658145904541
+Hospital_left.csv,title,sky lakes medical center,Venue_right,title,soldotna regional sports complex,0.5206470489501953
+Hospital_left.csv,title,jinja hospital,Venue_right,title,bagh-e-jinnah,0.5205875635147095
+Hospital_left.csv,title,stoke mandeville hospital,Venue_right,title,city ground (cambridge),0.5202168822288513
+Hospital_left.csv,title,belchertown state school,Venue_right,title,chuvash state youth theater,0.5197777152061462
+Hospital_left.csv,title,spring grove hospital center,Venue_right,title,southwest motors events center,0.519193172454834
+Hospital_left.csv,title,the park centre for mental health,Venue_right,title,vizelj park,0.5186315178871155
+Hospital_left.csv,title,lenox hill hospital,Venue_right,title,the loft (new york city),0.5184378623962402
+Hospital_left.csv,title,warwick hospital,Venue_right,title,oval house theatre,0.5155143141746521
+Hospital_left.csv,title,desert valley hospital,Venue_right,title,california theatre (san bernardino),0.5154373645782471
+Hospital_left.csv,title,jorvi hospital,Venue_right,title,jam events center,0.515123724937439
+Hospital_left.csv,title,kingseat hospital,Venue_right,title,palace theatre (new york city),0.51498943567276
+Hospital_left.csv,title,cumberland infirmary,Venue_right,title,orpheum theatre (memphis),0.5139175653457642
+Hospital_left.csv,title,leopardstown park hospital,Venue_right,title,the gardens greyhound and sporting complex,0.5131536722183228
+Hospital_left.csv,title,kilinochchi hospital,Venue_right,title,yerevan opera theatre,0.512561023235321
+Hospital_left.csv,title,carolinas medical center-union,Venue_right,title,raleigh amphitheater and festival site,0.5121257305145264
+Hospital_left.csv,title,rnh bighi,Venue_right,title,arena bonifika,0.511073112487793
+Hospital_left.csv,title,queen's hospital,Venue_right,title,regent's park open air theatre,0.5105952024459839
+Hospital_left.csv,title,"city hospital, birmingham",Venue_right,title,"the electric, birmingham",0.5103816986083984
+Hospital_left.csv,title,blanchard valley health system,Venue_right,title,farm bureau live,0.5092393755912781
+Hospital_left.csv,title,assunta hospital,Venue_right,title,accorhotels arena,0.5090235471725464
+Hospital_left.csv,title,hoima hospital,Venue_right,title,harras el hodoud stadium,0.5082898736000061
+Hospital_left.csv,title,queen charlotte's and chelsea hospital,Venue_right,title,vivian beaumont theatre,0.5080136656761169
+Hospital_left.csv,title,frontier hospital,Venue_right,title,ford idaho center,0.5078725218772888
+Hospital_left.csv,title,karen hospital,Venue_right,title,sue townsend theatre,0.5076383352279663
+Hospital_left.csv,title,gulu hospital,Venue_right,title,grauman's chinese theatre,0.5072118043899536
+Hospital_left.csv,title,pukeora sanatorium,Venue_right,title,circustheater,0.5058044195175171
+Hospital_left.csv,title,wyckoff heights medical center,Venue_right,title,broadway theatre (53rd street),0.5053368806838989
+Hospital_left.csv,title,milpark hospital,Venue_right,title,pringles park,0.504149854183197
+Hospital_left.csv,title,hatyai hospital,Venue_right,title,sarachchandra open-air theatre,0.5037368535995483
+Hospital_left.csv,title,vejthani hospital,Venue_right,title,sarachchandra open-air theatre,0.5036439299583435
+Hospital_left.csv,title,umlamli hospital,Venue_right,title,darul makmur stadium,0.5034326314926147
+Hospital_left.csv,title,american hospital of paris,Venue_right,title,stade henri desgranges,0.5028584003448486
+Hospital_left.csv,title,atlanta medical center,Venue_right,title,fox theatre (atlanta),0.5010769963264465
+Hospital_left.csv,title,ou medicine,Venue_right,title,university field (princeton),0.5007835030555725
+Hospital_left.csv,title,donka hospital,Venue_right,title,koko (venue),0.5007116794586182
+Hospital_left.csv,title,wellstar kennestone hospital,Venue_right,title,starlight theatre (kansas city),0.5005652904510498
+Hospital_left.csv,title,gracie square hospital,Venue_right,title,bb&t pavilion,0.500162661075592
+Hospital_left.csv,title,"st. john's hospital (maplewood, minnesota)",Venue_right,title,"orchestra hall (minneapolis, minnesota)",0.4992949962615967
+Hospital_left.csv,title,amami wakoen sanatorium,Venue_right,title,amahoro stadium,0.4992527365684509
+Hospital_left.csv,title,st. elizabeth's medical center (boston),Venue_right,title,"colonial theatre (boston, massachusetts)",0.49842122197151184
+Hospital_left.csv,title,mcgaw medical center,Venue_right,title,mclane stadium,0.49833551049232483
+Hospital_left.csv,title,castle medical center,Venue_right,title,crown coliseum,0.498226523399353
+Hospital_left.csv,title,children's castle,Venue_right,title,the egg (theatre),0.4977695941925049
+Hospital_left.csv,title,greifswald university hospital,Venue_right,title,ernst abbe sportfield,0.49732136726379395
+Hospital_left.csv,title,lankenau medical center,Venue_right,title,heraklion indoor sports arena,0.49667611718177795
+Hospital_left.csv,title,alyn hospital,Venue_right,title,aegon arena,0.49631503224372864
+Hospital_left.csv,title,battle hospital,Venue_right,title,stage 42,0.49627405405044556
+Hospital_left.csv,title,warneford hospital,Venue_right,title,thrasher opera house,0.49612998962402344
+Hospital_left.csv,title,via christi hospital (pittsburg),Venue_right,title,"the pavilion (scranton, pennsylvania)",0.49484965205192566
+Hospital_left.csv,title,st. louis children's hospital,Venue_right,title,verizon wireless amphitheater (st. louis),0.49460548162460327
+Hospital_left.csv,title,whitchurch hospital,Venue_right,title,wirral radio,0.4937375783920288
+Hospital_left.csv,title,blacktown hospital,Venue_right,title,"the blue note (columbia, missouri)",0.4929046034812927
+Hospital_left.csv,title,jacobi medical center,Venue_right,title,jacobs pavilion,0.4923773407936096
+Hospital_left.csv,title,albyn hospital,Venue_right,title,ogden theatre,0.49177736043930054
+Hospital_left.csv,title,hammersmith hospital,Venue_right,title,"palace theatre, plymouth",0.49161532521247864
+Hospital_left.csv,title,ruijin hospital,Venue_right,title,"oriental theatre (portland, oregon)",0.4915812313556671
+Hospital_left.csv,title,anadolu medical center,Venue_right,title,liberty stadium (ibadan),0.49156802892684937
+Hospital_left.csv,title,tower psychiatric hospital,Venue_right,title,"tower theater (upper darby township, pennsylvania)",0.49079030752182007
+Hospital_left.csv,title,"st vincent's hospital, sydney",Venue_right,title,sydney lyric,0.4906885623931885
+Hospital_left.csv,title,saskatoon sanatorium,Venue_right,title,orpheum theatre (minneapolis),0.49024349451065063
+Hospital_left.csv,title,aravind eye hospital,Venue_right,title,national theatre of albania,0.4900944232940674
+Hospital_left.csv,title,ugie hospital,Venue_right,title,fiu arena,0.48980316519737244
+Hospital_left.csv,title,civista medical center,Venue_right,title,courier mail piazza,0.4893825352191925
+Hospital_left.csv,title,peace harbor hospital,Venue_right,title,pier six pavilion,0.48835140466690063
+Hospital_left.csv,title,freedmen's hospital,Venue_right,title,liberty theatre,0.4881511628627777
+Hospital_left.csv,title,the medical center of aurora,Venue_right,title,"center for the arts, university at buffalo",0.48721498250961304
+Hospital_left.csv,title,floreasca hospital,Venue_right,title,the fonda theatre,0.486937940120697
+Hospital_left.csv,title,emanuel medical center,Venue_right,title,lincoln hall (chicago),0.4863414168357849
+Hospital_left.csv,title,the meriden hospital,Venue_right,title,mersin arena,0.4862963557243347
+Hospital_left.csv,title,stracathro hospital,Venue_right,title,stadio di corso sebastopoli,0.4861833453178406
+Hospital_left.csv,title,peterborough district hospital,Venue_right,title,national hockey stadium (milton keynes),0.48616892099380493
+Hospital_left.csv,title,almas hospital,Venue_right,title,abraham chavez theatre,0.4860292077064514
+Hospital_left.csv,title,nishtar hospital,Venue_right,title,shakhter stadium (karagandy),0.48598501086235046
+Hospital_left.csv,title,madwaleni hospital,Venue_right,title,awwal september stadium,0.4859485626220703
+Hospital_left.csv,title,king fahd medical city,Venue_right,title,kingspan stadium,0.4858768582344055
+Hospital_left.csv,title,national heart centre,Venue_right,title,tournament capital centre,0.48583877086639404
+Hospital_left.csv,title,gosford hospital,Venue_right,title,nottingham new theatre,0.4848906397819519
+Hospital_left.csv,title,clinical center of vojvodina,Venue_right,title,smidjegrav arena,0.48481863737106323
+Hospital_left.csv,title,gartnavel general hospital,Venue_right,title,gaiety theatre (new york city),0.4839403033256531
+Hospital_left.csv,title,alice ho miu ling nethersole hospital,Venue_right,title,garden theatre,0.483723521232605
+Hospital_left.csv,title,phoebe putney memorial hospital,Venue_right,title,"the half moon, putney",0.4833899140357971
+Hospital_left.csv,title,seafield hospital,Venue_right,title,sankeys,0.4830132722854614

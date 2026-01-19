@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Hospital_left.csv,title,st emlyn's,HistoricBuilding_left,title,st george botolph lane,0.7667275071144104
+Hospital_left.csv,title,kantonsspital st. gallen,HistoricBuilding_left,title,domkirche st. marien,0.7583779096603394
+Hospital_left.csv,title,whitchurch hospital,HistoricBuilding_left,title,wythburn church,0.737085223197937
+Hospital_left.csv,title,the christ hospital,HistoricBuilding_left,title,christ the redeemer church,0.7316990494728088
+Hospital_left.csv,title,hospital del divino salvador,HistoricBuilding_left,title,iglesia de san salvador (nocedo),0.722657322883606
+Hospital_left.csv,title,istituto giannina gaslini,HistoricBuilding_left,title,sant'angelo a nilo,0.7201948165893555
+Hospital_left.csv,title,"hospital of st john the baptist, high wycombe",HistoricBuilding_left,title,"st john the baptist, hoxton",0.7198847532272339
+Hospital_left.csv,title,our lady of maryknoll hospital,HistoricBuilding_left,title,"st. mary of perpetual help's church (chicago, illinois)",0.7157830595970154
+Hospital_left.csv,title,klinikum aachen,HistoricBuilding_left,title,"oostkerk, middelburg",0.7146122455596924
+Hospital_left.csv,title,hospital kiang wu,HistoricBuilding_left,title,jingo-ji,0.7129029035568237
+Hospital_left.csv,title,st pancras hospital,HistoricBuilding_left,title,"st pancras, soper lane",0.7099617719650269
+Hospital_left.csv,title,baptist health,HistoricBuilding_left,title,stechford baptist church,0.7070733308792114
+Hospital_left.csv,title,"queen mary's hospital, sidcup",HistoricBuilding_left,title,st mary our lady sidlesham,0.706755518913269
+Hospital_left.csv,title,sabbatsbergs sjukhus,HistoricBuilding_left,title,"christophoruskirche, schierstein",0.7003960013389587
+Hospital_left.csv,title,"st. mary's hospital, burghill",HistoricBuilding_left,title,"st mary's church, burham",0.6993405818939209
+Hospital_left.csv,title,"diocesan house, st albans",HistoricBuilding_left,title,"st peter ad vincula, south newington",0.6932495832443237
+Hospital_left.csv,title,st audry's hospital,HistoricBuilding_left,title,st mary aldermary,0.6882381439208984
+Hospital_left.csv,title,jinja hospital,HistoricBuilding_left,title,jindai-ji,0.6868674755096436
+Hospital_left.csv,title,warneford hospital,HistoricBuilding_left,title,"jireh chapel, haywards heath",0.6862417459487915
+Hospital_left.csv,title,our lady of lourdes hospital (drogheda),HistoricBuilding_left,title,"our lady of lourdes church, tiruchirapalli",0.6862314343452454
+Hospital_left.csv,title,hoshizuka keiaien sanatorium,HistoricBuilding_left,title,"kiyomizu-dera (isumi, chiba)",0.6859676837921143
+Hospital_left.csv,title,st catherine's hospital,HistoricBuilding_left,title,"st margaret's, cley",0.6834166049957275
+Hospital_left.csv,title,murambinda mission hospital,HistoricBuilding_left,title,mulanthuruthy marthoman church,0.6826597452163696
+Hospital_left.csv,title,bangued christian hospital,HistoricBuilding_left,title,church of our lady the merciful,0.6824076771736145
+Hospital_left.csv,title,saint louis university hospital,HistoricBuilding_left,title,saint-paul-saint-louis,0.6812809109687805
+Hospital_left.csv,title,bangkok christian hospital,HistoricBuilding_left,title,"sacred heart church, doboj",0.6795503497123718
+Hospital_left.csv,title,st peter's hospital (chertsey),HistoricBuilding_left,title,"st christopher's church, pott shrigley",0.6793568134307861
+Hospital_left.csv,title,kingseat hospital,HistoricBuilding_left,title,king's church uckfield,0.6773310303688049
+Hospital_left.csv,title,khoo teck puat hospital,HistoricBuilding_left,title,wat phra kaew,0.6767518520355225
+Hospital_left.csv,title,st. mary's hospital lacor,HistoricBuilding_left,title,st mary matfelon,0.674697756767273
+Hospital_left.csv,title,pok oi hospital,HistoricBuilding_left,title,hokke-ji,0.6710519790649414
+Hospital_left.csv,title,st vincents & mercy private hospital,HistoricBuilding_left,title,"st michael le belfrey, york",0.6695248484611511
+Hospital_left.csv,title,lakeridge health bowmanville,HistoricBuilding_left,title,lakewood church,0.666284441947937
+Hospital_left.csv,title,kwong wah hospital,HistoricBuilding_left,title,kheng hock keong temple,0.6630781888961792
+Hospital_left.csv,title,sacred heart hospital (roscommon),HistoricBuilding_left,title,"st michael's church, burwell",0.6627522706985474
+Hospital_left.csv,title,beijing tongren hospital,HistoricBuilding_left,title,tianning temple (changzhou),0.6618191003799438
+Hospital_left.csv,title,saint john's health center,HistoricBuilding_left,title,"st. mary with st. john's church, n18",0.6611654758453369
+Hospital_left.csv,title,jarvis hospital,HistoricBuilding_left,title,"rehoboth chapel, jarvis brook",0.6609460115432739
+Hospital_left.csv,title,oku-komyo-en sanatorium,HistoricBuilding_left,title,okkenhaug chapel,0.6605570316314697
+Hospital_left.csv,title,st. mary's hospital (montreal),HistoricBuilding_left,title,"st. francis of assisi, toronto",0.659066915512085
+Hospital_left.csv,title,ishaka adventist hospital,HistoricBuilding_left,title,atlah worldwide church,0.6585416793823242
+Hospital_left.csv,title,st andrews community hospital,HistoricBuilding_left,title,"st leonard, eastcheap",0.6585172414779663
+Hospital_left.csv,title,the methodist hospital,HistoricBuilding_left,title,borrowash methodist church,0.6584303379058838
+Hospital_left.csv,title,the nazareth hospital,HistoricBuilding_left,title,st. luke's united church,0.6573506593704224
+Hospital_left.csv,title,sisters of charity hospital (zagreb),HistoricBuilding_left,title,"church of our lady of health, kistanje",0.6569130420684814
+Hospital_left.csv,title,st. clare hospital,HistoricBuilding_left,title,st mary abchurch,0.6557105779647827
+Hospital_left.csv,title,itojo hospital,HistoricBuilding_left,title,daitoku-ji,0.6549856066703796
+Hospital_left.csv,title,nishtar hospital,HistoricBuilding_left,title,ninna-ji,0.654625654220581
+Hospital_left.csv,title,stracathro hospital,HistoricBuilding_left,title,strinda church,0.6545475721359253
+Hospital_left.csv,title,miyako nanseien sanatorium,HistoricBuilding_left,title,narita-san,0.6540840864181519
+Hospital_left.csv,title,st helier hospital,HistoricBuilding_left,title,st benet sherehog,0.6537991762161255
+Hospital_left.csv,title,bispebjerg hospital,HistoricBuilding_left,title,burfjord church,0.6531096696853638
+Hospital_left.csv,title,royal derby hospital,HistoricBuilding_left,title,"st werburgh's church, derby",0.6523411273956299
+Hospital_left.csv,title,st christopher's hospice,HistoricBuilding_left,title,st chrysostom's church,0.651948869228363
+Hospital_left.csv,title,shady grove adventist hospital,HistoricBuilding_left,title,sarang community church of southern california,0.6506054401397705
+Hospital_left.csv,title,st thomas' hospital,HistoricBuilding_left,title,"st mary's, stretton",0.6487221121788025
+Hospital_left.csv,title,st john of god subiaco hospital,HistoricBuilding_left,title,"st john the divine, richmond",0.6480658650398254
+Hospital_left.csv,title,warburton hospital,HistoricBuilding_left,title,"st werburgh's church, warburton",0.6477043628692627
+Hospital_left.csv,title,hospital of st john and st elizabeth,HistoricBuilding_left,title,"st john's church, high legh",0.6475996375083923
+Hospital_left.csv,title,tohoku shinseien sanatorium,HistoricBuilding_left,title,"shonenji temple, takachiho",0.647339940071106
+Hospital_left.csv,title,manarom hospital,HistoricBuilding_left,title,manarcad church,0.6472018361091614
+Hospital_left.csv,title,masaka hospital,HistoricBuilding_left,title,masi church,0.6471703052520752
+Hospital_left.csv,title,little company of mary hospital (evergreen park),HistoricBuilding_left,title,our lady of lourdes church (new york city),0.6460760831832886
+Hospital_left.csv,title,ruijin hospital,HistoricBuilding_left,title,iiyama kannon,0.6458837985992432
+Hospital_left.csv,title,lira hospital,HistoricBuilding_left,title,ligonier ministries,0.645843505859375
+Hospital_left.csv,title,rnh bighi,HistoricBuilding_left,title,isshin-ji,0.6451650857925415
+Hospital_left.csv,title,sacred heart medical center at riverbend,HistoricBuilding_left,title,sacred heart-saint wenceslaus church,0.6450128555297852
+Hospital_left.csv,title,danviken hospital,HistoricBuilding_left,title,hasvik church,0.644729495048523
+Hospital_left.csv,title,sydney adventist hospital,HistoricBuilding_left,title,christ church of lower kickapoo,0.6446915864944458
+Hospital_left.csv,title,sanjeevan hospital,HistoricBuilding_left,title,sakshaug church,0.6433810591697693
+Hospital_left.csv,title,beechworth asylum,HistoricBuilding_left,title,"woodhey chapel, faddiley",0.6431723833084106
+Hospital_left.csv,title,calvary wakefield hospital,HistoricBuilding_left,title,"all saints church, chadshunt",0.6401875019073486
+Hospital_left.csv,title,estrella hospital,HistoricBuilding_left,title,iglesia de san isidoro (oviedo),0.6401766538619995
+Hospital_left.csv,title,holy spirit hospital (mumbai),HistoricBuilding_left,title,"st. mary's simhasana church, veliyanad",0.6400084495544434
+Hospital_left.csv,title,lakeridge health oshawa,HistoricBuilding_left,title,ontario khalsa darbar,0.639772355556488
+Hospital_left.csv,title,runwell hospital,HistoricBuilding_left,title,"all saints' church, runcorn",0.6388082504272461
+Hospital_left.csv,title,caton merchant house,HistoricBuilding_left,title,"st alban, wood street",0.6387971639633179
+Hospital_left.csv,title,kitojo hospital,HistoricBuilding_left,title,kita-in,0.6375136971473694
+Hospital_left.csv,title,st elizabeth mission hospital,HistoricBuilding_left,title,church of the redeemer (toronto),0.6374046802520752
+Hospital_left.csv,title,buntingford almshouses,HistoricBuilding_left,title,"st alkmund's church, duffield",0.6373187303543091
+Hospital_left.csv,title,aizawl adventist hospital,HistoricBuilding_left,title,alderley edge methodist church,0.6365820169448853
+Hospital_left.csv,title,hospital pantai mutiara,HistoricBuilding_left,title,ruwanwelisaya,0.6355472803115845
+Hospital_left.csv,title,amami wakoen sanatorium,HistoricBuilding_left,title,kautokeino church,0.6348832845687866
+Hospital_left.csv,title,greaves hall,HistoricBuilding_left,title,gryllefjord chapel,0.6348450183868408
+Hospital_left.csv,title,almas hospital,HistoricBuilding_left,title,"all saints church, alrewas",0.6342682838439941
+Hospital_left.csv,title,turku university hospital,HistoricBuilding_left,title,betel church (turku),0.6336166858673096
+Hospital_left.csv,title,falmouth hospital,HistoricBuilding_left,title,"christ church, fulwood",0.6328896284103394
+Hospital_left.csv,title,bess kaiser hospital,HistoricBuilding_left,title,"all saints church, becconsall",0.6327286958694458
+Hospital_left.csv,title,karanda mission hospital,HistoricBuilding_left,title,"st. george's church, staraya ladoga",0.6309211254119873
+Hospital_left.csv,title,musgrove park hospital,HistoricBuilding_left,title,mcdougall united church,0.6307634711265564
+Hospital_left.csv,title,st philip's hospital,HistoricBuilding_left,title,"st peter, vere street",0.6307282447814941
+Hospital_left.csv,title,hoima hospital,HistoricBuilding_left,title,htilominlo temple,0.6304559707641602
+Hospital_left.csv,title,st. louis children's hospital,HistoricBuilding_left,title,st. ladislaus in chicago,0.6298763155937195
+Hospital_left.csv,title,nakornthon hospital,HistoricBuilding_left,title,naksansa,0.6296851634979248
+Hospital_left.csv,title,little company of mary hospital (san pedro),HistoricBuilding_left,title,"ss mary and romuald, yarm",0.6291159987449646
+Hospital_left.csv,title,adventist medical center,HistoricBuilding_left,title,loma linda university church of seventh-day adventists,0.6287555694580078
+Hospital_left.csv,title,kwai chung hospital,HistoricBuilding_left,title,wonkwangsa international zen temple,0.6282822489738464
+Hospital_left.csv,title,"st mary's hospital, manchester",HistoricBuilding_left,title,"st mary's church, st mary's",0.6281176209449768
+Hospital_left.csv,title,st. finbarr's hospital,HistoricBuilding_left,title,st benet fink,0.6273013353347778
+Hospital_left.csv,title,uxbridge cottage hospital,HistoricBuilding_left,title,wallasey memorial unitarian church,0.6253170967102051
+Hospital_left.csv,title,children's castle,HistoricBuilding_left,title,st columba's-by-the-castle,0.6240367889404297
+Hospital_left.csv,title,st. elizabeth's medical center (boston),HistoricBuilding_left,title,"st botolph's church, boston",0.62314373254776
+Hospital_left.csv,title,view road hospital,HistoricBuilding_left,title,bloor street united church,0.6226235628128052
+Hospital_left.csv,title,kirklandside hospital,HistoricBuilding_left,title,st vedast foster lane,0.6220046877861023
+Hospital_left.csv,title,kalongo hospital,HistoricBuilding_left,title,bulwagan ng panginoon,0.6217538714408875
+Hospital_left.csv,title,kilmarnock infirmary,HistoricBuilding_left,title,kistrand church,0.6212655305862427
+Hospital_left.csv,title,kincardine community hospital,HistoricBuilding_left,title,"all saints church, higher kinnerton",0.6210647225379944
+Hospital_left.csv,title,danderyds sjukhus,HistoricBuilding_left,title,snillfjord church,0.6199936866760254
+Hospital_left.csv,title,park city medical center,HistoricBuilding_left,title,menlo park presbyterian church,0.619877815246582
+Hospital_left.csv,title,ealing hospital nhs trust,HistoricBuilding_left,title,st john's church ealing,0.6198668479919434
+Hospital_left.csv,title,st. columcille's hospital,HistoricBuilding_left,title,st columb's cathedral,0.6196275353431702
+Hospital_left.csv,title,st. anne mercy hospital,HistoricBuilding_left,title,st vigeans church,0.6190364360809326
+Hospital_left.csv,title,cofimvaba hospital,HistoricBuilding_left,title,coombes church,0.618889570236206
+Hospital_left.csv,title,hospital de damas,HistoricBuilding_left,title,iglesia de san emeterio (sietes),0.6185324788093567
+Hospital_left.csv,title,vibhavadi hospital,HistoricBuilding_left,title,seruvila mangala raja maha viharaya,0.6171697378158569
+Hospital_left.csv,title,st. christopher's hospital for children,HistoricBuilding_left,title,"st. stephen church (trumbull, connecticut)",0.6168506741523743
+Hospital_left.csv,title,kisiizi hospital,HistoricBuilding_left,title,kasamori-ji,0.6165691614151001
+Hospital_left.csv,title,"hospital of st nicholas, nantwich",HistoricBuilding_left,title,"st nicholas' chapel, cholmondeley",0.615181565284729
+Hospital_left.csv,title,king chulalongkorn memorial hospital,HistoricBuilding_left,title,koe-thaung temple,0.6148951053619385
+Hospital_left.csv,title,crossroads centre,HistoricBuilding_left,title,"epiphany and st. mark, parkdale",0.6146355867385864
+Hospital_left.csv,title,gartnavel royal hospital,HistoricBuilding_left,title,"st mary's church, rhodogeidio",0.6146321296691895
+Hospital_left.csv,title,tallaght hospital,HistoricBuilding_left,title,"st michael, cornhill",0.6142573356628418
+Hospital_left.csv,title,altnagelvin area hospital,HistoricBuilding_left,title,"all saints church, lydd",0.6140340566635132
+Hospital_left.csv,title,hawkmoor hospital,HistoricBuilding_left,title,"st michael and all angels church, hawkshead",0.6137576103210449
+Hospital_left.csv,title,dora nginza hospital,HistoricBuilding_left,title,guanyin gumiao temple,0.6137027144432068
+Hospital_left.csv,title,upmc st. margaret,HistoricBuilding_left,title,"st mary, woodbridge road",0.6136877536773682
+Hospital_left.csv,title,samaritan north lincoln hospital,HistoricBuilding_left,title,"all saints church, great saughall",0.6128803491592407
+Hospital_left.csv,title,south county hospital,HistoricBuilding_left,title,"st. joseph parish, suffield",0.6128678321838379
+Hospital_left.csv,title,cumberland infirmary,HistoricBuilding_left,title,mariendal church,0.6125487089157104
+Hospital_left.csv,title,sibley memorial hospital,HistoricBuilding_left,title,"all saints church, ellough",0.6123561859130859
+Hospital_left.csv,title,suruga sanatorium,HistoricBuilding_left,title,saura church,0.6122474670410156
+Hospital_left.csv,title,hong kong adventist hospital,HistoricBuilding_left,title,"church of heavenly peace, fuzhou",0.6122163534164429
+Hospital_left.csv,title,lister hospital (stevenage),HistoricBuilding_left,title,"st mary-le-more, wallingford",0.6119191646575928
+Hospital_left.csv,title,fulbourn hospital,HistoricBuilding_left,title,fagerhaug chapel,0.6101576089859009
+Hospital_left.csv,title,whittington hospital,HistoricBuilding_left,title,"st alkmund's church, whitchurch",0.6100852489471436
+Hospital_left.csv,title,the first hospital of jiaxing,HistoricBuilding_left,title,jing'an temple,0.6092387437820435
+Hospital_left.csv,title,st george's hospital,HistoricBuilding_left,title,"st george's church, shimpling",0.6091101765632629
+Hospital_left.csv,title,via christi hospital (pittsburg),HistoricBuilding_left,title,"st. ladislaus church (south norwalk, connecticut)",0.6082619428634644
+Hospital_left.csv,title,laniado hospital,HistoricBuilding_left,title,iglesia de san cipriano (infiesto),0.6080494523048401
+Hospital_left.csv,title,"bon secours hospital, galway",HistoricBuilding_left,title,"st. werburgh's church, dublin",0.6078274250030518
+Hospital_left.csv,title,gartnavel general hospital,HistoricBuilding_left,title,garstad church,0.6077733039855957
+Hospital_left.csv,title,kalmunai north hospital,HistoricBuilding_left,title,"holy cross church, kurla",0.6077595949172974
+Hospital_left.csv,title,albyn hospital,HistoricBuilding_left,title,"all saints church, aldwincle",0.6076517105102539
+Hospital_left.csv,title,selly oak hospital,HistoricBuilding_left,title,monsey church,0.6073479652404785
+Hospital_left.csv,title,valkenberg hospital,HistoricBuilding_left,title,valjok church,0.6072108149528503
+Hospital_left.csv,title,monklands hospital,HistoricBuilding_left,title,cranbrook strict baptist chapel,0.6071667075157166
+Hospital_left.csv,title,swedish covenant hospital,HistoricBuilding_left,title,horslunde church,0.606597900390625
+Hospital_left.csv,title,"hospital of st lawrence, acton",HistoricBuilding_left,title,"st michael on greenhill, lichfield",0.604645848274231
+Hospital_left.csv,title,beth israel deaconess medical center,HistoricBuilding_left,title,st. mary coptic orthodox church (los angeles),0.6045199632644653
+Hospital_left.csv,title,chris hani baragwanath hospital,HistoricBuilding_left,title,aruna ratanagiri,0.6043940782546997
+Hospital_left.csv,title,carney hospital,HistoricBuilding_left,title,calveley church,0.604249119758606
+Hospital_left.csv,title,belchertown state school,HistoricBuilding_left,title,st. john's seminary (wonersh),0.6039861440658569
+Hospital_left.csv,title,aga khan maternal and child care centre,HistoricBuilding_left,title,khalsa diwan society vancouver,0.603595495223999
+Hospital_left.csv,title,toa payoh hospital,HistoricBuilding_left,title,shwemawdaw paya,0.6032768487930298
+Hospital_left.csv,title,wycombe general hospital,HistoricBuilding_left,title,"st chad's church, wybunbury",0.6018314361572266
+Hospital_left.csv,title,kibuli hospital,HistoricBuilding_left,title,kokutai-ji,0.6016200184822083
+Hospital_left.csv,title,duside hospital,HistoricBuilding_left,title,"st john's church, dukinfield",0.6001690626144409
+Hospital_left.csv,title,hinchingbrooke hospital,HistoricBuilding_left,title,harstad church,0.6000851392745972
+Hospital_left.csv,title,valley presbyterian hospital,HistoricBuilding_left,title,"all saints church, vange",0.6000833511352539
+Hospital_left.csv,title,bethlem royal hospital,HistoricBuilding_left,title,"all saints church, shirburn",0.5999507904052734
+Hospital_left.csv,title,shepherd center,HistoricBuilding_left,title,pacific union college church,0.5995720028877258
+Hospital_left.csv,title,chung-ho memorial hospital,HistoricBuilding_left,title,chua linh-son buddhist temple,0.5986098051071167
+Hospital_left.csv,title,cecilia makiwane hospital,HistoricBuilding_left,title,st. agnes kouying tsao catholic church,0.5985888242721558
+Hospital_left.csv,title,bambisana hospital,HistoricBuilding_left,title,melbu church,0.5983242392539978
+Hospital_left.csv,title,alyn hospital,HistoricBuilding_left,title,lyngen church,0.5981460809707642
+Hospital_left.csv,title,mount druitt hospital,HistoricBuilding_left,title,mount diablo unitarian universalist church,0.5981143712997437
+Hospital_left.csv,title,greenslopes private hospital,HistoricBuilding_left,title,"emmanuel church, wylde green",0.5976928472518921
+Hospital_left.csv,title,university college hospital,HistoricBuilding_left,title,ushaw college,0.5975500345230103
+Hospital_left.csv,title,vejthani hospital,HistoricBuilding_left,title,ridi viharaya,0.5972549915313721
+Hospital_left.csv,title,shima hospital,HistoricBuilding_left,title,yama-dera,0.596991240978241
+Hospital_left.csv,title,peterhead community hospital,HistoricBuilding_left,title,"all saints church, billesley",0.596436619758606
+Hospital_left.csv,title,alice ho miu ling nethersole hospital,HistoricBuilding_left,title,wat yan nawa,0.5949126482009888
+Hospital_left.csv,title,st. paul's hospital (saskatoon),HistoricBuilding_left,title,"emmanuel lutheran church (r m lumsden, saskatchewan)",0.5945329666137695
+Hospital_left.csv,title,moorgreen hospital,HistoricBuilding_left,title,mostadmark chapel,0.5926283597946167
+Hospital_left.csv,title,shanghai sixth people's hospital,HistoricBuilding_left,title,qixia temple,0.5925287008285522
+Hospital_left.csv,title,phoenix baptist hospital & medical center,HistoricBuilding_left,title,church of our lady of lourdes klang,0.5906903743743896
+Hospital_left.csv,title,iloilo mission hospital,HistoricBuilding_left,title,church of saint ildefonso,0.590641975402832
+Hospital_left.csv,title,lambeth hospital,HistoricBuilding_left,title,st john's notting hill,0.5904673337936401
+Hospital_left.csv,title,xinhua hospital,HistoricBuilding_left,title,wat hua lamphong,0.5898609161376953
+Hospital_left.csv,title,northeast community health centre,HistoricBuilding_left,title,flatirons community church,0.589502215385437
+Hospital_left.csv,title,singapore general hospital,HistoricBuilding_left,title,elim church singapore,0.5893561840057373
+Hospital_left.csv,title,ludlow hospital,HistoricBuilding_left,title,lumley chapel,0.589231550693512
+Hospital_left.csv,title,dar al fouad,HistoricBuilding_left,title,hase-dera,0.5890969038009644
+Hospital_left.csv,title,nicosia old general hospital,HistoricBuilding_left,title,"st katarina church, nijemci",0.5889983177185059
+Hospital_left.csv,title,gerber memorial health services,HistoricBuilding_left,title,"gesu church (milwaukee, wisconsin)",0.5888925790786743
+Hospital_left.csv,title,umlamli hospital,HistoricBuilding_left,title,namdalseid church,0.5888562798500061
+Hospital_left.csv,title,duncan village day hospital,HistoricBuilding_left,title,"st michael's and all angels church, guiting power",0.5886552929878235
+Hospital_left.csv,title,naguru general hospital,HistoricBuilding_left,title,konpuku-ji,0.5883873701095581
+Hospital_left.csv,title,"st luke's hospital, middlesbrough",HistoricBuilding_left,title,"st john the baptist church, inglesham",0.5883821249008179
+Hospital_left.csv,title,gorgas hospital,HistoricBuilding_left,title,gibostad chapel,0.5883135795593262
+Hospital_left.csv,title,karen hospital,HistoricBuilding_left,title,kemi church,0.5882979035377502
+Hospital_left.csv,title,beckomberga hospital,HistoricBuilding_left,title,niederhaslach church,0.5877647399902344
+Hospital_left.csv,title,dong-a university hospital,HistoricBuilding_left,title,donghwasa,0.5876924991607666
+Hospital_left.csv,title,blaenavon hospital,HistoricBuilding_left,title,"all saints church, thelwall",0.5873045921325684
+Hospital_left.csv,title,mt. ascutney hospital and health center,HistoricBuilding_left,title,"our lady of immaculate conception church, mt. poinsur",0.5869919657707214
+Hospital_left.csv,title,vavuniya hospital,HistoricBuilding_left,title,"st. arockiya nathar church, vavathurai",0.5869366526603699
+Hospital_left.csv,title,bombo hospital,HistoricBuilding_left,title,futago-ji,0.5867338180541992
+Hospital_left.csv,title,donka hospital,HistoricBuilding_left,title,drevja church,0.5866882801055908
+Hospital_left.csv,title,mullaitivu hospital,HistoricBuilding_left,title,manuha temple,0.5866069793701172
+Hospital_left.csv,title,lozenetz hospital,HistoricBuilding_left,title,lakselvbukt church,0.5857288837432861

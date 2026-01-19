@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Enzyme_left.csv,title,rubisco,Galaxy_left,title,rd1,0.6270769238471985
+Enzyme_left.csv,title,pappalysin-1,Galaxy_left,title,maffei 1,0.5868726968765259
+Enzyme_left.csv,title,guanidinoacetase,Galaxy_left,title,sextans a,0.5755407810211182
+Enzyme_left.csv,title,laccase,Galaxy_left,title,3c 449,0.56902015209198
+Enzyme_left.csv,title,iodotyrosine deiodinase,Galaxy_left,title,iok-1,0.5676552057266235
+Enzyme_left.csv,title,urease,Galaxy_left,title,ugc 8091,0.5555962920188904
+Enzyme_left.csv,title,cutinase,Galaxy_left,title,leda 074886,0.5551033616065979
+Enzyme_left.csv,title,agarase,Galaxy_left,title,virgohi21,0.5532947182655334
+Enzyme_left.csv,title,calpain-3,Galaxy_left,title,3c 279,0.5525273084640503
+Enzyme_left.csv,title,lysin,Galaxy_left,title,draco dwarf,0.5394312739372253
+Enzyme_left.csv,title,allantoinase,Galaxy_left,title,sextans b,0.5329893827438354
+Enzyme_left.csv,title,ferrochelatase,Galaxy_left,title,maffei 2,0.5268422365188599
+Enzyme_left.csv,title,allantoin racemase,Galaxy_left,title,markarian 231,0.5123586654663086
+Enzyme_left.csv,title,acrosin,Galaxy_left,title,a1689-zd1,0.5099157094955444
+Enzyme_left.csv,title,aconitase,Galaxy_left,title,antlia dwarf,0.5045416355133057
+Enzyme_left.csv,title,3-beta-hsd,Galaxy_left,title,hcm-6a,0.5037568211555481
+Enzyme_left.csv,title,mannokinase,Galaxy_left,title,mb 3,0.4935142993927002
+Enzyme_left.csv,title,dctp deaminase,Galaxy_left,title,udfj-39546284,0.4907045364379883
+Enzyme_left.csv,title,formamidase,Galaxy_left,title,sxdf-nb1006-2,0.490407794713974
+Enzyme_left.csv,title,proline racemase,Galaxy_left,title,pgc 39058,0.48837387561798096
+Enzyme_left.csv,title,pepsin a,Galaxy_left,title,malin 1,0.4869447350502014
+Enzyme_left.csv,title,carboxypeptidase u,Galaxy_left,title,carina dwarf,0.4821625053882599
+Enzyme_left.csv,title,tryptophanase,Galaxy_left,title,henize 2-10,0.480801522731781
+Enzyme_left.csv,title,lambda-carrageenase,Galaxy_left,title,eso 306-17,0.478898286819458
+Enzyme_left.csv,title,chorismate lyase,Galaxy_left,title,ngc 1808,0.47129470109939575
+Enzyme_left.csv,title,cyclomaltodextrinase,Galaxy_left,title,cygnus a,0.4651806056499481
+Enzyme_left.csv,title,imidazolonepropionase,Galaxy_left,title,ic 167,0.46177130937576294
+Enzyme_left.csv,title,ferroxidase,Galaxy_left,title,hudf-jd2,0.46020370721817017
+Enzyme_left.csv,title,cathepsin v,Galaxy_left,title,3c 452,0.45175042748451233
+Enzyme_left.csv,title,threonine racemase,Galaxy_left,title,markarian 501,0.44849711656570435
+Enzyme_left.csv,title,"9,9'-dicis-zeta-carotene desaturase",Galaxy_left,title,ms 1512 +36-cb58,0.44222262501716614
+Enzyme_left.csv,title,allantoate deiminase,Galaxy_left,title,3c 83.1b,0.44082164764404297
+Enzyme_left.csv,title,sirohydrochlorin ferrochelatase,Galaxy_left,title,abell 1835 ir1916,0.43915101885795593
+Enzyme_left.csv,title,fucokinase,Galaxy_left,title,messier 100,0.4312192499637604
+Enzyme_left.csv,title,chymotrypsin,Galaxy_left,title,ngc 5474,0.42940986156463623
+Enzyme_left.csv,title,aspartyltransferase,Galaxy_left,title,centaurus a,0.4293505549430847
+Enzyme_left.csv,title,fluorinase,Galaxy_left,title,udf 423,0.4265196919441223
+Enzyme_left.csv,title,xylanase,Galaxy_left,title,ngc 5229,0.4249531328678131
+Enzyme_left.csv,title,lysozyme,Galaxy_left,title,mice galaxies,0.4196583032608032
+Enzyme_left.csv,title,autolysin,Galaxy_left,title,udfy-38135539,0.4170149266719818
+Enzyme_left.csv,title,uracilylalanine synthase,Galaxy_left,title,ursa major ii dwarf,0.41325902938842773
+Enzyme_left.csv,title,nepenthesin,Galaxy_left,title,cassiopeia dwarf,0.40888726711273193
+Enzyme_left.csv,title,acetylornithine deacetylase,Galaxy_left,title,ic 1101,0.4064677655696869
+Enzyme_left.csv,title,cytochrome b6f complex,Galaxy_left,title,3c 66b,0.4060416519641876
+Enzyme_left.csv,title,cyanoalanine nitrilase,Galaxy_left,title,ngc 26,0.4017481803894043
+Enzyme_left.csv,title,stem bromelain,Galaxy_left,title,tadpole galaxy,0.4009913206100464
+Enzyme_left.csv,title,geranylgeraniol 18-hydroxylase,Galaxy_left,title,ngc 1721,0.3978325426578522
+Enzyme_left.csv,title,octadecanal decarbonylase,Galaxy_left,title,ngc 4027,0.39767858386039734
+Enzyme_left.csv,title,taxoid 14beta-hydroxylase,Galaxy_left,title,sextans dwarf spheroidal,0.39751553535461426
+Enzyme_left.csv,title,poly adp ribose polymerase,Galaxy_left,title,arp 104,0.3968440592288971
+Enzyme_left.csv,title,cytochrome c oxidase,Galaxy_left,title,3c 321,0.39313533902168274
+Enzyme_left.csv,title,rna polymerase,Galaxy_left,title,ugca 86,0.3926469683647156
+Enzyme_left.csv,title,protein kinase c,Galaxy_left,title,4c +37.11,0.3910259008407593
+Enzyme_left.csv,title,geranyltranstransferase,Galaxy_left,title,ngc 6566,0.39095133543014526
+Enzyme_left.csv,title,stearoyl-coa 9-desaturase,Galaxy_left,title,ugc 8331,0.3889296054840088
+Enzyme_left.csv,title,celloxylanase,Galaxy_left,title,qso b2121+248,0.3871118426322937
+Enzyme_left.csv,title,exodeoxyribonuclease i,Galaxy_left,title,cid-42,0.38618358969688416
+Enzyme_left.csv,title,n-methyl nucleosidase,Galaxy_left,title,ngc 5334,0.3858841359615326
+Enzyme_left.csv,title,"l-rhamnono-1,4-lactonase",Galaxy_left,title,lbg-2377,0.38545727729797363
+Enzyme_left.csv,title,haloalkane dehalogenase,Galaxy_left,title,ngc 4261,0.385175496339798
+Enzyme_left.csv,title,deoxycytidine deaminase,Galaxy_left,title,3c 401,0.3848913908004761
+Enzyme_left.csv,title,adp-phosphoglycerate phosphatase,Galaxy_left,title,arp 271,0.3843459188938141
+Enzyme_left.csv,title,n-acetylgalactosamine-4-sulfatase,Galaxy_left,title,ngc 5713,0.3839190602302551
+Enzyme_left.csv,title,glutaminase,Galaxy_left,title,ugc 5692,0.3838956654071808
+Enzyme_left.csv,title,phosphoglycerol geranylgeranyltransferase,Galaxy_left,title,ngc 1723,0.38309791684150696
+Enzyme_left.csv,title,cyclohexyl-isocyanide hydratase,Galaxy_left,title,isohdfs 27,0.38291871547698975
+Enzyme_left.csv,title,alkaline phosphatase,Galaxy_left,title,arp 273,0.38162386417388916
+Enzyme_left.csv,title,galactosylgalactosylglucosylceramidase,Galaxy_left,title,hercules (dwarf galaxy),0.3815611004829407
+Enzyme_left.csv,title,acetylcholinesterase,Galaxy_left,title,ngc 5161,0.3811173439025879
+Enzyme_left.csv,title,ribonuclease t2,Galaxy_left,title,ngc 4262,0.37972575426101685
+Enzyme_left.csv,title,acetylene hydratase,Galaxy_left,title,hercules a,0.3796232044696808
+Enzyme_left.csv,title,formimidoylaspartate deiminase,Galaxy_left,title,ic 342,0.3789512515068054
+Enzyme_left.csv,title,cholesterol 25-hydroxylase,Galaxy_left,title,ngc 25,0.37864458560943604
+Enzyme_left.csv,title,trihydroxypterocarpan dimethylallyltransferase,Galaxy_left,title,triangulum galaxy,0.3784859776496887
+Enzyme_left.csv,title,staphylokinase,Galaxy_left,title,ngc 6027a,0.37836214900016785
+Enzyme_left.csv,title,dihydroorotate dehydrogenase,Galaxy_left,title,dwingeloo 1,0.37665408849716187
+Enzyme_left.csv,title,aminobenzoate decarboxylase,Galaxy_left,title,ngc 4921,0.376301646232605
+Enzyme_left.csv,title,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,Galaxy_left,title,ngc 5821,0.3754693567752838
+Enzyme_left.csv,title,6-hydroxypseudooxynicotine dehydrogenase,Galaxy_left,title,pgc 214560,0.37521106004714966
+Enzyme_left.csv,title,"1,4-lactonase",Galaxy_left,title,ngc 5490,0.37517231702804565
+Enzyme_left.csv,title,ump kinase,Galaxy_left,title,ugc 9240,0.3708149790763855
+Enzyme_left.csv,title,pseudouridine kinase,Galaxy_left,title,ugc 5497,0.3703041076660156
+Enzyme_left.csv,title,uroporphyrinogen iii synthase,Galaxy_left,title,ursa major i dwarf,0.3702944815158844
+Enzyme_left.csv,title,ribosylnicotinamide kinase,Galaxy_left,title,ngc 5665,0.36976394057273865
+Enzyme_left.csv,title,6-phospho-beta-galactosidase,Galaxy_left,title,ngc 5866,0.36942046880722046
+Enzyme_left.csv,title,rhamnogalacturonan acetylesterase,Galaxy_left,title,rxj1242-11,0.3692120909690857
+Enzyme_left.csv,title,plasmanylethanolamine desaturase,Galaxy_left,title,ngc 1090,0.36876094341278076
+Enzyme_left.csv,title,dihydrouracil oxidase,Galaxy_left,title,ugc 9618,0.3649764657020569
+Enzyme_left.csv,title,2'-deoxymugineic-acid 2'-dioxygenase,Galaxy_left,title,dwingeloo 2,0.36413872241973877
+Enzyme_left.csv,title,5-guanidino-2-oxopentanoate decarboxylase,Galaxy_left,title,ngc 5101,0.36359521746635437
+Enzyme_left.csv,title,arginyltransferase,Galaxy_left,title,arp 187,0.36235591769218445
+Enzyme_left.csv,title,cytidylate cyclase,Galaxy_left,title,ngc 2541,0.36066609621047974
+Enzyme_left.csv,title,atp synthase,Galaxy_left,title,arp 276,0.3603287637233734
+Enzyme_left.csv,title,dimethylargininase,Galaxy_left,title,ngc 5921,0.3574330806732178
+Enzyme_left.csv,title,lithocholate 6beta-hydroxylase,Galaxy_left,title,ngc 5746,0.3574181795120239
+Enzyme_left.csv,title,penicillin amidase,Galaxy_left,title,ngc 5248,0.3571139872074127
+Enzyme_left.csv,title,acetylenedicarboxylate decarboxylase,Galaxy_left,title,ngc 5195,0.3570309281349182
+Enzyme_left.csv,title,"4,5-dihydroxyphthalate decarboxylase",Galaxy_left,title,ngc 4452,0.3556368350982666
+Enzyme_left.csv,title,magnesium chelatase,Galaxy_left,title,ngc 5929,0.35514402389526367
+Enzyme_left.csv,title,gentisate decarboxylase,Galaxy_left,title,ngc 4449,0.3545205891132355
+Enzyme_left.csv,title,sulfur reductase,Galaxy_left,title,ngc 5792,0.35428762435913086
+Enzyme_left.csv,title,"alpha-n-acetylgalactosaminide alpha-2,6-sialyltransferase",Galaxy_left,title,ngc 5613,0.3540482521057129
+Enzyme_left.csv,title,adp-glyceromanno-heptose 6-epimerase,Galaxy_left,title,ngc 4634,0.35353440046310425
+Enzyme_left.csv,title,ribosylpyrimidine nucleosidase,Galaxy_left,title,ngc 2536,0.3532634377479553
+Enzyme_left.csv,title,amylosucrase,Galaxy_left,title,ngc 5886,0.35271042585372925
+Enzyme_left.csv,title,ascopyrone tautomerase,Galaxy_left,title,3c 236,0.352675199508667
+Enzyme_left.csv,title,beta-aspartyl-n-acetylglucosaminidase,Galaxy_left,title,ngc 5034,0.3524917960166931
+Enzyme_left.csv,title,tetrahydrodipicolinate n-acetyltransferase,Galaxy_left,title,ngc 5164,0.35144272446632385
+Enzyme_left.csv,title,phosphoenolpyruvate phosphatase,Galaxy_left,title,phoenix dwarf,0.35140931606292725
+Enzyme_left.csv,title,"3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-enoyl-coa hydratase",Galaxy_left,title,ngc 5754,0.35075831413269043
+Enzyme_left.csv,title,cysteine desulfurase,Galaxy_left,title,ngc 3269,0.350700318813324
+Enzyme_left.csv,title,polo kinase,Galaxy_left,title,zw ii 96,0.35066384077072144
+Enzyme_left.csv,title,(z)-3-hexen-1-ol acetyltransferase,Galaxy_left,title,ngc 5112,0.3503021001815796
+Enzyme_left.csv,title,aminoimidazolase,Galaxy_left,title,ic 2233,0.3493261933326721
+Enzyme_left.csv,title,tagatose-6-phosphate kinase,Galaxy_left,title,ngc 6166,0.34925711154937744
+Enzyme_left.csv,title,phosphatidate phosphatase,Galaxy_left,title,arp 107,0.34907180070877075
+Enzyme_left.csv,title,6-methylsalicylic-acid synthase,Galaxy_left,title,ngc 5753,0.34888046979904175
+Enzyme_left.csv,title,alpha-ribazole phosphatase,Galaxy_left,title,ngc 5662,0.34864774346351624
+Enzyme_left.csv,title,haloacetate dehalogenase,Galaxy_left,title,ngc 5676,0.3481309413909912
+Enzyme_left.csv,title,glycerone kinase,Galaxy_left,title,ngc 3621,0.3477683663368225
+Enzyme_left.csv,title,"1,6-alpha-d-mannosidase",Galaxy_left,title,ic 5357,0.34753668308258057
+Enzyme_left.csv,title,mevalonate kinase,Galaxy_left,title,ngc 5247,0.346069872379303
+Enzyme_left.csv,title,5-phytase,Galaxy_left,title,ngc 5,0.34561342000961304
+Enzyme_left.csv,title,4-carboxy-2-hydroxymuconate-6-semialdehyde dehydrogenase,Galaxy_left,title,macs0647-jd,0.3451847434043884
+Enzyme_left.csv,title,lysine decarboxylase,Galaxy_left,title,ngc 5829,0.34494900703430176
+Enzyme_left.csv,title,protein kinase a,Galaxy_left,title,ngc 5755,0.34388673305511475
+Enzyme_left.csv,title,ethanolamine kinase,Galaxy_left,title,ngc 5838,0.3434985876083374
+Enzyme_left.csv,title,sulfoacetaldehyde acetyltransferase,Galaxy_left,title,ngc 5752,0.3431423306465149
+Enzyme_left.csv,title,4-acetamidobutyrate deacetylase,Galaxy_left,title,ic 1516,0.34221452474594116
+Enzyme_left.csv,title,mandelonitrile lyase,Galaxy_left,title,ngc 1728,0.34187379479408264
+Enzyme_left.csv,title,phosphomannomutase,Galaxy_left,title,willman 1,0.34153294563293457
+Enzyme_left.csv,title,phthalyl amidase,Galaxy_left,title,ngc 5291,0.34141936898231506
+Enzyme_left.csv,title,"1,5-anhydro-d-fructose dehydratase",Galaxy_left,title,canes venatici i (dwarf galaxy),0.3409422039985657
+Enzyme_left.csv,title,tev protease,Galaxy_left,title,segue 1,0.340121865272522
+Enzyme_left.csv,title,alkylglycerone kinase,Galaxy_left,title,ngc 5548,0.3400512635707855
+Enzyme_left.csv,title,hydroxydechloroatrazine ethylaminohydrolase,Galaxy_left,title,ngc 4448,0.33970576524734497
+Enzyme_left.csv,title,n-sulfoglucosamine-3-sulfatase,Galaxy_left,title,ngc 5890,0.3390568494796753
+Enzyme_left.csv,title,pinosylvin synthase,Galaxy_left,title,ngc 5364,0.33886227011680603
+Enzyme_left.csv,title,udp-galacturonate decarboxylase,Galaxy_left,title,arp 299,0.33885645866394043
+Enzyme_left.csv,title,l-lysine-lactamase,Galaxy_left,title,ngc 5879,0.33880823850631714
+Enzyme_left.csv,title,strombine dehydrogenase,Galaxy_left,title,ngc 5962,0.338502436876297
+Enzyme_left.csv,title,10-deacetylbaccatin iii 10-o-acetyltransferase,Galaxy_left,title,ngc 1097,0.3381669223308563
+Enzyme_left.csv,title,alpha-amylase,Galaxy_left,title,ngc 514,0.33793795108795166
+Enzyme_left.csv,title,creatinine deaminase,Galaxy_left,title,cetus dwarf,0.3377567529678345
+Enzyme_left.csv,title,geraniol 8-hydroxylase,Galaxy_left,title,ngc 6340,0.337528258562088
+Enzyme_left.csv,title,inosinate nucleosidase,Galaxy_left,title,ngc 5653,0.33744603395462036
+Enzyme_left.csv,title,hydroxylamine dehydrogenase,Galaxy_left,title,hoag's object,0.3372955024242401
+Enzyme_left.csv,title,3-oxo-5beta-steroid 4-dehydrogenase,Galaxy_left,title,ngc 3486,0.3368348479270935
+Enzyme_left.csv,title,hexaprenyldihydroxybenzoate methyltransferase,Galaxy_left,title,ngc 6027b,0.3361997902393341
+Enzyme_left.csv,title,formate c-acetyltransferase,Galaxy_left,title,ngc 1156,0.33602821826934814
+Enzyme_left.csv,title,nitrile hydratase,Galaxy_left,title,ngc 1260,0.3356451392173767
+Enzyme_left.csv,title,udp-glucosamine 4-epimerase,Galaxy_left,title,ic 5351,0.3353181779384613
+Enzyme_left.csv,title,agmatine kinase,Galaxy_left,title,ngc 57,0.33524930477142334
+Enzyme_left.csv,title,sinapine esterase,Galaxy_left,title,sombrero galaxy,0.33508962392807007
+Enzyme_left.csv,title,acetolactate decarboxylase,Galaxy_left,title,ngc 5144,0.33487462997436523
+Enzyme_left.csv,title,5-alpha reductase,Galaxy_left,title,ic 755,0.334810346364975
+Enzyme_left.csv,title,6-phosphofructo-2-kinase,Galaxy_left,title,ngc 6263,0.3325580954551697
+Enzyme_left.csv,title,argininosuccinate lyase,Galaxy_left,title,ngc 185,0.33246639370918274
+Enzyme_left.csv,title,carbamate kinase,Galaxy_left,title,ic 1613,0.3319806456565857
+Enzyme_left.csv,title,micrococcal nuclease,Galaxy_left,title,3c 75,0.3313170075416565
+Enzyme_left.csv,title,dimethylallylcistransferase,Galaxy_left,title,ngc 6822,0.33128786087036133
+Enzyme_left.csv,title,aureusidin synthase,Galaxy_left,title,ngc 1427a,0.3309791684150696
+Enzyme_left.csv,title,20alpha-hydroxysteroid dehydrogenase,Galaxy_left,title,ngc 20,0.32938334345817566
+Enzyme_left.csv,title,pantoate kinase,Galaxy_left,title,ngc 5477,0.3286256194114685
+Enzyme_left.csv,title,"9beta-pimara-7,15-diene oxidase",Galaxy_left,title,ugc 6945,0.32851335406303406
+Enzyme_left.csv,title,4-oxalocrotonate decarboxylase,Galaxy_left,title,ngc 4881,0.3275095820426941
+Enzyme_left.csv,title,maleate isomerase,Galaxy_left,title,ngc 4216,0.3261552155017853
+Enzyme_left.csv,title,phosphopentomutase,Galaxy_left,title,ngc 5614,0.3255279064178467
+Enzyme_left.csv,title,aspartate 4-decarboxylase,Galaxy_left,title,ngc 4945,0.3253570795059204
+Enzyme_left.csv,title,n-acetylmuramoyl-l-alanine amidase,Galaxy_left,title,ngc 6850,0.3252689242362976
+Enzyme_left.csv,title,allose kinase,Galaxy_left,title,ngc 55,0.32526707649230957
+Enzyme_left.csv,title,phenylpyruvate decarboxylase,Galaxy_left,title,ngc 4444,0.3251758813858032
+Enzyme_left.csv,title,interstitial collagenase,Galaxy_left,title,holmberg ix,0.3244269788265228
+Enzyme_left.csv,title,tetrahydrocannabinolic acid synthase,Galaxy_left,title,ngc 2787,0.3240877389907837
+Enzyme_left.csv,title,acetoin dehydrogenase,Galaxy_left,title,ngc 4651,0.3234829306602478
+Enzyme_left.csv,title,theanine hydrolase,Galaxy_left,title,ngc 6027e,0.3230496644973755
+Enzyme_left.csv,title,acetaldehyde dehydrogenase,Galaxy_left,title,ngc 4639,0.3230009078979492
+Enzyme_left.csv,title,mrna (guanine-n7-)-methyltransferase,Galaxy_left,title,ngc 1365,0.32284364104270935
+Enzyme_left.csv,title,cyclopentanol dehydrogenase,Galaxy_left,title,ngc 1275,0.3224931061267853
+Enzyme_left.csv,title,chondroitin-glucuronate 5-epimerase,Galaxy_left,title,ngc 4565,0.32136788964271545
+Enzyme_left.csv,title,beta-l-arabinosidase,Galaxy_left,title,leo a,0.3213251829147339
+Enzyme_left.csv,title,11-beta hydroxysteroid dehydrogenase,Galaxy_left,title,ngc 11,0.32078254222869873
+Enzyme_left.csv,title,phospholipase a2,Galaxy_left,title,ngc 5624,0.32015740871429443
+Enzyme_left.csv,title,1-deoxy-11beta-hydroxypentalenate dehydrogenase,Galaxy_left,title,ngc 4121,0.3201090097427368
+Enzyme_left.csv,title,orsellinate decarboxylase,Galaxy_left,title,ic 3418,0.3198263347148895
+Enzyme_left.csv,title,2-deoxyglucose-6-phosphatase,Galaxy_left,title,macs1149-jd,0.31967872381210327
+Enzyme_left.csv,title,chalcone isomerase,Galaxy_left,title,ngc 3268,0.31963199377059937
+Enzyme_left.csv,title,methyl halide transferase,Galaxy_left,title,ngc 6946,0.31938883662223816
+Enzyme_left.csv,title,divinyl chlorophyllide a 8-vinyl-reductase,Galaxy_left,title,ngc 4088,0.3190236985683441
+Enzyme_left.csv,title,glutamate 1-kinase,Galaxy_left,title,ngc 5371,0.31890958547592163
+Enzyme_left.csv,title,27-hydroxycholesterol 7alpha-monooxygenase,Galaxy_left,title,mrc 1138-262,0.31881147623062134
+Enzyme_left.csv,title,phosphatidylglycerophosphatase,Galaxy_left,title,ngc 1725,0.3187260627746582
+Enzyme_left.csv,title,chlordecone reductase,Galaxy_left,title,ngc 4696,0.31869786977767944
+Enzyme_left.csv,title,beta-carotene 3-hydroxylase,Galaxy_left,title,3c 390.3,0.3182297945022583
+Enzyme_left.csv,title,zeatin 9-aminocarboxyethyltransferase,Galaxy_left,title,ngc 3949,0.3180798888206482
+Enzyme_left.csv,title,lactate dehydrogenase,Galaxy_left,title,ngc 5907,0.317568838596344
+Enzyme_left.csv,title,lactate aldolase,Galaxy_left,title,ngc 4984,0.31748759746551514
+Enzyme_left.csv,title,galactonolactone dehydrogenase,Galaxy_left,title,ngc 4125,0.3170122504234314
+Enzyme_left.csv,title,1-phosphofructokinase,Galaxy_left,title,ngc 1566,0.3167564272880554
+Enzyme_left.csv,title,gelatinase b,Galaxy_left,title,ngc 4650a,0.3163495659828186

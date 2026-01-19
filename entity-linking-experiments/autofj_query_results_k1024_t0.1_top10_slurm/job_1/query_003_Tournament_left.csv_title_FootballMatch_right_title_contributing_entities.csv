@@ -1,0 +1,54 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Tournament_left.csv,title,2011 uefa european under-21 football championship,FootballMatch_right,title,2011 uefa european under-21 championship final,0.9493269920349121
+Tournament_left.csv,title,2012 j. league cup,FootballMatch_right,title,2011 j.league cup final,0.9304987192153931
+Tournament_left.csv,title,2009 african nations championship,FootballMatch_right,title,2009 african championship of nations final,0.9288010597229004
+Tournament_left.csv,title,1952 albanian cup,FootballMatch_right,title,2012 albanian supercup,0.8756282925605774
+Tournament_left.csv,title,1982 fifa world cup,FootballMatch_right,title,brazil v italy (1982 fifa world cup),0.8313342332839966
+Tournament_left.csv,title,1938 fifa world cup,FootballMatch_right,title,poland v brazil (1938 fifa world cup),0.8036168813705444
+Tournament_left.csv,title,liga primer indonesia pre-season tournament,FootballMatch_right,title,2006 copa indonesia final,0.7830870151519775
+Tournament_left.csv,title,1988 uefa european under-16 football championship,FootballMatch_right,title,1988 dfb-pokal final,0.7808445692062378
+Tournament_left.csv,title,1968 uefa european under-18 football championship,FootballMatch_right,title,1968 dfb-pokal final,0.773713231086731
+Tournament_left.csv,title,1993 uncaf nations cup,FootballMatch_right,title,1993 dutch supercup,0.7575066089630127
+Tournament_left.csv,title,2008 nedbank cup,FootballMatch_right,title,1992 dutch supercup,0.752959668636322
+Tournament_left.csv,title,2011 european league final eight,FootballMatch_right,title,2011 conference premier play-off final,0.7510536313056946
+Tournament_left.csv,title,2011 african nations championship,FootballMatch_right,title,2013 kenyan super cup (pre-season),0.7474959492683411
+Tournament_left.csv,title,1994 baltic cup,FootballMatch_right,title,1991 dutch supercup,0.7385034561157227
+Tournament_left.csv,title,1982 fifa world cup qualification (afc and ofc),FootballMatch_right,title,hungary v el salvador (1982 fifa world cup),0.7383562326431274
+Tournament_left.csv,title,1950 fifa world cup,FootballMatch_right,title,austria v switzerland (1954 fifa world cup),0.7304991483688354
+Tournament_left.csv,title,2008 australian football international cup,FootballMatch_right,title,2010â11 w-league grand final,0.7281430959701538
+Tournament_left.csv,title,2013 pfl cup,FootballMatch_right,title,2012 conference premier play-off final,0.7166135311126709
+Tournament_left.csv,title,2012 usasa region iii national cup,FootballMatch_right,title,soccer bowl 2013,0.7122406959533691
+Tournament_left.csv,title,munich wct,FootballMatch_right,title,battle of nuremberg (2006 fifa world cup),0.711485743522644
+Tournament_left.csv,title,2008 players championship,FootballMatch_right,title,2009 wps all-star game,0.7111872434616089
+Tournament_left.csv,title,1983 west african nations cup,FootballMatch_right,title,west germany v france (1982 fifa world cup),0.7073403000831604
+Tournament_left.csv,title,2010 afc champions league,FootballMatch_right,title,2010 conference premier play-off final,0.7025246620178223
+Tournament_left.csv,title,2008 caf champions league,FootballMatch_right,title,2008 conference premier play-off final,0.6962316036224365
+Tournament_left.csv,title,1949 nafc championship,FootballMatch_right,title,2009 conference premier play-off final,0.6895880699157715
+Tournament_left.csv,title,2002 players championship,FootballMatch_right,title,2010 wps all-star game,0.6887097358703613
+Tournament_left.csv,title,2001 uncaf nations cup,FootballMatch_right,title,2001 germany v england football match,0.6886589527130127
+Tournament_left.csv,title,1980 african cup of nations,FootballMatch_right,title,austria v west germany (1978 fifa world cup),0.6835793256759644
+Tournament_left.csv,title,1989 fifa u-16 world championship,FootballMatch_right,title,argentina 2â1 england (1986 fifa world cup),0.6819756031036377
+Tournament_left.csv,title,2002 fifa world cup qualification,FootballMatch_right,title,2000 england v germany football match,0.6808924674987793
+Tournament_left.csv,title,1980 afc asian cup,FootballMatch_right,title,1985 china v hong kong football match,0.6807090044021606
+Tournament_left.csv,title,celtic international,FootballMatch_right,title,shamrock rovers xi v brazil,0.6708235740661621
+Tournament_left.csv,title,1960 world men's military cup,FootballMatch_right,title,battle of santiago (1962 fifa world cup),0.6609359979629517
+Tournament_left.csv,title,2006 sports network cup,FootballMatch_right,title,2006 international rules series,0.653480052947998
+Tournament_left.csv,title,1984 national challenge cup,FootballMatch_right,title,1985 wales v scotland football match,0.6393414735794067
+Tournament_left.csv,title,football at the 1971 south pacific games,FootballMatch_right,title,1870â71 home nations rugby union matches,0.6346303224563599
+Tournament_left.csv,title,1996 indian federation cup,FootballMatch_right,title,2002 international rules series,0.6343712210655212
+Tournament_left.csv,title,2011 kagame interclub cup,FootballMatch_right,title,2011 international rules series,0.6340374946594238
+Tournament_left.csv,title,2006 tna world x cup tournament,FootballMatch_right,title,2006 international rules series,0.6339567303657532
+Tournament_left.csv,title,2011 nations cup,FootballMatch_right,title,2011 all-ireland minor hurling championship,0.6246883273124695
+Tournament_left.csv,title,1972 honduran cup,FootballMatch_right,title,hungary 10â1 el salvador (1982),0.6237896680831909
+Tournament_left.csv,title,2009 world football challenge,FootballMatch_right,title,2009 republic of ireland v france football matches,0.6182584166526794
+Tournament_left.csv,title,2007 uemoa tournament,FootballMatch_right,title,2008 international rules series,0.6143771409988403
+Tournament_left.csv,title,2010 uemoa tournament,FootballMatch_right,title,2010 international rules series,0.6013780236244202
+Tournament_left.csv,title,1949 norwegian football cup,FootballMatch_right,title,battle of berne (1954 fifa world cup),0.6010729074478149
+Tournament_left.csv,title,2005 setanta sports cup,FootballMatch_right,title,2005 international rules series,0.5926815271377563
+Tournament_left.csv,title,north west of ireland open,FootballMatch_right,title,france 1â1 ireland (18 november 2009),0.5895859599113464
+Tournament_left.csv,title,1989 dunhill cup,FootballMatch_right,title,1989 misl all-star game,0.5802984237670898
+Tournament_left.csv,title,1999 caribbean cup,FootballMatch_right,title,1999 international rules series,0.5625665187835693
+Tournament_left.csv,title,1998 ofc u-20 championship,FootballMatch_right,title,1998 international rules series,0.5619397759437561
+Tournament_left.csv,title,2001 sports network cup,FootballMatch_right,title,2001 international rules series,0.5567430257797241
+Tournament_left.csv,title,1975 president's cup football tournament,FootballMatch_right,title,1876 scotland v wales football match,0.5554048418998718
+Tournament_left.csv,title,football at the 1989 island games,FootballMatch_right,title,1871 scotland versus england rugby union match,0.5538867115974426

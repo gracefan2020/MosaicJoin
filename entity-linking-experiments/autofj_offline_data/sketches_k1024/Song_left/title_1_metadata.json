@@ -1,0 +1,9 @@
+{
+  "table_name": "Song_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 5726,
+  "sketch_k": 1024,
+  "processing_time": 13.307117938995361,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Song_left/title_1.npz"
+}

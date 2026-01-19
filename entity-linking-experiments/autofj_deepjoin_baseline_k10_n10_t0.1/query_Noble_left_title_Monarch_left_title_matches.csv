@@ -1,0 +1,10 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Noble_left.csv,title,"Dost Mohammad Khan, Nawab of Bhopal",Monarch_left.csv,title,Dost Mohammad Khan,0.7451
+Noble_left.csv,title,Janaab' Pakal,Monarch_left.csv,title,K'inich Janaab' Pakal,0.7451
+Noble_left.csv,title,Josiah Child,Monarch_left.csv,title,Josiah,0.7451
+Noble_left.csv,title,John Doukas,Monarch_left.csv,title,John Doukas (Caesar),0.7451
+Noble_left.csv,title,"Ernest, Duke of Bavaria",Monarch_left.csv,title,Ernest of Bavaria,0.7451
+Noble_left.csv,title,Count Ferdinand Edzard of East Frisia,Monarch_left.csv,title,"Edzard II, Count of East Frisia",0.7451
+Noble_left.csv,title,Gregory Kamonas,Monarch_left.csv,title,Gregoria,0.7451
+Noble_left.csv,title,"Theodoric I, Margrave of Lusatia",Monarch_left.csv,title,Theodoric I,0.7451
+Noble_left.csv,title,Count Ferdinand Edzard of East Frisia,Monarch_left.csv,title,"Edzard I, Count of East Frisia",0.7451

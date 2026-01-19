@@ -1,0 +1,35 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerClubSeason_left.csv,title,1975 portland timbers season,NCAATeamSeason_right,title,1975 oregon ducks football team,0.7524750232696533
+SoccerClubSeason_left.csv,title,2010 down senior football season,NCAATeamSeason_right,title,2010 fiu golden panthers football team,0.7246793508529663
+SoccerClubSeason_left.csv,title,2009 down senior football season,NCAATeamSeason_right,title,2011 austin peay governors football team,0.7215595245361328
+SoccerClubSeason_left.csv,title,2011 charlotte eagles season,NCAATeamSeason_right,title,2011 fiu golden panthers football team,0.7205818891525269
+SoccerClubSeason_left.csv,title,2012 charlotte eagles season,NCAATeamSeason_right,title,2012 fiu golden panthers football team,0.7114149332046509
+SoccerClubSeason_left.csv,title,2013 down senior football season,NCAATeamSeason_right,title,2012 austin peay governors football team,0.7105851173400879
+SoccerClubSeason_left.csv,title,1977 portland timbers season,NCAATeamSeason_right,title,1974 oregon ducks football team,0.7062956690788269
+SoccerClubSeason_left.csv,title,2013 vcu rams men's soccer team,NCAATeamSeason_right,title,2013 hawaii rainbow warriors football team,0.6982487440109253
+SoccerClubSeason_left.csv,title,2001 vcu rams men's soccer team,NCAATeamSeason_right,title,1901 alabama crimson white football team,0.6590703725814819
+SoccerClubSeason_left.csv,title,2003 vcu rams men's soccer team,NCAATeamSeason_right,title,1893 lsu football team,0.6548001766204834
+SoccerClubSeason_left.csv,title,2000 los angeles galaxy season,NCAATeamSeason_right,title,1919 washington sun dodgers football team,0.6528400182723999
+SoccerClubSeason_left.csv,title,2011 atlanta silverbacks season,NCAATeamSeason_right,title,2002 florida atlantic owls baseball team,0.6472592949867249
+SoccerClubSeason_left.csv,title,2004 vcu rams men's soccer team,NCAATeamSeason_right,title,1895 lsu football team,0.6416270732879639
+SoccerClubSeason_left.csv,title,2012 ucla bruins men's soccer team,NCAATeamSeason_right,title,1963 oregon ducks football team,0.637436032295227
+SoccerClubSeason_left.csv,title,1977 fort lauderdale strikers season,NCAATeamSeason_right,title,1979 ucf golden knights football team,0.6299222707748413
+SoccerClubSeason_left.csv,title,2001 portland timbers season,NCAATeamSeason_right,title,1964 oregon ducks football team,0.6235174536705017
+SoccerClubSeason_left.csv,title,1918 santos fc season,NCAATeamSeason_right,title,1894 lsu football team,0.6232823133468628
+SoccerClubSeason_left.csv,title,2002 vcu rams men's soccer team,NCAATeamSeason_right,title,1900 alabama crimson white football team,0.6184557676315308
+SoccerClubSeason_left.csv,title,2003 daegu fc season,NCAATeamSeason_right,title,1899 alabama crimson white football team,0.6163751482963562
+SoccerClubSeason_left.csv,title,2010 vcu rams men's soccer team,NCAATeamSeason_right,title,1896 alabama crimson white football team,0.6088570356369019
+SoccerClubSeason_left.csv,title,2010 carolina railhawks fc season,NCAATeamSeason_right,title,1893 alabama crimson white football team,0.6041665077209473
+SoccerClubSeason_left.csv,title,2011 vcu rams men's soccer team,NCAATeamSeason_right,title,1905 alabama crimson white football team,0.601742148399353
+SoccerClubSeason_left.csv,title,2004 daegu fc season,NCAATeamSeason_right,title,1904 alabama crimson white football team,0.5997214317321777
+SoccerClubSeason_left.csv,title,2010 miami fc season,NCAATeamSeason_right,title,1906 alabama crimson white football team,0.592308759689331
+SoccerClubSeason_left.csv,title,2011 dayton dutch lions season,NCAATeamSeason_right,title,1897 alabama crimson white football team,0.5913500785827637
+SoccerClubSeason_left.csv,title,2012 vcu rams men's soccer team,NCAATeamSeason_right,title,1895 alabama crimson white football team,0.5865161418914795
+SoccerClubSeason_left.csv,title,2012 fc indiana season,NCAATeamSeason_right,title,1887 notre dame football team,0.5813326239585876
+SoccerClubSeason_left.csv,title,2012 dayton dutch lions season,NCAATeamSeason_right,title,1894 alabama crimson white football team,0.5788139700889587
+SoccerClubSeason_left.csv,title,1920 santos fc season,NCAATeamSeason_right,title,1902 alabama crimson white football team,0.5757626891136169
+SoccerClubSeason_left.csv,title,2008 daegu fc season,NCAATeamSeason_right,title,1903 alabama crimson white football team,0.569730281829834
+SoccerClubSeason_left.csv,title,1933 santos fc season,NCAATeamSeason_right,title,1892 alabama cadets football team,0.5658670663833618
+SoccerClubSeason_left.csv,title,1997 urawa red diamonds season,NCAATeamSeason_right,title,1906 arkansas cardinals football team,0.5613722801208496
+SoccerClubSeason_left.csv,title,2012 james madison dukes men's soccer team,NCAATeamSeason_right,title,1898 alabama crimson white football team,0.5607376098632812
+SoccerClubSeason_left.csv,title,2010 st patrick's athletic f.c. season,NCAATeamSeason_right,title,1907 notre dame football team,0.5513013005256653

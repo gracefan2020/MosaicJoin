@@ -1,0 +1,11 @@
+{
+  "table_name": "Race_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 2382,
+  "unique_values": 2382,
+  "processed_values": 2382,
+  "embedding_dim": 768,
+  "processing_time": 1.6503093242645264,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Race_left.csv"
+}

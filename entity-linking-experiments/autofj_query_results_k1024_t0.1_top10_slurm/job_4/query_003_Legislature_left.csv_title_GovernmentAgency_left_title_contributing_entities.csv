@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Legislature_left.csv,title,tainan city council,GovernmentAgency_left,title,tainan city government,0.9105916023254395
+Legislature_left.csv,title,basque parliament,GovernmentAgency_left,title,basque government,0.9074942469596863
+Legislature_left.csv,title,parliament of nepal,GovernmentAgency_left,title,government of nepal,0.8987582921981812
+Legislature_left.csv,title,flemish parliament,GovernmentAgency_left,title,flemish government,0.8945740461349487
+Legislature_left.csv,title,parliament of south australia,GovernmentAgency_left,title,government of south australia,0.8894596099853516
+Legislature_left.csv,title,west bengal legislative assembly,GovernmentAgency_left,title,speaker of the west bengal legislative assembly,0.8590314388275146
+Legislature_left.csv,title,delhi development authority,GovernmentAgency_left,title,lahore development authority,0.8301709890365601
+Legislature_left.csv,title,national assembly (hungary),GovernmentAgency_left,title,council of ministers of the people's republic of hungary,0.8293913006782532
+Legislature_left.csv,title,house of commons of great britain,GovernmentAgency_left,title,office of the leader of the house of commons,0.826106071472168
+Legislature_left.csv,title,legislature of liberia,GovernmentAgency_left,title,national elections commission of liberia,0.8223901987075806
+Legislature_left.csv,title,parliament of croatia,GovernmentAgency_left,title,government of the independent state of croatia,0.818732738494873
+Legislature_left.csv,title,parliament of poland,GovernmentAgency_left,title,supreme chamber of control of the republic of poland,0.8144463300704956
+Legislature_left.csv,title,indore municipal corporation,GovernmentAgency_left,title,indore development authority,0.8116703629493713
+Legislature_left.csv,title,parliament of romania,GovernmentAgency_left,title,permanent electoral authority (romania),0.8105102777481079
+Legislature_left.csv,title,national council of the movement,GovernmentAgency_left,title,union revolutionary council,0.8099507093429565
+Legislature_left.csv,title,navajo nation council,GovernmentAgency_left,title,council of indigenous peoples,0.8055397272109985
+Legislature_left.csv,title,philippine commission,GovernmentAgency_left,title,commission on filipinos overseas,0.8022328019142151
+Legislature_left.csv,title,council of the european union,GovernmentAgency_left,title,court of justice of the european union,0.7991847395896912
+Legislature_left.csv,title,central executive committee of the soviet union,GovernmentAgency_left,title,council of people's commissars on war and navy affairs (soviet russia),0.7964625358581543
+Legislature_left.csv,title,supreme people's assembly,GovernmentAgency_left,title,supreme people's procuratorate,0.7955942153930664
+Legislature_left.csv,title,national assembly (azerbaijan),GovernmentAgency_left,title,the office of azerbaijan president,0.791803777217865
+Legislature_left.csv,title,federal council (austria),GovernmentAgency_left,title,federal ministry of finance (austria),0.788550615310669
+Legislature_left.csv,title,fairfax county board of supervisors,GovernmentAgency_left,title,cook county board of commissioners,0.7836445569992065
+Legislature_left.csv,title,maharashtra legislative council,GovernmentAgency_left,title,state sangha maha nayaka committee,0.7835493087768555
+Legislature_left.csv,title,national council (monaco),GovernmentAgency_left,title,department of external relations (monaco),0.7830538153648376
+Legislature_left.csv,title,oklahoma senate,GovernmentAgency_left,title,governor of oklahoma,0.7799511551856995
+Legislature_left.csv,title,reichstag (nazi germany),GovernmentAgency_left,title,reichssicherheitsdienst,0.7771909236907959
+Legislature_left.csv,title,south carolina senate,GovernmentAgency_left,title,secretary of state of south carolina,0.7766782641410828
+Legislature_left.csv,title,crown council of ethiopia,GovernmentAgency_left,title,royal advisory council for saharan affairs,0.7765046954154968
+Legislature_left.csv,title,navi mumbai municipal corporation,GovernmentAgency_left,title,maharashtra pollution control board,0.7722215056419373
+Legislature_left.csv,title,butte county board of supervisors,GovernmentAgency_left,title,los angeles county chief executive office,0.7707850933074951
+Legislature_left.csv,title,soviet of the republic (supreme soviet of russia),GovernmentAgency_left,title,state archive of the russian federation,0.7677708864212036
+Legislature_left.csv,title,parliament of kazakhstan,GovernmentAgency_left,title,ministry of foreign affairs (kazakhstan),0.7670226693153381
+Legislature_left.csv,title,states-general of the netherlands,GovernmentAgency_left,title,ministry of foreign affairs (netherlands),0.7626369595527649
+Legislature_left.csv,title,cleveland city council,GovernmentAgency_left,title,cleveland public power,0.7603508234024048
+Legislature_left.csv,title,parliamentary assembly of bosnia and herzegovina,GovernmentAgency_left,title,federal ministry of interior (federation of bosnia and herzegovina),0.7595244646072388
+Legislature_left.csv,title,senate of spain,GovernmentAgency_left,title,spanish council of state,0.758495569229126
+Legislature_left.csv,title,congress of the dominican republic,GovernmentAgency_left,title,ministry of economy (dominican republic),0.7573086619377136
+Legislature_left.csv,title,new york state assembly,GovernmentAgency_left,title,new york state board of elections,0.7571739554405212
+Legislature_left.csv,title,corts valencianes,GovernmentAgency_left,title,generalitat valenciana,0.7554086446762085
+Legislature_left.csv,title,council for wales and monmouthshire,GovernmentAgency_left,title,wales office,0.7544398307800293
+Legislature_left.csv,title,wisconsin state assembly,GovernmentAgency_left,title,wisconsin historical society,0.7544295191764832
+Legislature_left.csv,title,parliament of botswana,GovernmentAgency_left,title,botswana national broadcasting board,0.7538076639175415
+Legislature_left.csv,title,senate of northern ireland,GovernmentAgency_left,title,executive committee of the privy council of northern ireland,0.7500896453857422
+Legislature_left.csv,title,supreme soviet of the soviet union,GovernmentAgency_left,title,cabinet of ministers (soviet union),0.7497178912162781
+Legislature_left.csv,title,landtag of bavaria,GovernmentAgency_left,title,bavarian state office for survey and geoinformation,0.7495988607406616
+Legislature_left.csv,title,arkansas senate,GovernmentAgency_left,title,arkansas attorney general,0.7479608058929443
+Legislature_left.csv,title,national congress of brazil,GovernmentAgency_left,title,ministry of culture (brazil),0.7464730739593506
+Legislature_left.csv,title,central commission for discipline inspection of the communist party of china,GovernmentAgency_left,title,central election commission of the republic of china,0.7458797097206116
+Legislature_left.csv,title,georgia general assembly,GovernmentAgency_left,title,presidential administration of georgia,0.7441449165344238
+Legislature_left.csv,title,ahmedabad urban development authority,GovernmentAgency_left,title,hyderabad airport development authority,0.743927001953125
+Legislature_left.csv,title,legislative assembly of manitoba,GovernmentAgency_left,title,manitoba justice,0.7421369552612305
+Legislature_left.csv,title,central council of ukraine,GovernmentAgency_left,title,general prosecutor of ukraine,0.7417423725128174
+Legislature_left.csv,title,kwai tsing district council,GovernmentAgency_left,title,yangon city development committee,0.7401125431060791
+Legislature_left.csv,title,dewan negara,GovernmentAgency_left,title,filem negara malaysia,0.7385588884353638
+Legislature_left.csv,title,parliament of sri lanka,GovernmentAgency_left,title,ministry of justice and law reforms (sri lanka),0.7371468544006348
+Legislature_left.csv,title,congress of the union,GovernmentAgency_left,title,committee of the states,0.7370980978012085
+Legislature_left.csv,title,council of the district of columbia,GovernmentAgency_left,title,judicial council of california,0.7348142862319946
+Legislature_left.csv,title,secretariat of the communist party of vietnam,GovernmentAgency_left,title,ministry of education and training (vietnam),0.7346775531768799
+Legislature_left.csv,title,council of representatives of iraq,GovernmentAgency_left,title,ministry of human rights (iraq),0.7344771027565002
+Legislature_left.csv,title,54th oklahoma legislature,GovernmentAgency_left,title,oklahoma historical society,0.7328265905380249
+Legislature_left.csv,title,parliament of finland,GovernmentAgency_left,title,ministry of justice (finland),0.7326699495315552
+Legislature_left.csv,title,national assembly (venezuela),GovernmentAgency_left,title,list of ministers of interior and justice of venezuela,0.7315041422843933
+Legislature_left.csv,title,pennsylvania general assembly,GovernmentAgency_left,title,pennsylvania state ethics commission,0.7310541272163391
+Legislature_left.csv,title,jammu and kashmir legislative council,GovernmentAgency_left,title,bar council of india,0.7301151156425476
+Legislature_left.csv,title,national assembly (niger),GovernmentAgency_left,title,office du niger,0.7294764518737793
+Legislature_left.csv,title,national council (austria),GovernmentAgency_left,title,austrian academy of sciences,0.7255469560623169
+Legislature_left.csv,title,chamber of deputies (mexico),GovernmentAgency_left,title,secretariat of foreign affairs (mexico),0.7247579097747803
+Legislature_left.csv,title,buenos aires province chamber of deputies,GovernmentAgency_left,title,minister of economy of argentina,0.724096417427063
+Legislature_left.csv,title,45th general assembly of newfoundland and labrador,GovernmentAgency_left,title,department of natural resources (newfoundland and labrador),0.7240006923675537
+Legislature_left.csv,title,estates of sint maarten,GovernmentAgency_left,title,crown estate,0.722949743270874
+Legislature_left.csv,title,house of representatives of puerto rico,GovernmentAgency_left,title,puerto rico governmental line of succession,0.7225563526153564
+Legislature_left.csv,title,"urban council, hong kong",GovernmentAgency_left,title,census and statistics department (hong kong),0.7214037179946899
+Legislature_left.csv,title,new zealand legislative council,GovernmentAgency_left,title,human rights commission (new zealand),0.7213070392608643
+Legislature_left.csv,title,causeway coast and glens district council,GovernmentAgency_left,title,sydney harbour foreshore authority,0.7163263559341431
+Legislature_left.csv,title,north east community development council,GovernmentAgency_left,title,national capital planning commission,0.7155227661132812
+Legislature_left.csv,title,ampara urban council,GovernmentAgency_left,title,abu dhabi urban planning council,0.7146236300468445
+Legislature_left.csv,title,kentucky general assembly,GovernmentAgency_left,title,kentucky justice and public safety cabinet,0.7141351699829102
+Legislature_left.csv,title,parliament of albania,GovernmentAgency_left,title,"ministry of economy, trade and energy (albania)",0.7134057283401489
+Legislature_left.csv,title,regional council (hong kong),GovernmentAgency_left,title,audit commission (hong kong),0.711930513381958
+Legislature_left.csv,title,grand national assembly of turkey,GovernmentAgency_left,title,national security service (turkey),0.7114381194114685
+Legislature_left.csv,title,dewan rakyat,GovernmentAgency_left,title,prasar bharati,0.7110475301742554
+Legislature_left.csv,title,regional representative council,GovernmentAgency_left,title,council for estate agencies,0.709363579750061
+Legislature_left.csv,title,parliament of the czech republic,GovernmentAgency_left,title,ministry of culture (czech republic),0.7093472480773926
+Legislature_left.csv,title,karainagar divisional council,GovernmentAgency_left,title,ministry for chieftaincy and traditional affairs,0.7093405723571777
+Legislature_left.csv,title,national assembly (south korea),GovernmentAgency_left,title,ministry of people's armed forces (north korea),0.7092373371124268
+Legislature_left.csv,title,all-ukrainian congress of soviets,GovernmentAgency_left,title,anti-monopoly committee (ukraine),0.7086563110351562
+Legislature_left.csv,title,eravur urban council,GovernmentAgency_left,title,unaizah municipality,0.7080411911010742
+Legislature_left.csv,title,oregon legislative assembly,GovernmentAgency_left,title,oregon state bar,0.7075159549713135
+Legislature_left.csv,title,chamber of deputies (italy),GovernmentAgency_left,title,ministry of interior (italy),0.70745450258255
+Legislature_left.csv,title,new jersey provincial council,GovernmentAgency_left,title,new jersey schools development authority,0.7071614265441895
+Legislature_left.csv,title,state council of ceylon,GovernmentAgency_left,title,ceylon electricity board,0.7063705921173096
+Legislature_left.csv,title,subang jaya municipal council,GovernmentAgency_left,title,singapore land authority,0.7062658071517944
+Legislature_left.csv,title,congress of the confederate states,GovernmentAgency_left,title,confederate states department of the navy,0.7042468786239624
+Legislature_left.csv,title,consultative council (bahrain),GovernmentAgency_left,title,bahrain news agency,0.7038137912750244
+Legislature_left.csv,title,philadelphia city council,GovernmentAgency_left,title,old city special services district of philadelphia,0.7027179002761841
+Legislature_left.csv,title,new jersey legislature,GovernmentAgency_left,title,new jersey department of the treasury,0.7022443413734436
+Legislature_left.csv,title,central singapore community development council,GovernmentAgency_left,title,civil service college singapore,0.7012794017791748
+Legislature_left.csv,title,york city council,GovernmentAgency_left,title,new york city taxi and limousine commission,0.7009181380271912
+Legislature_left.csv,title,national council (namibia),GovernmentAgency_left,title,department of home affairs (south africa),0.7007814645767212
+Legislature_left.csv,title,parliament of malta,GovernmentAgency_left,title,heritage malta,0.7002801895141602
+Legislature_left.csv,title,consultative assembly of saudi arabia,GovernmentAgency_left,title,women national committee (yemen),0.7001075744628906
+Legislature_left.csv,title,michigan legislature,GovernmentAgency_left,title,state treasurer of michigan,0.6983273029327393
+Legislature_left.csv,title,central executive committee of the pakistan peoples party,GovernmentAgency_left,title,national security council (india),0.6976150274276733
+Legislature_left.csv,title,montana legislature,GovernmentAgency_left,title,montana office of public instruction,0.6972414255142212
+Legislature_left.csv,title,prince william board of county supervisors,GovernmentAgency_left,title,planning inspectorate,0.6964608430862427
+Legislature_left.csv,title,constituent assembly of tunisia,GovernmentAgency_left,title,national library of tunisia,0.6963883638381958
+Legislature_left.csv,title,parliament of norway,GovernmentAgency_left,title,election authority of sweden,0.6959525346755981
+Legislature_left.csv,title,national assembly (malawi),GovernmentAgency_left,title,national library service of malawi,0.6957519054412842
+Legislature_left.csv,title,seimas,GovernmentAgency_left,title,sismi,0.6943997144699097
+Legislature_left.csv,title,nanded-waghala municipal corporation,GovernmentAgency_left,title,department of public enterprises,0.6939581036567688
+Legislature_left.csv,title,parliament of scotland,GovernmentAgency_left,title,advocate general for scotland,0.6937729120254517
+Legislature_left.csv,title,bhiwandi-nizampur municipal corporation,GovernmentAgency_left,title,ministry of water and power (pakistan),0.6933892965316772
+Legislature_left.csv,title,wisconsin legislature,GovernmentAgency_left,title,wisconsin department of administration,0.6929183006286621
+Legislature_left.csv,title,gibraltar parliament,GovernmentAgency_left,title,gibraltar port authority,0.6926360726356506
+Legislature_left.csv,title,assembly of the republic (portugal),GovernmentAgency_left,title,public ministry (portugal),0.6925816535949707
+Legislature_left.csv,title,parliament of cambodia,GovernmentAgency_left,title,ministry of culture and fine arts (cambodia),0.6924035549163818
+Legislature_left.csv,title,dublin county council,GovernmentAgency_left,title,public record office of northern ireland,0.6923797130584717
+Legislature_left.csv,title,delaware general assembly,GovernmentAgency_left,title,delaware river and bay authority,0.6922979950904846
+Legislature_left.csv,title,politburo standing committee of the communist party of china,GovernmentAgency_left,title,united states-china economic and security review commission,0.6918041706085205
+Legislature_left.csv,title,parliament of tuvalu,GovernmentAgency_left,title,tuvalu national library and archives,0.6909722685813904
+Legislature_left.csv,title,prussian state council,GovernmentAgency_left,title,minister of intra-german relations,0.6890040636062622
+Legislature_left.csv,title,new south wales legislative council,GovernmentAgency_left,title,game council new south wales,0.689001202583313
+Legislature_left.csv,title,katipunan ng kabataan,GovernmentAgency_left,title,heung yee kuk,0.6887841820716858
+Legislature_left.csv,title,san francisco board of supervisors,GovernmentAgency_left,title,medical board of california,0.6887631416320801
+Legislature_left.csv,title,house of councillors,GovernmentAgency_left,title,electoral commission (united kingdom),0.6885078549385071
+Legislature_left.csv,title,maryland general assembly,GovernmentAgency_left,title,maryland department of planning,0.6880004405975342
+Legislature_left.csv,title,congress of guatemala,GovernmentAgency_left,title,national geographic institute of guatemala,0.6876659393310547
+Legislature_left.csv,title,27th alberta legislative assembly,GovernmentAgency_left,title,alberta international and intergovernmental relations,0.6872594952583313
+Legislature_left.csv,title,united states house of representatives,GovernmentAgency_left,title,office of the clerk of the house of representatives,0.686490535736084
+Legislature_left.csv,title,parliament of algeria,GovernmentAgency_left,title,ministry of national education (algeria),0.6854556798934937
+Legislature_left.csv,title,west nordic council,GovernmentAgency_left,title,norwegian agency for development cooperation,0.6849057674407959
+Legislature_left.csv,title,ipswich corporation,GovernmentAgency_left,title,victorian funds management corporation,0.6847960948944092
+Legislature_left.csv,title,house of representatives (burma),GovernmentAgency_left,title,ministry of construction (burma),0.684403657913208
+Legislature_left.csv,title,national council (slovakia),GovernmentAgency_left,title,czech statistical office,0.6841588616371155
+Legislature_left.csv,title,wiltshire council,GovernmentAgency_left,title,ordnance survey,0.6840039491653442
+Legislature_left.csv,title,house of representatives (japan),GovernmentAgency_left,title,cabinet office (japan),0.6827725172042847
+Legislature_left.csv,title,bromley london borough council,GovernmentAgency_left,title,met office,0.6827160120010376
+Legislature_left.csv,title,thrissur municipal corporation,GovernmentAgency_left,title,tamil nadu government properties,0.6825417280197144
+Legislature_left.csv,title,national assembly (kenya),GovernmentAgency_left,title,kenya vision 2030,0.6806667447090149
+Legislature_left.csv,title,cape town city council,GovernmentAgency_left,title,western cape department of transport and public works,0.6805142164230347
+Legislature_left.csv,title,batticaloa municipal council,GovernmentAgency_left,title,civil contingencies secretariat,0.6804027557373047
+Legislature_left.csv,title,city council of tirana,GovernmentAgency_left,title,albanian taxation office,0.6795722246170044
+Legislature_left.csv,title,seberang perai municipal council,GovernmentAgency_left,title,local government officials development institute (south korea),0.6793426275253296
+Legislature_left.csv,title,northern provincial council,GovernmentAgency_left,title,niagara escarpment commission,0.679269552230835
+Legislature_left.csv,title,kuala lumpur city hall,GovernmentAgency_left,title,public service hall,0.6783730983734131
+Legislature_left.csv,title,national assembly (afghanistan),GovernmentAgency_left,title,afghanistan-pakistan center of excellence,0.678202748298645
+Legislature_left.csv,title,westminster court of burgesses,GovernmentAgency_left,title,borgarting court of appeal,0.6781414747238159
+Legislature_left.csv,title,national assembly (pakistan),GovernmentAgency_left,title,ministry of religious affairs (pakistan),0.6774914264678955
+Legislature_left.csv,title,thiruvananthapuram corporation,GovernmentAgency_left,title,department of finance (kerala),0.6772834062576294
+Legislature_left.csv,title,greater london authority,GovernmentAgency_left,title,office of the public guardian (england and wales),0.6772000193595886
+Legislature_left.csv,title,hull city council,GovernmentAgency_left,title,parades commission,0.6771959066390991
+Legislature_left.csv,title,legislative assembly of singapore,GovernmentAgency_left,title,subordinate courts of singapore,0.6750909090042114
+Legislature_left.csv,title,islands district council,GovernmentAgency_left,title,east bay municipal utility district,0.6731045246124268
+Legislature_left.csv,title,53rd oklahoma legislature,GovernmentAgency_left,title,oklahoma sentencing commission,0.6730141639709473
+Legislature_left.csv,title,new york city council,GovernmentAgency_left,title,new york city health and hospitals corporation,0.6728934645652771
+Legislature_left.csv,title,national assembly (vietnam),GovernmentAgency_left,title,vietnam news agency,0.6721999645233154
+Legislature_left.csv,title,vermont general assembly,GovernmentAgency_left,title,vermont agency of human services,0.6721663475036621
+Legislature_left.csv,title,alaska legislature,GovernmentAgency_left,title,alaska department of labor and workforce development,0.6720766425132751
+Legislature_left.csv,title,senate of puerto rico,GovernmentAgency_left,title,puerto rico fiscal agent and financing,0.6709539890289307
+Legislature_left.csv,title,city of london corporation,GovernmentAgency_left,title,municipal tramways trust,0.6709266304969788
+Legislature_left.csv,title,manila city council,GovernmentAgency_left,title,presidential management staff (philippines),0.67067551612854
+Legislature_left.csv,title,new hampshire general court,GovernmentAgency_left,title,alameda county superior court,0.6701440811157227
+Legislature_left.csv,title,greater london council,GovernmentAgency_left,title,charity commission for england and wales,0.6693779230117798
+Legislature_left.csv,title,north west community development council,GovernmentAgency_left,title,centrelink,0.6686602234840393
+Legislature_left.csv,title,parliament of tasmania,GovernmentAgency_left,title,tasmania parks and wildlife service,0.6686357259750366
+Legislature_left.csv,title,pennsylvania house of representatives,GovernmentAgency_left,title,pennsylvania historical and museum commission,0.6686092615127563
+Legislature_left.csv,title,bedford borough council,GovernmentAgency_left,title,boston housing authority,0.6682772636413574
+Legislature_left.csv,title,sandwell metropolitan borough council,GovernmentAgency_left,title,environment protection authority (victoria),0.6672173142433167
+Legislature_left.csv,title,assembly of the community of municipalities of the autonomous province of kosovo and metohija,GovernmentAgency_left,title,decentralized administration of macedonia and thrace,0.6663288474082947
+Legislature_left.csv,title,plymouth general court,GovernmentAgency_left,title,guardianship tribunal of new south wales,0.6659956574440002
+Legislature_left.csv,title,parliament of georgia,GovernmentAgency_left,title,georgian national communications commission,0.6655642986297607
+Legislature_left.csv,title,new jersey general assembly,GovernmentAgency_left,title,new jersey division of gaming enforcement,0.6648104190826416
+Legislature_left.csv,title,legislative assembly of saskatchewan,GovernmentAgency_left,title,ministry of highways and infrastructure (saskatchewan),0.6647246479988098
+Legislature_left.csv,title,politburo of the lao people's revolutionary party,GovernmentAgency_left,title,royal lao police,0.6646715402603149
+Legislature_left.csv,title,provincial assembly of sindh,GovernmentAgency_left,title,sindh archives,0.6645114421844482
+Legislature_left.csv,title,kansas legislature,GovernmentAgency_left,title,kansas department of commerce,0.6642986536026001
+Legislature_left.csv,title,parliament of ireland,GovernmentAgency_left,title,g2 (republic of ireland),0.6642650961875916
+Legislature_left.csv,title,federal way city council,GovernmentAgency_left,title,federal geographic data committee,0.6640151739120483
+Legislature_left.csv,title,chavakachcheri divisional council,GovernmentAgency_left,title,kerala police academy,0.6622878313064575
+Legislature_left.csv,title,labuan corporation,GovernmentAgency_left,title,water corporation,0.6621569395065308
+Legislature_left.csv,title,united states congress,GovernmentAgency_left,title,congressional research service,0.6618428826332092
+Legislature_left.csv,title,people's consultative assembly,GovernmentAgency_left,title,people's association,0.661475658416748
+Legislature_left.csv,title,california state legislature,GovernmentAgency_left,title,california fair political practices commission,0.6613297462463379
+Legislature_left.csv,title,kayts divisional council,GovernmentAgency_left,title,board of marshals,0.6610490083694458
+Legislature_left.csv,title,grand council of fascism,GovernmentAgency_left,title,organization for vigilance and repression of anti-fascism,0.6596364974975586
+Legislature_left.csv,title,islamic consultative assembly,GovernmentAgency_left,title,majlis ugama islam singapura,0.6590492129325867
+Legislature_left.csv,title,parliament of egypt,GovernmentAgency_left,title,egyptian homeland security,0.6585345268249512
+Legislature_left.csv,title,tennessee general assembly,GovernmentAgency_left,title,tennessee military department,0.6585339307785034
+Legislature_left.csv,title,bangkok metropolitan administration,GovernmentAgency_left,title,royal institute of thailand,0.6583665013313293
+Legislature_left.csv,title,council of oman,GovernmentAgency_left,title,ministry of legal affairs (oman),0.6578255891799927
+Legislature_left.csv,title,romblon provincial federation of the sangguniang kabataan,GovernmentAgency_left,title,constitutional and mainland affairs bureau,0.6576683521270752
+Legislature_left.csv,title,municipal chamber of porto alegre,GovernmentAgency_left,title,national industrial property institute (portugal),0.6569869518280029
+Legislature_left.csv,title,illinois general assembly,GovernmentAgency_left,title,illinois department of revenue,0.6568454504013062
+Legislature_left.csv,title,seattle city council,GovernmentAgency_left,title,metro (oregon regional government),0.6549171209335327
+Legislature_left.csv,title,australian capital territory legislative assembly,GovernmentAgency_left,title,australian capital territory ambulance service,0.6546010971069336
+Legislature_left.csv,title,san diego city council,GovernmentAgency_left,title,california arts council,0.6540888547897339
+Legislature_left.csv,title,provincial assembly of balochistan,GovernmentAgency_left,title,federal board of revenue (pakistan),0.6538854837417603
+Legislature_left.csv,title,parliament of victoria,GovernmentAgency_left,title,corrections victoria,0.6537455320358276
+Legislature_left.csv,title,parliament of morocco,GovernmentAgency_left,title,ministry of communications (morocco),0.6535155773162842

@@ -1,0 +1,9 @@
+{
+  "table_name": "PoliticalParty_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_embeddings": 495,
+  "sketch_k": 495,
+  "processing_time": 0.2629525661468506,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/PoliticalParty_right/id_0.npz"
+}

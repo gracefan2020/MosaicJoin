@@ -1,0 +1,11 @@
+{
+  "table_name": "ClericalAdministrativeRegion_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 190,
+  "unique_values": 190,
+  "processed_values": 190,
+  "embedding_dim": 768,
+  "processing_time": 0.1790013313293457,
+  "file_path": "datasets/autofj_join_benchmark/datalake/ClericalAdministrativeRegion_right.csv"
+}

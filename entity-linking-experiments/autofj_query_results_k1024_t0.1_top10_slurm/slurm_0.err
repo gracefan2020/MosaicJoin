@@ -1,0 +1,29 @@
+2026-01-18 19:46:54,848 - SemanticJoinQueryProcessor - INFO - Found 200 available sketches
+2026-01-18 19:46:59,434 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 4457 for query sketch
+2026-01-18 19:47:16,008 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:48:04,761 - SemanticJoinQueryProcessor - INFO - Query processed in 69.89s, found 10 candidates
+2026-01-18 19:48:04,837 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 2483 for query sketch
+2026-01-18 19:48:17,465 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:49:04,477 - SemanticJoinQueryProcessor - INFO - Query processed in 59.64s, found 10 candidates
+2026-01-18 19:49:04,554 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 3380 for query sketch
+2026-01-18 19:49:14,701 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:50:00,899 - SemanticJoinQueryProcessor - INFO - Query processed in 56.35s, found 10 candidates
+2026-01-18 19:50:00,964 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 3112 for query sketch
+2026-01-18 19:50:12,215 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:50:59,648 - SemanticJoinQueryProcessor - INFO - Query processed in 58.69s, found 10 candidates
+2026-01-18 19:51:03,144 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:51:21,754 - SemanticJoinQueryProcessor - INFO - Query processed in 22.04s, found 10 candidates
+2026-01-18 19:51:30,967 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:52:15,697 - SemanticJoinQueryProcessor - INFO - Query processed in 53.87s, found 10 candidates
+2026-01-18 19:52:15,765 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 5774 for query sketch
+2026-01-18 19:52:25,362 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:53:12,505 - SemanticJoinQueryProcessor - INFO - Query processed in 56.74s, found 10 candidates
+2026-01-18 19:53:12,589 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 3609 for query sketch
+2026-01-18 19:53:24,375 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:54:11,291 - SemanticJoinQueryProcessor - INFO - Query processed in 58.70s, found 10 candidates
+2026-01-18 19:54:11,363 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 5064 for query sketch
+2026-01-18 19:54:23,183 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:55:11,624 - SemanticJoinQueryProcessor - INFO - Query processed in 60.26s, found 10 candidates
+2026-01-18 19:55:11,715 - SemanticJoinQueryProcessor - INFO - Sampled 1000 values from 3977 for query sketch
+2026-01-18 19:55:21,773 - SemanticJoinQueryProcessor - INFO - Comparing query sketch against 200 candidate sketches
+2026-01-18 19:56:08,078 - SemanticJoinQueryProcessor - INFO - Query processed in 56.37s, found 10 candidates

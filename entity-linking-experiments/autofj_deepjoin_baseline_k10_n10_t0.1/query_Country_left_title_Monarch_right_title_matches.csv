@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Country_left.csv,title,Sarbadars,Monarch_right.csv,title,Qubad of Shirvan,0.747

@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+RailwayLine_left.csv,title,sealdah south lines,RailwayLine_right,title,sealdah south lines,1.000000238418579
+RailwayLine_left.csv,title,milwaukee district/west line,RailwayLine_right,title,milwaukee district / west line,1.000000238418579
+RailwayLine_left.csv,title,kirnitzschtal tramway,RailwayLine_right,title,kirnitzschtal tramway,1.0000001192092896
+RailwayLine_left.csv,title,g line (rtd),RailwayLine_right,title,g line (rtd),1.0
+RailwayLine_left.csv,title,monte generoso railway,RailwayLine_right,title,monte generoso railway,1.0
+RailwayLine_left.csv,title,douglas branch,RailwayLine_right,title,douglas branch,1.0
+RailwayLine_left.csv,title,line 1 (naples metro),RailwayLine_right,title,line 1 (naples metro),1.0
+RailwayLine_left.csv,title,line 6 (naples metro),RailwayLine_right,title,line 6 (naples metro),1.0
+RailwayLine_left.csv,title,metropolitan main line (cta),RailwayLine_right,title,metropolitan main line (cta),1.0
+RailwayLine_left.csv,title,bangalore high-speed rail link,RailwayLine_right,title,bangalore high-speed rail link,1.0
+RailwayLine_left.csv,title,ravenswood branch,RailwayLine_right,title,ravenswood branch,0.9999998807907104
+RailwayLine_left.csv,title,lalgola and gede branch lines,RailwayLine_right,title,lalgola and gede branch lines,0.9999998807907104
+RailwayLine_left.csv,title,reading to taunton line,RailwayLine_right,title,reading to taunton line,0.9999998807907104
+RailwayLine_left.csv,title,schynige platte railway,RailwayLine_right,title,schynige platte railway,0.9999998807907104
+RailwayLine_left.csv,title,harbour line (mumbai suburban railway),RailwayLine_right,title,harbour line (mumbai suburban railway),0.9999998807907104
+RailwayLine_left.csv,title,lynx silver line,RailwayLine_right,title,lynx silver line,0.9999995231628418
+RailwayLine_left.csv,title,cape cod and hyannis railroad,RailwayLine_right,title,cape cod & hyannis railroad,0.9932683110237122
+RailwayLine_left.csv,title,"line 4, changchun light rail transit",RailwayLine_right,title,"line 4, changchun rail transit",0.9875462055206299
+RailwayLine_left.csv,title,"line 3, changchun light rail transit",RailwayLine_right,title,"line 3, changchun rail transit",0.9873384833335876
+RailwayLine_left.csv,title,"line 17, shanghai metro (old)",RailwayLine_right,title,"line 17, shanghai metro",0.9818212985992432
+RailwayLine_left.csv,title,hainan western ring railway,RailwayLine_right,title,hainan eastern ring railway,0.9781681895256042
+RailwayLine_left.csv,title,orange line (montreal metro),RailwayLine_right,title,line 2 orange (montreal metro),0.9722957611083984
+RailwayLine_left.csv,title,inter-terminal train (george bush intercontinental airport),RailwayLine_right,title,george bush intercontinental airport inter-terminal train,0.9707759618759155
+RailwayLine_left.csv,title,"line 14, beijing subway",RailwayLine_right,title,"line 17, beijing subway",0.9698407649993896
+RailwayLine_left.csv,title,university line (trax),RailwayLine_right,title,university line (uta trax),0.9688082933425903
+RailwayLine_left.csv,title,south wind (train),RailwayLine_right,title,south wind (passenger train),0.9684098362922668
+RailwayLine_left.csv,title,kolkata metro line 1,RailwayLine_right,title,"line 1, kolkata metro",0.9663800001144409
+RailwayLine_left.csv,title,yellow line (montreal metro),RailwayLine_right,title,line 4 yellow (montreal metro),0.9650972485542297
+RailwayLine_left.csv,title,keihan ishiyama sakamoto line,RailwayLine_right,title,ishiyama sakamoto line,0.9646469354629517
+RailwayLine_left.csv,title,"line 6, shenzhen metro",RailwayLine_right,title,"line 5, shenzhen metro",0.9615561962127686
+RailwayLine_left.csv,title,buenos aires northern railway,RailwayLine_right,title,buenos aires central railway,0.9549899101257324
+RailwayLine_left.csv,title,"line 2, shanghai metro",RailwayLine_right,title,"line 22, shanghai metro",0.95451819896698
+RailwayLine_left.csv,title,fr5 (lazio regional railways),RailwayLine_right,title,fl5 (lazio regional railways),0.9534850120544434
+RailwayLine_left.csv,title,central argentine railway,RailwayLine_right,title,north argentine railway,0.9527591466903687
+RailwayLine_left.csv,title,"line 2, beijing subway",RailwayLine_right,title,"line 19, beijing subway",0.9526049494743347
+RailwayLine_left.csv,title,hurontario-main lrt,RailwayLine_right,title,hurontario lrt,0.9522300958633423
+RailwayLine_left.csv,title,deux-montagnes line (amt),RailwayLine_right,title,deux-montagnes line,0.9481378793716431
+RailwayLine_left.csv,title,fr8 (lazio regional railways),RailwayLine_right,title,fl8 (lazio regional railways),0.9480984210968018
+RailwayLine_left.csv,title,"line 4, shanghai metro",RailwayLine_right,title,"line 4, shenzhen metro",0.9480633735656738
+RailwayLine_left.csv,title,penn line (marc),RailwayLine_right,title,penn line,0.9473437666893005
+RailwayLine_left.csv,title,"line 9, shanghai metro",RailwayLine_right,title,"line 9, shenzhen metro",0.9473051428794861
+RailwayLine_left.csv,title,"line 3, shanghai metro",RailwayLine_right,title,"line 3, shenzhen metro",0.9451751708984375
+RailwayLine_left.csv,title,"line 11, guangzhou metro",RailwayLine_right,title,"line 11, shenzhen metro",0.9424810409545898
+RailwayLine_left.csv,title,m6 (istanbul metro),RailwayLine_right,title,m5 (istanbul metro),0.9405782222747803
+RailwayLine_left.csv,title,"line 1, guangzhou metro",RailwayLine_right,title,"line 1, shenzhen metro",0.9394233226776123
+RailwayLine_left.csv,title,montreal subdivision (csx),RailwayLine_right,title,montreal subdivision (csx transportation),0.9393256306648254
+RailwayLine_left.csv,title,line c (buenos aires metro),RailwayLine_right,title,line c (buenos aires underground),0.9389628171920776
+RailwayLine_left.csv,title,armadale railway line,RailwayLine_right,title,armadale/thornlie railway line,0.938955545425415
+RailwayLine_left.csv,title,line d (buenos aires metro),RailwayLine_right,title,line d (buenos aires underground),0.9371304512023926
+RailwayLine_left.csv,title,kalininskaya line,RailwayLine_right,title,kalininsko-solntsevskaya line,0.9362419247627258
+RailwayLine_left.csv,title,line b (buenos aires metro),RailwayLine_right,title,line b (buenos aires underground),0.9354876279830933
+RailwayLine_left.csv,title,hankyu arashiyama line,RailwayLine_right,title,hankyå« arashiyama line,0.9342407584190369
+RailwayLine_left.csv,title,east corridor (rtd),RailwayLine_right,title,west corridor (rtd),0.9338799118995667
+RailwayLine_left.csv,title,funicular de vallvidrera,RailwayLine_right,title,vallvidrera funicular,0.9332844614982605
+RailwayLine_left.csv,title,"line 2, hangzhou metro",RailwayLine_right,title,"line 2, shenzhen metro",0.9315109252929688
+RailwayLine_left.csv,title,changjin line,RailwayLine_right,title,changyån line,0.9293041825294495
+RailwayLine_left.csv,title,gwangju subway line 1,RailwayLine_right,title,gwangju metro line 1,0.9268643856048584
+RailwayLine_left.csv,title,line h (buenos aires metro),RailwayLine_right,title,line h (buenos aires underground),0.9262446165084839
+RailwayLine_left.csv,title,daegu metro line 1,RailwayLine_right,title,daegu subway line 1,0.9247469305992126
+RailwayLine_left.csv,title,busan metro line 3,RailwayLine_right,title,busan subway line 3,0.9244183301925659
+RailwayLine_left.csv,title,daegu metro line 2,RailwayLine_right,title,daegu subway line 2,0.9226752519607544
+RailwayLine_left.csv,title,busan metro line 2,RailwayLine_right,title,busan subway line 2,0.9224610328674316
+RailwayLine_left.csv,title,state street subway,RailwayLine_right,title,state street subway (cta),0.921781063079834
+RailwayLine_left.csv,title,hokuetsu express hokuhoku line,RailwayLine_right,title,hokuhoku line,0.918287992477417
+RailwayLine_left.csv,title,epping to chatswood railway line,RailwayLine_right,title,epping to chatswood rail link,0.9162642955780029
+RailwayLine_left.csv,title,taean line,RailwayLine_right,title,tae'an line,0.9160640239715576
+RailwayLine_left.csv,title,gelmerbahn,RailwayLine_right,title,gelmerbahn funicular,0.9144404530525208
+RailwayLine_left.csv,title,northern sydney freight corridor,RailwayLine_right,title,sydney freight network,0.9131747484207153
+RailwayLine_left.csv,title,doomben railway line,RailwayLine_right,title,doomben-pinkenba railway line,0.9096801280975342
+RailwayLine_left.csv,title,mittenwald railway,RailwayLine_right,title,mittelschwaben railway,0.9094598889350891
+RailwayLine_left.csv,title,shore line east,RailwayLine_right,title,south shore line,0.9075873494148254
+RailwayLine_left.csv,title,west london line,RailwayLine_right,title,south london line,0.9062261581420898
+RailwayLine_left.csv,title,hervey bay railway line,RailwayLine_right,title,hervey bay (urangan) railway line,0.9034630656242371
+RailwayLine_left.csv,title,hankyu senri line,RailwayLine_right,title,hankyå« senri line,0.9031217694282532
+RailwayLine_left.csv,title,pishchalskoye peat narrow gauge railway,RailwayLine_right,title,gorokhovskoye peat narrow gauge railway,0.9002315998077393
+RailwayLine_left.csv,title,eastleigh to romsey line,RailwayLine_right,title,eastleigh to fareham line,0.8983966708183289
+RailwayLine_left.csv,title,polybahn funicular,RailwayLine_right,title,polybahn,0.8973232507705688
+RailwayLine_left.csv,title,berlin northern railway,RailwayLine_right,title,prussian northern railway,0.8933459520339966
+RailwayLine_left.csv,title,mooka railway mooka line,RailwayLine_right,title,mooka line,0.8929814100265503
+RailwayLine_left.csv,title,etobicoke-finch west lrt,RailwayLine_right,title,finch west lrt,0.8911709785461426
+RailwayLine_left.csv,title,central corridor (minnesota),RailwayLine_right,title,southwest corridor (minneapolis-saint paul),0.890547513961792
+RailwayLine_left.csv,title,buenos aires western railway,RailwayLine_right,title,province of buenos aires railway,0.8892765045166016
+RailwayLine_left.csv,title,"line 7, shanghai metro",RailwayLine_right,title,"line 7, suzhou rail transit",0.889237642288208
+RailwayLine_left.csv,title,candiac line (amt),RailwayLine_right,title,candiac line,0.8890291452407837
+RailwayLine_left.csv,title,caldervale line,RailwayLine_right,title,calder valley line,0.8844712972640991
+RailwayLine_left.csv,title,aizu railway aizu line,RailwayLine_right,title,aizu line,0.8831119537353516
+RailwayLine_left.csv,title,pichi richi railway preservation society,RailwayLine_right,title,pichi richi railway,0.8799903392791748
+RailwayLine_left.csv,title,bernese oberland railway,RailwayLine_right,title,berner oberland bahn,0.8787090182304382
+RailwayLine_left.csv,title,bakerloo line extension to camberwell,RailwayLine_right,title,bakerloo line extension,0.8781470060348511
+RailwayLine_left.csv,title,gardena ronda express funicular,RailwayLine_right,title,gardena ronda express,0.8741154670715332
+RailwayLine_left.csv,title,e line (rtd),RailwayLine_right,title,a line (rtd),0.87395179271698
+RailwayLine_left.csv,title,red ahead (cta),RailwayLine_right,title,red ahead,0.8738503456115723
+RailwayLine_left.csv,title,east end/green line (metrorail),RailwayLine_right,title,metrorail green line,0.8718863129615784
+RailwayLine_left.csv,title,seoul subway line 1,RailwayLine_right,title,busan subway line 1,0.8717823028564453
+RailwayLine_left.csv,title,circle line (london underground),RailwayLine_right,title,central line (london underground),0.8712212443351746
+RailwayLine_left.csv,title,seoul subway line 4,RailwayLine_right,title,busan subway line 4,0.870566725730896
+RailwayLine_left.csv,title,southeast service,RailwayLine_right,title,southeast service (metra),0.867831826210022
+RailwayLine_left.csv,title,hokuriku railroad asanogawa line,RailwayLine_right,title,yokkaichi asunarou railway utsube line,0.8660128712654114
+RailwayLine_left.csv,title,pyongna line,RailwayLine_right,title,pyongra line,0.8655270934104919
+RailwayLine_left.csv,title,tarka line,RailwayLine_right,title,tarumi line,0.8654533624649048
+RailwayLine_left.csv,title,braunwaldbahn,RailwayLine_right,title,wengernalpbahn,0.863018274307251
+RailwayLine_left.csv,title,center city corridor (lynx),RailwayLine_right,title,lynx west corridor,0.86252361536026
+RailwayLine_left.csv,title,jurong region mrt line,RailwayLine_right,title,jurong region line,0.8622591495513916
+RailwayLine_left.csv,title,"line 1, chengdu metro",RailwayLine_right,title,blue line (taoyuan metro),0.8621392250061035
+RailwayLine_left.csv,title,metropolitan line,RailwayLine_right,title,metro line,0.8617281913757324
+RailwayLine_left.csv,title,thomson mrt line,RailwayLine_right,title,thomson-east coast mrt line,0.8606404066085815
+RailwayLine_left.csv,title,downtown relief line,RailwayLine_right,title,relief line (toronto),0.8580245971679688
+RailwayLine_left.csv,title,santa fe western railway,RailwayLine_right,title,province of santa fe railway,0.8523834943771362
+RailwayLine_left.csv,title,kelani valley line,RailwayLine_right,title,kelani valley railway line,0.8506996631622314
+RailwayLine_left.csv,title,seetalbahn,RailwayLine_right,title,sernftalbahn,0.8503554463386536
+RailwayLine_left.csv,title,songnim line,RailwayLine_right,title,songrim line,0.8470225930213928
+RailwayLine_left.csv,title,orange line (mbta),RailwayLine_right,title,orange line (chicago transit authority),0.8464500904083252
+RailwayLine_left.csv,title,riverfront loop (mata trolley),RailwayLine_right,title,riverfront loop,0.8459025025367737
+RailwayLine_left.csv,title,portland streetcar,RailwayLine_right,title,metro streetcar,0.8445149660110474
+RailwayLine_left.csv,title,florida high speed rail,RailwayLine_right,title,florida high speed corridor,0.842602014541626
+RailwayLine_left.csv,title,seville metro line 2,RailwayLine_right,title,line 1 (metro valencia),0.8425490856170654
+RailwayLine_left.csv,title,violet line (delhi metro),RailwayLine_right,title,pink line (jaipur metro),0.8411867618560791
+RailwayLine_left.csv,title,trincomalee line,RailwayLine_right,title,trillium line,0.8410645127296448
+RailwayLine_left.csv,title,grorud line,RailwayLine_right,title,grenaa line,0.8407084941864014
+RailwayLine_left.csv,title,west rail line,RailwayLine_right,title,north west rail link,0.8364286422729492
+RailwayLine_left.csv,title,yellow line (delhi metro),RailwayLine_right,title,yellow line (chicago transit authority),0.8364044427871704
+RailwayLine_left.csv,title,wriezen railway,RailwayLine_right,title,nibelung railway,0.8360392451286316
+RailwayLine_left.csv,title,second avenue subway,RailwayLine_right,title,state street subway (cta),0.834829568862915
+RailwayLine_left.csv,title,north/red line extension (metrorail),RailwayLine_right,title,metrorail red line,0.8336355686187744
+RailwayLine_left.csv,title,sinansan line,RailwayLine_right,title,sin ansan line,0.8333104848861694
+RailwayLine_left.csv,title,inland railway,RailwayLine_right,title,central northern railway,0.8328633904457092
+RailwayLine_left.csv,title,upper rhine railway,RailwayLine_right,title,rheinfall railway,0.8316969275474548
+RailwayLine_left.csv,title,red line (washington metro),RailwayLine_right,title,red line (chicago transit authority),0.8309975862503052
+RailwayLine_left.csv,title,donghae bukbu line,RailwayLine_right,title,pukch'ång line,0.8297848701477051
+RailwayLine_left.csv,title,marzilibahn funicular,RailwayLine_right,title,marzilibahn,0.827810525894165
+RailwayLine_left.csv,title,repentigny-mascouche line (amt),RailwayLine_right,title,mascouche line (amt),0.8277932405471802
+RailwayLine_left.csv,title,waverley line,RailwayLine_right,title,waverley route,0.8254303336143494
+RailwayLine_left.csv,title,ferrocarril general manuel belgrano,RailwayLine_right,title,general manuel belgrano railway,0.8240820169448853
+RailwayLine_left.csv,title,shinonoi line,RailwayLine_right,title,shinbundang line,0.8232054114341736
+RailwayLine_left.csv,title,rochester rail link,RailwayLine_right,title,city rail link,0.8220424056053162
+RailwayLine_left.csv,title,kitakami line,RailwayLine_right,title,keiå inokashira line,0.8215981721878052
+RailwayLine_left.csv,title,blue line (delhi metro),RailwayLine_right,title,blue line (chicago transit authority),0.8215324878692627
+RailwayLine_left.csv,title,takayama main line,RailwayLine_right,title,hankyå« takarazuka main line,0.8211627006530762
+RailwayLine_left.csv,title,line 1 (mumbai metro),RailwayLine_right,title,central line (mumbai suburban railway),0.8207350969314575
+RailwayLine_left.csv,title,airport transit system,RailwayLine_right,title,o'hare international airport transit system,0.8200458288192749
+RailwayLine_left.csv,title,pelion railway,RailwayLine_right,title,pilatus railway,0.8176811933517456
+RailwayLine_left.csv,title,karasuyama line,RailwayLine_right,title,sukumo line,0.8170381784439087
+RailwayLine_left.csv,title,henley beach railway line,RailwayLine_right,title,seaford railway line,0.8169001936912537
+RailwayLine_left.csv,title,canungra railway line,RailwayLine_right,title,seetal railway line,0.8154953718185425
+RailwayLine_left.csv,title,gyeongbuk line,RailwayLine_right,title,p'yångbuk line,0.8144227266311646
+RailwayLine_left.csv,title,bnsf railway line,RailwayLine_right,title,bnsf railway (metra),0.8122302889823914
+RailwayLine_left.csv,title,fallowfield loop railway line,RailwayLine_right,title,fallowfield loop line,0.8116549253463745
+RailwayLine_left.csv,title,u7 (frankfurt u-bahn),RailwayLine_right,title,reichenbachfall-bahn,0.8106406331062317
+RailwayLine_left.csv,title,karatsu line,RailwayLine_right,title,rinkai line,0.8088675737380981
+RailwayLine_left.csv,title,dolderbahn,RailwayLine_right,title,gotthardbahn,0.8080679178237915
+RailwayLine_left.csv,title,noto railway noto line,RailwayLine_right,title,noto line,0.8061310648918152
+RailwayLine_left.csv,title,gyeongbu line,RailwayLine_right,title,gyo-oe line,0.8052191138267517
+RailwayLine_left.csv,title,montesanto funicular,RailwayLine_right,title,montmartre funicular,0.8026031851768494
+RailwayLine_left.csv,title,deister railway,RailwayLine_right,title,forch railway,0.8023282289505005
+RailwayLine_left.csv,title,ribble valley line,RailwayLine_right,title,tyne valley line,0.8022792339324951
+RailwayLine_left.csv,title,primorskaya line,RailwayLine_right,title,gribskov line,0.8011316061019897
+RailwayLine_left.csv,title,gakunan railway line,RailwayLine_right,title,geumgangsan electric railway,0.8000369668006897
+RailwayLine_left.csv,title,corcovado rack railway,RailwayLine_right,title,circumflegrea railway,0.7997204065322876
+RailwayLine_left.csv,title,bankura damodar railway,RailwayLine_right,title,cumana railway,0.7988870143890381
+RailwayLine_left.csv,title,"airport railway line, sydney",RailwayLine_right,title,"airport link, sydney",0.7965497970581055
+RailwayLine_left.csv,title,purple line (cta),RailwayLine_right,title,manila lrt purple line,0.7957819700241089
+RailwayLine_left.csv,title,ind eighth avenue line,RailwayLine_right,title,63rd street lines,0.7944120168685913
+RailwayLine_left.csv,title,"main southern railway line, new south wales",RailwayLine_right,title,"pinnaroo railway line, victoria",0.794116735458374
+RailwayLine_left.csv,title,north downs line,RailwayLine_right,title,north side main line (cta),0.7923446893692017
+RailwayLine_left.csv,title,east coast main trunk railway,RailwayLine_right,title,east coast main trunk,0.7921122312545776
+RailwayLine_left.csv,title,birkenhead railway,RailwayLine_right,title,benwick goods railway,0.7920897603034973
+RailwayLine_left.csv,title,kenwood branch (cta),RailwayLine_right,title,ravenswood branch (cta),0.7919618487358093
+RailwayLine_left.csv,title,norfolk orbital railway,RailwayLine_right,title,orbital railway line,0.7900454998016357
+RailwayLine_left.csv,title,main suburban railway line,RailwayLine_right,title,sar north south railway line,0.7896251082420349
+RailwayLine_left.csv,title,south lake union streetcar,RailwayLine_right,title,los angeles streetcar,0.7892022132873535
+RailwayLine_left.csv,title,green line (san diego trolley),RailwayLine_right,title,green line (chicago transit authority),0.7882072925567627
+RailwayLine_left.csv,title,buenos aires great southern railway,RailwayLine_right,title,domingo faustino sarmiento railway,0.7880655527114868
+RailwayLine_left.csv,title,line a (rome metro),RailwayLine_right,title,line a (buenos aires underground),0.7855467796325684
+RailwayLine_left.csv,title,h line (rtd),RailwayLine_right,title,r line (rtd),0.7847446203231812
+RailwayLine_left.csv,title,brenner railway,RailwayLine_right,title,gornergrat railway,0.7836538553237915
+RailwayLine_left.csv,title,blue line (cta),RailwayLine_right,title,metro blue line,0.7827215790748596
+RailwayLine_left.csv,title,stadtbahn glattal,RailwayLine_right,title,giessbachbahn,0.7822476029396057
+RailwayLine_left.csv,title,argentine great western railway,RailwayLine_right,title,general urquiza railway,0.7811365127563477
+RailwayLine_left.csv,title,stuttgart rack railway,RailwayLine_right,title,dresden park railway,0.7783802151679993
+RailwayLine_left.csv,title,meran tramway,RailwayLine_right,title,sernftal tramway,0.7769263982772827
+RailwayLine_left.csv,title,west anglia main line,RailwayLine_right,title,north warwickshire line,0.7766557931900024
+RailwayLine_left.csv,title,south norfolk railway,RailwayLine_right,title,south west rail link,0.7765777707099915
+RailwayLine_left.csv,title,st. charles streetcar line,RailwayLine_right,title,canal streetcar line,0.77643883228302
+RailwayLine_left.csv,title,seibu tamako line,RailwayLine_right,title,nanboku line (sendai),0.7726471424102783
+RailwayLine_left.csv,title,green line (cta),RailwayLine_right,title,metro green line,0.7713286280632019
+RailwayLine_left.csv,title,corridor (via rail),RailwayLine_right,title,western railway elevated corridor,0.7704833745956421
+RailwayLine_left.csv,title,niesenbahn,RailwayLine_right,title,niesenbahn funicular,0.7693967223167419
+RailwayLine_left.csv,title,yokohama dreamland monorail,RailwayLine_right,title,sydney monorail,0.7689414024353027
+RailwayLine_left.csv,title,first coast commuter rail,RailwayLine_right,title,wes commuter rail,0.7682618498802185
+RailwayLine_left.csv,title,main line (nj transit),RailwayLine_right,title,metropolitan main line (chicago transit authority),0.7657885551452637
+RailwayLine_left.csv,title,hankai uemachi line,RailwayLine_right,title,hankyå« kyåto main line,0.7654688954353333
+RailwayLine_left.csv,title,ube line,RailwayLine_right,title,å¬llyul line,0.765220582485199
+RailwayLine_left.csv,title,mito line,RailwayLine_right,title,manpo line,0.7641648054122925
+RailwayLine_left.csv,title,line 1 (mumbai monorail),RailwayLine_right,title,western line (mumbai suburban railway),0.7625981569290161
+RailwayLine_left.csv,title,southwest service,RailwayLine_right,title,southwest lrt,0.7623364925384521
+RailwayLine_left.csv,title,irt nostrand avenue line,RailwayLine_right,title,archer avenue lines,0.7616585493087769
+RailwayLine_left.csv,title,"line 5, shanghai metro",RailwayLine_right,title,line 5 blue (montreal metro),0.7595996856689453
+RailwayLine_left.csv,title,taunton metro rail,RailwayLine_right,title,valley metro rail,0.7591806650161743
+RailwayLine_left.csv,title,buffalo metro rail,RailwayLine_right,title,metrorail purple line,0.7585914134979248
+RailwayLine_left.csv,title,line 1 (budapest metro),RailwayLine_right,title,livoberezhna line (kiev metro),0.7570094466209412

@@ -1,0 +1,35 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NCAATeamSeason_left.csv,title,2008 fiu golden panthers football team,NCAATeamSeason_right,title,2011 fiu golden panthers football team,0.9808012247085571
+NCAATeamSeason_left.csv,title,2012 fiu panthers football team,NCAATeamSeason_right,title,2012 fiu golden panthers football team,0.9708928465843201
+NCAATeamSeason_left.csv,title,2013 hawaii warriors football team,NCAATeamSeason_right,title,2013 hawaii rainbow warriors football team,0.9669947624206543
+NCAATeamSeason_left.csv,title,1895 lsu tigers football team,NCAATeamSeason_right,title,1895 lsu football team,0.9667624831199646
+NCAATeamSeason_left.csv,title,1900 alabama crimson tide football team,NCAATeamSeason_right,title,1900 alabama crimson white football team,0.9552557468414307
+NCAATeamSeason_left.csv,title,2011 fiu panthers football team,NCAATeamSeason_right,title,2010 fiu golden panthers football team,0.9525911808013916
+NCAATeamSeason_left.csv,title,1980 ucf knights football team,NCAATeamSeason_right,title,1979 ucf golden knights football team,0.9419738054275513
+NCAATeamSeason_left.csv,title,1898 lsu tigers football team,NCAATeamSeason_right,title,1894 lsu football team,0.9415247440338135
+NCAATeamSeason_left.csv,title,1907 alabama crimson tide football team,NCAATeamSeason_right,title,1906 alabama crimson white football team,0.9282110333442688
+NCAATeamSeason_left.csv,title,1974 oregon webfoots football team,NCAATeamSeason_right,title,1974 oregon ducks football team,0.9266226291656494
+NCAATeamSeason_left.csv,title,1905 lsu tigers football team,NCAATeamSeason_right,title,1893 lsu football team,0.9188652038574219
+NCAATeamSeason_left.csv,title,1964 oregon webfoots football team,NCAATeamSeason_right,title,1964 oregon ducks football team,0.9160194396972656
+NCAATeamSeason_left.csv,title,1992 oregon ducks football team,NCAATeamSeason_right,title,1963 oregon ducks football team,0.9115298986434937
+NCAATeamSeason_left.csv,title,1984 oregon ducks football team,NCAATeamSeason_right,title,1975 oregon ducks football team,0.9068253040313721
+NCAATeamSeason_left.csv,title,1925 alabama crimson tide football team,NCAATeamSeason_right,title,1905 alabama crimson white football team,0.8987054824829102
+NCAATeamSeason_left.csv,title,1989 notre dame fighting irish football team,NCAATeamSeason_right,title,1887 notre dame football team,0.8938064575195312
+NCAATeamSeason_left.csv,title,1934 alabama crimson tide football team,NCAATeamSeason_right,title,1895 alabama crimson white football team,0.8853724002838135
+NCAATeamSeason_left.csv,title,1927 alabama crimson tide football team,NCAATeamSeason_right,title,1897 alabama crimson white football team,0.88413405418396
+NCAATeamSeason_left.csv,title,2005 florida atlantic owls football team,NCAATeamSeason_right,title,2002 florida atlantic owls baseball team,0.8739346265792847
+NCAATeamSeason_left.csv,title,1920 notre dame fighting irish football team,NCAATeamSeason_right,title,1907 notre dame football team,0.8724079132080078
+NCAATeamSeason_left.csv,title,1957 alabama crimson tide football team,NCAATeamSeason_right,title,1896 alabama crimson white football team,0.868213415145874
+NCAATeamSeason_left.csv,title,1945 alabama crimson tide football team,NCAATeamSeason_right,title,1902 alabama crimson white football team,0.8670022487640381
+NCAATeamSeason_left.csv,title,1958 alabama crimson tide football team,NCAATeamSeason_right,title,1898 alabama crimson white football team,0.8626099824905396
+NCAATeamSeason_left.csv,title,1893 auburn tigers football team,NCAATeamSeason_right,title,1893 alabama crimson white football team,0.8580070734024048
+NCAATeamSeason_left.csv,title,1949 alabama crimson tide football team,NCAATeamSeason_right,title,1894 alabama crimson white football team,0.8560695648193359
+NCAATeamSeason_left.csv,title,1896 auburn tigers football team,NCAATeamSeason_right,title,1892 alabama cadets football team,0.8511745929718018
+NCAATeamSeason_left.csv,title,1998 alabama crimson tide football team,NCAATeamSeason_right,title,1899 alabama crimson white football team,0.8442378044128418
+NCAATeamSeason_left.csv,title,1953 alabama crimson tide football team,NCAATeamSeason_right,title,1901 alabama crimson white football team,0.8380712270736694
+NCAATeamSeason_left.csv,title,1974 alabama crimson tide football team,NCAATeamSeason_right,title,1904 alabama crimson white football team,0.8237335681915283
+NCAATeamSeason_left.csv,title,1907 auburn tigers football team,NCAATeamSeason_right,title,1903 alabama crimson white football team,0.8194029331207275
+NCAATeamSeason_left.csv,title,2012 mcneese state cowboys football team,NCAATeamSeason_right,title,2012 austin peay governors football team,0.8182415962219238
+NCAATeamSeason_left.csv,title,2007 texas a&m aggies football team,NCAATeamSeason_right,title,2011 austin peay governors football team,0.8177913427352905
+NCAATeamSeason_left.csv,title,1915 washington football team,NCAATeamSeason_right,title,1919 washington sun dodgers football team,0.8153121471405029
+NCAATeamSeason_left.csv,title,1926 arkansas razorbacks football team,NCAATeamSeason_right,title,1906 arkansas cardinals football team,0.8041423559188843

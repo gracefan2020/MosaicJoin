@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerTournament_left.csv,title,2011 copa chile,FootballLeagueSeason_right,title,2011 torneo apertura (chile),0.9030603170394897
+SoccerTournament_left.csv,title,1991 baltic cup,FootballLeagueSeason_right,title,1990 baltic league,0.9002248048782349
+SoccerTournament_left.csv,title,2013 malaysia fa cup,FootballLeagueSeason_right,title,2005 super league malaysia,0.884479284286499
+SoccerTournament_left.csv,title,2012 norwegian football cup,FootballLeagueSeason_right,title,2012 norwegian second division,0.8839358687400818
+SoccerTournament_left.csv,title,1992 croatian cup,FootballLeagueSeason_right,title,1992 croatian first football league,0.8820666074752808
+SoccerTournament_left.csv,title,2012 vietnamese cup,FootballLeagueSeason_right,title,2009 vietnamese second division,0.8766226768493652
+SoccerTournament_left.csv,title,2009 singapore league cup,FootballLeagueSeason_right,title,2009 super league malaysia,0.8633427619934082
+SoccerTournament_left.csv,title,2011 norwegian football cup,FootballLeagueSeason_right,title,2012 norwegian third division,0.8571484088897705
+SoccerTournament_left.csv,title,2009 premier league asia trophy,FootballLeagueSeason_right,title,2009 premier league malaysia,0.848479151725769
+SoccerTournament_left.csv,title,2003 fa premier league asia cup,FootballLeagueSeason_right,title,2003 malaysia premier league 1,0.8471360206604004
+SoccerTournament_left.csv,title,2007 singapore league cup,FootballLeagueSeason_right,title,2004 super league malaysia,0.8389691114425659
+SoccerTournament_left.csv,title,2010 korean fa cup,FootballLeagueSeason_right,title,1999 korea semi-professional football league,0.8367414474487305
+SoccerTournament_left.csv,title,2011 thai league cup,FootballLeagueSeason_right,title,2009 thai division 2 league bangkok & field region,0.8290271759033203
+SoccerTournament_left.csv,title,2008 indonesia independence cup,FootballLeagueSeason_right,title,2008 indonesian womens football tournament,0.8269939422607422
+SoccerTournament_left.csv,title,1999 norwegian football cup,FootballLeagueSeason_right,title,1999 swedish football division 3,0.8237481117248535
+SoccerTournament_left.csv,title,2004 norwegian football cup,FootballLeagueSeason_right,title,2004 swedish football division 3,0.8228849172592163
+SoccerTournament_left.csv,title,2012 korean fa cup,FootballLeagueSeason_right,title,1966 korea semi-professional football league,0.8173242807388306
+SoccerTournament_left.csv,title,2006 svenska cupen,FootballLeagueSeason_right,title,2006 swedish football division 2,0.8172010183334351
+SoccerTournament_left.csv,title,1992 baltic cup,FootballLeagueSeason_right,title,1991 soviet second league b,0.8150036334991455
+SoccerTournament_left.csv,title,2013 ncaa division i men's soccer championship,FootballLeagueSeason_right,title,2013 pac-12 conference men's soccer season,0.81163489818573
+SoccerTournament_left.csv,title,2011 svenska cupen,FootballLeagueSeason_right,title,2011 swedish football division 2,0.8112349510192871
+SoccerTournament_left.csv,title,2000 norwegian football cup,FootballLeagueSeason_right,title,2000 swedish football division 3,0.8099366426467896
+SoccerTournament_left.csv,title,2007 svenska cupen,FootballLeagueSeason_right,title,2008 swedish football division 2,0.8091785907745361
+SoccerTournament_left.csv,title,2013 kpl top 8 cup,FootballLeagueSeason_right,title,2008 k league,0.8069127798080444
+SoccerTournament_left.csv,title,2011 singapore league cup,FootballLeagueSeason_right,title,2002 malaysia premier league 1,0.8043230772018433
+SoccerTournament_left.csv,title,2012 j. league cup,FootballLeagueSeason_right,title,2013 v.league 1,0.8027795553207397
+SoccerTournament_left.csv,title,2010 svenska cupen,FootballLeagueSeason_right,title,2002 swedish football division 3,0.8010036945343018
+SoccerTournament_left.csv,title,1958 norwegian football cup,FootballLeagueSeason_right,title,2013 norwegian first division,0.8005355000495911
+SoccerTournament_left.csv,title,2012 thai league cup,FootballLeagueSeason_right,title,2012 vietnamese super league,0.7951933145523071
+SoccerTournament_left.csv,title,uefa euro 1996,FootballLeagueSeason_right,title,1996 eliteserien,0.7888956665992737
+SoccerTournament_left.csv,title,2012 nasl playoffs,FootballLeagueSeason_right,title,2012 wpsl season,0.7885193824768066
+SoccerTournament_left.csv,title,2011 j. league cup,FootballLeagueSeason_right,title,2011 j.league division 1,0.7880449295043945
+SoccerTournament_left.csv,title,2011 korean league cup,FootballLeagueSeason_right,title,2011 k league,0.7792048454284668
+SoccerTournament_left.csv,title,1943 estonian football championship,FootballLeagueSeason_right,title,1993 swedish football division 3,0.7785983085632324
+SoccerTournament_left.csv,title,2008 australian football international cup,FootballLeagueSeason_right,title,2009 south australian premier league,0.7768830060958862
+SoccerTournament_left.csv,title,2003 east asian football championship,FootballLeagueSeason_right,title,2003 mongolian premier league,0.776715874671936
+SoccerTournament_left.csv,title,2003 baltic cup,FootballLeagueSeason_right,title,1997 eliteserien,0.7753925919532776
+SoccerTournament_left.csv,title,2007 asean football championship qualification,FootballLeagueSeason_right,title,2009 vietnamese national football first league,0.7746632695198059
+SoccerTournament_left.csv,title,2011 league of ireland cup,FootballLeagueSeason_right,title,meath senior football championship 2011,0.7725340127944946
+SoccerTournament_left.csv,title,2010 european championships in australian football,FootballLeagueSeason_right,title,2010 south australian premier league,0.7724348902702332
+SoccerTournament_left.csv,title,1989 european competition for women's football,FootballLeagueSeason_right,title,1990 japan women's football league,0.7723126411437988
+SoccerTournament_left.csv,title,2008 east asian football championship,FootballLeagueSeason_right,title,2009 vietnamese national football second league,0.7710189819335938
+SoccerTournament_left.csv,title,2010 uzbekistan cup,FootballLeagueSeason_right,title,1990 mongolian national championship,0.7702286243438721
+SoccerTournament_left.csv,title,1942 bulgarian state football championship,FootballLeagueSeason_right,title,slovenian republic league 1946,0.7676560878753662
+SoccerTournament_left.csv,title,2011 indonesian futsal league,FootballLeagueSeason_right,title,2010 indonesia women football tournament,0.7659971714019775
+SoccerTournament_left.csv,title,1942 svenska cupen,FootballLeagueSeason_right,title,1996 swedish football division 3,0.7658228278160095
+SoccerTournament_left.csv,title,1943 svenska cupen,FootballLeagueSeason_right,title,2003 swedish football division 3,0.7652724981307983
+SoccerTournament_left.csv,title,2012 cerh european league final eight,FootballLeagueSeason_right,title,2013 v.league 2,0.7642515897750854
+SoccerTournament_left.csv,title,1990 uefa european under-21 football championship,FootballLeagueSeason_right,title,1990 soviet second league b,0.7638838291168213
+SoccerTournament_left.csv,title,2010 baltic cup,FootballLeagueSeason_right,title,1991 soviet second league,0.7635369300842285
+SoccerTournament_left.csv,title,1999 cosafa cup,FootballLeagueSeason_right,title,1999 eliteserien,0.7621043920516968
+SoccerTournament_left.csv,title,1998 algarve cup,FootballLeagueSeason_right,title,1998 eliteserien,0.7615423202514648
+SoccerTournament_left.csv,title,2001 oceania club championship,FootballLeagueSeason_right,title,2011 south australian premier league,0.761355996131897
+SoccerTournament_left.csv,title,2012 tajik cup,FootballLeagueSeason_right,title,2012 mongolian premier league,0.7605602741241455
+SoccerTournament_left.csv,title,1951 albanian cup,FootballLeagueSeason_right,title,slovenian republic league 1951-52,0.7598662972450256
+SoccerTournament_left.csv,title,2006 korean fa cup,FootballLeagueSeason_right,title,1965 korea semi-professional football league,0.7588686347007751
+SoccerTournament_left.csv,title,2007 west asian football federation championship,FootballLeagueSeason_right,title,2011â12 united football league (philippines),0.7586660385131836
+SoccerTournament_left.csv,title,1999 oceania club championship,FootballLeagueSeason_right,title,1999 a-division,0.7582464218139648
+SoccerTournament_left.csv,title,2007 korean fa cup,FootballLeagueSeason_right,title,1964 korea semi-professional football league,0.7560423612594604
+SoccerTournament_left.csv,title,2011 lev yashin cup,FootballLeagueSeason_right,title,1991 soviet first league,0.7549559473991394
+SoccerTournament_left.csv,title,2013 league of ireland cup,FootballLeagueSeason_right,title,meath senior football championship 2012,0.7539149522781372
+SoccerTournament_left.csv,title,2011 kazakhstan cup,FootballLeagueSeason_right,title,2011 mongolian premier league,0.7522929310798645
+SoccerTournament_left.csv,title,2013 kazakhstan cup,FootballLeagueSeason_right,title,1994 mongolian national championship,0.749557375907898
+SoccerTournament_left.csv,title,1971 asian champion club tournament,FootballLeagueSeason_right,title,2010 vietnamese second division,0.7492382526397705
+SoccerTournament_left.csv,title,1998 finnish cup,FootballLeagueSeason_right,title,1998 swedish football division 3,0.7481826543807983
+SoccerTournament_left.csv,title,2008 west asian football federation championship,FootballLeagueSeason_right,title,2009â10 united football league (philippines),0.7472321391105652
+SoccerTournament_left.csv,title,2002 caf champions league,FootballLeagueSeason_right,title,2002 fc barcelona dragons season,0.7471702098846436
+SoccerTournament_left.csv,title,2010 a championship cup,FootballLeagueSeason_right,title,2010 a-division,0.7456468343734741
+SoccerTournament_left.csv,title,2013 chinese fa cup,FootballLeagueSeason_right,title,2005 mongolian premier league,0.7452347278594971
+SoccerTournament_left.csv,title,2011 finnish cup,FootballLeagueSeason_right,title,2011 division 1 (swedish football),0.7442493438720703
+SoccerTournament_left.csv,title,1997 arab super cup,FootballLeagueSeason_right,title,1997 mongolian premier league,0.743269681930542
+SoccerTournament_left.csv,title,2011 mls cup playoffs,FootballLeagueSeason_right,title,2011 wpsl season,0.7424976229667664
+SoccerTournament_left.csv,title,2007 north american superliga,FootballLeagueSeason_right,title,2007 j.league division 2,0.7415589094161987
+SoccerTournament_left.csv,title,1954 albanian cup,FootballLeagueSeason_right,title,1959 turkish national league,0.7410414218902588
+SoccerTournament_left.csv,title,1985 indian federation cup,FootballLeagueSeason_right,title,1986 bhutan a-division,0.7408570051193237
+SoccerTournament_left.csv,title,1963 norwegian football cup,FootballLeagueSeason_right,title,2001 swedish football division 3,0.7402826547622681
+SoccerTournament_left.csv,title,2009 finnish cup,FootballLeagueSeason_right,title,2009 division 1 (swedish football),0.7397632598876953
+SoccerTournament_left.csv,title,2011 cfu club championship,FootballLeagueSeason_right,title,2011 ffas senior league,0.7389353513717651
+SoccerTournament_left.csv,title,2012 philippine peace cup,FootballLeagueSeason_right,title,2013 papua new guinea national soccer league,0.7386525273323059
+SoccerTournament_left.csv,title,1935 baltic cup,FootballLeagueSeason_right,title,1990 soviet first league,0.7382386922836304
+SoccerTournament_left.csv,title,1919 norwegian football cup,FootballLeagueSeason_right,title,1994 swedish football division 3,0.7381435036659241
+SoccerTournament_left.csv,title,2009 armenian cup,FootballLeagueSeason_right,title,2009 mongolian premier league,0.7370092272758484
+SoccerTournament_left.csv,title,2004 afc asian cup,FootballLeagueSeason_right,title,2004 mongolian premier league,0.7360426187515259
+SoccerTournament_left.csv,title,2009 cfu club championship,FootballLeagueSeason_right,title,2009 ffas senior league,0.7359443306922913
+SoccerTournament_left.csv,title,2012 the summit league men's soccer tournament,FootballLeagueSeason_right,title,2013 telikom national soccer league,0.7356094717979431
+SoccerTournament_left.csv,title,2011 armenian cup,FootballLeagueSeason_right,title,2002 mongolian premier league,0.735519289970398
+SoccerTournament_left.csv,title,2009 ccaa soccer championship,FootballLeagueSeason_right,title,2009 a-division,0.7350635528564453
+SoccerTournament_left.csv,title,2009 north american superliga,FootballLeagueSeason_right,title,2009 j.league division 1,0.7345539927482605
+SoccerTournament_left.csv,title,2008 finnish cup,FootballLeagueSeason_right,title,2008 division 1 (swedish football),0.7343884706497192
+SoccerTournament_left.csv,title,1987 european competition for women's football,FootballLeagueSeason_right,title,1989 japan women's football league,0.7329144477844238
+SoccerTournament_left.csv,title,2012 ncell cup,FootballLeagueSeason_right,title,2012 k league,0.732846736907959
+SoccerTournament_left.csv,title,2010 afc women's asian cup,FootballLeagueSeason_right,title,2010 japan women's football league,0.7316972017288208
+SoccerTournament_left.csv,title,2004 a3 champions cup,FootballLeagueSeason_right,title,2004 a-division,0.7312473654747009
+SoccerTournament_left.csv,title,2013 finnish cup,FootballLeagueSeason_right,title,2013 division 1 (swedish football),0.7303138971328735
+SoccerTournament_left.csv,title,1997 uefa european under-18 football championship,FootballLeagueSeason_right,title,1997 swedish football division 3,0.7292953729629517
+SoccerTournament_left.csv,title,2003 finnish cup,FootballLeagueSeason_right,title,2008 swedish football division 3,0.7292001247406006
+SoccerTournament_left.csv,title,2009 caf champions league,FootballLeagueSeason_right,title,summer 2009 pasl-premier season,0.7288690805435181
+SoccerTournament_left.csv,title,2011 fk cup,FootballLeagueSeason_right,title,2011 swedish football division 3,0.7283355593681335
+SoccerTournament_left.csv,title,1997 world club championship,FootballLeagueSeason_right,title,1997 a-division,0.7275592684745789
+SoccerTournament_left.csv,title,2005 a3 champions cup,FootballLeagueSeason_right,title,2005 a-division,0.7272412776947021
+SoccerTournament_left.csv,title,1990 fifa world cup qualification,FootballLeagueSeason_right,title,1990 soviet second league,0.7267760038375854
+SoccerTournament_left.csv,title,2012 mobcast cup international women's club championship,FootballLeagueSeason_right,title,2012 japan women's football league,0.7265967130661011
+SoccerTournament_left.csv,title,2006 cosafa cup,FootballLeagueSeason_right,title,2006 a-division,0.7264413833618164
+SoccerTournament_left.csv,title,2009 king's cup,FootballLeagueSeason_right,title,2009 k league,0.7257331609725952
+SoccerTournament_left.csv,title,2007 ofc champions league,FootballLeagueSeason_right,title,2003 fc barcelona dragons season,0.7247621417045593
+SoccerTournament_left.csv,title,2008 afc women's asian cup,FootballLeagueSeason_right,title,2008 japan women's football league,0.7245355248451233
+SoccerTournament_left.csv,title,2008 north american superliga,FootballLeagueSeason_right,title,2008 j.league division 2,0.7238049507141113
+SoccerTournament_left.csv,title,2012 thai fa cup,FootballLeagueSeason_right,title,2012 vietnamese national football first league,0.7221595644950867
+SoccerTournament_left.csv,title,2003 a3 champions cup,FootballLeagueSeason_right,title,2003 a-division,0.7217245101928711
+SoccerTournament_left.csv,title,2009 thai super cup,FootballLeagueSeason_right,title,2002 bhutan a-division,0.7200745940208435
+SoccerTournament_left.csv,title,2013 fam youth championship,FootballLeagueSeason_right,title,2008 ffas senior league,0.7192268371582031
+SoccerTournament_left.csv,title,2006 ofc club championship,FootballLeagueSeason_right,title,2007 a-division,0.7189414501190186
+SoccerTournament_left.csv,title,2002 uefa european under-17 football championship,FootballLeagueSeason_right,title,ukrainian football amateur league 2002,0.7187204957008362
+SoccerTournament_left.csv,title,2004 finnish cup,FootballLeagueSeason_right,title,2005 swedish football division 3,0.7179348468780518
+SoccerTournament_left.csv,title,2010 north american superliga,FootballLeagueSeason_right,title,2010 j.league division 2,0.717096745967865
+SoccerTournament_left.csv,title,1905 norwegian football cup,FootballLeagueSeason_right,title,1995 swedish football division 3,0.7169937491416931
+SoccerTournament_left.csv,title,2012 euro beach soccer league,FootballLeagueSeason_right,title,2012 premier arena soccer league summer season,0.7152847051620483
+SoccerTournament_left.csv,title,2013 premier league asia trophy,FootballLeagueSeason_right,title,2010 mongolian premier league,0.7145118713378906
+SoccerTournament_left.csv,title,2006 uefa european under-17 football championship,FootballLeagueSeason_right,title,ukrainian football amateur league 2006,0.7135512828826904
+SoccerTournament_left.csv,title,2010 long teng cup,FootballLeagueSeason_right,title,1995 mongolian national championship,0.7133306264877319
+SoccerTournament_left.csv,title,2010 euro beach soccer league,FootballLeagueSeason_right,title,2010 premier arena soccer league summer season,0.712303876876831
+SoccerTournament_left.csv,title,1996 korean fa cup,FootballLeagueSeason_right,title,1996 mongolian premier league,0.7119619846343994
+SoccerTournament_left.csv,title,2003 uefa european under-17 football championship,FootballLeagueSeason_right,title,ukrainian football amateur league 2003,0.7113655209541321
+SoccerTournament_left.csv,title,2012 second division football tournament,FootballLeagueSeason_right,title,2010 ffas senior league,0.7108008861541748
+SoccerTournament_left.csv,title,2002 four nations tournament (women's football),FootballLeagueSeason_right,title,2002 japan women's football league,0.7107902765274048
+SoccerTournament_left.csv,title,2004 afc futsal championship,FootballLeagueSeason_right,title,2002 usl a-league,0.7105164527893066
+SoccerTournament_left.csv,title,2010 king's cup,FootballLeagueSeason_right,title,2010 k league,0.710490882396698
+SoccerTournament_left.csv,title,2003 cosafa cup,FootballLeagueSeason_right,title,2002 a-division,0.7104376554489136
+SoccerTournament_left.csv,title,2003 cemac cup,FootballLeagueSeason_right,title,2003 mpsl season,0.7097337245941162
+SoccerTournament_left.csv,title,2011 fai cup,FootballLeagueSeason_right,title,summer 2011 pasl-premier season,0.707329511642456
+SoccerTournament_left.csv,title,1960 norwegian football cup,FootballLeagueSeason_right,title,2010 swedish football division 2,0.7063179016113281
+SoccerTournament_left.csv,title,1992 arab super cup,FootballLeagueSeason_right,title,2001 mongolian premier league,0.7056852579116821
+SoccerTournament_left.csv,title,1999 south asian football federation gold cup,FootballLeagueSeason_right,title,1999 bhutan a-division,0.705001175403595
+SoccerTournament_left.csv,title,2001 uefa european under-18 football championship,FootballLeagueSeason_right,title,ukrainian football amateur league 2001,0.7033765316009521
+SoccerTournament_left.csv,title,1990 ofc u-20 championship,FootballLeagueSeason_right,title,1989 mongolian national championship,0.7029721736907959
+SoccerTournament_left.csv,title,1999 finnish cup,FootballLeagueSeason_right,title,2010 division 1 (swedish football),0.6990495324134827
+SoccerTournament_left.csv,title,2003 gulf club champions cup,FootballLeagueSeason_right,title,1999 mongolian premier league,0.6986246109008789
+SoccerTournament_left.csv,title,1912 norwegian football cup,FootballLeagueSeason_right,title,2012 division 1 (swedish football),0.6983518600463867
+SoccerTournament_left.csv,title,1996 indian federation cup,FootballLeagueSeason_right,title,1998 bhutan a-division,0.6983232498168945
+SoccerTournament_left.csv,title,2009 uefa european under-19 football championship,FootballLeagueSeason_right,title,2009 swedish football division 2,0.697951078414917
+SoccerTournament_left.csv,title,1985 national challenge cup,FootballLeagueSeason_right,title,1986 a-division,0.6978180408477783
+SoccerTournament_left.csv,title,2007 uefa european under-17 football championship,FootballLeagueSeason_right,title,2007 swedish football division 2,0.6977638006210327
+SoccerTournament_left.csv,title,2008 pan-pacific championship,FootballLeagueSeason_right,title,2008 a-division,0.6968121528625488
+SoccerTournament_left.csv,title,2009 four nations tournament (women's football),FootballLeagueSeason_right,title,2009 japan women's football league,0.6964172720909119
+SoccerTournament_left.csv,title,1988 uefa european under-18 football championship,FootballLeagueSeason_right,title,"1990 soviet lower second league, zone 1",0.696189284324646
+SoccerTournament_left.csv,title,1984 european competition for women's football,FootballLeagueSeason_right,title,1994 japan women's football league,0.6960475444793701
+SoccerTournament_left.csv,title,2007 mohammed bin rashid international football championship,FootballLeagueSeason_right,title,2007 mongolian premier league,0.6957041025161743
+SoccerTournament_left.csv,title,2007 mls cup playoffs,FootballLeagueSeason_right,title,2004 mpsl season,0.695138156414032
+SoccerTournament_left.csv,title,1914 norwegian football cup,FootballLeagueSeason_right,title,2010 swedish football division 3,0.6949064135551453
+SoccerTournament_left.csv,title,2012 patriot league men's soccer tournament,FootballLeagueSeason_right,title,2012 wpsl elite league season,0.6939809322357178
+SoccerTournament_left.csv,title,2010 afc champions league,FootballLeagueSeason_right,title,2010 wpsl season,0.693188488483429
+SoccerTournament_left.csv,title,1991 south american women's football championship,FootballLeagueSeason_right,title,1991 japan women's football league,0.6921447515487671
+SoccerTournament_left.csv,title,2006 gulf club champions cup,FootballLeagueSeason_right,title,2006 mongolian premier league,0.6920976638793945
+SoccerTournament_left.csv,title,2012 kalimantan men's pre-pon tournament,FootballLeagueSeason_right,title,1987 mongolian national championship,0.691640317440033
+SoccerTournament_left.csv,title,1960 albanian cup,FootballLeagueSeason_right,title,slovenian republic league 1950-51,0.6888223886489868
+SoccerTournament_left.csv,title,1998 arab nations cup,FootballLeagueSeason_right,title,1998 mongolian premier league,0.6883326172828674
+SoccerTournament_left.csv,title,2007 uefa european under-21 football championship,FootballLeagueSeason_right,title,ukrainian football amateur league 2007,0.6865172982215881
+SoccerTournament_left.csv,title,2004 uefa women's under-19 championship,FootballLeagueSeason_right,title,2004 japan women's football league,0.6850882172584534
+SoccerTournament_left.csv,title,2005 fa premier league asia trophy,FootballLeagueSeason_right,title,2010â11 united football league (philippines),0.6826955080032349
+SoccerTournament_left.csv,title,1986 ofc u-20 championship,FootballLeagueSeason_right,title,1985 mongolian national championship,0.6826680302619934
+SoccerTournament_left.csv,title,2007 merdeka tournament,FootballLeagueSeason_right,title,2004 bhutan a-division,0.6821309328079224
+SoccerTournament_left.csv,title,2007 uefa european under-19 football championship,FootballLeagueSeason_right,title,2007 division 1 (swedish football),0.681897759437561
+SoccerTournament_left.csv,title,2010 afc futsal club championship,FootballLeagueSeason_right,title,2010 vietnamese national football second league,0.6817270517349243
+SoccerTournament_left.csv,title,2007 euro beach soccer league,FootballLeagueSeason_right,title,2009 premier arena soccer league summer season,0.6811468601226807
+SoccerTournament_left.csv,title,1997 cosafa cup,FootballLeagueSeason_right,title,1998 a-division,0.6803065538406372
+SoccerTournament_left.csv,title,2012 indian federation cup,FootballLeagueSeason_right,title,2009 bhutan a-division,0.6796306371688843
+SoccerTournament_left.csv,title,1935 norwegian football cup,FootballLeagueSeason_right,title,2009 swedish football division 3,0.6795836687088013
+SoccerTournament_left.csv,title,1998 south american women's football championship,FootballLeagueSeason_right,title,1998 japan women's football league,0.6789461374282837
+SoccerTournament_left.csv,title,1947 nafc championship,FootballLeagueSeason_right,title,1999 j.league division 2,0.6788531541824341
+SoccerTournament_left.csv,title,2012 third division football tournament,FootballLeagueSeason_right,title,2012 j.league division 2,0.6788015365600586
+SoccerTournament_left.csv,title,2002 arab nations cup,FootballLeagueSeason_right,title,2000 mongolian premier league,0.6787301301956177
+SoccerTournament_left.csv,title,2013 euro beach soccer league,FootballLeagueSeason_right,title,2011 premier arena soccer league summer season,0.6763261556625366
+SoccerTournament_left.csv,title,2006 uefa european under-19 football championship,FootballLeagueSeason_right,title,2006 swedish football division 3,0.6762575507164001
+SoccerTournament_left.csv,title,1941 cccf championship,FootballLeagueSeason_right,title,2001 j.league division 2,0.6761326789855957
+SoccerTournament_left.csv,title,1907 norwegian football cup,FootballLeagueSeason_right,title,2007 swedish football division 3,0.6752021908760071
+SoccerTournament_left.csv,title,2011 deildabikar,FootballLeagueSeason_right,title,1992 vyshcha liha,0.6750496625900269
+SoccerTournament_left.csv,title,2012 ofc women's pre-olympic football tournament,FootballLeagueSeason_right,title,2011 japan women's football league,0.6745043992996216
+SoccerTournament_left.csv,title,2011 desert diamond cup,FootballLeagueSeason_right,title,2001 jordan league,0.6717655062675476
+SoccerTournament_left.csv,title,2011 afc asian cup,FootballLeagueSeason_right,title,2011 vietnamese national football first league,0.6706627011299133
+SoccerTournament_left.csv,title,2000 melanesia cup,FootballLeagueSeason_right,title,2000 a-division,0.6702823042869568
+SoccerTournament_left.csv,title,2012 malaysia cup,FootballLeagueSeason_right,title,1974 mongolian national championship,0.6696383953094482
+SoccerTournament_left.csv,title,2006 south american women's football championship,FootballLeagueSeason_right,title,2006 japan women's football league,0.6692872643470764
+SoccerTournament_left.csv,title,1993 afc women's championship,FootballLeagueSeason_right,title,1993 japan women's football league,0.6669656038284302
+SoccerTournament_left.csv,title,2007 commonwealth of independent states cup,FootballLeagueSeason_right,title,2007 bhutan a-division,0.6659550070762634
+SoccerTournament_left.csv,title,1999 fifa women's world cup,FootballLeagueSeason_right,title,1999 japan women's football league,0.6649893522262573
+SoccerTournament_left.csv,title,2013 mls cup playoffs,FootballLeagueSeason_right,title,2013 j.league division 2,0.6649361252784729
+SoccerTournament_left.csv,title,1995 fifa women's world cup,FootballLeagueSeason_right,title,1995 japan women's football league,0.6625797748565674
+SoccerTournament_left.csv,title,2013 malaysia cup,FootballLeagueSeason_right,title,2006 bhutan a-division,0.6611049175262451
+SoccerTournament_left.csv,title,1999 chatham cup,FootballLeagueSeason_right,title,1999 j.league division 1,0.6594747304916382
+SoccerTournament_left.csv,title,2009 cecafa u-17 championship,FootballLeagueSeason_right,title,meath senior football championship 2009,0.6591639518737793
+SoccerTournament_left.csv,title,2002 ncaa division i men's soccer championship,FootballLeagueSeason_right,title,2002 j.league division 2,0.6583082675933838
+SoccerTournament_left.csv,title,1972 afc asian cup,FootballLeagueSeason_right,title,2010 vietnamese national football first league,0.656602144241333
+SoccerTournament_left.csv,title,2012 waratah cup,FootballLeagueSeason_right,title,2010 bhutan a-division,0.6551324129104614
+SoccerTournament_left.csv,title,2007 afc beach soccer championship,FootballLeagueSeason_right,title,2007 j.league division 1,0.654803991317749
+SoccerTournament_left.csv,title,2012 desert diamond cup,FootballLeagueSeason_right,title,1998 jordan league,0.6529824137687683
+SoccerTournament_left.csv,title,1997 south asian football federation gold cup,FootballLeagueSeason_right,title,1997 bhutan a-division,0.6529272794723511
+SoccerTournament_left.csv,title,omar almokhtar futsal international cup,FootballLeagueSeason_right,title,ukrainian football amateur league 2008,0.6528592109680176
+SoccerTournament_left.csv,title,women's football at the 2007 south pacific games,FootballLeagueSeason_right,title,2007 japan women's football league,0.6523793935775757
+SoccerTournament_left.csv,title,1995 south asian gold cup,FootballLeagueSeason_right,title,1996 bhutan a-division,0.6501407623291016
+SoccerTournament_left.csv,title,2004 chatham cup,FootballLeagueSeason_right,title,2004 j.league division 2,0.6499472856521606

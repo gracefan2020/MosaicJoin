@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballMatch_left.csv,title,1992 copa libertadores finals,SoccerTournament_left,title,1992 copa libertadores,0.9744085669517517
+FootballMatch_left.csv,title,2004 copa libertadores finals,SoccerTournament_left,title,2004 copa libertadores,0.9731385707855225
+FootballMatch_left.csv,title,2005 copa libertadores finals,SoccerTournament_left,title,2005 copa libertadores,0.9676039218902588
+FootballMatch_left.csv,title,2008 lamar hunt u.s. open cup final,SoccerTournament_left,title,2008 lamar hunt u.s. open cup,0.9638324975967407
+FootballMatch_left.csv,title,2010 uefa futsal championship final,SoccerTournament_left,title,2010 uefa futsal championship,0.9566820859909058
+FootballMatch_left.csv,title,2003 copa sudamericana finals,SoccerTournament_left,title,2003 copa sudamericana,0.9557110071182251
+FootballMatch_left.csv,title,2008 copa sudamericana finals,SoccerTournament_left,title,2008 copa sudamericana,0.9535290002822876
+FootballMatch_left.csv,title,2011 uefa european under-21 football championship final,SoccerTournament_left,title,2011 uefa european under-21 football championship,0.9528949856758118
+FootballMatch_left.csv,title,2012 copa sudamericana finals,SoccerTournament_left,title,2012 copa sudamericana,0.9514663219451904
+FootballMatch_left.csv,title,2013 concacaf gold cup final,SoccerTournament_left,title,2013 concacaf gold cup,0.9496337175369263
+FootballMatch_left.csv,title,uefa euro 1992 final,SoccerTournament_left,title,uefa euro 1992,0.9495156407356262
+FootballMatch_left.csv,title,mls cup 2013,SoccerTournament_left,title,2013 mls cup playoffs,0.9478667378425598
+FootballMatch_left.csv,title,2011 fifa beach soccer world cup final,SoccerTournament_left,title,2011 fifa beach soccer world cup,0.9453823566436768
+FootballMatch_left.csv,title,2003 fifa confederations cup final,SoccerTournament_left,title,2003 fifa confederations cup,0.9452396631240845
+FootballMatch_left.csv,title,2009 fifa beach soccer world cup final,SoccerTournament_left,title,2009 fifa beach soccer world cup,0.9446641206741333
+FootballMatch_left.csv,title,uefa euro 1980 final,SoccerTournament_left,title,uefa euro 1980,0.9414206743240356
+FootballMatch_left.csv,title,1986 copa libertadores finals,SoccerTournament_left,title,1987 copa libertadores,0.9393196702003479
+FootballMatch_left.csv,title,1991 fifa women's world cup final,SoccerTournament_left,title,1991 fifa women's world cup,0.9383592009544373
+FootballMatch_left.csv,title,uefa euro 1988 final,SoccerTournament_left,title,uefa euro 1988,0.9381487965583801
+FootballMatch_left.csv,title,1974 fifa world cup final,SoccerTournament_left,title,1974 fifa world cup,0.9380613565444946
+FootballMatch_left.csv,title,2007 fifa beach soccer world cup final,SoccerTournament_left,title,2007 fifa beach soccer world cup,0.9365401268005371
+FootballMatch_left.csv,title,2002 fifa world cup final,SoccerTournament_left,title,2002 fifa world cup,0.9364258050918579
+FootballMatch_left.csv,title,1954 fifa world cup final,SoccerTournament_left,title,1954 fifa world cup,0.9361511468887329
+FootballMatch_left.csv,title,1990 fifa world cup final,SoccerTournament_left,title,1990 fifa world cup,0.9350403547286987
+FootballMatch_left.csv,title,2009 copa libertadores finals,SoccerTournament_left,title,2009 copa libertadores femenina,0.9348369836807251
+FootballMatch_left.csv,title,2003 fifa women's world cup final,SoccerTournament_left,title,2003 fifa women's world cup,0.9340572357177734
+FootballMatch_left.csv,title,2011 copa libertadores finals,SoccerTournament_left,title,2011 copa libertadores femenina,0.9332888126373291
+FootballMatch_left.csv,title,2012 fifa club world cup final,SoccerTournament_left,title,2012 fifa club world cup,0.9311631321907043
+FootballMatch_left.csv,title,2012 copa libertadores finals,SoccerTournament_left,title,2012 copa libertadores femenina,0.9306285381317139
+FootballMatch_left.csv,title,1966 fifa world cup final,SoccerTournament_left,title,1966 fifa world cup,0.9298253059387207
+FootballMatch_left.csv,title,1994 fifa world cup final,SoccerTournament_left,title,1994 fifa world cup,0.9296935200691223
+FootballMatch_left.csv,title,1982 fifa world cup final,SoccerTournament_left,title,1982 fifa world cup,0.9296687245368958
+FootballMatch_left.csv,title,1962 fifa world cup final,SoccerTournament_left,title,1962 fifa world cup,0.9291148781776428
+FootballMatch_left.csv,title,2011 fifa women's world cup final,SoccerTournament_left,title,2011 fifa women's world cup,0.9271921515464783
+FootballMatch_left.csv,title,2010 fifa club world cup final,SoccerTournament_left,title,2010 fifa club world cup,0.9264830350875854
+FootballMatch_left.csv,title,1986 fifa world cup final,SoccerTournament_left,title,1986 fifa world cup,0.9257880449295044
+FootballMatch_left.csv,title,2009 lamar hunt u.s. open cup final,SoccerTournament_left,title,2007 lamar hunt u.s. open cup,0.9235700368881226
+FootballMatch_left.csv,title,uefa euro 2012 final,SoccerTournament_left,title,uefa euro 2012,0.9168461561203003
+FootballMatch_left.csv,title,mls cup 2009,SoccerTournament_left,title,2008 mls cup playoffs,0.9138749837875366
+FootballMatch_left.csv,title,2011 lamar hunt u.s. open cup final,SoccerTournament_left,title,2013 lamar hunt u.s. open cup,0.909503161907196
+FootballMatch_left.csv,title,2006 fifa club world cup final,SoccerTournament_left,title,2006 fifa club world cup,0.9083269834518433
+FootballMatch_left.csv,title,2014 fifa world cup final,SoccerTournament_left,title,2014 fifa world cup,0.9070621728897095
+FootballMatch_left.csv,title,mls cup 2011,SoccerTournament_left,title,2010 mls cup playoffs,0.9036912322044373
+FootballMatch_left.csv,title,2001 copa libertadores finals,SoccerTournament_left,title,1991 copa libertadores,0.9033567309379578
+FootballMatch_left.csv,title,1973 copa libertadores finals,SoccerTournament_left,title,1974 copa libertadores,0.9031065106391907
+FootballMatch_left.csv,title,mls cup 2004,SoccerTournament_left,title,2007 mls cup playoffs,0.8998826742172241
+FootballMatch_left.csv,title,1994 copa libertadores finals,SoccerTournament_left,title,1985 copa libertadores,0.8956570625305176
+FootballMatch_left.csv,title,1999 copa libertadores finals,SoccerTournament_left,title,1990 copa libertadores,0.8907729983329773
+FootballMatch_left.csv,title,2008 copa libertadores finals,SoccerTournament_left,title,1988 copa libertadores,0.8891773223876953
+FootballMatch_left.csv,title,uefa under-18 challenge,SoccerTournament_left,title,2006 uefa european under-17 football championship,0.8876135349273682
+FootballMatch_left.csv,title,2013 caf super cup,SoccerTournament_left,title,2013 caf confederation cup,0.8873183131217957
+FootballMatch_left.csv,title,2002 copa libertadores finals,SoccerTournament_left,title,2002 copa sudamericana,0.8865070343017578
+FootballMatch_left.csv,title,2013 soccer bowl,SoccerTournament_left,title,2011 green soccer bowl,0.8857077956199646
+FootballMatch_left.csv,title,2006 copa libertadores finals,SoccerTournament_left,title,2013 copa libertadores femenina,0.8856884837150574
+FootballMatch_left.csv,title,liga de ascenso apertura 2009 liguilla final,SoccerTournament_left,title,2011 liga de ascenso apertura liguilla,0.8832011222839355
+FootballMatch_left.csv,title,2006 uefa super cup,SoccerTournament_left,title,2006 uefa intertoto cup,0.88242506980896
+FootballMatch_left.csv,title,1976 uefa cup final,SoccerTournament_left,title,uefa euro 1976,0.8815833330154419
+FootballMatch_left.csv,title,2013 trinidad and tobago charity shield,SoccerTournament_left,title,2009 trinidad and tobago goal shield,0.8801630735397339
+FootballMatch_left.csv,title,2012 dfl-supercup,SoccerTournament_left,title,2012 ufl cup,0.8771083950996399
+FootballMatch_left.csv,title,2009 concacaf champions league finals,SoccerTournament_left,title,2008 concacaf champions' cup,0.8766509294509888
+FootballMatch_left.csv,title,2012 uefa champions league final,SoccerTournament_left,title,2012 cerh european league final eight,0.8765146732330322
+FootballMatch_left.csv,title,1996 copa libertadores finals,SoccerTournament_left,title,1978 copa libertadores,0.8737013936042786
+FootballMatch_left.csv,title,2000 uefa cup final,SoccerTournament_left,title,uefa euro 2000,0.871123194694519
+FootballMatch_left.csv,title,2007 copa libertadores finals,SoccerTournament_left,title,2010 copa libertadores femenina,0.8684738874435425
+FootballMatch_left.csv,title,2011 concacaf champions league finals,SoccerTournament_left,title,2011 copa centroamericana,0.8681384325027466
+FootballMatch_left.csv,title,1995 copa libertadores finals,SoccerTournament_left,title,1980 copa libertadores,0.8656690120697021
+FootballMatch_left.csv,title,2009 uefa women's cup final,SoccerTournament_left,title,uefa women's euro 2009,0.8637000918388367
+FootballMatch_left.csv,title,2011 caf super cup,SoccerTournament_left,title,2011 cecafa cup,0.8633812069892883
+FootballMatch_left.csv,title,2011 hazfi cup final,SoccerTournament_left,title,2011 sheikh jassem cup,0.8601044416427612
+FootballMatch_left.csv,title,2004 uefa champions league final,SoccerTournament_left,title,uefa euro 2004,0.8555295467376709
+FootballMatch_left.csv,title,2011 caf confederation cup final,SoccerTournament_left,title,2011 fifa club world cup,0.8532220125198364
+FootballMatch_left.csv,title,2012 afc cup final,SoccerTournament_left,title,2014 afc cup,0.8530389666557312
+FootballMatch_left.csv,title,2002 intercontinental cup,SoccerTournament_left,title,2002 cosafa cup,0.8521126508712769
+FootballMatch_left.csv,title,2004 intercontinental cup,SoccerTournament_left,title,2004 cosafa cup,0.8520141839981079
+FootballMatch_left.csv,title,2001 intercontinental cup,SoccerTournament_left,title,2001 cosafa cup,0.8514723777770996
+FootballMatch_left.csv,title,2009 african nations championship final,SoccerTournament_left,title,2009 african u-17 championship,0.8505221605300903
+FootballMatch_left.csv,title,2001 fifa confederations cup final,SoccerTournament_left,title,2001 copa do brasil,0.8494138717651367
+FootballMatch_left.csv,title,1968 copa libertadores finals,SoccerTournament_left,title,1984 copa libertadores,0.8483697175979614
+FootballMatch_left.csv,title,2010 piala indonesia final,SoccerTournament_left,title,2012 piala indonesia,0.8470914959907532
+FootballMatch_left.csv,title,2005 fifa club world championship final,SoccerTournament_left,title,2005 fifa confederations cup,0.8459265232086182
+FootballMatch_left.csv,title,2013 uefa women's champions league final,SoccerTournament_left,title,uefa women's euro 2013,0.8443098664283752
+FootballMatch_left.csv,title,2010 concacaf champions league finals,SoccerTournament_left,title,2010 copa sudamericana,0.8418532013893127
+FootballMatch_left.csv,title,1992 european cup final,SoccerTournament_left,title,1992 uefa european under-16 football championship,0.8416130542755127
+FootballMatch_left.csv,title,2000 intercontinental cup,SoccerTournament_left,title,2000 cosafa cup,0.84114670753479
+FootballMatch_left.csv,title,2011 fai cup final,SoccerTournament_left,title,2011 cers cup final four,0.838442325592041
+FootballMatch_left.csv,title,2012 uzbekistan cup final,SoccerTournament_left,title,2012 tajik cup,0.8353897929191589
+FootballMatch_left.csv,title,2000 copa libertadores finals,SoccerTournament_left,title,2012 u-20 copa libertadores,0.8335621953010559
+FootballMatch_left.csv,title,2012 caf confederation cup final,SoccerTournament_left,title,2012 cecafa cup,0.8335515856742859
+FootballMatch_left.csv,title,2008 uefa cup final,SoccerTournament_left,title,uefa euro 2008,0.8333761692047119
+FootballMatch_left.csv,title,2011 uefa super cup,SoccerTournament_left,title,2011 ufl cup,0.8325619697570801
+FootballMatch_left.csv,title,2002 asian super cup,SoccerTournament_left,title,2005 south asian football federation gold cup,0.8303273916244507
+FootballMatch_left.csv,title,2008 coupe de france final,SoccerTournament_left,title,2008 coupe de l'outre-mer,0.8294370770454407
+FootballMatch_left.csv,title,2008 uefa women's cup final,SoccerTournament_left,title,2008 uefa women's under-19 championship,0.828941822052002
+FootballMatch_left.csv,title,2011 conference national play-off final,SoccerTournament_left,title,2011 third division football tournament,0.8282622694969177
+FootballMatch_left.csv,title,2003 copa libertadores finals,SoccerTournament_left,title,2011 u-20 copa libertadores,0.827814519405365
+FootballMatch_left.csv,title,2011 uefa women's champions league final,SoccerTournament_left,title,2011 uefa women's u-17 championship,0.8263232111930847
+FootballMatch_left.csv,title,2010 football league cup final,SoccerTournament_left,title,2010 cers cup final four,0.8255507349967957
+FootballMatch_left.csv,title,1992 european cup winners' cup final,SoccerTournament_left,title,1992 uefa european under-18 football championship,0.8251335620880127
+FootballMatch_left.csv,title,2012 football league trophy final,SoccerTournament_left,title,2012 football impact cup,0.8238027691841125
+FootballMatch_left.csv,title,2010 kor royal cup,SoccerTournament_left,title,2011 waratah cup,0.8229211568832397
+FootballMatch_left.csv,title,2005 caf super cup,SoccerTournament_left,title,2005 cosafa cup,0.8228744864463806
+FootballMatch_left.csv,title,2011 copa del rey final,SoccerTournament_left,title,2011 copa sudamericana,0.8224416971206665
+FootballMatch_left.csv,title,2012 kor royal cup,SoccerTournament_left,title,2012 vff cup,0.8205095529556274
+FootballMatch_left.csv,title,2012 conference national play-off final,SoccerTournament_left,title,2012 third division football tournament,0.8192522525787354
+FootballMatch_left.csv,title,2000 ofc nations cup final,SoccerTournament_left,title,2008 ofc nations cup,0.8173117637634277
+FootballMatch_left.csv,title,2010 uefa women's champions league final,SoccerTournament_left,title,2010 uefa women's under-19 championship,0.8168500661849976
+FootballMatch_left.csv,title,2006 recopa sudamericana,SoccerTournament_left,title,2006 copa sudamericana,0.816720724105835
+FootballMatch_left.csv,title,2002 uefa super cup,SoccerTournament_left,title,2002 uefa european under-19 football championship,0.815495491027832
+FootballMatch_left.csv,title,2005 copa del rey final,SoccerTournament_left,title,2005 copa sudamericana,0.8150371313095093
+FootballMatch_left.csv,title,2012 fa trophy final,SoccerTournament_left,title,2012 cers cup final four,0.8147445321083069
+FootballMatch_left.csv,title,2013 copa del rey final,SoccerTournament_left,title,2013 copa sudamericana,0.8145322799682617
+FootballMatch_left.csv,title,2013 football league trophy final,SoccerTournament_left,title,2013 football impact cup,0.8135969042778015
+FootballMatch_left.csv,title,1990 european cup final,SoccerTournament_left,title,1990 uefa european under-18 football championship,0.8130488395690918
+FootballMatch_left.csv,title,2010 hazfi cup final,SoccerTournament_left,title,2010 cecafa cup,0.8128044605255127
+FootballMatch_left.csv,title,2009 hazfi cup final,SoccerTournament_left,title,2009 cecafa cup,0.8122239112854004
+FootballMatch_left.csv,title,2008 uefa super cup,SoccerTournament_left,title,2008 caf confederation cup,0.8117285966873169
+FootballMatch_left.csv,title,2010 liga nacional de ascenso apertura final,SoccerTournament_left,title,2004 copa interclubes uncaf,0.8102836012840271
+FootballMatch_left.csv,title,1986 european cup final,SoccerTournament_left,title,1986 uefa european under-16 football championship,0.8097836971282959
+FootballMatch_left.csv,title,2010 liga indonesia premier division final,SoccerTournament_left,title,liga primer indonesia pre-season tournament,0.8096375465393066
+FootballMatch_left.csv,title,1965 copa libertadores finals,SoccerTournament_left,title,2014 copa libertadores,0.8084828853607178
+FootballMatch_left.csv,title,2007 copa del rey final,SoccerTournament_left,title,2007 copa sudamericana,0.8059436082839966
+FootballMatch_left.csv,title,2012 chatham cup,SoccerTournament_left,title,2012 mackenzie trading independence cup,0.8056520223617554
+FootballMatch_left.csv,title,1985 european cup final,SoccerTournament_left,title,1985 uefa european under-16 football championship,0.8051767349243164
+FootballMatch_left.csv,title,2015 afc asian cup final,SoccerTournament_left,title,2015 caf confederation cup,0.803930401802063
+FootballMatch_left.csv,title,2006 copa del rey final,SoccerTournament_left,title,copa pachuca 2006,0.802811861038208
+FootballMatch_left.csv,title,2002 caf cup final,SoccerTournament_left,title,2002 fifa world cup qualification (afc),0.80231773853302
+FootballMatch_left.csv,title,1994 copa del rey final,SoccerTournament_left,title,1994 copa conmebol,0.802038848400116
+FootballMatch_left.csv,title,1988 uefa cup final,SoccerTournament_left,title,1988 uefa european under-18 football championship,0.8016782999038696
+FootballMatch_left.csv,title,2008 fai cup final,SoccerTournament_left,title,2008 cecafa cup,0.8016571998596191
+FootballMatch_left.csv,title,1991 concacaf gold cup final,SoccerTournament_left,title,1991 copa do brasil,0.8016185760498047
+FootballMatch_left.csv,title,2009 uefa super cup,SoccerTournament_left,title,2009 uefa european under-21 football championship,0.799031138420105
+FootballMatch_left.csv,title,2012 football league one play-off final,SoccerTournament_left,title,2013 i-league 2nd division final round,0.798604428768158
+FootballMatch_left.csv,title,2010 afc champions league final,SoccerTournament_left,title,2015 afc champions league,0.798602819442749
+FootballMatch_left.csv,title,1997 intercontinental cup,SoccerTournament_left,title,2003 cosafa cup,0.7979341149330139
+FootballMatch_left.csv,title,2012 hazfi cup final,SoccerTournament_left,title,2012 gabala cup,0.7976858615875244
+FootballMatch_left.csv,title,2011 coupe de france final,SoccerTournament_left,title,2012 coupe de l'outre-mer,0.7962055206298828
+FootballMatch_left.csv,title,1986 european cup winners' cup final,SoccerTournament_left,title,1986 uefa european under-18 football championship,0.7960680723190308
+FootballMatch_left.csv,title,2009 supercoppa italiana,SoccerTournament_left,title,2009 interliga,0.7955343127250671
+FootballMatch_left.csv,title,2005 uefa super cup,SoccerTournament_left,title,2005 uefa european under-17 football championship,0.7952704429626465
+FootballMatch_left.csv,title,1988 european cup winners' cup final,SoccerTournament_left,title,1988 uefa european under-21 football championship,0.79402756690979
+FootballMatch_left.csv,title,2008 libyan al-fatih cup final,SoccerTournament_left,title,2008 mohammed bin rashid international football championship,0.7933909893035889
+FootballMatch_left.csv,title,2009 afc cup final,SoccerTournament_left,title,2015 afc cup,0.792729377746582
+FootballMatch_left.csv,title,1994 recopa sudamericana,SoccerTournament_left,title,2004 copa sudamericana,0.7923117876052856
+FootballMatch_left.csv,title,1989 european super cup,SoccerTournament_left,title,1990 uefa european under-21 football championship,0.7912648916244507
+FootballMatch_left.csv,title,2002 african cup of nations final,SoccerTournament_left,title,2002 fifa world cup qualification,0.7910609245300293
+FootballMatch_left.csv,title,2000 asian super cup,SoccerTournament_left,title,2010 waratah cup,0.7910562753677368
+FootballMatch_left.csv,title,1930 fifa world cup final,SoccerTournament_left,title,1934 fifa world cup,0.7910434007644653
+FootballMatch_left.csv,title,2010 supercoppa italiana,SoccerTournament_left,title,2010 interliga,0.7900651693344116
+FootballMatch_left.csv,title,2011 fa trophy final,SoccerTournament_left,title,2011 vff cup,0.7895001173019409
+FootballMatch_left.csv,title,1996 intercontinental cup,SoccerTournament_left,title,2006 cosafa cup,0.7890709638595581
+FootballMatch_left.csv,title,2012 copa argentina final,SoccerTournament_left,title,2012 copa do brasil,0.7884014844894409
+FootballMatch_left.csv,title,2009 uefa cup final,SoccerTournament_left,title,2009 uefa european under-19 football championship,0.7863067388534546
+FootballMatch_left.csv,title,1992 football league cup final,SoccerTournament_left,title,1992 uefa european under-21 football championship,0.7842779755592346
+FootballMatch_left.csv,title,2012 suruga bank championship,SoccerTournament_left,title,2012 aceh governor cup,0.7836039066314697
+FootballMatch_left.csv,title,1974 football league cup final,SoccerTournament_left,title,1974 uefa european under-18 football championship,0.783500075340271
+FootballMatch_left.csv,title,2011 indian super cup,SoccerTournament_left,title,2011 sultan qaboos cup,0.7815693616867065
+FootballMatch_left.csv,title,2010 turkish super cup,SoccerTournament_left,title,2010 mauritian republic cup,0.7803023457527161
+FootballMatch_left.csv,title,2011 fa community shield,SoccerTournament_left,title,2013 ifa shield,0.779892086982727
+FootballMatch_left.csv,title,2011 kenyan super cup,SoccerTournament_left,title,2011 african u-17 championship,0.7776147127151489
+FootballMatch_left.csv,title,2013 uefa super cup,SoccerTournament_left,title,2013 chinese fa cup,0.7774340510368347
+FootballMatch_left.csv,title,1991 intercontinental cup,SoccerTournament_left,title,1991 uncaf nations cup,0.7769775390625
+FootballMatch_left.csv,title,2004 african cup of nations final,SoccerTournament_left,title,2004 copa do brasil,0.7769745588302612
+FootballMatch_left.csv,title,2011 supercoppa italiana,SoccerTournament_left,title,2006 interliga,0.7768979072570801
+FootballMatch_left.csv,title,2009 recopa sudamericana,SoccerTournament_left,title,2009 copa sudamericana,0.7762521505355835
+FootballMatch_left.csv,title,1990 dfb-supercup,SoccerTournament_left,title,1990 fifa world cup qualification (afc),0.7748821973800659
+FootballMatch_left.csv,title,1995 asian super cup,SoccerTournament_left,title,2010 west asian football federation championship,0.7745078206062317
+FootballMatch_left.csv,title,2009 kenyan super cup,SoccerTournament_left,title,2009 kagame interclub cup,0.774331271648407
+FootballMatch_left.csv,title,2012 svenska supercupen (women),SoccerTournament_left,title,2012 uefa women's u-17 championship,0.7739022374153137
+FootballMatch_left.csv,title,1993 intercontinental cup,SoccerTournament_left,title,1993 copa conmebol,0.7737925052642822
+FootballMatch_left.csv,title,2010 conference national play-off final,SoccerTournament_left,title,2010 afc u-16 championship,0.773527979850769
+FootballMatch_left.csv,title,2010 copa del rey final,SoccerTournament_left,title,2009 copa pachuca,0.7734068632125854
+FootballMatch_left.csv,title,2004 fa community shield,SoccerTournament_left,title,2007 cosafa cup,0.7727211117744446
+FootballMatch_left.csv,title,2010 libyan super cup,SoccerTournament_left,title,2007 mohammed bin rashid international football championship,0.7713609933853149
+FootballMatch_left.csv,title,1962 european cup final,SoccerTournament_left,title,1962 fifa world cup qualification,0.7712011933326721
+FootballMatch_left.csv,title,2001 copa del rey final,SoccerTournament_left,title,copa mesoamericana 2011,0.770336389541626
+FootballMatch_left.csv,title,1994 uefa cup final,SoccerTournament_left,title,1994 fifa world cup qualification (afc),0.7692147493362427
+FootballMatch_left.csv,title,1986 football league cup final,SoccerTournament_left,title,1986 fifa world cup qualification (afc),0.7692058682441711
+FootballMatch_left.csv,title,2006 conference national play-off final,SoccerTournament_left,title,2006 ncaa division i men's soccer championship,0.7686025500297546
+FootballMatch_left.csv,title,2012 kenyan super cup,SoccerTournament_left,title,2012 kagame interclub cup,0.7675992846488953
+FootballMatch_left.csv,title,2009 football league trophy final,SoccerTournament_left,title,2009 world football challenge,0.7673574686050415
+FootballMatch_left.csv,title,2009 svenska supercupen,SoccerTournament_left,title,2009 cosafa cup,0.7672935724258423
+FootballMatch_left.csv,title,2011 ofc champions league final,SoccerTournament_left,title,2011 uefa european under-19 football championship,0.7671773433685303
+FootballMatch_left.csv,title,1966 copa libertadores finals,SoccerTournament_left,title,2015 copa libertadores,0.7669650316238403
+FootballMatch_left.csv,title,1993 supercoppa italiana,SoccerTournament_left,title,1993 torneo di viareggio,0.7655583620071411
+FootballMatch_left.csv,title,1996 asian super cup,SoccerTournament_left,title,2005 uncaf nations cup,0.7651832103729248
+FootballMatch_left.csv,title,1992 intercontinental cup,SoccerTournament_left,title,1992 copa conmebol,0.7643792033195496
+FootballMatch_left.csv,title,2010 fa women's cup final,SoccerTournament_left,title,2012 hong kong women league fa cup,0.7628268003463745
+FootballMatch_left.csv,title,1997 asian super cup,SoccerTournament_left,title,2013 eaff east asian cup,0.7624130249023438
+FootballMatch_left.csv,title,2000 african cup of nations final,SoccerTournament_left,title,2000 copa do brasil,0.7622146010398865
+FootballMatch_left.csv,title,1988 intercontinental cup,SoccerTournament_left,title,2008 cosafa cup,0.7621654272079468
+FootballMatch_left.csv,title,1986 intercontinental cup,SoccerTournament_left,title,1985 concacaf championship,0.7611255645751953
+FootballMatch_left.csv,title,2010 kenyan super cup,SoccerTournament_left,title,2011 wafu nations cup,0.760331928730011
+FootballMatch_left.csv,title,2010 uefa europa league final,SoccerTournament_left,title,2010 uefa european under-19 football championship,0.7598347663879395
+FootballMatch_left.csv,title,2009 uefa champions league final,SoccerTournament_left,title,2009 uefa european under-17 football championship,0.7593895196914673
+FootballMatch_left.csv,title,2008 suruga bank championship,SoccerTournament_left,title,2008 merdeka tournament,0.7589817047119141
+FootballMatch_left.csv,title,2012 football league two play-off final,SoccerTournament_left,title,2012 second division football tournament,0.7589455842971802
+FootballMatch_left.csv,title,argentina v england (1986 fifa world cup),SoccerTournament_left,title,1986 fifa world cup qualification,0.7586170434951782
+FootballMatch_left.csv,title,1964 european cup final,SoccerTournament_left,title,1965 uefa european under-18 football championship,0.7573668956756592
+FootballMatch_left.csv,title,1998 recopa sudamericana,SoccerTournament_left,title,copa panamericana 2007,0.7572770714759827
+FootballMatch_left.csv,title,2002 copa del rey final,SoccerTournament_left,title,2002 copa interclubes uncaf,0.7568438053131104

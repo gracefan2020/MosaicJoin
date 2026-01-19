@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Song_left.csv,title,brodovi,Drug_left,title,bromadol,0.8094189167022705
+Song_left.csv,title,anouschka,Drug_left,title,anrukinzumab,0.8088123798370361
+Song_left.csv,title,samo shampioni,Drug_left,title,samalizumab,0.791369616985321
+Song_left.csv,title,campanilleros,Drug_left,title,camptothecin,0.7853233814239502
+Song_left.csv,title,kolyadka,Drug_left,title,gevokizumab,0.785027027130127
+Song_left.csv,title,voorgoed voorbij,Drug_left,title,vorsetuzumab,0.7812240719795227
+Song_left.csv,title,zauvijek volim te,Drug_left,title,vorsetuzumab mafodotin,0.7637006044387817
+Song_left.csv,title,nuku pommiin,Drug_left,title,ponezumab,0.7596102952957153
+Song_left.csv,title,sevince,Drug_left,title,sevelamer,0.7521584630012512
+Song_left.csv,title,kuin silloin ennen,Drug_left,title,silibinin,0.7520471811294556
+Song_left.csv,title,moja ljubavi,Drug_left,title,motavizumab,0.7450571060180664
+Song_left.csv,title,sveta ljubav,Drug_left,title,vedolizumab,0.7428019046783447
+Song_left.csv,title,masakali,Drug_left,title,mmai,0.7339162826538086
+Song_left.csv,title,hrafntinna,Drug_left,title,remikiren,0.7318897247314453
+Song_left.csv,title,peklo milencov,Drug_left,title,pateclizumab,0.7193141579627991
+Song_left.csv,title,lady elspat,Drug_left,title,elsilimomab,0.7170872688293457
+Song_left.csv,title,aspro mavro,Drug_left,title,mazindol,0.7078906297683716
+Song_left.csv,title,"ne zori, zoro",Drug_left,title,zileuton,0.7070475816726685
+Song_left.csv,title,where is the line,Drug_left,title,intriptyline,0.7066853046417236
+Song_left.csv,title,toi (song),Drug_left,title,tocainide,0.7062423825263977
+Song_left.csv,title,glasgow peggie,Drug_left,title,pegaspargase,0.70561283826828
+Song_left.csv,title,czarna dziewczyna,Drug_left,title,dacetuzumab,0.7021523714065552
+Song_left.csv,title,straatdeuntje,Drug_left,title,stamulumab,0.7016686201095581
+Song_left.csv,title,main naahin maakhan khaayo,Drug_left,title,tanezumab,0.7001648545265198
+Song_left.csv,title,tajomstvo hier,Drug_left,title,tafamidis,0.6973192691802979
+Song_left.csv,title,een speeldoos,Drug_left,title,eteplirsen,0.6957653164863586
+Song_left.csv,title,s druz'yami,Drug_left,title,rozrolimupab,0.693264901638031
+Song_left.csv,title,alif allah (jugni),Drug_left,title,alimadol,0.6879337430000305
+Song_left.csv,title,ocho kandelikas,Drug_left,title,olokizumab,0.6862347722053528
+Song_left.csv,title,harimuraleeravam,Drug_left,title,talsupram,0.6847004890441895
+Song_left.csv,title,lenge leve livet,Drug_left,title,lenograstim,0.6824984550476074
+Song_left.csv,title,dukkemann,Drug_left,title,duligotumab,0.6821614503860474
+Song_left.csv,title,kallai mattum,Drug_left,title,mifamurtide,0.6809663772583008
+Song_left.csv,title,antes do adeus,Drug_left,title,adbica,0.6718730926513672
+Song_left.csv,title,cymbaline,Drug_left,title,sabcomeline,0.6705849170684814
+Song_left.csv,title,kannum kannum kalanthu,Drug_left,title,enavatuzumab,0.6703618168830872
+Song_left.csv,title,laat me nu gaan,Drug_left,title,amtolmetin guacil,0.6690093278884888
+Song_left.csv,title,el choclo,Drug_left,title,bucindolol,0.6685738563537598
+Song_left.csv,title,korake ti znam,Drug_left,title,itolizumab,0.6656961441040039
+Song_left.csv,title,emor shalom,Drug_left,title,ethchlorvynol,0.6641638278961182
+Song_left.csv,title,po dolinam i po vzgoriam,Drug_left,title,ezetimibe,0.6627941131591797
+Song_left.csv,title,hyacinth house,Drug_left,title,hycanthone,0.661717414855957
+Song_left.csv,title,verliebt in dich,Drug_left,title,naltriben,0.6608044505119324
+Song_left.csv,title,supervixen,Drug_left,title,sugammadex,0.6553440093994141
+Song_left.csv,title,bozner bergsteigerlied,Drug_left,title,oblimersen,0.6551259756088257
+Song_left.csv,title,alles heeft ritme,Drug_left,title,ritipenem,0.6548031568527222
+Song_left.csv,title,tanzania nakupenda kwa moyo wote,Drug_left,title,mogamulizumab,0.6539769172668457
+Song_left.csv,title,pia prosefhi,Drug_left,title,pidilizumab,0.651859700679779
+Song_left.csv,title,i me mine,Drug_left,title,mebroqualone,0.6504643559455872
+Song_left.csv,title,der hohenfriedberger,Drug_left,title,gestodene,0.6481469869613647
+Song_left.csv,title,kajra re,Drug_left,title,relcovaptan,0.646959662437439
+Song_left.csv,title,neke davne zvezde,Drug_left,title,zosuquidar,0.6467422246932983
+Song_left.csv,title,vita vidder,Drug_left,title,volasertib,0.6456211805343628
+Song_left.csv,title,de eerste keer,Drug_left,title,drisapersen,0.6449723243713379
+Song_left.csv,title,edesamegina endukalidina,Drug_left,title,edrecolomab,0.644682765007019
+Song_left.csv,title,palesteena,Drug_left,title,thiotepa,0.6437404155731201
+Song_left.csv,title,fause foodrage,Drug_left,title,fasiplon,0.6436437368392944
+Song_left.csv,title,r.a.m.o.n.e.s.,Drug_left,title,raxibacumab,0.6428318023681641
+Song_left.csv,title,hind etin,Drug_left,title,ethulose,0.642524003982544
+Song_left.csv,title,faget (song),Drug_left,title,fasudil,0.6409528255462646
+Song_left.csv,title,gude wallace,Drug_left,title,bd1018,0.6408584713935852
+Song_left.csv,title,41 (song),Drug_left,title,mld-41,0.6379196047782898
+Song_left.csv,title,ah-leu-cha,Drug_left,title,6-meo-thh,0.6367785930633545
+Song_left.csv,title,hey tuttie tatie,Drug_left,title,tafluprost,0.6355586051940918
+Song_left.csv,title,retour,Drug_left,title,remacemide,0.6334824562072754
+Song_left.csv,title,horepse,Drug_left,title,repaglinide,0.6333889961242676
+Song_left.csv,title,nygammal vals,Drug_left,title,toralizumab,0.633130669593811
+Song_left.csv,title,pred da se razdeni,Drug_left,title,prednicarbate,0.632409930229187
+Song_left.csv,title,awara hoon,Drug_left,title,elzasonan,0.6311149597167969
+Song_left.csv,title,echa pa'lla (manos pa'rriba),Drug_left,title,ecallantide,0.6295415163040161
+Song_left.csv,title,sol de inverno,Drug_left,title,solanezumab,0.6286827325820923
+Song_left.csv,title,hey diddle diddle,Drug_left,title,didanosine,0.6263240575790405
+Song_left.csv,title,eloise (arvingarna song),Drug_left,title,elcatonin,0.6252432465553284
+Song_left.csv,title,rimi rimi ley,Drug_left,title,iclaprim,0.623199462890625
+Song_left.csv,title,minn hinsti dans,Drug_left,title,sivelestat,0.6230188608169556
+Song_left.csv,title,villotta,Drug_left,title,varespladib,0.6227774620056152
+Song_left.csv,title,to diko sou asteri,Drug_left,title,tildrakizumab,0.6220377683639526
+Song_left.csv,title,mangwane mpulele,Drug_left,title,montelukast,0.6218789219856262
+Song_left.csv,title,horis skopo,Drug_left,title,travoprost,0.6202465295791626
+Song_left.csv,title,echoes (pink floyd song),Drug_left,title,echothiophate,0.6173446178436279
+Song_left.csv,title,i giorni dell'arcobaleno,Drug_left,title,izonsteride,0.6172490119934082
+Song_left.csv,title,dafino vino crveno,Drug_left,title,5-meo-dalt,0.6172237992286682
+Song_left.csv,title,hora din moldova,Drug_left,title,cantuzumab ravtansine,0.6139476299285889
+Song_left.csv,title,send it to me,Drug_left,title,2c-tfm-nbome,0.6126357316970825
+Song_left.csv,title,fantasiaa,Drug_left,title,cefuzonam,0.6126232743263245
+Song_left.csv,title,glorified g,Drug_left,title,glimepiride,0.612401008605957
+Song_left.csv,title,feuer (song),Drug_left,title,fosfestrol,0.6114557981491089
+Song_left.csv,title,huffin,Drug_left,title,bufotenin,0.611339807510376
+Song_left.csv,title,fembot (song),Drug_left,title,futuximab,0.6099377870559692
+Song_left.csv,title,lady maisry,Drug_left,title,mmdma,0.6062389612197876
+Song_left.csv,title,caminito (song),Drug_left,title,camylofin,0.6056932806968689
+Song_left.csv,title,jaan pehechan ho,Drug_left,title,jnj-q2,0.6048737168312073
+Song_left.csv,title,rocky raccoon,Drug_left,title,rosonabant,0.6020298600196838
+Song_left.csv,title,the gnome,Drug_left,title,gavilimomab,0.6011592149734497
+Song_left.csv,title,pyar kiya to darna kya,Drug_left,title,darusentan,0.6001832485198975
+Song_left.csv,title,soy de san luis,Drug_left,title,losmapimod,0.600156843662262
+Song_left.csv,title,mne s toboy horosho,Drug_left,title,tol101,0.6000969409942627
+Song_left.csv,title,du hast mich so fasziniert,Drug_left,title,micafungin,0.5997906923294067
+Song_left.csv,title,blancheflour and jollyflorice,Drug_left,title,eflornithine,0.5987242460250854
+Song_left.csv,title,les amants de minuit,Drug_left,title,minretumomab,0.5985479354858398
+Song_left.csv,title,contra el viento,Drug_left,title,dichlorvos,0.5980968475341797
+Song_left.csv,title,clar de track,Drug_left,title,ladostigil,0.5974618792533875
+Song_left.csv,title,hablemos del amor,Drug_left,title,faxeladol,0.5972057580947876
+Song_left.csv,title,james hatley,Drug_left,title,jwh-019,0.5963008403778076
+Song_left.csv,title,zindagi ek safar hai suhana,Drug_left,title,sifalimumab,0.5955252647399902
+Song_left.csv,title,kempy kay,Drug_left,title,keliximab,0.5935467481613159
+Song_left.csv,title,glam (song),Drug_left,title,gliclazide,0.5925147533416748
+Song_left.csv,title,i'm gwine ober de mountain,Drug_left,title,degarelix,0.5924301743507385
+Song_left.csv,title,o rosa bella,Drug_left,title,ropinirole,0.5913174152374268
+Song_left.csv,title,troppo tempo,Drug_left,title,tiadenol,0.590779185295105
+Song_left.csv,title,k-k-k-katy,Drug_left,title,kml-010,0.5885992646217346
+Song_left.csv,title,cygnet committee,Drug_left,title,cpccoet,0.5885761976242065
+Song_left.csv,title,doctor robert,Drug_left,title,rovelizumab,0.5883704423904419
+Song_left.csv,title,ekbar biday de ma ghure ashi,Drug_left,title,butamben,0.5882136225700378
+Song_left.csv,title,answer me,Drug_left,title,aee788,0.5872026681900024
+Song_left.csv,title,een beetje,Drug_left,title,olcegepant,0.5867472887039185
+Song_left.csv,title,cluck old hen,Drug_left,title,cloprednol,0.5864490270614624
+Song_left.csv,title,the glendy burk,Drug_left,title,bufexamac,0.5852384567260742
+Song_left.csv,title,my mummy's dead,Drug_left,title,necitumumab,0.5852314233779907
+Song_left.csv,title,io senza te,Drug_left,title,iopamidol,0.5852288007736206
+Song_left.csv,title,more is more,Drug_left,title,almorexant,0.5843362808227539
+Song_left.csv,title,ser benfiquista,Drug_left,title,benexate,0.5837332010269165
+Song_left.csv,title,amours mortes (tant de peine),Drug_left,title,alipogene tiparvovec,0.5824316740036011
+Song_left.csv,title,fors seulement,Drug_left,title,cefsulodin,0.5822189450263977
+Song_left.csv,title,para llenarme de ti,Drug_left,title,tapentadol,0.5819770693778992
+Song_left.csv,title,heliotrope bouquet,Drug_left,title,hexethal,0.5818163156509399
+Song_left.csv,title,iemand als jij,Drug_left,title,imafen,0.5818095803260803
+Song_left.csv,title,questo amore,Drug_left,title,mecloqualone,0.5802582502365112
+Song_left.csv,title,vrede (song),Drug_left,title,vorapaxar,0.5798693895339966
+Song_left.csv,title,nella fantasia,Drug_left,title,lintuzumab,0.5796909332275391
+Song_left.csv,title,canzone per te,Drug_left,title,cangrelor,0.5789734721183777
+Song_left.csv,title,hey gyp (dig the slowness),Drug_left,title,gyki-52895,0.5789046883583069
+Song_left.csv,title,weil's dr guat got,Drug_left,title,gedocarnil,0.5784857273101807
+Song_left.csv,title,my funny friend and me,Drug_left,title,mefruside,0.5768865346908569
+Song_left.csv,title,"long, long, long",Drug_left,title,butriptyline,0.5768435001373291
+Song_left.csv,title,"stani, stani ibar vodo",Drug_left,title,ceftiofur,0.5764495134353638
+Song_left.csv,title,nobody home,Drug_left,title,noretynodrel,0.5762084126472473
+Song_left.csv,title,"piove (ciao, ciao bambina)",Drug_left,title,ciprefadol,0.5761674642562866
+Song_left.csv,title,n'avoue jamais,Drug_left,title,niclosamide,0.5757101774215698
+Song_left.csv,title,potje met vet,Drug_left,title,vandetanib,0.5739020109176636
+Song_left.csv,title,the metal,Drug_left,title,armodafinil,0.5737138986587524
+Song_left.csv,title,a night in tunisia,Drug_left,title,tefibazumab,0.5736122131347656
+Song_left.csv,title,so in love,Drug_left,title,sotalol,0.5734306573867798
+Song_left.csv,title,aldri i livet,Drug_left,title,almokalant,0.5712391138076782
+Song_left.csv,title,nadlik beyakhad ner (light a candle),Drug_left,title,nifekalant,0.5708886384963989
+Song_left.csv,title,4 the tears in your eyes,Drug_left,title,4c-t-2,0.570285439491272
+Song_left.csv,title,madonna mia,Drug_left,title,mazaticol,0.5702828168869019
+Song_left.csv,title,jeg rev et blad ud af min dagbog,Drug_left,title,repirinast,0.5698391199111938
+Song_left.csv,title,far east man,Drug_left,title,faralimomab,0.5691318511962891
+Song_left.csv,title,jamie foyers,Drug_left,title,bd1063,0.568661093711853
+Song_left.csv,title,x-is coming,Drug_left,title,cecxg,0.5677394866943359
+Song_left.csv,title,fast car (namie amuro song),Drug_left,title,carmofur,0.5652356147766113
+Song_left.csv,title,bella notte,Drug_left,title,linifanib,0.563937783241272
+Song_left.csv,title,burd ellen and young tamlane,Drug_left,title,bd1008,0.5631619095802307
+Song_left.csv,title,"un peu de poivre, un peu de sel",Drug_left,title,prosidol,0.5630718469619751
+Song_left.csv,title,tere tille ton,Drug_left,title,teriflunomide,0.562859058380127
+Song_left.csv,title,1 life,Drug_left,title,nalmexone,0.5627312660217285
+Song_left.csv,title,"prinz eugen, der edle ritter",Drug_left,title,prinomastat,0.5622289776802063
+Song_left.csv,title,black betty,Drug_left,title,bhff,0.5618996620178223
+Song_left.csv,title,due grosse lacrime bianche,Drug_left,title,talimogene laherparepvec,0.5616623759269714
+Song_left.csv,title,pistol of fire,Drug_left,title,felvizumab,0.5616277456283569
+Song_left.csv,title,willie o douglas dale,Drug_left,title,o-774,0.5615149736404419
+Song_left.csv,title,hey bulldog,Drug_left,title,guselkumab,0.5614801049232483
+Song_left.csv,title,si no te hubiera conocido,Drug_left,title,cefotaxime,0.5614429116249084
+Song_left.csv,title,the sprig of thyme,Drug_left,title,spirapril,0.560294508934021
+Song_left.csv,title,amazing journey,Drug_left,title,tripamide,0.5595501661300659
+Song_left.csv,title,witchqueen of eldorado,Drug_left,title,arfendazam,0.5593109130859375
+Song_left.csv,title,equinox (standard),Drug_left,title,roquinimex,0.5590375065803528
+Song_left.csv,title,westside slaughterhouse,Drug_left,title,bd1067,0.5584418773651123
+Song_left.csv,title,isis (song),Drug_left,title,unifiram,0.5580674409866333
+Song_left.csv,title,sun bird,Drug_left,title,pegsunercept,0.5580170154571533
+Song_left.csv,title,sonntag (song),Drug_left,title,atrasentan,0.5580148696899414
+Song_left.csv,title,"ride on, baby",Drug_left,title,carisbamate,0.5568132400512695
+Song_left.csv,title,mera naam chin chin chu,Drug_left,title,amatuximab,0.5566409826278687
+Song_left.csv,title,siberian khatru,Drug_left,title,mapatumumab,0.5564919710159302
+Song_left.csv,title,stemmen i mit liv,Drug_left,title,mitiglinide,0.5559912919998169
+Song_left.csv,title,sugar town,Drug_left,title,bupranolol,0.5550299882888794
+Song_left.csv,title,t.b. sheets,Drug_left,title,bd-1047,0.5527287125587463
+Song_left.csv,title,mutilate the beat,Drug_left,title,mosapride,0.5525392889976501
+Song_left.csv,title,"bewitched, bothered and bewildered",Drug_left,title,bemegride,0.552354097366333
+Song_left.csv,title,one rode to asa bay,Drug_left,title,acarbose,0.5513955354690552
+Song_left.csv,title,march of the malvinas,Drug_left,title,miltefosine,0.5513373613357544
+Song_left.csv,title,the narrow way,Drug_left,title,"way-181,187",0.5508201122283936
+Song_left.csv,title,a ram sam sam,Drug_left,title,ramucirumab,0.5499678254127502
+Song_left.csv,title,prospekt's march/poppyfields,Drug_left,title,plomestane,0.549609899520874
+Song_left.csv,title,mi noche triste,Drug_left,title,trilostane,0.5495999455451965
+Song_left.csv,title,man or muppet,Drug_left,title,menzb,0.5490342378616333
+Song_left.csv,title,danny farrell,Drug_left,title,dydrogesterone,0.5482347011566162
+Song_left.csv,title,mama corsica,Drug_left,title,abagovomab,0.5477162003517151
+Song_left.csv,title,where you lead,Drug_left,title,"way-100,135",0.5474480390548706
+Song_left.csv,title,little robin redbreast,Drug_left,title,gemeprost,0.5472801923751831
+Song_left.csv,title,long black limousine,Drug_left,title,carfilzomib,0.5464815497398376
+Song_left.csv,title,the national front disco,Drug_left,title,difmda,0.5460134148597717
+Song_left.csv,title,doctor foster,Drug_left,title,docetaxel,0.5459141135215759
+Song_left.csv,title,dominick the donkey,Drug_left,title,ixekizumab,0.5453324317932129
+Song_left.csv,title,calico skies,Drug_left,title,carteolol,0.5446903109550476
+Song_left.csv,title,kangding qingge,Drug_left,title,lr132,0.5446546077728271
+Song_left.csv,title,electric chapel,Drug_left,title,ebastine,0.5440899133682251
+Song_left.csv,title,goodbye horses,Drug_left,title,mefloquine,0.544060230255127
+Song_left.csv,title,arrivederci roma,Drug_left,title,cetilistat,0.5438740253448486

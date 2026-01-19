@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,Guy-Greenbrier earthquake swarm,Device_left.csv,title,SWARM,0.5829

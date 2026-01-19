@@ -1,0 +1,11 @@
+{
+  "table_name": "Legislature_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 1314,
+  "unique_values": 1314,
+  "processed_values": 1314,
+  "embedding_dim": 768,
+  "processing_time": 0.8548040390014648,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Legislature_left.csv"
+}

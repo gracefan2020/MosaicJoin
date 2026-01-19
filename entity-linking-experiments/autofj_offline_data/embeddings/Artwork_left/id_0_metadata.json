@@ -1,0 +1,11 @@
+{
+  "table_name": "Artwork_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 3112,
+  "unique_values": 3112,
+  "processed_values": 3112,
+  "embedding_dim": 768,
+  "processing_time": 1.5996739864349365,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Artwork_left.csv"
+}

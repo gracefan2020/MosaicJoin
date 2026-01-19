@@ -1,0 +1,14 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ShoppingMall_left.csv,title,St. David's (Cardiff),HistoricBuilding_left.csv,title,St David's Cathedral,0.64
+ShoppingMall_left.csv,title,Lancaster Mall,HistoricBuilding_left.csv,title,Lancaster Cathedral,0.64
+ShoppingMall_left.csv,title,Lancaster Mall,HistoricBuilding_left.csv,title,Lancaster Priory,0.64
+ShoppingMall_left.csv,title,Palm Beach Mall,HistoricBuilding_left.csv,title,"Cathedral of St. Ignatius of Loyola (Palm Beach, Florida)",0.64
+ShoppingMall_left.csv,title,Crossroads Center,HistoricBuilding_left.csv,title,Crossroads Christian Church,0.64
+ShoppingMall_left.csv,title,Indian Mall,HistoricBuilding_left.csv,title,"Immaculate Conception Parish, Indian Orchard",0.64
+ShoppingMall_left.csv,title,Rockville Mall,HistoricBuilding_left.csv,title,"St. Joseph Parish, Rockville",0.64
+ShoppingMall_left.csv,title,Lancaster Mall,HistoricBuilding_left.csv,title,"St Thomas' Church, Lancaster",0.64
+ShoppingMall_left.csv,title,Lancaster Mall,HistoricBuilding_left.csv,title,"St John the Evangelist's Church, Lancaster",0.64
+ShoppingMall_left.csv,title,St. Laurent Centre,HistoricBuilding_left.csv,title,"St Laurence and All Saints Church, Eastwood",0.64
+ShoppingMall_left.csv,title,Lancaster Mall,HistoricBuilding_left.csv,title,"Christ Church, Lancaster",0.64
+ShoppingMall_left.csv,title,West Manchester Mall,HistoricBuilding_left.csv,title,"St Peter's Church, Westleigh, Greater Manchester",0.64
+ShoppingMall_left.csv,title,Indian Mall,HistoricBuilding_left.csv,title,"St. George Indian Orthodox Church, Perth, Australia",0.64

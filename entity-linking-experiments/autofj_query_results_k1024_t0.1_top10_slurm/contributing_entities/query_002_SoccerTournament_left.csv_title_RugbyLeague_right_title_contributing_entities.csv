@@ -1,0 +1,59 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerTournament_left.csv,title,2008 african women's championship,RugbyLeague_right,title,african women's sevens championship,0.8881365060806274
+SoccerTournament_left.csv,title,2011 african nations championship,RugbyLeague_right,title,african development trophy,0.8211508989334106
+SoccerTournament_left.csv,title,2009 four nations tournament (women's football),RugbyLeague_right,title,women's nations cup (rugby union),0.8153023719787598
+SoccerTournament_left.csv,title,2008 pan-pacific championship,RugbyLeague_right,title,pacific nations cup,0.8054845333099365
+SoccerTournament_left.csv,title,2010 wafu nations cup,RugbyLeague_right,title,world rugby nations cup,0.8046410083770752
+SoccerTournament_left.csv,title,2012 j. league cup,RugbyLeague_right,title,top league champions cup,0.7939436435699463
+SoccerTournament_left.csv,title,2008 australian football international cup,RugbyLeague_right,title,oceania rugby cup,0.7938286662101746
+SoccerTournament_left.csv,title,2013 league of ireland cup,RugbyLeague_right,title,league cup (rugby league),0.7873286008834839
+SoccerTournament_left.csv,title,2011 singapore cup,RugbyLeague_right,title,saru gold cup,0.7774319648742676
+SoccerTournament_left.csv,title,women's football at the 2007 south pacific games,RugbyLeague_right,title,women's rugby sevens in south america,0.7701514959335327
+SoccerTournament_left.csv,title,2007 commonwealth of independent states cup,RugbyLeague_right,title,oceania women's sevens championship,0.7671846747398376
+SoccerTournament_left.csv,title,2011 wafu nations cup,RugbyLeague_right,title,world rugby pacific nations cup,0.7624876499176025
+SoccerTournament_left.csv,title,2007 caribbean cup,RugbyLeague_right,title,north america and caribbean women's sevens championship,0.7547261118888855
+SoccerTournament_left.csv,title,2006 aff u-20 youth championship,RugbyLeague_right,title,world rugby under 20 championship,0.7541446685791016
+SoccerTournament_left.csv,title,2012 south american under 17 women's championship,RugbyLeague_right,title,south american women's sevens,0.7513861656188965
+SoccerTournament_left.csv,title,2012 national women's cup,RugbyLeague_right,title,national women's rugby championship,0.7509959936141968
+SoccerTournament_left.csv,title,2008 afc women's asian cup,RugbyLeague_right,title,asian women's sevens championship,0.7498065233230591
+SoccerTournament_left.csv,title,1926 chatham cup,RugbyLeague_right,title,colonial cup,0.7425909042358398
+SoccerTournament_left.csv,title,2006 cosafa cup,RugbyLeague_right,title,the ron coote cup,0.7416954040527344
+SoccerTournament_left.csv,title,2005 king's cup,RugbyLeague_right,title,tom richards cup,0.7342236042022705
+SoccerTournament_left.csv,title,2008 commonwealth of independent states cup,RugbyLeague_right,title,asia rugby championship,0.7295190095901489
+SoccerTournament_left.csv,title,2008 east asian football championship,RugbyLeague_right,title,asian rugby championship,0.7259633541107178
+SoccerTournament_left.csv,title,2010 european championships in australian football,RugbyLeague_right,title,rugby league european championship b,0.723163366317749
+SoccerTournament_left.csv,title,2012 la manga cup,RugbyLeague_right,title,gio schoolboy cup,0.7216715216636658
+SoccerTournament_left.csv,title,2011 nations cup,RugbyLeague_right,title,world rugby under 20 trophy,0.7161166667938232
+SoccerTournament_left.csv,title,umbro cup,RugbyLeague_right,title,mitre 10 cup,0.7157210111618042
+SoccerTournament_left.csv,title,2007 fifa women's world cup,RugbyLeague_right,title,world rugby women's sevens series,0.7138969898223877
+SoccerTournament_left.csv,title,2010 afc women's asian cup,RugbyLeague_right,title,asia rugby women's championship,0.7120169401168823
+SoccerTournament_left.csv,title,2005 australian football international cup,RugbyLeague_right,title,anzac day cup,0.701495349407196
+SoccerTournament_left.csv,title,2006 interliga,RugbyLeague_right,title,national championship of excellence (italian premiership),0.7008137702941895
+SoccerTournament_left.csv,title,1997 world club championship,RugbyLeague_right,title,world club series,0.6978418827056885
+SoccerTournament_left.csv,title,2012 mackenzie trading independence cup,RugbyLeague_right,title,bundaberg red cup,0.6943551301956177
+SoccerTournament_left.csv,title,2012 indian federation cup,RugbyLeague_right,title,sri lanka sevens,0.6839812994003296
+SoccerTournament_left.csv,title,2007 merdeka tournament,RugbyLeague_right,title,sevens world series,0.6787508130073547
+SoccerTournament_left.csv,title,2011 unaf u-23 tournament,RugbyLeague_right,title,all japan university rugby championship,0.6775391101837158
+SoccerTournament_left.csv,title,2013 toulon tournament,RugbyLeague_right,title,rugby league european championship c,0.6772753596305847
+SoccerTournament_left.csv,title,2012 world football challenge,RugbyLeague_right,title,world rugby pacific challenge,0.6682721376419067
+SoccerTournament_left.csv,title,seattle sounders fc community shield,RugbyLeague_right,title,charity shield (nrl),0.666175365447998
+SoccerTournament_left.csv,title,2006 ofc club championship,RugbyLeague_right,title,caledonia regional league,0.6523162126541138
+SoccerTournament_left.csv,title,2012 second division football tournament,RugbyLeague_right,title,division 1-a rugby,0.650587797164917
+SoccerTournament_left.csv,title,2012 ofc nations cup,RugbyLeague_right,title,world rugby sevens series,0.6494262218475342
+SoccerTournament_left.csv,title,sydney festival of football,RugbyLeague_right,title,intrust super premiership nsw,0.6478829383850098
+SoccerTournament_left.csv,title,1999 oceania club championship,RugbyLeague_right,title,rugby league conference south premier,0.6451672315597534
+SoccerTournament_left.csv,title,2010 toulon tournament,RugbyLeague_right,title,france sevens,0.6422736644744873
+SoccerTournament_left.csv,title,football at the 1979 south pacific games,RugbyLeague_right,title,tonga national rugby league,0.6379777193069458
+SoccerTournament_left.csv,title,2006 setanta sports cup,RugbyLeague_right,title,international origin match,0.6339316368103027
+SoccerTournament_left.csv,title,men's football at the 2013 island games,RugbyLeague_right,title,ekstraliga (rugby),0.6298023462295532
+SoccerTournament_left.csv,title,2012 third division football tournament,RugbyLeague_right,title,rugby league conference north east division,0.6207132935523987
+SoccerTournament_left.csv,title,2007 interliga,RugbyLeague_right,title,2. rugby-bundesliga,0.6062372922897339
+SoccerTournament_left.csv,title,2011 league of ireland cup,RugbyLeague_right,title,scottish premiership (rugby),0.6041849851608276
+SoccerTournament_left.csv,title,2012 santosh trophy,RugbyLeague_right,title,south premier,0.5976022481918335
+SoccerTournament_left.csv,title,2006 tna world x cup tournament,RugbyLeague_right,title,all stars match,0.5963780283927917
+SoccerTournament_left.csv,title,1947 nafc championship,RugbyLeague_right,title,north east rugby league premier division,0.5934116840362549
+SoccerTournament_left.csv,title,2001 oceania club championship,RugbyLeague_right,title,rugby league conference london & south division,0.5879388451576233
+SoccerTournament_left.csv,title,2012 unaf u-20 tournament,RugbyLeague_right,title,pro12,0.5869887471199036
+SoccerTournament_left.csv,title,2011 j. league cup,RugbyLeague_right,title,"london, south and east merit league",0.5845000743865967
+SoccerTournament_left.csv,title,2002 four nations tournament (women's football),RugbyLeague_right,title,list of rugby world cup finals,0.5773880481719971
+SoccerTournament_left.csv,title,2010 cosafa senior challenge,RugbyLeague_right,title,st. patrick's day test,0.34862595796585083

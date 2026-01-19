@@ -1,0 +1,5 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Legislature_left.csv,title,54th Oklahoma Legislature,Country_left.csv,title,Roman Empire,0.6546
+Legislature_left.csv,title,Kandy Municipal Council,Country_left.csv,title,Isfendiyarids,0.6546
+Legislature_left.csv,title,Parliament of the Democratic Republic of the Congo,Country_left.csv,title,People's Republic of Angola,0.6546
+Legislature_left.csv,title,Slovenian Parliament,Country_left.csv,title,Turkmen Armenia,0.6546

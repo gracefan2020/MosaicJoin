@@ -1,0 +1,6 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NationalFootballLeagueSeason_left.csv,title,1921 Detroit Tigers (NFL) season,FootballLeagueSeason_right.csv,title,1921 Detroit Tigers season (NFL),0.6318
+NationalFootballLeagueSeason_left.csv,title,1900 Homestead Library & Athletic Club football team,FootballLeagueSeason_right.csv,title,1900 Homestead Library & Athletic Club football season,0.6318
+NationalFootballLeagueSeason_left.csv,title,2003 Barcelona Dragons season,FootballLeagueSeason_right.csv,title,2003 FC Barcelona Dragons season,0.6318
+NationalFootballLeagueSeason_left.csv,title,2002 Barcelona Dragons season,FootballLeagueSeason_right.csv,title,2002 FC Barcelona Dragons season,0.6318
+NationalFootballLeagueSeason_left.csv,title,1996 Minnesota Fighting Pike season,FootballLeagueSeason_right.csv,title,1996 Minnesota Fighting Pike Season,0.6318

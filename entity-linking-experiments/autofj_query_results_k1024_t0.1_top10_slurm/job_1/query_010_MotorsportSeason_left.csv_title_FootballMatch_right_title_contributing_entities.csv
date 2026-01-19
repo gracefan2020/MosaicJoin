@@ -1,0 +1,54 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+MotorsportSeason_left.csv,title,2011 eurocup clio season,FootballMatch_right,title,2011 uefa european under-21 championship final,0.7589766979217529
+MotorsportSeason_left.csv,title,1993 efda nations cup,FootballMatch_right,title,1993 dutch supercup,0.7234569787979126
+MotorsportSeason_left.csv,title,2009 plfa season,FootballMatch_right,title,2009 conference premier play-off final,0.7089916467666626
+MotorsportSeason_left.csv,title,1992 efda nations cup,FootballMatch_right,title,1992 dutch supercup,0.7019190192222595
+MotorsportSeason_left.csv,title,1995 efda nations cup,FootballMatch_right,title,2009 african championship of nations final,0.697144627571106
+MotorsportSeason_left.csv,title,2011 gt4 european cup season,FootballMatch_right,title,2011 j.league cup final,0.6964002847671509
+MotorsportSeason_left.csv,title,2011 plfa season,FootballMatch_right,title,2011 conference premier play-off final,0.6934017539024353
+MotorsportSeason_left.csv,title,1991 efda nations cup,FootballMatch_right,title,1991 dutch supercup,0.6911548972129822
+MotorsportSeason_left.csv,title,2005 gp2 series season,FootballMatch_right,title,2002 international rules series,0.6909487843513489
+MotorsportSeason_left.csv,title,2008 plfa season,FootballMatch_right,title,2008 conference premier play-off final,0.6862151622772217
+MotorsportSeason_left.csv,title,2011 super copa telcel,FootballMatch_right,title,2006 copa indonesia final,0.676371157169342
+MotorsportSeason_left.csv,title,1990 efda nations cup,FootballMatch_right,title,argentina 2â1 england (1986 fifa world cup),0.6728259325027466
+MotorsportSeason_left.csv,title,2008 gp2 series season,FootballMatch_right,title,2008 international rules series,0.6684961318969727
+MotorsportSeason_left.csv,title,1998 international sports racing series season,FootballMatch_right,title,1998 international rules series,0.6666954755783081
+MotorsportSeason_left.csv,title,2009 superleague formula season,FootballMatch_right,title,2009 wps all-star game,0.6641424298286438
+MotorsportSeason_left.csv,title,2011 gp2 series season,FootballMatch_right,title,2011 international rules series,0.6633459329605103
+MotorsportSeason_left.csv,title,2012 plfa season,FootballMatch_right,title,2012 conference premier play-off final,0.6580010652542114
+MotorsportSeason_left.csv,title,2009 gp2 series season,FootballMatch_right,title,2010 international rules series,0.6509178876876831
+MotorsportSeason_left.csv,title,2012 copa fiat brasil season,FootballMatch_right,title,soccer bowl 2013,0.6478021144866943
+MotorsportSeason_left.csv,title,2001 australian drivers' championship,FootballMatch_right,title,2010â11 w-league grand final,0.6381030082702637
+MotorsportSeason_left.csv,title,1998 efda nations cup,FootballMatch_right,title,2013 kenyan super cup (pre-season),0.6378256678581238
+MotorsportSeason_left.csv,title,1996 bpr global gt series season,FootballMatch_right,title,2006 international rules series,0.624574601650238
+MotorsportSeason_left.csv,title,2009 h1 unlimited season,FootballMatch_right,title,2006 international rules series,0.6244117021560669
+MotorsportSeason_left.csv,title,2010 asa midwest tour season,FootballMatch_right,title,2010 wps all-star game,0.6157569885253906
+MotorsportSeason_left.csv,title,1971 golden helmet (poland),FootballMatch_right,title,hungary 10â1 el salvador (1982),0.6152163743972778
+MotorsportSeason_left.csv,title,1996 efda nations cup,FootballMatch_right,title,brazil v italy (1982 fifa world cup),0.6116535663604736
+MotorsportSeason_left.csv,title,2010 h1 unlimited season,FootballMatch_right,title,2005 international rules series,0.6083011627197266
+MotorsportSeason_left.csv,title,2009 polish speedway first league,FootballMatch_right,title,2012 albanian supercup,0.6078788042068481
+MotorsportSeason_left.csv,title,1999 shell championship series,FootballMatch_right,title,1999 international rules series,0.60406494140625
+MotorsportSeason_left.csv,title,1985 can-am season,FootballMatch_right,title,1989 misl all-star game,0.6032747030258179
+MotorsportSeason_left.csv,title,2011 superleague formula season,FootballMatch_right,title,2010 conference premier play-off final,0.5986961126327515
+MotorsportSeason_left.csv,title,1995 bpr global gt series season,FootballMatch_right,title,2001 international rules series,0.5912526249885559
+MotorsportSeason_left.csv,title,2011 trofeo linea brasil season,FootballMatch_right,title,shamrock rovers xi v brazil,0.5660275220870972
+MotorsportSeason_left.csv,title,2008 golden helmet (poland),FootballMatch_right,title,battle of nuremberg (2006 fifa world cup),0.5640794038772583
+MotorsportSeason_left.csv,title,2000 sports racing world cup season,FootballMatch_right,title,2000 england v germany football match,0.5619312524795532
+MotorsportSeason_left.csv,title,1968 golden helmet (poland),FootballMatch_right,title,poland v brazil (1938 fifa world cup),0.5610928535461426
+MotorsportSeason_left.csv,title,1966 tasman series,FootballMatch_right,title,1870â71 home nations rugby union matches,0.557297945022583
+MotorsportSeason_left.csv,title,1976 golden helmet (poland),FootballMatch_right,title,austria v west germany (1978 fifa world cup),0.5549774169921875
+MotorsportSeason_left.csv,title,1988 world rally championship season,FootballMatch_right,title,1988 dfb-pokal final,0.5405175089836121
+MotorsportSeason_left.csv,title,2011 u.s. f2000 national championship,FootballMatch_right,title,2011 all-ireland minor hurling championship,0.5352120399475098
+MotorsportSeason_left.csv,title,1962 golden helmet (poland),FootballMatch_right,title,battle of santiago (1962 fifa world cup),0.5352007150650024
+MotorsportSeason_left.csv,title,1975 golden helmet (poland),FootballMatch_right,title,austria v switzerland (1954 fifa world cup),0.5295467972755432
+MotorsportSeason_left.csv,title,iroc xi,FootballMatch_right,title,france 1â1 ireland (18 november 2009),0.5230450630187988
+MotorsportSeason_left.csv,title,2001 formula renault 2000 eurocup season,FootballMatch_right,title,2001 germany v england football match,0.5174314975738525
+MotorsportSeason_left.csv,title,1963 golden helmet (poland),FootballMatch_right,title,battle of berne (1954 fifa world cup),0.510820746421814
+MotorsportSeason_left.csv,title,2009 golden helmet (poland),FootballMatch_right,title,hungary v el salvador (1982 fifa world cup),0.509558916091919
+MotorsportSeason_left.csv,title,2009 gt4 european cup season,FootballMatch_right,title,2009 republic of ireland v france football matches,0.5026366114616394
+MotorsportSeason_left.csv,title,1966 can-am season,FootballMatch_right,title,1968 dfb-pokal final,0.4953923225402832
+MotorsportSeason_left.csv,title,1970 golden helmet (poland),FootballMatch_right,title,west germany v france (1982 fifa world cup),0.4943664073944092
+MotorsportSeason_left.csv,title,1986 can-am season,FootballMatch_right,title,1985 china v hong kong football match,0.4874706566333771
+MotorsportSeason_left.csv,title,1971 tasman series,FootballMatch_right,title,1871 scotland versus england rugby union match,0.47339481115341187
+MotorsportSeason_left.csv,title,1985 australian drivers' championship,FootballMatch_right,title,1985 wales v scotland football match,0.47109752893447876
+MotorsportSeason_left.csv,title,1974 tasman series,FootballMatch_right,title,1876 scotland v wales football match,0.4405820965766907

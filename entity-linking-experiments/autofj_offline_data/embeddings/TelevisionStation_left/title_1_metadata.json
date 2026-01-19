@@ -1,0 +1,11 @@
+{
+  "table_name": "TelevisionStation_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 6752,
+  "unique_values": 6751,
+  "processed_values": 6752,
+  "embedding_dim": 768,
+  "processing_time": 4.466190576553345,
+  "file_path": "datasets/autofj_join_benchmark/datalake/TelevisionStation_left.csv"
+}

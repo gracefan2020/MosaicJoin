@@ -1,0 +1,11 @@
+{
+  "table_name": "PoliticalParty_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 495,
+  "unique_values": 495,
+  "processed_values": 495,
+  "embedding_dim": 768,
+  "processing_time": 0.30473923683166504,
+  "file_path": "datasets/autofj_join_benchmark/datalake/PoliticalParty_right.csv"
+}

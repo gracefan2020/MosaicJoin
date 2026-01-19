@@ -1,0 +1,7 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SportsLeague_left.csv,title,World Football League,FootballMatch_left.csv,title,1980 Football League Cup Final,0.758
+SportsLeague_left.csv,title,LKAL,FootballMatch_left.csv,title,1995 UEFA Cup Final,0.758
+SportsLeague_left.csv,title,Vojvodina League East,FootballMatch_left.csv,title,2013 UEFA Europa League Final,0.758
+SportsLeague_left.csv,title,McDonald's Championship,FootballMatch_left.csv,title,2010 All-Ireland Senior Club Hurling Championship Final,0.758
+SportsLeague_left.csv,title,County Championship Shield,FootballMatch_left.csv,title,2001 Munster Senior Hurling Championship Final,0.758
+SportsLeague_left.csv,title,McDonald's Championship,FootballMatch_left.csv,title,1935 All-Ireland Senior Football Championship Final,0.758

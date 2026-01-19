@@ -1,0 +1,9 @@
+{
+  "table_name": "Country_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_embeddings": 2791,
+  "sketch_k": 1024,
+  "processing_time": 2.819425344467163,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Country_left/id_0.npz"
+}

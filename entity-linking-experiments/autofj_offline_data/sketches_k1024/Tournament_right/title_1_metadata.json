@@ -1,0 +1,9 @@
+{
+  "table_name": "Tournament_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 459,
+  "sketch_k": 459,
+  "processing_time": 0.22675704956054688,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Tournament_right/title_1.npz"
+}

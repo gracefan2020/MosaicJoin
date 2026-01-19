@@ -1,0 +1,11 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NCAATeamSeason_left.csv,title,1921 auburn tigers football team,NationalFootballLeagueSeason_right,title,1921 detroit tigers season (nfl),0.7946219444274902
+NCAATeamSeason_left.csv,title,1907 vmi keydets football team,NationalFootballLeagueSeason_right,title,1905 canton athletic club season,0.7100575566291809
+NCAATeamSeason_left.csv,title,1900 montana grizzlies football team,NationalFootballLeagueSeason_right,title,1900 homestead library & athletic club football season,0.691335916519165
+NCAATeamSeason_left.csv,title,2002 canisius golden griffins football team,NationalFootballLeagueSeason_right,title,2002 fc barcelona dragons season,0.687889575958252
+NCAATeamSeason_left.csv,title,1913 vmi keydets football team,NationalFootballLeagueSeason_right,title,1913 canton professionals season,0.6734957695007324
+NCAATeamSeason_left.csv,title,1915 vmi keydets football team,NationalFootballLeagueSeason_right,title,1914 canton professionals season,0.6537528038024902
+NCAATeamSeason_left.csv,title,1997 canisius golden griffins football team,NationalFootballLeagueSeason_right,title,1911 canton professionals season,0.6407198905944824
+NCAATeamSeason_left.csv,title,1999 canisius golden griffins football team,NationalFootballLeagueSeason_right,title,2003 fc barcelona dragons season,0.6320925951004028
+NCAATeamSeason_left.csv,title,1915 ohio state buckeyes football team,NationalFootballLeagueSeason_right,title,1912 canton professionals season,0.6151175498962402
+NCAATeamSeason_left.csv,title,2011 alcorn state braves football team,NationalFootballLeagueSeason_right,title,1996 minnesota fighting pike season,0.5754458904266357

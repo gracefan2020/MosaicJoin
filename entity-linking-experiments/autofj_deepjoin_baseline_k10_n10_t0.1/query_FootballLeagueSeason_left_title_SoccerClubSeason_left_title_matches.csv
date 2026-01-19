@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballLeagueSeason_left.csv,title,28 cm Haubitze L/12,SoccerClubSeason_left.csv,title,28 cm Haubitze L/12,0.879

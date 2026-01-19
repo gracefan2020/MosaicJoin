@@ -1,0 +1,386 @@
+{
+  "found": [
+    {
+      "query": "award_left.title",
+      "top1_candidate": "award_right.title",
+      "top1_score": 0.4356807470321655,
+      "found": true
+    },
+    {
+      "query": "tennistournament_left.title",
+      "top1_candidate": "tennistournament_right.title",
+      "top1_score": 0.5660297274589539,
+      "found": true
+    },
+    {
+      "query": "naturalevent_left.title",
+      "top1_candidate": "naturalevent_right.title",
+      "top1_score": 0.5873064398765564,
+      "found": true
+    },
+    {
+      "query": "noble_left.title",
+      "top1_candidate": "noble_right.title",
+      "top1_score": 0.4598448276519775,
+      "found": true
+    },
+    {
+      "query": "historicbuilding_left.title",
+      "top1_candidate": "historicbuilding_right.title",
+      "top1_score": 0.5759933590888977,
+      "found": true
+    },
+    {
+      "query": "governmentagency_left.title",
+      "top1_candidate": "governmentagency_right.title",
+      "top1_score": 0.3640677332878113,
+      "found": true
+    },
+    {
+      "query": "politicalparty_left.title",
+      "top1_candidate": "politicalparty_right.title",
+      "top1_score": 0.4363220036029815,
+      "found": true
+    },
+    {
+      "query": "soccertournament_left.title",
+      "top1_candidate": "soccertournament_right.title",
+      "top1_score": 0.5342019200325012,
+      "found": true
+    },
+    {
+      "query": "ethnicgroup_left.title",
+      "top1_candidate": "ethnicgroup_right.title",
+      "top1_score": 0.3862605690956116,
+      "found": true
+    },
+    {
+      "query": "stadium_left.title",
+      "top1_candidate": "stadium_right.title",
+      "top1_score": 0.4867453575134277,
+      "found": true
+    },
+    {
+      "query": "motorsportseason_left.title",
+      "top1_candidate": "motorsportseason_right.title",
+      "top1_score": 0.5878137350082397,
+      "found": true
+    },
+    {
+      "query": "galaxy_left.title",
+      "top1_candidate": "galaxy_right.title",
+      "top1_score": 0.5252223014831543,
+      "found": true
+    },
+    {
+      "query": "enzyme_left.title",
+      "top1_candidate": "enzyme_right.title",
+      "top1_score": 0.4958570003509521,
+      "found": true
+    },
+    {
+      "query": "hospital_left.title",
+      "top1_candidate": "hospital_right.title",
+      "top1_score": 0.6211916208267212,
+      "found": true
+    },
+    {
+      "query": "magazine_left.title",
+      "top1_candidate": "magazine_right.title",
+      "top1_score": 0.3751150071620941,
+      "found": true
+    },
+    {
+      "query": "amphibian_left.title",
+      "top1_candidate": "amphibian_right.title",
+      "top1_score": 0.4930226802825928,
+      "found": true
+    },
+    {
+      "query": "televisionstation_left.title",
+      "top1_candidate": "televisionstation_right.title",
+      "top1_score": 0.4265347421169281,
+      "found": true
+    },
+    {
+      "query": "monarch_left.title",
+      "top1_candidate": "monarch_right.title",
+      "top1_score": 0.4608028829097748,
+      "found": true
+    },
+    {
+      "query": "race_left.title",
+      "top1_candidate": "race_right.title",
+      "top1_score": 0.4099560678005218,
+      "found": true
+    },
+    {
+      "query": "clericaladministrativeregion_left.title",
+      "top1_candidate": "clericaladministrativeregion_right.title",
+      "top1_score": 0.5957249402999878,
+      "found": true
+    },
+    {
+      "query": "museum_left.title",
+      "top1_candidate": "museum_right.title",
+      "top1_score": 0.4488338530063629,
+      "found": true
+    },
+    {
+      "query": "election_left.title",
+      "top1_candidate": "election_right.title",
+      "top1_score": 0.514543354511261,
+      "found": true
+    },
+    {
+      "query": "ncaateamseason_left.title",
+      "top1_candidate": "ncaateamseason_right.title",
+      "top1_score": 0.658218264579773,
+      "found": true
+    },
+    {
+      "query": "case_left.title",
+      "top1_candidate": "case_right.title",
+      "top1_score": 0.5663767457008362,
+      "found": true
+    },
+    {
+      "query": "venue_left.title",
+      "top1_candidate": "venue_right.title",
+      "top1_score": 0.4295766949653625,
+      "found": true
+    },
+    {
+      "query": "shoppingmall_left.title",
+      "top1_candidate": "shoppingmall_right.title",
+      "top1_score": 0.513882577419281,
+      "found": true
+    },
+    {
+      "query": "reptile_left.title",
+      "top1_candidate": "reptile_right.title",
+      "top1_score": 0.4795708060264587,
+      "found": true
+    },
+    {
+      "query": "legislature_left.title",
+      "top1_candidate": "legislature_right.title",
+      "top1_score": 0.4709455966949463,
+      "found": true
+    },
+    {
+      "query": "rugbyleague_left.title",
+      "top1_candidate": "rugbyleague_right.title",
+      "top1_score": 0.4948202669620514,
+      "found": true
+    },
+    {
+      "query": "drug_left.title",
+      "top1_candidate": "drug_right.title",
+      "top1_score": 0.4474379122257232,
+      "found": true
+    },
+    {
+      "query": "railwayline_left.title",
+      "top1_candidate": "railwayline_right.title",
+      "top1_score": 0.4500893950462341,
+      "found": true
+    },
+    {
+      "query": "soccerleague_left.title",
+      "top1_candidate": "soccerleague_right.title",
+      "top1_score": 0.4974647760391235,
+      "found": true
+    },
+    {
+      "query": "country_left.title",
+      "top1_candidate": "country_right.title",
+      "top1_score": 0.3690797686576843,
+      "found": true
+    },
+    {
+      "query": "soccerclubseason_left.title",
+      "top1_candidate": "soccerclubseason_right.title",
+      "top1_score": 0.5523567199707031,
+      "found": true
+    }
+  ],
+  "not_found": [
+    {
+      "query": "footballleagueseason_left.title",
+      "expected_candidate": "footballleagueseason_right.title",
+      "top1_candidate": "nationalfootballleagueseason_left.title",
+      "top1_score": 0.5512080192565918,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 4457,
+      "total_candidate_values": 3003
+    },
+    {
+      "query": "unitofwork_left.title",
+      "expected_candidate": "unitofwork_right.title",
+      "top1_candidate": "case_right.title",
+      "top1_score": 0.5626596808433533,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 2483,
+      "total_candidate_values": 380
+    },
+    {
+      "query": "artwork_left.title",
+      "expected_candidate": "artwork_right.title",
+      "top1_candidate": "christianbishop_left.title",
+      "top1_score": 0.3622968792915344,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 3112,
+      "total_candidate_values": 5363
+    },
+    {
+      "query": "memberofparliament_left.title",
+      "expected_candidate": "memberofparliament_right.title",
+      "top1_candidate": "christianbishop_left.title",
+      "top1_score": 0.4654813408851623,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 5774,
+      "total_candidate_values": 5363
+    },
+    {
+      "query": "tournament_left.title",
+      "expected_candidate": "tournament_right.title",
+      "top1_candidate": "tennistournament_left.title",
+      "top1_score": 0.473356157541275,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 4858,
+      "total_candidate_values": 324
+    },
+    {
+      "query": "footballmatch_left.title",
+      "expected_candidate": "footballmatch_right.title",
+      "top1_candidate": "soccertournament_right.title",
+      "top1_score": 0.4894335567951202,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 1999,
+      "total_candidate_values": 290
+    },
+    {
+      "query": "sportfacility_left.title",
+      "expected_candidate": "sportfacility_right.title",
+      "top1_candidate": "stadium_right.title",
+      "top1_score": 0.4622158706188202,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 6392,
+      "total_candidate_values": 619
+    },
+    {
+      "query": "song_left.title",
+      "expected_candidate": "song_right.title",
+      "top1_candidate": "wrestler_left.title",
+      "top1_score": 0.3621821105480194,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 5726,
+      "total_candidate_values": 3150
+    },
+    {
+      "query": "givenname_left.title",
+      "expected_candidate": "givenname_right.title",
+      "top1_candidate": "wrestler_left.title",
+      "top1_score": 0.4831627905368805,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 3021,
+      "total_candidate_values": 3150
+    },
+    {
+      "query": "wrestler_left.title",
+      "expected_candidate": "wrestler_right.title",
+      "top1_candidate": "givenname_left.title",
+      "top1_score": 0.4630120098590851,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 3150,
+      "total_candidate_values": 3021
+    },
+    {
+      "query": "basketballteam_left.title",
+      "expected_candidate": "basketballteam_right.title",
+      "top1_candidate": "wrestler_left.title",
+      "top1_score": 0.3803087174892425,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 928,
+      "total_candidate_values": 3150
+    },
+    {
+      "query": "artificialsatellite_left.title",
+      "expected_candidate": "artificialsatellite_right.title",
+      "top1_candidate": "galaxy_left.title",
+      "top1_score": 0.4534812867641449,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 1801,
+      "total_candidate_values": 555
+    },
+    {
+      "query": "sportsleague_left.title",
+      "expected_candidate": "sportsleague_right.title",
+      "top1_candidate": "soccerleague_right.title",
+      "top1_score": 0.466472327709198,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 3106,
+      "total_candidate_values": 238
+    },
+    {
+      "query": "nationalfootballleagueseason_left.title",
+      "expected_candidate": "nationalfootballleagueseason_right.title",
+      "top1_candidate": "ncaateamseason_right.title",
+      "top1_score": 0.5277416706085205,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 3003,
+      "total_candidate_values": 34
+    },
+    {
+      "query": "device_left.title",
+      "expected_candidate": "device_right.title",
+      "top1_candidate": "televisionstation_left.title",
+      "top1_score": 0.3976302444934845,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 6933,
+      "total_candidate_values": 6752
+    },
+    {
+      "query": "christianbishop_left.title",
+      "expected_candidate": "christianbishop_right.title",
+      "top1_candidate": "memberofparliament_left.title",
+      "top1_score": 0.4698044657707214,
+      "found": false,
+      "num_matched_entities": 0,
+      "matched_entities": [],
+      "total_query_values": 5363,
+      "total_candidate_values": 5774
+    }
+  ]
+}

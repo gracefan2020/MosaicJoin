@@ -1,0 +1,11 @@
+{
+  "table_name": "Stadium_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 619,
+  "unique_values": 619,
+  "processed_values": 619,
+  "embedding_dim": 768,
+  "processing_time": 0.4590592384338379,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Stadium_right.csv"
+}

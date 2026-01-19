@@ -1,0 +1,28 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Tournament_left.csv,title,2012 bell challenge,TennisTournament_right,title,2012 challenge bell,0.9477782249450684
+Tournament_left.csv,title,2012 hansol korea open,TennisTournament_right,title,2012 korea open,0.943597674369812
+Tournament_left.csv,title,2009 bell challenge,TennisTournament_right,title,2009 challenge bell,0.9415249824523926
+Tournament_left.csv,title,2011 bell challenge,TennisTournament_right,title,2011 challenge bell,0.9341466426849365
+Tournament_left.csv,title,2009 bh tennis open international cup,TennisTournament_right,title,2009 san benedetto tennis cup,0.8785462379455566
+Tournament_left.csv,title,2009 credicard citi mastercard tennis cup,TennisTournament_right,title,2010 blu-express.com tennis cup,0.8388949632644653
+Tournament_left.csv,title,2002 us open (tennis),TennisTournament_right,title,2000 tennis masters cup and atp tour world championships,0.8195528984069824
+Tournament_left.csv,title,2011 men's rimouski challenger,TennisTournament_right,title,2011 challenger banque nationale de rimouski,0.819439709186554
+Tournament_left.csv,title,2012 tetra pak tennis cup,TennisTournament_right,title,2012 blu-express.com tennis cup,0.8143005967140198
+Tournament_left.csv,title,2012 wgc-hsbc champions,TennisTournament_right,title,2012 commonwealth bank tournament of champions,0.8039707541465759
+Tournament_left.csv,title,wta nagoya,TennisTournament_right,title,2013 garanti koza wta tournament of champions,0.782074511051178
+Tournament_left.csv,title,2012 tashkent challenger,TennisTournament_right,title,2012 challenger banque nationale de rimouski,0.7734277248382568
+Tournament_left.csv,title,2012 banja luka challenger,TennisTournament_right,title,2013 challenger banque nationale de rimouski,0.7664220333099365
+Tournament_left.csv,title,2013 the oaks club challenger,TennisTournament_right,title,2012 arimex challenger trophy,0.7524691820144653
+Tournament_left.csv,title,2012 international german open,TennisTournament_right,title,2011 challenger banque nationale de saguenay,0.7309209108352661
+Tournament_left.csv,title,2008 players championship,TennisTournament_right,title,2010 aegon championships,0.7296995520591736
+Tournament_left.csv,title,2010 siemens open,TennisTournament_right,title,2012 challenger banque nationale de saguenay,0.7139034271240234
+Tournament_left.csv,title,internationaler apano cup,TennisTournament_right,title,2010 challenger banque nationale de rimouski,0.7112209796905518
+Tournament_left.csv,title,2011 fam youth championship,TennisTournament_right,title,2011 aegon championships,0.7081301212310791
+Tournament_left.csv,title,2012 desert diamond cup,TennisTournament_right,title,2012 aegon championships,0.7070765495300293
+Tournament_left.csv,title,2008 mtn 8,TennisTournament_right,title,2008 challenge bell,0.6854119300842285
+Tournament_left.csv,title,2012 dunlop world challenge,TennisTournament_right,title,2012 aegon pro-series loughborough,0.6690576076507568
+Tournament_left.csv,title,2011 mtn 8,TennisTournament_right,title,2010 challenge bell,0.6592649817466736
+Tournament_left.csv,title,2010 usta challenger of oklahoma,TennisTournament_right,title,1996 challenge bell,0.6298818588256836
+Tournament_left.csv,title,1998 ofc u-20 championship,TennisTournament_right,title,1998 challenge bell,0.6199817657470703
+Tournament_left.csv,title,2009 usta challenger of oklahoma,TennisTournament_right,title,1997 challenge bell,0.6137884855270386
+Tournament_left.csv,title,2007 uemoa tournament,TennisTournament_right,title,2011 aegon classic,0.6122564077377319

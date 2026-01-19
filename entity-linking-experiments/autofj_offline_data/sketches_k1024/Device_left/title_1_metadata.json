@@ -1,0 +1,9 @@
+{
+  "table_name": "Device_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 6933,
+  "sketch_k": 1024,
+  "processing_time": 13.964565515518188,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Device_left/title_1.npz"
+}

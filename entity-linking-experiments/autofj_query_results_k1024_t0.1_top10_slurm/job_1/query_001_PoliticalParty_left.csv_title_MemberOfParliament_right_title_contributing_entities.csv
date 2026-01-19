@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+PoliticalParty_left.csv,title,deshpremee jana samukshya,MemberOfParliament_right,title,jayantha samaraweera,0.8197730779647827
+PoliticalParty_left.csv,title,jeay sindh qaumi mahaz,MemberOfParliament_right,title,junaid ahmed palak,0.7963008880615234
+PoliticalParty_left.csv,title,bharipa bahujan mahasangh,MemberOfParliament_right,title,khusro bakhtiar,0.7860895991325378
+PoliticalParty_left.csv,title,swabhimani paksha,MemberOfParliament_right,title,pavithra wanniarachchi,0.7767914533615112
+PoliticalParty_left.csv,title,hizb ut-tahrir,MemberOfParliament_right,title,hussain al-qallaf,0.77144455909729
+PoliticalParty_left.csv,title,gaumee itthihaad,MemberOfParliament_right,title,gamini rathnayake,0.7609541416168213
+PoliticalParty_left.csv,title,periyar dravidar kazhagam,MemberOfParliament_right,title,perumal rajadurai,0.7604565024375916
+PoliticalParty_left.csv,title,bangladesh nationalist party,MemberOfParliament_right,title,abdul jalil (bangladesh politician),0.7600979804992676
+PoliticalParty_left.csv,title,dhiravida thelugar munnetra kazhagam,MemberOfParliament_right,title,dharmadasa banda,0.7588421106338501
+PoliticalParty_left.csv,title,nafarroa bai,MemberOfParliament_right,title,praba ganesan,0.7496980428695679
+PoliticalParty_left.csv,title,alliance for italy,MemberOfParliament_right,title,global alliance,0.7475919723510742
+PoliticalParty_left.csv,title,anaithinthiya thamizhaga munnetra kazhagam,MemberOfParliament_right,title,sumedha jayasena,0.7396150231361389
+PoliticalParty_left.csv,title,tamil desiyak katchi,MemberOfParliament_right,title,bimal rathnayake,0.738264799118042
+PoliticalParty_left.csv,title,akhil bharatiya rashtravadi kisan sangathan,MemberOfParliament_right,title,p. chandrasekaran,0.7378518581390381
+PoliticalParty_left.csv,title,khana ratsadon,MemberOfParliament_right,title,toko ratana,0.737723708152771
+PoliticalParty_left.csv,title,national party of scotland,MemberOfParliament_right,title,peter duncan (scottish politician),0.7333308458328247
+PoliticalParty_left.csv,title,vohibato tapa-kevitsa,MemberOfParliament_right,title,vidura wickremanayake,0.7322359085083008
+PoliticalParty_left.csv,title,puthiya needhi katchi,MemberOfParliament_right,title,jagath pushpakumara,0.7269420623779297
+PoliticalParty_left.csv,title,national democratic party (northern ireland),MemberOfParliament_right,title,david campbell (south belfast mp),0.7244060039520264
+PoliticalParty_left.csv,title,rashtriya samaj paksha,MemberOfParliament_right,title,zunaid ahmed palak,0.7177170515060425
+PoliticalParty_left.csv,title,northern ireland unionist party,MemberOfParliament_right,title,william stewart (belfast south mp),0.7174026966094971
+PoliticalParty_left.csv,title,united new zealand,MemberOfParliament_right,title,john patterson (new zealand),0.715313732624054
+PoliticalParty_left.csv,title,bangladesh khilafat andolan,MemberOfParliament_right,title,abdel wahab qaid,0.713313102722168
+PoliticalParty_left.csv,title,illankai tamil arasu kachchi,MemberOfParliament_right,title,a. thangathurai,0.7123661041259766
+PoliticalParty_left.csv,title,rodina,MemberOfParliament_right,title,iliana iotova,0.7079063653945923
+PoliticalParty_left.csv,title,naujawan kisan party,MemberOfParliament_right,title,alvin yeo khirn hai,0.7067002058029175
+PoliticalParty_left.csv,title,rashtrawadi shiv sena,MemberOfParliament_right,title,s. sritharan,0.706419050693512
+PoliticalParty_left.csv,title,aruaa,MemberOfParliament_right,title,wasantha aluwihare,0.70454341173172
+PoliticalParty_left.csv,title,scottish conservative party,MemberOfParliament_right,title,ian davidson (scottish politician),0.7029620409011841
+PoliticalParty_left.csv,title,liberal party of australia,MemberOfParliament_right,title,richard abbott (australian politician),0.7022306323051453
+PoliticalParty_left.csv,title,alliance party of northern ireland,MemberOfParliament_right,title,william craig (northern ireland politician),0.6987727880477905
+PoliticalParty_left.csv,title,deutscher volksverband,MemberOfParliament_right,title,zainudin bin nordin,0.6963321566581726
+PoliticalParty_left.csv,title,british national party,MemberOfParliament_right,title,david thomson (national party politician),0.695205569267273
+PoliticalParty_left.csv,title,viplavakari lanka sama samaja party,MemberOfParliament_right,title,n. srikantha,0.6930618286132812
+PoliticalParty_left.csv,title,socialist studies (1989),MemberOfParliament_right,title,frederick cooke (socialist),0.692531943321228
+PoliticalParty_left.csv,title,leader of the new south wales national party,MemberOfParliament_right,title,allan mcdonald (australian politician),0.6919107437133789
+PoliticalParty_left.csv,title,italian democratic socialists,MemberOfParliament_right,title,luigi de magistris (politician),0.6911959648132324
+PoliticalParty_left.csv,title,jordanian arab party,MemberOfParliament_right,title,hussein ahamed bhaila,0.6907343864440918
+PoliticalParty_left.csv,title,national labour party (ireland),MemberOfParliament_right,title,jim callaghan (lancashire politician),0.6896779537200928
+PoliticalParty_left.csv,title,indian uzhavar uzhaippalar katchi,MemberOfParliament_right,title,weerakumara dissanayake,0.6884257793426514
+PoliticalParty_left.csv,title,the republic of new zealand party,MemberOfParliament_right,title,robert reid (new zealand politician),0.6856074929237366
+PoliticalParty_left.csv,title,ambedkar makkal katchi,MemberOfParliament_right,title,ranjith madduma bandara,0.6800976395606995
+PoliticalParty_left.csv,title,punjab janata morcha,MemberOfParliament_right,title,amarinder singh,0.6799397468566895
+PoliticalParty_left.csv,title,shiromani akali dal (longowal),MemberOfParliament_right,title,asha gelle dirie,0.6797468662261963
+PoliticalParty_left.csv,title,chondoist chongu party,MemberOfParliament_right,title,jian yang (politician),0.6792809963226318
+PoliticalParty_left.csv,title,united kingdom first party,MemberOfParliament_right,title,michael foster (worcester mp),0.6755694150924683
+PoliticalParty_left.csv,title,musavat,MemberOfParliament_right,title,mubarak mohammed muntaka,0.6745307445526123
+PoliticalParty_left.csv,title,batkivshchyna,MemberOfParliament_right,title,ranjith aluwihare,0.6743574142456055
+PoliticalParty_left.csv,title,jamiat-e islami,MemberOfParliament_right,title,mohamed musthaffa,0.6742147207260132
+PoliticalParty_left.csv,title,lapiang malaya,MemberOfParliament_right,title,s. kanagaratnam,0.6728370189666748
+PoliticalParty_left.csv,title,eusko abertzale ekintza,MemberOfParliament_right,title,ossie abeygunasekara,0.6698414087295532
+PoliticalParty_left.csv,title,krantikari mukti morcha,MemberOfParliament_right,title,s. kajendran,0.6672002077102661
+PoliticalParty_left.csv,title,socialist party of bangladesh,MemberOfParliament_right,title,saifur rahman (politician),0.665166974067688
+PoliticalParty_left.csv,title,communist labour party (scotland),MemberOfParliament_right,title,frank doran (scottish labour politician),0.6622536182403564
+PoliticalParty_left.csv,title,social liberal party (brazil),MemberOfParliament_right,title,mario silva (politician),0.6615384817123413
+PoliticalParty_left.csv,title,kerala congress (joseph),MemberOfParliament_right,title,s. jeyanandamoorthy,0.6614452004432678
+PoliticalParty_left.csv,title,morasha,MemberOfParliament_right,title,champika premadasa,0.659537672996521
+PoliticalParty_left.csv,title,croix-de-feu,MemberOfParliament_right,title,jean-baptiste blanchet,0.6550179719924927
+PoliticalParty_left.csv,title,uk unionist party,MemberOfParliament_right,title,james wilson (labour politician),0.6542152762413025
+PoliticalParty_left.csv,title,qaumi watan party,MemberOfParliament_right,title,azra fazal pechuho,0.6497319936752319
+PoliticalParty_left.csv,title,act new zealand,MemberOfParliament_right,title,robert hart (new zealand),0.648880124092102
+PoliticalParty_left.csv,title,young liberal democracy,MemberOfParliament_right,title,david young (labour politician),0.6471076011657715
+PoliticalParty_left.csv,title,hayisraelim,MemberOfParliament_right,title,abid sher ali,0.6470885276794434
+PoliticalParty_left.csv,title,new zealand labour party,MemberOfParliament_right,title,david parker (new zealand politician),0.6458756923675537
+PoliticalParty_left.csv,title,akhil bharatiya ram rajya parishad,MemberOfParliament_right,title,n. kumaraguruparan,0.6451690793037415
+PoliticalParty_left.csv,title,northern ireland conservatives,MemberOfParliament_right,title,john macdougall (uk politician),0.6451066136360168
+PoliticalParty_left.csv,title,green party (uk),MemberOfParliament_right,title,john greenway (british politician),0.6450796127319336
+PoliticalParty_left.csv,title,australian greens victoria,MemberOfParliament_right,title,roy wheeler (australian politician),0.6433765888214111
+PoliticalParty_left.csv,title,guadeloupe communist party,MemberOfParliament_right,title,pierre gauthier (politician),0.6403281092643738
+PoliticalParty_left.csv,title,hezbe wahdat,MemberOfParliament_right,title,abraham shek,0.6384612917900085
+PoliticalParty_left.csv,title,bhumjaithai party,MemberOfParliament_right,title,c. sittampalam,0.6380267143249512
+PoliticalParty_left.csv,title,secular party of australia,MemberOfParliament_right,title,charles graham (western australian politician),0.6360303163528442
+PoliticalParty_left.csv,title,british people's party (2005),MemberOfParliament_right,title,robert young (islington north mp),0.6357969045639038
+PoliticalParty_left.csv,title,united party (new zealand),MemberOfParliament_right,title,james wilson (new zealand politician born 1849),0.6346107721328735
+PoliticalParty_left.csv,title,conservative party of quebec (historical),MemberOfParliament_right,title,angus mckay (manitoba politician),0.6340839862823486
+PoliticalParty_left.csv,title,janganotantrik morcha,MemberOfParliament_right,title,r. yogarajan,0.6326150298118591
+PoliticalParty_left.csv,title,socialist action (canada),MemberOfParliament_right,title,william anderson (canadian politician),0.6257606744766235
+PoliticalParty_left.csv,title,greens south australia,MemberOfParliament_right,title,kevin cairns (politician),0.6239716410636902
+PoliticalParty_left.csv,title,democratic bahujan samaj morcha,MemberOfParliament_right,title,khalid mahmood (british politician),0.6235370635986328
+PoliticalParty_left.csv,title,agang south africa,MemberOfParliament_right,title,wiswa warnapala,0.6234239935874939
+PoliticalParty_left.csv,title,gabriela,MemberOfParliament_right,title,jessica lee,0.6222585439682007
+PoliticalParty_left.csv,title,liberal democratic party (france),MemberOfParliament_right,title,paul mercier (liberal mp),0.6211826205253601
+PoliticalParty_left.csv,title,wales green party,MemberOfParliament_right,title,david jones (welsh politician),0.620071530342102
+PoliticalParty_left.csv,title,nava sama samaja party,MemberOfParliament_right,title,s. sivamaharajah,0.6190348863601685
+PoliticalParty_left.csv,title,shas,MemberOfParliament_right,title,s. natesan,0.6186329126358032
+PoliticalParty_left.csv,title,democratic labour party (barbados),MemberOfParliament_right,title,david taylor (labour politician),0.6177977323532104
+PoliticalParty_left.csv,title,new jersey reform party,MemberOfParliament_right,title,frank mcguire (politician),0.6168085932731628
+PoliticalParty_left.csv,title,progressive labour party (australia),MemberOfParliament_right,title,peter breen (australian politician),0.6161452531814575
+PoliticalParty_left.csv,title,labour party (malta),MemberOfParliament_right,title,julian lewis (mp),0.6157090663909912
+PoliticalParty_left.csv,title,social democratic and labour party,MemberOfParliament_right,title,tom smith (labour politician),0.6156941652297974
+PoliticalParty_left.csv,title,list of leaders of the liberal party of australia (new south wales division),MemberOfParliament_right,title,david thomson (labor party politician),0.6156374216079712
+PoliticalParty_left.csv,title,"national labour party (uk, 1957)",MemberOfParliament_right,title,john hall (labour politician),0.6146635413169861
+PoliticalParty_left.csv,title,voerbelangen,MemberOfParliament_right,title,bert van manen,0.6135119199752808
+PoliticalParty_left.csv,title,labour party (nigeria),MemberOfParliament_right,title,thomas richardson (labour party mp),0.6128760576248169
+PoliticalParty_left.csv,title,national alliance of liberals,MemberOfParliament_right,title,michael carr (liberal democrat politician),0.6119953393936157
+PoliticalParty_left.csv,title,referendum party,MemberOfParliament_right,title,tom bradley (uk politician),0.6092979907989502
+PoliticalParty_left.csv,title,tamil national alliance,MemberOfParliament_right,title,c. chandrakanthan,0.6079816818237305
+PoliticalParty_left.csv,title,kokang democracy and unity party,MemberOfParliament_right,title,p. b. g. kalugalla,0.6074695587158203
+PoliticalParty_left.csv,title,dhivehi rayyithunge party,MemberOfParliament_right,title,a. chandranehru,0.6058623194694519
+PoliticalParty_left.csv,title,scottish senior citizens unity party,MemberOfParliament_right,title,ian murray (scottish politician),0.6053588390350342
+PoliticalParty_left.csv,title,siumut,MemberOfParliament_right,title,william sio,0.60406893491745
+PoliticalParty_left.csv,title,labour coalition,MemberOfParliament_right,title,john taylor (solihull mp),0.6040376424789429
+PoliticalParty_left.csv,title,republican party of labour and justice,MemberOfParliament_right,title,john gorst (hendon north mp),0.6037031412124634
+PoliticalParty_left.csv,title,ulster democratic party,MemberOfParliament_right,title,david macgibbon (politician),0.6027877926826477
+PoliticalParty_left.csv,title,young party,MemberOfParliament_right,title,harold young,0.6021667718887329
+PoliticalParty_left.csv,title,girondist,MemberOfParliament_right,title,hubert lazzarini,0.5989058017730713
+PoliticalParty_left.csv,title,socialist alternative (australia),MemberOfParliament_right,title,ian wood (australian politician),0.5985181331634521
+PoliticalParty_left.csv,title,independent party current,MemberOfParliament_right,title,ian cameron (politician),0.597346305847168
+PoliticalParty_left.csv,title,city vision (auckland political ticket),MemberOfParliament_right,title,patrick buckley (new zealand politician),0.5971089601516724
+PoliticalParty_left.csv,title,saint lucia labour party,MemberOfParliament_right,title,michael ward (uk politician),0.5954532623291016
+PoliticalParty_left.csv,title,centre party '86,MemberOfParliament_right,title,carol hughes (politician),0.5952548980712891
+PoliticalParty_left.csv,title,frisian national party,MemberOfParliament_right,title,frank field (british politician),0.5936098694801331
+PoliticalParty_left.csv,title,pannella-bonino list,MemberOfParliament_right,title,anthony luchetti,0.5918331146240234
+PoliticalParty_left.csv,title,independent labour party,MemberOfParliament_right,title,stephen owen (politician),0.5916062593460083
+PoliticalParty_left.csv,title,new britain party,MemberOfParliament_right,title,peter richardson (politician),0.5911641120910645
+PoliticalParty_left.csv,title,united rhodesia party,MemberOfParliament_right,title,ronald williams (labour politician),0.5906140804290771
+PoliticalParty_left.csv,title,co-operative commonwealth federation (manitoba section),MemberOfParliament_right,title,gordon fraser (canadian politician),0.5897524356842041
+PoliticalParty_left.csv,title,national progressive unionist party,MemberOfParliament_right,title,charles griffiths (politician),0.5897318720817566
+PoliticalParty_left.csv,title,united somali parliamentarians,MemberOfParliament_right,title,denis murphy (uk politician),0.5884900093078613
+PoliticalParty_left.csv,title,house of freedoms,MemberOfParliament_right,title,charles howell (mp),0.5882700681686401
+PoliticalParty_left.csv,title,rockingham whigs,MemberOfParliament_right,title,john stanley (tonbridge and malling mp),0.5873880386352539
+PoliticalParty_left.csv,title,chadema,MemberOfParliament_right,title,daniel mulcahy,0.5869334936141968
+PoliticalParty_left.csv,title,meimad,MemberOfParliament_right,title,kao chin su-mei,0.5866057276725769
+PoliticalParty_left.csv,title,national liberal party (lebanon),MemberOfParliament_right,title,julian lewis (politician),0.5859020352363586
+PoliticalParty_left.csv,title,civic democratic alliance,MemberOfParliament_right,title,tony clarke (uk politician),0.5835279226303101
+PoliticalParty_left.csv,title,moderate party of rhode island,MemberOfParliament_right,title,len reynolds (politician),0.5831198692321777
+PoliticalParty_left.csv,title,fatherland party (norway),MemberOfParliament_right,title,thomas o'neill (canadian politician),0.581184446811676
+PoliticalParty_left.csv,title,labour party (south africa),MemberOfParliament_right,title,william robinson (walthamstow east mp),0.5810414552688599
+PoliticalParty_left.csv,title,social credit party (new zealand),MemberOfParliament_right,title,bob catley (australian politician),0.5805001258850098
+PoliticalParty_left.csv,title,"labor party (united states, 1996)",MemberOfParliament_right,title,harry webb (politician),0.5802369117736816
+PoliticalParty_left.csv,title,unionist party (south africa),MemberOfParliament_right,title,william stewart (houghton-le-spring mp),0.5797098875045776
+PoliticalParty_left.csv,title,national democrats party,MemberOfParliament_right,title,jim mcgovern (politician),0.5790676474571228
+PoliticalParty_left.csv,title,the sunflower,MemberOfParliament_right,title,john garden,0.577593207359314
+PoliticalParty_left.csv,title,botswana democratic party,MemberOfParliament_right,title,david bevan (politician),0.5756175518035889
+PoliticalParty_left.csv,title,inekaren,MemberOfParliament_right,title,alick downer,0.5744354724884033
+PoliticalParty_left.csv,title,cachar congress,MemberOfParliament_right,title,john carruthers (politician),0.572745680809021
+PoliticalParty_left.csv,title,new national party (grenada),MemberOfParliament_right,title,george mudie (mp),0.5724717378616333
+PoliticalParty_left.csv,title,mykola katerynchuk bloc,MemberOfParliament_right,title,natasha mazzone,0.5722776651382446
+PoliticalParty_left.csv,title,ukrainian national democratic alliance,MemberOfParliament_right,title,alexander gunn (politician),0.5717270374298096
+PoliticalParty_left.csv,title,farmers' party (ireland),MemberOfParliament_right,title,anthony byrne (politician),0.5710617303848267
+PoliticalParty_left.csv,title,orange movement,MemberOfParliament_right,title,bud orange,0.5710406303405762
+PoliticalParty_left.csv,title,national democratic party (british virgin islands),MemberOfParliament_right,title,david connolly (australian politician),0.5709130764007568
+PoliticalParty_left.csv,title,sabah progressive party,MemberOfParliament_right,title,stephen day (mp),0.570421576499939
+PoliticalParty_left.csv,title,janhit samaj party,MemberOfParliament_right,title,s. kishore,0.5693875551223755
+PoliticalParty_left.csv,title,national party (south africa),MemberOfParliament_right,title,john nelson (australian politician),0.5692938566207886
+PoliticalParty_left.csv,title,te tiarama,MemberOfParliament_right,title,yaw osafo-marfo,0.5690106153488159
+PoliticalParty_left.csv,title,unity party (australia),MemberOfParliament_right,title,gordon davidson (australian politician),0.5684065222740173
+PoliticalParty_left.csv,title,michigan republican party,MemberOfParliament_right,title,michael mcguire (politician),0.5678271055221558
+PoliticalParty_left.csv,title,democratic governors association,MemberOfParliament_right,title,doug berry (politician),0.5673636198043823
+PoliticalParty_left.csv,title,democratic labor party,MemberOfParliament_right,title,fred daly (politician),0.566156268119812
+PoliticalParty_left.csv,title,society of justice party,MemberOfParliament_right,title,marcus jones (uk politician),0.5658193826675415
+PoliticalParty_left.csv,title,fishing party (scotland),MemberOfParliament_right,title,peter fisher (politician),0.5656906962394714
+PoliticalParty_left.csv,title,"socialist appeal (uk, 1992)",MemberOfParliament_right,title,alfred davies (labour politician),0.5654667615890503
+PoliticalParty_left.csv,title,for social democracy,MemberOfParliament_right,title,stephen metcalfe (uk politician),0.5654034614562988
+PoliticalParty_left.csv,title,southern rhodesia liberal party,MemberOfParliament_right,title,hugh sinclair (politician),0.5646929740905762
+PoliticalParty_left.csv,title,national unity of hope,MemberOfParliament_right,title,john hopere wharewiti uru,0.5639668703079224
+PoliticalParty_left.csv,title,movement for national reform,MemberOfParliament_right,title,thomas richardson (labour politician),0.5633602738380432
+PoliticalParty_left.csv,title,bolshevik samasamaja party,MemberOfParliament_right,title,c. b. ratnayake,0.5631879568099976
+PoliticalParty_left.csv,title,vermont progressive party,MemberOfParliament_right,title,william sanders (politician),0.5619953870773315
+PoliticalParty_left.csv,title,green party in northern ireland,MemberOfParliament_right,title,michael o'halloran (uk politician),0.5617715120315552
+PoliticalParty_left.csv,title,greater britain movement,MemberOfParliament_right,title,george grant (uk politician),0.5609035491943359
+PoliticalParty_left.csv,title,congress for democracy and progress,MemberOfParliament_right,title,charles howell (british politician),0.5608604550361633
+PoliticalParty_left.csv,title,georgios papandreou party,MemberOfParliament_right,title,peter hendy (politician),0.5604534149169922
+PoliticalParty_left.csv,title,labour and trade union group,MemberOfParliament_right,title,jack jones (rotherham mp),0.560088038444519
+PoliticalParty_left.csv,title,socialist party of ireland (1971),MemberOfParliament_right,title,richard shaw (mp for burnley),0.5598462820053101
+PoliticalParty_left.csv,title,executives of construction party,MemberOfParliament_right,title,william senior (politician),0.5589526891708374
+PoliticalParty_left.csv,title,international socialist league (uk),MemberOfParliament_right,title,ben smith (labour politician),0.5589280128479004
+PoliticalParty_left.csv,title,lai people's party,MemberOfParliament_right,title,lee siew choh,0.5588870048522949
+PoliticalParty_left.csv,title,dor (political party),MemberOfParliament_right,title,don mcleod (politician),0.5560216307640076
+PoliticalParty_left.csv,title,party for liberty and development,MemberOfParliament_right,title,george perry (british politician),0.5557742714881897
+PoliticalParty_left.csv,title,justice and construction party,MemberOfParliament_right,title,jim marshall (uk politician),0.5550943613052368
+PoliticalParty_left.csv,title,union of reform partisans,MemberOfParliament_right,title,roger williams (uk politician),0.5548211336135864
+PoliticalParty_left.csv,title,power voters,MemberOfParliament_right,title,shawn murphy (politician),0.5536206960678101
+PoliticalParty_left.csv,title,centre party (hungary),MemberOfParliament_right,title,duncan sinclair (conservative politician),0.5528863668441772
+PoliticalParty_left.csv,title,tories (british political party),MemberOfParliament_right,title,andrew jones (british politician),0.5528111457824707
+PoliticalParty_left.csv,title,kalibapi,MemberOfParliament_right,title,matthew gordon banks,0.5519776344299316
+PoliticalParty_left.csv,title,"libertair, direct, democratisch",MemberOfParliament_right,title,robert clothier (politician),0.551877498626709
+PoliticalParty_left.csv,title,conservative party (norway),MemberOfParliament_right,title,jack harris (newfoundland and labrador politician),0.5516049861907959
+PoliticalParty_left.csv,title,centre right alliance,MemberOfParliament_right,title,ian allan (politician),0.5515809059143066
+PoliticalParty_left.csv,title,irish republican socialist party,MemberOfParliament_right,title,michael duffy (politician),0.5514249205589294
+PoliticalParty_left.csv,title,ceylon workers' congress,MemberOfParliament_right,title,john lee (labour politician),0.5508195161819458
+PoliticalParty_left.csv,title,malaysian chinese association,MemberOfParliament_right,title,sam tan chin siong,0.5507169961929321
+PoliticalParty_left.csv,title,vlott,MemberOfParliament_right,title,denis pritt,0.5494861006736755
+PoliticalParty_left.csv,title,democratic renewal,MemberOfParliament_right,title,david kerr (english politician),0.5493102073669434
+PoliticalParty_left.csv,title,alliance for democracy and development,MemberOfParliament_right,title,david anderson (uk politician),0.5485619306564331
+PoliticalParty_left.csv,title,historic compromise,MemberOfParliament_right,title,james hudson (politician),0.5480069518089294
+PoliticalParty_left.csv,title,congress for progressive change,MemberOfParliament_right,title,bill morrison (politician),0.5476579666137695
+PoliticalParty_left.csv,title,radical cause,MemberOfParliament_right,title,charles gibson (british politician),0.5476006269454956
+PoliticalParty_left.csv,title,aitaira,MemberOfParliament_right,title,adam dein,0.5472313165664673
+PoliticalParty_left.csv,title,hans-peter martin's list,MemberOfParliament_right,title,william lee martin,0.5468809604644775
+PoliticalParty_left.csv,title,centre of social democrats,MemberOfParliament_right,title,mark spencer (british politician),0.5468606948852539
+PoliticalParty_left.csv,title,union party (faroe islands),MemberOfParliament_right,title,gerry reynolds (uk politician),0.5466310977935791
+PoliticalParty_left.csv,title,communist party of great britain (provisional central committee),MemberOfParliament_right,title,joan hall (british politician),0.5464432239532471
+PoliticalParty_left.csv,title,young finns,MemberOfParliament_right,title,alexander finlay,0.5463242530822754
+PoliticalParty_left.csv,title,revolutionary independent labour movement,MemberOfParliament_right,title,john ellis (labour politician),0.5463201999664307
+PoliticalParty_left.csv,title,republican alliance for democracy,MemberOfParliament_right,title,john armitage (politician),0.5461446046829224
+PoliticalParty_left.csv,title,jewish national party,MemberOfParliament_right,title,harry bruce (politician),0.5457366108894348
+PoliticalParty_left.csv,title,people's representatives coalition,MemberOfParliament_right,title,eric ogden (politician),0.5453172922134399
+PoliticalParty_left.csv,title,congress of the people (trinidad and tobago),MemberOfParliament_right,title,ian taylor (uk politician),0.5450983047485352
+PoliticalParty_left.csv,title,saint helena progressive party,MemberOfParliament_right,title,bob lane (canadian politician),0.5449953079223633

@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Hospital_left.csv,title,Turku University Hospital,GovernmentAgency_right.csv,title,Ministry of Environment and Urban Planning (Turkey),0.4226

@@ -1,0 +1,7 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Galaxy_left.csv,title,RXJ1242-11,Galaxy_right.csv,title,RX J1242-11,0.7401
+Galaxy_left.csv,title,Carina Dwarf,Galaxy_right.csv,title,Carina Dwarf Spheroidal Galaxy,0.7401
+Galaxy_left.csv,title,NGC 6782,Galaxy_right.csv,title,NGC 6872,0.7401
+Galaxy_left.csv,title,MS 1512 +36-cB58,Galaxy_right.csv,title,MS 1512-cB58,0.7401
+Galaxy_left.csv,title,Segue 2 (dwarf galaxy),Galaxy_right.csv,title,Segue 2,0.7401
+Galaxy_left.csv,title,Carina Dwarf,Galaxy_right.csv,title,Carina Dwarf Spheroidal galaxy,0.7401

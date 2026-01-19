@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Artwork_left.csv,title,"sundial, boy with spider",Artwork_right,title,"sundial, boy with spider",1.0000001192092896
+Artwork_left.csv,title,in the loge,Artwork_right,title,in the loge,1.0000001192092896
+Artwork_left.csv,title,madonna and child playing with the veil,Artwork_right,title,madonna and child playing with the veil,1.0000001192092896
+Artwork_left.csv,title,on the wallaby track,Artwork_right,title,on the wallaby track,1.0000001192092896
+Artwork_left.csv,title,st. peter's baldachin,Artwork_right,title,st. peter's baldachin,1.0
+Artwork_left.csv,title,walking on a mountain path in spring,Artwork_right,title,walking on a mountain path in spring,0.9999999403953552
+Artwork_left.csv,title,the great day of girona,Artwork_right,title,the great day of girona,0.9999997615814209
+Artwork_left.csv,title,prince balthasar charles with a dwarf,Artwork_right,title,prince balthasar charles with a dwarf,0.9999997615814209
+Artwork_left.csv,title,death of sardanapalus,Artwork_right,title,the death of sardanapalus,0.9925705194473267
+Artwork_left.csv,title,farmhouse among trees,Artwork_right,title,farmhouses among trees,0.9852893352508545
+Artwork_left.csv,title,the crucifixion with the virgin and st john (ter brugghen),Artwork_right,title,the crucifixion with the virgin and st john (hendrick ter brugghen),0.9787005186080933
+Artwork_left.csv,title,the falconer sculpture,Artwork_right,title,the falconer (sculpture),0.9766160249710083
+Artwork_left.csv,title,portrait of a young woman of frankfurt (botticelli),Artwork_right,title,"portrait of a young woman (botticelli, frankfurt)",0.9755779504776001
+Artwork_left.csv,title,st. sebastian (bernini),Artwork_right,title,saint sebastian (bernini),0.975065290927887
+Artwork_left.csv,title,st bibiana (bernini),Artwork_right,title,saint bibiana (bernini),0.9730935096740723
+Artwork_left.csv,title,ustyug annunciation,Artwork_right,title,annunciation of ustyug,0.9471817016601562
+Artwork_left.csv,title,old woman cooking eggs,Artwork_right,title,old woman frying eggs,0.9464606046676636
+Artwork_left.csv,title,october 26 1993,Artwork_right,title,26 october 1993,0.9458255767822266
+Artwork_left.csv,title,aristotle contemplating a bust of homer,Artwork_right,title,aristotle with a bust of homer,0.9418270587921143
+Artwork_left.csv,title,queen califia's magical circle,Artwork_right,title,queen califias magic circle,0.9384000301361084
+Artwork_left.csv,title,the bohemian (bouguereau painting),Artwork_right,title,the bohemian (bouguereau),0.9383255243301392
+Artwork_left.csv,title,"statue of george iv, trafalgar square",Artwork_right,title,"equestrian statue of george iv, trafalgar square",0.933596134185791
+Artwork_left.csv,title,stigmata of st. francis (giotto),Artwork_right,title,saint francis receiving the stigmata (giotto),0.9331069588661194
+Artwork_left.csv,title,guernica (painting),Artwork_right,title,guernica (picasso),0.9326891303062439
+Artwork_left.csv,title,drunkenness of noah (bellini),Artwork_right,title,drunkenness of noah,0.9178727865219116
+Artwork_left.csv,title,salvator mundi (leonardo),Artwork_right,title,salvator mundi (leonardo da vinci),0.9083932638168335
+Artwork_left.csv,title,bust of thomas baker (bernini),Artwork_right,title,bust of thomas baker,0.9000267386436462
+Artwork_left.csv,title,captain nathan hale (statue),Artwork_right,title,captain nathan hale,0.8985817432403564
+Artwork_left.csv,title,st. jerome in the wilderness,Artwork_right,title,st. jerome in the wilderness (leonardo),0.8985635638237
+Artwork_left.csv,title,virgin and child with saint anne (masaccio),Artwork_right,title,the virgin and child with st. anne (leonardo da vinci),0.8969504237174988
+Artwork_left.csv,title,madonna with child (crivelli),Artwork_right,title,madonna and child (lippi),0.8965710401535034
+Artwork_left.csv,title,madonna of the book (botticelli),Artwork_right,title,madonna of the book,0.8929735422134399
+Artwork_left.csv,title,saint peter and saint paul,Artwork_right,title,saint peter and saint paul (el greco),0.8905410766601562
+Artwork_left.csv,title,garden at sainte-adresse (monet),Artwork_right,title,garden at sainte-adresse,0.890381395816803
+Artwork_left.csv,title,last supper (perugino),Artwork_right,title,the last supper (ghirlandaio),0.8863738775253296
+Artwork_left.csv,title,the 28th regiment at quatre bras,Artwork_right,title,28th regiment at quatre bras (painting),0.886242151260376
+Artwork_left.csv,title,sumbanese woman's ceremonial skirt,Artwork_right,title,sumbanese woman's ceremonial skirt (indianapolis museum of art),0.8793542385101318
+Artwork_left.csv,title,portrait of bindo altoviti (raphael),Artwork_right,title,portrait of bindo altoviti,0.8766943216323853
+Artwork_left.csv,title,the art of painting,Artwork_right,title,the art of painting (vermeer),0.876101016998291
+Artwork_left.csv,title,self-portrait (raphael),Artwork_right,title,self-portrait (leonardo da vinci),0.8749897480010986
+Artwork_left.csv,title,adele bloch-bauer ii,Artwork_right,title,portrait of adele bloch-bauer ii,0.87470942735672
+Artwork_left.csv,title,penitent magdalene (caravaggio),Artwork_right,title,penitent magdalene (donatello),0.8719086050987244
+Artwork_left.csv,title,cafe gurzuf (painting),Artwork_right,title,cafe gurzuf,0.8685197830200195
+Artwork_left.csv,title,manfred on the jungfrau (1837),Artwork_right,title,manfred on the jungfrau (martin),0.866585373878479
+Artwork_left.csv,title,wall street (1915 photograph),Artwork_right,title,wall street (photograph),0.8626257181167603
+Artwork_left.csv,title,madonna della vittoria,Artwork_right,title,madonna of foligno,0.8599151968955994
+Artwork_left.csv,title,the painter's studio,Artwork_right,title,the artist's studio,0.8589688539505005
+Artwork_left.csv,title,the needlewoman,Artwork_right,title,the needlewoman (painting),0.8569983243942261
+Artwork_left.csv,title,middlebury to her soldiers (sculpture),Artwork_right,title,middlebury to her soldiers,0.856566309928894
+Artwork_left.csv,title,adoration of the magi (gentile da fabriano),Artwork_right,title,adoration of the magi (leonardo da vinci),0.8518699407577515
+Artwork_left.csv,title,the flight into egypt (annibale carracci),Artwork_right,title,landscape with the flight into egypt (annibale carracci),0.8462667465209961
+Artwork_left.csv,title,charity with four children (bernini),Artwork_right,title,charity with four children,0.843358039855957
+Artwork_left.csv,title,frog baby fountain (ball state university),Artwork_right,title,frog baby fountain,0.8414728045463562
+Artwork_left.csv,title,boy bitten by a lizard (caravaggio),Artwork_right,title,boy bitten by a lizard,0.8404182195663452
+Artwork_left.csv,title,the entombment of christ (titian),Artwork_right,title,"the entombment (titian, 1525)",0.840264081954956
+Artwork_left.csv,title,portlandia (statue),Artwork_right,title,portlandia,0.8370001316070557
+Artwork_left.csv,title,st. michael (raphael),Artwork_right,title,st. michael vanquishing satan (raphael),0.8366843461990356
+Artwork_left.csv,title,christopher columbus (sculpture by vittori),Artwork_right,title,christopher columbus (vittori),0.8326945304870605
+Artwork_left.csv,title,a lane in the public garden at arles,Artwork_right,title,a lane near arles,0.8287659883499146
+Artwork_left.csv,title,portrait of a young woman (van der weyden),Artwork_right,title,"portrait of a young woman (vermeer, new york)",0.826015293598175
+Artwork_left.csv,title,portrait of princess saint joana,Artwork_right,title,portrait of a princess (pisanello),0.823232889175415
+Artwork_left.csv,title,bust of giovanni battista santoni,Artwork_right,title,bust of alessandro peretti di montalto,0.8149983286857605
+Artwork_left.csv,title,"statue of george v, westminster",Artwork_right,title,"statue of margaret thatcher, palace of westminster",0.8140029907226562
+Artwork_left.csv,title,flagellation of christ (piero della francesca),Artwork_right,title,resurrection (piero della francesca),0.8107006549835205
+Artwork_left.csv,title,abraham lincoln (bust by jones),Artwork_right,title,abraham lincoln (1920 statue),0.8106290102005005
+Artwork_left.csv,title,george washington (bust by houdon),Artwork_right,title,george washington (delue),0.8080779314041138
+Artwork_left.csv,title,babe's dream (sculpture),Artwork_right,title,babe's dream,0.8057764172554016
+Artwork_left.csv,title,lieutenant general george washington,Artwork_right,title,lieutenant general george washington (statue),0.8040065765380859
+Artwork_left.csv,title,the chess players,Artwork_right,title,the chess players (eakins painting),0.8026594519615173
+Artwork_left.csv,title,james buchanan memorial,Artwork_right,title,james garfield memorial,0.8000123500823975
+Artwork_left.csv,title,madonna della misericordia (piero della francesca),Artwork_right,title,polyptych of the misericordia (piero della francesca),0.7998799681663513
+Artwork_left.csv,title,the meaning of night (painting),Artwork_right,title,the night watch (painting),0.7989224791526794
+Artwork_left.csv,title,lady seated at a virginal,Artwork_right,title,seated woman,0.7972521781921387
+Artwork_left.csv,title,christ of saint john of the cross,Artwork_right,title,crucifixion with the virgin and st john,0.7961747646331787
+Artwork_left.csv,title,the fortune teller (caravaggio),Artwork_right,title,the fortune teller (de la tour painting),0.7952673435211182
+Artwork_left.csv,title,self-portrait (thomas eakins),Artwork_right,title,self-portrait as the allegory of painting,0.7925229072570801
+Artwork_left.csv,title,lamentation of christ (mantegna),Artwork_right,title,lamentation of christ (van der weyden),0.7896957993507385
+Artwork_left.csv,title,before the race (painting),Artwork_right,title,before the race,0.7882153987884521
+Artwork_left.csv,title,wandering rocks (2/5),Artwork_right,title,wandering rocks (smith),0.7876521944999695
+Artwork_left.csv,title,portrait of a knight (carpaccio),Artwork_right,title,portrait of a princess (pisanello),0.7861740589141846
+Artwork_left.csv,title,the flight into egypt (lorrain),Artwork_right,title,landscape with the flight into egypt,0.7821289300918579
+Artwork_left.csv,title,st. jerome in his study (antonello da messina),Artwork_right,title,"saint jerome writing (caravaggio, valletta)",0.7821254134178162
+Artwork_left.csv,title,art patronage of julius ii,Artwork_right,title,portrait of pope julius ii,0.7817899584770203
+Artwork_left.csv,title,martyrdom of saint bartholomew,Artwork_right,title,martyrdom of saint lawrence,0.7788087129592896
+Artwork_left.csv,title,the roulin family (van gogh series),Artwork_right,title,the roulin family,0.778357982635498
+Artwork_left.csv,title,olympus (sculpture),Artwork_right,title,hermes (sculpture),0.7748847603797913
+Artwork_left.csv,title,non-violence (sculpture),Artwork_right,title,non violence,0.7730312347412109
+Artwork_left.csv,title,the potato eaters,Artwork_right,title,the potato harvest,0.7713510394096375
+Artwork_left.csv,title,bijinga,Artwork_right,title,bijin-ga,0.7688251733779907
+Artwork_left.csv,title,the double dream of spring,Artwork_right,title,the return of spring,0.7643318176269531
+Artwork_left.csv,title,the marriage of the virgin (michelino da besozzo),Artwork_right,title,the virgin and child with two angels (andrea del verrochio),0.7561246752738953
+Artwork_left.csv,title,sponsa de libano,Artwork_right,title,la maja vestida,0.7537105083465576
+Artwork_left.csv,title,equestrian statue of theodore roosevelt,Artwork_right,title,abraham lincoln (1912 statue),0.746867299079895
+Artwork_left.csv,title,bust of louis xiv (bernini),Artwork_right,title,bust of francesco i d'este,0.7442309856414795
+Artwork_left.csv,title,vision of saint jerome,Artwork_right,title,saint jerome in his study (after van eyck),0.7432020306587219
+Artwork_left.csv,title,proserpine (rossetti painting),Artwork_right,title,pia de' tolomei (rossetti painting),0.7431918382644653
+Artwork_left.csv,title,hara (sculpture),Artwork_right,title,maman (sculpture),0.7414062023162842
+Artwork_left.csv,title,portrait of lucina brembati,Artwork_right,title,portrait of a lady known as smeralda brandini,0.7364931106567383
+Artwork_left.csv,title,vase with red poppies,Artwork_right,title,still life: vase with pink roses,0.7362319231033325
+Artwork_left.csv,title,springtime (painting),Artwork_right,title,april love (painting),0.7346848845481873
+Artwork_left.csv,title,indiana law enforcement and firefighters memorial,Artwork_right,title,fallen firefighters memorial (wu),0.7337732911109924
+Artwork_left.csv,title,the deposition (rubens),Artwork_right,title,the judgment of paris (rubens),0.7335618734359741
+Artwork_left.csv,title,angel of the resurrection,Artwork_right,title,angel of the resurrection (tiffany studios stained glass window),0.7320281267166138
+Artwork_left.csv,title,portrait of francesco delle opere,Artwork_right,title,bust of francesco barberini,0.7306315302848816
+Artwork_left.csv,title,portrait of cardinal alessandro farnese,Artwork_right,title,bust of cardinal richilieu,0.7300257086753845
+Artwork_left.csv,title,painting (1946),Artwork_right,title,"number 11, 1952 (painting)",0.7244774103164673
+Artwork_left.csv,title,washington monument (milwaukee),Artwork_right,title,lincoln monument,0.7239766716957092
+Artwork_left.csv,title,portrait of perugino (raphael),Artwork_right,title,portrait of a man in red chalk (leonardo),0.7234235405921936
+Artwork_left.csv,title,last supper (rubens),Artwork_right,title,"adoration of the magi (rubens, cambridge)",0.7231680154800415
+Artwork_left.csv,title,plain near auvers,Artwork_right,title,farms near auvers,0.7223365902900696
+Artwork_left.csv,title,"statue of sherlock holmes, london",Artwork_right,title,"queen victoria statue, bristol",0.7222561836242676
+Artwork_left.csv,title,erill la vall descent from the cross,Artwork_right,title,the descent from the cross (david folley),0.7215079069137573
+Artwork_left.csv,title,boy with goose,Artwork_right,title,the goose girl (bouguereau),0.7204717397689819
+Artwork_left.csv,title,statue of parakramabahu i,Artwork_right,title,queen victoria statue,0.7170504927635193
+Artwork_left.csv,title,portrait of maddalena doni,Artwork_right,title,portrait of a lady known as smeralda brandini,0.7166230082511902
+Artwork_left.csv,title,sacred cod of massachusetts,Artwork_right,title,sacred cod,0.7162178754806519
+Artwork_left.csv,title,madonna with the fish,Artwork_right,title,salting madonna,0.7136452794075012
+Artwork_left.csv,title,bedroom in arles,Artwork_right,title,hospital in arles,0.713529646396637
+Artwork_left.csv,title,saint agnes (massimo stanzione),Artwork_right,title,san giorgio maggiore at dusk,0.7119379639625549
+Artwork_left.csv,title,portrait of daniele barbaro,Artwork_right,title,bust of camilla barbadoni,0.711547315120697
+Artwork_left.csv,title,view of paris from vincent's room in the rue lepic,Artwork_right,title,la parisienne,0.710991382598877
+Artwork_left.csv,title,the jester don diego de acedo,Artwork_right,title,the jester don john of austria,0.7098022699356079
+Artwork_left.csv,title,the elder sister,Artwork_right,title,"the elder sister (bouguereau, 1869)",0.7091295719146729
+Artwork_left.csv,title,blue nude ii,Artwork_right,title,(untitled) blue lady,0.7078478336334229
+Artwork_left.csv,title,"statue of charles rolls, monmouth",Artwork_right,title,"equestrian statue of charles i, charing cross",0.7052805423736572
+Artwork_left.csv,title,harmonia (sculpture),Artwork_right,title,gloria victis (sculpture),0.7035918235778809
+Artwork_left.csv,title,the battle of lepanto (luna painting),Artwork_right,title,battle of vigo bay (painting),0.6986410021781921
+Artwork_left.csv,title,appomattox (statue),Artwork_right,title,george washington (statue),0.696906328201294
+Artwork_left.csv,title,thomas a. hendricks monument,Artwork_right,title,r. d. whitehead monument,0.6968673467636108
+Artwork_left.csv,title,philip jaisohn (statue),Artwork_right,title,"philip jaisohn (washington, dc)",0.6965063810348511
+Artwork_left.csv,title,grande odalisque,Artwork_right,title,les orangers,0.6960974931716919
+Artwork_left.csv,title,japonaiserie (van gogh),Artwork_right,title,la parisienne (hidalgo painting),0.6940246820449829
+Artwork_left.csv,title,the last judgment (michelangelo),Artwork_right,title,the judgement of solomon (giorgione),0.6938154697418213
+Artwork_left.csv,title,vase with carved peony scrolls,Artwork_right,title,stone flower (sculpture),0.6923924684524536
+Artwork_left.csv,title,gothic altarpiece of santes creus,Artwork_right,title,"adoration of the magi (bosch, madrid)",0.6917819976806641
+Artwork_left.csv,title,camouflage self-portrait,Artwork_right,title,self-portrait with beret and turned-up collar,0.6917173862457275
+Artwork_left.csv,title,the blacksmith's shop,Artwork_right,title,butcher's shop,0.6912295818328857
+Artwork_left.csv,title,christ between four angels,Artwork_right,title,christ falling on the way to calvary,0.6905496120452881
+Artwork_left.csv,title,crucifixion with a donor (bosch),Artwork_right,title,"christ carrying the cross (bosch, vienna)",0.6841665506362915
+Artwork_left.csv,title,erastus b. wolcott,Artwork_right,title,adrianus jacobus zuyderland,0.6798977851867676
+Artwork_left.csv,title,iron man (buddhist statue),Artwork_right,title,iron man (minnesota statue),0.6790190935134888
+Artwork_left.csv,title,chair (sculpture),Artwork_right,title,barrow (sculpture),0.6782814860343933
+Artwork_left.csv,title,the birth of venus (cabanel),Artwork_right,title,venus and the three graces presenting gifts to a young woman (botticelli),0.6777471303939819
+Artwork_left.csv,title,footballer (painting),Artwork_right,title,footballer (nolan),0.6755627393722534
+Artwork_left.csv,title,self-portrait with palette (manet),Artwork_right,title,self-portrait with two circles,0.6755275130271912
+Artwork_left.csv,title,bird and fish,Artwork_right,title,fishing (carracci),0.6729059219360352
+Artwork_left.csv,title,ascent the wind,Artwork_right,title,"south wind, clear sky",0.6720458269119263
+Artwork_left.csv,title,tomb of pope alexander vii,Artwork_right,title,bust of pope paul v,0.6719691157341003
+Artwork_left.csv,title,the sleeping children,Artwork_right,title,a girl asleep (vermeer),0.6708313226699829
+Artwork_left.csv,title,le sommeil,Artwork_right,title,la danse,0.6704741716384888
+Artwork_left.csv,title,portrait of a musician,Artwork_right,title,self-portrait with a friend,0.6699932813644409
+Artwork_left.csv,title,count casimir pulaski (kiselewski),Artwork_right,title,general thaddeus kosciuszko,0.6697816848754883
+Artwork_left.csv,title,st. john the evangelist on patmos,Artwork_right,title,the consecration of saint augustine,0.6692734956741333
+Artwork_left.csv,title,terraced village,Artwork_right,title,thatched cottages and houses,0.668192982673645
+Artwork_left.csv,title,dante alighieri (ximenes),Artwork_right,title,francesca da rimini and paolo malatesta appraised by dante and virgil,0.6681022047996521
+Artwork_left.csv,title,indian widow,Artwork_right,title,memorial to maria raggi,0.6677232384681702
+Artwork_left.csv,title,white crucifixion,Artwork_right,title,white on white,0.6675387024879456
+Artwork_left.csv,title,george peabody (sculpture),Artwork_right,title,george washington (1840 statue),0.667301595211029
+Artwork_left.csv,title,stufetta del cardinal bibbiena,Artwork_right,title,two busts of cardinal scipione borghese,0.667014479637146
+Artwork_left.csv,title,henry f. schricker (bust),Artwork_right,title,edwin b. hay (bust),0.666951060295105
+Artwork_left.csv,title,window at tangier,Artwork_right,title,the open window (matisse),0.6648846864700317
+Artwork_left.csv,title,portrait of history,Artwork_right,title,portrait of the duke of wellington,0.664312481880188
+Artwork_left.csv,title,statue of saladin,Artwork_right,title,george washington (1785-1792 statue),0.6617128252983093
+Artwork_left.csv,title,death of the virgin (mantegna),Artwork_right,title,magdalene with the smoking flame,0.6601790189743042
+Artwork_left.csv,title,marforio,Artwork_right,title,la fornarina,0.6586701273918152
+Artwork_left.csv,title,apse from la seu d'urgell,Artwork_right,title,frontal from la seu d'urgell or of the apostles,0.6564980745315552
+Artwork_left.csv,title,"deux fillettes, fond jaune et rouge",Artwork_right,title,la danse (bouguereau),0.6545698642730713
+Artwork_left.csv,title,saint catherine of alexandria polyptych,Artwork_right,title,saint augustine (botticelli),0.6531335115432739
+Artwork_left.csv,title,salisbury cathedral from the meadows,Artwork_right,title,rouen cathedral (monet series),0.6531273126602173
+Artwork_left.csv,title,the fall of the damned,Artwork_right,title,the great day of his wrath,0.6529443264007568
+Artwork_left.csv,title,the son of man,Artwork_right,title,the prodigal son in the brothel,0.6521282196044922
+Artwork_left.csv,title,the bridge (m. c. escher),Artwork_right,title,charing cross bridge (monet series),0.6502442359924316
+Artwork_left.csv,title,the street enters the house,Artwork_right,title,the little street (vermeer),0.649951696395874
+Artwork_left.csv,title,automat (painting),Artwork_right,title,first steps (painting),0.6495469212532043
+Artwork_left.csv,title,primavera (painting),Artwork_right,title,boreas (painting),0.6481645107269287
+Artwork_left.csv,title,ville d'avray (painting),Artwork_right,title,the gilded cage (evelyn de morgan painting),0.6473324298858643
+Artwork_left.csv,title,st. jerome and abraham panels (antonello da messina),Artwork_right,title,saint augustine in his cell (botticelli),0.6462687253952026
+Artwork_left.csv,title,portrait of a young man (masaccio),Artwork_right,title,portrait of a man in red chalk,0.6439368724822998
+Artwork_left.csv,title,shepherd with a flute,Artwork_right,title,the shepherdess (1889),0.6412206888198853
+Artwork_left.csv,title,lux mundi (statue),Artwork_right,title,statue of pope clement x,0.6411729454994202
+Artwork_left.csv,title,virgin and child from the sainte-chapelle,Artwork_right,title,a road at saint-remy with female figure,0.6400914192199707
+Artwork_left.csv,title,blossoming chestnut branches,Artwork_right,title,almond blossoms,0.6386809349060059
+Artwork_left.csv,title,ascent of the blessed,Artwork_right,title,double ascension,0.6382714509963989
+Artwork_left.csv,title,reading the letter (picasso),Artwork_right,title,the bookworm (painting),0.6381076574325562
+Artwork_left.csv,title,the young botanist,Artwork_right,title,flowering orchards,0.6376422643661499
+Artwork_left.csv,title,drawing hands,Artwork_right,title,pinkie (painting),0.6374168395996094
+Artwork_left.csv,title,portrait of bishop bernardo de' rossi,Artwork_right,title,blessed ludovica albertoni,0.6373968720436096
+Artwork_left.csv,title,the battle of alexander at issus,Artwork_right,title,battle of ostia (raphael's painting),0.6372805833816528
+Artwork_left.csv,title,the golden fleece (painting),Artwork_right,title,the monarch of the glen (painting),0.6364799737930298
+Artwork_left.csv,title,the calling (di suvero),Artwork_right,title,aurora (di suvero),0.6362736225128174
+Artwork_left.csv,title,saint candidus (ayne bru),Artwork_right,title,the hermit saint,0.6351847648620605
+Artwork_left.csv,title,chimney (sculpture),Artwork_right,title,cigarette (sculpture),0.6309504508972168
+Artwork_left.csv,title,armistead monument,Artwork_right,title,langlois bridge at arles,0.6290850639343262
+Artwork_left.csv,title,the hungry lion throws itself on the antelope,Artwork_right,title,eight stone lions,0.6237324476242065
+Artwork_left.csv,title,madonna of the rosary (caravaggio),Artwork_right,title,head of a woman (leonardo da vinci),0.6172457933425903
+Artwork_left.csv,title,medal of john viii palaeologus,Artwork_right,title,john harvard (statue),0.6171931624412537
+Artwork_left.csv,title,la femme au cheval,Artwork_right,title,insane woman (la monomane de l'envie),0.6166297197341919
+Artwork_left.csv,title,the jewish bride,Artwork_right,title,"the bride stripped bare by her bachelors, even",0.6164040565490723
+Artwork_left.csv,title,tiger in a tropical storm,Artwork_right,title,a young tiger playing with its mother,0.6157289743423462
+Artwork_left.csv,title,knife tree,Artwork_right,title,traffic light tree,0.6145592331886292

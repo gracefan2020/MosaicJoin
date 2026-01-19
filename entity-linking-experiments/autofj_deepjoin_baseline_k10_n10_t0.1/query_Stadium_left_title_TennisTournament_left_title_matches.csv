@@ -1,0 +1,4 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Stadium_left.csv,title,Peoria Sports Complex,TennisTournament_left.csv,title,2010 Sporting Challenger,0.6491
+Stadium_left.csv,title,Peoria Sports Complex,TennisTournament_left.csv,title,2009 Sporting Challenger,0.6491
+Stadium_left.csv,title,O'Connor Park,TennisTournament_left.csv,title,2012 Copa Agco Cordoba,0.6491

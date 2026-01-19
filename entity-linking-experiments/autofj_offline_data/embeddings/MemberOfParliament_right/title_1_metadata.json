@@ -1,0 +1,11 @@
+{
+  "table_name": "MemberOfParliament_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 503,
+  "unique_values": 503,
+  "processed_values": 503,
+  "embedding_dim": 768,
+  "processing_time": 0.3376193046569824,
+  "file_path": "datasets/autofj_join_benchmark/datalake/MemberOfParliament_right.csv"
+}

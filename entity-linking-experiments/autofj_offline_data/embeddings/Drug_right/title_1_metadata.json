@@ -1,0 +1,11 @@
+{
+  "table_name": "Drug_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 157,
+  "unique_values": 157,
+  "processed_values": 157,
+  "embedding_dim": 768,
+  "processing_time": 0.1322624683380127,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Drug_right.csv"
+}

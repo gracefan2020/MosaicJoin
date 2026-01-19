@@ -1,0 +1,10 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,1992 Ukrainian Transitional League,0.7666
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,Ukrainian Football Amateur League 2001,0.7666
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,Ukrainian Football Amateur League 2002,0.7666
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,Ukrainian Football Amateur League 2003,0.7666
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,Ukrainian Football Amateur League 2008,0.7666
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,Ukrainian Football Amateur League 2007,0.7666
+SoccerTournament_left.csv,title,Ukrainian League Cup,FootballLeagueSeason_right.csv,title,Ukrainian Football Amateur League 2006,0.7666
+SoccerTournament_left.csv,title,2010 Vietnamese Cup,FootballLeagueSeason_right.csv,title,2010 Vietnamese Second Division,0.7666
+SoccerTournament_left.csv,title,2012 Second Division Football Tournament,FootballLeagueSeason_right.csv,title,2012 Norwegian Second Division,0.7666

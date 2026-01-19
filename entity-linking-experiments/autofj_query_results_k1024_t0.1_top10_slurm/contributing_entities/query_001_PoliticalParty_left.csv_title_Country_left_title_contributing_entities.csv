@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+PoliticalParty_left.csv,title,united poland,Country_left,title,poland,0.911432147026062
+PoliticalParty_left.csv,title,prosperous armenia,Country_left,title,armenia,0.8853734731674194
+PoliticalParty_left.csv,title,lithuanian russian union,Country_left,title,lithuania,0.8533570170402527
+PoliticalParty_left.csv,title,communist party of kampuchea,Country_left,title,democratic kampuchea,0.842697024345398
+PoliticalParty_left.csv,title,bharipa bahujan mahasangh,Country_left,title,mahajanapada,0.8350613117218018
+PoliticalParty_left.csv,title,cameroon national union,Country_left,title,cameroon,0.8321624994277954
+PoliticalParty_left.csv,title,people's union of estonia,Country_left,title,estonia,0.8319799900054932
+PoliticalParty_left.csv,title,croatian democratic union of bosnia and herzegovina,Country_left,title,republic of serbian krajina,0.8297601938247681
+PoliticalParty_left.csv,title,united congolese convention,Country_left,title,republic of the congo,0.8290331363677979
+PoliticalParty_left.csv,title,kenya people's union,Country_left,title,kenya,0.8238469362258911
+PoliticalParty_left.csv,title,chadema,Country_left,title,chad,0.8232226371765137
+PoliticalParty_left.csv,title,united people of cambodia,Country_left,title,cambodia,0.8223831057548523
+PoliticalParty_left.csv,title,cameroonian union,Country_left,title,french cameroons,0.8195136785507202
+PoliticalParty_left.csv,title,fatherland (kazakhstan),Country_left,title,kazakhstan,0.8194078207015991
+PoliticalParty_left.csv,title,progress party of equatorial guinea,Country_left,title,equatorial guinea,0.8160330057144165
+PoliticalParty_left.csv,title,people's mujahedin of iran,Country_left,title,muzaffarids of iran,0.8160317540168762
+PoliticalParty_left.csv,title,kalibapi,Country_left,title,kalingga,0.814409077167511
+PoliticalParty_left.csv,title,sierra leone people's party,Country_left,title,sierra leone,0.8138622045516968
+PoliticalParty_left.csv,title,jeunesse gabonais,Country_left,title,gabon,0.8067792654037476
+PoliticalParty_left.csv,title,deutscher volksverband,Country_left,title,vogtei rheintal,0.8053115606307983
+PoliticalParty_left.csv,title,aruaa,Country_left,title,anga,0.8019686937332153
+PoliticalParty_left.csv,title,jeay sindh qaumi mahaz,Country_left,title,azad hind,0.8019638061523438
+PoliticalParty_left.csv,title,african development movement,Country_left,title,southern african development community,0.7999982833862305
+PoliticalParty_left.csv,title,indian uzhavar uzhaippalar katchi,Country_left,title,uyghur khaganate,0.7991765737533569
+PoliticalParty_left.csv,title,communist party of kyrgyzstan,Country_left,title,kyrgyzstan,0.7957102656364441
+PoliticalParty_left.csv,title,union of democratic forces (mauritania),Country_left,title,mauritania,0.794028103351593
+PoliticalParty_left.csv,title,dominica freedom party,Country_left,title,dominica,0.7923597097396851
+PoliticalParty_left.csv,title,khana ratsadon,Country_left,title,rouran khaganate,0.7923203706741333
+PoliticalParty_left.csv,title,lesotho congress for democracy,Country_left,title,lesotho,0.7900773286819458
+PoliticalParty_left.csv,title,project venezuela,Country_left,title,venezuela,0.7847305536270142
+PoliticalParty_left.csv,title,tamil desiyak katchi,Country_left,title,keladi nayaka,0.7790557146072388
+PoliticalParty_left.csv,title,alliance for the republic (nicaragua),Country_left,title,nicaragua,0.7784537672996521
+PoliticalParty_left.csv,title,hellenic front,Country_left,title,greece,0.7777453660964966
+PoliticalParty_left.csv,title,democratic renewal (lebanon),Country_left,title,lebanon,0.7775392532348633
+PoliticalParty_left.csv,title,janganotantrik morcha,Country_left,title,janggala,0.774867832660675
+PoliticalParty_left.csv,title,voerbelangen,Country_left,title,vogtland,0.7727420330047607
+PoliticalParty_left.csv,title,serbian radical party,Country_left,title,republika srpska,0.7717233896255493
+PoliticalParty_left.csv,title,hamas,Country_left,title,israel,0.7709579467773438
+PoliticalParty_left.csv,title,swabhimani paksha,Country_left,title,singhasari,0.7704043388366699
+PoliticalParty_left.csv,title,gabriela,Country_left,title,francia,0.7702740430831909
+PoliticalParty_left.csv,title,russian unity,Country_left,title,soviet union,0.7673029899597168
+PoliticalParty_left.csv,title,slovene union,Country_left,title,slovenia,0.7663096189498901
+PoliticalParty_left.csv,title,national party of honduras,Country_left,title,honduras,0.7660748958587646
+PoliticalParty_left.csv,title,concordancia (argentina),Country_left,title,argentina,0.7646763920783997
+PoliticalParty_left.csv,title,broad front (uruguay),Country_left,title,uruguay,0.7636902928352356
+PoliticalParty_left.csv,title,shas,Country_left,title,shaki khanate,0.7633745670318604
+PoliticalParty_left.csv,title,nigerien party for democracy and socialism,Country_left,title,niger,0.7616966962814331
+PoliticalParty_left.csv,title,people first party (south korea),Country_left,title,people's republic of korea,0.7606391310691833
+PoliticalParty_left.csv,title,khmer people's national liberation front,Country_left,title,provisional government of national union and national salvation of cambodia,0.7600752115249634
+PoliticalParty_left.csv,title,new korea party,Country_left,title,provisional people's committee for north korea,0.7600487470626831
+PoliticalParty_left.csv,title,hong kong civic association,Country_left,title,hong kong,0.7597488164901733
+PoliticalParty_left.csv,title,people's alliance (iceland),Country_left,title,iceland,0.7581250667572021
+PoliticalParty_left.csv,title,iraqi accord front,Country_left,title,ba'athist iraq,0.7541266679763794
+PoliticalParty_left.csv,title,national democratic alliance (kuwait),Country_left,title,kuwait,0.7535600066184998
+PoliticalParty_left.csv,title,rodina,Country_left,title,lazica,0.752660870552063
+PoliticalParty_left.csv,title,belarusian christian democracy,Country_left,title,belarusian central rada,0.7493318915367126
+PoliticalParty_left.csv,title,jamiat-e islami,Country_left,title,almohad caliphate,0.7492386698722839
+PoliticalParty_left.csv,title,ambedkar makkal katchi,Country_left,title,maukhari,0.7486770153045654
+PoliticalParty_left.csv,title,timorese social democratic association,Country_left,title,united nations transitional administration in east timor,0.7470576763153076
+PoliticalParty_left.csv,title,qaumi watan party,Country_left,title,qasim khanate,0.7462092638015747
+PoliticalParty_left.csv,title,cuban democratic socialist current,Country_left,title,cuba,0.7459768056869507
+PoliticalParty_left.csv,title,patriotic union of kurdistan,Country_left,title,kuban people's republic,0.7459453344345093
+PoliticalParty_left.csv,title,periyar dravidar kazhagam,Country_left,title,kahuripan,0.7441057562828064
+PoliticalParty_left.csv,title,lapiang malaya,Country_left,title,malaysia,0.7435557842254639
+PoliticalParty_left.csv,title,batkivshchyna,Country_left,title,vishnukundina,0.7435348629951477
+PoliticalParty_left.csv,title,islamic iran participation front,Country_left,title,iran,0.743465781211853
+PoliticalParty_left.csv,title,alliance for democracy (malawi),Country_left,title,central african republic,0.742121160030365
+PoliticalParty_left.csv,title,illankai tamil arasu kachchi,Country_left,title,avar khaganate,0.7420111298561096
+PoliticalParty_left.csv,title,deshpremee jana samukshya,Country_left,title,sambuvaraya,0.7396798133850098
+PoliticalParty_left.csv,title,hayisraelim,Country_left,title,yamhad,0.7394706606864929
+PoliticalParty_left.csv,title,nafarroa bai,Country_left,title,banu qasi,0.738609790802002
+PoliticalParty_left.csv,title,eusko abertzale ekintza,Country_left,title,sao bosanska krajina,0.7383261919021606
+PoliticalParty_left.csv,title,communist party of the republic of china,Country_left,title,fujian people's government,0.7367985248565674
+PoliticalParty_left.csv,title,christian movement for a new haiti,Country_left,title,haiti,0.736576497554779
+PoliticalParty_left.csv,title,akhil bharatiya rashtravadi kisan sangathan,Country_left,title,nakhichevan khanate,0.7363407611846924
+PoliticalParty_left.csv,title,democratic alliance for egypt,Country_left,title,egypt,0.7351750135421753
+PoliticalParty_left.csv,title,civilian power,Country_left,title,general government,0.7345558404922485
+PoliticalParty_left.csv,title,krantikari mukti morcha,Country_left,title,khoshut khanate,0.7337112426757812
+PoliticalParty_left.csv,title,democrats in norway,Country_left,title,norway,0.7331434488296509
+PoliticalParty_left.csv,title,mapu obrero campesino,Country_left,title,giudicato of logudoro,0.7302567958831787
+PoliticalParty_left.csv,title,inekaren,Country_left,title,inini,0.729397177696228
+PoliticalParty_left.csv,title,japan nation party,Country_left,title,japan,0.7293628454208374
+PoliticalParty_left.csv,title,social democratic party of russia,Country_left,title,russian soviet federative socialist republic,0.729284405708313
+PoliticalParty_left.csv,title,anaithinthiya thamizhaga munnetra kazhagam,Country_left,title,tannu uriankhai,0.7280697822570801
+PoliticalParty_left.csv,title,communist people's party of kazakhstan,Country_left,title,khorezm people's soviet republic,0.7263939380645752
+PoliticalParty_left.csv,title,democracia cristiana vasca,Country_left,title,provincias internas,0.7252826690673828
+PoliticalParty_left.csv,title,green party taiwan,Country_left,title,taiwan,0.7250180244445801
+PoliticalParty_left.csv,title,hizb ut-tahrir,Country_left,title,taqali,0.7244625687599182
+PoliticalParty_left.csv,title,union of iranian communists (sarbedaran),Country_left,title,interim government of iran (1979),0.7242981791496277
+PoliticalParty_left.csv,title,aitaira,Country_left,title,alania,0.7236508131027222
+PoliticalParty_left.csv,title,unity (ukraine),Country_left,title,russia,0.723476767539978
+PoliticalParty_left.csv,title,alliance for italy,Country_left,title,italy,0.7230862379074097
+PoliticalParty_left.csv,title,dhiravida thelugar munnetra kazhagam,Country_left,title,dharmasraya,0.7210730314254761
+PoliticalParty_left.csv,title,new national party (grenada),Country_left,title,grenada,0.7202945947647095
+PoliticalParty_left.csv,title,oleksandr omelchenko bloc,Country_left,title,vladimir-suzdal,0.7200229167938232
+PoliticalParty_left.csv,title,somali youth league,Country_left,title,somalia,0.7192955017089844
+PoliticalParty_left.csv,title,communist party of china,Country_left,title,china,0.7190908789634705
+PoliticalParty_left.csv,title,united new zealand,Country_left,title,united kingdom,0.7188204526901245
+PoliticalParty_left.csv,title,morasha,Country_left,title,medri bahri,0.7184184789657593
+PoliticalParty_left.csv,title,bangladesh khilafat andolan,Country_left,title,sarab khanate,0.716842532157898
+PoliticalParty_left.csv,title,democratic unionist party (sudan),Country_left,title,south sudan,0.7150294184684753
+PoliticalParty_left.csv,title,socialistische partij anders,Country_left,title,nieuwe republiek,0.7137906551361084
+PoliticalParty_left.csv,title,vohibato tapa-kevitsa,Country_left,title,kosala,0.7135530114173889
+PoliticalParty_left.csv,title,social democratic party (benin),Country_left,title,benin,0.7125234007835388
+PoliticalParty_left.csv,title,kokang democracy and unity party,Country_left,title,kazikumukh khanate,0.7105668187141418
+PoliticalParty_left.csv,title,unity for human rights party,Country_left,title,united nations,0.7101669311523438
+PoliticalParty_left.csv,title,musavat,Country_left,title,hariphunchai,0.7093901038169861
+PoliticalParty_left.csv,title,the greens (denmark),Country_left,title,denmark,0.7092450857162476
+PoliticalParty_left.csv,title,ephraim union,Country_left,title,kalmar union,0.7092189788818359
+PoliticalParty_left.csv,title,hezbe wahdat,Country_left,title,waldburg-wolfegg-zeil,0.7086933851242065
+PoliticalParty_left.csv,title,people's movement of kosovo,Country_left,title,united nations interim administration mission in kosovo,0.7081262469291687
+PoliticalParty_left.csv,title,german freedom party,Country_left,title,reichskommissariat moskowien,0.7068676948547363
+PoliticalParty_left.csv,title,saint lucia labour party,Country_left,title,saint lucia,0.7065523862838745
+PoliticalParty_left.csv,title,communist party of kazakhstan,Country_left,title,kirghiz soviet socialist republic,0.7053742408752441
+PoliticalParty_left.csv,title,lithuanian national union,Country_left,title,latvia,0.7051421403884888
+PoliticalParty_left.csv,title,siumut,Country_left,title,silla,0.7051326036453247
+PoliticalParty_left.csv,title,communist party of indonesia,Country_left,title,indonesia,0.7018826007843018
+PoliticalParty_left.csv,title,te tiarama,Country_left,title,taifa of tejada,0.6989574432373047
+PoliticalParty_left.csv,title,shiromani akali dal (longowal),Country_left,title,shirvan khanate,0.6980162262916565
+PoliticalParty_left.csv,title,naujawan kisan party,Country_left,title,kara koyunlu,0.6969130039215088
+PoliticalParty_left.csv,title,life of the egyptians party,Country_left,title,khedivate of egypt,0.6967402696609497
+PoliticalParty_left.csv,title,left of croatia,Country_left,title,republic of prekmurje,0.6965286731719971
+PoliticalParty_left.csv,title,alliance of liberals and democrats for europe in the parliamentary assembly of the council of europe,Country_left,title,parliamentary assembly of the organization for security and co-operation in europe,0.6963809132575989
+PoliticalParty_left.csv,title,valencian union,Country_left,title,spain,0.6962474584579468
+PoliticalParty_left.csv,title,gaumee itthihaad,Country_left,title,gyaaman,0.6958069801330566
+PoliticalParty_left.csv,title,radical people's party (finland),Country_left,title,finland,0.6921758651733398
+PoliticalParty_left.csv,title,alliance for democracy and development,Country_left,title,organisation for economic co-operation and development,0.6911478042602539
+PoliticalParty_left.csv,title,blanke bevrydingsbeweging,Country_left,title,brycheiniog,0.6907327175140381
+PoliticalParty_left.csv,title,german social union (east germany),Country_left,title,west germany,0.6875971555709839
+PoliticalParty_left.csv,title,people's national party (ghana),Country_left,title,ghana,0.6868655681610107
+PoliticalParty_left.csv,title,kurdistan list,Country_left,title,kumul khanate,0.6848011612892151
+PoliticalParty_left.csv,title,croix-de-feu,Country_left,title,saint-domingue,0.6844100952148438
+PoliticalParty_left.csv,title,independence republic of sardinia,Country_left,title,republic of cospaia,0.6831860542297363
+PoliticalParty_left.csv,title,national democratic front for the liberation of oman and the arabian gulf,Country_left,title,oman,0.6830404996871948
+PoliticalParty_left.csv,title,national democratic congress (ghana),Country_left,title,nigeria,0.6824393272399902
+PoliticalParty_left.csv,title,union for democracy and the republic (chad),Country_left,title,burkina faso,0.6823294162750244
+PoliticalParty_left.csv,title,agang south africa,Country_left,title,bophuthatswana,0.6819869875907898
+PoliticalParty_left.csv,title,burundo-african alliance for salvation,Country_left,title,biafra,0.6819525957107544
+PoliticalParty_left.csv,title,arab socialist union (iraq),Country_left,title,mamluk rule in iraq,0.6816690564155579
+PoliticalParty_left.csv,title,justice party (turkey),Country_left,title,turkey,0.6815280318260193
+PoliticalParty_left.csv,title,liberal party of switzerland,Country_left,title,switzerland,0.681458592414856
+PoliticalParty_left.csv,title,rashtriya samaj paksha,Country_left,title,panchala,0.6803957223892212
+PoliticalParty_left.csv,title,freedom union (poland),Country_left,title,pridnestrovian moldavian soviet socialist republic,0.6793456673622131
+PoliticalParty_left.csv,title,herut,Country_left,title,herm,0.6790190935134888
+PoliticalParty_left.csv,title,tripoli bloc,Country_left,title,history of libya under muammar gaddafi,0.6773312091827393
+PoliticalParty_left.csv,title,costa rican renovation party,Country_left,title,costa rica,0.6751002073287964
+PoliticalParty_left.csv,title,fanmi lavalas,Country_left,title,carneola,0.674414873123169
+PoliticalParty_left.csv,title,rally of the togolese people,Country_left,title,togo,0.6741390228271484
+PoliticalParty_left.csv,title,christian democrats (sweden),Country_left,title,nordic countries,0.6730118989944458
+PoliticalParty_left.csv,title,libertas (czech republic),Country_left,title,lemko republic,0.672642707824707
+PoliticalParty_left.csv,title,batasuna,Country_left,title,adjara,0.6721632480621338
+PoliticalParty_left.csv,title,sunni ittehad council,Country_left,title,idrisid emirate of asir,0.6717650294303894
+PoliticalParty_left.csv,title,jamiat ulema-e-islam (f),Country_left,title,imamate of futa jallon,0.6716227531433105
+PoliticalParty_left.csv,title,motherland party (azerbaijan),Country_left,title,nagorno-karabakh republic,0.6706717014312744
+PoliticalParty_left.csv,title,new space (uruguay),Country_left,title,"los altos, central america",0.6705336570739746
+PoliticalParty_left.csv,title,unitalia,Country_left,title,urartu,0.66862952709198
+PoliticalParty_left.csv,title,party for the netherlands,Country_left,title,burgundian netherlands,0.6678581237792969
+PoliticalParty_left.csv,title,safina,Country_left,title,champa,0.6678183078765869
+PoliticalParty_left.csv,title,puthiya needhi katchi,Country_left,title,gurjara-pratihara,0.6677212715148926
+PoliticalParty_left.csv,title,east kilbride alliance,Country_left,title,east breifne,0.6677157878875732
+PoliticalParty_left.csv,title,chondoist chongu party,Country_left,title,huan xuan,0.6674631834030151
+PoliticalParty_left.csv,title,riojan party,Country_left,title,bandava,0.667335033416748
+PoliticalParty_left.csv,title,mykola katerynchuk bloc,Country_left,title,maitraka,0.6667147874832153
+PoliticalParty_left.csv,title,dhivehi rayyithunge party,Country_left,title,majapahit,0.6648106575012207
+PoliticalParty_left.csv,title,bangladesh jamaat-e-islami,Country_left,title,bima sultanate,0.6636856198310852
+PoliticalParty_left.csv,title,fatherland league (norway),Country_left,title,hanseatic league,0.663470983505249
+PoliticalParty_left.csv,title,agudat yisrael,Country_left,title,aghlabids,0.6634001731872559
+PoliticalParty_left.csv,title,arab ba'ath movement,Country_left,title,alash autonomy,0.6626994609832764
+PoliticalParty_left.csv,title,cartel des gauches,Country_left,title,grande comore,0.6623461246490479
+PoliticalParty_left.csv,title,revolutionary communist party of turkey,Country_left,title,tajik soviet socialist republic,0.661888062953949
+PoliticalParty_left.csv,title,centre union,Country_left,title,kangar union,0.6612773537635803
+PoliticalParty_left.csv,title,yugoslav radical union,Country_left,title,dubrovnik republic (1991),0.660506010055542
+PoliticalParty_left.csv,title,democratic alternative (republic of macedonia),Country_left,title,transcaucasian democratic federative republic,0.6601513624191284
+PoliticalParty_left.csv,title,all-malaya council of joint action,Country_left,title,south asian association for regional cooperation,0.6596362590789795
+PoliticalParty_left.csv,title,progressive democratic alliance (equatorial guinea),Country_left,title,guinea-bissau,0.6595461368560791
+PoliticalParty_left.csv,title,democratic regional union,Country_left,title,udmurt autonomous soviet socialist republic,0.6563425064086914
+PoliticalParty_left.csv,title,nationalist party (ivory coast),Country_left,title,ivory coast,0.6561843752861023
+PoliticalParty_left.csv,title,terra galega,Country_left,title,glorioso islands,0.656141996383667
+PoliticalParty_left.csv,title,mongolian people's party,Country_left,title,zunghar khanate,0.6553646326065063
+PoliticalParty_left.csv,title,national rally for democracy in chad,Country_left,title,french chad,0.6550019979476929
+PoliticalParty_left.csv,title,mexican fascist party,Country_left,title,mexico,0.654956579208374
+PoliticalParty_left.csv,title,malaysian chinese association,Country_left,title,muang phuan,0.6547617316246033
+PoliticalParty_left.csv,title,southern ethiopia peoples' democratic coalition,Country_left,title,darfur regional authority,0.6546947360038757
+PoliticalParty_left.csv,title,kdp-i,Country_left,title,karakalpakstan,0.6543248295783997
+PoliticalParty_left.csv,title,communist party of the philippines,Country_left,title,philippines,0.6539719104766846
+PoliticalParty_left.csv,title,neo-communist party of the soviet union,Country_left,title,byelorussian soviet socialist republic,0.6535263061523438
+PoliticalParty_left.csv,title,lega nord sardinia,Country_left,title,giudicato of cagliari,0.6527775526046753
+PoliticalParty_left.csv,title,labour party (nigeria),Country_left,title,"northern region, nigeria",0.6521195769309998
+PoliticalParty_left.csv,title,saenuri party,Country_left,title,kaabu,0.6509815454483032
+PoliticalParty_left.csv,title,afrikaner weerstandsbeweging,Country_left,title,kwikwetlem first nation,0.6502103805541992
+PoliticalParty_left.csv,title,popular union for the republic,Country_left,title,rif republic,0.6498569250106812
+PoliticalParty_left.csv,title,togolese alliance of democrats,Country_left,title,senegambia and niger,0.6489912271499634
+PoliticalParty_left.csv,title,communist renewal,Country_left,title,twenty years' anarchy,0.6489244103431702
+PoliticalParty_left.csv,title,german socialist labour party of poland,Country_left,title,reichskommissariat don-wolga,0.6479990482330322
+PoliticalParty_left.csv,title,azerbaijan liberal party,Country_left,title,zakarid armenia,0.6461828947067261
+PoliticalParty_left.csv,title,human rights party (cambodia),Country_left,title,laos,0.6461250185966492
+PoliticalParty_left.csv,title,people's committee to protect ukraine,Country_left,title,provisional siberian government (vladivostok),0.6456159353256226
+PoliticalParty_left.csv,title,"centre, democracy and progress",Country_left,title,central powers,0.6452161073684692
+PoliticalParty_left.csv,title,national liberation front (algeria),Country_left,title,mali,0.6451622843742371
+PoliticalParty_left.csv,title,french popular party,Country_left,title,france,0.6444696187973022

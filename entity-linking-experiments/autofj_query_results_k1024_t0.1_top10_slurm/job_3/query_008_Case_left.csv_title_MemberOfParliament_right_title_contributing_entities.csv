@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Case_left.csv,title,united states v. hudson,MemberOfParliament_right,title,james hudson (politician),0.6773936748504639
+Case_left.csv,title,watson v. jones,MemberOfParliament_right,title,david watson (australian politician),0.645888090133667
+Case_left.csv,title,gray v. sanders,MemberOfParliament_right,title,darryl l. gray,0.644723653793335
+Case_left.csv,title,wesberry v. sanders,MemberOfParliament_right,title,william sanders (politician),0.6338940262794495
+Case_left.csv,title,maples v. thomas,MemberOfParliament_right,title,john maples,0.6269897222518921
+Case_left.csv,title,webb v. united states,MemberOfParliament_right,title,harry webb (politician),0.625535786151886
+Case_left.csv,title,williams v. lee,MemberOfParliament_right,title,william lee martin,0.6251227855682373
+Case_left.csv,title,paul v. virginia,MemberOfParliament_right,title,john thomas paul,0.6244114637374878
+Case_left.csv,title,perry v. new hampshire,MemberOfParliament_right,title,george perry (british politician),0.6206854581832886
+Case_left.csv,title,shuttlesworth v. birmingham,MemberOfParliament_right,title,william carter (mansfield mp),0.6189196705818176
+Case_left.csv,title,jenkins v. anderson,MemberOfParliament_right,title,john hogan jenkins,0.6138902902603149
+Case_left.csv,title,goldwater v. carter,MemberOfParliament_right,title,raymond carter (politician),0.6119058132171631
+Case_left.csv,title,lucy v. adams,MemberOfParliament_right,title,lucy allan (politician),0.6117119193077087
+Case_left.csv,title,cheff v. schnackenberg,MemberOfParliament_right,title,w. d. j. senewiratne,0.6107863783836365
+Case_left.csv,title,richardson v. perales,MemberOfParliament_right,title,peter richardson (politician),0.5983039140701294
+Case_left.csv,title,powell v. texas,MemberOfParliament_right,title,william powell (conservative politician),0.5961095094680786
+Case_left.csv,title,hawke v. smith,MemberOfParliament_right,title,alick buchanan-smith,0.5960400700569153
+Case_left.csv,title,duncan v. kahanamoku,MemberOfParliament_right,title,walter leslie duncan,0.5959292650222778
+Case_left.csv,title,owen v. city of independence,MemberOfParliament_right,title,stephen owen (politician),0.5952248573303223
+Case_left.csv,title,california democratic party v. jones,MemberOfParliament_right,title,david jones (welsh politician),0.5940985679626465
+Case_left.csv,title,superintendent v. hill,MemberOfParliament_right,title,don mcleod (politician),0.5883386731147766
+Case_left.csv,title,james v. united states (2007),MemberOfParliament_right,title,david james (politician),0.586467981338501
+Case_left.csv,title,zablocki v. redhail,MemberOfParliament_right,title,hussein ahamed bhaila,0.5863197445869446
+Case_left.csv,title,provident institution for sav. v. mayor of jersey city,MemberOfParliament_right,title,william senior (politician),0.586067795753479
+Case_left.csv,title,gregory v. hartley,MemberOfParliament_right,title,archibald orr-ewing,0.5845394730567932
+Case_left.csv,title,lindsey v. miller,MemberOfParliament_right,title,larry miller (canadian politician),0.583916187286377
+Case_left.csv,title,ontario v. quon,MemberOfParliament_right,title,william anderson (ontario mp),0.5835598707199097
+Case_left.csv,title,rogers v. bellei,MemberOfParliament_right,title,rufus rogers,0.5801986455917358
+Case_left.csv,title,williams v. rhodes,MemberOfParliament_right,title,roger williams (uk politician),0.575620174407959
+Case_left.csv,title,united states v. wheeler,MemberOfParliament_right,title,roy wheeler (australian politician),0.5754480361938477
+Case_left.csv,title,robinson v. california,MemberOfParliament_right,title,william cornforth robinson,0.5731475353240967
+Case_left.csv,title,coon v. wilson,MemberOfParliament_right,title,william wilson killen,0.572761058807373
+Case_left.csv,title,reynolds v. sims,MemberOfParliament_right,title,len reynolds (politician),0.5727179646492004
+Case_left.csv,title,beard v. banks,MemberOfParliament_right,title,henry beard (politician),0.5726636648178101
+Case_left.csv,title,alexander v. sandoval,MemberOfParliament_right,title,alexander gunn (politician),0.5720442533493042
+Case_left.csv,title,dann v. johnston,MemberOfParliament_right,title,allan johnston (politician),0.5709816217422485
+Case_left.csv,title,mcarthur v. scott,MemberOfParliament_right,title,douglas scott (politician),0.5708868503570557
+Case_left.csv,title,ashcroft v. iqbal,MemberOfParliament_right,title,junaid ahmed palak,0.5693602561950684
+Case_left.csv,title,caban v. mohammed,MemberOfParliament_right,title,mohamed musthaffa,0.5692828893661499
+Case_left.csv,title,maynard v. cartwright,MemberOfParliament_right,title,john cartwright (uk politician),0.5667707920074463
+Case_left.csv,title,commissioner v. sunnen,MemberOfParliament_right,title,s. kajendran,0.565815806388855
+Case_left.csv,title,united states v. wilson,MemberOfParliament_right,title,james wilson (new zealand politician born 1849),0.5658013820648193
+Case_left.csv,title,hunter v. erickson,MemberOfParliament_right,title,eric ogden,0.5646133422851562
+Case_left.csv,title,director of revenue of missouri v. cobank acb,MemberOfParliament_right,title,matthew gordon banks,0.5642250776290894
+Case_left.csv,title,james v. dravo contracting co.,MemberOfParliament_right,title,"david prior, baron prior of brampton",0.5638628005981445
+Case_left.csv,title,wong sun v. united states,MemberOfParliament_right,title,lee siew choh,0.5634043216705322
+Case_left.csv,title,chambers v. united states,MemberOfParliament_right,title,alan chambers (politician),0.5616082549095154
+Case_left.csv,title,johnson v. m'intosh,MemberOfParliament_right,title,james johnson (uk politician),0.5612419247627258
+Case_left.csv,title,united states v. white,MemberOfParliament_right,title,henry white (british politician),0.5593180656433105
+Case_left.csv,title,johnson v. robison,MemberOfParliament_right,title,geoffrey johnson-smith,0.5585548877716064
+Case_left.csv,title,afroyim v. rusk,MemberOfParliament_right,title,mubarak mohammed muntaka,0.5584244728088379
+Case_left.csv,title,harper v. virginia state board of elections,MemberOfParliament_right,title,francis mclean (politician),0.557613730430603
+Case_left.csv,title,clinton v. jones,MemberOfParliament_right,title,lord arthur pelham-clinton,0.557379961013794
+Case_left.csv,title,"anderson v. liberty lobby, inc.",MemberOfParliament_right,title,gordon anderson (politician),0.5573627948760986
+Case_left.csv,title,"pfizer, inc. v. government of india",MemberOfParliament_right,title,n. kumaraguruparan,0.5573621988296509
+Case_left.csv,title,jones v. cunningham,MemberOfParliament_right,title,george cunningham,0.5572657585144043
+Case_left.csv,title,joint anti-fascist refugee committee v. mcgrath,MemberOfParliament_right,title,allan mcdonald (australian politician),0.5566990375518799
+Case_left.csv,title,united states v. richardson,MemberOfParliament_right,title,thomas richardson (labour politician),0.5561741590499878
+Case_left.csv,title,conley v. gibson,MemberOfParliament_right,title,charles gibson (british politician),0.55484539270401
+Case_left.csv,title,james v. illinois,MemberOfParliament_right,title,john james (politician),0.5513667464256287
+Case_left.csv,title,burnet v. logan,MemberOfParliament_right,title,david logan (politician),0.5512292981147766
+Case_left.csv,title,shaw v. murphy,MemberOfParliament_right,title,shawn murphy (politician),0.5512215495109558
+Case_left.csv,title,hodel v. irving,MemberOfParliament_right,title,william irving (british politician),0.5508477091789246
+Case_left.csv,title,harvey v. united states,MemberOfParliament_right,title,edmund harvey (social reformer),0.5507323741912842
+Case_left.csv,title,davis v. mann,MemberOfParliament_right,title,john mann (politician),0.5485875606536865
+Case_left.csv,title,green v. biddle,MemberOfParliament_right,title,james bidgood (australian politician),0.5475600957870483
+Case_left.csv,title,united states v. hamilton,MemberOfParliament_right,title,len hamilton,0.5475033521652222
+Case_left.csv,title,knight v. commissioner,MemberOfParliament_right,title,"denison faber, 1st baron wittenham",0.5474193096160889
+Case_left.csv,title,nasa v. nelson,MemberOfParliament_right,title,john nelson (australian politician),0.5463719964027405
+Case_left.csv,title,martin v. hunter's lessee,MemberOfParliament_right,title,james hunter (politician),0.5457037687301636
+Case_left.csv,title,commissioner v. soliman,MemberOfParliament_right,title,charles henderson (politician),0.5451964139938354
+Case_left.csv,title,the paquete habana,MemberOfParliament_right,title,azra fazal pechuho,0.5451764464378357
+Case_left.csv,title,cox v. new hampshire,MemberOfParliament_right,title,tom cox (politician),0.5446829795837402
+Case_left.csv,title,zadvydas v. davis,MemberOfParliament_right,title,s. kishore,0.5396569967269897
+Case_left.csv,title,ogden v. saunders,MemberOfParliament_right,title,henry saunders (politician),0.5385900139808655
+Case_left.csv,title,dobson v. commissioner,MemberOfParliament_right,title,thomas gladstone,0.538449227809906
+Case_left.csv,title,edelman v. jordan,MemberOfParliament_right,title,maurice johnson,0.5384067296981812
+Case_left.csv,title,o'connor v. ortega,MemberOfParliament_right,title,brian kevin o'malley,0.5381237864494324
+Case_left.csv,title,ricci v. destefano,MemberOfParliament_right,title,anthony luchetti,0.5355532169342041
+Case_left.csv,title,gasperini v. center for humanities,MemberOfParliament_right,title,j. p. w. mallalieu,0.5351051092147827
+Case_left.csv,title,ray v. blair,MemberOfParliament_right,title,brian gibson (politician),0.5338940024375916
+Case_left.csv,title,united states v. lee,MemberOfParliament_right,title,john lee (labour politician),0.533287763595581
+Case_left.csv,title,healy v. james,MemberOfParliament_right,title,gerard george fitzgerald,0.5330677032470703
+Case_left.csv,title,"joseph burstyn, inc v. wilson",MemberOfParliament_right,title,james wilson (labour politician),0.533019483089447
+Case_left.csv,title,wilcox v. jackson,MemberOfParliament_right,title,robert jackson (ipswich mp),0.531915545463562
+Case_left.csv,title,jacobellis v. ohio,MemberOfParliament_right,title,john henry hayes,0.5314828157424927
+Case_left.csv,title,terry v. ohio,MemberOfParliament_right,title,terry mccombs,0.5311654210090637
+Case_left.csv,title,united states v. jones (2012),MemberOfParliament_right,title,d. t. jones,0.5310758352279663
+Case_left.csv,title,diamond v. chakrabarty,MemberOfParliament_right,title,c. chandrakanthan,0.5304268598556519
+Case_left.csv,title,cooper v. aaron,MemberOfParliament_right,title,geoffrey cooper (politician),0.530386209487915
+Case_left.csv,title,rogers v. tennessee,MemberOfParliament_right,title,terry rogers (politician),0.5303274989128113
+Case_left.csv,title,linda r. s. v. richard d.,MemberOfParliament_right,title,fred daly (politician),0.5297247767448425
+Case_left.csv,title,marsh v. chambers,MemberOfParliament_right,title,henry willis (politician),0.5294464230537415
+Case_left.csv,title,wilkie v. robbins,MemberOfParliament_right,title,william wightman,0.5284560918807983
+Case_left.csv,title,pullman palace car co. v. speck,MemberOfParliament_right,title,thomas buick,0.5272992253303528
+Case_left.csv,title,pearce v. ham,MemberOfParliament_right,title,henry pearce (politician),0.5265618562698364
+Case_left.csv,title,eisenstadt v. baird,MemberOfParliament_right,title,edward jerningham wakefield,0.5262420177459717
+Case_left.csv,title,employment division v. smith,MemberOfParliament_right,title,edward metcalf smith,0.5262094140052795
+Case_left.csv,title,alexander v. holmes county board of education,MemberOfParliament_right,title,alexander francis molamure,0.5244662761688232
+Case_left.csv,title,cooper v. pate,MemberOfParliament_right,title,george cooper (canadian politician),0.5236951112747192
+Case_left.csv,title,colegrove v. green,MemberOfParliament_right,title,john greenway (british politician),0.5228028893470764
+Case_left.csv,title,"cedric kushner promotions, ltd. v. king",MemberOfParliament_right,title,"greg barker, baron barker of battle",0.5221850275993347
+Case_left.csv,title,ashcroft v. free speech coalition,MemberOfParliament_right,title,jim marshall (uk politician),0.5220544338226318
+Case_left.csv,title,stern v. marshall,MemberOfParliament_right,title,david marshall (uk politician),0.5220484137535095
+Case_left.csv,title,ex parte bain,MemberOfParliament_right,title,jean-baptiste blanchet,0.5218572616577148
+Case_left.csv,title,ex parte fisk,MemberOfParliament_right,title,vidura wickremanayake,0.5206634998321533
+Case_left.csv,title,paul v. davis,MemberOfParliament_right,title,paul latham,0.5196818113327026
+Case_left.csv,title,samuels v. mccurdy,MemberOfParliament_right,title,peter william hendy,0.5189330577850342
+Case_left.csv,title,in re neagle,MemberOfParliament_right,title,zainudin bin nordin,0.518142819404602
+Case_left.csv,title,united states v. dion,MemberOfParliament_right,title,maurice dionne,0.5165549516677856
+Case_left.csv,title,cooley v. board of wardens,MemberOfParliament_right,title,william woodall,0.5159441232681274
+Case_left.csv,title,muehler v. mena,MemberOfParliament_right,title,john mullens,0.5146325826644897
+Case_left.csv,title,bradwell v. illinois,MemberOfParliament_right,title,david bradbury (australian politician),0.5144200325012207
+Case_left.csv,title,jurney v. maccracken,MemberOfParliament_right,title,jack mcintosh (politician),0.5143393278121948
+Case_left.csv,title,romer v. evans,MemberOfParliament_right,title,albert evans,0.513852596282959
+Case_left.csv,title,flood v. kuhn,MemberOfParliament_right,title,len keogh,0.5137465596199036
+Case_left.csv,title,wilson v. omaha tribe,MemberOfParliament_right,title,"james wilson (new zealand politician, born 1849)",0.5136857032775879
+Case_left.csv,title,pearcy v. stranahan,MemberOfParliament_right,title,s. jeyanandamoorthy,0.5123035907745361
+Case_left.csv,title,taylor v. taintor,MemberOfParliament_right,title,t. g. jayewardene,0.5118669271469116
+Case_left.csv,title,o'lone v. estate of shabazz,MemberOfParliament_right,title,hussain al-qallaf,0.5112050771713257
+Case_left.csv,title,norwood v. harrison,MemberOfParliament_right,title,jim harrison (politician),0.5105724334716797
+Case_left.csv,title,"things remembered, inc. v. petrarca",MemberOfParliament_right,title,joseph michael perera,0.5095901489257812
+Case_left.csv,title,edwards v. aguillard,MemberOfParliament_right,title,eric ogden (politician),0.5093631148338318
+Case_left.csv,title,randall v. sorrell,MemberOfParliament_right,title,john randall (uk politician),0.5093204975128174
+Case_left.csv,title,republican party of minnesota v. white,MemberOfParliament_right,title,jim mcgovern (politician),0.5085570812225342
+Case_left.csv,title,mathews v. eldridge,MemberOfParliament_right,title,elliot johnson,0.5083631277084351
+Case_left.csv,title,memoirs v. massachusetts,MemberOfParliament_right,title,michael mcguire (politician),0.5082874298095703
+Case_left.csv,title,capron v. van noorden,MemberOfParliament_right,title,bert van manen,0.5080937147140503
+Case_left.csv,title,commissioner v. kowalski,MemberOfParliament_right,title,peter sinclair (jr.),0.5074713230133057
+Case_left.csv,title,seneca nation of indians v. christy,MemberOfParliament_right,title,william anderson (canadian politician),0.5068429708480835
+Case_left.csv,title,merrion v. jicarilla apache tribe,MemberOfParliament_right,title,joshua benjamin jeyaretnam,0.5067214965820312
+Case_left.csv,title,lyeth v. hoey,MemberOfParliament_right,title,andrew lysaght (jr.),0.5064082741737366
+Case_left.csv,title,tennessee v. lane,MemberOfParliament_right,title,bob lane (politician),0.5057829022407532
+Case_left.csv,title,grady v. corbin,MemberOfParliament_right,title,les mcmahon,0.5057521462440491
+Case_left.csv,title,hanna v. plumer,MemberOfParliament_right,title,arthur poyser,0.5046998262405396
+Case_left.csv,title,florida star v. b. j. f.,MemberOfParliament_right,title,jim bradfield,0.503968358039856
+Case_left.csv,title,commissioner v. lobue,MemberOfParliament_right,title,"alexander downer, sr.",0.5038853287696838
+Case_left.csv,title,united states v. butler,MemberOfParliament_right,title,adam butler (politician),0.503813624382019
+Case_left.csv,title,wright v. rockefeller,MemberOfParliament_right,title,walter parsons (politician),0.5035322904586792
+Case_left.csv,title,davidson v. new orleans,MemberOfParliament_right,title,gordon davidson (australian politician),0.5031217932701111
+Case_left.csv,title,grosjean v. american press co.,MemberOfParliament_right,title,pierre gauthier (politician),0.5027430057525635
+Case_left.csv,title,kawakita v. united states,MemberOfParliament_right,title,p. b. g. kalugalla,0.502729594707489
+Case_left.csv,title,presbyterian church v. hull church,MemberOfParliament_right,title,william bird (chichester mp),0.5019046664237976
+Case_left.csv,title,brewer v. williams,MemberOfParliament_right,title,alan williams,0.5017802715301514
+Case_left.csv,title,craig v. boren,MemberOfParliament_right,title,william craig (northern ireland politician),0.5013443231582642
+Case_left.csv,title,dada v. mukasey,MemberOfParliament_right,title,daniel mulcahy,0.5002316832542419
+Case_left.csv,title,talbot v. janson,MemberOfParliament_right,title,greville janner,0.5000945329666138
+Case_left.csv,title,munaf v. geren,MemberOfParliament_right,title,s. sivamaharajah,0.499456524848938
+Case_left.csv,title,jones v. north carolina prisoners' labor union,MemberOfParliament_right,title,david jones (clwyd west mp),0.4992905259132385
+Case_left.csv,title,ashcroft v. american civil liberties union,MemberOfParliament_right,title,john armitage (politician),0.49917879700660706
+Case_left.csv,title,twentieth century music corp. v. aiken,MemberOfParliament_right,title,arthur cowell-stepney,0.4990410804748535
+Case_left.csv,title,dothard v. rawlinson,MemberOfParliament_right,title,don mountjoy,0.4986991882324219
+Case_left.csv,title,bas v. tingy,MemberOfParliament_right,title,a. thangathurai,0.4985334277153015
+Case_left.csv,title,"mayo collaborative services v. prometheus laboratories, inc.",MemberOfParliament_right,title,keith martin (physician),0.4984970688819885
+Case_left.csv,title,mcdonald v. smith,MemberOfParliament_right,title,allan macdonald,0.49830955266952515
+Case_left.csv,title,michigan v. jackson,MemberOfParliament_right,title,colin jackson (uk politician),0.4981405735015869
+Case_left.csv,title,lamont v. postmaster general,MemberOfParliament_right,title,george stevenson (mp),0.4978736937046051
+Case_left.csv,title,head money cases,MemberOfParliament_right,title,bill edmonds,0.49781662225723267
+Case_left.csv,title,berkemer v. mccarty,MemberOfParliament_right,title,james mcnulty (canadian mp),0.49772828817367554
+Case_left.csv,title,fletcher v. peck,MemberOfParliament_right,title,robert fletcher (new zealand),0.4976212978363037
+Case_left.csv,title,communist party v. subversive activities control board,MemberOfParliament_right,title,frederick cooke (socialist),0.49750465154647827
+Case_left.csv,title,wheaton v. peters,MemberOfParliament_right,title,edward peters,0.4974697232246399
+Case_left.csv,title,taylor v. illinois,MemberOfParliament_right,title,richard taylor (uk politician),0.49726802110671997
+Case_left.csv,title,rice v. cayetano,MemberOfParliament_right,title,s. kanagaratnam,0.4959053099155426
+Case_left.csv,title,united states v. harris,MemberOfParliament_right,title,tom harris (uk politician),0.4955921769142151
+Case_left.csv,title,wyeth v. levine,MemberOfParliament_right,title,s.a.wickramasinghe,0.49462902545928955
+Case_left.csv,title,slaughter-house cases,MemberOfParliament_right,title,harry butcher (politician),0.49411797523498535
+Case_left.csv,title,r.a.v. v. city of st. paul,MemberOfParliament_right,title,paul mclean (politician),0.4935961961746216
+Case_left.csv,title,schlesinger v. councilman,MemberOfParliament_right,title,walter matthews (politician),0.49347013235092163
+Case_left.csv,title,chambers v. maroney,MemberOfParliament_right,title,michael mcguire,0.4930654764175415
+Case_left.csv,title,adamson v. california,MemberOfParliament_right,title,jennie adamson,0.49298080801963806
+Case_left.csv,title,mitchell v. forsyth,MemberOfParliament_right,title,michael foster (hastings and rye mp),0.4923632740974426
+Case_left.csv,title,berghuis v. thompkins,MemberOfParliament_right,title,william parry (politician),0.4919501543045044
+Case_left.csv,title,golan v. holder,MemberOfParliament_right,title,john gorst (hendon north mp),0.49120503664016724
+Case_left.csv,title,maine v. taylor,MemberOfParliament_right,title,john taylor (solihull mp),0.4909924864768982
+Case_left.csv,title,winston v. lee,MemberOfParliament_right,title,jessica lee,0.4908536970615387
+Case_left.csv,title,johnson v. zerbst,MemberOfParliament_right,title,keith johnson (australian politician),0.4894677698612213
+Case_left.csv,title,kimbrough v. united states,MemberOfParliament_right,title,james bayley (politician),0.4892146587371826
+Case_left.csv,title,wilkinson v. united states,MemberOfParliament_right,title,william montgomery (new zealand),0.48907679319381714
+Case_left.csv,title,swain v. alabama,MemberOfParliament_right,title,thomas swain,0.4889445900917053
+Case_left.csv,title,united states v. hatter,MemberOfParliament_right,title,frank hatton (british politician),0.4888932704925537
+Case_left.csv,title,sierra club v. morton,MemberOfParliament_right,title,harry woods (politician),0.488584041595459
+Case_left.csv,title,parker v. flook,MemberOfParliament_right,title,david parker (new zealand politician),0.4879319667816162
+Case_left.csv,title,ayers v. watson,MemberOfParliament_right,title,alick buchanan-smith (politician),0.487852543592453
+Case_left.csv,title,helvering v. horst,MemberOfParliament_right,title,thomas sheehan,0.48749974370002747
+Case_left.csv,title,frontiero v. richardson,MemberOfParliament_right,title,thomas richardson (labour party mp),0.48741722106933594
+Case_left.csv,title,bush v. vera,MemberOfParliament_right,title,bill baxter (politician),0.4870743155479431
+Case_left.csv,title,calder v. jones,MemberOfParliament_right,title,lionel beaumont-thomas,0.4859428405761719
+Case_left.csv,title,zemel v. rusk,MemberOfParliament_right,title,c. b. ratnayake,0.4858233630657196
+Case_left.csv,title,griffith v. godey,MemberOfParliament_right,title,george mudie (politician),0.4855583906173706
+Case_left.csv,title,milliken v. bradley,MemberOfParliament_right,title,tom bradley (uk politician),0.4855242371559143
+Case_left.csv,title,board of education v. earls,MemberOfParliament_right,title,"sir edward colebrooke, 4th baronet",0.4842437505722046
+Case_left.csv,title,williams v. mississippi,MemberOfParliament_right,title,ronald williams (labour politician),0.48420432209968567
+Case_left.csv,title,in re summers,MemberOfParliament_right,title,charles frost,0.48337870836257935
+Case_left.csv,title,gratz v. bollinger,MemberOfParliament_right,title,john bourchier (politician),0.48325759172439575
+Case_left.csv,title,runyon v. mccrary,MemberOfParliament_right,title,charles hubbard,0.4823465347290039
+Case_left.csv,title,penry v. lynaugh,MemberOfParliament_right,title,philip goldsworthy,0.481991171836853
+Case_left.csv,title,mossman v. higginson,MemberOfParliament_right,title,james arkins,0.4816659092903137
+Case_left.csv,title,national socialist party of america v. village of skokie,MemberOfParliament_right,title,ken anderson (politician),0.4816102385520935
+Case_left.csv,title,betts v. brady,MemberOfParliament_right,title,pat galvin,0.48142698407173157

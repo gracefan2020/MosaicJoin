@@ -1,0 +1,4 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+HistoricBuilding_left.csv,title,Williams Chapel,ChristianBishop_right.csv,title,William Hafey,0.6834
+HistoricBuilding_left.csv,title,St Andrews Cathedral,ChristianBishop_right.csv,title,James Smith (archbishop of St Andrews and Edinburgh),0.6834
+HistoricBuilding_left.csv,title,St Andrews Cathedral,ChristianBishop_right.csv,title,James Smith (Archbishop of St Andrews and Edinburgh),0.6834
