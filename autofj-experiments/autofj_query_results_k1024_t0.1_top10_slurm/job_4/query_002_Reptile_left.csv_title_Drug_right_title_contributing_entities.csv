@@ -1,0 +1,158 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Reptile_left.csv,title,acrantophis,Drug_right,title,afegostat,0.7378948926925659
+Reptile_left.csv,title,acontias,Drug_right,title,apinaca,0.7007870674133301
+Reptile_left.csv,title,elaphe,Drug_right,title,elafibranor,0.68250572681427
+Reptile_left.csv,title,ameiva,Drug_right,title,ledipasvir,0.6762440204620361
+Reptile_left.csv,title,lycodon,Drug_right,title,ly-310762,0.6692675948143005
+Reptile_left.csv,title,leptodeira,Drug_right,title,deleobuvir,0.6630967855453491
+Reptile_left.csv,title,lycophidion,Drug_right,title,ly-293284,0.6621580123901367
+Reptile_left.csv,title,malpolon,Drug_right,title,metandienone,0.659348726272583
+Reptile_left.csv,title,tarentola,Drug_right,title,abaloparatide,0.6488310098648071
+Reptile_left.csv,title,chamaeleo,Drug_right,title,clazakizumab,0.6460527181625366
+Reptile_left.csv,title,vipera,Drug_right,title,rg7795,0.6369971632957458
+Reptile_left.csv,title,dasia subcaerulea,Drug_right,title,dasotraline,0.6337148547172546
+Reptile_left.csv,title,elseya uberima,Drug_right,title,andexanet alfa,0.6310877799987793
+Reptile_left.csv,title,xenochrophis,Drug_right,title,xyrem,0.6274465322494507
+Reptile_left.csv,title,phelsuma,Drug_right,title,phenyramidol,0.6263769865036011
+Reptile_left.csv,title,erg agama,Drug_right,title,erbuzole,0.6248791217803955
+Reptile_left.csv,title,arabian cobra,Drug_right,title,asaq,0.6191760301589966
+Reptile_left.csv,title,filfola lizard,Drug_right,title,fabomotizole,0.6162427663803101
+Reptile_left.csv,title,dicrodon,Drug_right,title,droxidopa,0.6077969670295715
+Reptile_left.csv,title,emydura,Drug_right,title,umifenovir,0.6073600053787231
+Reptile_left.csv,title,sibon sanniola,Drug_right,title,sb-204741,0.6054368019104004
+Reptile_left.csv,title,censky's ameiva,Drug_right,title,censavudine,0.6042578220367432
+Reptile_left.csv,title,calamaria,Drug_right,title,carbaldrate,0.6010464429855347
+Reptile_left.csv,title,ctenophorus,Drug_right,title,tenoretic,0.5985833406448364
+Reptile_left.csv,title,scincella sikkimensis,Drug_right,title,bacillus calmette-guã©rin,0.5959086418151855
+Reptile_left.csv,title,hydrophis,Drug_right,title,hyoscine hydrobromide,0.5939995646476746
+Reptile_left.csv,title,uracentron,Drug_right,title,ursodeoxycholic acid,0.5938054919242859
+Reptile_left.csv,title,japalura,Drug_right,title,cj-033466,0.5866891145706177
+Reptile_left.csv,title,liodon,Drug_right,title,lavoltidine,0.5845420360565186
+Reptile_left.csv,title,peninsula cooter,Drug_right,title,corbadrine,0.5817774534225464
+Reptile_left.csv,title,teius,Drug_right,title,tedizolid,0.5810815691947937
+Reptile_left.csv,title,tantilla,Drug_right,title,ana773,0.5803036689758301
+Reptile_left.csv,title,montserrat galliwasp,Drug_right,title,valsartan/sacubitril,0.5781188011169434
+Reptile_left.csv,title,amphiesma,Drug_right,title,carphenazine,0.5767335891723633
+Reptile_left.csv,title,graciliscincus shonae,Drug_right,title,gestonorone caproate,0.5764964818954468
+Reptile_left.csv,title,allan's lerista,Drug_right,title,idalopirdine,0.5758252143859863
+Reptile_left.csv,title,darevskia,Drug_right,title,doravirine,0.575278639793396
+Reptile_left.csv,title,bachia,Drug_right,title,sb-204070,0.5746012330055237
+Reptile_left.csv,title,heloderma horridum charlesbogerti,Drug_right,title,tm38837,0.5716283917427063
+Reptile_left.csv,title,boulengerina,Drug_right,title,bdpc,0.5705353021621704
+Reptile_left.csv,title,hierophis,Drug_right,title,homarylamine,0.5700622797012329
+Reptile_left.csv,title,korat supple skink,Drug_right,title,rapastinel,0.5646201968193054
+Reptile_left.csv,title,lipinia,Drug_right,title,entolimod,0.5617808103561401
+Reptile_left.csv,title,phelsuma breviceps,Drug_right,title,obinutuzumab,0.5588958263397217
+Reptile_left.csv,title,tropidoclonion,Drug_right,title,ethinylestradiol,0.5588600635528564
+Reptile_left.csv,title,gekko,Drug_right,title,gr-113808,0.5578747391700745
+Reptile_left.csv,title,st. lucia threadsnake,Drug_right,title,surfaxin,0.5570917129516602
+Reptile_left.csv,title,crocodylus novaeguinae,Drug_right,title,crotalidae polyvalent immune fab,0.5551940202713013
+Reptile_left.csv,title,yellow monitor,Drug_right,title,vx-809,0.5522057414054871
+Reptile_left.csv,title,agama mwanzae,Drug_right,title,gw501516,0.5426701307296753
+Reptile_left.csv,title,rhamnophis,Drug_right,title,rs-127445,0.536081075668335
+Reptile_left.csv,title,giant ameiva,Drug_right,title,mdmai,0.5347791314125061
+Reptile_left.csv,title,redonda anole,Drug_right,title,ro 04-6790,0.5316859483718872
+Reptile_left.csv,title,saurodactylus,Drug_right,title,dactinomycin,0.5312438011169434
+Reptile_left.csv,title,monito gecko,Drug_right,title,gr-127935,0.5276273488998413
+Reptile_left.csv,title,sikkim keelback,Drug_right,title,rs-102221,0.5272198915481567
+Reptile_left.csv,title,furcifer antimena,Drug_right,title,perfosfamide,0.527023434638977
+Reptile_left.csv,title,lamprophis,Drug_right,title,methopholine,0.5264936685562134
+Reptile_left.csv,title,oligodon,Drug_right,title,mestranol/noretynodrel,0.525383710861206
+Reptile_left.csv,title,ptyas mucosa,Drug_right,title,paromomycin sulfate,0.5224010944366455
+Reptile_left.csv,title,pit viper,Drug_right,title,mdv3100,0.5222905874252319
+Reptile_left.csv,title,plestiodon,Drug_right,title,percodan,0.5216073393821716
+Reptile_left.csv,title,rhampholeon,Drug_right,title,dimethyllysergamide,0.5201820731163025
+Reptile_left.csv,title,sombrero ameiva,Drug_right,title,5-meo-amt,0.5174486637115479
+Reptile_left.csv,title,desert black kingsnake,Drug_right,title,sb-699551,0.5128516554832458
+Reptile_left.csv,title,pilbara monitor,Drug_right,title,cp-93129,0.5127062797546387
+Reptile_left.csv,title,brookesia lolontany,Drug_right,title,s-14671,0.5124071836471558
+Reptile_left.csv,title,tachygia,Drug_right,title,thiobromadol,0.5123002529144287
+Reptile_left.csv,title,sibon nebulata,Drug_right,title,sb-258719,0.5117189884185791
+Reptile_left.csv,title,ornithocheirus buenzeli,Drug_right,title,interferon beta 1b,0.5108275413513184
+Reptile_left.csv,title,pseustes poecilonotus,Drug_right,title,psi-7977,0.5094870924949646
+Reptile_left.csv,title,anotosaura,Drug_right,title,4-androstenedione,0.5088260769844055
+Reptile_left.csv,title,canopy goanna,Drug_right,title,cp-135807,0.508545994758606
+Reptile_left.csv,title,hemidactylus,Drug_right,title,pivhydrazine,0.5063681602478027
+Reptile_left.csv,title,hognose,Drug_right,title,sb-216641,0.5047193169593811
+Reptile_left.csv,title,crotaphytus,Drug_right,title,meclinertant,0.5043591856956482
+Reptile_left.csv,title,homopus,Drug_right,title,ghrp-6,0.5027646422386169
+Reptile_left.csv,title,leiolopisma,Drug_right,title,enoxolone,0.5002700090408325
+Reptile_left.csv,title,abronia taeniata,Drug_right,title,abiraterone acetate,0.5000954866409302
+Reptile_left.csv,title,san lucan skink,Drug_right,title,suloctidil,0.49767279624938965
+Reptile_left.csv,title,kingsnake,Drug_right,title,sb-399885,0.4976445734500885
+Reptile_left.csv,title,golden gecko,Drug_right,title,gs 7340,0.49752622842788696
+Reptile_left.csv,title,saint croix racer,Drug_right,title,sb-242084,0.4969349801540375
+Reptile_left.csv,title,rattlesnake,Drug_right,title,quinacrine,0.49625617265701294
+Reptile_left.csv,title,bothrochilus,Drug_right,title,quchic,0.4948121905326843
+Reptile_left.csv,title,morenia,Drug_right,title,periciazine,0.4940669536590576
+Reptile_left.csv,title,dubious dtella,Drug_right,title,docusate,0.49394065141677856
+Reptile_left.csv,title,tropidophorus,Drug_right,title,norethisterone enanthate,0.49190962314605713
+Reptile_left.csv,title,rankinia,Drug_right,title,flumist,0.49014532566070557
+Reptile_left.csv,title,amphibolurinae,Drug_right,title,thiambutene,0.48933476209640503
+Reptile_left.csv,title,california kingsnake,Drug_right,title,cp-94253,0.4885012209415436
+Reptile_left.csv,title,epicrates chrysogaster,Drug_right,title,hydroxyprogesterone caproate,0.485574334859848
+Reptile_left.csv,title,bougainville's skink,Drug_right,title,bradanicline,0.48537492752075195
+Reptile_left.csv,title,radiated ratsnake,Drug_right,title,radium-223,0.48098188638687134
+Reptile_left.csv,title,fitzinger's algyroides,Drug_right,title,hyoscine butylbromide,0.4759500026702881
+Reptile_left.csv,title,pantherophis,Drug_right,title,sb-206553,0.47512996196746826
+Reptile_left.csv,title,madagascarophis,Drug_right,title,cp-809101,0.4749889373779297
+Reptile_left.csv,title,black softshell turtle,Drug_right,title,sb-269970,0.47416621446609497
+Reptile_left.csv,title,underwood's mussurana,Drug_right,title,mn-18,0.47304287552833557
+Reptile_left.csv,title,stoliczkaia khasiensis,Drug_right,title,senna glycosides,0.47292855381965637
+Reptile_left.csv,title,anolis,Drug_right,title,politor,0.4726768434047699
+Reptile_left.csv,title,roatan coral snake,Drug_right,title,roxatidine acetate,0.472539484500885
+Reptile_left.csv,title,nerodia,Drug_right,title,emd-386088,0.47166335582733154
+Reptile_left.csv,title,nanoparia,Drug_right,title,qupic,0.4694289565086365
+Reptile_left.csv,title,gran canaria skink,Drug_right,title,25c-nbome,0.46782100200653076
+Reptile_left.csv,title,epicrates angulifer,Drug_right,title,org 12962,0.46313542127609253
+Reptile_left.csv,title,letheobia,Drug_right,title,5-it,0.4627705216407776
+Reptile_left.csv,title,chapinophis xanthocheilus,Drug_right,title,"1,8-dihydroxyanthraquinone",0.46231764554977417
+Reptile_left.csv,title,chelosania,Drug_right,title,meclizine,0.4609143137931824
+Reptile_left.csv,title,desert kingsnake,Drug_right,title,sb-258585,0.45949840545654297
+Reptile_left.csv,title,lacertus,Drug_right,title,valproate,0.45909976959228516
+Reptile_left.csv,title,chelonoidis,Drug_right,title,carbidopa/levodopa/entacapone,0.455899715423584
+Reptile_left.csv,title,cryptelytrops rubeus,Drug_right,title,sb-357134,0.45490550994873047
+Reptile_left.csv,title,trioceros,Drug_right,title,triflunordazepam,0.4543573260307312
+Reptile_left.csv,title,uroplatus fimbriatus,Drug_right,title,omecamtiv mecarbil (ck-1827452),0.4516543447971344
+Reptile_left.csv,title,anomalopus,Drug_right,title,a-372159,0.4514414370059967
+Reptile_left.csv,title,rennell island monitor,Drug_right,title,sb-271046,0.4512496292591095
+Reptile_left.csv,title,round island boa,Drug_right,title,25tfm-nbome,0.44536644220352173
+Reptile_left.csv,title,phelsuma sundbergi ladiguensis,Drug_right,title,zoptarelin doxorubicin,0.4422847628593445
+Reptile_left.csv,title,anguis,Drug_right,title,tenofovir alafenamide,0.4421756863594055
+Reptile_left.csv,title,hamelin ctenotus,Drug_right,title,4-bromomethcathinone,0.441762238740921
+Reptile_left.csv,title,barbados racer,Drug_right,title,sb-215505,0.4394839406013489
+Reptile_left.csv,title,homopholis,Drug_right,title,4-hydroxyamphetamine,0.43425244092941284
+Reptile_left.csv,title,collared delma,Drug_right,title,digoxin immune fab,0.4280780553817749
+Reptile_left.csv,title,lycodonomorphus,Drug_right,title,norbolethone,0.427766889333725
+Reptile_left.csv,title,sceloporus angustus,Drug_right,title,2-methoxymethyl salvinorin b,0.4273475408554077
+Reptile_left.csv,title,anguilla bank anole,Drug_right,title,w-18,0.42261210083961487
+Reptile_left.csv,title,finsch's monitor,Drug_right,title,ethylamphetamine,0.4202970266342163
+Reptile_left.csv,title,gyldenstolpe's worm skink,Drug_right,title,glycopyrrolate,0.4177589416503906
+Reptile_left.csv,title,spanish algyroides,Drug_right,title,ethinyl estradiol/drospirenone/levomefolic acid,0.41680634021759033
+Reptile_left.csv,title,guatemalan helmeted basilisk,Drug_right,title,betamethylfentanyl,0.41486138105392456
+Reptile_left.csv,title,hydrophis mammilaris,Drug_right,title,hpv vaccines,0.4117888808250427
+Reptile_left.csv,title,sphaerodactylus,Drug_right,title,phencyclamine,0.4093073308467865
+Reptile_left.csv,title,leptotyphlops affinis,Drug_right,title,regular insulin,0.4085932970046997
+Reptile_left.csv,title,fiji crested iguana,Drug_right,title,interferon beta 1a,0.4081448018550873
+Reptile_left.csv,title,striped tailed delma,Drug_right,title,"n,n-dimethyltryptamine",0.4063054025173187
+Reptile_left.csv,title,lampropeltis pyromelana,Drug_right,title,acetylsalicylic acid/dipyridamole,0.4002578854560852
+Reptile_left.csv,title,martinique spectacled tegu,Drug_right,title,efavirenz/emtricitabine/tenofovir,0.3995898962020874
+Reptile_left.csv,title,conolophus,Drug_right,title,tenofovir disoproxil,0.39867472648620605
+Reptile_left.csv,title,ocellated gecko,Drug_right,title,zoster vaccine,0.3979915976524353
+Reptile_left.csv,title,common death adder,Drug_right,title,chlordiazepoxide/clidinium bromide,0.3931450843811035
+Reptile_left.csv,title,calliophis bivirgatus,Drug_right,title,interferon alfa 2b,0.38458502292633057
+Reptile_left.csv,title,python timoriensis,Drug_right,title,6-methyl-2-ethyl-3-hydroxypyridine,0.38319674134254456
+Reptile_left.csv,title,atractaspididae,Drug_right,title,apica (synthetic cannabinoid drug),0.3825761675834656
+Reptile_left.csv,title,amphisbaena (genus),Drug_right,title,1-(thiophen-2-yl)-2-aminopropane,0.38147130608558655
+Reptile_left.csv,title,blyth's reticulated snake,Drug_right,title,bacitracin/polymyxin b,0.37916621565818787
+Reptile_left.csv,title,brookesia dentata,Drug_right,title,neomycin/polymyxin b/bacitracin,0.3648301959037781
+Reptile_left.csv,title,scincopus fasciatus,Drug_right,title,trifluridine/tipiracil,0.36352723836898804
+Reptile_left.csv,title,namaqua plated lizard,Drug_right,title,n1-methyl-lysergic acid diethylamide,0.35885530710220337
+Reptile_left.csv,title,peach throat monitor,Drug_right,title,oxomemazine/guaifenesin,0.3573692739009857
+Reptile_left.csv,title,marbled water monitor,Drug_right,title,4-fluoro-n-methylamphetamine,0.35592061281204224
+Reptile_left.csv,title,red-headed krait,Drug_right,title,caffeine/ergotamine,0.35340365767478943
+Reptile_left.csv,title,varanus albigularis,Drug_right,title,radium-223 chloride,0.35057562589645386
+Reptile_left.csv,title,amphiesma platyceps,Drug_right,title,insulin (medication),0.3343889117240906
+Reptile_left.csv,title,large psammodromus,Drug_right,title,mmdma (drug),0.33341625332832336
+Reptile_left.csv,title,coelognathus helena,Drug_right,title,chromium(iii) nicotinate,0.32935604453086853
+Reptile_left.csv,title,gray rat snake,Drug_right,title,c16 (drug),0.3266691565513611

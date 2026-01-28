@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+EthnicGroup_left.csv,title,non-resident indian and person of indian origin,EthnicGroup_right,title,non-resident indian and person of indian origin,1.0000001192092896
+EthnicGroup_left.csv,title,afro ecuadorian,EthnicGroup_right,title,afro-ecuadorian,0.99039626121521
+EthnicGroup_left.csv,title,afro-turks,EthnicGroup_right,title,afro turks,0.9853976964950562
+EthnicGroup_left.csv,title,albanian canadian,EthnicGroup_right,title,albanian-canadian,0.9800429940223694
+EthnicGroup_left.csv,title,romani in canada,EthnicGroup_right,title,romani people in canada,0.975077748298645
+EthnicGroup_left.csv,title,anglo-celtic australian,EthnicGroup_right,title,anglo-celtic australians,0.9736466407775879
+EthnicGroup_left.csv,title,snoqualmie tribe,EthnicGroup_right,title,snoqualmie indian tribe,0.9733221530914307
+EthnicGroup_left.csv,title,tibetan canadian,EthnicGroup_right,title,tibetan canadians,0.9703754186630249
+EthnicGroup_left.csv,title,orthodox christianity in lebanon,EthnicGroup_right,title,greek orthodox christianity in lebanon,0.9686979055404663
+EthnicGroup_left.csv,title,chin peoples,EthnicGroup_right,title,chin people,0.9657278060913086
+EthnicGroup_left.csv,title,mulukanadu brahmins,EthnicGroup_right,title,mulukanadu brahmin,0.9650275707244873
+EthnicGroup_left.csv,title,igbo american,EthnicGroup_right,title,igbo americans,0.9628586769104004
+EthnicGroup_left.csv,title,iu mien american,EthnicGroup_right,title,iu mien americans,0.9625632762908936
+EthnicGroup_left.csv,title,greek american,EthnicGroup_right,title,greek americans,0.9612003564834595
+EthnicGroup_left.csv,title,pakistani jews in israel,EthnicGroup_right,title,pakistanis in israel,0.9599614143371582
+EthnicGroup_left.csv,title,serbs in hungary,EthnicGroup_right,title,hungarians in serbia,0.9594032764434814
+EthnicGroup_left.csv,title,chilean canadian,EthnicGroup_right,title,chilean canadians,0.9591776132583618
+EthnicGroup_left.csv,title,cambodian australian,EthnicGroup_right,title,cambodian australians,0.9575250148773193
+EthnicGroup_left.csv,title,laotian australian,EthnicGroup_right,title,laotian australians,0.9572020769119263
+EthnicGroup_left.csv,title,slovene american,EthnicGroup_right,title,slovene americans,0.9571666717529297
+EthnicGroup_left.csv,title,syrian haitian,EthnicGroup_right,title,syrian haitians,0.9563678503036499
+EthnicGroup_left.csv,title,catalan american,EthnicGroup_right,title,catalan americans,0.95613694190979
+EthnicGroup_left.csv,title,egyptian canadian,EthnicGroup_right,title,egyptian canadians,0.9555387496948242
+EthnicGroup_left.csv,title,laotian american,EthnicGroup_right,title,laotian americans,0.9550709128379822
+EthnicGroup_left.csv,title,swedish iraqis,EthnicGroup_right,title,iraqis in sweden,0.9548232555389404
+EthnicGroup_left.csv,title,iranians in israel,EthnicGroup_right,title,iranian jews in israel,0.954775333404541
+EthnicGroup_left.csv,title,armenian american,EthnicGroup_right,title,armenian americans,0.954253077507019
+EthnicGroup_left.csv,title,guatemalan american,EthnicGroup_right,title,guatemalan americans,0.9535443782806396
+EthnicGroup_left.csv,title,nepalese canadian,EthnicGroup_right,title,nepalese canadians,0.952907145023346
+EthnicGroup_left.csv,title,west indian american,EthnicGroup_right,title,west indian americans,0.9528629779815674
+EthnicGroup_left.csv,title,albanian american,EthnicGroup_right,title,albanian americans,0.952719509601593
+EthnicGroup_left.csv,title,sierra leonean american,EthnicGroup_right,title,sierra leonean americans,0.9523137807846069
+EthnicGroup_left.csv,title,baraba tatar,EthnicGroup_right,title,baraba tatars,0.9521581530570984
+EthnicGroup_left.csv,title,georgians in israel,EthnicGroup_right,title,georgian jews in israel,0.9521059989929199
+EthnicGroup_left.csv,title,franco-albertan,EthnicGroup_right,title,franco-albertans,0.95204758644104
+EthnicGroup_left.csv,title,peruvian american,EthnicGroup_right,title,peruvian americans,0.951901912689209
+EthnicGroup_left.csv,title,haitian canadians,EthnicGroup_right,title,haitian canadian,0.9512207508087158
+EthnicGroup_left.csv,title,peruvian people,EthnicGroup_right,title,peruvians,0.9511746168136597
+EthnicGroup_left.csv,title,history of the jews in burma,EthnicGroup_right,title,history of the jews in myanmar,0.9507394433021545
+EthnicGroup_left.csv,title,asian canadian,EthnicGroup_right,title,asian canadians,0.9505572319030762
+EthnicGroup_left.csv,title,bangladeshi canadian,EthnicGroup_right,title,bangladeshi canadians,0.9495052099227905
+EthnicGroup_left.csv,title,asian latin american,EthnicGroup_right,title,asian latin americans,0.9492871761322021
+EthnicGroup_left.csv,title,bosnian american,EthnicGroup_right,title,bosnian americans,0.9489166140556335
+EthnicGroup_left.csv,title,pashtun people,EthnicGroup_right,title,pashtuns,0.9486928582191467
+EthnicGroup_left.csv,title,manx australian,EthnicGroup_right,title,manx australians,0.9483981132507324
+EthnicGroup_left.csv,title,filipino people,EthnicGroup_right,title,filipinos,0.948008120059967
+EthnicGroup_left.csv,title,angolan american,EthnicGroup_right,title,angolan americans,0.9479639530181885
+EthnicGroup_left.csv,title,hong kong american,EthnicGroup_right,title,hong kong americans,0.9473670721054077
+EthnicGroup_left.csv,title,chilean australian,EthnicGroup_right,title,chilean australians,0.9473133087158203
+EthnicGroup_left.csv,title,afghan australian,EthnicGroup_right,title,afghan australians,0.9472220540046692
+EthnicGroup_left.csv,title,nepalis in the united kingdom,EthnicGroup_right,title,nepalese in the united kingdom,0.9470522403717041
+EthnicGroup_left.csv,title,palestinian people,EthnicGroup_right,title,palestinians,0.9470334053039551
+EthnicGroup_left.csv,title,cornish australian,EthnicGroup_right,title,cornish australians,0.9467376470565796
+EthnicGroup_left.csv,title,kalmyk american,EthnicGroup_right,title,kalmyk americans,0.946642279624939
+EthnicGroup_left.csv,title,welsh american,EthnicGroup_right,title,welsh americans,0.9462320804595947
+EthnicGroup_left.csv,title,turkmen people,EthnicGroup_right,title,turkmens,0.9460545778274536
+EthnicGroup_left.csv,title,cypriot american,EthnicGroup_right,title,cypriot americans,0.9459674954414368
+EthnicGroup_left.csv,title,belarusian american,EthnicGroup_right,title,belarusian americans,0.9455425143241882
+EthnicGroup_left.csv,title,vietnamese american,EthnicGroup_right,title,vietnamese americans,0.9450398683547974
+EthnicGroup_left.csv,title,georgian american,EthnicGroup_right,title,georgian americans,0.9449921250343323
+EthnicGroup_left.csv,title,korean canadian,EthnicGroup_right,title,korean canadians,0.9449372291564941
+EthnicGroup_left.csv,title,taiwanese australian,EthnicGroup_right,title,taiwanese australians,0.9446220397949219
+EthnicGroup_left.csv,title,chinese american,EthnicGroup_right,title,chinese americans,0.9433450698852539
+EthnicGroup_left.csv,title,belgian canadian,EthnicGroup_right,title,belgian canadians,0.9432633519172668
+EthnicGroup_left.csv,title,scottish australian,EthnicGroup_right,title,scottish australians,0.9424060583114624
+EthnicGroup_left.csv,title,asian australian,EthnicGroup_right,title,asian australians,0.9414535760879517
+EthnicGroup_left.csv,title,cape malay,EthnicGroup_right,title,cape malays,0.9410392642021179
+EthnicGroup_left.csv,title,irish australian,EthnicGroup_right,title,irish australians,0.9409142136573792
+EthnicGroup_left.csv,title,history of the jews in switzerland,EthnicGroup_right,title,jews and judaism in switzerland,0.9402447938919067
+EthnicGroup_left.csv,title,swiss american,EthnicGroup_right,title,swiss americans,0.9399731159210205
+EthnicGroup_left.csv,title,scottish american,EthnicGroup_right,title,scottish americans,0.9397120475769043
+EthnicGroup_left.csv,title,albanian australian,EthnicGroup_right,title,albanian australians,0.9394201040267944
+EthnicGroup_left.csv,title,afro iraqis,EthnicGroup_right,title,afro-iraqi,0.9390764236450195
+EthnicGroup_left.csv,title,uruguayan american,EthnicGroup_right,title,uruguayan americans,0.9390245676040649
+EthnicGroup_left.csv,title,israeli american,EthnicGroup_right,title,israeli americans,0.9389381408691406
+EthnicGroup_left.csv,title,afro-dominican,EthnicGroup_right,title,afro-dominican (dominican republic),0.9379103183746338
+EthnicGroup_left.csv,title,swedish iranians,EthnicGroup_right,title,iranians in sweden,0.9377524256706238
+EthnicGroup_left.csv,title,polish australian,EthnicGroup_right,title,polish australians,0.9376131296157837
+EthnicGroup_left.csv,title,trinidadian and tobagonian australian,EthnicGroup_right,title,trinidadian and tobagonian australians,0.9370448589324951
+EthnicGroup_left.csv,title,samoan american,EthnicGroup_right,title,samoan americans,0.9367896318435669
+EthnicGroup_left.csv,title,barbadian people,EthnicGroup_right,title,barbadians,0.9359234571456909
+EthnicGroup_left.csv,title,emirati people,EthnicGroup_right,title,emiratis,0.9358831644058228
+EthnicGroup_left.csv,title,asturian american,EthnicGroup_right,title,asturian americans,0.9356595277786255
+EthnicGroup_left.csv,title,venezuelan american,EthnicGroup_right,title,venezuelan americans,0.9350224137306213
+EthnicGroup_left.csv,title,ecuadorian australian,EthnicGroup_right,title,ecuadorian australians,0.9347922801971436
+EthnicGroup_left.csv,title,french canadian,EthnicGroup_right,title,french canadians,0.9344225525856018
+EthnicGroup_left.csv,title,naik maratha samaj,EthnicGroup_right,title,naik maratha,0.9339525699615479
+EthnicGroup_left.csv,title,maltese in gibraltar,EthnicGroup_right,title,history of the maltese in gibraltar,0.9339247345924377
+EthnicGroup_left.csv,title,south african australian,EthnicGroup_right,title,south african australians,0.933868408203125
+EthnicGroup_left.csv,title,russians in chile,EthnicGroup_right,title,russian chileans,0.9338452816009521
+EthnicGroup_left.csv,title,ukrainian australian,EthnicGroup_right,title,ukrainian australians,0.9338425397872925
+EthnicGroup_left.csv,title,italian australian,EthnicGroup_right,title,italian australians,0.9331052303314209
+EthnicGroup_left.csv,title,bulgarians of croatia,EthnicGroup_right,title,bulgarians in croatia,0.9329644441604614
+EthnicGroup_left.csv,title,ojibwe people,EthnicGroup_right,title,ojibwe,0.9326107501983643
+EthnicGroup_left.csv,title,list of lebanese people in the united states,EthnicGroup_right,title,list of lebanese americans,0.9321938753128052
+EthnicGroup_left.csv,title,somali american,EthnicGroup_right,title,somali americans,0.9319992065429688
+EthnicGroup_left.csv,title,samoan australian,EthnicGroup_right,title,samoan australians,0.9316796660423279
+EthnicGroup_left.csv,title,iraqi australian,EthnicGroup_right,title,iraqi australians,0.9315112829208374
+EthnicGroup_left.csv,title,german australian,EthnicGroup_right,title,german australians,0.9312170743942261
+EthnicGroup_left.csv,title,salvadorans,EthnicGroup_right,title,salvadoran americans,0.9310989379882812
+EthnicGroup_left.csv,title,australians in israel,EthnicGroup_right,title,australian jews in israel,0.9310693740844727
+EthnicGroup_left.csv,title,frisian american,EthnicGroup_right,title,frisian americans,0.9308921098709106
+EthnicGroup_left.csv,title,bulgarian american,EthnicGroup_right,title,bulgarian americans,0.9306946396827698
+EthnicGroup_left.csv,title,cape verdean american,EthnicGroup_right,title,cape verdean americans,0.9304261803627014
+EthnicGroup_left.csv,title,sri lankan tamils in india,EthnicGroup_right,title,sri lankan tamils,0.9302099943161011
+EthnicGroup_left.csv,title,basque people,EthnicGroup_right,title,basques,0.9294999837875366
+EthnicGroup_left.csv,title,rusyn american,EthnicGroup_right,title,rusyn americans,0.9288134574890137
+EthnicGroup_left.csv,title,dutch australian,EthnicGroup_right,title,dutch australians,0.9272392988204956
+EthnicGroup_left.csv,title,serbian canadians,EthnicGroup_right,title,bosnian canadians,0.9267554879188538
+EthnicGroup_left.csv,title,australians in saudi arabia,EthnicGroup_right,title,saudi australians,0.9258899092674255
+EthnicGroup_left.csv,title,brazilian australian,EthnicGroup_right,title,brazilian australians,0.9258626699447632
+EthnicGroup_left.csv,title,greeks in new zealand,EthnicGroup_right,title,greek new zealanders,0.9258116483688354
+EthnicGroup_left.csv,title,indian diaspora in east africa,EthnicGroup_right,title,indian diaspora in southeast africa,0.9253219366073608
+EthnicGroup_left.csv,title,hungarian people,EthnicGroup_right,title,hungarians,0.9252486824989319
+EthnicGroup_left.csv,title,japanese cuban,EthnicGroup_right,title,japanese cubans,0.9246082901954651
+EthnicGroup_left.csv,title,canadians in pakistan,EthnicGroup_right,title,pakistani canadians,0.9233709573745728
+EthnicGroup_left.csv,title,djargurd wurrung,EthnicGroup_right,title,djab wurrung,0.9218737483024597
+EthnicGroup_left.csv,title,mexican people,EthnicGroup_right,title,mexicans,0.9217787981033325
+EthnicGroup_left.csv,title,icelandic people of american descent,EthnicGroup_right,title,icelandic americans,0.9210565090179443
+EthnicGroup_left.csv,title,japanese chilean,EthnicGroup_right,title,japanese chileans,0.9200030565261841
+EthnicGroup_left.csv,title,african americans in france,EthnicGroup_right,title,blacks in france,0.9200030565261841
+EthnicGroup_left.csv,title,vietnamese new zealander,EthnicGroup_right,title,vietnamese new zealanders,0.9199788570404053
+EthnicGroup_left.csv,title,canadian australian,EthnicGroup_right,title,canadian australians,0.9190566539764404
+EthnicGroup_left.csv,title,arab venezuelan,EthnicGroup_right,title,arab venezuelans,0.9187853336334229
+EthnicGroup_left.csv,title,european australian,EthnicGroup_right,title,european australians,0.9183254241943359
+EthnicGroup_left.csv,title,canadians of american origin,EthnicGroup_right,title,canadian americans,0.9176222085952759
+EthnicGroup_left.csv,title,brazilians in portugal,EthnicGroup_right,title,portuguese brazilians,0.9174137711524963
+EthnicGroup_left.csv,title,fijian australian,EthnicGroup_right,title,fijian australians,0.9171793460845947
+EthnicGroup_left.csv,title,polish brazilian,EthnicGroup_right,title,polish brazilians,0.910469651222229
+EthnicGroup_left.csv,title,singaporeans in india,EthnicGroup_right,title,indian singaporeans,0.9104377627372742
+EthnicGroup_left.csv,title,punan bah people,EthnicGroup_right,title,punan bah,0.9100277423858643
+EthnicGroup_left.csv,title,seneca-cayuga tribe of oklahoma,EthnicGroup_right,title,seneca-cayuga nation,0.9098474979400635
+EthnicGroup_left.csv,title,bosniaks of montenegro,EthnicGroup_right,title,croats of montenegro,0.909698486328125
+EthnicGroup_left.csv,title,korean new zealander,EthnicGroup_right,title,korean new zealanders,0.9090301990509033
+EthnicGroup_left.csv,title,new zealand european,EthnicGroup_right,title,european new zealanders,0.907584011554718
+EthnicGroup_left.csv,title,enawene nawe,EthnicGroup_right,title,enawene nawe people,0.9068815112113953
+EthnicGroup_left.csv,title,colombian people,EthnicGroup_right,title,colombians,0.906768262386322
+EthnicGroup_left.csv,title,spanish immigration to puerto rico,EthnicGroup_right,title,dominican immigration to puerto rico,0.9061057567596436
+EthnicGroup_left.csv,title,irish brazilians,EthnicGroup_right,title,irish brazilian,0.905440092086792
+EthnicGroup_left.csv,title,iranian kuwaitis,EthnicGroup_right,title,iranians in kuwait,0.9041831493377686
+EthnicGroup_left.csv,title,japanese colombian,EthnicGroup_right,title,japanese colombians,0.9038757085800171
+EthnicGroup_left.csv,title,japanese uruguayan,EthnicGroup_right,title,japanese uruguayans,0.9033549427986145
+EthnicGroup_left.csv,title,lebanese colombian,EthnicGroup_right,title,lebanese colombians,0.9029015302658081
+EthnicGroup_left.csv,title,austrian brazilian,EthnicGroup_right,title,austrian brazilians,0.9028586149215698
+EthnicGroup_left.csv,title,swiss argentine,EthnicGroup_right,title,swiss argentines,0.9025391340255737
+EthnicGroup_left.csv,title,kurds in iraq,EthnicGroup_right,title,kurds,0.901137113571167
+EthnicGroup_left.csv,title,armenians in turkey,EthnicGroup_right,title,armenians in the middle east,0.9010855555534363
+EthnicGroup_left.csv,title,gros ventre people,EthnicGroup_right,title,gros ventre,0.9009639024734497
+EthnicGroup_left.csv,title,chaco people,EthnicGroup_right,title,gran chaco people,0.9009288549423218
+EthnicGroup_left.csv,title,afro-bahamian,EthnicGroup_right,title,afro-jamaican,0.8988598585128784
+EthnicGroup_left.csv,title,turks in azerbaijan,EthnicGroup_right,title,azerbaijanis,0.8984675407409668
+EthnicGroup_left.csv,title,cuicatec people,EthnicGroup_right,title,cuitlatec people,0.8979809284210205
+EthnicGroup_left.csv,title,nunatukavut people,EthnicGroup_right,title,nunatukavut,0.8973698019981384
+EthnicGroup_left.csv,title,wuikinuxv people,EthnicGroup_right,title,wuikinuxv,0.8955932855606079
+EthnicGroup_left.csv,title,bay miwok,EthnicGroup_right,title,bay miwok people,0.8941935300827026
+EthnicGroup_left.csv,title,armenians in mexico,EthnicGroup_right,title,armenian immigration to mexico,0.8939850330352783
+EthnicGroup_left.csv,title,bengali hindus,EthnicGroup_right,title,bengalis,0.8910980224609375
+EthnicGroup_left.csv,title,uruguayan people,EthnicGroup_right,title,uruguayans,0.8908254504203796
+EthnicGroup_left.csv,title,lithuanians in brazil,EthnicGroup_right,title,lithuanian brazilians,0.8897885084152222
+EthnicGroup_left.csv,title,samoan new zealander,EthnicGroup_right,title,samoan new zealanders,0.8889683485031128
+EthnicGroup_left.csv,title,pakistani new zealander,EthnicGroup_right,title,pakistani new zealanders,0.8886231780052185
+EthnicGroup_left.csv,title,corsican people,EthnicGroup_right,title,corsicans,0.8886024355888367
+EthnicGroup_left.csv,title,white hispanic and latino americans,EthnicGroup_right,title,non-hispanic whites,0.8881961107254028
+EthnicGroup_left.csv,title,austrian argentine,EthnicGroup_right,title,austrian argentines,0.8880044221878052
+EthnicGroup_left.csv,title,slovene australians,EthnicGroup_right,title,serbian australians,0.8879745602607727
+EthnicGroup_left.csv,title,albanians of romania,EthnicGroup_right,title,serbs of romania,0.8877687454223633
+EthnicGroup_left.csv,title,romanian migration to the united kingdom,EthnicGroup_right,title,romanians in the united kingdom,0.8866349458694458
+EthnicGroup_left.csv,title,ecuadorian people,EthnicGroup_right,title,ecuadorians,0.8865146636962891
+EthnicGroup_left.csv,title,cornish people,EthnicGroup_right,title,cornish americans,0.8854647278785706
+EthnicGroup_left.csv,title,south sea islander,EthnicGroup_right,title,south sea islanders,0.8837552666664124
+EthnicGroup_left.csv,title,canadians in china,EthnicGroup_right,title,chinese canadians,0.8833459615707397
+EthnicGroup_left.csv,title,iranian new zealander,EthnicGroup_right,title,iranian new zealanders,0.8806967735290527
+EthnicGroup_left.csv,title,portuguese new zealander,EthnicGroup_right,title,portuguese new zealanders,0.8805283904075623
+EthnicGroup_left.csv,title,tataviam,EthnicGroup_right,title,tataviam people,0.8801765441894531
+EthnicGroup_left.csv,title,yugur people,EthnicGroup_right,title,yugur,0.8796255588531494
+EthnicGroup_left.csv,title,holikachuk people,EthnicGroup_right,title,holikachuk,0.8795860409736633
+EthnicGroup_left.csv,title,macedonians of croatia,EthnicGroup_right,title,serbs of the republic of macedonia,0.8795151114463806
+EthnicGroup_left.csv,title,armenians in israel,EthnicGroup_right,title,jews in armenia,0.8793628811836243
+EthnicGroup_left.csv,title,lanoh,EthnicGroup_right,title,lanoh people,0.8783665895462036
+EthnicGroup_left.csv,title,makah people,EthnicGroup_right,title,makah,0.8762103915214539
+EthnicGroup_left.csv,title,chatot people,EthnicGroup_right,title,chatot,0.8748897910118103
+EthnicGroup_left.csv,title,pima people,EthnicGroup_right,title,pima bajo people,0.8745085000991821
+EthnicGroup_left.csv,title,cape verdean french,EthnicGroup_right,title,cape verdeans in france,0.8743997812271118
+EthnicGroup_left.csv,title,americans in japan,EthnicGroup_right,title,japanese americans,0.874300479888916
+EthnicGroup_left.csv,title,mongols,EthnicGroup_right,title,khalkha mongols,0.8731174468994141
+EthnicGroup_left.csv,title,bengalis in pakistan,EthnicGroup_right,title,bangladeshis in pakistan,0.872844934463501
+EthnicGroup_left.csv,title,albanians,EthnicGroup_right,title,kosovo albanians,0.8714858293533325
+EthnicGroup_left.csv,title,tamil south africans,EthnicGroup_right,title,tamils,0.8685973286628723
+EthnicGroup_left.csv,title,greeks in denmark,EthnicGroup_right,title,greeks in sweden,0.8679829835891724
+EthnicGroup_left.csv,title,vietnamese people,EthnicGroup_right,title,vietnamese cambodians,0.8674788475036621
+EthnicGroup_left.csv,title,spaniards in france,EthnicGroup_right,title,spanish immigration to france,0.8660967946052551
+EthnicGroup_left.csv,title,cheraw people,EthnicGroup_right,title,cheraw,0.8658046722412109
+EthnicGroup_left.csv,title,americans in pakistan,EthnicGroup_right,title,pakistani americans,0.8633660674095154
+EthnicGroup_left.csv,title,maltese people,EthnicGroup_right,title,maltese americans,0.8590515851974487
+EthnicGroup_left.csv,title,albanians in serbia,EthnicGroup_right,title,kosovo serbs,0.8587416410446167
+EthnicGroup_left.csv,title,druze in lebanon,EthnicGroup_right,title,druze in israel,0.8583429455757141
+EthnicGroup_left.csv,title,ghanaian people,EthnicGroup_right,title,ghanaian americans,0.8579998016357422
+EthnicGroup_left.csv,title,white people,EthnicGroup_right,title,white americans,0.8579933643341064
+EthnicGroup_left.csv,title,afro-bermudian,EthnicGroup_right,title,afro-grenadian,0.8574343323707581
+EthnicGroup_left.csv,title,cusabo people,EthnicGroup_right,title,cusabo,0.8573912382125854

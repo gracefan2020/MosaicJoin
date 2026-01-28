@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ShoppingMall_left.csv,title,asheville mall,SportFacility_right,title,asheville civic center,0.7772636413574219
+ShoppingMall_left.csv,title,bentley bridge retail park,SportFacility_right,title,toyota park (bridgeview),0.7741929888725281
+ShoppingMall_left.csv,title,"star city, seoul",SportFacility_right,title,letsrun park seoul,0.7730012536048889
+ShoppingMall_left.csv,title,central park (shopping complex),SportFacility_right,title,bellevue park,0.7432929873466492
+ShoppingMall_left.csv,title,st. laurent centre,SportFacility_right,title,sasktel centre,0.7402400970458984
+ShoppingMall_left.csv,title,maple hill pavilion,SportFacility_right,title,hec edmundson pavilion,0.7371554374694824
+ShoppingMall_left.csv,title,centro bankstown,SportFacility_right,title,bankatlantic center,0.7348073124885559
+ShoppingMall_left.csv,title,knollwood mall,SportFacility_right,title,cherrywood road,0.7224915027618408
+ShoppingMall_left.csv,title,brentwood town centre,SportFacility_right,title,linthorpe road,0.7222086191177368
+ShoppingMall_left.csv,title,la encantada,SportFacility_right,title,la bombonera,0.7209420800209045
+ShoppingMall_left.csv,title,irvine spectrum center,SportFacility_right,title,comcast center (arena),0.7205197215080261
+ShoppingMall_left.csv,title,west manchester mall,SportFacility_right,title,north road (manchester),0.7198452949523926
+ShoppingMall_left.csv,title,pier park (florida),SportFacility_right,title,community maritime park,0.7174338102340698
+ShoppingMall_left.csv,title,the galleria (houston),SportFacility_right,title,west end park (houston),0.7103468179702759
+ShoppingMall_left.csv,title,st. charles towne center,SportFacility_right,title,community choice credit union convention center,0.7093939185142517
+ShoppingMall_left.csv,title,harbourfront centre,SportFacility_right,title,pensacola bay center,0.705142080783844
+ShoppingMall_left.csv,title,newpark mall,SportFacility_right,title,peoplesbank park,0.7051299214363098
+ShoppingMall_left.csv,title,the centrepoint,SportFacility_right,title,the q center,0.7036929726600647
+ShoppingMall_left.csv,title,"the summit (reno, nevada)",SportFacility_right,title,silver summit,0.7019562125205994
+ShoppingMall_left.csv,title,centro karingal,SportFacility_right,title,plaza de toros de la merced,0.6982788443565369
+ShoppingMall_left.csv,title,omni park shopping centre,SportFacility_right,title,omni la costa resort and spa,0.695568323135376
+ShoppingMall_left.csv,title,broadmarsh (shopping centre),SportFacility_right,title,broadhurst park,0.6954821944236755
+ShoppingMall_left.csv,title,paradise park (mall),SportFacility_right,title,terryland park,0.6937776803970337
+ShoppingMall_left.csv,title,centrale (croydon),SportFacility_right,title,"ironmould lane, bristol",0.688747763633728
+ShoppingMall_left.csv,title,mantri square,SportFacility_right,title,menora mivtachim arena,0.6883140802383423
+ShoppingMall_left.csv,title,westfield franklin park,SportFacility_right,title,herald park,0.6867355108261108
+ShoppingMall_left.csv,title,centro lavington,SportFacility_right,title,mott athletic center,0.6861108541488647
+ShoppingMall_left.csv,title,crystal palace complex (dieppe),SportFacility_right,title,druzhba palace of sports,0.685589075088501
+ShoppingMall_left.csv,title,bahrain city centre,SportFacility_right,title,king abdullah ii stadium,0.6756795644760132
+ShoppingMall_left.csv,title,northfield square,SportFacility_right,title,north road (glossop),0.6737501621246338
+ShoppingMall_left.csv,title,st. david's (cardiff),SportFacility_right,title,st georges park (newport),0.6730315685272217
+ShoppingMall_left.csv,title,royal victoria place,SportFacility_right,title,victoria park (hartlepool),0.6727415919303894
+ShoppingMall_left.csv,title,galeria kazimierz,SportFacility_right,title,beåiktaå milangaz arena,0.668692946434021
+ShoppingMall_left.csv,title,colton plaza,SportFacility_right,title,prescott valley event center,0.6677637100219727
+ShoppingMall_left.csv,title,centre at glen burnie,SportFacility_right,title,charles e. smith center,0.6661230325698853
+ShoppingMall_left.csv,title,eastland center,SportFacility_right,title,state farm center,0.6657322645187378
+ShoppingMall_left.csv,title,kenwood towne centre,SportFacility_right,title,kelly automotive park,0.6656026840209961
+ShoppingMall_left.csv,title,"regency square mall (florence, alabama)",SportFacility_right,title,denny sanford premier center,0.6646719574928284
+ShoppingMall_left.csv,title,mirdif city centre,SportFacility_right,title,hamdan sports complex,0.6605379581451416
+ShoppingMall_left.csv,title,spinderiet (copenhagen),SportFacility_right,title,velodrom (berlin),0.657158374786377
+ShoppingMall_left.csv,title,centro taigum,SportFacility_right,title,itaipava arena pernambuco,0.6555429100990295
+ShoppingMall_left.csv,title,centro roselands,SportFacility_right,title,machale park,0.6547491550445557
+ShoppingMall_left.csv,title,hickory ridge mall,SportFacility_right,title,ferguson ridge,0.6524987816810608
+ShoppingMall_left.csv,title,northwest plaza,SportFacility_right,title,sloan park,0.6514266133308411
+ShoppingMall_left.csv,title,riocan centre kingston,SportFacility_right,title,abbotsford centre,0.650483250617981
+ShoppingMall_left.csv,title,the fashion centre at pentagon city,SportFacility_right,title,sanford pentagon,0.6494490504264832
+ShoppingMall_left.csv,title,rivergate mall,SportFacility_right,title,riverstage,0.6471294164657593
+ShoppingMall_left.csv,title,hamilton place (shopping mall),SportFacility_right,title,rogers place,0.645736813545227
+ShoppingMall_left.csv,title,antioch center,SportFacility_right,title,aleppo shriners auditorium,0.6454426646232605
+ShoppingMall_left.csv,title,city centre plaza,SportFacility_right,title,wings event center,0.6454169750213623
+ShoppingMall_left.csv,title,lakeview square,SportFacility_right,title,st. loman's park,0.6449673175811768
+ShoppingMall_left.csv,title,seacon square,SportFacility_right,title,the float@marina bay,0.6447727680206299
+ShoppingMall_left.csv,title,centro,SportFacility_right,title,moda center,0.6424885988235474
+ShoppingMall_left.csv,title,sunway carnival mall,SportFacility_right,title,starfire sports complex,0.6411259770393372
+ShoppingMall_left.csv,title,arsenal mall,SportFacility_right,title,united supermarkets arena,0.641059398651123
+ShoppingMall_left.csv,title,florin mall,SportFacility_right,title,flancare park,0.6389476656913757
+ShoppingMall_left.csv,title,westfield fox valley,SportFacility_right,title,prairie meadows,0.637252151966095
+ShoppingMall_left.csv,title,hillside shopping centre,SportFacility_right,title,cranbrook recreational complex,0.6366246342658997
+ShoppingMall_left.csv,title,acadiana mall,SportFacility_right,title,amalie arena,0.6365416049957275
+ShoppingMall_left.csv,title,brunswick shopping centre,SportFacility_right,title,scotiabank centre,0.63620924949646
+ShoppingMall_left.csv,title,albany mall,SportFacility_right,title,albany municipal coliseum,0.6343915462493896
+ShoppingMall_left.csv,title,the mall pavilions,SportFacility_right,title,power balance pavilion,0.6332387924194336
+ShoppingMall_left.csv,title,shangri-la plaza mall,SportFacility_right,title,bon secours wellness arena,0.6320649981498718
+ShoppingMall_left.csv,title,avenue carriage crossing,SportFacility_right,title,bridge road (impington),0.6315912008285522
+ShoppingMall_left.csv,title,werribee plaza,SportFacility_right,title,cubs park (mesa),0.631537139415741
+ShoppingMall_left.csv,title,westfield southland,SportFacility_right,title,southland park gaming and racing,0.6314542889595032
+ShoppingMall_left.csv,title,"zona rosa (kansas city, missouri)",SportFacility_right,title,"jaycee park (plainview, texas)",0.6289659738540649
+ShoppingMall_left.csv,title,westfield chicago ridge,SportFacility_right,title,raymond chabot grant thornton park,0.6280725002288818
+ShoppingMall_left.csv,title,forest lake shopping centre,SportFacility_right,title,lake louise ski resort,0.6275240778923035
+ShoppingMall_left.csv,title,parkway mall,SportFacility_right,title,providence park,0.6262713670730591
+ShoppingMall_left.csv,title,granada center,SportFacility_right,title,central stadion,0.6254619359970093
+ShoppingMall_left.csv,title,sm city,SportFacility_right,title,secu arena,0.6250024437904358
+ShoppingMall_left.csv,title,les promenades de l'outaouais,SportFacility_right,title,la planche des belles filles,0.6249614357948303
+ShoppingMall_left.csv,title,crossroads center,SportFacility_right,title,siegel center,0.6242392659187317
+ShoppingMall_left.csv,title,centro lutwyche,SportFacility_right,title,stadio sergio lanfranchi,0.6231530904769897
+ShoppingMall_left.csv,title,westfield pakuranga,SportFacility_right,title,palatrussardi,0.6214548349380493
+ShoppingMall_left.csv,title,cross county plaza,SportFacility_right,title,county ground (leyland),0.6206520199775696
+ShoppingMall_left.csv,title,jantzen beach supercenter,SportFacility_right,title,jeongseon alpine centre,0.6201193332672119
+ShoppingMall_left.csv,title,mid rivers mall,SportFacility_right,title,merrell center,0.620038628578186
+ShoppingMall_left.csv,title,centro box hill,SportFacility_right,title,hillsboro ballpark,0.6199019551277161
+ShoppingMall_left.csv,title,westfield castlecourt,SportFacility_right,title,thunder castle stadium,0.6197305917739868
+ShoppingMall_left.csv,title,palm beach mall,SportFacility_right,title,west palm beach auditorium,0.6196890473365784
+ShoppingMall_left.csv,title,eastridge,SportFacility_right,title,mount pleasant of edinboro,0.619369626045227
+ShoppingMall_left.csv,title,solano town center,SportFacility_right,title,steinberg wellness center,0.6178730726242065
+ShoppingMall_left.csv,title,cataraqui town centre,SportFacility_right,title,blinov sports and concerts complex,0.6177464723587036
+ShoppingMall_left.csv,title,westfield belden village,SportFacility_right,title,christie park (morecambe),0.6143477559089661
+ShoppingMall_left.csv,title,liffey valley shopping centre,SportFacility_right,title,lee valley velopark,0.6090685129165649
+ShoppingMall_left.csv,title,great northern mall,SportFacility_right,title,northstar at tahoe,0.6082980632781982
+ShoppingMall_left.csv,title,dembel city center,SportFacility_right,title,velo sports center,0.6070123910903931
+ShoppingMall_left.csv,title,domain central,SportFacility_right,title,digital domain park,0.606414794921875
+ShoppingMall_left.csv,title,lakeshore mall (florida),SportFacility_right,title,plainridge park casino,0.606316328048706
+ShoppingMall_left.csv,title,sahara mall (riyadh),SportFacility_right,title,baluan sholak sports palace,0.6044864058494568
+ShoppingMall_left.csv,title,cityplace,SportFacility_right,title,roazhon park,0.6031297445297241
+ShoppingMall_left.csv,title,city central,SportFacility_right,title,central stadium (aktobe),0.6019527912139893
+ShoppingMall_left.csv,title,"westgate shopping centre, oxford",SportFacility_right,title,manor ground (oxford),0.6015247106552124
+ShoppingMall_left.csv,title,"the summit (wheatfield, new york)",SportFacility_right,title,red lodge mountain,0.5981248617172241
+ShoppingMall_left.csv,title,langham place (hong kong),SportFacility_right,title,chuncheon songam leports town,0.5947896838188171
+ShoppingMall_left.csv,title,centro the glen,SportFacility_right,title,ontario soccer centre,0.5942602753639221
+ShoppingMall_left.csv,title,"crossroads center (waterloo, ia)",SportFacility_right,title,u.s. cellular center (cedar rapids),0.5942046642303467
+ShoppingMall_left.csv,title,splendid china tower,SportFacility_right,title,jiangwan sports center,0.5933175086975098
+ShoppingMall_left.csv,title,capital city mall,SportFacility_right,title,stockhorn arena,0.5923473834991455
+ShoppingMall_left.csv,title,sta. lucia east grand mall,SportFacility_right,title,atanasio girardot sports complex,0.5904340744018555
+ShoppingMall_left.csv,title,el con mall,SportFacility_right,title,la cubierta,0.5904335379600525
+ShoppingMall_left.csv,title,downtown plaza (sacramento),SportFacility_right,title,dort federal credit union event center,0.5903928279876709
+ShoppingMall_left.csv,title,megabox (shopping mall),SportFacility_right,title,sandman centre,0.5893669128417969
+ShoppingMall_left.csv,title,florence mall,SportFacility_right,title,stadio della roma,0.588420033454895
+ShoppingMall_left.csv,title,centrio,SportFacility_right,title,cabarrus arena,0.5883989930152893
+ShoppingMall_left.csv,title,epping plaza,SportFacility_right,title,ghelamco arena,0.5880012512207031
+ShoppingMall_left.csv,title,downtown shopping centre,SportFacility_right,title,yulgok hockey centre,0.5876758098602295
+ShoppingMall_left.csv,title,downtown disney (walt disney world),SportFacility_right,title,fillmore auditorium (denver),0.587658166885376
+ShoppingMall_left.csv,title,westfield figtree,SportFacility_right,title,pearse park (longford),0.5872134566307068
+ShoppingMall_left.csv,title,lulu mall,SportFacility_right,title,kal tire place,0.5870020389556885
+ShoppingMall_left.csv,title,"shaktan thampuran private bus stand, thrissur",SportFacility_right,title,nakhon ratchasima municipal stadium,0.5849446654319763
+ShoppingMall_left.csv,title,st. louis outlet mall,SportFacility_right,title,st. louis soccer park,0.584337592124939
+ShoppingMall_left.csv,title,metropolis at metrotown,SportFacility_right,title,municipal auditorium (kansas city),0.5827618837356567
+ShoppingMall_left.csv,title,shops at prudential center,SportFacility_right,title,lesports center,0.5816265344619751
+ShoppingMall_left.csv,title,deira city centre,SportFacility_right,title,ceres arena,0.5798574686050415
+ShoppingMall_left.csv,title,broadway mall,SportFacility_right,title,theatre for the performing arts,0.5796823501586914
+ShoppingMall_left.csv,title,"university mall (chapel hill, north carolina)",SportFacility_right,title,u.s. cellular center (asheville),0.5795957446098328
+ShoppingMall_left.csv,title,enfield square,SportFacility_right,title,st mirren park,0.5792786478996277
+ShoppingMall_left.csv,title,"conestoga mall (waterloo, ontario)",SportFacility_right,title,tim hortons field,0.5779629945755005
+ShoppingMall_left.csv,title,centro toombul,SportFacility_right,title,helmy zamora stadium,0.5776532888412476
+ShoppingMall_left.csv,title,atlantic terminal (shopping mall),SportFacility_right,title,eaglebank arena,0.5766427516937256
+ShoppingMall_left.csv,title,my mall limassol,SportFacility_right,title,tampereen monitoimiareena,0.5755733251571655
+ShoppingMall_left.csv,title,westfield annapolis,SportFacility_right,title,mercer county waterfront park,0.5752538442611694
+ShoppingMall_left.csv,title,woodfield mall,SportFacility_right,title,edge hall road,0.5730375647544861
+ShoppingMall_left.csv,title,west 12 shepherds bush,SportFacility_right,title,ten acres,0.5723034739494324
+ShoppingMall_left.csv,title,winrock shopping center,SportFacility_right,title,avron b. fogelman arena,0.5716097354888916
+ShoppingMall_left.csv,title,centro mayor,SportFacility_right,title,stadio marcantonio bentegodi,0.5695284605026245
+ShoppingMall_left.csv,title,rockville mall,SportFacility_right,title,strokestown road,0.5674871206283569
+ShoppingMall_left.csv,title,chesapeake square mall,SportFacility_right,title,globe life park in arlington,0.5664854049682617
+ShoppingMall_left.csv,title,santa rosa mall (florida),SportFacility_right,title,"bb&t center (sunrise, florida)",0.5663542151451111
+ShoppingMall_left.csv,title,rhodes shopping centre,SportFacility_right,title,poirier sport & leisure complex,0.5652974247932434
+ShoppingMall_left.csv,title,woodbury common premium outlets,SportFacility_right,title,edelman financial field,0.5652827620506287
+ShoppingMall_left.csv,title,"northwoods mall (peoria, illinois)",SportFacility_right,title,narragansett park,0.5634106397628784
+ShoppingMall_left.csv,title,springfield mall (pennsylvania),SportFacility_right,title,allentown arena,0.5618808269500732
+ShoppingMall_left.csv,title,south point (shopping mall),SportFacility_right,title,sydbank park,0.5613848567008972
+ShoppingMall_left.csv,title,"the summit (birmingham, alabama)",SportFacility_right,title,aj bell stadium,0.560592770576477
+ShoppingMall_left.csv,title,isquare,SportFacility_right,title,the q centre,0.5578099489212036
+ShoppingMall_left.csv,title,palladium square,SportFacility_right,title,gocheok sky dome,0.5559749603271484
+ShoppingMall_left.csv,title,westfield mainplace,SportFacility_right,title,meggetland sports complex,0.5536442995071411
+ShoppingMall_left.csv,title,westfield warrawong,SportFacility_right,title,the showgrounds (sligo),0.5528997182846069
+ShoppingMall_left.csv,title,fox run mall,SportFacility_right,title,running aces casino & racetrack,0.5516507029533386
+ShoppingMall_left.csv,title,louis joliet mall,SportFacility_right,title,john labatt centre,0.5516066551208496
+ShoppingMall_left.csv,title,pace shopping mall,SportFacility_right,title,cox business center,0.5514386892318726
+ShoppingMall_left.csv,title,grand central mall,SportFacility_right,title,gila river arena,0.5507619976997375
+ShoppingMall_left.csv,title,the outlets at sands bethlehem,SportFacility_right,title,jerusalem payis arena,0.5503320097923279
+ShoppingMall_left.csv,title,westdale mall,SportFacility_right,title,tenth street stadium,0.5503177642822266
+ShoppingMall_left.csv,title,kukui grove shopping center,SportFacility_right,title,kuopio football stadium,0.5500595569610596
+ShoppingMall_left.csv,title,grand indonesia shopping town,SportFacility_right,title,gangneung hockey centre,0.549925684928894
+ShoppingMall_left.csv,title,victoria mall,SportFacility_right,title,larissa neapolis indoor arena,0.5498019456863403
+ShoppingMall_left.csv,title,market place mall,SportFacility_right,title,smoothie king center,0.5482975244522095
+ShoppingMall_left.csv,title,galleria shopping centre,SportFacility_right,title,palacio de deportes de las palmas,0.5472086668014526
+ShoppingMall_left.csv,title,auburn mall,SportFacility_right,title,uaa community arena,0.5463238954544067
+ShoppingMall_left.csv,title,castletown shoppingworld,SportFacility_right,title,horncastle arena,0.5459179282188416
+ShoppingMall_left.csv,title,merry hill shopping centre,SportFacility_right,title,peel park (accrington),0.5441455841064453
+ShoppingMall_left.csv,title,south city (shopping mall),SportFacility_right,title,samsung lions ballpark,0.5412874817848206
+ShoppingMall_left.csv,title,settlers' green outlet village,SportFacility_right,title,priddis greens,0.5411127805709839
+ShoppingMall_left.csv,title,indian mall,SportFacility_right,title,rajiv gandhi indoor stadium,0.5358538031578064
+ShoppingMall_left.csv,title,bluewater (shopping centre),SportFacility_right,title,blue wahoos stadium,0.5314128398895264
+ShoppingMall_left.csv,title,change alley (singapore),SportFacility_right,title,dongchun gymnasium,0.5300201773643494
+ShoppingMall_left.csv,title,westfield west covina,SportFacility_right,title,rancho cucamonga epicenter,0.5286023616790771
+ShoppingMall_left.csv,title,lancaster mall,SportFacility_right,title,news-herald arena,0.5269811153411865
+ShoppingMall_left.csv,title,the oaks mall,SportFacility_right,title,bears park,0.5237846374511719
+ShoppingMall_left.csv,title,northlake mall (charlotte),SportFacility_right,title,"bb&t ballpark (winston-salem, north carolina)",0.5214110612869263
+ShoppingMall_left.csv,title,the promenade shopping centre,SportFacility_right,title,caesars macau,0.5202583074569702
+ShoppingMall_left.csv,title,tulsa promenade mall,SportFacility_right,title,rogers k-rock centre,0.5176231265068054
+ShoppingMall_left.csv,title,bishops corner (west hartford),SportFacility_right,title,children's mercy park,0.5166045427322388
+ShoppingMall_left.csv,title,victoria square shopping centre,SportFacility_right,title,silverstein eye centers arena,0.5161866545677185
+ShoppingMall_left.csv,title,tallahassee mall,SportFacility_right,title,fairgrounds coliseum,0.5157347321510315
+ShoppingMall_left.csv,title,square 2 (shopping mall),SportFacility_right,title,mjã¸ndalen arena,0.5155696272850037
+ShoppingMall_left.csv,title,spires shopping centre,SportFacility_right,title,kyocera dome,0.5148745775222778
+ShoppingMall_left.csv,title,nex,SportFacility_right,title,niedersachsenstadion,0.5144641399383545
+ShoppingMall_left.csv,title,westfield sydney central plaza,SportFacility_right,title,north port oval,0.5143836736679077
+ShoppingMall_left.csv,title,the shoppes at eastchase,SportFacility_right,title,harrison park (leek),0.5143166780471802
+ShoppingMall_left.csv,title,the brentwood country mart,SportFacility_right,title,bill gray's regional iceplex,0.5119888782501221
+ShoppingMall_left.csv,title,paddock mall,SportFacility_right,title,the dog yard,0.5115599036216736
+ShoppingMall_left.csv,title,menara great eastern,SportFacility_right,title,anzhi arena,0.5073626637458801
+ShoppingMall_left.csv,title,west mall,SportFacility_right,title,fartown ground,0.5057560205459595
+ShoppingMall_left.csv,title,"harbor point, subic",SportFacility_right,title,coffs harbour international stadium,0.5025981664657593
+ShoppingMall_left.csv,title,vintage faire mall,SportFacility_right,title,the old den,0.5020169019699097
+ShoppingMall_left.csv,title,the mall at shelter cove,SportFacility_right,title,nick galis hall,0.5019669532775879
+ShoppingMall_left.csv,title,westshore mall,SportFacility_right,title,surf stadium,0.5007925033569336
+ShoppingMall_left.csv,title,touchwood,SportFacility_right,title,alexandreio melathron nick galis hall,0.49698176980018616
+ShoppingMall_left.csv,title,exchange ilford,SportFacility_right,title,fedex field,0.4956701397895813
+ShoppingMall_left.csv,title,the paragon,SportFacility_right,title,sartain hall,0.49502068758010864
+ShoppingMall_left.csv,title,regency square mall (jacksonville),SportFacility_right,title,u.s. cellular community park,0.49107474088668823
+ShoppingMall_left.csv,title,wilton mall,SportFacility_right,title,boyne mountain resort,0.4881892502307892
+ShoppingMall_left.csv,title,the market common myrtle beach,SportFacility_right,title,june mountain ski area,0.4873146116733551
+ShoppingMall_left.csv,title,the base (mall),SportFacility_right,title,bm close's ground,0.48205137252807617
+ShoppingMall_left.csv,title,monroe crossing mall,SportFacility_right,title,centre bell,0.47625893354415894
+ShoppingMall_left.csv,title,the mall at cortana,SportFacility_right,title,otkrytiye arena,0.4754142463207245
+ShoppingMall_left.csv,title,centro colonnades,SportFacility_right,title,pan american velodrome,0.473418653011322
+ShoppingMall_left.csv,title,philadelphia premium outlets,SportFacility_right,title,centennial bank stadium,0.4694984555244446
+ShoppingMall_left.csv,title,the florida mall,SportFacility_right,title,sunshine coast stadium,0.4617968201637268
+ShoppingMall_left.csv,title,the gallery at military circle,SportFacility_right,title,astrodome,0.4555317461490631
+ShoppingMall_left.csv,title,mall at the source,SportFacility_right,title,infinite energy arena,0.4549570381641388
+ShoppingMall_left.csv,title,the mall in columbia,SportFacility_right,title,berglund center,0.45031362771987915
+ShoppingMall_left.csv,title,direct factory outlets,SportFacility_right,title,sap center,0.4482841491699219
+ShoppingMall_left.csv,title,mail champlain,SportFacility_right,title,snow king mountain,0.44734764099121094

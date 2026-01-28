@@ -1,0 +1,9 @@
+{
+  "table_name": "Hospital_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 257,
+  "sketch_k": 257,
+  "processing_time": 0.08365178108215332,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Hospital_right/title_1.npz"
+}

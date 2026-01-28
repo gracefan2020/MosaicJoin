@@ -1,0 +1,11 @@
+{
+  "table_name": "Song_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 440,
+  "unique_values": 440,
+  "processed_values": 440,
+  "embedding_dim": 768,
+  "processing_time": 0.2660205364227295,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Song_right.csv"
+}

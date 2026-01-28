@@ -1,0 +1,15 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Magazine_left.csv,title,Golf World,Tournament_left.csv,title,NEC World Series of Golf,0.66
+Magazine_left.csv,title,Family Circle,Tournament_left.csv,title,Family Circle Cup,0.66
+Magazine_left.csv,title,Golf World,Tournament_left.csv,title,Walt Disney World Golf Classic,0.66
+Magazine_left.csv,title,Commonweal,Tournament_left.csv,title,Commonwealth Bank Tennis Classic,0.66
+Magazine_left.csv,title,Forbes,Tournament_left.csv,title,Football at the 1979 Indian Ocean Island Games,0.66
+Magazine_left.csv,title,Golf Digest,Tournament_left.csv,title,Golf Digest Tournament,0.66
+Magazine_left.csv,title,Lui,Tournament_left.csv,title,2009 IPP Trophy,0.66
+Magazine_left.csv,title,McCall's,Tournament_left.csv,title,McCall's LPGA Classic,0.66
+Magazine_left.csv,title,Mirabella,Tournament_left.csv,title,2011 Mirabella Cup,0.66
+Magazine_left.csv,title,Soccer America,Tournament_left.csv,title,2011 America East Conference men's soccer season,0.66
+Magazine_left.csv,title,Charano!,Tournament_left.csv,title,2012 WAFF Championship,0.66
+Magazine_left.csv,title,Golf World,Tournament_left.csv,title,World Golf Final,0.66
+Magazine_left.csv,title,Golf World,Tournament_left.csv,title,1999 World Cup of Golf,0.66
+Magazine_left.csv,title,Golf World,Tournament_left.csv,title,1998 World Cup of Golf,0.66

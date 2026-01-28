@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Venue_left.csv,title,rustaveli cinema,Venue_right,title,rustaveli cinema,1.000000238418579
+Venue_left.csv,title,vizelj park,Venue_right,title,vizelj park,1.0
+Venue_left.csv,title,a.o. shirley recreation ground,Venue_right,title,a. o. shirley recreation ground,0.9999996423721313
+Venue_left.csv,title,the palladium at the center for performing arts,Venue_right,title,the palladium at the center for the performing arts,0.9989429712295532
+Venue_left.csv,title,gaiety theatre (new york),Venue_right,title,gaiety theatre (new york city),0.9933508634567261
+Venue_left.csv,title,lope de vega theatre (seville),Venue_right,title,"lope de vega theater, seville",0.9915119409561157
+Venue_left.csv,title,globe theatre (stockton-on-tees),Venue_right,title,"globe theatre, stockton-on-tees",0.9906119108200073
+Venue_left.csv,title,shepherds bush empire,Venue_right,title,shepherd's bush empire,0.9898524284362793
+Venue_left.csv,title,the mill theatre dundrum,Venue_right,title,mill theatre dundrum,0.9886491298675537
+Venue_left.csv,title,kazhimukan munaitpasov stadium (astana),Venue_right,title,kazhymukan munaitpasov stadium (astana),0.9876360297203064
+Venue_left.csv,title,colonial theatre (boston),Venue_right,title,"colonial theatre (boston, massachusetts)",0.9871337413787842
+Venue_left.csv,title,"fox theatre (atlanta, georgia)",Venue_right,title,fox theatre (atlanta),0.986201286315918
+Venue_left.csv,title,orchestra hall (minneapolis),Venue_right,title,"orchestra hall (minneapolis, minnesota)",0.985526442527771
+Venue_left.csv,title,new theatre (nottingham),Venue_right,title,nottingham new theatre,0.9853495359420776
+Venue_left.csv,title,scotch of st james,Venue_right,title,the scotch of st. james,0.984750509262085
+Venue_left.csv,title,thrasher's opera house,Venue_right,title,thrasher opera house,0.98442542552948
+Venue_left.csv,title,orpheum theatre (boston),Venue_right,title,"orpheum theatre (boston, massachusetts)",0.9833271503448486
+Venue_left.csv,title,"orpheum theatre (memphis, tennessee)",Venue_right,title,orpheum theatre (memphis),0.9819580316543579
+Venue_left.csv,title,"manor ground, plumstead",Venue_right,title,manor ground (plumstead),0.9818499088287354
+Venue_left.csv,title,harris theater (pittsburgh),Venue_right,title,"harris theater (pittsburgh, pennsylvania)",0.9815366268157959
+Venue_left.csv,title,tower theatre (salt lake city),Venue_right,title,"tower theatre (salt lake city, utah)",0.9801151752471924
+Venue_left.csv,title,"princes park, dartford",Venue_right,title,princes park (dartford),0.9775677919387817
+Venue_left.csv,title,swan theatre (stratford),Venue_right,title,"swan theatre, stratford-upon-avon",0.9692595601081848
+Venue_left.csv,title,stade du 26 mars,Venue_right,title,stade 26 mars,0.9660593867301941
+Venue_left.csv,title,the forum (inglewood),Venue_right,title,"the forum (inglewood, california)",0.9629580974578857
+Venue_left.csv,title,"city ground, cambridge",Venue_right,title,city ground (cambridge),0.9610837697982788
+Venue_left.csv,title,"verizon wireless amphitheater (selma, texas)",Venue_right,title,verizon wireless amphitheater (selma),0.9555083513259888
+Venue_left.csv,title,stadio di corsi sebastopoli,Venue_right,title,stadio di corso sebastopoli,0.949966311454773
+Venue_left.csv,title,gradski stadion (pljevlja),Venue_right,title,gradski stadion (banja luka),0.949914813041687
+Venue_left.csv,title,"the forum, london",Venue_right,title,london forum,0.9478951692581177
+Venue_left.csv,title,orpheum theatre (san francisco),Venue_right,title,"orpheum theatre (los angeles, california)",0.9459275603294373
+Venue_left.csv,title,stadionul motorul,Venue_right,title,stadionul motorul (arad),0.9451143145561218
+Venue_left.csv,title,stadium meteor,Venue_right,title,meteor stadium,0.9440001249313354
+Venue_left.csv,title,california theatre (san francisco),Venue_right,title,california theatre (san bernardino),0.9419212341308594
+Venue_left.csv,title,fc kremin stadium,Venue_right,title,kremin stadium,0.932874321937561
+Venue_left.csv,title,dalian sports center,Venue_right,title,dalian sports center stadium,0.9321933388710022
+Venue_left.csv,title,chavez theatre,Venue_right,title,abraham chavez theatre,0.9273054599761963
+Venue_left.csv,title,"rialto theatre (tampa, florida)",Venue_right,title,"rialto theatre (tucson, arizona)",0.9245303869247437
+Venue_left.csv,title,maxwell c. king center for the performing arts,Venue_right,title,king center for the performing arts,0.9229803681373596
+Venue_left.csv,title,state theatre (melbourne),Venue_right,title,capitol theatre (melbourne),0.9215009808540344
+Venue_left.csv,title,soldotna sports center,Venue_right,title,soldotna regional sports complex,0.9210829734802246
+Venue_left.csv,title,century theatre (detroit),Venue_right,title,fox theatre (detroit),0.9188926219940186
+Venue_left.csv,title,mohammed al-hamad stadium,Venue_right,title,mubarak al-aiar stadium,0.9147956371307373
+Venue_left.csv,title,stade jules deschaseaux,Venue_right,title,stade henri desgranges,0.9127271175384521
+Venue_left.csv,title,moore theatre,Venue_right,title,"moore theatre (seattle, washington)",0.9117786884307861
+Venue_left.csv,title,studio theatre (sheffield),Venue_right,title,studio theatre (brighton),0.9108597636222839
+Venue_left.csv,title,little shubert theatre,Venue_right,title,shubert theatre (new york city),0.9103384017944336
+Venue_left.csv,title,memorial stadium (university of kansas),Venue_right,title,memorial stadium (kent state),0.9060698747634888
+Venue_left.csv,title,donald l. tucker center,Venue_right,title,donald l. tucker civic center,0.9058763980865479
+Venue_left.csv,title,the loft,Venue_right,title,the loft (new york city),0.90558922290802
+Venue_left.csv,title,hristo botev stadium (blagoevgrad),Venue_right,title,oleksiy butovsky vorskla stadium,0.9040749669075012
+Venue_left.csv,title,"fox theatre (redwood city, california)",Venue_right,title,"fox theatre (st. louis, missouri)",0.9034327268600464
+Venue_left.csv,title,lithuanian hall,Venue_right,title,"lithuanian hall (baltimore, maryland)",0.8961116075515747
+Venue_left.csv,title,the broadway (theatre),Venue_right,title,broadway theatre (53rd street),0.895654559135437
+Venue_left.csv,title,dynamo samarkand stadium,Venue_right,title,dinamo samarkand stadium,0.8890630602836609
+Venue_left.csv,title,estadio corona (1970),Venue_right,title,corona stadium (1970),0.8851354122161865
+Venue_left.csv,title,"palace theatre (columbus, ohio)",Venue_right,title,palace theatre (new york city),0.880957305431366
+Venue_left.csv,title,iran khodro stadium,Venue_right,title,emam reza stadium (tehran),0.8796902894973755
+Venue_left.csv,title,"sleep train amphitheatre (wheatland, california)",Venue_right,title,sleep train amphitheatre,0.8792039155960083
+Venue_left.csv,title,stadion aldo drosina,Venue_right,title,stadion detelinara,0.8753430247306824
+Venue_left.csv,title,shahid heidarian arena,Venue_right,title,shahid poursharifi arena,0.8749905228614807
+Venue_left.csv,title,estadio manuel mesones muro,Venue_right,title,estadio mundialista luciana aymar,0.8703418970108032
+Venue_left.csv,title,bumi sriwijaya stadium,Venue_right,title,shahid rajai stadium,0.8701226711273193
+Venue_left.csv,title,showbox at the market,Venue_right,title,the showbox,0.8698464035987854
+Venue_left.csv,title,sala stadium,Venue_right,title,sogdiana stadium,0.8687046766281128
+Venue_left.csv,title,majestic crest theatre,Venue_right,title,"majestic theatre (san antonio, texas)",0.8648693561553955
+Venue_left.csv,title,arena vfg,Venue_right,title,drfg arena,0.864163875579834
+Venue_left.csv,title,lichfield garrick theatre,Venue_right,title,garrick theatre (new york city),0.8627594709396362
+Venue_left.csv,title,changwon civic stadium,Venue_right,title,changwon sports park,0.8620356321334839
+Venue_left.csv,title,grand theatre (new york city),Venue_right,title,olympia theatre (new york city),0.861366868019104
+Venue_left.csv,title,coronet theatre,Venue_right,title,coronet cinema,0.8612467050552368
+Venue_left.csv,title,sakubva stadium,Venue_right,title,shkumbini stadium,0.8606681823730469
+Venue_left.csv,title,recreation ground (whitehaven),Venue_right,title,old recreation ground,0.8600871562957764
+Venue_left.csv,title,jacobs pavilion at nautica,Venue_right,title,jacobs pavilion,0.8597103357315063
+Venue_left.csv,title,orpheum theatre (manhattan),Venue_right,title,orpheum theatre (minneapolis),0.8595139980316162
+Venue_left.csv,title,lokomotiv stadium (tashkent),Venue_right,title,kazhymukan munaitpasov stadium (shymkent),0.8591772317886353
+Venue_left.csv,title,gradski stadion (kutina),Venue_right,title,khimik stadium (kemerovo),0.8583099842071533
+Venue_left.csv,title,zakhidnyi stadium,Venue_right,title,gani muratbayev stadium,0.8579030632972717
+Venue_left.csv,title,ciudad deportiva de abegondo,Venue_right,title,cidade deportiva de abegondo,0.8568780422210693
+Venue_left.csv,title,kyocera stadion,Venue_right,title,kyperounda municipal stadium,0.8564426302909851
+Venue_left.csv,title,"palace theatre, mansfield",Venue_right,title,"palace theatre, plymouth",0.8552449345588684
+Venue_left.csv,title,fiolent stadium,Venue_right,title,fyli stadium,0.8540379405021667
+Venue_left.csv,title,kamal muara stadium,Venue_right,title,darul makmur stadium,0.8533417582511902
+Venue_left.csv,title,des moines coliseum,Venue_right,title,"wells fargo arena (des moines, iowa)",0.8520123958587646
+Venue_left.csv,title,mcandrew stadium,Venue_right,title,mclane stadium,0.851211428642273
+Venue_left.csv,title,mountain lakes amphitheater,Venue_right,title,oak mountain amphitheatre,0.8511941432952881
+Venue_left.csv,title,traktor tashkent stadium,Venue_right,title,traktor stadium,0.8511195182800293
+Venue_left.csv,title,national stadium (sierra leone),Venue_right,title,national stadium (tanzania),0.8504595756530762
+Venue_left.csv,title,young arena,Venue_right,title,youth arena,0.8499770164489746
+Venue_left.csv,title,"lyric theatre, london",Venue_right,title,lyric theatre (1998 new york city),0.8479235768318176
+Venue_left.csv,title,fuchs-park-stadion,Venue_right,title,theunissen stadium,0.8476881384849548
+Venue_left.csv,title,stadionul iuliu bodola,Venue_right,title,stadionul mihai adam,0.8470413684844971
+Venue_left.csv,title,teatro lido,Venue_right,title,lido theater (medellã­n),0.8455305695533752
+Venue_left.csv,title,"state theatre (state college, pennsylvania)",Venue_right,title,"state theatre (minneapolis, minnesota)",0.8446482419967651
+Venue_left.csv,title,floral pavilion theatre,Venue_right,title,garden theatre,0.8434809446334839
+Venue_left.csv,title,abdurrahman roza haxhiu stadium,Venue_right,title,ali sabah al-salem stadium,0.8421639204025269
+Venue_left.csv,title,blank theatre company,Venue_right,title,the actors company theatre,0.8421399593353271
+Venue_left.csv,title,town hall arts center,Venue_right,title,the town hall,0.8413335084915161
+Venue_left.csv,title,the water rats,Venue_right,title,monto water rats,0.8409698009490967
+Venue_left.csv,title,"strand theater (zelienople, pennsylvania)",Venue_right,title,"strand theatre (marietta, georgia)",0.8402564525604248
+Venue_left.csv,title,stade victor boucquey,Venue_right,title,stade henri-jooris,0.83750981092453
+Venue_left.csv,title,14th street theatre,Venue_right,title,nineteenth street theater,0.8363183736801147
+Venue_left.csv,title,herald square theatre,Venue_right,title,times square theater,0.8361122608184814
+Venue_left.csv,title,takhti stadium (mashhad),Venue_right,title,abdullah bin khalifa stadium,0.8330203294754028
+Venue_left.csv,title,estadio ciudad de la plata,Venue_right,title,estadio luna park,0.8325017690658569
+Venue_left.csv,title,embassy theatre (london),Venue_right,title,ambassador theatre (new york city),0.8324826955795288
+Venue_left.csv,title,"star theater (portland, oregon)",Venue_right,title,starlight theatre (kansas city),0.8320536613464355
+Venue_left.csv,title,cadet ice arena,Venue_right,title,ice vault arena,0.8312703371047974
+Venue_left.csv,title,stadio silvio appiani,Venue_right,title,stadio gaetano bonolis,0.8306822776794434
+Venue_left.csv,title,karegaran stadium,Venue_right,title,shakhter stadium (karagandy),0.8301355838775635
+Venue_left.csv,title,avalon hollywood,Venue_right,title,the avalon,0.8288538455963135
+Venue_left.csv,title,det norske teatret,Venue_right,title,det ny teater,0.8276592493057251
+Venue_left.csv,title,maguwoharjo stadium,Venue_right,title,amahoro stadium,0.8268678188323975
+Venue_left.csv,title,gradski stadion (sisak),Venue_right,title,omladinski stadion,0.8257330656051636
+Venue_left.csv,title,copley symphony hall,Venue_right,title,allentown symphony hall,0.8249773979187012
+Venue_left.csv,title,"capitol theatre, manchester",Venue_right,title,"capitol theater (port chester, new york)",0.8229982852935791
+Venue_left.csv,title,stadion am alsenweg,Venue_right,title,seppl-herberger-stadion,0.8218944668769836
+Venue_left.csv,title,"uptown theater (kansas city, missouri)",Venue_right,title,"harris theater (chicago, illinois)",0.8214582204818726
+Venue_left.csv,title,kauffman center for the performing arts,Venue_right,title,dr. phillips center for the performing arts,0.8206948041915894
+Venue_left.csv,title,abb arena,Venue_right,title,elbasan arena,0.8188637495040894
+Venue_left.csv,title,gyeongju civic stadium,Venue_right,title,gwangju kia champions field,0.8182237148284912
+Venue_left.csv,title,stade auguste vollaire,Venue_right,title,stade pierre de coubertin (paris),0.8169592618942261
+Venue_left.csv,title,tovuz city stadium,Venue_right,title,tofig ismayilov stadium,0.8165542483329773
+Venue_left.csv,title,"eagle stadium (allen, texas)",Venue_right,title,"fair park coliseum (dallas, texas)",0.8153109550476074
+Venue_left.csv,title,ikada stadium,Venue_right,title,iai stadium nihondaira,0.8144431114196777
+Venue_left.csv,title,devonshire park theatre,Venue_right,title,regent's park open air theatre,0.8141200542449951
+Venue_left.csv,title,renaissance coliseum,Venue_right,title,crown coliseum,0.8139746189117432
+Venue_left.csv,title,kusanagi athletic stadium,Venue_right,title,kingspan stadium,0.8134732842445374
+Venue_left.csv,title,yizhong sports center,Venue_right,title,hwaseong sports complex,0.8133435845375061
+Venue_left.csv,title,mes sarcheshmeh stadium,Venue_right,title,markaziy stadium jizzakh,0.8123669624328613
+Venue_left.csv,title,bukovyna stadium,Venue_right,title,torpedo stadium (mogilev),0.8113067150115967
+Venue_left.csv,title,palais theatre,Venue_right,title,the paris theater (manhattan),0.8099322319030762
+Venue_left.csv,title,"people's theatre, newcastle upon tyne",Venue_right,title,tyne theatre and opera house,0.809077262878418
+Venue_left.csv,title,arena joondalup,Venue_right,title,arena bonifika,0.8076388835906982
+Venue_left.csv,title,teatro la caridad,Venue_right,title,"lope de vega theater, madrid",0.8061253428459167
+Venue_left.csv,title,lyceum theatre (broadway),Venue_right,title,kings theatre (brooklyn),0.8057140111923218
+Venue_left.csv,title,sharjah stadium (football),Venue_right,title,bassel al-assad stadium (al-hasakah),0.8051698803901672
+Venue_left.csv,title,brawijaya stadium,Venue_right,title,awwal september stadium,0.8030909895896912
+Venue_left.csv,title,kauffman stadium,Venue_right,title,u.s. bank stadium,0.8014640808105469
+Venue_left.csv,title,symphony center,Venue_right,title,overture center for the arts,0.8005104064941406
+Venue_left.csv,title,obafemi awolowo stadium,Venue_right,title,"national stadium, abuja",0.8002563714981079
+Venue_left.csv,title,shakespeare theatre of new jersey,Venue_right,title,shakespeare in the park (new york city),0.7998645305633545
+Venue_left.csv,title,estadio el ejido,Venue_right,title,harras el hodoud stadium,0.7990528345108032
+Venue_left.csv,title,the half moon (music venue),Venue_right,title,"the half moon, putney",0.7984668612480164
+Venue_left.csv,title,tiszaligeti stadion,Venue_right,title,ternopilsky misky stadion,0.7975905537605286
+Venue_left.csv,title,tseung kwan o sports ground,Venue_right,title,anyang sports complex,0.7970914244651794
+Venue_left.csv,title,theatre building chicago,Venue_right,title,"regal theater, chicago",0.796808660030365
+Venue_left.csv,title,zirka stadium,Venue_right,title,spartak stadium (mahilyow),0.7957097887992859
+Venue_left.csv,title,"fine arts center (amherst, massachusetts)",Venue_right,title,"center for the arts, university at buffalo",0.7952889204025269
+Venue_left.csv,title,takarazuka grand theater,Venue_right,title,imperial theatre (japan),0.7935303449630737
+Venue_left.csv,title,fred stillwell stadium,Venue_right,title,henry fok stadium,0.7930949926376343
+Venue_left.csv,title,ashkelon sports arena,Venue_right,title,heraklion indoor sports arena,0.7919224500656128
+Venue_left.csv,title,yale field,Venue_right,title,university field (princeton),0.7918987274169922
+Venue_left.csv,title,"lincoln theater (yountville, california)",Venue_right,title,liberty theatre,0.7918333411216736
+Venue_left.csv,title,victoria park stadium,Venue_right,title,bendigo stadium,0.7914052605628967
+Venue_left.csv,title,stade mohamed ouali,Venue_right,title,stade wad medani,0.790657639503479
+Venue_left.csv,title,bowery theatre,Venue_right,title,beacon theatre (new york city),0.790151834487915
+Venue_left.csv,title,alexandra stadium,Venue_right,title,enghelab stadium,0.7899933457374573
+Venue_left.csv,title,werzer arena,Venue_right,title,worthen arena,0.7899585962295532
+Venue_left.csv,title,philsports football and athletics stadium,Venue_right,title,john f. kennedy stadium (philadelphia),0.7896890640258789
+Venue_left.csv,title,san manuel amphitheater,Venue_right,title,"irvine meadows amphitheatre (irvine, california)",0.788970947265625
+Venue_left.csv,title,"city stadium, ternopil",Venue_right,title,tlaquepaque stadium,0.7882263660430908
+Venue_left.csv,title,stade 15 octobre,Venue_right,title,stade adrar,0.7880326509475708
+Venue_left.csv,title,arrington ice arena,Venue_right,title,accorhotels arena,0.7875855565071106
+Venue_left.csv,title,alhambra theatre (san francisco),Venue_right,title,"oriental theatre (portland, oregon)",0.7871038317680359
+Venue_left.csv,title,tremont music hall,Venue_right,title,orchestra hall (detroit),0.7869065403938293
+Venue_left.csv,title,faliro sports pavilion arena,Venue_right,title,fiu arena,0.786156415939331
+Venue_left.csv,title,nagano athletic stadium,Venue_right,title,naga city coliseum,0.7858401536941528
+Venue_left.csv,title,hudson theatre,Venue_right,title,ogden theatre,0.7855838537216187
+Venue_left.csv,title,brisbane arts theatre,Venue_right,title,oval house theatre,0.7855173349380493
+Venue_left.csv,title,hakiriya arena,Venue_right,title,akhmat-arena,0.785150408744812
+Venue_left.csv,title,mizuho rugby stadium,Venue_right,title,munaishy stadium,0.7840434908866882
+Venue_left.csv,title,paladesio,Venue_right,title,palasport di desio,0.7830829620361328
+Venue_left.csv,title,thomas robinson stadium,Venue_right,title,lewis field stadium,0.782823920249939
+Venue_left.csv,title,arlington theater,Venue_right,title,"granada theater (dallas, texas)",0.7808984518051147
+Venue_left.csv,title,"landmark theater (richmond, virginia)",Venue_right,title,"tower theater (upper darby township, pennsylvania)",0.7803701162338257
+Venue_left.csv,title,mutual street arena,Venue_right,title,fair park arena,0.7790437936782837
+Venue_left.csv,title,plaza theatre (bangalore),Venue_right,title,nelum pokuna mahinda rajapaksa theatre,0.7788022756576538
+Venue_left.csv,title,booth theatre,Venue_right,title,murphy theatre,0.7785863876342773
+Venue_left.csv,title,chuvash state opera and ballet theater,Venue_right,title,chuvash state youth theater,0.7784300446510315
+Venue_left.csv,title,the rave,Venue_right,title,the rave / eagles club,0.7779899835586548
+Venue_left.csv,title,inb performing arts center,Venue_right,title,modell performing arts center,0.7778151035308838
+Venue_left.csv,title,krohnsminde,Venue_right,title,kehrwegstadion,0.7765533924102783
+Venue_left.csv,title,wells fargo center for the arts,Venue_right,title,luther burbank center for the arts,0.7762198448181152
+Venue_left.csv,title,raymond f. kravis center for the performing arts,Venue_right,title,duke energy center for the performing arts,0.7743713855743408
+Venue_left.csv,title,ota athletic stadium,Venue_right,title,saga athletic stadium,0.774337649345398
+Venue_left.csv,title,hoxton hall,Venue_right,title,willett hall,0.7741473913192749
+Venue_left.csv,title,fitzgerald theater,Venue_right,title,garrett theatre,0.7740112543106079
+Venue_left.csv,title,usana amphitheatre,Venue_right,title,amphitheater northwest,0.7735744714736938
+Venue_left.csv,title,bonifika stadium,Venue_right,title,butrinti stadium,0.773341178894043
+Venue_left.csv,title,civic center music hall,Venue_right,title,dallas city performance hall,0.7727780342102051
+Venue_left.csv,title,arena civica,Venue_right,title,ora arena,0.7725172638893127
+Venue_left.csv,title,carrow road,Venue_right,title,gresty road,0.7721784114837646
+Venue_left.csv,title,zosimades stadium,Venue_right,title,ob jezeru stadium,0.772051215171814
+Venue_left.csv,title,lusitano stadium,Venue_right,title,city light stadium,0.7712931632995605
+Venue_left.csv,title,hungarian state opera house,Venue_right,title,yerevan opera theatre,0.7694992423057556
+Venue_left.csv,title,chungju stadium,Venue_right,title,gwangju-kia champions field,0.7691223621368408
+Venue_left.csv,title,ars nova (theater),Venue_right,title,altria theater,0.7685177326202393
+Venue_left.csv,title,aaron davis hall,Venue_right,title,e. j. thomas hall,0.7676479816436768
+Venue_left.csv,title,chernomorets stadium,Venue_right,title,national hockey stadium (milton keynes),0.7672792673110962

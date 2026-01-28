@@ -1,0 +1,191 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+HistoricBuilding_left.csv,title,anglican church of st. john the evangelist (ottawa),ClericalAdministrativeRegion_right,title,anglican diocese of ontario,0.824937105178833
+HistoricBuilding_left.csv,title,"church of st. paraskevi, novgorod",ClericalAdministrativeRegion_right,title,diocese of novgorod,0.8111168742179871
+HistoricBuilding_left.csv,title,st olga ukrainian catholic church,ClericalAdministrativeRegion_right,title,ukrainian catholic eparchy of saint vladimir the great of paris,0.8033005595207214
+HistoricBuilding_left.csv,title,"st. george indian orthodox church, perth, australia",ClericalAdministrativeRegion_right,title,melkite greek catholic eparchy of saint michael archangel in sydney,0.7886763215065002
+HistoricBuilding_left.csv,title,st. bartholomew's anglican church (toronto),ClericalAdministrativeRegion_right,title,anglican diocese of fredericton,0.7871880531311035
+HistoricBuilding_left.csv,title,san guillermo parish church,ClericalAdministrativeRegion_right,title,roman catholic diocese of san juan de calama,0.7870560884475708
+HistoricBuilding_left.csv,title,st. gerard's roman catholic church,ClericalAdministrativeRegion_right,title,diocese of st mark the evangelist,0.7850477695465088
+HistoricBuilding_left.csv,title,"all saints anglican church, brisbane",ClericalAdministrativeRegion_right,title,anglican diocese of north west australia,0.7843017578125
+HistoricBuilding_left.csv,title,st. michael the archangel ukrainian catholic church,ClericalAdministrativeRegion_right,title,ukrainian catholic eparchy of saints peter and paul of melbourne,0.7821889519691467
+HistoricBuilding_left.csv,title,"lutheran church of the good shepherd, eau claire, wisconsin",ClericalAdministrativeRegion_right,title,episcopal church in minnesota,0.7787166237831116
+HistoricBuilding_left.csv,title,"st. theresa's church, gibraltar",ClericalAdministrativeRegion_right,title,diocese of gibraltar in europe,0.7764761447906494
+HistoricBuilding_left.csv,title,ukrainian catholic national shrine of the holy family,ClericalAdministrativeRegion_right,title,ukrainian catholic archeparchy of ivano-frankivsk,0.7718381881713867
+HistoricBuilding_left.csv,title,"church of our lady, bruges",ClericalAdministrativeRegion_right,title,roman catholic diocese of brugge,0.7683468461036682
+HistoricBuilding_left.csv,title,metropolitan community church of toronto,ClericalAdministrativeRegion_right,title,roman catholic archdiocese of kingston in canada,0.7619171738624573
+HistoricBuilding_left.csv,title,"st. george's anglican church (parrsboro, nova scotia)",ClericalAdministrativeRegion_right,title,anglican diocese of nova scotia and prince edward island,0.7575811147689819
+HistoricBuilding_left.csv,title,"first presbyterian church (san luis obispo, california)",ClericalAdministrativeRegion_right,title,anglican diocese of san joaquin,0.7552082538604736
+HistoricBuilding_left.csv,title,"church of the holy family, kaliningrad",ClericalAdministrativeRegion_right,title,roman catholic diocese of roskilde,0.7484554648399353
+HistoricBuilding_left.csv,title,british methodist episcopal church,ClericalAdministrativeRegion_right,title,baptist union of australia,0.7469035983085632
+HistoricBuilding_left.csv,title,"holy trinity parish, lawrence",ClericalAdministrativeRegion_right,title,roman catholic diocese of la rochelle,0.7448970079421997
+HistoricBuilding_left.csv,title,"holy rosary parish, hadley",ClericalAdministrativeRegion_right,title,roman catholic diocese of yarmouth,0.7419993877410889
+HistoricBuilding_left.csv,title,st. thomas's anglican church (toronto),ClericalAdministrativeRegion_right,title,anglican diocese of british columbia,0.7409096956253052
+HistoricBuilding_left.csv,title,"church of holy salvation, cetina",ClericalAdministrativeRegion_right,title,roman catholic diocese of coari,0.7407207489013672
+HistoricBuilding_left.csv,title,st. elizabeth's anglican church,ClericalAdministrativeRegion_right,title,anglican diocese of keewatin,0.7400367259979248
+HistoricBuilding_left.csv,title,protestant church of jorwert,ClericalAdministrativeRegion_right,title,diocese of jos,0.7392429113388062
+HistoricBuilding_left.csv,title,"holy trinity orthodox cathedral, lutsk",ClericalAdministrativeRegion_right,title,diocese of novgorod and staraya russa,0.7382926940917969
+HistoricBuilding_left.csv,title,st. vincent de paul roman catholic church (toronto),ClericalAdministrativeRegion_right,title,ukrainian catholic eparchy of toronto,0.7382766008377075
+HistoricBuilding_left.csv,title,st. andrew's evangelical lutheran church (toronto),ClericalAdministrativeRegion_right,title,anglican diocese of huron,0.7376431226730347
+HistoricBuilding_left.csv,title,"san agustin church, manila",ClericalAdministrativeRegion_right,title,roman catholic diocese of sora-cassino-aquino-pontecorvo,0.7372984886169434
+HistoricBuilding_left.csv,title,"st. andrew's presbyterian church (kingston, ontario)",ClericalAdministrativeRegion_right,title,anglican diocese of niagara,0.737041711807251
+HistoricBuilding_left.csv,title,"holy trinity church, hastings",ClericalAdministrativeRegion_right,title,anglican diocese of grafton,0.7359269261360168
+HistoricBuilding_left.csv,title,first baptist church (ottawa),ClericalAdministrativeRegion_right,title,roman catholic diocese of bathurst in canada,0.7303413152694702
+HistoricBuilding_left.csv,title,"church of st mary the virgin, halkyn",ClericalAdministrativeRegion_right,title,roman catholic archdiocese of mary most holy in astana,0.7299031019210815
+HistoricBuilding_left.csv,title,armenian church of st. john the baptist,ClericalAdministrativeRegion_right,title,armenian catholic eparchy of our lady of nareg in the united states of america and canada,0.7296223640441895
+HistoricBuilding_left.csv,title,church of the sacred heart of jesus (new york city),ClericalAdministrativeRegion_right,title,maronite catholic eparchy of saint maron of brooklyn,0.726974368095398
+HistoricBuilding_left.csv,title,"church of st mary magdalene, north ockendon",ClericalAdministrativeRegion_right,title,diocese of grahamstown,0.7246872186660767
+HistoricBuilding_left.csv,title,st. gregory the great church,ClericalAdministrativeRegion_right,title,diocese of the highveld,0.724108099937439
+HistoricBuilding_left.csv,title,"our lady of ransom church, kanyakumari",ClericalAdministrativeRegion_right,title,diocese of south kerala of the church of south india,0.7225407361984253
+HistoricBuilding_left.csv,title,"st paul's cathedral, bendigo",ClericalAdministrativeRegion_right,title,anglican diocese of bendigo,0.7198216319084167
+HistoricBuilding_left.csv,title,emanuel baptist church of oradea,ClericalAdministrativeRegion_right,title,diocese of angola,0.7196694612503052
+HistoricBuilding_left.csv,title,st. timothy catholic church,ClericalAdministrativeRegion_right,title,st. thomas syro-malabar catholic eparchy of chicago,0.7143754959106445
+HistoricBuilding_left.csv,title,"st. peter's lutheran church, ottawa",ClericalAdministrativeRegion_right,title,anglican diocese of saskatchewan,0.7138328552246094
+HistoricBuilding_left.csv,title,"all saints church, evesham",ClericalAdministrativeRegion_right,title,anglican diocese of algoma,0.7138198018074036
+HistoricBuilding_left.csv,title,"st james' church, sydney",ClericalAdministrativeRegion_right,title,maronite catholic eparchy of saint maron of sydney,0.7134292721748352
+HistoricBuilding_left.csv,title,"dutch church, austin friars",ClericalAdministrativeRegion_right,title,roman catholic diocese of pietersburg,0.7126296758651733
+HistoricBuilding_left.csv,title,"holy family parish, pittsfield",ClericalAdministrativeRegion_right,title,roman catholic diocese of lafayette in indiana,0.7103228569030762
+HistoricBuilding_left.csv,title,"church of saint euphemianos, lysi",ClericalAdministrativeRegion_right,title,roman catholic diocese of syros,0.7077544927597046
+HistoricBuilding_left.csv,title,"st andrew's church, kiev",ClericalAdministrativeRegion_right,title,ukrainian catholic eparchy of the holy family of london,0.7070236206054688
+HistoricBuilding_left.csv,title,"st deiniol's church, hawarden",ClericalAdministrativeRegion_right,title,roman catholic diocese of sankt gallen,0.7051601409912109
+HistoricBuilding_left.csv,title,"st. nicholas macedonian orthodox church, windsor, ontario",ClericalAdministrativeRegion_right,title,anglican diocese of kootenay,0.7038432955741882
+HistoricBuilding_left.csv,title,"most holy trinity church, mamaroneck",ClericalAdministrativeRegion_right,title,diocese of makurdi,0.7016867399215698
+HistoricBuilding_left.csv,title,"church of the holy mother of god, donja kamenica",ClericalAdministrativeRegion_right,title,roman catholic diocese of alessandria,0.700899600982666
+HistoricBuilding_left.csv,title,"sacred heart parish (new britain, connecticut)",ClericalAdministrativeRegion_right,title,diocese of new westminster,0.7003839015960693
+HistoricBuilding_left.csv,title,church of santa eulalia de ujo,ClericalAdministrativeRegion_right,title,roman catholic archdiocese of santiago de guatemala,0.6992257833480835
+HistoricBuilding_left.csv,title,"st john the evangelist's church, otterburn",ClericalAdministrativeRegion_right,title,anglican diocese of brandon,0.6986834406852722
+HistoricBuilding_left.csv,title,"church of holy ascension, krupanj",ClericalAdministrativeRegion_right,title,roman catholic diocese of kon tum,0.6986114382743835
+HistoricBuilding_left.csv,title,st. cecilia catholic church (los angeles),ClericalAdministrativeRegion_right,title,"roman catholic diocese of santa rosa, argentina",0.6985856890678406
+HistoricBuilding_left.csv,title,"our lady of lourdes church, tiruchirapalli",ClericalAdministrativeRegion_right,title,roman catholic diocese of trincomalee,0.6985476016998291
+HistoricBuilding_left.csv,title,"st. george's cathedral, cape town",ClericalAdministrativeRegion_right,title,anglican diocese of pretoria,0.6974437236785889
+HistoricBuilding_left.csv,title,"church of st. julien, southampton",ClericalAdministrativeRegion_right,title,anglican diocese of saint helena,0.6961349248886108
+HistoricBuilding_left.csv,title,"bethabara moravian church, jamaica",ClericalAdministrativeRegion_right,title,anglican diocese of zululand,0.6946853399276733
+HistoricBuilding_left.csv,title,cathedral of hope (pittsburgh),ClericalAdministrativeRegion_right,title,ruthenian catholic archeparchy of pittsburgh,0.6945005655288696
+HistoricBuilding_left.csv,title,"st. augustine catholic church (culver city, california)",ClericalAdministrativeRegion_right,title,roman catholic archdiocese of cuzco,0.6937980651855469
+HistoricBuilding_left.csv,title,holy rosary cathedral (vancouver),ClericalAdministrativeRegion_right,title,roman catholic diocese of victoria in canada,0.6908182501792908
+HistoricBuilding_left.csv,title,sainte-famille church,ClericalAdministrativeRegion_right,title,maronite catholic eparchy of our lady of lebanon of paris,0.690096378326416
+HistoricBuilding_left.csv,title,cathedral of st. john the baptist (parma),ClericalAdministrativeRegion_right,title,ruthenian catholic eparchy of parma,0.6895078420639038
+HistoricBuilding_left.csv,title,"st. mary coptic orthodox church (lancaster, pennsylvania)",ClericalAdministrativeRegion_right,title,roman catholic diocese of bethlehem in south africa,0.6882447004318237
+HistoricBuilding_left.csv,title,romanian people's salvation cathedral,ClericalAdministrativeRegion_right,title,romanian catholic eparchy of cluj-gherla,0.6870429515838623
+HistoricBuilding_left.csv,title,wat suthat,ClericalAdministrativeRegion_right,title,sufes,0.6862030625343323
+HistoricBuilding_left.csv,title,iglesia de san juan bautista (san tirso de abres),ClericalAdministrativeRegion_right,title,maronite catholic eparchy of san charbel in buenos aires,0.6860383749008179
+HistoricBuilding_left.csv,title,"st. petka's church, banovci",ClericalAdministrativeRegion_right,title,ruthenian catholic eparchy of mukacheve,0.6857125759124756
+HistoricBuilding_left.csv,title,"st edward king and confessor catholic church, clifford",ClericalAdministrativeRegion_right,title,diocese of ripon,0.6840741634368896
+HistoricBuilding_left.csv,title,st mabyn parish church,ClericalAdministrativeRegion_right,title,diocese of mpumalanga,0.6823041439056396
+HistoricBuilding_left.csv,title,"church of all saints, nunney",ClericalAdministrativeRegion_right,title,diocese of niassa,0.681527853012085
+HistoricBuilding_left.csv,title,st. thomas the apostle catholic church (los angeles),ClericalAdministrativeRegion_right,title,roman catholic archdiocese of la plata in argentina,0.6812439560890198
+HistoricBuilding_left.csv,title,"st peter's church, sudbury",ClericalAdministrativeRegion_right,title,anglican diocese of central newfoundland,0.6806789636611938
+HistoricBuilding_left.csv,title,zagreb orthodox cathedral,ClericalAdministrativeRegion_right,title,archbishopric of belgrade and karlovci,0.6783690452575684
+HistoricBuilding_left.csv,title,"st. paul's cathedral, kolkata",ClericalAdministrativeRegion_right,title,syro-malabar catholic archeparchy of tellicherry,0.678367555141449
+HistoricBuilding_left.csv,title,"church of pentecost, vinkovci",ClericalAdministrativeRegion_right,title,roman catholic diocese of nicopoli,0.6772955060005188
+HistoricBuilding_left.csv,title,turku orthodox church,ClericalAdministrativeRegion_right,title,apostolic vicariate of anatolia,0.6755441427230835
+HistoricBuilding_left.csv,title,birmingham orthodox cathedral,ClericalAdministrativeRegion_right,title,melkite greek catholic archeparchy of jerusalem,0.6750357151031494
+HistoricBuilding_left.csv,title,"serbian orthodox church, halifax",ClericalAdministrativeRegion_right,title,anglican diocese of yukon,0.674697756767273
+HistoricBuilding_left.csv,title,cathedral of the holy trinity (quebec),ClericalAdministrativeRegion_right,title,anglican diocese of qu'appelle,0.674125075340271
+HistoricBuilding_left.csv,title,"our lady and st. wilfrid's roman catholic church, warwick bridge",ClericalAdministrativeRegion_right,title,anglican diocese of rupert's land,0.6721514463424683
+HistoricBuilding_left.csv,title,"church of saints philip and james, vukovar",ClericalAdministrativeRegion_right,title,slovak catholic eparchy of bratislava,0.6697298288345337
+HistoricBuilding_left.csv,title,"st. leo's roman catholic church, mimico",ClericalAdministrativeRegion_right,title,roman catholic archdiocese of dodoma,0.6679012775421143
+HistoricBuilding_left.csv,title,"st. peter parish, norwood",ClericalAdministrativeRegion_right,title,roman catholic diocese of port harcourt,0.6672735810279846
+HistoricBuilding_left.csv,title,st elizabeth of portugal church,ClericalAdministrativeRegion_right,title,patriarch of lisbon,0.6639962196350098
+HistoricBuilding_left.csv,title,saint-jacques cathedral (montreal),ClericalAdministrativeRegion_right,title,maronite catholic eparchy of saint maron of montreal,0.6635362505912781
+HistoricBuilding_left.csv,title,holy rosary church (dhaka),ClericalAdministrativeRegion_right,title,diocese of karimnagar of the church of south india,0.6625175476074219
+HistoricBuilding_left.csv,title,"st. john's methodist church, arbroath",ClericalAdministrativeRegion_right,title,anglican diocese of athabasca,0.662203848361969
+HistoricBuilding_left.csv,title,"all saints church, church lawton",ClericalAdministrativeRegion_right,title,diocese of lebombo,0.6614197492599487
+HistoricBuilding_left.csv,title,saint philip ame church,ClericalAdministrativeRegion_right,title,anglican diocese of lesotho,0.6613779067993164
+HistoricBuilding_left.csv,title,"st. mary's church, toronto",ClericalAdministrativeRegion_right,title,anglican diocese of eastern newfoundland and labrador,0.6611325740814209
+HistoricBuilding_left.csv,title,protestant church of augustinusga,ClericalAdministrativeRegion_right,title,chaldean catholic archeparchy of amida,0.6605597734451294
+HistoricBuilding_left.csv,title,protestant church of oudega,ClericalAdministrativeRegion_right,title,romanian catholic eparchy of oradea mare,0.6575320959091187
+HistoricBuilding_left.csv,title,"church of st. nicholas, mirkovci",ClericalAdministrativeRegion_right,title,archdiocese of russian orthodox churches in western europe,0.6569308042526245
+HistoricBuilding_left.csv,title,"st nectan's church, welcombe",ClericalAdministrativeRegion_right,title,diocese of natal,0.6564586758613586
+HistoricBuilding_left.csv,title,"church of jesus, riga",ClericalAdministrativeRegion_right,title,"roman catholic archdiocese of naxos, tinos, andros and mykonos",0.655798077583313
+HistoricBuilding_left.csv,title,"church of st. demetrius, dalj",ClericalAdministrativeRegion_right,title,melkite greek catholic patriarchal archeparchy of jerusalem,0.6556305289268494
+HistoricBuilding_left.csv,title,university church of st mary the virgin,ClericalAdministrativeRegion_right,title,diocese of swaziland,0.6552896499633789
+HistoricBuilding_left.csv,title,"st. michael the archangel parish, derby",ClericalAdministrativeRegion_right,title,roman catholic diocese of aire and dax,0.6478354930877686
+HistoricBuilding_left.csv,title,myungsung presbyterian church,ClericalAdministrativeRegion_right,title,roman catholic diocese of busan,0.6466027498245239
+HistoricBuilding_left.csv,title,"church of heavenly peace, fuzhou",ClericalAdministrativeRegion_right,title,roman catholic archdiocese of ho chi minh city,0.6421535015106201
+HistoricBuilding_left.csv,title,"st. brendan catholic church, los angeles",ClericalAdministrativeRegion_right,title,roman catholic diocese of concordia in argentina,0.6418237686157227
+HistoricBuilding_left.csv,title,"all saints roman catholic church (buffalo, new york)",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of st. thomas of chicago,0.6387019753456116
+HistoricBuilding_left.csv,title,"st. naum of ohrid macedonian orthodox church, hamilton, ontario",ClericalAdministrativeRegion_right,title,anglican diocese of arctic,0.6385666131973267
+HistoricBuilding_left.csv,title,"st. george's church, staraya ladoga",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of belthangady,0.6381608247756958
+HistoricBuilding_left.csv,title,"holy trinity catholic church (washington, d.c.)",ClericalAdministrativeRegion_right,title,diocese of yola,0.6370341181755066
+HistoricBuilding_left.csv,title,monmouth baptist church,ClericalAdministrativeRegion_right,title,episcopal see of carthage,0.6351285576820374
+HistoricBuilding_left.csv,title,"st matthew's church, buckley",ClericalAdministrativeRegion_right,title,roman catholic diocese of bathurst in australia,0.6342566013336182
+HistoricBuilding_left.csv,title,st. joseph the betrothed ukrainian greek catholic church,ClericalAdministrativeRegion_right,title,melkite greek catholic archeparchy of akka,0.6329610347747803
+HistoricBuilding_left.csv,title,verbena united methodist church,ClericalAdministrativeRegion_right,title,roman catholic archdiocese of toamasina,0.6322845220565796
+HistoricBuilding_left.csv,title,saint sophie ukrainian orthodox cathedral,ClericalAdministrativeRegion_right,title,archbishop of novgorod,0.6320093870162964
+HistoricBuilding_left.csv,title,"cathedral of the holy name, mumbai",ClericalAdministrativeRegion_right,title,diocese of lucknow of the church of north india,0.6299962997436523
+HistoricBuilding_left.csv,title,"our lady of immaculate conception church, mt. poinsur",ClericalAdministrativeRegion_right,title,latin catholic diocese of punalur,0.6295771598815918
+HistoricBuilding_left.csv,title,whalsay parish church,ClericalAdministrativeRegion_right,title,roman catholic diocese of lwiza,0.6293734908103943
+HistoricBuilding_left.csv,title,holy name of jesus church in san francisco,ClericalAdministrativeRegion_right,title,chaldean catholic eparchy of saint peter the apostle of san diego,0.6283630728721619
+HistoricBuilding_left.csv,title,"st michael's church, aigburth",ClericalAdministrativeRegion_right,title,diocese of coimbatore,0.6270837187767029
+HistoricBuilding_left.csv,title,"immaculate conception parish, springfield",ClericalAdministrativeRegion_right,title,roman catholic archdiocese of xalapa,0.6262787580490112
+HistoricBuilding_left.csv,title,church of st. mary magdalene (toronto),ClericalAdministrativeRegion_right,title,anglican diocese of western newfoundland,0.6255223155021667
+HistoricBuilding_left.csv,title,st just in penwith parish church,ClericalAdministrativeRegion_right,title,anglican diocese of caledonia,0.624453067779541
+HistoricBuilding_left.csv,title,iglesia de san isidoro (oviedo),ClericalAdministrativeRegion_right,title,roman catholic archdiocese of valencia in spain,0.6237238645553589
+HistoricBuilding_left.csv,title,"saint george's church, gavril genovo",ClericalAdministrativeRegion_right,title,byzantine catholic apostolic exarchate of serbia,0.621730625629425
+HistoricBuilding_left.csv,title,st francis of assisi church (valletta),ClericalAdministrativeRegion_right,title,roman catholic archdiocese of cartagena in colombia,0.619907796382904
+HistoricBuilding_left.csv,title,"st. monica catholic church, santa monica",ClericalAdministrativeRegion_right,title,syro-malankara catholic apostolic exarchate in the united states,0.617537260055542
+HistoricBuilding_left.csv,title,co-cathedral of saint-antoine-de-padoue,ClericalAdministrativeRegion_right,title,apostolic vicariate of iles saint pierre and miquelon,0.6175090074539185
+HistoricBuilding_left.csv,title,"cathedral of st. peter and paul, brno",ClericalAdministrativeRegion_right,title,ruthenian catholic apostolic exarchate of czech republic,0.615432620048523
+HistoricBuilding_left.csv,title,protestant church of swichum,ClericalAdministrativeRegion_right,title,diocese of namibia,0.6131618618965149
+HistoricBuilding_left.csv,title,namdalseid church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of adilabad,0.6122082471847534
+HistoricBuilding_left.csv,title,st. aloysius of gonzaga church,ClericalAdministrativeRegion_right,title,croatian catholic apostolic exarchate of serbia,0.6109551787376404
+HistoricBuilding_left.csv,title,iglesia de santiago el mayor (sariego),ClericalAdministrativeRegion_right,title,suburbicarian diocese of porto e santa rufina,0.6101828813552856
+HistoricBuilding_left.csv,title,metropolitan cathedral of the immaculate conception,ClericalAdministrativeRegion_right,title,maronite catholic archeparchy of haifa and the holy land,0.6094180345535278
+HistoricBuilding_left.csv,title,guayaquil metropolitan cathedral,ClericalAdministrativeRegion_right,title,military bishopric of dominican republic,0.6070694923400879
+HistoricBuilding_left.csv,title,complex of lutsk orthodox fellowship,ClericalAdministrativeRegion_right,title,eparchy of gornji karlovac,0.6069561243057251
+HistoricBuilding_left.csv,title,"church of st. james the greater, sokolniki",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of bijnor,0.606268048286438
+HistoricBuilding_left.csv,title,"st michael's church, songyae",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of kothamangalam,0.6056813597679138
+HistoricBuilding_left.csv,title,niranam church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of mandya,0.6045766472816467
+HistoricBuilding_left.csv,title,"st chad's church, hopwas",ClericalAdministrativeRegion_right,title,roman catholic diocese of jalandhar,0.5995801091194153
+HistoricBuilding_left.csv,title,elim church singapore,ClericalAdministrativeRegion_right,title,syro-malabar catholic archeparchy of changanassery,0.59881192445755
+HistoricBuilding_left.csv,title,isaiah church,ClericalAdministrativeRegion_right,title,latin patriarchate of jerusalem,0.5963802933692932
+HistoricBuilding_left.csv,title,"christ church, lancaster",ClericalAdministrativeRegion_right,title,diocese of iran,0.5940073728561401
+HistoricBuilding_left.csv,title,"church of the cross, riga",ClericalAdministrativeRegion_right,title,latin catholic archdiocese of baghdad,0.5918135643005371
+HistoricBuilding_left.csv,title,protestant church of bolsward,ClericalAdministrativeRegion_right,title,diocese of coimbatore of the church of south india,0.5863734483718872
+HistoricBuilding_left.csv,title,prem mandir,ClericalAdministrativeRegion_right,title,diocese of medak of the church of south india,0.5860487222671509
+HistoricBuilding_left.csv,title,"church of the redeemer, jamaica",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of irinjalakuda,0.5859018564224243
+HistoricBuilding_left.csv,title,"st. andrew's church, langar",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of chanda,0.5807294845581055
+HistoricBuilding_left.csv,title,budal church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of gorakhpur,0.5772756338119507
+HistoricBuilding_left.csv,title,"church of the transfiguration of the lord, trpinja",ClericalAdministrativeRegion_right,title,trichy-tanjore diocese of the church of south india,0.5770211219787598
+HistoricBuilding_left.csv,title,sekkemo church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of thamarassery,0.5750346183776855
+HistoricBuilding_left.csv,title,"st eata's church, atcham",ClericalAdministrativeRegion_right,title,syro-malabar catholic archeparchy of thrissur,0.5721588730812073
+HistoricBuilding_left.csv,title,saint-esprit-de-rosemont church,ClericalAdministrativeRegion_right,title,eparchy of saint maron of montreal maronites,0.5712339878082275
+HistoricBuilding_left.csv,title,gedatsu church of america,ClericalAdministrativeRegion_right,title,syro-malankara catholic eparchy of the united states of america and canada,0.571202278137207
+HistoricBuilding_left.csv,title,iglesia de san esteban (sograndio),ClericalAdministrativeRegion_right,title,apostolic vicariate of izabal,0.5702774524688721
+HistoricBuilding_left.csv,title,zrenjanin cathedral,ClericalAdministrativeRegion_right,title,metropolis of servia and kozani,0.5679416656494141
+HistoricBuilding_left.csv,title,"all saints church, alrewas",ClericalAdministrativeRegion_right,title,roman catholic apostolic vicariate of el beni,0.5633090734481812
+HistoricBuilding_left.csv,title,barasoain church,ClericalAdministrativeRegion_right,title,melkite greek catholic archeparchy of beirut and jbeil,0.5622745752334595
+HistoricBuilding_left.csv,title,"church of st mary and st david, kilpeck",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of kalyan,0.562039852142334
+HistoricBuilding_left.csv,title,cathedral church of st. fachtna,ClericalAdministrativeRegion_right,title,melkite greek catholic archeparchy of zahle and forzol,0.559328556060791
+HistoricBuilding_left.csv,title,protestant church of burgum,ClericalAdministrativeRegion_right,title,ruthenian catholic eparchy of passaic,0.5586732625961304
+HistoricBuilding_left.csv,title,church of our lady of hope,ClericalAdministrativeRegion_right,title,roman catholic diocese of simla and chandigarh,0.5569397807121277
+HistoricBuilding_left.csv,title,korgen church,ClericalAdministrativeRegion_right,title,apostolic exarchate of serbia,0.5565172433853149
+HistoricBuilding_left.csv,title,roman catholic church of the good shepherd (beverly hills),ClericalAdministrativeRegion_right,title,roman catholic vicariate apostolic of el beni,0.5556970238685608
+HistoricBuilding_left.csv,title,"church of st. peter and paul, bolman",ClericalAdministrativeRegion_right,title,diocese of madhya kerala of the church of south india,0.5556306838989258
+HistoricBuilding_left.csv,title,church of st helen and st giles,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of ramanathapuram,0.5538563132286072
+HistoricBuilding_left.csv,title,independent presbyterian church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of idukki,0.5530893802642822
+HistoricBuilding_left.csv,title,saura church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of satna,0.5516139268875122
+HistoricBuilding_left.csv,title,jaunciems lutheran church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of jagdalpur,0.547763466835022
+HistoricBuilding_left.csv,title,all saints united reform church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of sagar,0.5462759733200073
+HistoricBuilding_left.csv,title,phillippo baptist church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of rajkot,0.5457553267478943
+HistoricBuilding_left.csv,title,"st mary's church, tal-y-llyn",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of thuckalay,0.538163423538208
+HistoricBuilding_left.csv,title,refectory church (pechersk lavra),ClericalAdministrativeRegion_right,title,syro-malabar catholic major archeparchy of ernakulam-angamaly,0.5323330163955688
+HistoricBuilding_left.csv,title,"church of ss mary and ambrose, edgbaston",ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of bhadravathi,0.5321616530418396
+HistoricBuilding_left.csv,title,"old st. nicholas church, javorani",ClericalAdministrativeRegion_right,title,italo-albanese eparchy of piana degli albanesi,0.5314817428588867
+HistoricBuilding_left.csv,title,international house of prayer,ClericalAdministrativeRegion_right,title,albanian catholic apostolic administration of southern albania,0.5274896621704102
+HistoricBuilding_left.csv,title,kistrand church,ClericalAdministrativeRegion_right,title,syro-malabar catholic eparchy of kanjirappally,0.5222593545913696
+HistoricBuilding_left.csv,title,st. john's church (saint petersburg),ClericalAdministrativeRegion_right,title,"apostolic exarchate in france, benelux and switzerland for the ukrainians",0.5099554061889648
+HistoricBuilding_left.csv,title,santa brigida (rome),ClericalAdministrativeRegion_right,title,military ordinariate of italy,0.5036784410476685
+HistoricBuilding_left.csv,title,iglesia de la santa cruz (inguanzo),ClericalAdministrativeRegion_right,title,military ordinariate of bolivia,0.48360762000083923
+HistoricBuilding_left.csv,title,cathedral of saint lawrence (lugano),ClericalAdministrativeRegion_right,title,"metropolitanate of zagreb, ljubljana and all italy",0.47991079092025757
+HistoricBuilding_left.csv,title,grote of sint-jacobskerk (the hague),ClericalAdministrativeRegion_right,title,territorial prelature of the mission de france at pontigny,0.47888827323913574
+HistoricBuilding_left.csv,title,"st. mark coptic orthodox church (jersey city, new jersey)",ClericalAdministrativeRegion_right,title,apostolic vicariate of southern arabia,0.4769531488418579
+HistoricBuilding_left.csv,title,hillsong church kiev,ClericalAdministrativeRegion_right,title,apostolic exarchate for ukrainians in great britain,0.46584659814834595
+HistoricBuilding_left.csv,title,gokoku-ji (okinawa),ClericalAdministrativeRegion_right,title,military ordinariate of colombia,0.43292689323425293
+HistoricBuilding_left.csv,title,zacatecas cathedral,ClericalAdministrativeRegion_right,title,military ordinariate of chile,0.4190536141395569
+HistoricBuilding_left.csv,title,novo mesto cathedral,ClericalAdministrativeRegion_right,title,military ordinariate of ecuador,0.3912335932254791
+HistoricBuilding_left.csv,title,st martin orgar,ClericalAdministrativeRegion_right,title,military ordinariate of el salvador,0.38939428329467773
+HistoricBuilding_left.csv,title,freiburg minster,ClericalAdministrativeRegion_right,title,military ordinariate of the south african defence force,0.38843971490859985
+HistoricBuilding_left.csv,title,university united methodist church,ClericalAdministrativeRegion_right,title,military ordinariate of paraguay,0.3710848093032837
+HistoricBuilding_left.csv,title,seventh day adventist church of tonga,ClericalAdministrativeRegion_right,title,military ordinariate of peru,0.36805689334869385
+HistoricBuilding_left.csv,title,ermita de la magdalena (monsacro),ClericalAdministrativeRegion_right,title,military ordinariate of the dominican republic,0.360391765832901

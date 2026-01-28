@@ -1,0 +1,35 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NationalFootballLeagueSeason_left.csv,title,2005 carolina panthers season,NCAATeamSeason_right,title,2011 fiu golden panthers football team,0.7709617614746094
+NationalFootballLeagueSeason_left.csv,title,1999 carolina panthers season,NCAATeamSeason_right,title,2010 fiu golden panthers football team,0.7627784013748169
+NationalFootballLeagueSeason_left.csv,title,1964 los angeles rams season,NCAATeamSeason_right,title,1964 oregon ducks football team,0.7596118450164795
+NationalFootballLeagueSeason_left.csv,title,2006 carolina panthers season,NCAATeamSeason_right,title,2012 fiu golden panthers football team,0.7570521831512451
+NationalFootballLeagueSeason_left.csv,title,1975 los angeles rams season,NCAATeamSeason_right,title,1975 oregon ducks football team,0.7483024597167969
+NationalFootballLeagueSeason_left.csv,title,1963 los angeles rams season,NCAATeamSeason_right,title,1963 oregon ducks football team,0.7481952905654907
+NationalFootballLeagueSeason_left.csv,title,1906 canton bulldogs season,NCAATeamSeason_right,title,1906 alabama crimson white football team,0.7466589212417603
+NationalFootballLeagueSeason_left.csv,title,1914 canton bulldogs season,NCAATeamSeason_right,title,1893 alabama crimson white football team,0.7374484539031982
+NationalFootballLeagueSeason_left.csv,title,1899 latrobe athletic association season,NCAATeamSeason_right,title,1899 alabama crimson white football team,0.7329695224761963
+NationalFootballLeagueSeason_left.csv,title,1923 canton bulldogs season,NCAATeamSeason_right,title,1903 alabama crimson white football team,0.7325259447097778
+NationalFootballLeagueSeason_left.csv,title,1937 brooklyn dodgers (nfl) season,NCAATeamSeason_right,title,1919 washington sun dodgers football team,0.7314900755882263
+NationalFootballLeagueSeason_left.csv,title,1925 canton bulldogs season,NCAATeamSeason_right,title,1905 alabama crimson white football team,0.729068398475647
+NationalFootballLeagueSeason_left.csv,title,2011 canton cougars season,NCAATeamSeason_right,title,2011 austin peay governors football team,0.7271713018417358
+NationalFootballLeagueSeason_left.csv,title,1925 pottsville maroons season,NCAATeamSeason_right,title,1900 alabama crimson white football team,0.7259020805358887
+NationalFootballLeagueSeason_left.csv,title,1974 washington redskins season,NCAATeamSeason_right,title,1974 oregon ducks football team,0.7220295071601868
+NationalFootballLeagueSeason_left.csv,title,1897 latrobe athletic association season,NCAATeamSeason_right,title,1897 alabama crimson white football team,0.7215352058410645
+NationalFootballLeagueSeason_left.csv,title,1920 canton bulldogs season,NCAATeamSeason_right,title,1901 alabama crimson white football team,0.7214047908782959
+NationalFootballLeagueSeason_left.csv,title,2001 arizona cardinals season,NCAATeamSeason_right,title,1906 arkansas cardinals football team,0.7166175842285156
+NationalFootballLeagueSeason_left.csv,title,2013 kane county dawgs season,NCAATeamSeason_right,title,2012 austin peay governors football team,0.7158897519111633
+NationalFootballLeagueSeason_left.csv,title,1923 pottsville maroons season,NCAATeamSeason_right,title,1894 alabama crimson white football team,0.7135474681854248
+NationalFootballLeagueSeason_left.csv,title,1912 canton bulldogs season,NCAATeamSeason_right,title,1898 alabama crimson white football team,0.7134265303611755
+NationalFootballLeagueSeason_left.csv,title,1892 pittsburgh athletic club football season,NCAATeamSeason_right,title,1892 alabama cadets football team,0.7073311805725098
+NationalFootballLeagueSeason_left.csv,title,1895 greensburg athletic association season,NCAATeamSeason_right,title,1895 alabama crimson white football team,0.7049067616462708
+NationalFootballLeagueSeason_left.csv,title,1905 latrobe athletic association season,NCAATeamSeason_right,title,1904 alabama crimson white football team,0.7043885588645935
+NationalFootballLeagueSeason_left.csv,title,1927 pottsville maroons season,NCAATeamSeason_right,title,1896 alabama crimson white football team,0.7020555734634399
+NationalFootballLeagueSeason_left.csv,title,1898 latrobe athletic association season,NCAATeamSeason_right,title,1893 lsu football team,0.7007412910461426
+NationalFootballLeagueSeason_left.csv,title,1922 pottsville maroons season,NCAATeamSeason_right,title,1902 alabama crimson white football team,0.7006608247756958
+NationalFootballLeagueSeason_left.csv,title,1924 columbus tigers season,NCAATeamSeason_right,title,2002 florida atlantic owls baseball team,0.6982448697090149
+NationalFootballLeagueSeason_left.csv,title,2009 wisconsin wolfpack season,NCAATeamSeason_right,title,2013 hawaii rainbow warriors football team,0.6972458362579346
+NationalFootballLeagueSeason_left.csv,title,1979 tampa bay buccaneers season,NCAATeamSeason_right,title,1979 ucf golden knights football team,0.6806661486625671
+NationalFootballLeagueSeason_left.csv,title,1928 detroit wolverines (nfl) season,NCAATeamSeason_right,title,1907 notre dame football team,0.6727123260498047
+NationalFootballLeagueSeason_left.csv,title,1901 latrobe athletic association season,NCAATeamSeason_right,title,1895 lsu football team,0.6690282821655273
+NationalFootballLeagueSeason_left.csv,title,1894 greensburg athletic association season,NCAATeamSeason_right,title,1894 lsu football team,0.6620578765869141
+NationalFootballLeagueSeason_left.csv,title,1986 bc lions season,NCAATeamSeason_right,title,1887 notre dame football team,0.6424627304077148

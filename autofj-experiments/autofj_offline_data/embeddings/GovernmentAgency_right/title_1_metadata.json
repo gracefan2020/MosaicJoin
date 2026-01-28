@@ -1,0 +1,11 @@
+{
+  "table_name": "GovernmentAgency_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 571,
+  "unique_values": 571,
+  "processed_values": 571,
+  "embedding_dim": 768,
+  "processing_time": 0.4350581169128418,
+  "file_path": "datasets/autofj_join_benchmark/datalake/GovernmentAgency_right.csv"
+}

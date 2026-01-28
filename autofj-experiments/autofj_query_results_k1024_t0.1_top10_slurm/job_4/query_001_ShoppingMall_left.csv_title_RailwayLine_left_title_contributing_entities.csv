@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ShoppingMall_left.csv,title,spinderiet (copenhagen),RailwayLine_left,title,m2 (copenhagen),0.8109122514724731
+ShoppingMall_left.csv,title,kenwood towne centre,RailwayLine_left,title,kenwood branch (cta),0.7789945602416992
+ShoppingMall_left.csv,title,cityplace,RailwayLine_left,title,city circle,0.7644727826118469
+ShoppingMall_left.csv,title,westshore mall,RailwayLine_left,title,waterfront west lrt,0.7262541055679321
+ShoppingMall_left.csv,title,galeria kazimierz,RailwayLine_left,title,marecka kolej dojazdowa,0.7234883308410645
+ShoppingMall_left.csv,title,westdale mall,RailwayLine_left,title,westside express service,0.7149809002876282
+ShoppingMall_left.csv,title,westfield franklin park,RailwayLine_left,title,bmt franklin avenue line,0.7103624939918518
+ShoppingMall_left.csv,title,westfield chicago ridge,RailwayLine_left,title,chicago subdivision,0.7083125114440918
+ShoppingMall_left.csv,title,victoria mall,RailwayLine_left,title,victoria line,0.7058082222938538
+ShoppingMall_left.csv,title,sta. lucia east grand mall,RailwayLine_left,title,510 spadina,0.7054733633995056
+ShoppingMall_left.csv,title,the centrepoint,RailwayLine_left,title,central line,0.7051827311515808
+ShoppingMall_left.csv,title,lakeview square,RailwayLine_left,title,lakeshore east line,0.7050525546073914
+ShoppingMall_left.csv,title,"star city, seoul",RailwayLine_left,title,seoul subway line 6,0.7018227577209473
+ShoppingMall_left.csv,title,st. charles towne center,RailwayLine_left,title,st. charles corridor,0.6967926621437073
+ShoppingMall_left.csv,title,acadiana mall,RailwayLine_left,title,archer avenue line,0.6933586001396179
+ShoppingMall_left.csv,title,philadelphia premium outlets,RailwayLine_left,title,philadelphia subdivision,0.692514955997467
+ShoppingMall_left.csv,title,northwest plaza,RailwayLine_left,title,west corridor (lynx),0.6871257424354553
+ShoppingMall_left.csv,title,broadway mall,RailwayLine_left,title,bmt broadway line,0.6871007680892944
+ShoppingMall_left.csv,title,nex,RailwayLine_left,title,arex,0.686057448387146
+ShoppingMall_left.csv,title,fox run mall,RailwayLine_left,title,fox chase rapid transit line,0.682508111000061
+ShoppingMall_left.csv,title,metropolis at metrotown,RailwayLine_left,title,metro area express,0.6822142601013184
+ShoppingMall_left.csv,title,la encantada,RailwayLine_left,title,la trochita,0.6806232929229736
+ShoppingMall_left.csv,title,bishops corner (west hartford),RailwayLine_left,title,bishops waltham branch,0.6755545139312744
+ShoppingMall_left.csv,title,centro karingal,RailwayLine_left,title,ferrocarril rosario y puerto belgrano,0.6751400828361511
+ShoppingMall_left.csv,title,atlantic terminal (shopping mall),RailwayLine_left,title,atlantic avenue elevated,0.6728160381317139
+ShoppingMall_left.csv,title,woodbury common premium outlets,RailwayLine_left,title,elgin and belvidere electric company,0.6705090999603271
+ShoppingMall_left.csv,title,downtown plaza (sacramento),RailwayLine_left,title,f street and h street loop (bakersfield and kern electric),0.6696045994758606
+ShoppingMall_left.csv,title,"shaktan thampuran private bus stand, thrissur",RailwayLine_left,title,busan metro line 4,0.6687456369400024
+ShoppingMall_left.csv,title,bahrain city centre,RailwayLine_left,title,downtown dubai tramway,0.6670442819595337
+ShoppingMall_left.csv,title,city central,RailwayLine_left,title,northern city line,0.6661452651023865
+ShoppingMall_left.csv,title,avenue carriage crossing,RailwayLine_left,title,harcourt street railway line,0.6659974455833435
+ShoppingMall_left.csv,title,westfield west covina,RailwayLine_left,title,503 kingston rd,0.660292387008667
+ShoppingMall_left.csv,title,northfield square,RailwayLine_left,title,north-west t-way,0.6591084599494934
+ShoppingMall_left.csv,title,shangri-la plaza mall,RailwayLine_left,title,beverly hills (pacific electric),0.6588667035102844
+ShoppingMall_left.csv,title,deira city centre,RailwayLine_left,title,metra electric district,0.6566833257675171
+ShoppingMall_left.csv,title,"harbor point, subic",RailwayLine_left,title,sag harbor branch,0.6535608768463135
+ShoppingMall_left.csv,title,centro roselands,RailwayLine_left,title,capital red rose corridor,0.6535036563873291
+ShoppingMall_left.csv,title,crystal palace complex (dieppe),RailwayLine_left,title,crystal palace line,0.6511566638946533
+ShoppingMall_left.csv,title,westfield annapolis,RailwayLine_left,title,trenton subdivision,0.6511548757553101
+ShoppingMall_left.csv,title,south city (shopping mall),RailwayLine_left,title,schuylkill valley metro,0.6499453783035278
+ShoppingMall_left.csv,title,centro bankstown,RailwayLine_left,title,charlestown elevated,0.6497570872306824
+ShoppingMall_left.csv,title,winrock shopping center,RailwayLine_left,title,westgate (pacific electric),0.646043062210083
+ShoppingMall_left.csv,title,brentwood town centre,RailwayLine_left,title,etobicoke-finch west lrt,0.6433864831924438
+ShoppingMall_left.csv,title,sm city,RailwayLine_left,title,guangfo metro,0.6433284282684326
+ShoppingMall_left.csv,title,el con mall,RailwayLine_left,title,e embarcadero,0.642798662185669
+ShoppingMall_left.csv,title,westfield pakuranga,RailwayLine_left,title,kowloon southern link,0.6384154558181763
+ShoppingMall_left.csv,title,cataraqui town centre,RailwayLine_left,title,central line (cape town),0.6350265741348267
+ShoppingMall_left.csv,title,omni park shopping centre,RailwayLine_left,title,lamanda park (pacific electric),0.6336466073989868
+ShoppingMall_left.csv,title,sunway carnival mall,RailwayLine_left,title,sunbury line,0.6333280801773071
+ShoppingMall_left.csv,title,eastridge,RailwayLine_left,title,chestnut hill east line,0.6293075084686279
+ShoppingMall_left.csv,title,cross county plaza,RailwayLine_left,title,london crosslink,0.6282140016555786
+ShoppingMall_left.csv,title,centrale (croydon),RailwayLine_left,title,hammersmith & city line,0.6280910968780518
+ShoppingMall_left.csv,title,west 12 shepherds bush,RailwayLine_left,title,bushwick branch,0.6254743337631226
+ShoppingMall_left.csv,title,westfield southland,RailwayLine_left,title,511 bathurst,0.625384509563446
+ShoppingMall_left.csv,title,downtown disney (walt disney world),RailwayLine_left,title,disneyland resort line,0.6248030662536621
+ShoppingMall_left.csv,title,royal victoria place,RailwayLine_left,title,silverton tramway,0.6244556307792664
+ShoppingMall_left.csv,title,"conestoga mall (waterloo, ontario)",RailwayLine_left,title,bottineau boulevard transitway,0.6236802935600281
+ShoppingMall_left.csv,title,lakeshore mall (florida),RailwayLine_left,title,508 lake shore,0.6208842992782593
+ShoppingMall_left.csv,title,the market common myrtle beach,RailwayLine_left,title,f market & wharves,0.6188806295394897
+ShoppingMall_left.csv,title,great northern mall,RailwayLine_left,title,northern lights express,0.6187810301780701
+ShoppingMall_left.csv,title,downtown shopping centre,RailwayLine_left,title,vancouver downtown historic railway,0.6186386346817017
+ShoppingMall_left.csv,title,knollwood mall,RailwayLine_left,title,63rd street line,0.6171810626983643
+ShoppingMall_left.csv,title,centro lutwyche,RailwayLine_left,title,ligne de cerdagne,0.6171702146530151
+ShoppingMall_left.csv,title,rockville mall,RailwayLine_left,title,dargaville branch,0.616024911403656
+ShoppingMall_left.csv,title,parkway mall,RailwayLine_left,title,tandy center subway,0.615524411201477
+ShoppingMall_left.csv,title,monroe crossing mall,RailwayLine_left,title,ind fulton street line,0.6149084568023682
+ShoppingMall_left.csv,title,langham place (hong kong),RailwayLine_left,title,bukit panjang lrt line,0.6130759716033936
+ShoppingMall_left.csv,title,central park (shopping complex),RailwayLine_left,title,greenwich park branch line,0.6120363473892212
+ShoppingMall_left.csv,title,the promenade shopping centre,RailwayLine_left,title,casablanca tramway,0.6078506708145142
+ShoppingMall_left.csv,title,newpark mall,RailwayLine_left,title,lackawanna old road,0.6041754484176636
+ShoppingMall_left.csv,title,settlers' green outlet village,RailwayLine_left,title,greytown branch,0.6039863228797913
+ShoppingMall_left.csv,title,forest lake shopping centre,RailwayLine_left,title,north lake (pacific electric),0.6037114262580872
+ShoppingMall_left.csv,title,broadmarsh (shopping centre),RailwayLine_left,title,"south line, chennai suburban",0.6022364497184753
+ShoppingMall_left.csv,title,mantri square,RailwayLine_left,title,manukau branch,0.6018871068954468
+ShoppingMall_left.csv,title,albany mall,RailwayLine_left,title,second avenue subway,0.6010778546333313
+ShoppingMall_left.csv,title,menara great eastern,RailwayLine_left,title,great eastern main line,0.6009787917137146
+ShoppingMall_left.csv,title,"westgate shopping centre, oxford",RailwayLine_left,title,hertford east branch line,0.6005713939666748
+ShoppingMall_left.csv,title,merry hill shopping centre,RailwayLine_left,title,scarborough malvern lrt,0.6003068685531616
+ShoppingMall_left.csv,title,enfield square,RailwayLine_left,title,northampton loop line,0.6000136137008667
+ShoppingMall_left.csv,title,rivergate mall,RailwayLine_left,title,chatham main line,0.5994621515274048
+ShoppingMall_left.csv,title,westfield fox valley,RailwayLine_left,title,platte valley trolley,0.5993413925170898
+ShoppingMall_left.csv,title,touchwood,RailwayLine_left,title,ravenswood branch,0.5987473130226135
+ShoppingMall_left.csv,title,mirdif city centre,RailwayLine_left,title,m2 (istanbul metro),0.597883939743042
+ShoppingMall_left.csv,title,dembel city center,RailwayLine_left,title,district line,0.5968867540359497
+ShoppingMall_left.csv,title,epping plaza,RailwayLine_left,title,epping to chatswood railway line,0.5965002179145813
+ShoppingMall_left.csv,title,centro taigum,RailwayLine_left,title,taita line,0.5949726700782776
+ShoppingMall_left.csv,title,splendid china tower,RailwayLine_left,title,huanzhong line,0.5941200256347656
+ShoppingMall_left.csv,title,paradise park (mall),RailwayLine_left,title,jta skyway,0.5937238931655884
+ShoppingMall_left.csv,title,my mall limassol,RailwayLine_left,title,constantine tramway,0.5927347540855408
+ShoppingMall_left.csv,title,northlake mall (charlotte),RailwayLine_left,title,charlotte trolley,0.5919786095619202
+ShoppingMall_left.csv,title,woodfield mall,RailwayLine_left,title,gracefield branch,0.5914369821548462
+ShoppingMall_left.csv,title,"the summit (wheatfield, new york)",RailwayLine_left,title,montauk branch,0.5913100242614746
+ShoppingMall_left.csv,title,seacon square,RailwayLine_left,title,m ocean view,0.5898276567459106
+ShoppingMall_left.csv,title,st. laurent centre,RailwayLine_left,title,montreal subdivision (csx),0.5892944931983948
+ShoppingMall_left.csv,title,harbourfront centre,RailwayLine_left,title,south shore line (nictd),0.5882729291915894
+ShoppingMall_left.csv,title,solano town center,RailwayLine_left,title,bolzano tramway,0.5879933834075928
+ShoppingMall_left.csv,title,capital city mall,RailwayLine_left,title,cairo metro line 1,0.5870589017868042
+ShoppingMall_left.csv,title,centro box hill,RailwayLine_left,title,first hill streetcar,0.5870038270950317
+ShoppingMall_left.csv,title,indian mall,RailwayLine_left,title,samjhauta express,0.5866362452507019
+ShoppingMall_left.csv,title,springfield mall (pennsylvania),RailwayLine_left,title,greenline (pennsylvania),0.5857456922531128
+ShoppingMall_left.csv,title,palm beach mall,RailwayLine_left,title,long beach branch,0.5849990844726562
+ShoppingMall_left.csv,title,"zona rosa (kansas city, missouri)",RailwayLine_left,title,ferrovia cumana,0.5842048525810242
+ShoppingMall_left.csv,title,west mall,RailwayLine_left,title,t third street,0.5824441313743591
+ShoppingMall_left.csv,title,centro lavington,RailwayLine_left,title,port jefferson branch,0.5821667313575745
+ShoppingMall_left.csv,title,westfield figtree,RailwayLine_left,title,eyreton branch,0.5819776058197021
+ShoppingMall_left.csv,title,les promenades de l'outaouais,RailwayLine_left,title,funicular dos guindais,0.5812039971351624
+ShoppingMall_left.csv,title,hillside shopping centre,RailwayLine_left,title,mont blanc tramway,0.5796811580657959
+ShoppingMall_left.csv,title,centrio,RailwayLine_left,title,grenaabanen,0.579546332359314
+ShoppingMall_left.csv,title,city centre plaza,RailwayLine_left,title,metronorth corridor,0.5785874128341675
+ShoppingMall_left.csv,title,westfield warrawong,RailwayLine_left,title,wawa and concordville railroad,0.5785471200942993
+ShoppingMall_left.csv,title,"northwoods mall (peoria, illinois)",RailwayLine_left,title,northport branch,0.5755704641342163
+ShoppingMall_left.csv,title,the florida mall,RailwayLine_left,title,florida high speed rail,0.5753829479217529
+ShoppingMall_left.csv,title,crossroads center,RailwayLine_left,title,cogload junction,0.5734397172927856
+ShoppingMall_left.csv,title,centro toombul,RailwayLine_left,title,line 1 (metrovalencia),0.5719375610351562
+ShoppingMall_left.csv,title,riocan centre kingston,RailwayLine_left,title,bmt jamaica line,0.5713703632354736
+ShoppingMall_left.csv,title,pier park (florida),RailwayLine_left,title,severn beach line,0.5700783729553223
+ShoppingMall_left.csv,title,mid rivers mall,RailwayLine_left,title,astoria riverfront trolley,0.5700739622116089
+ShoppingMall_left.csv,title,westfield connecticut post,RailwayLine_left,title,huntington railroad,0.5683501362800598
+ShoppingMall_left.csv,title,"crossroads center (waterloo, ia)",RailwayLine_left,title,madison county corridors,0.5666258335113525
+ShoppingMall_left.csv,title,bentley bridge retail park,RailwayLine_left,title,redondo beach via gardena (pacific electric),0.5660508871078491
+ShoppingMall_left.csv,title,antioch center,RailwayLine_left,title,j church,0.5659633874893188
+ShoppingMall_left.csv,title,maple hill pavilion,RailwayLine_left,title,bellevue funicular,0.5638154149055481
+ShoppingMall_left.csv,title,westfield belden village,RailwayLine_left,title,stourbridge town branch line,0.5630197525024414
+ShoppingMall_left.csv,title,centro mayor,RailwayLine_left,title,sprinter (north county transit district),0.5628818273544312
+ShoppingMall_left.csv,title,liffey valley shopping centre,RailwayLine_left,title,highland main line,0.5610643625259399
+ShoppingMall_left.csv,title,centro colonnades,RailwayLine_left,title,central funicular,0.5608210563659668
+ShoppingMall_left.csv,title,louis joliet mall,RailwayLine_left,title,don mills lrt,0.5607831478118896
+ShoppingMall_left.csv,title,market place mall,RailwayLine_left,title,main street line (mata trolley),0.5606375932693481
+ShoppingMall_left.csv,title,colton plaza,RailwayLine_left,title,creedmoor branch,0.559088408946991
+ShoppingMall_left.csv,title,florence mall,RailwayLine_left,title,milan passante railway,0.5582795143127441
+ShoppingMall_left.csv,title,westfield castlecourt,RailwayLine_left,title,framingham/worcester line,0.5578676462173462
+ShoppingMall_left.csv,title,the mall at shelter cove,RailwayLine_left,title,willamette shore trolley,0.55739426612854
+ShoppingMall_left.csv,title,werribee plaza,RailwayLine_left,title,506 carlton,0.5573683977127075
+ShoppingMall_left.csv,title,vintage faire mall,RailwayLine_left,title,historic downtown los angeles streetcar,0.5563002824783325
+ShoppingMall_left.csv,title,the shoppes at eastchase,RailwayLine_left,title,sugar house streetcar,0.5559995770454407
+ShoppingMall_left.csv,title,west manchester mall,RailwayLine_left,title,tyne and wear metro,0.555495023727417
+ShoppingMall_left.csv,title,st. louis outlet mall,RailwayLine_left,title,st. charles city streetcar,0.5541708469390869
+ShoppingMall_left.csv,title,eastland center,RailwayLine_left,title,oyster bay branch,0.5536932945251465
+ShoppingMall_left.csv,title,the brentwood country mart,RailwayLine_left,title,northport traction company,0.5516422986984253
+ShoppingMall_left.csv,title,westfield sydney central plaza,RailwayLine_left,title,northern sydney freight corridor,0.5507973432540894
+ShoppingMall_left.csv,title,south point (shopping mall),RailwayLine_left,title,south-link line,0.5507239103317261
+ShoppingMall_left.csv,title,westfield mainplace,RailwayLine_left,title,st edwards hospital tramway,0.5496542453765869
+ShoppingMall_left.csv,title,hickory ridge mall,RailwayLine_left,title,richmond hill line,0.5494399070739746
+ShoppingMall_left.csv,title,auburn mall,RailwayLine_left,title,arlanda express,0.5481322407722473
+ShoppingMall_left.csv,title,the gallery at military circle,RailwayLine_left,title,berlin outer ring,0.5472965240478516
+ShoppingMall_left.csv,title,lulu mall,RailwayLine_left,title,jane lrt,0.5416669845581055
+ShoppingMall_left.csv,title,jantzen beach supercenter,RailwayLine_left,title,djursholmsbanan,0.5403779745101929
+ShoppingMall_left.csv,title,centro,RailwayLine_left,title,premetro e2 (buenos aires),0.5402346849441528
+ShoppingMall_left.csv,title,brunswick shopping centre,RailwayLine_left,title,scarborough rt,0.5401135683059692
+ShoppingMall_left.csv,title,centre at glen burnie,RailwayLine_left,title,camp hill line,0.5394319295883179
+ShoppingMall_left.csv,title,the outlets at sands bethlehem,RailwayLine_left,title,n judah,0.5393084287643433
+ShoppingMall_left.csv,title,irvine spectrum center,RailwayLine_left,title,santa ana (pacific electric),0.5390216708183289
+ShoppingMall_left.csv,title,florin mall,RailwayLine_left,title,follo line,0.5377984046936035
+ShoppingMall_left.csv,title,galleria shopping centre,RailwayLine_left,title,heritage corridor,0.5372535586357117
+ShoppingMall_left.csv,title,santa rosa mall (florida),RailwayLine_left,title,marta rail stations,0.5371659398078918
+ShoppingMall_left.csv,title,"regency square mall (florence, alabama)",RailwayLine_left,title,merrill railway & lighting co.,0.5347139835357666
+ShoppingMall_left.csv,title,mail champlain,RailwayLine_left,title,london post office railway,0.5346586108207703
+ShoppingMall_left.csv,title,centro the glen,RailwayLine_left,title,caldervale line,0.5342133641242981
+ShoppingMall_left.csv,title,the paragon,RailwayLine_left,title,roslagsbanan,0.5341060757637024
+ShoppingMall_left.csv,title,hamilton place (shopping mall),RailwayLine_left,title,hinckley subdivision,0.5341049432754517
+ShoppingMall_left.csv,title,lancaster mall,RailwayLine_left,title,paoli/thorndale line,0.5339856743812561
+ShoppingMall_left.csv,title,granada center,RailwayLine_left,title,belmont tramway,0.5332978963851929
+ShoppingMall_left.csv,title,wilton mall,RailwayLine_left,title,gmunden tramway,0.5315503478050232
+ShoppingMall_left.csv,title,kukui grove shopping center,RailwayLine_left,title,tokyo waterfront area rapid transit rinkai line,0.530178427696228
+ShoppingMall_left.csv,title,rhodes shopping centre,RailwayLine_left,title,rock island district,0.5294556617736816
+ShoppingMall_left.csv,title,chesapeake square mall,RailwayLine_left,title,hampton court branch line,0.5286808013916016
+ShoppingMall_left.csv,title,paddock mall,RailwayLine_left,title,wharfedale line,0.527491569519043
+ShoppingMall_left.csv,title,"the summit (reno, nevada)",RailwayLine_left,title,mount oliver incline,0.5263066291809082
+ShoppingMall_left.csv,title,isquare,RailwayLine_left,title,orlyval,0.5261970162391663
+ShoppingMall_left.csv,title,bluewater (shopping centre),RailwayLine_left,title,blue line (yokohama),0.5233237743377686
+ShoppingMall_left.csv,title,square 2 (shopping mall),RailwayLine_left,title,502 downtowner,0.5224651098251343
+ShoppingMall_left.csv,title,tulsa promenade mall,RailwayLine_left,title,downtown relief line,0.5201032757759094
+ShoppingMall_left.csv,title,asheville mall,RailwayLine_left,title,knoxville incline,0.5161324739456177
+ShoppingMall_left.csv,title,spires shopping centre,RailwayLine_left,title,harrogate to church fenton line,0.5154953002929688
+ShoppingMall_left.csv,title,exchange ilford,RailwayLine_left,title,thames branch,0.5145621299743652
+ShoppingMall_left.csv,title,grand central mall,RailwayLine_left,title,grand chord,0.5120595097541809
+ShoppingMall_left.csv,title,sahara mall (riyadh),RailwayLine_left,title,north south railway (saudi arabia),0.5114226937294006
+ShoppingMall_left.csv,title,pace shopping mall,RailwayLine_left,title,expo express,0.5108957290649414
+ShoppingMall_left.csv,title,change alley (singapore),RailwayLine_left,title,zhujiang new town automated people mover system,0.5107983946800232
+ShoppingMall_left.csv,title,victoria square shopping centre,RailwayLine_left,title,belleville funicular tramway,0.5107570886611938
+ShoppingMall_left.csv,title,st. david's (cardiff),RailwayLine_left,title,vale of glamorgan line,0.5099141001701355
+ShoppingMall_left.csv,title,the oaks mall,RailwayLine_left,title,delmar loop trolley,0.5060622692108154
+ShoppingMall_left.csv,title,arsenal mall,RailwayLine_left,title,marmaray,0.5038276314735413
+ShoppingMall_left.csv,title,direct factory outlets,RailwayLine_left,title,waupaca electric light and railway company,0.5033847689628601
+ShoppingMall_left.csv,title,the galleria (houston),RailwayLine_left,title,galveston island trolley,0.5008398294448853
+ShoppingMall_left.csv,title,the mall pavilions,RailwayLine_left,title,ind concourse line,0.49891197681427
+ShoppingMall_left.csv,title,the mall in columbia,RailwayLine_left,title,portland streetcar,0.4987075924873352
+ShoppingMall_left.csv,title,grand indonesia shopping town,RailwayLine_left,title,batu caves-port klang route,0.4981820583343506
+ShoppingMall_left.csv,title,palladium square,RailwayLine_left,title,dart underground,0.4972649812698364
+ShoppingMall_left.csv,title,"the summit (birmingham, alabama)",RailwayLine_left,title,babylon railroad,0.49362826347351074
+ShoppingMall_left.csv,title,tallahassee mall,RailwayLine_left,title,seattle center monorail,0.4915185570716858
+ShoppingMall_left.csv,title,"university mall (chapel hill, north carolina)",RailwayLine_left,title,university line (trax),0.4840514063835144
+ShoppingMall_left.csv,title,megabox (shopping mall),RailwayLine_left,title,dream catcher express,0.4833751916885376
+ShoppingMall_left.csv,title,the fashion centre at pentagon city,RailwayLine_left,title,42nd street shuttle,0.4798945486545563
+ShoppingMall_left.csv,title,the mall at cortana,RailwayLine_left,title,the loop (cta),0.47848838567733765
+ShoppingMall_left.csv,title,castletown shoppingworld,RailwayLine_left,title,marble bar railway,0.4730910658836365
+ShoppingMall_left.csv,title,shops at prudential center,RailwayLine_left,title,danbury branch,0.47225090861320496
+ShoppingMall_left.csv,title,the base (mall),RailwayLine_left,title,braintree branch line,0.4703366756439209
+ShoppingMall_left.csv,title,domain central,RailwayLine_left,title,tcdd district 3,0.4655948877334595
+ShoppingMall_left.csv,title,mall at the source,RailwayLine_left,title,riffelalptram,0.4643781781196594

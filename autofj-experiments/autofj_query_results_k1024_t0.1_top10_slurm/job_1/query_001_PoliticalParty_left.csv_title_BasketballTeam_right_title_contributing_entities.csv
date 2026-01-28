@@ -1,0 +1,167 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+PoliticalParty_left.csv,title,eusko abertzale ekintza,BasketballTeam_right,title,kk vojvodina srbijagas,0.7678083181381226
+PoliticalParty_left.csv,title,hizb ut-tahrir,BasketballTeam_right,title,al riyadi amman,0.7450113296508789
+PoliticalParty_left.csv,title,nafarroa bai,BasketballTeam_right,title,muba hangtuah sumatera selatan,0.7331910133361816
+PoliticalParty_left.csv,title,lapiang malaya,BasketballTeam_right,title,satria muda pertamina jakarta,0.720047652721405
+PoliticalParty_left.csv,title,mapu obrero campesino,BasketballTeam_right,title,pallacanestro don bosco livorno,0.711057186126709
+PoliticalParty_left.csv,title,deutscher volksverband,BasketballTeam_right,title,mhp riesen ludwigsburg,0.7070107460021973
+PoliticalParty_left.csv,title,democracia cristiana vasca,BasketballTeam_right,title,ao pagrati bc,0.7057757377624512
+PoliticalParty_left.csv,title,bharipa bahujan mahasangh,BasketballTeam_right,title,pelita jaya energi mega persada,0.6993266344070435
+PoliticalParty_left.csv,title,batkivshchyna,BasketballTeam_right,title,bc budivelnik,0.6926127672195435
+PoliticalParty_left.csv,title,inekaren,BasketballTeam_right,title,kk krka,0.6870430707931519
+PoliticalParty_left.csv,title,belarusian christian democracy,BasketballTeam_right,title,bc minsk-2006,0.684134840965271
+PoliticalParty_left.csv,title,te tiarama,BasketballTeam_right,title,tyco rapla,0.6778765320777893
+PoliticalParty_left.csv,title,mykola katerynchuk bloc,BasketballTeam_right,title,kk slavonski brod,0.6700549721717834
+PoliticalParty_left.csv,title,cartel des gauches,BasketballTeam_right,title,ca queluz,0.66646409034729
+PoliticalParty_left.csv,title,agudat yisrael,BasketballTeam_right,title,maccabi ra'anana,0.6580697298049927
+PoliticalParty_left.csv,title,kalibapi,BasketballTeam_right,title,kk olimpija,0.6557576656341553
+PoliticalParty_left.csv,title,romanian national committee,BasketballTeam_right,title,bc partizani tirana,0.653455376625061
+PoliticalParty_left.csv,title,somali youth league,BasketballTeam_right,title,al-ahli benghazi (basketball club),0.6532267332077026
+PoliticalParty_left.csv,title,aruaa,BasketballTeam_right,title,asseco gdynia,0.6402909159660339
+PoliticalParty_left.csv,title,lega nord sardinia,BasketballTeam_right,title,bc juventus,0.6400299072265625
+PoliticalParty_left.csv,title,bangladesh khilafat andolan,BasketballTeam_right,title,ezzahra sports,0.6397035121917725
+PoliticalParty_left.csv,title,red star (uk),BasketballTeam_right,title,belfast star,0.6390018463134766
+PoliticalParty_left.csv,title,khana ratsadon,BasketballTeam_right,title,uniqa sopron,0.6367363929748535
+PoliticalParty_left.csv,title,lithuanian russian union,BasketballTeam_right,title,polytekhnika-halychyna lviv,0.6367095708847046
+PoliticalParty_left.csv,title,rodina,BasketballTeam_right,title,rakvere tarvas,0.6308625340461731
+PoliticalParty_left.csv,title,german freedom party,BasketballTeam_right,title,enbw ludwigsburg,0.6278448104858398
+PoliticalParty_left.csv,title,national union (israel),BasketballTeam_right,title,hapoel afula b.c.,0.6222528219223022
+PoliticalParty_left.csv,title,socialist party of indonesia,BasketballTeam_right,title,aspac jakarta,0.6217150688171387
+PoliticalParty_left.csv,title,gabriela,BasketballTeam_right,title,cb tizona,0.619610607624054
+PoliticalParty_left.csv,title,croix-de-feu,BasketballTeam_right,title,somb boulogne-sur-mer,0.6191284656524658
+PoliticalParty_left.csv,title,musavat,BasketballTeam_right,title,tanduay light rhum masters,0.6146862506866455
+PoliticalParty_left.csv,title,morasha,BasketballTeam_right,title,medi bayreuth,0.6146596670150757
+PoliticalParty_left.csv,title,fanmi lavalas,BasketballTeam_right,title,nuova amg sebastiani basket rieti,0.6145216226577759
+PoliticalParty_left.csv,title,hezbe wahdat,BasketballTeam_right,title,bnei hasharon,0.6136873960494995
+PoliticalParty_left.csv,title,lega nord toscana,BasketballTeam_right,title,bc cherno more port varna,0.6130856871604919
+PoliticalParty_left.csv,title,gaumee itthihaad,BasketballTeam_right,title,elitzur givat shmuel,0.6094458103179932
+PoliticalParty_left.csv,title,team stronach,BasketballTeam_right,title,surrey scorchers,0.6029378771781921
+PoliticalParty_left.csv,title,janganotantrik morcha,BasketballTeam_right,title,bc torpan pojat,0.601732611656189
+PoliticalParty_left.csv,title,nouvelle action royaliste,BasketballTeam_right,title,ab pas,0.5943831205368042
+PoliticalParty_left.csv,title,east kilbride alliance,BasketballTeam_right,title,cls knights surabaya,0.5930677652359009
+PoliticalParty_left.csv,title,communist party of kazakhstan,BasketballTeam_right,title,bc yenisey krasnoyarsk,0.5927268862724304
+PoliticalParty_left.csv,title,valencian union,BasketballTeam_right,title,cb ciudad de algeciras,0.5924525260925293
+PoliticalParty_left.csv,title,batasuna,BasketballTeam_right,title,bc palanga,0.591564953327179
+PoliticalParty_left.csv,title,hellenic front,BasketballTeam_right,title,ilissiakos b.c.,0.5906834602355957
+PoliticalParty_left.csv,title,safina,BasketballTeam_right,title,sk valmiera,0.5896074175834656
+PoliticalParty_left.csv,title,progressive valdotanian union (2013),BasketballTeam_right,title,union kavala b.c.,0.5892586708068848
+PoliticalParty_left.csv,title,kuomintang youth league,BasketballTeam_right,title,shandong golden stars,0.5888633728027344
+PoliticalParty_left.csv,title,australian greens victoria,BasketballTeam_right,title,melbourne boomers,0.588322639465332
+PoliticalParty_left.csv,title,young finns,BasketballTeam_right,title,helsinki seagulls,0.5882608890533447
+PoliticalParty_left.csv,title,illankai tamil arasu kachchi,BasketballTeam_right,title,xanthi b.c.,0.5868620276451111
+PoliticalParty_left.csv,title,naujawan kisan party,BasketballTeam_right,title,yongin samsung life bichumi,0.5839875340461731
+PoliticalParty_left.csv,title,pim fortuyn list,BasketballTeam_right,title,piimameister otto/rapla,0.5819050669670105
+PoliticalParty_left.csv,title,kdp-i,BasketballTeam_right,title,kk millenium strumica,0.5780572295188904
+PoliticalParty_left.csv,title,cdu/csu,BasketballTeam_right,title,university of canberra capitals,0.5779232978820801
+PoliticalParty_left.csv,title,unitalia,BasketballTeam_right,title,bc rå«dupis,0.5765517950057983
+PoliticalParty_left.csv,title,beer lovers party (russia),BasketballTeam_right,title,stella artois leuven bears,0.5758228302001953
+PoliticalParty_left.csv,title,aitaira,BasketballTeam_right,title,iraklio bc,0.5723097920417786
+PoliticalParty_left.csv,title,jeunesse gabonais,BasketballTeam_right,title,unes fc barcelona,0.5708343982696533
+PoliticalParty_left.csv,title,united new zealand,BasketballTeam_right,title,otago nuggets,0.5674102306365967
+PoliticalParty_left.csv,title,colorado party (uruguay),BasketballTeam_right,title,toros de nuevo laredo,0.566938042640686
+PoliticalParty_left.csv,title,marz-e por gohar,BasketballTeam_right,title,halcones de xalapa,0.5635472536087036
+PoliticalParty_left.csv,title,united poland,BasketballTeam_right,title,polonia warszawa (basketball),0.5612931251525879
+PoliticalParty_left.csv,title,al-muthanna club,BasketballTeam_right,title,al ittihad alexandria (basketball),0.5602864027023315
+PoliticalParty_left.csv,title,ambedkar makkal katchi,BasketballTeam_right,title,kk mega leks,0.5596545934677124
+PoliticalParty_left.csv,title,riojan party,BasketballTeam_right,title,porta xi ensino cbf,0.5562264919281006
+PoliticalParty_left.csv,title,black hundreds,BasketballTeam_right,title,black water sports,0.5558081865310669
+PoliticalParty_left.csv,title,bgo gemini,BasketballTeam_right,title,bc barsy atyrau,0.5519024133682251
+PoliticalParty_left.csv,title,recreate greece,BasketballTeam_right,title,as ionikos neas filadelfeias bc,0.5495470762252808
+PoliticalParty_left.csv,title,libertas (czech republic),BasketballTeam_right,title,b.c. zenit saint petersburg,0.5454899072647095
+PoliticalParty_left.csv,title,vohibato tapa-kevitsa,BasketballTeam_right,title,pacific caesar surabaya,0.5429638028144836
+PoliticalParty_left.csv,title,voerbelangen,BasketballTeam_right,title,swans gmunden,0.5408993363380432
+PoliticalParty_left.csv,title,national democratic alliance (kuwait),BasketballTeam_right,title,al kuwait sc (basketball),0.5383853912353516
+PoliticalParty_left.csv,title,burundo-african alliance for salvation,BasketballTeam_right,title,bintulu eagles b.c.,0.5381166338920593
+PoliticalParty_left.csv,title,shiromani akali dal (longowal),BasketballTeam_right,title,dafni bc,0.534996747970581
+PoliticalParty_left.csv,title,girondist,BasketballTeam_right,title,rosasport radom,0.5347747802734375
+PoliticalParty_left.csv,title,power voters,BasketballTeam_right,title,mississauga power,0.5344632267951965
+PoliticalParty_left.csv,title,concordia association,BasketballTeam_right,title,bc naglis,0.5313929319381714
+PoliticalParty_left.csv,title,chadema,BasketballTeam_right,title,bc cherkasy,0.5310986042022705
+PoliticalParty_left.csv,title,new sinhala heritage,BasketballTeam_right,title,a.s. trikala 2000 bc,0.5309667587280273
+PoliticalParty_left.csv,title,democratic list of nazareth,BasketballTeam_right,title,barak netanya b.c.,0.5297865867614746
+PoliticalParty_left.csv,title,egyptian bloc,BasketballTeam_right,title,incheon electroland elephants,0.5295430421829224
+PoliticalParty_left.csv,title,proriv (transnistria),BasketballTeam_right,title,trabzonspor b.k.,0.5261839628219604
+PoliticalParty_left.csv,title,pannella-bonino list,BasketballTeam_right,title,gruppo triboldi basket,0.523303747177124
+PoliticalParty_left.csv,title,terra galega,BasketballTeam_right,title,cs energia,0.5203900337219238
+PoliticalParty_left.csv,title,sociaal-liberale partij,BasketballTeam_right,title,universo treviso basket,0.5194683074951172
+PoliticalParty_left.csv,title,walloon rally,BasketballTeam_right,title,omaha racers,0.5188878178596497
+PoliticalParty_left.csv,title,chondoist chongu party,BasketballTeam_right,title,shenzhen leopards,0.5186600089073181
+PoliticalParty_left.csv,title,fishing party (scotland),BasketballTeam_right,title,edinburgh tigers,0.5128673911094666
+PoliticalParty_left.csv,title,unity party (australia),BasketballTeam_right,title,melbourne united,0.5103973150253296
+PoliticalParty_left.csv,title,black native party,BasketballTeam_right,title,blackwater sports,0.5096579790115356
+PoliticalParty_left.csv,title,agang south africa,BasketballTeam_right,title,south china aa (basketball),0.506942629814148
+PoliticalParty_left.csv,title,democratic union of albanians,BasketballTeam_right,title,ionikos nikaias bc,0.5061519742012024
+PoliticalParty_left.csv,title,garo national council,BasketballTeam_right,title,g.s. fiat,0.5048108100891113
+PoliticalParty_left.csv,title,marxist periarist communist party,BasketballTeam_right,title,perak farmcochem b.c.,0.5039608478546143
+PoliticalParty_left.csv,title,national-christian defense league,BasketballTeam_right,title,kent crusaders (basketball),0.5022871494293213
+PoliticalParty_left.csv,title,andean renaissance,BasketballTeam_right,title,athlitikos omilos paleou falirou bc,0.4992382526397705
+PoliticalParty_left.csv,title,vlott,BasketballTeam_right,title,veroli basket,0.49896013736724854
+PoliticalParty_left.csv,title,meimad,BasketballTeam_right,title,ulriken elite,0.49876952171325684
+PoliticalParty_left.csv,title,republican party of louisiana,BasketballTeam_right,title,new orleans pelicans,0.4976949691772461
+PoliticalParty_left.csv,title,highland land league (1909),BasketballTeam_right,title,surrey united (basketball),0.4944470524787903
+PoliticalParty_left.csv,title,orange movement,BasketballTeam_right,title,orangeville a's,0.4930170774459839
+PoliticalParty_left.csv,title,life of the egyptians party,BasketballTeam_right,title,egaleo bc,0.4887956976890564
+PoliticalParty_left.csv,title,concordancia (argentina),BasketballTeam_right,title,galatasaray s.k. (women's basketball),0.4883701503276825
+PoliticalParty_left.csv,title,animal protection party,BasketballTeam_right,title,paws london capital,0.4879578649997711
+PoliticalParty_left.csv,title,fatherland league (norway),BasketballTeam_right,title,donar (basketball club),0.4879094362258911
+PoliticalParty_left.csv,title,co-operative commonwealth federation (manitoba section),BasketballTeam_right,title,sporting bc,0.48499929904937744
+PoliticalParty_left.csv,title,alliance of builders of kongo,BasketballTeam_right,title,bintulu rainbow b.c.,0.47963839769363403
+PoliticalParty_left.csv,title,hayisraelim,BasketballTeam_right,title,gladiators trier,0.47882407903671265
+PoliticalParty_left.csv,title,jeay sindh qaumi mahaz,BasketballTeam_right,title,pbc ural great,0.4783123731613159
+PoliticalParty_left.csv,title,livable rotterdam,BasketballTeam_right,title,hi-tech bangkok city,0.4771779179573059
+PoliticalParty_left.csv,title,deshpremee jana samukshya,BasketballTeam_right,title,yongin samsung blueminx,0.47248542308807373
+PoliticalParty_left.csv,title,left of croatia,BasketballTeam_right,title,galatasaray s.k. (wheelchair basketball),0.4724699854850769
+PoliticalParty_left.csv,title,the sunflower,BasketballTeam_right,title,roseto basket,0.4724372923374176
+PoliticalParty_left.csv,title,krantikari mukti morcha,BasketballTeam_right,title,pbc lokomotiv-kuban,0.46272748708724976
+PoliticalParty_left.csv,title,big bang (faction),BasketballTeam_right,title,goyang orion orions,0.4604584574699402
+PoliticalParty_left.csv,title,republican party of india (b.c. kamble),BasketballTeam_right,title,icbs b.c.,0.45982253551483154
+PoliticalParty_left.csv,title,united left (san marino),BasketballTeam_right,title,cb bilbao berri,0.4586442708969116
+PoliticalParty_left.csv,title,kansas republican party,BasketballTeam_right,title,oklahoma city blue,0.45704180002212524
+PoliticalParty_left.csv,title,bpf party,BasketballTeam_right,title,bree b.b.c.,0.455405592918396
+PoliticalParty_left.csv,title,el-ghad party,BasketballTeam_right,title,el ittihad alexandria (basketball),0.4541606903076172
+PoliticalParty_left.csv,title,rockingham whigs,BasketballTeam_right,title,milton keynes lions,0.45374298095703125
+PoliticalParty_left.csv,title,united for macedonia,BasketballTeam_right,title,u.d. oliveirense (basketball),0.4537200927734375
+PoliticalParty_left.csv,title,association for the rebirth of madagascar,BasketballTeam_right,title,liaoning flying leopards,0.45211687684059143
+PoliticalParty_left.csv,title,venetian independence,BasketballTeam_right,title,ionikos lamias bc,0.45114725828170776
+PoliticalParty_left.csv,title,breton party,BasketballTeam_right,title,cuxhaven bascats,0.4503546357154846
+PoliticalParty_left.csv,title,bolshevik samasamaja party,BasketballTeam_right,title,trikala 2000 b.c.,0.4495875835418701
+PoliticalParty_left.csv,title,middlewich first,BasketballTeam_right,title,cheshire jets,0.4456809163093567
+PoliticalParty_left.csv,title,march 8 alliance,BasketballTeam_right,title,athinaikos women's basketball,0.44538065791130066
+PoliticalParty_left.csv,title,democratic centre union (greece),BasketballTeam_right,title,ageh gymnastikos b.c.,0.44451701641082764
+PoliticalParty_left.csv,title,project republic of sardinia,BasketballTeam_right,title,ikaros chalkidas b.c.,0.44367343187332153
+PoliticalParty_left.csv,title,jordanian arab party,BasketballTeam_right,title,zamalek (basketball),0.44295960664749146
+PoliticalParty_left.csv,title,united people of cambodia,BasketballTeam_right,title,sports rev thailand slammers,0.44179534912109375
+PoliticalParty_left.csv,title,civic force,BasketballTeam_right,title,leeds force,0.4396599531173706
+PoliticalParty_left.csv,title,top 09,BasketballTeam_right,title,kk mega basket,0.4367910325527191
+PoliticalParty_left.csv,title,tripura hill people's party,BasketballTeam_right,title,p.a.o.k. bc,0.4359903931617737
+PoliticalParty_left.csv,title,siumut,BasketballTeam_right,title,treviso basket,0.435771644115448
+PoliticalParty_left.csv,title,islamic front for the liberation of bahrain,BasketballTeam_right,title,fubon braves basketball team,0.43447020649909973
+PoliticalParty_left.csv,title,the liberals (greece),BasketballTeam_right,title,gymnastikos s. larissas b.c.,0.4328787922859192
+PoliticalParty_left.csv,title,independent democratic serb party,BasketballTeam_right,title,galatasaray wheelchair basketball team,0.432794988155365
+PoliticalParty_left.csv,title,lithuanian national union,BasketballTeam_right,title,galatasaray medical park (women's basketball),0.43081390857696533
+PoliticalParty_left.csv,title,rodrigues movement,BasketballTeam_right,title,c.d. primeiro de agosto (basketball),0.43075084686279297
+PoliticalParty_left.csv,title,march 14 alliance,BasketballTeam_right,title,al rayan sc basketball team,0.4298993945121765
+PoliticalParty_left.csv,title,guadeloupe communist party,BasketballTeam_right,title,gigantes de carolina (men's basketball),0.4290764331817627
+PoliticalParty_left.csv,title,democratic governors association,BasketballTeam_right,title,delaware 87ers,0.42842337489128113
+PoliticalParty_left.csv,title,left revolutionary front (portugal),BasketballTeam_right,title,fc porto (basketball),0.42686933279037476
+PoliticalParty_left.csv,title,blaenau gwent people's voice,BasketballTeam_right,title,logan thunder (wnbl),0.41969233751296997
+PoliticalParty_left.csv,title,green party taiwan,BasketballTeam_right,title,fujian sturgeons,0.41919201612472534
+PoliticalParty_left.csv,title,slovene union,BasketballTeam_right,title,galatasaray s.k. (men's basketball),0.4177688956260681
+PoliticalParty_left.csv,title,jubilee alliance,BasketballTeam_right,title,guildford heat,0.4177076816558838
+PoliticalParty_left.csv,title,egyptian renaissance party,BasketballTeam_right,title,olympiada patras bc,0.417117178440094
+PoliticalParty_left.csv,title,albanian alternative,BasketballTeam_right,title,cs otopeni (basketball),0.4163745045661926
+PoliticalParty_left.csv,title,cape party,BasketballTeam_right,title,ayrshire tornadoes,0.41166365146636963
+PoliticalParty_left.csv,title,alaskan independence party,BasketballTeam_right,title,bristol flyers,0.4108164310455322
+PoliticalParty_left.csv,title,historical left,BasketballTeam_right,title,ment b.c.,0.40792179107666016
+PoliticalParty_left.csv,title,shas,BasketballTeam_right,title,gent hawks,0.4068508744239807
+PoliticalParty_left.csv,title,united left front (1967),BasketballTeam_right,title,ael 1964 b.c.,0.40287959575653076
+PoliticalParty_left.csv,title,occitan party,BasketballTeam_right,title,peramatos ermis b.c.,0.4015333652496338
+PoliticalParty_left.csv,title,federation of independents,BasketballTeam_right,title,fubon braves,0.3982863426208496
+PoliticalParty_left.csv,title,broad front (uruguay),BasketballTeam_right,title,mens sana 1871 basket,0.3980543613433838
+PoliticalParty_left.csv,title,jamiat ulema-e-islam (f),BasketballTeam_right,title,jalaa sc (men's basketball),0.39769020676612854
+PoliticalParty_left.csv,title,liberal party of new york,BasketballTeam_right,title,brooklyn kings (basketball),0.39363038539886475
+PoliticalParty_left.csv,title,together 2014,BasketballTeam_right,title,bunbury slammers,0.392162948846817
+PoliticalParty_left.csv,title,democratic renewal (lebanon),BasketballTeam_right,title,rethymno cretan kings b.c.,0.3866862952709198
+PoliticalParty_left.csv,title,derwentside independents,BasketballTeam_right,title,dumbarton dodgers,0.3806496262550354
+PoliticalParty_left.csv,title,cameroonian union,BasketballTeam_right,title,charlotte hornets,0.35561299324035645
+PoliticalParty_left.csv,title,all pakistan muslim league,BasketballTeam_right,title,austin spurs,0.3083633482456207

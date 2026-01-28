@@ -1,0 +1,11 @@
+{
+  "table_name": "UnitOfWork_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 2483,
+  "unique_values": 2483,
+  "processed_values": 2483,
+  "embedding_dim": 768,
+  "processing_time": 1.4232861995697021,
+  "file_path": "datasets/autofj_join_benchmark/datalake/UnitOfWork_left.csv"
+}

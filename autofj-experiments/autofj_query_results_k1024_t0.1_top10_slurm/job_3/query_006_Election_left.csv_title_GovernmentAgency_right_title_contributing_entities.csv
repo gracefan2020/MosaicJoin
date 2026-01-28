@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Election_left.csv,title,"liberian general election, 2005",GovernmentAgency_right,title,national elections commission (liberia),0.9027416706085205
+Election_left.csv,title,"south korean local elections, 2010",GovernmentAgency_right,title,national election commission (south korea),0.8615564107894897
+Election_left.csv,title,"puerto rican general election, 2008",GovernmentAgency_right,title,state elections commission of puerto rico,0.861017644405365
+Election_left.csv,title,"albanian parliamentary election, 2013",GovernmentAgency_right,title,central election commission (albania),0.8472535610198975
+Election_left.csv,title,"bangladeshi general election, 2008",GovernmentAgency_right,title,election commission bangladesh,0.8335038423538208
+Election_left.csv,title,"swedish general election, 1994",GovernmentAgency_right,title,election authority (sweden),0.8082747459411621
+Election_left.csv,title,"ukrainian presidential election, 2010",GovernmentAgency_right,title,central election commission (ukraine),0.7999244332313538
+Election_left.csv,title,"elections to the corts of castile-la mancha, 2011",GovernmentAgency_right,title,regional government of castile-la mancha,0.794011652469635
+Election_left.csv,title,"republic of china municipal elections, 2002",GovernmentAgency_right,title,central election commission (taiwan),0.7615761756896973
+Election_left.csv,title,"montenegrin presidential election, 2013",GovernmentAgency_right,title,ministry of foreign affairs and european integration of montenegro,0.7560408115386963
+Election_left.csv,title,"andalusian parliamentary election, 2004",GovernmentAgency_right,title,andalusian autonomous government,0.7552517652511597
+Election_left.csv,title,"iraqi kurdistan presidential election, 2009",GovernmentAgency_right,title,asayish (kurdistan regional government),0.7447221279144287
+Election_left.csv,title,"burmese general election, 2010",GovernmentAgency_right,title,ministry of information (myanmar),0.7274942398071289
+Election_left.csv,title,"macedonian parliamentary election, 1998",GovernmentAgency_right,title,ministry of macedonia and thrace,0.7231248617172241
+Election_left.csv,title,"south african general election, 1943",GovernmentAgency_right,title,electoral commission of south africa,0.7199900150299072
+Election_left.csv,title,"andalusian parliamentary election, 2000",GovernmentAgency_right,title,regional government of andalusia,0.7098901271820068
+Election_left.csv,title,"pennsylvania state treasurer election, 2008",GovernmentAgency_right,title,michigan state treasurer,0.6983534693717957
+Election_left.csv,title,"agriculture commissioner of florida general election, 1994",GovernmentAgency_right,title,department of agriculture and water resources,0.6894811391830444
+Election_left.csv,title,"cambodian parliamentary election, 2008",GovernmentAgency_right,title,ministry of national defense (cambodia),0.6854091286659241
+Election_left.csv,title,"yemeni presidential election, 2006",GovernmentAgency_right,title,yemeni women's national committee,0.6814876794815063
+Election_left.csv,title,"mauritanian parliamentary election, 2006",GovernmentAgency_right,title,ministry of the interior (mauritania),0.6781026124954224
+Election_left.csv,title,"iraqi parliamentary election, december 2005",GovernmentAgency_right,title,national communications and media commission of iraq,0.6747040748596191
+Election_left.csv,title,"yukon general election, 2006",GovernmentAgency_right,title,indigenous and northern affairs canada,0.6731882095336914
+Election_left.csv,title,"albanian parliamentary election, 2009",GovernmentAgency_right,title,"ministry of labor, social affairs, and equal opportunities (albania)",0.6727782487869263
+Election_left.csv,title,"afghan parliamentary election, 2010",GovernmentAgency_right,title,ministry of energy and water (afghanistan),0.6679110527038574
+Election_left.csv,title,"south korean presidential election, 2002",GovernmentAgency_right,title,ministry of foreign affairs (south korea),0.6646301746368408
+Election_left.csv,title,"polish parliamentary election, 2007",GovernmentAgency_right,title,ministry of the interior and administration (poland),0.6645805835723877
+Election_left.csv,title,"somaliland presidential election, 2010",GovernmentAgency_right,title,ministry of education and culture (somalia),0.6587609052658081
+Election_left.csv,title,"new south wales state election campaign, 2007",GovernmentAgency_right,title,aboriginal affairs nsw,0.6578212976455688
+Election_left.csv,title,"czech legislative election, 2006",GovernmentAgency_right,title,supreme control office of the czech republic,0.657584547996521
+Election_left.csv,title,"popular democratic party of puerto rico primaries, 2003",GovernmentAgency_right,title,puerto rico civil rights commission,0.6560739278793335
+Election_left.csv,title,"macedonian presidential election, 2009",GovernmentAgency_right,title,general secretariat for macedonia and thrace,0.6528143882751465
+Election_left.csv,title,"elections to the madrid assembly, 2011",GovernmentAgency_right,title,ministry of economy and competitiveness (spain),0.6519058346748352
+Election_left.csv,title,"egyptian parliamentary election, 2010",GovernmentAgency_right,title,egyptian homeland security,0.6501888036727905
+Election_left.csv,title,"argentine general election, 2003",GovernmentAgency_right,title,ministry of economy and public finances (argentina),0.6492109894752502
+Election_left.csv,title,"pakistani general election, 2008",GovernmentAgency_right,title,pakistan national security council,0.6461546421051025
+Election_left.csv,title,"georgian presidential election, 2008",GovernmentAgency_right,title,state ministry for reconciliation and civic equality of georgia,0.6446936130523682
+Election_left.csv,title,"slovenian parliamentary election, 2011",GovernmentAgency_right,title,council of ministers of the hungarian people's republic,0.6407817602157593
+Election_left.csv,title,"cambodian constituent assembly election, 1993",GovernmentAgency_right,title,ministry of finance and economy (cambodia),0.6381111145019531
+Election_left.csv,title,"puerto rico gubernatorial election, 2008",GovernmentAgency_right,title,office of management and budget of puerto rico,0.6369502544403076
+Election_left.csv,title,"armenian presidential election, 2008",GovernmentAgency_right,title,presidential administration of azerbaijan,0.6365997791290283
+Election_left.csv,title,"california superintendent of public instruction election, 2002",GovernmentAgency_right,title,secretariat of public education,0.6348462104797363
+Election_left.csv,title,"maltese general election, 2008",GovernmentAgency_right,title,ministry for foreign affairs (malta),0.6339812874794006
+Election_left.csv,title,"portuguese local election, 2013",GovernmentAgency_right,title,ministry of economy (portugal),0.6334295868873596
+Election_left.csv,title,"australian capital territory general election, 2012",GovernmentAgency_right,title,office of local government (new south wales),0.6331360340118408
+Election_left.csv,title,"ontario general election, 2011",GovernmentAgency_right,title,global affairs canada,0.6302130222320557
+Election_left.csv,title,"ivano-frankivsk oblast local election, 2010",GovernmentAgency_right,title,ministry of social policy of ukraine,0.6254793405532837
+Election_left.csv,title,"botany by-election, 2011",GovernmentAgency_right,title,department of agriculture (australia),0.6246941089630127
+Election_left.csv,title,"republika srpska general election, 2006",GovernmentAgency_right,title,ministry of interior (republika srpska),0.6237138509750366
+Election_left.csv,title,"popular democratic party of puerto rico primaries, 2012",GovernmentAgency_right,title,civil rights commission (puerto rico),0.6213181018829346
+Election_left.csv,title,"mauritian general election, 2005",GovernmentAgency_right,title,"ministry of presidency, civil service and justice",0.6212387084960938
+Election_left.csv,title,"ghanaian general election, 2008",GovernmentAgency_right,title,ghana standards authority,0.6200977563858032
+Election_left.csv,title,"bolivian presidential election, 2005",GovernmentAgency_right,title,ministry of cultures (bolivia),0.617928147315979
+Election_left.csv,title,"czech legislative election, 2002",GovernmentAgency_right,title,supreme audit office (czech republic),0.6177041530609131
+Election_left.csv,title,"washington attorney general election, 2008",GovernmentAgency_right,title,washington state liquor and cannabis board,0.6170945763587952
+Election_left.csv,title,"oklahoma gubernatorial election, 2014",GovernmentAgency_right,title,oklahoma state fire marshal,0.6139237880706787
+Election_left.csv,title,"pennsylvania state treasurer election, 2004",GovernmentAgency_right,title,pennsylvania department of human services,0.612019956111908
+Election_left.csv,title,"bosnia and herzegovina general election, 2010",GovernmentAgency_right,title,ministry of interior affairs and public administration (montenegro),0.6057817935943604
+Election_left.csv,title,"faroese parliamentary election, 2011",GovernmentAgency_right,title,"ministry of government administration, reform and church affairs (norway)",0.6041423082351685
+Election_left.csv,title,next singaporean general election,GovernmentAgency_right,title,sport singapore,0.6033259034156799
+Election_left.csv,title,"liberal party of australia leadership spill, 2009",GovernmentAgency_right,title,department of the premier and cabinet (queensland),0.6032460927963257
+Election_left.csv,title,"north korean parliamentary election, 1962",GovernmentAgency_right,title,ministry of national defense (south korea),0.6022151112556458
+Election_left.csv,title,28th saskatchewan general election,GovernmentAgency_right,title,environment and climate change canada,0.6015336513519287
+Election_left.csv,title,"japanese house of councillors election, 2004",GovernmentAgency_right,title,"ministry of land, infrastructure, transport and tourism (japan)",0.6008901000022888
+Election_left.csv,title,"united nations security council election, 2005",GovernmentAgency_right,title,national security council (pakistan),0.6008358001708984
+Election_left.csv,title,"burmese general election, 1932",GovernmentAgency_right,title,"ministry of labour, employment and social security (myanmar)",0.6007024049758911
+Election_left.csv,title,"iranian legislative election, 2008",GovernmentAgency_right,title,ministry of information and communications technology of iran,0.5993615388870239
+Election_left.csv,title,"ninawa governorate council election, 2005",GovernmentAgency_right,title,ministry of tribal affairs,0.5899987816810608
+Election_left.csv,title,"victorian state election, 1985",GovernmentAgency_right,title,events nsw,0.5895299911499023
+Election_left.csv,title,"iranian presidential election, 2013",GovernmentAgency_right,title,ministry of communications and information technology (iran),0.5875478982925415
+Election_left.csv,title,"puerto rico republican primary, 2012",GovernmentAgency_right,title,puerto rico treasury department,0.5873541235923767
+Election_left.csv,title,"finnish presidential election, 1994",GovernmentAgency_right,title,state police (finland),0.5861625671386719
+Election_left.csv,title,"singaporean general election, 1991",GovernmentAgency_right,title,state courts of singapore,0.5835438370704651
+Election_left.csv,title,"northern ireland assembly election, 2011",GovernmentAgency_right,title,health board (ireland),0.5827130079269409
+Election_left.csv,title,"solomon islands general election, 2010",GovernmentAgency_right,title,new zealand ministry of justice,0.5823040008544922
+Election_left.csv,title,"diyala governorate election, 2009",GovernmentAgency_right,title,ministry for development of north eastern region,0.5821461081504822
+Election_left.csv,title,"london assembly election, 2012",GovernmentAgency_right,title,"ministry of labour, solidarity and social security",0.5810302495956421
+Election_left.csv,title,"german federal election, march 1933",GovernmentAgency_right,title,reich ministry of public enlightenment and propaganda,0.5790795087814331
+Election_left.csv,title,"polish legislative election, 1935",GovernmentAgency_right,title,supreme audit office (poland),0.5788910388946533
+Election_left.csv,title,"manila local elections, 2010",GovernmentAgency_right,title,philippine statistics authority,0.5772967338562012
+Election_left.csv,title,"soviet union legislative election, 1984",GovernmentAgency_right,title,ministry of the means of communication (soviet union),0.5772645473480225
+Election_left.csv,title,"togolese presidential election, 2010",GovernmentAgency_right,title,ministry of east african cooperation,0.5763939619064331
+Election_left.csv,title,"gujarat legislative assembly election, 2007",GovernmentAgency_right,title,national development council (india),0.5751924514770508
+Election_left.csv,title,"danish parliamentary election, 1979",GovernmentAgency_right,title,tax ministry of denmark,0.5750425457954407
+Election_left.csv,title,"peoria, illinois city council election, 2001",GovernmentAgency_right,title,district department of transportation,0.5749961137771606
+Election_left.csv,title,"virginia gubernatorial election, 2013",GovernmentAgency_right,title,virginia lottery,0.5746054649353027
+Election_left.csv,title,"malaysian general election, 1982",GovernmentAgency_right,title,ministry of federal territories (malaysia),0.5741724967956543
+Election_left.csv,title,"german election, november 1933",GovernmentAgency_right,title,reichs ministry of public enlightenment and propaganda,0.5726460218429565
+Election_left.csv,title,"turkish local elections, 2004",GovernmentAgency_right,title,ministry of environment and urban planning (turkey),0.572155237197876
+Election_left.csv,title,"manila local elections, 2013",GovernmentAgency_right,title,national police commission (philippines),0.5695661306381226
+Election_left.csv,title,"california state controller election, 2010",GovernmentAgency_right,title,california division of boating and waterways,0.5685248374938965
+Election_left.csv,title,"meghalaya legislative assembly election, 2013",GovernmentAgency_right,title,ministry of civil affairs,0.5684717893600464
+Election_left.csv,title,"medway council election, 2011",GovernmentAgency_right,title,"ministry of health, labour, and welfare",0.5684499144554138
+Election_left.csv,title,"zambales local elections, 2013",GovernmentAgency_right,title,"ministry of cooperatives, labour, and social welfare",0.5659644603729248
+Election_left.csv,title,"south korean presidential election, 1979",GovernmentAgency_right,title,ministry of justice (south korea),0.5636811256408691
+Election_left.csv,title,"toronto municipal election, 2010",GovernmentAgency_right,title,"ontario ministry of tourism, culture and sport",0.5635091662406921
+Election_left.csv,title,"green party of england and wales leadership election, 2012",GovernmentAgency_right,title,ministry of the environment and climate change,0.563389778137207
+Election_left.csv,title,"tamil nadu legislative assembly election, 1989",GovernmentAgency_right,title,list of tamil nadu governmental organisations,0.5632055401802063
+Election_left.csv,title,"indian general election in mizoram, 2009",GovernmentAgency_right,title,ministry of security and public administration,0.5628852844238281
+Election_left.csv,title,"philippine house of representatives elections, 1998",GovernmentAgency_right,title,department of agrarian reform (philippines),0.5626012086868286
+Election_left.csv,title,"ivano-frankivsk oblast local election, 2006",GovernmentAgency_right,title,high council of justice (ukraine),0.5622051954269409
+Election_left.csv,title,"marilao local elections, 2010",GovernmentAgency_right,title,ministry of urban development,0.5605349540710449
+Election_left.csv,title,"iranian legislative election, 2000",GovernmentAgency_right,title,social security organization (iran),0.5583372116088867
+Election_left.csv,title,"thai general election, 1995",GovernmentAgency_right,title,royal society of thailand,0.5573724508285522
+Election_left.csv,title,"michigan gubernatorial election, 2010",GovernmentAgency_right,title,michigan department of health and human services,0.5556633472442627
+Election_left.csv,title,"estonian parliamentary election, 2007",GovernmentAgency_right,title,estonian internal security service,0.5549294948577881
+Election_left.csv,title,"kansas gubernatorial election, 2014",GovernmentAgency_right,title,"kansas department of wildlife, parks and tourism",0.5546411275863647
+Election_left.csv,title,"portuguese legislative election, 1938",GovernmentAgency_right,title,ministry of national defense (portugal),0.5540910959243774
+Election_left.csv,title,"gedling council election, 1999",GovernmentAgency_right,title,norwegian directorate of public construction and property,0.5540732741355896
+Election_left.csv,title,"madras presidency legislative assembly election, 1946",GovernmentAgency_right,title,ministry of water and irrigation,0.5539463758468628
+Election_left.csv,title,"elections to the aragonese corts, 1991",GovernmentAgency_right,title,generalitat de catalunya,0.5535704493522644
+Election_left.csv,title,"st. catharines municipal election, 2006",GovernmentAgency_right,title,employment and social development canada,0.553147554397583
+Election_left.csv,title,"united states senate election in new mexico, 2008",GovernmentAgency_right,title,"new mexico energy, minerals and natural resources department",0.5525949001312256
+Election_left.csv,title,"democratic party (hk) leadership election, 2012",GovernmentAgency_right,title,ministry of justice (taiwan),0.5522801876068115
+Election_left.csv,title,"singaporean general election, 1984",GovernmentAgency_right,title,people's association (singapore),0.5510776042938232
+Election_left.csv,title,"indonesian presidential election, 2004",GovernmentAgency_right,title,ministry of health (indonesia),0.5505759716033936
+Election_left.csv,title,"kerala state legislative assembly election, 2006",GovernmentAgency_right,title,ministry of drinking water and sanitation,0.5494318008422852
+Election_left.csv,title,"botswana general election, 2004",GovernmentAgency_right,title,ministry of social justice and empowerment,0.5480422973632812
+Election_left.csv,title,"democratic progressive party (taiwan) presidential primary, 2008",GovernmentAgency_right,title,ministry of foreign affairs (taiwan),0.5471662282943726
+Election_left.csv,title,"turkish general election, 1999",GovernmentAgency_right,title,"ministry of transport, maritime and communication (turkey)",0.5470344424247742
+Election_left.csv,title,elections in uttarakhand,GovernmentAgency_right,title,ministry of agriculture & farmers welfare,0.5454795360565186
+Election_left.csv,title,"york council election, 2007",GovernmentAgency_right,title,public transport commission,0.5444018244743347
+Election_left.csv,title,"united states senate election in oklahoma, 2008",GovernmentAgency_right,title,oklahoma office of state finance,0.5440810918807983
+Election_left.csv,title,"european parliament election, 1996 (finland)",GovernmentAgency_right,title,"federal ministry for europe, integration and foreign affairs",0.5437746644020081
+Election_left.csv,title,"new york city mayoral election, 2009",GovernmentAgency_right,title,nyc health + hospitals,0.5431925654411316
+Election_left.csv,title,"brazilian general election, 2002",GovernmentAgency_right,title,"ministry of science, technology and innovation (brazil)",0.5425420999526978
+Election_left.csv,title,"quezon city local elections, 2013",GovernmentAgency_right,title,land management bureau (philippines),0.5423082113265991
+Election_left.csv,title,"texas gubernatorial election, 2006",GovernmentAgency_right,title,texas commission on law enforcement,0.5421489477157593
+Election_left.csv,title,"california secretary of state election, 2006",GovernmentAgency_right,title,california department of fish and game,0.5415283441543579
+Election_left.csv,title,"azores regional election, 1996",GovernmentAgency_right,title,ministry of internal administration (portugal),0.5401760339736938
+Election_left.csv,title,"jamaican general election, 2011",GovernmentAgency_right,title,ministry of justice (sri lanka),0.539505124092102
+Election_left.csv,title,"icelandic parliamentary election, 1995",GovernmentAgency_right,title,iceland geosurvey,0.5394929647445679
+Election_left.csv,title,"colorado gubernatorial election, 2006",GovernmentAgency_right,title,colorado state parks,0.5394755601882935
+Election_left.csv,title,"sedgefield by-election, 2007",GovernmentAgency_right,title,ministry of land and land development,0.5389977693557739
+Election_left.csv,title,"likud leadership election, 2012",GovernmentAgency_right,title,ministry of new and renewable energy,0.5386097431182861
+Election_left.csv,title,"western australian state election, 2001",GovernmentAgency_right,title,department of justice (new south wales),0.5381579995155334
+Election_left.csv,title,"north carolina lieutenant gubernatorial election, 2004",GovernmentAgency_right,title,north carolina department of natural and cultural resources,0.5377839803695679
+Election_left.csv,title,"indian general election in national capital territory of delhi, 2009",GovernmentAgency_right,title,"ministry of information, broadcasting and national heritage (pakistan)",0.5374596118927002
+Election_left.csv,title,"rio grande do sul gubernatorial election, 2010",GovernmentAgency_right,title,corporaciã³n nacional forestal,0.5363215804100037
+Election_left.csv,title,"iraqi parliamentary election, 2000",GovernmentAgency_right,title,ministry of industry (iraq),0.5359012484550476
+Election_left.csv,title,"turkish presidential election, 2014",GovernmentAgency_right,title,ministry of environment and urbanism (turkey),0.535415768623352
+Election_left.csv,title,"south korean presidential election, 1981",GovernmentAgency_right,title,ministry of the interior (south korea),0.5351963639259338
+Election_left.csv,title,"colombian presidential election, 1982",GovernmentAgency_right,title,administrative department of public service (colombia),0.5345644950866699
+Election_left.csv,title,"russian legislative election, 1990",GovernmentAgency_right,title,ministry of telecom and mass communications of the russian federation,0.5337902307510376
+Election_left.csv,title,"european parliament election, 2009 (netherlands)",GovernmentAgency_right,title,ministry of infrastructure and the environment (netherlands),0.5336484909057617
+Election_left.csv,title,"louisiana attorney general election, 2011",GovernmentAgency_right,title,department of justice and correctional services,0.5329566597938538
+Election_left.csv,title,"transnistrian legislative election, 2005",GovernmentAgency_right,title,"ministry of information, communications and the arts",0.5327816605567932
+Election_left.csv,title,"united states senate election in georgia, 2004",GovernmentAgency_right,title,national statistics office of georgia,0.531584620475769
+Election_left.csv,title,"moroccan parliamentary election, 2011",GovernmentAgency_right,title,office of national statistics (algeria),0.5308282375335693
+Election_left.csv,title,"saxony-anhalt state election, 2011",GovernmentAgency_right,title,federal ministry of food and agriculture (germany),0.5299773812294006
+Election_left.csv,title,"washington state senate elections, 2008",GovernmentAgency_right,title,washington state department of natural resources,0.5292447805404663
+Election_left.csv,title,"scottish local regional elections, 1982",GovernmentAgency_right,title,scottish courts and tribunals service,0.5286200046539307
+Election_left.csv,title,"mongolian presidential election, 2001",GovernmentAgency_right,title,ministry of communications and information technology (afghanistan),0.5282454490661621
+Election_left.csv,title,"norwegian parliamentary election, 1969",GovernmentAgency_right,title,norwegian communications authority,0.5259231328964233
+Election_left.csv,title,"united nations security council election, 1987",GovernmentAgency_right,title,secretariat of national defense,0.5258616805076599
+Election_left.csv,title,"alberta municipal elections, 2013",GovernmentAgency_right,title,public services and procurement canada,0.5250668525695801
+Election_left.csv,title,"greenlandic parliamentary election, 2013",GovernmentAgency_right,title,"ministry of children, equality and social inclusion (norway)",0.52402663230896
+Election_left.csv,title,"al muthanna governorate election, 2009",GovernmentAgency_right,title,homeland security (egypt),0.5234259366989136
+Election_left.csv,title,"kazakhstani presidential election, 1991",GovernmentAgency_right,title,national archive department of azerbaijan,0.5228714942932129
+Election_left.csv,title,"zambales' 2nd legislative district special election, 2012",GovernmentAgency_right,title,ministry of planning and infrastructure,0.5221870541572571
+Election_left.csv,title,"california's 50th congressional district special election, 2006",GovernmentAgency_right,title,covered california,0.5210636854171753
+Election_left.csv,title,"northern territory general election, 1990",GovernmentAgency_right,title,new south wales ministry for police and emergency services,0.5209844708442688
+Election_left.csv,title,"elections to the extremaduran assembly, 2011",GovernmentAgency_right,title,"ministry of citizenship, immigration and international trade",0.5195201635360718
+Election_left.csv,title,"finnish presidential election, 1962",GovernmentAgency_right,title,kela (finnish institution),0.5191071629524231
+Election_left.csv,title,"georgia gubernatorial election, 1970",GovernmentAgency_right,title,ministry of justice of georgia,0.5183187127113342
+Election_left.csv,title,"norwegian parliamentary election, 1957",GovernmentAgency_right,title,research council of norway,0.5174438953399658
+Election_left.csv,title,"tonbridge and malling borough council election, 2011",GovernmentAgency_right,title,office of rail and road,0.5168657302856445
+Election_left.csv,title,"finnish presidential election, 1950",GovernmentAgency_right,title,population register centre (finland),0.516863226890564
+Election_left.csv,title,"north korean parliamentary election, 1972",GovernmentAgency_right,title,ministry of education (south korea),0.5161213874816895
+Election_left.csv,title,"babil governorate election, 2009",GovernmentAgency_right,title,state company of iraq ports,0.5156421065330505
+Election_left.csv,title,"singaporean general election, 1959",GovernmentAgency_right,title,subordinate courts of singapore,0.5156376957893372
+Election_left.csv,title,"ontario general election, 1995",GovernmentAgency_right,title,information and privacy commissioner of ontario,0.5153617262840271
+Election_left.csv,title,"liechtenstein parliamentary election, 2009",GovernmentAgency_right,title,federal ministry of the interior (austria),0.5143925547599792
+Election_left.csv,title,"german federal election, 1928",GovernmentAgency_right,title,reich main security office,0.5135713219642639
+Election_left.csv,title,"british national party leadership election, 2011",GovernmentAgency_right,title,ministry of social policy,0.5126593708992004
+Election_left.csv,title,"bulgarian parliamentary election, 2009",GovernmentAgency_right,title,state ministry for euro-atlantic integration of georgia,0.5125443339347839
+Election_left.csv,title,"finnish presidential election, 1988",GovernmentAgency_right,title,national bureau of investigation (finland),0.5119277834892273
+Election_left.csv,title,"guamanian general election, 2006",GovernmentAgency_right,title,inspector general of puerto rico,0.5117413401603699
+Election_left.csv,title,"brazilian parliamentary election, 2010",GovernmentAgency_right,title,"ministry of economy, innovation and development (portugal)",0.5114767551422119
+Election_left.csv,title,"zimbabwean parliamentary election, 2005",GovernmentAgency_right,title,gauteng department of agriculture and rural development,0.5105834603309631
+Election_left.csv,title,"indian general election in sikkim, 2009",GovernmentAgency_right,title,"ministry of communication, science and technology",0.5097155570983887
+Election_left.csv,title,"new zealand general election, 1969",GovernmentAgency_right,title,nz on air,0.5069335103034973
+Election_left.csv,title,"indian general election in dadra & nagar haveli, 2009",GovernmentAgency_right,title,ministry of states and frontier regions (pakistan),0.5065793991088867
+Election_left.csv,title,"united states senate election in oklahoma, 2014",GovernmentAgency_right,title,oklahoma chief medical examiner,0.5064989328384399
+Election_left.csv,title,"indian general election in gujarat, 2009",GovernmentAgency_right,title,ministry of health and family welfare,0.5059491395950317
+Election_left.csv,title,"minnesota secretary of state election, 2010",GovernmentAgency_right,title,michigan department of agriculture and rural development,0.5058965682983398
+Election_left.csv,title,"pakistani presidential election, 1965",GovernmentAgency_right,title,pakistan ministry of defence,0.5047440528869629
+Election_left.csv,title,"irish presidential election, 2011",GovernmentAgency_right,title,directorate of intelligence (ireland),0.5046882033348083
+Election_left.csv,title,"ceylonese parliamentary election, 1956",GovernmentAgency_right,title,ministry of external affairs (sri lanka),0.5037378668785095
+Election_left.csv,title,"rizal's 1st legislative district special election, 1994",GovernmentAgency_right,title,superintendency of residential public services (colombia),0.5035392642021179
+Election_left.csv,title,"honduran general election, 2013",GovernmentAgency_right,title,ministry of citizenship and immigration,0.5029502511024475
+Election_left.csv,title,"kosovan parliamentary election, 2010",GovernmentAgency_right,title,ministry of energy and coal mining (ukraine),0.5026447772979736
+Election_left.csv,title,"bihar legislative assembly election, 2000",GovernmentAgency_right,title,"ministry of agriculture, forestry and rural development",0.5023144483566284
+Election_left.csv,title,"camden council election, 2006",GovernmentAgency_right,title,crime and corruption commission,0.5021432638168335
+Election_left.csv,title,"somali presidential election, 2009",GovernmentAgency_right,title,communications authority of kenya,0.5015158653259277
+Election_left.csv,title,"philippine gubernatorial elections, 2010",GovernmentAgency_right,title,government service insurance system (philippines),0.5013618469238281
+Election_left.csv,title,"egyptian parliamentary election, 1950",GovernmentAgency_right,title,ministry of petroleum (egypt),0.5012804269790649
+Election_left.csv,title,"new zealand general election, 1905",GovernmentAgency_right,title,electricity commission (new zealand),0.5011087656021118
+Election_left.csv,title,"elections to the corts valencianes, 2011",GovernmentAgency_right,title,la sociã©tã© mauritanienne des postes,0.5010178089141846
+Election_left.csv,title,"camden council election, 2010",GovernmentAgency_right,title,roads & traffic authority,0.5003772377967834

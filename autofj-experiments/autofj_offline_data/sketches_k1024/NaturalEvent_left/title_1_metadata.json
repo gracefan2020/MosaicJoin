@@ -1,0 +1,9 @@
+{
+  "table_name": "NaturalEvent_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 970,
+  "sketch_k": 970,
+  "processing_time": 0.9102609157562256,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/NaturalEvent_left/title_1.npz"
+}

@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,2009 Costa Rica earthquake,NaturalEvent_right.csv,title,2009 Papua earthquakes,0.6531

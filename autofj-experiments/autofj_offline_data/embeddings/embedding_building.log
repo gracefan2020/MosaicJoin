@@ -1,0 +1,24 @@
+2025-12-15 12:12:01,119 - OfflineEmbeddingBuilder - INFO - Discovering columns in datalake: datasets/autofj_join_benchmark/datalake
+2025-12-15 12:12:01,123 - OfflineEmbeddingBuilder - INFO - Filtering to process tables: ['Enzyme_right', 'EthnicGroup_left', 'EthnicGroup_right', 'FootballLeagueSeason_left', 'FootballLeagueSeason_right', 'FootballMatch_left', 'FootballMatch_right', 'Galaxy_left', 'Galaxy_right', 'GivenName_left', 'GivenName_right', 'GovernmentAgency_left', 'GovernmentAgency_right', 'HistoricBuilding_left', 'HistoricBuilding_right', 'Hospital_left', 'Hospital_right', 'Legislature_left', 'Legislature_right', 'Magazine_left', 'Magazine_right', 'MemberOfParliament_left', 'MemberOfParliament_right', 'Monarch_left', 'Monarch_right']
+2025-12-15 12:12:01,123 - OfflineEmbeddingBuilder - INFO - Found 25 CSV files
+2025-12-15 12:12:01,165 - OfflineEmbeddingBuilder - INFO - Discovering columns in datalake: datasets/autofj_join_benchmark/datalake
+2025-12-15 12:12:01,168 - OfflineEmbeddingBuilder - INFO - Filtering to process tables: ['Amphibian_left', 'Amphibian_right', 'ArtificialSatellite_left', 'ArtificialSatellite_right', 'Artwork_left', 'Artwork_right', 'Award_left', 'Award_right', 'BasketballTeam_left', 'BasketballTeam_right', 'Case_left', 'Case_right', 'ChristianBishop_left', 'ChristianBishop_right', 'ClericalAdministrativeRegion_left', 'ClericalAdministrativeRegion_right', 'Country_left', 'Country_right', 'Device_left', 'Device_right', 'Drug_left', 'Drug_right', 'Election_left', 'Election_right', 'Enzyme_left']
+2025-12-15 12:12:01,168 - OfflineEmbeddingBuilder - INFO - Found 25 CSV files
+2025-12-15 12:12:01,529 - OfflineEmbeddingBuilder - INFO - Discovered 50 columns across 25 tables
+2025-12-15 12:12:01,603 - OfflineEmbeddingBuilder - INFO - Discovered 50 columns across 25 tables
+2025-12-15 12:12:01,804 - OfflineEmbeddingBuilder - INFO - Discovering columns in datalake: datasets/autofj_join_benchmark/datalake
+2025-12-15 12:12:01,807 - OfflineEmbeddingBuilder - INFO - Filtering to process tables: ['SoccerClubSeason_right', 'SoccerLeague_left', 'SoccerLeague_right', 'SoccerTournament_left', 'SoccerTournament_right', 'Song_left', 'Song_right', 'SportFacility_left', 'SportFacility_right', 'SportsLeague_left', 'SportsLeague_right', 'Stadium_left', 'Stadium_right', 'TelevisionStation_left', 'TelevisionStation_right', 'TennisTournament_left', 'TennisTournament_right', 'Tournament_left', 'Tournament_right', 'UnitOfWork_left', 'UnitOfWork_right', 'Venue_left', 'Venue_right', 'Wrestler_left', 'Wrestler_right']
+2025-12-15 12:12:01,807 - OfflineEmbeddingBuilder - INFO - Found 25 CSV files
+2025-12-15 12:12:01,815 - OfflineEmbeddingBuilder - INFO - Discovering columns in datalake: datasets/autofj_join_benchmark/datalake
+2025-12-15 12:12:01,816 - OfflineEmbeddingBuilder - INFO - Filtering to process tables: ['MotorsportSeason_left', 'MotorsportSeason_right', 'Museum_left', 'Museum_right', 'NCAATeamSeason_left', 'NCAATeamSeason_right', 'NationalFootballLeagueSeason_left', 'NationalFootballLeagueSeason_right', 'NaturalEvent_left', 'NaturalEvent_right', 'Noble_left', 'Noble_right', 'PoliticalParty_left', 'PoliticalParty_right', 'Race_left', 'Race_right', 'RailwayLine_left', 'RailwayLine_right', 'Reptile_left', 'Reptile_right', 'RugbyLeague_left', 'RugbyLeague_right', 'ShoppingMall_left', 'ShoppingMall_right', 'SoccerClubSeason_left']
+2025-12-15 12:12:01,816 - OfflineEmbeddingBuilder - INFO - Found 25 CSV files
+2025-12-15 12:12:02,216 - OfflineEmbeddingBuilder - INFO - Discovered 50 columns across 25 tables
+2025-12-15 12:12:02,291 - OfflineEmbeddingBuilder - INFO - Discovered 50 columns across 25 tables
+2025-12-15 12:12:54,087 - OfflineEmbeddingBuilder - INFO - Total embedding build time: 51.3284s, Average embedding build time per column: 1.0266s
+2025-12-15 12:12:54,088 - OfflineEmbeddingBuilder - INFO - Created 50 embeddings with an average of 1367 values per column
+2025-12-15 12:12:58,510 - OfflineEmbeddingBuilder - INFO - Total embedding build time: 56.4504s, Average embedding build time per column: 1.1290s
+2025-12-15 12:12:58,570 - OfflineEmbeddingBuilder - INFO - Created 50 embeddings with an average of 1720 values per column
+2025-12-15 12:13:17,538 - OfflineEmbeddingBuilder - INFO - Total embedding build time: 74.4393s, Average embedding build time per column: 1.4888s
+2025-12-15 12:13:17,539 - OfflineEmbeddingBuilder - INFO - Created 50 embeddings with an average of 2066 values per column
+2025-12-15 12:13:20,320 - OfflineEmbeddingBuilder - INFO - Total embedding build time: 77.9689s, Average embedding build time per column: 1.5594s
+2025-12-15 12:13:20,323 - OfflineEmbeddingBuilder - INFO - Created 50 embeddings with an average of 2150 values per column

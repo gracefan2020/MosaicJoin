@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SportsLeague_left.csv,title,k league,SoccerLeague_right,title,k league,1.000000238418579
+SportsLeague_left.csv,title,championnat de france amateur 2,SoccerLeague_right,title,championnat de france amateur 2,1.0
+SportsLeague_left.csv,title,swedish football division 2,SoccerLeague_right,title,swedish football division 2,0.9999999403953552
+SportsLeague_left.csv,title,nsw state league division two,SoccerLeague_right,title,nsw state league division 2,0.9956071376800537
+SportsLeague_left.csv,title,third macedonian football league,SoccerLeague_right,title,macedonian third football league,0.9854567646980286
+SportsLeague_left.csv,title,midland football league in scotland,SoccerLeague_right,title,midland football league (scotland),0.9851894974708557
+SportsLeague_left.csv,title,omani super cup,SoccerLeague_right,title,oman super cup,0.9838939905166626
+SportsLeague_left.csv,title,2. liga (slovakia),SoccerLeague_right,title,5. liga (slovakia),0.97984778881073
+SportsLeague_left.csv,title,indoor professional football league,SoccerLeague_right,title,professional indoor football league,0.9777167439460754
+SportsLeague_left.csv,title,belgian third division,SoccerLeague_right,title,belgian fourth division,0.9765980243682861
+SportsLeague_left.csv,title,west cheshire association football league,SoccerLeague_right,title,west cheshire amateur football league,0.9742445349693298
+SportsLeague_left.csv,title,kenyan provincial league,SoccerLeague_right,title,kenyan provincial leagues,0.9702273011207581
+SportsLeague_left.csv,title,bosnia and herzegovina women's football championship,SoccerLeague_right,title,bosnian women's football championship,0.9674326181411743
+SportsLeague_left.csv,title,r-league,SoccerLeague_right,title,r league,0.9672495126724243
+SportsLeague_left.csv,title,guam men's soccer league,SoccerLeague_right,title,guam soccer league,0.9656453132629395
+SportsLeague_left.csv,title,nsw premier league,SoccerLeague_right,title,national premier leagues nsw,0.9560251235961914
+SportsLeague_left.csv,title,somalia league,SoccerLeague_right,title,somali league,0.9530286192893982
+SportsLeague_left.csv,title,welsh premier women's football league,SoccerLeague_right,title,welsh premier league (women),0.9522914886474609
+SportsLeague_left.csv,title,liga nacional de ascenso,SoccerLeague_right,title,liga de ascenso,0.9512090682983398
+SportsLeague_left.csv,title,bristol and district football league,SoccerLeague_right,title,bristol and district league,0.9506149291992188
+SportsLeague_left.csv,title,f-league,SoccerLeague_right,title,f.league,0.9502682089805603
+SportsLeague_left.csv,title,victorian state league division 1,SoccerLeague_right,title,nsw state league division 1,0.9474843144416809
+SportsLeague_left.csv,title,slovak 1.liga,SoccerLeague_right,title,i liga (slovakia),0.9459505081176758
+SportsLeague_left.csv,title,belgrade zone league,SoccerLeague_right,title,serbian zone league,0.944674015045166
+SportsLeague_left.csv,title,united counties league,SoccerLeague_right,title,united counties football league,0.94410240650177
+SportsLeague_left.csv,title,prva futsal liga,SoccerLeague_right,title,serbian prva futsal liga,0.9440364837646484
+SportsLeague_left.csv,title,andover and district football league,SoccerLeague_right,title,andover and district saturday football league,0.9431130886077881
+SportsLeague_left.csv,title,southern football league,SoccerLeague_right,title,southern combination football league,0.9374018907546997
+SportsLeague_left.csv,title,bromley and district football league,SoccerLeague_right,title,bromley and district league,0.9332373142242432
+SportsLeague_left.csv,title,slovenian republic football league,SoccerLeague_right,title,slovenian regional league,0.9322502017021179
+SportsLeague_left.csv,title,victorian premier league,SoccerLeague_right,title,national premier leagues victoria,0.928681492805481
+SportsLeague_left.csv,title,cayman islands league,SoccerLeague_right,title,cayman islands premier league,0.9276332259178162
+SportsLeague_left.csv,title,v.league (vietnam),SoccerLeague_right,title,v-league (vietnam),0.9271584153175354
+SportsLeague_left.csv,title,united indoor football,SoccerLeague_right,title,united indoor football league,0.926008939743042
+SportsLeague_left.csv,title,victorian state league division 2,SoccerLeague_right,title,northern nsw state league division 1,0.9245355129241943
+SportsLeague_left.csv,title,czech 2. liga,SoccerLeague_right,title,czech first league,0.9244887828826904
+SportsLeague_left.csv,title,professional arena soccer league,SoccerLeague_right,title,major arena soccer league,0.9229611754417419
+SportsLeague_left.csv,title,lancashire amateur league,SoccerLeague_right,title,south yorkshire amateur league,0.9227361679077148
+SportsLeague_left.csv,title,cheltenham association football league,SoccerLeague_right,title,cheltenham league,0.9224888682365417
+SportsLeague_left.csv,title,kingdom caledonian football league,SoccerLeague_right,title,kingdom caledonian amateur football association,0.9206274747848511
+SportsLeague_left.csv,title,national league 3 south west,SoccerLeague_right,title,national league south,0.9201543927192688
+SportsLeague_left.csv,title,armenian futsal premier league,SoccerLeague_right,title,azerbaijan futsal premier league,0.9192984700202942
+SportsLeague_left.csv,title,national league,SoccerLeague_right,title,national league north,0.9190825819969177
+SportsLeague_left.csv,title,calcutta premier division,SoccerLeague_right,title,calcutta football league,0.9190120697021484
+SportsLeague_left.csv,title,cyprus futsal league cup,SoccerLeague_right,title,cypriot futsal first division,0.9175716042518616
+SportsLeague_left.csv,title,u.s. virgin islands championship,SoccerLeague_right,title,british virgin islands championship,0.9173901081085205
+SportsLeague_left.csv,title,wiv provo premier league,SoccerLeague_right,title,provo premier league,0.9169125556945801
+SportsLeague_left.csv,title,"brighton, hove & district football league",SoccerLeague_right,title,"brighton, worthing & district football league",0.9168996810913086
+SportsLeague_left.csv,title,danish 1st division,SoccerLeague_right,title,norwegian first division,0.9140900373458862
+SportsLeague_left.csv,title,west australian football league,SoccerLeague_right,title,national premier leagues western australia,0.9133496880531311
+SportsLeague_left.csv,title,southern amateur football league,SoccerLeague_right,title,southern counties east football league,0.9133248329162598
+SportsLeague_left.csv,title,scottish football league first division,SoccerLeague_right,title,west of scotland super league first division,0.9126161336898804
+SportsLeague_left.csv,title,georgian superliga,SoccerLeague_right,title,georgian premier league,0.9122841358184814
+SportsLeague_left.csv,title,afghan premier league,SoccerLeague_right,title,afghan national league,0.9104554653167725
+SportsLeague_left.csv,title,cms yorkshire league,SoccerLeague_right,title,west yorkshire league,0.9091212153434753
+SportsLeague_left.csv,title,tasmanian football league,SoccerLeague_right,title,national premier leagues tasmania,0.9080972671508789
+SportsLeague_left.csv,title,qatar stars league,SoccerLeague_right,title,qatargas league,0.9056280851364136
+SportsLeague_left.csv,title,scottish junior football east region premier league,SoccerLeague_right,title,scottish premier under-19 league,0.9054734110832214
+SportsLeague_left.csv,title,northern football league (australia),SoccerLeague_right,title,national premier leagues northern nsw,0.9035383462905884
+SportsLeague_left.csv,title,scottish premiership division one,SoccerLeague_right,title,west of scotland super league premier division,0.9023221135139465
+SportsLeague_left.csv,title,southern football league (south australia),SoccerLeague_right,title,national premier leagues south australia,0.9014356136322021
+SportsLeague_left.csv,title,rugby league conference,SoccerLeague_right,title,rugby league conference east division,0.8941938877105713
+SportsLeague_left.csv,title,campeonato ecuatoriano de futbol femenino,SoccerLeague_right,title,campeonato nacional de futebol de praia,0.884080171585083
+SportsLeague_left.csv,title,bristol and suburban association football league,SoccerLeague_right,title,bristol downs football league,0.8840347528457642
+SportsLeague_left.csv,title,russian second division,SoccerLeague_right,title,russian football national league,0.881229043006897
+SportsLeague_left.csv,title,belarusian futsal premier league,SoccerLeague_right,title,czech futsal first league,0.8811138272285461
+SportsLeague_left.csv,title,nottinghamshire senior league,SoccerLeague_right,title,dorset senior league,0.8793596029281616
+SportsLeague_left.csv,title,usl premier development league,SoccerLeague_right,title,usl w-league,0.878459095954895
+SportsLeague_left.csv,title,hampshire league 2004,SoccerLeague_right,title,hampshire premier football league,0.8775443434715271
+SportsLeague_left.csv,title,swedish super league,SoccerLeague_right,title,swedish football division 1,0.8762853145599365
+SportsLeague_left.csv,title,czech fourth division,SoccerLeague_right,title,czech national football league,0.8748564720153809
+SportsLeague_left.csv,title,midlands rugby league division one,SoccerLeague_right,title,league 1 (rugby league),0.8732501268386841
+SportsLeague_left.csv,title,azerbaijani women's football championship,SoccerLeague_right,title,russian women's football championship,0.8711462616920471
+SportsLeague_left.csv,title,premier soccer league,SoccerLeague_right,title,premier development league,0.8708747625350952
+SportsLeague_left.csv,title,west lancashire football league,SoccerLeague_right,title,cheshire football league,0.8694452047348022
+SportsLeague_left.csv,title,corinthian league (football),SoccerLeague_right,title,corinthia football clubs association,0.8690925240516663
+SportsLeague_left.csv,title,midlands rugby league premier division,SoccerLeague_right,title,rugby league conference south west division,0.8684584498405457
+SportsLeague_left.csv,title,saudi first division,SoccerLeague_right,title,qatari 2nd division,0.8670274019241333
+SportsLeague_left.csv,title,saudi professional league,SoccerLeague_right,title,uae pro-league,0.8663991689682007
+SportsLeague_left.csv,title,kenyan premier league,SoccerLeague_right,title,kenyan regional leagues,0.8657498359680176
+SportsLeague_left.csv,title,welsh football league division one,SoccerLeague_right,title,rugby league conference welsh premier,0.8647587299346924
+SportsLeague_left.csv,title,israeli noar premier league,SoccerLeague_right,title,israeli noar leumit league,0.8643324375152588
+SportsLeague_left.csv,title,east merit league,SoccerLeague_right,title,east entry league,0.8640096187591553
+SportsLeague_left.csv,title,north east australian football league,SoccerLeague_right,title,national premier leagues nsw 2,0.8616365194320679
+SportsLeague_left.csv,title,albanian volleyball league (women),SoccerLeague_right,title,albanian women's national championship,0.8563446402549744
+SportsLeague_left.csv,title,portuguese volleyball supercup,SoccerLeague_right,title,portuguese handball super cup,0.8559075593948364
+SportsLeague_left.csv,title,north american league (baseball),SoccerLeague_right,title,national league (division),0.8556294441223145
+SportsLeague_left.csv,title,russian major league,SoccerLeague_right,title,russian professional football league,0.8550803661346436
+SportsLeague_left.csv,title,queensland premier rugby,SoccerLeague_right,title,national premier leagues queensland,0.8542609810829163
+SportsLeague_left.csv,title,national rugby league,SoccerLeague_right,title,scottish national league (rugby league),0.853914737701416
+SportsLeague_left.csv,title,national youth competition (rugby league),SoccerLeague_right,title,national youth league (australia),0.8517372608184814
+SportsLeague_left.csv,title,pirveli liga,SoccerLeague_right,title,umaglesi liga,0.8500195145606995
+SportsLeague_left.csv,title,first league of serbia and montenegro,SoccerLeague_right,title,croatian first football league,0.8490445613861084
+SportsLeague_left.csv,title,naia national softball championship,SoccerLeague_right,title,naia women's soccer championship,0.8488336801528931
+SportsLeague_left.csv,title,midlands junior league,SoccerLeague_right,title,surrey elite intermediate league,0.8486292362213135
+SportsLeague_left.csv,title,norwegian first division (women),SoccerLeague_right,title,norwegian second division,0.8478233218193054
+SportsLeague_left.csv,title,j.league,SoccerLeague_right,title,j3 league,0.8476909399032593
+SportsLeague_left.csv,title,national premier soccer league,SoccerLeague_right,title,national premier leagues capital football,0.8461018204689026
+SportsLeague_left.csv,title,mid wales south league,SoccerLeague_right,title,north wales championship,0.8454083204269409
+SportsLeague_left.csv,title,naia national volleyball championship,SoccerLeague_right,title,naia men's soccer championship,0.844570517539978
+SportsLeague_left.csv,title,2nd oberliga west,SoccerLeague_right,title,2. oberliga west,0.8445481657981873
+SportsLeague_left.csv,title,south wales senior league,SoccerLeague_right,title,doncaster & district senior league,0.8433927297592163
+SportsLeague_left.csv,title,scottish conference league,SoccerLeague_right,title,rugby league conference scotland division,0.8382788300514221
+SportsLeague_left.csv,title,premier league,SoccerLeague_right,title,the football league,0.8364883065223694
+SportsLeague_left.csv,title,fa national futsal league,SoccerLeague_right,title,belgian futsal division 1,0.836166501045227
+SportsLeague_left.csv,title,serbian league west,SoccerLeague_right,title,croatian second football league,0.8360824584960938
+SportsLeague_left.csv,title,scottish women's football league second division,SoccerLeague_right,title,scottish women's first division,0.8357150554656982
+SportsLeague_left.csv,title,liga acb,SoccerLeague_right,title,liga de honra,0.8345129489898682
+SportsLeague_left.csv,title,world league esport bundesliga,SoccerLeague_right,title,tvl league,0.8328869938850403
+SportsLeague_left.csv,title,federation professional league,SoccerLeague_right,title,spfl development league,0.8318054676055908
+SportsLeague_left.csv,title,ifa premiership,SoccerLeague_right,title,ffsa premier league,0.831780195236206
+SportsLeague_left.csv,title,1st. slovak national hockey league,SoccerLeague_right,title,slovak third league,0.8317410349845886
+SportsLeague_left.csv,title,korea national league,SoccerLeague_right,title,korea semi-professional football league,0.8312767744064331
+SportsLeague_left.csv,title,league of ireland first division,SoccerLeague_right,title,west cork league premier division,0.8304868936538696
+SportsLeague_left.csv,title,slovenian republic football cup,SoccerLeague_right,title,slovenian under-19 league,0.8299116492271423
+SportsLeague_left.csv,title,albanian futsal premier league,SoccerLeague_right,title,georgian futsal super league,0.8286658525466919
+SportsLeague_left.csv,title,yeovil and district league,SoccerLeague_right,title,stroud and district league,0.8284881114959717
+SportsLeague_left.csv,title,tanzanian premier league,SoccerLeague_right,title,rwandan premier league,0.8260836005210876
+SportsLeague_left.csv,title,national league 3 midlands,SoccerLeague_right,title,north gloucestershire league,0.8259440660476685
+SportsLeague_left.csv,title,l. league,SoccerLeague_right,title,mfl league,0.8258661031723022
+SportsLeague_left.csv,title,landesliga mittelrhein,SoccerLeague_right,title,oberliga mittelrhein,0.8209617137908936
+SportsLeague_left.csv,title,liga brasileira de futebol americano,SoccerLeague_right,title,liga portuguesa de futebol profissional,0.8185544013977051
+SportsLeague_left.csv,title,north east norfolk league,SoccerLeague_right,title,great yarmouth and district league,0.817975640296936
+SportsLeague_left.csv,title,goldfields football league,SoccerLeague_right,title,fao football league,0.8177777528762817
+SportsLeague_left.csv,title,ontario australian football league division 2,SoccerLeague_right,title,nsw state league,0.8171630501747131
+SportsLeague_left.csv,title,libyan second division,SoccerLeague_right,title,somali first division,0.8171431422233582
+SportsLeague_left.csv,title,moroccan football league,SoccerLeague_right,title,professional football league (algeria),0.8163425922393799
+SportsLeague_left.csv,title,mid wales football league,SoccerLeague_right,title,vale of clwyd and conwy football league,0.816303014755249
+SportsLeague_left.csv,title,national conference league,SoccerLeague_right,title,football championship of the national league,0.814635157585144
+SportsLeague_left.csv,title,danish superliga,SoccerLeague_right,title,norwegian third division,0.8139318823814392
+SportsLeague_left.csv,title,world indoor football league (2007),SoccerLeague_right,title,professional indoor football league (1998),0.8132710456848145
+SportsLeague_left.csv,title,yorkshire & humber merit league,SoccerLeague_right,title,craven and district league,0.8115464448928833
+SportsLeague_left.csv,title,honkbal hoofdklasse,SoccerLeague_right,title,svb hoofdklasse,0.8114091157913208
+SportsLeague_left.csv,title,conference league,SoccerLeague_right,title,conference premier,0.8099878430366516
+SportsLeague_left.csv,title,sussex county football league,SoccerLeague_right,title,somerset county football league,0.8095938563346863
+SportsLeague_left.csv,title,cumbria league,SoccerLeague_right,title,wessex league,0.8087979555130005
+SportsLeague_left.csv,title,kazakhstani championship,SoccerLeague_right,title,kyrgyzstan women's championship,0.8087190389633179
+SportsLeague_left.csv,title,albanian third division,SoccerLeague_right,title,macedonian second football league,0.8070188760757446
+SportsLeague_left.csv,title,premier academy league,SoccerLeague_right,title,spfl u20 league,0.8052974939346313
+SportsLeague_left.csv,title,northern amateur football league,SoccerLeague_right,title,nifl premiership,0.8043593168258667
+SportsLeague_left.csv,title,championnat de france (water polo),SoccerLeague_right,title,championnat de france amateur,0.8040374517440796
+SportsLeague_left.csv,title,iranian basketball super league,SoccerLeague_right,title,persian gulf pro league,0.8037762641906738
+SportsLeague_left.csv,title,nationalliga a (women's football),SoccerLeague_right,title,ekstraliga (women's football),0.8025078773498535
+SportsLeague_left.csv,title,iranian volleyball super league,SoccerLeague_right,title,tehran province league,0.8013031482696533
+SportsLeague_left.csv,title,cronulla-sutherland district rugby football league,SoccerLeague_right,title,yarra valley mountain district football and netball league,0.799775242805481
+SportsLeague_left.csv,title,national provincial championship,SoccerLeague_right,title,northern championship,0.7981007099151611
+SportsLeague_left.csv,title,essex senior football league,SoccerLeague_right,title,ffas senior league,0.7956559658050537
+SportsLeague_left.csv,title,malaysia fa cup,SoccerLeague_right,title,oman professional league cup,0.7951433658599854
+SportsLeague_left.csv,title,w-league,SoccerLeague_right,title,wk league,0.7950427532196045
+SportsLeague_left.csv,title,south australian amateur football league,SoccerLeague_right,title,national premier leagues nsw 3,0.7943261861801147
+SportsLeague_left.csv,title,belarusian first league,SoccerLeague_right,title,slovak fifth league,0.7924515008926392
+SportsLeague_left.csv,title,ok liga,SoccerLeague_right,title,ok league,0.7922919988632202
+SportsLeague_left.csv,title,football league fourth division,SoccerLeague_right,title,national league (english football),0.7907284498214722
+SportsLeague_left.csv,title,ok liga femenina,SoccerLeague_right,title,ligapro,0.7903987169265747
+SportsLeague_left.csv,title,north west counties football league,SoccerLeague_right,title,bath and north somerset district football league,0.7891695499420166
+SportsLeague_left.csv,title,portuguese league for professional football,SoccerLeague_right,title,port vila football league,0.788016676902771
+SportsLeague_left.csv,title,ligue 2,SoccerLeague_right,title,ligue 1 mauritania,0.7864594459533691
+SportsLeague_left.csv,title,basingstoke and district football league,SoccerLeague_right,title,bath and district league,0.7834736108779907
+SportsLeague_left.csv,title,i-league,SoccerLeague_right,title,k-league,0.7832943201065063
+SportsLeague_left.csv,title,conference league south,SoccerLeague_right,title,southern championship,0.7828258275985718
+SportsLeague_left.csv,title,a1 greek league (women's water polo),SoccerLeague_right,title,a1 ethniki women's water polo,0.7825177311897278
+SportsLeague_left.csv,title,women's football alliance,SoccerLeague_right,title,japan women's football league,0.7825121879577637
+SportsLeague_left.csv,title,major league soccer,SoccerLeague_right,title,united soccer league,0.7812243700027466
+SportsLeague_left.csv,title,pan american cup,SoccerLeague_right,title,pertiwi cup,0.7804776430130005
+SportsLeague_left.csv,title,malaysia premier league,SoccerLeague_right,title,oman professional league,0.7794094681739807
+SportsLeague_left.csv,title,dorset premier football league,SoccerLeague_right,title,gloucestershire county league,0.7792556285858154
+SportsLeague_left.csv,title,a-1 liga,SoccerLeague_right,title,v.league 1,0.7782644033432007
+SportsLeague_left.csv,title,australian football international cup,SoccerLeague_right,title,afl europe championship,0.777924120426178
+SportsLeague_left.csv,title,netball super league,SoccerLeague_right,title,alberton football netball league,0.7778546810150146
+SportsLeague_left.csv,title,swedish basketball league,SoccerLeague_right,title,division 1 (swedish football),0.7777112722396851
+SportsLeague_left.csv,title,v.league (japan),SoccerLeague_right,title,v.league 2,0.7767903804779053
+SportsLeague_left.csv,title,allan cup,SoccerLeague_right,title,wilson cup,0.7767454385757446
+SportsLeague_left.csv,title,halifax and district association football league,SoccerLeague_right,title,plymouth and west devon football league,0.7764147520065308
+SportsLeague_left.csv,title,north gwent football league,SoccerLeague_right,title,ballymena & provincial football league,0.7761956453323364
+SportsLeague_left.csv,title,malaysia fam league,SoccerLeague_right,title,fam league,0.7739123106002808
+SportsLeague_left.csv,title,kuwaiti division one,SoccerLeague_right,title,iraq division one,0.7716822028160095
+SportsLeague_left.csv,title,esso cup,SoccerLeague_right,title,subroto cup football tournament,0.7707229852676392
+SportsLeague_left.csv,title,bulgarian state football championship,SoccerLeague_right,title,macedonian first football league,0.7701318860054016
+SportsLeague_left.csv,title,brunei premier league,SoccerLeague_right,title,bangladesh football premier league,0.7696017622947693
+SportsLeague_left.csv,title,safa regional league,SoccerLeague_right,title,sknfa super league,0.7681527137756348
+SportsLeague_left.csv,title,albanian a-1 league (women),SoccerLeague_right,title,romanian superliga (women's football),0.7674045562744141
+SportsLeague_left.csv,title,island soccer league,SoccerLeague_right,title,anguillian league,0.7628363966941833
+SportsLeague_left.csv,title,liga indonesia u-23,SoccerLeague_right,title,indonesian womens football tournament,0.7620382905006409
+SportsLeague_left.csv,title,lebanese premier league,SoccerLeague_right,title,uae arabian gulf league,0.7607852220535278
+SportsLeague_left.csv,title,liga eba,SoccerLeague_right,title,gambrinus liga,0.7586352825164795
+SportsLeague_left.csv,title,naisten liiga,SoccerLeague_right,title,iv liiga,0.7585012316703796
+SportsLeague_left.csv,title,gfa league second division,SoccerLeague_right,title,gibraltar premier division,0.7583582997322083
+SportsLeague_left.csv,title,south london football alliance,SoccerLeague_right,title,thames valley premier football league,0.755805253982544
+SportsLeague_left.csv,title,malawi premier division,SoccerLeague_right,title,saint kitts premier division,0.7539739012718201
+SportsLeague_left.csv,title,fk-league,SoccerLeague_right,title,capital 1 league,0.7518342733383179
+SportsLeague_left.csv,title,southeast football league,SoccerLeague_right,title,football west state league division 1,0.7494336366653442
+SportsLeague_left.csv,title,midlands 1 east,SoccerLeague_right,title,weston super mare and district league,0.7465170621871948
+SportsLeague_left.csv,title,congo premier league,SoccerLeague_right,title,rwanda national football league,0.745046854019165
+SportsLeague_left.csv,title,south pacific championship,SoccerLeague_right,title,northern mariana championship,0.7442818880081177
+SportsLeague_left.csv,title,myanmar premier league,SoccerLeague_right,title,vietnamese national football second league,0.7417781352996826
+SportsLeague_left.csv,title,bj league,SoccerLeague_right,title,j1 league,0.741198718547821
+SportsLeague_left.csv,title,uzbekistan first league,SoccerLeague_right,title,tehran province league,0.7397646903991699
+SportsLeague_left.csv,title,combined counties football league,SoccerLeague_right,title,kenyan county leagues,0.7383402585983276
+SportsLeague_left.csv,title,cev champions league,SoccerLeague_right,title,capital league 1,0.7382171154022217
+SportsLeague_left.csv,title,china league two,SoccerLeague_right,title,j2 league,0.7382077574729919

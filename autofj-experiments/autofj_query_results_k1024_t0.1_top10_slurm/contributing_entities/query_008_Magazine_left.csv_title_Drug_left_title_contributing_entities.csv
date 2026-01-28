@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Magazine_left.csv,title,aliqtisadi,Drug_left,title,alimadol,0.7882987260818481
+Magazine_left.csv,title,cromos,Drug_left,title,crenezumab,0.7858701944351196
+Magazine_left.csv,title,cibles,Drug_left,title,cinacalcet,0.7830665111541748
+Magazine_left.csv,title,zyn!,Drug_left,title,zileuton,0.779586672782898
+Magazine_left.csv,title,zan-e rooz,Drug_left,title,rozrolimupab,0.7760003805160522
+Magazine_left.csv,title,respekt,Drug_left,title,repirinast,0.7641851902008057
+Magazine_left.csv,title,vreme zabave,Drug_left,title,vorsetuzumab mafodotin,0.7531812191009521
+Magazine_left.csv,title,aku ankka,Drug_left,title,anrukinzumab,0.7520275115966797
+Magazine_left.csv,title,akhbar al-adab,Drug_left,title,sifalimumab,0.7402394413948059
+Magazine_left.csv,title,kontakto,Drug_left,title,gevokizumab,0.7293115258216858
+Magazine_left.csv,title,znamya,Drug_left,title,motavizumab,0.7269086837768555
+Magazine_left.csv,title,marmnamarz,Drug_left,title,mogamulizumab,0.726387619972229
+Magazine_left.csv,title,vea,Drug_left,title,vedolizumab,0.7261605262756348
+Magazine_left.csv,title,okyeame,Drug_left,title,olokizumab,0.7246996164321899
+Magazine_left.csv,title,on dit,Drug_left,title,dalt,0.7225854396820068
+Magazine_left.csv,title,fmqb,Drug_left,title,fasinumab,0.7223705649375916
+Magazine_left.csv,title,moj mikro,Drug_left,title,mifamurtide,0.7219469547271729
+Magazine_left.csv,title,ribon,Drug_left,title,rosonabant,0.7199371457099915
+Magazine_left.csv,title,glasul,Drug_left,title,gliclazide,0.7179726362228394
+Magazine_left.csv,title,kerokero ace,Drug_left,title,acebutolol,0.7174069881439209
+Magazine_left.csv,title,moottori,Drug_left,title,mmai,0.7170064449310303
+Magazine_left.csv,title,zarez,Drug_left,title,efavirenz,0.7130969166755676
+Magazine_left.csv,title,nezavisne novine,Drug_left,title,nemifitide,0.7128537893295288
+Magazine_left.csv,title,nexos,Drug_left,title,nxl103,0.7067941427230835
+Magazine_left.csv,title,computer!totaal,Drug_left,title,tolrestat,0.7032490372657776
+Magazine_left.csv,title,formosa youth,Drug_left,title,formestane,0.7031042575836182
+Magazine_left.csv,title,the arbuturian,Drug_left,title,arprinocid,0.7028292417526245
+Magazine_left.csv,title,bazinama,Drug_left,title,ibalizumab,0.7024481296539307
+Magazine_left.csv,title,cs4fn,Drug_left,title,cefditoren,0.6984983682632446
+Magazine_left.csv,title,airone,Drug_left,title,aee788,0.698167085647583
+Magazine_left.csv,title,tuulilasi,Drug_left,title,tafamidis,0.6979787349700928
+Magazine_left.csv,title,ad astra (magazine),Drug_left,title,adbica,0.6969882249832153
+Magazine_left.csv,title,radcom,Drug_left,title,raltitrexed,0.6960740089416504
+Magazine_left.csv,title,photosho,Drug_left,title,picenadol,0.695827841758728
+Magazine_left.csv,title,cartacapital,Drug_left,title,carteolol,0.6924206018447876
+Magazine_left.csv,title,la semaine de suzette,Drug_left,title,sucralfate,0.6918522119522095
+Magazine_left.csv,title,cineaction,Drug_left,title,cilomilast,0.6894936561584473
+Magazine_left.csv,title,pooshesh,Drug_left,title,ponezumab,0.6891769766807556
+Magazine_left.csv,title,placar,Drug_left,title,prasugrel,0.688532829284668
+Magazine_left.csv,title,suomen kuvalehti,Drug_left,title,enavatuzumab,0.6865895390510559
+Magazine_left.csv,title,anandamela,Drug_left,title,sumanirole,0.6861801147460938
+Magazine_left.csv,title,erb-dom,Drug_left,title,erlotinib,0.6844065189361572
+Magazine_left.csv,title,prabodhanam,Drug_left,title,talsupram,0.6843365430831909
+Magazine_left.csv,title,zambak,Drug_left,title,zalutumumab,0.684074878692627
+Magazine_left.csv,title,hjemmet,Drug_left,title,hycanthone,0.683864951133728
+Magazine_left.csv,title,ogoniok,Drug_left,title,guselkumab,0.6837214231491089
+Magazine_left.csv,title,hrvatska revija,Drug_left,title,remikiren,0.6825486421585083
+Magazine_left.csv,title,politikin zabavnik,Drug_left,title,cantuzumab ravtansine,0.6824860572814941
+Magazine_left.csv,title,suomen luonto,Drug_left,title,lintuzumab,0.6822362542152405
+Magazine_left.csv,title,igromania,Drug_left,title,izonsteride,0.6806858777999878
+Magazine_left.csv,title,nakayoshi,Drug_left,title,itolizumab,0.679813027381897
+Magazine_left.csv,title,vanidades,Drug_left,title,vandetanib,0.6784385442733765
+Magazine_left.csv,title,dtest,Drug_left,title,mdat,0.6779291033744812
+Magazine_left.csv,title,krytyka polityczna,Drug_left,title,ezetimibe,0.6754363775253296
+Magazine_left.csv,title,omni (magazine),Drug_left,title,omalizumab,0.6750239133834839
+Magazine_left.csv,title,vreme,Drug_left,title,vorsetuzumab,0.6744499802589417
+Magazine_left.csv,title,quattroruote,Drug_left,title,praziquantel,0.6730624437332153
+Magazine_left.csv,title,f*ink,Drug_left,title,fusafungine,0.6707164645195007
+Magazine_left.csv,title,pentacle (magazine),Drug_left,title,penbutolol,0.6705815196037292
+Magazine_left.csv,title,kokoku hihyo,Drug_left,title,gyki-52895,0.6703693270683289
+Magazine_left.csv,title,revista de libros,Drug_left,title,repaglinide,0.668808102607727
+Magazine_left.csv,title,brum beat,Drug_left,title,brifentanil,0.6678448915481567
+Magazine_left.csv,title,391 (magazine),Drug_left,title,jwh-398,0.6659596562385559
+Magazine_left.csv,title,unish-kuri,Drug_left,title,unifiram,0.6643928289413452
+Magazine_left.csv,title,mshak,Drug_left,title,mmdma,0.6640064716339111
+Magazine_left.csv,title,el malpensante,Drug_left,title,miltefosine,0.6635255217552185
+Magazine_left.csv,title,femina (denmark),Drug_left,title,felvizumab,0.6611945629119873
+Magazine_left.csv,title,hot doc,Drug_left,title,docetaxel,0.6609823703765869
+Magazine_left.csv,title,para todos,Drug_left,title,tol101,0.6606193780899048
+Magazine_left.csv,title,nritoday,Drug_left,title,nintedanib,0.658166229724884
+Magazine_left.csv,title,cambio 16,Drug_left,title,cx614,0.6569565534591675
+Magazine_left.csv,title,familyfun,Drug_left,title,fasiplon,0.6568681001663208
+Magazine_left.csv,title,film (iranian magazine),Drug_left,title,tanezumab,0.6568527221679688
+Magazine_left.csv,title,heeb,Drug_left,title,ethchlorvynol,0.6533017158508301
+Magazine_left.csv,title,bidoun,Drug_left,title,belimumab,0.6527186632156372
+Magazine_left.csv,title,c't,Drug_left,title,ampt,0.6527062654495239
+Magazine_left.csv,title,zeit wissen,Drug_left,title,naltriben,0.6519050598144531
+Magazine_left.csv,title,a.n.a.l.o.g.,Drug_left,title,abagovomab,0.6518517732620239
+Magazine_left.csv,title,poedjangga baroe,Drug_left,title,pateclizumab,0.650210976600647
+Magazine_left.csv,title,montecristo (magazine),Drug_left,title,montelukast,0.6501752138137817
+Magazine_left.csv,title,teraz rock,Drug_left,title,toralizumab,0.6497484445571899
+Magazine_left.csv,title,semana,Drug_left,title,seletracetam,0.6492260694503784
+Magazine_left.csv,title,fyne times,Drug_left,title,fosfestrol,0.6491415500640869
+Magazine_left.csv,title,los angeles (magazine),Drug_left,title,losmapimod,0.6476544141769409
+Magazine_left.csv,title,katso,Drug_left,title,tildrakizumab,0.6471176147460938
+Magazine_left.csv,title,junon (magazine),Drug_left,title,jnj-q2,0.6454893350601196
+Magazine_left.csv,title,drita (magazine),Drug_left,title,drospirenone,0.6452758312225342
+Magazine_left.csv,title,orunodoi,Drug_left,title,noretynodrel,0.6450916528701782
+Magazine_left.csv,title,inpress,Drug_left,title,iniparib,0.644234836101532
+Magazine_left.csv,title,gamestm,Drug_left,title,srt2183,0.6431944966316223
+Magazine_left.csv,title,car and driver,Drug_left,title,carmofur,0.642099916934967
+Magazine_left.csv,title,elrad (magazine),Drug_left,title,eldelumab,0.6398974657058716
+Magazine_left.csv,title,poptimal,Drug_left,title,pemtumomab,0.6393900513648987
+Magazine_left.csv,title,inout,Drug_left,title,inclacumab,0.6382595300674438
+Magazine_left.csv,title,chitra chinta,Drug_left,title,cetilistat,0.6362372636795044
+Magazine_left.csv,title,geist (magazine),Drug_left,title,gestaclone,0.634196400642395
+Magazine_left.csv,title,oz (magazine),Drug_left,title,ozanezumab,0.6313707232475281
+Magazine_left.csv,title,swank,Drug_left,title,selank,0.6311889886856079
+Magazine_left.csv,title,lucire,Drug_left,title,ganirelix,0.6309360265731812
+Magazine_left.csv,title,argia (magazine),Drug_left,title,arbidol,0.6304782629013062
+Magazine_left.csv,title,newhorizon,Drug_left,title,nisobamate,0.6293971538543701
+Magazine_left.csv,title,der esperantist,Drug_left,title,eteplirsen,0.6292552947998047
+Magazine_left.csv,title,betsucomi,Drug_left,title,mepitiostane,0.6281383037567139
+Magazine_left.csv,title,hoog spel,Drug_left,title,spirapril,0.626829206943512
+Magazine_left.csv,title,all you,Drug_left,title,alletorphine,0.6267443895339966
+Magazine_left.csv,title,cafcaf,Drug_left,title,cpccoet,0.6266194581985474
+Magazine_left.csv,title,the strad,Drug_left,title,stamulumab,0.6260188817977905
+Magazine_left.csv,title,mundo estranho,Drug_left,title,esmolol,0.6256756782531738
+Magazine_left.csv,title,profil (magazine),Drug_left,title,fasudil,0.6254856586456299
+Magazine_left.csv,title,froots,Drug_left,title,fresolimumab,0.6254794001579285
+Magazine_left.csv,title,tilllate,Drug_left,title,ethulose,0.6229186058044434
+Magazine_left.csv,title,ems magazine,Drug_left,title,emdt,0.6226997375488281
+Magazine_left.csv,title,acadiana profile,Drug_left,title,acarbose,0.6215183734893799
+Magazine_left.csv,title,paco (magazine),Drug_left,title,bucindolol,0.6214287877082825
+Magazine_left.csv,title,evropa (magazine),Drug_left,title,elsilimomab,0.6199883222579956
+Magazine_left.csv,title,icarus (magazine),Drug_left,title,iclaprim,0.6187247037887573
+Magazine_left.csv,title,filmink,Drug_left,title,ladostigil,0.617804765701294
+Magazine_left.csv,title,y-mag,Drug_left,title,ym-348,0.6155320405960083
+Magazine_left.csv,title,croc (magazine),Drug_left,title,crofab,0.6155256032943726
+Magazine_left.csv,title,image (magazine),Drug_left,title,piclamilast,0.6154264211654663
+Magazine_left.csv,title,democratiya,Drug_left,title,dacetuzumab,0.6141198873519897
+Magazine_left.csv,title,mathrubhumi azhchappathippu,Drug_left,title,qh-ii-66,0.6135917901992798
+Magazine_left.csv,title,games-x,Drug_left,title,metanx,0.6111616492271423
+Magazine_left.csv,title,raj pharma,Drug_left,title,n-desalkylflurazepam,0.610777735710144
+Magazine_left.csv,title,kittenpants,Drug_left,title,tybamate,0.6107207536697388
+Magazine_left.csv,title,vivi (magazine),Drug_left,title,volasertib,0.6106688976287842
+Magazine_left.csv,title,granta,Drug_left,title,ty21a,0.610331654548645
+Magazine_left.csv,title,men's world,Drug_left,title,menzb,0.6094064116477966
+Magazine_left.csv,title,magazin istoric,Drug_left,title,silibinin,0.6092212796211243
+Magazine_left.csv,title,odra (magazine),Drug_left,title,odulimomab,0.6091147661209106
+Magazine_left.csv,title,avotaynu magazine,Drug_left,title,indatuximab ravtansine,0.6082440614700317
+Magazine_left.csv,title,redbook,Drug_left,title,rilotumumab,0.6079380512237549
+Magazine_left.csv,title,lifo (magazine),Drug_left,title,linifanib,0.6064904928207397
+Magazine_left.csv,title,eulenspiegel (magazine),Drug_left,title,cefmatilen,0.6062115430831909
+Magazine_left.csv,title,allgemeine bauzeitung,Drug_left,title,gestodene,0.6039727926254272
+Magazine_left.csv,title,quatro rodas,Drug_left,title,faxeladol,0.6030961871147156
+Magazine_left.csv,title,charano!,Drug_left,title,darusentan,0.6024834513664246
+Magazine_left.csv,title,clamor (magazine),Drug_left,title,clobenzepam,0.6021651029586792
+Magazine_left.csv,title,el croquis,Drug_left,title,crizotinib,0.60190749168396
+Magazine_left.csv,title,blurt (magazine),Drug_left,title,beraprost,0.6009767651557922
+Magazine_left.csv,title,zest magazine,Drug_left,title,zolmitriptan,0.6009718179702759
+Magazine_left.csv,title,squarego,Drug_left,title,gavilimomab,0.600770115852356
+Magazine_left.csv,title,7ball,Drug_left,title,p7c3,0.6007393598556519
+Magazine_left.csv,title,scrye,Drug_left,title,pyriprole,0.6005560159683228
+Magazine_left.csv,title,movmnt,Drug_left,title,moxetumomab pasudotox,0.6000252962112427
+Magazine_left.csv,title,shadis,Drug_left,title,mosapride,0.5998662710189819
+Magazine_left.csv,title,lusso (magazine),Drug_left,title,lumacaftor,0.5996065735816956
+Magazine_left.csv,title,staffrider,Drug_left,title,gw0742,0.5990819931030273
+Magazine_left.csv,title,spendere meglio,Drug_left,title,mazindol,0.5986419916152954
+Magazine_left.csv,title,arna (publication),Drug_left,title,arformoterol,0.5985032916069031
+Magazine_left.csv,title,indradhanush (magazine),Drug_left,title,idra-21,0.5976058840751648
+Magazine_left.csv,title,chatelaine (magazine),Drug_left,title,imidapril,0.5973836183547974
+Magazine_left.csv,title,mir fantastiki,Drug_left,title,lenograstim,0.5962655544281006
+Magazine_left.csv,title,acm queue,Drug_left,title,acam2000,0.5960941314697266
+Magazine_left.csv,title,mosharekat-e melli weekly,Drug_left,title,samalizumab,0.5958075523376465
+Magazine_left.csv,title,muy interesante,Drug_left,title,iopamidol,0.5947755575180054
+Magazine_left.csv,title,car craft,Drug_left,title,carisbamate,0.5945504903793335
+Magazine_left.csv,title,125 magazine,Drug_left,title,jwh-175,0.5943752527236938
+Magazine_left.csv,title,anna.aero,Drug_left,title,altropane,0.5931613445281982
+Magazine_left.csv,title,shokun,Drug_left,title,nifekalant,0.5926599502563477
+Magazine_left.csv,title,parkett,Drug_left,title,jwh-019,0.5925238132476807
+Magazine_left.csv,title,maa focus,Drug_left,title,mmda-2,0.5923833847045898
+Magazine_left.csv,title,vellinakshatram (magazine),Drug_left,title,vesamicol,0.5918251276016235
+Magazine_left.csv,title,advertising age,Drug_left,title,adhyperforin,0.5917553305625916
+Magazine_left.csv,title,falter,Drug_left,title,famprofazone,0.5916774272918701
+Magazine_left.csv,title,take 5 (magazine),Drug_left,title,5-apb,0.5911632776260376
+Magazine_left.csv,title,ritz newspaper,Drug_left,title,ritipenem,0.5906854271888733
+Magazine_left.csv,title,electron user,Drug_left,title,eth-lad,0.5903760194778442
+Magazine_left.csv,title,cineaste (magazine),Drug_left,title,ciprefadol,0.5902525186538696
+Magazine_left.csv,title,ami (magazine),Drug_left,title,ecallantide,0.5892637968063354
+Magazine_left.csv,title,televi-kun,Drug_left,title,telimomab aritox,0.5887816548347473
+Magazine_left.csv,title,mais alto,Drug_left,title,alipogene tiparvovec,0.5882211923599243
+Magazine_left.csv,title,il becco giallo,Drug_left,title,befunolol,0.5880532264709473
+Magazine_left.csv,title,koakuma ageha,Drug_left,title,enokizumab,0.5869783759117126
+Magazine_left.csv,title,mishpacha,Drug_left,title,spiraprilat,0.5865693092346191
+Magazine_left.csv,title,procycling,Drug_left,title,prosidol,0.5858675241470337
+Magazine_left.csv,title,'47,Drug_left,title,o-774,0.585829496383667
+Magazine_left.csv,title,crash (magazine),Drug_left,title,carfilzomib,0.5856212377548218
+Magazine_left.csv,title,avn (magazine),Drug_left,title,atrasentan,0.584632396697998
+Magazine_left.csv,title,sanathana sarathi (magazine),Drug_left,title,secukinumab,0.5841915011405945
+Magazine_left.csv,title,fhm (india),Drug_left,title,"bms-564,929",0.5833947658538818
+Magazine_left.csv,title,l'ordine nuovo,Drug_left,title,talimogene laherparepvec,0.583376407623291
+Magazine_left.csv,title,jasoosi digest,Drug_left,title,sacrosidase,0.582105278968811
+Magazine_left.csv,title,le charivari,Drug_left,title,cefazaflur,0.5812116861343384
+Magazine_left.csv,title,die freundin,Drug_left,title,filgrastim,0.578869104385376
+Magazine_left.csv,title,webuser,Drug_left,title,urapidil,0.5781981945037842
+Magazine_left.csv,title,macworld,Drug_left,title,bufexamac,0.5777865052223206
+Magazine_left.csv,title,le crapouillot,Drug_left,title,olcegepant,0.5773395895957947
+Magazine_left.csv,title,instyle,Drug_left,title,istradefylline,0.5766831040382385
+Magazine_left.csv,title,w (magazine),Drug_left,title,"gw-842,166x",0.5766814947128296
+Magazine_left.csv,title,utne reader,Drug_left,title,u0126,0.5766220092773438
+Magazine_left.csv,title,ray li,Drug_left,title,rolziracetam,0.5756617784500122
+Magazine_left.csv,title,monocle (satirical magazine),Drug_left,title,monoxerutin,0.5748773217201233
+Magazine_left.csv,title,berliner illustrirte zeitung,Drug_left,title,oblimersen,0.5739257335662842
+Magazine_left.csv,title,easy milano,Drug_left,title,mebroqualone,0.5737903118133545
+Magazine_left.csv,title,charlie mensuel,Drug_left,title,cabazitaxel,0.5726783275604248
+Magazine_left.csv,title,edu tech,Drug_left,title,edma,0.5724426507949829
+Magazine_left.csv,title,ram magazine,Drug_left,title,ramucirumab,0.5716434121131897
+Magazine_left.csv,title,avances magazine,Drug_left,title,ivacaftor,0.5714507102966309
+Magazine_left.csv,title,aba journal,Drug_left,title,mda-19,0.5713100433349609

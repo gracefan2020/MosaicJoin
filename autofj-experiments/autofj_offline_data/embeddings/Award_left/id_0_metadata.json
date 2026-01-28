@@ -1,0 +1,11 @@
+{
+  "table_name": "Award_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 3380,
+  "unique_values": 3380,
+  "processed_values": 3380,
+  "embedding_dim": 768,
+  "processing_time": 1.7211215496063232,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Award_left.csv"
+}

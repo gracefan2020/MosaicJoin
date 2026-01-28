@@ -1,0 +1,52 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,2008 qeshm earthquake,NaturalEvent_right,title,2008 qeshm earthquake,1.0000001192092896
+NaturalEvent_left.csv,title,1755 cape ann earthquake,NaturalEvent_right,title,1755 cape ann earthquake,1.0
+NaturalEvent_left.csv,title,2008 bandar abbas earthquake,NaturalEvent_right,title,2008 bandar abbas earthquake,1.0
+NaturalEvent_left.csv,title,2012 yangzhou earthquake,NaturalEvent_right,title,2012 yangzhou earthquake,0.9999998807907104
+NaturalEvent_left.csv,title,1953 ionian earthquake,NaturalEvent_right,title,1953 ionian earthquake,0.9999998807907104
+NaturalEvent_left.csv,title,november 2011 myanmar earthquake,NaturalEvent_right,title,2011 myanmar earthquake,0.9926635026931763
+NaturalEvent_left.csv,title,1932 jalisco earthquake,NaturalEvent_right,title,1932 jalisco earthquakes,0.9886866807937622
+NaturalEvent_left.csv,title,january 2010 solomon islands earthquake,NaturalEvent_right,title,2010 solomon islands earthquake,0.9882274866104126
+NaturalEvent_left.csv,title,"february 4, 1998 afghanistan earthquake",NaturalEvent_right,title,february 1998 afghanistan earthquake,0.9880069494247437
+NaturalEvent_left.csv,title,1940 new hampshire earthquake,NaturalEvent_right,title,1940 new hampshire earthquakes,0.988006591796875
+NaturalEvent_left.csv,title,2009 papua earthquake,NaturalEvent_right,title,2009 papua earthquakes,0.9874341487884521
+NaturalEvent_left.csv,title,june 2012 afghanistan earthquakes,NaturalEvent_right,title,2012 afghanistan earthquakes,0.9874005317687988
+NaturalEvent_left.csv,title,2013 nantou earthquake,NaturalEvent_right,title,march 2013 nantou earthquake,0.9870158433914185
+NaturalEvent_left.csv,title,2010 kaohsiung earthquakes,NaturalEvent_right,title,2010 kaohsiung earthquake,0.9853360652923584
+NaturalEvent_left.csv,title,"may 30, 1998 afghanistan earthquake",NaturalEvent_right,title,may 1998 afghanistan earthquake,0.9853302240371704
+NaturalEvent_left.csv,title,december 1911 guerrero earthquake,NaturalEvent_right,title,1911 guerrero earthquake,0.9847760200500488
+NaturalEvent_left.csv,title,2012 indian ocean earthquakes,NaturalEvent_right,title,2012 indian ocean earthquake,0.9843328595161438
+NaturalEvent_left.csv,title,near east earthquakes of 1759,NaturalEvent_right,title,near east earthquake of 1759,0.9831912517547607
+NaturalEvent_left.csv,title,2006 hengchun earthquake,NaturalEvent_right,title,2006 hengchun earthquakes,0.9827459454536438
+NaturalEvent_left.csv,title,2001 el salvador earthquakes,NaturalEvent_right,title,january 2001 el salvador earthquake,0.9802013635635376
+NaturalEvent_left.csv,title,1968 dasht-e bayaz and ferdows earthquake,NaturalEvent_right,title,1968 dasht-e bayaz and ferdows earthquakes,0.9787813425064087
+NaturalEvent_left.csv,title,1894 meiji tokyo earthquake,NaturalEvent_right,title,1894 tokyo earthquake,0.9776253700256348
+NaturalEvent_left.csv,title,1854 ansei-nankai earthquake,NaturalEvent_right,title,1854 nankai earthquake,0.9668385982513428
+NaturalEvent_left.csv,title,1611 keicho sanriku earthquake,NaturalEvent_right,title,1611 sanriku earthquake,0.9652484655380249
+NaturalEvent_left.csv,title,1855 ansei edo earthquake,NaturalEvent_right,title,1855 edo earthquake,0.9644981622695923
+NaturalEvent_left.csv,title,1962 buin zahra earthquake,NaturalEvent_right,title,1962 bou'in-zahra earthquake,0.9623545408248901
+NaturalEvent_left.csv,title,869 jogan sanriku earthquake,NaturalEvent_right,title,869 sanriku earthquake,0.9593547582626343
+NaturalEvent_left.csv,title,duvall earthquake,NaturalEvent_right,title,1996 duvall earthquake,0.9548418521881104
+NaturalEvent_left.csv,title,1896 meiji-sanriku earthquake,NaturalEvent_right,title,1896 sanriku earthquake,0.9531738758087158
+NaturalEvent_left.csv,title,2010 oaxaca earthquake,NaturalEvent_right,title,1980 oaxaca earthquake,0.9524417519569397
+NaturalEvent_left.csv,title,2009 samoa earthquake,NaturalEvent_right,title,2009 samoa earthquake and tsunami,0.9443401098251343
+NaturalEvent_left.csv,title,115 antioch earthquake,NaturalEvent_right,title,847 antioch earthquake,0.9345667362213135
+NaturalEvent_left.csv,title,1954 adelaide earthquake,NaturalEvent_right,title,great adelaide earthquake,0.9323360919952393
+NaturalEvent_left.csv,title,557 constantinople earthquake,NaturalEvent_right,title,1509 constantinople earthquake,0.9307128190994263
+NaturalEvent_left.csv,title,1987 santiago de chuco earthquake,NaturalEvent_right,title,1985 santiago earthquake,0.9291454553604126
+NaturalEvent_left.csv,title,1929 koppeh dagh earthquake,NaturalEvent_right,title,1929 kopet dag earthquake,0.9290059804916382
+NaturalEvent_left.csv,title,1992 cairo earthquake,NaturalEvent_right,title,1995 egypt earthquake,0.9144898653030396
+NaturalEvent_left.csv,title,1653 east symirna earthquake,NaturalEvent_right,title,1653 east smyrna earthquake,0.9111312627792358
+NaturalEvent_left.csv,title,1679 armenia earthquake,NaturalEvent_right,title,1988 armenian earthquake,0.8947238922119141
+NaturalEvent_left.csv,title,1903 malazgirt earthquake,NaturalEvent_right,title,1903 manzikert earthquake,0.893918514251709
+NaturalEvent_left.csv,title,galilee earthquake of 363,NaturalEvent_right,title,749 galilee earthquake,0.8888974189758301
+NaturalEvent_left.csv,title,1995 gulf of aqaba earthquake,NaturalEvent_right,title,2004 al hoceima earthquake,0.8880370259284973
+NaturalEvent_left.csv,title,1914 burdur earthquake,NaturalEvent_right,title,1914 afyon-bolvadin earthquake,0.8871156573295593
+NaturalEvent_left.csv,title,october 2010 sumatra earthquake and tsunami,NaturalEvent_right,title,2006 pangandaran earthquake and tsunami,0.8866368532180786
+NaturalEvent_left.csv,title,2000 yunnan earthquake,NaturalEvent_right,title,2000 enggano earthquake,0.87940913438797
+NaturalEvent_left.csv,title,2009 shizuoka earthquake,NaturalEvent_right,title,2006 yogyakarta earthquake,0.8774967193603516
+NaturalEvent_left.csv,title,1909 lambesc earthquake,NaturalEvent_right,title,1909 provence earthquake,0.8585368990898132
+NaturalEvent_left.csv,title,1932 changma earthquake,NaturalEvent_right,title,1935 quetta earthquake,0.8395994901657104
+NaturalEvent_left.csv,title,1688 izmir earthquake,NaturalEvent_right,title,1688 smyrna earthquake,0.8122233152389526
+NaturalEvent_left.csv,title,1922 vallenar earthquake,NaturalEvent_right,title,1927 jericho earthquake,0.7971808910369873
+NaturalEvent_left.csv,title,1909 borujerd earthquake,NaturalEvent_right,title,1959 hebgen lake earthquake,0.7935291528701782

@@ -1,0 +1,5 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballMatch_left.csv,title,2011 Slovenian Supercup,RugbyLeague_left.csv,title,Hong Kong Sevens,0.7269
+FootballMatch_left.csv,title,2003 UEFA Super Cup,RugbyLeague_left.csv,title,Pacific Cup,0.7269
+FootballMatch_left.csv,title,2008 A-League Grand Final,RugbyLeague_left.csv,title,Canberra Rugby League,0.7269
+FootballMatch_left.csv,title,2012 Suruga Bank Championship,RugbyLeague_left.csv,title,Norway Rugby Championship,0.7269

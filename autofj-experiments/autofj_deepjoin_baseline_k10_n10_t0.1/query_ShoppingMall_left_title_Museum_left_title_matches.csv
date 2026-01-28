@@ -1,0 +1,23 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ShoppingMall_left.csv,title,Victoria Mall,Museum_left.csv,title,Victoria and Albert Museum,0.6748
+ShoppingMall_left.csv,title,Philadelphia Premium Outlets,Museum_left.csv,title,Philadelphia Museum of Art,0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Indian Museum,0.6748
+ShoppingMall_left.csv,title,Arsenal Mall,Museum_left.csv,title,Arsenal Football Club Museum,0.6748
+ShoppingMall_left.csv,title,Florence Mall,Museum_left.csv,title,Florence Nightingale Museum,0.6748
+ShoppingMall_left.csv,title,Florence Mall,Museum_left.csv,title,Florence Air & Missile Museum,0.6748
+ShoppingMall_left.csv,title,Victoria Mall,Museum_left.csv,title,Queen Victoria Museum and Art Gallery,0.6748
+ShoppingMall_left.csv,title,Albany Mall,Museum_left.csv,title,Albany Institute of History & Art,0.6748
+ShoppingMall_left.csv,title,Tallahassee Mall,Museum_left.csv,title,Tallahassee Museum,0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Indian River Citrus Museum,0.6748
+ShoppingMall_left.csv,title,Victoria Mall,Museum_left.csv,title,Victoria Art Gallery,0.6748
+ShoppingMall_left.csv,title,Auburn Mall,Museum_left.csv,title,Auburn Cord Duesenberg Automobile Museum,0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Indian Caribbean Museum of Trinidad and Tobago,0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Iroquois Indian Museum,0.6748
+ShoppingMall_left.csv,title,Albany Mall,Museum_left.csv,title,"Albany Museum, South Africa",0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Indiana Aviation Museum,0.6748
+ShoppingMall_left.csv,title,Grand Central Mall,Museum_left.csv,title,Grand Central Art Galleries,0.6748
+ShoppingMall_left.csv,title,HarbourFront Centre,Museum_left.csv,title,Harbourfront Centre,0.6748
+ShoppingMall_left.csv,title,Philadelphia Premium Outlets,Museum_left.csv,title,Philadelphia Doll Museum,0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,"Indian Air Force Museum, Palam",0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Indian Institute for Research in Numismatic Studies,0.6748
+ShoppingMall_left.csv,title,Indian Mall,Museum_left.csv,title,Indian Business Museum,0.6748

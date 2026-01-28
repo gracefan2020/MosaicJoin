@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Song_left.csv,title,turn on the news,Song_right,title,turn on the news,1.000000238418579
+Song_left.csv,title,there is power in a union,Song_right,title,there is power in a union,1.000000238418579
+Song_left.csv,title,there is nothing like a dame,Song_right,title,there is nothing like a dame,1.000000238418579
+Song_left.csv,title,better than you (conor maynard song),Song_right,title,better than you (conor maynard song),1.0
+Song_left.csv,title,wedding bells are breaking up that old gang of mine,Song_right,title,wedding bells are breaking up that old gang of mine,1.0
+Song_left.csv,title,wind the bobbin up,Song_right,title,wind the bobbin up,1.0
+Song_left.csv,title,une vie d'amour,Song_right,title,une vie d'amour,1.0
+Song_left.csv,title,touch my life (with summer),Song_right,title,touch my life (with summer),1.0
+Song_left.csv,title,the lily of the valley,Song_right,title,the lily of the valley,0.9999998807907104
+Song_left.csv,title,stones throw from hurtin',Song_right,title,stones throw from hurtin',0.9999997615814209
+Song_left.csv,title,mera naam chin chin chu,Song_right,title,mera naam chin chin chu,0.9999997019767761
+Song_left.csv,title,when it's moonlight on the prairie,Song_right,title,when it's moonlight on the prairie,0.9999996423721313
+Song_left.csv,title,watch me (bella thorne and zendaya song),Song_right,title,watch me (bella thorne & zendaya song),0.9990415573120117
+Song_left.csv,title,top of the world (the pussycat dolls song),Song_right,title,top of the world (pussycat dolls song),0.9964989423751831
+Song_left.csv,title,the end (the beatles song),Song_right,title,the end (beatles song),0.9960751533508301
+Song_left.csv,title,boys (the shirelles song),Song_right,title,boys (shirelles song),0.9951181411743164
+Song_left.csv,title,dreaming my dreams (the cranberries song),Song_right,title,dreaming my dreams (cranberries song),0.9950970411300659
+Song_left.csv,title,girl (the beatles song),Song_right,title,girl (beatles song),0.9950672388076782
+Song_left.csv,title,i need you (the beatles song),Song_right,title,i need you (beatles song),0.9949917793273926
+Song_left.csv,title,because (the beatles song),Song_right,title,because (beatles song),0.9942594170570374
+Song_left.csv,title,where could he be,Song_right,title,where could he be?,0.982460618019104
+Song_left.csv,title,twinkle twinkle little star,Song_right,title,"twinkle, twinkle, little star",0.9785054922103882
+Song_left.csv,title,the giant (song),Song_right,title,giant (song),0.9778064489364624
+Song_left.csv,title,pyar kiya to darna kya,Song_right,title,pyar kiya to darna kiya,0.9744654893875122
+Song_left.csv,title,shame on you (thomas thordarsson song),Song_right,title,shame on you (tomas thordarson song),0.9735632538795471
+Song_left.csv,title,ai se eu te pego,Song_right,title,ai se eu te pego!,0.9619032740592957
+Song_left.csv,title,spanish fly (song),Song_right,title,spanish fly (instrumental),0.9502264261245728
+Song_left.csv,title,fly from here (song),Song_right,title,fly from here (song series),0.9484780430793762
+Song_left.csv,title,captain jack (song),Song_right,title,captain jack (billy joel song),0.9291694760322571
+Song_left.csv,title,the shields garland,Song_right,title,shields garland,0.9260836839675903
+Song_left.csv,title,touchdown (game song),Song_right,title,touchdown (song),0.9245557188987732
+Song_left.csv,title,eternity road (the moody blues song),Song_right,title,eternity road (song),0.9219576120376587
+Song_left.csv,title,the war is over (song),Song_right,title,the war is over (phil ochs song),0.9207229614257812
+Song_left.csv,title,catfish (song),Song_right,title,catfish (bob dylan song),0.9140764474868774
+Song_left.csv,title,stay forever (song),Song_right,title,stay forever (platin song),0.9126110076904297
+Song_left.csv,title,breaking news (song),Song_right,title,breaking news (michael jackson song),0.9103236794471741
+Song_left.csv,title,read all about it (part iii),Song_right,title,"read all about it, pt. iii",0.9097208976745605
+Song_left.csv,title,wedding bells (song),Song_right,title,wedding bells (jonas brothers song),0.9084756374359131
+Song_left.csv,title,these are the days (song),Song_right,title,these are the days (van morrison song),0.9063560962677002
+Song_left.csv,title,need your love (song),Song_right,title,need your love (cheap trick song),0.9044861197471619
+Song_left.csv,title,the pitman's revenge,Song_right,title,the pitmanâs revenge,0.9011243581771851
+Song_left.csv,title,rock island line (song),Song_right,title,rock island line,0.9002445936203003
+Song_left.csv,title,the pitman's courtship,Song_right,title,the pitmanâs courtship,0.8974165320396423
+Song_left.csv,title,young and beautiful (song),Song_right,title,young and beautiful (elvis presley song),0.8971970081329346
+Song_left.csv,title,can't stop won't stop (song),Song_right,title,can't stop won't stop (usher song),0.8950226902961731
+Song_left.csv,title,eternally (song),Song_right,title,eternally (utada hikaru song),0.894490122795105
+Song_left.csv,title,the ox (instrumental),Song_right,title,the ox (the who song),0.8923288583755493
+Song_left.csv,title,metal (gary numan song),Song_right,title,metal (song),0.8912720680236816
+Song_left.csv,title,beat goes on (song),Song_right,title,beat goes on (madonna song),0.8892317414283752
+Song_left.csv,title,boxing (ben folds five song),Song_right,title,boxing (song),0.8866519927978516
+Song_left.csv,title,charlie chaplin (song),Song_right,title,charlie chaplin (tania tsanaklidou song),0.8804553747177124
+Song_left.csv,title,conquistador (da vinci song),Song_right,title,conquistador (procol harum song),0.8792963027954102
+Song_left.csv,title,factory girl (song),Song_right,title,factory girl (the rolling stones song),0.878524899482727
+Song_left.csv,title,widow wake my mind (the smashing pumpkins song),Song_right,title,widow wake my mind,0.8782622814178467
+Song_left.csv,title,top of the world (bridgit mendler song),Song_right,title,on top of the world (song),0.8781554102897644
+Song_left.csv,title,heat wave (song),Song_right,title,heat wave (irving berlin song),0.8758406639099121
+Song_left.csv,title,"going, going, gone (song)",Song_right,title,"going, going, gone (bob dylan song)",0.8697828054428101
+Song_left.csv,title,awara hoon,Song_right,title,awaara hoon,0.8611615896224976
+Song_left.csv,title,tell me why (neil young song),Song_right,title,tell me why (beatles song),0.8566171526908875
+Song_left.csv,title,cheremshyna (song),Song_right,title,cheremshyna,0.8477952480316162
+Song_left.csv,title,come with me (2012 song),Song_right,title,come with me (dappy song),0.8448370099067688
+Song_left.csv,title,een beetje,Song_right,title,'n beetje,0.8434736728668213
+Song_left.csv,title,reaching out (song),Song_right,title,reaching out (queen + paul rodgers song),0.8390662670135498
+Song_left.csv,title,hurricane (westend song),Song_right,title,hurricane (thirty seconds to mars song),0.8366850018501282
+Song_left.csv,title,crack addict (song),Song_right,title,crack addict,0.824990451335907
+Song_left.csv,title,one life (glen vella song),Song_right,title,1 life (xandee song),0.8227744102478027
+Song_left.csv,title,all of my love (song),Song_right,title,all my love (led zeppelin song),0.8163295388221741
+Song_left.csv,title,bob dylan blues,Song_right,title,outlaw blues (bob dylan song),0.8161906599998474
+Song_left.csv,title,always (1925 song),Song_right,title,always (irving berlin song),0.8151869773864746
+Song_left.csv,title,love is blindness,Song_right,title,love is blind (donny montell song),0.8150460720062256
+Song_left.csv,title,keep on running (jackie edwards song),Song_right,title,keep on running,0.8147146701812744
+Song_left.csv,title,close but no cigar (song),Song_right,title,close but no cigar,0.8139605522155762
+Song_left.csv,title,send it on (song),Song_right,title,send it on (disney's friends for change song),0.8121888637542725
+Song_left.csv,title,out on my own,Song_right,title,out on my own (michelle song),0.811870276927948
+Song_left.csv,title,the black angel's death song,Song_right,title,angel of death (slayer song),0.8112707138061523
+Song_left.csv,title,better man,Song_right,title,better man (pearl jam song),0.8034917116165161
+Song_left.csv,title,close your eyes (1933 song),Song_right,title,close your eyes (bernice petkere song),0.7991677522659302
+Song_left.csv,title,thousands are sailing,Song_right,title,ships are sailing,0.796576976776123
+Song_left.csv,title,angels cry (song),Song_right,title,angels in the sky,0.796040415763855
+Song_left.csv,title,kolyadka,Song_right,title,kolybelnaya dlya vulkana,0.7950576543807983
+Song_left.csv,title,lazy sunday,Song_right,title,lazy sunday (the lonely island song),0.7945245504379272
+Song_left.csv,title,hora (song),Song_right,title,hosanna (a. r. rahman song),0.7923719882965088
+Song_left.csv,title,christmas (baby please come home),Song_right,title,santa bring my baby back (to me),0.7916115522384644
+Song_left.csv,title,main naahin maakhan khaayo,Song_right,title,babul mora naihar chhooto hi jaaye,0.7901661396026611
+Song_left.csv,title,zooropa (song),Song_right,title,zoo station (song),0.7870907783508301
+Song_left.csv,title,i'm left alone,Song_right,title,left alone (song),0.7854106426239014
+Song_left.csv,title,sea of love (song),Song_right,title,by the beautiful sea (song),0.7833142280578613
+Song_left.csv,title,today (jefferson airplane song),Song_right,title,yesterday (beatles song),0.7792462110519409
+Song_left.csv,title,flower of scotland,Song_right,title,the thistle o' scotland,0.7791689038276672
+Song_left.csv,title,someday soon (ian tyson song),Song_right,title,someday (disney song),0.777639627456665
+Song_left.csv,title,41 (song),Song_right,title,'39 (queen song),0.7775459885597229
+Song_left.csv,title,only people (song),Song_right,title,only people,0.7769804000854492
+Song_left.csv,title,fascinating rhythm,Song_right,title,rhythm-a-ning,0.7738499641418457
+Song_left.csv,title,i love the little things,Song_right,title,every little thing (beatles song),0.7734087109565735
+Song_left.csv,title,sick of you,Song_right,title,sick of you (gwar song),0.7714641094207764
+Song_left.csv,title,ekbar biday de ma ghure ashi,Song_right,title,bharata mataku jejelu,0.7678642272949219
+Song_left.csv,title,dry bones (anthology),Song_right,title,dry bones (folk song),0.7637290954589844
+Song_left.csv,title,what love has joined together,Song_right,title,it started with a love affair,0.7582716941833496
+Song_left.csv,title,birthday cake (song),Song_right,title,birthday (beatles song),0.7542110681533813
+Song_left.csv,title,zauvijek volim te,Song_right,title,oj hrvatska mati,0.7528461217880249
+Song_left.csv,title,kal ho naa ho (song),Song_right,title,kadam kadam badaye ja,0.7495259046554565
+Song_left.csv,title,jaan pehechan ho,Song_right,title,jai ho,0.7483825087547302
+Song_left.csv,title,soldier of fortune (song),Song_right,title,soldiers of love (liliane saint-pierre song),0.7479407787322998
+Song_left.csv,title,marianne (sergio endrigo song),Song_right,title,"so long, marianne (song)",0.7469339370727539
+Song_left.csv,title,blue (joni mitchell song),Song_right,title,blue jeans (1920s song),0.7447893023490906
+Song_left.csv,title,we're all alone,Song_right,title,all alone (irving berlin song),0.7447025179862976
+Song_left.csv,title,friend of a friend (song),Song_right,title,my friend,0.7432553768157959
+Song_left.csv,title,"it's all over now, baby blue",Song_right,title,song is over,0.7405041456222534
+Song_left.csv,title,say goodbye (dave matthews band song),Song_right,title,no goodbyes (linda song),0.7395726442337036
+Song_left.csv,title,bring me sunshine,Song_right,title,sunshine (david guetta and avicii song),0.737859845161438
+Song_left.csv,title,the town i loved so well,Song_right,title,i can't live without you in this town,0.7373120784759521
+Song_left.csv,title,country gardens,Song_right,title,the gardener,0.7358493804931641
+Song_left.csv,title,mr. moonlight (song),Song_right,title,moonlight bay,0.7355004549026489
+Song_left.csv,title,be prepared (song),Song_right,title,readymade (song),0.7345428466796875
+Song_left.csv,title,zindagi ek safar hai suhana,Song_right,title,deshon ka sartaj bharat,0.7297686338424683
+Song_left.csv,title,kallai mattum,Song_right,title,"krasi, thalassa ke t' agori mou",0.7289231419563293
+Song_left.csv,title,bring me down (you don't),Song_right,title,don't let me down (leona lewis song),0.7281622886657715
+Song_left.csv,title,fire it up (modest mouse song),Song_right,title,turn it up (brandy song),0.7269942760467529
+Song_left.csv,title,forget him,Song_right,title,forget him (teresa teng song),0.7269763946533203
+Song_left.csv,title,tajomstvo hier,Song_right,title,rak bishvilo,0.722993016242981
+Song_left.csv,title,love of my life (queen song),Song_right,title,long live love (olivia newton-john song),0.7207016348838806
+Song_left.csv,title,love me (bee gees song),Song_right,title,give me your love (fame song),0.719666063785553
+Song_left.csv,title,as long as you're mine,Song_right,title,you'll be mine (beatles song),0.7193713784217834
+Song_left.csv,title,hablemos del amor,Song_right,title,tu amor (jon b. song),0.7191382646560669
+Song_left.csv,title,mountain jam,Song_right,title,fire on the mountain (song),0.7181953191757202
+Song_left.csv,title,night flight (song),Song_right,title,night (bruce springsteen song),0.7152101993560791
+Song_left.csv,title,this is my country,Song_right,title,"we love you, our fatherland!",0.7137488722801208
+Song_left.csv,title,run run run (the velvet underground song),Song_right,title,run & hide (gracia baur song),0.7134373188018799
+Song_left.csv,title,nuku pommiin,Song_right,title,po å¡umama i gorama,0.7121467590332031
+Song_left.csv,title,io senza te,Song_right,title,imaste dio,0.7120224237442017
+Song_left.csv,title,rain (uriah heep song),Song_right,title,sunrise (uriah heep song),0.7119431495666504
+Song_left.csv,title,until it beats no more,Song_right,title,until... (sting song),0.7109130620956421
+Song_left.csv,title,i just can't wait to be king,Song_right,title,someday my prince will come,0.710687518119812
+Song_left.csv,title,domino (genesis song),Song_right,title,genesis (michalis hatzigiannis song),0.7069621682167053
+Song_left.csv,title,the piano has been drinking (not me) (an evening with pete king),Song_right,title,"piano, piano",0.7065558433532715
+Song_left.csv,title,echoes (pink floyd song),Song_right,title,eclipse (pink floyd song),0.7059080004692078
+Song_left.csv,title,questo amore,Song_right,title,o mia bela madunina,0.7039918303489685
+Song_left.csv,title,i dreamed a dream,Song_right,title,once upon a dream (sleeping beauty song),0.7015856504440308
+Song_left.csv,title,the necromancer (song),Song_right,title,vampires (godsmack song),0.7011039853096008
+Song_left.csv,title,"farewell, angelina (song)",Song_right,title,adieu (jahn teigen and anita skorgan song),0.7009148597717285
+Song_left.csv,title,portrait of tracy,Song_right,title,tracy (mogwai song),0.6978495121002197
+Song_left.csv,title,rewind youtube style 2012,Song_right,title,back in time,0.6974328756332397
+Song_left.csv,title,happy talk (song),Song_right,title,happy man (cathal dunne song),0.6969532370567322
+Song_left.csv,title,let's put out the lights (and go to sleep),Song_right,title,kill the lights (britney spears song),0.6968231201171875
+Song_left.csv,title,the stone (dave matthews band song),Song_right,title,sticks and stones (nicola roberts song),0.6966818571090698
+Song_left.csv,title,goodbye horses,Song_right,title,horse latitudes (song),0.6965045928955078
+Song_left.csv,title,let me be the one (the shadows song),Song_right,title,she's the one (bruce springsteen song),0.6949950456619263
+Song_left.csv,title,you and i (we can conquer the world),Song_right,title,somebody bigger than you and i,0.6948279738426208
+Song_left.csv,title,sugar town,Song_right,title,sugar baby (song),0.6939029097557068
+Song_left.csv,title,harimuraleeravam,Song_right,title,vaishnava jana to,0.6937747597694397
+Song_left.csv,title,eloise (arvingarna song),Song_right,title,elke (song),0.6932498812675476
+Song_left.csv,title,a woman in love,Song_right,title,galjeung (a man in love),0.6919865012168884
+Song_left.csv,title,monkey man (the rolling stones song),Song_right,title,i wan'na be like you (the monkey song),0.6905932426452637
+Song_left.csv,title,play with fire (the rolling stones song),Song_right,title,firehouse (song),0.6902005672454834
+Song_left.csv,title,right or wrong (song),Song_right,title,do right (mario song),0.6898390054702759
+Song_left.csv,title,tere tille ton,Song_right,title,tere bina,0.6884744763374329
+Song_left.csv,title,hasta la vista (oleksandr ponomaryov song),Song_right,title,hasta abajo (don omar song),0.6872732043266296
+Song_left.csv,title,close to the edge (song),Song_right,title,"knife-edge (emerson, lake & palmer song)",0.6869257688522339
+Song_left.csv,title,love is (vikki watson song),Song_right,title,love power (the kmg's),0.6868155002593994
+Song_left.csv,title,north country blues,Song_right,title,st. louis blues (song),0.6866223812103271
+Song_left.csv,title,nobody loves you (when you're down and out),Song_right,title,a man without love (kenneth mckellar song),0.6853548288345337
+Song_left.csv,title,the black fly song,Song_right,title,blackbird (beatles song),0.6847900152206421
+Song_left.csv,title,the way you love me (keri hilson song),Song_right,title,learning how to love you (song),0.6841206550598145
+Song_left.csv,title,heart on fire,Song_right,title,this wheel's on fire,0.6833800077438354
+Song_left.csv,title,epitaph (song),Song_right,title,died (song),0.6828479766845703
+Song_left.csv,title,catch me while i'm sleeping,Song_right,title,sleeping (the band song),0.6825604438781738
+Song_left.csv,title,i've been waiting for you (neil young song),Song_right,title,wait (beatles song),0.6814224720001221
+Song_left.csv,title,hypnotized (fleetwood mac song),Song_right,title,landslide (fleetwood mac song),0.679291307926178
+Song_left.csv,title,the rose of england,Song_right,title,the rose of no man's land,0.6792491674423218
+Song_left.csv,title,you (the who song),Song_right,title,who we are (jessica simpson song),0.6780656576156616
+Song_left.csv,title,beware of darkness (song),Song_right,title,fear (song series),0.6771808862686157
+Song_left.csv,title,masakali,Song_right,title,mera joota hai japani,0.6768130660057068
+Song_left.csv,title,po dolinam i po vzgoriam,Song_right,title,ne pali svetla u sumrak,0.6765854358673096
+Song_left.csv,title,a blossom fell,Song_right,title,(i'll be with you) in apple blossom time,0.6765438914299011
+Song_left.csv,title,anna's song,Song_right,title,autostop (anna vissi and the epikouri song),0.6757426857948303
+Song_left.csv,title,loca (arsenium song),Song_right,title,refrain (lys assia song),0.6753389835357666
+Song_left.csv,title,water baby blues,Song_right,title,what the water gave me (song),0.6722804307937622
+Song_left.csv,title,madonna mia,Song_right,title,marilyn monroe (nicki minaj song),0.6714313626289368
+Song_left.csv,title,i'm gonna run to you,Song_right,title,runnin' from tha police,0.6693953275680542
+Song_left.csv,title,sol de inverno,Song_right,title,enamorada de ti (song),0.6678193211555481
+Song_left.csv,title,the lonely (christina perri song),Song_right,title,lonesome tonight (new order song),0.667817234992981
+Song_left.csv,title,it's almost tomorrow,Song_right,title,tomorrow (song from annie),0.667793869972229
+Song_left.csv,title,if i had your love,Song_right,title,we could be sweet lovers,0.6662419438362122
+Song_left.csv,title,three stars (song),Song_right,title,reaching for the stars (song),0.6659137010574341
+Song_left.csv,title,things goin' on,Song_right,title,what goes on (beatles song),0.6655890345573425
+Song_left.csv,title,the old fashioned way (song),Song_right,title,old age (song),0.6654327511787415
+Song_left.csv,title,the look of love (1967 song),Song_right,title,look (song for children),0.6652161478996277
+Song_left.csv,title,in the land of the buffalo,Song_right,title,pride of the prairie,0.6649640798568726
+Song_left.csv,title,contra el viento,Song_right,title,mucho gusto,0.6644951105117798
+Song_left.csv,title,soul eyes,Song_right,title,soul sacrifice (song),0.66434645652771
+Song_left.csv,title,angel (chiara song),Song_right,title,like an angel passing through my room,0.6625140905380249
+Song_left.csv,title,show me love (not a dream),Song_right,title,adore (prince song),0.6619219183921814
+Song_left.csv,title,white queen (as it began),Song_right,title,up with the white and gold,0.6594600677490234
+Song_left.csv,title,night of your life (david guetta song),Song_right,title,this night (booty luv song),0.659348726272583
+Song_left.csv,title,caminito (song),Song_right,title,rapsodia (mia martini song),0.6583346128463745
+Song_left.csv,title,corde della mia chitarra,Song_right,title,la golondrina,0.6582894325256348
+Song_left.csv,title,firefly (christina metaxa song),Song_right,title,bionic (christina aguilera song),0.6580233573913574
+Song_left.csv,title,vivre (carole vinci song),Song_right,title,julia (beatles song),0.6580080389976501
+Song_left.csv,title,i know where i'm going (song),Song_right,title,we don't know where we're going,0.6573374271392822
+Song_left.csv,title,have a little faith in me,Song_right,title,i believe (frankie laine song),0.6569662094116211

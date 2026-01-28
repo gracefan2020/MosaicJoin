@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+GivenName_left.csv,title,idriss,Monarch_right,title,idris i,0.9146983027458191
+GivenName_left.csv,title,theodoric,Monarch_right,title,theodoric the great,0.8998890519142151
+GivenName_left.csv,title,anastasius,Monarch_right,title,anastasius i dicorus,0.8637803196907043
+GivenName_left.csv,title,ismail (name),Monarch_right,title,ismail samani,0.834205150604248
+GivenName_left.csv,title,yaprak,Monarch_right,title,yasovarman,0.8236379623413086
+GivenName_left.csv,title,vladyslav,Monarch_right,title,stefan radoslav,0.8188532590866089
+GivenName_left.csv,title,abbas (name),Monarch_right,title,abul-aish ahmad,0.7901901602745056
+GivenName_left.csv,title,karthik,Monarch_right,title,keshri singh,0.7874186038970947
+GivenName_left.csv,title,rahul,Monarch_right,title,raja dahir,0.7846077680587769
+GivenName_left.csv,title,michael,Monarch_right,title,michael v,0.7819288969039917
+GivenName_left.csv,title,batu (given name),Monarch_right,title,batbayan,0.7749297618865967
+GivenName_left.csv,title,farhad,Monarch_right,title,farrukhzad i,0.7741637229919434
+GivenName_left.csv,title,altan,Monarch_right,title,agrasen,0.7673222422599792
+GivenName_left.csv,title,masaji,Monarch_right,title,chaiyasiri,0.7672973871231079
+GivenName_left.csv,title,hamid,Monarch_right,title,mohammad khodabanda,0.7629462480545044
+GivenName_left.csv,title,hotaru,Monarch_right,title,mirwais hotak,0.7610215544700623
+GivenName_left.csv,title,abdullah (name),Monarch_right,title,ahmad i bin mohammed,0.7598016262054443
+GivenName_left.csv,title,garaidh,Monarch_right,title,gaumata,0.7590481042861938
+GivenName_left.csv,title,aadu,Monarch_right,title,asaf-ud-daula,0.7490535378456116
+GivenName_left.csv,title,bahram (name),Monarch_right,title,kan bahlam i,0.7444055080413818
+GivenName_left.csv,title,rashida,Monarch_right,title,imad al-dawla,0.7396870851516724
+GivenName_left.csv,title,kavita,Monarch_right,title,kavus i,0.7374961376190186
+GivenName_left.csv,title,zsuzsanna,Monarch_right,title,zhanibek khan,0.7337838411331177
+GivenName_left.csv,title,thorsten,Monarch_right,title,olafr godredsson,0.7337234616279602
+GivenName_left.csv,title,alexander,Monarch_right,title,alexander ii mircea,0.7330847382545471
+GivenName_left.csv,title,suleiman,Monarch_right,title,ali i of shirvan,0.7311396598815918
+GivenName_left.csv,title,madhuri,Monarch_right,title,shuja shah durrani,0.7309873700141907
+GivenName_left.csv,title,muhsin,Monarch_right,title,akhsitan i,0.7257956862449646
+GivenName_left.csv,title,sudha,Monarch_right,title,shahanshah (shirvanshah),0.7249398827552795
+GivenName_left.csv,title,qasim,Monarch_right,title,qutb al-din aibak,0.7249211072921753
+GivenName_left.csv,title,hamad (name),Monarch_right,title,'imad al-daula,0.7224273681640625
+GivenName_left.csv,title,india (given name),Monarch_right,title,ram singh i,0.7198273539543152
+GivenName_left.csv,title,akihisa,Monarch_right,title,akhsitan ii,0.7182706594467163
+GivenName_left.csv,title,rahman (name),Monarch_right,title,najmuddin ali khan,0.7177556753158569
+GivenName_left.csv,title,aleksandrs,Monarch_right,title,constantine doukas,0.7164721488952637
+GivenName_left.csv,title,kajsa,Monarch_right,title,kapeliele faupala,0.7164331674575806
+GivenName_left.csv,title,mac raghnaill,Monarch_right,title,mohammadu maccido,0.7160100340843201
+GivenName_left.csv,title,kimio,Monarch_right,title,shao kang,0.7156302332878113
+GivenName_left.csv,title,satyana,Monarch_right,title,pandara vanniyan,0.7143868207931519
+GivenName_left.csv,title,mototada,Monarch_right,title,moggallana ii,0.7109109163284302
+GivenName_left.csv,title,khristo,Monarch_right,title,khosrow i,0.7108795642852783
+GivenName_left.csv,title,nikhil,Monarch_right,title,hussain hotak,0.7075421810150146
+GivenName_left.csv,title,abdi,Monarch_right,title,amr saffari,0.7066637277603149
+GivenName_left.csv,title,fathallah,Monarch_right,title,abu'l-fath musa,0.7046008110046387
+GivenName_left.csv,title,strahinja,Monarch_right,title,michael vi stratiotikos,0.703839898109436
+GivenName_left.csv,title,achim (name),Monarch_right,title,afridun i,0.6995272636413574
+GivenName_left.csv,title,ikuo,Monarch_right,title,oswiu,0.6956864595413208
+GivenName_left.csv,title,kalju,Monarch_right,title,sihyaj chan k'awiil ii,0.6943010687828064
+GivenName_left.csv,title,aswad (name),Monarch_right,title,ghazi ayub khan,0.6933534145355225
+GivenName_left.csv,title,nadeem,Monarch_right,title,najabat ali khan,0.6923378705978394
+GivenName_left.csv,title,mats (name),Monarch_right,title,ajen yohl mat,0.6921758651733398
+GivenName_left.csv,title,thamsanqa,Monarch_right,title,ahkal mo' nahb i,0.6910382509231567
+GivenName_left.csv,title,samad,Monarch_right,title,saadatullah khan i,0.6907963752746582
+GivenName_left.csv,title,akimasa,Monarch_right,title,akhsitan iii,0.6899513602256775
+GivenName_left.csv,title,yasuhisa,Monarch_right,title,"yatala tissa, prince of ruhuna",0.689781665802002
+GivenName_left.csv,title,ingeldaz,Monarch_right,title,varaz trdat i,0.6888369917869568
+GivenName_left.csv,title,dipankar,Monarch_right,title,phetsarath ratanavongsa,0.6885190010070801
+GivenName_left.csv,title,meherzad,Monarch_right,title,mawdud of ghazni,0.6869877576828003
+GivenName_left.csv,title,haruchika,Monarch_right,title,chashtana,0.6804590225219727
+GivenName_left.csv,title,pretorius,Monarch_right,title,theodosius iii,0.6801559925079346
+GivenName_left.csv,title,godzimir,Monarch_right,title,maw'dud of ghazni,0.6784110069274902
+GivenName_left.csv,title,geeta,Monarch_right,title,gushtasb i,0.6784018278121948
+GivenName_left.csv,title,ilmari,Monarch_right,title,fadl i,0.6779062151908875
+GivenName_left.csv,title,dariush,Monarch_right,title,mahmud hotak,0.676956057548523
+GivenName_left.csv,title,mandar,Monarch_right,title,man singh ii,0.6753242611885071
+GivenName_left.csv,title,vivienne,Monarch_right,title,bridei vi,0.6731752157211304
+GivenName_left.csv,title,arumugam,Monarch_right,title,uthram thirunal marthanda varma,0.6716496348381042
+GivenName_left.csv,title,haukur,Monarch_right,title,ashraf hotak,0.6704241037368774
+GivenName_left.csv,title,katinka,Monarch_right,title,kaloyan and desislava,0.6703290939331055
+GivenName_left.csv,title,milivoj,Monarch_right,title,tode mongke,0.6661924719810486
+GivenName_left.csv,title,behnam,Monarch_right,title,fatâ²h-ali shah qajar,0.665958046913147
+GivenName_left.csv,title,koharu,Monarch_right,title,bhuvanaikabahu vii of kotte,0.6657475233078003
+GivenName_left.csv,title,niamh,Monarch_right,title,vistahm,0.6640403270721436
+GivenName_left.csv,title,ladislao,Monarch_right,title,ljudevit,0.6614551544189453
+GivenName_left.csv,title,shion,Monarch_right,title,hushang of shirvan,0.6605421900749207
+GivenName_left.csv,title,phuoc,Monarch_right,title,phraates i,0.6599216461181641
+GivenName_left.csv,title,jalal,Monarch_right,title,majd al-dawla,0.6597640514373779
+GivenName_left.csv,title,miltiades (name),Monarch_right,title,monunius,0.6584869623184204
+GivenName_left.csv,title,quintus,Monarch_right,title,cyaxares,0.6579091548919678
+GivenName_left.csv,title,yasuharu,Monarch_right,title,yax nuun ahiin ii,0.6576604247093201
+GivenName_left.csv,title,tassos,Monarch_right,title,artemidoros aniketos,0.6507223844528198
+GivenName_left.csv,title,kirika,Monarch_right,title,khosrow ii,0.649010181427002
+GivenName_left.csv,title,yamini,Monarch_right,title,yaqub al-mansur,0.6479156613349915
+GivenName_left.csv,title,kiril,Monarch_right,title,khosrow iv,0.6472974419593811
+GivenName_left.csv,title,andris,Monarch_right,title,idris ii,0.6465084552764893
+GivenName_left.csv,title,asad,Monarch_right,title,ilyas ibn asad,0.646152675151825
+GivenName_left.csv,title,nasrin,Monarch_right,title,nasir ad-din qabacha,0.6454054713249207
+GivenName_left.csv,title,itai,Monarch_right,title,yax nuun ahiin i,0.6453485488891602
+GivenName_left.csv,title,kamran,Monarch_right,title,khalaf i,0.6430996656417847
+GivenName_left.csv,title,kaspars,Monarch_right,title,keykavus i (shirvanshah),0.6430950164794922
+GivenName_left.csv,title,arpita,Monarch_right,title,herod agrippa,0.6406795978546143
+GivenName_left.csv,title,charis (name),Monarch_right,title,bardylis,0.6397361755371094
+GivenName_left.csv,title,niloufar,Monarch_right,title,ya'qub-i laith saffari,0.6392803192138672
+GivenName_left.csv,title,ioan,Monarch_right,title,ciniod i,0.6390130519866943
+GivenName_left.csv,title,ba (given name),Monarch_right,title,haytham b. khalid,0.6388586163520813
+GivenName_left.csv,title,jodocus,Monarch_right,title,monunius i,0.6371814012527466
+GivenName_left.csv,title,sourav,Monarch_right,title,amar singh of thanjavur,0.6359875202178955
+GivenName_left.csv,title,abhishek (given name),Monarch_right,title,avittom thirunal balarama varma,0.635262131690979
+GivenName_left.csv,title,akihito (given name),Monarch_right,title,emperor kinmei,0.6329351663589478
+GivenName_left.csv,title,sanae,Monarch_right,title,sallar of shirvan,0.6307424902915955
+GivenName_left.csv,title,miervaldis,Monarch_right,title,mytilus,0.6303431391716003
+GivenName_left.csv,title,sunil,Monarch_right,title,shivaji of thanjavur,0.6300894021987915
+GivenName_left.csv,title,nazanin,Monarch_right,title,an-nasir muhammad,0.6296181082725525
+GivenName_left.csv,title,ananya,Monarch_right,title,qutbu l-din aibak,0.6290690898895264
+GivenName_left.csv,title,bewick,Monarch_right,title,beorna of east anglia,0.6272331476211548
+GivenName_left.csv,title,hannes,Monarch_right,title,senekerim-hovhannes,0.6271966695785522
+GivenName_left.csv,title,maximilian,Monarch_right,title,emperor monmu,0.6257348656654358
+GivenName_left.csv,title,hjalmar (given name),Monarch_right,title,haytham ii of shirvan,0.62546306848526
+GivenName_left.csv,title,tatsuya,Monarch_right,title,tia (princess),0.62408047914505
+GivenName_left.csv,title,zivar,Monarch_right,title,varaz-tiridates i,0.6219590306282043
+GivenName_left.csv,title,adham,Monarch_right,title,mu'izz al-daula,0.6215314865112305
+GivenName_left.csv,title,fothad,Monarch_right,title,farrukhzad ii,0.62151700258255
+GivenName_left.csv,title,akitsugu,Monarch_right,title,ssuuna ii of buganda,0.6203075647354126
+GivenName_left.csv,title,khuwaylid (name),Monarch_right,title,khosrow iii,0.6199460029602051
+GivenName_left.csv,title,ghassan (given name),Monarch_right,title,ahmad of shirvan,0.6175623536109924
+GivenName_left.csv,title,clelia (given name),Monarch_right,title,cleitus (dardania),0.6146143674850464
+GivenName_left.csv,title,demetria (name),Monarch_right,title,mytilus (dardania),0.6114192008972168
+GivenName_left.csv,title,priidu,Monarch_right,title,parakramabahu i of polonnaruwa,0.6113376617431641
+GivenName_left.csv,title,caesar (given name),Monarch_right,title,coenus (king),0.6110309362411499
+GivenName_left.csv,title,laimonis (name),Monarch_right,title,monunius of dardania,0.6099008917808533
+GivenName_left.csv,title,ekaterini,Monarch_right,title,bridei vii,0.6084930896759033
+GivenName_left.csv,title,bulat,Monarch_right,title,k'uk' bahlam i,0.6077963709831238
+GivenName_left.csv,title,nirdesh,Monarch_right,title,anushirvan ibn lashkari,0.6065627336502075
+GivenName_left.csv,title,manish,Monarch_right,title,maravarman rajasimha iii,0.6063538789749146
+GivenName_left.csv,title,kazuhisa,Monarch_right,title,"kavan tissa, prince of ruhuna",0.6061813235282898
+GivenName_left.csv,title,asparukh (name),Monarch_right,title,asaf ad-dawlah mir ali salabat jang,0.60554438829422
+GivenName_left.csv,title,maryam (name),Monarch_right,title,baeda maryam of ethiopia,0.6052504181861877
+GivenName_left.csv,title,vaibhav,Monarch_right,title,abu'l-asvar shavur i,0.6026751399040222
+GivenName_left.csv,title,gniewomir,Monarch_right,title,al-qasim guennoun,0.6021353602409363
+GivenName_left.csv,title,andrius,Monarch_right,title,artabanus iv of parthia,0.6017470359802246
+GivenName_left.csv,title,bogdan,Monarch_right,title,bato (dardanian chieftain),0.6016731262207031
+GivenName_left.csv,title,hideyoshi (given name),Monarch_right,title,george i (miskito),0.6013060808181763
+GivenName_left.csv,title,amit,Monarch_right,title,ashot ibn shavur,0.6003891229629517
+GivenName_left.csv,title,quintian,Monarch_right,title,qubad of shirvan,0.5994846820831299
+GivenName_left.csv,title,eugenijus,Monarch_right,title,ciniod ii,0.5992206335067749
+GivenName_left.csv,title,tetsuharu,Monarch_right,title,emperor tenmu,0.5981135964393616
+GivenName_left.csv,title,nazar (given name),Monarch_right,title,wazir akbar khan,0.5976706147193909
+GivenName_left.csv,title,christian (given name),Monarch_right,title,vicar-ul-umra,0.5959686040878296
+GivenName_left.csv,title,aleksis,Monarch_right,title,gotarzes i,0.5940465927124023
+GivenName_left.csv,title,teimuraz (name),Monarch_right,title,fariburz i,0.5932230949401855
+GivenName_left.csv,title,ilmar,Monarch_right,title,lu'lu' al-kabir,0.5923850536346436
+GivenName_left.csv,title,kristjan,Monarch_right,title,senekerim-hovhannes artsruni,0.5923659205436707
+GivenName_left.csv,title,patricio,Monarch_right,title,phriapatius,0.5922805070877075
+GivenName_left.csv,title,armin,Monarch_right,title,afridun ii,0.5913143157958984
+GivenName_left.csv,title,ailean,Monarch_right,title,'izz al-daula,0.5897161960601807
+GivenName_left.csv,title,demetre,Monarch_right,title,drest x,0.5861226320266724
+GivenName_left.csv,title,celestia (name),Monarch_right,title,caranus (king),0.5859602689743042
+GivenName_left.csv,title,laurentius,Monarch_right,title,monunius ii,0.5851809978485107
+GivenName_left.csv,title,naohisa,Monarch_right,title,k'inich ahkal mo' nahb iii,0.5850610136985779
+GivenName_left.csv,title,alasdair,Monarch_right,title,izz al-dawla,0.5842175483703613
+GivenName_left.csv,title,hannu (given name),Monarch_right,title,empress ma (han dynasty),0.5836648941040039
+GivenName_left.csv,title,masazumi,Monarch_right,title,dost mohammad barakzai,0.5826693773269653
+GivenName_left.csv,title,aldis (name),Monarch_right,title,abd al-wahid i,0.5807664394378662
+GivenName_left.csv,title,nadezhda (given name),Monarch_right,title,muhammad of ghazni,0.580366849899292
+GivenName_left.csv,title,iesada,Monarch_right,title,amda seyon i of ethiopia,0.5779763460159302
+GivenName_left.csv,title,omar (name),Monarch_right,title,lashkari ibn musa,0.5755411386489868
+GivenName_left.csv,title,dalia (name),Monarch_right,title,indradyumna (mythological king),0.5723200440406799
+GivenName_left.csv,title,mana (given name),Monarch_right,title,parameswara (king),0.5715819001197815
+GivenName_left.csv,title,daniil,Monarch_right,title,daniyal (mughal prince),0.5688290596008301
+GivenName_left.csv,title,hashim,Monarch_right,title,lutf allah (sarbadar),0.567227840423584
+GivenName_left.csv,title,kurumi,Monarch_right,title,parakramabahu ix of kotte,0.5668958425521851
+GivenName_left.csv,title,juhi (name),Monarch_right,title,rajasinha ii of kandy,0.5666818022727966
+GivenName_left.csv,title,nagamichi,Monarch_right,title,mahathammaracha ii,0.5664789080619812
+GivenName_left.csv,title,yasuyoshi,Monarch_right,title,yazid ii of shirvan,0.5592697858810425
+GivenName_left.csv,title,henry (given name),Monarch_right,title,hiram i,0.5588388442993164
+GivenName_left.csv,title,judah,Monarch_right,title,muhammad ii shirvanshah,0.5579869151115417
+GivenName_left.csv,title,samara (given name),Monarch_right,title,"gothabhaya, prince of ruhuna",0.5564390420913696
+GivenName_left.csv,title,shigeyoshi,Monarch_right,title,manuchihr iii of shirvan,0.5528225898742676
+GivenName_left.csv,title,nahia (given name),Monarch_right,title,nicias (indo-greek king),0.5519258975982666
+GivenName_left.csv,title,artur,Monarch_right,title,artabanus ii of parthia,0.5512278079986572
+GivenName_left.csv,title,aharon (given name),Monarch_right,title,yohannes i of ethiopia,0.5508823394775391
+GivenName_left.csv,title,milada (name),Monarch_right,title,marzuban ibn muhammad ibn shaddad,0.5498453378677368
+GivenName_left.csv,title,hecham,Monarch_right,title,hezqeyas of ethiopia,0.5493952035903931
+GivenName_left.csv,title,ranulf,Monarch_right,title,baraq (golden horde),0.548542857170105
+GivenName_left.csv,title,shiho (given name),Monarch_right,title,muhammad iii shirvanshah,0.5482211112976074
+GivenName_left.csv,title,lazar (name),Monarch_right,title,lashkari ibn fadl,0.5475066304206848
+GivenName_left.csv,title,slavena (name),Monarch_right,title,lashkari ibn muhammad,0.5466804504394531
+GivenName_left.csv,title,kyril,Monarch_right,title,kayqubad i of shirvan,0.5441181659698486
+GivenName_left.csv,title,roan (name),Monarch_right,title,"vikramabahu, prince of ruhuna",0.543412446975708
+GivenName_left.csv,title,toshikazu,Monarch_right,title,fariburz ii,0.5427690744400024
+GivenName_left.csv,title,kazutoshi,Monarch_right,title,manuchihr i of shirvan,0.5417056083679199
+GivenName_left.csv,title,dragana (given name),Monarch_right,title,"mahanaga, prince of ruhuna",0.5397354364395142
+GivenName_left.csv,title,uno (given name),Monarch_right,title,baeda maryam iii of ethiopia,0.5350296497344971
+GivenName_left.csv,title,mehrzad,Monarch_right,title,muhammad ibn shaddad,0.5346830487251282
+GivenName_left.csv,title,jaanus,Monarch_right,title,demetrius iii aniketos,0.5346702337265015
+GivenName_left.csv,title,nariyasu,Monarch_right,title,parakramabahu iv of dambadeniya,0.5336193442344666
+GivenName_left.csv,title,isami,Monarch_right,title,"idris i, almohad caliph",0.5329105257987976
+GivenName_left.csv,title,gyula (name),Monarch_right,title,parakramabahu epa of gampola,0.5311861038208008
+GivenName_left.csv,title,artyom,Monarch_right,title,artabanus iii of parthia,0.5310589075088501
+GivenName_left.csv,title,praveen,Monarch_right,title,phraates ii,0.5305941104888916
+GivenName_left.csv,title,amos,Monarch_right,title,fadl ibn shavur,0.5279228687286377
+GivenName_left.csv,title,uldis (name),Monarch_right,title,abd al-latif ibn muhammad taraghay ulughbek,0.5269194841384888
+GivenName_left.csv,title,goran,Monarch_right,title,muhammad i of shirvan,0.5268138647079468
+GivenName_left.csv,title,ji-hyun,Monarch_right,title,jaswant singh of bharatpur,0.5255300402641296
+GivenName_left.csv,title,dagobert,Monarch_right,title,dawit i of ethiopia,0.5238459706306458
+GivenName_left.csv,title,kirill,Monarch_right,title,tidal (king),0.5230816602706909
+GivenName_left.csv,title,naruhisa,Monarch_right,title,dutthagamani of anuradhapura,0.522663950920105
+GivenName_left.csv,title,wael,Monarch_right,title,fadl ii,0.5208075046539307
+GivenName_left.csv,title,obinna,Monarch_right,title,iyoas i of ethiopia,0.5204748511314392
+GivenName_left.csv,title,sujata,Monarch_right,title,susenyos of ethiopia,0.5187939405441284

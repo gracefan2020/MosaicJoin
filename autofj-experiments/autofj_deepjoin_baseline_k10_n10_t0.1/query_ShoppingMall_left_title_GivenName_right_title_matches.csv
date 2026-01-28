@@ -1,0 +1,3 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ShoppingMall_left.csv,title,Rivergate Mall,GivenName_right.csv,title,Pia (given name),0.6453
+ShoppingMall_left.csv,title,Downtown Plaza (Sacramento),GivenName_right.csv,title,Roosevelt (name),0.6453

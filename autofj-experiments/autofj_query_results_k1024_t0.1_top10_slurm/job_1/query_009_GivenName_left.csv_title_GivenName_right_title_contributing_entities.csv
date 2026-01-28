@@ -1,0 +1,155 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+GivenName_left.csv,title,joseph (given name),GivenName_right,title,joseph (name),0.9689115881919861
+GivenName_left.csv,title,kalina (given name),GivenName_right,title,kalina (name),0.9649366140365601
+GivenName_left.csv,title,madeleine (given name),GivenName_right,title,madeleine (name),0.9633105397224426
+GivenName_left.csv,title,paulina (name),GivenName_right,title,paulina (given name),0.9629260301589966
+GivenName_left.csv,title,miley (name),GivenName_right,title,miley (given name),0.9625663757324219
+GivenName_left.csv,title,amos,GivenName_right,title,amos (name),0.9620615839958191
+GivenName_left.csv,title,dalia (name),GivenName_right,title,dalia (given name),0.9602384567260742
+GivenName_left.csv,title,asad,GivenName_right,title,asad (name),0.9583707451820374
+GivenName_left.csv,title,laimonis (name),GivenName_right,title,laimonis,0.9558559656143188
+GivenName_left.csv,title,bojan (name),GivenName_right,title,bojan,0.9558495283126831
+GivenName_left.csv,title,hannah (given name),GivenName_right,title,hannah (name),0.9557088613510132
+GivenName_left.csv,title,margaret (name),GivenName_right,title,margaret,0.9555051326751709
+GivenName_left.csv,title,hamad (name),GivenName_right,title,hamad,0.9550276398658752
+GivenName_left.csv,title,sujata,GivenName_right,title,sujata (name),0.9534832835197449
+GivenName_left.csv,title,anthony (given name),GivenName_right,title,anthony (name),0.9531311988830566
+GivenName_left.csv,title,uldis (name),GivenName_right,title,uldis,0.9476836919784546
+GivenName_left.csv,title,michelle (given name),GivenName_right,title,michelle (name),0.9472900629043579
+GivenName_left.csv,title,takeru,GivenName_right,title,takeru (name),0.9466332197189331
+GivenName_left.csv,title,banu (name),GivenName_right,title,banu,0.9436835050582886
+GivenName_left.csv,title,pia (name),GivenName_right,title,pia (given name),0.9407028555870056
+GivenName_left.csv,title,brooke (given name),GivenName_right,title,brooke (name),0.9368529319763184
+GivenName_left.csv,title,tom (name),GivenName_right,title,tom (given name),0.9299522638320923
+GivenName_left.csv,title,rei,GivenName_right,title,rei (given name),0.9144490361213684
+GivenName_left.csv,title,coralie (given name),GivenName_right,title,coralie,0.9144246578216553
+GivenName_left.csv,title,adele (given name),GivenName_right,title,adele,0.9143494367599487
+GivenName_left.csv,title,haruchika,GivenName_right,title,haruchika (given name),0.9090498089790344
+GivenName_left.csv,title,hideyoshi (given name),GivenName_right,title,hideyoshi (disambiguation),0.9086681604385376
+GivenName_left.csv,title,hayley,GivenName_right,title,hayley (given name),0.9081707000732422
+GivenName_left.csv,title,verity (given name),GivenName_right,title,verity,0.903958797454834
+GivenName_left.csv,title,lyfing (given name),GivenName_right,title,lyfing,0.9038472175598145
+GivenName_left.csv,title,ziemowit (given name),GivenName_right,title,ziemowit,0.8998056650161743
+GivenName_left.csv,title,navneet (given name),GivenName_right,title,navneet,0.8961076736450195
+GivenName_left.csv,title,domagoj,GivenName_right,title,domagoj (given name),0.8905855417251587
+GivenName_left.csv,title,alexis (given name),GivenName_right,title,alexis,0.890239953994751
+GivenName_left.csv,title,saiichi,GivenName_right,title,junichi,0.8881019353866577
+GivenName_left.csv,title,ellen (given name),GivenName_right,title,ellen,0.8800963163375854
+GivenName_left.csv,title,ludovica (given name),GivenName_right,title,ludovica,0.8789091110229492
+GivenName_left.csv,title,edwina (given name),GivenName_right,title,edwina,0.87890625
+GivenName_left.csv,title,kalju,GivenName_right,title,kaj,0.874106764793396
+GivenName_left.csv,title,farhad,GivenName_right,title,farah (name),0.8656448125839233
+GivenName_left.csv,title,maryam (name),GivenName_right,title,mary (name),0.8619935512542725
+GivenName_left.csv,title,abid,GivenName_right,title,abid (name),0.8615491390228271
+GivenName_left.csv,title,llywelyn (name),GivenName_right,title,llewellyn (name),0.8599081039428711
+GivenName_left.csv,title,kalle,GivenName_right,title,kaede,0.8523776531219482
+GivenName_left.csv,title,sania,GivenName_right,title,sania (disambiguation),0.8465684056282043
+GivenName_left.csv,title,gerardo,GivenName_right,title,gerard,0.8441168069839478
+GivenName_left.csv,title,hrant,GivenName_right,title,hristo,0.8402102589607239
+GivenName_left.csv,title,miltiades (name),GivenName_right,title,milica,0.8345761895179749
+GivenName_left.csv,title,haruto,GivenName_right,title,harutyun,0.8316556215286255
+GivenName_left.csv,title,hjalmar (given name),GivenName_right,title,hjalmar (disambiguation),0.8265417218208313
+GivenName_left.csv,title,mikiko,GivenName_right,title,maki (name),0.8238723278045654
+GivenName_left.csv,title,hannu (given name),GivenName_right,title,hannu (disambiguation),0.8233318328857422
+GivenName_left.csv,title,raffaella,GivenName_right,title,raffaello (disambiguation),0.8186327219009399
+GivenName_left.csv,title,hawa (given name),GivenName_right,title,haruna (given name),0.8172063827514648
+GivenName_left.csv,title,zsuzsanna,GivenName_right,title,zvonimir,0.8126192688941956
+GivenName_left.csv,title,gun (name),GivenName_right,title,gun (swedish name),0.809428334236145
+GivenName_left.csv,title,katheryn,GivenName_right,title,katherine,0.8069455623626709
+GivenName_left.csv,title,ailean,GivenName_right,title,aileen,0.8019334077835083
+GivenName_left.csv,title,niloufar,GivenName_right,title,nelofar,0.8010560870170593
+GivenName_left.csv,title,jacques,GivenName_right,title,guillaume,0.8003138899803162
+GivenName_left.csv,title,alice (given name),GivenName_right,title,alison (given name),0.8000233173370361
+GivenName_left.csv,title,guntis,GivenName_right,title,gatis,0.79912269115448
+GivenName_left.csv,title,juhan,GivenName_right,title,jahsh,0.7981159687042236
+GivenName_left.csv,title,jonathan (name),GivenName_right,title,jeffrey (name),0.7920723557472229
+GivenName_left.csv,title,aleksy,GivenName_right,title,alessia,0.787477970123291
+GivenName_left.csv,title,mia (given name),GivenName_right,title,mira (given name),0.7864176034927368
+GivenName_left.csv,title,katie,GivenName_right,title,kathryn,0.7824645042419434
+GivenName_left.csv,title,clarissa (given name),GivenName_right,title,tess (given name),0.7751562595367432
+GivenName_left.csv,title,rahman (name),GivenName_right,title,abd al-rahman,0.774871826171875
+GivenName_left.csv,title,juan,GivenName_right,title,juanfran (disambiguation),0.7748367786407471
+GivenName_left.csv,title,yamini,GivenName_right,title,yasmin (given name),0.7714223861694336
+GivenName_left.csv,title,susannah (given name),GivenName_right,title,heather (given name),0.77110356092453
+GivenName_left.csv,title,andrea,GivenName_right,title,michele,0.768752932548523
+GivenName_left.csv,title,idriss,GivenName_right,title,indulis,0.7685470581054688
+GivenName_left.csv,title,jacqueline (given name),GivenName_right,title,vivian (given name),0.7678844332695007
+GivenName_left.csv,title,achim (name),GivenName_right,title,asa (name),0.7664559483528137
+GivenName_left.csv,title,obinna,GivenName_right,title,oladapo,0.7654827833175659
+GivenName_left.csv,title,india (given name),GivenName_right,title,arun (given name),0.7640674114227295
+GivenName_left.csv,title,melinda,GivenName_right,title,corinne,0.7628841400146484
+GivenName_left.csv,title,sarah (given name),GivenName_right,title,sophie (given name),0.7604436874389648
+GivenName_left.csv,title,sakura (name),GivenName_right,title,hana (name),0.7603623867034912
+GivenName_left.csv,title,kaylee,GivenName_right,title,kayo (name),0.7556653022766113
+GivenName_left.csv,title,tomotaka,GivenName_right,title,tuukka,0.7540701627731323
+GivenName_left.csv,title,abdullah (name),GivenName_right,title,abd al-aziz,0.7538725137710571
+GivenName_left.csv,title,may (name),GivenName_right,title,maytham,0.7520260810852051
+GivenName_left.csv,title,dariush,GivenName_right,title,zakiah,0.7517913579940796
+GivenName_left.csv,title,latoya (given name),GivenName_right,title,lindita (given name),0.7490957975387573
+GivenName_left.csv,title,caitlin,GivenName_right,title,brianna,0.7488924264907837
+GivenName_left.csv,title,bita,GivenName_right,title,bita (persian),0.7462801933288574
+GivenName_left.csv,title,ladislao,GivenName_right,title,ljubica,0.7459686994552612
+GivenName_left.csv,title,vladislav,GivenName_right,title,dobroslav,0.745358943939209
+GivenName_left.csv,title,samad,GivenName_right,title,medad,0.7425764203071594
+GivenName_left.csv,title,kazuya,GivenName_right,title,bauyrzhan,0.7392082214355469
+GivenName_left.csv,title,ruriko,GivenName_right,title,raizo,0.738524317741394
+GivenName_left.csv,title,shion,GivenName_right,title,keon,0.7379342913627625
+GivenName_left.csv,title,scott (name),GivenName_right,title,mark (name),0.7376378774642944
+GivenName_left.csv,title,elena (given name),GivenName_right,title,veronica (name),0.7358891367912292
+GivenName_left.csv,title,michael,GivenName_right,title,daniel,0.7353748083114624
+GivenName_left.csv,title,elisa (given name),GivenName_right,title,annetta (given name),0.7350637912750244
+GivenName_left.csv,title,godzimir,GivenName_right,title,lubomir,0.7342478036880493
+GivenName_left.csv,title,polina (given name),GivenName_right,title,priya (given name),0.7316992878913879
+GivenName_left.csv,title,elouen,GivenName_right,title,enn,0.7289022207260132
+GivenName_left.csv,title,rahul,GivenName_right,title,chetan (name),0.7263734340667725
+GivenName_left.csv,title,ayaka (given name),GivenName_right,title,anupama (given name),0.7257568836212158
+GivenName_left.csv,title,kazumasa,GivenName_right,title,okonma,0.7222346067428589
+GivenName_left.csv,title,geoffrey (given name),GivenName_right,title,william (given name),0.7188240885734558
+GivenName_left.csv,title,jay (given name),GivenName_right,title,jerry (given name),0.7169870138168335
+GivenName_left.csv,title,isabel,GivenName_right,title,julia,0.7157531976699829
+GivenName_left.csv,title,alexander,GivenName_right,title,alexandru,0.7132852077484131
+GivenName_left.csv,title,stacy (given name),GivenName_right,title,sandy (given name),0.7050694227218628
+GivenName_left.csv,title,ritwik,GivenName_right,title,tawfik,0.7040104866027832
+GivenName_left.csv,title,arpita,GivenName_right,title,aida (name),0.7024235725402832
+GivenName_left.csv,title,zdravko,GivenName_right,title,dzintars,0.7012134790420532
+GivenName_left.csv,title,clelia (given name),GivenName_right,title,leonie,0.7005875110626221
+GivenName_left.csv,title,shervin,GivenName_right,title,mervin,0.6908459663391113
+GivenName_left.csv,title,talitha (given name),GivenName_right,title,parvati (given name),0.689044713973999
+GivenName_left.csv,title,stephan (given name),GivenName_right,title,marvin (given name),0.6869555711746216
+GivenName_left.csv,title,jonas (name),GivenName_right,title,joseph,0.6827695369720459
+GivenName_left.csv,title,christian (given name),GivenName_right,title,faith (name),0.6802713871002197
+GivenName_left.csv,title,julian,GivenName_right,title,christopher,0.6747462749481201
+GivenName_left.csv,title,gabriella (given name),GivenName_right,title,fatima (name),0.6726245880126953
+GivenName_left.csv,title,frederica (given name),GivenName_right,title,fanny (name),0.6695500612258911
+GivenName_left.csv,title,giuseppina (given name),GivenName_right,title,gita (given name),0.6686595678329468
+GivenName_left.csv,title,theodore (name),GivenName_right,title,roosevelt (name),0.6686042547225952
+GivenName_left.csv,title,alan (given name),GivenName_right,title,arif (given name),0.6669403314590454
+GivenName_left.csv,title,kim (given name),GivenName_right,title,lee (english given name),0.666059136390686
+GivenName_left.csv,title,alasdair,GivenName_right,title,aisling (name),0.662063717842102
+GivenName_left.csv,title,stanislav (given name),GivenName_right,title,stanley (name),0.6601231098175049
+GivenName_left.csv,title,daichi (given name),GivenName_right,title,sora (japanese given name),0.6564006805419922
+GivenName_left.csv,title,dylan (name),GivenName_right,title,dustin (name),0.6555757522583008
+GivenName_left.csv,title,annie (given name),GivenName_right,title,aurora (given name),0.6483620405197144
+GivenName_left.csv,title,sibel,GivenName_right,title,ranald,0.647476077079773
+GivenName_left.csv,title,andris,GivenName_right,title,modris,0.6469417810440063
+GivenName_left.csv,title,nasrin,GivenName_right,title,sorin (given name),0.6458664536476135
+GivenName_left.csv,title,tiiu,GivenName_right,title,ctirad,0.644307017326355
+GivenName_left.csv,title,reginald (given name),GivenName_right,title,bram (given name),0.6423910856246948
+GivenName_left.csv,title,raymond,GivenName_right,title,leonard,0.6408789157867432
+GivenName_left.csv,title,garaidh,GivenName_right,title,padraic,0.6396568417549133
+GivenName_left.csv,title,kristian,GivenName_right,title,travis,0.6364025473594666
+GivenName_left.csv,title,theo,GivenName_right,title,calvin (name),0.6313146352767944
+GivenName_left.csv,title,ji-hyun,GivenName_right,title,soo-young (name),0.6308102607727051
+GivenName_left.csv,title,evan,GivenName_right,title,cory,0.6296546459197998
+GivenName_left.csv,title,khuwaylid (name),GivenName_right,title,shahrokh (mythical bird),0.6275526285171509
+GivenName_left.csv,title,sebastian (name),GivenName_right,title,luke (name),0.6131218671798706
+GivenName_left.csv,title,bahram (name),GivenName_right,title,bora (turkish name),0.6090463995933533
+GivenName_left.csv,title,martin (name),GivenName_right,title,merwin,0.6023862361907959
+GivenName_left.csv,title,heinz (given name),GivenName_right,title,schuyler (name),0.5656255483627319
+GivenName_left.csv,title,jade (given name),GivenName_right,title,cadwallader,0.5570429563522339
+GivenName_left.csv,title,gaspare,GivenName_right,title,parisa (disambiguation),0.5348914861679077
+GivenName_left.csv,title,motonobu,GivenName_right,title,casper,0.5308343172073364
+GivenName_left.csv,title,vidmantas,GivenName_right,title,graciela (disambiguation),0.5256392955780029
+GivenName_left.csv,title,dipankar,GivenName_right,title,damayanti (disambiguation),0.5093865394592285
+GivenName_left.csv,title,gudny,GivenName_right,title,kanye (name),0.505366325378418
+GivenName_left.csv,title,teimuraz (name),GivenName_right,title,faiz (disambiguation),0.49318912625312805

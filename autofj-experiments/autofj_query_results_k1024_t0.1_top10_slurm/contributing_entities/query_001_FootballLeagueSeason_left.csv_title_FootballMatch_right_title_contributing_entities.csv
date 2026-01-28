@@ -1,0 +1,54 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+FootballLeagueSeason_left.csv,title,1952 albanian superliga,FootballMatch_right,title,2012 albanian supercup,0.8437458872795105
+FootballLeagueSeason_left.csv,title,2011 victorian premier league,FootballMatch_right,title,2010â11 w-league grand final,0.7867217063903809
+FootballLeagueSeason_left.csv,title,2012 liga indonesia second division (blai),FootballMatch_right,title,2006 copa indonesia final,0.78489089012146
+FootballLeagueSeason_left.csv,title,2009 togolese championnat national,FootballMatch_right,title,2009 african championship of nations final,0.77226722240448
+FootballLeagueSeason_left.csv,title,2011 meath intermediate football championship,FootballMatch_right,title,2011 all-ireland minor hurling championship,0.7701699733734131
+FootballLeagueSeason_left.csv,title,1999 football league play-offs,FootballMatch_right,title,2009 conference premier play-off final,0.7604846954345703
+FootballLeagueSeason_left.csv,title,2011 u-league,FootballMatch_right,title,2011 j.league cup final,0.7554914951324463
+FootballLeagueSeason_left.csv,title,1998 football league play-offs,FootballMatch_right,title,2008 conference premier play-off final,0.7518816590309143
+FootballLeagueSeason_left.csv,title,1991 football league play-offs,FootballMatch_right,title,2011 conference premier play-off final,0.7466277480125427
+FootballLeagueSeason_left.csv,title,1995 football league play-offs,FootballMatch_right,title,2010 conference premier play-off final,0.7445371150970459
+FootballLeagueSeason_left.csv,title,2013 indonesia super league,FootballMatch_right,title,2013 kenyan super cup (pre-season),0.7287647724151611
+FootballLeagueSeason_left.csv,title,1993 swedish football division 1,FootballMatch_right,title,1993 dutch supercup,0.7280384302139282
+FootballLeagueSeason_left.csv,title,2012 usl pro season,FootballMatch_right,title,2012 conference premier play-off final,0.7232646942138672
+FootballLeagueSeason_left.csv,title,1989 l. league,FootballMatch_right,title,1989 misl all-star game,0.72002112865448
+FootballLeagueSeason_left.csv,title,chinese jia-a league 1987,FootballMatch_right,title,1985 china v hong kong football match,0.7153098583221436
+FootballLeagueSeason_left.csv,title,1993 norwegian first division,FootballMatch_right,title,1992 dutch supercup,0.7144464254379272
+FootballLeagueSeason_left.csv,title,1990 v-league,FootballMatch_right,title,1991 dutch supercup,0.7081740498542786
+FootballLeagueSeason_left.csv,title,2010 s.league,FootballMatch_right,title,2010 wps all-star game,0.6770451068878174
+FootballLeagueSeason_left.csv,title,1988 swedish football division 1,FootballMatch_right,title,1988 dfb-pokal final,0.6769365072250366
+FootballLeagueSeason_left.csv,title,2013 big south conference men's soccer season,FootballMatch_right,title,soccer bowl 2013,0.6732618808746338
+FootballLeagueSeason_left.csv,title,2011 v-league,FootballMatch_right,title,2011 uefa european under-21 championship final,0.6613893508911133
+FootballLeagueSeason_left.csv,title,1981 estonian ssr football championship,FootballMatch_right,title,hungary v el salvador (1982 fifa world cup),0.6609842777252197
+FootballLeagueSeason_left.csv,title,2009 k-league,FootballMatch_right,title,2009 wps all-star game,0.6568988561630249
+FootballLeagueSeason_left.csv,title,1954 estonian ssr football championship,FootballMatch_right,title,austria v switzerland (1954 fifa world cup),0.6541691422462463
+FootballLeagueSeason_left.csv,title,2009 meath intermediate football championship,FootballMatch_right,title,shamrock rovers xi v brazil,0.6354073286056519
+FootballLeagueSeason_left.csv,title,chinese jia-a league 2002,FootballMatch_right,title,2002 international rules series,0.6305637359619141
+FootballLeagueSeason_left.csv,title,1999 s.league,FootballMatch_right,title,1999 international rules series,0.626598596572876
+FootballLeagueSeason_left.csv,title,1942 istanbul football cup,FootballMatch_right,title,2001 germany v england football match,0.6245464086532593
+FootballLeagueSeason_left.csv,title,1972 swedish football division 2,FootballMatch_right,title,1968 dfb-pokal final,0.6226986050605774
+FootballLeagueSeason_left.csv,title,1978 estonian ssr football championship,FootballMatch_right,title,austria v west germany (1978 fifa world cup),0.6193820238113403
+FootballLeagueSeason_left.csv,title,1944 istanbul football cup,FootballMatch_right,title,poland v brazil (1938 fifa world cup),0.6188560128211975
+FootballLeagueSeason_left.csv,title,2009 vietnam second division,FootballMatch_right,title,hungary 10â1 el salvador (1982),0.6106120347976685
+FootballLeagueSeason_left.csv,title,chinese jia-a league 1996,FootballMatch_right,title,2006 international rules series,0.6103302240371704
+FootballLeagueSeason_left.csv,title,2003 tajik league,FootballMatch_right,title,2006 international rules series,0.6087607145309448
+FootballLeagueSeason_left.csv,title,chinese jia-a league 1999,FootballMatch_right,title,2008 international rules series,0.6087293028831482
+FootballLeagueSeason_left.csv,title,1999 tajik league,FootballMatch_right,title,2010 international rules series,0.6045717000961304
+FootballLeagueSeason_left.csv,title,2009 meath senior football championship,FootballMatch_right,title,2009 republic of ireland v france football matches,0.6017603874206543
+FootballLeagueSeason_left.csv,title,1987 1. deild,FootballMatch_right,title,1985 wales v scotland football match,0.5975103378295898
+FootballLeagueSeason_left.csv,title,2011 dhivehi league,FootballMatch_right,title,2011 international rules series,0.595748782157898
+FootballLeagueSeason_left.csv,title,2005 tajik league,FootballMatch_right,title,2005 international rules series,0.5863043069839478
+FootballLeagueSeason_left.csv,title,1997 v-league,FootballMatch_right,title,1998 international rules series,0.5827137231826782
+FootballLeagueSeason_left.csv,title,2011 campeonato roraimense,FootballMatch_right,title,brazil v italy (1982 fifa world cup),0.5806864500045776
+FootballLeagueSeason_left.csv,title,jordan league 2001,FootballMatch_right,title,2001 international rules series,0.5742102861404419
+FootballLeagueSeason_left.csv,title,2001 frankfurt galaxy season,FootballMatch_right,title,battle of nuremberg (2006 fifa world cup),0.569281816482544
+FootballLeagueSeason_left.csv,title,2010 copa aerosur & del sur,FootballMatch_right,title,battle of santiago (1962 fifa world cup),0.5662198662757874
+FootballLeagueSeason_left.csv,title,1964 estonian ssr football championship,FootballMatch_right,title,battle of berne (1954 fifa world cup),0.5641657114028931
+FootballLeagueSeason_left.csv,title,1989 estonian ssr football championship,FootballMatch_right,title,west germany v france (1982 fifa world cup),0.5550592541694641
+FootballLeagueSeason_left.csv,title,2009 esiliiga,FootballMatch_right,title,france 1â1 ireland (18 november 2009),0.5543913841247559
+FootballLeagueSeason_left.csv,title,1976 estonian ssr football championship,FootballMatch_right,title,1876 scotland v wales football match,0.5501220226287842
+FootballLeagueSeason_left.csv,title,2000 new england patriots season,FootballMatch_right,title,2000 england v germany football match,0.5465313196182251
+FootballLeagueSeason_left.csv,title,2006 copa aerosur,FootballMatch_right,title,argentina 2â1 england (1986 fifa world cup),0.5462267398834229
+FootballLeagueSeason_left.csv,title,1974 bc lions season,FootballMatch_right,title,1871 scotland versus england rugby union match,0.5049527287483215
+FootballLeagueSeason_left.csv,title,1922 pottsville maroons season,FootballMatch_right,title,1870â71 home nations rugby union matches,0.48458364605903625

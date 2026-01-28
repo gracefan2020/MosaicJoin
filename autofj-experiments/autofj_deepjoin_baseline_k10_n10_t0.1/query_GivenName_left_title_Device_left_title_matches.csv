@@ -1,0 +1,625 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Gatling gun,0.6794
+GivenName_left.csv,title,Philip (name),Device_left.csv,title,Philips CD-i,0.6794
+GivenName_left.csv,title,Philip (name),Device_left.csv,title,Philips Videopac + G7400,0.6794
+GivenName_left.csv,title,Darrell,Device_left.csv,title,Quarrel,0.6794
+GivenName_left.csv,title,Gladys (given name),Device_left.csv,title,Gladius,0.6794
+GivenName_left.csv,title,Lisa (given name),Device_left.csv,title,Apple Lisa,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Thompson submachine gun,0.6794
+GivenName_left.csv,title,Shukri,Device_left.csv,title,Kukri,0.6794
+GivenName_left.csv,title,Brigitte,Device_left.csv,title,Brig,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 24 Tigerfish,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 83 bomb,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 84 bomb,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 82 bomb,0.6794
+GivenName_left.csv,title,Bradley,Device_left.csv,title,Bradley Fighting Vehicle,0.6794
+GivenName_left.csv,title,Matilda (name),Device_left.csv,title,Matilda II,0.6794
+GivenName_left.csv,title,Aladdin (name),Device_left.csv,title,Aladdin Deck Enhancer,0.6794
+GivenName_left.csv,title,Pia (name),Device_left.csv,title,PIAT,0.6794
+GivenName_left.csv,title,Stephen,Device_left.csv,title,Sten,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bren light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Lewis Gun,0.6794
+GivenName_left.csv,title,Adam (given name),Device_left.csv,title,Coleco Adam,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Maxim gun,0.6794
+GivenName_left.csv,title,Milan (given name),Device_left.csv,title,MILAN,0.6794
+GivenName_left.csv,title,Velvel,Device_left.csv,title,Velvet Glove,0.6794
+GivenName_left.csv,title,Fritz,Device_left.csv,title,Fritz X,0.6794
+GivenName_left.csv,title,Lee (given name),Device_left.csv,title,M3 Lee,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MG 17 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M60 machine gun,0.6794
+GivenName_left.csv,title,Valentine (name),Device_left.csv,title,Valentine tank,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Lanchester submachine gun,0.6794
+GivenName_left.csv,title,Amos,Device_left.csv,title,AMOS,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M197 Gatling gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Heckler & Koch Mark 23,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther P99,0.6794
+GivenName_left.csv,title,Kaito,Device_left.csv,title,Kaiten,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 48 torpedo,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 50 torpedo,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 46 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M240 machine gun,0.6794
+GivenName_left.csv,title,Quentin,Device_left.csv,title,Barquentine,0.6794
+GivenName_left.csv,title,Bertha,Device_left.csv,title,Big Bertha (howitzer),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Vickers machine gun,0.6794
+GivenName_left.csv,title,Kristaps,Device_left.csv,title,Kris,0.6794
+GivenName_left.csv,title,Cassie,Device_left.csv,title,Casspir,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther WA 2000,0.6794
+GivenName_left.csv,title,Ekram,Device_left.csv,title,Chakram,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther PP,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Paris Gun,0.6794
+GivenName_left.csv,title,Beryl (given name),Device_left.csv,title,Kbs wz. 1996 Beryl,0.6794
+GivenName_left.csv,title,Shion,Device_left.csv,title,Landing Craft Air Cushion,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Paixhans gun,0.6794
+GivenName_left.csv,title,Philip (name),Device_left.csv,title,Philips P2000,0.6794
+GivenName_left.csv,title,Cosmas,Device_left.csv,title,COSMAC VIP,0.6794
+GivenName_left.csv,title,Cosmas,Device_left.csv,title,COSMAC ELF,0.6794
+GivenName_left.csv,title,Sultan Hamid Sultan,Device_left.csv,title,FV105 Sultan,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M230 chain gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Sterling submachine gun,0.6794
+GivenName_left.csv,title,Richard,Device_left.csv,title,Fauchard,0.6794
+GivenName_left.csv,title,Gustavs (name),Device_left.csv,title,Schwerer Gustav,0.6794
+GivenName_left.csv,title,Brennan (given name),Device_left.csv,title,Brennan torpedo,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,United States Marine Corps Squad Advanced Marksman Rifle,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Degtyaryov machine gun,0.6794
+GivenName_left.csv,title,Aden (name),Device_left.csv,title,ADEN cannon,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 60 CAPTOR,0.6794
+GivenName_left.csv,title,Tamio,Device_left.csv,title,Tampion,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,PK machine gun,0.6794
+GivenName_left.csv,title,Cock (surname),Device_left.csv,title,Pyrotechnic cocking charge,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,United States Marine Corps Designated Marksman Rifle,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,90 mm Gun M1/M2/M3,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Milkor Stopper 37/38 mm riot gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 81 bomb,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 118 bomb,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M1917 Browning machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,AA-52 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 2.75 inch Mountain Gun,0.6794
+GivenName_left.csv,title,Bulat,Device_left.csv,title,Bulawa,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,40.6 cm SK C/34 gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther P5,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,French 100 mm naval gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther P38,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MG 131 machine gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Medium Mark A Whippet,0.6794
+GivenName_left.csv,title,Matilda (name),Device_left.csv,title,Matilda I (tank),0.6794
+GivenName_left.csv,title,Nanao,Device_left.csv,title,Nandao,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Dreyse needle gun,0.6794
+GivenName_left.csv,title,Richard,Device_left.csv,title,Richard Fiedler,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 60 pounder gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Medium Mark B,0.6794
+GivenName_left.csv,title,Spencer (given name),Device_left.csv,title,Spencer repeating rifle,0.6794
+GivenName_left.csv,title,Mac Raghnaill,Device_left.csv,title,MAC 1934,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Darne machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 2 pounder naval gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Medium Mark C,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 100 submachine gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark IX tank,0.6794
+GivenName_left.csv,title,Berislav,Device_left.csv,title,ASLAV,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 54 MAKO Lightweight Torpedo,0.6794
+GivenName_left.csv,title,Simon (given name),Device_left.csv,title,Upshot-Knothole Simon,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 3 heavy machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 11 75 mm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 88 75 mm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 4 75 mm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 99 88 mm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 14 10 cm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 3 12 cm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 5 15 cm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 10 120 mm AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 87 self-propelled anti-aircraft gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 96 25 mm AT/AA Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Hotchkiss M1914 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 79 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Gun Carrier Mark I,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 11 light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 96 light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 99 light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 92 heavy machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 1 heavy machine gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 44 torpedo,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 32 Surface Vessel Torpedo Tubes,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 5.5 inch Medium Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 4.5 inch Medium Field Gun,0.6794
+GivenName_left.csv,title,Filipa,Device_left.csv,title,Filipinka,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,FM 24/29 light machine gun,0.6794
+GivenName_left.csv,title,David (name),Device_left.csv,title,Little David,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Mors submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Laser guns,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M1941 Johnson machine gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther HP,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Austen submachine gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Tank Mark VIII,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Owen Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MGP submachine gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther MP,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Danuvia 43M submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Vickers K machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,T-12 antitank gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark V Special Operations Craft,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 45 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Sprut anti-tank gun,0.6794
+GivenName_left.csv,title,Robin (name),Device_left.csv,title,Robinson Armament XCR,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 3.7 inch AA gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Net gun,0.6794
+GivenName_left.csv,title,Henry (given name),Device_left.csv,title,Henry rifle,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 31 75 mm Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 41 75 mm Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 11 37 mm Infantry Gun,0.6794
+GivenName_left.csv,title,Kerr (given name),Device_left.csv,title,Kerr's Patent Revolver,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 13 torpedo,0.6794
+GivenName_left.csv,title,Lee (given name),Device_left.csv,title,M1895 Lee Navy,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 94 75 mm Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Pivot gun,0.6794
+GivenName_left.csv,title,Artemy,Device_left.csv,title,Artemis 30,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Rheinmetall 120 mm gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,NSV machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,L118 light gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 30 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Lusa submachine gun,0.6794
+GivenName_left.csv,title,List of people named Jesse,Device_left.csv,title,List of VM Motori engines,0.6794
+GivenName_left.csv,title,Robin (name),Device_left.csv,title,Robinson Armament M96 Expeditionary,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M107 self-propelled gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,40 cm/45 Type 94 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,122 mm gun M1931/37 (A-19),0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 24 Mine,0.6794
+GivenName_left.csv,title,Audrey,Device_left.csv,title,3Com Audrey,0.6794
+GivenName_left.csv,title,Kurumi,Device_left.csv,title,Urumi,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,ShKAS machine gun,0.6794
+GivenName_left.csv,title,Per (given name),Device_left.csv,title,One Per Desk,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther P22,0.6794
+GivenName_left.csv,title,Parker (given name),Device_left.csv,title,Parker Hale M85,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Gerber Mark II,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther G22,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 97 light machine gun,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,Colt M1905 New Marine,0.6794
+GivenName_left.csv,title,Simon (given name),Device_left.csv,title,IBM Simon,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 15 inch Mk I naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm divisional gun M1942 (ZiS-3),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M12 Gun Motor Carriage,0.6794
+GivenName_left.csv,title,Seren (given name),Device_left.csv,title,Serene (phone),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Nock gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Advanced Gun System,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Vickers Medium Mark II,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,57 mm anti-tank gun M1943 (ZiS-2),0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Vickers Medium Mark I,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther P88,0.6794
+GivenName_left.csv,title,Brent,Device_left.csv,title,Bren Ten,0.6794
+GivenName_left.csv,title,Jens (given name),Device_left.csv,title,Jennings J-22,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther TPH,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,KPV heavy machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,37 mm Gun M3,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,100 mm field gun M1944 (BS-3),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M8 Armored Gun System,0.6794
+GivenName_left.csv,title,Bernard,Device_left.csv,title,Bernardini MB-3 Tamoyo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,3-inch Gun M1918,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,120 mm M1 gun,0.6794
+GivenName_left.csv,title,Lars,Device_left.csv,title,Lanchester 6x4 Armoured Car,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M40 Gun Motor Carriage,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,PV-1 machine gun,0.6794
+GivenName_left.csv,title,Ricardo,Device_left.csv,title,DARDO,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Birch gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Reibel machine gun,0.6794
+GivenName_left.csv,title,Toshio,Device_left.csv,title,Toshiba Qosmio,0.6794
+GivenName_left.csv,title,Caesar (given name),Device_left.csv,title,CAESAR self-propelled howitzer,0.6794
+GivenName_left.csv,title,Lorraine (given name),Device_left.csv,title,Lorraine 37L,0.6794
+GivenName_left.csv,title,Hero (given name),Device_left.csv,title,HERO (robot),0.6794
+GivenName_left.csv,title,Lars,Device_left.csv,title,Lanchester 4x2 Armoured Car,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 4 nuclear bomb,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,EPK (Pyrkal) Machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Modified Hotchkiss machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Dardanelles Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Smith Gun,0.6794
+GivenName_left.csv,title,Dina,Device_left.csv,title,Dina (video game console),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 67 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Ho-103 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 89 machine gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 37 torpedo,0.6794
+GivenName_left.csv,title,Gabriel (name),Device_left.csv,title,Gabriel (missile),0.6794
+GivenName_left.csv,title,Mac Raghnaill,Device_left.csv,title,Mac Pro,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RBL 7 inch Armstrong gun,0.6794
+GivenName_left.csv,title,Dana (given name),Device_left.csv,title,152mm SpGH DANA,0.6794
+GivenName_left.csv,title,Diamond (given name),Device_left.csv,title,Diamond T tank transporter,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bergmann MG 15nA machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm regimental gun M1927,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 13.5 inch Mk V naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,7.5 cm L/45 M/16 anti aircraft gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,7.5 cm L/45 M/32 anti aircraft gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm gun M1,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm divisional gun M1939 (USV),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm divisional gun M1936 (F-22),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm regimental gun M1943,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,85 mm air defense gun M1939 (52-K),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,45 mm anti-tank gun M1942 (M-42),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,45 mm anti-tank gun M1937 (53-K),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm air defense gun M1938,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm divisional gun M1902,0.6794
+GivenName_left.csv,title,List of people named Jesse,Device_left.csv,title,List of Xbox 360 accessories,0.6794
+GivenName_left.csv,title,Maxim (given name),Device_left.csv,title,Maxim M/32-33,0.6794
+GivenName_left.csv,title,Ruby (given name),Device_left.csv,title,Ruby pistol,0.6794
+GivenName_left.csv,title,Velvel,Device_left.csv,title,Vel,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 1 47 mm Anti-Tank Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Madsen machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 92 Battalion Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 1 37 mm Anti-Tank Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,L94A1 chain gun,0.6794
+GivenName_left.csv,title,Ida (given name),Device_left.csv,title,Ida (sword),0.6794
+GivenName_left.csv,title,Lars,Device_left.csv,title,LAR Grizzly Win Mag,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,37 mm automatic air defense gun M1939 (61-K),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm mountain gun M1938,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,SU-100Y Self-Propelled Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 16 inch Mk I naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,37 mm anti-tank gun M1930 (1-K),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Besa machine gun,0.6794
+GivenName_left.csv,title,Petra (given name),Device_left.csv,title,Petrary,0.6794
+GivenName_left.csv,title,Ida (given name),Device_left.csv,title,IDAS (missile),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 94 37 mm Anti-Tank Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,152 mm siege gun M1910,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark IV tank,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark V tank,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,25 mm Hotchkiss anti-tank gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,25 mm Hotchkiss anti-aircraft gun,0.6794
+GivenName_left.csv,title,Pearl (given name),Device_left.csv,title,BlackBerry Pearl,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,Marine Scout Sniper Rifle,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,107 mm gun M1910,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,6 inch siege gun M1877,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,6 inch siege gun M1904,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,D-10 tank gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther GSP,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Nordenfelt gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Gast gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Villar-Perosa aircraft submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,4.5 inch Mark 8 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,87 mm light field gun M1877,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Kord machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Dror light machine gun,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,United States Marine Corps noncommissioned officer's sword,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 18 inch Mk I naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 14 inch Mk VII naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Breda-SAFAT machine gun,0.6794
+GivenName_left.csv,title,Whitney (given name),Device_left.csv,title,Whitney Wolverine,0.6794
+GivenName_left.csv,title,Tom (name),Device_left.csv,title,155 mm Long Tom,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,3 inch Gun M5,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Gun hybrid,0.6794
+GivenName_left.csv,title,Ayumi,Device_left.csv,title,Oyumi,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M1128 Mobile Gun System,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,47 mm APX anti-tank gun,0.6794
+GivenName_left.csv,title,Harper (name),Device_left.csv,title,Harpe,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M6 Gun Motor Carriage,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M3 Gun Motor Carriage,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,T55E1 Gun Motor Carriage,0.6794
+GivenName_left.csv,title,Mats (name),Device_left.csv,title,Type 64 MAT,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Deer gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Rolls-Royce Experimental Machine Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,F1 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Ksp m/42 machine gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther SSP,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M73 machine gun,0.6794
+GivenName_left.csv,title,Aart,Device_left.csv,title,A-Darter,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Browning Buck Mark,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MCEM 2 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MCEM 3 submachine gun,0.6794
+GivenName_left.csv,title,David (name),Device_left.csv,title,Davidka,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Coach gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MG 81 machine gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 14 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Vickers .50 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 1 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 2 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 92 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,37 mm trench gun M1915,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm air-defense gun M1914/15,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,152 mm gun 2A36,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 60 122 mm Field Gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 15 torpedo,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther PPS,0.6794
+GivenName_left.csv,title,Paterson (given name),Device_left.csv,title,Colt Paterson,0.6794
+GivenName_left.csv,title,Artem,Device_left.csv,title,Archer Artillery System,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bira gun,0.6794
+GivenName_left.csv,title,Tom (name),Device_left.csv,title,155 mm Creusot Long Tom,0.6794
+GivenName_left.csv,title,Kathy,Device_left.csv,title,Malappuram Kathi,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 18 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,FBP submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Kjellman machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Kg m/40 light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,130 mm towed field gun M1954 (M-46),0.6794
+GivenName_left.csv,title,Charles,Device_left.csv,title,Charlton Automatic Rifle,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther OSP,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther Olympia,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,13.2 mm Hotchkiss machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Chropi GP10 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 63 anti-aircraft gun,0.6794
+GivenName_left.csv,title,Nora (name),Device_left.csv,title,Nora B-52,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Vigneron submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Sola submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,GShG-7.62 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 90 240 mm railway gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,25 mm automatic air defense gun M1940 (72-K),0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 34 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,152 mm gun M1935 (Br-2),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Galloper gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Medium Mark III,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm gun M1900,0.6794
+GivenName_left.csv,title,Luna (name),Device_left.csv,title,Nokia 8600 Luna,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch Mk VII naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 2.95 inch Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,FMK-3 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bofors 57 mm gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,105mm Gun T8,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,T75 Light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,8 inch Gun M1,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 90 machine gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther SP22,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,37mm Gun M1,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,107 mm divisional gun M1940 (M-60),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 17.72 inch gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 10 pounder Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 12 inch railway gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,100 mm air defense gun KS-19,0.6794
+GivenName_left.csv,title,Altan,Device_left.csv,title,Altay (tank),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch Gun Mk XIX,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 16/1 triple 6 in /47 Turret,0.6794
+GivenName_left.csv,title,Philip (name),Device_left.csv,title,Philips Velo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,210 mm gun M1939 (Br-17),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,42 line gun M1877,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,180 mm gun S-23,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,4.5 inch Gun M1,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 12 pounder 12 cwt AA gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Davidson-Duryea gun carriage,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 13 pounder 6 cwt AA gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 13 pounder Mk IV AA gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Sputter Gun,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,United States Marine Raider stiletto,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 2.5 inch Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,CITER 155mm L33 Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 7 pounder Mountain Gun,0.6794
+GivenName_left.csv,title,Katarzyna,Device_left.csv,title,Katana,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RPD machine gun,0.6794
+GivenName_left.csv,title,Philip (name),Device_left.csv,title,Philips :YES,0.6794
+GivenName_left.csv,title,Felix (name),Device_left.csv,title,VB-6 Felix,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 12 pounder 12 cwt naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,AC 47 anti-tank gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,AC 37 anti-tank gun,0.6794
+GivenName_left.csv,title,Stacy (given name),Device_left.csv,title,Atari STacy,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 12 pounder 18 cwt naval gun,0.6794
+GivenName_left.csv,title,Iris (given name),Device_left.csv,title,HTC Iris,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 14 inch Railway Gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark V Composite tank in Estonian service,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,German Sport Guns GSG-5,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Yak-B 12.7mm machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M85 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,75 mm Gun M1917,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Cugir machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Taden gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 4 inch Mk V naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Mk 1 Underwater Defense Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Vz. 52 (machine gun),0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,Marine Multi-purpose Vehicle,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,COW 37 mm gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,3-inch M1902 field gun,0.6794
+GivenName_left.csv,title,Diamond (given name),Device_left.csv,title,HTC Touch Diamond,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 14 pounder Maxim-Nordenfelt naval gun,0.6794
+GivenName_left.csv,title,Martine,Device_left.csv,title,Martini Cadet,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Stoeger Coach Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Pecheneg machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 61 25mm AAA guns,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Harris Gun Works M-96,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Smith & Wesson Model 317 kit gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 5.25 inch gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,85 mm divisional gun D-44,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,85 mm antitank gun D-48,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,122 mm gun M1931 (A-19),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M.27 (mountain gun),0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 43 torpedo,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 35 torpedo,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 27 torpedo,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 16 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 38 75 mm Field Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Skoda Model 1928 Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,MGP-15 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,LSAT light machine gun,0.6794
+GivenName_left.csv,title,David (name),Device_left.csv,title,David's Sling,0.6794
+GivenName_left.csv,title,Jacinto,Device_left.csv,title,Macintosh,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 4 inch Mk XVI naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RBL 12 pounder 8 cwt Armstrong gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 16.25 inch Mk I naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bofors 152 mm gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 12 inch naval gun Mk VIII,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 9.2 inch naval gun Mk VIII,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,D-74 122 mm Field Gun,0.6794
+GivenName_left.csv,title,Philip (name),Device_left.csv,title,Philips Nino,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,"QF 4 inch naval gun Mk IV, XII, XXII",0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 4 inch naval gun Mk VII,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 4 inch naval gun Mk VIII,0.6794
+GivenName_left.csv,title,Mac Raghnaill,Device_left.csv,title,Mac Mini,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Arsenal submachine gun,0.6794
+GivenName_left.csv,title,Raffaello,Device_left.csv,title,Benelli Raffaello CrioComfort,0.6794
+GivenName_left.csv,title,Raffaello,Device_left.csv,title,Benelli Raffaello,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch gun Mk V,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 5.5 inch Mark I naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RBL 40 pounder Armstrong gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RBL 20 pounder Armstrong gun,0.6794
+GivenName_left.csv,title,Lars,Device_left.csv,title,Madsen LAR,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther LGR,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch Mk XI naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 12 inch Mk X naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch Mk XII naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 9.2 inch Mk XI naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Experimental Model 2 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 3 120 mm 45 caliber naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 4 inch Mk IX naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 60 Self-propelled 106 mm Recoilless Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 7.5 inch Mk I naval gun,0.6794
+GivenName_left.csv,title,Nina (name),Device_left.csv,title,Zelybron Micro Nina,0.6794
+GivenName_left.csv,title,Adamo,Device_left.csv,title,Dell Adamo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 64 pounder 64 cwt gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,IMI 120 mm gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M3 submachine gun,0.6794
+GivenName_left.csv,title,Opal (given name),Device_left.csv,title,Opal (armoured personnel carrier),0.6794
+GivenName_left.csv,title,Ulick,Device_left.csv,title,ESlick,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Oerlikon Millennium 35 mm Naval Revolver Gun System,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M249 light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,W85 heavy machine gun,0.6794
+GivenName_left.csv,title,Daisy (given name),Device_left.csv,title,Daisy V/L,0.6794
+GivenName_left.csv,title,Theodor,Device_left.csv,title,24 cm Theodor Kanone (E),0.6794
+GivenName_left.csv,title,Theodor,Device_left.csv,title,24 cm Theodor Bruno Kanone (E),0.6794
+GivenName_left.csv,title,Bruno (name),Device_left.csv,title,28 cm schwere Bruno Kanone (E),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bofors 283 mm gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Chauchat-Ribeyrolles 1918 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,OQF 3 pounder gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 4.7 inch Mk V naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M56 Submachine gun,0.6794
+GivenName_left.csv,title,Hussein,Device_left.csv,title,Al Hussein (missile),0.6794
+GivenName_left.csv,title,Iris (given name),Device_left.csv,title,IRIS (jamming device),0.6794
+GivenName_left.csv,title,Grete,Device_left.csv,title,Faule Grete,0.6794
+GivenName_left.csv,title,Aino (given name),Device_left.csv,title,Sony Ericsson Aino,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther Model 9,0.6794
+GivenName_left.csv,title,Hero (given name),Device_left.csv,title,HTC Hero,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,2A46 125 mm gun,0.6794
+GivenName_left.csv,title,Lazar (name),Device_left.csv,title,Lazar BVT,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 10 inch 18 ton gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,12.7 cm/50 Type 3 naval gun,0.6794
+GivenName_left.csv,title,Davy (given name),Device_left.csv,title,Davis Warner Infallible,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Hotchkiss M1922 machine gun,0.6794
+GivenName_left.csv,title,Harper (name),Device_left.csv,title,Harpers Ferry Model 1803,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 9 inch 12 ton gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 64 pounder 71 cwt gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 12.5 inch 38 ton gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,45 mm anti-aircraft gun (21-K),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch 80 pounder gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 80 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 77 Heavy Machine Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Madsen-Saetter machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,28 cm SK C/28 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 12 inch 25 ton gun,0.6794
+GivenName_left.csv,title,Kalina (given name),Device_left.csv,title,SPG Kalina,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 12 inch 35 ton gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 11 inch 25 ton gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,CRN 91 Naval Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,6 inch 35 caliber naval gun 1877,0.6794
+GivenName_left.csv,title,Martin (name),Device_left.csv,title,Lockheed Martin ALHTK,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther PK380,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,1-inch Nordenfelt gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 8 inch Mk VIII naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch Mk XXIII naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 7.5 inch Mk VI naval gun,0.6794
+GivenName_left.csv,title,Scott (name),Device_left.csv,title,Triplett & Scott carbine,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Model 1968 Recoilless Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,203 mm /53 Italian naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,381mm / 50 Model 1934 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,320 mm Model 1934 naval gun,0.6794
+GivenName_left.csv,title,Adam (given name),Device_left.csv,title,Adam tablet,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Turret gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M60 recoilless gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Gorgas machine gun,0.6794
+GivenName_left.csv,title,Marine (given name),Device_left.csv,title,Marine Personnel Carrier,0.6794
+GivenName_left.csv,title,Bradley,Device_left.csv,title,M3 Bradley,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bofors 120 mm gun,0.6794
+GivenName_left.csv,title,Bradley,Device_left.csv,title,M2 Bradley,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M1875 Mountain Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,68-pounder gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,4.7 inch QF Mark IX & XII,0.6794
+GivenName_left.csv,title,Rie,Device_left.csv,title,Rieder Automatic Rifle,0.6794
+GivenName_left.csv,title,Parker (given name),Device_left.csv,title,Parker Hale M82,0.6794
+GivenName_left.csv,title,Aria (name),Device_left.csv,title,HTC Aria,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Russian 12 inch 40 caliber naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 4.7 inch Mk VIII naval gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Colt Defender Mark I,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 4.7 inch Mark XI gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 6 pounder 10 cwt gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 10 torpedo,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,70-pounder Whitworth naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,120-pounder Whitworth naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,14-inch M1920 railway gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,8 inch Mk. VI railway gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,"1.59 inch Breech-Loading Vickers Q.F. Gun, Mk II",0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,T24 machine gun,0.6794
+GivenName_left.csv,title,Anders,Device_left.csv,title,WPB Anders,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Artillery Gun Module,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 7 inch gun,0.6794
+GivenName_left.csv,title,Luna (name),Device_left.csv,title,2K6 Luna,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Pleter 91 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Winans Steam Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Denel 35mm Dual Purpose Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,16-inch gun M1895,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,75 mm Gun M1916,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,28 cm SK L/45 gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,28 cm SK L/50 gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,17 cm SK L/40 gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,8.8 cm SK C/30 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,8.8 cm SK C/31 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,8.8 cm SK C/35 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,10.5 cm SK L/40 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,10.5 cm SK L/45 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,130 mm coastal defense gun A-222,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,14 cm/50 3rd Year Type naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,8 cm/40 3rd Year Type naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,12.7 cm/40 Type 89 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,PPS submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M1919 Browning machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,12-inch Gun M1895,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 8 inch 9 ton gun,0.6794
+GivenName_left.csv,title,Armin,Device_left.csv,title,Arming sword,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,100 mm anti-tank gun M1977,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 64 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,DRDO 155 mm artillery gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,15 cm TbtsK C/36 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,12.7 cm SK C/34 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 4 inch Mk XIX naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Kunitomo air gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,BL 6 inch Mk XXII naval gun,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Weatherby Mark V,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,4.7 inch Gun M1906,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 73 light machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Garanin machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Shooting Star Tommy Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,McGlashan Air Machine Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Palmer BB Machine Gun,0.6794
+GivenName_left.csv,title,Ben,Device_left.csv,title,Ben NanoNote,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,EDDA submachine gun,0.6794
+GivenName_left.csv,title,Sorin (first name),Device_left.csv,title,First Win,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 77 submachine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Agar gun,0.6794
+GivenName_left.csv,title,Walther,Device_left.csv,title,Walther PPQ,0.6794
+GivenName_left.csv,title,Jawed,Device_left.csv,title,Viper Jaws pistol,0.6794
+GivenName_left.csv,title,Alejandro,Device_left.csv,title,Alejandro Sniper Rifle,0.6794
+GivenName_left.csv,title,Mark (given name),Device_left.csv,title,Mark 41 Vertical Launching System,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,12 cm/45 10th Year Type naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Bailey machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Type 100 machine gun,0.6794
+GivenName_left.csv,title,Lee (given name),Device_left.csv,title,Lee Speed,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Nikonov machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M49 Submachine gun,0.6794
+GivenName_left.csv,title,Evan,Device_left.csv,title,Evans Repeating Rifle,0.6794
+GivenName_left.csv,title,Bashir,Device_left.csv,title,Basir,0.6794
+GivenName_left.csv,title,Martin (name),Device_left.csv,title,Lockheed Martin JLTV,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,RML 40 pounder gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,20.3 cm/45 Type 41 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,QF 14 pounder naval gun Mk I & II naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Lombard (gun),0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,M1926 machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,76 mm mountain gun M48,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,LAD machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,36-pounder long gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,18-pounder long gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,24-pounder long gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,12-pounder long gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Lightweight Medium Machine Gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Krupp gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,14 cm/40 11th Year Type naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,10.5 cm SK C/32 naval gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,30-pounder long gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,30-pounder short gun,0.6794
+GivenName_left.csv,title,Ben,Device_left.csv,title,Bendix Hyde carbine,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Fittipaldi machine gun,0.6794
+GivenName_left.csv,title,Anders,Device_left.csv,title,ARDE 40 mm Under Barrel Grenade Launcher,0.6794
+GivenName_left.csv,title,List of people named Jesse,Device_left.csv,title,List of combat shotguns,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Barnitzke machine gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,ML 8 inch shell gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Caldwell machine gun,0.6794
+GivenName_left.csv,title,Chiho,Device_left.csv,title,Type 98 Chi-Ho,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,47 mm Anti-tank Gun Model 1931,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,3-inch gun M1903,0.6794
+GivenName_left.csv,title,Zahra (name),Device_left.csv,title,Ya Zahra air defense system,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,Gun stabilizer,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,120 mm Shneider-Canet M1897 long gun,0.6794
+GivenName_left.csv,title,Gun (name),Device_left.csv,title,41 cm/45 3rd Year Type naval gun,0.6794

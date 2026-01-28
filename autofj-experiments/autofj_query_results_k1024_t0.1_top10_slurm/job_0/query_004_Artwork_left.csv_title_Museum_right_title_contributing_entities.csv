@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Artwork_left.csv,title,salisbury cathedral from the meadows,Museum_right,title,the salisbury museum,0.7669169902801514
+Artwork_left.csv,title,roman capriccio: the pantheon and other monuments,Museum_right,title,national roman museum,0.7652959227561951
+Artwork_left.csv,title,the special warfare memorial statue,Museum_right,title,legion of honor (museum),0.7300493717193604
+Artwork_left.csv,title,steuben monument,Museum_right,title,stedelijk museum,0.7203269600868225
+Artwork_left.csv,title,house i,Museum_right,title,svrzo house,0.7071611881256104
+Artwork_left.csv,title,aero memorial (manship),Museum_right,title,museum of aviation,0.7058722972869873
+Artwork_left.csv,title,lansdowne portrait,Museum_right,title,hugh lane gallery,0.7035044431686401
+Artwork_left.csv,title,the jewish cemetery,Museum_right,title,london jewish museum,0.70192551612854
+Artwork_left.csv,title,"st. george (raphael, louvre)",Museum_right,title,louvre,0.6982029676437378
+Artwork_left.csv,title,altarpiece of the saints john,Museum_right,title,blessed john paul ii shrine,0.6954026818275452
+Artwork_left.csv,title,halifax explosion memorial sculpture,Museum_right,title,naval museum of halifax,0.6932514905929565
+Artwork_left.csv,title,flora (titian),Museum_right,title,botanic garden meise,0.6930950284004211
+Artwork_left.csv,title,the lacemaker (vermeer),Museum_right,title,lace museum,0.6885936260223389
+Artwork_left.csv,title,portrait of andrea doria (sebastiano del piombo),Museum_right,title,museo delle culture,0.681145191192627
+Artwork_left.csv,title,primavera (painting),Museum_right,title,museo d'arte antica,0.6737842559814453
+Artwork_left.csv,title,las meninas,Museum_right,title,serralves,0.668833315372467
+Artwork_left.csv,title,general maister monument (brdar),Museum_right,title,"military museum, belgrade",0.6660985946655273
+Artwork_left.csv,title,portrait of the infante don carlos,Museum_right,title,museo nacional de arte,0.6657044887542725
+Artwork_left.csv,title,kwakiutl (statue),Museum_right,title,om kalthoum museum,0.6647621393203735
+Artwork_left.csv,title,bust of louis xiv (bernini),Museum_right,title,museum of fine arts bern,0.6633781790733337
+Artwork_left.csv,title,cafe gurzuf (painting),Museum_right,title,maison gabrielle-roy,0.6625463962554932
+Artwork_left.csv,title,portrait of guidobaldo da montefeltro,Museum_right,title,museo ferrari,0.6624056100845337
+Artwork_left.csv,title,san zeno altarpiece (mantegna),Museum_right,title,mennello museum of american art,0.6623444557189941
+Artwork_left.csv,title,uss maine national monument,Museum_right,title,great lakes naval museum,0.6607822179794312
+Artwork_left.csv,title,sherbrooke war memorial,Museum_right,title,canadian museum of history,0.6589073538780212
+Artwork_left.csv,title,jasenovac monument,Museum_right,title,"art pavilion, zagreb",0.6575324535369873
+Artwork_left.csv,title,"coronation of the virgin (fra angelico, louvre)",Museum_right,title,musã©e du louvre,0.6574214100837708
+Artwork_left.csv,title,the bellelli family,Museum_right,title,house of carlo goldoni,0.656639039516449
+Artwork_left.csv,title,the sphere,Museum_right,title,cosmosphere,0.6562835574150085
+Artwork_left.csv,title,1967 in fine arts of the soviet union,Museum_right,title,"museum of applied arts, belgrade",0.6561651229858398
+Artwork_left.csv,title,the painter's studio,Museum_right,title,art sonje center,0.6540961265563965
+Artwork_left.csv,title,statue of parakramabahu i,Museum_right,title,satriamandala museum,0.652402937412262
+Artwork_left.csv,title,washington monument (milwaukee),Museum_right,title,grand rapids public museum,0.6486194729804993
+Artwork_left.csv,title,mahatma gandhi memorial (milwaukee),Museum_right,title,national world war i museum and memorial,0.6480305194854736
+Artwork_left.csv,title,jacques marquette (sculpture),Museum_right,title,royal museum of fine arts antwerp,0.647513747215271
+Artwork_left.csv,title,bust of monsignor pedro de foix montoya,Museum_right,title,national museum of capodimonte,0.6459360122680664
+Artwork_left.csv,title,christ of saint john of the cross,Museum_right,title,saint john paul ii national shrine,0.645479679107666
+Artwork_left.csv,title,the lovers (daen),Museum_right,title,the valentine,0.6447702646255493
+Artwork_left.csv,title,untitled (jazz musicians),Museum_right,title,national jazz museum in harlem,0.6441799998283386
+Artwork_left.csv,title,abraham lincoln (bust by jones),Museum_right,title,american civil war museum,0.6422512531280518
+Artwork_left.csv,title,engagement (sculpture),Museum_right,title,lillie and hugh roy cullen sculpture garden,0.6417790055274963
+Artwork_left.csv,title,portrait of andrea navagero and agostino beazzano,Museum_right,title,international museum and library of music of bologna,0.6409629583358765
+Artwork_left.csv,title,william farquhar collection of natural history drawings,Museum_right,title,"natural history museum, london",0.6400537490844727
+Artwork_left.csv,title,harmonia (sculpture),Museum_right,title,copia (museum),0.6384028196334839
+Artwork_left.csv,title,andrew w. mellon memorial fountain,Museum_right,title,burchfield-penney art center,0.6372940540313721
+Artwork_left.csv,title,magic grove,Museum_right,title,museum of witchcraft and magic,0.6367715001106262
+Artwork_left.csv,title,"cook statue, christchurch",Museum_right,title,canterbury heritage museum,0.6343265175819397
+Artwork_left.csv,title,indian widow,Museum_right,title,dakshinachitra,0.6340854167938232
+Artwork_left.csv,title,andrews county veterans memorial,Museum_right,title,travis air force base heritage center,0.6331946849822998
+Artwork_left.csv,title,valle romita polyptych,Museum_right,title,strataca,0.6331764459609985
+Artwork_left.csv,title,the letters of utrecht,Museum_right,title,"oude kerk, amsterdam",0.6331522464752197
+Artwork_left.csv,title,bust of giovanni battista santoni,Museum_right,title,international museum and library of bologna,0.6292332410812378
+Artwork_left.csv,title,the falconer sculpture,Museum_right,title,blaffer art museum,0.628465473651886
+Artwork_left.csv,title,portrait of laura dianti,Museum_right,title,jane voorhees zimmerli art museum,0.6283301115036011
+Artwork_left.csv,title,hotel by a railroad,Museum_right,title,old train station and railway museum,0.6281470060348511
+Artwork_left.csv,title,terraced village,Museum_right,title,old stone house (brooklyn),0.6263614892959595
+Artwork_left.csv,title,acton (turrell),Museum_right,title,addington long barrow,0.6263608932495117
+Artwork_left.csv,title,klimt university of vienna ceiling paintings,Museum_right,title,national gallery of denmark,0.6263355612754822
+Artwork_left.csv,title,"statue of sherlock holmes, london",Museum_right,title,wiltshire museum,0.6238085031509399
+Artwork_left.csv,title,personnage oiseaux,Museum_right,title,musã©e international d'horlogerie,0.6237926483154297
+Artwork_left.csv,title,rhein ii,Museum_right,title,ziegelei lage,0.6237426996231079
+Artwork_left.csv,title,armistead monument,Museum_right,title,museum haarlem,0.6219837665557861
+Artwork_left.csv,title,death of sardanapalus,Museum_right,title,srimanta sankardev kalakshetra,0.6218264102935791
+Artwork_left.csv,title,portrait of suzanne bloch,Museum_right,title,marta herford,0.62092125415802
+Artwork_left.csv,title,his highness the prince,Museum_right,title,royal academy,0.6208139657974243
+Artwork_left.csv,title,george peabody (sculpture),Museum_right,title,westervelt warner museum of american art,0.6203638315200806
+Artwork_left.csv,title,celebration (tyeb mehta),Museum_right,title,shankardev kalakshetra,0.6192446351051331
+Artwork_left.csv,title,portrait of history,Museum_right,title,museum of the image,0.6187529563903809
+Artwork_left.csv,title,maurin quina,Museum_right,title,mumok,0.614485502243042
+Artwork_left.csv,title,indiana law enforcement and firefighters memorial,Museum_right,title,national emergency services museum,0.6132347583770752
+Artwork_left.csv,title,chair (sculpture),Museum_right,title,serpentine galleries,0.6122907996177673
+Artwork_left.csv,title,ville d'avray (painting),Museum_right,title,de young (museum),0.6122622489929199
+Artwork_left.csv,title,dawnsong,Museum_right,title,nordlandsmuseet,0.611512303352356
+Artwork_left.csv,title,eastman monument,Museum_right,title,newcomb art museum,0.6113766431808472
+Artwork_left.csv,title,perugia altarpiece,Museum_right,title,canterbury roman museum,0.6111007332801819
+Artwork_left.csv,title,the swimming hole,Museum_right,title,sunken secrets,0.6108649969100952
+Artwork_left.csv,title,the stonebreaker,Museum_right,title,coldrum stones,0.6095446348190308
+Artwork_left.csv,title,portrait of a collector,Museum_right,title,the david collection,0.6091488003730774
+Artwork_left.csv,title,the lackawanna valley,Museum_right,title,old fort erie,0.6091025471687317
+Artwork_left.csv,title,stufetta del cardinal bibbiena,Museum_right,title,museo d'arte di chianciano terme,0.6076522469520569
+Artwork_left.csv,title,portrait of gustave geffroy,Museum_right,title,emfietzoglou gallery museum,0.6074979305267334
+Artwork_left.csv,title,marsuppini coronation,Museum_right,title,dadiani palace,0.607478678226471
+Artwork_left.csv,title,holcomb mausoleum door,Museum_right,title,holburne museum,0.6072487831115723
+Artwork_left.csv,title,portrait of sigismondo pandolfo malatesta,Museum_right,title,muzeum budownictwa ludowego w sanoku,0.6072415709495544
+Artwork_left.csv,title,lapham memorial,Museum_right,title,lichfield museum,0.6071633100509644
+Artwork_left.csv,title,zliten mosaic,Museum_right,title,zigler museum,0.6067094206809998
+Artwork_left.csv,title,painting (1946),Museum_right,title,ballarat fine art gallery,0.6049911975860596
+Artwork_left.csv,title,wedding dress of princess margaret,Museum_right,title,costume museum of canada,0.6042904853820801
+Artwork_left.csv,title,thomas a. hendricks monument,Museum_right,title,bob bullock texas state history museum,0.6041196584701538
+Artwork_left.csv,title,emancipation memorial,Museum_right,title,amherstburg freedom museum,0.6040246486663818
+Artwork_left.csv,title,buildings 1992,Museum_right,title,place built environment centre,0.6036130785942078
+Artwork_left.csv,title,las meninas (picasso),Museum_right,title,popular art museum (mexico city),0.602666437625885
+Artwork_left.csv,title,davis square statues,Museum_right,title,suquamish museum,0.6026220321655273
+Artwork_left.csv,title,in the conservatory,Museum_right,title,chopin family parlor,0.602398693561554
+Artwork_left.csv,title,mural with blue brushstroke,Museum_right,title,blue star contemporary art center,0.6016801595687866
+Artwork_left.csv,title,statue of saladin,Museum_right,title,tehran peace museum,0.6012980937957764
+Artwork_left.csv,title,atlas (statue),Museum_right,title,wellington museum,0.598732054233551
+Artwork_left.csv,title,saint barbara altarpiece,Museum_right,title,"university art museum, santa barbara",0.5977513790130615
+Artwork_left.csv,title,appomattox (statue),Museum_right,title,albuquerque museum of art and history,0.5973564386367798
+Artwork_left.csv,title,the history of ranching (winn),Museum_right,title,hathaway ranch & oil museum,0.5967178344726562
+Artwork_left.csv,title,victor s. blundon monument,Museum_right,title,mary brogan museum of art and science,0.5963695049285889
+Artwork_left.csv,title,the doge on the bucintoro near the riva di sant'elena (painting),Museum_right,title,doge's palace,0.5960527658462524
+Artwork_left.csv,title,manneken pis,Museum_right,title,oude kerk (amsterdam),0.5959566831588745
+Artwork_left.csv,title,the blacksmith's shop,Museum_right,title,derby silk mill,0.5941962003707886
+Artwork_left.csv,title,darmstadt madonna,Museum_right,title,hamburg museum,0.5932964086532593
+Artwork_left.csv,title,the street enters the house,Museum_right,title,pushkin house (london),0.5924087166786194
+Artwork_left.csv,title,houses at l'estaque,Museum_right,title,village historique acadien,0.5909567475318909
+Artwork_left.csv,title,agricola i,Museum_right,title,gallerie dell'accademia,0.5909208059310913
+Artwork_left.csv,title,james scott memorial fountain,Museum_right,title,walthamstow pumphouse museum,0.5905139446258545
+Artwork_left.csv,title,the art of painting,Museum_right,title,national gallery singapore,0.5895229578018188
+Artwork_left.csv,title,avukana buddha statue,Museum_right,title,bhau daji lad museum,0.5880684852600098
+Artwork_left.csv,title,modern head,Museum_right,title,head of steam,0.5878065228462219
+Artwork_left.csv,title,hara (sculpture),Museum_right,title,toyohashi city museum art and history,0.5876919031143188
+Artwork_left.csv,title,three dikgosi monument,Museum_right,title,yogyakarta fortress museum,0.5866519212722778
+Artwork_left.csv,title,chinese girl,Museum_right,title,lu xun museum,0.5856689810752869
+Artwork_left.csv,title,pin oak i,Museum_right,title,oak hall (niagara falls),0.5833620429039001
+Artwork_left.csv,title,olympus (sculpture),Museum_right,title,national gallery of figurative arts of albania,0.5823692083358765
+Artwork_left.csv,title,"salome with the head of john the baptist (caravaggio), london",Museum_right,title,john paul ii collection museum,0.5805726051330566
+Artwork_left.csv,title,aquis submersus,Museum_right,title,gulf coast exploreum,0.5803520679473877
+Artwork_left.csv,title,king fahd's fountain,Museum_right,title,hallwyl palace,0.5802271366119385
+Artwork_left.csv,title,texas medal of honor memorial,Museum_right,title,u.s. army quartermaster museum,0.578615665435791
+Artwork_left.csv,title,major general friedrich wilhelm von steuben,Museum_right,title,fort vredeburg museum,0.5784438848495483
+Artwork_left.csv,title,the bohemian (bouguereau painting),Museum_right,title,art gallery of burlington,0.5780694484710693
+Artwork_left.csv,title,"statue of george v, westminster",Museum_right,title,queens museum,0.5779776573181152
+Artwork_left.csv,title,napoleon at austerlitz,Museum_right,title,"museum of military history, vienna",0.5770522356033325
+Artwork_left.csv,title,abaporu,Museum_right,title,sazmanab,0.5768191814422607
+Artwork_left.csv,title,amiable child monument,Museum_right,title,discovery children's museum,0.5762758851051331
+Artwork_left.csv,title,obelisk of montevideo,Museum_right,title,soares dos reis national museum,0.5738086700439453
+Artwork_left.csv,title,the foundation of perth 1829,Museum_right,title,australian railway historical society museum,0.5736097097396851
+Artwork_left.csv,title,george rogers clark (bust),Museum_right,title,garrison petawawa,0.5735143423080444
+Artwork_left.csv,title,sacred cod of massachusetts,Museum_right,title,the whaling museum & education center,0.5729062557220459
+Artwork_left.csv,title,art patronage of julius ii,Museum_right,title,caerleon roman fortress and baths,0.5722841620445251
+Artwork_left.csv,title,james buchanan memorial,Museum_right,title,the national wwii museum,0.5720701217651367
+Artwork_left.csv,title,arnolfini portrait,Museum_right,title,ifa gallery,0.5718358755111694
+Artwork_left.csv,title,stratiformis (sculpture),Museum_right,title,stibbert museum,0.5708967447280884
+Artwork_left.csv,title,portrait of a knight (carpaccio),Museum_right,title,swords and ploughshares museum,0.5706435441970825
+Artwork_left.csv,title,the three dancers,Museum_right,title,koshare indian museum and dancers,0.5691946148872375
+Artwork_left.csv,title,the burghers of calais,Museum_right,title,west stow anglo-saxon village,0.5677351951599121
+Artwork_left.csv,title,le prisonnier politique,Museum_right,title,cabinet des estampes et des dessins,0.567475438117981
+Artwork_left.csv,title,count casimir pulaski (kiselewski),Museum_right,title,polin museum of the history of polish jews,0.566326379776001
+Artwork_left.csv,title,empire towers,Museum_right,title,lobkowicz palace,0.5657573938369751
+Artwork_left.csv,title,ancestor (sculpture),Museum_right,title,museum of folk art and history of pelion,0.5648245215415955
+Artwork_left.csv,title,bombardment of algiers (painting),Museum_right,title,sazmanab center for contemporary art,0.5642001628875732
+Artwork_left.csv,title,the battle of lepanto (luna painting),Museum_right,title,lukut fort and museum,0.5601297616958618
+Artwork_left.csv,title,"statue of charles rolls, monmouth",Museum_right,title,fusiliers museum of northumberland,0.559339165687561
+Artwork_left.csv,title,flying dragon (calder),Museum_right,title,wing luke asian museum,0.5592446327209473
+Artwork_left.csv,title,miss la la at the cirque fernando,Museum_right,title,las vegas walk of fame,0.558149516582489
+Artwork_left.csv,title,marilyn diptych,Museum_right,title,dunster museum & doll collection,0.5556771755218506
+Artwork_left.csv,title,portrait of henry viii,Museum_right,title,history museum at the castle,0.554741621017456
+Artwork_left.csv,title,reading the letter (picasso),Museum_right,title,reading museum,0.5536884069442749
+Artwork_left.csv,title,henry f. schricker (bust),Museum_right,title,schenectady museum,0.552721381187439
+Artwork_left.csv,title,tomb of pope alexander vii,Museum_right,title,national museum of history of azerbaijan,0.5527175664901733
+Artwork_left.csv,title,portrait of giacomo doria (titian),Museum_right,title,"museum of contemporary art, belgrade",0.5509474277496338
+Artwork_left.csv,title,monument with standing beast,Museum_right,title,museum of nature & science,0.5503795146942139
+Artwork_left.csv,title,fairfield industrial dog object,Museum_right,title,trainworks railway museum,0.5502462983131409
+Artwork_left.csv,title,"the rocky mountains, lander's peak",Museum_right,title,fort collins museum of discovery,0.5497903823852539
+Artwork_left.csv,title,the 28th regiment at quatre bras,Museum_right,title,styrian armoury,0.5481230020523071
+Artwork_left.csv,title,mademoiselle rose,Museum_right,title,louis vuitton foundation,0.5460859537124634
+Artwork_left.csv,title,bull rider and the cody nite rodeo,Museum_right,title,dallas contemporary,0.5457655191421509
+Artwork_left.csv,title,massacre in korea,Museum_right,title,korea national maritime museum,0.5452088713645935
+Artwork_left.csv,title,roger b. taney (sculpture),Museum_right,title,bailey-matthews national shell museum,0.5432088375091553
+Artwork_left.csv,title,el rio de luz,Museum_right,title,site santa fe,0.5424657464027405
+Artwork_left.csv,title,map (painting),Museum_right,title,azerbaijan state museum of art,0.5423905253410339
+Artwork_left.csv,title,apollo pavilion,Museum_right,title,wallops flight facility visitor center,0.5423437356948853
+Artwork_left.csv,title,"at binsey, near oxford",Museum_right,title,dovery manor museum,0.5418978333473206
+Artwork_left.csv,title,christopher columbus (sculpture by vittori),Museum_right,title,leventis municipal museum of nicosia,0.5402066111564636
+Artwork_left.csv,title,odalisque (painting),Museum_right,title,museum aan de stroom,0.5396044254302979
+Artwork_left.csv,title,float (sculpture),Museum_right,title,total museum,0.539547324180603
+Artwork_left.csv,title,"atrani, coast of amalfi",Museum_right,title,"archaeological and art museum, thrissur",0.5387760400772095
+Artwork_left.csv,title,portrait miniature of margaret roper,Museum_right,title,national handicrafts and handlooms museum,0.5386276245117188
+Artwork_left.csv,title,family circle (house),Museum_right,title,chen clan ancestral hall,0.5380778312683105
+Artwork_left.csv,title,aspire (sculpture),Museum_right,title,minneapolis institute of art,0.5376181602478027
+Artwork_left.csv,title,belshazzar's feast (rembrandt),Museum_right,title,tzistarakis mosque,0.5375356674194336
+Artwork_left.csv,title,portrait of daniel-henry kahnweiler,Museum_right,title,pulitzer arts foundation,0.5374979376792908
+Artwork_left.csv,title,"japanese lantern (washington, d.c.)",Museum_right,title,japan coast guard museum yokohama,0.5367441177368164
+Artwork_left.csv,title,the guardian (sculpture),Museum_right,title,design museum of barcelona,0.5365210771560669
+Artwork_left.csv,title,the old plantation,Museum_right,title,troy historic village,0.5362700819969177
+Artwork_left.csv,title,monument to balzac,Museum_right,title,lukut museum and fort,0.5352157950401306
+Artwork_left.csv,title,philip jaisohn (statue),Museum_right,title,jenderal besar dr. abdul haris nasution museum,0.5345051288604736
+Artwork_left.csv,title,untitled (black on grey),Museum_right,title,21 21 design sight,0.5339521169662476
+Artwork_left.csv,title,wolfeboro i,Museum_right,title,"steamtown, u.s.a.",0.5338625907897949
+Artwork_left.csv,title,chimney (sculpture),Museum_right,title,amsterdam pipe museum,0.532921552658081
+Artwork_left.csv,title,recanati polyptych,Museum_right,title,zamek krã³lewski na wawelu â paåstwowe zbiory sztuki,0.5326282978057861
+Artwork_left.csv,title,geumgang jeondo,Museum_right,title,nederlands spoorwegmuseum,0.532255232334137
+Artwork_left.csv,title,emma willard memorial,Museum_right,title,amherst museum,0.5319312810897827
+Artwork_left.csv,title,"statue of george iv, trafalgar square",Museum_right,title,royal museum of the armed forces and of military history,0.5316089987754822
+Artwork_left.csv,title,frog baby fountain (ball state university),Museum_right,title,st. louis world aquarium,0.5312246680259705
+Artwork_left.csv,title,boy scout memorial,Museum_right,title,children's museum of atlanta,0.5311274528503418
+Artwork_left.csv,title,general casimir pulaski (statue),Museum_right,title,museum of the history of the polish jews,0.5297848582267761
+Artwork_left.csv,title,bust of thomas baker (bernini),Museum_right,title,beneski museum of natural history,0.5297488570213318
+Artwork_left.csv,title,a home on the mississippi,Museum_right,title,cumberland inn & museum,0.5295202136039734
+Artwork_left.csv,title,north american plains animals (arnold),Museum_right,title,amherst college museum of natural history,0.5291325449943542
+Artwork_left.csv,title,thirty-six views of mount fuji (hiroshige),Museum_right,title,hainan museum,0.5286008715629578
+Artwork_left.csv,title,alexander mosaic,Museum_right,title,archaeological museum in zagreb,0.5283907651901245
+Artwork_left.csv,title,ribbons vi,Museum_right,title,kvindemuseet,0.528350293636322
+Artwork_left.csv,title,la paloma (painting),Museum_right,title,la casa de la ciencia de sevilla - science museum,0.5266543030738831
+Artwork_left.csv,title,"statue of nelson mandela, parliament square",Museum_right,title,"railway museum (livingstone, zambia)",0.526185154914856
+Artwork_left.csv,title,lodgepole (sculpture),Museum_right,title,museum of bath architecture,0.5260376930236816
+Artwork_left.csv,title,imploding cube,Museum_right,title,discovery cube orange county,0.5258370041847229
+Artwork_left.csv,title,moroccan wall hanging,Museum_right,title,azerbaijan carpet museum,0.5256733894348145

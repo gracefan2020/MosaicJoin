@@ -1,0 +1,38 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Enzyme_left.csv,title,Adenylate cyclase,Enzyme_right.csv,title,Adenylyl cyclase,0.871
+Enzyme_left.csv,title,NADH:ubiquinone reductase (Na+-transporting),Enzyme_right.csv,title,NADH:ubiquinone reductase (H+-translocating),0.871
+Enzyme_left.csv,title,Ribonuclease A,Enzyme_right.csv,title,Ribonuclease H,0.871
+Enzyme_left.csv,title,Guanylate cyclase,Enzyme_right.csv,title,Guanylyl cyclase,0.871
+Enzyme_left.csv,title,Pancreatic ribonuclease,Enzyme_right.csv,title,Bovine pancreatic ribonuclease,0.871
+Enzyme_left.csv,title,Gelatinase a,Enzyme_right.csv,title,Gelatinase A,0.871
+Enzyme_left.csv,title,Carboxypeptidase u,Enzyme_right.csv,title,Carboxypeptidase U,0.871
+Enzyme_left.csv,title,12beta-hydroxysteroid dehydrogenase,Enzyme_right.csv,title,3beta-Hydroxysteroid dehydrogenase,0.871
+Enzyme_left.csv,title,Aspartokinase,Enzyme_right.csv,title,Aspartate kinase,0.871
+Enzyme_left.csv,title,CTP synthetase,Enzyme_right.csv,title,CTP synthase,0.871
+Enzyme_left.csv,title,Alpha-amylase,Enzyme_right.csv,title,Alpha-Amylase,0.871
+Enzyme_left.csv,title,Carboxypeptidase c,Enzyme_right.csv,title,Carboxypeptidase C,0.871
+Enzyme_left.csv,title,Thiamine oxidase,Enzyme_right.csv,title,Diamine oxidase,0.871
+Enzyme_left.csv,title,A-N-acetylgalactosaminidase,Enzyme_right.csv,title,Alpha-N-acetylgalactosaminidase,0.871
+Enzyme_left.csv,title,"1,3-Beta-glucan synthase",Enzyme_right.csv,title,"1,3-beta-glucan synthase",0.871
+Enzyme_left.csv,title,4-hydroxybutyrate dehydrogenase,Enzyme_right.csv,title,4-Hydroxybutyrate dehydrogenase,0.871
+Enzyme_left.csv,title,3-keto-steroid reductase,Enzyme_right.csv,title,3-Ketosteroid reductase,0.871
+Enzyme_left.csv,title,(Iso)eugenol O-methyltransferase,Enzyme_right.csv,title,(iso)eugenol O-methyltransferase,0.871
+Enzyme_left.csv,title,(Myelin basic protein)-arginine N-methyltransferase,Enzyme_right.csv,title,(myelin basic protein)-arginine N-methyltransferase,0.871
+Enzyme_left.csv,title,(Ribulose-bisphosphate carboxylase)-lysine N-methyltransferase,Enzyme_right.csv,title,(ribulose-bisphosphate carboxylase)-lysine N-methyltransferase,0.871
+Enzyme_left.csv,title,(Formate-C-acetyltransferase)-activating enzyme,Enzyme_right.csv,title,(formate-C-acetyltransferase)-activating enzyme,0.871
+Enzyme_left.csv,title,4-Hydroxyphenylacetate 3-monooxygenase,Enzyme_right.csv,title,4-hydroxyphenylacetate 3-monooxygenase,0.871
+Enzyme_left.csv,title,Deacetoxyvindoline 4-hydroxylase,Enzyme_right.csv,title,Desacetoxyvindoline 4-hydroxylase,0.871
+Enzyme_left.csv,title,2-hydroxyglutarate dehydrogenase,Enzyme_right.csv,title,L-2-hydroxyglutarate dehydrogenase,0.871
+Enzyme_left.csv,title,4-Cresol dehydrogenase (hydroxylating),Enzyme_right.csv,title,4-cresol dehydrogenase (hydroxylating),0.871
+Enzyme_left.csv,title,(Methionine synthase) reductase,Enzyme_right.csv,title,(methionine synthase) reductase,0.871
+Enzyme_left.csv,title,"5,10-Methenyltetrahydromethanopterin hydrogenase",Enzyme_right.csv,title,"5,10-methenyltetrahydromethanopterin hydrogenase",0.871
+Enzyme_left.csv,title,NAD(P)+ transhydrogenase (B-specific),Enzyme_right.csv,title,NAD(P)+ transhydrogenase (Re/Si-specific),0.871
+Enzyme_left.csv,title,NAD(P)+ transhydrogenase (B-specific),Enzyme_right.csv,title,NAD(P)+ transhydrogenase (Si-specific),0.871
+Enzyme_left.csv,title,(myosin-light-chain) phosphatase,Enzyme_right.csv,title,Myosin-light-chain phosphatase,0.871
+Enzyme_left.csv,title,2-Hydroxyacylsphingosine 1-beta-galactosyltransferase,Enzyme_right.csv,title,2-hydroxyacylsphingosine 1-beta-galactosyltransferase,0.871
+Enzyme_left.csv,title,Isocitrate dehydrogenase (NADP+) kinase,Enzyme_right.csv,title,(isocitrate dehydrogenase (NADP+)) kinase,0.871
+Enzyme_left.csv,title,4-Hydroxy-3-methylbut-2-enyl diphosphate reductase,Enzyme_right.csv,title,4-hydroxy-3-methylbut-2-enyl diphosphate reductase,0.871
+Enzyme_left.csv,title,Formylglycine-generating sulfatase enzyme,Enzyme_right.csv,title,Formylglycine-generating enzyme,0.871
+Enzyme_left.csv,title,Nucleotide Pyrophosphatase/Phosphodiesterase (NPP),Enzyme_right.csv,title,Nucleotide pyrophosphatase/phosphodiesterase,0.871
+Enzyme_left.csv,title,Metionin transaminase,Enzyme_right.csv,title,Methionine transaminase,0.871
+Enzyme_left.csv,title,4-sulfomuconolactone hydrolase,Enzyme_right.csv,title,4-Sulfomuconolactone hydrolase,0.871

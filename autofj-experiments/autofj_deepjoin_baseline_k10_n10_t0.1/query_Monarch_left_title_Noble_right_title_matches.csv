@@ -1,0 +1,4 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Monarch_left.csv,title,Michael VII Doukas,Noble_right.csv,title,Andronikos Doukas (cousin of Michael VII),0.6976
+Monarch_left.csv,title,John II Komnenos,Noble_right.csv,title,Andronikos Komnenos (son of John II Komnenos),0.6976
+Monarch_left.csv,title,Dost Mohammad Khan,Noble_right.csv,title,Dost Mohammad of Bhopal,0.6976

@@ -1,0 +1,18 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,"solar eclipse of september 14, 2099",Galaxy_right,title,ngc 935/ic 1801,0.5656090378761292
+NaturalEvent_left.csv,title,893 dvin earthquake,Galaxy_right,title,ddo 169,0.5358138084411621
+NaturalEvent_left.csv,title,"solar eclipse of march 9, 2054",Galaxy_right,title,ngc 1265,0.5297418832778931
+NaturalEvent_left.csv,title,"solar eclipse of august 3, 2054",Galaxy_right,title,ngc 5562,0.5237666368484497
+NaturalEvent_left.csv,title,"solar eclipse of august 22, 1979",Galaxy_right,title,ngc 6872,0.5039342641830444
+NaturalEvent_left.csv,title,"solar eclipse of august 10, 1934",Galaxy_right,title,ngc 34,0.5014160871505737
+NaturalEvent_left.csv,title,1935 digor earthquake,Galaxy_right,title,ddo 190,0.4604097008705139
+NaturalEvent_left.csv,title,1703 genroku earthquake,Galaxy_right,title,gr 8,0.44994449615478516
+NaturalEvent_left.csv,title,"solar eclipse of january 6, 2019",Galaxy_right,title,sagittarius dwarf spheroidal galaxy,0.4301992654800415
+NaturalEvent_left.csv,title,869 jogan sanriku earthquake,Galaxy_right,title,rx j1242-11,0.4130779504776001
+NaturalEvent_left.csv,title,1755 lisbon earthquake,Galaxy_right,title,segue 2,0.4036128520965576
+NaturalEvent_left.csv,title,"solar eclipse of january 16, 2094",Galaxy_right,title,carina dwarf spheroidal galaxy,0.37914353609085083
+NaturalEvent_left.csv,title,426 bc malian gulf tsunami,Galaxy_right,title,3c 433,0.3758071959018707
+NaturalEvent_left.csv,title,"solar eclipse of january 16, 2056",Galaxy_right,title,carina dwarf spheroidal galaxy,0.37094396352767944
+NaturalEvent_left.csv,title,1936 cansiglio earthquake,Galaxy_right,title,canis major overdensity,0.34624791145324707
+NaturalEvent_left.csv,title,1958 lituya bay megatsunami,Galaxy_right,title,ms 1512-cb58,0.3379524350166321
+NaturalEvent_left.csv,title,893 ardabil earthquake,Galaxy_right,title,arp 302,0.3094000220298767

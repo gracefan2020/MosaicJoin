@@ -1,0 +1,28 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerLeague_left.csv,title,championnat de france amateur 2,TennisTournament_right,title,2011 challenger banque nationale de saguenay,0.8074946999549866
+SoccerLeague_left.csv,title,championnat de france amateur,TennisTournament_right,title,2012 challenger banque nationale de saguenay,0.7590954303741455
+SoccerLeague_left.csv,title,elite two championship,TennisTournament_right,title,2012 aegon championships,0.7389348745346069
+SoccerLeague_left.csv,title,sultan qaboos cup,TennisTournament_right,title,2012 commonwealth bank tournament of champions,0.7236896753311157
+SoccerLeague_left.csv,title,elite one championship,TennisTournament_right,title,2011 aegon championships,0.7144418954849243
+SoccerLeague_left.csv,title,montserrat championship,TennisTournament_right,title,2011 challenger banque nationale de rimouski,0.7071439027786255
+SoccerLeague_left.csv,title,tahiti coupe des champions,TennisTournament_right,title,2012 challenger banque nationale de rimouski,0.6913141012191772
+SoccerLeague_left.csv,title,korea national league,TennisTournament_right,title,2012 korea open,0.6832327842712402
+SoccerLeague_left.csv,title,championnat de france (women's water polo),TennisTournament_right,title,2010 challenger banque nationale de rimouski,0.6803500652313232
+SoccerLeague_left.csv,title,championnat national,TennisTournament_right,title,2013 challenger banque nationale de rimouski,0.6703289747238159
+SoccerLeague_left.csv,title,nicky rackard cup,TennisTournament_right,title,2009 san benedetto tennis cup,0.6580127477645874
+SoccerLeague_left.csv,title,bahraini crown prince cup,TennisTournament_right,title,2012 arimex challenger trophy,0.6526160836219788
+SoccerLeague_left.csv,title,jordan fa shield,TennisTournament_right,title,2010 aegon championships,0.6362568140029907
+SoccerLeague_left.csv,title,tahiti cup,TennisTournament_right,title,2012 blu-express.com tennis cup,0.623708963394165
+SoccerLeague_left.csv,title,lithuanian women's supercup,TennisTournament_right,title,2013 garanti koza wta tournament of champions,0.6161333322525024
+SoccerLeague_left.csv,title,unaf u-20 tournament,TennisTournament_right,title,2010 blu-express.com tennis cup,0.6144651770591736
+SoccerLeague_left.csv,title,leicestershire senior league,TennisTournament_right,title,2012 aegon pro-series loughborough,0.6058351993560791
+SoccerLeague_left.csv,title,k league classic,TennisTournament_right,title,2011 aegon classic,0.6050187945365906
+SoccerLeague_left.csv,title,saint-martin championships,TennisTournament_right,title,2000 tennis masters cup and atp tour world championships,0.5920000076293945
+SoccerLeague_left.csv,title,rosebery charity cup,TennisTournament_right,title,2011 challenge bell,0.5878469944000244
+SoccerLeague_left.csv,title,k league challenge,TennisTournament_right,title,2010 challenge bell,0.5810718536376953
+SoccerLeague_left.csv,title,festival cup,TennisTournament_right,title,2012 challenge bell,0.5695740580558777
+SoccerLeague_left.csv,title,tonga major league,TennisTournament_right,title,2008 challenge bell,0.5691700577735901
+SoccerLeague_left.csv,title,middlesex senior charity cup,TennisTournament_right,title,2009 challenge bell,0.5658456087112427
+SoccerLeague_left.csv,title,u.s. virgin islands championship,TennisTournament_right,title,1998 challenge bell,0.5574023723602295
+SoccerLeague_left.csv,title,kakkonen,TennisTournament_right,title,1996 challenge bell,0.5365839600563049
+SoccerLeague_left.csv,title,mitropa cup,TennisTournament_right,title,1997 challenge bell,0.516082227230072

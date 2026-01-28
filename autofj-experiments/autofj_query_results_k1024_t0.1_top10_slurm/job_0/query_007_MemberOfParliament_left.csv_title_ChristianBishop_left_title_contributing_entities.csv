@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+MemberOfParliament_left.csv,title,"charles cornwallis, 2nd baron cornwallis",ChristianBishop_left,title,frederick cornwallis,0.8681193590164185
+MemberOfParliament_left.csv,title,theo nicholls,ChristianBishop_left,title,jack nicholls,0.8665615916252136
+MemberOfParliament_left.csv,title,arthur faulkner,ChristianBishop_left,title,leonard faulkner,0.8649603128433228
+MemberOfParliament_left.csv,title,rajen prasad,ChristianBishop_left,title,b. g. prasada rao,0.8533239960670471
+MemberOfParliament_left.csv,title,john lloyd wharton,ChristianBishop_left,title,martin wharton,0.8445602655410767
+MemberOfParliament_left.csv,title,reg pollard,ChristianBishop_left,title,benjamin pollard,0.828880786895752
+MemberOfParliament_left.csv,title,lionel courtenay,ChristianBishop_left,title,peter courtenay,0.8257088661193848
+MemberOfParliament_left.csv,title,john lambert gibson,ChristianBishop_left,title,edmund gibson,0.8239830136299133
+MemberOfParliament_left.csv,title,james boyden,ChristianBishop_left,title,boyd vincent,0.8212052583694458
+MemberOfParliament_left.csv,title,matt robson,ChristianBishop_left,title,stephen robson,0.8204781413078308
+MemberOfParliament_left.csv,title,don l. taylor,ChristianBishop_left,title,g. porter taylor,0.820469856262207
+MemberOfParliament_left.csv,title,john chapman andrew,ChristianBishop_left,title,john chapman (priest),0.8151096105575562
+MemberOfParliament_left.csv,title,craig knowles,ChristianBishop_left,title,graeme knowles,0.8138360977172852
+MemberOfParliament_left.csv,title,alex finlay,ChristianBishop_left,title,alex kaliyanil,0.8120026588439941
+MemberOfParliament_left.csv,title,alfred bates,ChristianBishop_left,title,gordon bates,0.8095614910125732
+MemberOfParliament_left.csv,title,lawrence watson,ChristianBishop_left,title,alfred a. watson,0.8091046214103699
+MemberOfParliament_left.csv,title,haidar abbas rizvi,ChristianBishop_left,title,salim ghazal,0.8089464902877808
+MemberOfParliament_left.csv,title,malcolm mccolm,ChristianBishop_left,title,malcolm menin,0.8060853481292725
+MemberOfParliament_left.csv,title,john saunderson,ChristianBishop_left,title,saunders davies,0.80516517162323
+MemberOfParliament_left.csv,title,charles nicholson,ChristianBishop_left,title,isaac lea nicholson,0.8033655285835266
+MemberOfParliament_left.csv,title,andrew rowe,ChristianBishop_left,title,sean w. rowe,0.8005276918411255
+MemberOfParliament_left.csv,title,myles ferricks,ChristianBishop_left,title,myles coverdale,0.799540638923645
+MemberOfParliament_left.csv,title,bryce walmsley,ChristianBishop_left,title,jabez bryce,0.7985416650772095
+MemberOfParliament_left.csv,title,colin hollis,ChristianBishop_left,title,crispian hollis,0.7966609001159668
+MemberOfParliament_left.csv,title,ted horsington,ChristianBishop_left,title,ted wickham,0.796027421951294
+MemberOfParliament_left.csv,title,john godfrey,ChristianBishop_left,title,godfrey day,0.7957983016967773
+MemberOfParliament_left.csv,title,p. selvarasa,ChristianBishop_left,title,antony selvanayagam,0.7948993444442749
+MemberOfParliament_left.csv,title,cyril kennedy,ChristianBishop_left,title,cyril bardsley,0.7948122024536133
+MemberOfParliament_left.csv,title,john henry jones,ChristianBishop_left,title,john henry king,0.793333888053894
+MemberOfParliament_left.csv,title,norman lamb,ChristianBishop_left,title,hugh l. lamb,0.7926039695739746
+MemberOfParliament_left.csv,title,martin bell,ChristianBishop_left,title,alden john bell,0.7920123338699341
+MemberOfParliament_left.csv,title,joseph batey,ChristianBishop_left,title,joseph butler,0.7904976010322571
+MemberOfParliament_left.csv,title,geoff lyons,ChristianBishop_left,title,frank lyons,0.7891557216644287
+MemberOfParliament_left.csv,title,daniel stewart reid,ChristianBishop_left,title,gavin reid,0.7886536121368408
+MemberOfParliament_left.csv,title,derek wells,ChristianBishop_left,title,derek eaton,0.7886462807655334
+MemberOfParliament_left.csv,title,nigel dodds,ChristianBishop_left,title,nigel cornwall,0.7885528802871704
+MemberOfParliament_left.csv,title,lewis carter-jones,ChristianBishop_left,title,lewis charles-edwards,0.7880856990814209
+MemberOfParliament_left.csv,title,tony tirabassi,ChristianBishop_left,title,tony foottit,0.7874521613121033
+MemberOfParliament_left.csv,title,josiah symon,ChristianBishop_left,title,josiah idowu-fearon,0.7869828343391418
+MemberOfParliament_left.csv,title,charles bradlaugh,ChristianBishop_left,title,charles caulfield,0.7863487005233765
+MemberOfParliament_left.csv,title,julian lewis,ChristianBishop_left,title,julian dobbs,0.7862880825996399
+MemberOfParliament_left.csv,title,christine butler,ChristianBishop_left,title,christine hardman,0.7857842445373535
+MemberOfParliament_left.csv,title,ronnie campbell,ChristianBishop_left,title,ronnie bowlby,0.7855328321456909
+MemberOfParliament_left.csv,title,ian pearson,ChristianBishop_left,title,ian ramsey,0.7854319214820862
+MemberOfParliament_left.csv,title,john donovan,ChristianBishop_left,title,paul vincent donovan,0.7853368520736694
+MemberOfParliament_left.csv,title,john edward sutton,ChristianBishop_left,title,eugene sutton,0.7847919464111328
+MemberOfParliament_left.csv,title,martin james maloney,ChristianBishop_left,title,martin michael johnson,0.7843382358551025
+MemberOfParliament_left.csv,title,jane ellison,ChristianBishop_left,title,jane dixon,0.7824791669845581
+MemberOfParliament_left.csv,title,giles shaw,ChristianBishop_left,title,a. c. shaw,0.7816281318664551
+MemberOfParliament_left.csv,title,herbert pratten,ChristianBishop_left,title,herbert bree,0.7812669277191162
+MemberOfParliament_left.csv,title,john nunziata,ChristianBishop_left,title,john henni,0.7812511920928955
+MemberOfParliament_left.csv,title,david mckenzie wright,ChristianBishop_left,title,roderick wright,0.7810615301132202
+MemberOfParliament_left.csv,title,kinwun mingyi u kaung,ChristianBishop_left,title,sylvester tung kiem san,0.7805584669113159
+MemberOfParliament_left.csv,title,emanuel scrope howe,ChristianBishop_left,title,arthur howe-browne,0.7784831523895264
+MemberOfParliament_left.csv,title,mark reckless,ChristianBishop_left,title,mark way,0.7772291898727417
+MemberOfParliament_left.csv,title,gerry jones,ChristianBishop_left,title,joseph john gerry,0.7755894660949707
+MemberOfParliament_left.csv,title,francis clarke,ChristianBishop_left,title,lowther clarke,0.7753545045852661
+MemberOfParliament_left.csv,title,edwin wainwright,ChristianBishop_left,title,edwin curtis,0.7747071385383606
+MemberOfParliament_left.csv,title,burton hill,ChristianBishop_left,title,spence burton,0.7741051316261292
+MemberOfParliament_left.csv,title,russell broadbent,ChristianBishop_left,title,pete broadbent,0.772323727607727
+MemberOfParliament_left.csv,title,william goffe,ChristianBishop_left,title,william goh,0.7716273069381714
+MemberOfParliament_left.csv,title,gerald howarth,ChristianBishop_left,title,john howson,0.7712512016296387
+MemberOfParliament_left.csv,title,terry grier,ChristianBishop_left,title,terry buckle,0.7710086107254028
+MemberOfParliament_left.csv,title,roger kenneth evans,ChristianBishop_left,title,bruce evans,0.7705821394920349
+MemberOfParliament_left.csv,title,rona ambrose,ChristianBishop_left,title,ambrose madtha,0.7702009677886963
+MemberOfParliament_left.csv,title,harry turley,ChristianBishop_left,title,harry entwistle,0.7688486576080322
+MemberOfParliament_left.csv,title,graeme mcdougall,ChristianBishop_left,title,arthur maclean,0.7687169909477234
+MemberOfParliament_left.csv,title,alan stockdale,ChristianBishop_left,title,alan winton,0.7685356736183167
+MemberOfParliament_left.csv,title,mya oo,ChristianBishop_left,title,mykola simkaylo,0.7659137845039368
+MemberOfParliament_left.csv,title,fred stacey,ChristianBishop_left,title,fred luter,0.7642123699188232
+MemberOfParliament_left.csv,title,laurin liu,ChristianBishop_left,title,joseph fan zhongliang,0.7641511559486389
+MemberOfParliament_left.csv,title,adrian bailey,ChristianBishop_left,title,adrian fortescue,0.7627167701721191
+MemberOfParliament_left.csv,title,tim owen,ChristianBishop_left,title,michael owen jackels,0.762587308883667
+MemberOfParliament_left.csv,title,derek conway,ChristianBishop_left,title,stephen conway,0.7625840902328491
+MemberOfParliament_left.csv,title,duncan james sinclair,ChristianBishop_left,title,duncan wallace,0.7625011205673218
+MemberOfParliament_left.csv,title,gabriel roberge,ChristianBishop_left,title,gabriel bullet,0.7618600130081177
+MemberOfParliament_left.csv,title,stewart west,ChristianBishop_left,title,stewart cross,0.7617233991622925
+MemberOfParliament_left.csv,title,terence walker,ChristianBishop_left,title,r. walker nickless,0.7615758180618286
+MemberOfParliament_left.csv,title,gustav wilhelm wolff,ChristianBishop_left,title,hugo von hohenlandenberg,0.761000394821167
+MemberOfParliament_left.csv,title,claude patry,ChristianBishop_left,title,bernard-claude panet,0.7609868049621582
+MemberOfParliament_left.csv,title,peter griffiths,ChristianBishop_left,title,peter forster,0.7602661848068237
+MemberOfParliament_left.csv,title,arthur lever,ChristianBishop_left,title,arthur greaves,0.7600687742233276
+MemberOfParliament_left.csv,title,walter deakon,ChristianBishop_left,title,walter maidstone,0.7597624659538269
+MemberOfParliament_left.csv,title,daniel hollands,ChristianBishop_left,title,daniel delany,0.7594490647315979
+MemberOfParliament_left.csv,title,roger godsiff,ChristianBishop_left,title,roger (larderer),0.75943523645401
+MemberOfParliament_left.csv,title,francis rufford,ChristianBishop_left,title,francis underhill,0.7576359510421753
+MemberOfParliament_left.csv,title,"sir thomas colebrooke, 4th baronet",ChristianBishop_left,title,"sir john hotham, 9th baronet",0.7575873136520386
+MemberOfParliament_left.csv,title,niki ashton,ChristianBishop_left,title,ashton oxenden,0.7575732469558716
+MemberOfParliament_left.csv,title,vernon reed,ChristianBishop_left,title,vernon inman,0.757561445236206
+MemberOfParliament_left.csv,title,carryn sullivan,ChristianBishop_left,title,jeremiah o'sullivan,0.7571922540664673
+MemberOfParliament_left.csv,title,frank power,ChristianBishop_left,title,pat power,0.7570146322250366
+MemberOfParliament_left.csv,title,george chatterton,ChristianBishop_left,title,eyre chatterton,0.7567927837371826
+MemberOfParliament_left.csv,title,michael hatton,ChristianBishop_left,title,kevin michael britt,0.755527138710022
+MemberOfParliament_left.csv,title,edward adjaho,ChristianBishop_left,title,elisaeus adougan,0.7545013427734375
+MemberOfParliament_left.csv,title,lionel beaumont thomas,ChristianBishop_left,title,thomas joseph drury,0.7543583512306213
+MemberOfParliament_left.csv,title,thomas christopher boyd,ChristianBishop_left,title,thomas a. daly,0.7536720037460327
+MemberOfParliament_left.csv,title,edward jolley,ChristianBishop_left,title,allen johnston,0.7535730600357056
+MemberOfParliament_left.csv,title,barney cooney,ChristianBishop_left,title,barney pityana,0.7531739473342896
+MemberOfParliament_left.csv,title,stuart holland,ChristianBishop_left,title,edward stuart,0.7530728578567505
+MemberOfParliament_left.csv,title,raymond elmer anderson,ChristianBishop_left,title,raymond james boland,0.7523998022079468
+MemberOfParliament_left.csv,title,anthony trevelyan rogers,ChristianBishop_left,title,anthony sparrow,0.7522944211959839
+MemberOfParliament_left.csv,title,hugh halbert,ChristianBishop_left,title,hugh nonant,0.7519686222076416
+MemberOfParliament_left.csv,title,robert perron,ChristianBishop_left,title,lawrence thomas persico,0.750545859336853
+MemberOfParliament_left.csv,title,sammy wilson,ChristianBishop_left,title,wilson sitshebo,0.7504379749298096
+MemberOfParliament_left.csv,title,albert blakey,ChristianBishop_left,title,charles e. blake,0.7502846121788025
+MemberOfParliament_left.csv,title,malcolm moss,ChristianBishop_left,title,cornell moss,0.7497119903564453
+MemberOfParliament_left.csv,title,alfred boultbee,ChristianBishop_left,title,alfred tucker,0.7490144968032837
+MemberOfParliament_left.csv,title,clive loader,ChristianBishop_left,title,clive handford,0.7486156821250916
+MemberOfParliament_left.csv,title,george darling,ChristianBishop_left,title,barbara darling,0.7484903335571289
+MemberOfParliament_left.csv,title,samuel perry,ChristianBishop_left,title,harold robert perry,0.7484815120697021
+MemberOfParliament_left.csv,title,john waldie,ChristianBishop_left,title,john watts ditchfield,0.7483481168746948
+MemberOfParliament_left.csv,title,thomas skene,ChristianBishop_left,title,thomas vose daily,0.7477070689201355
+MemberOfParliament_left.csv,title,harold nicolson,ChristianBishop_left,title,harold beardmore,0.7475016117095947
+MemberOfParliament_left.csv,title,edward dunn (politician),ChristianBishop_left,title,francis john dunn,0.7472876906394958
+MemberOfParliament_left.csv,title,roger gallaway,ChristianBishop_left,title,roger walden,0.746288537979126
+MemberOfParliament_left.csv,title,charles joseph morrissy,ChristianBishop_left,title,charles harrison mason,0.7458999156951904
+MemberOfParliament_left.csv,title,walter loveys,ChristianBishop_left,title,walter pym,0.7458387613296509
+MemberOfParliament_left.csv,title,bruce scott,ChristianBishop_left,title,moses scott,0.7455247640609741
+MemberOfParliament_left.csv,title,mario silva,ChristianBishop_left,title,clarence richard silva,0.7453417181968689
+MemberOfParliament_left.csv,title,karen bradley,ChristianBishop_left,title,paul j. bradley,0.745311439037323
+MemberOfParliament_left.csv,title,brian jean,ChristianBishop_left,title,brian duppa,0.7445952892303467
+MemberOfParliament_left.csv,title,enoch edwards,ChristianBishop_left,title,enoch reader,0.7434422969818115
+MemberOfParliament_left.csv,title,russell macewan,ChristianBishop_left,title,russell darbyshire,0.7432769536972046
+MemberOfParliament_left.csv,title,brian o'malley,ChristianBishop_left,title,brian prior,0.7431782484054565
+MemberOfParliament_left.csv,title,clayton hodgson,ChristianBishop_left,title,clayton twitchell,0.7427579164505005
+MemberOfParliament_left.csv,title,robert layton,ChristianBishop_left,title,robert warelwast,0.7420715093612671
+MemberOfParliament_left.csv,title,christopher pincher,ChristianBishop_left,title,chris chivers,0.7419558167457581
+MemberOfParliament_left.csv,title,william john bankes,ChristianBishop_left,title,william henry bullock,0.7418198585510254
+MemberOfParliament_left.csv,title,gustav fridolin,ChristianBishop_left,title,anton niklas sundberg,0.7416852712631226
+MemberOfParliament_left.csv,title,ron mark,ChristianBishop_left,title,ron ferris,0.7413689494132996
+MemberOfParliament_left.csv,title,levi william humphrey,ChristianBishop_left,title,humphrey southern,0.7408217191696167
+MemberOfParliament_left.csv,title,thomas lavelle,ChristianBishop_left,title,thomas dampier,0.740723729133606
+MemberOfParliament_left.csv,title,gordon aiken,ChristianBishop_left,title,aubrey aitken,0.7407030463218689
+MemberOfParliament_left.csv,title,christopher william bunting,ChristianBishop_left,title,v. e. christopher,0.7397298812866211
+MemberOfParliament_left.csv,title,condon byrne,ChristianBishop_left,title,denis maguire,0.739716112613678
+MemberOfParliament_left.csv,title,ivan petch,ChristianBishop_left,title,tomasz peta,0.7388966083526611
+MemberOfParliament_left.csv,title,auguste vincent,ChristianBishop_left,title,frederic wallis,0.7388758659362793
+MemberOfParliament_left.csv,title,william cautley,ChristianBishop_left,title,william quarter,0.7386309504508972
+MemberOfParliament_left.csv,title,michael forshaw,ChristianBishop_left,title,michael turnbull,0.7385690212249756
+MemberOfParliament_left.csv,title,ashraf choudhary,ChristianBishop_left,title,theotonius amal ganguly,0.7382922172546387
+MemberOfParliament_left.csv,title,"edward bishop, baron bishopston",ChristianBishop_left,title,bishop of berwick,0.7381720542907715
+MemberOfParliament_left.csv,title,cletus avoka,ChristianBishop_left,title,cleophas lunga,0.7381384372711182
+MemberOfParliament_left.csv,title,john alexander wallace,ChristianBishop_left,title,wallace e. conkling,0.7380412220954895
+MemberOfParliament_left.csv,title,jeremy browne,ChristianBishop_left,title,forrest browne,0.7380117177963257
+MemberOfParliament_left.csv,title,henri larue,ChristianBishop_left,title,jean-baptiste lamy,0.7370335459709167
+MemberOfParliament_left.csv,title,charles deblois,ChristianBishop_left,title,robert de chesney,0.7361804842948914
+MemberOfParliament_left.csv,title,john martyr,ChristianBishop_left,title,nicholas ridley (martyr),0.7360418438911438
+MemberOfParliament_left.csv,title,andrew bartlett,ChristianBishop_left,title,andrew proud,0.7353730797767639
+MemberOfParliament_left.csv,title,guy caron,ChristianBishop_left,title,guy warman,0.7351928949356079
+MemberOfParliament_left.csv,title,nadhim zahawi,ChristianBishop_left,title,zef gashi,0.7346742153167725
+MemberOfParliament_left.csv,title,edmund lonsdale,ChristianBishop_left,title,edmund smyth,0.734573483467102
+MemberOfParliament_left.csv,title,james lester douglas,ChristianBishop_left,title,james macarthur,0.7345263361930847
+MemberOfParliament_left.csv,title,dean nalder,ChristianBishop_left,title,pedro r. dean,0.7344898581504822
+MemberOfParliament_left.csv,title,david burrowes,ChristianBishop_left,title,david cartwright,0.7334879636764526
+MemberOfParliament_left.csv,title,lynn mcdonald,ChristianBishop_left,title,carolyn tanner irish,0.73283851146698
+MemberOfParliament_left.csv,title,mike nahan,ChristianBishop_left,title,mike hooper,0.7312566041946411
+MemberOfParliament_left.csv,title,arnold wienholt,ChristianBishop_left,title,arnold mathew,0.7310457825660706
+MemberOfParliament_left.csv,title,carmel sepuloni,ChristianBishop_left,title,carmel henry carfora,0.730760931968689
+MemberOfParliament_left.csv,title,philippe gagnon,ChristianBishop_left,title,nicolas steno,0.7306269407272339
+MemberOfParliament_left.csv,title,henry frank jones,ChristianBishop_left,title,henry patton,0.7301101684570312
+MemberOfParliament_left.csv,title,thomas john bentley,ChristianBishop_left,title,thomas of marlborough,0.729973316192627
+MemberOfParliament_left.csv,title,ernest popplewell,ChristianBishop_left,title,ernest blackie,0.7299187779426575
+MemberOfParliament_left.csv,title,william shepherd allen,ChristianBishop_left,title,william crane gray,0.7286669015884399
+MemberOfParliament_left.csv,title,dave van kesteren,ChristianBishop_left,title,ad van luyn,0.7286306619644165
+MemberOfParliament_left.csv,title,mary holt,ChristianBishop_left,title,mary gray-reeves,0.7285110354423523
+MemberOfParliament_left.csv,title,rajiva wijesinha,ChristianBishop_left,title,sewal de bovil,0.727737545967102
+MemberOfParliament_left.csv,title,james haworth,ChristianBishop_left,title,george edward haynsworth,0.7275404930114746
+MemberOfParliament_left.csv,title,richard speight,ChristianBishop_left,title,steve chalke,0.7274576425552368
+MemberOfParliament_left.csv,title,chay wai chuen,ChristianBishop_left,title,patrick fani chakaipa,0.7274033427238464
+MemberOfParliament_left.csv,title,oskar freysinger,ChristianBishop_left,title,gustav trolle,0.7273675203323364
+MemberOfParliament_left.csv,title,ong chit chung,ChristianBishop_left,title,savio hon tai-fai,0.7272676229476929
+MemberOfParliament_left.csv,title,norman spencer,ChristianBishop_left,title,norman lesser,0.7269065380096436
+MemberOfParliament_left.csv,title,kenneth marks,ChristianBishop_left,title,kenneth riches,0.7268933057785034
+MemberOfParliament_left.csv,title,james rowell,ChristianBishop_left,title,james chisholm,0.7268836498260498
+MemberOfParliament_left.csv,title,william henry dennis,ChristianBishop_left,title,william donald borders,0.7267197966575623
+MemberOfParliament_left.csv,title,patrick alphonsus buckley,ChristianBishop_left,title,francis patrick keough,0.7266638278961182
+MemberOfParliament_left.csv,title,oscar weichel,ChristianBishop_left,title,oscar hugh lipscomb,0.7259640097618103
+MemberOfParliament_left.csv,title,john thomas sproule,ChristianBishop_left,title,john shelby spong,0.7259057760238647
+MemberOfParliament_left.csv,title,arthur greenup,ChristianBishop_left,title,francis joseph green,0.725521981716156
+MemberOfParliament_left.csv,title,edward griffiths,ChristianBishop_left,title,edward nowak,0.7253836393356323
+MemberOfParliament_left.csv,title,balaji sadasivan,ChristianBishop_left,title,pal dushmani,0.7250359058380127
+MemberOfParliament_left.csv,title,jean-marie boisvert,ChristianBishop_left,title,jean-charles prince,0.7250305414199829
+MemberOfParliament_left.csv,title,denise roche,ChristianBishop_left,title,dominique racine,0.7248520255088806
+MemberOfParliament_left.csv,title,albert reid,ChristianBishop_left,title,albert chama,0.7248282432556152
+MemberOfParliament_left.csv,title,teresa gorman,ChristianBishop_left,title,rachel treweek,0.7238720655441284
+MemberOfParliament_left.csv,title,robin squire,ChristianBishop_left,title,bryan robin,0.7235689163208008
+MemberOfParliament_left.csv,title,howard hilstrom,ChristianBishop_left,title,howard james hubbard,0.7229512929916382
+MemberOfParliament_left.csv,title,dennis hobden,ChristianBishop_left,title,dennis page,0.7229361534118652
+MemberOfParliament_left.csv,title,walter l. gordon,ChristianBishop_left,title,walter a. hurley,0.722571849822998
+MemberOfParliament_left.csv,title,john charlesworth dodgson-charlesworth,ChristianBishop_left,title,charles james mcdonnell,0.7225589752197266
+MemberOfParliament_left.csv,title,thomas gavan duffy,ChristianBishop_left,title,timothy casey,0.722110390663147
+MemberOfParliament_left.csv,title,peter fry,ChristianBishop_left,title,peter mews,0.7220264673233032
+MemberOfParliament_left.csv,title,eric bessell,ChristianBishop_left,title,eric gowing,0.7217648029327393
+MemberOfParliament_left.csv,title,chris pearce (politician),ChristianBishop_left,title,zachary pearce,0.7214571237564087
+MemberOfParliament_left.csv,title,gilbert parent,ChristianBishop_left,title,gilbert burnet,0.7212311625480652
+MemberOfParliament_left.csv,title,athol townley,ChristianBishop_left,title,atherton rawstorne,0.7211589813232422
+MemberOfParliament_left.csv,title,ray braithwaite,ChristianBishop_left,title,lee rayfield,0.7210580110549927
+MemberOfParliament_left.csv,title,gary carr (politician),ChristianBishop_left,title,gary paterson,0.7207944989204407
+MemberOfParliament_left.csv,title,george manning mcdade,ChristianBishop_left,title,william t. manning,0.7205238342285156
+MemberOfParliament_left.csv,title,les benjamin,ChristianBishop_left,title,les tomlinson,0.7203154563903809

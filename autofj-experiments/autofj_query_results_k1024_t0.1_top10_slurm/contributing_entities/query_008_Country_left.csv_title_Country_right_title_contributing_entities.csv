@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Country_left.csv,title,french protectorate of cambodia,Country_right,title,french protectorate of cambodia,1.000000238418579
+Country_left.csv,title,qin dynasty,Country_right,title,qin dynasty,1.0000001192092896
+Country_left.csv,title,xin dynasty,Country_right,title,xin dynasty,1.0000001192092896
+Country_left.csv,title,qing dynasty,Country_right,title,qing dynasty,1.0000001192092896
+Country_left.csv,title,kurt dynasty,Country_right,title,kurt dynasty,1.0000001192092896
+Country_left.csv,title,spanish protectorate in morocco,Country_right,title,spanish protectorate in morocco,1.0
+Country_left.csv,title,yuan dynasty,Country_right,title,yuan dynasty,1.0
+Country_left.csv,title,liu song dynasty,Country_right,title,liu song dynasty,1.0
+Country_left.csv,title,malacca sultanate,Country_right,title,malacca sultanate,1.0
+Country_left.csv,title,chera dynasty,Country_right,title,chera dynasty,1.0
+Country_left.csv,title,liao dynasty,Country_right,title,liao dynasty,1.0
+Country_left.csv,title,pandyan dynasty,Country_right,title,pandyan dynasty,0.9999998807907104
+Country_left.csv,title,han dynasty,Country_right,title,han dynasty,0.9999998807907104
+Country_left.csv,title,zhou dynasty,Country_right,title,zhou dynasty,0.9999997615814209
+Country_left.csv,title,ganja khanate,Country_right,title,ganja khanate,0.999999463558197
+Country_left.csv,title,nawabs of bengal and murshidabad,Country_right,title,nawabs of bengal & murshidabad,0.9896218776702881
+Country_left.csv,title,reorganized national government of china,Country_right,title,reorganized national government of the republic of china,0.9871124029159546
+Country_left.csv,title,ettayapuram estate,Country_right,title,ettaiyapuram estate,0.9843354821205139
+Country_left.csv,title,four oirats,Country_right,title,four oirat,0.9822795391082764
+Country_left.csv,title,saar (protectorate),Country_right,title,saar protectorate,0.9820728898048401
+Country_left.csv,title,zhao (five dynasties),Country_right,title,zhao (five dynasties period),0.980453372001648
+Country_left.csv,title,nakhichivan autonomous republic,Country_right,title,nakhchivan autonomous republic,0.9766400456428528
+Country_left.csv,title,kingdom of vaspurakan,Country_right,title,vaspurakan kingdom,0.9756156206130981
+Country_left.csv,title,italian aegean islands,Country_right,title,italian islands of the aegean,0.973343014717102
+Country_left.csv,title,aussa sultanate,Country_right,title,sultanate of aussa,0.9692670106887817
+Country_left.csv,title,moche (culture),Country_right,title,moche culture,0.9683927297592163
+Country_left.csv,title,free imperial city of kempten,Country_right,title,kempten (imperial free city),0.9662596583366394
+Country_left.csv,title,bishopric of strasbourg,Country_right,title,prince-bishopric of strasbourg,0.9661203622817993
+Country_left.csv,title,great seljuq empire,Country_right,title,seljuq empire,0.9647344350814819
+Country_left.csv,title,geledi sultanate,Country_right,title,sultanate of the geledi,0.9634263515472412
+Country_left.csv,title,lorraine (duchy),Country_right,title,duchy of lorraine,0.9596070051193237
+Country_left.csv,title,later liang dynasty,Country_right,title,later liang (five dynasties),0.9583137631416321
+Country_left.csv,title,trust territory of somalia,Country_right,title,trust territory of somaliland,0.9571347236633301
+Country_left.csv,title,kazikumukh shamkhalate,Country_right,title,gazikumukh shamkhalate,0.9562248587608337
+Country_left.csv,title,later tang dynasty,Country_right,title,tang dynasty,0.9555294513702393
+Country_left.csv,title,united states of belgium,Country_right,title,united belgian states,0.9538353681564331
+Country_left.csv,title,zimbabwe-rhodesia,Country_right,title,zimbabwe rhodesia,0.9537153244018555
+Country_left.csv,title,kingdom of syria,Country_right,title,arab kingdom of syria,0.9503369331359863
+Country_left.csv,title,malta colony,Country_right,title,crown colony of malta,0.9321033954620361
+Country_left.csv,title,eurasian economic community,Country_right,title,eurasian economic union,0.9316228628158569
+Country_left.csv,title,dutch cape colony,Country_right,title,cape colony,0.9207661151885986
+Country_left.csv,title,county of luxembourg,Country_right,title,"county, duchy and grand duchy of luxembourg",0.9092764854431152
+Country_left.csv,title,hotaki dynasty,Country_right,title,hotak dynasty,0.9092706441879272
+Country_left.csv,title,kenya,Country_right,title,british kenya,0.907113790512085
+Country_left.csv,title,duchy of anhalt,Country_right,title,anhalt,0.9045716524124146
+Country_left.csv,title,socialist republic of romania,Country_right,title,communist romania,0.9038732647895813
+Country_left.csv,title,provisional administrative entity of south ossetia,Country_right,title,provisional administration of south ossetia,0.9021905660629272
+Country_left.csv,title,colony of santiago (jamaica),Country_right,title,spanish occupation of santiago (jamaica),0.8993761539459229
+Country_left.csv,title,principality of arbanon,Country_right,title,principality of arbã«r,0.8978837728500366
+Country_left.csv,title,kerait,Country_right,title,keraites,0.8957294225692749
+Country_left.csv,title,independent macedonia (1944),Country_right,title,independent state of macedonia,0.8951813578605652
+Country_left.csv,title,kingdom of italy (napoleonic),Country_right,title,kingdom of italy (1861â1946),0.8933446407318115
+Country_left.csv,title,merkit people,Country_right,title,merkit,0.8920857906341553
+Country_left.csv,title,majeerteen sultanate,Country_right,title,jalairid sultanate,0.8889795541763306
+Country_left.csv,title,kingdom of hejaz,Country_right,title,kingdom of hejaz and nejd,0.8769933581352234
+Country_left.csv,title,republic of mountainous armenia,Country_right,title,first republic of armenia,0.8765856027603149
+Country_left.csv,title,british mauritius,Country_right,title,dominion of mauritius,0.8737614154815674
+Country_left.csv,title,bahmani sultanate,Country_right,title,hadiya sultanate,0.8730159401893616
+Country_left.csv,title,zanzibar,Country_right,title,people's republic of zanzibar,0.8730155229568481
+Country_left.csv,title,safavid dynasty,Country_right,title,sajid dynasty,0.8720650672912598
+Country_left.csv,title,shirvan beylarbeylik,Country_right,title,karabakh beylerbeylik,0.8654245138168335
+Country_left.csv,title,kingdom of montenegro,Country_right,title,grand principality of serbia,0.8628567457199097
+Country_left.csv,title,gujarat sultanate,Country_right,title,bengal sultanate,0.8623648881912231
+Country_left.csv,title,armenia,Country_right,title,bagratid armenia,0.8611369132995605
+Country_left.csv,title,byzantine empire,Country_right,title,byzantine empire under the angeloi,0.8596417903900146
+Country_left.csv,title,khoshut khanate,Country_right,title,gazikumukh khanate,0.8590559363365173
+Country_left.csv,title,dominion of fiji,Country_right,title,colony of fiji,0.8589044809341431
+Country_left.csv,title,turkmen armenia,Country_right,title,occupation of turkish armenia,0.851586103439331
+Country_left.csv,title,kingdom of ossory,Country_right,title,kingdom of osraige,0.8507329225540161
+Country_left.csv,title,late period of ancient egypt,Country_right,title,early dynastic period (egypt),0.850447952747345
+Country_left.csv,title,eastern hungarian kingdom,Country_right,title,hungarian people's republic,0.8472349047660828
+Country_left.csv,title,free french forces,Country_right,title,free france,0.8467905521392822
+Country_left.csv,title,duchy of magdeburg,Country_right,title,duchy of luxemburg,0.8466557264328003
+Country_left.csv,title,lands of the bohemian crown,Country_right,title,history of the lands of the bohemian crown (middle ages),0.8462083339691162
+Country_left.csv,title,khanate of kokand,Country_right,title,khanate of kazi-kumukh,0.8455499410629272
+Country_left.csv,title,ba'athist iraq,Country_right,title,history of iraq under ba'athist rule,0.8449994325637817
+Country_left.csv,title,pontianak sultanate,Country_right,title,kalinyamat sultanate,0.8445551991462708
+Country_left.csv,title,independent state of croatia,Country_right,title,duchy of croatia,0.8433611989021301
+Country_left.csv,title,emirate of nejd,Country_right,title,emirate of transjordan,0.8428104519844055
+Country_left.csv,title,kalingga,Country_right,title,kalingga kingdom,0.8425657749176025
+Country_left.csv,title,archbishopric of magdeburg,Country_right,title,archbishopric of mainz,0.8420658111572266
+Country_left.csv,title,autonomous province of western bosnia,Country_right,title,condominium of bosnia and herzegovina,0.8415780067443848
+Country_left.csv,title,kakuyids,Country_right,title,kartids,0.8414812088012695
+Country_left.csv,title,poland,Country_right,title,polish people's republic,0.8401204347610474
+Country_left.csv,title,crown colony of sarawak,Country_right,title,crown colony of malacca,0.8393123745918274
+Country_left.csv,title,kingdom of kurdistan,Country_right,title,kurdistansky uyezd,0.8358328342437744
+Country_left.csv,title,principality of trubetsk,Country_right,title,principality of turov,0.8334104418754578
+Country_left.csv,title,principality of reuss-greiz,Country_right,title,principality of reuss elder line,0.8326945304870605
+Country_left.csv,title,glamorgan,Country_right,title,lordship of glamorgan,0.8321483135223389
+Country_left.csv,title,united states protectorate over cuba,Country_right,title,united states military government in cuba,0.8318591117858887
+Country_left.csv,title,kingdom of bavaria,Country_right,title,bavarian council republic,0.831829309463501
+Country_left.csv,title,margraviate of baden,Country_right,title,margraviate of austria,0.8316555023193359
+Country_left.csv,title,northern zhou,Country_right,title,later zhou,0.8309096097946167
+Country_left.csv,title,chola dynasty,Country_right,title,chavda dynasty,0.8283877968788147
+Country_left.csv,title,princedom of albania,Country_right,title,principality of albania (medieval),0.8280754089355469
+Country_left.csv,title,southern tang,Country_right,title,later tang,0.8260055780410767
+Country_left.csv,title,khilji dynasty,Country_right,title,kadamba dynasty,0.8217962980270386
+Country_left.csv,title,afsharid dynasty,Country_right,title,arghun dynasty,0.8188526630401611
+Country_left.csv,title,sennar (sultanate),Country_right,title,sultanate of ternate,0.8174566030502319
+Country_left.csv,title,belarusian people's republic,Country_right,title,belarusian central council,0.816184401512146
+Country_left.csv,title,astrakhan khanate,Country_right,title,tarkhan dynasty,0.8155823945999146
+Country_left.csv,title,principality of hungary,Country_right,title,first hungarian republic,0.8155015707015991
+Country_left.csv,title,byzantine empire under the komnenos dynasty,Country_right,title,byzantium under the komnenos dynasty,0.8133951425552368
+Country_left.csv,title,khen dynasty,Country_right,title,chen dynasty,0.8129251003265381
+Country_left.csv,title,demak sultanate,Country_right,title,sultanate of ifat,0.8124891519546509
+Country_left.csv,title,british military administration (malaya),Country_right,title,japanese occupation of malaya,0.8118089437484741
+Country_left.csv,title,cupules,Country_right,title,cupul,0.8097431659698486
+Country_left.csv,title,second mexican empire,Country_right,title,aztec empire,0.8094907402992249
+Country_left.csv,title,yue (state),Country_right,title,yueban,0.8084872364997864
+Country_left.csv,title,sudan,Country_right,title,mahdist sudan,0.8079229593276978
+Country_left.csv,title,beyliks of canik,Country_right,title,beylik of dulkadir,0.8070477247238159
+Country_left.csv,title,dutch malacca,Country_right,title,malacca (british crown colony),0.801708459854126
+Country_left.csv,title,qi (state),Country_right,title,qi (li maozhen's state),0.8014730215072632
+Country_left.csv,title,kingdom of kaffa,Country_right,title,k'iche' kingdom of q'umarkaj,0.801142692565918
+Country_left.csv,title,bosnia and herzegovina,Country_right,title,austro-hungarian rule in bosnia and herzegovina,0.80101478099823
+Country_left.csv,title,iran,Country_right,title,muzaffarids (iran),0.7999627590179443
+Country_left.csv,title,duchy of athens,Country_right,title,duchy of neopatras,0.7992555499076843
+Country_left.csv,title,liang (state),Country_right,title,liang dynasty,0.7981377840042114
+Country_left.csv,title,kingdom of castile,Country_right,title,kingdom of iberia,0.7978527545928955
+Country_left.csv,title,northumbria,Country_right,title,kingdom of northumbria,0.7941257953643799
+Country_left.csv,title,indo-parthian kingdom,Country_right,title,indo-greek kingdom,0.7941083908081055
+Country_left.csv,title,history of laos to 1945,Country_right,title,french protectorate of laos,0.7938774824142456
+Country_left.csv,title,hafsid dynasty,Country_right,title,ghurid dynasty,0.7933062314987183
+Country_left.csv,title,vakataka dynasty,Country_right,title,rashtrakuta dynasty,0.7931937575340271
+Country_left.csv,title,second east turkestan republic,Country_right,title,turkish provisional government,0.7924668788909912
+Country_left.csv,title,qara del,Country_right,title,qara khitai,0.7907803058624268
+Country_left.csv,title,county of katzenelnbogen,Country_right,title,county of luxemburg,0.7904726266860962
+Country_left.csv,title,karakalpakstan,Country_right,title,kartl-kakheti,0.7904614210128784
+Country_left.csv,title,kingdom of butuan,Country_right,title,rajahnate of butuan,0.7883089184761047
+Country_left.csv,title,laos,Country_right,title,myanmar,0.7882340550422668
+Country_left.csv,title,samanids,Country_right,title,samanid empire,0.7878162860870361
+Country_left.csv,title,avar khanate,Country_right,title,dzungar khanate,0.7863800525665283
+Country_left.csv,title,duchy of oels,Country_right,title,duchy of dol-combourg,0.784923791885376
+Country_left.csv,title,albania (satrapy),Country_right,title,kingdom of albania (medieval),0.7844604253768921
+Country_left.csv,title,former yan,Country_right,title,former zhao,0.7811794281005859
+Country_left.csv,title,dendi kingdom,Country_right,title,kediri kingdom,0.780798077583313
+Country_left.csv,title,special administrative region,Country_right,title,special administrative regions of china,0.7793340682983398
+Country_left.csv,title,naraka dynasty,Country_right,title,nanda dynasty,0.778754711151123
+Country_left.csv,title,kara koyunlu,Country_right,title,kara del,0.7774714231491089
+Country_left.csv,title,pattani kingdom,Country_right,title,panchala kingdom,0.7774053812026978
+Country_left.csv,title,habsburg spain,Country_right,title,spain under joseph bonaparte,0.7765933275222778
+Country_left.csv,title,duchy of normandy,Country_right,title,duchy of gascony,0.7765030860900879
+Country_left.csv,title,banat republic,Country_right,title,albona republic,0.775543212890625
+Country_left.csv,title,zand dynasty,Country_right,title,bavand dynasty,0.7753790616989136
+Country_left.csv,title,southern nigeria protectorate,Country_right,title,federation of nigeria,0.7750323414802551
+Country_left.csv,title,united nations interim administration mission in kosovo,Country_right,title,kosovo (region),0.7742588520050049
+Country_left.csv,title,paramara dynasty,Country_right,title,samma dynasty,0.7741693258285522
+Country_left.csv,title,provisional national government of the southwestern caucasus,Country_right,title,provisional government of autonomous siberia,0.7741206288337708
+Country_left.csv,title,province of tierra firme,Country_right,title,tierra firma,0.7710503339767456
+Country_left.csv,title,hispania,Country_right,title,unification of hispaniola,0.7706776857376099
+Country_left.csv,title,alash orda,Country_right,title,alavids,0.7693657875061035
+Country_left.csv,title,kahuripan,Country_right,title,nakhchivan,0.7680932283401489
+Country_left.csv,title,kingdom of france,Country_right,title,isle de france,0.7676725387573242
+Country_left.csv,title,mustang (kingdom),Country_right,title,upper mustang,0.7673322558403015
+Country_left.csv,title,austria-hungary,Country_right,title,first austrian republic,0.7670491933822632
+Country_left.csv,title,kingdom of sophene,Country_right,title,kingdom of soissons,0.7668316960334778
+Country_left.csv,title,sri lanka,Country_right,title,dutch ceylon,0.7615824937820435
+Country_left.csv,title,state of damascus,Country_right,title,jabal al-druze (state),0.7607061266899109
+Country_left.csv,title,military administration in belgium and northern france,Country_right,title,german military administration in occupied france during world war ii,0.7542312145233154
+Country_left.csv,title,japanese occupation of hong kong,Country_right,title,japanese colonial empire,0.7531929612159729
+Country_left.csv,title,kingdom of garo,Country_right,title,kingdom of fouta tooro,0.7523379325866699
+Country_left.csv,title,tsangpa,Country_right,title,tuyuhun,0.7515758275985718
+Country_left.csv,title,essen abbey,Country_right,title,imperial abbey of kempten,0.7510043382644653
+Country_left.csv,title,emirate of granada,Country_right,title,emirate of armenia,0.7507023215293884
+Country_left.csv,title,nayaks of gingee,Country_right,title,nayakas of keladi,0.7504669427871704
+Country_left.csv,title,roman empire,Country_right,title,sasanian empire,0.7502189874649048
+Country_left.csv,title,prince-bishopric of augsburg,Country_right,title,episcopal principality of utrecht,0.7489132881164551
+Country_left.csv,title,african free trade zone,Country_right,title,commonwealth of independent states free trade area,0.7460237741470337
+Country_left.csv,title,ahom kingdom,Country_right,title,kingdom of ava,0.7446011900901794
+Country_left.csv,title,talysh khanate,Country_right,title,erivan khanate,0.7416236400604248
+Country_left.csv,title,qi (five dynasties),Country_right,title,yin (five dynasties period),0.7410180568695068
+Country_left.csv,title,buyeo kingdom,Country_right,title,buyeo,0.7403862476348877
+Country_left.csv,title,lodi dynasty,Country_right,title,mleccha dynasty,0.7400123476982117
+Country_left.csv,title,pala empire,Country_right,title,wadai empire,0.7379705905914307
+Country_left.csv,title,duchy of saxe-wittenberg,Country_right,title,lordship of winneburg and beilstein,0.7377306222915649
+Country_left.csv,title,haryanka dynasty,Country_right,title,ror dynasty,0.7367455959320068
+Country_left.csv,title,territory of new guinea,Country_right,title,tanganyika (territory),0.7360028028488159
+Country_left.csv,title,yan (state),Country_right,title,yan (five dynasties period),0.7335391640663147
+Country_left.csv,title,interim government of india,Country_right,title,interim government of iran,0.7330073118209839
+Country_left.csv,title,kingdom of aragon,Country_right,title,kingdom of spain under joseph bonaparte,0.7322001457214355
+Country_left.csv,title,serbia and montenegro,Country_right,title,croatia in the union with hungary,0.7320448160171509
+Country_left.csv,title,provisional government of national union and national salvation of cambodia,Country_right,title,provisional government of bangladesh,0.728579044342041
+Country_left.csv,title,third dynasty of ur,Country_right,title,rai dynasty,0.7281190156936646
+Country_left.csv,title,kahlur,Country_right,title,khereid,0.7280200719833374
+Country_left.csv,title,hoysala empire,Country_right,title,hotaki empire,0.7279106378555298
+Country_left.csv,title,gozo (1798-1800),Country_right,title,gozo (1798â1800),0.7273092269897461
+Country_left.csv,title,county of tecklenburg,Country_right,title,imperial county of ortenburg,0.7252533435821533
+Country_left.csv,title,cao wei,Country_right,title,sui dynasty,0.7246707081794739
+Country_left.csv,title,naga kings,Country_right,title,nagas of padmavati,0.7246518731117249
+Country_left.csv,title,republic of florence,Country_right,title,republic of ancona,0.7242088317871094
+Country_left.csv,title,sallarid dynasty,Country_right,title,sallarid,0.7240030765533447
+Country_left.csv,title,annam (french protectorate),Country_right,title,french protectorate of morocco,0.7235634326934814
+Country_left.csv,title,ahmadnagar sultanate,Country_right,title,zanzibar sultanate,0.7226951718330383
+Country_left.csv,title,israel,Country_right,title,jordanian occupation of the west bank and east jerusalem,0.7217650413513184
+Country_left.csv,title,myinsaing kingdom,Country_right,title,kingdom of fouta djallon,0.7193677425384521
+Country_left.csv,title,kingdom of slavonia,Country_right,title,"eastern slavonia, baranja and western syrmia",0.7184865474700928
+Country_left.csv,title,marchtal abbey,Country_right,title,st. ulrich's and st. afra's abbey,0.7182486057281494
+Country_left.csv,title,"mari, syria",Country_right,title,armi (syria),0.7171924114227295
+Country_left.csv,title,tannu uriankhai,Country_right,title,arminiya,0.7167105674743652
+Country_left.csv,title,kushan empire,Country_right,title,northern yuan dynasty,0.7163245677947998

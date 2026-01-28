@@ -1,0 +1,9 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Hospital_left.csv,title,University of Washington Medical Center,ClericalAdministrativeRegion_left.csv,title,Anglican Diocese of Birmingham,0.2656
+Hospital_left.csv,title,Catholic Medical Center,ClericalAdministrativeRegion_left.csv,title,Roman Catholic Diocese of Charlotte,0.2656
+Hospital_left.csv,title,Hospital Carlos Van Buren,ClericalAdministrativeRegion_left.csv,title,Roman Catholic Diocese of Metuchen,0.2656
+Hospital_left.csv,title,Blackpool Victoria Hospital,ClericalAdministrativeRegion_left.csv,title,Roman Catholic Vicariate Apostolic of Iles Saint Pierre and Miquelon,0.2656
+Hospital_left.csv,title,University of Alberta Hospital,ClericalAdministrativeRegion_left.csv,title,Roman Catholic Archdiocese of Canberra and Goulburn,0.2656
+Hospital_left.csv,title,"Queen Mary Hospital, Hong Kong",ClericalAdministrativeRegion_left.csv,title,Roman Catholic Diocese of Dapaong,0.2656
+Hospital_left.csv,title,Catholic Medical Center,ClericalAdministrativeRegion_left.csv,title,Roman Catholic Archdiocese of Warmia,0.2656
+Hospital_left.csv,title,Children's of Alabama,ClericalAdministrativeRegion_left.csv,title,Roman Catholic Diocese of Ganzhou,0.2656

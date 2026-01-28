@@ -1,0 +1,9 @@
+{
+  "table_name": "Stadium_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 5105,
+  "sketch_k": 1024,
+  "processing_time": 7.464719295501709,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Stadium_left/title_1.npz"
+}

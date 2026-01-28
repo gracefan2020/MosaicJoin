@@ -1,0 +1,5 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Galaxy_left.csv,title,NGC 9,ArtificialSatellite_right.csv,title,UoSat-OSCAR 9,0.7232
+Galaxy_left.csv,title,NGC 28,ArtificialSatellite_right.csv,title,Intelsat 28,0.7232
+Galaxy_left.csv,title,Cygnus A,ArtificialSatellite_right.csv,title,Cygnus Orb-D1,0.7232
+Galaxy_left.csv,title,NGC 14,ArtificialSatellite_right.csv,title,Telstar 14,0.7232

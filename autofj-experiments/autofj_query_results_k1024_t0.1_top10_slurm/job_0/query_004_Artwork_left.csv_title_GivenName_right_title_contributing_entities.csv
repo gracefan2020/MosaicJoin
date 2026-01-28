@@ -1,0 +1,155 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Artwork_left.csv,title,adele bloch-bauer ii,GivenName_right,title,adele,0.7582136392593384
+Artwork_left.csv,title,sponsa de libano,GivenName_right,title,ljubica,0.7301040291786194
+Artwork_left.csv,title,personnage oiseaux,GivenName_right,title,guillaume,0.7029688954353333
+Artwork_left.csv,title,bijinga,GivenName_right,title,bauyrzhan,0.6968047618865967
+Artwork_left.csv,title,hokusai manga,GivenName_right,title,harutyun,0.696220338344574
+Artwork_left.csv,title,abaporu,GivenName_right,title,banu,0.6947371959686279
+Artwork_left.csv,title,marforio,GivenName_right,title,milica,0.6911861300468445
+Artwork_left.csv,title,christina's world,GivenName_right,title,julia,0.6805012822151184
+Artwork_left.csv,title,madonna and child with st. john the baptist and st. mary magdalene,GivenName_right,title,mary (name),0.6723108291625977
+Artwork_left.csv,title,superlambanana,GivenName_right,title,sujata (name),0.6654143929481506
+Artwork_left.csv,title,virgin and child with saint anne (masaccio),GivenName_right,title,annetta (given name),0.6594048738479614
+Artwork_left.csv,title,equestrian statue of theodore roosevelt,GivenName_right,title,roosevelt (name),0.6574158668518066
+Artwork_left.csv,title,maurin quina,GivenName_right,title,kalina (name),0.6530144214630127
+Artwork_left.csv,title,calvin fletcher (bust),GivenName_right,title,calvin (name),0.6530107259750366
+Artwork_left.csv,title,el jaleo,GivenName_right,title,oladapo,0.6431241035461426
+Artwork_left.csv,title,indian widow,GivenName_right,title,dalia (given name),0.6401411294937134
+Artwork_left.csv,title,agricola i,GivenName_right,title,alessia,0.6375260949134827
+Artwork_left.csv,title,dawnsong,GivenName_right,title,enn,0.6369040012359619
+Artwork_left.csv,title,rucellai madonna,GivenName_right,title,michele,0.6363534927368164
+Artwork_left.csv,title,madama lucrezia,GivenName_right,title,ludovica,0.6323198080062866
+Artwork_left.csv,title,henry f. schricker (bust),GivenName_right,title,schuyler (name),0.6295003294944763
+Artwork_left.csv,title,beata beatrix,GivenName_right,title,edwina,0.6293763518333435
+Artwork_left.csv,title,anthony wayne (gregory),GivenName_right,title,anthony (name),0.6269152164459229
+Artwork_left.csv,title,"a,a",GivenName_right,title,aida (name),0.6201995015144348
+Artwork_left.csv,title,eve (davidson),GivenName_right,title,alison (given name),0.6195770502090454
+Artwork_left.csv,title,marilyn diptych,GivenName_right,title,margaret,0.618351936340332
+Artwork_left.csv,title,anthony j. drexel (ezekiel),GivenName_right,title,amos (name),0.6178015470504761
+Artwork_left.csv,title,saint paul (masaccio),GivenName_right,title,paulina (given name),0.6175148487091064
+Artwork_left.csv,title,madonna of laroque,GivenName_right,title,madeleine (name),0.6164577007293701
+Artwork_left.csv,title,lansdowne portrait,GivenName_right,title,lindita (given name),0.6152661442756653
+Artwork_left.csv,title,mademoiselle rose,GivenName_right,title,coralie,0.6117368936538696
+Artwork_left.csv,title,eclipse (sebastian),GivenName_right,title,gerard,0.6104567050933838
+Artwork_left.csv,title,medusa (caravaggio),GivenName_right,title,modris,0.6095505952835083
+Artwork_left.csv,title,portrait of daniel-henry kahnweiler,GivenName_right,title,daniel,0.6092431545257568
+Artwork_left.csv,title,acton (turrell),GivenName_right,title,maytham,0.6086475849151611
+Artwork_left.csv,title,saint mark (donatello),GivenName_right,title,mark (name),0.6076126098632812
+Artwork_left.csv,title,lucretia (veronese),GivenName_right,title,leonie,0.6046268939971924
+Artwork_left.csv,title,abbot luigi,GivenName_right,title,junichi,0.6021647453308105
+Artwork_left.csv,title,his highness the prince,GivenName_right,title,abd al-aziz,0.599449098110199
+Artwork_left.csv,title,rhein ii,GivenName_right,title,zvonimir,0.5964900255203247
+Artwork_left.csv,title,infanta margarita teresa in a pink dress,GivenName_right,title,fatima (name),0.5964366793632507
+Artwork_left.csv,title,vitruvian man,GivenName_right,title,alexandru,0.5943602919578552
+Artwork_left.csv,title,statue of parakramabahu i,GivenName_right,title,parvati (given name),0.5927215814590454
+Artwork_left.csv,title,aquis submersus,GivenName_right,title,indulis,0.5920677185058594
+Artwork_left.csv,title,jerome connor,GivenName_right,title,joseph,0.5919740200042725
+Artwork_left.csv,title,christian wahl,GivenName_right,title,ranald,0.590224027633667
+Artwork_left.csv,title,bird and fish,GivenName_right,title,shahrokh (mythical bird),0.5898785591125488
+Artwork_left.csv,title,angel of the resurrection,GivenName_right,title,faith (name),0.5888174772262573
+Artwork_left.csv,title,geumgang jeondo,GivenName_right,title,kaj,0.588634729385376
+Artwork_left.csv,title,diana and callisto,GivenName_right,title,hristo,0.5870059728622437
+Artwork_left.csv,title,john peter gabriel muhlenberg (hufford),GivenName_right,title,luke (name),0.5868725180625916
+Artwork_left.csv,title,kendall band,GivenName_right,title,kathryn,0.5867642164230347
+Artwork_left.csv,title,the jester don diego de acedo,GivenName_right,title,domagoj (given name),0.5863404870033264
+Artwork_left.csv,title,sir william blackstone (statue),GivenName_right,title,william (given name),0.5855275392532349
+Artwork_left.csv,title,borghese gladiator,GivenName_right,title,gatis,0.5843172073364258
+Artwork_left.csv,title,lady with an ermine,GivenName_right,title,ellen,0.5833044052124023
+Artwork_left.csv,title,the dream and lie of franco,GivenName_right,title,juanfran (disambiguation),0.5823372006416321
+Artwork_left.csv,title,whaam!,GivenName_right,title,ziemowit,0.5807285308837891
+Artwork_left.csv,title,portrait of laura dianti,GivenName_right,title,fanny (name),0.579933762550354
+Artwork_left.csv,title,crucifixion between sts. jerome and christopher,GivenName_right,title,christopher,0.579068660736084
+Artwork_left.csv,title,nature belle (staab),GivenName_right,title,corinne,0.5774582028388977
+Artwork_left.csv,title,manneken pis,GivenName_right,title,kaede,0.5751082301139832
+Artwork_left.csv,title,ashbourne portrait,GivenName_right,title,aisling (name),0.5744837522506714
+Artwork_left.csv,title,doni tondo,GivenName_right,title,dobroslav,0.5740871429443359
+Artwork_left.csv,title,venus callipyge,GivenName_right,title,laimonis,0.5727912187576294
+Artwork_left.csv,title,lux mundi (statue),GivenName_right,title,mira (given name),0.5718665719032288
+Artwork_left.csv,title,glen s. hopkinson,GivenName_right,title,marvin (given name),0.5706781148910522
+Artwork_left.csv,title,robba fountain,GivenName_right,title,veronica (name),0.5693755149841309
+Artwork_left.csv,title,sparty,GivenName_right,title,lyfing,0.5691474676132202
+Artwork_left.csv,title,chinese girl,GivenName_right,title,soo-young (name),0.5673190951347351
+Artwork_left.csv,title,celebration (tyeb mehta),GivenName_right,title,chetan (name),0.5659578442573547
+Artwork_left.csv,title,christ of saint john of the cross,GivenName_right,title,joseph (name),0.5652920007705688
+Artwork_left.csv,title,vanity (titian),GivenName_right,title,verity,0.5652824640274048
+Artwork_left.csv,title,jasenovac monument,GivenName_right,title,padraic,0.5647897720336914
+Artwork_left.csv,title,drowning girl,GivenName_right,title,brianna,0.5619865655899048
+Artwork_left.csv,title,the flight into egypt (lorrain),GivenName_right,title,abd al-rahman,0.5599976181983948
+Artwork_left.csv,title,marsuppini coronation,GivenName_right,title,maki (name),0.559187650680542
+Artwork_left.csv,title,stephen neal (bust),GivenName_right,title,leonard,0.5585942268371582
+Artwork_left.csv,title,untitled (chapman),GivenName_right,title,travis,0.5579531192779541
+Artwork_left.csv,title,john rogers herbert,GivenName_right,title,jerry (given name),0.5565203428268433
+Artwork_left.csv,title,hara (sculpture),GivenName_right,title,hana (name),0.5549317598342896
+Artwork_left.csv,title,portrait of agnolo doni,GivenName_right,title,raffaello (disambiguation),0.5541995763778687
+Artwork_left.csv,title,the elder sister,GivenName_right,title,aileen,0.5492903590202332
+Artwork_left.csv,title,sculpture with a d,GivenName_right,title,cadwallader,0.547175943851471
+Artwork_left.csv,title,leda atomica,GivenName_right,title,okonma,0.5460071563720703
+Artwork_left.csv,title,severan tondo,GivenName_right,title,bojan,0.545981228351593
+Artwork_left.csv,title,capitoline wolf,GivenName_right,title,merwin,0.5450282096862793
+Artwork_left.csv,title,kwakiutl (statue),GivenName_right,title,tuukka,0.5448607206344604
+Artwork_left.csv,title,the chocolate girl,GivenName_right,title,sophie (given name),0.5442531704902649
+Artwork_left.csv,title,the wounded angel,GivenName_right,title,medad,0.5428377389907837
+Artwork_left.csv,title,the menaced assassin,GivenName_right,title,gun (swedish name),0.5421985387802124
+Artwork_left.csv,title,infanta margarita teresa in a blue dress,GivenName_right,title,vivian (given name),0.5416724681854248
+Artwork_left.csv,title,portrait of madame x,GivenName_right,title,tess (given name),0.5396071672439575
+Artwork_left.csv,title,desolation (llimona),GivenName_right,title,nelofar,0.5382776260375977
+Artwork_left.csv,title,sherman minton (bust),GivenName_right,title,mervin,0.5342327356338501
+Artwork_left.csv,title,argo (liberman),GivenName_right,title,raizo,0.5340198874473572
+Artwork_left.csv,title,zliten mosaic,GivenName_right,title,zakiah,0.5338164567947388
+Artwork_left.csv,title,the madonna of port lligat,GivenName_right,title,llewellyn (name),0.5333061218261719
+Artwork_left.csv,title,sappho and phaon,GivenName_right,title,kayo (name),0.5330045223236084
+Artwork_left.csv,title,cubi xii,GivenName_right,title,lubomir,0.531777024269104
+Artwork_left.csv,title,susanna and the elders (lotto),GivenName_right,title,sandy (given name),0.5306575298309326
+Artwork_left.csv,title,the haywain triptych,GivenName_right,title,hayley (given name),0.5288711786270142
+Artwork_left.csv,title,portrait of andrea odoni,GivenName_right,title,pia (given name),0.5281739234924316
+Artwork_left.csv,title,woman with a mirror,GivenName_right,title,michelle (name),0.5273551344871521
+Artwork_left.csv,title,jim the wonder dog,GivenName_right,title,jeffrey (name),0.5254780650138855
+Artwork_left.csv,title,death of sardanapalus,GivenName_right,title,sania (disambiguation),0.5246819853782654
+Artwork_left.csv,title,the kiss (hayez),GivenName_right,title,hannah (name),0.5241382718086243
+Artwork_left.csv,title,ansidei madonna,GivenName_right,title,anupama (given name),0.5224619507789612
+Artwork_left.csv,title,josh gibson (amrany),GivenName_right,title,katherine,0.5213804244995117
+Artwork_left.csv,title,le sommeil,GivenName_right,title,alexis,0.5196309089660645
+Artwork_left.csv,title,contarini madonna,GivenName_right,title,ctirad,0.5191655158996582
+Artwork_left.csv,title,girl in a wetsuit,GivenName_right,title,brooke (name),0.5185492634773254
+Artwork_left.csv,title,portrait of a young woman (la muta),GivenName_right,title,haruna (given name),0.5184693336486816
+Artwork_left.csv,title,portrait of giovanna tornabuoni,GivenName_right,title,gita (given name),0.5181838274002075
+Artwork_left.csv,title,the princess from the land of porcelain,GivenName_right,title,haruchika (given name),0.5177220702171326
+Artwork_left.csv,title,darth vader grotesque,GivenName_right,title,jahsh,0.5153055191040039
+Artwork_left.csv,title,the rest on the flight into egypt (mola),GivenName_right,title,hamad,0.5111069679260254
+Artwork_left.csv,title,emma willard memorial,GivenName_right,title,heather (given name),0.5097917914390564
+Artwork_left.csv,title,aspire (sculpture),GivenName_right,title,asa (name),0.5080146789550781
+Artwork_left.csv,title,erastus b. wolcott,GivenName_right,title,tom (given name),0.5060124397277832
+Artwork_left.csv,title,triumph of the virtues (mantegna),GivenName_right,title,graciela (disambiguation),0.5039654970169067
+Artwork_left.csv,title,st. peter's baldachin,GivenName_right,title,bram (given name),0.4993000030517578
+Artwork_left.csv,title,valle romita polyptych,GivenName_right,title,priya (given name),0.49928218126296997
+Artwork_left.csv,title,the fifer,GivenName_right,title,stanley (name),0.4992457330226898
+Artwork_left.csv,title,fez (frank stella),GivenName_right,title,faiz (disambiguation),0.49817991256713867
+Artwork_left.csv,title,the clothed maja,GivenName_right,title,uldis,0.49771153926849365
+Artwork_left.csv,title,john luttrell (picture),GivenName_right,title,kanye (name),0.4968932867050171
+Artwork_left.csv,title,air (maillol),GivenName_right,title,aurora (given name),0.4962914288043976
+Artwork_left.csv,title,madonna of the pinks,GivenName_right,title,miley (given name),0.4940967559814453
+Artwork_left.csv,title,mrs. richard brinsley sheridan (painting),GivenName_right,title,rei (given name),0.4927332401275635
+Artwork_left.csv,title,the jewish bride,GivenName_right,title,yasmin (given name),0.4909808933734894
+Artwork_left.csv,title,l'asie,GivenName_right,title,asad (name),0.4905353784561157
+Artwork_left.csv,title,view of paris from vincent's room in the rue lepic,GivenName_right,title,parisa (disambiguation),0.49040454626083374
+Artwork_left.csv,title,captain nathan hale (statue),GivenName_right,title,lee (english given name),0.4903930425643921
+Artwork_left.csv,title,arnolfini portrait,GivenName_right,title,arif (given name),0.4879258871078491
+Artwork_left.csv,title,victory o lord!,GivenName_right,title,keon,0.48749643564224243
+Artwork_left.csv,title,krishna and radha in a pavilion,GivenName_right,title,arun (given name),0.48716601729393005
+Artwork_left.csv,title,blue nude (souvenir de biskra),GivenName_right,title,navneet,0.4862276315689087
+Artwork_left.csv,title,pegasus (pilz),GivenName_right,title,cory,0.4838310480117798
+Artwork_left.csv,title,the lovers (daen),GivenName_right,title,dzintars,0.48339420557022095
+Artwork_left.csv,title,still life with old shoe,GivenName_right,title,casper,0.48270314931869507
+Artwork_left.csv,title,the stonebreaker,GivenName_right,title,tawfik,0.47869136929512024
+Artwork_left.csv,title,mojo (moeller),GivenName_right,title,dustin (name),0.47663944959640503
+Artwork_left.csv,title,recanati polyptych,GivenName_right,title,bita (persian),0.4758085608482361
+Artwork_left.csv,title,saint candidus (ayne bru),GivenName_right,title,sorin (given name),0.47542938590049744
+Artwork_left.csv,title,spiritkeeper,GivenName_right,title,takeru (name),0.4726293683052063
+Artwork_left.csv,title,galacidalacidesoxyribonucleicacid,GivenName_right,title,abid (name),0.4716030955314636
+Artwork_left.csv,title,three dikgosi monument,GivenName_right,title,damayanti (disambiguation),0.4712943434715271
+Artwork_left.csv,title,"atrani, coast of amalfi",GivenName_right,title,bora (turkish name),0.46293342113494873
+Artwork_left.csv,title,balbi holy conversation,GivenName_right,title,farah (name),0.45664969086647034
+Artwork_left.csv,title,thirty-six views of mount fuji (hiroshige),GivenName_right,title,hideyoshi (disambiguation),0.45648983120918274
+Artwork_left.csv,title,ahasuerus and haman at the feast of esther,GivenName_right,title,hjalmar (disambiguation),0.44733762741088867
+Artwork_left.csv,title,"japanese lantern (washington, d.c.)",GivenName_right,title,sora (japanese given name),0.4319048523902893
+Artwork_left.csv,title,avukana buddha statue,GivenName_right,title,hannu (disambiguation),0.38929957151412964

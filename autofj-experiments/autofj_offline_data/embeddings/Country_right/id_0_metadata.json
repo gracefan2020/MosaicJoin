@@ -1,0 +1,11 @@
+{
+  "table_name": "Country_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 291,
+  "unique_values": 291,
+  "processed_values": 291,
+  "embedding_dim": 768,
+  "processing_time": 0.16457319259643555,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Country_right.csv"
+}

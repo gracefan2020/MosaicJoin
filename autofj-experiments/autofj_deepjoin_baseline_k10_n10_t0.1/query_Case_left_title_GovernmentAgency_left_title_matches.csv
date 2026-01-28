@@ -1,0 +1,35 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Case_left.csv,title,Federal Aviation Administration v. Cooper,GovernmentAgency_left.csv,title,Federal Aviation Administration,0.578
+Case_left.csv,title,Food and Drug Administration v. Brown & Williamson Tobacco Corporation,GovernmentAgency_left.csv,title,Food and Drug Administration,0.578
+Case_left.csv,title,Dolan v. United States Postal Service,GovernmentAgency_left.csv,title,United States Postal Service,0.578
+Case_left.csv,title,United States Department of Justice v. Reporters Committee for Freedom of the Press,GovernmentAgency_left.csv,title,United States Department of Justice,0.578
+Case_left.csv,title,United States v. Interstate Commerce Commission,GovernmentAgency_left.csv,title,Interstate Commerce Commission,0.578
+Case_left.csv,title,Verizon Communications Inc. v. Federal Communications Commission,GovernmentAgency_left.csv,title,Federal Communications Commission,0.578
+Case_left.csv,title,Massachusetts v. Environmental Protection Agency,GovernmentAgency_left.csv,title,United States Environmental Protection Agency,0.578
+Case_left.csv,title,Immigration and Naturalization Service v. Chadha,GovernmentAgency_left.csv,title,Immigration and Naturalization Service,0.578
+Case_left.csv,title,Federal Trade Commission v. Colgate-Palmolive Company,GovernmentAgency_left.csv,title,Federal Trade Commission,0.578
+Case_left.csv,title,"Lechmere, Inc. v. National Labor Relations Board",GovernmentAgency_left.csv,title,National Labor Relations Board,0.578
+Case_left.csv,title,Davis v. Federal Election Commission,GovernmentAgency_left.csv,title,Federal Election Commission,0.578
+Case_left.csv,title,National Endowment for the Arts v. Finley,GovernmentAgency_left.csv,title,National Endowment for the Arts,0.578
+Case_left.csv,title,Nixon v. General Services Administration,GovernmentAgency_left.csv,title,General Services Administration,0.578
+Case_left.csv,title,Regents of the University of California v. Bakke,GovernmentAgency_left.csv,title,Regents of the University of California,0.578
+Case_left.csv,title,Commodity Futures Trading Commission v. Schor,GovernmentAgency_left.csv,title,Commodity Futures Trading Commission,0.578
+Case_left.csv,title,Christiansburg Garment Co. v. Equal Employment Opportunity Commission,GovernmentAgency_left.csv,title,Equal Employment Opportunity Commission,0.578
+Case_left.csv,title,Federal Power Commission v. Sierra Pacific Power Company,GovernmentAgency_left.csv,title,Federal Power Commission,0.578
+Case_left.csv,title,Ali v. Federal Bureau of Prisons,GovernmentAgency_left.csv,title,Federal Bureau of Prisons,0.578
+Case_left.csv,title,National Association for the Advancement of Colored People v. Alabama,GovernmentAgency_left.csv,title,People's Association,0.578
+Case_left.csv,title,"Lechmere, Inc. v. National Labor Relations Board",GovernmentAgency_left.csv,title,National Labor Board,0.578
+Case_left.csv,title,Arkansas Game and Fish Commission v. United States,GovernmentAgency_left.csv,title,United States Fish Commission,0.578
+Case_left.csv,title,Stop the Beach Renourishment v. Florida Department of Environmental Protection,GovernmentAgency_left.csv,title,Environmental Protection Department,0.578
+Case_left.csv,title,New York City Board of Education v. Tom F.,GovernmentAgency_left.csv,title,New York City Board of Education,0.578
+Case_left.csv,title,Nollan v. California Coastal Commission,GovernmentAgency_left.csv,title,California Coastal Commission,0.578
+Case_left.csv,title,Oklahoma v. United States Civil Service Commission,GovernmentAgency_left.csv,title,State Services Commission,0.578
+Case_left.csv,title,"Oregon Waste Systems, Inc. v. Department of Environmental Quality of Oregon",GovernmentAgency_left.csv,title,Oregon Department of Environmental Quality,0.578
+Case_left.csv,title,Massachusetts v. Environmental Protection Agency,GovernmentAgency_left.csv,title,California Environmental Protection Agency,0.578
+Case_left.csv,title,Posadas de Puerto Rico Associates v. Tourism Company of Puerto Rico,GovernmentAgency_left.csv,title,Puerto Rico Tourism Company,0.578
+Case_left.csv,title,New York State Board of Elections v. Lopez Torres,GovernmentAgency_left.csv,title,New York State Board of Elections,0.578
+Case_left.csv,title,NASA v. Nelson,GovernmentAgency_left.csv,title,NASA,0.578
+Case_left.csv,title,Oklahoma Tax Commission v. United States,GovernmentAgency_left.csv,title,Oklahoma Tax Commission,0.578
+Case_left.csv,title,Massachusetts v. Environmental Protection Agency,GovernmentAgency_left.csv,title,Ohio Environmental Protection Agency,0.578
+Case_left.csv,title,Massachusetts v. Environmental Protection Agency,GovernmentAgency_left.csv,title,Regional Environmental Protection Agency,0.578
+Case_left.csv,title,Texas Department of Community Affairs v. Burdine,GovernmentAgency_left.csv,title,Department of Communities,0.578

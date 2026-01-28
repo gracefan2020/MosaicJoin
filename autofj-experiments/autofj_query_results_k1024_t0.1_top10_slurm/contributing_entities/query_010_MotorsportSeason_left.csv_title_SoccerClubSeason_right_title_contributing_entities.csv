@@ -1,0 +1,52 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+MotorsportSeason_left.csv,title,1998 efda nations cup,SoccerClubSeason_right,title,1998 australia national soccer team season,0.7686508893966675
+MotorsportSeason_left.csv,title,2011 plfa season,SoccerClubSeason_right,title,2011 orlando city sc season,0.7498707175254822
+MotorsportSeason_left.csv,title,2011 jk racing asia series season,SoccerClubSeason_right,title,2011 jeonbuk hyundai motors fc season,0.7449033260345459
+MotorsportSeason_left.csv,title,2012 plfa season,SoccerClubSeason_right,title,2012 kuala lumpur fa season,0.7403693199157715
+MotorsportSeason_left.csv,title,2011 eurocup clio season,SoccerClubSeason_right,title,2003 cienciano season,0.7376916408538818
+MotorsportSeason_left.csv,title,1996 efda nations cup,SoccerClubSeason_right,title,1996 australia national soccer team season,0.7339574694633484
+MotorsportSeason_left.csv,title,2010 formula d season,SoccerClubSeason_right,title,2010 jeonbuk hyundai motors fc season,0.7215064764022827
+MotorsportSeason_left.csv,title,2009 plfa season,SoccerClubSeason_right,title,2012 jeju united fc season,0.7187561988830566
+MotorsportSeason_left.csv,title,2012 formula d season,SoccerClubSeason_right,title,2012 jeonbuk hyundai motors fc season,0.7087035775184631
+MotorsportSeason_left.csv,title,2012 h1 unlimited season,SoccerClubSeason_right,title,2012 jeonnam dragons season,0.7067898511886597
+MotorsportSeason_left.csv,title,2009 h1 unlimited season,SoccerClubSeason_right,title,2011 jeonnam dragons season,0.7006682753562927
+MotorsportSeason_left.csv,title,2008 plfa season,SoccerClubSeason_right,title,2008 australia national soccer team season,0.7002727389335632
+MotorsportSeason_left.csv,title,2006 plfa season,SoccerClubSeason_right,title,2012 orlando city sc season,0.6971027851104736
+MotorsportSeason_left.csv,title,2000 sports racing world cup season,SoccerClubSeason_right,title,2000 australia national soccer team season,0.6934753656387329
+MotorsportSeason_left.csv,title,2007 plfa season,SoccerClubSeason_right,title,2007 australia national soccer team season,0.6917711496353149
+MotorsportSeason_left.csv,title,1993 efda nations cup,SoccerClubSeason_right,title,1999 australia national soccer team season,0.6839482188224792
+MotorsportSeason_left.csv,title,2010 h1 unlimited season,SoccerClubSeason_right,title,2012 daejeon citizen fc season,0.6699560880661011
+MotorsportSeason_left.csv,title,1995 efda nations cup,SoccerClubSeason_right,title,1997 australia national soccer team season,0.662634015083313
+MotorsportSeason_left.csv,title,1992 efda nations cup,SoccerClubSeason_right,title,2001 australia national soccer team season,0.6625332832336426
+MotorsportSeason_left.csv,title,2011 trofeo linea brasil season,SoccerClubSeason_right,title,2011 australia national soccer team season,0.6554800271987915
+MotorsportSeason_left.csv,title,2002 australian formula 3 championship,SoccerClubSeason_right,title,2002 australia national soccer team season,0.6415059566497803
+MotorsportSeason_left.csv,title,2003 australian carrera cup championship,SoccerClubSeason_right,title,2003 australia national soccer team season,0.6239359974861145
+MotorsportSeason_left.csv,title,2009 speedway ekstraliga,SoccerClubSeason_right,title,2009 helsingin jalkapalloklubi season,0.6231574416160583
+MotorsportSeason_left.csv,title,2010 gt brasil season,SoccerClubSeason_right,title,2010 australia national soccer team season,0.6180726289749146
+MotorsportSeason_left.csv,title,2000 european super touring cup season,SoccerClubSeason_right,title,2010 woodlands wellington fc season,0.6175979375839233
+MotorsportSeason_left.csv,title,2005 australian drivers' championship,SoccerClubSeason_right,title,2005 australia national soccer team season,0.616310715675354
+MotorsportSeason_left.csv,title,2009 australian drivers' championship,SoccerClubSeason_right,title,2009 australia national soccer team season,0.6154659986495972
+MotorsportSeason_left.csv,title,2011 superleague formula season,SoccerClubSeason_right,title,2011 down football season,0.6154325008392334
+MotorsportSeason_left.csv,title,2011 gt4 european cup season,SoccerClubSeason_right,title,2011 incheon united fc season,0.6151549816131592
+MotorsportSeason_left.csv,title,2006 australian carrera cup championship,SoccerClubSeason_right,title,2006 australia national soccer team season,0.6108044981956482
+MotorsportSeason_left.csv,title,2004 australian gt performance car championship,SoccerClubSeason_right,title,2004 australia national soccer team season,0.6086684465408325
+MotorsportSeason_left.csv,title,2012 copa fiat brasil season,SoccerClubSeason_right,title,2012 australia national soccer team season,0.6048696041107178
+MotorsportSeason_left.csv,title,2013 campeonato brasileiro de turismo season,SoccerClubSeason_right,title,2013 negeri sembilan fa season,0.6027271151542664
+MotorsportSeason_left.csv,title,2009 superleague formula season,SoccerClubSeason_right,title,2009 down football season,0.5990622043609619
+MotorsportSeason_left.csv,title,2013 british gt season,SoccerClubSeason_right,title,2013 woodlands wellington fc season,0.5982009172439575
+MotorsportSeason_left.csv,title,2013 new zealand v8 season,SoccerClubSeason_right,title,2012 woodlands wellington fc season,0.5964717864990234
+MotorsportSeason_left.csv,title,2011 gp2 series season,SoccerClubSeason_right,title,2011 daejeon citizen fc season,0.5955471396446228
+MotorsportSeason_left.csv,title,2009 gt4 european cup season,SoccerClubSeason_right,title,2011 woodlands wellington fc season,0.5942810773849487
+MotorsportSeason_left.csv,title,2003 world series lights season,SoccerClubSeason_right,title,2013 orlando city sc season,0.5828919410705566
+MotorsportSeason_left.csv,title,2013 australian carrera cup championship,SoccerClubSeason_right,title,2013 australia national soccer team season,0.5828831791877747
+MotorsportSeason_left.csv,title,2009 pickup truck racing season,SoccerClubSeason_right,title,2013 carolina railhawks season,0.5699301362037659
+MotorsportSeason_left.csv,title,2011 imsa prototype lites season,SoccerClubSeason_right,title,2013 incheon united fc season,0.5690944194793701
+MotorsportSeason_left.csv,title,2013 gp3 series season,SoccerClubSeason_right,title,2013 down football season,0.5504996180534363
+MotorsportSeason_left.csv,title,2012 gp2 series season,SoccerClubSeason_right,title,2012 down football season,0.5442125797271729
+MotorsportSeason_left.csv,title,2012 international gt open season,SoccerClubSeason_right,title,2012 incheon united fc season,0.5424135327339172
+MotorsportSeason_left.csv,title,2010 v8 supercar season,SoccerClubSeason_right,title,2010 down football season,0.534960150718689
+MotorsportSeason_left.csv,title,1990 efda nations cup,SoccerClubSeason_right,title,2010 down gaa senior football,0.5246644616127014
+MotorsportSeason_left.csv,title,1991 efda nations cup,SoccerClubSeason_right,title,2011 down gaa senior football,0.5207037329673767
+MotorsportSeason_left.csv,title,2008 superleague formula season,SoccerClubSeason_right,title,derry football season 2008,0.498516321182251
+MotorsportSeason_left.csv,title,2009 v8 supercar season,SoccerClubSeason_right,title,derry football season 2009,0.48241665959358215
+MotorsportSeason_left.csv,title,2010 imsa prototype lites season,SoccerClubSeason_right,title,derry football season 2010,0.46875685453414917

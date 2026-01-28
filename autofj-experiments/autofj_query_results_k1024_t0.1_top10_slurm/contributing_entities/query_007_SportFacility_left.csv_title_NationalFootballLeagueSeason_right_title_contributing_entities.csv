@@ -1,0 +1,11 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SportFacility_left.csv,title,yankee stadium (1923),NationalFootballLeagueSeason_right,title,1921 detroit tigers season (nfl),0.6241824626922607
+SportFacility_left.csv,title,alcazar stadium,NationalFootballLeagueSeason_right,title,2003 fc barcelona dragons season,0.5972376465797424
+SportFacility_left.csv,title,celtic park,NationalFootballLeagueSeason_right,title,2002 fc barcelona dragons season,0.5903201103210449
+SportFacility_left.csv,title,varsity field (albany baseball),NationalFootballLeagueSeason_right,title,1900 homestead library & athletic club football season,0.5892225503921509
+SportFacility_left.csv,title,sonny pittaro field,NationalFootballLeagueSeason_right,title,1911 canton professionals season,0.5567829012870789
+SportFacility_left.csv,title,cawley memorial stadium,NationalFootballLeagueSeason_right,title,1905 canton athletic club season,0.5563524961471558
+SportFacility_left.csv,title,husky field,NationalFootballLeagueSeason_right,title,1996 minnesota fighting pike season,0.547966480255127
+SportFacility_left.csv,title,parker field (richmond),NationalFootballLeagueSeason_right,title,1914 canton professionals season,0.5426366925239563
+SportFacility_left.csv,title,campbell field (colorado),NationalFootballLeagueSeason_right,title,1913 canton professionals season,0.5390465259552002
+SportFacility_left.csv,title,ernest pohl stadium,NationalFootballLeagueSeason_right,title,1912 canton professionals season,0.5267561078071594

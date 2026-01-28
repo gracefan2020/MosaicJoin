@@ -1,0 +1,9 @@
+{
+  "table_name": "HistoricBuilding_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 512,
+  "sketch_k": 512,
+  "processing_time": 0.2790861129760742,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/HistoricBuilding_right/title_1.npz"
+}

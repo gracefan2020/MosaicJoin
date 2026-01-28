@@ -1,0 +1,52 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NationalFootballLeagueSeason_left.csv,title,2011 orlando predators season,SoccerClubSeason_right,title,2011 orlando city sc season,0.8064426183700562
+NationalFootballLeagueSeason_left.csv,title,2012 saskatchewan roughriders season,SoccerClubSeason_right,title,2013 carolina railhawks season,0.7961249351501465
+NationalFootballLeagueSeason_left.csv,title,2006 orlando predators season,SoccerClubSeason_right,title,2013 orlando city sc season,0.7820013165473938
+NationalFootballLeagueSeason_left.csv,title,2011 new orleans saints season,SoccerClubSeason_right,title,2011 down football season,0.766895055770874
+NationalFootballLeagueSeason_left.csv,title,2010 jacksonville jaguars season,SoccerClubSeason_right,title,2010 down football season,0.7484822869300842
+NationalFootballLeagueSeason_left.csv,title,2009 tennessee titans season,SoccerClubSeason_right,title,2009 down football season,0.7481640577316284
+NationalFootballLeagueSeason_left.csv,title,2013 jacksonville jaguars season,SoccerClubSeason_right,title,2013 down football season,0.747737467288971
+NationalFootballLeagueSeason_left.csv,title,2012 atlanta falcons season,SoccerClubSeason_right,title,2012 down football season,0.725296139717102
+NationalFootballLeagueSeason_left.csv,title,2002 ottawa renegades season,SoccerClubSeason_right,title,2012 orlando city sc season,0.7197878360748291
+NationalFootballLeagueSeason_left.csv,title,1997 frankfurt galaxy season,SoccerClubSeason_right,title,1997 australia national soccer team season,0.7142406702041626
+NationalFootballLeagueSeason_left.csv,title,1996 barcelona dragons season,SoccerClubSeason_right,title,2003 cienciano season,0.7121076583862305
+NationalFootballLeagueSeason_left.csv,title,1998 frankfurt galaxy season,SoccerClubSeason_right,title,1998 australia national soccer team season,0.709338903427124
+NationalFootballLeagueSeason_left.csv,title,2011 jacksonville jaguars season,SoccerClubSeason_right,title,2011 jeonnam dragons season,0.6953494548797607
+NationalFootballLeagueSeason_left.csv,title,1999 barcelona dragons season,SoccerClubSeason_right,title,1999 australia national soccer team season,0.6912112236022949
+NationalFootballLeagueSeason_left.csv,title,2001 frankfurt galaxy season,SoccerClubSeason_right,title,2001 australia national soccer team season,0.6870441436767578
+NationalFootballLeagueSeason_left.csv,title,2004 frankfurt galaxy season,SoccerClubSeason_right,title,2004 australia national soccer team season,0.6847023963928223
+NationalFootballLeagueSeason_left.csv,title,2011 canton cougars season,SoccerClubSeason_right,title,2010 woodlands wellington fc season,0.6812467575073242
+NationalFootballLeagueSeason_left.csv,title,2011 hamilton tiger-cats season,SoccerClubSeason_right,title,2011 woodlands wellington fc season,0.6705564260482788
+NationalFootballLeagueSeason_left.csv,title,2002 toronto argonauts season,SoccerClubSeason_right,title,2002 australia national soccer team season,0.6500658988952637
+NationalFootballLeagueSeason_left.csv,title,2004 hamilton tiger-cats season,SoccerClubSeason_right,title,2012 woodlands wellington fc season,0.643823504447937
+NationalFootballLeagueSeason_left.csv,title,2013 toronto argonauts season,SoccerClubSeason_right,title,2013 woodlands wellington fc season,0.6435922384262085
+NationalFootballLeagueSeason_left.csv,title,2011 georgia force season,SoccerClubSeason_right,title,2012 jeju united fc season,0.6429793834686279
+NationalFootballLeagueSeason_left.csv,title,2001 amsterdam admirals season,SoccerClubSeason_right,title,2009 helsingin jalkapalloklubi season,0.6366985440254211
+NationalFootballLeagueSeason_left.csv,title,2003 ottawa renegades season,SoccerClubSeason_right,title,2003 australia national soccer team season,0.6348957419395447
+NationalFootballLeagueSeason_left.csv,title,2012 marion blue racers season,SoccerClubSeason_right,title,2012 jeonbuk hyundai motors fc season,0.6341042518615723
+NationalFootballLeagueSeason_left.csv,title,2012 san antonio talons season,SoccerClubSeason_right,title,2012 jeonnam dragons season,0.6337156295776367
+NationalFootballLeagueSeason_left.csv,title,2002 amsterdam admirals season,SoccerClubSeason_right,title,2011 incheon united fc season,0.6325627565383911
+NationalFootballLeagueSeason_left.csv,title,1996 london monarchs season,SoccerClubSeason_right,title,2012 kuala lumpur fa season,0.6308790445327759
+NationalFootballLeagueSeason_left.csv,title,2009 bc lions season,SoccerClubSeason_right,title,derry football season 2009,0.6285922527313232
+NationalFootballLeagueSeason_left.csv,title,1996 toronto argonauts season,SoccerClubSeason_right,title,1996 australia national soccer team season,0.6284171342849731
+NationalFootballLeagueSeason_left.csv,title,2005 ottawa renegades season,SoccerClubSeason_right,title,2005 australia national soccer team season,0.6281826496124268
+NationalFootballLeagueSeason_left.csv,title,2013 marion blue racers season,SoccerClubSeason_right,title,2011 jeonbuk hyundai motors fc season,0.6252437829971313
+NationalFootballLeagueSeason_left.csv,title,2007 bc lions season,SoccerClubSeason_right,title,derry football season 2010,0.6222892999649048
+NationalFootballLeagueSeason_left.csv,title,2006 amsterdam admirals season,SoccerClubSeason_right,title,2013 incheon united fc season,0.621239423751831
+NationalFootballLeagueSeason_left.csv,title,2005 cologne centurions season,SoccerClubSeason_right,title,2011 daejeon citizen fc season,0.6205880641937256
+NationalFootballLeagueSeason_left.csv,title,2000 calgary stampeders season,SoccerClubSeason_right,title,2000 australia national soccer team season,0.6152553558349609
+NationalFootballLeagueSeason_left.csv,title,2012 indianapolis enforcers season,SoccerClubSeason_right,title,2012 incheon united fc season,0.6116431355476379
+NationalFootballLeagueSeason_left.csv,title,2010 edmonton eskimos season,SoccerClubSeason_right,title,2010 australia national soccer team season,0.6115778684616089
+NationalFootballLeagueSeason_left.csv,title,2007 cologne centurions season,SoccerClubSeason_right,title,2012 daejeon citizen fc season,0.6106798648834229
+NationalFootballLeagueSeason_left.csv,title,2009 calgary stampeders season,SoccerClubSeason_right,title,2009 australia national soccer team season,0.6044647097587585
+NationalFootballLeagueSeason_left.csv,title,2008 toronto argonauts season,SoccerClubSeason_right,title,2008 australia national soccer team season,0.6030765771865845
+NationalFootballLeagueSeason_left.csv,title,2007 georgia force season,SoccerClubSeason_right,title,2013 negeri sembilan fa season,0.5984383821487427
+NationalFootballLeagueSeason_left.csv,title,2009 jacksonville jaguars season,SoccerClubSeason_right,title,2010 jeonbuk hyundai motors fc season,0.597376823425293
+NationalFootballLeagueSeason_left.csv,title,2011 calgary stampeders season,SoccerClubSeason_right,title,2011 australia national soccer team season,0.5926030874252319
+NationalFootballLeagueSeason_left.csv,title,2007 kansas city brigade season,SoccerClubSeason_right,title,derry football season 2008,0.5893523097038269
+NationalFootballLeagueSeason_left.csv,title,2002 saskatchewan roughriders season,SoccerClubSeason_right,title,2012 australia national soccer team season,0.5806719064712524
+NationalFootballLeagueSeason_left.csv,title,1930 portsmouth spartans season,SoccerClubSeason_right,title,2010 down gaa senior football,0.5806201696395874
+NationalFootballLeagueSeason_left.csv,title,1998 england monarchs season,SoccerClubSeason_right,title,2011 down gaa senior football,0.574804425239563
+NationalFootballLeagueSeason_left.csv,title,2005 toronto argonauts season,SoccerClubSeason_right,title,2007 australia national soccer team season,0.5661906003952026
+NationalFootballLeagueSeason_left.csv,title,2004 saskatchewan roughriders season,SoccerClubSeason_right,title,2006 australia national soccer team season,0.5609262585639954
+NationalFootballLeagueSeason_left.csv,title,2003 toronto argonauts season,SoccerClubSeason_right,title,2013 australia national soccer team season,0.5593847036361694

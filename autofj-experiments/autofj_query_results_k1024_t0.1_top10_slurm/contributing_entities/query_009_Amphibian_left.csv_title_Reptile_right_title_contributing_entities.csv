@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Amphibian_left.csv,title,sphaenorhynchus planicola,Reptile_right,title,sphaerodactylus elegantulus,0.895745038986206
+Amphibian_left.csv,title,gracixalus carinensis,Reptile_right,title,graciliscincus,0.8885602951049805
+Amphibian_left.csv,title,sphaenorhynchus palustris,Reptile_right,title,sphaerodactylus klauberi,0.8866665959358215
+Amphibian_left.csv,title,chiromantis kelleri,Reptile_right,title,chilabothrus chrysogaster,0.8773417472839355
+Amphibian_left.csv,title,leptobrachium xanthospilum,Reptile_right,title,leptodeira annulata,0.867026150226593
+Amphibian_left.csv,title,plectrohyla robertsorum,Reptile_right,title,platyceps rhodorachis,0.8518456220626831
+Amphibian_left.csv,title,aglyptodactylus madagascariensis,Reptile_right,title,acrantophis madagascariensis,0.8511624336242676
+Amphibian_left.csv,title,xenophrys wuliangshanensis,Reptile_right,title,xenochrophis vittatus,0.84065842628479
+Amphibian_left.csv,title,craugastor azueroensis,Reptile_right,title,crocodylus novaeguineae,0.8372534513473511
+Amphibian_left.csv,title,rhacophorus rhodopus,Reptile_right,title,rhamphiophis oxyrhynchus,0.829902172088623
+Amphibian_left.csv,title,afrixalus weidholzi,Reptile_right,title,acrantophis dumerili,0.8250216245651245
+Amphibian_left.csv,title,chirixalus punctatus,Reptile_right,title,chilabothrus angulifer,0.8205530643463135
+Amphibian_left.csv,title,rhacophorus poecilonotus,Reptile_right,title,ctenophorus reticulatus,0.8189071416854858
+Amphibian_left.csv,title,panchetosaurus,Reptile_right,title,panamint alligator lizard,0.8132906556129456
+Amphibian_left.csv,title,litoria platycephala,Reptile_right,title,lampropeltis pyromelana knoblochi,0.8092492818832397
+Amphibian_left.csv,title,callulops boettgeri,Reptile_right,title,calliophis bivirgata,0.8067724704742432
+Amphibian_left.csv,title,stanocephalosaurus,Reptile_right,title,schillerosaurus,0.8055557012557983
+Amphibian_left.csv,title,texas salamander,Reptile_right,title,texas alligator lizard,0.8029209971427917
+Amphibian_left.csv,title,eleutherodactylus angustidigitorum,Reptile_right,title,emydura macquarii,0.801020622253418
+Amphibian_left.csv,title,laurentophryne parkeri,Reptile_right,title,phelsuma parkeri,0.7976152896881104
+Amphibian_left.csv,title,hyloscirtus tapichalaca,Reptile_right,title,homopholis mulleri,0.7925374507904053
+Amphibian_left.csv,title,xenohyla truncata,Reptile_right,title,xenochrophis cerasogaster,0.7923740148544312
+Amphibian_left.csv,title,scinax crospedospilus,Reptile_right,title,scincopus,0.7923223376274109
+Amphibian_left.csv,title,scinax rizibilis,Reptile_right,title,scincella sikimensis,0.7914597988128662
+Amphibian_left.csv,title,dyscophus guineti,Reptile_right,title,conolophus pallidus,0.7914090156555176
+Amphibian_left.csv,title,megastomatohyla pellita,Reptile_right,title,megatyphlops anomalus,0.7888298034667969
+Amphibian_left.csv,title,hymenochirus boettgeri,Reptile_right,title,hemidactylus mindiae,0.7879018783569336
+Amphibian_left.csv,title,albericus variegatus,Reptile_right,title,varanus macraei,0.7874008417129517
+Amphibian_left.csv,title,hyloscirtus sarampiona,Reptile_right,title,hydrophis gracilis,0.7856987714767456
+Amphibian_left.csv,title,theloderma stellatum,Reptile_right,title,heloderma charlesbogerti,0.7854869961738586
+Amphibian_left.csv,title,liophryne rhododactyla,Reptile_right,title,lycodonomorphus rufulus,0.7848174571990967
+Amphibian_left.csv,title,caecilia armata,Reptile_right,title,calamaria pavimentata,0.7846366167068481
+Amphibian_left.csv,title,ansonia siamensis,Reptile_right,title,daboia siamensis,0.7837713956832886
+Amphibian_left.csv,title,litoria rostandi,Reptile_right,title,lacerta laevis,0.782524824142456
+Amphibian_left.csv,title,isthmohyla xanthosticta,Reptile_right,title,xenochrophis sanctijohannis,0.7824183702468872
+Amphibian_left.csv,title,rhacophorus bifasciatus,Reptile_right,title,rhadinophis prasinus,0.7820574045181274
+Amphibian_left.csv,title,cochranella adiazeta,Reptile_right,title,lacerta cyanisparsa,0.7819452285766602
+Amphibian_left.csv,title,afrixalus osorioi,Reptile_right,title,anolis bimaculatus,0.781317949295044
+Amphibian_left.csv,title,crotaphatrema tchabalmbaboensis,Reptile_right,title,crotaphytus reticulatus,0.7782649993896484
+Amphibian_left.csv,title,hyloscirtus princecharlesi,Reptile_right,title,helicops angulatus,0.7774683237075806
+Amphibian_left.csv,title,cameroon clawed frog,Reptile_right,title,cameroon rainforest snake,0.7768929600715637
+Amphibian_left.csv,title,proceratophrys avelinoi,Reptile_right,title,triceratolepidophis,0.7766871452331543
+Amphibian_left.csv,title,rotaurisaurus,Reptile_right,title,acanthosaura,0.775881826877594
+Amphibian_left.csv,title,tasmanian tree frog,Reptile_right,title,tasmanian tree skink,0.7751089334487915
+Amphibian_left.csv,title,urocordylus,Reptile_right,title,uromastyx aegyptia,0.7737033367156982
+Amphibian_left.csv,title,xenorhina adisca,Reptile_right,title,xenochrophis flavipunctatus,0.773493766784668
+Amphibian_left.csv,title,siphonops hardyi,Reptile_right,title,tropidophorus grayi,0.771872878074646
+Amphibian_left.csv,title,kassina lamottei,Reptile_right,title,darevskia alpina,0.7709105014801025
+Amphibian_left.csv,title,iberian frog,Reptile_right,title,iberian rock lizard,0.7694772481918335
+Amphibian_left.csv,title,eleutherodactylus leprus,Reptile_right,title,elaphe gloydi,0.7691158056259155
+Amphibian_left.csv,title,heterixalus boettgeri,Reptile_right,title,homopus boulengeri,0.7690235376358032
+Amphibian_left.csv,title,southern giant salamander,Reptile_right,title,southern alligator lizard,0.7685583829879761
+Amphibian_left.csv,title,elachistocleis piauiensis,Reptile_right,title,amphiesma stolatum,0.7665420770645142
+Amphibian_left.csv,title,african clawed frog,Reptile_right,title,east african spiny-tailed lizard,0.7659133672714233
+Amphibian_left.csv,title,platypelis milloti,Reptile_right,title,leiolopisma telfairii,0.7657880783081055
+Amphibian_left.csv,title,afrixalus morerei,Reptile_right,title,amastridium veliferum,0.7657707929611206
+Amphibian_left.csv,title,oedipina stenopodia,Reptile_right,title,stenocercus fimbriatus,0.7652490139007568
+Amphibian_left.csv,title,physalaemus aguirrei,Reptile_right,title,anolis griseus,0.7650212049484253
+Amphibian_left.csv,title,platypelis barbouri,Reptile_right,title,plestiodon laticeps,0.763053834438324
+Amphibian_left.csv,title,aglyptodactylus laticeps,Reptile_right,title,lycodon rufozonatus,0.7629380226135254
+Amphibian_left.csv,title,cerro pando salamander,Reptile_right,title,roque chico de salmor giant lizard,0.7627320289611816
+Amphibian_left.csv,title,mexican climbing salamander,Reptile_right,title,mexican horned lizard,0.7615824937820435
+Amphibian_left.csv,title,monte escondido salamander,Reptile_right,title,monte cristo arboreal alligator lizard,0.761422336101532
+Amphibian_left.csv,title,long-snouted frog,Reptile_right,title,pygmy short-horned lizard,0.761021077632904
+Amphibian_left.csv,title,balkan frog,Reptile_right,title,balkan green lizard,0.7608054876327515
+Amphibian_left.csv,title,allobates femoralis,Reptile_right,title,homopus femoralis,0.7607448101043701
+Amphibian_left.csv,title,cape mountain toad,Reptile_right,title,cape flat lizard,0.7598709464073181
+Amphibian_left.csv,title,oreophryne anulata,Reptile_right,title,anolis distichus,0.7598550319671631
+Amphibian_left.csv,title,afrixalus leucostictus,Reptile_right,title,atractus crassicaudatus,0.7596688270568848
+Amphibian_left.csv,title,colostethus ramirezi,Reptile_right,title,chelonoidis nigra abingdoni,0.7570200562477112
+Amphibian_left.csv,title,caecilia abitaguae,Reptile_right,title,acontias rieppeli,0.7567973136901855
+Amphibian_left.csv,title,phrynobatrachus gutturosus,Reptile_right,title,lamprophis guttatus,0.7549231052398682
+Amphibian_left.csv,title,tupilakosaurus,Reptile_right,title,platysaurus torquatus,0.7546006441116333
+Amphibian_left.csv,title,heterixalus betsileo,Reptile_right,title,bachia heteropa,0.7537840008735657
+Amphibian_left.csv,title,plethodontohyla coronata,Reptile_right,title,plestiodon tetragrammus,0.7535427808761597
+Amphibian_left.csv,title,osornophryne puruanta,Reptile_right,title,phelsuma sundbergi,0.753509521484375
+Amphibian_left.csv,title,cape river frog,Reptile_right,title,cape grass lizard,0.7530379295349121
+Amphibian_left.csv,title,arthroleptis mossoensis,Reptile_right,title,atractaspidinae,0.7516229152679443
+Amphibian_left.csv,title,oaxacan climbing salamander,Reptile_right,title,oaxacan coral snake,0.7511551380157471
+Amphibian_left.csv,title,oxydactyla brevicrus,Reptile_right,title,oligodon arnensis,0.750281035900116
+Amphibian_left.csv,title,heterixalus rutenbergi,Reptile_right,title,trimeresurus rubeus,0.7499195337295532
+Amphibian_left.csv,title,paradactylodon,Reptile_right,title,pararhadinaea,0.7498669028282166
+Amphibian_left.csv,title,hyloscirtus phyllognathus,Reptile_right,title,coelognathus helena monticollaris,0.7495126724243164
+Amphibian_left.csv,title,isthmohyla rivularis,Reptile_right,title,hydrophis mamillaris,0.7485948204994202
+Amphibian_left.csv,title,southern crested newt,Reptile_right,title,abbott's crested lizard,0.7481502294540405
+Amphibian_left.csv,title,dunn's climbing salamander,Reptile_right,title,dunn's spinytail lizard,0.7481339573860168
+Amphibian_left.csv,title,rhombophryne laevipes,Reptile_right,title,hydrophis viperinus,0.7478922605514526
+Amphibian_left.csv,title,striped newt,Reptile_right,title,striped whipsnake,0.7473848462104797
+Amphibian_left.csv,title,atelopus spumarius,Reptile_right,title,spondylurus powelli,0.7472125291824341
+Amphibian_left.csv,title,plectrohyla chrysopleura,Reptile_right,title,tropidoclonion lineatum texanum,0.7471997737884521
+Amphibian_left.csv,title,cochranella spiculata,Reptile_right,title,woodworthia maculatus,0.7470414638519287
+Amphibian_left.csv,title,phasmahyla spectabilis,Reptile_right,title,psammophis schokari,0.7454457879066467
+Amphibian_left.csv,title,smilisca sordida,Reptile_right,title,saproscincus spectabilis,0.744808554649353
+Amphibian_left.csv,title,caecilia gracilis,Reptile_right,title,caimanops amphiboluroides,0.7438218593597412
+Amphibian_left.csv,title,sicilian green toad,Reptile_right,title,sicilian wall lizard,0.7436947822570801
+Amphibian_left.csv,title,saddleback toad,Reptile_right,title,roundtail horned lizard,0.7433292865753174
+Amphibian_left.csv,title,florida bog frog,Reptile_right,title,florida scrub lizard,0.7427515983581543
+Amphibian_left.csv,title,caecilia caribea,Reptile_right,title,chelodina rugosa,0.7418012619018555
+Amphibian_left.csv,title,blommersia grandisonae,Reptile_right,title,blythia reticulata,0.7404646873474121
+Amphibian_left.csv,title,northern barred frog,Reptile_right,title,northern alligator lizard,0.7402958869934082
+Amphibian_left.csv,title,xenorhina eiponis,Reptile_right,title,xenochrophis piscator,0.7402513027191162
+Amphibian_left.csv,title,pelophryne lighti,Reptile_right,title,lycophidion capense,0.7395100593566895
+Amphibian_left.csv,title,nymphargus anomalus,Reptile_right,title,afrotyphlops anomalus,0.7392303943634033
+Amphibian_left.csv,title,blanco river springs salamander,Reptile_right,title,gulf coast horned lizard,0.7391061186790466
+Amphibian_left.csv,title,desert tree frog,Reptile_right,title,northern desert horned lizard,0.7390419244766235
+Amphibian_left.csv,title,melosaurus,Reptile_right,title,chlamydosaurus,0.7384257316589355
+Amphibian_left.csv,title,dwarf climbing salamander,Reptile_right,title,dwarf flat lizard,0.7384058237075806
+Amphibian_left.csv,title,african dwarf frog,Reptile_right,title,zululand dwarf chameleon,0.7381076216697693
+Amphibian_left.csv,title,rhacophorus verrucopus,Reptile_right,title,ctenophorus ornatus,0.7380572557449341
+Amphibian_left.csv,title,scarlet harlequin toad,Reptile_right,title,scarlet kingsnake,0.7378507852554321
+Amphibian_left.csv,title,afrixalus wittei,Reptile_right,title,thamnophis proximus rubrilineatus,0.7357891798019409
+Amphibian_left.csv,title,atelopus muisca,Reptile_right,title,homopus solus,0.7350926399230957
+Amphibian_left.csv,title,hyloscirtus armatus,Reptile_right,title,homopus signatus,0.7342134714126587
+Amphibian_left.csv,title,atelopus planispina,Reptile_right,title,homopus areolatus,0.7333245873451233
+Amphibian_left.csv,title,osteocephalus subtilis,Reptile_right,title,plestiodon fasciatus,0.7326675653457642
+Amphibian_left.csv,title,plectrohyla hartwegi,Reptile_right,title,plestiodon multivirgatus,0.7312525510787964
+Amphibian_left.csv,title,physalaemus erikae,Reptile_right,title,emydura victoriae,0.7310804128646851
+Amphibian_left.csv,title,lowland leopard frog,Reptile_right,title,long-nosed leopard lizard,0.7309790849685669
+Amphibian_left.csv,title,regalerpeton,Reptile_right,title,regal horned lizard,0.7294617295265198
+Amphibian_left.csv,title,phyllomedusa tarsius,Reptile_right,title,tarentola mindiae,0.7289199829101562
+Amphibian_left.csv,title,caecilia marcusi,Reptile_right,title,nerodia fasciata,0.7287769317626953
+Amphibian_left.csv,title,tehachapi slender salamander,Reptile_right,title,short-tailed horned lizard,0.7287170886993408
+Amphibian_left.csv,title,largen's clawed frog,Reptile_right,title,giant horned lizard,0.7277907133102417
+Amphibian_left.csv,title,nymphargus megacheirus,Reptile_right,title,ornithocheirus bunzeli,0.7276243567466736
+Amphibian_left.csv,title,plectrohyla quecchi,Reptile_right,title,plica (lizard),0.727379322052002
+Amphibian_left.csv,title,afrixalus nigeriensis,Reptile_right,title,cordylus niger,0.7266499996185303
+Amphibian_left.csv,title,ptychohyla panchoi,Reptile_right,title,japalura variegata,0.7255632281303406
+Amphibian_left.csv,title,erythrobatrachus,Reptile_right,title,ameiva erythrocephala,0.7249611616134644
+Amphibian_left.csv,title,phyllodytes edelmoi,Reptile_right,title,dactyloidae,0.7245962023735046
+Amphibian_left.csv,title,black caecilian,Reptile_right,title,mexican black kingsnake,0.7244534492492676
+Amphibian_left.csv,title,ichthyophis glutinosus,Reptile_right,title,lamprophis abyssinicus,0.7232744097709656
+Amphibian_left.csv,title,montcellia,Reptile_right,title,montserrat galliwasp,0.7211382389068604
+Amphibian_left.csv,title,sequoyah slimy salamander,Reptile_right,title,sekukhune flat lizard,0.721003532409668
+Amphibian_left.csv,title,green big-eyed tree frog,Reptile_right,title,green water snake,0.720575213432312
+Amphibian_left.csv,title,hyperolius nasutus,Reptile_right,title,anolis lividus,0.7205386161804199
+Amphibian_left.csv,title,striped marsh frog,Reptile_right,title,striped swamp snake,0.7205038070678711
+Amphibian_left.csv,title,afrixalus upembae,Reptile_right,title,acontias breviceps,0.7199922204017639
+Amphibian_left.csv,title,cochranella punctulata,Reptile_right,title,morelia (genus),0.7193210124969482
+Amphibian_left.csv,title,phyllomedusa coelestis,Reptile_right,title,leiolopisma mauritiana,0.718599796295166
+Amphibian_left.csv,title,physalaemus erythros,Reptile_right,title,thamnophis rufipunctatus,0.7179787158966064
+Amphibian_left.csv,title,salado springs salamander,Reptile_right,title,armadillo lizard,0.7176008820533752
+Amphibian_left.csv,title,ringed salamander,Reptile_right,title,ringed spinytail iguana,0.7169903516769409
+Amphibian_left.csv,title,phasmahyla,Reptile_right,title,phelsuma dubia,0.7168675661087036
+Amphibian_left.csv,title,lyrocephaliscus,Reptile_right,title,lycodon gammiei,0.7162214517593384
+Amphibian_left.csv,title,brown river tree frog,Reptile_right,title,brown water snake,0.7159399390220642
+Amphibian_left.csv,title,aplastodiscus cavicola,Reptile_right,title,pantherophis vulpinus,0.7159320116043091
+Amphibian_left.csv,title,new mexico spadefoot toad,Reptile_right,title,baja california rat snake,0.7158880233764648
+Amphibian_left.csv,title,diceratosaurus,Reptile_right,title,mosor rock lizard,0.7152668237686157
+Amphibian_left.csv,title,scaphiophryne gottlebei,Reptile_right,title,elaphe schrenckii,0.7151395082473755
+Amphibian_left.csv,title,rio santa rosa salamander,Reptile_right,title,baja blue rock lizard,0.7143192291259766
+Amphibian_left.csv,title,bouchia clawed frog,Reptile_right,title,bahamian pygmy boa constrictor,0.7139554023742676
+Amphibian_left.csv,title,bashkirosaurus,Reptile_right,title,anatolian rock lizard,0.7132871747016907
+Amphibian_left.csv,title,zacapa salamander,Reptile_right,title,saara (lizard),0.7130348682403564
+Amphibian_left.csv,title,batrachosaurus,Reptile_right,title,aran rock lizard,0.7129682302474976
+Amphibian_left.csv,title,ecuadorian climbing salamander,Reptile_right,title,mexican plateau horned lizard,0.7128464579582214
+Amphibian_left.csv,title,chaunus arunco,Reptile_right,title,chapinophis,0.7127381563186646
+Amphibian_left.csv,title,hyperolius xenorhinus,Reptile_right,title,xenochrophis trianguligerus,0.7119714021682739
+Amphibian_left.csv,title,rough frog,Reptile_right,title,rough chameleon,0.7114259600639343
+Amphibian_left.csv,title,cheoah bald salamander,Reptile_right,title,horned wood lizard,0.7107893228530884
+Amphibian_left.csv,title,yellow-banded poison dart frog,Reptile_right,title,yellow-throated plated lizard,0.7099024653434753
+Amphibian_left.csv,title,albericus gunnari,Reptile_right,title,varanus kordensis,0.7096315622329712
+Amphibian_left.csv,title,corsican fire salamander,Reptile_right,title,weber's sailfin lizard,0.7090159058570862
+Amphibian_left.csv,title,southern banana salamander,Reptile_right,title,mozambique girdled lizard,0.7088408470153809
+Amphibian_left.csv,title,ptyonius,Reptile_right,title,palleon nasus,0.7084709405899048
+Amphibian_left.csv,title,south mountain gray-cheeked salamander,Reptile_right,title,blue-spotted wood lizard,0.7075600624084473
+Amphibian_left.csv,title,grandisonia alternans,Reptile_right,title,phelsuma grandis,0.7072415351867676
+Amphibian_left.csv,title,huia aureola,Reptile_right,title,sombrero ameiva,0.7069891691207886
+Amphibian_left.csv,title,phrynobatrachus sulfureogularis,Reptile_right,title,pantherophis obsoletus,0.7056876420974731
+Amphibian_left.csv,title,volcano clawed frog,Reptile_right,title,la palma giant lizard,0.7051874399185181
+Amphibian_left.csv,title,branchiosaurus,Reptile_right,title,dinodon septentrionalis,0.705022931098938
+Amphibian_left.csv,title,celaque climbing salamander,Reptile_right,title,angolan girdled lizard,0.7048202753067017
+Amphibian_left.csv,title,huanren frog,Reptile_right,title,chinese water snake,0.704535722732544
+Amphibian_left.csv,title,western slimy salamander,Reptile_right,title,western green lizard,0.7043806910514832
+Amphibian_left.csv,title,texas blind salamander,Reptile_right,title,texas brown snake,0.7038275003433228
+Amphibian_left.csv,title,cardioglossa schioetzi,Reptile_right,title,stoliczkia khasiensis,0.7028922438621521
+Amphibian_left.csv,title,trachycephalus coriaceus,Reptile_right,title,thamnophis sauritus septentrionalis,0.7028763890266418
+Amphibian_left.csv,title,doflein's salamander,Reptile_right,title,doumergue's fringe-fingered lizard,0.7026228904724121
+Amphibian_left.csv,title,red-bellied newt,Reptile_right,title,red-bellied black snake,0.7024917006492615
+Amphibian_left.csv,title,litoria flavescens,Reptile_right,title,nerodia fasciata pictiventris,0.7018435001373291
+Amphibian_left.csv,title,peltobatrachus,Reptile_right,title,poecilopholis,0.7016264200210571
+Amphibian_left.csv,title,pipidae,Reptile_right,title,borneo python,0.701024055480957
+Amphibian_left.csv,title,black-spotted newt,Reptile_right,title,black-striped snake,0.7000905275344849
+Amphibian_left.csv,title,gregarious slender salamander,Reptile_right,title,small forest lizard,0.7000302076339722
+Amphibian_left.csv,title,zatrachys,Reptile_right,title,tachygyia,0.699144721031189
+Amphibian_left.csv,title,channel islands slender salamander,Reptile_right,title,atlantic lizard,0.6985565423965454
+Amphibian_left.csv,title,caddo mountain salamander,Reptile_right,title,bronzeback snake-lizard,0.6974889039993286
+Amphibian_left.csv,title,treasury island tree frog,Reptile_right,title,island night lizard,0.6974013447761536
+Amphibian_left.csv,title,dendrotriton sanctibarbarus,Reptile_right,title,sanzinia madagascariensis,0.6971629858016968
+Amphibian_left.csv,title,saharastega,Reptile_right,title,desert kingsnake,0.6969757080078125
+Amphibian_left.csv,title,large-spined bell toad,Reptile_right,title,flat-tail horned lizard,0.6964610815048218
+Amphibian_left.csv,title,hyperolius ademetzi,Reptile_right,title,adelphicos daryi,0.6961845755577087
+Amphibian_left.csv,title,physalaemus centralis,Reptile_right,title,thamnophis proximus,0.6957659721374512
+Amphibian_left.csv,title,sacramento mountain salamander,Reptile_right,title,california kingsnake,0.6953514218330383
+Amphibian_left.csv,title,anodonthyla moramora,Reptile_right,title,marine iguana,0.6945386528968811
+Amphibian_left.csv,title,odonterpeton,Reptile_right,title,ocellated lizard,0.6940869688987732
+Amphibian_left.csv,title,oscaecilia equatorialis,Reptile_right,title,neotropical green anole,0.6934235095977783
+Amphibian_left.csv,title,trauna river tree frog,Reptile_right,title,western swamp tortoise,0.6932387948036194
+Amphibian_left.csv,title,striped burrowing frog,Reptile_right,title,striped legless lizard,0.6922121047973633
+Amphibian_left.csv,title,hyperolius raveni,Reptile_right,title,thamnophis marcianus,0.6915023922920227
+Amphibian_left.csv,title,serra cantareira saddleback toad,Reptile_right,title,navassa curly-tailed lizard,0.6912121772766113

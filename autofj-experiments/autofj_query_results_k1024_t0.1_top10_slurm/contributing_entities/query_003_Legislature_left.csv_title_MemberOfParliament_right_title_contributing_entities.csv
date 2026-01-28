@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Legislature_left.csv,title,house of commons of england,MemberOfParliament_right,title,charles howell (mp),0.7672113180160522
+Legislature_left.csv,title,northern ireland assembly,MemberOfParliament_right,title,david campbell (south belfast mp),0.7620269656181335
+Legislature_left.csv,title,legislative assembly of ontario,MemberOfParliament_right,title,william anderson (ontario mp),0.7619714140892029
+Legislature_left.csv,title,batasang bayan,MemberOfParliament_right,title,praba ganesan,0.7589612007141113
+Legislature_left.csv,title,legislative assembly of manitoba,MemberOfParliament_right,title,angus mckay (manitoba politician),0.7528770565986633
+Legislature_left.csv,title,senate of northern ireland,MemberOfParliament_right,title,william craig (northern ireland politician),0.7407562732696533
+Legislature_left.csv,title,dewan negara,MemberOfParliament_right,title,dharmadasa banda,0.7374138832092285
+Legislature_left.csv,title,tonbridge and malling borough council,MemberOfParliament_right,title,john stanley (tonbridge and malling mp),0.7300828695297241
+Legislature_left.csv,title,politburo of the communist party of china,MemberOfParliament_right,title,jian yang (politician),0.728568434715271
+Legislature_left.csv,title,parliament of scotland,MemberOfParliament_right,title,peter duncan (scottish politician),0.7257179021835327
+Legislature_left.csv,title,katipunan ng kabataan,MemberOfParliament_right,title,sam tan chin siong,0.7103248238563538
+Legislature_left.csv,title,australian senate,MemberOfParliament_right,title,richard abbott (australian politician),0.7095527648925781
+Legislature_left.csv,title,dewan rakyat,MemberOfParliament_right,title,ranjith madduma bandara,0.7076923847198486
+Legislature_left.csv,title,ipswich borough council,MemberOfParliament_right,title,robert jackson (ipswich mp),0.7045579552650452
+Legislature_left.csv,title,belfast city council,MemberOfParliament_right,title,william stewart (belfast south mp),0.701757550239563
+Legislature_left.csv,title,parliament of queensland,MemberOfParliament_right,title,james drake (queensland politician),0.6979764103889465
+Legislature_left.csv,title,parliament of canada,MemberOfParliament_right,title,gordon fraser (canadian politician),0.6954085826873779
+Legislature_left.csv,title,west sussex county council,MemberOfParliament_right,title,william bird (chichester mp),0.6849406957626343
+Legislature_left.csv,title,legislative assembly of british columbia,MemberOfParliament_right,title,john fraser (british columbia politician),0.6832268238067627
+Legislature_left.csv,title,tasmanian legislative council,MemberOfParliament_right,title,kevin cairns (politician),0.6809074282646179
+Legislature_left.csv,title,parliament of western australia,MemberOfParliament_right,title,charles graham (western australian politician),0.6800775527954102
+Legislature_left.csv,title,state council of ceylon,MemberOfParliament_right,title,n. srikantha,0.6787269115447998
+Legislature_left.csv,title,parliament of england,MemberOfParliament_right,title,john england (politician),0.6765573024749756
+Legislature_left.csv,title,vavuniya south tamil divisional council,MemberOfParliament_right,title,s. jeyanandamoorthy,0.675891101360321
+Legislature_left.csv,title,islington london borough council,MemberOfParliament_right,title,robert young (islington north mp),0.6726985573768616
+Legislature_left.csv,title,legislative council of newfoundland,MemberOfParliament_right,title,jack harris (newfoundland and labrador politician),0.6726770401000977
+Legislature_left.csv,title,punjab legislative assembly,MemberOfParliament_right,title,junaid ahmed palak,0.6723725199699402
+Legislature_left.csv,title,norfolk legislative assembly,MemberOfParliament_right,title,henry bellingham (norfolk mp),0.6720660328865051
+Legislature_left.csv,title,parliament of australia,MemberOfParliament_right,title,allan mcdonald (australian politician),0.6710677146911621
+Legislature_left.csv,title,french parliament,MemberOfParliament_right,title,pierre gauthier (politician),0.6695256233215332
+Legislature_left.csv,title,west berkshire council,MemberOfParliament_right,title,william robinson (walthamstow east mp),0.6674164533615112
+Legislature_left.csv,title,central bedfordshire council,MemberOfParliament_right,title,john stanley (mp for tonbridge and malling),0.6660444736480713
+Legislature_left.csv,title,leeds city council,MemberOfParliament_right,title,jack jones (rotherham mp),0.6657496690750122
+Legislature_left.csv,title,hampshire county council,MemberOfParliament_right,title,michael foster (worcester mp),0.6651620864868164
+Legislature_left.csv,title,nova scotia house of assembly,MemberOfParliament_right,title,james mcnulty (canadian mp),0.6650750637054443
+Legislature_left.csv,title,chavakachcheri divisional council,MemberOfParliament_right,title,perumal rajadurai,0.6633799076080322
+Legislature_left.csv,title,clare county council,MemberOfParliament_right,title,richard shaw (mp for burnley),0.6601009964942932
+Legislature_left.csv,title,irish house of commons,MemberOfParliament_right,title,denis murphy (uk politician),0.6586254835128784
+Legislature_left.csv,title,poole borough council,MemberOfParliament_right,title,cecil poole (politician),0.6548821330070496
+Legislature_left.csv,title,interim batasang pambansa,MemberOfParliament_right,title,p. b. g. kalugalla,0.6548055410385132
+Legislature_left.csv,title,house of commons of great britain,MemberOfParliament_right,title,charles howell (british politician),0.6547987461090088
+Legislature_left.csv,title,national assembly for wales,MemberOfParliament_right,title,stephen day (mp),0.6529881358146667
+Legislature_left.csv,title,legislative assembly of upper canada,MemberOfParliament_right,title,william anderson (canadian politician),0.6512218713760376
+Legislature_left.csv,title,parliament of great britain,MemberOfParliament_right,title,david james (british mp),0.6509414911270142
+Legislature_left.csv,title,house of councillors,MemberOfParliament_right,title,julian lewis (mp),0.6493761539459229
+Legislature_left.csv,title,27th alberta legislative assembly,MemberOfParliament_right,title,jim fraser (politician),0.6492327451705933
+Legislature_left.csv,title,sahrawi national council,MemberOfParliament_right,title,hussein ahamed bhaila,0.6489500999450684
+Legislature_left.csv,title,chamber of deputies (brazil),MemberOfParliament_right,title,mario silva (politician),0.6463299989700317
+Legislature_left.csv,title,valvettithurai urban council,MemberOfParliament_right,title,n. kumaraguruparan,0.6453031897544861
+Legislature_left.csv,title,australian house of representatives,MemberOfParliament_right,title,bob catley (australian politician),0.6402331590652466
+Legislature_left.csv,title,tamil nadu legislative assembly,MemberOfParliament_right,title,p. chandrasekaran,0.6397897601127625
+Legislature_left.csv,title,bradford city council,MemberOfParliament_right,title,michael foster (hastings and rye mp),0.6397340893745422
+Legislature_left.csv,title,parliament of sri lanka,MemberOfParliament_right,title,s. sritharan,0.6377153992652893
+Legislature_left.csv,title,parliament of tasmania,MemberOfParliament_right,title,thomas andrews (australian politician),0.6369751691818237
+Legislature_left.csv,title,coventry city council,MemberOfParliament_right,title,michael ward (uk politician),0.6365410089492798
+Legislature_left.csv,title,parliament of egypt,MemberOfParliament_right,title,mubarak mohammed muntaka,0.6363589763641357
+Legislature_left.csv,title,western australian legislative assembly,MemberOfParliament_right,title,gordon dean (australian politician),0.6336890459060669
+Legislature_left.csv,title,oireachtas,MemberOfParliament_right,title,ossie abeygunasekara,0.6324838995933533
+Legislature_left.csv,title,dublin city council,MemberOfParliament_right,title,david macgibbon (politician),0.6321477890014648
+Legislature_left.csv,title,london assembly,MemberOfParliament_right,title,john hall (labour politician),0.6311162710189819
+Legislature_left.csv,title,sejm of the estates,MemberOfParliament_right,title,william senior (politician),0.6299887895584106
+Legislature_left.csv,title,bath and north east somerset council,MemberOfParliament_right,title,william stewart (houghton-le-spring mp),0.6291384696960449
+Legislature_left.csv,title,northern provincial council,MemberOfParliament_right,title,don mcleod (politician),0.6284346580505371
+Legislature_left.csv,title,oireachtas of the irish free state,MemberOfParliament_right,title,thomas o'neill (canadian politician),0.6282878518104553
+Legislature_left.csv,title,solihull metropolitan borough council,MemberOfParliament_right,title,john taylor (solihull mp),0.6272324323654175
+Legislature_left.csv,title,shah alam city council,MemberOfParliament_right,title,zunaid ahmed palak,0.6265685558319092
+Legislature_left.csv,title,riksdag,MemberOfParliament_right,title,zainudin bin nordin,0.6265292167663574
+Legislature_left.csv,title,new zealand legislative council,MemberOfParliament_right,title,robert reid (new zealand politician),0.6243647933006287
+Legislature_left.csv,title,rajya sabha,MemberOfParliament_right,title,amarinder singh,0.6240062713623047
+Legislature_left.csv,title,victorian legislative assembly,MemberOfParliament_right,title,john arthur (australian politician),0.6236253976821899
+Legislature_left.csv,title,parliament of ireland,MemberOfParliament_right,title,john macdougall (uk politician),0.6226902008056641
+Legislature_left.csv,title,parliament of jamaica,MemberOfParliament_right,title,james johnson (uk politician),0.621484100818634
+Legislature_left.csv,title,victorian legislative council,MemberOfParliament_right,title,james bidgood (australian politician),0.6202110648155212
+Legislature_left.csv,title,hugglescote and donington le heath,MemberOfParliament_right,title,don mountjoy,0.6199488639831543
+Legislature_left.csv,title,new jersey senate,MemberOfParliament_right,title,harry webb (politician),0.6198291778564453
+Legislature_left.csv,title,chavakachcheri urban council,MemberOfParliament_right,title,a. chandranehru,0.6193283796310425
+Legislature_left.csv,title,tamil nadu legislative council,MemberOfParliament_right,title,s. kanagaratnam,0.6177290678024292
+Legislature_left.csv,title,national assembly (bahrain),MemberOfParliament_right,title,abdul jalil (bangladesh politician),0.6177136898040771
+Legislature_left.csv,title,parliament of malaysia,MemberOfParliament_right,title,khalid mahmood (british politician),0.6166641712188721
+Legislature_left.csv,title,wakefield metropolitan district council,MemberOfParliament_right,title,edward jerningham wakefield,0.6159735918045044
+Legislature_left.csv,title,north district council,MemberOfParliament_right,title,thomas richardson (labour party mp),0.6158912181854248
+Legislature_left.csv,title,house of commons of canada,MemberOfParliament_right,title,john fraser (uk politician),0.6157656311988831
+Legislature_left.csv,title,parliament of victoria,MemberOfParliament_right,title,george mudie (mp),0.6150099039077759
+Legislature_left.csv,title,legislative council of lower canada,MemberOfParliament_right,title,larry miller (canadian politician),0.6118812561035156
+Legislature_left.csv,title,carlow county council,MemberOfParliament_right,title,charles griffiths (politician),0.6111820936203003
+Legislature_left.csv,title,senate of the republic (italy),MemberOfParliament_right,title,luigi de magistris (politician),0.6111098527908325
+Legislature_left.csv,title,westminster city council,MemberOfParliament_right,title,peter richardson (politician),0.6106011271476746
+Legislature_left.csv,title,legislative council of new brunswick,MemberOfParliament_right,title,bob lane (canadian politician),0.6104665994644165
+Legislature_left.csv,title,nebraska legislature,MemberOfParliament_right,title,eric ogden (politician),0.6081774234771729
+Legislature_left.csv,title,new south wales legislative assembly,MemberOfParliament_right,title,peter breen (australian politician),0.6074298620223999
+Legislature_left.csv,title,rhode island senate,MemberOfParliament_right,title,len reynolds (politician),0.6067929267883301
+Legislature_left.csv,title,new jersey provincial council,MemberOfParliament_right,title,"david prior, baron prior of brampton",0.6063530445098877
+Legislature_left.csv,title,parliament of south australia,MemberOfParliament_right,title,andrew murray (australian politician),0.6059610843658447
+Legislature_left.csv,title,derbyshire county council,MemberOfParliament_right,title,william carter (mansfield mp),0.6046565771102905
+Legislature_left.csv,title,consultative assembly of saudi arabia,MemberOfParliament_right,title,abdel wahab qaid,0.6036523580551147
+Legislature_left.csv,title,north lincolnshire council,MemberOfParliament_right,title,john gorst (hendon north mp),0.603361964225769
+Legislature_left.csv,title,council for wales and monmouthshire,MemberOfParliament_right,title,david t c davies (welsh politician),0.6032623052597046
+Legislature_left.csv,title,parliament of the french community,MemberOfParliament_right,title,paul mercier (liberal mp),0.6020749807357788
+Legislature_left.csv,title,ballymena borough council,MemberOfParliament_right,title,david jones (clwyd west mp),0.6018569469451904
+Legislature_left.csv,title,legislative council of the isle of man,MemberOfParliament_right,title,geoffrey cox (british politician),0.6009390354156494
+Legislature_left.csv,title,wong tai sin district council,MemberOfParliament_right,title,lee siew choh,0.6007901430130005
+Legislature_left.csv,title,missouri senate,MemberOfParliament_right,title,shawn murphy (politician),0.5998353958129883
+Legislature_left.csv,title,michigan senate,MemberOfParliament_right,title,michael mcguire (politician),0.5996387600898743
+Legislature_left.csv,title,kwai tsing district council,MemberOfParliament_right,title,s. kishore,0.5991659760475159
+Legislature_left.csv,title,vermont senate,MemberOfParliament_right,title,william sanders (politician),0.599144697189331
+Legislature_left.csv,title,nottingham city council,MemberOfParliament_right,title,mike wood (labour politician),0.5975310206413269
+Legislature_left.csv,title,walloon parliament,MemberOfParliament_right,title,patrick buckley (new zealand politician),0.5971791744232178
+Legislature_left.csv,title,national assembly (afghanistan),MemberOfParliament_right,title,saifur rahman (politician),0.5965683460235596
+Legislature_left.csv,title,western australian legislative council,MemberOfParliament_right,title,david connolly (australian politician),0.5965304374694824
+Legislature_left.csv,title,karainagar divisional council,MemberOfParliament_right,title,s. kajendran,0.5957444906234741
+Legislature_left.csv,title,birmingham city council,MemberOfParliament_right,title,tony clarke (uk politician),0.5951083898544312
+Legislature_left.csv,title,tamil nadu legislature,MemberOfParliament_right,title,a. thangathurai,0.5949165225028992
+Legislature_left.csv,title,parliament of the united kingdom,MemberOfParliament_right,title,ian cameron (politician),0.5946358442306519
+Legislature_left.csv,title,french directory,MemberOfParliament_right,title,jean-baptiste blanchet,0.5942661762237549
+Legislature_left.csv,title,new south wales legislative council,MemberOfParliament_right,title,ian wood (australian politician),0.5942448973655701
+Legislature_left.csv,title,national assembly of belarus,MemberOfParliament_right,title,alexander gunn (politician),0.5930553078651428
+Legislature_left.csv,title,legislative assembly of queensland,MemberOfParliament_right,title,bruce scott (australian politician),0.5929226279258728
+Legislature_left.csv,title,minnesota senate,MemberOfParliament_right,title,jim mcgovern (politician),0.592881977558136
+Legislature_left.csv,title,cavan county council,MemberOfParliament_right,title,david bevan (politician),0.5910923480987549
+Legislature_left.csv,title,tynwald,MemberOfParliament_right,title,tristan garel-jones,0.5908751487731934
+Legislature_left.csv,title,connecticut senate,MemberOfParliament_right,title,terrence murphy (canadian politician),0.5902907848358154
+Legislature_left.csv,title,kerry county council,MemberOfParliament_right,title,stephen owen (politician),0.5901730060577393
+Legislature_left.csv,title,ealing london borough council,MemberOfParliament_right,title,alan anderson (british public servant),0.5887076258659363
+Legislature_left.csv,title,senate of bermuda,MemberOfParliament_right,title,george stevenson (mp),0.5873656272888184
+Legislature_left.csv,title,crewe town council,MemberOfParliament_right,title,gerry reynolds (uk politician),0.5859986543655396
+Legislature_left.csv,title,manchester city council,MemberOfParliament_right,title,charles henderson (politician),0.5856201648712158
+Legislature_left.csv,title,charlottetown city council,MemberOfParliament_right,title,carol hughes (politician),0.5853569507598877
+Legislature_left.csv,title,state great khural,MemberOfParliament_right,title,hussain al-qallaf,0.584928035736084
+Legislature_left.csv,title,norwich city council,MemberOfParliament_right,title,david young (labour politician),0.5845685601234436
+Legislature_left.csv,title,riigikogu,MemberOfParliament_right,title,gamini rathnayake,0.5844515562057495
+Legislature_left.csv,title,grand and general council,MemberOfParliament_right,title,george grant (uk politician),0.5839087963104248
+Legislature_left.csv,title,cork county council,MemberOfParliament_right,title,john lyons (uk politician),0.5837879776954651
+Legislature_left.csv,title,house of commons of the united kingdom,MemberOfParliament_right,title,alan simpson (mp),0.5837010145187378
+Legislature_left.csv,title,toronto city council,MemberOfParliament_right,title,terry rogers (politician),0.5835719108581543
+Legislature_left.csv,title,25th alberta legislative assembly,MemberOfParliament_right,title,allan johnston (politician),0.5822100639343262
+Legislature_left.csv,title,westminster court of burgesses,MemberOfParliament_right,title,"sir paul latham, 2nd baronet",0.5821586847305298
+Legislature_left.csv,title,bihar legislative council,MemberOfParliament_right,title,c. chandrakanthan,0.5799717903137207
+Legislature_left.csv,title,haringey london borough council,MemberOfParliament_right,title,david watkins (uk politician),0.57989501953125
+Legislature_left.csv,title,seimas,MemberOfParliament_right,title,champika premadasa,0.5798299908638
+Legislature_left.csv,title,hull city council,MemberOfParliament_right,title,joan hall (british politician),0.5796756744384766
+Legislature_left.csv,title,offaly county council,MemberOfParliament_right,title,michael o'halloran (uk politician),0.5796518325805664
+Legislature_left.csv,title,south australian legislative council,MemberOfParliament_right,title,keith johnson (australian politician),0.5775989890098572
+Legislature_left.csv,title,hackney london borough council,MemberOfParliament_right,title,david taylor (labour politician),0.5773800611495972
+Legislature_left.csv,title,north yorkshire county council,MemberOfParliament_right,title,jim callaghan (lancashire politician),0.5753245949745178
+Legislature_left.csv,title,limerick county council,MemberOfParliament_right,title,anthony byrne (politician),0.5740973949432373
+Legislature_left.csv,title,jaffna municipal council,MemberOfParliament_right,title,joshua benjamin jeyaretnam,0.5730496644973755
+Legislature_left.csv,title,washington state senate,MemberOfParliament_right,title,douglas scott (politician),0.5727906227111816
+Legislature_left.csv,title,tripura legislative assembly,MemberOfParliament_right,title,pavithra wanniarachchi,0.5721749067306519
+Legislature_left.csv,title,bristol city council,MemberOfParliament_right,title,gemma doyle (politician),0.571871280670166
+Legislature_left.csv,title,north carolina senate,MemberOfParliament_right,title,michael carr (liberal democrat politician),0.5708308219909668
+Legislature_left.csv,title,liverpool city council,MemberOfParliament_right,title,alfred davies (labour politician),0.5705960392951965
+Legislature_left.csv,title,arkansas senate,MemberOfParliament_right,title,bill baxter (politician),0.5705670118331909
+Legislature_left.csv,title,general national congress,MemberOfParliament_right,title,john grogan (uk politician),0.5698385834693909
+Legislature_left.csv,title,cambridge city council,MemberOfParliament_right,title,john swan (british politician),0.5696303248405457
+Legislature_left.csv,title,antrim borough council,MemberOfParliament_right,title,frank doran (scottish labour politician),0.5696112513542175
+Legislature_left.csv,title,parliament of nauru,MemberOfParliament_right,title,james wilson (new zealand politician born 1849),0.5690827369689941
+Legislature_left.csv,title,senate of saint lucia,MemberOfParliament_right,title,robert clothier (politician),0.5689518451690674
+Legislature_left.csv,title,lewisham london borough council,MemberOfParliament_right,title,julian lewis (politician),0.5679658651351929
+Legislature_left.csv,title,gobichettipalayam municipality,MemberOfParliament_right,title,c. sittampalam,0.5674211978912354
+Legislature_left.csv,title,national council of the movement,MemberOfParliament_right,title,frederick cooke (socialist),0.5671530961990356
+Legislature_left.csv,title,andhra pradesh legislative assembly,MemberOfParliament_right,title,jayantha samaraweera,0.5655417442321777
+Legislature_left.csv,title,legislative assembly of alberta,MemberOfParliament_right,title,ian allan (politician),0.565419614315033
+Legislature_left.csv,title,surrey county council,MemberOfParliament_right,title,"sir edward colebrooke, 4th baronet",0.5653785467147827
+Legislature_left.csv,title,kentucky senate,MemberOfParliament_right,title,bob lane (politician),0.5648531913757324
+Legislature_left.csv,title,lichfield district council,MemberOfParliament_right,title,philip dunne (ludlow mp),0.5648329257965088
+Legislature_left.csv,title,northern territory legislative assembly,MemberOfParliament_right,title,bill morrison (politician),0.564388632774353
+Legislature_left.csv,title,longford county council,MemberOfParliament_right,title,william oldfield (british politician),0.5633715987205505
+Legislature_left.csv,title,stoke-on-trent city council,MemberOfParliament_right,title,ian taylor (uk politician),0.5631733536720276
+Legislature_left.csv,title,congress of the confederation,MemberOfParliament_right,title,francis mclean (politician),0.5628654360771179
+Legislature_left.csv,title,parliament of the northern territory,MemberOfParliament_right,title,john donovan (australian politician),0.5624586343765259
+Legislature_left.csv,title,senate (kenya),MemberOfParliament_right,title,kenneth macaulay (politician),0.5620400905609131
+Legislature_left.csv,title,chamber of people's representatives,MemberOfParliament_right,title,alan chambers (politician),0.5615118741989136
+Legislature_left.csv,title,newcastle city council,MemberOfParliament_right,title,jim cunningham (uk politician),0.5610990524291992
+Legislature_left.csv,title,medway council,MemberOfParliament_right,title,m. c. ahamed,0.5604878664016724
+Legislature_left.csv,title,karachchi divisional council,MemberOfParliament_right,title,khusro bakhtiar,0.5595650672912598
+Legislature_left.csv,title,devon county council,MemberOfParliament_right,title,david prior (uk politician),0.5590424537658691
+Legislature_left.csv,title,west nordic council,MemberOfParliament_right,title,global alliance,0.5586035251617432
+Legislature_left.csv,title,islamic consultative assembly,MemberOfParliament_right,title,mohamed musthaffa,0.5582703948020935
+Legislature_left.csv,title,subang jaya municipal council,MemberOfParliament_right,title,sumedha jayasena,0.5578194856643677
+Legislature_left.csv,title,minnesota legislature,MemberOfParliament_right,title,norm foster (politician),0.557325005531311
+Legislature_left.csv,title,halton borough council,MemberOfParliament_right,title,thomas richardson (labour politician),0.5564894676208496
+Legislature_left.csv,title,jammu and kashmir legislative council,MemberOfParliament_right,title,john lee (labour politician),0.5561203360557556
+Legislature_left.csv,title,new jersey general assembly,MemberOfParliament_right,title,james bayley (politician),0.5553162097930908
+Legislature_left.csv,title,cirencester town council,MemberOfParliament_right,title,richard porritt (politician),0.5549890995025635
+Legislature_left.csv,title,dublin county council,MemberOfParliament_right,title,fred daly (politician),0.5548776388168335
+Legislature_left.csv,title,estates of sint maarten,MemberOfParliament_right,title,"sir arthur cowell-stepney, 2nd baronet",0.5535898208618164
+Legislature_left.csv,title,folketing,MemberOfParliament_right,title,bimal rathnayake,0.5528548359870911
+Legislature_left.csv,title,house of lords,MemberOfParliament_right,title,andy king (british politician),0.5527358651161194
+Legislature_left.csv,title,parliament of zimbabwe,MemberOfParliament_right,title,andrew jones (british politician),0.5524266958236694
+Legislature_left.csv,title,negeri sembilan state legislative assembly,MemberOfParliament_right,title,wasantha aluwihare,0.5522686243057251
+Legislature_left.csv,title,llanbadarn fawr community council,MemberOfParliament_right,title,ranjith aluwihare,0.5522584915161133
+Legislature_left.csv,title,southampton city council,MemberOfParliament_right,title,henry pearce (politician),0.5520370602607727
+Legislature_left.csv,title,senate of barbados,MemberOfParliament_right,title,michael duffy (politician),0.5516191720962524
+Legislature_left.csv,title,tuen mun district council,MemberOfParliament_right,title,s. natesan,0.5515322685241699
+Legislature_left.csv,title,mississauga city council,MemberOfParliament_right,title,john mckay (uk politician),0.5506885051727295
+Legislature_left.csv,title,parliament of barbados,MemberOfParliament_right,title,michael barnes (british politician),0.5501844882965088
+Legislature_left.csv,title,virginia governor's council,MemberOfParliament_right,title,david james (politician),0.5500049591064453
+Legislature_left.csv,title,deputy speaker of the national assembly of pakistan,MemberOfParliament_right,title,ian davidson (scottish politician),0.5494224429130554
+Legislature_left.csv,title,prince william board of county supervisors,MemberOfParliament_right,title,william powell (conservative politician),0.5490303039550781
+Legislature_left.csv,title,taupo district council,MemberOfParliament_right,title,david thomson (labor party politician),0.5487676858901978

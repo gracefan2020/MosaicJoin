@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+MotorsportSeason_left.csv,title,2009 Speedway Ekstraliga,SportsLeague_right.csv,title,Ekstraliga (speedway),0.7017

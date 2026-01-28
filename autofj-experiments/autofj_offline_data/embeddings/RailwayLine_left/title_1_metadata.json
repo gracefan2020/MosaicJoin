@@ -1,0 +1,11 @@
+{
+  "table_name": "RailwayLine_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 2189,
+  "unique_values": 2189,
+  "processed_values": 2189,
+  "embedding_dim": 768,
+  "processing_time": 1.5246918201446533,
+  "file_path": "datasets/autofj_join_benchmark/datalake/RailwayLine_left.csv"
+}

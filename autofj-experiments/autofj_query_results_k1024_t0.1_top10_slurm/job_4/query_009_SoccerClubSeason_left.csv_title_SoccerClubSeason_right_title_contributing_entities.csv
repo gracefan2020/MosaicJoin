@@ -1,0 +1,52 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerClubSeason_left.csv,title,kuala lumpur fa season 2012,SoccerClubSeason_right,title,2012 kuala lumpur fa season,0.9903063774108887
+SoccerClubSeason_left.csv,title,2011 jeju united fc season,SoccerClubSeason_right,title,2012 jeju united fc season,0.9869881868362427
+SoccerClubSeason_left.csv,title,2012 down gaa senior football,SoccerClubSeason_right,title,2011 down gaa senior football,0.9839182496070862
+SoccerClubSeason_left.csv,title,2011 incheon united season,SoccerClubSeason_right,title,2011 incheon united fc season,0.9809953570365906
+SoccerClubSeason_left.csv,title,2013 incheon united season,SoccerClubSeason_right,title,2013 incheon united fc season,0.9801715612411499
+SoccerClubSeason_left.csv,title,2012 incheon united season,SoccerClubSeason_right,title,2012 incheon united fc season,0.9776363372802734
+SoccerClubSeason_left.csv,title,negeri sembilan fa season 2013,SoccerClubSeason_right,title,2013 negeri sembilan fa season,0.9733405113220215
+SoccerClubSeason_left.csv,title,2013 orlando city s.c. season,SoccerClubSeason_right,title,2013 orlando city sc season,0.9702983498573303
+SoccerClubSeason_left.csv,title,2012 orlando city s.c. season,SoccerClubSeason_right,title,2012 orlando city sc season,0.9680458307266235
+SoccerClubSeason_left.csv,title,2011 jeonbuk hyundai motors season,SoccerClubSeason_right,title,2012 jeonbuk hyundai motors fc season,0.9608510136604309
+SoccerClubSeason_left.csv,title,2010 jeonbuk hyundai motors season,SoccerClubSeason_right,title,2010 jeonbuk hyundai motors fc season,0.957106351852417
+SoccerClubSeason_left.csv,title,2002 australia national football team season,SoccerClubSeason_right,title,2002 australia national soccer team season,0.9507225751876831
+SoccerClubSeason_left.csv,title,1999 australia national football team season,SoccerClubSeason_right,title,1999 australia national soccer team season,0.9452459812164307
+SoccerClubSeason_left.csv,title,2011 daejeon citizen season,SoccerClubSeason_right,title,2011 daejeon citizen fc season,0.9429324865341187
+SoccerClubSeason_left.csv,title,2006 australia national football team season,SoccerClubSeason_right,title,2006 australia national soccer team season,0.9405433535575867
+SoccerClubSeason_left.csv,title,2012 daejeon citizen season,SoccerClubSeason_right,title,2012 daejeon citizen fc season,0.9389585256576538
+SoccerClubSeason_left.csv,title,2001 australia national football team season,SoccerClubSeason_right,title,2001 australia national soccer team season,0.9371299743652344
+SoccerClubSeason_left.csv,title,2010 australia national football team season,SoccerClubSeason_right,title,2010 australia national soccer team season,0.9369698166847229
+SoccerClubSeason_left.csv,title,2003 australia national football team season,SoccerClubSeason_right,title,2003 australia national soccer team season,0.9357740879058838
+SoccerClubSeason_left.csv,title,1997 australia national football team season,SoccerClubSeason_right,title,1997 australia national soccer team season,0.9355081915855408
+SoccerClubSeason_left.csv,title,2005 australia national football team season,SoccerClubSeason_right,title,2005 australia national soccer team season,0.9345608949661255
+SoccerClubSeason_left.csv,title,2008 australia national football team season,SoccerClubSeason_right,title,2008 australia national soccer team season,0.9336779117584229
+SoccerClubSeason_left.csv,title,2009 australia national football team season,SoccerClubSeason_right,title,2009 australia national soccer team season,0.9334956407546997
+SoccerClubSeason_left.csv,title,2004 australia national football team season,SoccerClubSeason_right,title,2004 australia national soccer team season,0.9327073097229004
+SoccerClubSeason_left.csv,title,cienciano season 2003,SoccerClubSeason_right,title,2003 cienciano season,0.9301098585128784
+SoccerClubSeason_left.csv,title,2011 australia national football team season,SoccerClubSeason_right,title,2011 australia national soccer team season,0.9286212921142578
+SoccerClubSeason_left.csv,title,2012 australia national football team season,SoccerClubSeason_right,title,2012 australia national soccer team season,0.9275321960449219
+SoccerClubSeason_left.csv,title,2007 australia national football team season,SoccerClubSeason_right,title,2007 australia national soccer team season,0.9257736206054688
+SoccerClubSeason_left.csv,title,2013 australia national football team season,SoccerClubSeason_right,title,2013 australia national soccer team season,0.9255107641220093
+SoccerClubSeason_left.csv,title,2010 carolina railhawks fc season,SoccerClubSeason_right,title,2013 carolina railhawks season,0.918164849281311
+SoccerClubSeason_left.csv,title,2010 derry gaelic football season,SoccerClubSeason_right,title,derry football season 2010,0.9168041944503784
+SoccerClubSeason_left.csv,title,2009 derry gaelic football season,SoccerClubSeason_right,title,derry football season 2009,0.9159730672836304
+SoccerClubSeason_left.csv,title,2008 derry gaelic football season,SoccerClubSeason_right,title,derry football season 2008,0.9110753536224365
+SoccerClubSeason_left.csv,title,2009 down senior football season,SoccerClubSeason_right,title,2009 down football season,0.908225417137146
+SoccerClubSeason_left.csv,title,2011 woodlands wellington season,SoccerClubSeason_right,title,2013 woodlands wellington fc season,0.905943751335144
+SoccerClubSeason_left.csv,title,2010 down senior football season,SoccerClubSeason_right,title,2010 down football season,0.9030167460441589
+SoccerClubSeason_left.csv,title,2013 down senior football season,SoccerClubSeason_right,title,2013 down football season,0.8981747627258301
+SoccerClubSeason_left.csv,title,2010 woodlands wellington season,SoccerClubSeason_right,title,2010 woodlands wellington fc season,0.8915268182754517
+SoccerClubSeason_left.csv,title,2012 woodlands wellington season,SoccerClubSeason_right,title,2012 woodlands wellington fc season,0.8818339109420776
+SoccerClubSeason_left.csv,title,2012 ulsan hyundai fc season,SoccerClubSeason_right,title,2011 jeonbuk hyundai motors fc season,0.8798841834068298
+SoccerClubSeason_left.csv,title,2011 chunnam dragons season,SoccerClubSeason_right,title,2011 jeonnam dragons season,0.872208833694458
+SoccerClubSeason_left.csv,title,2013 woodlands wellington season,SoccerClubSeason_right,title,2011 woodlands wellington fc season,0.8346304893493652
+SoccerClubSeason_left.csv,title,2011 fc tampa bay season,SoccerClubSeason_right,title,2011 orlando city sc season,0.8167190551757812
+SoccerClubSeason_left.csv,title,hjk helsinki season 2009,SoccerClubSeason_right,title,2009 helsingin jalkapalloklubi season,0.7845821380615234
+SoccerClubSeason_left.csv,title,2012 gyeongnam fc season,SoccerClubSeason_right,title,2012 jeonnam dragons season,0.7521934509277344
+SoccerClubSeason_left.csv,title,2010 sporting cristal season,SoccerClubSeason_right,title,2010 down gaa senior football,0.7187033891677856
+SoccerClubSeason_left.csv,title,2011 chicago fire season,SoccerClubSeason_right,title,2011 down football season,0.7155143022537231
+SoccerClubSeason_left.csv,title,2009 brisbane roar w-league season,SoccerClubSeason_right,title,2000 australia national soccer team season,0.7138708829879761
+SoccerClubSeason_left.csv,title,1996 d.c. united season,SoccerClubSeason_right,title,1996 australia national soccer team season,0.7077448964118958
+SoccerClubSeason_left.csv,title,2009 canberra united w-league season,SoccerClubSeason_right,title,1998 australia national soccer team season,0.6981774568557739
+SoccerClubSeason_left.csv,title,2012 chicago fire season,SoccerClubSeason_right,title,2012 down football season,0.6901710033416748

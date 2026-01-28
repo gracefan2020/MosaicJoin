@@ -1,0 +1,11 @@
+{
+  "table_name": "NCAATeamSeason_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 34,
+  "unique_values": 34,
+  "processed_values": 34,
+  "embedding_dim": 768,
+  "processing_time": 0.0467839241027832,
+  "file_path": "datasets/autofj_join_benchmark/datalake/NCAATeamSeason_right.csv"
+}

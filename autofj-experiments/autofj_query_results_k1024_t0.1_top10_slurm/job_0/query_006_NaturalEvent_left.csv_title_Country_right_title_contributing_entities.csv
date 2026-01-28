@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,november 2011 myanmar earthquake,Country_right,title,myanmar,0.6925406455993652
+NaturalEvent_left.csv,title,1679 armenia earthquake,Country_right,title,bagratid armenia,0.6349505186080933
+NaturalEvent_left.csv,title,2005 lake tanganyika earthquake,Country_right,title,tanganyika (territory),0.6308883428573608
+NaturalEvent_left.csv,title,1647 santiago earthquake,Country_right,title,colony of santiago,0.62687087059021
+NaturalEvent_left.csv,title,2012 indian ocean earthquakes,Country_right,title,indian-ocean rim association,0.6158440113067627
+NaturalEvent_left.csv,title,557 constantinople earthquake,Country_right,title,byzantine empire under the angeloi,0.5963068604469299
+NaturalEvent_left.csv,title,1996 nazca earthquake,Country_right,title,nueva navarra,0.5910782814025879
+NaturalEvent_left.csv,title,1925 dali earthquake,Country_right,title,dali kingdom,0.5904613137245178
+NaturalEvent_left.csv,title,july 2010 iran earthquake,Country_right,title,muzaffarids (iran),0.5873668193817139
+NaturalEvent_left.csv,title,1556 shaanxi earthquake,Country_right,title,xin dynasty,0.5824536085128784
+NaturalEvent_left.csv,title,1202 syria earthquake,Country_right,title,armi (syria),0.5816383361816406
+NaturalEvent_left.csv,title,1976 tangshan earthquake,Country_right,title,tang dynasty,0.5810251235961914
+NaturalEvent_left.csv,title,1974 zhaotong earthquake,Country_right,title,shang dynasty,0.5800495147705078
+NaturalEvent_left.csv,title,1641 caracas earthquake,Country_right,title,restoration (spain),0.5772054195404053
+NaturalEvent_left.csv,title,2010 serbia earthquake,Country_right,title,kosovo (region),0.576059877872467
+NaturalEvent_left.csv,title,2008 sichuan earthquake,Country_right,title,chen dynasty,0.5730499625205994
+NaturalEvent_left.csv,title,1692 jamaica earthquake,Country_right,title,spanish occupation of santiago (jamaica),0.5725688338279724
+NaturalEvent_left.csv,title,1963 skopje earthquake,Country_right,title,independent state of macedonia,0.5719181299209595
+NaturalEvent_left.csv,title,2010 oaxaca earthquake,Country_right,title,aztec empire,0.5698227882385254
+NaturalEvent_left.csv,title,1755 cape ann earthquake,Country_right,title,cape colony,0.5689889192581177
+NaturalEvent_left.csv,title,1958 lituya bay megatsunami,Country_right,title,yamataikoku,0.5688709020614624
+NaturalEvent_left.csv,title,1989 malawi earthquake,Country_right,title,zimbabwe rhodesia,0.5644577741622925
+NaturalEvent_left.csv,title,1906 meishan earthquake,Country_right,title,zhou dynasty,0.5613925457000732
+NaturalEvent_left.csv,title,1997 fiji-tonga earthquake,Country_right,title,colony of fiji,0.5607435703277588
+NaturalEvent_left.csv,title,847 damascus earthquake,Country_right,title,arab kingdom of syria,0.560616135597229
+NaturalEvent_left.csv,title,1969 yangjiang earthquake,Country_right,title,liu song dynasty,0.5593488216400146
+NaturalEvent_left.csv,title,2004 morocco earthquake,Country_right,title,french protectorate of morocco,0.5567466616630554
+NaturalEvent_left.csv,title,1570 ferrara earthquake,Country_right,title,kingdom of italy (1861â1946),0.5559239387512207
+NaturalEvent_left.csv,title,2011 yunnan earthquake,Country_right,title,yuan dynasty,0.5550028085708618
+NaturalEvent_left.csv,title,2008 yingjiang earthquakes,Country_right,title,liao (zhou dynasty state),0.5534000396728516
+NaturalEvent_left.csv,title,1861 sumatra earthquake,Country_right,title,malacca sultanate,0.5519485473632812
+NaturalEvent_left.csv,title,1688 izmir earthquake,Country_right,title,byzantium under the isaurians,0.5504765510559082
+NaturalEvent_left.csv,title,1966 xingtai earthquake,Country_right,title,xia dynasty,0.5446330904960632
+NaturalEvent_left.csv,title,2000 yunnan earthquake,Country_right,title,northern yuan dynasty,0.543962836265564
+NaturalEvent_left.csv,title,2008 kyrgyzstan earthquake,Country_right,title,gazikumukh khanate,0.5425993204116821
+NaturalEvent_left.csv,title,1920 haiyuan earthquake,Country_right,title,qing dynasty,0.5381590127944946
+NaturalEvent_left.csv,title,1771 great yaeyama tsunami,Country_right,title,rajahnate of butuan,0.5338732004165649
+NaturalEvent_left.csv,title,1819 rann of kutch earthquake,Country_right,title,khanate of kazi-kumukh,0.5309371948242188
+NaturalEvent_left.csv,title,2007 iberian peninsula earthquake,Country_right,title,kingdom of iberia,0.5302844047546387
+NaturalEvent_left.csv,title,1880 zagreb earthquake,Country_right,title,austro-hungarian rule in bosnia and herzegovina,0.5300952196121216
+NaturalEvent_left.csv,title,1509 istanbul earthquake,Country_right,title,occupation of turkish armenia,0.5300657749176025
+NaturalEvent_left.csv,title,1927 earthquake in palestine,Country_right,title,jordanian occupation of the west bank and east jerusalem,0.529956042766571
+NaturalEvent_left.csv,title,1859 shamakhi earthquake,Country_right,title,gazikumukh shamkhalate,0.5288867354393005
+NaturalEvent_left.csv,title,1911 kebin earthquake,Country_right,title,keraites,0.5272547006607056
+NaturalEvent_left.csv,title,2003 zhaosu earthquake,Country_right,title,liao dynasty,0.5251796245574951
+NaturalEvent_left.csv,title,1975 haicheng earthquake,Country_right,title,qin dynasty,0.524174690246582
+NaturalEvent_left.csv,title,"1999 armenia, colombia earthquake",Country_right,title,first republic of armenia,0.522967517375946
+NaturalEvent_left.csv,title,1880 luzon earthquakes,Country_right,title,british invasion of manila,0.5223971605300903
+NaturalEvent_left.csv,title,2006 tajikistan earthquake,Country_right,title,dzungar khanate,0.517419159412384
+NaturalEvent_left.csv,title,1979 montenegro earthquake,Country_right,title,condominium of bosnia and herzegovina,0.5161423683166504
+NaturalEvent_left.csv,title,2007 martinique earthquake,Country_right,title,isle de france,0.5154264569282532
+NaturalEvent_left.csv,title,2005 zarand earthquake,Country_right,title,zanzibar sultanate,0.5146016478538513
+NaturalEvent_left.csv,title,1947 assam earthquake,Country_right,title,bengal sultanate,0.5136693716049194
+NaturalEvent_left.csv,title,1810 crete earthquake,Country_right,title,italian islands of the aegean,0.5112247467041016
+NaturalEvent_left.csv,title,1138 aleppo earthquake,Country_right,title,kurdistansky uyezd,0.5100739598274231
+NaturalEvent_left.csv,title,2012 yangzhou earthquake,Country_right,title,sui dynasty,0.5083036422729492
+NaturalEvent_left.csv,title,great hanshin earthquake,Country_right,title,han dynasty,0.5066316723823547
+NaturalEvent_left.csv,title,1894 meiji tokyo earthquake,Country_right,title,japanese colonial empire,0.5062668323516846
+NaturalEvent_left.csv,title,1783 calabrian earthquakes,Country_right,title,byzantium under the palaiologoi,0.5061651468276978
+NaturalEvent_left.csv,title,1991 kalabahi earthquakes,Country_right,title,pudukkottai state,0.5056859254837036
+NaturalEvent_left.csv,title,1970 tonghai earthquake,Country_right,title,ming dynasty,0.5056415796279907
+NaturalEvent_left.csv,title,1978 thessaloniki earthquake,Country_right,title,byzantium under the macedonians,0.5047065615653992
+NaturalEvent_left.csv,title,1949 tierra del fuego earthquake,Country_right,title,tierra firma,0.5021531581878662
+NaturalEvent_left.csv,title,1290 chihli earthquake,Country_right,title,nakhchivan,0.5018504858016968
+NaturalEvent_left.csv,title,1972 ruisui earthquake,Country_right,title,pasai,0.5016398429870605
+NaturalEvent_left.csv,title,2008 damxung earthquake,Country_right,title,kingdom of chiang mai,0.5015416741371155
+NaturalEvent_left.csv,title,1667 shamakhi earthquake,Country_right,title,shamkhalate of kazi-kumukh,0.5014848113059998
+NaturalEvent_left.csv,title,2012 samar earthquake,Country_right,title,samma dynasty,0.5002193450927734
+NaturalEvent_left.csv,title,1992 cairo earthquake,Country_right,title,cyrenaica emirate,0.49942028522491455
+NaturalEvent_left.csv,title,551 beirut earthquake,Country_right,title,history of iraq under ba'athist rule,0.4963999390602112
+NaturalEvent_left.csv,title,2010 yushu earthquake,Country_right,title,tuyuhun,0.49550074338912964
+NaturalEvent_left.csv,title,1926 kars earthquake,Country_right,title,kartids,0.49521803855895996
+NaturalEvent_left.csv,title,869 jogan sanriku earthquake,Country_right,title,jeongan,0.49469220638275146
+NaturalEvent_left.csv,title,2012 opunake earthquake,Country_right,title,osraige,0.49455779790878296
+NaturalEvent_left.csv,title,464 bc sparta earthquake,Country_right,title,kition (ancient state),0.494041383266449
+NaturalEvent_left.csv,title,2001 geiyo earthquake,Country_right,title,gozo (1798â1800),0.49362912774086
+NaturalEvent_left.csv,title,1952 hasankale earthquake,Country_right,title,kalinyamat sultanate,0.49206387996673584
+NaturalEvent_left.csv,title,2005 hindu kush earthquake,Country_right,title,nakhchivan autonomous republic,0.4896966814994812
+NaturalEvent_left.csv,title,2000 sumatra earthquake,Country_right,title,namayan,0.4895053505897522
+NaturalEvent_left.csv,title,1783 new jersey earthquake,Country_right,title,nassau (state),0.48908576369285583
+NaturalEvent_left.csv,title,426 bc malian gulf tsunami,Country_right,title,mamluk dynasty of iraq,0.48831185698509216
+NaturalEvent_left.csv,title,2000 turkmenistan earthquake,Country_right,title,provisional government of autonomous siberia,0.4869058132171631
+NaturalEvent_left.csv,title,1303 crete earthquake,Country_right,title,byzantium under the heraclians,0.48680055141448975
+NaturalEvent_left.csv,title,october 2010 sumatra earthquake and tsunami,Country_right,title,japanese occupation of malaya,0.48639923334121704
+NaturalEvent_left.csv,title,1984 otaki earthquake,Country_right,title,hotaki empire,0.4863080382347107
+NaturalEvent_left.csv,title,1797 sumatra earthquake,Country_right,title,crown colony of malacca,0.4862528443336487
+NaturalEvent_left.csv,title,1946 dominican republic earthquake,Country_right,title,unification of hispaniola,0.4853913486003876
+NaturalEvent_left.csv,title,1755 lisbon earthquake,Country_right,title,spain under joseph bonaparte,0.4851500391960144
+NaturalEvent_left.csv,title,1943 central java earthquake,Country_right,title,japanese occupation of the dutch east indies,0.48448002338409424
+NaturalEvent_left.csv,title,2013 nantou earthquake,Country_right,title,nanyo (japanese mandated territory),0.4844105839729309
+NaturalEvent_left.csv,title,2008 bandar abbas earthquake,Country_right,title,interim government of iran,0.48306921124458313
+NaturalEvent_left.csv,title,1996 lijiang earthquake,Country_right,title,liang dynasty,0.4828605055809021
+NaturalEvent_left.csv,title,2006 yanjin earthquake,Country_right,title,yan (five dynasties period),0.48264190554618835
+NaturalEvent_left.csv,title,1998 ninglang earthquake,Country_right,title,heungyo,0.48258668184280396
+NaturalEvent_left.csv,title,2009 yunnan earthquake,Country_right,title,later zhou,0.48251011967658997
+NaturalEvent_left.csv,title,1293 kamakura earthquake,Country_right,title,kadamba dynasty,0.48089146614074707
+NaturalEvent_left.csv,title,2002 kalehe earthquake,Country_right,title,kartl-kakheti,0.48030999302864075
+NaturalEvent_left.csv,title,1995 gulf of aqaba earthquake,Country_right,title,jalairid sultanate,0.47930312156677246
+NaturalEvent_left.csv,title,1953 ionian earthquake,Country_right,title,adriatic ionian euroregion,0.478098064661026
+NaturalEvent_left.csv,title,2012 east azerbaijan earthquakes,Country_right,title,eurasian economic union,0.47661271691322327
+NaturalEvent_left.csv,title,2009 xinjiang earthquake,Country_right,title,special administrative regions of china,0.47651317715644836
+NaturalEvent_left.csv,title,1927 crimean earthquakes,Country_right,title,post-soviet transition in ukraine,0.476495623588562
+NaturalEvent_left.csv,title,2008 chechnya earthquake,Country_right,title,karabakh beylerbeylik,0.4726349115371704
+NaturalEvent_left.csv,title,1991 racha earthquake,Country_right,title,rojava,0.471785306930542
+NaturalEvent_left.csv,title,1992 erzincan earthquake,Country_right,title,erivan khanate,0.47118112444877625
+NaturalEvent_left.csv,title,1833 sumatra earthquake,Country_right,title,malacca (british crown colony),0.47085505723953247
+NaturalEvent_left.csv,title,1667 dubrovnik earthquake,Country_right,title,"eastern slavonia, baranja and western syrmia",0.4705641269683838
+NaturalEvent_left.csv,title,1897 assam earthquake,Country_right,title,nagas of padmavati,0.4701384902000427
+NaturalEvent_left.csv,title,1918 shantou earthquake,Country_right,title,shunga empire,0.46864134073257446
+NaturalEvent_left.csv,title,1986 vrancea earthquake,Country_right,title,chera dynasty,0.4680708050727844
+NaturalEvent_left.csv,title,2009 bhutan earthquake,Country_right,title,provisional government of bangladesh,0.46610307693481445
+NaturalEvent_left.csv,title,1988 nepal earthquake,Country_right,title,western ganga dynasty,0.4648081064224243
+NaturalEvent_left.csv,title,1995 neftegorsk earthquake,Country_right,title,shirvan baylarbaylik,0.46338653564453125
+NaturalEvent_left.csv,title,2005 kashmir earthquake,Country_right,title,hadiya sultanate,0.4620881974697113
+NaturalEvent_left.csv,title,1268 cilicia earthquake,Country_right,title,carniola (early middle ages),0.46187788248062134
+NaturalEvent_left.csv,title,1952 kern county earthquake,Country_right,title,imperial county of ortenburg,0.46149730682373047
+NaturalEvent_left.csv,title,2008 panzhihua earthquake,Country_right,title,zhou (zhang shicheng's kingdom),0.4613752067089081
+NaturalEvent_left.csv,title,2005 qeshm earthquake,Country_right,title,qara khitai,0.4609938859939575
+NaturalEvent_left.csv,title,1943 alahan panjang earthquakes,Country_right,title,pandyan dynasty,0.4603545069694519
+NaturalEvent_left.csv,title,1356 basel earthquake,Country_right,title,restoration and regeneration in switzerland,0.4593087434768677
+NaturalEvent_left.csv,title,2012 shwebo earthquake,Country_right,title,british kenya,0.45749789476394653
+NaturalEvent_left.csv,title,1653 east symirna earthquake,Country_right,title,sasanian empire,0.4569982886314392
+NaturalEvent_left.csv,title,1703 genroku earthquake,Country_right,title,rashtrakuta dynasty,0.45606255531311035
+NaturalEvent_left.csv,title,2001 gujarat earthquake,Country_right,title,ganja khanate,0.4554285407066345
+NaturalEvent_left.csv,title,893 ardabil earthquake,Country_right,title,arminiya,0.45451900362968445
+NaturalEvent_left.csv,title,1985 algarrobo earthquake,Country_right,title,albona republic,0.4507654905319214
+NaturalEvent_left.csv,title,1996 baotou earthquake,Country_right,title,former zhao,0.4506258964538574
+NaturalEvent_left.csv,title,1920 gori earthquake,Country_right,title,gozo (independent state),0.44950157403945923
+NaturalEvent_left.csv,title,2012 yunnan earthquakes,Country_right,title,qi (li maozhen's state),0.44926172494888306
+NaturalEvent_left.csv,title,2009 karonga earthquakes,Country_right,title,kalingga kingdom,0.447987824678421
+NaturalEvent_left.csv,title,2010 afghanistan earthquake,Country_right,title,sultanate of ifat,0.4454284608364105
+NaturalEvent_left.csv,title,2001 kunlun earthquake,Country_right,title,nanda dynasty,0.4453146457672119
+NaturalEvent_left.csv,title,1930 pyu earthquake,Country_right,title,reorganized national government of the republic of china,0.4447484016418457
+NaturalEvent_left.csv,title,2000 baku earthquake,Country_right,title,tarkhan dynasty,0.4444724917411804
+NaturalEvent_left.csv,title,1575 valdivia earthquake,Country_right,title,margraviate of moravia,0.44323432445526123
+NaturalEvent_left.csv,title,1997 jabalpur earthquake,Country_right,title,jalayirids,0.442562460899353
+NaturalEvent_left.csv,title,1935 sumatra earthquake,Country_right,title,colony of singapore,0.4416629672050476
+NaturalEvent_left.csv,title,2010 illinois earthquake,Country_right,title,schaumburg-lippe,0.44049376249313354
+NaturalEvent_left.csv,title,856 damghan earthquake,Country_right,title,arghun dynasty,0.4393399655818939
+NaturalEvent_left.csv,title,1946 hsinhua earthquake,Country_right,title,zhao (five dynasties period),0.43877628445625305
+NaturalEvent_left.csv,title,2002 burica earthquake,Country_right,title,bushmanland,0.4387285113334656
+NaturalEvent_left.csv,title,893 dvin earthquake,Country_right,title,kara del,0.4386448264122009
+NaturalEvent_left.csv,title,1703 apennine earthquakes,Country_right,title,republic of ancona,0.4381360411643982
+NaturalEvent_left.csv,title,1927 gulang earthquake,Country_right,title,yueban,0.43768054246902466
+NaturalEvent_left.csv,title,1590 neulengbach earthquake,Country_right,title,imperial abbey of kempten,0.43683284521102905
+NaturalEvent_left.csv,title,1913 asmara earthquake,Country_right,title,turkish provisional government,0.43669766187667847
+NaturalEvent_left.csv,title,115 antioch earthquake,Country_right,title,byzantium under the komnenos dynasty,0.43524232506752014
+NaturalEvent_left.csv,title,1348 friuli earthquake,Country_right,title,kingdom of albania (medieval),0.434989869594574
+NaturalEvent_left.csv,title,guy-greenbrier earthquake swarm,Country_right,title,rustamid,0.43410804867744446
+NaturalEvent_left.csv,title,2010 hosseinabad earthquake,Country_right,title,sajid dynasty,0.4335150420665741
+NaturalEvent_left.csv,title,1977 vrancea earthquake,Country_right,title,chavda dynasty,0.4328969717025757
+NaturalEvent_left.csv,title,1982 north yemen earthquake,Country_right,title,jabal al-druze (state),0.4318634271621704
+NaturalEvent_left.csv,title,1945 balochistan earthquake,Country_right,title,nawabs of bengal & murshidabad,0.4290659427642822
+NaturalEvent_left.csv,title,"may 30, 1998 afghanistan earthquake",Country_right,title,people's republic of zanzibar,0.4288685917854309
+NaturalEvent_left.csv,title,2006 borujerd earthquake,Country_right,title,odanad,0.4285164177417755
+NaturalEvent_left.csv,title,2010 haiti earthquake,Country_right,title,cã´te d'ivoire,0.4268184006214142
+NaturalEvent_left.csv,title,1868 ecuador earthquakes,Country_right,title,amecatl,0.42541050910949707
+NaturalEvent_left.csv,title,2002 molise earthquake,Country_right,title,moche,0.4239374101161957
+NaturalEvent_left.csv,title,2012 zohan earthquake,Country_right,title,shun dynasty,0.42354950308799744
+NaturalEvent_left.csv,title,1802 vrancea earthquake,Country_right,title,vaspurakan kingdom,0.42320191860198975
+NaturalEvent_left.csv,title,april 2009 afghanistan earthquake,Country_right,title,sultanate of ternate,0.4228707551956177
+NaturalEvent_left.csv,title,2006 kamchatka earthquakes,Country_right,title,merkit,0.42282891273498535
+NaturalEvent_left.csv,title,526 antioch earthquake,Country_right,title,byzantium under the justinian dynasty,0.42241641879081726
+NaturalEvent_left.csv,title,1949 khait earthquake,Country_right,title,k'iche' kingdom of q'umarkaj,0.42228269577026367
+NaturalEvent_left.csv,title,1941 colima earthquake,Country_right,title,kempten (imperial free city),0.42217960953712463
+NaturalEvent_left.csv,title,1930 salmas earthquake,Country_right,title,sallarid,0.42161810398101807
+NaturalEvent_left.csv,title,1943 tottori earthquake,Country_right,title,kingdom of fouta tooro,0.42031729221343994
+NaturalEvent_left.csv,title,1953 suva earthquake,Country_right,title,panchala kingdom,0.4202721118927002
+NaturalEvent_left.csv,title,1988 spitak earthquake,Country_right,title,hotak dynasty,0.4201151728630066
+NaturalEvent_left.csv,title,2012 pernik earthquake,Country_right,title,belarusian central council,0.41936564445495605
+NaturalEvent_left.csv,title,2011 aceh singkil regency earthquakes,Country_right,title,ettaiyapuram estate,0.41866838932037354
+NaturalEvent_left.csv,title,1968 dasht-e bayaz and ferdows earthquake,Country_right,title,hammadid,0.4183471202850342
+NaturalEvent_left.csv,title,1985 wuqia earthquake,Country_right,title,yin (five dynasties period),0.4176807403564453
+NaturalEvent_left.csv,title,1981 playa azul earthquake,Country_right,title,alavids,0.41698646545410156
+NaturalEvent_left.csv,title,1999 chamoli earthquake,Country_right,title,cupul,0.4168909788131714
+NaturalEvent_left.csv,title,1978 tabas earthquake,Country_right,title,saar protectorate,0.41648611426353455
+NaturalEvent_left.csv,title,1985 nahanni earthquakes,Country_right,title,nayakas of keladi,0.4160696268081665
+NaturalEvent_left.csv,title,1938 banda sea earthquake,Country_right,title,dutch ceylon,0.41575634479522705
+NaturalEvent_left.csv,title,2003 altai earthquake,Country_right,title,sultanate of the geledi,0.41516950726509094
+NaturalEvent_left.csv,title,1959 hengchun earthquake,Country_right,title,"yanam, french india",0.4143962264060974
+NaturalEvent_left.csv,title,1931 zangezur earthquake,Country_right,title,first hungarian republic,0.41204431653022766
+NaturalEvent_left.csv,title,2000 kipawa earthquake,Country_right,title,wadai empire,0.4114703834056854
+NaturalEvent_left.csv,title,duvall earthquake,Country_right,title,free and independent republic of west florida,0.4108832776546478
+NaturalEvent_left.csv,title,1997 ardabil earthquake,Country_right,title,principality of arbã«r,0.4104924201965332
+NaturalEvent_left.csv,title,1762 arakan earthquake,Country_right,title,maha-meghavahana dynasty,0.4100643992424011
+NaturalEvent_left.csv,title,1751 port-au-prince earthquake,Country_right,title,crown colony of labuan,0.40909573435783386
+NaturalEvent_left.csv,title,1969 bohai earthquake,Country_right,title,bavand dynasty,0.4086226224899292
+NaturalEvent_left.csv,title,2001 nisqually earthquake,Country_right,title,provisional administration of south ossetia,0.406202107667923
+NaturalEvent_left.csv,title,1972 qir earthquake,Country_right,title,ror dynasty,0.40518277883529663
+NaturalEvent_left.csv,title,1960 agadir earthquake,Country_right,title,ghurid dynasty,0.40500712394714355
+NaturalEvent_left.csv,title,1909 borujerd earthquake,Country_right,title,later baekje,0.40498772263526917
+NaturalEvent_left.csv,title,1903 malazgirt earthquake,Country_right,title,margraviate of austria,0.4046764373779297
+NaturalEvent_left.csv,title,1915 asmara earthquake,Country_right,title,beylik of dulkadir,0.40459996461868286
+NaturalEvent_left.csv,title,1984 northern sumatra earthquake,Country_right,title,later tang,0.4037429094314575
+NaturalEvent_left.csv,title,1967 koynanagar earthquake,Country_right,title,mamluk dynasty (delhi),0.4035952687263489
+NaturalEvent_left.csv,title,1428 catalonia earthquake,Country_right,title,kingdom of spain under joseph bonaparte,0.403053879737854
+NaturalEvent_left.csv,title,1863 jujuy earthquake,Country_right,title,seljuk empire,0.40222877264022827
+NaturalEvent_left.csv,title,1907 qaratog earthquake,Country_right,title,kingdom of qocho,0.4008847773075104
+NaturalEvent_left.csv,title,the seventh earthquake,Country_right,title,four oirat,0.4001811742782593
+NaturalEvent_left.csv,title,2006 banda sea earthquake,Country_right,title,trust territory of somaliland,0.39957958459854126

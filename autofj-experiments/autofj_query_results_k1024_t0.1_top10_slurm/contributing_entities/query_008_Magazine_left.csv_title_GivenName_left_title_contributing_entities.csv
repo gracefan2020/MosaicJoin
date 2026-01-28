@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Magazine_left.csv,title,katso,GivenName_left,title,katsuo,0.8839467167854309
+Magazine_left.csv,title,moj mikro,GivenName_left,title,mihajlo,0.8707296848297119
+Magazine_left.csv,title,nakayoshi,GivenName_left,title,takayoshi,0.8705610036849976
+Magazine_left.csv,title,kokoku hihyo,GivenName_left,title,hiroko,0.8695881366729736
+Magazine_left.csv,title,moottori,GivenName_left,title,motoichi,0.8489567041397095
+Magazine_left.csv,title,znamya,GivenName_left,title,zdenko,0.8250501155853271
+Magazine_left.csv,title,okyeame,GivenName_left,title,okonma (surname),0.823219358921051
+Magazine_left.csv,title,kontakto,GivenName_left,title,koit,0.8096606135368347
+Magazine_left.csv,title,airone,GivenName_left,title,airi,0.8056350350379944
+Magazine_left.csv,title,shokun,GivenName_left,title,seijin,0.8013173341751099
+Magazine_left.csv,title,aku ankka,GivenName_left,title,akihisa,0.800910234451294
+Magazine_left.csv,title,unish-kuri,GivenName_left,title,kurumi,0.7951838970184326
+Magazine_left.csv,title,tuulilasi,GivenName_left,title,tiiu,0.776098370552063
+Magazine_left.csv,title,kerokero ace,GivenName_left,title,kesao,0.7755309343338013
+Magazine_left.csv,title,suomen kuvalehti,GivenName_left,title,kutlu,0.7713207602500916
+Magazine_left.csv,title,marmnamarz,GivenName_left,title,mumtaz,0.768987774848938
+Magazine_left.csv,title,vea,GivenName_left,title,vedat,0.764616072177887
+Magazine_left.csv,title,zarez,GivenName_left,title,zsuzsanna,0.7633687257766724
+Magazine_left.csv,title,aliqtisadi,GivenName_left,title,qasim,0.7627966403961182
+Magazine_left.csv,title,vreme zabave,GivenName_left,title,ze'ev,0.7618210911750793
+Magazine_left.csv,title,il becco giallo,GivenName_left,title,gianmarco,0.7557262182235718
+Magazine_left.csv,title,zyn!,GivenName_left,title,zrinko,0.754421591758728
+Magazine_left.csv,title,zan-e rooz,GivenName_left,title,zbyszko,0.7534990906715393
+Magazine_left.csv,title,orunodoi,GivenName_left,title,kazunori,0.7517417669296265
+Magazine_left.csv,title,pooshesh,GivenName_left,title,poul,0.7499498128890991
+Magazine_left.csv,title,prabodhanam,GivenName_left,title,praveen,0.7474206686019897
+Magazine_left.csv,title,chitra chinta,GivenName_left,title,chieko,0.7471722364425659
+Magazine_left.csv,title,radcom,GivenName_left,title,radul,0.7457026243209839
+Magazine_left.csv,title,bazinama,GivenName_left,title,baurzhan,0.741599440574646
+Magazine_left.csv,title,anandamela,GivenName_left,title,anupama,0.7409049868583679
+Magazine_left.csv,title,shadis,GivenName_left,title,samad,0.7407122254371643
+Magazine_left.csv,title,politikin zabavnik,GivenName_left,title,pavsikakiy,0.739541232585907
+Magazine_left.csv,title,koakuma ageha,GivenName_left,title,akimasa,0.7393842935562134
+Magazine_left.csv,title,para todos,GivenName_left,title,toivo,0.7324054837226868
+Magazine_left.csv,title,zambak,GivenName_left,title,zdravko,0.7311291694641113
+Magazine_left.csv,title,shojo beat,GivenName_left,title,keiji,0.7305418848991394
+Magazine_left.csv,title,kawanku (magazine),GivenName_left,title,kakuji,0.7274641990661621
+Magazine_left.csv,title,sanathana sarathi (magazine),GivenName_left,title,shreya,0.7271570563316345
+Magazine_left.csv,title,granta,GivenName_left,title,dara,0.7265761494636536
+Magazine_left.csv,title,krytyka polityczna,GivenName_left,title,mieszko,0.7237230539321899
+Magazine_left.csv,title,televi-kun,GivenName_left,title,kuniyuki,0.7215180397033691
+Magazine_left.csv,title,susana (magazine),GivenName_left,title,joana,0.719016969203949
+Magazine_left.csv,title,mshak,GivenName_left,title,masaaki,0.7178965210914612
+Magazine_left.csv,title,glasul,GivenName_left,title,guilherme,0.7170655727386475
+Magazine_left.csv,title,hrvatska revija,GivenName_left,title,reika,0.7136462926864624
+Magazine_left.csv,title,hjemmet,GivenName_left,title,harijs,0.7136186957359314
+Magazine_left.csv,title,sandesh (magazine),GivenName_left,title,siavash,0.7133724689483643
+Magazine_left.csv,title,revista de libros,GivenName_left,title,lindita,0.7131150960922241
+Magazine_left.csv,title,suomen luonto,GivenName_left,title,lukyan,0.7099860310554504
+Magazine_left.csv,title,the arbuturian,GivenName_left,title,arumugam,0.7096720933914185
+Magazine_left.csv,title,lucire,GivenName_left,title,sumire,0.7075219750404358
+Magazine_left.csv,title,manga time kirara max,GivenName_left,title,kirara,0.7048001289367676
+Magazine_left.csv,title,mishpacha,GivenName_left,title,shilpa,0.7045423984527588
+Magazine_left.csv,title,akhbar al-adab,GivenName_left,title,khadem,0.7024475336074829
+Magazine_left.csv,title,the strad,GivenName_left,title,strahinja,0.7014768123626709
+Magazine_left.csv,title,tor.com,GivenName_left,title,tormod,0.7012612819671631
+Magazine_left.csv,title,artreview,GivenName_left,title,artyom,0.7001778483390808
+Magazine_left.csv,title,vreme,GivenName_left,title,vlastimil,0.6963313817977905
+Magazine_left.csv,title,vivi (magazine),GivenName_left,title,vaibhav,0.6952652931213379
+Magazine_left.csv,title,ami (magazine),GivenName_left,title,amit,0.6925240755081177
+Magazine_left.csv,title,honkaku mystery best 10,GivenName_left,title,kikuko,0.6912010908126831
+Magazine_left.csv,title,ribon,GivenName_left,title,shion,0.6911725401878357
+Magazine_left.csv,title,semana,GivenName_left,title,seumas,0.6899540424346924
+Magazine_left.csv,title,heeb,GivenName_left,title,ehren,0.689022421836853
+Magazine_left.csv,title,nritoday,GivenName_left,title,narumi,0.6883639693260193
+Magazine_left.csv,title,argia (magazine),GivenName_left,title,arvi,0.6881676316261292
+Magazine_left.csv,title,drita (magazine),GivenName_left,title,drusilla,0.6878973245620728
+Magazine_left.csv,title,young animal arashi,GivenName_left,title,akitoshi,0.6874921917915344
+Magazine_left.csv,title,la semaine de suzette,GivenName_left,title,suzue,0.6867115497589111
+Magazine_left.csv,title,geez (magazine),GivenName_left,title,geeta,0.6860710382461548
+Magazine_left.csv,title,orer (magazine),GivenName_left,title,oren,0.6851955652236938
+Magazine_left.csv,title,photosho,GivenName_left,title,miho,0.6846776008605957
+Magazine_left.csv,title,vanidades,GivenName_left,title,pavlos,0.6844743490219116
+Magazine_left.csv,title,y-mag,GivenName_left,title,ylva,0.6843106150627136
+Magazine_left.csv,title,anna.aero,GivenName_left,title,alanna,0.6839852333068848
+Magazine_left.csv,title,ogoniok,GivenName_left,title,otoha,0.6830107569694519
+Magazine_left.csv,title,elrad (magazine),GivenName_left,title,emre,0.6824951767921448
+Magazine_left.csv,title,moto (magazine),GivenName_left,title,mototada,0.6804021596908569
+Magazine_left.csv,title,bidoun,GivenName_left,title,priidu,0.6803228855133057
+Magazine_left.csv,title,scrye,GivenName_left,title,kozue,0.6794573068618774
+Magazine_left.csv,title,drift tengoku,GivenName_left,title,teruhiko,0.6792656183242798
+Magazine_left.csv,title,quattroruote,GivenName_left,title,quintus,0.6759490370750427
+Magazine_left.csv,title,macworld,GivenName_left,title,mac raghnaill,0.6755639314651489
+Magazine_left.csv,title,nexos,GivenName_left,title,nobutomo,0.6741981506347656
+Magazine_left.csv,title,familyfun,GivenName_left,title,faheem,0.6741225719451904
+Magazine_left.csv,title,computer!totaal,GivenName_left,title,toshio,0.6726469993591309
+Magazine_left.csv,title,fmqb,GivenName_left,title,farooq,0.6713316440582275
+Magazine_left.csv,title,mosharekat-e melli weekly,GivenName_left,title,mojtaba,0.6700926423072815
+Magazine_left.csv,title,inpress,GivenName_left,title,inez,0.6665928363800049
+Magazine_left.csv,title,ram magazine,GivenName_left,title,raminta,0.6664313077926636
+Magazine_left.csv,title,quatro rodas,GivenName_left,title,beata,0.6662709712982178
+Magazine_left.csv,title,hinnerk (magazine),GivenName_left,title,hilaire,0.665838360786438
+Magazine_left.csv,title,maa focus,GivenName_left,title,maaya,0.6654637455940247
+Magazine_left.csv,title,swank,GivenName_left,title,kirsten,0.6652572154998779
+Magazine_left.csv,title,lifo (magazine),GivenName_left,title,leif,0.6635193824768066
+Magazine_left.csv,title,june (manga magazine),GivenName_left,title,jun'ya,0.660849928855896
+Magazine_left.csv,title,a.n.a.l.o.g.,GivenName_left,title,aadu,0.6604697704315186
+Magazine_left.csv,title,muy interesante,GivenName_left,title,iesada,0.6603422164916992
+Magazine_left.csv,title,respekt,GivenName_left,title,recep,0.6568480730056763
+Magazine_left.csv,title,f*ink,GivenName_left,title,fothad,0.6564505100250244
+Magazine_left.csv,title,lusso (magazine),GivenName_left,title,lata,0.656117856502533
+Magazine_left.csv,title,formosa youth,GivenName_left,title,ladislao,0.6558118462562561
+Magazine_left.csv,title,cromos,GivenName_left,title,rieko,0.654858410358429
+Magazine_left.csv,title,parnassus (magazine),GivenName_left,title,parvathy,0.6547384262084961
+Magazine_left.csv,title,betsucomi,GivenName_left,title,iori,0.6539857387542725
+Magazine_left.csv,title,al-ahram weekly,GivenName_left,title,fathallah,0.6537719964981079
+Magazine_left.csv,title,instyle,GivenName_left,title,inigo,0.6535643339157104
+Magazine_left.csv,title,poedjangga baroe,GivenName_left,title,kristjan,0.6529732942581177
+Magazine_left.csv,title,junon (magazine),GivenName_left,title,jepsen,0.6528652906417847
+Magazine_left.csv,title,comic yuri hime,GivenName_left,title,himeko,0.6527378559112549
+Magazine_left.csv,title,froots,GivenName_left,title,fricis,0.652418851852417
+Magazine_left.csv,title,on dit,GivenName_left,title,mait,0.6521775722503662
+Magazine_left.csv,title,mundo estranho,GivenName_left,title,viljo,0.6517608761787415
+Magazine_left.csv,title,el malpensante,GivenName_left,title,motozane,0.651630699634552
+Magazine_left.csv,title,dtest,GivenName_left,title,tiit,0.6513323783874512
+Magazine_left.csv,title,take 5 (magazine),GivenName_left,title,taketo,0.6481398344039917
+Magazine_left.csv,title,newhorizon,GivenName_left,title,naofumi,0.6480416059494019
+Magazine_left.csv,title,mathrubhumi azhchappathippu,GivenName_left,title,mathen,0.647637128829956
+Magazine_left.csv,title,arna (publication),GivenName_left,title,arpita,0.6474488377571106
+Magazine_left.csv,title,squarego,GivenName_left,title,gaddo,0.6470539569854736
+Magazine_left.csv,title,teraz rock,GivenName_left,title,teruo,0.6463264226913452
+Magazine_left.csv,title,mais alto,GivenName_left,title,evaristo,0.6461982727050781
+Magazine_left.csv,title,hoog spel,GivenName_left,title,sibel,0.6459580659866333
+Magazine_left.csv,title,zeit wissen,GivenName_left,title,wouter,0.644748330116272
+Magazine_left.csv,title,evropa (magazine),GivenName_left,title,eliana,0.6433978080749512
+Magazine_left.csv,title,paco (magazine),GivenName_left,title,pascoal,0.6415973901748657
+Magazine_left.csv,title,nezavisne novine,GivenName_left,title,nariakira,0.6409261226654053
+Magazine_left.csv,title,igromania,GivenName_left,title,aigars,0.6402539610862732
+Magazine_left.csv,title,binah (magazine),GivenName_left,title,binod,0.6386778354644775
+Magazine_left.csv,title,nuvo (magazine),GivenName_left,title,arvo,0.6382710933685303
+Magazine_left.csv,title,mir fantastiki,GivenName_left,title,fumiaki,0.6379398107528687
+Magazine_left.csv,title,weekly manga goraku,GivenName_left,title,kazuko,0.6367502808570862
+Magazine_left.csv,title,ad astra (magazine),GivenName_left,title,ademar,0.6360760927200317
+Magazine_left.csv,title,comic yuri hime s,GivenName_left,title,yasuko,0.6360558867454529
+Magazine_left.csv,title,cocina (magazine),GivenName_left,title,cosima,0.6353969573974609
+Magazine_left.csv,title,cibles,GivenName_left,title,cengiz,0.6348018646240234
+Magazine_left.csv,title,geist (magazine),GivenName_left,title,gert,0.6334757208824158
+Magazine_left.csv,title,daneshmand (magazine),GivenName_left,title,karnad,0.633327841758728
+Magazine_left.csv,title,blurt (magazine),GivenName_left,title,birgit,0.633294939994812
+Magazine_left.csv,title,ray li,GivenName_left,title,kaljo,0.6319572925567627
+Magazine_left.csv,title,charano!,GivenName_left,title,elouen,0.631732702255249
+Magazine_left.csv,title,cosmopolitan serbia,GivenName_left,title,kvetoslav,0.6314626932144165
+Magazine_left.csv,title,kung fu tai chi,GivenName_left,title,chinatsu,0.6312553882598877
+Magazine_left.csv,title,eisenbahn kurier,GivenName_left,title,einar,0.6286460757255554
+Magazine_left.csv,title,eulenspiegel (magazine),GivenName_left,title,euan,0.6282087564468384
+Magazine_left.csv,title,femina (denmark),GivenName_left,title,filipa,0.6279412508010864
+Magazine_left.csv,title,c't,GivenName_left,title,tadhg,0.6275429129600525
+Magazine_left.csv,title,elle decor,GivenName_left,title,anneliese,0.6267346143722534
+Magazine_left.csv,title,artnews,GivenName_left,title,artur,0.6243436932563782
+Magazine_left.csv,title,avotaynu magazine,GivenName_left,title,akitsugu,0.6243221759796143
+Magazine_left.csv,title,cs4fn,GivenName_left,title,hrafn,0.623626172542572
+Magazine_left.csv,title,frieze (magazine),GivenName_left,title,filiz,0.6235458850860596
+Magazine_left.csv,title,democratiya,GivenName_left,title,karthik,0.6233891248703003
+Magazine_left.csv,title,russian life,GivenName_left,title,slavoljub,0.6224201917648315
+Magazine_left.csv,title,le charivari,GivenName_left,title,isidore,0.62230384349823
+Magazine_left.csv,title,forza milan,GivenName_left,title,danilo,0.6221657991409302
+Magazine_left.csv,title,vellinakshatram (magazine),GivenName_left,title,velimir,0.622065544128418
+Magazine_left.csv,title,le crapouillot,GivenName_left,title,maalouf,0.6217460632324219
+Magazine_left.csv,title,oui (magazine),GivenName_left,title,abdi,0.6200050115585327
+Magazine_left.csv,title,popsister,GivenName_left,title,peeter,0.6192706227302551
+Magazine_left.csv,title,islamica magazine,GivenName_left,title,yasser,0.6186786890029907
+Magazine_left.csv,title,gamestm,GivenName_left,title,gakuto,0.6176955699920654
+Magazine_left.csv,title,les affaires,GivenName_left,title,fabrice,0.617113471031189
+Magazine_left.csv,title,film (iranian magazine),GivenName_left,title,kjartan,0.6157079935073853
+Magazine_left.csv,title,kittenpants,GivenName_left,title,cate,0.6155821084976196
+Magazine_left.csv,title,icarus (magazine),GivenName_left,title,idriss,0.6124037504196167
+Magazine_left.csv,title,the lawyer,GivenName_left,title,sobieslaw,0.6103413105010986
+Magazine_left.csv,title,clamor (magazine),GivenName_left,title,cleo,0.6094163060188293
+Magazine_left.csv,title,star girls,GivenName_left,title,susmita,0.6091417074203491
+Magazine_left.csv,title,ritz newspaper,GivenName_left,title,ritwik,0.6086406111717224
+Magazine_left.csv,title,parkett,GivenName_left,title,jadwiga,0.6078389883041382
+Magazine_left.csv,title,movmnt,GivenName_left,title,mohit,0.6070533990859985
+Magazine_left.csv,title,asian fever,GivenName_left,title,chinami,0.6065019965171814
+Magazine_left.csv,title,naked eye (magazine),GivenName_left,title,eyerusalem,0.6038409471511841
+Magazine_left.csv,title,placar,GivenName_left,title,prokhor,0.6037005186080933
+Magazine_left.csv,title,brum beat,GivenName_left,title,bulat,0.602691650390625
+Magazine_left.csv,title,jornal sporting,GivenName_left,title,joah,0.6018145084381104
+Magazine_left.csv,title,ems magazine,GivenName_left,title,emi,0.6000125408172607
+Magazine_left.csv,title,charlie mensuel,GivenName_left,title,manjula,0.5991517305374146
+Magazine_left.csv,title,gq (indian edition),GivenName_left,title,garaidh,0.5983088612556458
+Magazine_left.csv,title,runner's world,GivenName_left,title,runa,0.5979942083358765
+Magazine_left.csv,title,manga time jumbo,GivenName_left,title,mutsuo,0.597185492515564
+Magazine_left.csv,title,susie magazine,GivenName_left,title,sheryl,0.5963939428329468
+Magazine_left.csv,title,easy milano,GivenName_left,title,lauri,0.5961401462554932
+Magazine_left.csv,title,elle (magazine),GivenName_left,title,imelda,0.5958666205406189
+Magazine_left.csv,title,el croquis,GivenName_left,title,dobroniega,0.5946939587593079
+Magazine_left.csv,title,allgemeine bauzeitung,GivenName_left,title,de kok,0.5941036343574524
+Magazine_left.csv,title,poptimal,GivenName_left,title,priit,0.5929127931594849
+Magazine_left.csv,title,l'ordine nuovo,GivenName_left,title,naomori,0.5924808979034424
+Magazine_left.csv,title,cogito (magazine),GivenName_left,title,nobunao,0.5924696326255798
+Magazine_left.csv,title,filmink,GivenName_left,title,jaak,0.59153151512146
+Magazine_left.csv,title,inout,GivenName_left,title,ingo,0.5901067852973938
+Magazine_left.csv,title,hm (magazine),GivenName_left,title,michiya,0.5892102718353271
+Magazine_left.csv,title,magazin istoric,GivenName_left,title,ingeldaz,0.5881081819534302
+Magazine_left.csv,title,azerbaijan international,GivenName_left,title,afshin,0.585830807685852
+Magazine_left.csv,title,w (magazine),GivenName_left,title,wael,0.5852102041244507
+Magazine_left.csv,title,zest magazine,GivenName_left,title,zbylut (given name),0.585033118724823
+Magazine_left.csv,title,tilllate,GivenName_left,title,viljar,0.5847275853157043
+Magazine_left.csv,title,gangan comics,GivenName_left,title,shunsaku,0.5846969485282898
+Magazine_left.csv,title,moneysense,GivenName_left,title,satoshi,0.5845866203308105

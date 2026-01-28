@@ -1,0 +1,2 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Race_left.csv,title,Dominion (harness race),MotorsportSeason_left.csv,title,2004 Race of Champions,0.6511

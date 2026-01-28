@@ -1,0 +1,49 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Enzyme_left.csv,title,4-sulfomuconolactone hydrolase,Enzyme_right,title,4-sulfomuconolactone hydrolase,1.000000238418579
+Enzyme_left.csv,title,carboxypeptidase u,Enzyme_right,title,carboxypeptidase u,1.0000001192092896
+Enzyme_left.csv,title,4-hydroxyphenylacetate 3-monooxygenase,Enzyme_right,title,4-hydroxyphenylacetate 3-monooxygenase,0.9999998807907104
+Enzyme_left.csv,title,alpha-amylase,Enzyme_right,title,alpha-amylase,0.9999998807907104
+Enzyme_left.csv,title,4-cresol dehydrogenase (hydroxylating),Enzyme_right,title,4-cresol dehydrogenase (hydroxylating),0.9999996423721313
+Enzyme_left.csv,title,2-hydroxyglutarate dehydrogenase,Enzyme_right,title,l-2-hydroxyglutarate dehydrogenase,0.9754831790924072
+Enzyme_left.csv,title,gelatinase b,Enzyme_right,title,gelatinase a,0.9335497617721558
+Enzyme_left.csv,title,5-alpha reductase,Enzyme_right,title,5-beta-reductase,0.923524022102356
+Enzyme_left.csv,title,ctp synthetase,Enzyme_right,title,ctp synthase,0.917786180973053
+Enzyme_left.csv,title,glycerol-3-phosphate dehydrogenase,Enzyme_right,title,sn-glycerol-1-phosphate dehydrogenase,0.9160717725753784
+Enzyme_left.csv,title,benzyl-2-methyl-hydroxybutyrate dehydrogenase,Enzyme_right,title,4-hydroxybutyrate dehydrogenase,0.9137394428253174
+Enzyme_left.csv,title,17beta hydroxysteroid dehydrogenase,Enzyme_right,title,3beta-hydroxysteroid dehydrogenase,0.8967503309249878
+Enzyme_left.csv,title,beta-aspartyl-n-acetylglucosaminidase,Enzyme_right,title,alpha-n-acetylgalactosaminidase,0.889331579208374
+Enzyme_left.csv,title,3-keto-steroid reductase,Enzyme_right,title,3-ketosteroid reductase,0.8838465213775635
+Enzyme_left.csv,title,protein-methionine-s-oxide reductase,Enzyme_right,title,(methionine synthase) reductase,0.881509006023407
+Enzyme_left.csv,title,metionin transaminase,Enzyme_right,title,methionine transaminase,0.8686457872390747
+Enzyme_left.csv,title,galactoside 2-alpha-l-fucosyltransferase,Enzyme_right,title,2-hydroxyacylsphingosine 1-beta-galactosyltransferase,0.8538036346435547
+Enzyme_left.csv,title,nad+ kinase,Enzyme_right,title,(isocitrate dehydrogenase (nadp+)) kinase,0.8389089107513428
+Enzyme_left.csv,title,ribonuclease t2,Enzyme_right,title,ribonuclease h,0.8300467729568481
+Enzyme_left.csv,title,phenylalanine n-acetyltransferase,Enzyme_right,title,aralkylamine n-acetyltransferase,0.8278746008872986
+Enzyme_left.csv,title,(fructose-bisphosphate aldolase)-lysine n-methyltransferase,Enzyme_right,title,(ribulose-bisphosphate carboxylase)-lysine n-methyltransferase,0.8200969696044922
+Enzyme_left.csv,title,n-sulfoglucosamine-3-sulfatase,Enzyme_right,title,sulfhydrogenase,0.8096815347671509
+Enzyme_left.csv,title,adenylylsulfatase,Enzyme_right,title,adenylyl cyclase,0.8085193634033203
+Enzyme_left.csv,title,pyrimidine-nucleoside phosphorylase,Enzyme_right,title,nucleotide pyrophosphatase/phosphodiesterase,0.8082756400108337
+Enzyme_left.csv,title,histidinol-phosphatase,Enzyme_right,title,myosin-light-chain phosphatase,0.8075529336929321
+Enzyme_left.csv,title,monodehydroascorbate reductase (nadh),Enzyme_right,title,nadh:ubiquinone reductase (h+-translocating),0.8034986257553101
+Enzyme_left.csv,title,trna (guanine10-n2)-dimethyltransferase,Enzyme_right,title,trna cytidylyltransferase,0.799357533454895
+Enzyme_left.csv,title,dihydrouracil oxidase,Enzyme_right,title,diamine oxidase,0.7938005924224854
+Enzyme_left.csv,title,"alpha-1,4-glucan-protein synthase (adp-forming)",Enzyme_right,title,"1,3-beta-glucan synthase",0.7915102243423462
+Enzyme_left.csv,title,formate c-acetyltransferase,Enzyme_right,title,(formate-c-acetyltransferase)-activating enzyme,0.7892809510231018
+Enzyme_left.csv,title,6-hydroxynicotinate reductase,Enzyme_right,title,4-hydroxy-3-methylbut-2-enyl diphosphate reductase,0.7858920097351074
+Enzyme_left.csv,title,cytidylate cyclase,Enzyme_right,title,guanylyl cyclase,0.7829092741012573
+Enzyme_left.csv,title,aldehyde dehydrogenase (nad(p)+),Enzyme_right,title,nad(p)+ transhydrogenase (re/si-specific),0.7812174558639526
+Enzyme_left.csv,title,6-hydroxypseudooxynicotine dehydrogenase,Enzyme_right,title,desacetoxyvindoline 4-hydroxylase,0.7776789665222168
+Enzyme_left.csv,title,protein kinase a,Enzyme_right,title,aspartate kinase,0.760327935218811
+Enzyme_left.csv,title,nad(p)h dehydrogenase (quinone),Enzyme_right,title,nad(p)+ transhydrogenase (si-specific),0.7431439161300659
+Enzyme_left.csv,title,hexaprenyldihydroxybenzoate methyltransferase,Enzyme_right,title,(iso)eugenol o-methyltransferase,0.7384821772575378
+Enzyme_left.csv,title,endopeptidase clp,Enzyme_right,title,iga specific serine endopeptidase,0.7364176511764526
+Enzyme_left.csv,title,(cytochrome c)-arginine n-methyltransferase,Enzyme_right,title,(myelin basic protein)-arginine n-methyltransferase,0.7328014373779297
+Enzyme_left.csv,title,cyclomaltodextrinase,Enzyme_right,title,cyanase,0.7109073400497437
+Enzyme_left.csv,title,glycine n-phenylacetyltransferase,Enzyme_right,title,formylglycine-generating enzyme,0.7035070657730103
+Enzyme_left.csv,title,4-(hydroxymethyl)benzenesulfonate dehydrogenase,Enzyme_right,title,"5,10-methenyltetrahydromethanopterin hydrogenase",0.685085654258728
+Enzyme_left.csv,title,beta-amyrin 11-oxidase,Enzyme_right,title,alg10 (enzyme class),0.6771831512451172
+Enzyme_left.csv,title,alginate synthase,Enzyme_right,title,alg6 (enzyme class),0.6725463271141052
+Enzyme_left.csv,title,carboxylate reductase,Enzyme_right,title,carboxypeptidase c,0.6564990282058716
+Enzyme_left.csv,title,(+)-abscisic acid 8'-hydroxylase,Enzyme_right,title,alg8 (enzyme class),0.6560426950454712
+Enzyme_left.csv,title,formaldehyde dismutase,Enzyme_right,title,chlorite dismutase,0.6552741527557373
+Enzyme_left.csv,title,exodeoxyribonuclease i,Enzyme_right,title,bovine pancreatic ribonuclease,0.5803760290145874

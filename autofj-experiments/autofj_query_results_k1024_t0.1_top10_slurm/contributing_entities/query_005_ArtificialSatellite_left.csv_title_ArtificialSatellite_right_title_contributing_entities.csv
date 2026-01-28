@@ -1,0 +1,73 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ArtificialSatellite_left.csv,title,geotail,ArtificialSatellite_right,title,geotail,1.0
+ArtificialSatellite_left.csv,title,uosat-1,ArtificialSatellite_right,title,uosat-1,1.0
+ArtificialSatellite_left.csv,title,seasat,ArtificialSatellite_right,title,seasat,0.9999999403953552
+ArtificialSatellite_left.csv,title,ekspress-am4,ArtificialSatellite_right,title,ekspress am4,0.9819215536117554
+ArtificialSatellite_left.csv,title,eutelsat 33a,ArtificialSatellite_right,title,eutelsat 33b,0.9815919399261475
+ArtificialSatellite_left.csv,title,sentinel 3,ArtificialSatellite_right,title,sentinel-3,0.9747449159622192
+ArtificialSatellite_left.csv,title,kosmos 608,ArtificialSatellite_right,title,kosmos 605,0.9684489965438843
+ArtificialSatellite_left.csv,title,spirit (rover),ArtificialSatellite_right,title,spirit rover,0.9676675796508789
+ArtificialSatellite_left.csv,title,intelsat 27,ArtificialSatellite_right,title,intelsat 28,0.962658166885376
+ArtificialSatellite_left.csv,title,eutelsat 28a,ArtificialSatellite_right,title,eutelsat 31a,0.9589980840682983
+ArtificialSatellite_left.csv,title,soyuz 7k-l1 no.5l,ArtificialSatellite_right,title,soyuz 7k-st no. 16l,0.9558387994766235
+ArtificialSatellite_left.csv,title,irnss-1,ArtificialSatellite_right,title,irnss-1a,0.9507779479026794
+ArtificialSatellite_left.csv,title,venera 2mv-1 no.2,ArtificialSatellite_right,title,venera 3mv-1 no.2,0.9501262903213501
+ArtificialSatellite_left.csv,title,mightysat-1,ArtificialSatellite_right,title,mightysat-2.1,0.9374783039093018
+ArtificialSatellite_left.csv,title,lightsail-1,ArtificialSatellite_right,title,lightsail 2,0.9365185499191284
+ArtificialSatellite_left.csv,title,usa-241,ArtificialSatellite_right,title,usa-242,0.9360427856445312
+ArtificialSatellite_left.csv,title,eutelsat 70b,ArtificialSatellite_right,title,eutelsat 16b,0.9281387329101562
+ArtificialSatellite_left.csv,title,tdrs-10,ArtificialSatellite_right,title,tdrs-11,0.9274898171424866
+ArtificialSatellite_left.csv,title,telstar 12,ArtificialSatellite_right,title,telstar 14,0.9263801574707031
+ArtificialSatellite_left.csv,title,eutelsat 36a,ArtificialSatellite_right,title,eutelsat 33c,0.9249027967453003
+ArtificialSatellite_left.csv,title,hylas 2,ArtificialSatellite_right,title,hylas,0.9229979515075684
+ArtificialSatellite_left.csv,title,a-101 (spacecraft),ArtificialSatellite_right,title,as-101 (spacecraft),0.9205628633499146
+ArtificialSatellite_left.csv,title,a-103 (spacecraft),ArtificialSatellite_right,title,as-103 (spacecraft),0.9204012751579285
+ArtificialSatellite_left.csv,title,amc-4,ArtificialSatellite_right,title,amc-1,0.9203169345855713
+ArtificialSatellite_left.csv,title,proba-2,ArtificialSatellite_right,title,proba2,0.9195072650909424
+ArtificialSatellite_left.csv,title,kosmos 1698,ArtificialSatellite_right,title,kosmos 1667,0.911685585975647
+ArtificialSatellite_left.csv,title,a-102 (spacecraft),ArtificialSatellite_right,title,as-102 (spacecraft),0.9068200588226318
+ArtificialSatellite_left.csv,title,landsat 4,ArtificialSatellite_right,title,landsat 8,0.9056289196014404
+ArtificialSatellite_left.csv,title,dragon c2+,ArtificialSatellite_right,title,dragon c4,0.9041651487350464
+ArtificialSatellite_left.csv,title,cute-1.7,ArtificialSatellite_right,title,cute-1.7 + apd,0.9036670923233032
+ArtificialSatellite_left.csv,title,eutelsat 70a,ArtificialSatellite_right,title,eutelsat 48b,0.8964125514030457
+ArtificialSatellite_left.csv,title,mars reconnaissance orbiter,ArtificialSatellite_right,title,mars orbiter mission,0.8952227830886841
+ArtificialSatellite_left.csv,title,ses-5,ArtificialSatellite_right,title,ses-7,0.8780081272125244
+ArtificialSatellite_left.csv,title,soyuz t-7,ArtificialSatellite_right,title,soyuz 7k-t no.39,0.875621497631073
+ArtificialSatellite_left.csv,title,orion 3 (satellite),ArtificialSatellite_right,title,orion 3,0.8470611572265625
+ArtificialSatellite_left.csv,title,curiosity (rover),ArtificialSatellite_right,title,opportunity rover,0.8468862771987915
+ArtificialSatellite_left.csv,title,paksat-1,ArtificialSatellite_right,title,afghansat 1,0.8417750597000122
+ArtificialSatellite_left.csv,title,ziyuan 3,ArtificialSatellite_right,title,ziyuan iii-01,0.8406525254249573
+ArtificialSatellite_left.csv,title,pad abort test-1 (apollo),ArtificialSatellite_right,title,pad abort test 1,0.8402491211891174
+ArtificialSatellite_left.csv,title,fengyun 2-07,ArtificialSatellite_right,title,fengyun 2d,0.8346439599990845
+ArtificialSatellite_left.csv,title,pad abort 1 (orion),ArtificialSatellite_right,title,pad abort test 2,0.797576904296875
+ArtificialSatellite_left.csv,title,nee-01 pegasus,ArtificialSatellite_right,title,nee-01 pegaso,0.7909624576568604
+ArtificialSatellite_left.csv,title,aryabhata (satellite),ArtificialSatellite_right,title,aditya (satellite),0.7859082818031311
+ArtificialSatellite_left.csv,title,uosat-3,ArtificialSatellite_right,title,uosat-oscar 9,0.7613328695297241
+ArtificialSatellite_left.csv,title,uosat-12,ArtificialSatellite_right,title,uo-11,0.7556371688842773
+ArtificialSatellite_left.csv,title,x-15 flight 91,ArtificialSatellite_right,title,spaceshipone flight 17p,0.7524551153182983
+ArtificialSatellite_left.csv,title,inmarsat-4 f3,ArtificialSatellite_right,title,eutelsat 4a,0.7466956973075867
+ArtificialSatellite_left.csv,title,champ,ArtificialSatellite_right,title,champ (satellite),0.7442071437835693
+ArtificialSatellite_left.csv,title,sts-84,ArtificialSatellite_right,title,as-104 (spacecraft),0.7430554628372192
+ArtificialSatellite_left.csv,title,technology experiment satellite,ArtificialSatellite_right,title,prisma (satellite project),0.7384592294692993
+ArtificialSatellite_left.csv,title,intelsat 603,ArtificialSatellite_right,title,eutelsat 48d,0.7380222082138062
+ArtificialSatellite_left.csv,title,asiasat 2,ArtificialSatellite_right,title,acrimsat,0.7322587966918945
+ArtificialSatellite_left.csv,title,sts-95,ArtificialSatellite_right,title,as-105 (spacecraft),0.712275505065918
+ArtificialSatellite_left.csv,title,koronas-foton,ArtificialSatellite_right,title,foton-m no.2,0.7108436822891235
+ArtificialSatellite_left.csv,title,nilesat 103,ArtificialSatellite_right,title,eutelsat 113 west a,0.7003839015960693
+ArtificialSatellite_left.csv,title,exploration flight test 1,ArtificialSatellite_right,title,cots demo flight 1,0.6957775354385376
+ArtificialSatellite_left.csv,title,high energy astronomy observatory 3,ArtificialSatellite_right,title,nuclear spectroscopic telescope array,0.6838342547416687
+ArtificialSatellite_left.csv,title,intelsat 901,ArtificialSatellite_right,title,eutelsat 25c,0.6789966821670532
+ArtificialSatellite_left.csv,title,nilesat 102,ArtificialSatellite_right,title,eutelsat 117 west a,0.6781162619590759
+ArtificialSatellite_left.csv,title,satmex 6,ArtificialSatellite_right,title,cp6 (satellite),0.6707996129989624
+ArtificialSatellite_left.csv,title,x-15 flight 90,ArtificialSatellite_right,title,cots demo flight 2,0.6612913608551025
+ArtificialSatellite_left.csv,title,soil moisture active passive,ArtificialSatellite_right,title,soil moisture and ocean salinity,0.6536411046981812
+ArtificialSatellite_left.csv,title,ranger 3,ArtificialSatellite_right,title,dragon c3,0.6442335844039917
+ArtificialSatellite_left.csv,title,orba (satellite),ArtificialSatellite_right,title,cygnus orb-d1,0.6400141716003418
+ArtificialSatellite_left.csv,title,agila 2,ArtificialSatellite_right,title,aida (mission),0.6264140605926514
+ArtificialSatellite_left.csv,title,adm-aeolus,ArtificialSatellite_right,title,abrixas,0.6170538663864136
+ArtificialSatellite_left.csv,title,spektr-rg,ArtificialSatellite_right,title,resurs-dk no.1,0.6051110625267029
+ArtificialSatellite_left.csv,title,luna 8,ArtificialSatellite_right,title,solwind,0.6035979986190796
+ArtificialSatellite_left.csv,title,horizons-2,ArtificialSatellite_right,title,azerspace,0.5884392261505127
+ArtificialSatellite_left.csv,title,luna 13,ArtificialSatellite_right,title,hot bird 13c,0.5639246702194214
+ArtificialSatellite_left.csv,title,as-202,ArtificialSatellite_right,title,abs-3,0.543873131275177
+ArtificialSatellite_left.csv,title,pas-22,ArtificialSatellite_right,title,laplace-p,0.35875025391578674

@@ -1,0 +1,11 @@
+{
+  "table_name": "SoccerLeague_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 1315,
+  "unique_values": 1315,
+  "processed_values": 1315,
+  "embedding_dim": 768,
+  "processing_time": 0.9584236145019531,
+  "file_path": "datasets/autofj_join_benchmark/datalake/SoccerLeague_left.csv"
+}

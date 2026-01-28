@@ -1,0 +1,9 @@
+{
+  "table_name": "Venue_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 4079,
+  "sketch_k": 1024,
+  "processing_time": 5.422776937484741,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Venue_left/title_1.npz"
+}

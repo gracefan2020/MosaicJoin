@@ -1,0 +1,3 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+TennisTournament_left.csv,title,2009 Western & Southern Financial Group Masters and Women's Open,Award_right.csv,title,2nd Annual Grammy Awards,0.7394
+TennisTournament_left.csv,title,2010 MasterCard Tennis Cup,Award_right.csv,title,Elite 90 Award,0.7394

@@ -1,0 +1,3 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NationalFootballLeagueSeason_left.csv,title,1999 Hamilton Tiger-Cats season,SoccerClubSeason_left.csv,title,1999 Shimizu S-Pulse season,0.7978
+NationalFootballLeagueSeason_left.csv,title,2011 Chicago Knights season,SoccerClubSeason_left.csv,title,2011 FC Nasaf season,0.7978

@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,1958 lituya bay megatsunami,GivenName_left,title,mahiro,0.6071259379386902
+NaturalEvent_left.csv,title,2009 shizuoka earthquake,GivenName_left,title,kazumasa,0.5990124940872192
+NaturalEvent_left.csv,title,1968 tokachi earthquake,GivenName_left,title,tokihiko,0.5918879508972168
+NaturalEvent_left.csv,title,1984 otaki earthquake,GivenName_left,title,otoha,0.5804346203804016
+NaturalEvent_left.csv,title,1858 hietsu earthquake,GivenName_left,title,hirokatsu,0.577225923538208
+NaturalEvent_left.csv,title,1911 kikai island earthquake,GivenName_left,title,kiyotaka,0.5757749080657959
+NaturalEvent_left.csv,title,2011 lorca earthquake,GivenName_left,title,lovisa,0.5745081901550293
+NaturalEvent_left.csv,title,2000 kipawa earthquake,GivenName_left,title,kihachi,0.5740952491760254
+NaturalEvent_left.csv,title,2001 geiyo earthquake,GivenName_left,title,kazuhisa,0.571234941482544
+NaturalEvent_left.csv,title,1771 great yaeyama tsunami,GivenName_left,title,yasuhisa,0.5643951892852783
+NaturalEvent_left.csv,title,1889 kumamoto earthquake,GivenName_left,title,kazuyoshi,0.5581175088882446
+NaturalEvent_left.csv,title,2012 shwebo earthquake,GivenName_left,title,shweta,0.5579310059547424
+NaturalEvent_left.csv,title,2010 yushu earthquake,GivenName_left,title,yasumichi,0.5575888156890869
+NaturalEvent_left.csv,title,1997 harnai earthquake,GivenName_left,title,harumi,0.5547337532043457
+NaturalEvent_left.csv,title,2012 samar earthquake,GivenName_left,title,samad,0.5544476509094238
+NaturalEvent_left.csv,title,1943 tottori earthquake,GivenName_left,title,toshimasa,0.5528537034988403
+NaturalEvent_left.csv,title,893 ardabil earthquake,GivenName_left,title,arpita,0.5508941411972046
+NaturalEvent_left.csv,title,1998 mionica earthquake,GivenName_left,title,morimasa,0.5498806238174438
+NaturalEvent_left.csv,title,1945 mikawa earthquake,GivenName_left,title,motoichi,0.5464696884155273
+NaturalEvent_left.csv,title,2012 kamaishi earthquake,GivenName_left,title,kazutoshi,0.5456063747406006
+NaturalEvent_left.csv,title,2012 chiba earthquake,GivenName_left,title,kazutoki,0.5448411107063293
+NaturalEvent_left.csv,title,1964 niigata earthquake,GivenName_left,title,nobutaka,0.541786789894104
+NaturalEvent_left.csv,title,2008 qeshm earthquake,GivenName_left,title,qasim,0.5417597889900208
+NaturalEvent_left.csv,title,1293 kamakura earthquake,GivenName_left,title,kagetaka,0.5401434302330017
+NaturalEvent_left.csv,title,2012 opunake earthquake,GivenName_left,title,katsunosuke,0.5400324463844299
+NaturalEvent_left.csv,title,2005 miyagi earthquake,GivenName_left,title,kazunari,0.5375468134880066
+NaturalEvent_left.csv,title,2009 izu islands earthquake,GivenName_left,title,kazunori,0.5337963104248047
+NaturalEvent_left.csv,title,1993 latur earthquake,GivenName_left,title,lata,0.5336109399795532
+NaturalEvent_left.csv,title,2008 panzhihua earthquake,GivenName_left,title,chinami,0.5333361625671387
+NaturalEvent_left.csv,title,2008 kyrgyzstan earthquake,GivenName_left,title,kakhaber,0.5313363075256348
+NaturalEvent_left.csv,title,1703 genroku earthquake,GivenName_left,title,hirokuni,0.530461311340332
+NaturalEvent_left.csv,title,1952 hokkaido earthquake,GivenName_left,title,yasuyoshi,0.5303448438644409
+NaturalEvent_left.csv,title,1868 hawaii earthquake,GivenName_left,title,haruhisa,0.5288019180297852
+NaturalEvent_left.csv,title,2010 salta earthquake,GivenName_left,title,sorcha,0.5281695127487183
+NaturalEvent_left.csv,title,1966 xingtai earthquake,GivenName_left,title,chinatsu,0.5278822183609009
+NaturalEvent_left.csv,title,1931 zangezur earthquake,GivenName_left,title,zsuzsanna,0.5277172327041626
+NaturalEvent_left.csv,title,1952 severo-kurilsk tsunami,GivenName_left,title,kusuo,0.5271435379981995
+NaturalEvent_left.csv,title,1959 kamchatka earthquake,GivenName_left,title,haruchika,0.5270752310752869
+NaturalEvent_left.csv,title,1996 nazca earthquake,GivenName_left,title,naomasa,0.52617347240448
+NaturalEvent_left.csv,title,1896 meiji-sanriku earthquake,GivenName_left,title,katsuyoshi,0.5252524614334106
+NaturalEvent_left.csv,title,869 jogan sanriku earthquake,GivenName_left,title,sanae,0.5251818299293518
+NaturalEvent_left.csv,title,1688 izmir earthquake,GivenName_left,title,irmak,0.5239698886871338
+NaturalEvent_left.csv,title,1978 miyagi earthquake,GivenName_left,title,michihisa,0.5200572609901428
+NaturalEvent_left.csv,title,2007 noto earthquake,GivenName_left,title,nobunao,0.5200521945953369
+NaturalEvent_left.csv,title,2010 kaohsiung earthquakes,GivenName_left,title,kazuhito,0.5200002193450928
+NaturalEvent_left.csv,title,1894 meiji tokyo earthquake,GivenName_left,title,nobuyoshi,0.5186637043952942
+NaturalEvent_left.csv,title,1991 racha earthquake,GivenName_left,title,reika,0.5166687965393066
+NaturalEvent_left.csv,title,1974 hunza earthquake,GivenName_left,title,haguna,0.5164914727210999
+NaturalEvent_left.csv,title,2002 kalehe earthquake,GivenName_left,title,kaljo,0.5160536766052246
+NaturalEvent_left.csv,title,1936 miyagi earthquake,GivenName_left,title,mitsuyoshi,0.5157788991928101
+NaturalEvent_left.csv,title,1920 gori earthquake,GivenName_left,title,gofraidh,0.5155322551727295
+NaturalEvent_left.csv,title,2011 sikkim earthquake,GivenName_left,title,siavash,0.5148007273674011
+NaturalEvent_left.csv,title,1897 assam earthquake,GivenName_left,title,nagamasa,0.5116574764251709
+NaturalEvent_left.csv,title,1933 sanriku earthquake,GivenName_left,title,suguru,0.5099801421165466
+NaturalEvent_left.csv,title,1994 kuril islands earthquake,GivenName_left,title,kiril,0.5099360942840576
+NaturalEvent_left.csv,title,2005 fukuoka earthquake,GivenName_left,title,yoshimasa,0.5090870261192322
+NaturalEvent_left.csv,title,1994 mindoro earthquake,GivenName_left,title,katsumasa,0.5090761184692383
+NaturalEvent_left.csv,title,2010 pichilemu earthquake,GivenName_left,title,okitsugu,0.5088502168655396
+NaturalEvent_left.csv,title,1948 fukui earthquake,GivenName_left,title,fusanosuke,0.5082429051399231
+NaturalEvent_left.csv,title,1995 antofagasta earthquake,GivenName_left,title,antanas,0.5078664422035217
+NaturalEvent_left.csv,title,1905 calabria earthquake,GivenName_left,title,gianmarco,0.5075642466545105
+NaturalEvent_left.csv,title,1855 ansei edo earthquake,GivenName_left,title,seikichi,0.5071537494659424
+NaturalEvent_left.csv,title,1914 burdur earthquake,GivenName_left,title,burhan,0.5068181157112122
+NaturalEvent_left.csv,title,2009 karonga earthquakes,GivenName_left,title,kajsa,0.5037620663642883
+NaturalEvent_left.csv,title,1967 mudurnu earthquake,GivenName_left,title,raminta,0.5033556222915649
+NaturalEvent_left.csv,title,1703 apennine earthquakes,GivenName_left,title,anneliese,0.5032670497894287
+NaturalEvent_left.csv,title,2001 kunlun earthquake,GivenName_left,title,kuniyuki,0.5017539858818054
+NaturalEvent_left.csv,title,1972 ruisui earthquake,GivenName_left,title,rikichi,0.5013822913169861
+NaturalEvent_left.csv,title,1985 nahanni earthquakes,GivenName_left,title,narumi,0.5003750324249268
+NaturalEvent_left.csv,title,1991 kalabahi earthquakes,GivenName_left,title,kurumi,0.5003290772438049
+NaturalEvent_left.csv,title,2006 hawaii earthquake,GivenName_left,title,hirotami,0.4997589588165283
+NaturalEvent_left.csv,title,1986 vrancea earthquake,GivenName_left,title,naruhisa,0.4993634521961212
+NaturalEvent_left.csv,title,april 2011 miyagi earthquake,GivenName_left,title,masakage,0.4991956949234009
+NaturalEvent_left.csv,title,2006 kamchatka earthquakes,GivenName_left,title,tomotaka,0.49886566400527954
+NaturalEvent_left.csv,title,1983 sea of japan earthquake,GivenName_left,title,seijin,0.4983389973640442
+NaturalEvent_left.csv,title,1998 ryukyu islands earthquake,GivenName_left,title,kiyohiko,0.49817225337028503
+NaturalEvent_left.csv,title,2001 gujarat earthquake,GivenName_left,title,maarja,0.4979649484157562
+NaturalEvent_left.csv,title,2007 kuril islands earthquake,GivenName_left,title,kiyonori,0.49731725454330444
+NaturalEvent_left.csv,title,1913 asmara earthquake,GivenName_left,title,akimasa,0.4972321093082428
+NaturalEvent_left.csv,title,2007 tocopilla earthquake,GivenName_left,title,toshitaka,0.4969824552536011
+NaturalEvent_left.csv,title,1931 fuyun earthquake,GivenName_left,title,fuyuko,0.495949387550354
+NaturalEvent_left.csv,title,2002 molise earthquake,GivenName_left,title,motozane,0.4958314299583435
+NaturalEvent_left.csv,title,1975 kinnaur earthquake,GivenName_left,title,karnad,0.4957074820995331
+NaturalEvent_left.csv,title,1904 douliu earthquake,GivenName_left,title,tadatsugu,0.4943726658821106
+NaturalEvent_left.csv,title,1979 tumaco earthquake,GivenName_left,title,tatsuma,0.49433040618896484
+NaturalEvent_left.csv,title,2001 nisqually earthquake,GivenName_left,title,nagisa,0.49314695596694946
+NaturalEvent_left.csv,title,2006 yanjin earthquake,GivenName_left,title,yasunobu,0.49267667531967163
+NaturalEvent_left.csv,title,1974 izu peninsula earthquake,GivenName_left,title,kazushige,0.4925042986869812
+NaturalEvent_left.csv,title,1994 liwa earthquake,GivenName_left,title,katsunaga,0.49164876341819763
+NaturalEvent_left.csv,title,2007 kent earthquake,GivenName_left,title,kenta,0.4915268123149872
+NaturalEvent_left.csv,title,1963 kuril islands earthquake,GivenName_left,title,kutlu,0.4914643168449402
+NaturalEvent_left.csv,title,1881 chios earthquake,GivenName_left,title,chieko,0.49133944511413574
+NaturalEvent_left.csv,title,1994 paez river earthquake,GivenName_left,title,inez,0.49127739667892456
+NaturalEvent_left.csv,title,1979 montenegro earthquake,GivenName_left,title,zbyszko,0.4907299280166626
+NaturalEvent_left.csv,title,2000 baku earthquake,GivenName_left,title,suzuko,0.4904012084007263
+NaturalEvent_left.csv,title,1989 malawi earthquake,GivenName_left,title,kwabena,0.4901518225669861
+NaturalEvent_left.csv,title,2012 zohan earthquake,GivenName_left,title,kozue,0.4897046387195587
+NaturalEvent_left.csv,title,1088 tmogvi earthquake,GivenName_left,title,teruaki,0.4895588755607605
+NaturalEvent_left.csv,title,1911 kebin earthquake,GivenName_left,title,kesao,0.4890350103378296
+NaturalEvent_left.csv,title,april 2011 fukushima earthquake,GivenName_left,title,kazuaki,0.48879778385162354
+NaturalEvent_left.csv,title,2008 chechnya earthquake,GivenName_left,title,ananya,0.4885823130607605
+NaturalEvent_left.csv,title,1920 garfagnana earthquake,GivenName_left,title,garaidh,0.48772895336151123
+NaturalEvent_left.csv,title,2011 fergana valley earthquake,GivenName_left,title,katsuhisa,0.486985445022583
+NaturalEvent_left.csv,title,2010 hosseinabad earthquake,GivenName_left,title,haukur,0.4868341386318207
+NaturalEvent_left.csv,title,1268 cilicia earthquake,GivenName_left,title,caelan,0.4848501682281494
+NaturalEvent_left.csv,title,1996 baotou earthquake,GivenName_left,title,kazuto,0.4847603440284729
+NaturalEvent_left.csv,title,1963 su-ao earthquake,GivenName_left,title,suzue,0.4846500754356384
+NaturalEvent_left.csv,title,1969 bohai earthquake,GivenName_left,title,baurzhan,0.4846495985984802
+NaturalEvent_left.csv,title,1995 neftegorsk earthquake,GivenName_left,title,naritaka,0.48446041345596313
+NaturalEvent_left.csv,title,856 damghan earthquake,GivenName_left,title,murchadh,0.48445284366607666
+NaturalEvent_left.csv,title,great hanshin earthquake,GivenName_left,title,haruhi,0.48433786630630493
+NaturalEvent_left.csv,title,2005 ruichang earthquake,GivenName_left,title,pourang,0.48417311906814575
+NaturalEvent_left.csv,title,1978 tabas earthquake,GivenName_left,title,tassos,0.4833434224128723
+NaturalEvent_left.csv,title,1996 biak earthquake,GivenName_left,title,jaak,0.4827421009540558
+NaturalEvent_left.csv,title,1974 lima earthquake,GivenName_left,title,pascoal,0.48200345039367676
+NaturalEvent_left.csv,title,2012 northern italy earthquakes,GivenName_left,title,iori,0.4817032814025879
+NaturalEvent_left.csv,title,2009 l'aquila earthquake,GivenName_left,title,lindita,0.4808923602104187
+NaturalEvent_left.csv,title,1966 toro earthquake,GivenName_left,title,tatsuyoshi,0.48014307022094727
+NaturalEvent_left.csv,title,2012 haida gwaii earthquake,GivenName_left,title,haruaki,0.47999507188796997
+NaturalEvent_left.csv,title,guy-greenbrier earthquake swarm,GivenName_left,title,gofraid,0.47934457659721375
+NaturalEvent_left.csv,title,2006 kuril islands earthquake,GivenName_left,title,katsunori,0.47883522510528564
+NaturalEvent_left.csv,title,1980 irpinia earthquake,GivenName_left,title,iesada,0.4786849021911621
+NaturalEvent_left.csv,title,1611 keicho sanriku earthquake,GivenName_left,title,kazutaka,0.4786505699157715
+NaturalEvent_left.csv,title,1997 jabalpur earthquake,GivenName_left,title,jaagup,0.4786446690559387
+NaturalEvent_left.csv,title,1970 gediz earthquake,GivenName_left,title,grischa,0.47857344150543213
+NaturalEvent_left.csv,title,1997 ardabil earthquake,GivenName_left,title,arumugam,0.4778777062892914
+NaturalEvent_left.csv,title,1868 arica earthquake,GivenName_left,title,arif,0.47780781984329224
+NaturalEvent_left.csv,title,2000 yunnan earthquake,GivenName_left,title,matabei,0.4769892692565918
+NaturalEvent_left.csv,title,2006 borujerd earthquake,GivenName_left,title,iker,0.4766850471496582
+NaturalEvent_left.csv,title,1762 arakan earthquake,GivenName_left,title,hakan,0.47645115852355957
+NaturalEvent_left.csv,title,1941 chungpu earthquake,GivenName_left,title,tomokazu,0.476345419883728
+NaturalEvent_left.csv,title,1997 jiashi earthquakes,GivenName_left,title,yasutoshi,0.4760461449623108
+NaturalEvent_left.csv,title,1998 ninglang earthquake,GivenName_left,title,naruhito,0.47584742307662964
+NaturalEvent_left.csv,title,1970 ancash earthquake,GivenName_left,title,anupama,0.4754596948623657
+NaturalEvent_left.csv,title,october 2010 sumatra earthquake and tsunami,GivenName_left,title,katsunari,0.4754074811935425
+NaturalEvent_left.csv,title,1906 meishan earthquake,GivenName_left,title,meisa,0.47524702548980713
+NaturalEvent_left.csv,title,2013 nantou earthquake,GivenName_left,title,naohiro,0.4748857617378235
+NaturalEvent_left.csv,title,1892 recreo earthquake,GivenName_left,title,ladislao,0.47428011894226074
+NaturalEvent_left.csv,title,2000 sumatra earthquake,GivenName_left,title,bunta,0.47376585006713867
+NaturalEvent_left.csv,title,1918 shantou earthquake,GivenName_left,title,shanzay,0.4735887050628662
+NaturalEvent_left.csv,title,1969 yangjiang earthquake,GivenName_left,title,jun'ya,0.4725658893585205
+NaturalEvent_left.csv,title,893 dvin earthquake,GivenName_left,title,edvinas,0.47238945960998535
+NaturalEvent_left.csv,title,847 damascus earthquake,GivenName_left,title,thamsanqa,0.47215595841407776
+NaturalEvent_left.csv,title,1802 vrancea earthquake,GivenName_left,title,tetsumasa,0.472040593624115
+NaturalEvent_left.csv,title,1854 ansei-nankai earthquake,GivenName_left,title,naokatsu,0.4720027446746826
+NaturalEvent_left.csv,title,2003 bachu earthquake,GivenName_left,title,harunobu,0.4718858599662781
+NaturalEvent_left.csv,title,551 beirut earthquake,GivenName_left,title,gerbaud,0.47124361991882324
+NaturalEvent_left.csv,title,1953 suva earthquake,GivenName_left,title,iemasa,0.4703691601753235
+NaturalEvent_left.csv,title,1937 orizaba earthquake,GivenName_left,title,norimasa,0.4695769250392914
+NaturalEvent_left.csv,title,2010 serbia earthquake,GivenName_left,title,katinka,0.4693587124347687
+NaturalEvent_left.csv,title,2008 lake kivu earthquake,GivenName_left,title,kiyokazu,0.4691312909126282
+NaturalEvent_left.csv,title,1927 gulang earthquake,GivenName_left,title,gudny,0.4690355360507965
+NaturalEvent_left.csv,title,july 2010 iran earthquake,GivenName_left,title,nazanin,0.4689810574054718
+NaturalEvent_left.csv,title,1994 java earthquake,GivenName_left,title,junji,0.46894603967666626
+NaturalEvent_left.csv,title,1997 manyi earthquake,GivenName_left,title,itai,0.46874457597732544
+NaturalEvent_left.csv,title,1969 portugal earthquake,GivenName_left,title,dobroniega,0.46812140941619873
+NaturalEvent_left.csv,title,1975 lice earthquake,GivenName_left,title,lise,0.4676777124404907
+NaturalEvent_left.csv,title,2005 hindu kush earthquake,GivenName_left,title,khorshid,0.4672725796699524
+NaturalEvent_left.csv,title,2011 christchurch earthquake,GivenName_left,title,tomoka,0.46692582964897156
+NaturalEvent_left.csv,title,1941 colima earthquake,GivenName_left,title,cosima,0.46644896268844604
+NaturalEvent_left.csv,title,1977 vrancea earthquake,GivenName_left,title,nariakira,0.4660358726978302
+NaturalEvent_left.csv,title,2008 sichuan earthquake,GivenName_left,title,haruo,0.4658958911895752
+NaturalEvent_left.csv,title,1667 dubrovnik earthquake,GivenName_left,title,slobodan,0.4653024971485138
+NaturalEvent_left.csv,title,1988 nepal earthquake,GivenName_left,title,shilpa,0.46484097838401794
+NaturalEvent_left.csv,title,2008 bandar abbas earthquake,GivenName_left,title,atif,0.4648059606552124
+NaturalEvent_left.csv,title,1930 pyu earthquake,GivenName_left,title,ayumu,0.4642525315284729
+NaturalEvent_left.csv,title,1999 chamoli earthquake,GivenName_left,title,manjula,0.4641868770122528
+NaturalEvent_left.csv,title,1994 offshore sanriku earthquake,GivenName_left,title,kaoru,0.4637218713760376
+NaturalEvent_left.csv,title,62 pompeii earthquake,GivenName_left,title,tewodros,0.46358436346054077
+NaturalEvent_left.csv,title,1792 unzen earthquake and tsunami,GivenName_left,title,seiji,0.4632886052131653
+NaturalEvent_left.csv,title,1997 kamchatka earthquake,GivenName_left,title,katsukiyo,0.4629059433937073
+NaturalEvent_left.csv,title,2003 zhaosu earthquake,GivenName_left,title,kazuoki,0.46266865730285645
+NaturalEvent_left.csv,title,1290 chihli earthquake,GivenName_left,title,karthikeyan,0.462563693523407
+NaturalEvent_left.csv,title,1981 playa azul earthquake,GivenName_left,title,kaarel,0.4621633291244507
+NaturalEvent_left.csv,title,1995 chiapas earthquake,GivenName_left,title,alvina,0.4621581733226776
+NaturalEvent_left.csv,title,2012 visayas earthquake,GivenName_left,title,gyatso,0.4615238308906555
+NaturalEvent_left.csv,title,1879 gansu earthquake,GivenName_left,title,gakuto,0.461098849773407
+NaturalEvent_left.csv,title,2012 guatemala earthquake,GivenName_left,title,pascual,0.4608941376209259
+NaturalEvent_left.csv,title,2010 afghanistan earthquake,GivenName_left,title,kjartan,0.4605962038040161
+NaturalEvent_left.csv,title,2002 sumatra earthquake,GivenName_left,title,katsuhito,0.4605898857116699
+NaturalEvent_left.csv,title,2012 pernik earthquake,GivenName_left,title,khristo,0.4603583812713623
+NaturalEvent_left.csv,title,2005 zarand earthquake,GivenName_left,title,zrinko,0.46018630266189575
+NaturalEvent_left.csv,title,1935 timiskaming earthquake,GivenName_left,title,terumasa,0.45973604917526245
+NaturalEvent_left.csv,title,1966 varto earthquake,GivenName_left,title,viljo,0.45943355560302734
+NaturalEvent_left.csv,title,2002 mindanao earthquake,GivenName_left,title,masao,0.45905399322509766
+NaturalEvent_left.csv,title,1956 chim earthquake,GivenName_left,title,chie,0.45890113711357117
+NaturalEvent_left.csv,title,1915 asmara earthquake,GivenName_left,title,asami,0.45859527587890625
+NaturalEvent_left.csv,title,2012 east azerbaijan earthquakes,GivenName_left,title,afshin,0.45829740166664124
+NaturalEvent_left.csv,title,1930 senigallia earthquake,GivenName_left,title,mitsumasa,0.45823729038238525
+NaturalEvent_left.csv,title,1989 loma prieta earthquake,GivenName_left,title,filipa,0.45726263523101807
+NaturalEvent_left.csv,title,1997 punitaqui earthquake,GivenName_left,title,yukimasa,0.45696568489074707
+NaturalEvent_left.csv,title,1926 kars earthquake,GivenName_left,title,kaspars,0.4567648470401764
+NaturalEvent_left.csv,title,1946 hsinhua earthquake,GivenName_left,title,hirohisa,0.4567515254020691
+NaturalEvent_left.csv,title,1556 shaanxi earthquake,GivenName_left,title,kazushi,0.4566483497619629
+NaturalEvent_left.csv,title,1976 tangshan earthquake,GivenName_left,title,tadao,0.45637306571006775
+NaturalEvent_left.csv,title,1930 north izu earthquake,GivenName_left,title,nobukazu,0.45632243156433105
+NaturalEvent_left.csv,title,2010 haiti earthquake,GivenName_left,title,jamileh,0.45588451623916626
+NaturalEvent_left.csv,title,1138 aleppo earthquake,GivenName_left,title,kofi,0.4552156925201416
+NaturalEvent_left.csv,title,1952 hasankale earthquake,GivenName_left,title,khairunnisa,0.45520734786987305
+NaturalEvent_left.csv,title,1931 myitkyina earthquake,GivenName_left,title,mineko,0.45492058992385864

@@ -1,0 +1,11 @@
+{
+  "table_name": "Noble_right",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 364,
+  "unique_values": 364,
+  "processed_values": 364,
+  "embedding_dim": 768,
+  "processing_time": 0.3119685649871826,
+  "file_path": "datasets/autofj_join_benchmark/datalake/Noble_right.csv"
+}

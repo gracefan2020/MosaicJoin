@@ -1,0 +1,73 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,2010 afghanistan earthquake,ArtificialSatellite_right,title,afghansat 1,0.5659581422805786
+NaturalEvent_left.csv,title,2001 geiyo earthquake,ArtificialSatellite_right,title,ziyuan iii-01,0.541074275970459
+NaturalEvent_left.csv,title,1974 zhaotong earthquake,ArtificialSatellite_right,title,fengyun 2d,0.5403174757957458
+NaturalEvent_left.csv,title,1995 neftegorsk earthquake,ArtificialSatellite_right,title,soyuz 7k-t no.39,0.5383986234664917
+NaturalEvent_left.csv,title,2001 gujarat earthquake,ArtificialSatellite_right,title,aditya (satellite),0.5370275974273682
+NaturalEvent_left.csv,title,1980 irpinia earthquake,ArtificialSatellite_right,title,irnss-1a,0.5222746133804321
+NaturalEvent_left.csv,title,2011 van earthquake,ArtificialSatellite_right,title,spirit rover,0.5186577439308167
+NaturalEvent_left.csv,title,the seventh earthquake,ArtificialSatellite_right,title,ses-7,0.5162143111228943
+NaturalEvent_left.csv,title,1667 dubrovnik earthquake,ArtificialSatellite_right,title,kosmos 1667,0.5160015821456909
+NaturalEvent_left.csv,title,"solar eclipse of october 3, 2043",ArtificialSatellite_right,title,orion 3,0.5074042081832886
+NaturalEvent_left.csv,title,1995 antofagasta earthquake,ArtificialSatellite_right,title,aida (mission),0.5053374767303467
+NaturalEvent_left.csv,title,"solar eclipse of october 4, 2070",ArtificialSatellite_right,title,prisma (satellite project),0.4957258701324463
+NaturalEvent_left.csv,title,april 2011 fukushima earthquake,ArtificialSatellite_right,title,uo-11,0.48842817544937134
+NaturalEvent_left.csv,title,1989 ungava earthquake,ArtificialSatellite_right,title,uosat-1,0.4883749783039093
+NaturalEvent_left.csv,title,"solar eclipse of april 29, 2014",ArtificialSatellite_right,title,telstar 14,0.48584508895874023
+NaturalEvent_left.csv,title,2012 opunake earthquake,ArtificialSatellite_right,title,opportunity rover,0.4801862835884094
+NaturalEvent_left.csv,title,1293 kamakura earthquake,ArtificialSatellite_right,title,kosmos 605,0.4737512469291687
+NaturalEvent_left.csv,title,"solar eclipse of december 6, 2086",ArtificialSatellite_right,title,cp6 (satellite),0.4690733551979065
+NaturalEvent_left.csv,title,"solar eclipse of april 30, 2041",ArtificialSatellite_right,title,spaceshipone flight 17p,0.4682294726371765
+NaturalEvent_left.csv,title,893 ardabil earthquake,ArtificialSatellite_right,title,eutelsat 117 west a,0.463020920753479
+NaturalEvent_left.csv,title,893 dvin earthquake,ArtificialSatellite_right,title,tdrs-11,0.4623384475708008
+NaturalEvent_left.csv,title,1997 kamchatka earthquake,ArtificialSatellite_right,title,soyuz 7k-st no. 16l,0.46085166931152344
+NaturalEvent_left.csv,title,"solar eclipse of april 11, 2051",ArtificialSatellite_right,title,as-101 (spacecraft),0.4597530961036682
+NaturalEvent_left.csv,title,"solar eclipse of july 3, 2065",ArtificialSatellite_right,title,sentinel-3,0.45540928840637207
+NaturalEvent_left.csv,title,1958 lituya bay megatsunami,ArtificialSatellite_right,title,lightsail 2,0.4510430097579956
+NaturalEvent_left.csv,title,"solar eclipse of december 26, 2038",ArtificialSatellite_right,title,cygnus orb-d1,0.4486084580421448
+NaturalEvent_left.csv,title,1992 landers earthquake,ArtificialSatellite_right,title,landsat 8,0.44837862253189087
+NaturalEvent_left.csv,title,1986 vrancea earthquake,ArtificialSatellite_right,title,venera 3mv-1 no.2,0.4467926621437073
+NaturalEvent_left.csv,title,2006 banda sea earthquake,ArtificialSatellite_right,title,seasat,0.4467073082923889
+NaturalEvent_left.csv,title,1913 asmara earthquake,ArtificialSatellite_right,title,as-103 (spacecraft),0.44123411178588867
+NaturalEvent_left.csv,title,1088 tmogvi earthquake,ArtificialSatellite_right,title,eutelsat 113 west a,0.4372367858886719
+NaturalEvent_left.csv,title,"solar eclipse of july 24, 2074",ArtificialSatellite_right,title,intelsat 28,0.4371166527271271
+NaturalEvent_left.csv,title,"solar eclipse of april 19, 2004",ArtificialSatellite_right,title,mars orbiter mission,0.4337170124053955
+NaturalEvent_left.csv,title,2003 bam earthquake,ArtificialSatellite_right,title,amc-1,0.43082863092422485
+NaturalEvent_left.csv,title,1997 punitaqui earthquake,ArtificialSatellite_right,title,nee-01 pegaso,0.4294930696487427
+NaturalEvent_left.csv,title,"solar eclipse of july 1, 2011",ArtificialSatellite_right,title,solwind,0.42920687794685364
+NaturalEvent_left.csv,title,"solar eclipse of january 25, 1944",ArtificialSatellite_right,title,as-104 (spacecraft),0.4282684922218323
+NaturalEvent_left.csv,title,1981 playa azul earthquake,ArtificialSatellite_right,title,azerspace,0.42816078662872314
+NaturalEvent_left.csv,title,1802 vrancea earthquake,ArtificialSatellite_right,title,as-102 (spacecraft),0.42305129766464233
+NaturalEvent_left.csv,title,2011 zumpango earthquake,ArtificialSatellite_right,title,geotail,0.42208296060562134
+NaturalEvent_left.csv,title,1931 zangezur earthquake,ArtificialSatellite_right,title,eutelsat 31a,0.42110878229141235
+NaturalEvent_left.csv,title,"solar eclipse of july 23, 2093",ArtificialSatellite_right,title,eutelsat 33b,0.4203513264656067
+NaturalEvent_left.csv,title,1915 asmara earthquake,ArtificialSatellite_right,title,as-105 (spacecraft),0.41962185502052307
+NaturalEvent_left.csv,title,"solar eclipse of may 9, 1948",ArtificialSatellite_right,title,eutelsat 48d,0.419547438621521
+NaturalEvent_left.csv,title,"solar eclipse of june 29, 1946",ArtificialSatellite_right,title,eutelsat 48b,0.4155493676662445
+NaturalEvent_left.csv,title,2012 indian ocean earthquakes,ArtificialSatellite_right,title,soil moisture and ocean salinity,0.4134879410266876
+NaturalEvent_left.csv,title,"solar eclipse of december 27, 2065",ArtificialSatellite_right,title,eutelsat 25c,0.40655380487442017
+NaturalEvent_left.csv,title,guy-greenbrier earthquake swarm,ArtificialSatellite_right,title,ekspress am4,0.40514951944351196
+NaturalEvent_left.csv,title,1687 peru earthquake,ArtificialSatellite_right,title,usa-242,0.4049685597419739
+NaturalEvent_left.csv,title,"solar eclipse of august 3, 2092",ArtificialSatellite_right,title,eutelsat 16b,0.40126389265060425
+NaturalEvent_left.csv,title,"solar eclipse of october 2, 2024",ArtificialSatellite_right,title,proba2,0.3958815634250641
+NaturalEvent_left.csv,title,1960 agadir earthquake,ArtificialSatellite_right,title,acrimsat,0.3957725763320923
+NaturalEvent_left.csv,title,1997 harnai earthquake,ArtificialSatellite_right,title,hylas,0.39235466718673706
+NaturalEvent_left.csv,title,"solar eclipse of july 3, 2084",ArtificialSatellite_right,title,eutelsat 33c,0.3916931450366974
+NaturalEvent_left.csv,title,"solar eclipse of august 3, 2054",ArtificialSatellite_right,title,eutelsat 4a,0.39126282930374146
+NaturalEvent_left.csv,title,464 bc sparta earthquake,ArtificialSatellite_right,title,abrixas,0.3899994492530823
+NaturalEvent_left.csv,title,1991 racha earthquake,ArtificialSatellite_right,title,resurs-dk no.1,0.38962945342063904
+NaturalEvent_left.csv,title,"solar eclipse of june 2, 2095",ArtificialSatellite_right,title,nuclear spectroscopic telescope array,0.3796403408050537
+NaturalEvent_left.csv,title,"solar eclipse of september 11, 1988",ArtificialSatellite_right,title,cots demo flight 1,0.3630729913711548
+NaturalEvent_left.csv,title,2003 altai earthquake,ArtificialSatellite_right,title,abs-3,0.35944244265556335
+NaturalEvent_left.csv,title,"solar eclipse of july 2, 2038",ArtificialSatellite_right,title,cots demo flight 2,0.3536489009857178
+NaturalEvent_left.csv,title,2011 burma earthquake,ArtificialSatellite_right,title,uosat-oscar 9,0.3532308340072632
+NaturalEvent_left.csv,title,2008 sichuan earthquake,ArtificialSatellite_right,title,dragon c4,0.34421026706695557
+NaturalEvent_left.csv,title,"solar eclipse of july 13, 2018",ArtificialSatellite_right,title,hot bird 13c,0.34113723039627075
+NaturalEvent_left.csv,title,2012 visayas earthquake,ArtificialSatellite_right,title,mightysat-2.1,0.34084683656692505
+NaturalEvent_left.csv,title,1997 qayen earthquake,ArtificialSatellite_right,title,dragon c3,0.3275245428085327
+NaturalEvent_left.csv,title,"solar eclipse of july 12, 2056",ArtificialSatellite_right,title,champ (satellite),0.3200227618217468
+NaturalEvent_left.csv,title,1911 kebin earthquake,ArtificialSatellite_right,title,foton-m no.2,0.31939494609832764
+NaturalEvent_left.csv,title,2010 baja california earthquake,ArtificialSatellite_right,title,pad abort test 2,0.30184206366539
+NaturalEvent_left.csv,title,1907 qaratog earthquake,ArtificialSatellite_right,title,pad abort test 1,0.3001089096069336
+NaturalEvent_left.csv,title,"solar eclipse of april 9, 2043",ArtificialSatellite_right,title,cute-1.7 + apd,0.2934952974319458
+NaturalEvent_left.csv,title,2007 martinique earthquake,ArtificialSatellite_right,title,laplace-p,0.2838907241821289

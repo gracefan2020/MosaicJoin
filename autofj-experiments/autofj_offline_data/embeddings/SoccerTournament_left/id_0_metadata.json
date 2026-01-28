@@ -1,0 +1,11 @@
+{
+  "table_name": "SoccerTournament_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_values": 2714,
+  "unique_values": 2714,
+  "processed_values": 2714,
+  "embedding_dim": 768,
+  "processing_time": 1.5433454513549805,
+  "file_path": "datasets/autofj_join_benchmark/datalake/SoccerTournament_left.csv"
+}

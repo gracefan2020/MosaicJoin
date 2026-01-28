@@ -1,0 +1,5 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Race_left.csv,title,Roma Cup,RugbyLeague_left.csv,title,Queensland Cup,0.628
+Race_left.csv,title,Mint Julep Handicap,RugbyLeague_left.csv,title,Midlands 3 West (South),0.628
+Race_left.csv,title,Mountain Mayhem,RugbyLeague_left.csv,title,Mexican major rugby league,0.628
+Race_left.csv,title,South African National Road Race Championship,RugbyLeague_left.csv,title,NACRA Women's Rugby Championship,0.628

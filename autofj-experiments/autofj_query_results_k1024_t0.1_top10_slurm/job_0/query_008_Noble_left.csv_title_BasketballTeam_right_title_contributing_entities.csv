@@ -1,0 +1,167 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Noble_left.csv,title,vojvoda vojin,BasketballTeam_right,title,kk vojvodina srbijagas,0.8317999243736267
+Noble_left.csv,title,klementyna czartoryska,BasketballTeam_right,title,kk olimpija,0.7970713973045349
+Noble_left.csv,title,ocko i tom brok,BasketballTeam_right,title,kk slavonski brod,0.7594208717346191
+Noble_left.csv,title,alberada of buonalbergo,BasketballTeam_right,title,pallacanestro don bosco livorno,0.7557823657989502
+Noble_left.csv,title,klemens zamoyski,BasketballTeam_right,title,kk krka,0.7311580777168274
+Noble_left.csv,title,izabela czartoryska,BasketballTeam_right,title,bc yenisey krasnoyarsk,0.7247070074081421
+Noble_left.csv,title,abdallah bin jiluwi,BasketballTeam_right,title,al riyadi amman,0.7203710675239563
+Noble_left.csv,title,dalem samprangan,BasketballTeam_right,title,satria muda pertamina jakarta,0.7147330641746521
+Noble_left.csv,title,gjergj arianiti,BasketballTeam_right,title,nuova amg sebastiani basket rieti,0.7108146548271179
+Noble_left.csv,title,antoni benedykt lubomirski,BasketballTeam_right,title,bc budivelnik,0.7086676359176636
+Noble_left.csv,title,mubukwanu,BasketballTeam_right,title,muba hangtuah sumatera selatan,0.7075627446174622
+Noble_left.csv,title,carlos alberto cabral,BasketballTeam_right,title,cb tizona,0.701094388961792
+Noble_left.csv,title,maria wirtemberska,BasketballTeam_right,title,rakvere tarvas,0.6977390050888062
+Noble_left.csv,title,mieszko kazimierzowic,BasketballTeam_right,title,polytekhnika-halychyna lviv,0.6951007843017578
+Noble_left.csv,title,peter von meyendorff,BasketballTeam_right,title,mhp riesen ludwigsburg,0.6949464082717896
+Noble_left.csv,title,matej ninoslav,BasketballTeam_right,title,sk valmiera,0.6858919858932495
+Noble_left.csv,title,mirza shah mahmud,BasketballTeam_right,title,ezzahra sports,0.6855648756027222
+Noble_left.csv,title,jan piotr sapieha,BasketballTeam_right,title,piimameister otto/rapla,0.6729276180267334
+Noble_left.csv,title,du bo,BasketballTeam_right,title,ab pas,0.6702420711517334
+Noble_left.csv,title,aleksandra lubomirska,BasketballTeam_right,title,polonia warszawa (basketball),0.6701719760894775
+Noble_left.csv,title,amade aba,BasketballTeam_right,title,asseco gdynia,0.6677029132843018
+Noble_left.csv,title,umdat ul-umra,BasketballTeam_right,title,uniqa sopron,0.6658260822296143
+Noble_left.csv,title,osbern giffard,BasketballTeam_right,title,elitzur givat shmuel,0.6625276803970337
+Noble_left.csv,title,august aleksander czartoryski,BasketballTeam_right,title,bc minsk-2006,0.6610120534896851
+Noble_left.csv,title,pal dukagjini,BasketballTeam_right,title,pelita jaya energi mega persada,0.6609549522399902
+Noble_left.csv,title,michael of chernigov,BasketballTeam_right,title,bc cherkasy,0.6600398421287537
+Noble_left.csv,title,vsevolod iv of kiev,BasketballTeam_right,title,b.c. zenit saint petersburg,0.655565619468689
+Noble_left.csv,title,erdmann august of brandenburg-bayreuth,BasketballTeam_right,title,enbw ludwigsburg,0.6525661945343018
+Noble_left.csv,title,vicente sartorius y cabeza de vaca,BasketballTeam_right,title,halcones de xalapa,0.6507195234298706
+Noble_left.csv,title,viridis visconti,BasketballTeam_right,title,ao pagrati bc,0.6498640179634094
+Noble_left.csv,title,konstanty zamoyski,BasketballTeam_right,title,bc barsy atyrau,0.6418734192848206
+Noble_left.csv,title,adrien de noailles,BasketballTeam_right,title,ca queluz,0.6390513181686401
+Noble_left.csv,title,"ramon berenguer i, count of barcelona",BasketballTeam_right,title,cb bilbao berri,0.6377946138381958
+Noble_left.csv,title,dangerose de l'isle bouchard,BasketballTeam_right,title,somb boulogne-sur-mer,0.6328673362731934
+Noble_left.csv,title,manuel komnenos doukas,BasketballTeam_right,title,porta xi ensino cbf,0.6300638318061829
+Noble_left.csv,title,hieronim radziejowski,BasketballTeam_right,title,rosasport radom,0.6274867057800293
+Noble_left.csv,title,tanush thopia,BasketballTeam_right,title,tanduay light rhum masters,0.6260518431663513
+Noble_left.csv,title,krystyna lubomirska (d. 1645),BasketballTeam_right,title,gymnastikos s. larissas b.c.,0.6246433854103088
+Noble_left.csv,title,torquato conti,BasketballTeam_right,title,tyco rapla,0.6241830587387085
+Noble_left.csv,title,anne calthorpe,BasketballTeam_right,title,bree b.b.c.,0.6230879426002502
+Noble_left.csv,title,benedek eszterhas,BasketballTeam_right,title,bnei hasharon,0.6213896870613098
+Noble_left.csv,title,tomasz franciszek zamoyski,BasketballTeam_right,title,zamalek (basketball),0.6185725927352905
+Noble_left.csv,title,tyndareus,BasketballTeam_right,title,gladiators trier,0.6178678274154663
+Noble_left.csv,title,abd al-rahman ben uqba,BasketballTeam_right,title,barak netanya b.c.,0.6165716648101807
+Noble_left.csv,title,kara mahmud bushati,BasketballTeam_right,title,bc palanga,0.6147987842559814
+Noble_left.csv,title,andronikos komnenos (son of john ii),BasketballTeam_right,title,ionikos nikaias bc,0.6137480735778809
+Noble_left.csv,title,hamza kastrioti,BasketballTeam_right,title,medi bayreuth,0.6126779317855835
+Noble_left.csv,title,dalfi d'alvernha,BasketballTeam_right,title,dafni bc,0.6096041798591614
+Noble_left.csv,title,feodor ostrogski,BasketballTeam_right,title,trabzonspor b.k.,0.6064978837966919
+Noble_left.csv,title,zofia branicka,BasketballTeam_right,title,kk millenium strumica,0.6047409772872925
+Noble_left.csv,title,roman of le puy,BasketballTeam_right,title,bc rå«dupis,0.6034386157989502
+Noble_left.csv,title,andrzej potocki,BasketballTeam_right,title,gruppo triboldi basket,0.6032893657684326
+Noble_left.csv,title,fujiwara no mototsune,BasketballTeam_right,title,yongin samsung life bichumi,0.5973457098007202
+Noble_left.csv,title,menelaus,BasketballTeam_right,title,ionikos lamias bc,0.5952580571174622
+Noble_left.csv,title,galeazzo i visconti,BasketballTeam_right,title,bc cherno more port varna,0.5941817760467529
+Noble_left.csv,title,khalifa al-zanati,BasketballTeam_right,title,al-ahli benghazi (basketball club),0.5920910835266113
+Noble_left.csv,title,hieronim jarosz sieniawski,BasketballTeam_right,title,maccabi ra'anana,0.5912145376205444
+Noble_left.csv,title,alix de lannoy,BasketballTeam_right,title,cb ciudad de algeciras,0.5902420878410339
+Noble_left.csv,title,abdagases i,BasketballTeam_right,title,iraklio bc,0.5879759788513184
+Noble_left.csv,title,"santiago del granado, 1st count of cotoca",BasketballTeam_right,title,toros de nuevo laredo,0.5878669023513794
+Noble_left.csv,title,aldimir,BasketballTeam_right,title,al ittihad alexandria (basketball),0.5843567848205566
+Noble_left.csv,title,kong jia,BasketballTeam_right,title,shandong golden stars,0.5823782682418823
+Noble_left.csv,title,konstancja potocka,BasketballTeam_right,title,bc torpan pojat,0.5819682478904724
+Noble_left.csv,title,berthold i of istria,BasketballTeam_right,title,ilissiakos b.c.,0.5787577629089355
+Noble_left.csv,title,saadat ali khan i,BasketballTeam_right,title,cls knights surabaya,0.5783613920211792
+Noble_left.csv,title,girolama mazzarini,BasketballTeam_right,title,bc juventus,0.5741122961044312
+Noble_left.csv,title,battista sforza,BasketballTeam_right,title,bc naglis,0.5716928243637085
+Noble_left.csv,title,cuthbert burbage,BasketballTeam_right,title,belfast star,0.5716772079467773
+Noble_left.csv,title,henryk firlej,BasketballTeam_right,title,kk mega leks,0.5687551498413086
+Noble_left.csv,title,eble i of ventadorn,BasketballTeam_right,title,egaleo bc,0.5660178661346436
+Noble_left.csv,title,duarte de sousa da mata coutinho,BasketballTeam_right,title,unes fc barcelona,0.564022958278656
+Noble_left.csv,title,sa'd bin abdul-rahman,BasketballTeam_right,title,aspac jakarta,0.558855414390564
+Noble_left.csv,title,taliai tupou,BasketballTeam_right,title,pacific caesar surabaya,0.5569905638694763
+Noble_left.csv,title,hedwig of gudensberg,BasketballTeam_right,title,swans gmunden,0.5533684492111206
+Noble_left.csv,title,hugh the black,BasketballTeam_right,title,black water sports,0.5499020218849182
+Noble_left.csv,title,william de vesci,BasketballTeam_right,title,veroli basket,0.5492008924484253
+Noble_left.csv,title,alboino i della scala,BasketballTeam_right,title,athlitikos omilos paleou falirou bc,0.549121618270874
+Noble_left.csv,title,maria karolina lubomirska,BasketballTeam_right,title,galatasaray s.k. (women's basketball),0.5488035082817078
+Noble_left.csv,title,ulrike louise of solms-braunfels,BasketballTeam_right,title,ulriken elite,0.5463302135467529
+Noble_left.csv,title,visesio moeliku,BasketballTeam_right,title,universo treviso basket,0.546125054359436
+Noble_left.csv,title,anna lubomirska (d. 1763),BasketballTeam_right,title,union kavala b.c.,0.5448471903800964
+Noble_left.csv,title,odo ii of champlitte,BasketballTeam_right,title,cs otopeni (basketball),0.5445210933685303
+Noble_left.csv,title,gjin progoni,BasketballTeam_right,title,kk mega basket,0.5410662889480591
+Noble_left.csv,title,gjon zenebishi,BasketballTeam_right,title,bc partizani tirana,0.5410192012786865
+Noble_left.csv,title,meinhard vi of gorizia,BasketballTeam_right,title,as ionikos neas filadelfeias bc,0.5389786958694458
+Noble_left.csv,title,tadeusz gosiewski,BasketballTeam_right,title,c.d. primeiro de agosto (basketball),0.5381160974502563
+Noble_left.csv,title,fuzhen,BasketballTeam_right,title,fubon braves,0.5346547365188599
+Noble_left.csv,title,adelaide of holland,BasketballTeam_right,title,melbourne united,0.5328461527824402
+Noble_left.csv,title,jacopino della scala,BasketballTeam_right,title,treviso basket,0.5308763980865479
+Noble_left.csv,title,joost de lalaing,BasketballTeam_right,title,donar (basketball club),0.5275264382362366
+Noble_left.csv,title,clara gonzaga,BasketballTeam_right,title,athinaikos women's basketball,0.5266377925872803
+Noble_left.csv,title,emenon,BasketballTeam_right,title,incheon electroland elephants,0.5249344706535339
+Noble_left.csv,title,zofia sapieha,BasketballTeam_right,title,xanthi b.c.,0.5231282711029053
+Noble_left.csv,title,niketa thopia,BasketballTeam_right,title,el ittihad alexandria (basketball),0.5214701294898987
+Noble_left.csv,title,clementia of burgundy,BasketballTeam_right,title,bintulu rainbow b.c.,0.5199004411697388
+Noble_left.csv,title,matilda of carinthia,BasketballTeam_right,title,ikaros chalkidas b.c.,0.5183295011520386
+Noble_left.csv,title,alan stewart of darnley,BasketballTeam_right,title,edinburgh tigers,0.518312931060791
+Noble_left.csv,title,humphrey i of toron,BasketballTeam_right,title,rethymno cretan kings b.c.,0.5128467679023743
+Noble_left.csv,title,albert ii of gorizia,BasketballTeam_right,title,peramatos ermis b.c.,0.5125940442085266
+Noble_left.csv,title,richeza of berg,BasketballTeam_right,title,perak farmcochem b.c.,0.5122115612030029
+Noble_left.csv,title,dou wan,BasketballTeam_right,title,yongin samsung blueminx,0.5103012323379517
+Noble_left.csv,title,henry percy (hotspur),BasketballTeam_right,title,milton keynes lions,0.5087228417396545
+Noble_left.csv,title,piccarda bueri,BasketballTeam_right,title,cuxhaven bascats,0.5063310265541077
+Noble_left.csv,title,ulric manfred ii of turin,BasketballTeam_right,title,ael 1964 b.c.,0.5061632394790649
+Noble_left.csv,title,victor scipion charles auguste de la garde de chambonas,BasketballTeam_right,title,a.s. trikala 2000 bc,0.5045684576034546
+Noble_left.csv,title,nicholas de la motte,BasketballTeam_right,title,roseto basket,0.5019615888595581
+Noble_left.csv,title,theodora doukaina vatatzaina,BasketballTeam_right,title,ageh gymnastikos b.c.,0.5019558668136597
+Noble_left.csv,title,guntheuc,BasketballTeam_right,title,blackwater sports,0.5014514923095703
+Noble_left.csv,title,khaled bin talal bin abdul aziz al saud,BasketballTeam_right,title,al kuwait sc (basketball),0.5002307891845703
+Noble_left.csv,title,saud bin faisal bin turki,BasketballTeam_right,title,hapoel afula b.c.,0.4968618154525757
+Noble_left.csv,title,"eve de bermingham, lady of offaly",BasketballTeam_right,title,bintulu eagles b.c.,0.49648159742355347
+Noble_left.csv,title,guigues iii of albon,BasketballTeam_right,title,gigantes de carolina (men's basketball),0.49491751194000244
+Noble_left.csv,title,sebestyanos,BasketballTeam_right,title,cs energia,0.4941977262496948
+Noble_left.csv,title,maria of loon-heinsberg,BasketballTeam_right,title,helsinki seagulls,0.48953455686569214
+Noble_left.csv,title,arnold i of astarac,BasketballTeam_right,title,ment b.c.,0.48901039361953735
+Noble_left.csv,title,maria of bulgaria,BasketballTeam_right,title,galatasaray s.k. (wheelchair basketball),0.48842358589172363
+Noble_left.csv,title,"thomas de berkeley, 5th baron berkeley",BasketballTeam_right,title,icbs b.c.,0.4884050488471985
+Noble_left.csv,title,marianna lubomirska,BasketballTeam_right,title,galatasaray medical park (women's basketball),0.4843927025794983
+Noble_left.csv,title,amaury vi of montfort,BasketballTeam_right,title,olympiada patras bc,0.47620612382888794
+Noble_left.csv,title,lady cai,BasketballTeam_right,title,shenzhen leopards,0.47577086091041565
+Noble_left.csv,title,ottone visconti,BasketballTeam_right,title,stella artois leuven bears,0.47259026765823364
+Noble_left.csv,title,edward burgh,BasketballTeam_right,title,paws london capital,0.4710630178451538
+Noble_left.csv,title,jerzy sebastian lubomirski,BasketballTeam_right,title,jalaa sc (men's basketball),0.4702076017856598
+Noble_left.csv,title,zinaida yusupova,BasketballTeam_right,title,goyang orion orions,0.467048704624176
+Noble_left.csv,title,"francesco iv gonzaga, duke of mantua",BasketballTeam_right,title,u.d. oliveirense (basketball),0.46586769819259644
+Noble_left.csv,title,bernardine of lippe,BasketballTeam_right,title,liaoning flying leopards,0.4658203721046448
+Noble_left.csv,title,pedro madruga,BasketballTeam_right,title,mens sana 1871 basket,0.46480607986450195
+Noble_left.csv,title,siraj ud-daulah,BasketballTeam_right,title,pbc ural great,0.46406811475753784
+Noble_left.csv,title,jutta of thuringia,BasketballTeam_right,title,trikala 2000 b.c.,0.4606705904006958
+Noble_left.csv,title,robert sheffield,BasketballTeam_right,title,surrey scorchers,0.45970743894577026
+Noble_left.csv,title,thomas neville,BasketballTeam_right,title,leeds force,0.45935362577438354
+Noble_left.csv,title,anthony kingston,BasketballTeam_right,title,logan thunder (wnbl),0.45827674865722656
+Noble_left.csv,title,eleanor beauchamp,BasketballTeam_right,title,mississauga power,0.45765966176986694
+Noble_left.csv,title,william fitz giroie,BasketballTeam_right,title,cheshire jets,0.45539620518684387
+Noble_left.csv,title,george van lalaing,BasketballTeam_right,title,bunbury slammers,0.45340976119041443
+Noble_left.csv,title,ignacy potocki,BasketballTeam_right,title,p.a.o.k. bc,0.4532775282859802
+Noble_left.csv,title,grzegorz branicki,BasketballTeam_right,title,g.s. fiat,0.45255908370018005
+Noble_left.csv,title,karol ferdynand vasa,BasketballTeam_right,title,galatasaray wheelchair basketball team,0.452254980802536
+Noble_left.csv,title,haji hassan khan,BasketballTeam_right,title,omaha racers,0.4512019157409668
+Noble_left.csv,title,adelaide del vasto,BasketballTeam_right,title,melbourne boomers,0.44726109504699707
+Noble_left.csv,title,safdarjung,BasketballTeam_right,title,sports rev thailand slammers,0.4466581344604492
+Noble_left.csv,title,"elizabeth tilney, countess of surrey",BasketballTeam_right,title,surrey united (basketball),0.4448296129703522
+Noble_left.csv,title,geoffrey boucicaut,BasketballTeam_right,title,sporting bc,0.4430059790611267
+Noble_left.csv,title,"maurice de berkeley, 4th baron berkeley",BasketballTeam_right,title,university of canberra capitals,0.44143056869506836
+Noble_left.csv,title,tuoba fu,BasketballTeam_right,title,fubon braves basketball team,0.4404093027114868
+Noble_left.csv,title,niklot,BasketballTeam_right,title,otago nuggets,0.4388742446899414
+Noble_left.csv,title,janja kantakouzenos,BasketballTeam_right,title,pbc lokomotiv-kuban,0.4356938898563385
+Noble_left.csv,title,rostislav mikhailovich,BasketballTeam_right,title,galatasaray s.k. (men's basketball),0.4347586929798126
+Noble_left.csv,title,mary woodville,BasketballTeam_right,title,oklahoma city blue,0.43230247497558594
+Noble_left.csv,title,hotula khan,BasketballTeam_right,title,guildford heat,0.4317159652709961
+Noble_left.csv,title,sigurd the stout,BasketballTeam_right,title,fujian sturgeons,0.42941755056381226
+Noble_left.csv,title,uhtred (derbyshire ealdorman),BasketballTeam_right,title,ayrshire tornadoes,0.4266203045845032
+Noble_left.csv,title,vsevolod the big nest,BasketballTeam_right,title,gent hawks,0.4265258312225342
+Noble_left.csv,title,adam karol czartoryski,BasketballTeam_right,title,al rayan sc basketball team,0.4217498302459717
+Noble_left.csv,title,eth geregye,BasketballTeam_right,title,hi-tech bangkok city,0.4170519709587097
+Noble_left.csv,title,hercules underhill,BasketballTeam_right,title,dumbarton dodgers,0.40726351737976074
+Noble_left.csv,title,"ramon berenguer ii, count of barcelona",BasketballTeam_right,title,fc porto (basketball),0.40574389696121216
+Noble_left.csv,title,marcin kazanowski,BasketballTeam_right,title,bristol flyers,0.4011423587799072
+Noble_left.csv,title,francis englefield,BasketballTeam_right,title,delaware 87ers,0.39599406719207764
+Noble_left.csv,title,isaac arnauld,BasketballTeam_right,title,orangeville a's,0.3934825658798218
+Noble_left.csv,title,mark bridges,BasketballTeam_right,title,charlotte hornets,0.3852543234825134
+Noble_left.csv,title,peter losha,BasketballTeam_right,title,new orleans pelicans,0.3827527165412903
+Noble_left.csv,title,duke gong of cao,BasketballTeam_right,title,south china aa (basketball),0.3790591359138489
+Noble_left.csv,title,"adam de gordon, lord of gordon",BasketballTeam_right,title,austin spurs,0.37793609499931335
+Noble_left.csv,title,rivallo iv of brittany,BasketballTeam_right,title,kent crusaders (basketball),0.3613913953304291
+Noble_left.csv,title,marcin kalinowski,BasketballTeam_right,title,brooklyn kings (basketball),0.34571605920791626

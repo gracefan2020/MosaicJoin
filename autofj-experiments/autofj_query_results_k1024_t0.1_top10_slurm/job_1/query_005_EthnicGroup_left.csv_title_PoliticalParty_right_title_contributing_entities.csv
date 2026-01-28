@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+EthnicGroup_left.csv,title,antankarana,PoliticalParty_right,title,antarsya,0.868606448173523
+EthnicGroup_left.csv,title,kurds in iraq,PoliticalParty_right,title,kurdistan islamic movement,0.8183806538581848
+EthnicGroup_left.csv,title,serbs of bosnia and herzegovina,PoliticalParty_right,title,bosnian movement of national pride,0.8047530055046082
+EthnicGroup_left.csv,title,spanish chilean,PoliticalParty_right,title,alianza por chile,0.7930063009262085
+EthnicGroup_left.csv,title,kurds of khorasan,PoliticalParty_right,title,kurdistan islamic group,0.7884291410446167
+EthnicGroup_left.csv,title,first nations,PoliticalParty_right,title,the first nations political party,0.7878804206848145
+EthnicGroup_left.csv,title,mahar,PoliticalParty_right,title,mahazamili,0.7782497406005859
+EthnicGroup_left.csv,title,russians in lithuania,PoliticalParty_right,title,latvian russian union,0.7767030596733093
+EthnicGroup_left.csv,title,paswan,PoliticalParty_right,title,pasban pakistan,0.7758369445800781
+EthnicGroup_left.csv,title,iraqis in syria,PoliticalParty_right,title,muslim brotherhood in syria,0.7747234106063843
+EthnicGroup_left.csv,title,new zealand european,PoliticalParty_right,title,new zealand republic,0.7734807729721069
+EthnicGroup_left.csv,title,hungarian people,PoliticalParty_right,title,party of the hungarian community,0.7695860862731934
+EthnicGroup_left.csv,title,lao ti,PoliticalParty_right,title,can lao party,0.7648353576660156
+EthnicGroup_left.csv,title,shaikh of bihar,PoliticalParty_right,title,samruddha odisha,0.7630068063735962
+EthnicGroup_left.csv,title,bosniaks of serbia,PoliticalParty_right,title,serb democratic party (bosnia and herzegovina),0.7608883380889893
+EthnicGroup_left.csv,title,poles in lithuania,PoliticalParty_right,title,homeland union â lithuanian christian democrats,0.7575852870941162
+EthnicGroup_left.csv,title,koroa,PoliticalParty_right,title,komeito,0.7533692121505737
+EthnicGroup_left.csv,title,palestinians in lebanon,PoliticalParty_right,title,national bloc (lebanon),0.7495214939117432
+EthnicGroup_left.csv,title,egyptians,PoliticalParty_right,title,egypt party,0.7483842372894287
+EthnicGroup_left.csv,title,chamar,PoliticalParty_right,title,chama cha mapinduzi,0.7462221384048462
+EthnicGroup_left.csv,title,americans in pakistan,PoliticalParty_right,title,pakistan awami tehrik,0.7439276576042175
+EthnicGroup_left.csv,title,turahiya,PoliticalParty_right,title,telugu yuvata,0.7411967515945435
+EthnicGroup_left.csv,title,turks in liechtenstein,PoliticalParty_right,title,patriotic union (liechtenstein),0.7404091358184814
+EthnicGroup_left.csv,title,sayyid of uttar pradesh,PoliticalParty_right,title,peoples party of arunachal,0.7387539744377136
+EthnicGroup_left.csv,title,turks in moldova,PoliticalParty_right,title,our moldova alliance,0.7382074594497681
+EthnicGroup_left.csv,title,bosniaks of montenegro,PoliticalParty_right,title,serb list (2006),0.7324768900871277
+EthnicGroup_left.csv,title,palestinians in jordan,PoliticalParty_right,title,third way (palestine),0.7312635183334351
+EthnicGroup_left.csv,title,al-akhdam,PoliticalParty_right,title,al wefaq,0.7302131652832031
+EthnicGroup_left.csv,title,cholanaikkan,PoliticalParty_right,title,chama cha haki na ustawi,0.7295914888381958
+EthnicGroup_left.csv,title,indians in zambia,PoliticalParty_right,title,zambian african national congress,0.7295177578926086
+EthnicGroup_left.csv,title,ukrainians in poland,PoliticalParty_right,title,all-ukrainian union \,0.7290610671043396
+EthnicGroup_left.csv,title,peruvian american,PoliticalParty_right,title,all for peru,0.727989137172699
+EthnicGroup_left.csv,title,iranians in pakistan,PoliticalParty_right,title,iranian reformists,0.7271066904067993
+EthnicGroup_left.csv,title,albanians,PoliticalParty_right,title,albanian national front party,0.7245821952819824
+EthnicGroup_left.csv,title,demographics of libya,PoliticalParty_right,title,arab socialist union (libya),0.7216295599937439
+EthnicGroup_left.csv,title,italians,PoliticalParty_right,title,the right (italy),0.7178525328636169
+EthnicGroup_left.csv,title,macedonians of croatia,PoliticalParty_right,title,macedonian alliance for european integration,0.7148475646972656
+EthnicGroup_left.csv,title,russians in afghanistan,PoliticalParty_right,title,national islamic front of afghanistan,0.7144436240196228
+EthnicGroup_left.csv,title,bulgarians in serbia,PoliticalParty_right,title,national front for the salvation of bulgaria,0.7128362655639648
+EthnicGroup_left.csv,title,shaikh of uttar pradesh,PoliticalParty_right,title,odisha pradesh congress committee,0.7125475406646729
+EthnicGroup_left.csv,title,georgians in israel,PoliticalParty_right,title,georgian dreamâdemocratic georgia,0.7123631834983826
+EthnicGroup_left.csv,title,thondaimandala mudaliar,PoliticalParty_right,title,karshaka thozhilali party,0.7102977633476257
+EthnicGroup_left.csv,title,shan people,PoliticalParty_right,title,shan nationalities league for democracy,0.7077782154083252
+EthnicGroup_left.csv,title,spanish immigration to cuba,PoliticalParty_right,title,cuban liberal movement,0.7047005891799927
+EthnicGroup_left.csv,title,croats of vojvodina,PoliticalParty_right,title,croatian christian democratic party,0.7024828195571899
+EthnicGroup_left.csv,title,haitians in france,PoliticalParty_right,title,union of haitian social democrats,0.6976085901260376
+EthnicGroup_left.csv,title,wenatchi,PoliticalParty_right,title,renziani,0.6961544156074524
+EthnicGroup_left.csv,title,brazilians in portugal,PoliticalParty_right,title,change brazil,0.6953332424163818
+EthnicGroup_left.csv,title,limba people (cameroon),PoliticalParty_right,title,cameroonian national union,0.6952930688858032
+EthnicGroup_left.csv,title,kurds in azerbaijan,PoliticalParty_right,title,communist party of azerbaijan,0.6929203271865845
+EthnicGroup_left.csv,title,iranians in israel,PoliticalParty_right,title,alignment (israel),0.6918969750404358
+EthnicGroup_left.csv,title,yugoslavs in serbia,PoliticalParty_right,title,national party (serbia),0.6910731792449951
+EthnicGroup_left.csv,title,valluvar,PoliticalParty_right,title,valdostan union,0.6908418536186218
+EthnicGroup_left.csv,title,serbs of slovakia,PoliticalParty_right,title,citizens (slovak political party),0.6905089020729065
+EthnicGroup_left.csv,title,armenians in turkey,PoliticalParty_right,title,homeland party (turkey),0.6870061159133911
+EthnicGroup_left.csv,title,beja people,PoliticalParty_right,title,bersatu,0.6868638396263123
+EthnicGroup_left.csv,title,albanians of romania,PoliticalParty_right,title,centre right alliance (romania),0.6866188049316406
+EthnicGroup_left.csv,title,georgian american,PoliticalParty_right,title,the way of georgia,0.686103343963623
+EthnicGroup_left.csv,title,baraba tatar,PoliticalParty_right,title,udar of vitaliy klychko,0.6839447617530823
+EthnicGroup_left.csv,title,peruvian people,PoliticalParty_right,title,national restoration (peru),0.6836278438568115
+EthnicGroup_left.csv,title,mexican people,PoliticalParty_right,title,mexican nationalist front,0.6833616495132446
+EthnicGroup_left.csv,title,dusadh,PoliticalParty_right,title,harakat majd,0.6827592849731445
+EthnicGroup_left.csv,title,americans and canadians in chile,PoliticalParty_right,title,popular unity (chile),0.6813897490501404
+EthnicGroup_left.csv,title,volga germans,PoliticalParty_right,title,russian party,0.6813722848892212
+EthnicGroup_left.csv,title,antambahoaka,PoliticalParty_right,title,otzma yehudit,0.6804908514022827
+EthnicGroup_left.csv,title,russians in venezuela,PoliticalParty_right,title,democratic action (venezuela),0.6802306771278381
+EthnicGroup_left.csv,title,enawene nawe,PoliticalParty_right,title,nidaa tounes,0.6795636415481567
+EthnicGroup_left.csv,title,mongols,PoliticalParty_right,title,mongolian people's revolutionary party (2010-),0.6771101951599121
+EthnicGroup_left.csv,title,russians in chile,PoliticalParty_right,title,radical democracy (chile),0.6759371757507324
+EthnicGroup_left.csv,title,italians in germany,PoliticalParty_right,title,the union (italy),0.6754429340362549
+EthnicGroup_left.csv,title,greeks in the republic of macedonia,PoliticalParty_right,title,action (greece),0.6738892793655396
+EthnicGroup_left.csv,title,iranian kuwaitis,PoliticalParty_right,title,kurdistan democratic party (iran),0.6726247072219849
+EthnicGroup_left.csv,title,dominican argentine,PoliticalParty_right,title,broad front (dominican republic),0.671951949596405
+EthnicGroup_left.csv,title,baltic finns,PoliticalParty_right,title,finns party,0.6699607372283936
+EthnicGroup_left.csv,title,armenians in hungary,PoliticalParty_right,title,together (hungary),0.6692079305648804
+EthnicGroup_left.csv,title,"kolka, latvia",PoliticalParty_right,title,all for latvia!,0.6687697172164917
+EthnicGroup_left.csv,title,indians in bangladesh,PoliticalParty_right,title,bangladesh krishak sramik awami league,0.6674785017967224
+EthnicGroup_left.csv,title,kola norwegians,PoliticalParty_right,title,vlaams nationaal verbond,0.664770245552063
+EthnicGroup_left.csv,title,nepalese people of indian ancestry,PoliticalParty_right,title,bahujan samaj party of nepal,0.6645311713218689
+EthnicGroup_left.csv,title,iraqis in the united arab emirates,PoliticalParty_right,title,al islah (united arab emirates),0.6644020676612854
+EthnicGroup_left.csv,title,swedes,PoliticalParty_right,title,liberals (sweden),0.6619383692741394
+EthnicGroup_left.csv,title,list of canadian shia muslims,PoliticalParty_right,title,shia ulema council,0.6616643667221069
+EthnicGroup_left.csv,title,serbs in hungary,PoliticalParty_right,title,hungarian workers' party,0.6612755656242371
+EthnicGroup_left.csv,title,ghanaian people,PoliticalParty_right,title,progressive people's party (ghana),0.6609423160552979
+EthnicGroup_left.csv,title,lebanese people,PoliticalParty_right,title,lebanese option party,0.6604417562484741
+EthnicGroup_left.csv,title,hong kong people,PoliticalParty_right,title,liberal democratic foundation of hong kong,0.660094141960144
+EthnicGroup_left.csv,title,turks in tunisia,PoliticalParty_right,title,berber arouch citizens' movement,0.6586291790008545
+EthnicGroup_left.csv,title,chinese people in iran,PoliticalParty_right,title,council of nationalist-religious activists of iran,0.6568477153778076
+EthnicGroup_left.csv,title,igbo people in jamaica,PoliticalParty_right,title,national democratic movement (jamaica),0.6558125019073486
+EthnicGroup_left.csv,title,spanish immigration to puerto rico,PoliticalParty_right,title,popular democratic party of puerto rico,0.6547501683235168
+EthnicGroup_left.csv,title,iraqis in lebanon,PoliticalParty_right,title,ba'ath party (syrian-led faction),0.6547238826751709
+EthnicGroup_left.csv,title,janjevci,PoliticalParty_right,title,onafhankelijke burger partij,0.6534824371337891
+EthnicGroup_left.csv,title,gabol,PoliticalParty_right,title,gerb,0.6531580090522766
+EthnicGroup_left.csv,title,kassena,PoliticalParty_right,title,direktdemokraterna,0.650826096534729
+EthnicGroup_left.csv,title,coloured people in namibia,PoliticalParty_right,title,dta of namibia,0.6506962776184082
+EthnicGroup_left.csv,title,armenians in ukraine,PoliticalParty_right,title,for united ukraine!,0.6494177579879761
+EthnicGroup_left.csv,title,limba people (sierra leone),PoliticalParty_right,title,guinean people's assembly,0.6484785676002502
+EthnicGroup_left.csv,title,barai (caste),PoliticalParty_right,title,jatiya party (ershad),0.6478977799415588
+EthnicGroup_left.csv,title,uriankhai,PoliticalParty_right,title,drassi,0.6464992761611938
+EthnicGroup_left.csv,title,tamil south africans,PoliticalParty_right,title,tamil nadu toilers' party,0.6459038257598877
+EthnicGroup_left.csv,title,serbs in austria,PoliticalParty_right,title,fatherland front (austria),0.6438630819320679
+EthnicGroup_left.csv,title,salvadorans,PoliticalParty_right,title,christian democratic party (el salvador),0.6425201892852783
+EthnicGroup_left.csv,title,rohilla,PoliticalParty_right,title,ratnik,0.6420818567276001
+EthnicGroup_left.csv,title,germans of croatia,PoliticalParty_right,title,croatian workers party,0.6413851976394653
+EthnicGroup_left.csv,title,cambodian australian,PoliticalParty_right,title,cambodia national rescue party,0.640468418598175
+EthnicGroup_left.csv,title,chilean canadian,PoliticalParty_right,title,alianza (chile),0.6393466591835022
+EthnicGroup_left.csv,title,french canadian,PoliticalParty_right,title,french party,0.6391361355781555
+EthnicGroup_left.csv,title,black people in ireland,PoliticalParty_right,title,people's democracy (ireland),0.6385446786880493
+EthnicGroup_left.csv,title,brazilian people,PoliticalParty_right,title,socialist people's party (brazil),0.6383509635925293
+EthnicGroup_left.csv,title,pakistanis in the middle east,PoliticalParty_right,title,jamaat-e-islami pakistan,0.6381343007087708
+EthnicGroup_left.csv,title,sayyid of gujarat,PoliticalParty_right,title,republican party of india (a),0.637954831123352
+EthnicGroup_left.csv,title,pakistanis in iran,PoliticalParty_right,title,mojahedin of the islamic revolution of iran organization,0.6352170705795288
+EthnicGroup_left.csv,title,jubur,PoliticalParty_right,title,jumhooree party,0.6345103979110718
+EthnicGroup_left.csv,title,turks in azerbaijan,PoliticalParty_right,title,social democratic party of azerbaijan,0.6344780921936035
+EthnicGroup_left.csv,title,germans of romania,PoliticalParty_right,title,christian social union of bavaria,0.6329495906829834
+EthnicGroup_left.csv,title,greeks in russia and the soviet union,PoliticalParty_right,title,hellenic socialist patriotic organisation,0.6324692964553833
+EthnicGroup_left.csv,title,koreans in japan,PoliticalParty_right,title,new people's party of korea,0.6309974789619446
+EthnicGroup_left.csv,title,komi peoples,PoliticalParty_right,title,new komeito party,0.6301335096359253
+EthnicGroup_left.csv,title,marwari,PoliticalParty_right,title,mahila congress,0.6300768852233887
+EthnicGroup_left.csv,title,albanians in serbia,PoliticalParty_right,title,serbian radical party of republika srpska,0.6293282508850098
+EthnicGroup_left.csv,title,altai uriankhai,PoliticalParty_right,title,herri alderdi sozialista iraultzailea,0.6293245553970337
+EthnicGroup_left.csv,title,abdal (caste),PoliticalParty_right,title,pakhtunkhwa milli awami party,0.6276071071624756
+EthnicGroup_left.csv,title,british peruvian,PoliticalParty_right,title,national restoration party (peru),0.6273782253265381
+EthnicGroup_left.csv,title,muslim dhagi,PoliticalParty_right,title,nizam-e-islam party,0.6273077130317688
+EthnicGroup_left.csv,title,palestinian people,PoliticalParty_right,title,green movement (israel),0.6253618001937866
+EthnicGroup_left.csv,title,bukitan people,PoliticalParty_right,title,singapore justice party,0.6246793866157532
+EthnicGroup_left.csv,title,bosnian austrians,PoliticalParty_right,title,solidary poland,0.6232048273086548
+EthnicGroup_left.csv,title,russians in turkey,PoliticalParty_right,title,people's front for russia,0.6230627298355103
+EthnicGroup_left.csv,title,indian diaspora in east africa,PoliticalParty_right,title,pan-african patriotic convergence,0.6223494410514832
+EthnicGroup_left.csv,title,americans in japan,PoliticalParty_right,title,spirit of japan party,0.6217310428619385
+EthnicGroup_left.csv,title,afghans in tajikistan,PoliticalParty_right,title,democratic watan party of afghanistan,0.621506929397583
+EthnicGroup_left.csv,title,italian tunisians,PoliticalParty_right,title,moderates (italy),0.6211551427841187
+EthnicGroup_left.csv,title,cape verdeans in senegal,PoliticalParty_right,title,ecologist party of mali,0.6192220449447632
+EthnicGroup_left.csv,title,halenadu karnataka brahmin,PoliticalParty_right,title,pondicherry pradesh congress committee,0.6186053156852722
+EthnicGroup_left.csv,title,isaaq,PoliticalParty_right,title,islamic liberation front of patani,0.6181288957595825
+EthnicGroup_left.csv,title,cohonina,PoliticalParty_right,title,gabriela women's party,0.617321789264679
+EthnicGroup_left.csv,title,senoi,PoliticalParty_right,title,segni pact,0.6172201633453369
+EthnicGroup_left.csv,title,history of the jews in burma,PoliticalParty_right,title,national unity party (myanmar),0.6154561638832092
+EthnicGroup_left.csv,title,kurds in germany,PoliticalParty_right,title,christian democratic union of germany,0.6150274276733398
+EthnicGroup_left.csv,title,chinese caribbean,PoliticalParty_right,title,"the frontier (hong kong, 2010)",0.6149461269378662
+EthnicGroup_left.csv,title,filipinos in libya,PoliticalParty_right,title,justice and development party (libya),0.613767147064209
+EthnicGroup_left.csv,title,sudeten germans,PoliticalParty_right,title,statt party (germany),0.6136131286621094
+EthnicGroup_left.csv,title,uru-eu-wau-wau,PoliticalParty_right,title,eh bildu,0.6134884357452393
+EthnicGroup_left.csv,title,armenians in mexico,PoliticalParty_right,title,nationalist front of mexico,0.6130279898643494
+EthnicGroup_left.csv,title,turks in finland,PoliticalParty_right,title,communist party of finland (1994),0.6120175719261169
+EthnicGroup_left.csv,title,palestinians in pakistan,PoliticalParty_right,title,national peoples party (pakistan),0.6104820966720581
+EthnicGroup_left.csv,title,makoa,PoliticalParty_right,title,maurin kiribati party,0.6090995073318481
+EthnicGroup_left.csv,title,indians in barbados,PoliticalParty_right,title,people's empowerment party (barbados),0.6089502573013306
+EthnicGroup_left.csv,title,greeks in south africa,PoliticalParty_right,title,social agreement (greece),0.6085838079452515
+EthnicGroup_left.csv,title,romanian canadian,PoliticalParty_right,title,liberal party of moldova,0.6065182685852051
+EthnicGroup_left.csv,title,afro iraqis,PoliticalParty_right,title,the iraqis (party),0.6064950227737427
+EthnicGroup_left.csv,title,franco-albertan,PoliticalParty_right,title,girondins,0.6059608459472656
+EthnicGroup_left.csv,title,arabs in france,PoliticalParty_right,title,popular movement (morocco),0.6057324409484863
+EthnicGroup_left.csv,title,holikachuk people,PoliticalParty_right,title,radical party of oleh lyashko,0.6045535206794739
+EthnicGroup_left.csv,title,chaptico,PoliticalParty_right,title,synaspismos,0.6030166149139404
+EthnicGroup_left.csv,title,lurs,PoliticalParty_right,title,lusatian alliance,0.6029489040374756
+EthnicGroup_left.csv,title,koreans in thailand,PoliticalParty_right,title,workers' party of south korea,0.6024928092956543
+EthnicGroup_left.csv,title,griko people,PoliticalParty_right,title,groenlinks,0.6014101505279541
+EthnicGroup_left.csv,title,irish migration to great britain,PoliticalParty_right,title,conservatives in northern ireland,0.6010758876800537
+EthnicGroup_left.csv,title,kaifeng jews,PoliticalParty_right,title,revolutionary committee of the chinese kuomintang,0.5993775129318237
+EthnicGroup_left.csv,title,filipinos in south africa,PoliticalParty_right,title,people's progressive alliance (sint maarten),0.5992190837860107
+EthnicGroup_left.csv,title,indigenous peoples in ecuador,PoliticalParty_right,title,ecologist party (chile),0.5991855263710022
+EthnicGroup_left.csv,title,british nigerian,PoliticalParty_right,title,action congress of nigeria,0.5988587141036987
+EthnicGroup_left.csv,title,belarusian american,PoliticalParty_right,title,united civil party of belarus,0.5983531475067139
+EthnicGroup_left.csv,title,history of the jews in scotland,PoliticalParty_right,title,scottish republican socialist movement,0.5982511043548584
+EthnicGroup_left.csv,title,tswana people,PoliticalParty_right,title,mels movement of botswana,0.5968624353408813
+EthnicGroup_left.csv,title,baghdadi jews,PoliticalParty_right,title,ba'ath party (iraqi-led faction),0.5965160131454468
+EthnicGroup_left.csv,title,singaporeans in india,PoliticalParty_right,title,"socialist front (singapore, 2010)",0.5949945449829102
+EthnicGroup_left.csv,title,armenians in the czech republic,PoliticalParty_right,title,national democracy (czechoslovakia),0.5944348573684692
+EthnicGroup_left.csv,title,gros ventre people,PoliticalParty_right,title,les verts fraternels,0.5937997102737427
+EthnicGroup_left.csv,title,history of the jews in bahrain,PoliticalParty_right,title,al-islah (yemen),0.5935037136077881
+EthnicGroup_left.csv,title,lombards of sicily,PoliticalParty_right,title,middle italy (political party),0.5933890342712402
+EthnicGroup_left.csv,title,swedish iraqis,PoliticalParty_right,title,nordic resistance movement,0.5930478572845459
+EthnicGroup_left.csv,title,italo-venezuelans,PoliticalParty_right,title,movimiento libertario,0.5924291610717773
+EthnicGroup_left.csv,title,kazakhs,PoliticalParty_right,title,soyuz (political party),0.5923628807067871
+EthnicGroup_left.csv,title,lipka tatars,PoliticalParty_right,title,ukrainian socialist revolutionary party,0.5904380083084106
+EthnicGroup_left.csv,title,monguor people,PoliticalParty_right,title,rally for the monegasque family,0.5896244645118713
+EthnicGroup_left.csv,title,pamlico,PoliticalParty_right,title,syriza,0.5895273089408875
+EthnicGroup_left.csv,title,bedoun,PoliticalParty_right,title,udeur populars,0.5887348651885986
+EthnicGroup_left.csv,title,danes,PoliticalParty_right,title,redâgreen alliance (denmark),0.5885711908340454
+EthnicGroup_left.csv,title,sadaat-e-bilgram,PoliticalParty_right,title,arab socialist revolutionary ba'ath party,0.5873449444770813
+EthnicGroup_left.csv,title,bangladeshi canadian,PoliticalParty_right,title,active citizenship,0.5870530009269714
+EthnicGroup_left.csv,title,turkish cypriots,PoliticalParty_right,title,social democracy party (turkey),0.586885929107666
+EthnicGroup_left.csv,title,spaniards in france,PoliticalParty_right,title,"national front (spain, 2006)",0.5858546495437622
+EthnicGroup_left.csv,title,montenegrins,PoliticalParty_right,title,liberal democratic party (serbia),0.5854227542877197
+EthnicGroup_left.csv,title,italian australian,PoliticalParty_right,title,now! (italy),0.5848919153213501
+EthnicGroup_left.csv,title,italian somalis,PoliticalParty_right,title,italy. common good,0.5846189260482788
+EthnicGroup_left.csv,title,derung people,PoliticalParty_right,title,de grã¸nne,0.5833647847175598
+EthnicGroup_left.csv,title,bali aga,PoliticalParty_right,title,chart pattana party (2007),0.5829105377197266
+EthnicGroup_left.csv,title,macedonians (greeks),PoliticalParty_right,title,patriotic alliance (greece),0.582779586315155
+EthnicGroup_left.csv,title,italian egyptians,PoliticalParty_right,title,the olive tree (italy),0.5820885300636292
+EthnicGroup_left.csv,title,muslim barhai,PoliticalParty_right,title,islamist coalition,0.5818349719047546
+EthnicGroup_left.csv,title,maltese in gibraltar,PoliticalParty_right,title,liberal party of gibraltar,0.5808298587799072
+EthnicGroup_left.csv,title,malayali,PoliticalParty_right,title,pondicherry munnetra congress,0.5806685090065002
+EthnicGroup_left.csv,title,iipay nation of santa ysabel,PoliticalParty_right,title,rwandese national union,0.5798949599266052
+EthnicGroup_left.csv,title,ambelau people,PoliticalParty_right,title,alsace first,0.5778617858886719
+EthnicGroup_left.csv,title,bihari muslims,PoliticalParty_right,title,socialist janata (democratic) party,0.5771594047546387
+EthnicGroup_left.csv,title,indians in japan,PoliticalParty_right,title,sunrise party of japan,0.576509952545166
+EthnicGroup_left.csv,title,south african australian,PoliticalParty_right,title,south african labour party,0.5764504075050354
+EthnicGroup_left.csv,title,cham albanians,PoliticalParty_right,title,chaldean democratic union party,0.5761850476264954

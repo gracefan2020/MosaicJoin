@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+NaturalEvent_left.csv,title,2010 serbia earthquake,Museum_right,title,archive of serbia,0.6606500744819641
+NaturalEvent_left.csv,title,1880 zagreb earthquake,Museum_right,title,archaeological museum in zagreb,0.6531960964202881
+NaturalEvent_left.csv,title,2010 canterbury earthquake,Museum_right,title,canterbury heritage museum,0.6512347459793091
+NaturalEvent_left.csv,title,1732 montreal earthquake,Museum_right,title,moncton museum,0.6441986560821533
+NaturalEvent_left.csv,title,2010 oaxaca earthquake,Museum_right,title,site santa fe,0.6335111260414124
+NaturalEvent_left.csv,title,1509 istanbul earthquake,Museum_right,title,tzistarakis mosque,0.6059085130691528
+NaturalEvent_left.csv,title,2012 east azerbaijan earthquakes,Museum_right,title,national museum of history of azerbaijan,0.5977404117584229
+NaturalEvent_left.csv,title,1920 haiyuan earthquake,Museum_right,title,hainan museum,0.5862946510314941
+NaturalEvent_left.csv,title,1869 christchurch earthquake,Museum_right,title,wellington museum,0.5633965730667114
+NaturalEvent_left.csv,title,1985 mexico city earthquake,Museum_right,title,popular art museum (mexico city),0.5621526837348938
+NaturalEvent_left.csv,title,1887 sonora earthquake,Museum_right,title,albuquerque museum of art and history,0.5617042779922485
+NaturalEvent_left.csv,title,1570 ferrara earthquake,Museum_right,title,international museum and library of bologna,0.5602210760116577
+NaturalEvent_left.csv,title,1931 valentine earthquake,Museum_right,title,the valentine,0.5570043325424194
+NaturalEvent_left.csv,title,1931 myitkyina earthquake,Museum_right,title,ukrainian national chernobyl museum,0.5517615079879761
+NaturalEvent_left.csv,title,2000 baku earthquake,Museum_right,title,azerbaijan state museum of art,0.5516933798789978
+NaturalEvent_left.csv,title,1945 mikawa earthquake,Museum_right,title,japan coast guard museum yokohama,0.5477426052093506
+NaturalEvent_left.csv,title,1906 swansea earthquake,Museum_right,title,addington long barrow,0.547417163848877
+NaturalEvent_left.csv,title,1931 zangezur earthquake,Museum_right,title,zigler museum,0.5409131050109863
+NaturalEvent_left.csv,title,1998 ninglang earthquake,Museum_right,title,nantong museum,0.5409083962440491
+NaturalEvent_left.csv,title,2010 central canada earthquake,Museum_right,title,canadian museum of history,0.5400484204292297
+NaturalEvent_left.csv,title,2006 gulf of mexico earthquake,Museum_right,title,gulf coast exploreum,0.5394144058227539
+NaturalEvent_left.csv,title,1897 assam earthquake,Museum_right,title,dakshinachitra,0.5373257398605347
+NaturalEvent_left.csv,title,july 2010 iran earthquake,Museum_right,title,tehran peace museum,0.5363540053367615
+NaturalEvent_left.csv,title,2012 shwebo earthquake,Museum_right,title,cape town science centre,0.5351408123970032
+NaturalEvent_left.csv,title,1963 skopje earthquake,Museum_right,title,"railway museum, belgrade",0.53291255235672
+NaturalEvent_left.csv,title,1903 malazgirt earthquake,Museum_right,title,national emergency services museum,0.5319443941116333
+NaturalEvent_left.csv,title,1865 memphis earthquake,Museum_right,title,american civil war museum,0.5318719148635864
+NaturalEvent_left.csv,title,1954 adelaide earthquake,Museum_right,title,"national railway museum, port adelaide",0.531665027141571
+NaturalEvent_left.csv,title,1888 north canterbury earthquake,Museum_right,title,canterbury roman museum,0.5313061475753784
+NaturalEvent_left.csv,title,1667 dubrovnik earthquake,Museum_right,title,svrzo house,0.5311726331710815
+NaturalEvent_left.csv,title,1848 marlborough earthquake,Museum_right,title,wiltshire museum,0.5301336646080017
+NaturalEvent_left.csv,title,1925 santa barbara earthquake,Museum_right,title,"university art museum, santa barbara",0.5288922786712646
+NaturalEvent_left.csv,title,1974 zhaotong earthquake,Museum_right,title,lu xun museum,0.5272500514984131
+NaturalEvent_left.csv,title,1906 meishan earthquake,Museum_right,title,shanghai auto museum,0.5268628597259521
+NaturalEvent_left.csv,title,1812 wrightwood earthquake,Museum_right,title,oak hall (niagara falls),0.5255643725395203
+NaturalEvent_left.csv,title,1117 verona earthquake,Museum_right,title,museo delle culture,0.5248837471008301
+NaturalEvent_left.csv,title,1909 borujerd earthquake,Museum_right,title,swedish history museum,0.524660587310791
+NaturalEvent_left.csv,title,1969 portugal earthquake,Museum_right,title,soares dos reis national museum,0.5242502689361572
+NaturalEvent_left.csv,title,1927 crimean earthquakes,Museum_right,title,national museum of the history of ukraine,0.5236229300498962
+NaturalEvent_left.csv,title,1953 suva earthquake,Museum_right,title,satriamandala museum,0.5223491787910461
+NaturalEvent_left.csv,title,1933 baffin bay earthquake,Museum_right,title,brunswick heritage museum,0.5217591524124146
+NaturalEvent_left.csv,title,2001 gujarat earthquake,Museum_right,title,goa science center,0.5199629068374634
+NaturalEvent_left.csv,title,1905 calabria earthquake,Museum_right,title,house of carlo goldoni,0.5185250043869019
+NaturalEvent_left.csv,title,1857 fort tejon earthquake,Museum_right,title,old fort erie,0.5182721018791199
+NaturalEvent_left.csv,title,1647 santiago earthquake,Museum_right,title,la casa de la ciencia de sevilla - science museum,0.5153243541717529
+NaturalEvent_left.csv,title,1917 bali earthquake,Museum_right,title,yogyakarta fortress museum,0.5145624876022339
+NaturalEvent_left.csv,title,1907 kingston earthquake,Museum_right,title,steamtown peterborough railway preservation society,0.511120080947876
+NaturalEvent_left.csv,title,1611 keicho sanriku earthquake,Museum_right,title,"museum of folk architecture, sanok",0.5105199813842773
+NaturalEvent_left.csv,title,2012 yangzhou earthquake,Museum_right,title,quanzhou maritime museum,0.5085487961769104
+NaturalEvent_left.csv,title,2008 iceland earthquake,Museum_right,title,nordlandsmuseet,0.5082534551620483
+NaturalEvent_left.csv,title,2000 kipawa earthquake,Museum_right,title,muzeum budownictwa ludowego w sanoku,0.5080496072769165
+NaturalEvent_left.csv,title,2012 gippsland earthquake,Museum_right,title,scienceworks (melbourne),0.5080216526985168
+NaturalEvent_left.csv,title,1989 malawi earthquake,Museum_right,title,"railway museum (livingstone, zambia)",0.5077512264251709
+NaturalEvent_left.csv,title,893 ardabil earthquake,Museum_right,title,national archaeological museum aruba,0.506824254989624
+NaturalEvent_left.csv,title,1894 meiji tokyo earthquake,Museum_right,title,toyohashi city museum art and history,0.5066825151443481
+NaturalEvent_left.csv,title,2011 colorado earthquake,Museum_right,title,fort collins museum of discovery,0.5043166875839233
+NaturalEvent_left.csv,title,1892 recreo earthquake,Museum_right,title,national museum of capodimonte,0.5041713714599609
+NaturalEvent_left.csv,title,464 bc sparta earthquake,Museum_right,title,caerleon roman fortress and baths,0.5035347938537598
+NaturalEvent_left.csv,title,1755 cape ann earthquake,Museum_right,title,naval museum of halifax,0.5029503107070923
+NaturalEvent_left.csv,title,2005 kashmir earthquake,Museum_right,title,srimanta sankardev kalakshetra,0.5020337700843811
+NaturalEvent_left.csv,title,1797 sumatra earthquake,Museum_right,title,museum of fine arts and ceramics (jakarta),0.5010613203048706
+NaturalEvent_left.csv,title,1979 montenegro earthquake,Museum_right,title,national museum of history of moldova,0.5003674030303955
+NaturalEvent_left.csv,title,1992 cairo earthquake,Museum_right,title,sazmanab center for contemporary art,0.49918705224990845
+NaturalEvent_left.csv,title,2006 borujerd earthquake,Museum_right,title,nederlands spoorwegmuseum,0.4986160397529602
+NaturalEvent_left.csv,title,1641 caracas earthquake,Museum_right,title,museo nacional de arte,0.4981643557548523
+NaturalEvent_left.csv,title,1290 chihli earthquake,Museum_right,title,koshare indian museum and dancers,0.4964543879032135
+NaturalEvent_left.csv,title,62 pompeii earthquake,Museum_right,title,national roman museum,0.49592170119285583
+NaturalEvent_left.csv,title,1969 bohai earthquake,Museum_right,title,bhau daji lad museum,0.49479782581329346
+NaturalEvent_left.csv,title,1970 gediz earthquake,Museum_right,title,hamburg museum,0.49386268854141235
+NaturalEvent_left.csv,title,1356 basel earthquake,Museum_right,title,museum of fine arts bern,0.4926680028438568
+NaturalEvent_left.csv,title,2008 damxung earthquake,Museum_right,title,national gallery singapore,0.490997314453125
+NaturalEvent_left.csv,title,1913 asmara earthquake,Museum_right,title,"archaeological and art museum, thrissur",0.4897204041481018
+NaturalEvent_left.csv,title,1863 jujuy earthquake,Museum_right,title,civil war and underground railroad museum of philadelphia,0.4895235300064087
+NaturalEvent_left.csv,title,1969 santa rosa earthquakes,Museum_right,title,museum of monterey,0.4895073473453522
+NaturalEvent_left.csv,title,551 beirut earthquake,Museum_right,title,om kalthoum museum,0.489353209733963
+NaturalEvent_left.csv,title,1952 hasankale earthquake,Museum_right,title,jenderal besar dr. abdul haris nasution museum,0.48756715655326843
+NaturalEvent_left.csv,title,1755 lisbon earthquake,Museum_right,title,design museum of barcelona,0.48739176988601685
+NaturalEvent_left.csv,title,2007 martinique earthquake,Museum_right,title,maison gabrielle-roy,0.48611190915107727
+NaturalEvent_left.csv,title,1938 banda sea earthquake,Museum_right,title,korea national maritime museum,0.4853851795196533
+NaturalEvent_left.csv,title,1940 new hampshire earthquake,Museum_right,title,amherst museum,0.48523175716400146
+NaturalEvent_left.csv,title,1590 neulengbach earthquake,Museum_right,title,stibbert museum,0.483431339263916
+NaturalEvent_left.csv,title,1929 grand banks earthquake,Museum_right,title,grand rapids public museum,0.4832216799259186
+NaturalEvent_left.csv,title,1911 kikai island earthquake,Museum_right,title,gitwangak battle hill national historic site,0.4820159077644348
+NaturalEvent_left.csv,title,1810 crete earthquake,Museum_right,title,leventis municipal museum of nicosia,0.48152297735214233
+NaturalEvent_left.csv,title,1580 dover straits earthquake,Museum_right,title,dovery manor museum,0.4812372326850891
+NaturalEvent_left.csv,title,1947 assam earthquake,Museum_right,title,sanskriti kendra museum,0.4808303117752075
+NaturalEvent_left.csv,title,1703 apennine earthquakes,Museum_right,title,museo d'arte antica,0.48055100440979004
+NaturalEvent_left.csv,title,1936 miyagi earthquake,Museum_right,title,"government museum, mathura",0.480526864528656
+NaturalEvent_left.csv,title,1884 colchester earthquake,Museum_right,title,"natural history museum, london",0.47886407375335693
+NaturalEvent_left.csv,title,1948 desert hot springs earthquake,Museum_right,title,hathaway ranch & oil museum,0.47884881496429443
+NaturalEvent_left.csv,title,"solar eclipse of june 3, 2114",Museum_right,title,cosmosphere,0.4788026809692383
+NaturalEvent_left.csv,title,1961 new south wales earthquake,Museum_right,title,australian railway historical society museum,0.4787682890892029
+NaturalEvent_left.csv,title,1978 thessaloniki earthquake,Museum_right,title,albanian national archives,0.47821471095085144
+NaturalEvent_left.csv,title,1946 vancouver island earthquake,Museum_right,title,marconi national historic site of canada,0.4758307933807373
+NaturalEvent_left.csv,title,1996 biak earthquake,Museum_right,title,beneski museum of natural history,0.47410231828689575
+NaturalEvent_left.csv,title,1986 vrancea earthquake,Museum_right,title,ifa gallery,0.4740064740180969
+NaturalEvent_left.csv,title,1783 calabrian earthquakes,Museum_right,title,international museum and library of music of bologna,0.4739473760128021
+NaturalEvent_left.csv,title,1970 tonghai earthquake,Museum_right,title,war remnants museum (ho chi minh city),0.47338157892227173
+NaturalEvent_left.csv,title,1991 kalabahi earthquakes,Museum_right,title,shankardev kalakshetra,0.4705996513366699
+NaturalEvent_left.csv,title,1859 erzurum earthquake,Museum_right,title,emfietzoglou gallery museum,0.470222532749176
+NaturalEvent_left.csv,title,1169 sicily earthquake,Museum_right,title,paleontological and archaeological museum walter ilha,0.46936434507369995
+NaturalEvent_left.csv,title,2012 northern italy earthquakes,Museum_right,title,museo ferrari,0.4688469171524048
+NaturalEvent_left.csv,title,2011 zumpango earthquake,Museum_right,title,suquamish museum,0.46780019998550415
+NaturalEvent_left.csv,title,1979 tumaco earthquake,Museum_right,title,tam museum,0.46718472242355347
+NaturalEvent_left.csv,title,1915 avezzano earthquake,Museum_right,title,national world war i museum and memorial,0.4667596220970154
+NaturalEvent_left.csv,title,1975 haicheng earthquake,Museum_right,title,taiping heavenly kingdom history museum,0.4659038782119751
+NaturalEvent_left.csv,title,1975 lice earthquake,Museum_right,title,lichfield museum,0.46530506014823914
+NaturalEvent_left.csv,title,2008 lincolnshire earthquake,Museum_right,title,the salisbury museum,0.4643106460571289
+NaturalEvent_left.csv,title,2010 salta earthquake,Museum_right,title,strataca,0.4642852544784546
+NaturalEvent_left.csv,title,1786 kangding-luding earthquake,Museum_right,title,lukut fort and museum,0.4632456302642822
+NaturalEvent_left.csv,title,duvall earthquake,Museum_right,title,polk county historical museum (florida),0.463049054145813
+NaturalEvent_left.csv,title,1688 izmir earthquake,Museum_right,title,azerbaijan carpet museum,0.4626929461956024
+NaturalEvent_left.csv,title,1915 pleasant valley earthquake,Museum_right,title,troy historic village,0.4622493386268616
+NaturalEvent_left.csv,title,1940 vrancea earthquake,Museum_right,title,fort vredeburg museum,0.4611791968345642
+NaturalEvent_left.csv,title,1990 bishop's castle earthquake,Museum_right,title,history museum at the castle,0.4609487056732178
+NaturalEvent_left.csv,title,1960 valdivia earthquake,Museum_right,title,jane voorhees zimmerli art museum,0.46005573868751526
+NaturalEvent_left.csv,title,1924 pasinler earthquake,Museum_right,title,pucrs museum of science and technology,0.45964813232421875
+NaturalEvent_left.csv,title,1861 sumatra earthquake,Museum_right,title,national museum of malaysia,0.4591553807258606
+NaturalEvent_left.csv,title,1916 irondale earthquake,Museum_right,title,great north museum: hancock,0.4548857510089874
+NaturalEvent_left.csv,title,1783 new jersey earthquake,Museum_right,title,natural history museum of the adirondacks,0.45476680994033813
+NaturalEvent_left.csv,title,"1867 manhattan, kansas earthquake",Museum_right,title,kentucky coal museum,0.45441603660583496
+NaturalEvent_left.csv,title,2004 morocco earthquake,Museum_right,title,sazmanab,0.4540838599205017
+NaturalEvent_left.csv,title,1992 cape mendocino earthquakes,Museum_right,title,mennello museum of american art,0.45381420850753784
+NaturalEvent_left.csv,title,1909 wabash river earthquake,Museum_right,title,bob bullock texas state history museum,0.4532669186592102
+NaturalEvent_left.csv,title,2011 van earthquake,Museum_right,title,art sonje center,0.4532420039176941
+NaturalEvent_left.csv,title,2012 opunake earthquake,Museum_right,title,mumok,0.4530489146709442
+NaturalEvent_left.csv,title,1914 burdur earthquake,Museum_right,title,blaffer art museum,0.4529702067375183
+NaturalEvent_left.csv,title,1303 crete earthquake,Museum_right,title,museum of folk art and history of pelion,0.452243447303772
+NaturalEvent_left.csv,title,1556 shaanxi earthquake,Museum_right,title,chen clan ancestral hall,0.45091575384140015
+NaturalEvent_left.csv,title,557 constantinople earthquake,Museum_right,title,"art pavilion, zagreb",0.45024123787879944
+NaturalEvent_left.csv,title,1802 vrancea earthquake,Museum_right,title,railgiants train museum,0.44975745677948
+NaturalEvent_left.csv,title,1931 dogger bank earthquake,Museum_right,title,burchfield-penney art center,0.4495677351951599
+NaturalEvent_left.csv,title,2002 dudley earthquake,Museum_right,title,museum of bath architecture,0.4487046003341675
+NaturalEvent_left.csv,title,1692 jamaica earthquake,Museum_right,title,st. lucie county regional history center,0.4485241770744324
+NaturalEvent_left.csv,title,1575 valdivia earthquake,Museum_right,title,louvre,0.4485031068325043
+NaturalEvent_left.csv,title,1993 latur earthquake,Museum_right,title,ziegelei lage,0.44741347432136536
+NaturalEvent_left.csv,title,1958 lituya bay megatsunami,Museum_right,title,medway megaliths,0.447329044342041
+NaturalEvent_left.csv,title,1268 cilicia earthquake,Museum_right,title,village historique acadien,0.446047306060791
+NaturalEvent_left.csv,title,2009 gulf of california earthquake,Museum_right,title,south florida science center and aquarium,0.44576942920684814
+NaturalEvent_left.csv,title,1872 lone pine earthquake,Museum_right,title,"buckhorn saloon & museum (san antonio, texas)",0.44513481855392456
+NaturalEvent_left.csv,title,1989 loma prieta earthquake,Museum_right,title,marta herford,0.44502580165863037
+NaturalEvent_left.csv,title,1906 san francisco earthquake,Museum_right,title,pulitzer arts foundation,0.44440338015556335
+NaturalEvent_left.csv,title,1995 neftegorsk earthquake,Museum_right,title,technik museum speyer,0.4443421959877014
+NaturalEvent_left.csv,title,1904 douliu earthquake,Museum_right,title,trainworks railway museum,0.4436841309070587
+NaturalEvent_left.csv,title,1968 dasht-e bayaz and ferdows earthquake,Museum_right,title,zamek krã³lewski na wawelu â paåstwowe zbiory sztuki,0.4425799548625946
+NaturalEvent_left.csv,title,1868 arica earthquake,Museum_right,title,autry museum of the american west,0.4409990608692169
+NaturalEvent_left.csv,title,1999 oaxaca earthquake,Museum_right,title,serralves,0.4401675760746002
+NaturalEvent_left.csv,title,1901 cheviot earthquake,Museum_right,title,science museum (london),0.4400560259819031
+NaturalEvent_left.csv,title,2006 hengchun earthquake,Museum_right,title,dadiani palace,0.4394540786743164
+NaturalEvent_left.csv,title,1952 kern county earthquake,Museum_right,title,discovery cube orange county,0.43871742486953735
+NaturalEvent_left.csv,title,1984 morgan hill earthquake,Museum_right,title,"steamtown, u.s.a.",0.4386172294616699
+NaturalEvent_left.csv,title,2011 oklahoma earthquake,Museum_right,title,dallas contemporary,0.43792760372161865
+NaturalEvent_left.csv,title,1997 cap-rouge earthquake,Museum_right,title,art gallery of burlington,0.4368665814399719
+NaturalEvent_left.csv,title,1988 nepal earthquake,Museum_right,title,anand bhavan,0.43553289771080017
+NaturalEvent_left.csv,title,1997 harnai earthquake,Museum_right,title,museum haarlem,0.43507102131843567
+NaturalEvent_left.csv,title,1939 erzincan earthquake,Museum_right,title,hungarian railway history park,0.43454521894454956
+NaturalEvent_left.csv,title,1911 kebin earthquake,Museum_right,title,lukut museum and fort,0.4336947202682495
+NaturalEvent_left.csv,title,"solar eclipse of august 12, 1654",Museum_right,title,natural history museum rotterdam,0.43329155445098877
+NaturalEvent_left.csv,title,2007 kent earthquake,Museum_right,title,walthamstow pumphouse museum,0.43249180912971497
+NaturalEvent_left.csv,title,1943 tottori earthquake,Museum_right,title,the national wwii museum,0.4320383369922638
+NaturalEvent_left.csv,title,2010 hosseinabad earthquake,Museum_right,title,chhatrapati shivaji maharaj vastu sangrahalaya,0.43195879459381104
+NaturalEvent_left.csv,title,1929 murchison earthquake,Museum_right,title,amherst college museum of natural history,0.43097034096717834
+NaturalEvent_left.csv,title,2009 l'aquila earthquake,Museum_right,title,gallerie dell'accademia,0.4305815100669861
+NaturalEvent_left.csv,title,1947 wisconsin earthquake,Museum_right,title,great lakes naval museum,0.4287814497947693
+NaturalEvent_left.csv,title,1663 charlevoix earthquake,Museum_right,title,cumberland inn & museum,0.4281945824623108
+NaturalEvent_left.csv,title,1945 balochistan earthquake,Museum_right,title,"cavalry tank museum, ahmednagar",0.4275386929512024
+NaturalEvent_left.csv,title,1918 vancouver island earthquake,Museum_right,title,currency museum (canada),0.42646923661231995
+NaturalEvent_left.csv,title,1975 morris earthquake,Museum_right,title,holburne museum,0.4260726571083069
+NaturalEvent_left.csv,title,1679 armenia earthquake,Museum_right,title,national gallery of figurative arts of albania,0.4259030222892761
+NaturalEvent_left.csv,title,1881 chios earthquake,Museum_right,title,museo d'arte di chianciano terme,0.4256400465965271
+NaturalEvent_left.csv,title,1927 earthquake in palestine,Museum_right,title,london jewish museum,0.42398691177368164
+NaturalEvent_left.csv,title,1995 wuding earthquake,Museum_right,title,westervelt warner museum of american art,0.42047470808029175
+NaturalEvent_left.csv,title,1941 colima earthquake,Museum_right,title,museum of nature & science,0.42030853033065796
+NaturalEvent_left.csv,title,1930 dhubri earthquake,Museum_right,title,"regional railway museum, chennai",0.4203082323074341
+NaturalEvent_left.csv,title,1968 belice earthquake,Museum_right,title,mary brogan museum of art and science,0.4199731945991516
+NaturalEvent_left.csv,title,1965 rat islands earthquake,Museum_right,title,isle of man railway museum,0.4199051856994629
+NaturalEvent_left.csv,title,"solar eclipse of august 21, 1560",Museum_right,title,royal museum of fine arts antwerp,0.41713854670524597
+NaturalEvent_left.csv,title,1909 lambesc earthquake,Museum_right,title,old train station and railway museum,0.4161803126335144
+NaturalEvent_left.csv,title,1855 wairarapa earthquake,Museum_right,title,garrison petawawa,0.4154541492462158
+NaturalEvent_left.csv,title,1993 scotts mills earthquake,Museum_right,title,beaney house of art and knowledge,0.41415098309516907
+NaturalEvent_left.csv,title,526 antioch earthquake,Museum_right,title,blessed john paul ii shrine,0.41400671005249023
+NaturalEvent_left.csv,title,2011 virginia earthquake,Museum_right,title,amherstburg freedom museum,0.41384589672088623
+NaturalEvent_left.csv,title,1886 charleston earthquake,Museum_right,title,children's museum of atlanta,0.41370299458503723
+NaturalEvent_left.csv,title,1989 newcastle earthquake,Museum_right,title,national railway museum shildon,0.4133754372596741
+NaturalEvent_left.csv,title,1966 toro earthquake,Museum_right,title,travis air force base heritage center,0.41323122382164
+NaturalEvent_left.csv,title,1949 queen charlotte islands earthquake,Museum_right,title,queens museum,0.4126037359237671
+NaturalEvent_left.csv,title,1773 guatemala earthquake,Museum_right,title,st. augustine pirate & treasure museum,0.4119689166545868
+NaturalEvent_left.csv,title,1843 wanganui earthquake,Museum_right,title,gallery one one one and fitzgerald study centre,0.4118627905845642
+NaturalEvent_left.csv,title,1949 olympia earthquake,Museum_right,title,museum of history and industry,0.41153743863105774
+NaturalEvent_left.csv,title,2000 iceland earthquakes,Museum_right,title,national gallery of denmark,0.4104771018028259
+NaturalEvent_left.csv,title,2010 haiti earthquake,Museum_right,title,louis vuitton foundation,0.4085994362831116
+NaturalEvent_left.csv,title,1941 chungpu earthquake,Museum_right,title,wing luke asian museum,0.4082050919532776
+NaturalEvent_left.csv,title,2010 illinois earthquake,Museum_right,title,st. louis world aquarium,0.4062892496585846
+NaturalEvent_left.csv,title,1868 hayward earthquake,Museum_right,title,fowler museum at ucla,0.40615203976631165
+NaturalEvent_left.csv,title,1983 kopaonik earthquake,Museum_right,title,airplane museum of szolnok,0.4054079055786133
+NaturalEvent_left.csv,title,1998 mionica earthquake,Museum_right,title,museum of the image,0.4041755795478821
+NaturalEvent_left.csv,title,1952 hokkaido earthquake,Museum_right,title,the whaling museum & education center,0.40273910760879517
+NaturalEvent_left.csv,title,1946 dominican republic earthquake,Museum_right,title,the spanish military hospital museum,0.4023115038871765
+NaturalEvent_left.csv,title,2007 alum rock earthquake,Museum_right,title,old stone house (brooklyn),0.4021166265010834
+NaturalEvent_left.csv,title,426 bc malian gulf tsunami,Museum_right,title,musã©e du louvre,0.40206021070480347

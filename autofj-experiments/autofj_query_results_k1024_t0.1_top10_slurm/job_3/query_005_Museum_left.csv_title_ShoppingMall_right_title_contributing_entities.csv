@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Museum_left.csv,title,westfield heritage centre,ShoppingMall_right,title,westfield downtown plaza,0.8722448348999023
+Museum_left.csv,title,caldicot castle,ShoppingMall_right,title,castlecourt,0.7752968072891235
+Museum_left.csv,title,galleria ferrari,ShoppingMall_right,title,galleria 220,0.7487495541572571
+Museum_left.csv,title,eldon house,ShoppingMall_right,title,ellsworth place,0.7429407835006714
+Museum_left.csv,title,beaumont botanical gardens,ShoppingMall_right,title,victoria gardens (rancho cucamonga),0.7361377477645874
+Museum_left.csv,title,queen victoria museum and art gallery,ShoppingMall_right,title,victoria centre,0.7331366539001465
+Museum_left.csv,title,"thinktank, birmingham",ShoppingMall_right,title,the summit (birmingham),0.7297332286834717
+Museum_left.csv,title,philadelphia art alliance,ShoppingMall_right,title,philadelphia mills,0.7211812734603882
+Museum_left.csv,title,fort york,ShoppingMall_right,title,yorkville village,0.7197820544242859
+Museum_left.csv,title,hong kong heritage museum,ShoppingMall_right,title,"langham place, hong kong",0.719631552696228
+Museum_left.csv,title,the abraham park kenneth vine collection,ShoppingMall_right,title,the kenwood collection,0.7191118001937866
+Museum_left.csv,title,doon heritage village,ShoppingMall_right,title,hillside village,0.7156859040260315
+Museum_left.csv,title,galleria nazionale d'arte antica,ShoppingMall_right,title,the galleria,0.7133435010910034
+Museum_left.csv,title,glenside museum,ShoppingMall_right,title,the glen shopping centre,0.7086100578308105
+Museum_left.csv,title,china art objects galleries,ShoppingMall_right,title,splendid china mall,0.6996905207633972
+Museum_left.csv,title,forest history center,ShoppingMall_right,title,forest fair village,0.6935228109359741
+Museum_left.csv,title,eastside projects,ShoppingMall_right,title,downtown commons,0.6899157762527466
+Museum_left.csv,title,capital museum,ShoppingMall_right,title,capital mall,0.6881237030029297
+Museum_left.csv,title,desert christ park,ShoppingMall_right,title,paradise park (mall),0.6871447563171387
+Museum_left.csv,title,grand central art galleries,ShoppingMall_right,title,great northern mall (new york),0.6857082843780518
+Museum_left.csv,title,drawing center,ShoppingMall_right,title,the centrepoint,0.6827496290206909
+Museum_left.csv,title,manchester art gallery,ShoppingMall_right,title,west manchester town center,0.6814475059509277
+Museum_left.csv,title,contemporary arts center,ShoppingMall_right,title,cataraqui centre,0.6789728999137878
+Museum_left.csv,title,fashion institute of design & merchandising museum,ShoppingMall_right,title,fashion centre at pentagon city,0.6762600541114807
+Museum_left.csv,title,oaklawn garden,ShoppingMall_right,title,figtree grove,0.6761377453804016
+Museum_left.csv,title,north carolina museum of history,ShoppingMall_right,title,"university place (chapel hill, north carolina)",0.6719774007797241
+Museum_left.csv,title,center for the study of mexican history,ShoppingMall_right,title,el con center,0.6718289852142334
+Museum_left.csv,title,kiasma,ShoppingMall_right,title,iluma,0.6660815477371216
+Museum_left.csv,title,johnson geo centre,ShoppingMall_right,title,jantzen beach center,0.6646838784217834
+Museum_left.csv,title,beirut art center,ShoppingMall_right,title,city centre bahrain,0.6602334976196289
+Museum_left.csv,title,bowman's hill wildflower preserve,ShoppingMall_right,title,the summit (wheatfield),0.6585925817489624
+Museum_left.csv,title,wincanton museum,ShoppingMall_right,title,winrock center,0.6553786993026733
+Museum_left.csv,title,morrin centre,ShoppingMall_right,title,city centre mirdif,0.6553171873092651
+Museum_left.csv,title,blaenavon ironworks,ShoppingMall_right,title,uni hill factory outlets,0.6546967029571533
+Museum_left.csv,title,faena arts center,ShoppingMall_right,title,kukui grove center,0.6544866561889648
+Museum_left.csv,title,heritage discovery center,ShoppingMall_right,title,"crossroads center (st. cloud, minnesota)",0.654355525970459
+Museum_left.csv,title,hacienda buena vista,ShoppingMall_right,title,la encantada (shopping center),0.6533708572387695
+Museum_left.csv,title,charles river museum of industry,ShoppingMall_right,title,the outlet collection at riverwalk,0.653232216835022
+Museum_left.csv,title,black cultural centre for nova scotia,ShoppingMall_right,title,strathpine centre,0.6529748439788818
+Museum_left.csv,title,big sandy heritage center,ShoppingMall_right,title,shelter cove towne centre,0.6522949934005737
+Museum_left.csv,title,coral gables police and fire station,ShoppingMall_right,title,cityplace (west palm beach),0.651452898979187
+Museum_left.csv,title,willowbrook museum village,ShoppingMall_right,title,the legends at village west,0.6509655714035034
+Museum_left.csv,title,heritage square museum,ShoppingMall_right,title,harbor square,0.6503236293792725
+Museum_left.csv,title,brunswick railroad museum,ShoppingMall_right,title,brunswick shopping centre,0.6439319849014282
+Museum_left.csv,title,blackburn museum and art gallery,ShoppingMall_right,title,granada centre,0.640042781829834
+Museum_left.csv,title,cedar creek gallery,ShoppingMall_right,title,river drive mall,0.6355986595153809
+Museum_left.csv,title,craigdarroch castle,ShoppingMall_right,title,castletown shoppingworld,0.6340137124061584
+Museum_left.csv,title,susannah place museum,ShoppingMall_right,title,hamilton place,0.6334818005561829
+Museum_left.csv,title,bytown museum,ShoppingMall_right,title,metrotown,0.6332367658615112
+Museum_left.csv,title,brick store museum,ShoppingMall_right,title,bole dembel shopping center,0.6304093599319458
+Museum_left.csv,title,resurgo place,ShoppingMall_right,title,city centre deira,0.6293689012527466
+Museum_left.csv,title,sakuma rail park,ShoppingMall_right,title,pakuranga plaza,0.6291506886482239
+Museum_left.csv,title,at-bristol,ShoppingMall_right,title,"st david's, cardiff",0.6274999380111694
+Museum_left.csv,title,lake superior maritime visitor center,ShoppingMall_right,title,lakeshore mall,0.6260033845901489
+Museum_left.csv,title,buckinghamshire railway centre,ShoppingMall_right,title,worcester common outlets,0.6258316040039062
+Museum_left.csv,title,gardiner museum,ShoppingMall_right,title,galleria shopping centre (toronto),0.6247022151947021
+Museum_left.csv,title,mountain homeplace,ShoppingMall_right,title,the summit (reno),0.6241245865821838
+Museum_left.csv,title,cosmodome,ShoppingMall_right,title,cortana mall,0.6227278709411621
+Museum_left.csv,title,palm springs air museum,ShoppingMall_right,title,disney springs,0.6206835508346558
+Museum_left.csv,title,flint hills discovery center,ShoppingMall_right,title,maple hill mall,0.6199716329574585
+Museum_left.csv,title,marianna kistler beach museum of art,ShoppingMall_right,title,sta. lucia east grandmall,0.6197729110717773
+Museum_left.csv,title,marta,ShoppingMall_right,title,zona rosa (kansas city),0.6194154620170593
+Museum_left.csv,title,port discovery (museum),ShoppingMall_right,title,harbor point (subic),0.6182870864868164
+Museum_left.csv,title,kanata theatre,ShoppingMall_right,title,"the broadway, bradford",0.6167747378349304
+Museum_left.csv,title,burlington art centre,ShoppingMall_right,title,champlain mall,0.6153663396835327
+Museum_left.csv,title,seoul arts center,ShoppingMall_right,title,shangri-la plaza (shopping mall),0.6150597929954529
+Museum_left.csv,title,contemporary art museum st. louis,ShoppingMall_right,title,st. louis mills,0.6147703528404236
+Museum_left.csv,title,ault park (ontario),ShoppingMall_right,title,omni park,0.6142920255661011
+Museum_left.csv,title,taipei story house,ShoppingMall_right,title,"change alley, singapore",0.6141635179519653
+Museum_left.csv,title,fortaleza san luis,ShoppingMall_right,title,westfield solano,0.6136590838432312
+Museum_left.csv,title,sardar vallabhbhai patel national memorial,ShoppingMall_right,title,mahatma jyotiba phule mandai,0.6119530200958252
+Museum_left.csv,title,intersection for the arts,ShoppingMall_right,title,the crossings at northwest,0.6114630699157715
+Museum_left.csv,title,towner gallery,ShoppingMall_right,title,riverdale village,0.6112779378890991
+Museum_left.csv,title,pallant house gallery,ShoppingMall_right,title,the pavilions,0.611243724822998
+Museum_left.csv,title,museo nao victoria,ShoppingMall_right,title,victoria gate,0.609785258769989
+Museum_left.csv,title,casa paoli,ShoppingMall_right,title,my mall limassol,0.6076136827468872
+Museum_left.csv,title,lexington county museum,ShoppingMall_right,title,chesapeake square,0.606827437877655
+Museum_left.csv,title,sydney bus museum,ShoppingMall_right,title,sydney central plaza,0.6064068675041199
+Museum_left.csv,title,great north museum,ShoppingMall_right,title,great northern mall (ohio),0.606188178062439
+Museum_left.csv,title,tulsa air and space museum & planetarium,ShoppingMall_right,title,tulsa promenade,0.6058685183525085
+Museum_left.csv,title,hyde park art center,ShoppingMall_right,title,lakeview square mall,0.6032522916793823
+Museum_left.csv,title,walker art center,ShoppingMall_right,title,chicago ridge mall,0.6031087040901184
+Museum_left.csv,title,palais des beaux-arts de lille,ShoppingMall_right,title,les promenades gatineau,0.6029220223426819
+Museum_left.csv,title,lincoln park conservatory,ShoppingMall_right,title,franklin park mall,0.6028763055801392
+Museum_left.csv,title,weavers' triangle,ShoppingMall_right,title,"the triangle, manchester",0.6028114557266235
+Museum_left.csv,title,south florida railway museum,ShoppingMall_right,title,viaport florida,0.6027079224586487
+Museum_left.csv,title,ruthin craft centre,ShoppingMall_right,title,karingal hub shopping centre,0.6024516820907593
+Museum_left.csv,title,glovertown museum,ShoppingMall_right,title,westfield downtown,0.6020369529724121
+Museum_left.csv,title,casa dolores,ShoppingMall_right,title,santa rosa mall,0.6008564233779907
+Museum_left.csv,title,tobu museum,ShoppingMall_right,title,toa payoh entertainment centre,0.6006166934967041
+Museum_left.csv,title,buxton museum and art gallery,ShoppingMall_right,title,"westgate, oxford",0.6004668474197388
+Museum_left.csv,title,raaf wagga heritage centre,ShoppingMall_right,title,"domain central, townsville",0.5995774269104004
+Museum_left.csv,title,battalion park,ShoppingMall_right,title,military circle mall,0.599514365196228
+Museum_left.csv,title,sperone westwater gallery,ShoppingMall_right,title,rhodes waterside,0.5973776578903198
+Museum_left.csv,title,rochester contemporary art center,ShoppingMall_right,title,"crossroads center (waterloo, iowa)",0.5963361263275146
+Museum_left.csv,title,"museum of islamic art, cairo",ShoppingMall_right,title,city mall (amman),0.5960946083068848
+Museum_left.csv,title,"mitchell house (thomasville, north carolina)",ShoppingMall_right,title,brentwood town centre (mall),0.5957098007202148
+Museum_left.csv,title,hunt-morgan house,ShoppingMall_right,title,"touchwood, solihull",0.5950328707695007
+Museum_left.csv,title,"sunaparanta, goa centre for the arts",ShoppingMall_right,title,seacon square srinakarin,0.5938682556152344
+Museum_left.csv,title,tretower court,ShoppingMall_right,title,westfield louis joliet,0.5932364463806152
+Museum_left.csv,title,arab image foundation,ShoppingMall_right,title,riyadh sahara mall,0.592980146408081
+Museum_left.csv,title,lobkowicz palace,ShoppingMall_right,title,lutwyche city shopping centre,0.5925002098083496
+Museum_left.csv,title,shipley art gallery,ShoppingMall_right,title,the shops at westshore,0.5919361114501953
+Museum_left.csv,title,pacific war museum,ShoppingMall_right,title,pacific werribee,0.5904577970504761
+Museum_left.csv,title,fuglsang art museum,ShoppingMall_right,title,sm city taguig,0.5898677110671997
+Museum_left.csv,title,bilston craft gallery,ShoppingMall_right,title,woodburn premium outlets,0.588982343673706
+Museum_left.csv,title,signal tower museum,ShoppingMall_right,title,great eastern tower,0.5888073444366455
+Museum_left.csv,title,wolverhampton art gallery,ShoppingMall_right,title,motherwell shopping centre,0.5873438119888306
+Museum_left.csv,title,mob attraction las vegas,ShoppingMall_right,title,fox valley mall,0.5867780447006226
+Museum_left.csv,title,david collection,ShoppingMall_right,title,kingston collection,0.586380124092102
+Museum_left.csv,title,art gallery of peterborough,ShoppingMall_right,title,the spires shopping centre,0.5861889123916626
+Museum_left.csv,title,"museum of fine arts (st. petersburg, florida)",ShoppingMall_right,title,centre of tallahassee,0.5860909223556519
+Museum_left.csv,title,beijing liao and jin city wall museum,ShoppingMall_right,title,shangri-la plaza,0.5859129428863525
+Museum_left.csv,title,art museum of the americas,ShoppingMall_right,title,mall of acadiana,0.5858036279678345
+Museum_left.csv,title,don harrington discovery center,ShoppingMall_right,title,the oaks shopping center,0.5847234129905701
+Museum_left.csv,title,monongalia arts center,ShoppingMall_right,title,downtown summerlin (shopping center),0.5846399068832397
+Museum_left.csv,title,maritime museum (indonesia),ShoppingMall_right,title,grand indonesia,0.5821849703788757
+Museum_left.csv,title,higgins armory museum,ShoppingMall_right,title,the arsenal project of watertown,0.5819331407546997
+Museum_left.csv,title,wellington tramway museum,ShoppingMall_right,title,westfield royal victoria place,0.581466555595398
+Museum_left.csv,title,tampa museum of art,ShoppingMall_right,title,the oaks mall (florida),0.5806682109832764
+Museum_left.csv,title,naughton gallery at queen's,ShoppingMall_right,title,north rocks shopping centre,0.5804671049118042
+Museum_left.csv,title,satria mandala museum,ShoppingMall_right,title,sunway putra mall,0.579842209815979
+Museum_left.csv,title,villa atma,ShoppingMall_right,title,plaza west covina,0.5791412591934204
+Museum_left.csv,title,ilchester museum,ShoppingMall_right,title,"the exchange, ilford",0.5787792205810547
+Museum_left.csv,title,new york transit museum,ShoppingMall_right,title,"northway mall (colonie, new york)",0.5785168409347534
+Museum_left.csv,title,mukden palace,ShoppingMall_right,title,belden village mall,0.5784547328948975
+Museum_left.csv,title,glasmuseet ebeltoft,ShoppingMall_right,title,spinderiet,0.5773476362228394
+Museum_left.csv,title,morris museum of art,ShoppingMall_right,title,springfield mall (virginia),0.5772761106491089
+Museum_left.csv,title,dudley museum and art gallery,ShoppingMall_right,title,enfield square mall,0.5767334699630737
+Museum_left.csv,title,miles historical village and museum,ShoppingMall_right,title,"village mall (auburn, alabama)",0.5767137408256531
+Museum_left.csv,title,wwii/korea lvt museum,ShoppingMall_right,title,warrawong plaza,0.5765981078147888
+Museum_left.csv,title,new walk museum,ShoppingMall_right,title,newpark mall,0.5741256475448608
+Museum_left.csv,title,william and florence schmidt art center,ShoppingMall_right,title,florence mall (alabama),0.5737186670303345
+Museum_left.csv,title,market house museum,ShoppingMall_right,title,knox city shopping centre,0.5730124711990356
+Museum_left.csv,title,art museum of southeast texas,ShoppingMall_right,title,plaza central (texas),0.5728795528411865
+Museum_left.csv,title,age of sail heritage centre,ShoppingMall_right,title,harbourfront centre (singapore),0.5727077722549438
+Museum_left.csv,title,"the children's museum, connecticut",ShoppingMall_right,title,connecticut post mall,0.5689509510993958
+Museum_left.csv,title,sasmita loka ahmad yani museum,ShoppingMall_right,title,shaktan thampuran private bus stand,0.5686673521995544
+Museum_left.csv,title,"jewish heritage centre, winnipeg",ShoppingMall_right,title,st. laurent shopping centre,0.5674050450325012
+Museum_left.csv,title,nichols arboretum,ShoppingMall_right,title,northwoods mall (illinois),0.566523551940918
+Museum_left.csv,title,allentown art museum,ShoppingMall_right,title,parmatown mall,0.5664730072021484
+Museum_left.csv,title,chojun textile & quilt art museum,ShoppingMall_right,title,lulu cochin mall,0.5655845999717712
+Museum_left.csv,title,creative kids museum,ShoppingMall_right,title,playground pier,0.5652957558631897
+Museum_left.csv,title,spectrum discovery area,ShoppingMall_right,title,irvine spectrum,0.5627806186676025
+Museum_left.csv,title,state historical museum,ShoppingMall_right,title,florence mall (kentucky),0.5627152919769287
+Museum_left.csv,title,the art gallery at the university of maryland,ShoppingMall_right,title,annapolis mall,0.5619010925292969
+Museum_left.csv,title,massachusetts museum of contemporary art,ShoppingMall_right,title,auburn mall (massachusetts),0.5609117746353149
+Museum_left.csv,title,colne valley museum,ShoppingMall_right,title,liffey valley,0.560698926448822
+Museum_left.csv,title,electric city trolley museum,ShoppingMall_right,title,south city mall,0.5605456829071045
+Museum_left.csv,title,the museum at central school,ShoppingMall_right,title,the columbia mall,0.5603894591331482
+Museum_left.csv,title,russell-cotes art gallery & museum,ShoppingMall_right,title,the quad st. charles,0.5591422319412231
+Museum_left.csv,title,presseum,ShoppingMall_right,title,artegon marketplace,0.5558004379272461
+Museum_left.csv,title,"museum of contemporary art, north miami",ShoppingMall_right,title,"regency square mall (jacksonville, florida)",0.5554026365280151
+Museum_left.csv,title,discovery centre,ShoppingMall_right,title,mainplace mall,0.5541225671768188
+Museum_left.csv,title,pori art museum,ShoppingMall_right,title,taigum square shopping centre,0.5533764958381653
+Museum_left.csv,title,walk of the stars,ShoppingMall_right,title,star city (shopping mall),0.5531986355781555
+Museum_left.csv,title,lane motor museum,ShoppingMall_right,title,bentley bridge,0.5527297258377075
+Museum_left.csv,title,ferens art gallery,ShoppingMall_right,title,northfield square mall,0.5516701936721802
+Museum_left.csv,title,quilt museum and gallery,ShoppingMall_right,title,shoppes at knollwood,0.5497987270355225
+Museum_left.csv,title,monarch contemporary art center and sculpture park,ShoppingMall_right,title,"saratoga mall (wilton, new york)",0.549694299697876
+Museum_left.csv,title,george gustav heye center,ShoppingMall_right,title,centrale,0.5495610237121582
+Museum_left.csv,title,newark air museum,ShoppingMall_right,title,atlantic terminal (shopping mall),0.5486530065536499
+Museum_left.csv,title,north brevard historical museum,ShoppingMall_right,title,"northlake mall (charlotte, north carolina)",0.5486429929733276
+Museum_left.csv,title,national museum of the pacific war,ShoppingMall_right,title,pacific epping,0.5480363368988037
+Museum_left.csv,title,wayang museum,ShoppingMall_right,title,"the paragon, singapore",0.547592043876648
+Museum_left.csv,title,kilmainham gaol,ShoppingMall_right,title,toombul shopping centre,0.546021580696106
+Museum_left.csv,title,great plains art museum,ShoppingMall_right,title,supermall of the great northwest,0.5441542863845825
+Museum_left.csv,title,somerhill gallery,ShoppingMall_right,title,glen burnie mall,0.5435172915458679
+Museum_left.csv,title,byron area historic museum,ShoppingMall_right,title,bankstown central shopping centre,0.543488621711731
+Museum_left.csv,title,costume museum,ShoppingMall_right,title,"auburn mall (auburn, massachusetts)",0.5433748960494995
+Museum_left.csv,title,children's museum of winston-salem,ShoppingMall_right,title,hickory hollow mall,0.5428543090820312
+Museum_left.csv,title,maidstone museum & art gallery,ShoppingMall_right,title,lavington square shopping centre,0.5428354740142822
+Museum_left.csv,title,national historic trails interpretive center,ShoppingMall_right,title,forest lake village shopping centre,0.5425682067871094
+Museum_left.csv,title,swope art museum,ShoppingMall_right,title,south point mall,0.541698694229126
+Museum_left.csv,title,sarasota classic car museum,ShoppingMall_right,title,brentwood country mart,0.5414705276489258
+Museum_left.csv,title,dance place,ShoppingMall_right,title,square 2 (shopping mall),0.5406436920166016
+Museum_left.csv,title,alferaki palace,ShoppingMall_right,title,parkway plaza,0.5400861501693726
+Museum_left.csv,title,stathatos mansion,ShoppingMall_right,title,greenstreet,0.5394613742828369
+Museum_left.csv,title,duncan gallery of art,ShoppingMall_right,title,galleria shopping centre (perth),0.5384966135025024
+Museum_left.csv,title,lauba,ShoppingMall_right,title,festival alabang,0.5384430885314941
+Museum_left.csv,title,"castle hill, newfoundland and labrador",ShoppingMall_right,title,"bishops corner, west hartford",0.5378093719482422
+Museum_left.csv,title,coventry transport museum,ShoppingMall_right,title,mercury shopping centre,0.5376754999160767
+Museum_left.csv,title,the dallas contemporary,ShoppingMall_right,title,the centre on barton,0.5373156070709229
+Museum_left.csv,title,piedmont arts association,ShoppingMall_right,title,asheville outlets,0.5370061993598938
+Museum_left.csv,title,ateneo art gallery,ShoppingMall_right,title,"auburn mall (auburn, alabama)",0.5364038944244385
+Museum_left.csv,title,helmcken house,ShoppingMall_right,title,plaza mayor (oklahoma),0.5350053310394287
+Museum_left.csv,title,indianapolis museum of art,ShoppingMall_right,title,southlake mall (indiana),0.53399658203125
+Museum_left.csv,title,one street museum,ShoppingMall_right,title,colonnades shopping centre,0.5273721218109131
+Museum_left.csv,title,"titanic museum (branson, missouri)",ShoppingMall_right,title,downtown disney (walt disney world resort),0.5261064171791077
+Museum_left.csv,title,cartoon art museum,ShoppingMall_right,title,westfield southpark,0.5260908007621765
+Museum_left.csv,title,mclarty treasure museum,ShoppingMall_right,title,conestoga mall,0.5247589349746704
+Museum_left.csv,title,albertina,ShoppingMall_right,title,bluewater,0.521146833896637
+Museum_left.csv,title,pittsburgh glass center,ShoppingMall_right,title,the shops at prudential center,0.520439624786377
+Museum_left.csv,title,mary rose museum,ShoppingMall_right,title,roselands shopping centre,0.5189856886863708
+Museum_left.csv,title,derby museum and art gallery,ShoppingMall_right,title,"grand central, birmingham",0.5183714628219604
+Museum_left.csv,title,dundurn castle,ShoppingMall_right,title,the square tallaght,0.5178420543670654
+Museum_left.csv,title,minnetrista,ShoppingMall_right,title,megabox (shopping mall),0.5175483822822571
+Museum_left.csv,title,empire state railway museum,ShoppingMall_right,title,westfield eastland,0.5164371728897095
+Museum_left.csv,title,canberra railway museum,ShoppingMall_right,title,westfield gateway,0.5104717016220093
+Museum_left.csv,title,remington carriage museum,ShoppingMall_right,title,carriage crossing,0.5095890164375305

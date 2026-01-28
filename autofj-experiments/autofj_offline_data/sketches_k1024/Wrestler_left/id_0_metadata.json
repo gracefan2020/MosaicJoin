@@ -1,0 +1,9 @@
+{
+  "table_name": "Wrestler_left",
+  "column_name": "id",
+  "column_index": 0,
+  "total_embeddings": 3150,
+  "sketch_k": 1024,
+  "processing_time": 3.7794978618621826,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Wrestler_left/id_0.npz"
+}

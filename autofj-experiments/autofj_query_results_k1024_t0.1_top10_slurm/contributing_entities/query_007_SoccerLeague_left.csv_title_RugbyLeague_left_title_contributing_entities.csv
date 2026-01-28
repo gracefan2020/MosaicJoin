@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+SoccerLeague_left.csv,title,welsh premier league,RugbyLeague_left,title,welsh league,0.9646207690238953
+SoccerLeague_left.csv,title,scottish premier league,RugbyLeague_left,title,scottish premiership,0.9574902653694153
+SoccerLeague_left.csv,title,scottish football league third division,RugbyLeague_left,title,scottish premiership division three,0.9551531076431274
+SoccerLeague_left.csv,title,scottish football league first division,RugbyLeague_left,title,scottish premiership division one,0.9513381123542786
+SoccerLeague_left.csv,title,scottish football league second division,RugbyLeague_left,title,scottish premiership division two,0.9497698545455933
+SoccerLeague_left.csv,title,brisbane premier league,RugbyLeague_left,title,brisbane rugby league premiership,0.929004430770874
+SoccerLeague_left.csv,title,english premiership (rugby union),RugbyLeague_left,title,rugby league premiership,0.9213719367980957
+SoccerLeague_left.csv,title,nsw super league,RugbyLeague_left,title,super league (australia),0.9192415475845337
+SoccerLeague_left.csv,title,scottish football league,RugbyLeague_left,title,scottish championship leagues,0.9179232120513916
+SoccerLeague_left.csv,title,afl canberra,RugbyLeague_left,title,canberra rugby league,0.9074803590774536
+SoccerLeague_left.csv,title,east merit league,RugbyLeague_left,title,north west merit league,0.9029990434646606
+SoccerLeague_left.csv,title,central midlands football league,RugbyLeague_left,title,national league 3 midlands,0.9025349617004395
+SoccerLeague_left.csv,title,championship (rugby league),RugbyLeague_left,title,county championship (rugby union),0.9014124870300293
+SoccerLeague_left.csv,title,scottish amateur football league,RugbyLeague_left,title,scottish reserve league,0.8953055143356323
+SoccerLeague_left.csv,title,afl queensland,RugbyLeague_left,title,melbourne rugby league,0.894021213054657
+SoccerLeague_left.csv,title,national football league (fiji),RugbyLeague_left,title,fiji national rugby league competition,0.891411542892456
+SoccerLeague_left.csv,title,australian football league,RugbyLeague_left,title,australian rugby league,0.8886860609054565
+SoccerLeague_left.csv,title,west midlands (regional) league,RugbyLeague_left,title,midlands 1 east,0.8854808807373047
+SoccerLeague_left.csv,title,rugby football league championship,RugbyLeague_left,title,rugby league conference,0.885452389717102
+SoccerLeague_left.csv,title,belgian division 1,RugbyLeague_left,title,belgian elite league,0.8829541206359863
+SoccerLeague_left.csv,title,cirencester and district league,RugbyLeague_left,title,hull & district league,0.8795915842056274
+SoccerLeague_left.csv,title,central scottish amateur football league,RugbyLeague_left,title,scottish national league division one,0.8795844316482544
+SoccerLeague_left.csv,title,catalan football championship,RugbyLeague_left,title,catalan rugby league championship,0.8784855008125305
+SoccerLeague_left.csv,title,irish intermediate cup,RugbyLeague_left,title,british and irish cup,0.8782062530517578
+SoccerLeague_left.csv,title,south devon football league,RugbyLeague_left,title,devon league 1,0.8764727115631104
+SoccerLeague_left.csv,title,australian football international cup,RugbyLeague_left,title,new south wales cup,0.8764535784721375
+SoccerLeague_left.csv,title,yorkshire football league,RugbyLeague_left,title,cms yorkshire league,0.8762306571006775
+SoccerLeague_left.csv,title,swedish football division 1,RugbyLeague_left,title,sweden super league,0.8759773969650269
+SoccerLeague_left.csv,title,queensland australian football league,RugbyLeague_left,title,queensland rugby league central division,0.8755120038986206
+SoccerLeague_left.csv,title,southern football league (south australia),RugbyLeague_left,title,south premier (rugby league),0.8731284141540527
+SoccerLeague_left.csv,title,rugby league championships,RugbyLeague_left,title,the rugby championship,0.8698346614837646
+SoccerLeague_left.csv,title,goldfields football league,RugbyLeague_left,title,gold coast rugby league,0.8688457608222961
+SoccerLeague_left.csv,title,south wales senior league,RugbyLeague_left,title,welsh conference junior league,0.8676475882530212
+SoccerLeague_left.csv,title,campeonato uruguayo femenino,RugbyLeague_left,title,campeonato argentino,0.8676191568374634
+SoccerLeague_left.csv,title,tasmanian football championship,RugbyLeague_left,title,tasmanian rugby league,0.865020751953125
+SoccerLeague_left.csv,title,east northumberland league,RugbyLeague_left,title,cumbria league,0.8626740574836731
+SoccerLeague_left.csv,title,scottish junior football north premier league,RugbyLeague_left,title,scottish national league division two,0.8595069646835327
+SoccerLeague_left.csv,title,north devon football league,RugbyLeague_left,title,devon league 2,0.8585317134857178
+SoccerLeague_left.csv,title,doncaster and district senior league,RugbyLeague_left,title,midlands junior league,0.8559067845344543
+SoccerLeague_left.csv,title,yorkshire men's league,RugbyLeague_left,title,london & south east men's league,0.8540254831314087
+SoccerLeague_left.csv,title,torneo argentino a,RugbyLeague_left,title,torneo del oeste,0.851158618927002
+SoccerLeague_left.csv,title,fa women's premier league national division,RugbyLeague_left,title,women's premiership,0.8495882153511047
+SoccerLeague_left.csv,title,midlands rugby league division one,RugbyLeague_left,title,west regional league (rugby union),0.847659707069397
+SoccerLeague_left.csv,title,anglo-scottish cup,RugbyLeague_left,title,anglo-welsh cup,0.8456931114196777
+SoccerLeague_left.csv,title,northern new south wales state football league,RugbyLeague_left,title,north east rugby league,0.8455392718315125
+SoccerLeague_left.csv,title,south australian national football league,RugbyLeague_left,title,new south wales rugby league premiership,0.844272255897522
+SoccerLeague_left.csv,title,midlands rugby league division two,RugbyLeague_left,title,east regional league (rugby union),0.8442487120628357
+SoccerLeague_left.csv,title,regional league division 2,RugbyLeague_left,title,national league 2 south,0.842361569404602
+SoccerLeague_left.csv,title,thai super cup,RugbyLeague_left,title,siam cup,0.8403975963592529
+SoccerLeague_left.csv,title,scottish junior football west division one,RugbyLeague_left,title,scottish national league division three,0.8392798900604248
+SoccerLeague_left.csv,title,new zealand football championship,RugbyLeague_left,title,new zealand national rugby sevens tournament,0.8384116888046265
+SoccerLeague_left.csv,title,north west counties football league,RugbyLeague_left,title,north west men's league,0.8358750939369202
+SoccerLeague_left.csv,title,tonga major league,RugbyLeague_left,title,tongan national rugby league,0.835763156414032
+SoccerLeague_left.csv,title,scottish junior football east region north division,RugbyLeague_left,title,scottish regional league (rugby union),0.834941029548645
+SoccerLeague_left.csv,title,conference south,RugbyLeague_left,title,southeastern collegiate rugby conference,0.8333799242973328
+SoccerLeague_left.csv,title,leinster senior league (association football),RugbyLeague_left,title,all-ireland league (rugby union),0.8307174444198608
+SoccerLeague_left.csv,title,ifl premier division,RugbyLeague_left,title,actru premier division,0.8306894302368164
+SoccerLeague_left.csv,title,premier league,RugbyLeague_left,title,top league,0.8303897380828857
+SoccerLeague_left.csv,title,midlands regional alliance,RugbyLeague_left,title,midlands 4 west (north),0.826571524143219
+SoccerLeague_left.csv,title,south yorkshire amateur football league,RugbyLeague_left,title,yorkshire & humber merit league,0.8251304626464844
+SoccerLeague_left.csv,title,mru super cup,RugbyLeague_left,title,saru community cup,0.8249271512031555
+SoccerLeague_left.csv,title,latvian second league,RugbyLeague_left,title,finnish championship league,0.8239777088165283
+SoccerLeague_left.csv,title,j. league division 3,RugbyLeague_left,title,national league 3 south west,0.8236135244369507
+SoccerLeague_left.csv,title,campeonato nacional de futebol feminino,RugbyLeague_left,title,campeonato nacional de rugby feminino,0.8224269151687622
+SoccerLeague_left.csv,title,regional league north-east division,RugbyLeague_left,title,national league 2 north,0.8202123641967773
+SoccerLeague_left.csv,title,serbian league,RugbyLeague_left,title,serbian rugby league championship,0.8183339238166809
+SoccerLeague_left.csv,title,mff cup,RugbyLeague_left,title,itm cup,0.8182468414306641
+SoccerLeague_left.csv,title,south australian women's football league,RugbyLeague_left,title,women's rugby league conference,0.8179713487625122
+SoccerLeague_left.csv,title,rugby football league championship third division,RugbyLeague_left,title,central coast division rugby league,0.8179470896720886
+SoccerLeague_left.csv,title,a-league pre-season challenge cup,RugbyLeague_left,title,championship cup,0.8177299499511719
+SoccerLeague_left.csv,title,ukrainian first league,RugbyLeague_left,title,ukraine rugby superliga,0.8169916272163391
+SoccerLeague_left.csv,title,a-league national youth league,RugbyLeague_left,title,north east junior league,0.8169443607330322
+SoccerLeague_left.csv,title,ipswich & suffolk youth football league,RugbyLeague_left,title,hull & district youth league,0.8164498209953308
+SoccerLeague_left.csv,title,cook islands round cup,RugbyLeague_left,title,cook cup,0.8158261775970459
+SoccerLeague_left.csv,title,lory meagher cup,RugbyLeague_left,title,lansdowne cup,0.8155475854873657
+SoccerLeague_left.csv,title,festival cup,RugbyLeague_left,title,foundation cup,0.8148205280303955
+SoccerLeague_left.csv,title,primera b nacional,RugbyLeague_left,title,nacional de clubes,0.8139021992683411
+SoccerLeague_left.csv,title,bristol downs association football league,RugbyLeague_left,title,bristol junior rugby league,0.8137685656547546
+SoccerLeague_left.csv,title,midlands rugby league premier division,RugbyLeague_left,title,central highlands rugby league,0.8134514093399048
+SoccerLeague_left.csv,title,eastern australian football league,RugbyLeague_left,title,illawarra rugby league,0.8128637075424194
+SoccerLeague_left.csv,title,ussf division 2 professional league,RugbyLeague_left,title,national division 2,0.8122445940971375
+SoccerLeague_left.csv,title,hampshire premier league,RugbyLeague_left,title,hampshire 1,0.8087053298950195
+SoccerLeague_left.csv,title,torneo argentino b,RugbyLeague_left,title,torneo del noroeste,0.8084123134613037
+SoccerLeague_left.csv,title,united states australian football league,RugbyLeague_left,title,american national rugby league,0.807437539100647
+SoccerLeague_left.csv,title,egypt cup,RugbyLeague_left,title,mediterranean cup,0.8067232370376587
+SoccerLeague_left.csv,title,aberdeenshire and district league,RugbyLeague_left,title,london and south east merit league,0.8047353029251099
+SoccerLeague_left.csv,title,southern football league (scotland),RugbyLeague_left,title,scottish national league (rugby union),0.8044150471687317
+SoccerLeague_left.csv,title,west lancashire football league,RugbyLeague_left,title,north lancashire 1,0.8036822080612183
+SoccerLeague_left.csv,title,queen's cup,RugbyLeague_left,title,prince william cup,0.8036460280418396
+SoccerLeague_left.csv,title,naia national women's soccer championship,RugbyLeague_left,title,national women's championship,0.8019005060195923
+SoccerLeague_left.csv,title,torneo argentino c,RugbyLeague_left,title,torneo del litoral,0.8001879453659058
+SoccerLeague_left.csv,title,northern territory football league,RugbyLeague_left,title,national rugby league,0.7996045351028442
+SoccerLeague_left.csv,title,midland football league,RugbyLeague_left,title,midlands merit league,0.7995859384536743
+SoccerLeague_left.csv,title,bfa senior league,RugbyLeague_left,title,london junior league,0.7994065284729004
+SoccerLeague_left.csv,title,northern new south wales football league division two,RugbyLeague_left,title,newcastle rugby league,0.7990853786468506
+SoccerLeague_left.csv,title,northern inland football,RugbyLeague_left,title,northern rivers regional rugby league,0.7982801198959351
+SoccerLeague_left.csv,title,national premier league,RugbyLeague_left,title,national league 3 london & se,0.79759281873703
+SoccerLeague_left.csv,title,central african republic league,RugbyLeague_left,title,africa cup,0.7963129281997681
+SoccerLeague_left.csv,title,w-league,RugbyLeague_left,title,national league 1,0.7962260246276855
+SoccerLeague_left.csv,title,singapore cup,RugbyLeague_left,title,rugby league asian cup,0.7948628664016724
+SoccerLeague_left.csv,title,queensland state league (association football),RugbyLeague_left,title,queensland premier rugby,0.794457197189331
+SoccerLeague_left.csv,title,victory shield,RugbyLeague_left,title,medallion shield,0.7942969799041748
+SoccerLeague_left.csv,title,kenyan county league,RugbyLeague_left,title,kenya cup,0.793597936630249
+SoccerLeague_left.csv,title,afl cairns,RugbyLeague_left,title,australian rugby championship,0.7927210927009583
+SoccerLeague_left.csv,title,tahiti cup,RugbyLeague_left,title,foru oceania cup,0.7921724319458008
+SoccerLeague_left.csv,title,rfu championship,RugbyLeague_left,title,national championship of excellence,0.7903634905815125
+SoccerLeague_left.csv,title,anglesey league,RugbyLeague_left,title,grampian alliance league,0.7897593379020691
+SoccerLeague_left.csv,title,mitropa cup,RugbyLeague_left,title,mal meninga cup,0.7881208062171936
+SoccerLeague_left.csv,title,tac cup,RugbyLeague_left,title,pacific cup,0.7868837118148804
+SoccerLeague_left.csv,title,west cheshire association football league,RugbyLeague_left,title,south lancs/cheshire 1,0.7852084636688232
+SoccerLeague_left.csv,title,third division football tournament,RugbyLeague_left,title,national division 1,0.7842044830322266
+SoccerLeague_left.csv,title,middlesex senior charity cup,RugbyLeague_left,title,woodbridge cup,0.7821273803710938
+SoccerLeague_left.csv,title,foxtel cup,RugbyLeague_left,title,vodacom cup,0.7795629501342773
+SoccerLeague_left.csv,title,hong kong premier league,RugbyLeague_left,title,hong kong sevens,0.7788635492324829
+SoccerLeague_left.csv,title,usa rink hockey national championship,RugbyLeague_left,title,national provincial championship,0.7764624357223511
+SoccerLeague_left.csv,title,calcutta premier division,RugbyLeague_left,title,calcutta cup,0.7762534022331238
+SoccerLeague_left.csv,title,sultan qaboos cup,RugbyLeague_left,title,queensland cup,0.7760030627250671
+SoccerLeague_left.csv,title,football south coast,RugbyLeague_left,title,atlantic coast rugby league,0.7757601141929626
+SoccerLeague_left.csv,title,spartan south midlands football league,RugbyLeague_left,title,midlands 3 east (south),0.774141788482666
+SoccerLeague_left.csv,title,big nine conference,RugbyLeague_left,title,big ten universities,0.771914005279541
+SoccerLeague_left.csv,title,football league youth alliance,RugbyLeague_left,title,gillette national youth league,0.7714563012123108
+SoccerLeague_left.csv,title,king cup,RugbyLeague_left,title,castlereagh cup,0.7713531255722046
+SoccerLeague_left.csv,title,southern league one (tasmania),RugbyLeague_left,title,australian provincial championship,0.771309494972229
+SoccerLeague_left.csv,title,samoa national league,RugbyLeague_left,title,papua new guinea national rugby league,0.770691454410553
+SoccerLeague_left.csv,title,serie a,RugbyLeague_left,title,serie a (rugby union),0.7702876329421997
+SoccerLeague_left.csv,title,kent county league,RugbyLeague_left,title,cornwall league 1,0.770183801651001
+SoccerLeague_left.csv,title,yarra valley mountain district football league,RugbyLeague_left,title,cronulla-sutherland district rugby football league,0.7693174481391907
+SoccerLeague_left.csv,title,east sussex football league,RugbyLeague_left,title,sussex rugby football union,0.7690985202789307
+SoccerLeague_left.csv,title,the central league,RugbyLeague_left,title,national league 3 north,0.7685466408729553
+SoccerLeague_left.csv,title,barbados premier division,RugbyLeague_left,title,jamaica national league,0.7681792974472046
+SoccerLeague_left.csv,title,south australian amateur football league,RugbyLeague_left,title,professional rugby league,0.7665513753890991
+SoccerLeague_left.csv,title,south wales amateur league,RugbyLeague_left,title,national youth competition (rugby league),0.7662817239761353
+SoccerLeague_left.csv,title,campeonato paranaense,RugbyLeague_left,title,campeonato uruguayo de rugby,0.7658213376998901
+SoccerLeague_left.csv,title,european championships in australian football,RugbyLeague_left,title,rugby league european cup,0.765385627746582
+SoccerLeague_left.csv,title,spring cup,RugbyLeague_left,title,hopetoun cup,0.765078067779541
+SoccerLeague_left.csv,title,national premier leagues,RugbyLeague_left,title,7s premier league,0.7647806406021118
+SoccerLeague_left.csv,title,mid wales south league,RugbyLeague_left,title,midlands 2 east (south),0.7647254467010498
+SoccerLeague_left.csv,title,united soccer league of pennsylvania,RugbyLeague_left,title,pennine league,0.7636613845825195
+SoccerLeague_left.csv,title,somerset county league,RugbyLeague_left,title,county championship shield,0.7635815143585205
+SoccerLeague_left.csv,title,kiribati national championship,RugbyLeague_left,title,collegiate rugby championship,0.7633459568023682
+SoccerLeague_left.csv,title,drybrough cup,RugbyLeague_left,title,s. g. ball cup,0.7632753849029541
+SoccerLeague_left.csv,title,canadian soccer league,RugbyLeague_left,title,rugby canada super league,0.7632204294204712
+SoccerLeague_left.csv,title,north lancashire and district football league,RugbyLeague_left,title,north lancashire 2,0.7616550326347351
+SoccerLeague_left.csv,title,national amateur cup,RugbyLeague_left,title,arl schoolboy cup,0.7596837282180786
+SoccerLeague_left.csv,title,western confederation super league,RugbyLeague_left,title,rugby super league (united states),0.7595318555831909
+SoccerLeague_left.csv,title,lotto sport italia nrfl division 1,RugbyLeague_left,title,italia rugby football league,0.7591209411621094
+SoccerLeague_left.csv,title,tommy mcgrane memorial cup,RugbyLeague_left,title,jack gibson cup,0.7569274306297302
+SoccerLeague_left.csv,title,national super league,RugbyLeague_left,title,super league world nines,0.7559190988540649
+SoccerLeague_left.csv,title,cheshire association football league,RugbyLeague_left,title,south lancs/cheshire 2,0.755002498626709
+SoccerLeague_left.csv,title,cecafa u-17 championship,RugbyLeague_left,title,irb junior world championship,0.7538738250732422
+SoccerLeague_left.csv,title,prague championship,RugbyLeague_left,title,milan kosanovic cup,0.7529140114784241
+SoccerLeague_left.csv,title,soeratin cup,RugbyLeague_left,title,elgon cup,0.7517800331115723
+SoccerLeague_left.csv,title,indonesian inter island cup,RugbyLeague_left,title,irb pacific nations cup,0.7516168355941772
+SoccerLeague_left.csv,title,caledonian amateur football league,RugbyLeague_left,title,caledonia regional league (rugby union),0.751262903213501
+SoccerLeague_left.csv,title,nicky rackard cup,RugbyLeague_left,title,cyril connell cup,0.7507226467132568
+SoccerLeague_left.csv,title,danish superliga,RugbyLeague_left,title,superliga (rugby),0.7503694295883179
+SoccerLeague_left.csv,title,tuvalu a-division (women),RugbyLeague_left,title,caribbean women's rugby championship,0.7496547698974609
+SoccerLeague_left.csv,title,surrey county intermediate league (western),RugbyLeague_left,title,surrey 1,0.7479174733161926
+SoccerLeague_left.csv,title,nordic football championship,RugbyLeague_left,title,norway rugby championship,0.7461918592453003
+SoccerLeague_left.csv,title,cornwall combination,RugbyLeague_left,title,cornwall league 2,0.7454519867897034
+SoccerLeague_left.csv,title,nsw state league division two,RugbyLeague_left,title,chilterns junior rugby league,0.7452812194824219
+SoccerLeague_left.csv,title,syrian cup,RugbyLeague_left,title,bulimba cup,0.744978666305542
+SoccerLeague_left.csv,title,west australian football league,RugbyLeague_left,title,outback rugby league,0.7436196804046631
+SoccerLeague_left.csv,title,leinster senior league senior division,RugbyLeague_left,title,connacht schools rugby senior cup,0.7402176856994629
+SoccerLeague_left.csv,title,uaap football championship,RugbyLeague_left,title,college premier division,0.7386478185653687
+SoccerLeague_left.csv,title,austrian football bundesliga,RugbyLeague_left,title,rugby-bundesliga,0.7334753274917603
+SoccerLeague_left.csv,title,west yorkshire association football league,RugbyLeague_left,title,midlands 1 west,0.7330373525619507
+SoccerLeague_left.csv,title,slovak futsal extraliga,RugbyLeague_left,title,hungarian extraliga,0.7327983379364014
+SoccerLeague_left.csv,title,lithuanian women's supercup,RugbyLeague_left,title,fira women's european championship,0.7326925992965698
+SoccerLeague_left.csv,title,afl queensland women's league,RugbyLeague_left,title,women's rugby league world cup,0.7324259281158447
+SoccerLeague_left.csv,title,southern league cup (scotland),RugbyLeague_left,title,colonial cup (rugby league),0.7324037551879883
+SoccerLeague_left.csv,title,lotto sport italia nrfl division 2,RugbyLeague_left,title,iwrf european championship,0.7319726943969727
+SoccerLeague_left.csv,title,kenyan district league,RugbyLeague_left,title,kenya national sevens circuit,0.7314817905426025
+SoccerLeague_left.csv,title,welsh alliance league,RugbyLeague_left,title,highland alliance league,0.7313737869262695
+SoccerLeague_left.csv,title,northern ireland intermediate league,RugbyLeague_left,title,ulster schools' cup,0.7310255765914917
+SoccerLeague_left.csv,title,east midlands regional women's football league,RugbyLeague_left,title,midlands 2 east (north),0.7297008037567139
+SoccerLeague_left.csv,title,victorian football league,RugbyLeague_left,title,nsw tertiary student rugby league,0.7294743061065674
+SoccerLeague_left.csv,title,niue soccer tournament,RugbyLeague_left,title,irb nations cup,0.7292956709861755
+SoccerLeague_left.csv,title,football west state league division one,RugbyLeague_left,title,winfield state league,0.7281688451766968
+SoccerLeague_left.csv,title,primera fuerza,RugbyLeague_left,title,torneo de la urba,0.7259190082550049
+SoccerLeague_left.csv,title,munster senior league (association football),RugbyLeague_left,title,rugby-regionalliga,0.7256938219070435
+SoccerLeague_left.csv,title,alberta major soccer league,RugbyLeague_left,title,canadian direct insurance premier league,0.7235289216041565
+SoccerLeague_left.csv,title,lega pro,RugbyLeague_left,title,pro 12,0.7226657867431641
+SoccerLeague_left.csv,title,safa second division,RugbyLeague_left,title,iwrf asia-oceania championship,0.7219713926315308
+SoccerLeague_left.csv,title,championnat de france (women's water polo),RugbyLeague_left,title,european women's sevens championship,0.7218077182769775
+SoccerLeague_left.csv,title,north division two (shinty),RugbyLeague_left,title,north east 3,0.7217192649841309
+SoccerLeague_left.csv,title,singapore fa cup,RugbyLeague_left,title,yellow sea cup,0.7214096784591675
+SoccerLeague_left.csv,title,bahraini crown prince cup,RugbyLeague_left,title,churchill cup,0.7210429906845093
+SoccerLeague_left.csv,title,bendigo football league,RugbyLeague_left,title,goulburn murray rugby league,0.7192679643630981
+SoccerLeague_left.csv,title,eastern counties football league,RugbyLeague_left,title,east coast rugby conference,0.7189508676528931
+SoccerLeague_left.csv,title,mru super league,RugbyLeague_left,title,super rugby,0.7176384925842285
+SoccerLeague_left.csv,title,i-league u20,RugbyLeague_left,title,2nd rugby-bundesliga,0.7173571586608887
+SoccerLeague_left.csv,title,japan football league,RugbyLeague_left,title,all-japan university rugby championship,0.7159211039543152
+SoccerLeague_left.csv,title,south western football league,RugbyLeague_left,title,south australia rugby union,0.715223491191864
+SoccerLeague_left.csv,title,dorset football league,RugbyLeague_left,title,dorset & wilts 3 south,0.7151027917861938
+SoccerLeague_left.csv,title,s.league,RugbyLeague_left,title,border league,0.7137726545333862
+SoccerLeague_left.csv,title,unaf u-20 tournament,RugbyLeague_left,title,national competition,0.7127084136009216
+SoccerLeague_left.csv,title,regional league championships,RugbyLeague_left,title,heartland championship,0.7124495506286621
+SoccerLeague_left.csv,title,south west peninsula league,RugbyLeague_left,title,south pacific championship,0.7124282121658325
+SoccerLeague_left.csv,title,dewar shield,RugbyLeague_left,title,shute shield,0.7123597860336304

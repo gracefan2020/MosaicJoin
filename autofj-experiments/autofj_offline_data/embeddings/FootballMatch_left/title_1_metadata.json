@@ -1,0 +1,11 @@
+{
+  "table_name": "FootballMatch_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_values": 1999,
+  "unique_values": 1999,
+  "processed_values": 1999,
+  "embedding_dim": 768,
+  "processing_time": 1.363157033920288,
+  "file_path": "datasets/autofj_join_benchmark/datalake/FootballMatch_left.csv"
+}

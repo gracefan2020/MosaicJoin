@@ -1,0 +1,4 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Noble_left.csv,title,Bohemond I of Antioch,ChristianBishop_right.csv,title,George I of Antioch,0.713
+Noble_left.csv,title,Edward Burgh,ChristianBishop_right.csv,title,Edward Burroughs,0.713
+Noble_left.csv,title,Filippo Maria Visconti,ChristianBishop_right.csv,title,Filippo Maria Visconti (bishop),0.713

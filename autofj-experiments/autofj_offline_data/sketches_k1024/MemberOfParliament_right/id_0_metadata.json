@@ -1,0 +1,9 @@
+{
+  "table_name": "MemberOfParliament_right",
+  "column_name": "id",
+  "column_index": 0,
+  "total_embeddings": 503,
+  "sketch_k": 503,
+  "processing_time": 0.2584662437438965,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/MemberOfParliament_right/id_0.npz"
+}

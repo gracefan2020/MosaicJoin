@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Device_left.csv,title,2k6 luna,ArtificialSatellite_left,title,luna 2,0.8923673629760742
+Device_left.csv,title,hermes (missile),ArtificialSatellite_left,title,hermes (satellite),0.8575217723846436
+Device_left.csv,title,thor iii,ArtificialSatellite_left,title,thor 5,0.8462886810302734
+Device_left.csv,title,fv432,ArtificialSatellite_left,title,ftv-2203,0.8261715769767761
+Device_left.csv,title,ats-59,ArtificialSatellite_left,title,ats-3,0.818145751953125
+Device_left.csv,title,astra model 44,ArtificialSatellite_left,title,astra 5a,0.8133678436279297
+Device_left.csv,title,samsung galaxy r,ArtificialSatellite_left,title,galaxy 4r,0.8081475496292114
+Device_left.csv,title,pt-76,ArtificialSatellite_left,title,p78-1,0.801388144493103
+Device_left.csv,title,swarm,ArtificialSatellite_left,title,swarm (spacecraft),0.7965347766876221
+Device_left.csv,title,dahong palay,ArtificialSatellite_left,title,dong fang hong i,0.7925353050231934
+Device_left.csv,title,sraam,ArtificialSatellite_left,title,srmsat,0.7840323448181152
+Device_left.csv,title,2b9 vasilek,ArtificialSatellite_left,title,vostok 1,0.7764341831207275
+Device_left.csv,title,exopc,ArtificialSatellite_left,title,exosat,0.7699083685874939
+Device_left.csv,title,btr-4,ArtificialSatellite_left,title,badr-4,0.7688232660293579
+Device_left.csv,title,wimmersperg spz-kr,ArtificialSatellite_left,title,spektr-rg,0.7652050256729126
+Device_left.csv,title,htc explorer,ArtificialSatellite_left,title,explorer 8,0.763436496257782
+Device_left.csv,title,k31,ArtificialSatellite_left,title,kosmos 369,0.756893515586853
+Device_left.csv,title,ps/2e,ArtificialSatellite_left,title,pssc-2,0.7548538446426392
+Device_left.csv,title,tandem-charge,ArtificialSatellite_left,title,tandem-x,0.7519503831863403
+Device_left.csv,title,lockheed x-17,ArtificialSatellite_left,title,x-15 flight 90,0.7516404390335083
+Device_left.csv,title,sm-70,ArtificialSatellite_left,title,kosmos 70,0.749748706817627
+Device_left.csv,title,volkov-yartsev vya-23,ArtificialSatellite_left,title,universitetsky-tatyana-2,0.747743546962738
+Device_left.csv,title,little boy,ArtificialSatellite_left,title,little joe 1,0.7466269731521606
+Device_left.csv,title,ak-101,ArtificialSatellite_left,title,ao-51,0.7436085939407349
+Device_left.csv,title,rooikat,ArtificialSatellite_left,title,razaksat,0.7422362565994263
+Device_left.csv,title,ks-23,ArtificialSatellite_left,title,kosmos 2282,0.7415717840194702
+Device_left.csv,title,l42a1,ArtificialSatellite_left,title,a-003,0.7409676313400269
+Device_left.csv,title,feg pa-63,ArtificialSatellite_left,title,pas-22,0.7400256991386414
+Device_left.csv,title,m1867 russian krnka,ArtificialSatellite_left,title,soyuz 1,0.7394729852676392
+Device_left.csv,title,m79 osa,ArtificialSatellite_left,title,oso 7,0.7387466430664062
+Device_left.csv,title,united defense m42,ArtificialSatellite_left,title,s-45a,0.7382646799087524
+Device_left.csv,title,c-704,ArtificialSatellite_left,title,usa-71,0.7335134744644165
+Device_left.csv,title,amx-40,ArtificialSatellite_left,title,rax-2,0.7305911779403687
+Device_left.csv,title,kh-58,ArtificialSatellite_left,title,kosmos 608,0.7292584180831909
+Device_left.csv,title,wirbelwind,ArtificialSatellite_left,title,winds,0.726432740688324
+Device_left.csv,title,samsung sgh-t100,ArtificialSatellite_left,title,galaxy 10r,0.7263766527175903
+Device_left.csv,title,bm-24,ArtificialSatellite_left,title,progress m-24,0.7246057987213135
+Device_left.csv,title,r-7 semyorka,ArtificialSatellite_left,title,soyuz 7,0.7234779596328735
+Device_left.csv,title,cz 110,ArtificialSatellite_left,title,kosmos 110,0.7228875160217285
+Device_left.csv,title,yanmaodao,ArtificialSatellite_left,title,yinghuo-1,0.7220087051391602
+Device_left.csv,title,tranz 330,ArtificialSatellite_left,title,kosmos 320,0.721571683883667
+Device_left.csv,title,ksvk 12.7,ArtificialSatellite_left,title,kosmos 1024,0.7202897071838379
+Device_left.csv,title,ak-104,ArtificialSatellite_left,title,usa-223,0.7188798189163208
+Device_left.csv,title,zastava m76,ArtificialSatellite_left,title,kosmos 775,0.71819669008255
+Device_left.csv,title,ksp m/42 machine gun,ArtificialSatellite_left,title,kosmos 380,0.7176491022109985
+Device_left.csv,title,wg66,ArtificialSatellite_left,title,wresat,0.7149757146835327
+Device_left.csv,title,acv-300,ArtificialSatellite_left,title,ftv-1126,0.7138012647628784
+Device_left.csv,title,altos 586,ArtificialSatellite_left,title,kosmos 545,0.7127330303192139
+Device_left.csv,title,9m133 kornet,ArtificialSatellite_left,title,kosmos 909,0.710888147354126
+Device_left.csv,title,ukm-2000,ArtificialSatellite_left,title,uk-dmc 2,0.7103636860847473
+Device_left.csv,title,zastava m84,ArtificialSatellite_left,title,kosmos 803,0.709748387336731
+Device_left.csv,title,sanyo s750/s750i,ArtificialSatellite_left,title,shijian xi-01,0.7087523937225342
+Device_left.csv,title,cannone da 149/35 a,ArtificialSatellite_left,title,estrela do sul 1,0.7085000276565552
+Device_left.csv,title,zastava m85,ArtificialSatellite_left,title,kosmos 440,0.7083796262741089
+Device_left.csv,title,davidka,ArtificialSatellite_left,title,belka,0.7077653408050537
+Device_left.csv,title,abdali-i,ArtificialSatellite_left,title,arabsat-1b,0.7059205174446106
+Device_left.csv,title,ur-100,ArtificialSatellite_left,title,uwe-2,0.7057455778121948
+Device_left.csv,title,aardvark jsfu,ArtificialSatellite_left,title,aausat3,0.703650951385498
+Device_left.csv,title,kepd 350,ArtificialSatellite_left,title,kosmos 351,0.7032927870750427
+Device_left.csv,title,ar-10,ArtificialSatellite_left,title,amc-11,0.7018929123878479
+Device_left.csv,title,vectrex,ArtificialSatellite_left,title,venera 1,0.7015352249145508
+Device_left.csv,title,tkb-059,ArtificialSatellite_left,title,yamal-402,0.7014903426170349
+Device_left.csv,title,valuk,ArtificialSatellite_left,title,voskhod 1,0.7002651691436768
+Device_left.csv,title,fm-8,ArtificialSatellite_left,title,amc-8,0.6994549036026001
+Device_left.csv,title,r-37 (missile),ArtificialSatellite_left,title,soyuz 40,0.6988756656646729
+Device_left.csv,title,otoy,ArtificialSatellite_left,title,oso 3,0.6972068548202515
+Device_left.csv,title,trs-80 mc-10,ArtificialSatellite_left,title,tdrs-10,0.6967644691467285
+Device_left.csv,title,toz-106,ArtificialSatellite_left,title,kosmos 106,0.6958657503128052
+Device_left.csv,title,zsu-37,ArtificialSatellite_left,title,kosmos 308,0.6946130990982056
+Device_left.csv,title,cinquedea,ArtificialSatellite_left,title,venera 16,0.6932105422019958
+Device_left.csv,title,t-95,ArtificialSatellite_left,title,td-1a,0.6931784152984619
+Device_left.csv,title,mesbah 1,ArtificialSatellite_left,title,masat-1,0.6924675703048706
+Device_left.csv,title,m-63 plamen,ArtificialSatellite_left,title,progress m-62,0.6915987730026245
+Device_left.csv,title,cbu-24,ArtificialSatellite_left,title,amc-21,0.691059947013855
+Device_left.csv,title,9k115-2 metis-m,ArtificialSatellite_left,title,nimiq-4,0.6910152435302734
+Device_left.csv,title,grendel p30,ArtificialSatellite_left,title,gorizont 33,0.6908000707626343
+Device_left.csv,title,r-60 (missile),ArtificialSatellite_left,title,s-45 (satellite),0.6906850337982178
+Device_left.csv,title,daewoo precision industries k7,ArtificialSatellite_left,title,kosmos 2470,0.6905121803283691
+Device_left.csv,title,k-100 (missile),ArtificialSatellite_left,title,a-103 (spacecraft),0.6893342137336731
+Device_left.csv,title,scr-108,ArtificialSatellite_left,title,ops 9794,0.6868985891342163
+Device_left.csv,title,slem-1,ArtificialSatellite_left,title,st-1,0.6857643723487854
+Device_left.csv,title,stridsvagn 103,ArtificialSatellite_left,title,kosmos 1030,0.6851839423179626
+Device_left.csv,title,ah-iv,ArtificialSatellite_left,title,aissat-1,0.6851673126220703
+Device_left.csv,title,msn companion,ArtificialSatellite_left,title,messenger,0.6847172379493713
+Device_left.csv,title,xsm-74,ArtificialSatellite_left,title,kosmos 745,0.68419349193573
+Device_left.csv,title,lg optimus 4x hd,ArtificialSatellite_left,title,optus d3,0.6838546991348267
+Device_left.csv,title,saur 1,ArtificialSatellite_left,title,ses-1,0.6837230324745178
+Device_left.csv,title,agram 2000,ArtificialSatellite_left,title,aausat-ii,0.6823905110359192
+Device_left.csv,title,tsar bomba,ArtificialSatellite_left,title,tyazhely sputnik,0.681434154510498
+Device_left.csv,title,bushmaster m17s,ArtificialSatellite_left,title,usa-177,0.6813831329345703
+Device_left.csv,title,hs2000,ArtificialSatellite_left,title,htv-1,0.6812514066696167
+Device_left.csv,title,northstar engine series,ArtificialSatellite_left,title,nustar,0.6808632612228394
+Device_left.csv,title,bersa 83,ArtificialSatellite_left,title,kosmos 335,0.680720329284668
+Device_left.csv,title,mg 15,ArtificialSatellite_left,title,amc-14,0.6805365085601807
+Device_left.csv,title,km-sam,ArtificialSatellite_left,title,samos 4,0.6798380613327026
+Device_left.csv,title,rs-24 yars,ArtificialSatellite_left,title,telstar 14r,0.6797674894332886
+Device_left.csv,title,motorola aura,ArtificialSatellite_left,title,aura (satellite),0.6793454885482788
+Device_left.csv,title,hyunmoo-3,ArtificialSatellite_left,title,mir eo-3,0.6789051294326782
+Device_left.csv,title,rpk-9 medvedka,ArtificialSatellite_left,title,ofek-9,0.678902804851532
+Device_left.csv,title,sanna 77,ArtificialSatellite_left,title,kosmos 686,0.6779944896697998
+Device_left.csv,title,amr 35,ArtificialSatellite_left,title,discoverer 35,0.6774817109107971
+Device_left.csv,title,mems m-52/60,ArtificialSatellite_left,title,progress m-50,0.6771076321601868
+Device_left.csv,title,azon,ArtificialSatellite_left,title,azur (satellite),0.6769917011260986
+Device_left.csv,title,air-launched cruise missile,ArtificialSatellite_left,title,space flyer unit,0.6766902804374695
+Device_left.csv,title,electronika bk,ArtificialSatellite_left,title,elektro-l no.1,0.6763100624084473
+Device_left.csv,title,solothurn s-18/1000,ArtificialSatellite_left,title,sts-3xx,0.6757532954216003
+Device_left.csv,title,sr 88,ArtificialSatellite_left,title,sts-84,0.6755197048187256
+Device_left.csv,title,malkara (missile),ArtificialSatellite_left,title,bhaskara (satellite),0.6751426458358765
+Device_left.csv,title,litl,ArtificialSatellite_left,title,saral,0.6745776534080505
+Device_left.csv,title,rg-32 scout,ArtificialSatellite_left,title,mercury-scout 1,0.6739013195037842
+Device_left.csv,title,no 8 mine,ArtificialSatellite_left,title,goes 8,0.6736998558044434
+Device_left.csv,title,type 26 revolver,ArtificialSatellite_left,title,kosmos 357,0.6728728413581848
+Device_left.csv,title,al-zarrar,ArtificialSatellite_left,title,arabsat-5a,0.6728342771530151
+Device_left.csv,title,oshkosh m-atv,ArtificialSatellite_left,title,kosmos 880,0.6726197004318237
+Device_left.csv,title,zastava m80,ArtificialSatellite_left,title,kosmos 212,0.672562837600708
+Device_left.csv,title,samsung champ,ArtificialSatellite_left,title,champ,0.6718891263008118
+Device_left.csv,title,jl-1,ArtificialSatellite_left,title,jason-1,0.6708097457885742
+Device_left.csv,title,buntot pagi,ArtificialSatellite_left,title,ugatusat,0.670697808265686
+Device_left.csv,title,mark 13 torpedo,ArtificialSatellite_left,title,mariner 9,0.6705935001373291
+Device_left.csv,title,sig 522lr,ArtificialSatellite_left,title,ops 5111,0.67049241065979
+Device_left.csv,title,calico m950,ArtificialSatellite_left,title,kosmos 580,0.6699453592300415
+Device_left.csv,title,superav,ArtificialSatellite_left,title,superbird-c2,0.6697435975074768
+Device_left.csv,title,airplay,ArtificialSatellite_left,title,sirius fm-1,0.6692900657653809
+Device_left.csv,title,rg-31 nyala,ArtificialSatellite_left,title,nee-01 pegasus,0.6692012548446655
+Device_left.csv,title,sumitomo type 62,ArtificialSatellite_left,title,kosmos 277,0.6691080331802368
+Device_left.csv,title,lsat light machine gun,ArtificialSatellite_left,title,magsat,0.6688635349273682
+Device_left.csv,title,m4 (missile),ArtificialSatellite_left,title,soyuz 4,0.6686493158340454
+Device_left.csv,title,kobo glo,ArtificialSatellite_left,title,kosmos 123,0.6684927940368652
+Device_left.csv,title,aam-5 (japanese missile),ArtificialSatellite_left,title,a-105 (spacecraft),0.668410062789917
+Device_left.csv,title,sd.kfz. 11,ArtificialSatellite_left,title,sds-1,0.6675297617912292
+Device_left.csv,title,tapwave zodiac,ArtificialSatellite_left,title,gemini 11,0.6667706370353699
+Device_left.csv,title,ka-bar,ArtificialSatellite_left,title,kalpana-1,0.6648721694946289
+Device_left.csv,title,42 line gun m1877,ArtificialSatellite_left,title,progress m-45,0.6638846397399902
+Device_left.csv,title,roketsan cirit,ArtificialSatellite_left,title,rasat,0.6638169288635254
+Device_left.csv,title,savage 110 ba,ArtificialSatellite_left,title,kosmos 165,0.663688600063324
+Device_left.csv,title,valanx,ArtificialSatellite_left,title,galex,0.663489580154419
+Device_left.csv,title,9m123 khrizantema,ArtificialSatellite_left,title,salyut 6 ep-1,0.663162112236023
+Device_left.csv,title,pindad ss4,ArtificialSatellite_left,title,sds-4,0.6629422903060913
+Device_left.csv,title,pm-63 rak,ArtificialSatellite_left,title,usa-63,0.6624590158462524
+Device_left.csv,title,r-26 (missile),ArtificialSatellite_left,title,soyuz 24,0.6622720956802368
+Device_left.csv,title,2s12 sani,ArtificialSatellite_left,title,ses7,0.6622575521469116
+Device_left.csv,title,soltam m-68,ArtificialSatellite_left,title,measat-3a,0.6620769500732422
+Device_left.csv,title,kurbash,ArtificialSatellite_left,title,yahsat 1a,0.6619507074356079
+Device_left.csv,title,m47 patton,ArtificialSatellite_left,title,ops 3762,0.660683274269104
+Device_left.csv,title,ba-64,ArtificialSatellite_left,title,usa-64,0.6605439186096191
+Device_left.csv,title,zastava p25,ArtificialSatellite_left,title,kosmos 245,0.6603103876113892
+Device_left.csv,title,zx81,ArtificialSatellite_left,title,ziyuan 3,0.660230278968811
+Device_left.csv,title,cj-1,ArtificialSatellite_left,title,star one c3,0.6601622700691223
+Device_left.csv,title,ashoura (missile),ArtificialSatellite_left,title,ardusat,0.6599221229553223
+Device_left.csv,title,9a52-4 tornado,ArtificialSatellite_left,title,noaa-7,0.6593564748764038
+Device_left.csv,title,oa vz. 30,ArtificialSatellite_left,title,venera 6,0.658845067024231
+Device_left.csv,title,vityaz (atv),ArtificialSatellite_left,title,vostok 6,0.6587333679199219
+Device_left.csv,title,gewehr 98,ArtificialSatellite_left,title,usa-91,0.6584450006484985
+Device_left.csv,title,pl-2,ArtificialSatellite_left,title,st-2,0.6573992967605591
+Device_left.csv,title,spg-82,ArtificialSatellite_left,title,usa-84,0.6573804616928101
+Device_left.csv,title,t11 torpedo,ArtificialSatellite_left,title,soyuz tma-11m,0.6569125652313232
+Device_left.csv,title,alpha draco,ArtificialSatellite_left,title,dragon c2+,0.6555920243263245
+Device_left.csv,title,colt m1878,ArtificialSatellite_left,title,ops 0855,0.6553950309753418
+Device_left.csv,title,lg voyager,ArtificialSatellite_left,title,voyager 1,0.6548466682434082
+Device_left.csv,title,samsung e1107,ArtificialSatellite_left,title,galaxy 11,0.6541620492935181
+Device_left.csv,title,otobreda 127/54 compact,ArtificialSatellite_left,title,kosmos 1409,0.6536474227905273
+Device_left.csv,title,tog1,ArtificialSatellite_left,title,nigcomsat-1,0.6535947322845459
+Device_left.csv,title,btr-40,ArtificialSatellite_left,title,badr-b,0.653557538986206
+Device_left.csv,title,m51 (missile),ArtificialSatellite_left,title,progress m-53,0.6524960994720459
+Device_left.csv,title,breda 30,ArtificialSatellite_left,title,venera 9,0.6521597504615784
+Device_left.csv,title,as 15 tt,ArtificialSatellite_left,title,astra 1e,0.6519941091537476
+Device_left.csv,title,qsz-92,ArtificialSatellite_left,title,quetzsat 1,0.6519086360931396
+Device_left.csv,title,sisu nasu,ArtificialSatellite_left,title,suomi npp,0.6518115997314453
+Device_left.csv,title,prahaar (missile),ArtificialSatellite_left,title,pratham (satellite),0.6515007019042969
+Device_left.csv,title,arcus 98da,ArtificialSatellite_left,title,kosmos 2084,0.6513087749481201
+Device_left.csv,title,gorgon (missile family),ArtificialSatellite_left,title,goliat,0.6511068940162659
+Device_left.csv,title,ultimax 100,ArtificialSatellite_left,title,uosat-3,0.6506153345108032
+Device_left.csv,title,kanonenjagdpanzer,ArtificialSatellite_left,title,sakigake,0.6491681337356567
+Device_left.csv,title,r-9 desna,ArtificialSatellite_left,title,gsat-9,0.6491221785545349
+Device_left.csv,title,gu230,ArtificialSatellite_left,title,gsat-5p,0.6490548849105835
+Device_left.csv,title,combat vehicle 90,ArtificialSatellite_left,title,kosmos 93,0.6485769748687744
+Device_left.csv,title,terradyne armored vehicles inc. gurkha,ArtificialSatellite_left,title,terrasar-x,0.6479712724685669
+Device_left.csv,title,lsat rifle,ArtificialSatellite_left,title,radarsat-1,0.6473881602287292
+Device_left.csv,title,mark 14 torpedo,ArtificialSatellite_left,title,soyuz 14,0.6471012830734253
+Device_left.csv,title,amr-2,ArtificialSatellite_left,title,cbers-2,0.6463214159011841
+Device_left.csv,title,aim-4 falcon,ArtificialSatellite_left,title,pegasus 3,0.6460316777229309
+Device_left.csv,title,lrac f1,ArtificialSatellite_left,title,spaceway f1,0.6456878781318665
+Device_left.csv,title,dm-11 mine,ArtificialSatellite_left,title,progress m-11,0.6451293230056763
+Device_left.csv,title,nexus 6,ArtificialSatellite_left,title,galaxy 18,0.6450117826461792
+Device_left.csv,title,ag m/42,ArtificialSatellite_left,title,agila 2,0.6442012786865234
+Device_left.csv,title,spectra shield,ArtificialSatellite_left,title,extreme ultraviolet explorer,0.6438488960266113
+Device_left.csv,title,gorgas machine gun,ArtificialSatellite_left,title,goes-g,0.6435930132865906
+Device_left.csv,title,ascod,ArtificialSatellite_left,title,astra 1c,0.6432017683982849
+Device_left.csv,title,mark 18 torpedo,ArtificialSatellite_left,title,soyuz 18a,0.642794132232666
+Device_left.csv,title,t-1 tractor,ArtificialSatellite_left,title,soyuz t-1,0.642137885093689
+Device_left.csv,title,p-70 ametist,ArtificialSatellite_left,title,progress m-34,0.642038106918335
+Device_left.csv,title,berliet vxb-170,ArtificialSatellite_left,title,ekspress-am4,0.6420118808746338
+Device_left.csv,title,c-803,ArtificialSatellite_left,title,delfi-c3,0.6410143375396729
+Device_left.csv,title,rsd 58,ArtificialSatellite_left,title,resurs-dk1,0.6409090161323547
+Device_left.csv,title,lamborghini v12,ArtificialSatellite_left,title,edoardo amaldi atv,0.6403529644012451
+Device_left.csv,title,fateh-110,ArtificialSatellite_left,title,luch 5b,0.6398866176605225
+Device_left.csv,title,ak-9,ArtificialSatellite_left,title,soyuz 9,0.6396045684814453
+Device_left.csv,title,paveway iv,ArtificialSatellite_left,title,spaceway-3,0.6390081644058228
+Device_left.csv,title,mk 5 mine,ArtificialSatellite_left,title,kosmos 5,0.6385455131530762
+Device_left.csv,title,alvis tactica,ArtificialSatellite_left,title,antares a-one,0.6382007002830505

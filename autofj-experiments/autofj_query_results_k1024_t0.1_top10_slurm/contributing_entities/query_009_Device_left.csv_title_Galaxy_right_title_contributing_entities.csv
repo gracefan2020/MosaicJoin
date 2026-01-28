@@ -1,0 +1,18 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Device_left.csv,title,gb-8,Galaxy_right,title,gr 8,0.7425532937049866
+Device_left.csv,title,amx-40,Galaxy_right,title,rx j1242-11,0.7126617431640625
+Device_left.csv,title,kepd 350,Galaxy_right,title,ddo 190,0.6980739831924438
+Device_left.csv,title,l3/33,Galaxy_right,title,3c 433,0.6833819150924683
+Device_left.csv,title,c-704,Galaxy_right,title,ngc 6872,0.6746227741241455
+Device_left.csv,title,vb berapi lp06,Galaxy_right,title,ms 1512-cb58,0.6617721319198608
+Device_left.csv,title,rg-35,Galaxy_right,title,ngc 34,0.6581634283065796
+Device_left.csv,title,fhj 84,Galaxy_right,title,ddo 169,0.6442008018493652
+Device_left.csv,title,l42a1,Galaxy_right,title,ngc 5562,0.600763201713562
+Device_left.csv,title,scr-108,Galaxy_right,title,ngc 1265,0.5912918448448181
+Device_left.csv,title,tandberg c90,Galaxy_right,title,ngc 935/ic 1801,0.5451442003250122
+Device_left.csv,title,saur 1,Galaxy_right,title,segue 2,0.5189435482025146
+Device_left.csv,title,spetum,Galaxy_right,title,sagittarius dwarf spheroidal galaxy,0.4619171619415283
+Device_left.csv,title,c-803,Galaxy_right,title,arp 302,0.44734781980514526
+Device_left.csv,title,type 2 ho-i,Galaxy_right,title,canis major overdensity,0.40530824661254883
+Device_left.csv,title,starr carbine,Galaxy_right,title,carina dwarf spheroidal galaxy,0.4018592834472656
+Device_left.csv,title,sanyo s750/s750i,Galaxy_right,title,carina dwarf spheroidal galaxy,0.3825363516807556

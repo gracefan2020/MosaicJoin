@@ -1,0 +1,4 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+ArtificialSatellite_left.csv,title,OPS 5111,ArtificialSatellite_right.csv,title,Opportunity rover,0.9039
+ArtificialSatellite_left.csv,title,Fengyun 2-05,ArtificialSatellite_right.csv,title,Fengyun 2D,0.9039
+ArtificialSatellite_left.csv,title,Eutelsat 28B,ArtificialSatellite_right.csv,title,Eutelsat 33B,0.9039

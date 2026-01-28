@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+GovernmentAgency_left.csv,title,andhra pradesh state election commission,PoliticalParty_right,title,odisha pradesh congress committee,0.8312137722969055
+GovernmentAgency_left.csv,title,election commission of malaysia,PoliticalParty_right,title,democratic action party (malaysia),0.8101683855056763
+GovernmentAgency_left.csv,title,puerto rico state commission on elections,PoliticalParty_right,title,popular democratic party of puerto rico,0.8075751066207886
+GovernmentAgency_left.csv,title,ministry of labour and social policy (poland),PoliticalParty_right,title,labour union (poland),0.8014774322509766
+GovernmentAgency_left.csv,title,government of south australia,PoliticalParty_right,title,liberal union (south australia),0.7925999164581299
+GovernmentAgency_left.csv,title,government of nepal,PoliticalParty_right,title,bahujan samaj party of nepal,0.7850750088691711
+GovernmentAgency_left.csv,title,state sangha maha nayaka committee,PoliticalParty_right,title,pondicherry pradesh congress committee,0.7813900709152222
+GovernmentAgency_left.csv,title,nigerian electricity regulatory commission,PoliticalParty_right,title,action congress of nigeria,0.7740373611450195
+GovernmentAgency_left.csv,title,majlis amanah rakyat,PoliticalParty_right,title,harakat majd,0.7640726566314697
+GovernmentAgency_left.csv,title,sudan news agency,PoliticalParty_right,title,"liberal democratic party, sudan",0.7603561878204346
+GovernmentAgency_left.csv,title,election assistance commission,PoliticalParty_right,title,association of candidates,0.759114146232605
+GovernmentAgency_left.csv,title,ministry of labor (south korea),PoliticalParty_right,title,workers' party of south korea,0.7579458951950073
+GovernmentAgency_left.csv,title,ministry of labour and social solidarity,PoliticalParty_right,title,labour united,0.7522808909416199
+GovernmentAgency_left.csv,title,cuban project,PoliticalParty_right,title,cuban liberal movement,0.7482717633247375
+GovernmentAgency_left.csv,title,presidential administration of ukraine,PoliticalParty_right,title,democratic bloc (ukraine),0.7401520013809204
+GovernmentAgency_left.csv,title,ministry of information (burma),PoliticalParty_right,title,national unity party (myanmar),0.7395791411399841
+GovernmentAgency_left.csv,title,provisional polish revolutionary committee,PoliticalParty_right,title,solidary poland,0.7393605709075928
+GovernmentAgency_left.csv,title,the office of azerbaijan president,PoliticalParty_right,title,social democratic party of azerbaijan,0.7351964116096497
+GovernmentAgency_left.csv,title,ministry of peace and cpa implementation (south sudan),PoliticalParty_right,title,sudan people's liberation movement (northern sector),0.733987033367157
+GovernmentAgency_left.csv,title,land & water australia,PoliticalParty_right,title,sustainable australia,0.7272732257843018
+GovernmentAgency_left.csv,title,government of uzbekistan,PoliticalParty_right,title,communist party of azerbaijan,0.7225550413131714
+GovernmentAgency_left.csv,title,new zealand geographic board,PoliticalParty_right,title,new zealand republic,0.72182697057724
+GovernmentAgency_left.csv,title,ministry of justice (afghanistan),PoliticalParty_right,title,national islamic front of afghanistan,0.7204769849777222
+GovernmentAgency_left.csv,title,new south wales division of local government,PoliticalParty_right,title,australian labor party (new south wales branch),0.7185748815536499
+GovernmentAgency_left.csv,title,bangladesh election commission,PoliticalParty_right,title,bangladesh krishak sramik awami league,0.7155236005783081
+GovernmentAgency_left.csv,title,united states citizenship and immigration services,PoliticalParty_right,title,active citizenship,0.712295413017273
+GovernmentAgency_left.csv,title,ministry of foreign affairs (ethiopia),PoliticalParty_right,title,alliance for democracy and development (cameroon),0.7107032537460327
+GovernmentAgency_left.csv,title,bhubaneswar development authority,PoliticalParty_right,title,samruddha odisha,0.7099778652191162
+GovernmentAgency_left.csv,title,ministry of justice (poland),PoliticalParty_right,title,alliance of democrats (poland),0.7092667818069458
+GovernmentAgency_left.csv,title,security service of ukraine,PoliticalParty_right,title,ukrainian socialist revolutionary party,0.7085822224617004
+GovernmentAgency_left.csv,title,ministry of religious affairs (burma),PoliticalParty_right,title,democratic party (myanmar),0.7066450715065002
+GovernmentAgency_left.csv,title,ministry of justice (lebanon),PoliticalParty_right,title,national bloc (lebanon),0.7056591510772705
+GovernmentAgency_left.csv,title,ministry of the federal territories (malaysia),PoliticalParty_right,title,united sabah national organisation,0.7046282291412354
+GovernmentAgency_left.csv,title,taipei city government,PoliticalParty_right,title,new party (taiwan),0.7038094997406006
+GovernmentAgency_left.csv,title,reichssicherheitsdienst,PoliticalParty_right,title,german fatherland party,0.7033716440200806
+GovernmentAgency_left.csv,title,council of people's commissars (ukraine),PoliticalParty_right,title,all-ukrainian union \,0.700453519821167
+GovernmentAgency_left.csv,title,iraqi special security organization,PoliticalParty_right,title,ba'ath party (iraqi-led faction),0.6980991363525391
+GovernmentAgency_left.csv,title,"ministry of commerce, industry and investment (south sudan)",PoliticalParty_right,title,united democratic front (south sudan),0.692922830581665
+GovernmentAgency_left.csv,title,majlis ugama islam singapura,PoliticalParty_right,title,jamaat-e-islami pakistan,0.692224383354187
+GovernmentAgency_left.csv,title,spanish council of state,PoliticalParty_right,title,communist party of the peoples of spain,0.6912586688995361
+GovernmentAgency_left.csv,title,ministry of justice (iran),PoliticalParty_right,title,mojahedin of the islamic revolution of iran organization,0.6907162666320801
+GovernmentAgency_left.csv,title,ministry of the interior (turkey),PoliticalParty_right,title,homeland party (turkey),0.6897651553153992
+GovernmentAgency_left.csv,title,"department of premier and cabinet, queensland",PoliticalParty_right,title,australian labor party (nsw branch),0.687598466873169
+GovernmentAgency_left.csv,title,department of defence (south africa),PoliticalParty_right,title,dta of namibia,0.6868973970413208
+GovernmentAgency_left.csv,title,kgb,PoliticalParty_right,title,russian party,0.6852272748947144
+GovernmentAgency_left.csv,title,list of ministers of interior and justice of venezuela,PoliticalParty_right,title,democratic action (venezuela),0.684979259967804
+GovernmentAgency_left.csv,title,federal ministry of interior (federation of bosnia and herzegovina),PoliticalParty_right,title,serb democratic party (bosnia and herzegovina),0.6828724145889282
+GovernmentAgency_left.csv,title,ministry of culture (lithuania),PoliticalParty_right,title,homeland union â lithuanian christian democrats,0.6804966926574707
+GovernmentAgency_left.csv,title,intelligence bureau (pakistan),PoliticalParty_right,title,pakistan awami tehrik,0.6794182062149048
+GovernmentAgency_left.csv,title,ministry of foreign affairs and international cooperation (cambodia),PoliticalParty_right,title,cambodia national rescue party,0.6771531105041504
+GovernmentAgency_left.csv,title,ministry of labour and social affairs (russia),PoliticalParty_right,title,russian party of pensioners for justice,0.6771374940872192
+GovernmentAgency_left.csv,title,manitoba aboriginal and northern affairs,PoliticalParty_right,title,the first nations political party,0.6769965887069702
+GovernmentAgency_left.csv,title,women national committee (yemen),PoliticalParty_right,title,al-islah (yemen),0.676159143447876
+GovernmentAgency_left.csv,title,sigurimi,PoliticalParty_right,title,segni pact,0.6758875250816345
+GovernmentAgency_left.csv,title,elections nwt,PoliticalParty_right,title,new democratic partyâgreens,0.675732433795929
+GovernmentAgency_left.csv,title,ministry of justice (finland),PoliticalParty_right,title,communist party of finland (1994),0.6754120588302612
+GovernmentAgency_left.csv,title,tamil nadu planning commission,PoliticalParty_right,title,chhattisgarh pradesh congress committee,0.6742458939552307
+GovernmentAgency_left.csv,title,ministry of justice (croatia),PoliticalParty_right,title,croatian christian democratic party,0.6724619269371033
+GovernmentAgency_left.csv,title,ministry of foreign affairs (serbia),PoliticalParty_right,title,macedonian alliance for european integration,0.6720417141914368
+GovernmentAgency_left.csv,title,national forest corporation (chile),PoliticalParty_right,title,ecologist party (chile),0.6716562509536743
+GovernmentAgency_left.csv,title,ministry of european integration (albania),PoliticalParty_right,title,albanian national front party,0.6715360879898071
+GovernmentAgency_left.csv,title,nsw public works,PoliticalParty_right,title,national party of australia - nsw,0.6712160110473633
+GovernmentAgency_left.csv,title,ministry of foreign affairs (liberia),PoliticalParty_right,title,alliance for democracy and progress (central african republic),0.6711273789405823
+GovernmentAgency_left.csv,title,urban redevelopment authority,PoliticalParty_right,title,national renewal alliance,0.6707340478897095
+GovernmentAgency_left.csv,title,hauptamt volksdeutsche mittelstelle,PoliticalParty_right,title,direktdemokraterna,0.6698792576789856
+GovernmentAgency_left.csv,title,overseas chinese affairs council,PoliticalParty_right,title,revolutionary committee of the chinese kuomintang,0.6690065860748291
+GovernmentAgency_left.csv,title,state political directorate,PoliticalParty_right,title,pa-o national organisation,0.668514609336853
+GovernmentAgency_left.csv,title,hellenic statistical authority,PoliticalParty_right,title,hellenic socialist patriotic organisation,0.6684533357620239
+GovernmentAgency_left.csv,title,public health england,PoliticalParty_right,title,independent community and health concern,0.6681326627731323
+GovernmentAgency_left.csv,title,pami,PoliticalParty_right,title,mahazamili,0.6671345233917236
+GovernmentAgency_left.csv,title,tamil nadu government's departments,PoliticalParty_right,title,tamil nadu toilers' party,0.666913628578186
+GovernmentAgency_left.csv,title,sicherheitsdienst,PoliticalParty_right,title,die freiheitlichen,0.6667951345443726
+GovernmentAgency_left.csv,title,danish maritime authority,PoliticalParty_right,title,pirate party of denmark,0.6635899543762207
+GovernmentAgency_left.csv,title,electoral commission (new zealand),PoliticalParty_right,title,united liberal party (zambia),0.6633533239364624
+GovernmentAgency_left.csv,title,ministry of education (egypt),PoliticalParty_right,title,reform and development party (egypt),0.6624884009361267
+GovernmentAgency_left.csv,title,ministry of unification,PoliticalParty_right,title,unitary democratic coalition,0.6613422632217407
+GovernmentAgency_left.csv,title,ministry of home affairs (singapore),PoliticalParty_right,title,"socialist front (singapore, 2010)",0.6584094762802124
+GovernmentAgency_left.csv,title,northern ireland office,PoliticalParty_right,title,conservatives in northern ireland,0.6573646068572998
+GovernmentAgency_left.csv,title,asaish,PoliticalParty_right,title,antarsya,0.6553599834442139
+GovernmentAgency_left.csv,title,security council of the soviet union,PoliticalParty_right,title,communist party of the soviet union (2001),0.6544681787490845
+GovernmentAgency_left.csv,title,department of justice (hong kong),PoliticalParty_right,title,singapore justice party,0.6526340246200562
+GovernmentAgency_left.csv,title,ministry of foreign affairs (soviet union),PoliticalParty_right,title,latvian russian union,0.6525697708129883
+GovernmentAgency_left.csv,title,elections bc,PoliticalParty_right,title,liberal party of australia (new south wales division),0.6513881683349609
+GovernmentAgency_left.csv,title,romanian intelligence service,PoliticalParty_right,title,centre right alliance (romania),0.6513623595237732
+GovernmentAgency_left.csv,title,federal ministry for the interior (austria),PoliticalParty_right,title,neutral free austria federation,0.6491361856460571
+GovernmentAgency_left.csv,title,secretariat of public security (mexico),PoliticalParty_right,title,communist party of mexico (2011),0.6481034755706787
+GovernmentAgency_left.csv,title,cheka,PoliticalParty_right,title,ratnik,0.6466389894485474
+GovernmentAgency_left.csv,title,information and security service of the republic of moldova,PoliticalParty_right,title,our moldova alliance,0.645531177520752
+GovernmentAgency_left.csv,title,sismi,PoliticalParty_right,title,komeito,0.644253134727478
+GovernmentAgency_left.csv,title,mossad,PoliticalParty_right,title,ba'ath party (syrian-led faction),0.6435308456420898
+GovernmentAgency_left.csv,title,bavarian state office for survey and geoinformation,PoliticalParty_right,title,christian social union of bavaria,0.6427539587020874
+GovernmentAgency_left.csv,title,oman news agency,PoliticalParty_right,title,al islah (united arab emirates),0.6423887014389038
+GovernmentAgency_left.csv,title,ministry of foreign affairs and foreign trade (jamaica),PoliticalParty_right,title,national democratic movement (jamaica),0.641592264175415
+GovernmentAgency_left.csv,title,statistics sweden,PoliticalParty_right,title,liberals (sweden),0.6404544711112976
+GovernmentAgency_left.csv,title,basque government,PoliticalParty_right,title,people's democratic party (spain),0.6400898694992065
+GovernmentAgency_left.csv,title,ministry of welfare and social security (iran),PoliticalParty_right,title,iranian reformists,0.6396700739860535
+GovernmentAgency_left.csv,title,ministry of northern development and mines,PoliticalParty_right,title,rwandese national union,0.6394885778427124
+GovernmentAgency_left.csv,title,ministry of foreign affairs (portugal),PoliticalParty_right,title,democratic republican party (portugal),0.6381657123565674
+GovernmentAgency_left.csv,title,ordnance survey ireland,PoliticalParty_right,title,people's democracy (ireland),0.6379141807556152
+GovernmentAgency_left.csv,title,croatian bureau of statistics,PoliticalParty_right,title,serb list (2006),0.6376321911811829
+GovernmentAgency_left.csv,title,ministry of national defence (turkey),PoliticalParty_right,title,social democracy party (turkey),0.6375154852867126
+GovernmentAgency_left.csv,title,ministry of foreign affairs (israel),PoliticalParty_right,title,alignment (israel),0.6360092163085938
+GovernmentAgency_left.csv,title,planning commission (india),PoliticalParty_right,title,mahila congress,0.635524570941925
+GovernmentAgency_left.csv,title,state emergency service of ukraine,PoliticalParty_right,title,third ukrainian republic (party),0.6348010897636414
+GovernmentAgency_left.csv,title,national library service of malawi,PoliticalParty_right,title,zambian african national congress,0.6338324546813965
+GovernmentAgency_left.csv,title,rapid action battalion,PoliticalParty_right,title,united liberation front of asom,0.63355952501297
+GovernmentAgency_left.csv,title,ministry for chieftaincy and traditional affairs,PoliticalParty_right,title,peoples party of arunachal,0.6321297287940979
+GovernmentAgency_left.csv,title,royal advisory council for saharan affairs,PoliticalParty_right,title,justice and development party (libya),0.6320486068725586
+GovernmentAgency_left.csv,title,department of public works (south africa),PoliticalParty_right,title,south african party (union of south africa),0.6320319771766663
+GovernmentAgency_left.csv,title,botswana national broadcasting board,PoliticalParty_right,title,mels movement of botswana,0.6316247582435608
+GovernmentAgency_left.csv,title,ministry of counter narcotics (afghanistan),PoliticalParty_right,title,democratic watan party of afghanistan,0.6313670873641968
+GovernmentAgency_left.csv,title,south african revenue service,PoliticalParty_right,title,south african labour party,0.6313614249229431
+GovernmentAgency_left.csv,title,financial market authority (liechtenstein),PoliticalParty_right,title,patriotic union (liechtenstein),0.6308244466781616
+GovernmentAgency_left.csv,title,ministry of transport (russia),PoliticalParty_right,title,soyuz (political party),0.629990816116333
+GovernmentAgency_left.csv,title,ministry of defence (ghana),PoliticalParty_right,title,progressive people's party (ghana),0.6299595832824707
+GovernmentAgency_left.csv,title,council of labor affairs,PoliticalParty_right,title,workers and unemployed action,0.6285715103149414
+GovernmentAgency_left.csv,title,ministry of intelligence and national security (iran),PoliticalParty_right,title,council of nationalist-religious activists of iran,0.6268967390060425
+GovernmentAgency_left.csv,title,cadivi,PoliticalParty_right,title,chama cha mapinduzi,0.6268892288208008
+GovernmentAgency_left.csv,title,ministry of defence (serbia),PoliticalParty_right,title,national party (serbia),0.6253470182418823
+GovernmentAgency_left.csv,title,ministry of economy (poland),PoliticalParty_right,title,the greens (poland),0.6251885890960693
+GovernmentAgency_left.csv,title,kriminalpolizei,PoliticalParty_right,title,herri alderdi sozialista iraultzailea,0.6249570250511169
+GovernmentAgency_left.csv,title,myanmar language commission,PoliticalParty_right,title,shan nationalities league for democracy,0.6244835257530212
+GovernmentAgency_left.csv,title,ministry of economy (croatia),PoliticalParty_right,title,croatian workers party,0.6243777275085449
+GovernmentAgency_left.csv,title,women's national commission,PoliticalParty_right,title,organization for democratic action,0.6226903796195984
+GovernmentAgency_left.csv,title,national commission on muslim filipinos,PoliticalParty_right,title,islamic liberation front of patani,0.6209601163864136
+GovernmentAgency_left.csv,title,ministry of petroleum (iran),PoliticalParty_right,title,kurdistan democratic party (iran),0.6207149028778076
+GovernmentAgency_left.csv,title,gibraltar electricity authority,PoliticalParty_right,title,liberal party of gibraltar,0.6201543807983398
+GovernmentAgency_left.csv,title,uganda game and fisheries department,PoliticalParty_right,title,ecologist party of mali,0.6199933290481567
+GovernmentAgency_left.csv,title,ministry of defence (montenegro),PoliticalParty_right,title,right alliance (belarus),0.619074821472168
+GovernmentAgency_left.csv,title,georgia department of economic development,PoliticalParty_right,title,new rights (georgia),0.6183462738990784
+GovernmentAgency_left.csv,title,new south wales department of aboriginal affairs,PoliticalParty_right,title,australia's first nations political party,0.6183278560638428
+GovernmentAgency_left.csv,title,"ministry of environment, housing and territorial development (colombia)",PoliticalParty_right,title,national restoration (peru),0.6164488792419434
+GovernmentAgency_left.csv,title,kela (finnish),PoliticalParty_right,title,finns party,0.6160122752189636
+GovernmentAgency_left.csv,title,cabinet office (japan),PoliticalParty_right,title,new socialist party of japan,0.6159837245941162
+GovernmentAgency_left.csv,title,national war labor board,PoliticalParty_right,title,party workers' liberation front 30 may,0.615580677986145
+GovernmentAgency_left.csv,title,europol,PoliticalParty_right,title,party for a european future,0.6146842241287231
+GovernmentAgency_left.csv,title,housing nsw,PoliticalParty_right,title,worker house,0.6145895719528198
+GovernmentAgency_left.csv,title,danish security and intelligence service,PoliticalParty_right,title,redâgreen alliance (denmark),0.6121770143508911
+GovernmentAgency_left.csv,title,central election commission of the republic of china,PoliticalParty_right,title,mongolian people's revolutionary party (2010-),0.6108840703964233
+GovernmentAgency_left.csv,title,national reconstruction bureau,PoliticalParty_right,title,united national movement (georgia),0.610563337802887
+GovernmentAgency_left.csv,title,pakistan environmental protection agency,PoliticalParty_right,title,pasban pakistan,0.6104298233985901
+GovernmentAgency_left.csv,title,joint state political directorate,PoliticalParty_right,title,national coalition,0.6081881523132324
+GovernmentAgency_left.csv,title,"ministry of internally displaced persons from the occupied territories, accommodation and refugees (georgia)",PoliticalParty_right,title,georgian dreamâdemocratic georgia,0.607669472694397
+GovernmentAgency_left.csv,title,federal ministry of finance (germany),PoliticalParty_right,title,christian democratic union of germany,0.6072415113449097
+GovernmentAgency_left.csv,title,danish ministry of transport,PoliticalParty_right,title,south schleswig voters' association,0.6065397262573242
+GovernmentAgency_left.csv,title,agency for information society of republika srpska,PoliticalParty_right,title,serbian radical party of republika srpska,0.6059816479682922
+GovernmentAgency_left.csv,title,kerala state planning board,PoliticalParty_right,title,pondicherry munnetra congress,0.6054866313934326
+GovernmentAgency_left.csv,title,secretariat of cabinet of ministers (ukraine),PoliticalParty_right,title,petro poroshenko bloc \,0.6043933629989624
+GovernmentAgency_left.csv,title,ministry of health (south sudan),PoliticalParty_right,title,communist party of south sudan,0.6042943596839905
+GovernmentAgency_left.csv,title,new york city department of homeless services,PoliticalParty_right,title,peoples' salvation army,0.6037448644638062
+GovernmentAgency_left.csv,title,cesis,PoliticalParty_right,title,synaspismos,0.6025865077972412
+GovernmentAgency_left.csv,title,census and statistics department (hong kong),PoliticalParty_right,title,liberal democratic foundation of hong kong,0.6017628908157349
+GovernmentAgency_left.csv,title,office of the leader of the house of commons,PoliticalParty_right,title,tory (british political party),0.6016947031021118
+GovernmentAgency_left.csv,title,ministry of foreign affairs (republic of china),PoliticalParty_right,title,democratic alliance (hong kong),0.5988563299179077
+GovernmentAgency_left.csv,title,hakka affairs council,PoliticalParty_right,title,shia ulema council,0.5978751182556152
+GovernmentAgency_left.csv,title,commissioner government,PoliticalParty_right,title,imperial rule assistance association,0.5976501703262329
+GovernmentAgency_left.csv,title,financial services commission (south korea),PoliticalParty_right,title,justice party (south korea),0.5975622534751892
+GovernmentAgency_left.csv,title,anti-monopoly committee (ukraine),PoliticalParty_right,title,united civil party of belarus,0.597004771232605
+GovernmentAgency_left.csv,title,ministry of national defense (colombia),PoliticalParty_right,title,broad front (dominican republic),0.595375120639801
+GovernmentAgency_left.csv,title,gibraltar port authority,PoliticalParty_right,title,democratic party for a british gibraltar,0.5953506231307983
+GovernmentAgency_left.csv,title,state ethnic affairs commission,PoliticalParty_right,title,new democratic macau association,0.5941078662872314
+GovernmentAgency_left.csv,title,ministry of education (brazil),PoliticalParty_right,title,socialist people's party (brazil),0.5936654806137085
+GovernmentAgency_left.csv,title,court of justice of the european union,PoliticalParty_right,title,union of democrats for europe,0.5897562503814697
+GovernmentAgency_left.csv,title,ministry of finance (pakistan),PoliticalParty_right,title,national peoples party (pakistan),0.5887507200241089
+GovernmentAgency_left.csv,title,bulgarian center for not-for-profit law,PoliticalParty_right,title,national front for the salvation of bulgaria,0.5884415507316589
+GovernmentAgency_left.csv,title,scottish arts council,PoliticalParty_right,title,scottish republican socialist movement,0.5882755517959595
+GovernmentAgency_left.csv,title,ministry of railways (pakistan),PoliticalParty_right,title,pakistan peoples party (sherpao),0.5879994034767151
+GovernmentAgency_left.csv,title,public protector,PoliticalParty_right,title,people's self-defense political party,0.5873091220855713
+GovernmentAgency_left.csv,title,ministry of agriculture and irrigation,PoliticalParty_right,title,socialist janata (democratic) party,0.5866730809211731
+GovernmentAgency_left.csv,title,ministry of justice (denmark),PoliticalParty_right,title,christian union (netherlands),0.5858582854270935
+GovernmentAgency_left.csv,title,saba news agency,PoliticalParty_right,title,arab socialist union (libya),0.5857138633728027
+GovernmentAgency_left.csv,title,ministry of cultural heritage and activities (italy),PoliticalParty_right,title,italy. common good,0.5840660333633423
+GovernmentAgency_left.csv,title,"apitong, boac, marinduque",PoliticalParty_right,title,udeur populars,0.5828461050987244
+GovernmentAgency_left.csv,title,state border guard service of ukraine,PoliticalParty_right,title,for united ukraine!,0.5820513963699341
+GovernmentAgency_left.csv,title,national school of government,PoliticalParty_right,title,new self-government,0.5812309980392456
+GovernmentAgency_left.csv,title,ministry of energy (burma),PoliticalParty_right,title,the workers' party (singapore),0.5793551206588745
+GovernmentAgency_left.csv,title,ministry of culture (estonia),PoliticalParty_right,title,pirate party (estonia),0.579103410243988
+GovernmentAgency_left.csv,title,health in ghana,PoliticalParty_right,title,guinean people's assembly,0.5787273049354553
+GovernmentAgency_left.csv,title,punjab education foundation,PoliticalParty_right,title,pakhtunkhwa milli awami party,0.5775769948959351
+GovernmentAgency_left.csv,title,department of the prime minister and cabinet (australia),PoliticalParty_right,title,democratic labour party (australia),0.5775485038757324
+GovernmentAgency_left.csv,title,maritime safety queensland,PoliticalParty_right,title,pirate party of australia,0.5773277282714844
+GovernmentAgency_left.csv,title,ministry of economic development (colombia),PoliticalParty_right,title,alianza (chile),0.5760746002197266
+GovernmentAgency_left.csv,title,secretariat of foreign affairs (mexico),PoliticalParty_right,title,nationalist front of mexico,0.575887143611908
+GovernmentAgency_left.csv,title,ministry of power (united kingdom),PoliticalParty_right,title,social democratic power,0.5738430619239807
+GovernmentAgency_left.csv,title,ministry of health (spain),PoliticalParty_right,title,people's socialist party (spain),0.5729125738143921
+GovernmentAgency_left.csv,title,ministry of defence (albania),PoliticalParty_right,title,patriotic alliance (greece),0.572825014591217
+GovernmentAgency_left.csv,title,brazilian intelligence agency,PoliticalParty_right,title,change brazil,0.572746753692627
+GovernmentAgency_left.csv,title,ministry of foreign affairs (kosovo),PoliticalParty_right,title,liberal democratic party (serbia),0.5723209381103516
+GovernmentAgency_left.csv,title,national languages committee,PoliticalParty_right,title,for the native language!,0.5717289447784424
+GovernmentAgency_left.csv,title,polish central archives of historical records,PoliticalParty_right,title,national democracy (czechoslovakia),0.5686880946159363
+GovernmentAgency_left.csv,title,ministry of defense (israel),PoliticalParty_right,title,green movement (israel),0.5686620473861694
+GovernmentAgency_left.csv,title,iraqi oil tankers company,PoliticalParty_right,title,the iraqis (party),0.568186342716217
+GovernmentAgency_left.csv,title,ministry of communications (morocco),PoliticalParty_right,title,popular movement (morocco),0.5671366453170776
+GovernmentAgency_left.csv,title,ministry of personnel & administrative reforms (west bengal),PoliticalParty_right,title,republican party of india (a),0.5669769048690796
+GovernmentAgency_left.csv,title,estyn,PoliticalParty_right,title,gabriela women's party,0.5646370053291321
+GovernmentAgency_left.csv,title,human rights commission (new zealand),PoliticalParty_right,title,people's progressive alliance (sint maarten),0.5637626647949219
+GovernmentAgency_left.csv,title,ministry of foreign affairs (eritrea),PoliticalParty_right,title,cameroonian national union,0.5634478330612183
+GovernmentAgency_left.csv,title,kerala police academy,PoliticalParty_right,title,karshaka thozhilali party,0.5634326934814453
+GovernmentAgency_left.csv,title,undersecretariat of public order and security,PoliticalParty_right,title,liberty and lawfulness,0.5633667707443237
+GovernmentAgency_left.csv,title,sierra leone ministry of defence and national security,PoliticalParty_right,title,people's front (mauritania),0.562498927116394

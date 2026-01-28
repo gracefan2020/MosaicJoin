@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Noble_left.csv,title,"rotbold ii, count of provence",Noble_right,title,"rotbold ii, count of provence",1.0
+Noble_left.csv,title,"jacques-nompar de caumont, duc de la force",Noble_right,title,"jacques-nompar de caumont, duc de la force",1.0
+Noble_left.csv,title,"john de grey, 1st baron grey de rotherfield",Noble_right,title,"john de grey, 2nd baron grey de rotherfield",0.9965987205505371
+Noble_left.csv,title,"george boleyn, viscount rochford",Noble_right,title,"george boleyn, 2nd viscount rochford",0.991195559501648
+Noble_left.csv,title,andronikos komnenos (son of john ii),Noble_right,title,andronikos komnenos (son of john ii komnenos),0.9865440130233765
+Noble_left.csv,title,"otto i, duke of brunswick-harburg",Noble_right,title,"otto i, duke of brunswick-lã¼neburg-harburg",0.985942542552948
+Noble_left.csv,title,"wolfgang william, count palatine of neuburg",Noble_right,title,"wolfgang wilhelm, count palatine of neuburg",0.9826595783233643
+Noble_left.csv,title,dangerose de l'isle bouchard,Noble_right,title,dangereuse de l'isle bouchard,0.9786667823791504
+Noble_left.csv,title,"frederick casimir, count of hanau-lichtenberg",Noble_right,title,"friedrich casimir, count of hanau-lichtenberg",0.978489875793457
+Noble_left.csv,title,dominik aleksander kazanowski,Noble_right,title,aleksander dominik kazanowski,0.9769611358642578
+Noble_left.csv,title,anna lubomirska (d. 1763),Noble_right,title,anna lubomirska (died 1763),0.974593997001648
+Noble_left.csv,title,"richard de welles, 7th baron welles",Noble_right,title,"richard welles, 7th baron welles",0.9718127250671387
+Noble_left.csv,title,"gerhard vi, count of holstein-rendsburg",Noble_right,title,"gerhard vi, count of holstein",0.9710226058959961
+Noble_left.csv,title,jean iii de brosse,Noble_right,title,jean ii de brosse,0.9706303477287292
+Noble_left.csv,title,"eitel frederick iv, count of hohenzollern",Noble_right,title,"eitel friedrich iv, count of hohenzollern",0.9705422520637512
+Noble_left.csv,title,"william marshal, 1st earl of pembroke",Noble_right,title,"william marshal, 1st earl of pembroke (2nd creation)",0.9693797826766968
+Noble_left.csv,title,"hugh i, count of vermandois",Noble_right,title,"hugh, count of vermandois",0.9632488489151001
+Noble_left.csv,title,guigues iii of albon,Noble_right,title,guigues viii of albon,0.9616179466247559
+Noble_left.csv,title,"qamar-ud-din khan, asif jah i",Noble_right,title,"qamar-ud-din khan, asaf jah i",0.960808277130127
+Noble_left.csv,title,"mir nizam ali khan, asaf jah ii",Noble_right,title,"nizam ali khan, asaf jah ii",0.9589029550552368
+Noble_left.csv,title,"henri-nompar de caumont, duc de la force",Noble_right,title,"henri nompar de caumont, duke of la force",0.9583079814910889
+Noble_left.csv,title,"henry iv, duke of brunswick-grubenhagen",Noble_right,title,henry iii of brunswick-grubenhagen,0.9568437337875366
+Noble_left.csv,title,frederick ii of legnica,Noble_right,title,"frederick ii, duke of legnica",0.9568354487419128
+Noble_left.csv,title,"otto iii, count of burgundy",Noble_right,title,"otto iii, count palatine of burgundy",0.9567242860794067
+Noble_left.csv,title,muhammed saadatullah khan ii,Noble_right,title,saadatullah khan ii,0.9559406042098999
+Noble_left.csv,title,elisabeth of hesse-marburg,Noble_right,title,elisabeth of hesse,0.9527944326400757
+Noble_left.csv,title,"otto iii, duke of carinthia",Noble_right,title,otto iii of carinthia,0.9518819451332092
+Noble_left.csv,title,hafiz rahmat khan barech,Noble_right,title,hafiz rahmat khan,0.9506098031997681
+Noble_left.csv,title,"frederick william, prince of hohenzollern-hechingen",Noble_right,title,"friedrich wilhelm, prince of hohenzollern-hechingen",0.9491293430328369
+Noble_left.csv,title,"henry cubitt, 2nd baron ashcombe",Noble_right,title,"roland calvert cubitt, 3rd baron ashcombe",0.9485610127449036
+Noble_left.csv,title,"isabel de verdun, lady ferrers of groby",Noble_right,title,"isabel de verdun, baroness ferrers of groby",0.9469025731086731
+Noble_left.csv,title,duchess elisabeth sophie of mecklenburg,Noble_right,title,elisabeth sophie of mecklenburg,0.9449984431266785
+Noble_left.csv,title,"rudolf i, margrave of baden-baden",Noble_right,title,"christoph i, margrave of baden-baden",0.9434458017349243
+Noble_left.csv,title,"gilbert de clare, 1st earl of pembroke",Noble_right,title,"gilbert de clare, 1st earl of pembroke (1st creation)",0.9421122074127197
+Noble_left.csv,title,"christopher i, margrave of baden-baden",Noble_right,title,margrave william christopher of baden-baden,0.9420809149742126
+Noble_left.csv,title,countess louise henriette of nassau,Noble_right,title,countess luise henriette of nassau,0.9406136274337769
+Noble_left.csv,title,"philip v, count of hanau-lichtenberg",Noble_right,title,"philipp v, count of hanau-lichtenberg",0.9401900172233582
+Noble_left.csv,title,"hugh iii, count of burgundy",Noble_right,title,"hugh, count of burgundy",0.9398313164710999
+Noble_left.csv,title,"ralph neville, 1st baron neville de raby",Noble_right,title,"john neville, 1st baron neville de raby",0.9368917942047119
+Noble_left.csv,title,"otto i, count of scheyern-dachau-valley",Noble_right,title,"otto iv, count of scheyern",0.9364063739776611
+Noble_left.csv,title,"philip herbert, 4th earl of pembroke",Noble_right,title,"philip herbert, 4th earl of pembroke (10th creation)",0.9344311952590942
+Noble_left.csv,title,"elizabeth beauchamp, countess of warwick",Noble_right,title,"anne beauchamp, 16th countess of warwick",0.9324390292167664
+Noble_left.csv,title,"frederick louis, prince of hohenzollern-hechingen",Noble_right,title,"johann georg, prince of hohenzollern-hechingen",0.9322130084037781
+Noble_left.csv,title,hugh of chalon (auxerre),Noble_right,title,hugh of chalon (bishop of auxerre),0.9313454627990723
+Noble_left.csv,title,"john montagu, 2nd duke of montagu",Noble_right,title,"william montagu, 2nd baron montagu",0.93091881275177
+Noble_left.csv,title,duke john william of saxe-altenburg,Noble_right,title,duke johann wilhelm of saxe-altenburg,0.9295318126678467
+Noble_left.csv,title,"francesco iv gonzaga, duke of mantua",Noble_right,title,"ludovico iii gonzaga, marquis of mantua",0.9283589124679565
+Noble_left.csv,title,aleksander ostrogski,Noble_right,title,oleksander ostrogski,0.9257267713546753
+Noble_left.csv,title,"rudolf ii, margrave of baden-baden",Noble_right,title,"bernhard ii, margrave of baden-baden",0.9241915345191956
+Noble_left.csv,title,"gaston of foix, prince of viana",Noble_right,title,"gaston, prince of viana",0.9238035678863525
+Noble_left.csv,title,"baldwin ii, count of flanders",Noble_right,title,"baldwin ii, margrave of flanders",0.922612190246582
+Noble_left.csv,title,saud bin abdul-aziz bin muhammad bin saud,Noble_right,title,sa'ad i bin abdul rahman bin faisal al saud,0.9225082397460938
+Noble_left.csv,title,margrave frederick of brandenburg-schwedt,Noble_right,title,frederick of brandenburg-schwedt,0.9209076762199402
+Noble_left.csv,title,"philip iv, count of waldeck",Noble_right,title,"philipp iv, count of waldeck",0.9150792360305786
+Noble_left.csv,title,maria of the palatinate-simmern,Noble_right,title,maria of the palatinate,0.9136486053466797
+Noble_left.csv,title,"johann reinhard ii, count of hanau-lichtenberg",Noble_right,title,"philipp wolfgang, count of hanau-lichtenberg",0.9132314920425415
+Noble_left.csv,title,khaled bin talal bin abdul aziz al saud,Noble_right,title,prince abdulaziz bin talal bin abdulaziz al saud,0.9116876125335693
+Noble_left.csv,title,manuel komnenos doukas,Noble_right,title,manuel doukas,0.9110763072967529
+Noble_left.csv,title,"matilda of flanders, duchess of brabant",Noble_right,title,"matilda of boulogne, duchess of brabant",0.9109434485435486
+Noble_left.csv,title,charles juste de beauvau,Noble_right,title,"charles juste de beauvau, prince of beauvau",0.910399317741394
+Noble_left.csv,title,louis victor de rochechouart de mortemart,Noble_right,title,"louis victor de rochechouart de mortemart, duke of mortemart",0.9100571870803833
+Noble_left.csv,title,"margaret talbot, countess of shrewsbury",Noble_right,title,"margaret beauchamp, countess of shrewsbury",0.9090605974197388
+Noble_left.csv,title,kong jia,Noble_right,title,kong jia of xia,0.9069770574569702
+Noble_left.csv,title,"henry, duke of brunswick-dannenberg",Noble_right,title,"henry i, duke of brunswick-lã¼neburg",0.9057000875473022
+Noble_left.csv,title,"louis george, margrave of baden-baden",Noble_right,title,margrave hermann of baden-baden,0.9051864147186279
+Noble_left.csv,title,william ii of provence,Noble_right,title,william ii of burgundy,0.9042002558708191
+Noble_left.csv,title,william iv of eberstein,Noble_right,title,wilhelm iv of eberstein,0.9008779525756836
+Noble_left.csv,title,"philip iii, count of hanau-lichtenberg",Noble_right,title,"philipp iii, count of hanau-lichtenberg",0.9007402658462524
+Noble_left.csv,title,"frederick vi, margrave of baden-durlach",Noble_right,title,margrave charles gustav of baden-durlach,0.9007272720336914
+Noble_left.csv,title,"anne russell, countess of warwick",Noble_right,title,"anne seymour, countess of warwick",0.8994190692901611
+Noble_left.csv,title,charles i de lalaing,Noble_right,title,"charles i, count of lalaing",0.8990879058837891
+Noble_left.csv,title,"peter of luxembourg, count of saint-pol",Noble_right,title,peter i of luxembourg,0.8972203135490417
+Noble_left.csv,title,"henry, duke of mecklenburg-stargard",Noble_right,title,"henry i, prince of mecklenburg-gã¼strow",0.8949863910675049
+Noble_left.csv,title,"john iii, count of nassau-beilstein",Noble_right,title,"john vii, count of nassau",0.8945518732070923
+Noble_left.csv,title,"guy i of luxembourg, count of ligny",Noble_right,title,"guy i, count of ligny",0.8938014507293701
+Noble_left.csv,title,"rudolf i, duke of bavaria",Noble_right,title,"otto i, duke of bavaria",0.8936859369277954
+Noble_left.csv,title,"john adolf, duke of holstein-gottorp",Noble_right,title,"john adolph, duke of schleswig-holstein-norburg",0.8933571577072144
+Noble_left.csv,title,philip de lalaing,Noble_right,title,george de lalaing,0.8920429348945618
+Noble_left.csv,title,"francis anthony, count of hohenzollern-haigerloch",Noble_right,title,"johann christoph, count of hohenzollern-haigerloch",0.8916510343551636
+Noble_left.csv,title,margravine magdalene sibylle of brandenburg-bayreuth,Noble_right,title,margravine louise of brandenburg-schwedt,0.8906711339950562
+Noble_left.csv,title,"christopher, count of hohenzollern-haigerloch",Noble_right,title,"christoph, count of hohenzollern-haigerloch",0.889386773109436
+Noble_left.csv,title,"adelaide of burgundy, duchess of brabant",Noble_right,title,"adelaide, countess palatine of burgundy",0.8893621563911438
+Noble_left.csv,title,"john nevill, 10th baron bergavenny",Noble_right,title,"john nevill, 4th baron latimer",0.8887166976928711
+Noble_left.csv,title,johann v of nassau-vianden-dietz,Noble_right,title,"johann vi, count of nassau-dillenburg",0.8884642124176025
+Noble_left.csv,title,eleonore marie of anhalt-bernburg,Noble_right,title,maria leopoldine of anhalt-dessau,0.8877800107002258
+Noble_left.csv,title,"louis, prince of hohenlohe-langenburg",Noble_right,title,"ludwig, prince of hohenlohe-langenburg",0.8844308853149414
+Noble_left.csv,title,princess sophia wilhelmina of saxe-coburg-saalfeld,Noble_right,title,"sophia of saxe-weissenfels, princess of anhalt-zerbst",0.8844045400619507
+Noble_left.csv,title,duke otto henry of brunswick-harburg,Noble_right,title,"august wilhelm, duke of brunswick-bevern",0.8839465379714966
+Noble_left.csv,title,catherine of schwarzburg-blankenburg,Noble_right,title,katharina of schwarzburg-blankenburg,0.8833651542663574
+Noble_left.csv,title,"margaret mortimer, baroness berkeley",Noble_right,title,"margaret mortimer, baroness mortimer",0.8832283020019531
+Noble_left.csv,title,catherine of taranto,Noble_right,title,"catherine of taranto, countess of copertino",0.8831018209457397
+Noble_left.csv,title,"johann reinhard iii, count of hanau-lichtenberg",Noble_right,title,"philipp i, count of hanau-lichtenberg",0.8829140067100525
+Noble_left.csv,title,saadat ali khan i,Noble_right,title,ali khan asaf jah ii,0.8809975385665894
+Noble_left.csv,title,beatrix of brandenburg,Noble_right,title,beatrix of baden,0.8809937834739685
+Noble_left.csv,title,"frederick xii, count of hohenzollern",Noble_right,title,"karl i, count of hohenzollern",0.8777612447738647
+Noble_left.csv,title,"frederick xi, count of hohenzollern",Noble_right,title,"eitel friedrich ii, count of hohenzollern",0.8771244883537292
+Noble_left.csv,title,fujiwara no mototsune,Noble_right,title,fujiwara no nagara,0.876558244228363
+Noble_left.csv,title,umdat ul-umra,Noble_right,title,umdat ul-umara,0.8764853477478027
+Noble_left.csv,title,louis of hanau-lichtenberg,Noble_right,title,johann philipp of hanau-lichtenberg,0.8746498823165894
+Noble_left.csv,title,dejan (nobleman),Noble_right,title,dejan (magnate),0.872488260269165
+Noble_left.csv,title,kara mahmud bushati,Noble_right,title,kara mahmud pasha,0.8722371459007263
+Noble_left.csv,title,gabriel de rochechouart de mortemart,Noble_right,title,"gabriel de rochechouart de mortemart, duke of mortemart",0.8719872236251831
+Noble_left.csv,title,"sigismund i, prince of anhalt-dessau",Noble_right,title,casimire of anhalt-dessau,0.8704472780227661
+Noble_left.csv,title,anne de noailles,Noble_right,title,"anne de noailles, duke of noailles",0.8696886301040649
+Noble_left.csv,title,"frederick, duke of bavaria",Noble_right,title,"otto i of wittelsbach, duke of bavaria",0.8680003881454468
+Noble_left.csv,title,humbert ii of viennois,Noble_right,title,"humbert ii, count of savoy",0.8678736090660095
+Noble_left.csv,title,najib ad-dawlah,Noble_right,title,najib-ul-daula,0.8655115962028503
+Noble_left.csv,title,"joan de beauchamp, baroness bergavenny",Noble_right,title,"joan de beauchamp, countess of ormond",0.8648803234100342
+Noble_left.csv,title,"anne neville, 16th countess of warwick",Noble_right,title,"anne de beauchamp, 16th countess of warwick",0.8613754510879517
+Noble_left.csv,title,teresa czartoryska,Noble_right,title,teresa czartoryska (1785â1868),0.8596726059913635
+Noble_left.csv,title,lady cai,Noble_right,title,lady cai (liu biao's wife),0.859576940536499
+Noble_left.csv,title,"thomas emmanuel, prince of savoy-carignan",Noble_right,title,"thomas, count of savoy",0.8576551675796509
+Noble_left.csv,title,"adolph vi, count of holstein-schauenburg",Noble_right,title,"gerhard iii, count of holstein-rendsburg",0.8570289611816406
+Noble_left.csv,title,"frederick iv, duke of austria",Noble_right,title,"frederick i, duke of legnica",0.8542420864105225
+Noble_left.csv,title,"ernst ludwig, duke of pomerania",Noble_right,title,"karl ludwig, prince of hohenlohe-langenburg",0.8540092706680298
+Noble_left.csv,title,margaret of bar,Noble_right,title,margaret of baux,0.8534088134765625
+Noble_left.csv,title,"jane browne, viscountess montague",Noble_right,title,"jane radcliffe, viscountess montague",0.8528705835342407
+Noble_left.csv,title,lady elizabeth stanley,Noble_right,title,"elizabeth stanley, countess of huntingdon",0.8527409434318542
+Noble_left.csv,title,"elizabeth de vere, countess of oxford",Noble_right,title,"elizabeth trussell, countess of oxford",0.8514565229415894
+Noble_left.csv,title,sophia eleonore of hesse-darmstadt,Noble_right,title,bernardina christina sophia of saxe-weimar-eisenach,0.8509317636489868
+Noble_left.csv,title,"frederick william adolf, prince of nassau-siegen",Noble_right,title,"johann vii, count of nassau-siegen",0.8505396842956543
+Noble_left.csv,title,elisabeth of schleswig-holstein-sonderburg,Noble_right,title,sophia of schleswig-holstein-gottorp,0.8503122329711914
+Noble_left.csv,title,"lucrezia de' medici, duchess of ferrara",Noble_right,title,lucrezia de' medici (1545â1561),0.8499191403388977
+Noble_left.csv,title,"edward stafford, 3rd duke of buckingham",Noble_right,title,"elizabeth stafford, duchess of norfolk",0.8495271801948547
+Noble_left.csv,title,margaret elisabeth of leiningen-westerburg,Noble_right,title,margaret of brandenburg (1511â1577),0.849332332611084
+Noble_left.csv,title,"philip ernest, count of hohenlohe-langenburg",Noble_right,title,"christian albrecht, prince of hohenlohe-langenburg",0.8489253520965576
+Noble_left.csv,title,haji hassan khan,Noble_right,title,anwaruddin khan,0.8483908176422119
+Noble_left.csv,title,charlotte amalia of nassau-dillenburg,Noble_right,title,charlotte brabantina of nassau,0.8480067253112793
+Noble_left.csv,title,sa'd bin abdul-rahman,Noble_right,title,abdul-rahman bin faisal,0.8457517623901367
+Noble_left.csv,title,anna of nassau-dillenburg,Noble_right,title,katharina of nassau-beilstein,0.8436541557312012
+Noble_left.csv,title,"william neville, 1st earl of kent",Noble_right,title,"ralph neville, 1st earl of westmorland",0.8435347080230713
+Noble_left.csv,title,"raymond i, count of toulouse",Noble_right,title,"fredelon, count of toulouse",0.8432700634002686
+Noble_left.csv,title,"elizabeth le despenser, baroness berkeley",Noble_right,title,"elizabeth de berkeley, countess of warwick",0.840951681137085
+Noble_left.csv,title,"henry ii, duke of brabant",Noble_right,title,"henry iii, duke of brunswick-lã¼neburg",0.8409239053726196
+Noble_left.csv,title,john doukas,Noble_right,title,john doukas (sebastokrator),0.8408100008964539
+Noble_left.csv,title,lady catherine grey,Noble_right,title,margaret grey,0.8407212495803833
+Noble_left.csv,title,muhammad nasir khan i,Noble_right,title,sharif ibn ali,0.8406414985656738
+Noble_left.csv,title,john i of werle,Noble_right,title,john i of montfort,0.8382071256637573
+Noble_left.csv,title,"john christian, count palatine of sulzbach",Noble_right,title,"johann friedrich, count palatine of sulzbach-hilpoltstein",0.835476279258728
+Noble_left.csv,title,"santiago del granado, 1st count of cotoca",Noble_right,title,santiago maria del granado,0.8353612422943115
+Noble_left.csv,title,wulfhilde of saxony,Noble_right,title,ernst ii of saxony,0.8344317674636841
+Noble_left.csv,title,"john ii, count of rietberg",Noble_right,title,"john ii, count of oldenburg",0.8331663608551025
+Noble_left.csv,title,"james hamilton, 2nd duke of abercorn",Noble_right,title,"mary hamilton, duchess of abercorn",0.8328077793121338
+Noble_left.csv,title,"philipp-ernst, prince of schaumburg-lippe",Noble_right,title,"philipp, prince of hohenzollern-hechingen",0.8324731588363647
+Noble_left.csv,title,"bernard d'armagnac, count of pardiac",Noble_right,title,jacques d'armagnac,0.8324488401412964
+Noble_left.csv,title,"john louis i, count of nassau-wiesbaden-idstein",Noble_right,title,john francis desideratus of nassau-siegen,0.8321512937545776
+Noble_left.csv,title,erdmann august of brandenburg-bayreuth,Noble_right,title,"erdmann ii, count of promnitz",0.8319986462593079
+Noble_left.csv,title,"agnes of brandenburg, duchess of pomerania",Noble_right,title,agnes of brandenburg (1584-1629),0.831839919090271
+Noble_left.csv,title,feodor ostrogski,Noble_right,title,illia ostrogski,0.8318110704421997
+Noble_left.csv,title,"william de beauchamp, 1st baron bergavenny",Noble_right,title,baron beauchamp of bletso,0.831575334072113
+Noble_left.csv,title,"fernando de meneses, 2nd count of ericeira",Noble_right,title,"francisco da silveira pinto da fonseca teixeira, 1st count of amarante",0.8291937708854675
+Noble_left.csv,title,landgravine juliane of hesse-philippsthal,Noble_right,title,ernest of hesse-philippsthal,0.8281626105308533
+Noble_left.csv,title,"alice montacute, 5th countess of salisbury",Noble_right,title,"alice fitzalan, countess of kent",0.8273491859436035
+Noble_left.csv,title,maria of eicken,Noble_right,title,maria van eicken,0.8271628618240356
+Noble_left.csv,title,"emmeline pethick-lawrence, baroness pethick-lawrence",Noble_right,title,emmeline pethick-lawrence,0.8266909122467041
+Noble_left.csv,title,"agnes howard, duchess of norfolk",Noble_right,title,"margaret audley, duchess of norfolk",0.8266651630401611
+Noble_left.csv,title,jasper tudor,Noble_right,title,"jasper tudor, duke of bedford",0.8262614011764526
+Noble_left.csv,title,"john v, prince of anhalt-zerbst",Noble_right,title,"charles, prince of anhalt-zerbst",0.826126754283905
+Noble_left.csv,title,"charles i, count of ligny",Noble_right,title,"charles ii, count of lalaing",0.8254978060722351
+Noble_left.csv,title,charles philippe henri de noailles,Noble_right,title,"jacques nompar de caumont, duke of la force",0.8254721164703369
+Noble_left.csv,title,robert de ros (died 1227),Noble_right,title,"edmund de ros, 11th baron de ros",0.8252103328704834
+Noble_left.csv,title,"john ii, count of blois",Noble_right,title,"john ii, count of egmond",0.8244644403457642
+Noble_left.csv,title,ursula of brandenburg,Noble_right,title,katharina ursula of hohenzollern-hechingen,0.8229044079780579
+Noble_left.csv,title,"mary fiennes, baroness dacre",Noble_right,title,"margaret fiennes, baroness mortimer",0.8227404356002808
+Noble_left.csv,title,"elizabeth boleyn, countess of wiltshire",Noble_right,title,"margaret de bohun, 2nd countess of devon",0.8217142820358276
+Noble_left.csv,title,matilda of savoy,Noble_right,title,matilda of hesse,0.8216385841369629
+Noble_left.csv,title,"catherine woodville, duchess of buckingham",Noble_right,title,"catherine hyde, duchess of queensberry",0.8202992677688599
+Noble_left.csv,title,"cecily neville, duchess of warwick",Noble_right,title,"eleanor neville, countess of northumberland",0.8196966648101807
+Noble_left.csv,title,"dietrich, count of oldenburg",Noble_right,title,"christopher, count of oldenburg",0.8169724941253662
+Noble_left.csv,title,catherine of hanau,Noble_right,title,katharina of hanau,0.8168712258338928
+Noble_left.csv,title,"louis frederick i, prince of schwarzburg-rudolstadt",Noble_right,title,"friedrich ludwig, prince of hohenzollern-hechingen",0.816552460193634
+Noble_left.csv,title,anna maria of hesse-kassel,Noble_right,title,charlotte amalie of hesse-philippsthal,0.8159103393554688
+Noble_left.csv,title,"edward nevill, 15th baron bergavenny",Noble_right,title,"john nevill, 3rd baron latimer",0.815227746963501
+Noble_left.csv,title,marianna kazanowska,Noble_right,title,barbara kolanka,0.8142150640487671
+Noble_left.csv,title,margaret of hohenzollern-nuremberg,Noble_right,title,margaret of bavaria (1442â1479),0.8139774799346924
+Noble_left.csv,title,krystyna lubomirska (d. 1645),Noble_right,title,prokop sieniawski (d. 1627),0.8127942085266113
+Noble_left.csv,title,theodoric of landsberg,Noble_right,title,"theodoric iv, landgrave of lusatia",0.8114892244338989
+Noble_left.csv,title,henry of stolberg,Noble_right,title,henry of eppenstein,0.811387300491333
+Noble_left.csv,title,countess johanna sophia of hohenlohe-langenburg,Noble_right,title,countess frederica of dohna-schlobitten,0.8112446069717407
+Noble_left.csv,title,"frederick vii, count of zollern",Noble_right,title,"johann iv, count of katzenelnbogen",0.8110018968582153
+Noble_left.csv,title,"john manners, 9th duke of rutland",Noble_right,title,"george manners, 12th baron de ros",0.8093278408050537
+Noble_left.csv,title,"anne hastings, countess of shrewsbury",Noble_right,title,"anne calthorpe, countess of sussex",0.8093142509460449
+Noble_left.csv,title,maurice vi de craon,Noble_right,title,"charles juste de beauvau, prince of craon",0.8092808723449707
+Noble_left.csv,title,berthold i of istria,Noble_right,title,"berthold iv, duke of merania",0.8085682392120361
+Noble_left.csv,title,wolfgang of the palatinate,Noble_right,title,"philipp ludwig, count palatine of neuburg",0.8076130151748657
+Noble_left.csv,title,maurice de prendergast,Noble_right,title,maud de prendergast,0.8049323558807373
+Noble_left.csv,title,nicholas iv of werle,Noble_right,title,nicholas i garai,0.8044880628585815
+Noble_left.csv,title,"catherine of sweden, countess palatine of kleeburg",Noble_right,title,catherine of sweden (1584â1638),0.8042266368865967
+Noble_left.csv,title,"agnes mortimer, countess of pembroke",Noble_right,title,"isabella mortimer, lady of clun and oswestry",0.8023281693458557
+Noble_left.csv,title,"henry ii, duke of carinthia",Noble_right,title,"herman, duke of carinthia",0.8004827499389648
+Noble_left.csv,title,"philip i, count of savoy",Noble_right,title,"humbert iii, count of savoy",0.8003371953964233
+Noble_left.csv,title,"elizabeth russell, duchess of bedford",Noble_right,title,"elizabeth talbot, duchess of norfolk",0.7988661527633667
+Noble_left.csv,title,mirza shah mahmud,Noble_right,title,muhammad ali khan wallajah,0.798837423324585
+Noble_left.csv,title,anna dalassene,Noble_right,title,anna karlsdotter,0.7971478700637817
+Noble_left.csv,title,"charles emmanuel, duke of nemours",Noble_right,title,"armand nompar de caumont, duke of la force",0.796921968460083
+Noble_left.csv,title,"werner ii, count of habsburg",Noble_right,title,"franz anton, count of hohenzollern-haigerloch",0.7949352264404297
+Noble_left.csv,title,saud bin faisal bin turki,Noble_right,title,mehmed pasha bushati,0.7946897745132446
+Noble_left.csv,title,"louis i, landgrave of thuringia",Noble_right,title,louis of hesse-philippsthal,0.7945288419723511
+Noble_left.csv,title,agatha christine of hanau-lichtenberg,Noble_right,title,katharina of hanau-lichtenberg,0.7934165000915527
+Noble_left.csv,title,"walter iv, count of enghien",Noble_right,title,"walter v, count of brienne",0.7930161952972412

@@ -1,0 +1,201 @@
+query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
+Device_left.csv,title,rds-1,Galaxy_left,title,rd1,0.7928234338760376
+Device_left.csv,title,zx81,Galaxy_left,title,a1689-zd1,0.7888804078102112
+Device_left.csv,title,tkb-059,Galaxy_left,title,sxdf-nb1006-2,0.7812496423721313
+Device_left.csv,title,l42a1,Galaxy_left,title,lbg-2377,0.7608577013015747
+Device_left.csv,title,wg66,Galaxy_left,title,ugc 5692,0.7505929470062256
+Device_left.csv,title,cz 110,Galaxy_left,title,zw ii 96,0.7352003455162048
+Device_left.csv,title,tkb-072,Galaxy_left,title,rxj1242-11,0.7337561845779419
+Device_left.csv,title,rg-35,Galaxy_left,title,ngc 35,0.7291628122329712
+Device_left.csv,title,alpha draco,Galaxy_left,title,draco dwarf,0.7267976999282837
+Device_left.csv,title,fhj 84,Galaxy_left,title,udfj-39546284,0.7257490158081055
+Device_left.csv,title,calico m950,Galaxy_left,title,ugc 9240,0.7223525643348694
+Device_left.csv,title,9k115-2 metis-m,Galaxy_left,title,ugc 5497,0.7160302400588989
+Device_left.csv,title,icade,Galaxy_left,title,ic 10,0.7128362655639648
+Device_left.csv,title,gu230,Galaxy_left,title,ugc 8331,0.712566614151001
+Device_left.csv,title,c-803,Galaxy_left,title,ugc 8091,0.710918664932251
+Device_left.csv,title,sr 88,Galaxy_left,title,ngc 88,0.7013344168663025
+Device_left.csv,title,c-704,Galaxy_left,title,ic 342,0.7005234956741333
+Device_left.csv,title,arcus 98da,Galaxy_left,title,ugc 9618,0.6980015635490417
+Device_left.csv,title,ats-59,Galaxy_left,title,ngc 59,0.6974862813949585
+Device_left.csv,title,kepd 350,Galaxy_left,title,pgc 39058,0.6949817538261414
+Device_left.csv,title,agram 2000,Galaxy_left,title,ugca 86,0.6915693879127502
+Device_left.csv,title,hs2000,Galaxy_left,title,hudf-jd2,0.6882621049880981
+Device_left.csv,title,casio be-300,Galaxy_left,title,eso 510-g13,0.6878607869148254
+Device_left.csv,title,sd.kfz. 11,Galaxy_left,title,udfy-38135539,0.6877305507659912
+Device_left.csv,title,char 2c,Galaxy_left,title,3c 305,0.6862449049949646
+Device_left.csv,title,l3/33,Galaxy_left,title,mb 3,0.6851055026054382
+Device_left.csv,title,fv432,Galaxy_left,title,udf 423,0.684247612953186
+Device_left.csv,title,zsu-37,Galaxy_left,title,eso 306-17,0.6811522245407104
+Device_left.csv,title,fv433 abbot spg,Galaxy_left,title,ic 4970,0.680550217628479
+Device_left.csv,title,celurit,Galaxy_left,title,cetus dwarf,0.6798806190490723
+Device_left.csv,title,davidka,Galaxy_left,title,virgohi21,0.6785768270492554
+Device_left.csv,title,benelli mr1,Galaxy_left,title,maffei 1,0.678553581237793
+Device_left.csv,title,spg-82,Galaxy_left,title,ngc 89,0.6779225468635559
+Device_left.csv,title,breda 30,Galaxy_left,title,leda 074886,0.6777764558792114
+Device_left.csv,title,sm-70,Galaxy_left,title,ngc 7090,0.6777583360671997
+Device_left.csv,title,9m133 kornet,Galaxy_left,title,pgc 214560,0.6767997145652771
+Device_left.csv,title,bm-24,Galaxy_left,title,hcm-6a,0.6758261919021606
+Device_left.csv,title,k31,Galaxy_left,title,cid-42,0.67376708984375
+Device_left.csv,title,macbook pro,Galaxy_left,title,macs0647-jd,0.6712409257888794
+Device_left.csv,title,k30 biho,Galaxy_left,title,qso b2121+248,0.6682966947555542
+Device_left.csv,title,weibel m/1932,Galaxy_left,title,abell 1835 ir1916,0.6649347543716431
+Device_left.csv,title,p9rc,Galaxy_left,title,ugc 6945,0.6640385389328003
+Device_left.csv,title,pm-63 rak,Galaxy_left,title,am 0644-741,0.6636700630187988
+Device_left.csv,title,fateh-110,Galaxy_left,title,ic 1101,0.6636511087417603
+Device_left.csv,title,scr-108,Galaxy_left,title,ngc 1087,0.6608977913856506
+Device_left.csv,title,kh-58,Galaxy_left,title,ngc 5829,0.6603512763977051
+Device_left.csv,title,ibm 5110,Galaxy_left,title,ic 5351,0.6582120656967163
+Device_left.csv,title,obice da 75/18 modello 34,Galaxy_left,title,eso 540-030,0.6579620838165283
+Device_left.csv,title,svi-738,Galaxy_left,title,ic 755,0.6573015451431274
+Device_left.csv,title,mg 15,Galaxy_left,title,ngc 15,0.6556622385978699
+Device_left.csv,title,ah-iv,Galaxy_left,title,andromeda iv,0.6553510427474976
+Device_left.csv,title,sun ray,Galaxy_left,title,sunflower galaxy,0.6530380249023438
+Device_left.csv,title,bwp-2000,Galaxy_left,title,ic 2233,0.6525717973709106
+Device_left.csv,title,7.7 cm fk 16,Galaxy_left,title,3c 75,0.6525101065635681
+Device_left.csv,title,trs-80 mc-10,Galaxy_left,title,macs1149-jd,0.6505740880966187
+Device_left.csv,title,ag m/42,Galaxy_left,title,ngc 45,0.6469550132751465
+Device_left.csv,title,armtech c30r,Galaxy_left,title,3c 390.3,0.6416429281234741
+Device_left.csv,title,acv-300,Galaxy_left,title,markarian 501,0.6413421630859375
+Device_left.csv,title,130 53 tk,Galaxy_left,title,3c 295,0.6395052075386047
+Device_left.csv,title,savage 110 ba,Galaxy_left,title,markarian 231,0.6384010910987854
+Device_left.csv,title,m56 scorpion,Galaxy_left,title,ngc 5806,0.6376329064369202
+Device_left.csv,title,pt-76,Galaxy_left,title,ic 167,0.6335382461547852
+Device_left.csv,title,cbu-24,Galaxy_left,title,ngc 24,0.6330313682556152
+Device_left.csv,title,qsz-92,Galaxy_left,title,ngc 92,0.6313403844833374
+Device_left.csv,title,otokar akrep,Galaxy_left,title,iok-1,0.6311745643615723
+Device_left.csv,title,ar-10,Galaxy_left,title,ngc 10,0.6304939985275269
+Device_left.csv,title,amr 35,Galaxy_left,title,ngc 36,0.6292812824249268
+Device_left.csv,title,sanna 77,Galaxy_left,title,ngc 772,0.6283464431762695
+Device_left.csv,title,tapwave zodiac,Galaxy_left,title,leo a,0.6275887489318848
+Device_left.csv,title,r-26 (missile),Galaxy_left,title,ngc 26,0.6271016597747803
+Device_left.csv,title,rpg-16,Galaxy_left,title,ugc 2140,0.6269705891609192
+Device_left.csv,title,altos 586,Galaxy_left,title,ic 1613,0.6262507438659668
+Device_left.csv,title,ak-104,Galaxy_left,title,arp 104,0.6252197027206421
+Device_left.csv,title,rsd 58,Galaxy_left,title,ngc 5879,0.6238796710968018
+Device_left.csv,title,nokia 5233,Galaxy_left,title,ic 5357,0.6236110925674438
+Device_left.csv,title,saur 1,Galaxy_left,title,malin 1,0.6232541799545288
+Device_left.csv,title,r-37 (missile),Galaxy_left,title,ngc 37,0.6219933032989502
+Device_left.csv,title,raketenjagdpanzer 2,Galaxy_left,title,dwingeloo 2,0.6198625564575195
+Device_left.csv,title,sig 522lr,Galaxy_left,title,ngc 520,0.6191630363464355
+Device_left.csv,title,zastava m84,Galaxy_left,title,i zwicky 18,0.6159610748291016
+Device_left.csv,title,char b1,Galaxy_left,title,3c 321,0.6109477281570435
+Device_left.csv,title,t-95,Galaxy_left,title,ngc 953,0.6097787618637085
+Device_left.csv,title,hyunmoo-3,Galaxy_left,title,dwingeloo 1,0.6096854209899902
+Device_left.csv,title,soltam m-68,Galaxy_left,title,ngc 6850,0.6096816062927246
+Device_left.csv,title,droid x,Galaxy_left,title,andromeda x,0.6096391677856445
+Device_left.csv,title,stridsvagn 103,Galaxy_left,title,ngc 145,0.607183575630188
+Device_left.csv,title,t249 vigilante,Galaxy_left,title,3c 236,0.6069321036338806
+Device_left.csv,title,xsm-74,Galaxy_left,title,ngc 5907,0.6063069701194763
+Device_left.csv,title,2s12 sani,Galaxy_left,title,maffei 2,0.6056748032569885
+Device_left.csv,title,ks-23,Galaxy_left,title,ngc 2537,0.6055891513824463
+Device_left.csv,title,df-21,Galaxy_left,title,ngc 21,0.6047021150588989
+Device_left.csv,title,rg-31 nyala,Galaxy_left,title,ngc 31,0.6038358807563782
+Device_left.csv,title,p-70 ametist,Galaxy_left,title,arp 107,0.6035345196723938
+Device_left.csv,title,tog1,Galaxy_left,title,ngc 1,0.6031970977783203
+Device_left.csv,title,hermes (missile),Galaxy_left,title,hercules a,0.601921796798706
+Device_left.csv,title,gdium,Galaxy_left,title,ngc 27,0.6012248992919922
+Device_left.csv,title,valmet m76,Galaxy_left,title,messier 77,0.5992205142974854
+Device_left.csv,title,ba-64,Galaxy_left,title,ngc 49,0.599120020866394
+Device_left.csv,title,vb berapi lp06,Galaxy_left,title,ic 3418,0.5990070104598999
+Device_left.csv,title,rgd-33 grenade,Galaxy_left,title,ngc 38,0.5972473621368408
+Device_left.csv,title,zastava m76,Galaxy_left,title,ms 1512 +36-cb58,0.5946423411369324
+Device_left.csv,title,lucas 14cux,Galaxy_left,title,ngc 14,0.5932211875915527
+Device_left.csv,title,wimm one,Galaxy_left,title,willman 1,0.5930076241493225
+Device_left.csv,title,m79 osa,Galaxy_left,title,ngc 7793,0.5926932096481323
+Device_left.csv,title,m4 (missile),Galaxy_left,title,ngc 4,0.5915499329566956
+Device_left.csv,title,kanonenjagdpanzer,Galaxy_left,title,ngc 5585,0.5909786224365234
+Device_left.csv,title,vz. 58,Galaxy_left,title,ngc 60,0.5905197858810425
+Device_left.csv,title,cinquedea,Galaxy_left,title,sextans a,0.5900673866271973
+Device_left.csv,title,feg pa-63,Galaxy_left,title,ngc 55,0.5893591642379761
+Device_left.csv,title,rg-32 scout,Galaxy_left,title,ngc 28,0.5887556076049805
+Device_left.csv,title,gb-8,Galaxy_left,title,ngc 12,0.5881398916244507
+Device_left.csv,title,canon de 75 mle gp iii,Galaxy_left,title,ngc 6027e,0.5866502523422241
+Device_left.csv,title,m75 grenade launcher,Galaxy_left,title,ngc 5775,0.5861612558364868
+Device_left.csv,title,wirbelwind,Galaxy_left,title,whirlpool galaxy,0.5860321521759033
+Device_left.csv,title,64dd,Galaxy_left,title,3c 66b,0.5850378274917603
+Device_left.csv,title,cz-g2000,Galaxy_left,title,ngc 250,0.582701563835144
+Device_left.csv,title,pindad ss4,Galaxy_left,title,ngc 5474,0.5826508402824402
+Device_left.csv,title,sterling sar-87,Galaxy_left,title,ngc 87,0.582372784614563
+Device_left.csv,title,carden loyd tankette,Galaxy_left,title,carina dwarf,0.5814788341522217
+Device_left.csv,title,canon de 76 frc,Galaxy_left,title,ngc 7320c,0.5784519910812378
+Device_left.csv,title,7.5 cm pak 41,Galaxy_left,title,4c +37.11,0.5776343941688538
+Device_left.csv,title,aim-68 big q,Galaxy_left,title,ngc 6822,0.5773718953132629
+Device_left.csv,title,chenowth advanced light strike vehicle,Galaxy_left,title,ngc 4700,0.5770561695098877
+Device_left.csv,title,m22 locust,Galaxy_left,title,ngc 5746,0.5770190954208374
+Device_left.csv,title,hoot (missile),Galaxy_left,title,hoag's object,0.5768948793411255
+Device_left.csv,title,ur-100,Galaxy_left,title,ngc 1023,0.5768002271652222
+Device_left.csv,title,bmpt,Galaxy_left,title,sextans b,0.5764448642730713
+Device_left.csv,title,zf.ger.38,Galaxy_left,title,ngc 41,0.5762877464294434
+Device_left.csv,title,m34 grenade,Galaxy_left,title,ngc 4414,0.5756309032440186
+Device_left.csv,title,berliet vxb-170,Galaxy_left,title,ic 1517,0.5754727125167847
+Device_left.csv,title,type 96,Galaxy_left,title,ic 1516,0.5750356912612915
+Device_left.csv,title,hyundai mb 490i,Galaxy_left,title,tn j0924-2201,0.5750203728675842
+Device_left.csv,title,solothurn s-18/1000,Galaxy_left,title,ngc 2500,0.5744622945785522
+Device_left.csv,title,agm-12 bullpup,Galaxy_left,title,arp 276,0.574384331703186
+Device_left.csv,title,droid 3,Galaxy_left,title,ngc 3,0.5740280151367188
+Device_left.csv,title,m79 grenade launcher,Galaxy_left,title,ngc 7673,0.572860598564148
+Device_left.csv,title,panzer 61,Galaxy_left,title,ngc 57,0.5728542804718018
+Device_left.csv,title,cf-05,Galaxy_left,title,3c 401,0.5713773965835571
+Device_left.csv,title,colt m1878,Galaxy_left,title,ngc 4565,0.5708655118942261
+Device_left.csv,title,mk 101 cannon,Galaxy_left,title,ngc 5101,0.5705153346061707
+Device_left.csv,title,vectrex,Galaxy_left,title,centaurus a,0.5700569748878479
+Device_left.csv,title,tandberg c90,Galaxy_left,title,ngc 1187,0.5694650411605835
+Device_left.csv,title,nudelman n-37,Galaxy_left,title,ngc 39,0.5679312944412231
+Device_left.csv,title,grendel p30,Galaxy_left,title,ngc 300,0.5669810175895691
+Device_left.csv,title,r-9 desna,Galaxy_left,title,ngc 3808a,0.566917896270752
+Device_left.csv,title,samsung sgh-t559,Galaxy_left,title,ngc 5705,0.5644388198852539
+Device_left.csv,title,valanx,Galaxy_left,title,fornax dwarf,0.5642316341400146
+Device_left.csv,title,om 50 nemesis,Galaxy_left,title,ngc 5033,0.5640734434127808
+Device_left.csv,title,puteaux sa 18,Galaxy_left,title,messier 32,0.5639602541923523
+Device_left.csv,title,lg voyager,Galaxy_left,title,ngc 925,0.563637375831604
+Device_left.csv,title,m1132 engineer squad vehicle,Galaxy_left,title,mrc 1138-262,0.5618362426757812
+Device_left.csv,title,canon de 75 mle gp11,Galaxy_left,title,ngc 6027d,0.5609450340270996
+Device_left.csv,title,toz-106,Galaxy_left,title,ngc 147,0.5605654120445251
+Device_left.csv,title,samsung nc20,Galaxy_left,title,ngc 3808b,0.5594545602798462
+Device_left.csv,title,marder (ifv),Galaxy_left,title,messier 105,0.5593873858451843
+Device_left.csv,title,sumitomo type 62,Galaxy_left,title,ngc 5929,0.5590746998786926
+Device_left.csv,title,2k6 luna,Galaxy_left,title,ngc 1560,0.5588085651397705
+Device_left.csv,title,aden cannon,Galaxy_left,title,andromeda galaxy,0.558244526386261
+Device_left.csv,title,gabriel (missile),Galaxy_left,title,ngc 3550,0.558212399482727
+Device_left.csv,title,gewehr 98,Galaxy_left,title,ngc 891,0.5580545663833618
+Device_left.csv,title,jagdpanzer,Galaxy_left,title,ngc 4027,0.5577895641326904
+Device_left.csv,title,arsenal shipka,Galaxy_left,title,messier 96,0.5576717853546143
+Device_left.csv,title,nag (missile),Galaxy_left,title,ngc 185,0.557093620300293
+Device_left.csv,title,8 cm pl kanon vz. 37,Galaxy_left,title,3c 452,0.5567723512649536
+Device_left.csv,title,zagi m-91,Galaxy_left,title,ngc 922,0.5560739040374756
+Device_left.csv,title,rikhter r-23,Galaxy_left,title,ngc 23,0.5554441213607788
+Device_left.csv,title,cj-1,Galaxy_left,title,3c 279,0.5543982982635498
+Device_left.csv,title,cannone da 47/32 m35,Galaxy_left,title,messier 58,0.5538718700408936
+Device_left.csv,title,aim-4 falcon,Galaxy_left,title,ngc 7479,0.5536677241325378
+Device_left.csv,title,pg-7vr,Galaxy_left,title,ngc 4777,0.5535536408424377
+Device_left.csv,title,mortier de 12 gribeauval,Galaxy_left,title,messier 95,0.5520015954971313
+Device_left.csv,title,zastava m85,Galaxy_left,title,ngc 5665,0.5509248375892639
+Device_left.csv,title,tranz 330,Galaxy_left,title,ngc 3357,0.5494816303253174
+Device_left.csv,title,m-63 plamen,Galaxy_left,title,ngc 5477,0.5493443012237549
+Device_left.csv,title,barrett m95,Galaxy_left,title,ngc 7499,0.5493166446685791
+Device_left.csv,title,samsung sgh-t729,Galaxy_left,title,ngc 5970,0.5486847162246704
+Device_left.csv,title,btr-40,Galaxy_left,title,ngc 43,0.5485941171646118
+Device_left.csv,title,rs-24 yars,Galaxy_left,title,ngc 2541,0.5481107234954834
+Device_left.csv,title,cambridge z88,Galaxy_left,title,ngc 1728,0.5480856895446777
+Device_left.csv,title,sig p210,Galaxy_left,title,arp 187,0.5476053953170776
+Device_left.csv,title,r-60 (missile),Galaxy_left,title,ngc 5930,0.5476011633872986
+Device_left.csv,title,37 mm gun m3,Galaxy_left,title,ngc 3738,0.5461100339889526
+Device_left.csv,title,mu90 impact,Galaxy_left,title,messier 100,0.5460347533226013
+Device_left.csv,title,mk44 bushmaster ii,Galaxy_left,title,ngc 4444,0.5459215641021729
+Device_left.csv,title,gbu-12 paveway ii,Galaxy_left,title,ngc 1128,0.5456768274307251
+Device_left.csv,title,m51 (missile),Galaxy_left,title,ngc 5144,0.5451125502586365
+Device_left.csv,title,rim-85,Galaxy_left,title,messier 85,0.544762134552002
+Device_left.csv,title,fm-8,Galaxy_left,title,ngc 4088,0.5445151329040527
+Device_left.csv,title,hatf-iii,Galaxy_left,title,henize 2-10,0.5439091324806213
+Device_left.csv,title,borchardt c-93,Galaxy_left,title,ngc 3310,0.5437896847724915
+Device_left.csv,title,jagdpanther,Galaxy_left,title,ngc 5548,0.5437048673629761
+Device_left.csv,title,psion series 5,Galaxy_left,title,ngc 5490,0.5432964563369751
+Device_left.csv,title,mark 14 torpedo,Galaxy_left,title,ngc 1404,0.5431628227233887
+Device_left.csv,title,42 line gun m1877,Galaxy_left,title,ngc 47,0.5431421995162964
+Device_left.csv,title,kashtan ciws,Galaxy_left,title,ngc 6027c,0.542831301689148
+Device_left.csv,title,gorgon (missile family),Galaxy_left,title,ngc 3432,0.542248010635376
+Device_left.csv,title,ak-101,Galaxy_left,title,ngc 1097,0.5422195196151733
+Device_left.csv,title,paveway iv,Galaxy_left,title,andromeda v,0.5415071845054626
+Device_left.csv,title,mems m-52/60,Galaxy_left,title,ngc 5921,0.5412740707397461
+Device_left.csv,title,dm-11 mine,Galaxy_left,title,ngc 11,0.5399157404899597

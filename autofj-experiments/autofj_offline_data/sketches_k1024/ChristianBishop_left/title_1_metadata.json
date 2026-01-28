@@ -1,0 +1,9 @@
+{
+  "table_name": "ChristianBishop_left",
+  "column_name": "title",
+  "column_index": 1,
+  "total_embeddings": 5363,
+  "sketch_k": 1024,
+  "processing_time": 6.594431638717651,
+  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/ChristianBishop_left/title_1.npz"
+}
