@@ -1,9 +1,0 @@
-{
-  "table_name": "Election_left",
-  "column_name": "id",
-  "column_index": 0,
-  "total_embeddings": 6565,
-  "sketch_k": 1024,
-  "processing_time": 8.712343692779541,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Election_left/id_0.npz"
-}

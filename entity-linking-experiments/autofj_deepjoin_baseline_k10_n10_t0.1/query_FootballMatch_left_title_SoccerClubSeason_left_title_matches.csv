@@ -1,3 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-FootballMatch_left.csv,title,2011 Uzbekistan Cup Final,SoccerClubSeason_left.csv,title,2011 Uzbekistan national football team results,0.6755
-FootballMatch_left.csv,title,2012 Uzbekistan Cup Final,SoccerClubSeason_left.csv,title,2012 Uzbekistan national football team results,0.6755

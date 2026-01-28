@@ -1,7 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-FootballLeagueSeason_left.csv,title,New York/New Jersey Knights,BasketballTeam_left.csv,title,New York Knicks,0.7218
-FootballLeagueSeason_left.csv,title,New York/New Jersey Knights,BasketballTeam_left.csv,title,New Orleans Hornets,0.7218
-FootballLeagueSeason_left.csv,title,San Antonio Riders,BasketballTeam_left.csv,title,San Antonio Spurs,0.7218
-FootballLeagueSeason_left.csv,title,Sacramento Surge,BasketballTeam_left.csv,title,Sacramento Kings,0.7218
-FootballLeagueSeason_left.csv,title,San Antonio Riders,BasketballTeam_left.csv,title,San Juan Knights,0.7218
-FootballLeagueSeason_left.csv,title,Card-Pitt,BasketballTeam_left.csv,title,Cardiff Celts,0.7218

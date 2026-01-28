@@ -1,9 +1,0 @@
-{
-  "table_name": "ClericalAdministrativeRegion_left",
-  "column_name": "title",
-  "column_index": 1,
-  "total_embeddings": 2547,
-  "sketch_k": 1024,
-  "processing_time": 2.5800576210021973,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/ClericalAdministrativeRegion_left/title_1.npz"
-}

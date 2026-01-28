@@ -1,9 +1,0 @@
-{
-  "table_name": "PoliticalParty_left",
-  "column_name": "title",
-  "column_index": 1,
-  "total_embeddings": 5254,
-  "sketch_k": 1024,
-  "processing_time": 7.380124568939209,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/PoliticalParty_left/title_1.npz"
-}

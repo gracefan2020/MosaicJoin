@@ -1,4 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-SoccerTournament_left.csv,title,South American Championship of Champions,SportsLeague_right.csv,title,South American Basketball Championship for Women,0.7839
-SoccerTournament_left.csv,title,2011 Liga de Ascenso Apertura Liguilla,SportsLeague_right.csv,title,Liga de Ascenso,0.7839
-SoccerTournament_left.csv,title,2012 Second Division Football Tournament,SportsLeague_right.csv,title,Maldivian Second Division Football Tournament,0.7839

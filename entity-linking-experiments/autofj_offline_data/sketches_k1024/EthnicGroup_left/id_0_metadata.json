@@ -1,9 +1,0 @@
-{
-  "table_name": "EthnicGroup_left",
-  "column_name": "id",
-  "column_index": 0,
-  "total_embeddings": 4317,
-  "sketch_k": 1024,
-  "processing_time": 4.651037693023682,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/EthnicGroup_left/id_0.npz"
-}

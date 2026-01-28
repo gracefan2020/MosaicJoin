@@ -1,3 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-GovernmentAgency_left.csv,title,Royal Academy of Engineering of Spain,Museum_right.csv,title,Royal Academy,0.6558
-GovernmentAgency_left.csv,title,Wallops Flight Facility,Museum_right.csv,title,Wallops Flight Facility Visitor Center,0.6558

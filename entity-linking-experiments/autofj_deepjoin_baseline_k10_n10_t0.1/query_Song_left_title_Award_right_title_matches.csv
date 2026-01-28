@@ -1,8 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-Song_left.csv,title,The 15th,Award_right.csv,title,15th Annual Grammy Awards,0.5781
-Song_left.csv,title,The 15th,Award_right.csv,title,15th Grammy Awards,0.5781
-Song_left.csv,title,"Video, Video",Award_right.csv,title,MTV Video Music Award for Best Visual Effects,0.5781
-Song_left.csv,title,"Video, Video",Award_right.csv,title,Grammy Award for Best Music Video,0.5781
-Song_left.csv,title,Satellit,Award_right.csv,title,Satellite Awards,0.5781
-Song_left.csv,title,Wendy (song),Award_right.csv,title,Wendy Schmidt Oil Cleanup X Challenge,0.5781
-Song_left.csv,title,"Halo, Halo",Award_right.csv,title,Nickelodeon HALO Awards,0.5781
