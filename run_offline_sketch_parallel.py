@@ -41,8 +41,17 @@ def cleanup_sketch_data(output_dir: str, sketch_size: int):
 
 def main():
     # Configuration
-    embeddings_dir = "entity-linking-experiments/autofj_offline_data/embeddings"
-    output_dir = "entity-linking-experiments/autofj_offline_data"
+    # # For AutoFJ experiments
+    # embeddings_dir = "autofj-experiments/autofj_offline_data/embeddings"
+    # output_dir = "autofj-experiments/autofj_offline_data"
+
+    # # For GDC experiments
+    # embeddings_dir = "gdc-experiments/gdc_offline_data/embeddings"
+    # output_dir = "gdc-experiments/gdc_offline_data"
+
+    # For AutoFJ+GDC experiments
+    embeddings_dir = "autofj-gdc-experiments/autofj-gdc_offline_data/embeddings"
+    output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
     num_chunks = 4
     sketch_size = 1024
     similarity_threshold = 0.7

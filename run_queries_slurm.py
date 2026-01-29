@@ -23,12 +23,28 @@ def main():
     # embeddings_dir = "offline_data/embeddings"
     # output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
 
-    datalake_dir = "datasets/autofj_join_benchmark/datalake"
-    sketches_dir = f"entity-linking-experiments/autofj_offline_data/sketches_k{sketch_size}"
-    query_file = "datasets/autofj_join_benchmark/autofj_query_columns.csv"
-    embeddings_dir = "entity-linking-experiments/autofj_offline_data/embeddings"
-    output_dir = f"entity-linking-experiments/autofj_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
+    # # For AutoFJ experiments
+    # datalake_dir = "datasets/autofj_join_benchmark/datalake"
+    # sketches_dir = f"autofj-experiments/autofj_offline_data/sketches_k{sketch_size}"
+    # query_file = "datasets/autofj_join_benchmark/autofj_query_columns.csv"
+    # embeddings_dir = "autofj-experiments/autofj_offline_data/embeddings"
+    # output_dir = f"autofj-experiments/autofj_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
+
+    # # For GDC experiments
+    # datalake_dir = "datasets/gdc/datalake"
+    # sketches_dir = f"gdc-experiments/gdc_offline_data/sketches_k{sketch_size}"
+    # query_file = "datasets/gdc/gdc_query_columns.csv"
+    # embeddings_dir = "gdc-experiments/gdc_offline_data/embeddings"
+    # output_dir = f"gdc-experiments/gdc_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
     
+    # For AutoFJ+GDC experiments
+    datalake_dir = "datasets/autofj-gdc/datalake"
+    sketches_dir = f"autofj-gdc-experiments/autofj-gdc_offline_data/sketches_k{sketch_size}"
+    query_file = "datasets/autofj-gdc/autofj_query_columns.csv"
+    embeddings_dir = "autofj-gdc-experiments/autofj-gdc_offline_data/embeddings"
+    output_dir = f"autofj-gdc-experiments/autofj-gdc_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
+    
+
     # Validate query file
     if not Path(query_file).exists():
         print(f"❌ Error: Query file not found: {query_file}")

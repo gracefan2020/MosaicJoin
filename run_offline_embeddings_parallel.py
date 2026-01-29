@@ -55,9 +55,18 @@ def main():
     # For Freyja
     # datalake_dir = "datasets/freyja-semantic-join/datalake"
     # output_dir = "offline_data"
-    # For AutoFuzzyJoin
-    datalake_dir = "datasets/autofj_join_benchmark/datalake"
-    output_dir = "autofj_offline_data"
+    # # For AutoFuzzyJoin
+    # datalake_dir = "datasets/autofj_join_benchmark/datalake"
+    # output_dir = "autofj-experiments/autofj_offline_data"
+
+    # # For GDC
+    # datalake_dir = "datasets/gdc/datalake"
+    # output_dir = "gdc-experiments/gdc_offline_data"
+
+    # For AutoFJ+GDC
+    datalake_dir = "datasets/autofj-gdc/datalake"
+    output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
+
     num_chunks = 4
     device = "auto"
     

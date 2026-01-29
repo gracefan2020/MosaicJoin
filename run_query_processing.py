@@ -17,7 +17,6 @@ from query_time import (
     QueryConfig,
     QueryColumn,
     save_query_results,
-    save_contributing_entities,
 )
 
 
@@ -179,17 +178,6 @@ def main():
                                query_sample_values=query_values,
                                datalake_dir=datalake_path)
             
-            for result in results:
-                if result.contributing_entities:
-                    contributing_output = output_dir / f"query_{i+1:03d}_{table_name}_{column_name}_{result.candidate_table}_{result.candidate_column}"
-                    save_contributing_entities(
-                        result.contributing_entities,
-                        contributing_output,
-                        query.table_name,
-                        query.column_name,
-                        result.candidate_table,
-                        result.candidate_column
-                    )
             
             query_sample = query_values[:5] if query_values else []
             query_sample_str = ", ".join(str(v) for v in query_sample) if query_sample else ""

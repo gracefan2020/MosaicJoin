@@ -2,8 +2,10 @@
 # Monitor Slurm jobs and combine results when complete
 
 # OUTPUT_DIR=${1:-"query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6_slurm"}
-OUTPUT_DIR=${1:-"entity-linking-experiments/autofj_query_results_k1024_t0.1_top10_slurm"}
-NUM_JOBS=${2:-5}
+# OUTPUT_DIR=${1:-"entity-linking-experiments/autofj_query_results_k1024_t0.1_top10_slurm"}
+# OUTPUT_DIR=${1:-"gdc-experiments/gdc_query_results_k1024_t0.1_top10_slurm"}
+OUTPUT_DIR=${1:-"autofj-gdc-experiments/autofj-gdc_query_results_k1024_t0.1_top10_slurm"}
+NUM_JOBS=${2:-10}
 
 echo "🔍 Monitoring Slurm jobs for query processing..."
 echo "   Output directory: $OUTPUT_DIR"

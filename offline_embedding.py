@@ -164,6 +164,19 @@ class MPNetEmbedder:
         
         return embeddings
     
+    def embed_values(self, values: List[str], column_name: str) -> np.ndarray:
+        """Embed values with column context."""
+        if not values:
+            return np.zeros((0, self.dimension), dtype=np.float32)
+        
+        # Clean column name for better embedding
+        clean_column_name = str(column_name).strip().lower().replace('_', ' ').replace('-', ' ')
+        
+        # Combine column name and value for each value
+        contextual_values = [f"{clean_column_name}: {str(v).strip() or 'unknown'}" for v in values]
+        
+        return self.embed_texts(contextual_values)
+    
     def get_timing_stats(self) -> Dict[str, Any]:
         """Get current timing statistics."""
         return self.timing_stats.copy()
