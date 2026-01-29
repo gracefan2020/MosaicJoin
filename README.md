@@ -25,5 +25,7 @@
 
 ## Run specific benchmark
 ./run_evaluation.sh gdc      # GDC only
+
 ./run_evaluation.sh autofj   # AutoFJ with DeepJoin comparison
+
 ./run_evaluation.sh autofj-gdc   # AutoFJ+GDC benchmark
