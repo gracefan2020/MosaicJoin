@@ -1,0 +1,52 @@
+Loading query specifications from datasets/gdc/gdc_query_columns.csv
+Found 57 query specifications
+Processing 10 specified queries
+
+Processing 10 queries with similarity_method=greedy_match...
+Processing query 1/10: mcdermott.Site of Disease
+  Loaded 92 values
+Device selected: cpu
+  Found 10 similar columns
+Processing query 2/10: mcdermott.Tumor Grade
+  Loaded 91 values
+  Found 10 similar columns
+Processing query 3/10: satpathy.Country.of.Origin
+  Loaded 207 values
+  Found 10 similar columns
+Processing query 4/10: satpathy.Ethnicity
+  Loaded 202 values
+  Found 10 similar columns
+Processing query 5/10: satpathy.Gender
+  Loaded 207 values
+  Found 10 similar columns
+Processing query 6/10: satpathy.Smoking.History
+  Loaded 197 values
+  Found 10 similar columns
+Processing query 7/10: satpathy.Stage
+  Loaded 103 values
+  Found 10 similar columns
+Processing query 8/10: vasaikar.PN
+  Loaded 110 values
+  Found 10 similar columns
+Processing query 9/10: wang.cause_of_death
+  Loaded 67 values
+  Found 10 similar columns
+Processing query 10/10: wang.country_of_origin
+  Loaded 94 values
+  Found 10 similar columns
+
+Combined results saved to: gdc-experiments/gdc_query_results_k1024_t0.1_top10_slurm/job_4/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 62.77s
+Total candidates found: 100
+Average time per query: 6.2766s
+Average candidates per query: 10.00
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 100
+Results saved to: gdc-experiments/gdc_query_results_k1024_t0.1_top10_slurm/job_4
