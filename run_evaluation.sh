@@ -74,6 +74,7 @@ run_autofj_gdc() {
     echo ""
     
     SEMSKETCH_RESULTS="autofj-gdc-experiments/autofj-gdc_query_results_k1024_t0.1_top10_slurm/all_query_results.csv"
+    DEEPJOIN_RESULTS="autofj-gdc-experiments/deepjoin-autofj-gdc-top50.csv"
     GROUND_TRUTH="datasets/autofj-gdc/groundtruth-joinable.csv"
     
     if [ ! -f "$SEMSKETCH_RESULTS" ]; then
@@ -81,12 +82,25 @@ run_autofj_gdc() {
         return 1
     fi
     
-    python evaluate_retrieval.py \
-        --results "$SEMSKETCH_RESULTS" \
-        --ground-truth "$GROUND_TRUTH" \
-        --level table \
-        --name "SemSketch" \
-        --k-values 1 3 5 10
+    # Check if DeepJoin baseline exists
+    if [ -f "$DEEPJOIN_RESULTS" ]; then
+        python evaluate_retrieval.py \
+            --results "$SEMSKETCH_RESULTS" \
+            --baseline "$DEEPJOIN_RESULTS" \
+            --ground-truth "$GROUND_TRUTH" \
+            --level table \
+            --name "SemSketch" \
+            --baseline-name "DeepJoin" \
+            --k-values 1 3 5 10
+    else
+        echo "⚠️  DeepJoin baseline not found, evaluating SemSketch only"
+        python evaluate_retrieval.py \
+            --results "$SEMSKETCH_RESULTS" \
+            --ground-truth "$GROUND_TRUTH" \
+            --level table \
+            --name "SemSketch" \
+            --k-values 1 3 5 10
+    fi
 }
 
 # Run based on argument
@@ -117,7 +131,7 @@ case $BENCHMARK in
         echo "Benchmarks:"
         echo "  gdc       - GDC column-level benchmark"
         echo "  autofj    - AutoFJ table-level benchmark (with DeepJoin comparison)"
-        echo "  autofj-gdc - AutoFJ-GDC merged table-level benchmark"
+        echo "  autofj-gdc - AutoFJ-GDC merged table-level benchmark (with DeepJoin comparison)"
         echo "  all       - Run all benchmarks"
         exit 1
         ;;
