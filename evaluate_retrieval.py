@@ -274,6 +274,41 @@ def print_comparison(metrics1: Dict, metrics2: Dict, name1: str, name2: str, k_v
             print(f"{k:>4} {v1:>12.3f} {v2:>12.3f} {diff:>+10.3f} {winner:>12}")
 
 
+def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int]], k_values: List[int]):
+    """Print condensed comparison table with all methods side-by-side for each metric."""
+    if len(all_metrics) < 2:
+        return
+    
+    names = [m[0] for m in all_metrics]
+    metrics_list = [m[1] for m in all_metrics]
+    
+    # Calculate column width based on method names
+    col_width = max(12, max(len(n) for n in names) + 2)
+    
+    print(f"\n{'=' * (10 + col_width * len(names))}")
+    print("CONDENSED COMPARISON (All Methods)")
+    print(f"{'=' * (10 + col_width * len(names))}")
+    
+    for metric_name, metric_key in [("HITS@K", "hits"), ("Precision@K", "precision"), 
+                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg")]:
+        print(f"\n--- {metric_name} ---")
+        header = f"{'K':>4}"
+        for name in names:
+            header += f" {name:>{col_width}}"
+        print(header)
+        print("-" * (6 + col_width * len(names)))
+        
+        for k in k_values:
+            row = f"{k:>4}"
+            values = [m[metric_key][k] for m in metrics_list]
+            best_val = max(values)
+            for i, v in enumerate(values):
+                # Mark best with asterisk
+                marker = "*" if abs(v - best_val) < 0.001 and len(set(values)) > 1 else " "
+                row += f" {v:>{col_width-1}.3f}{marker}"
+            print(row)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Evaluate semantic join retrieval results',
@@ -285,17 +320,25 @@ Examples:
 
   # Compare SemSketch vs DeepJoin
   python evaluate_retrieval.py --results semsketch.csv --baseline deepjoin.csv --ground-truth gt.csv
+
+  # Compare SemSketch vs multiple baselines (condensed output)
+  python evaluate_retrieval.py --results semsketch.csv \\
+      --baselines deepjoin_base.csv deepjoin_ft.csv \\
+      --baseline-names "DeepJoin-Base" "DeepJoin-FT" \\
+      --ground-truth gt.csv --level table
         """
     )
     parser.add_argument('--results', type=str, required=True, help='Path to results CSV (SemSketch)')
-    parser.add_argument('--baseline', type=str, help='Path to baseline results CSV (e.g., DeepJoin)')
+    parser.add_argument('--baseline', type=str, help='Path to baseline results CSV (single baseline)')
+    parser.add_argument('--baselines', type=str, nargs='+', help='Paths to multiple baseline CSVs')
     parser.add_argument('--ground-truth', type=str, required=True, help='Path to ground truth CSV')
     parser.add_argument('--level', type=str, choices=['table', 'column'], default='column',
                        help='Evaluation level (default: column)')
     parser.add_argument('--k-values', type=int, nargs='+', default=[1, 3, 5, 10],
                        help='K values for evaluation (default: 1 3 5 10)')
     parser.add_argument('--name', type=str, default='SemSketch', help='Name for the main results')
-    parser.add_argument('--baseline-name', type=str, default='DeepJoin', help='Name for baseline')
+    parser.add_argument('--baseline-name', type=str, default='DeepJoin', help='Name for single baseline')
+    parser.add_argument('--baseline-names', type=str, nargs='+', help='Names for multiple baselines')
     args = parser.parse_args()
     
     print("=" * 70)
@@ -326,16 +369,39 @@ Examples:
     results = load_results(args.results)
     print(f"{args.name} results: {len(results)} queries")
     metrics, total, gt_size_metrics = evaluate_metrics(gt, results, args.k_values, args.level)
-    print_metrics(metrics, total, args.name, args.k_values)
-    print_gt_size_metrics(gt_size_metrics, total)
     
-    # Evaluate baseline if provided
-    if args.baseline and Path(args.baseline).exists():
+    # Collect all metrics for multi-comparison
+    all_metrics = [(args.name, metrics, total)]
+    
+    # Handle multiple baselines (new feature)
+    if args.baselines:
+        baseline_names = args.baseline_names if args.baseline_names else [f"Baseline-{i+1}" for i in range(len(args.baselines))]
+        if len(baseline_names) < len(args.baselines):
+            baseline_names.extend([f"Baseline-{i+1}" for i in range(len(baseline_names), len(args.baselines))])
+        
+        for baseline_path, baseline_name in zip(args.baselines, baseline_names):
+            if Path(baseline_path).exists():
+                baseline_results = load_results(baseline_path)
+                print(f"{baseline_name} results: {len(baseline_results)} queries")
+                baseline_metrics, baseline_total, _ = evaluate_metrics(
+                    gt, baseline_results, args.k_values, args.level
+                )
+                all_metrics.append((baseline_name, baseline_metrics, baseline_total))
+            else:
+                print(f"⚠️  Baseline not found: {baseline_path}")
+        
+        # Print condensed multi-comparison table
+        print_multi_comparison(all_metrics, args.k_values)
+    
+    # Handle single baseline (legacy behavior)
+    elif args.baseline and Path(args.baseline).exists():
         baseline_results = load_results(args.baseline)
         print(f"\n{args.baseline_name} results: {len(baseline_results)} queries")
         baseline_metrics, baseline_total, baseline_gt_metrics = evaluate_metrics(
             gt, baseline_results, args.k_values, args.level
         )
+        print_metrics(metrics, total, args.name, args.k_values)
+        print_gt_size_metrics(gt_size_metrics, total)
         print_metrics(baseline_metrics, baseline_total, args.baseline_name, args.k_values)
         print_gt_size_metrics(baseline_gt_metrics, baseline_total)
         
@@ -343,6 +409,12 @@ Examples:
         print_comparison(metrics, baseline_metrics, args.name, args.baseline_name, args.k_values)
     elif args.baseline:
         print(f"\n⚠️  Baseline not found: {args.baseline}")
+        print_metrics(metrics, total, args.name, args.k_values)
+        print_gt_size_metrics(gt_size_metrics, total)
+    else:
+        # No baselines, just print main results
+        print_metrics(metrics, total, args.name, args.k_values)
+        print_gt_size_metrics(gt_size_metrics, total)
     
     # Coverage info
     queries_in_gt = set(gt.keys())
