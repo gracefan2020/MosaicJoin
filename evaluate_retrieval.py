@@ -274,13 +274,19 @@ def print_comparison(metrics1: Dict, metrics2: Dict, name1: str, name2: str, k_v
             print(f"{k:>4} {v1:>12.3f} {v2:>12.3f} {diff:>+10.3f} {winner:>12}")
 
 
-def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int]], k_values: List[int]):
-    """Print condensed comparison table with all methods side-by-side for each metric."""
+def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int, Dict]], k_values: List[int]):
+    """Print condensed comparison table with all methods side-by-side for each metric.
+    
+    Args:
+        all_metrics: List of (name, metrics, total, gt_size_metrics) tuples
+        k_values: List of K values to evaluate
+    """
     if len(all_metrics) < 2:
         return
     
     names = [m[0] for m in all_metrics]
     metrics_list = [m[1] for m in all_metrics]
+    gt_metrics_list = [m[3] for m in all_metrics]
     
     # Calculate column width based on method names
     col_width = max(12, max(len(n) for n in names) + 2)
@@ -307,6 +313,34 @@ def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int]], k_values: L
                 marker = "*" if abs(v - best_val) < 0.001 and len(set(values)) > 1 else " "
                 row += f" {v:>{col_width-1}.3f}{marker}"
             print(row)
+    
+    # Print metrics at ground truth size
+    print(f"\n{'=' * (10 + col_width * len(names))}")
+    print("METRICS AT GROUND TRUTH SIZE (K = |GT| per query)")
+    print(f"{'=' * (10 + col_width * len(names))}")
+    
+    # Show average |GT| size from first method
+    if gt_metrics_list[0] and 'per_query' in gt_metrics_list[0]:
+        per_query = gt_metrics_list[0]['per_query']
+        gt_sizes = [pq['gt_size'] for pq in per_query.values()]
+        if gt_sizes:
+            print(f"Average |GT| size: {sum(gt_sizes)/len(gt_sizes):.2f} (min: {min(gt_sizes)}, max: {max(gt_sizes)})")
+    
+    header = f"{'Metric':>16}"
+    for name in names:
+        header += f" {name:>{col_width}}"
+    print(header)
+    print("-" * (18 + col_width * len(names)))
+    
+    for metric_name, metric_key in [("HITS@|GT|", "hits_at_gt"), ("Precision@|GT|", "precision_at_gt"), 
+                                      ("Recall@|GT|", "recall_at_gt"), ("NDCG@|GT|", "ndcg_at_gt")]:
+        row = f"{metric_name:>16}"
+        values = [m.get(metric_key, 0.0) if m else 0.0 for m in gt_metrics_list]
+        best_val = max(values) if values else 0.0
+        for v in values:
+            marker = "*" if abs(v - best_val) < 0.001 and len(set(values)) > 1 else " "
+            row += f" {v:>{col_width-1}.3f}{marker}"
+        print(row)
 
 
 def main():
@@ -370,8 +404,8 @@ Examples:
     print(f"{args.name} results: {len(results)} queries")
     metrics, total, gt_size_metrics = evaluate_metrics(gt, results, args.k_values, args.level)
     
-    # Collect all metrics for multi-comparison
-    all_metrics = [(args.name, metrics, total)]
+    # Collect all metrics for multi-comparison (name, metrics, total, gt_size_metrics)
+    all_metrics = [(args.name, metrics, total, gt_size_metrics)]
     
     # Handle multiple baselines (new feature)
     if args.baselines:
@@ -383,10 +417,10 @@ Examples:
             if Path(baseline_path).exists():
                 baseline_results = load_results(baseline_path)
                 print(f"{baseline_name} results: {len(baseline_results)} queries")
-                baseline_metrics, baseline_total, _ = evaluate_metrics(
+                baseline_metrics, baseline_total, baseline_gt_metrics = evaluate_metrics(
                     gt, baseline_results, args.k_values, args.level
                 )
-                all_metrics.append((baseline_name, baseline_metrics, baseline_total))
+                all_metrics.append((baseline_name, baseline_metrics, baseline_total, baseline_gt_metrics))
             else:
                 print(f"⚠️  Baseline not found: {baseline_path}")
         
