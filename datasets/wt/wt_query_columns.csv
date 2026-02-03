@@ -1,0 +1,120 @@
+target_ds,target_attr
+AJ-beatles-songs_source_Title,Title
+AJ-california-govs-1_source_Governor_s_Name,Governor's Name
+AJ-california-govs-1_source_State,State
+AJ-california-govs-1_source_Time_in_Office,Time in Office
+AJ-california-govs-1_source_Party,Party
+AJ-california-govs-2_source__,№
+AJ-california-govs-2_source_Governor,Governor
+AJ-california-govs-2_source_Term_in_office,Term in office
+AJ-california-govs-2_source_Party,Party
+AJ-california-govs-2_source_Term,Term
+AJ-california-govs-2_source_Previous_office,Previous office
+AJ-california-govs-2_source_Lieutenant_Governor,Lieutenant Governor
+AJ-chinese-provinces_source_GB,GB
+AJ-chinese-provinces_source_ISO,ISO
+AJ-chinese-provinces_source_Province,Province
+AJ-chinese-provinces_source_Chinese_Hanyu_Pinyin,Chinese Hanyu Pinyin
+AJ-chinese-provinces_source_Capital,Capital
+AJ-chinese-provinces_source_Abbreviation,Abbreviation
+AJ-christmas-songs-1_source_No,No
+AJ-christmas-songs-1_source_Song,Song
+AJ-christmas-songs-1_source_Artist,Artist
+AJ-christmas-songs-2_source_Title,Title
+AJ-christmas-songs-2_source_Artist,Artist
+AJ-christmas-songs-2_source_Year,Year
+AJ-christmas-songs-2_source_Additional_Information,Additional Information
+AJ-duke-cs-profs_source_column_0,column 0
+AJ-duke-cs-profs_source_column_1,column 1
+AJ-duke-cs-profs_source_column_2,column 2
+AJ-fruits-1_source_FRUITS__raw_,FRUITS (raw)
+AJ-fruits-1_source_AMOUNT,AMOUNT
+AJ-fruits-1_source_CARBS__grams_,CARBS (grams)
+AJ-fruits-2_source_FRUITS__raw_,FRUITS (raw)
+AJ-fruits-2_source_AMOUNT,AMOUNT
+AJ-fruits-2_source_CARBS__grams_,CARBS (grams)
+AJ-fsu-name-to-username_source_last_name,last name
+AJ-fsu-name-to-username_source_first_name,first name
+AJ-fsu-name-to-username_source_full_name,full name
+AJ-k12-name-to-email_source_SchoolName,SchoolName
+AJ-k12-name-to-email_source_Name,Name
+AJ-new-york-govs-1_source_Name,Name
+AJ-new-york-govs-1_source_Held_Office,Held Office
+AJ-new-york-govs-1_source_Political_Party,Political Party
+AJ-new-york-govs-2_source_Governor,Governor
+AJ-new-york-govs-2_source_Term_of_office,Term of office
+AJ-new-york-govs-2_source_Party,Party
+AJ-new-york-govs-3_source_Governor_s_Name,Governor's Name
+AJ-new-york-govs-3_source_State,State
+AJ-new-york-govs-3_source_Time_in_Office,Time in Office
+AJ-new-york-govs-3_source_Party,Party
+AJ-new-york-govs-4_source_Governor,Governor
+AJ-new-york-govs-4_source_Home_Town__According_to_the_official_N_Y__State_Governor_s_website_,Home Town (According to the official N.Y. State Governor's website)
+AJ-new-york-govs-4_source_Term,Term
+AJ-new-york-govs-4_source_Party,Party
+AJ-new-york-govs-5_source_Governor,Governor
+AJ-new-york-govs-5_source_Term_of_office,Term of office
+AJ-park-to-state-1_source_Name,Name
+AJ-park-to-state-1_source_Location,Location
+AJ-park-to-state-1_source_Area,Area
+AJ-park-to-state-1_source_Recreation_Visitors__2014_,Recreation Visitors (2014)
+AJ-park-to-state-1_source_Description,Description
+AJ-park-to-state-2_source_State,State
+AJ-park-to-state-2_source_National_Park,National Park
+AJ-park-to-state-2_source_Year_Established,Year Established
+AJ-sharif-email-to-url_source_Email,Email
+AJ-sharif-username-to-email_source_Username,Username
+AJ-texas-govs-1_source__,#
+AJ-texas-govs-1_source_Governor,Governor
+AJ-texas-govs-1_source_Party,Party
+AJ-texas-govs-2_source_Governor,Governor
+AJ-texas-govs-2_source_Party,Party
+AJ-texas-govs-2_source_Years_in_Office,Years in Office
+AJ-texas-govs-2_source_Legislatures_as_Governor_,Legislatures as Governor*
+AJ-uk-prime-ministers_source_term,term
+AJ-uk-prime-ministers_source_name,name
+AJ-uk-prime-ministers_source_political_party,political party
+AJ-us-cities_source_United_States_Cities,United States Cities
+AJ-us-presidents-1_source__,№
+AJ-us-presidents-1_source_President,President
+AJ-us-presidents-1_source_State,State
+AJ-us-presidents-1_source_Term_of_office,Term of office
+AJ-us-presidents-1_source_Party,Party
+AJ-us-presidents-1_source_Term_,Term;
+AJ-us-presidents-1_source_Previous_office,Previous office
+AJ-us-presidents-2_source__,№
+AJ-us-presidents-2_source_President,President
+AJ-us-presidents-2_source_State,State
+AJ-us-presidents-2_source_Term_of_office,Term of office
+AJ-us-presidents-2_source_Party,Party
+AJ-us-presidents-2_source_Previous_office,Previous office
+AJ-us-presidents-3_source_State,State
+AJ-us-presidents-3_source_Presidents_per_state,Presidents per state
+AJ-us-presidents-3_source_Presidents,Presidents
+AJ-us-presidents-3_source__th_President,#th President
+AJ-us-presidents-4_source__,№
+AJ-us-presidents-4_source_President,President
+AJ-us-presidents-4_source_State,State
+AJ-us-presidents-4_source_Term_of_office,Term of office
+AJ-us-presidents-4_source_Party,Party
+AJ-us-presidents-4_source_Term_,Term;
+AJ-us-presidents-4_source_Previous_office,Previous office
+AJ-us-presidents-4_source_Vice_President,Vice President
+AJ-us-presidents-4_source_Vice_President,Vice President
+AJ-us-presidents-5_source_OB,OB
+AJ-us-presidents-5_source_Name,Name
+AJ-us-presidents-5_source_Birth_Name,Birth Name
+AJ-us-presidents-5_source_OP,OP
+AJ-us-presidents-5_source_Birthplace,Birthplace
+AJ-us-presidents-5_source_State_of_Birth,State of Birth
+AJ-us-presidents-5_source_AP,AP
+AJ-us-presidents-6_source_OB,OB
+AJ-us-presidents-6_source_Name,Name
+AJ-us-presidents-6_source_Birth_Name,Birth Name
+AJ-us-presidents-6_source_OP,OP
+AJ-us-presidents-6_source_Birthplace,Birthplace
+AJ-us-presidents-6_source_State_of_Birth,State of Birth
+AJ-us-presidents-6_source_AP,AP
+AJ-vegetables_source_Vegetable,Vegetable
+AJ-vegetables_source_Type,Type
+names200_source_fullname,fullname
