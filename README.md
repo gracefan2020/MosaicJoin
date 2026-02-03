@@ -21,11 +21,19 @@
 
 # Evaluation:
 ## Run all benchmarks
+```
 ./run_evaluation.sh all
+```
 
 ## Run specific benchmark
+```
 ./run_evaluation.sh gdc      # GDC only
-
 ./run_evaluation.sh autofj   # AutoFJ with DeepJoin comparison
-
 ./run_evaluation.sh autofj-gdc   # AutoFJ+GDC benchmark
+```
+
+## Run DeepJoin Baseline:
+For example, on gdc-breakdown (singleton tables):
+```
+python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/gdc-breakdown/datalake/ --model_name baselines/deepjoin/all-mpnet-base-v2 --out_csv deepjoin_ft_gdc.csv --with_header --query_dir datasets/gdc-breakdown/gdc_breakdown_query_columns.csv
+'''
