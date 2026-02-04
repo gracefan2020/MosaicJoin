@@ -41,23 +41,64 @@ def cleanup_sketch_data(output_dir: str, sketch_size: int):
 
 def main():
     # Configuration
+    # For Freyja experiments
+    exp_dir = "freyja-experiments"
+    embeddings_dir = exp_dir + "/freyja_offline_data/embeddings"
+    output_dir = exp_dir + "/freyja_offline_data"
+    num_chunks = 4
+
+
     # # For AutoFJ experiments
     # embeddings_dir = "autofj-experiments/autofj_offline_data/embeddings"
     # output_dir = "autofj-experiments/autofj_offline_data"
 
     # # For GDC experiments
     # embeddings_dir = "gdc-experiments/gdc_offline_data/embeddings"
+    # exp_dir = "gdc-experiments"
     # output_dir = "gdc-experiments/gdc_offline_data"
+    # num_chunks = 4
 
-    # For AutoFJ+GDC experiments
-    embeddings_dir = "autofj-gdc-experiments/autofj-gdc_offline_data/embeddings"
-    output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
-    num_chunks = 4
+    # # For AutoFJ+GDC experiments
+    # embeddings_dir = "autofj-gdc-experiments/autofj-gdc_offline_data/embeddings"
+    # exp_dir = "autofj-gdc-experiments"
+    # output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
+    # num_chunks = 4
+
+    # # For GDC+AutoFJ (with GDC breakdown / GDC GT)
+    # exp_dir = "gdc-autofj-experiments"
+    # embeddings_dir = exp_dir + "/gdc-autofj_offline_data/embeddings"
+    # output_dir = exp_dir + "/gdc-autofj_offline_data"
+    # num_chunks = 4
+
+    # # For GDC+Freyja (with GDC breakdown / GDC GT)
+    # exp_dir = "gdc-freyja-experiments"
+    # embeddings_dir = exp_dir + "/gdc-freyja_offline_data/embeddings"
+    # output_dir = exp_dir + "/gdc-freyja_offline_data"
+    # num_chunks = 4
+
+    # # For WT
+    # exp_dir = "wt-experiments"
+    # embeddings_dir = exp_dir + "/wt_offline_data_no_column_names/embeddings"
+    # output_dir = exp_dir + "/wt_offline_data_no_column_names"
+    # num_chunks = 4
+
+    # # For WT+AutoFJ
+    # exp_dir = "wt-autofj-experiments"
+    # embeddings_dir = exp_dir + "/wt-autofj_offline_data_no_column_names/embeddings"
+    # output_dir = exp_dir + "/wt-autofj_offline_data_no_column_names"
+    # num_chunks = 4
+
+    # # For AutoFJ+SANTOS Small experiments
+    # exp_dir = "autofj-santos-experiments"
+    # embeddings_dir = "autofj-santos-experiments/autofj-santos_offline_data/embeddings"
+    # output_dir = "autofj-santos-experiments/autofj-santos_offline_data"
+    # num_chunks = 10
+
     sketch_size = 1024
     similarity_threshold = 0.7
     
     # Clean up previous sketch data
-    cleanup_sketch_data(output_dir, sketch_size)
+    # cleanup_sketch_data(output_dir, sketch_size)
     
     # Discover tables with embeddings
     tables = discover_embedding_tables(Path(embeddings_dir))
@@ -86,7 +127,7 @@ def main():
 
     for i, cmd in enumerate(commands, 1):
         # Create bash script for this chunk
-        script_filename = f"sketch_chunk_{i}.sh"
+        script_filename = f"{exp_dir}/sketch_chunk_{i}.sh"
         
         # Write the bash script
         with open(script_filename, 'w') as f:
@@ -98,7 +139,7 @@ def main():
         os.chmod(script_filename, 0o755)
         
         # Submit the script to SLURM
-        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output=sketch_chunk_{i}.log {script_filename}'
+        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=4 --mem=32GB --time=24:00:00 --output={exp_dir}/sketch_chunk_{i}.log {script_filename}'
         
         print(f"Created script: {script_filename}")
         print(f"Running slurm command: {slurm_cmd}")

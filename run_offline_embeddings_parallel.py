@@ -39,13 +39,13 @@ def cleanup_previous_runs(output_dir: str):
         shutil.rmtree(offline_data_dir)
     
     # Clean any chunk directories
-    chunk_dirs = list(Path(".").glob(f"{output_dir}_chunk_*"))
+    chunk_dirs = list(Path(".").glob(f"{exp_dir}/{output_dir}_chunk_*"))
     for chunk_dir in chunk_dirs:
         print(f"Removing chunk directory: {chunk_dir}")
         shutil.rmtree(chunk_dir)
     
     # Clean bash script files
-    script_files = list(Path(".").glob("embedding_chunk_*.sh"))
+    script_files = list(Path(".").glob(f"{exp_dir}/embedding_chunk_*.sh"))
     for script_file in script_files:
         print(f"Removing script file: {script_file}")
         script_file.unlink()
@@ -53,25 +53,54 @@ def cleanup_previous_runs(output_dir: str):
 def main():
     # Configuration
     # For Freyja
-    # datalake_dir = "datasets/freyja-semantic-join/datalake"
-    # output_dir = "offline_data"
+    datalake_dir = "datasets/freyja-semantic-join/datalake/singletons"
+    exp_dir = "freyja-experiments"
+    output_dir = "freyja-experiments/freyja_offline_data"
+
     # # For AutoFuzzyJoin
     # datalake_dir = "datasets/autofj_join_benchmark/datalake"
     # output_dir = "autofj-experiments/autofj_offline_data"
 
     # # For GDC
-    # datalake_dir = "datasets/gdc/datalake"
+    # datalake_dir = "datasets/gdc-breakdown/datalake"
+    # exp_dir = "gdc-experiments"
     # output_dir = "gdc-experiments/gdc_offline_data"
 
-    # For AutoFJ+GDC
-    datalake_dir = "datasets/autofj-gdc/datalake"
-    output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
+    # # For AutoFJ+GDC
+    # datalake_dir = "datasets/autofj-gdc/datalake"
+    # exp_dir = "autofj-gdc-experiments"
+    # output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
+
+    # # For GDC+AutoFJ (with GDC breakdown / GDC GT)
+    # datalake_dir = "datasets/gdc-autofj/datalake"
+    # exp_dir = "gdc-autofj-experiments"
+    # output_dir = "gdc-autofj-experiments/gdc-autofj_offline_data"
+
+    # # For GDC+Freyja (with GDC breakdown / GDC GT)
+    # datalake_dir = "datasets/gdc-freyja/datalake"
+    # exp_dir = "gdc-freyja-experiments"
+    # output_dir = "gdc-freyja-experiments/gdc-freyja_offline_data"
+
+    # # For AutoFJ+SANTOS Small
+    # datalake_dir = "datasets/autofj-santos-small/datalake"
+    # exp_dir = "autofj-santos-experiments"
+    # output_dir = "autofj-santos-experiments/autofj-santos_offline_data"
+
+    # # For WT
+    # datalake_dir = "datasets/wt/datalake_no_column_names"
+    # exp_dir = "wt-experiments"
+    # output_dir = "wt-experiments/wt_offline_data_no_column_names"
+
+    # # For WT+AutoFJ
+    # datalake_dir = "datasets/wt-autofj/datalake_no_column_names"
+    # exp_dir = "wt-autofj-experiments"
+    # output_dir = "wt-autofj-experiments/wt-autofj_offline_data_no_column_names"
 
     num_chunks = 4
     device = "auto"
     
     # Clean up all previous runs
-    cleanup_previous_runs(output_dir)
+    # cleanup_previous_runs(output_dir)
     
     # Discover tables
     tables = discover_tables(Path(datalake_dir))
@@ -100,7 +129,7 @@ def main():
     
     for i, cmd in enumerate(commands, 1):
         # Create bash script for this chunk
-        script_filename = f"embedding_chunk_{i}.sh"
+        script_filename = f"{exp_dir}/embedding_chunk_{i}.sh"
         
         # Write the bash script
         with open(script_filename, 'w') as f:
@@ -112,7 +141,7 @@ def main():
         os.chmod(script_filename, 0o755)
         
         # Submit the script to SLURM
-        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output=embedding_chunk_{i}.log {script_filename}'
+        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output={exp_dir}/embedding_chunk_{i}.log {script_filename}'
         
         print(f"Created script: {script_filename}")
         print(f"Running slurm command: {slurm_cmd}")

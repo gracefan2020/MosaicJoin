@@ -1,11 +1,19 @@
 #!/bin/bash
 # Monitor Slurm jobs and combine results when complete
 
-# OUTPUT_DIR=${1:-"query_results_k1024_t0.7_top50_deepjoin_N100_K500_T0.6_slurm"}
-# OUTPUT_DIR=${1:-"entity-linking-experiments/autofj_query_results_k1024_t0.1_top10_slurm"}
-# OUTPUT_DIR=${1:-"gdc-experiments/gdc_query_results_k1024_t0.1_top10_slurm"}
-OUTPUT_DIR=${1:-"autofj-gdc-experiments/autofj-gdc_query_results_k1024_t0.1_top10_slurm"}
-NUM_JOBS=${2:-10}
+OUTPUT_DIR=${1:-"freyja-experiments/freyja_query_results_k1024_t0.1_top50_slurm"}
+# OUTPUT_DIR=${1:-"autofj-experiments/autofj_query_results_k1024_t0.1_top50_slurm"}
+# OUTPUT_DIR=${1:-"gdc-experiments/gdc_query_results_k1024_t0.1_top50_slurm"}
+# OUTPUT_DIR=${1:-"autofj-gdc-experiments/autofj-gdc_query_results_k1024_t0.1_top50_slurm"}
+# OUTPUT_DIR=${1:-"gdc-autofj-experiments/gdc-autofj_query_results_k1024_t0.1_top50_slurm"}
+# OUTPUT_DIR=${1:-"gdc-freyja-experiments/gdc-freyja_query_results_k1024_t0.1_top10_slurm"}
+# OUTPUT_DIR=${1:-"wt-experiments/wt_query_results_k1024_t0.1_top50_slurm"}
+# OUTPUT_DIR=${1:-"wt-autofj-experiments/wt-autofj_query_results_k1024_t0.1_top50_slurm_no_column_names"}
+
+
+# OUTPUT_DIR=${1:-"autofj-santos-experiments/autofj-santos_query_results_k1024_t0.1_top50_slurm"}
+
+NUM_JOBS=${2:-20}
 
 echo "🔍 Monitoring Slurm jobs for query processing..."
 echo "   Output directory: $OUTPUT_DIR"

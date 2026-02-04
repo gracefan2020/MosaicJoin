@@ -183,6 +183,9 @@ def main():
             query_sample_str = ", ".join(str(v) for v in query_sample) if query_sample else ""
             
             for result in results:
+                # Skip self-matches
+                if result.candidate_table == table_name and result.candidate_column == column_name:
+                    continue
                 candidate_values = load_query_values_from_datalake(
                     datalake_path, result.candidate_table, result.candidate_column
                 )
