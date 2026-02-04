@@ -1,0 +1,52 @@
+Loading query specifications from datasets/gdc-autofj/gdc_breakdown_query_columns.csv
+Found 56 query specifications
+Processing 10 specified queries
+
+Processing 10 queries with similarity_method=greedy_match...
+Processing query 1/10: Path_Stage_Primary_Tumor-pT_dou.csv.title
+  Loaded 101 values
+Device selected: cpu
+  Found 50 similar columns
+Processing query 2/10: Path_Stage_Reg_Lymph_Nodes-pN_dou.csv.title
+  Loaded 101 values
+  Found 50 similar columns
+Processing query 3/10: tumor_Stage-Pathological_dou.csv.title
+  Loaded 101 values
+  Found 50 similar columns
+Processing query 4/10: Tumor_purity_dou.csv.title
+  Loaded 104 values
+  Found 50 similar columns
+Processing query 5/10: Gender_dou.csv.title
+  Loaded 101 values
+  Found 50 similar columns
+Processing query 6/10: Tumor_Grade_mcdermott.csv.title
+  Loaded 91 values
+  Found 50 similar columns
+Processing query 7/10: Race_mcdermott.csv.title
+  Loaded 93 values
+  Found 50 similar columns
+Processing query 8/10: Anatomic_site_of_Tumor_Specimen_mcdermott.csv.title
+  Loaded 92 values
+  Found 50 similar columns
+Processing query 9/10: Ethnicity_mcdermott.csv.title
+  Loaded 93 values
+  Found 50 similar columns
+Processing query 10/10: Site_of_Disease_mcdermott.csv.title
+  Loaded 92 values
+  Found 50 similar columns
+
+Combined results saved to: gdc-autofj-experiments/gdc-autofj_query_results_k1024_t0.1_top50_slurm/job_0/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 88.52s
+Total candidates found: 500
+Average time per query: 8.8524s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 500
+Results saved to: gdc-autofj-experiments/gdc-autofj_query_results_k1024_t0.1_top50_slurm/job_0

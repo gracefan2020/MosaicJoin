@@ -1,0 +1,40 @@
+Loading query specifications from datasets/gdc-autofj/gdc_breakdown_query_columns.csv
+Found 56 query specifications
+Processing 6 specified queries
+
+Processing 6 queries with similarity_method=greedy_match...
+Processing query 1/6: race_wang.csv.title
+  Loaded 39 values
+Device selected: cpu
+  Found 50 similar columns
+Processing query 2/6: Tumor_Stage_Pathological_clark.csv.title
+  Loaded 110 values
+  Found 50 similar columns
+Processing query 3/6: Path_Stage_Reg_Lymph_Nodes_pN_clark.csv.title
+  Loaded 110 values
+  Found 50 similar columns
+Processing query 4/6: Gender_clark.csv.title
+  Loaded 110 values
+  Found 50 similar columns
+Processing query 5/6: Ethnicity_gilette.csv.title
+  Loaded 209 values
+  Found 50 similar columns
+Processing query 6/6: cause_of_death_cao.csv.title
+  Loaded 140 values
+  Found 50 similar columns
+
+Combined results saved to: gdc-autofj-experiments/gdc-autofj_query_results_k1024_t0.1_top50_slurm/job_5/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 6
+Successful queries: 6
+Failed queries: 0
+Total processing time: 85.11s
+Total candidates found: 300
+Average time per query: 14.1847s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 6/6
+Total results: 300
+Results saved to: gdc-autofj-experiments/gdc-autofj_query_results_k1024_t0.1_top50_slurm/job_5
