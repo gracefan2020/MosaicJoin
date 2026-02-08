@@ -76,7 +76,7 @@ def main():
     parser.add_argument("--device", type=str, default="auto",
                         help="Device for MPNet model (auto, cpu, cuda, mps)")
     parser.add_argument("--similarity-method", type=str, default="mean",
-                        choices=["mean", "greedy_match", "top_k_mean", "max"],
+                        choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max"],
                         help="Similarity computation method")
     parser.add_argument("--top-k-for-mean", type=int, default=100,
                         help="Number of top pairs to average (for top_k_mean method)")
@@ -86,6 +86,12 @@ def main():
                         help="Maximum number of queries to process")
     parser.add_argument("--query-indices", type=int, nargs="*",
                         help="Specific query indices to process (0-based)")
+    parser.add_argument("--embedding-model", type=str, default="mpnet",
+                        choices=["mpnet", "embeddinggemma"],
+                        help="Embedding model to use (must match datalake embeddings)")
+    parser.add_argument("--embedding-dim", type=int, default=128,
+                        choices=[128, 256, 512, 768],
+                        help="Embedding dimension for embeddinggemma (default: 128)")
     
     args = parser.parse_args()
     
@@ -132,7 +138,9 @@ def main():
         sketch_size=args.sketch_size,
         device=args.device,
         similarity_method=args.similarity_method,
-        top_k_for_mean=args.top_k_for_mean
+        top_k_for_mean=args.top_k_for_mean,
+        embedding_model=args.embedding_model,
+        embedding_dim=args.embedding_dim
     )
     
     processor = SemanticJoinQueryProcessor(

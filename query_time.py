@@ -4,9 +4,11 @@ Query Time Module
 Given a query table, builds sketch for query column and finds top-k joinable tables.
 Supports multiple similarity computation methods:
 - mean: Average of all k² pairwise similarities (original)
-- greedy_match: Greedy 1-to-1 bipartite matching (NEW)
+- greedy_match: Greedy 1-to-1 bipartite matching
 - top_k_mean: Average of top-k highest similarities
 - max: Maximum similarity only
+- chamfer: Chamfer similarity (MaxSim) from MUVERA paper - sum of max similarities
+           Reference: https://arxiv.org/abs/2405.19504
 """
 
 from __future__ import annotations
@@ -20,7 +22,13 @@ import logging
 import numpy as np
 import pandas as pd
 
-from offline_embedding import MPNetEmbedder, create_mpnet_embedder, load_column_embedding
+try:
+    import torch
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
+
+from offline_embedding import MPNetEmbedder, create_mpnet_embedder, create_embedder, load_column_embedding
 from offline_sketch import SemanticSketch, load_offline_sketch
 
 
@@ -30,13 +38,15 @@ class QueryConfig:
     top_k_return: int = 50
     similarity_threshold: float = 0.7
     sketch_size: int = 1024
-    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max"
+    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer"
     top_k_for_mean: int = 100
     enable_early_stopping: bool = True
     early_subset_size: int = 256
     enable_large_table_sampling: bool = True
     large_table_sample_size: int = 1000
-    device: str = "auto"
+    device: str = "auto"  # "auto", "cpu", "cuda" - used for embeddings AND chamfer similarity
+    embedding_model: str = "mpnet"  # "mpnet" | "embeddinggemma"
+    embedding_dim: int = 128  # Output dimension for embeddinggemma
 
 
 @dataclass
@@ -151,7 +161,11 @@ class SemanticJoinQueryProcessor:
     def _build_query_sketch(self, query: QueryColumn) -> Optional[SemanticSketch]:
         """Build a sketch for the query column."""
         if self.embedder is None:
-            self.embedder = create_mpnet_embedder(device=self.config.device)
+            self.embedder = create_embedder(
+                model=self.config.embedding_model,
+                device=self.config.device,
+                embedding_dim=self.config.embedding_dim
+            )
         
         values = query.values
         if self.config.enable_large_table_sampling and len(values) > self.config.large_table_sample_size:
@@ -228,6 +242,9 @@ class SemanticJoinQueryProcessor:
         - "greedy_match": Greedy 1-to-1 bipartite matching (principled, no double-counting)
         - "top_k_mean": Average of top-k highest similarities
         - "max": Maximum similarity only
+        - "chamfer": Chamfer similarity (MaxSim) from MUVERA paper
+                     Chamfer(A, B) = mean over a in A of max over b in B of sim(a, b)
+                     Reference: https://arxiv.org/abs/2405.19504
         """
         if a.k == 0 or b.k == 0:
             return 0, 0.0
@@ -245,6 +262,24 @@ class SemanticJoinQueryProcessor:
             # Greedy 1-to-1 bipartite matching
             semantic_density = self._greedy_match_similarity(similarity_matrix)
             semantic_matches = min(a.k, b.k)
+        
+        elif method == "chamfer":
+            # Chamfer similarity (MaxSim) from MUVERA paper
+            # Chamfer(A, B) = sum over a in A of max over b in B of sim(a, b)
+            # We normalize by |A| to get a density score in [0, 1]
+            use_gpu = (TORCH_AVAILABLE and 
+                       self.config.device in ("cuda", "auto") and 
+                       torch.cuda.is_available())
+            if use_gpu:
+                # GPU-accelerated computation using PyTorch
+                sim_tensor = torch.from_numpy(similarity_matrix).cuda()
+                max_sims_per_query = torch.max(sim_tensor, dim=1).values
+                semantic_density = float(torch.mean(max_sims_per_query).cpu())
+            else:
+                # CPU computation using NumPy
+                max_sims_per_query = np.max(similarity_matrix, axis=1)  # shape (a.k,)
+                semantic_density = float(np.mean(max_sims_per_query))
+            semantic_matches = a.k
         
         elif method == "top_k_mean":
             flat = similarity_matrix.ravel()

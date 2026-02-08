@@ -45,6 +45,10 @@ class EmbeddingConfig:
 
     # Device settings
     device: str = "auto"  # auto | cpu | cuda | mps
+    
+    # Embedding model settings
+    embedding_model: str = "mpnet"  # "mpnet" | "embeddinggemma"
+    embedding_dim: int = 128  # Output dimension for embeddinggemma (128, 256, 512, 768 via MRL)
 
 @dataclass
 class EmbeddingStats:
@@ -75,16 +79,13 @@ class ColumnEmbeddingMetadata:
 # Core Classes
 # =============================================================================
 
-class MPNetEmbedder:
-    """MPNet embedder using sentence-transformers."""
+class BaseEmbedder:
+    """Base class for embedders."""
     
-    def __init__(self, model_name: str = "sentence-transformers/all-mpnet-base-v2", device: str = "cpu"):
-        self.model = SentenceTransformer(model_name, device=device)
-        self.dimension = 768  # MPNet base v2 dimension
+    def __init__(self, device: str = "cpu"):
         self.device = device
-        self.model_name = model_name
-        
-        # Timing statistics
+        self.dimension = 768
+        self.model_name = "base"
         self.timing_stats = {
             'embed_calls': 0,
             'total_embed_time': 0.0,
@@ -94,6 +95,35 @@ class MPNetEmbedder:
             'min_call_time': float('inf'),
             'max_call_time': 0.0
         }
+    
+    def embed_texts(self, texts: List[str]) -> np.ndarray:
+        raise NotImplementedError
+    
+    def embed_values(self, values: List[str], column_name: str) -> np.ndarray:
+        raise NotImplementedError
+    
+    def get_timing_stats(self) -> Dict[str, Any]:
+        return self.timing_stats.copy()
+    
+    def _update_timing_stats(self, call_time: float, num_texts: int):
+        """Update timing statistics after an embed call."""
+        self.timing_stats['embed_calls'] += 1
+        self.timing_stats['total_embed_time'] += call_time
+        self.timing_stats['total_tokens'] += num_texts
+        self.timing_stats['avg_time_per_call'] = self.timing_stats['total_embed_time'] / self.timing_stats['embed_calls']
+        self.timing_stats['avg_time_per_token'] = self.timing_stats['total_embed_time'] / max(1, self.timing_stats['total_tokens'])
+        self.timing_stats['min_call_time'] = min(self.timing_stats['min_call_time'], call_time)
+        self.timing_stats['max_call_time'] = max(self.timing_stats['max_call_time'], call_time)
+
+
+class MPNetEmbedder(BaseEmbedder):
+    """MPNet embedder using sentence-transformers."""
+    
+    def __init__(self, model_name: str = "sentence-transformers/all-mpnet-base-v2", device: str = "cpu"):
+        super().__init__(device)
+        self.model = SentenceTransformer(model_name, device=device)
+        self.dimension = 768  # MPNet base v2 dimension
+        self.model_name = model_name
     
     def embed_texts(self, texts: List[str]) -> np.ndarray:
         """Embed a list of texts using MPNet."""
@@ -152,15 +182,7 @@ class MPNetEmbedder:
         # End timing and update statistics
         end_time = time.time()
         call_time = end_time - start_time
-        
-        # Update timing statistics
-        self.timing_stats['embed_calls'] += 1
-        self.timing_stats['total_embed_time'] += call_time
-        self.timing_stats['total_tokens'] += len(texts)
-        self.timing_stats['avg_time_per_call'] = self.timing_stats['total_embed_time'] / self.timing_stats['embed_calls']
-        self.timing_stats['avg_time_per_token'] = self.timing_stats['total_embed_time'] / max(1, self.timing_stats['total_tokens'])
-        self.timing_stats['min_call_time'] = min(self.timing_stats['min_call_time'], call_time)
-        self.timing_stats['max_call_time'] = max(self.timing_stats['max_call_time'], call_time)
+        self._update_timing_stats(call_time, len(texts))
         
         return embeddings
     
@@ -176,10 +198,44 @@ class MPNetEmbedder:
         contextual_values = [f"{clean_column_name}: {str(v).strip() or 'unknown'}" for v in values]
         
         return self.embed_texts(contextual_values)
+
+
+class EmbeddingGemmaEmbedder(BaseEmbedder):
+    """EmbeddingGemma-300M with Matryoshka truncation (128/256/512/768 dims)."""
     
-    def get_timing_stats(self) -> Dict[str, Any]:
-        """Get current timing statistics."""
-        return self.timing_stats.copy()
+    def __init__(self, model_name: str = "google/embeddinggemma-300m", 
+                 device: str = "cpu", output_dim: int = 128):
+        super().__init__(device)
+        self.model = SentenceTransformer(model_name, device=device)
+        self.dimension = output_dim
+        self.model_name = model_name
+        print(f"EmbeddingGemma initialized with output_dim={output_dim}")
+    
+    def embed_texts(self, texts: List[str]) -> np.ndarray:
+        """Embed texts with Matryoshka truncation."""
+        if not texts:
+            return np.zeros((0, self.dimension), dtype=np.float32)
+        
+        start_time = time.time()
+        embeddings = self.model.encode(
+            texts, 
+            convert_to_numpy=True,
+            truncate_dim=self.dimension,
+            normalize_embeddings=True
+        ).astype(np.float32)
+        
+        self._update_timing_stats(time.time() - start_time, len(texts))
+        return embeddings
+    
+    def embed_values(self, values: List[str], column_name: str) -> np.ndarray:
+        """Embed values with column context."""
+        if not values:
+            return np.zeros((0, self.dimension), dtype=np.float32)
+        
+        clean_col = str(column_name).strip().lower().replace('_', ' ').replace('-', ' ')
+        texts = [f"title: {clean_col} | text: {str(v).strip() or 'unknown'}" for v in values]
+        return self.embed_texts(texts)
+
 
 class OfflineEmbeddingBuilder:
     """Builds MPNet embeddings for all columns in a datalake offline."""
@@ -226,8 +282,12 @@ class OfflineEmbeddingBuilder:
     def build_embeddings_for_datalake(self, datalake_dir: Path, tables_to_process: Optional[List[str]] = None) -> EmbeddingStats:
         """Build embeddings for all columns in a datalake."""
 
-        # Initialize embedder
-        self.embedder = create_mpnet_embedder(self.config.device)
+        # Initialize embedder based on config
+        self.embedder = create_embedder(
+            model=self.config.embedding_model,
+            device=self.config.device,
+            embedding_dim=self.config.embedding_dim
+        )
 
         # Discover all columns
         all_columns = self._discover_columns(datalake_dir, tables_to_process)
@@ -475,8 +535,8 @@ class OfflineEmbeddingBuilder:
 # Utility Functions
 # =============================================================================
 
-def create_mpnet_embedder(device: str = "auto") -> MPNetEmbedder:
-    """Create MPNet embedder with specified device."""
+def _resolve_device(device: str) -> str:
+    """Resolve 'auto' device to actual device."""
     if device.lower() == "auto":
         device = "cpu"
         try:
@@ -486,8 +546,39 @@ def create_mpnet_embedder(device: str = "auto") -> MPNetEmbedder:
                 device = "cuda"
         except Exception:
             device = "cpu"
+    return device
+
+
+def create_mpnet_embedder(device: str = "auto") -> MPNetEmbedder:
+    """Create MPNet embedder with specified device."""
+    device = _resolve_device(device)
     print(f"Device selected: {device}")
     return MPNetEmbedder(device=device)
+
+
+def create_embedder(model: str = "mpnet", device: str = "auto", 
+                    embedding_dim: int = 128) -> BaseEmbedder:
+    """Create an embedder with specified model and device.
+    
+    Args:
+        model: Embedding model to use ("mpnet" or "embeddinggemma")
+        device: Device for model (auto, cpu, cuda, mps)
+        embedding_dim: Output embedding dimension (only used for embeddinggemma: 128, 256, 512, 768)
+    
+    Returns:
+        BaseEmbedder instance
+    """
+    device = _resolve_device(device)
+    print(f"Device selected: {device}")
+    print(f"Embedding model: {model}")
+    
+    if model.lower() == "mpnet":
+        return MPNetEmbedder(device=device)
+    elif model.lower() in ("embeddinggemma", "gemma"):
+        print(f"EmbeddingGemma output dimension: {embedding_dim}")
+        return EmbeddingGemmaEmbedder(device=device, output_dim=embedding_dim)
+    else:
+        raise ValueError(f"Unknown embedding model: {model}. Use 'mpnet' or 'embeddinggemma'")
 
 def load_column_embedding(table_name: str, column_name: str, column_index: int,
                          embeddings_dir: Path) -> Optional[np.ndarray]:
@@ -511,17 +602,23 @@ def load_column_embedding(table_name: str, column_name: str, column_index: int,
 
 def main():
     """Main function for command-line usage."""
-    parser = argparse.ArgumentParser(description="Build offline MPNet embeddings for datalake columns")
+    parser = argparse.ArgumentParser(description="Build offline embeddings for datalake columns")
 
     parser.add_argument("datalake_dir", type=str, help="Path to datalake directory")
     parser.add_argument("--output-dir", type=str, default="offline_embeddings",
                        help="Output directory for embeddings")
     parser.add_argument("--device", type=str, default="auto",
-                       help="Device for MPNet model (auto, cpu, cuda, mps)")
+                       help="Device for embedding model (auto, cpu, cuda, mps)")
     parser.add_argument("--tables", type=str, nargs="*",
                        help="Specific tables to process (default: all tables)")
     parser.add_argument("--save-metadata", action="store_true", default=True,
                        help="Save metadata for each embedding")
+    parser.add_argument("--embedding-model", type=str, default="mpnet",
+                       choices=["mpnet", "embeddinggemma"],
+                       help="Embedding model to use (default: mpnet)")
+    parser.add_argument("--embedding-dim", type=int, default=768,
+                       choices=[128, 256, 512, 768],
+                       help="Output embedding dimension (only for embeddinggemma, default: 768)")
 
     args = parser.parse_args()
 
@@ -529,7 +626,9 @@ def main():
     config = EmbeddingConfig(
         device=args.device,
         save_metadata=args.save_metadata,
-        output_dir=args.output_dir
+        output_dir=args.output_dir,
+        embedding_model=args.embedding_model,
+        embedding_dim=args.embedding_dim
     )
 
     # Build embeddings
@@ -543,6 +642,7 @@ def main():
     stats = builder.build_embeddings_for_datalake(datalake_path, args.tables)
 
     print(f"\nCompleted! Processed {stats.processed_columns} columns")
+    print(f"Embedding model: {args.embedding_model} (dim={args.embedding_dim})")
     print(f"Embeddings saved to: {args.output_dir}")
 
     return 0

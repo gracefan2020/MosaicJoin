@@ -20,13 +20,11 @@ def load_all_results(output_dir: Path, num_jobs: int) -> Tuple[pd.DataFrame, Dic
         "total_results": 0
     }
     
-    print(f"Loading results from {num_jobs} job directories...")
+    num_processed_jobs = 0
     
     for job_id in range(num_jobs):
         job_dir = output_dir / f"job_{job_id}"
-        print(f"  Loading results from {job_dir}...")
         if not job_dir.exists():
-            print(f"  Warning: Job directory {job_dir} does not exist")
             continue
         
         # Load combined results if they exist
@@ -34,7 +32,7 @@ def load_all_results(output_dir: Path, num_jobs: int) -> Tuple[pd.DataFrame, Dic
         if combined_file.exists():
             df = pd.read_csv(combined_file)
             all_results.append(df)
-            print(f"  Loaded {len(df)} results from job_{job_id}")
+            num_processed_jobs += 1
         else:
             # Try loading individual query files
             query_files = sorted(glob.glob(str(job_dir / "query_*.csv")))
@@ -58,9 +56,9 @@ def load_all_results(output_dir: Path, num_jobs: int) -> Tuple[pd.DataFrame, Dic
     if all_results:
         combined_df = pd.concat(all_results, ignore_index=True)
         summary_stats['avg_results_per_query'] = summary_stats['total_results'] / max(1, summary_stats['successful_queries'])
+        print(f"  Processed {num_processed_jobs} jobs out of {num_jobs}")
         return combined_df, summary_stats
     else:
-        print("  No results found in any job directory")
         return pd.DataFrame(), summary_stats
 
 def main():

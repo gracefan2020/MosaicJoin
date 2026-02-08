@@ -14,22 +14,19 @@ def main():
     # Configuration
     top_k_return = 50
     similarity_threshold = 0.1  # For column-level matching
-    sketch_size = 1024
+    sketch_size = 32
     queries_per_job = 10
+    similarity_method = "chamfer"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer"
     
-    # For Freyja experiments
-    datalake_dir = "datasets/freyja-semantic-join/datalake/singletons"
-    sketches_dir = f"freyja-experiments/freyja_offline_data/sketches_k{sketch_size}"
-    query_file = "datasets/freyja-semantic-join/freyja_single_query_columns_no_column_names.csv"
-    embeddings_dir = "freyja-experiments/freyja_offline_data/embeddings"
-    output_dir = f"freyja-experiments/freyja_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
-
-
-    # datalake_dir = "datasets/freyja-semantic-join/datalake"
-    # sketches_dir = f"offline_data/sketches_k{sketch_size}"
-    # query_file = "datasets/freyja-semantic-join/freyja_query_columns.csv"
-    # embeddings_dir = "offline_data/embeddings"
-    # output_dir = f"query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
+    # GPU configuration - set to True to run chamfer on GPU (still fast for small sketches)
+    use_gpu = similarity_method == "chamfer"
+    
+    # # For Freyja experiments
+    # datalake_dir = "datasets/freyja-semantic-join/datalake/singletons"
+    # sketches_dir = f"freyja-experiments/freyja_offline_data/sketches_k{sketch_size}"
+    # query_file = "datasets/freyja-semantic-join/freyja_single_query_columns_no_column_names.csv"
+    # embeddings_dir = "freyja-experiments/freyja_offline_data/embeddings"
+    # output_dir = f"freyja-experiments/freyja_query_results_k{sketch_size}_{similarity_method}_t{similarity_threshold}_top{top_k_return}_slurm"
 
     # # For AutoFJ experiments
     # datalake_dir = "datasets/autofj_join_benchmark/datalake"
@@ -67,12 +64,14 @@ def main():
     # embeddings_dir = "gdc-freyja-experiments/gdc-freyja_offline_data/embeddings"
     # output_dir = f"gdc-freyja-experiments/gdc-freyja_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
     
-    # # For WT
-    # datalake_dir = "datasets/wt/datalake_no_column_names"
-    # sketches_dir = f"wt-experiments/wt_offline_data_no_column_names/sketches_k{sketch_size}"
-    # query_file = "datasets/wt/wt_query_columns_no_column_names.csv"
-    # embeddings_dir = "wt-experiments/wt_offline_data_no_column_names/embeddings"
-    # output_dir = f"wt-experiments/wt_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm_no_column_names"
+    # For WT
+    embedding_model = "embeddinggemma"
+    d_sketch_size = 128
+    datalake_dir = "datasets/wt/datalake_no_column_names"
+    sketches_dir = f"wt-experiments/wt_offline_data_{embedding_model}_no_column_names/sketches_k{d_sketch_size}"
+    query_file = "datasets/wt/wt_query_columns_no_column_names.csv"
+    embeddings_dir = "wt-experiments/wt_offline_data_{embedding_model}_no_column_names/embeddings"
+    output_dir = f"wt-experiments/wt_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}"
     
 
     # # For WT+AutoFJ
@@ -102,20 +101,29 @@ def main():
     num_jobs = math.ceil(num_queries / queries_per_job)
     
     print(f"Found {num_queries} queries, creating {num_jobs} jobs")
+    print(f"Similarity method: {similarity_method}" + (f" (GPU enabled)" if use_gpu else ""))
     
     # Create output directory and script
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     slurm_script = Path(output_dir) / "run_slurm_jobs.sh"
     
     # Generate Slurm batch script
+    # Add GPU resources if chamfer method is selected
+    gpu_directive = f"#SBATCH --gres=gpu:1\n#SBATCH --partition=h200_tandon" if use_gpu else ""
+    device_setting = "cuda" if use_gpu else "auto"
+    
+    # Limit concurrent jobs if using GPU to avoid QOSGrpGRES errors
+    array_spec = f"0-{num_jobs-1}"
+    
     script_content = f"""#!/bin/bash
 #SBATCH --job-name=semantic_query
 #SBATCH --output={output_dir}/slurm_%a.out
 #SBATCH --error={output_dir}/slurm_%a.err
-#SBATCH --array=0-{num_jobs-1}
+#SBATCH --array={array_spec}
 #SBATCH --time=4:00:00
 #SBATCH --mem=16G
 #SBATCH --cpus-per-task=4
+{gpu_directive}
 
 START_INDEX=$((SLURM_ARRAY_TASK_ID * {queries_per_job}))
 END_INDEX=$((START_INDEX + {queries_per_job} - 1))
@@ -132,10 +140,12 @@ python run_query_processing.py "{datalake_dir}" "{sketches_dir}" "{query_file}" 
     --output-dir "{output_dir}/job_$SLURM_ARRAY_TASK_ID" \\
     --top-k-return {top_k_return} \\
     --similarity-threshold {similarity_threshold} \\
-    --similarity-method "greedy_match" \\
+    --similarity-method "{similarity_method}" \\
     --sketch-size {sketch_size} \\
-    --device auto \\
+    --device {device_setting} \\
     --embeddings-dir "{embeddings_dir}" \\
+    --embedding-model "{embedding_model}" \\
+    --embedding-dim 128 \\
     --query-indices ${{QUERY_INDICES}}
 """
     
