@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-us-cities_target_City",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 71,
+  "unique_values": 70,
+  "processed_values": 71,
+  "embedding_dim": 768,
+  "processing_time": 0.06128287315368652,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-us-cities_target_City.csv"
+}

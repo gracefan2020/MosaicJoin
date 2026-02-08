@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-new-york-govs-4_source_Home_Town__According_to_the_official_N_Y__State_Governor_s_website_",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 58,
+  "unique_values": 32,
+  "processed_values": 58,
+  "embedding_dim": 768,
+  "processing_time": 0.03975534439086914,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-new-york-govs-4_source_Home_Town__According_to_the_official_N_Y__State_Governor_s_website_.csv"
+}

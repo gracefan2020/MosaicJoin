@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-us-presidents-1_target_Name",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 44,
+  "sketch_k": 44,
+  "processing_time": 0.002679586410522461,
+  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-presidents-1_target_Name/title_0.npz"
+}

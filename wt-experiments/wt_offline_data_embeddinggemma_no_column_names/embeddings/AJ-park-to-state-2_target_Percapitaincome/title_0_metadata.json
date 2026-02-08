@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-park-to-state-2_target_Percapitaincome",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 52,
+  "unique_values": 52,
+  "processed_values": 52,
+  "embedding_dim": 128,
+  "processing_time": 0.04865694046020508,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-park-to-state-2_target_Percapitaincome.csv"
+}

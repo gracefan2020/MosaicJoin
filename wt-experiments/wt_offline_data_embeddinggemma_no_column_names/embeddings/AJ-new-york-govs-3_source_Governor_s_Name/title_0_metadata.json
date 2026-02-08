@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-new-york-govs-3_source_Governor_s_Name",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 25,
+  "unique_values": 25,
+  "processed_values": 25,
+  "embedding_dim": 128,
+  "processing_time": 0.027411222457885742,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-new-york-govs-3_source_Governor_s_Name.csv"
+}

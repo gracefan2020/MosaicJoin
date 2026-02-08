@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-new-york-govs-4_target_Party",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 58,
+  "sketch_k": 58,
+  "processing_time": 0.005761384963989258,
+  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-new-york-govs-4_target_Party/title_0.npz"
+}

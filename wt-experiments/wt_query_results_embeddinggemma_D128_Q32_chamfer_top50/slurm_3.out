@@ -1,0 +1,55 @@
+Loading query specifications from datasets/wt/wt_query_columns_no_column_names.csv
+Found 119 query specifications
+Processing 10 specified queries
+
+Processing 10 queries with similarity_method=chamfer...
+Processing query 1/10: AJ-fruits-1_source_CARBS__grams_.title
+  Loaded 22 values
+Device selected: cuda
+Embedding model: embeddinggemma
+EmbeddingGemma output dimension: 128
+EmbeddingGemma initialized with output_dim=128
+  Found 50 similar columns
+Processing query 2/10: AJ-fruits-2_source_FRUITS__raw_.title
+  Loaded 22 values
+  Found 50 similar columns
+Processing query 3/10: AJ-fruits-2_source_AMOUNT.title
+  Loaded 22 values
+  Found 50 similar columns
+Processing query 4/10: AJ-fruits-2_source_CARBS__grams_.title
+  Loaded 22 values
+  Found 50 similar columns
+Processing query 5/10: AJ-fsu-name-to-username_source_last_name.title
+  Loaded 111 values
+  Found 50 similar columns
+Processing query 6/10: AJ-fsu-name-to-username_source_first_name.title
+  Loaded 111 values
+  Found 50 similar columns
+Processing query 7/10: AJ-fsu-name-to-username_source_full_name.title
+  Loaded 111 values
+  Found 50 similar columns
+Processing query 8/10: AJ-k12-name-to-email_source_SchoolName.title
+  Loaded 38 values
+  Found 50 similar columns
+Processing query 9/10: AJ-k12-name-to-email_source_Name.title
+  Loaded 38 values
+  Found 50 similar columns
+Processing query 10/10: AJ-new-york-govs-1_source_Name.title
+  Loaded 56 values
+  Found 50 similar columns
+
+Combined results saved to: wt-experiments/wt_query_results_embeddinggemma_D128_Q32_chamfer_top50/job_3/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 14.28s
+Total candidates found: 500
+Average time per query: 1.4282s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 500
+Results saved to: wt-experiments/wt_query_results_embeddinggemma_D128_Q32_chamfer_top50/job_3

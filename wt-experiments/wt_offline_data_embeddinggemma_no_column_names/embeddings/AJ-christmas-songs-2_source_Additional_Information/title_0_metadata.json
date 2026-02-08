@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-christmas-songs-2_source_Additional_Information",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 434,
+  "unique_values": 433,
+  "processed_values": 434,
+  "embedding_dim": 128,
+  "processing_time": 0.3427422046661377,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-christmas-songs-2_source_Additional_Information.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-chinese-provinces_target_Hanzi",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 39,
+  "unique_values": 39,
+  "processed_values": 39,
+  "embedding_dim": 768,
+  "processing_time": 0.03836226463317871,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-chinese-provinces_target_Hanzi.csv"
+}

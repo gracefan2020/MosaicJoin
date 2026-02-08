@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-beatles-songs_target_Lead_vocal_s_",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 301,
+  "unique_values": 23,
+  "processed_values": 301,
+  "embedding_dim": 768,
+  "processing_time": 0.18139958381652832,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-beatles-songs_target_Lead_vocal_s_.csv"
+}

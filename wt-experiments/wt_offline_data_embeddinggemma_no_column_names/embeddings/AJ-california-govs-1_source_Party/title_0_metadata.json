@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-california-govs-1_source_Party",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 25,
+  "unique_values": 5,
+  "processed_values": 25,
+  "embedding_dim": 128,
+  "processing_time": 0.028443336486816406,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-california-govs-1_source_Party.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-us-presidents-2_source_President",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 46,
+  "unique_values": 43,
+  "processed_values": 46,
+  "embedding_dim": 768,
+  "processing_time": 0.059653520584106445,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-us-presidents-2_source_President.csv"
+}

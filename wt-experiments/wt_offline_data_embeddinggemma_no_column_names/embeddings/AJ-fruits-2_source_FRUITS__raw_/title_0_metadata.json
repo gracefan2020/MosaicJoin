@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-fruits-2_source_FRUITS__raw_",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 22,
+  "unique_values": 22,
+  "processed_values": 22,
+  "embedding_dim": 128,
+  "processing_time": 0.025676727294921875,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-fruits-2_source_FRUITS__raw_.csv"
+}

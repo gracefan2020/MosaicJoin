@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-us-presidents-4_target_State",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 44,
+  "unique_values": 18,
+  "processed_values": 44,
+  "embedding_dim": 768,
+  "processing_time": 0.03824949264526367,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-us-presidents-4_target_State.csv"
+}

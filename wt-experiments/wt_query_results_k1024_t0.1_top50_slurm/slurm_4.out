@@ -1,0 +1,52 @@
+Loading query specifications from datasets/wt/wt_query_columns.csv
+Found 119 query specifications
+Processing 10 specified queries
+
+Processing 10 queries with similarity_method=greedy_match...
+Processing query 1/10: AJ-new-york-govs-1_source_Held_Office.Held Office
+  Loaded 56 values
+Device selected: cpu
+  Found 50 similar columns
+Processing query 2/10: AJ-new-york-govs-1_source_Political_Party.Political Party
+  Loaded 56 values
+  Found 50 similar columns
+Processing query 3/10: AJ-new-york-govs-2_source_Governor.Governor
+  Loaded 60 values
+  Found 50 similar columns
+Processing query 4/10: AJ-new-york-govs-2_source_Term_of_office.Term of office
+  Loaded 60 values
+  Found 50 similar columns
+Processing query 5/10: AJ-new-york-govs-2_source_Party.Party
+  Loaded 60 values
+  Found 50 similar columns
+Processing query 6/10: AJ-new-york-govs-3_source_Governor_s_Name.Governor's Name
+  Loaded 25 values
+  Found 50 similar columns
+Processing query 7/10: AJ-new-york-govs-3_source_State.State
+  Loaded 25 values
+  Found 50 similar columns
+Processing query 8/10: AJ-new-york-govs-3_source_Time_in_Office.Time in Office
+  Loaded 25 values
+  Found 50 similar columns
+Processing query 9/10: AJ-new-york-govs-3_source_Party.Party
+  Loaded 25 values
+  Found 50 similar columns
+Processing query 10/10: AJ-new-york-govs-4_source_Governor.Governor
+  Loaded 58 values
+  Found 50 similar columns
+
+Combined results saved to: wt-experiments/wt_query_results_k1024_t0.1_top50_slurm/job_4/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 30.47s
+Total candidates found: 500
+Average time per query: 3.0467s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 500
+Results saved to: wt-experiments/wt_query_results_k1024_t0.1_top50_slurm/job_4

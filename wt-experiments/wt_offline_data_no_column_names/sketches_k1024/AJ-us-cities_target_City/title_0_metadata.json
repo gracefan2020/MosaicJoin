@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-us-cities_target_City",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 71,
+  "sketch_k": 71,
+  "processing_time": 0.0046198368072509766,
+  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-cities_target_City/title_0.npz"
+}

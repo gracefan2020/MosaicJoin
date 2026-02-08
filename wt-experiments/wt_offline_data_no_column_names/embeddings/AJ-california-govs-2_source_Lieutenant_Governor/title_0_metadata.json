@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-california-govs-2_source_Lieutenant_Governor",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 66,
+  "unique_values": 50,
+  "processed_values": 66,
+  "embedding_dim": 768,
+  "processing_time": 0.07045626640319824,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-california-govs-2_source_Lieutenant_Governor.csv"
+}

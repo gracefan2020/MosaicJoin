@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-beatles-songs_target_Songwriter_s_",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 310,
+  "unique_values": 79,
+  "processed_values": 310,
+  "embedding_dim": 128,
+  "processing_time": 0.2114551067352295,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-beatles-songs_target_Songwriter_s_.csv"
+}

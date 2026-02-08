@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-california-govs-1_target_Notes",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 4,
+  "unique_values": 4,
+  "processed_values": 4,
+  "embedding_dim": 128,
+  "processing_time": 0.030556678771972656,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-california-govs-1_target_Notes.csv"
+}

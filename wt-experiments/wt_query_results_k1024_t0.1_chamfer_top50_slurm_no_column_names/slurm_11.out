@@ -1,0 +1,8797 @@
+Loading query specifications from datasets/wt/wt_query_columns_no_column_names.csv
+Found 119 query specifications
+Processing 9 specified queries
+
+Processing 9 queries with similarity_method=chamfer...
+Processing query 1/9: AJ-us-presidents-6_source_Name.title
+  Loaded 44 values
+Device selected: cuda
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 2/9: AJ-us-presidents-6_source_Birth_Name.title
+  Loaded 29 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 3/9: AJ-us-presidents-6_source_OP.title
+  Loaded 44 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 4/9: AJ-us-presidents-6_source_Birthplace.title
+  Loaded 44 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 5/9: AJ-us-presidents-6_source_State_of_Birth.title
+  Loaded 44 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 6/9: AJ-us-presidents-6_source_AP.title
+  Loaded 44 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 7/9: AJ-vegetables_source_Vegetable.title
+  Loaded 67 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 8/9: AJ-vegetables_source_Type.title
+  Loaded 65 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+Processing query 9/9: names200_source_fullname.title
+  Loaded 200 values
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+Using GPU: True
+Torch available: True
+Device: cuda
+CUDA available: True
+  Found 50 similar columns
+
+Combined results saved to: wt-experiments/wt_query_results_k1024_t0.1_chamfer_top50_slurm_no_column_names/job_11/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 9
+Successful queries: 9
+Failed queries: 0
+Total processing time: 22.69s
+Total candidates found: 450
+Average time per query: 2.5207s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 9/9
+Total results: 450
+Results saved to: wt-experiments/wt_query_results_k1024_t0.1_chamfer_top50_slurm_no_column_names/job_11

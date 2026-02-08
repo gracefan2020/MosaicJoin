@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-new-york-govs-5_target_Term",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 58,
+  "unique_values": 58,
+  "processed_values": 58,
+  "embedding_dim": 128,
+  "processing_time": 0.04514169692993164,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-new-york-govs-5_target_Term.csv"
+}

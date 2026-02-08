@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-park-to-state-1_target_Number_of_households",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 52,
+  "unique_values": 52,
+  "processed_values": 52,
+  "embedding_dim": 768,
+  "processing_time": 0.04011964797973633,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-park-to-state-1_target_Number_of_households.csv"
+}

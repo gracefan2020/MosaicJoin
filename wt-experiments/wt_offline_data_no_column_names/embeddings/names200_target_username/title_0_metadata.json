@@ -1,0 +1,11 @@
+{
+  "table_name": "names200_target_username",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 200,
+  "unique_values": 200,
+  "processed_values": 200,
+  "embedding_dim": 768,
+  "processing_time": 0.1523418426513672,
+  "file_path": "datasets/wt/datalake_no_column_names/names200_target_username.csv"
+}

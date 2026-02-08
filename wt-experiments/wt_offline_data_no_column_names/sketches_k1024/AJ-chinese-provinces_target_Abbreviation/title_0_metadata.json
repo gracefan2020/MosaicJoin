@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-chinese-provinces_target_Abbreviation",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 39,
+  "sketch_k": 39,
+  "processing_time": 0.0018236637115478516,
+  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-chinese-provinces_target_Abbreviation/title_0.npz"
+}

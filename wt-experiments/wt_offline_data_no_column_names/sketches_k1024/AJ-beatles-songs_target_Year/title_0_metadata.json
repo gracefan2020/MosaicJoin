@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-beatles-songs_target_Year",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 310,
+  "sketch_k": 310,
+  "processing_time": 0.09606027603149414,
+  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-beatles-songs_target_Year/title_0.npz"
+}

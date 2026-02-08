@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-fruits-1_target_FRUIT_CARB_CHART",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 255,
+  "sketch_k": 128,
+  "processing_time": 0.009269237518310547,
+  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-fruits-1_target_FRUIT_CARB_CHART/title_0.npz"
+}

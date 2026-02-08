@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-fruits-2_source_AMOUNT",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 22,
+  "unique_values": 14,
+  "processed_values": 22,
+  "embedding_dim": 128,
+  "processing_time": 0.02556157112121582,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-fruits-2_source_AMOUNT.csv"
+}

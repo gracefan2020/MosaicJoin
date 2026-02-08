@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-duke-cs-profs_target_University",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 2195,
+  "unique_values": 55,
+  "processed_values": 2195,
+  "embedding_dim": 768,
+  "processing_time": 1.3562901020050049,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-duke-cs-profs_target_University.csv"
+}

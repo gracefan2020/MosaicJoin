@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-beatles-songs_target_Album_debut",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 286,
+  "sketch_k": 64,
+  "processing_time": 0.00731658935546875,
+  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-beatles-songs_target_Album_debut/title_0.npz"
+}

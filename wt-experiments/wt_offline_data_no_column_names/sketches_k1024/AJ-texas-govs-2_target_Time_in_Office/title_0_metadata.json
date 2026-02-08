@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-texas-govs-2_target_Time_in_Office",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 25,
+  "sketch_k": 25,
+  "processing_time": 0.001058816909790039,
+  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-texas-govs-2_target_Time_in_Office/title_0.npz"
+}

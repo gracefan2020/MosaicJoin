@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-christmas-songs-2_source_Year",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 455,
+  "sketch_k": 128,
+  "processing_time": 0.012581110000610352,
+  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-christmas-songs-2_source_Year/title_0.npz"
+}

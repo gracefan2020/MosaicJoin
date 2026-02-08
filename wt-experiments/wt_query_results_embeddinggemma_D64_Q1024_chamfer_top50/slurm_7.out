@@ -1,0 +1,55 @@
+Loading query specifications from datasets/wt/wt_query_columns_no_column_names.csv
+Found 119 query specifications
+Processing 10 specified queries
+
+Processing 10 queries with similarity_method=chamfer...
+Processing query 1/10: AJ-texas-govs-2_source_Years_in_Office.title
+  Loaded 45 values
+Device selected: cuda
+Embedding model: embeddinggemma
+EmbeddingGemma output dimension: 128
+EmbeddingGemma initialized with output_dim=128
+  Found 50 similar columns
+Processing query 2/10: AJ-texas-govs-2_source_Legislatures_as_Governor_.title
+  Loaded 45 values
+  Found 50 similar columns
+Processing query 3/10: AJ-uk-prime-ministers_source_term.title
+  Loaded 76 values
+  Found 50 similar columns
+Processing query 4/10: AJ-uk-prime-ministers_source_name.title
+  Loaded 76 values
+  Found 50 similar columns
+Processing query 5/10: AJ-uk-prime-ministers_source_political_party.title
+  Loaded 76 values
+  Found 50 similar columns
+Processing query 6/10: AJ-us-cities_source_United_States_Cities.title
+  Loaded 100 values
+  Found 50 similar columns
+Processing query 7/10: AJ-us-presidents-1_source__.title
+  Loaded 67 values
+  Found 50 similar columns
+Processing query 8/10: AJ-us-presidents-1_source_President.title
+  Loaded 67 values
+  Found 50 similar columns
+Processing query 9/10: AJ-us-presidents-1_source_State.title
+  Loaded 67 values
+  Found 50 similar columns
+Processing query 10/10: AJ-us-presidents-1_source_Term_of_office.title
+  Loaded 67 values
+  Found 50 similar columns
+
+Combined results saved to: wt-experiments/wt_query_results_embeddinggemma_D64_Q1024_chamfer_top50/job_7/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 12.53s
+Total candidates found: 500
+Average time per query: 1.2526s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 500
+Results saved to: wt-experiments/wt_query_results_embeddinggemma_D64_Q1024_chamfer_top50/job_7

@@ -1,0 +1,11 @@
+{
+  "table_name": "AJ-beatles-songs_target_Album_debut",
+  "column_name": "title",
+  "column_index": 0,
+  "total_values": 286,
+  "unique_values": 57,
+  "processed_values": 286,
+  "embedding_dim": 128,
+  "processing_time": 0.19475460052490234,
+  "file_path": "datasets/wt/datalake_no_column_names/AJ-beatles-songs_target_Album_debut.csv"
+}

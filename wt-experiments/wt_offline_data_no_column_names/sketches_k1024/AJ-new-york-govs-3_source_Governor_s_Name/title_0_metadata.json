@@ -1,0 +1,9 @@
+{
+  "table_name": "AJ-new-york-govs-3_source_Governor_s_Name",
+  "column_name": "title",
+  "column_index": 0,
+  "total_embeddings": 25,
+  "sketch_k": 25,
+  "processing_time": 0.001514434814453125,
+  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-new-york-govs-3_source_Governor_s_Name/title_0.npz"
+}
