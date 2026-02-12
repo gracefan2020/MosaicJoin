@@ -1,18 +1,24 @@
 """
 Query Time Module
 
-Given a query table, builds sketch for query column and finds top-k joinable tables.
+Given a query table, embeds all query column values and compares against pre-computed
+datalake sketches to find top-k joinable tables. No sketching is performed on the query
+side - all query embeddings are used directly.
+
 Supports multiple similarity computation methods:
-- mean: Average of all k² pairwise similarities (original)
+- mean: Average of all pairwise similarities
 - greedy_match: Greedy 1-to-1 bipartite matching
 - top_k_mean: Average of top-k highest similarities
 - max: Maximum similarity only
-- chamfer: Chamfer similarity (MaxSim) from MUVERA paper - sum of max similarities
-           Reference: https://arxiv.org/abs/2405.19504
+- chamfer: Chamfer similarity (MaxSim) - for each query embedding, find max similarity
+           to datalake sketch vectors. Reference: https://arxiv.org/abs/2405.19504
+- inverse_chamfer: Inverse Chamfer - for each datalake sketch vector, find max similarity
+           to query embeddings.
 """
 
 from __future__ import annotations
 
+import heapq
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -29,7 +35,7 @@ except ImportError:
     TORCH_AVAILABLE = False
 
 from offline_embedding import MPNetEmbedder, create_mpnet_embedder, create_embedder, load_column_embedding
-from offline_sketch import SemanticSketch, load_offline_sketch
+from offline_sketch import SemanticSketch, load_offline_sketch, ConsolidatedSketchStore, farthest_point_sampling
 
 
 @dataclass
@@ -38,7 +44,8 @@ class QueryConfig:
     top_k_return: int = 50
     similarity_threshold: float = 0.7
     sketch_size: int = 1024
-    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer"
+    query_sketch_size: int = 0  # 0 = no sketching (use all query embeddings), >0 = sketch to this size
+    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer", "inverse_chamfer"
     top_k_for_mean: int = 100
     enable_early_stopping: bool = True
     early_subset_size: int = 256
@@ -63,7 +70,6 @@ class QueryResult:
     candidate_table: str
     candidate_column: str
     similarity_score: float
-    contributing_entities: Optional[List[Tuple[str, str, float]]] = None
 
 
 @dataclass
@@ -73,6 +79,8 @@ class QueryStats:
     successful_queries: int = 0
     failed_queries: int = 0
     total_processing_time: float = 0.0
+    total_embedding_time: float = 0.0
+    total_search_time: float = 0.0
     total_candidates_found: int = 0
     total_high_quality_candidates: int = 0
 
@@ -82,7 +90,22 @@ class SemanticJoinQueryProcessor:
     
     def __init__(self, config: QueryConfig, sketches_dir: Path, 
                  embeddings_dir: Optional[Path] = None,
-                 datalake_dir: Optional[Path] = None):
+                 datalake_dir: Optional[Path] = None,
+                 preload_sketches: bool = True,
+                 use_consolidated: bool = True,
+                 mmap_mode: Optional[str] = 'r'):
+        """
+        Args:
+            config: Query configuration
+            sketches_dir: Path to sketches directory (individual files or consolidated store)
+            embeddings_dir: Optional path to embeddings directory
+            datalake_dir: Optional path to datalake directory
+            preload_sketches: Whether to preload all sketches into memory
+            use_consolidated: Try to use consolidated sketch store if available (much faster)
+            mmap_mode: Memory-map mode for consolidated store ('r', 'r+', 'c', None)
+                       'r' = read-only mmap (fastest startup, lowest memory)
+                       None = load fully into RAM (faster query access)
+        """
         self.config = config
         self.sketches_dir = sketches_dir
         self.embeddings_dir = embeddings_dir
@@ -90,7 +113,25 @@ class SemanticJoinQueryProcessor:
         self.stats = QueryStats()
         self.embedder = None
         self.logger = self._setup_logging()
-        self.available_sketches = self._discover_available_sketches()
+        self.mmap_mode = mmap_mode
+        
+        # Try to use consolidated store if available
+        self.consolidated_store: Optional[ConsolidatedSketchStore] = None
+        consolidated_path = sketches_dir / "sketches_consolidated.npy"
+        
+        if use_consolidated and consolidated_path.exists():
+            self.logger.info("Found consolidated sketch store, using fast loading...")
+            self._load_consolidated_store()
+            self.available_sketches = {key: None for key in self.consolidated_store.keys()}
+        else:
+            if use_consolidated:
+                self.logger.info("No consolidated store found. Consider running consolidate_sketches() for faster loading.")
+            self.available_sketches = self._discover_available_sketches()
+        
+        # Pre-loaded sketches cache (only used when not using consolidated store)
+        self.sketches_cache: Dict[Tuple[str, str, int], SemanticSketch] = {}
+        if preload_sketches and self.consolidated_store is None and len(self.available_sketches) > 0:
+            self._preload_all_sketches()
     
     def _setup_logging(self) -> logging.Logger:
         logger = logging.getLogger("SemanticJoinQueryProcessor")
@@ -102,6 +143,14 @@ class SemanticJoinQueryProcessor:
         if not logger.handlers:
             logger.addHandler(console_handler)
         return logger
+    
+    def _load_consolidated_store(self) -> None:
+        """Load the consolidated sketch store."""
+        start_time = time.time()
+        self.consolidated_store = ConsolidatedSketchStore(self.sketches_dir)
+        self.consolidated_store.load(mmap_mode=self.mmap_mode)
+        elapsed = time.time() - start_time
+        self.logger.info(f"Loaded consolidated store with {len(self.consolidated_store)} sketches in {elapsed:.2f}s")
     
     def _discover_available_sketches(self) -> Dict[Tuple[str, str, int], Path]:
         sketches = {}
@@ -130,27 +179,64 @@ class SemanticJoinQueryProcessor:
             self.logger.info(f"Found {len(sketches)} available sketches")
         return sketches
     
+    def _preload_all_sketches(self) -> None:
+        """Pre-load all sketches into memory for faster query processing."""
+        self.logger.info(f"Pre-loading {len(self.available_sketches)} sketches into memory...")
+        start_time = time.time()
+        
+        loaded = 0
+        failed = 0
+        
+        for (table_name, column_name, column_index), sketch_path in self.available_sketches.items():
+            try:
+                sketch = load_offline_sketch(table_name, column_name, column_index, self.sketches_dir)
+                if sketch is not None:
+                    self.sketches_cache[(table_name, column_name, column_index)] = sketch
+                    loaded += 1
+                else:
+                    failed += 1
+            except Exception as e:
+                failed += 1
+                continue
+            
+            # Log progress every 50000 sketches
+            if (loaded + failed) % 50000 == 0:
+                self.logger.info(f"  Loaded {loaded} sketches ({failed} failed)...")
+        
+        elapsed = time.time() - start_time
+        self.logger.info(f"Pre-loaded {loaded} sketches in {elapsed:.2f}s ({failed} failed)")
+        
+    
     def process_query(self, query: QueryColumn) -> List[QueryResult]:
         """Process a semantic join query."""
         start_time = time.time()
         self.stats.total_queries += 1
         
         try:
-            query_sketch = self._build_query_sketch(query)
-            if query_sketch is None:
+            # Time embedding
+            embed_start = time.time()
+            query_embeddings = self._build_query_embeddings(query)
+            embed_time = time.time() - embed_start
+            
+            if query_embeddings is None:
                 self.stats.failed_queries += 1
                 return []
             
-            results = self._find_similar_columns(query_sketch, query)
+            # Time search
+            search_start = time.time()
+            results = self._find_similar_columns(query_embeddings, query)
             results.sort(key=lambda x: x.similarity_score, reverse=True)
             final_results = results[:self.config.top_k_return]
+            search_time = time.time() - search_start
             
             processing_time = time.time() - start_time
             self.stats.successful_queries += 1
             self.stats.total_processing_time += processing_time
+            self.stats.total_embedding_time += embed_time
+            self.stats.total_search_time += search_time
             self.stats.total_candidates_found += len(final_results)
             
-            self.logger.info(f"Query processed in {processing_time:.2f}s, found {len(final_results)} candidates")
+            self.logger.info(f"Query processed in {processing_time:.2f}s (embed: {embed_time:.2f}s, search: {search_time:.2f}s), found {len(final_results)} candidates")
             return final_results
             
         except Exception as e:
@@ -158,13 +244,20 @@ class SemanticJoinQueryProcessor:
             self.stats.failed_queries += 1
             return []
     
-    def _build_query_sketch(self, query: QueryColumn) -> Optional[SemanticSketch]:
-        """Build a sketch for the query column."""
+    def _build_query_embeddings(self, query: QueryColumn) -> Optional[SemanticSketch]:
+        """Embed query values and optionally sketch them.
+        
+        If query_sketch_size > 0, applies K-means clustering to reduce query embeddings
+        to a fixed-size sketch. Otherwise, returns all query embeddings.
+        
+        Returns query embeddings (optionally sketched) to compare against datalake sketches.
+        """
         if self.embedder is None:
             self.embedder = create_embedder(
                 model=self.config.embedding_model,
                 device=self.config.device,
-                embedding_dim=self.config.embedding_dim
+                embedding_dim=self.config.embedding_dim,
+                mode="query"
             )
         
         values = query.values
@@ -176,30 +269,58 @@ class SemanticJoinQueryProcessor:
         if embeddings is None or len(embeddings) == 0:
             return None
         
-        k = min(self.config.sketch_size, len(embeddings))
-        norms = np.linalg.norm(embeddings, axis=1)
-        idx = np.argpartition(norms, k - 1)[:k]
-        idx_sorted = idx[np.argsort(norms[idx])]
-        
-        representative_vectors = embeddings[idx_sorted]
-        representative_names = [values[i] for i in idx_sorted]
+        # Optionally sketch the query embeddings
+        if self.config.query_sketch_size > 0 and len(embeddings) > self.config.query_sketch_size:
+            original_count = len(embeddings)
+            embeddings, sketch_ids = self._sketch_embeddings(embeddings, self.config.query_sketch_size)
+            sketch_values = [values[i] for i in sketch_ids] if sketch_ids else []
+            self.logger.info(f"Sketched query embeddings: {original_count} → {len(embeddings)}")
+        else:
+            sketch_values = values
         
         return SemanticSketch(
-            representative_vectors=representative_vectors,
-            representative_ids=list(range(k)),
-            distances_to_origin=norms[idx_sorted],
+            representative_vectors=embeddings,
+            representative_ids=[],
+            distances_to_origin=np.array([]),
             embedding_dim=embeddings.shape[1],
-            k=k,
-            centroid=np.mean(embeddings, axis=0),
-            representative_names=representative_names
+            k=len(embeddings),
+            centroid=np.array([]),
+            representative_names=sketch_values
         )
     
-    def _find_similar_columns(self, query_sketch: SemanticSketch, 
-                              query: QueryColumn) -> List[QueryResult]:
-        """Find similar columns using sketch comparison."""
-        results = []
+    def _sketch_embeddings(self, embeddings: np.ndarray, k: int) -> Tuple[np.ndarray, List[int]]:
+        """Sketch embeddings using Farthest Point Sampling (FPS).
         
-        self.logger.info(f"Comparing query sketch against {len(self.available_sketches)} candidate sketches")
+        Same algorithm used for datalake sketches - ensures diverse, well-distributed
+        representatives that cover the full semantic space.
+        """
+        n_samples = len(embeddings)
+        if k >= n_samples:
+            return embeddings, list(range(n_samples))
+        
+        selected_indices = farthest_point_sampling(embeddings, k)
+        return embeddings[selected_indices], selected_indices.tolist()
+    
+    def _find_similar_columns(self, query_embeddings: SemanticSketch, 
+                              query: QueryColumn) -> List[QueryResult]:
+        """Find similar columns by comparing query embeddings against datalake sketches."""
+        self.logger.info(f"Comparing {query_embeddings.k} query embeddings against {len(self.available_sketches)} datalake sketches")
+        
+        # Use a min-heap to track top-k results (heap stores negative scores for max behavior)
+        # Format: (negative_score, table_name, column_name)
+        top_k_heap: List[Tuple[float, str, str]] = []
+        min_score_threshold = 0.0  # Minimum score to consider (updates as heap fills)
+        processed = 0
+        skipped_early = 0
+        
+        # Determine the sketch source
+        use_consolidated = self.consolidated_store is not None
+        use_cache = len(self.sketches_cache) > 0
+        
+        if use_consolidated:
+            self.logger.info(f"Using consolidated sketch store ({len(self.consolidated_store)} sketches)")
+        elif use_cache:
+            self.logger.info(f"Using pre-loaded sketches cache ({len(self.sketches_cache)} sketches)")
         
         for (table_name, column_name, column_index), sketch_path in self.available_sketches.items():
             try:
@@ -207,79 +328,160 @@ class SemanticJoinQueryProcessor:
                 if table_name == query.table_name:
                     continue
                 
-                candidate_sketch = load_offline_sketch(table_name, column_name, column_index, self.sketches_dir)
+                # Get candidate sketch from the appropriate source
+                cache_key = (table_name, column_name, column_index)
+                if use_consolidated:
+                    candidate_sketch = self.consolidated_store.get_sketch(table_name, column_name, column_index)
+                elif use_cache and cache_key in self.sketches_cache:
+                    candidate_sketch = self.sketches_cache[cache_key]
+                else:
+                    candidate_sketch = load_offline_sketch(table_name, column_name, column_index, self.sketches_dir)
+                
                 if candidate_sketch is None:
                     continue
                 
                 semantic_matches, semantic_density = self._estimate_semantic_joinability(
-                    query_sketch, candidate_sketch
+                    query_embeddings, candidate_sketch, min_score_threshold
                 )
                 
-                if self.config.similarity_threshold <= 0.1 or semantic_density >= self.config.similarity_threshold:
-                    contributing_entities = self._get_contributing_entities(
-                        query_sketch, candidate_sketch, top_n=200
-                    )
-                    
-                    result = QueryResult(
-                        candidate_table=table_name,
-                        candidate_column=column_name,
-                        similarity_score=float(semantic_density),
-                        contributing_entities=contributing_entities if contributing_entities else None
-                    )
-                    results.append(result)
+                processed += 1
+                
+                # Skip if below threshold
+                if self.config.similarity_threshold > 0.1 and semantic_density < self.config.similarity_threshold:
+                    continue
+                
+                # Early termination: skip if score can't make it to top-k
+                if len(top_k_heap) >= self.config.top_k_return and semantic_density <= min_score_threshold:
+                    skipped_early += 1
+                    continue
+                
+                # Add to heap
+                if len(top_k_heap) < self.config.top_k_return:
+                    heapq.heappush(top_k_heap, (semantic_density, table_name, column_name))
+                    if len(top_k_heap) == self.config.top_k_return:
+                        min_score_threshold = top_k_heap[0][0]  # Update threshold
+                elif semantic_density > min_score_threshold:
+                    heapq.heapreplace(top_k_heap, (semantic_density, table_name, column_name))
+                    min_score_threshold = top_k_heap[0][0]  # Update threshold
+                
+                # Log progress every 10000 candidates
+                if processed % 10000 == 0:
+                    self.logger.info(f"Processed {processed} candidates, current min threshold: {min_score_threshold:.4f}")
                 
             except Exception as e:
                 self.logger.warning(f"Error processing candidate {table_name}.{column_name}: {e}")
                 continue
         
+        self.logger.info(f"Processed {processed} candidates total, skipped {skipped_early} via early termination")
+        
+        # Convert heap to results
+        results = [
+            QueryResult(
+                candidate_table=table_name,
+                candidate_column=column_name,
+                similarity_score=float(score)
+            )
+            for score, table_name, column_name in top_k_heap
+        ]
+        
         return results
     
-    def _estimate_semantic_joinability(self, a: SemanticSketch, b: SemanticSketch) -> Tuple[int, float]:
-        """Estimate semantic joinability between two semantic sketches.
+    def _estimate_semantic_joinability(self, query_emb: SemanticSketch, datalake_sketch: SemanticSketch, 
+                                        min_score_threshold: float = 0.0) -> Tuple[int, float]:
+        """Estimate semantic joinability between query embeddings and datalake sketch.
+        
+        Compares all query embeddings against datalake sketch vectors (no query sketching).
         
         Similarity methods:
-        - "mean": Average of all k² pairwise similarities (default, fast but noisy)
+        - "mean": Average of all pairwise similarities
         - "greedy_match": Greedy 1-to-1 bipartite matching (principled, no double-counting)
         - "top_k_mean": Average of top-k highest similarities
         - "max": Maximum similarity only
-        - "chamfer": Chamfer similarity (MaxSim) from MUVERA paper
-                     Chamfer(A, B) = mean over a in A of max over b in B of sim(a, b)
+        - "chamfer": Chamfer similarity (MaxSim) - iterates over query embeddings
+                     Chamfer(Q, D) = mean over q in Q of max over d in D of sim(q, d)
                      Reference: https://arxiv.org/abs/2405.19504
+        - "inverse_chamfer": Inverse Chamfer - iterates over datalake sketch
+                     Chamfer(D, Q) = mean over d in D of max over q in Q of sim(d, q)
+        
+        Args:
+            query_emb: All query embeddings (not sketched)
+            datalake_sketch: Pre-computed datalake sketch
+            min_score_threshold: Minimum score needed to be considered (for early termination)
         """
-        if a.k == 0 or b.k == 0:
+        if query_emb.k == 0 or datalake_sketch.k == 0:
             return 0, 0.0
         
         # Normalize vectors for cosine similarity
-        a_norm = a.representative_vectors / (np.linalg.norm(a.representative_vectors, axis=1, keepdims=True) + 1e-12)
-        b_norm = b.representative_vectors / (np.linalg.norm(b.representative_vectors, axis=1, keepdims=True) + 1e-12)
+        q_norm = query_emb.representative_vectors / (np.linalg.norm(query_emb.representative_vectors, axis=1, keepdims=True) + 1e-12)
+        d_norm = datalake_sketch.representative_vectors / (np.linalg.norm(datalake_sketch.representative_vectors, axis=1, keepdims=True) + 1e-12)
         
-        # Compute similarity matrix
-        similarity_matrix = np.dot(a_norm, b_norm.T)  # shape (a.k, b.k)
+        # Compute similarity matrix: (num_query_embeddings, datalake_sketch_size)
+        similarity_matrix = np.dot(q_norm, d_norm.T)
         
         method = self.config.similarity_method
         
         if method == "greedy_match":
             # Greedy 1-to-1 bipartite matching
             semantic_density = self._greedy_match_similarity(similarity_matrix)
-            semantic_matches = min(a.k, b.k)
+            semantic_matches = min(query_emb.k, datalake_sketch.k)
         
         elif method == "chamfer":
-            # Chamfer similarity (MaxSim) from MUVERA paper
-            # Chamfer(A, B) = sum over a in A of max over b in B of sim(a, b)
-            # We normalize by |A| to get a density score in [0, 1]
+            # Chamfer similarity (MaxSim): for each query embedding, find max sim to datalake sketch
+            # Chamfer(Q, D) = mean over q in Q of max over d in D of sim(q, d)
+            
+            # Early stopping: check first few query vectors to estimate upper bound
+            early_check_size = min(10, similarity_matrix.shape[0])
+            early_max_sims = np.max(similarity_matrix[:early_check_size, :], axis=1)
+            early_estimate = float(np.mean(early_max_sims))
+            
+            # If early estimate is way below threshold, skip full computation
+            if early_estimate < min_score_threshold * 0.8:
+                return 0, early_estimate
+            
+            # Also skip if all early similarities are very low
+            if np.all(early_max_sims < self.config.similarity_threshold):
+                return 0, 0.0
+            
             use_gpu = (TORCH_AVAILABLE and 
                        self.config.device in ("cuda", "auto") and 
                        torch.cuda.is_available())
             if use_gpu:
-                # GPU-accelerated computation using PyTorch
                 sim_tensor = torch.from_numpy(similarity_matrix).cuda()
                 max_sims_per_query = torch.max(sim_tensor, dim=1).values
                 semantic_density = float(torch.mean(max_sims_per_query).cpu())
             else:
-                # CPU computation using NumPy
-                max_sims_per_query = np.max(similarity_matrix, axis=1)  # shape (a.k,)
+                max_sims_per_query = np.max(similarity_matrix, axis=1)
                 semantic_density = float(np.mean(max_sims_per_query))
-            semantic_matches = a.k
+            semantic_matches = query_emb.k
+        
+        elif method == "inverse_chamfer":
+            # Inverse Chamfer: for each datalake sketch vector, find max sim to query embeddings
+            # Chamfer(D, Q) = mean over d in D of max over q in Q of sim(d, q)
+            
+            # Early stopping: check first few datalake vectors to estimate upper bound
+            early_check_size = min(10, similarity_matrix.shape[1])
+            early_max_sims = np.max(similarity_matrix[:, :early_check_size], axis=0)
+            early_estimate = float(np.mean(early_max_sims))
+            
+            # If early estimate is way below threshold, skip full computation
+            if early_estimate < min_score_threshold * 0.8:
+                return 0, early_estimate
+            
+            # Also skip if all early similarities are very low
+            if np.all(early_max_sims < self.config.similarity_threshold):
+                return 0, 0.0
+            
+            use_gpu = (TORCH_AVAILABLE and 
+                       self.config.device in ("cuda", "auto") and 
+                       torch.cuda.is_available())
+            if use_gpu:
+                sim_tensor = torch.from_numpy(similarity_matrix).cuda()
+                max_sims_per_datalake = torch.max(sim_tensor, dim=0).values
+                semantic_density = float(torch.mean(max_sims_per_datalake).cpu())
+            else:
+                max_sims_per_datalake = np.max(similarity_matrix, axis=0)
+                semantic_density = float(np.mean(max_sims_per_datalake))
+            semantic_matches = datalake_sketch.k
         
         elif method == "top_k_mean":
             flat = similarity_matrix.ravel()
@@ -298,7 +500,7 @@ class SemanticJoinQueryProcessor:
                 semantic_matches = int(np.sum(similarity_matrix > 0))
             else:
                 semantic_matches = np.sum(similarity_matrix > self.config.similarity_threshold)
-                semantic_density = semantic_matches / min(a.k, b.k)
+                semantic_density = semantic_matches / min(query_emb.k, datalake_sketch.k)
         
         return int(semantic_matches), float(semantic_density)
     
@@ -312,9 +514,7 @@ class SemanticJoinQueryProcessor:
         1. Sort all pairs by similarity (descending)
         2. Greedily select pairs, skipping if either endpoint already used
         3. Return mean of selected similarities
-        
-        Time complexity: O(k² log k²) = O(k² log k)
-        vs Hungarian: O(k³)
+    
         
         The greedy approach typically achieves >95% of optimal matching quality.
         """
@@ -346,54 +546,6 @@ class SemanticJoinQueryProcessor:
         
         return float(np.mean(matched_similarities)) if matched_similarities else 0.0
     
-    def _get_contributing_entities(self, query_sketch: SemanticSketch, 
-                                   candidate_sketch: SemanticSketch,
-                                   top_n: int = 200) -> List[Tuple[str, str, float]]:
-        """Get top contributing entity pairs between sketches."""
-        if query_sketch.representative_names is None or candidate_sketch.representative_names is None:
-            return []
-        
-        a_norm = query_sketch.representative_vectors / (np.linalg.norm(query_sketch.representative_vectors, axis=1, keepdims=True) + 1e-12)
-        b_norm = candidate_sketch.representative_vectors / (np.linalg.norm(candidate_sketch.representative_vectors, axis=1, keepdims=True) + 1e-12)
-        
-        similarity_matrix = np.dot(a_norm, b_norm.T)
-        
-        flat = similarity_matrix.ravel()
-        if flat.size == 0:
-            return []
-        
-        target = min(top_n, min(query_sketch.k, candidate_sketch.k), flat.size)
-        if target <= 0:
-            return []
-        
-        used_i: Set[int] = set()
-        used_j: Set[int] = set()
-        selected: List[Tuple[int, int, float]] = []
-        
-        sorted_idx = np.argsort(flat)[::-1]
-        for flat_idx in sorted_idx:
-            i = flat_idx // similarity_matrix.shape[1]
-            j = flat_idx % similarity_matrix.shape[1]
-            
-            if i in used_i or j in used_j:
-                continue
-            
-            sim = float(similarity_matrix[i, j])
-            used_i.add(i)
-            used_j.add(j)
-            selected.append((i, j, sim))
-            
-            if len(selected) >= target:
-                break
-        
-        contributing_pairs = []
-        for i, j, sim in selected:
-            query_val = query_sketch.representative_names[i]
-            cand_val = candidate_sketch.representative_names[j]
-            contributing_pairs.append((query_val, cand_val, sim))
-        
-        return contributing_pairs
-    
     def print_stats(self) -> None:
         """Print query processing statistics."""
         stats = self.stats
@@ -402,12 +554,18 @@ class SemanticJoinQueryProcessor:
         print(f"Successful queries: {stats.successful_queries}")
         print(f"Failed queries: {stats.failed_queries}")
         print(f"Total processing time: {stats.total_processing_time:.2f}s")
+        print(f"Total query time (embedding + search): {stats.total_embedding_time + stats.total_search_time:.2f}s")
+        print(f"  - Query embedding time: {stats.total_embedding_time:.2f}s")
+        print(f"  - Semantic search time: {stats.total_search_time:.2f}s")
         print(f"Total candidates found: {stats.total_candidates_found}")
         
         if stats.successful_queries > 0:
-            avg_time = stats.total_processing_time / stats.successful_queries
-            avg_candidates = stats.total_candidates_found / stats.successful_queries
-            print(f"Average time per query: {avg_time:.4f}s")
+            num_queries = stats.successful_queries
+            avg_time = (stats.total_embedding_time + stats.total_search_time) / num_queries
+            avg_candidates = stats.total_candidates_found / num_queries
+            print(f"Average time per query (embedding + search): {avg_time:.4f}s")
+            print(f"  - Avg embedding time per query: {stats.total_embedding_time / num_queries:.4f}s")
+            print(f"  - Avg search time per query: {stats.total_search_time / num_queries:.4f}s")
             print(f"Average candidates per query: {avg_candidates:.2f}")
 
 
@@ -426,25 +584,3 @@ def save_query_results(results: List[QueryResult], output_file: Path,
     
     df = pd.DataFrame(rows)
     df.to_csv(output_file, index=False)
-
-
-def save_contributing_entities(entities: List[Tuple[str, str, float]], 
-                               output_file: Path,
-                               query_table: str, query_column: str,
-                               candidate_table: str, candidate_column: str) -> None:
-    """Save contributing entities to CSV."""
-    rows = []
-    for query_val, cand_val, sim in entities:
-        rows.append({
-            'query_table': query_table,
-            'query_column': query_column,
-            'query_value': query_val,
-            'candidate_table': candidate_table,
-            'candidate_column': candidate_column,
-            'candidate_value': cand_val,
-            'similarity': sim
-        })
-    
-    df = pd.DataFrame(rows)
-    output_path = Path(str(output_file) + "_contributing_entities.csv")
-    df.to_csv(output_path, index=False)

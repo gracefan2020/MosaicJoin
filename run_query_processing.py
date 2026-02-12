@@ -72,11 +72,13 @@ def main():
     parser.add_argument("--similarity-threshold", type=float, default=0.7,
                         help="Similarity threshold for semantic matching")
     parser.add_argument("--sketch-size", type=int, default=1024,
-                        help="Number of representative vectors per sketch")
+                        help="Number of representative vectors per datalake sketch")
+    parser.add_argument("--query-sketch-size", type=int, default=0,
+                        help="Query sketch size (0 = no sketching, use all query embeddings)")
     parser.add_argument("--device", type=str, default="auto",
                         help="Device for MPNet model (auto, cpu, cuda, mps)")
     parser.add_argument("--similarity-method", type=str, default="mean",
-                        choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max"],
+                        choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer"],
                         help="Similarity computation method")
     parser.add_argument("--top-k-for-mean", type=int, default=100,
                         help="Number of top pairs to average (for top_k_mean method)")
@@ -90,7 +92,7 @@ def main():
                         choices=["mpnet", "embeddinggemma"],
                         help="Embedding model to use (must match datalake embeddings)")
     parser.add_argument("--embedding-dim", type=int, default=128,
-                        choices=[128, 256, 512, 768],
+                        choices=[16,128, 256, 512, 768],
                         help="Embedding dimension for embeddinggemma (default: 128)")
     
     args = parser.parse_args()
@@ -136,6 +138,7 @@ def main():
         top_k_return=args.top_k_return,
         similarity_threshold=args.similarity_threshold,
         sketch_size=args.sketch_size,
+        query_sketch_size=args.query_sketch_size,
         device=args.device,
         similarity_method=args.similarity_method,
         top_k_for_mean=args.top_k_for_mean,
@@ -230,6 +233,7 @@ def main():
             "similarity_threshold": args.similarity_threshold,
             "similarity_method": args.similarity_method,
             "sketch_size": args.sketch_size,
+            "query_sketch_size": args.query_sketch_size,
             "device": args.device
         }
     }
