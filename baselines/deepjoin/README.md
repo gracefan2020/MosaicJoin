@@ -21,9 +21,20 @@ From the repo root:
 python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/autofj-gdc/datalake/ --model_name baselines/deepjoin/all-mpnet-base-v2 --out_csv output.csv
 ```
 
-## Run inference with a query columns CSV (e.g. On GDC Breakdown dataset)
+## Run inference with a query columns CSV
 From the repo root:
 
+**GDC Breakdown Dataset**
 ```bash
 python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/gdc-breakdown/datalake/ --model_name baselines/deepjoin/all-mpnet-base-v2 --out_csv deepjoin_ft_gdc.csv --with_header --query_dir datasets/gdc-breakdown/gdc_breakdown_query_columns.csv
+```
+
+**AutoFJ GDC Dataset**
+```bash
+python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/autofj-gdc-breakdown/datalake/ --model_name baselines/deepjoin/all-mpnet-base-v2 --out_csv deepjoin_ft_autofj_gdc.csv --with_header --query_dir datasets/autofj-gdc-breakdown/autofj_gdc_query_columns.csv
+```
+
+**AutoFJ Dataset**
+```bash
+python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/autofj_join_benchmark/datalake/ --model_name baselines/deepjoin/all-mpnet-base-v2 --out_csv deepjoin_ft_autofj.csv --with_header --query_dir datasets/autofj_join_benchmark/groundtruth-joinable.csv
 ```
