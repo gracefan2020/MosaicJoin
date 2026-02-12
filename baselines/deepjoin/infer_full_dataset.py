@@ -110,6 +110,16 @@ def _load_query_pairs(query_file):
                 indices = (header_lower.index(table_key), header_lower.index(col_key))
                 break
 
+        if indices is None and "left_table" in header_lower:
+            t_idx = header_lower.index("left_table")
+            for row in reader:
+                if len(row) <= t_idx:
+                    continue
+                table = row[t_idx].strip()
+                if table:
+                    pairs.append((table, "title"))
+            return pairs
+
         if indices is None:
             if len(header) >= 2:
                 pairs.append((header[0].strip(), header[1].strip()))
