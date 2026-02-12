@@ -1,6 +1,6 @@
 #!/bin/bash
 # Run evaluation on benchmarks
-# Usage: ./run_evaluation.sh [gdc|gdc-autofj|gdc-freyja|autofj|autofj-gdc|autofj-santos|all]
+# Usage: ./run_evaluation.sh [freyja|gdc|gdc-autofj|gdc-freyja|autofj|autofj-wdc|autofj-santos|wt|wt-autofj|wikitable|opendata|all]
 
 set -e
 
@@ -16,7 +16,7 @@ run_freyja() {
     echo "📊 Evaluating Freyja Benchmark (Column-Level)..."
     echo ""
     
-    SEMSKETCH_RESULTS="freyja-experiments/freyja_query_results_k1024_t0.1_top50_slurm/all_query_results.csv"
+    SEMSKETCH_RESULTS="freyja-experiments/freyja_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv"
     # DEEPJOIN_BASE="freyja-experiments/deepjoin-base-freyja.csv"
     DEEPJOIN_FT="freyja-experiments/deepjoin_ft_freyja.csv"
     GROUND_TRUTH="datasets/freyja-semantic-join/freyja_ground_truth_no_column_names.csv"
@@ -51,7 +51,6 @@ run_freyja() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -59,7 +58,6 @@ run_freyja() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
@@ -70,7 +68,7 @@ run_gdc() {
     echo "📊 Evaluating GDC Benchmark (Column-Level)..."
     echo ""
     
-    SEMSKETCH_RESULTS="gdc-experiments/gdc_query_results_k1024_t0.1_top50_slurm/all_query_results.csv"
+    SEMSKETCH_RESULTS="gdc-experiments/gdc_query_results_embeddinggemma_D64_Q64_chamfer_top50_slurm/all_query_results.csv"
     # DEEPJOIN_BASE="gdc-experiments/deepjoin-base-gdc.csv"
     DEEPJOIN_FT="gdc-experiments/deepjoin_ft_gdc.csv"
     GROUND_TRUTH="datasets/gdc-breakdown/join_col_groundtruth.csv"
@@ -105,7 +103,6 @@ run_gdc() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -113,7 +110,6 @@ run_gdc() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
@@ -124,8 +120,8 @@ run_autofj() {
     echo "📊 Evaluating AutoFJ Benchmark (Table-Level)..."
     echo ""
     
-    SEMSKETCH_RESULTS="autofj-experiments/autofj_query_results_k1024_t0.1_top50_slurm/all_query_results.csv"
-    DEEPJOIN_BASE="autofj-experiments/deepjoin-base-autofj-full-ranked.csv"
+    SEMSKETCH_RESULTS="autofj-experiments/autofj_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv"
+    # DEEPJOIN_BASE="autofj-experiments/deepjoin-base-autofj-full-ranked.csv"
     DEEPJOIN_FT="autofj-experiments/deepjoin_ft_autofj_grace.csv"
     GROUND_TRUTH="datasets/autofj_join_benchmark/groundtruth-joinable.csv"
     
@@ -159,7 +155,6 @@ run_autofj() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level table \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -167,21 +162,19 @@ run_autofj() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level table \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
 }
 
-# AutoFJ-GDC Merged Benchmark (Table-Level)
-run_autofj_gdc() {
-    echo "📊 Evaluating AutoFJ-GDC Merged Benchmark (Table-Level)..."
+# autofj-wdc Merged Benchmark (Table-Level)
+run_autofj_wdc() {
+    echo "📊 Evaluating AutoFJ-WDC Merged Benchmark (Table-Level)..."
     echo ""
     
-    SEMSKETCH_RESULTS="autofj-gdc-experiments/autofj-gdc_query_results_k1024_t0.1_top50_slurm/all_query_results.csv"
-    # DEEPJOIN_BASE="autofj-gdc-experiments/deepjoin-base-autofj-gdc-top50.csv"
-    DEEPJOIN_FT="autofj-gdc-experiments/deepjoin_ft_autofj-gdc.csv"
-    GROUND_TRUTH="datasets/autofj-gdc/groundtruth-joinable.csv"
+    SEMSKETCH_RESULTS="autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv"
+    DEEPJOIN_FT="autofj-wdc-experiments/deepjoin_ft_autofj-wdc.csv"
+    GROUND_TRUTH="datasets/autofj-wdc/groundtruth-joinable.csv"
     
     if [ ! -f "$SEMSKETCH_RESULTS" ]; then
         echo "❌ SemSketch results not found: $SEMSKETCH_RESULTS"
@@ -213,7 +206,6 @@ run_autofj_gdc() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level table \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -221,7 +213,6 @@ run_autofj_gdc() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level table \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
@@ -267,7 +258,6 @@ run_gdc_autofj() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -275,7 +265,6 @@ run_gdc_autofj() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
@@ -323,7 +312,6 @@ run_gdc_freyja() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10
     else
@@ -331,7 +319,6 @@ run_gdc_freyja() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10
     fi
@@ -342,11 +329,12 @@ run_wt() {
     echo "📊 Evaluating WT Benchmark (Column-Level)..."
     echo ""
     
-    SEMSKETCH_RESULTS="wt-experiments/wt_query_results_k1024_t0.1_top50_slurm_no_column_names/all_query_results.csv"
+    # SEMSKETCH_RESULTS="wt-experiments/wt_query_results_k1024_t0.1_chamfer_top50_slurm_no_column_names/all_query_results.csv"
+    SEMSKETCH_RESULTS="wt-experiments/wt_query_results_embeddinggemma_D128_Q128_chamfer_top50/all_query_results.csv"
     # DEEPJOIN_BASE="wt-experiments/deepjoin-base-wt.csv"
     DEEPJOIN_FT="wt-experiments/deepjoin_ft_wt_no_col_names.csv"
     GROUND_TRUTH="datasets/wt/wt_join_groundtruth_no_column_names.csv"
-    
+    echo "SEMSKETCH_RESULTS: $SEMSKETCH_RESULTS"
     if [ ! -f "$SEMSKETCH_RESULTS" ]; then
         echo "❌ SemSketch results not found: $SEMSKETCH_RESULTS"
         return 1
@@ -377,7 +365,6 @@ run_wt() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -385,7 +372,6 @@ run_wt() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
@@ -432,7 +418,6 @@ run_wt_autofj() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -440,9 +425,111 @@ run_wt_autofj() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level column \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
+    fi
+}
+
+# WikiTable Benchmark (Table-Level) - Snoopy
+run_wikitable() {
+    echo "📊 Evaluating WikiTable Benchmark (Table-Level)..."
+    echo ""
+    
+    SEMSKETCH_RESULTS="wikitable-experiments/wikitable_query_results_embeddinggemma_D128_Q128_chamfer_top50/all_query_results.csv"
+    DEEPJOIN_BASE="wikitable-experiments/deepjoin_base_wikitable.csv"
+    # DEEPJOIN_FT="wikitable-experiments/deepjoin_ft_wikitable.csv"
+    GROUND_TRUTH="datasets/WikiTable/groundtruth-joinable.csv"
+    
+    if [ ! -f "$SEMSKETCH_RESULTS" ]; then
+        echo "❌ SemSketch results not found: $SEMSKETCH_RESULTS"
+        return 1
+    fi
+    
+    # Build baseline arguments
+    BASELINES=""
+    BASELINE_NAMES=""
+    
+    if [ -f "$DEEPJOIN_BASE" ]; then
+        BASELINES="$DEEPJOIN_BASE"
+        BASELINE_NAMES="DeepJoin-Base"
+    fi
+    
+    if [ -f "$DEEPJOIN_FT" ]; then
+        if [ -n "$BASELINES" ]; then
+            BASELINES="$BASELINES $DEEPJOIN_FT"
+            BASELINE_NAMES="$BASELINE_NAMES DeepJoin-FT"
+        else
+            BASELINES="$DEEPJOIN_FT"
+            BASELINE_NAMES="DeepJoin-FT"
+        fi
+    fi
+    
+    if [ -n "$BASELINES" ]; then
+        python evaluate_retrieval.py \
+            --results "$SEMSKETCH_RESULTS" \
+            --baselines $BASELINES \
+            --baseline-names $BASELINE_NAMES \
+            --ground-truth "$GROUND_TRUTH" \
+            --name "SemSketch" \
+            --k-values 5 15 25
+    else
+        echo "⚠️  No baselines found, evaluating SemSketch only"
+        python evaluate_retrieval.py \
+            --results "$SEMSKETCH_RESULTS" \
+            --ground-truth "$GROUND_TRUTH" \
+            --name "SemSketch" \
+            --k-values 5 15 25
+    fi
+}
+
+# opendata Benchmark (Table-Level) - Snoopy
+run_opendata() {
+    echo "📊 Evaluating opendata Benchmark (Table-Level)..."
+    echo ""
+    
+    SEMSKETCH_RESULTS="opendata-experiments/opendata_query_results_embeddinggemma_D128_Q128_chamfer_top50/all_query_results.csv"
+    # DEEPJOIN_FT="opendata-experiments/deepjoin_ft_opendata.csv"
+    GROUND_TRUTH="datasets/opendata/groundtruth-joinable.csv"
+    
+    if [ ! -f "$SEMSKETCH_RESULTS" ]; then
+        echo "❌ SemSketch results not found: $SEMSKETCH_RESULTS"
+        return 1
+    fi
+    
+    # Build baseline arguments
+    BASELINES=""
+    BASELINE_NAMES=""
+    
+    if [ -f "$DEEPJOIN_BASE" ]; then
+        BASELINES="$DEEPJOIN_BASE"
+        BASELINE_NAMES="DeepJoin-Base"
+    fi
+    
+    if [ -f "$DEEPJOIN_FT" ]; then
+        if [ -n "$BASELINES" ]; then
+            BASELINES="$BASELINES $DEEPJOIN_FT"
+            BASELINE_NAMES="$BASELINE_NAMES DeepJoin-FT"
+        else
+            BASELINES="$DEEPJOIN_FT"
+            BASELINE_NAMES="DeepJoin-FT"
+        fi
+    fi
+    
+    if [ -n "$BASELINES" ]; then
+        python evaluate_retrieval.py \
+            --results "$SEMSKETCH_RESULTS" \
+            --baselines $BASELINES \
+            --baseline-names $BASELINE_NAMES \
+            --ground-truth "$GROUND_TRUTH" \
+            --name "SemSketch" \
+            --k-values 5 15 25
+    else
+        echo "⚠️  No baselines found, evaluating SemSketch only"
+        python evaluate_retrieval.py \
+            --results "$SEMSKETCH_RESULTS" \
+            --ground-truth "$GROUND_TRUTH" \
+            --name "SemSketch" \
+            --k-values 5 15 25
     fi
 }
 
@@ -486,7 +573,6 @@ run_autofj_santos() {
             --baselines $BASELINES \
             --baseline-names $BASELINE_NAMES \
             --ground-truth "$GROUND_TRUTH" \
-            --level table \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     else
@@ -494,7 +580,6 @@ run_autofj_santos() {
         python evaluate_retrieval.py \
             --results "$SEMSKETCH_RESULTS" \
             --ground-truth "$GROUND_TRUTH" \
-            --level table \
             --name "SemSketch" \
             --k-values 1 3 5 10 20 30 40 50
     fi
@@ -517,8 +602,8 @@ case $BENCHMARK in
     autofj)
         run_autofj
         ;;
-    autofj-gdc)
-        run_autofj_gdc
+    autofj-wdc)
+        run_autofj_wdc
         ;;
     autofj-santos)
         run_autofj_santos
@@ -528,6 +613,12 @@ case $BENCHMARK in
         ;;
     wt-autofj)
         run_wt_autofj
+        ;;
+    wikitable)
+        run_wikitable
+        ;;
+    opendata)
+        run_opendata
         ;;
     all)
         run_freyja
@@ -550,7 +641,7 @@ case $BENCHMARK in
         echo ""
         echo "=============================================="
         echo ""
-        run_autofj_gdc
+        run_autofj_wdc
         echo ""
         echo "=============================================="
         echo ""
@@ -563,9 +654,17 @@ case $BENCHMARK in
         echo "=============================================="
         echo ""
         run_wt_autofj
+        echo ""
+        echo "=============================================="
+        echo ""
+        run_wikitable
+        echo ""
+        echo "=============================================="
+        echo ""
+        run_opendata
         ;;
     *)
-        echo "Usage: $0 [freyja|gdc|gdc-autofj|gdc-freyja|autofj|autofj-gdc|autofj-santos|wt|wt-autofj|all]"
+        echo "Usage: $0 [freyja|gdc|gdc-autofj|gdc-freyja|autofj|autofj-wdc|autofj-santos|wt|wt-autofj|wikitable|opendata|all]"
         echo ""
         echo "Benchmarks:"
         echo "  freyja        - Freyja column-level benchmark (with DeepJoin-FT comparison)"
@@ -573,10 +672,12 @@ case $BENCHMARK in
         echo "  gdc-autofj    - GDC-AutoFJ column-level benchmark (with DeepJoin-FT comparison)"
         echo "  gdc-freyja    - GDC-Freyja column-level benchmark (with DeepJoin-FT comparison)"
         echo "  autofj        - AutoFJ table-level benchmark (with DeepJoin-Base & DeepJoin-FT comparison)"
-        echo "  autofj-gdc    - AutoFJ-GDC merged table-level benchmark (with DeepJoin-FT comparison)"
+        echo "  autofj-wdc    - autofj-wdc merged table-level benchmark (with DeepJoin-FT comparison)"
         echo "  autofj-santos - AutoFJ-Santos table-level benchmark (with DeepJoin-FT comparison)"
         echo "  wt            - WT column-level benchmark (with DeepJoin-FT comparison)"
-        echo "  wt-autofj      - WT-AutoFJ column-level benchmark (with DeepJoin-FT comparison)"
+        echo "  wt-autofj     - WT-AutoFJ column-level benchmark (with DeepJoin-FT comparison)"
+        echo "  wikitable     - WikiTable table-level benchmark (Snoopy, with DeepJoin comparison)"
+        echo "  opendata      - opendata table-level benchmark (Snoopy, with DeepJoin comparison)"
         echo "  all           - Run all benchmarks"
         exit 1
         ;;

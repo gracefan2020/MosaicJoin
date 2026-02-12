@@ -1,6 +1,6 @@
 __pycache__
 **/.DS_Store
-./offline_data
-./datasets
-**/*_offline_data
+**/*_offline_data*
 **/*_chunk_*
+**/*.log
+**/*.sh

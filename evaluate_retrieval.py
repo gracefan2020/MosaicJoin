@@ -3,16 +3,17 @@
 General Evaluation Script for Semantic Join Retrieval Results
 
 Supports both table-level and column-level evaluation with:
-- HITS@K, Precision@K, Recall@K, NDCG@K
+- HITS@K, Precision@K, Recall@K, NDCG@K, MRR@K
 - All metrics use MACRO-AVERAGING (per-query score averaged over all queries)
+- Auto-detects evaluation level from ground truth format
 - Optional comparison between two methods (e.g., SemSketch vs DeepJoin)
 
 Usage:
-    # Single method evaluation
-    python evaluate_retrieval.py --results results.csv --ground-truth gt.csv --level column
+    # Single method evaluation (auto-detects level from ground truth)
+    python evaluate_retrieval.py --results results.csv --ground-truth gt.csv
 
     # Compare two methods
-    python evaluate_retrieval.py --results semsketch.csv --baseline deepjoin.csv --ground-truth gt.csv --level table
+    python evaluate_retrieval.py --results semsketch.csv --baseline deepjoin.csv --ground-truth gt.csv
 """
 
 import math
@@ -27,38 +28,93 @@ from collections import defaultdict
 # Ground Truth Loading
 # =============================================================================
 
+def detect_ground_truth_level(gt_file: str) -> str:
+    """Auto-detect whether ground truth is column-level or table-level based on columns.
+    
+    Column-level formats (has column info):
+        - GDC: source_table, source_column, target_table, target_column
+        - Freyja: target_ds, target_attr, candidate_ds, candidate_attr
+    
+    Table-level formats (no column info):
+        - AutoFJ: left_table, right_table
+    """
+    df = pd.read_csv(gt_file, nrows=1)
+    cols = set(df.columns)
+    
+    # Check for column-level indicators
+    column_level_indicators = [
+        {'source_column', 'target_column'},  # GDC format
+        {'target_attr', 'candidate_attr'},   # Freyja format
+    ]
+    
+    for indicators in column_level_indicators:
+        if indicators.issubset(cols):
+            return 'column'
+    
+    # Otherwise it's table-level
+    return 'table'
+
+
 def load_ground_truth_column_level(gt_file: str) -> Dict[Tuple[str, str], Set[Tuple[str, str]]]:
-    """Load column-level ground truth (e.g., GDC benchmark)."""
+    """Load column-level ground truth (e.g., GDC, Freyja benchmarks).
+    
+    Supports multiple column name formats:
+        - GDC: source_table, source_column, target_table, target_column
+        - Freyja: target_ds, target_attr, candidate_ds, candidate_attr
+    """
     df = pd.read_csv(gt_file)
     ground_truth = defaultdict(set)
     
+    # Detect column naming convention
+    if 'source_table' in df.columns:
+        # GDC format
+        src_table_col, src_col_col = 'source_table', 'source_column'
+        tgt_table_col, tgt_col_col = 'target_table', 'target_column'
+    elif 'target_ds' in df.columns:
+        # Freyja format
+        src_table_col, src_col_col = 'target_ds', 'target_attr'
+        tgt_table_col, tgt_col_col = 'candidate_ds', 'candidate_attr'
+    else:
+        raise ValueError(f"Unknown column-level ground truth format. Columns: {df.columns.tolist()}")
+    
     for _, row in df.iterrows():
-        src_table = str(row['source_table']).replace('.csv', '').lower()
-        src_col = str(row['source_column']).lower()
-        tgt_table = str(row['target_table']).replace('.csv', '').lower()
-        tgt_col = str(row['target_column']).lower()
+        src_table = str(row[src_table_col]).replace('.csv', '').lower()
+        src_col = str(row[src_col_col]).lower()
+        tgt_table = str(row[tgt_table_col]).replace('.csv', '').lower()
+        tgt_col = str(row[tgt_col_col]).lower()
         ground_truth[(src_table, src_col)].add((tgt_table, tgt_col))
     
     return dict(ground_truth)
 
 
 def load_ground_truth_table_level(gt_file: str) -> Dict[str, Set[str]]:
-    """Load table-level ground truth (e.g., AutoFJ benchmark)."""
+    """Load table-level ground truth (e.g., AutoFJ benchmark).
+    
+    Supports multiple column name formats:
+        - AutoFJ: left_table, right_table
+        - Alternative: target_ds, candidate_ds (without column attrs)
+    """
     df = pd.read_csv(gt_file)
     ground_truth = defaultdict(set)
     
     if 'left_table' in df.columns:
         for _, row in df.iterrows():
-            left = row['left_table'].replace('.csv', '').lower()
-            right = row['right_table'].replace('.csv', '').lower()
+            left = str(row['left_table']).replace('.csv', '').lower()
+            right = str(row['right_table']).replace('.csv', '').lower()
             ground_truth[left].add(right)
     elif 'target_ds' in df.columns:
         for _, row in df.iterrows():
-            query = row['target_ds'].replace('.csv', '').lower()
-            candidate = row['candidate_ds'].replace('.csv', '').lower()
+            query = str(row['target_ds']).replace('.csv', '').lower()
+            candidate = str(row['candidate_ds']).replace('.csv', '').lower()
             ground_truth[query].add(candidate)
+    elif 'source_table' in df.columns:
+        # Column-level format but used for table-level eval (ignore columns)
+        for _, row in df.iterrows():
+            src = str(row['source_table']).replace('.csv', '').lower()
+            tgt = str(row['target_table']).replace('.csv', '').lower()
+            ground_truth[src].add(tgt)
     else:
-        raise ValueError(f"Unknown ground truth format. Columns: {df.columns.tolist()}")
+        raise ValueError(f"Unknown table-level ground truth format. Columns: {df.columns.tolist()}")
     
     return dict(ground_truth)
 
@@ -142,13 +198,15 @@ def compute_ndcg(relevance_list: List[int], k: int, num_relevant: int) -> float:
 # =============================================================================
 
 def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], level: str) -> Tuple[Dict, int, Dict]:
-    """Evaluate HITS@K, Precision@K, Recall@K, NDCG@K using MACRO-AVERAGING."""
+    """Evaluate HITS@K, Precision@K, Recall@K, NDCG@K, MRR using MACRO-AVERAGING."""
     hits_sum = {k: 0.0 for k in k_values}
     precision_sum = {k: 0.0 for k in k_values}
     recall_sum = {k: 0.0 for k in k_values}
     ndcg_sum = {k: 0.0 for k in k_values}
+    mrr_sum = {k: 0.0 for k in k_values}
     
     total = 0
+    mrr_full_sum = 0.0  # MRR over all results (not truncated at K)
     precision_at_gt_sum = 0.0
     recall_at_gt_sum = 0.0
     ndcg_at_gt_sum = 0.0
@@ -166,11 +224,27 @@ def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], lev
         gt_size = len(expected_set)
         
         if level == 'column':
+            # Column-level: only count each unique (table, column) once (avoid over-counting)
             candidates = [(c[0], c[1]) for c in results[query]]
-            relevance = [1 if c in expected_set else 0 for c in candidates]
+            seen_candidates = set()
+            relevance = []
+            for c in candidates:
+                if c in expected_set and c not in seen_candidates:
+                    relevance.append(1)
+                    seen_candidates.add(c)
+                else:
+                    relevance.append(0)
         else:
+            # Table-level: only count each unique table once (avoid over-counting)
             candidates = [c[0] for c in results[query]]
-            relevance = [1 if c in expected_set else 0 for c in candidates]
+            seen_tables = set()
+            relevance = []
+            for c in candidates:
+                if c in expected_set and c not in seen_tables:
+                    relevance.append(1)
+                    seen_tables.add(c)
+                else:
+                    relevance.append(0)
         
         # Metrics at |GT| size
         num_correct_at_gt = sum(relevance[:gt_size])
@@ -184,12 +258,22 @@ def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], lev
         ndcg_at_gt_sum += ndcg_at_gt
         hits_at_gt_sum += hit_at_gt
         
+        # Compute reciprocal rank (find first relevant result)
+        first_relevant_rank = None
+        for i, rel in enumerate(relevance):
+            if rel > 0:
+                first_relevant_rank = i + 1  # 1-indexed rank
+                break
+        rr_full = 1.0 / first_relevant_rank if first_relevant_rank else 0.0
+        mrr_full_sum += rr_full
+        
         per_query_metrics[query] = {
             'gt_size': gt_size,
             'num_correct_at_gt': num_correct_at_gt,
             'precision_at_gt': precision_at_gt,
             'recall_at_gt': recall_at_gt,
-            'ndcg_at_gt': ndcg_at_gt
+            'ndcg_at_gt': ndcg_at_gt,
+            'reciprocal_rank': rr_full
         }
         
         for k in k_values:
@@ -198,12 +282,16 @@ def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], lev
             precision_sum[k] += num_correct / k
             recall_sum[k] += num_correct / gt_size
             ndcg_sum[k] += compute_ndcg(relevance, k, gt_size)
+            # MRR@K: only count if first relevant is within top K
+            if first_relevant_rank and first_relevant_rank <= k:
+                mrr_sum[k] += 1.0 / first_relevant_rank
     
     metrics = {
         'hits': {k: hits_sum[k] / total if total > 0 else 0.0 for k in k_values},
         'precision': {k: precision_sum[k] / total if total > 0 else 0.0 for k in k_values},
         'recall': {k: recall_sum[k] / total if total > 0 else 0.0 for k in k_values},
-        'ndcg': {k: ndcg_sum[k] / total if total > 0 else 0.0 for k in k_values}
+        'ndcg': {k: ndcg_sum[k] / total if total > 0 else 0.0 for k in k_values},
+        'mrr': {k: mrr_sum[k] / total if total > 0 else 0.0 for k in k_values}
     }
     
     gt_size_metrics = {
@@ -212,6 +300,7 @@ def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], lev
         'ndcg_at_gt': ndcg_at_gt_sum / total if total > 0 else 0.0,
         'hits_at_gt': hits_at_gt_sum / total if total > 0 else 0.0,
         'hits_at_gt_count': int(hits_at_gt_sum),
+        'mrr': mrr_full_sum / total if total > 0 else 0.0,  # Full MRR (not truncated)
         'per_query': per_query_metrics
     }
     
@@ -224,18 +313,19 @@ def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], lev
 
 def print_metrics(metrics: Dict, total: int, name: str, k_values: List[int]):
     """Print formatted metrics table."""
-    print(f"\n{'=' * 80}")
+    print(f"\n{'=' * 90}")
     print(f"{name} (n={total} queries, macro-averaged)")
-    print(f"{'=' * 80}")
-    print(f"{'K':>4} {'HITS@K':>14} {'Precision@K':>14} {'Recall@K':>12} {'NDCG@K':>12}")
-    print("-" * 70)
+    print(f"{'=' * 90}")
+    print(f"{'K':>4} {'HITS@K':>14} {'Precision@K':>14} {'Recall@K':>12} {'NDCG@K':>12} {'MRR@K':>10}")
+    print("-" * 80)
     for k in k_values:
         h = metrics['hits'][k]
         p = metrics['precision'][k]
         r = metrics['recall'][k]
         n = metrics['ndcg'][k]
+        m = metrics['mrr'][k]
         hit_count = int(h * total)
-        print(f"{k:>4} {h:>8.3f} ({hit_count:>3}) {p:>12.3f} {r:>12.3f} {n:>12.3f}")
+        print(f"{k:>4} {h:>8.3f} ({hit_count:>3}) {p:>12.3f} {r:>12.3f} {n:>12.3f} {m:>10.3f}")
 
 
 def print_gt_size_metrics(gt_size_metrics: Dict, total: int):
@@ -253,6 +343,7 @@ def print_gt_size_metrics(gt_size_metrics: Dict, total: int):
     print(f"  Precision@|GT|: {gt_size_metrics['precision_at_gt']:>8.3f}")
     print(f"  Recall@|GT|:    {gt_size_metrics['recall_at_gt']:>8.3f}")
     print(f"  NDCG@|GT|:      {gt_size_metrics['ndcg_at_gt']:>8.3f}")
+    print(f"  MRR (full):     {gt_size_metrics['mrr']:>8.3f}")
 
 
 def print_comparison(metrics1: Dict, metrics2: Dict, name1: str, name2: str, k_values: List[int]):
@@ -262,7 +353,7 @@ def print_comparison(metrics1: Dict, metrics2: Dict, name1: str, name2: str, k_v
     print(f"{'=' * 75}")
     
     for metric_name, metric_key in [("HITS@K", "hits"), ("Precision@K", "precision"), 
-                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg")]:
+                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg"), ("MRR@K", "mrr")]:
         print(f"\n--- {metric_name} ---")
         print(f"{'K':>4} {name1:>12} {name2:>12} {'Δ':>10} {'Winner':>12}")
         print("-" * 55)
@@ -296,7 +387,7 @@ def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int, Dict]], k_val
     print(f"{'=' * (10 + col_width * len(names))}")
     
     for metric_name, metric_key in [("HITS@K", "hits"), ("Precision@K", "precision"), 
-                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg")]:
+                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg"), ("MRR@K", "mrr")]:
         print(f"\n--- {metric_name} ---")
         header = f"{'K':>4}"
         for name in names:
@@ -333,7 +424,8 @@ def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int, Dict]], k_val
     print("-" * (18 + col_width * len(names)))
     
     for metric_name, metric_key in [("HITS@|GT|", "hits_at_gt"), ("Precision@|GT|", "precision_at_gt"), 
-                                      ("Recall@|GT|", "recall_at_gt"), ("NDCG@|GT|", "ndcg_at_gt")]:
+                                      ("Recall@|GT|", "recall_at_gt"), ("NDCG@|GT|", "ndcg_at_gt"),
+                                      ("MRR (full)", "mrr")]:
         row = f"{metric_name:>16}"
         values = [m.get(metric_key, 0.0) if m else 0.0 for m in gt_metrics_list]
         best_val = max(values) if values else 0.0
@@ -349,8 +441,8 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Single method
-  python evaluate_retrieval.py --results results.csv --ground-truth gt.csv --level column
+  # Single method (auto-detects level from ground truth)
+  python evaluate_retrieval.py --results results.csv --ground-truth gt.csv
 
   # Compare SemSketch vs DeepJoin
   python evaluate_retrieval.py --results semsketch.csv --baseline deepjoin.csv --ground-truth gt.csv
@@ -359,25 +451,21 @@ Examples:
   python evaluate_retrieval.py --results semsketch.csv \\
       --baselines deepjoin_base.csv deepjoin_ft.csv \\
       --baseline-names "DeepJoin-Base" "DeepJoin-FT" \\
-      --ground-truth gt.csv --level table
+      --ground-truth gt.csv
         """
     )
     parser.add_argument('--results', type=str, required=True, help='Path to results CSV (SemSketch)')
     parser.add_argument('--baseline', type=str, help='Path to baseline results CSV (single baseline)')
     parser.add_argument('--baselines', type=str, nargs='+', help='Paths to multiple baseline CSVs')
     parser.add_argument('--ground-truth', type=str, required=True, help='Path to ground truth CSV')
-    parser.add_argument('--level', type=str, choices=['table', 'column'], default='column',
-                       help='Evaluation level (default: column)')
+    parser.add_argument('--level', type=str, choices=['table', 'column', 'auto'], default='auto',
+                       help='Evaluation level: auto-detect from ground truth (default), table, or column')
     parser.add_argument('--k-values', type=int, nargs='+', default=[1, 3, 5, 10],
                        help='K values for evaluation (default: 1 3 5 10)')
     parser.add_argument('--name', type=str, default='SemSketch', help='Name for the main results')
     parser.add_argument('--baseline-name', type=str, default='DeepJoin', help='Name for single baseline')
     parser.add_argument('--baseline-names', type=str, nargs='+', help='Names for multiple baselines')
     args = parser.parse_args()
-    
-    print("=" * 70)
-    print(f"SEMANTIC JOIN RETRIEVAL EVALUATION ({args.level.upper()}-LEVEL)")
-    print("=" * 70)
     
     # Validate paths
     if not Path(args.ground_truth).exists():
@@ -388,8 +476,18 @@ Examples:
         print(f"❌ Results not found: {args.results}")
         return 1
     
+    # Auto-detect level if needed
+    level = args.level
+    if level == 'auto':
+        level = detect_ground_truth_level(args.ground_truth)
+        print(f"Auto-detected evaluation level: {level.upper()}")
+    
+    print("=" * 70)
+    print(f"SEMANTIC JOIN RETRIEVAL EVALUATION ({level.upper()}-LEVEL)")
+    print("=" * 70)
+    
     # Load ground truth
-    if args.level == 'column':
+    if level == 'column':
         gt = load_ground_truth_column_level(args.ground_truth)
         load_results = load_results_column_level
     else:
@@ -402,7 +500,7 @@ Examples:
     # Evaluate main results
     results = load_results(args.results)
     print(f"{args.name} results: {len(results)} queries")
-    metrics, total, gt_size_metrics = evaluate_metrics(gt, results, args.k_values, args.level)
+    metrics, total, gt_size_metrics = evaluate_metrics(gt, results, args.k_values, level)
     
     # Collect all metrics for multi-comparison (name, metrics, total, gt_size_metrics)
     all_metrics = [(args.name, metrics, total, gt_size_metrics)]
@@ -418,7 +516,7 @@ Examples:
                 baseline_results = load_results(baseline_path)
                 print(f"{baseline_name} results: {len(baseline_results)} queries")
                 baseline_metrics, baseline_total, baseline_gt_metrics = evaluate_metrics(
-                    gt, baseline_results, args.k_values, args.level
+                    gt, baseline_results, args.k_values, level
                 )
                 all_metrics.append((baseline_name, baseline_metrics, baseline_total, baseline_gt_metrics))
             else:
@@ -432,7 +530,7 @@ Examples:
         baseline_results = load_results(args.baseline)
         print(f"\n{args.baseline_name} results: {len(baseline_results)} queries")
         baseline_metrics, baseline_total, baseline_gt_metrics = evaluate_metrics(
-            gt, baseline_results, args.k_values, args.level
+            gt, baseline_results, args.k_values, level
         )
         print_metrics(metrics, total, args.name, args.k_values)
         print_gt_size_metrics(gt_size_metrics, total)
