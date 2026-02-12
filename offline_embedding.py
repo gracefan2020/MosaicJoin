@@ -204,12 +204,13 @@ class EmbeddingGemmaEmbedder(BaseEmbedder):
     """EmbeddingGemma-300M with Matryoshka truncation (128/256/512/768 dims)."""
     
     def __init__(self, model_name: str = "google/embeddinggemma-300m", 
-                 device: str = "cpu", output_dim: int = 128):
+                 device: str = "cpu", output_dim: int = 128, mode: str = "document"):
         super().__init__(device)
         self.model = SentenceTransformer(model_name, device=device)
         self.dimension = output_dim
         self.model_name = model_name
         print(f"EmbeddingGemma initialized with output_dim={output_dim}")
+        self.mode = mode
     
     def embed_texts(self, texts: List[str]) -> np.ndarray:
         """Embed texts with Matryoshka truncation."""
@@ -217,15 +218,22 @@ class EmbeddingGemmaEmbedder(BaseEmbedder):
             return np.zeros((0, self.dimension), dtype=np.float32)
         
         start_time = time.time()
-        embeddings = self.model.encode(
-            texts, 
-            convert_to_numpy=True,
-            truncate_dim=self.dimension,
-            normalize_embeddings=True
-        ).astype(np.float32)
-        
+        if self.mode == "query":
+            emb = self.model.encode_query(
+                texts,
+                convert_to_numpy=True,
+                truncate_dim=self.dimension,
+                normalize_embeddings=True,
+            )
+        else:
+            emb = self.model.encode_document(
+                texts,
+                convert_to_numpy=True,
+                truncate_dim=self.dimension,
+                normalize_embeddings=True,
+            )
         self._update_timing_stats(time.time() - start_time, len(texts))
-        return embeddings
+        return emb.astype(np.float32)
     
     def embed_values(self, values: List[str], column_name: str) -> np.ndarray:
         """Embed values with column context."""
@@ -233,7 +241,7 @@ class EmbeddingGemmaEmbedder(BaseEmbedder):
             return np.zeros((0, self.dimension), dtype=np.float32)
         
         clean_col = str(column_name).strip().lower().replace('_', ' ').replace('-', ' ')
-        texts = [f"title: {clean_col} | text: {str(v).strip() or 'unknown'}" for v in values]
+        texts = [f"{str(v)}" for v in values]
         return self.embed_texts(texts)
 
 
@@ -557,7 +565,7 @@ def create_mpnet_embedder(device: str = "auto") -> MPNetEmbedder:
 
 
 def create_embedder(model: str = "mpnet", device: str = "auto", 
-                    embedding_dim: int = 128) -> BaseEmbedder:
+                    embedding_dim: int = 128, mode: str = "document") -> BaseEmbedder:
     """Create an embedder with specified model and device.
     
     Args:
@@ -576,7 +584,7 @@ def create_embedder(model: str = "mpnet", device: str = "auto",
         return MPNetEmbedder(device=device)
     elif model.lower() in ("embeddinggemma", "gemma"):
         print(f"EmbeddingGemma output dimension: {embedding_dim}")
-        return EmbeddingGemmaEmbedder(device=device, output_dim=embedding_dim)
+        return EmbeddingGemmaEmbedder(device=device, output_dim=embedding_dim, mode=mode)
     else:
         raise ValueError(f"Unknown embedding model: {model}. Use 'mpnet' or 'embeddinggemma'")
 

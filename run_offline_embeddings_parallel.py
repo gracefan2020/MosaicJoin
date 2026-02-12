@@ -51,20 +51,28 @@ def cleanup_previous_runs(output_dir: str):
         script_file.unlink()
 
 def main():
+    embedding_model = "embeddinggemma"
+
     # Configuration
     # # For Freyja
     # datalake_dir = "datasets/freyja-semantic-join/datalake/singletons"
     # exp_dir = "freyja-experiments"
-    # output_dir = "freyja-experiments/freyja_offline_data"
+    # output_dir = f"freyja-experiments/freyja_offline_data_{embedding_model}"
 
     # # For AutoFuzzyJoin
     # datalake_dir = "datasets/autofj_join_benchmark/datalake"
-    # output_dir = "autofj-experiments/autofj_offline_data"
+    # exp_dir = "autofj-experiments"
+    # output_dir = f"autofj-experiments/autofj_offline_data_{embedding_model}"
+
+    # For AutoFuzzyJoin-WDC
+    datalake_dir = "datasets/autofj-wdc/datalake"
+    exp_dir = "autofj-wdc-experiments"
+    output_dir = f"autofj-wdc-experiments/autofj-wdc_offline_data_{embedding_model}"
 
     # # For GDC
     # datalake_dir = "datasets/gdc-breakdown/datalake"
     # exp_dir = "gdc-experiments"
-    # output_dir = "gdc-experiments/gdc_offline_data"
+    # output_dir = f"gdc-experiments/gdc_offline_data_{embedding_model}"
 
     # # For AutoFJ+GDC
     # datalake_dir = "datasets/autofj-gdc/datalake"
@@ -86,18 +94,36 @@ def main():
     # exp_dir = "autofj-santos-experiments"
     # output_dir = "autofj-santos-experiments/autofj-santos_offline_data"
 
-    # For WT
-    datalake_dir = "datasets/wt/datalake_no_column_names"
-    exp_dir = "wt-experiments"
-    embedding_model = "embeddinggemma"
-    output_dir = f"wt-experiments/wt_offline_data_{embedding_model}_no_column_names"
+    # # For WT
+    # datalake_dir = "datasets/wt/datalake_no_column_names"
+    # exp_dir = "wt-experiments"
+    # embedding_model = "embeddinggemma"
+    # output_dir = f"wt-experiments/wt_offline_data_{embedding_model}_no_column_names"
 
     # # For WT+AutoFJ
     # datalake_dir = "datasets/wt-autofj/datalake_no_column_names"
     # exp_dir = "wt-autofj-experiments"
     # output_dir = "wt-autofj-experiments/wt-autofj_offline_data_no_column_names"
 
-    num_chunks = 4
+    """
+    Snoopy datasets
+    """
+    # # For WikiTable
+    # datalake_dir = "datasets/WikiTable/datalake"
+    # exp_dir = "wikitable-experiments"
+    # output_dir = f"{exp_dir}/wikitable_offline_data_{embedding_model}"
+
+    # # For WDC
+    # datalake_dir = "datasets/WDC/datalake"
+    # exp_dir = "wdc-experiments"
+    # output_dir = f"{exp_dir}/wdc_offline_data_{embedding_model}"
+
+    # # For opendata
+    # datalake_dir = "datasets/opendata/datalake"
+    # exp_dir = "opendata-experiments"
+    # output_dir = f"{exp_dir}/opendata_offline_data_{embedding_model}"
+
+    num_chunks = 10
     device = "auto"
     
     # Clean up all previous runs
@@ -144,7 +170,7 @@ def main():
         os.chmod(script_filename, 0o755)
         
         # Submit the script to SLURM
-        slurm_cmd = f'sbatch --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output={exp_dir}/embedding_chunk_{embedding_model}_{i}.log {script_filename}'
+        slurm_cmd = f'sbatch --account torch_pr_66_general --gres=gpu:1 --nodes=1 --tasks-per-node=1 --cpus-per-task=1 --mem=20GB --time=10:00:00 --output={exp_dir}/embedding_chunk_{embedding_model}_{i}.log {script_filename}'
         
         print(f"Created script: {script_filename}")
         print(f"Running slurm command: {slurm_cmd}")

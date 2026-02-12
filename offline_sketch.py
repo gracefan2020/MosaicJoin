@@ -28,7 +28,6 @@ from tqdm import tqdm
 class SketchConfig:
     """Configuration for offline sketch creation."""
     sketch_size: int = 1024
-    similarity_threshold: float = 0.7
     selection_method: str = "k_closest"  # "k_closest", "farthest_point", "centroid_distance"
     skip_empty_columns: bool = True
     output_dir: str = "offline_sketches"
@@ -70,6 +69,58 @@ class SketchMetadata:
     sketch_k: int
     processing_time: float
     file_path: str
+
+
+def farthest_point_sampling(X: np.ndarray, k: int) -> np.ndarray:
+    """Select k diverse points using farthest point sampling.
+    
+    Algorithm:
+    1. Start with the point closest to centroid (most representative)
+    2. Iteratively add the point that is farthest from all selected points
+    
+    This ensures diverse, well-distributed representatives that cover
+    the full semantic space of the column.
+    
+    This is a greedy approximation to the k-center problem.
+    
+    Time complexity: O(n * k) where n = number of embeddings
+    
+    Args:
+        X: (n, d) array of embeddings
+        k: Number of points to select
+        
+    Returns:
+        Array of selected indices
+    """
+    n = len(X)
+    k = min(k, n)
+    
+    if k == 0:
+        return np.array([], dtype=int)
+    
+    # Start with the point closest to centroid
+    centroid = np.mean(X, axis=0)
+    distances_to_centroid = np.linalg.norm(X - centroid, axis=1)
+    first_idx = int(np.argmin(distances_to_centroid))
+    
+    selected = [first_idx]
+    
+    # Track minimum distance to any selected point for each candidate
+    min_distances = np.linalg.norm(X - X[first_idx], axis=1)
+    min_distances[first_idx] = -np.inf  # Exclude already selected
+    
+    # Iteratively select farthest point
+    for _ in range(k - 1):
+        # Select point with maximum minimum distance to selected set
+        next_idx = int(np.argmax(min_distances))
+        selected.append(next_idx)
+        
+        # Update minimum distances
+        new_distances = np.linalg.norm(X - X[next_idx], axis=1)
+        min_distances = np.minimum(min_distances, new_distances)
+        min_distances[next_idx] = -np.inf  # Exclude already selected
+    
+    return np.array(selected, dtype=int)
 
 
 class OfflineSketchBuilder:
@@ -274,48 +325,8 @@ class OfflineSketchBuilder:
         return idx_sorted, norms[idx_sorted]
     
     def _farthest_point_sampling(self, X: np.ndarray, k: int) -> np.ndarray:
-        """Select k diverse points using farthest point sampling.
-        
-        Algorithm:
-        1. Start with the point closest to centroid (most representative)
-        2. Iteratively add the point that is farthest from all selected points
-        
-        This ensures diverse, well-distributed representatives that cover
-        the full semantic space of the column.
-        
-        This is a greedy approximation to the k-center problem.
-        
-        Time complexity: O(n * k) where n = number of embeddings
-        """
-        n = len(X)
-        k = min(k, n)
-        
-        if k == 0:
-            return np.array([], dtype=int)
-        
-        # Start with the point closest to centroid
-        centroid = np.mean(X, axis=0)
-        distances_to_centroid = np.linalg.norm(X - centroid, axis=1)
-        first_idx = np.argmin(distances_to_centroid)
-        
-        selected = [first_idx]
-        
-        # Track minimum distance to any selected point for each candidate
-        min_distances = np.linalg.norm(X - X[first_idx], axis=1)
-        min_distances[first_idx] = -np.inf  # Exclude already selected
-        
-        # Iteratively select farthest point
-        for _ in range(k - 1):
-            # Select point with maximum minimum distance to selected set
-            next_idx = np.argmax(min_distances)
-            selected.append(next_idx)
-            
-            # Update minimum distances
-            new_distances = np.linalg.norm(X - X[next_idx], axis=1)
-            min_distances = np.minimum(min_distances, new_distances)
-            min_distances[next_idx] = -np.inf  # Exclude already selected
-        
-        return np.array(selected, dtype=int)
+        """Wrapper for standalone farthest_point_sampling function."""
+        return farthest_point_sampling(X, k)
     
     def _save_sketch_and_metadata(self, table_name: str, column_name: str,
                                   column_index: int, sketch: SemanticSketch,
@@ -376,45 +387,353 @@ def load_offline_sketch(table_name: str, column_name: str, column_index: int,
         return None
 
 
+class ConsolidatedSketchStore:
+    """
+    Memory-efficient consolidated sketch storage.
+    
+    Instead of loading thousands of individual pickle files, this stores all sketches
+    in a single memory-mapped numpy file for fast bulk loading.
+    
+    Structure:
+    - sketches_consolidated.npy: All representative vectors concatenated (memory-mappable)
+    - sketches_index.pkl: Index mapping (table, column, idx) -> (start_row, end_row, metadata)
+    """
+    
+    def __init__(self, store_path: Path, mode: str = 'r'):
+        """
+        Args:
+            store_path: Directory containing consolidated sketch files
+            mode: 'r' for read-only, 'w' for write
+        """
+        self.store_path = Path(store_path)
+        self.mode = mode
+        self.vectors_file = self.store_path / "sketches_consolidated.npy"
+        self.index_file = self.store_path / "sketches_index.pkl"
+        self.centroids_file = self.store_path / "sketches_centroids.npy"
+        
+        self._vectors: Optional[np.ndarray] = None
+        self._centroids: Optional[np.ndarray] = None
+        self._index: Dict[Tuple[str, str, int], Dict] = {}
+        self._loaded = False
+    
+    def load(self, mmap_mode: Optional[str] = 'r') -> None:
+        """
+        Load the consolidated sketch store.
+        
+        Args:
+            mmap_mode: Memory-map mode ('r', 'r+', 'c', None). 
+                       'r' = read-only mmap (fastest, lowest memory)
+                       None = load fully into RAM (faster access but more memory)
+        """
+        if not self.vectors_file.exists() or not self.index_file.exists():
+            raise FileNotFoundError(f"Consolidated sketch store not found at {self.store_path}")
+        
+        # Load index (small, always fully loaded)
+        with open(self.index_file, 'rb') as f:
+            self._index = pickle.load(f)
+        
+        # Load vectors (potentially memory-mapped)
+        self._vectors = np.load(self.vectors_file, mmap_mode=mmap_mode)
+        
+        # Load centroids if they exist
+        if self.centroids_file.exists():
+            self._centroids = np.load(self.centroids_file, mmap_mode=mmap_mode)
+        
+        self._loaded = True
+    
+    def get_sketch(self, table_name: str, column_name: str, column_index: int) -> Optional[SemanticSketch]:
+        """Get a sketch by key."""
+        if not self._loaded:
+            raise RuntimeError("Store not loaded. Call load() first.")
+        
+        key = (table_name, column_name, column_index)
+        if key not in self._index:
+            return None
+        
+        meta = self._index[key]
+        start_row = meta['start_row']
+        end_row = meta['end_row']
+        centroid_idx = meta.get('centroid_idx', -1)
+        
+        representative_vectors = np.array(self._vectors[start_row:end_row])
+        
+        if self._centroids is not None and centroid_idx >= 0:
+            centroid = np.array(self._centroids[centroid_idx])
+        else:
+            centroid = meta.get('centroid', np.mean(representative_vectors, axis=0))
+        
+        return SemanticSketch(
+            representative_vectors=representative_vectors,
+            representative_ids=meta.get('representative_ids', list(range(end_row - start_row))),
+            distances_to_origin=np.array(meta.get('distances_to_origin', np.linalg.norm(representative_vectors, axis=1))),
+            embedding_dim=meta['embedding_dim'],
+            k=meta['k'],
+            centroid=centroid,
+            representative_names=meta.get('representative_names', None)
+        )
+    
+    def get_all_vectors_matrix(self) -> np.ndarray:
+        """Get the full vectors matrix (useful for batch operations)."""
+        if not self._loaded:
+            raise RuntimeError("Store not loaded. Call load() first.")
+        return self._vectors
+    
+    def get_index(self) -> Dict[Tuple[str, str, int], Dict]:
+        """Get the full index."""
+        if not self._loaded:
+            raise RuntimeError("Store not loaded. Call load() first.")
+        return self._index
+    
+    def keys(self):
+        """Iterate over all sketch keys."""
+        if not self._loaded:
+            raise RuntimeError("Store not loaded. Call load() first.")
+        return self._index.keys()
+    
+    def __len__(self):
+        return len(self._index) if self._loaded else 0
+    
+    def __contains__(self, key):
+        return key in self._index if self._loaded else False
+    
+    @classmethod
+    def consolidate_from_directory(cls, sketches_dir: Path, output_dir: Path, 
+                                   sketch_size: int = None,
+                                   show_progress: bool = True) -> 'ConsolidatedSketchStore':
+        """
+        Convert a directory of individual sketch pickle files to consolidated format.
+        
+        Args:
+            sketches_dir: Directory containing table subdirs with .pkl sketch files
+            output_dir: Output directory for consolidated files
+            sketch_size: If set, truncate/pad all sketches to this size (for uniform matrix)
+            show_progress: Show progress bar
+            
+        Returns:
+            ConsolidatedSketchStore instance (not yet loaded)
+        """
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Discover all sketch files
+        sketch_files = []
+        for table_dir in sketches_dir.iterdir():
+            if not table_dir.is_dir():
+                continue
+            table_name = table_dir.name
+            for sketch_file in table_dir.glob("*.pkl"):
+                if "_metadata" in sketch_file.name:
+                    continue
+                try:
+                    filename = sketch_file.stem
+                    parts = filename.rsplit('_', 1)
+                    if len(parts) == 2 and parts[1].isdigit():
+                        column_name = parts[0]
+                        column_index = int(parts[1])
+                        sketch_files.append((table_name, column_name, column_index, sketch_file))
+                except:
+                    continue
+        
+        print(f"Found {len(sketch_files)} sketch files to consolidate")
+        
+        # First pass: determine total size and embedding dim
+        total_vectors = 0
+        embedding_dim = None
+        iterator = tqdm(sketch_files, desc="Scanning sketches") if show_progress else sketch_files
+        
+        for table_name, column_name, column_index, sketch_file in iterator:
+            try:
+                with open(sketch_file, 'rb') as f:
+                    data = pickle.load(f)
+                vectors = data['representative_vectors']
+                if len(vectors) > 0:
+                    if embedding_dim is None:
+                        embedding_dim = vectors.shape[1]
+                    k = sketch_size if sketch_size else vectors.shape[0]
+                    total_vectors += k
+            except:
+                continue
+        
+        if embedding_dim is None:
+            raise ValueError("No valid sketches found")
+        
+        print(f"Total vectors: {total_vectors}, Embedding dim: {embedding_dim}")
+        
+        # Allocate arrays
+        all_vectors = np.zeros((total_vectors, embedding_dim), dtype=np.float32)
+        all_centroids = []
+        index = {}
+        
+        # Second pass: populate arrays
+        current_row = 0
+        iterator = tqdm(sketch_files, desc="Consolidating sketches") if show_progress else sketch_files
+        
+        for table_name, column_name, column_index, sketch_file in iterator:
+            try:
+                with open(sketch_file, 'rb') as f:
+                    data = pickle.load(f)
+                
+                vectors = data['representative_vectors']
+                if len(vectors) == 0:
+                    continue
+                
+                k = vectors.shape[0]
+                if sketch_size:
+                    if k > sketch_size:
+                        vectors = vectors[:sketch_size]
+                        k = sketch_size
+                    elif k < sketch_size:
+                        # Pad with zeros
+                        padded = np.zeros((sketch_size, embedding_dim), dtype=np.float32)
+                        padded[:k] = vectors
+                        vectors = padded
+                        k = sketch_size
+                
+                end_row = current_row + k
+                all_vectors[current_row:end_row] = vectors
+                
+                centroid = data.get('centroid', np.mean(vectors, axis=0))
+                centroid_idx = len(all_centroids)
+                all_centroids.append(centroid)
+                
+                key = (table_name, column_name, column_index)
+                index[key] = {
+                    'start_row': current_row,
+                    'end_row': end_row,
+                    'k': k,
+                    'embedding_dim': embedding_dim,
+                    'centroid_idx': centroid_idx,
+                    'distances_to_origin': data.get('distances_to_origin', np.linalg.norm(vectors, axis=1)).tolist(),
+                    'representative_names': data.get('representative_names', None)
+                }
+                
+                current_row = end_row
+                
+            except Exception as e:
+                print(f"Error processing {sketch_file}: {e}")
+                continue
+        
+        # Trim if we allocated too much
+        all_vectors = all_vectors[:current_row]
+        all_centroids = np.array(all_centroids, dtype=np.float32)
+        
+        # Save
+        vectors_file = output_dir / "sketches_consolidated.npy"
+        index_file = output_dir / "sketches_index.pkl"
+        centroids_file = output_dir / "sketches_centroids.npy"
+        
+        print(f"Saving {len(index)} sketches ({all_vectors.shape[0]} vectors)...")
+        np.save(vectors_file, all_vectors)
+        np.save(centroids_file, all_centroids)
+        with open(index_file, 'wb') as f:
+            pickle.dump(index, f)
+        
+        # Save stats
+        stats = {
+            'num_sketches': len(index),
+            'total_vectors': all_vectors.shape[0],
+            'embedding_dim': embedding_dim,
+            'vectors_file_size_mb': vectors_file.stat().st_size / (1024 * 1024),
+            'centroids_file_size_mb': centroids_file.stat().st_size / (1024 * 1024)
+        }
+        with open(output_dir / "consolidation_stats.json", 'w') as f:
+            json.dump(stats, f, indent=2)
+        
+        print(f"Consolidated store saved to {output_dir}")
+        print(f"  Vectors: {stats['vectors_file_size_mb']:.1f} MB")
+        print(f"  Centroids: {stats['centroids_file_size_mb']:.1f} MB")
+        
+        return cls(output_dir)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Create offline semantic sketches from embeddings")
+    subparsers = parser.add_subparsers(dest='command', help='Commands')
     
-    parser.add_argument("embeddings_dir", type=str, help="Path to embeddings directory")
-    parser.add_argument("--output-dir", type=str, default="offline_sketches",
-                        help="Output directory for sketches")
-    parser.add_argument("--sketch-size", type=int, default=1024,
-                        help="Number of representative vectors per sketch (k)")
-    parser.add_argument("--similarity-threshold", type=float, default=0.7,
-                        help="Similarity threshold for validation")
-    parser.add_argument("--tables", type=str, nargs="*",
-                        help="Specific tables to process (default: all tables)")
-    parser.add_argument("--selection-method", type=str, default="k_closest",
-                        choices=["k_closest", "farthest_point", "centroid_distance"],
-                        help="Sketch selection method")
-    parser.add_argument("--save-metadata", action="store_true", default=True,
-                        help="Save metadata for each sketch")
+    # Build command (original functionality)
+    build_parser = subparsers.add_parser('build', help='Build sketches from embeddings')
+    build_parser.add_argument("embeddings_dir", type=str, help="Path to embeddings directory")
+    build_parser.add_argument("--output-dir", type=str, default="offline_sketches",
+                              help="Output directory for sketches")
+    build_parser.add_argument("--sketch-size", type=int, default=1024,
+                              help="Number of representative vectors per sketch (k)")
+    build_parser.add_argument("--tables", type=str, nargs="*",
+                              help="Specific tables to process (default: all tables)")
+    build_parser.add_argument("--selection-method", type=str, default="k_closest",
+                              choices=["k_closest", "farthest_point", "centroid_distance"],
+                              help="Sketch selection method")
+    build_parser.add_argument("--save-metadata", action="store_true", default=True,
+                              help="Save metadata for each sketch")
+    
+    # Consolidate command (new functionality)
+    consolidate_parser = subparsers.add_parser('consolidate', 
+                                                help='Consolidate individual sketch files into a single file for faster loading')
+    consolidate_parser.add_argument("sketches_dir", type=str, 
+                                    help="Path to directory containing individual sketch files")
+    consolidate_parser.add_argument("--output-dir", type=str,
+                                    help="Output directory for consolidated files (default: same as sketches_dir)")
+    consolidate_parser.add_argument("--sketch-size", type=int,
+                                    help="Truncate/pad all sketches to this size for uniform matrix")
     
     args = parser.parse_args()
     
-    config = SketchConfig(
-        sketch_size=args.sketch_size,
-        similarity_threshold=args.similarity_threshold,
-        selection_method=args.selection_method,
-        save_metadata=args.save_metadata,
-        output_dir=args.output_dir
-    )
-    
-    builder = OfflineSketchBuilder(config)
-    embeddings_path = Path(args.embeddings_dir)
-    
-    if not embeddings_path.exists():
-        print(f"Error: Embeddings directory {embeddings_path} does not exist")
-        return 1
-    
-    stats = builder.build_sketches_for_embeddings(embeddings_path, args.tables)
-    
-    print(f"\nCompleted! Processed {stats.processed_columns} columns")
-    print(f"Sketches saved to: {args.output_dir}")
+    if args.command == 'build' or args.command is None:
+        # Handle legacy usage (no subcommand)
+        if args.command is None:
+            # Re-parse with positional argument
+            parser = argparse.ArgumentParser(description="Create offline semantic sketches from embeddings")
+            parser.add_argument("embeddings_dir", type=str, help="Path to embeddings directory")
+            parser.add_argument("--output-dir", type=str, default="offline_sketches",
+                                help="Output directory for sketches")
+            parser.add_argument("--sketch-size", type=int, default=1024,
+                                help="Number of representative vectors per sketch (k)")
+            parser.add_argument("--tables", type=str, nargs="*",
+                                help="Specific tables to process (default: all tables)")
+            parser.add_argument("--selection-method", type=str, default="k_closest",
+                                choices=["k_closest", "farthest_point", "centroid_distance"],
+                                help="Sketch selection method")
+            parser.add_argument("--save-metadata", action="store_true", default=True,
+                                help="Save metadata for each sketch")
+            args = parser.parse_args()
+        
+        config = SketchConfig(
+            sketch_size=args.sketch_size,
+            selection_method=args.selection_method,
+            save_metadata=args.save_metadata,
+            output_dir=args.output_dir
+        )
+        
+        builder = OfflineSketchBuilder(config)
+        embeddings_path = Path(args.embeddings_dir)
+        
+        if not embeddings_path.exists():
+            print(f"Error: Embeddings directory {embeddings_path} does not exist")
+            return 1
+        
+        stats = builder.build_sketches_for_embeddings(embeddings_path, args.tables)
+        
+        print(f"\nCompleted! Processed {stats.processed_columns} columns")
+        print(f"Sketches saved to: {args.output_dir}")
+        
+    elif args.command == 'consolidate':
+        sketches_dir = Path(args.sketches_dir)
+        output_dir = Path(args.output_dir) if args.output_dir else sketches_dir
+        
+        if not sketches_dir.exists():
+            print(f"Error: Sketches directory {sketches_dir} does not exist")
+            return 1
+        
+        print(f"Consolidating sketches from {sketches_dir}")
+        print(f"Output directory: {output_dir}")
+        
+        store = ConsolidatedSketchStore.consolidate_from_directory(
+            sketches_dir, 
+            output_dir,
+            sketch_size=args.sketch_size
+        )
+        
+        print(f"\nConsolidation complete!")
+        print(f"To use the consolidated store, the query processor will automatically detect it.")
     
     return 0
 
