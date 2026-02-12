@@ -7,6 +7,7 @@ Generates and executes commands for building embeddings in parallel chunks.
 import os
 import shutil
 from pathlib import Path
+import argparse
 
 def discover_tables(datalake_dir: Path):
     """Discover all CSV tables in the datalake directory."""
@@ -29,105 +30,15 @@ def split_into_chunks(items, num_chunks):
     
     return chunks
 
-def cleanup_previous_runs(output_dir: str):
-    """Clean up all previous run data."""
-    
-    # Clean main offline data directory
-    offline_data_dir = Path(output_dir)
-    if offline_data_dir.exists():
-        print(f"Removing previous offline data: {offline_data_dir}")
-        shutil.rmtree(offline_data_dir)
-    
-    # Clean any chunk directories
-    chunk_dirs = list(Path(".").glob(f"{exp_dir}/{output_dir}_chunk_*"))
-    for chunk_dir in chunk_dirs:
-        print(f"Removing chunk directory: {chunk_dir}")
-        shutil.rmtree(chunk_dir)
-    
-    # Clean bash script files
-    script_files = list(Path(".").glob(f"{exp_dir}/embedding_chunk_*.sh"))
-    for script_file in script_files:
-        print(f"Removing script file: {script_file}")
-        script_file.unlink()
 
-def main():
-    embedding_model = "embeddinggemma"
+def main(experiment: str, embedding_model: str = "embeddinggemma"):
 
-    # Configuration
-    # # For Freyja
-    # datalake_dir = "datasets/freyja-semantic-join/datalake/singletons"
-    # exp_dir = "freyja-experiments"
-    # output_dir = f"freyja-experiments/freyja_offline_data_{embedding_model}"
-
-    # # For AutoFuzzyJoin
-    # datalake_dir = "datasets/autofj_join_benchmark/datalake"
-    # exp_dir = "autofj-experiments"
-    # output_dir = f"autofj-experiments/autofj_offline_data_{embedding_model}"
-
-    # For AutoFuzzyJoin-WDC
-    datalake_dir = "datasets/autofj-wdc/datalake"
-    exp_dir = "autofj-wdc-experiments"
-    output_dir = f"autofj-wdc-experiments/autofj-wdc_offline_data_{embedding_model}"
-
-    # # For GDC
-    # datalake_dir = "datasets/gdc-breakdown/datalake"
-    # exp_dir = "gdc-experiments"
-    # output_dir = f"gdc-experiments/gdc_offline_data_{embedding_model}"
-
-    # # For AutoFJ+GDC
-    # datalake_dir = "datasets/autofj-gdc/datalake"
-    # exp_dir = "autofj-gdc-experiments"
-    # output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
-
-    # # For GDC+AutoFJ (with GDC breakdown / GDC GT)
-    # datalake_dir = "datasets/gdc-autofj/datalake"
-    # exp_dir = "gdc-autofj-experiments"
-    # output_dir = "gdc-autofj-experiments/gdc-autofj_offline_data"
-
-    # # For GDC+Freyja (with GDC breakdown / GDC GT)
-    # datalake_dir = "datasets/gdc-freyja/datalake"
-    # exp_dir = "gdc-freyja-experiments"
-    # output_dir = "gdc-freyja-experiments/gdc-freyja_offline_data"
-
-    # # For AutoFJ+SANTOS Small
-    # datalake_dir = "datasets/autofj-santos-small/datalake"
-    # exp_dir = "autofj-santos-experiments"
-    # output_dir = "autofj-santos-experiments/autofj-santos_offline_data"
-
-    # # For WT
-    # datalake_dir = "datasets/wt/datalake_no_column_names"
-    # exp_dir = "wt-experiments"
-    # embedding_model = "embeddinggemma"
-    # output_dir = f"wt-experiments/wt_offline_data_{embedding_model}_no_column_names"
-
-    # # For WT+AutoFJ
-    # datalake_dir = "datasets/wt-autofj/datalake_no_column_names"
-    # exp_dir = "wt-autofj-experiments"
-    # output_dir = "wt-autofj-experiments/wt-autofj_offline_data_no_column_names"
-
-    """
-    Snoopy datasets
-    """
-    # # For WikiTable
-    # datalake_dir = "datasets/WikiTable/datalake"
-    # exp_dir = "wikitable-experiments"
-    # output_dir = f"{exp_dir}/wikitable_offline_data_{embedding_model}"
-
-    # # For WDC
-    # datalake_dir = "datasets/WDC/datalake"
-    # exp_dir = "wdc-experiments"
-    # output_dir = f"{exp_dir}/wdc_offline_data_{embedding_model}"
-
-    # # For opendata
-    # datalake_dir = "datasets/opendata/datalake"
-    # exp_dir = "opendata-experiments"
-    # output_dir = f"{exp_dir}/opendata_offline_data_{embedding_model}"
+    exp_dir = f"{experiment}-experiments"
+    datalake_dir = f"datasets/{experiment}/datalake"
+    output_dir = f"{exp_dir}/{experiment}_offline_data_{embedding_model}"
 
     num_chunks = 10
     device = "auto"
-    
-    # Clean up all previous runs
-    # cleanup_previous_runs(output_dir)
     
     # Discover tables
     tables = discover_tables(Path(datalake_dir))
@@ -182,4 +93,8 @@ def main():
             print(f"Successfully submitted chunk {i}")
 
 if __name__ == "__main__":
-    main()
+    argparser = argparse.ArgumentParser()
+    argparser.add_argument("--experiment", choices=["autofj", "wt", "freyja", "gdc", "autofj-wdc", "wt-wdc", "freyja-wdc"], type=str, required=True)
+    argparser.add_argument("--embedding_model", choices=["embeddinggemma", "mpnet"], default="embeddinggemma", type=str, required=False)
+    args = argparser.parse_args()
+    main(args.experiment, args.embedding_model)

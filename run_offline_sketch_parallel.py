@@ -10,6 +10,7 @@ import re
 import shutil
 import subprocess
 from pathlib import Path
+import argparse
 
 def discover_embedding_tables(embeddings_dir: Path):
     """Discover all tables that have embeddings."""
@@ -46,100 +47,13 @@ def split_into_chunks(items, num_chunks):
     
     return chunks
 
-def cleanup_sketch_data(output_dir: str, sketch_size: int):
-    """Clean up previous sketch data."""
-    
-    # Clean sketch directories
-    sketches_dir = Path(output_dir) / f"sketches_k{sketch_size}"
-    if sketches_dir.exists():
-        print(f"Removing previous sketches: {sketches_dir}")
-        shutil.rmtree(sketches_dir)
 
-def main():
-    embedding_model = "embeddinggemma"
-    # Configuration
-    # # For Freyja experiments
-    # exp_dir = "freyja-experiments"
-    # embeddings_dir = exp_dir + f"/freyja_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/freyja_offline_data_{embedding_model}"
+def main(experiment: str, embedding_model: str = "embeddinggemma", sketch_size: int = 128):
+    exp_dir = f"{experiment}-experiments"
+    embeddings_dir = f"{exp_dir}/{experiment}_offline_data_{embedding_model}/embeddings"
+    output_dir = f"{exp_dir}/{experiment}_offline_data_{embedding_model}"
 
-
-    # # For AutoFJ experiments
-    # exp_dir = "autofj-experiments"
-    # embeddings_dir = f"{exp_dir}/autofj_offline_data_{embedding_model}/embeddings"
-    # output_dir = f"{exp_dir}/autofj_offline_data_{embedding_model}"
-
-    # For AutoFJ-WDC experiments
-    exp_dir = "autofj-wdc-experiments"
-    embeddings_dir = f"{exp_dir}/autofj-wdc_offline_data_{embedding_model}/embeddings"
-    output_dir = f"{exp_dir}/autofj-wdc_offline_data_{embedding_model}"
-
-    # # For GDC experiments
-    # exp_dir = "gdc-experiments"
-    # embeddings_dir = f"{exp_dir}/gdc_offline_data_{embedding_model}/embeddings"
-    # output_dir = f"{exp_dir}/gdc_offline_data_{embedding_model}"
-
-    # # For AutoFJ+GDC experiments
-    # embeddings_dir = "autofj-gdc-experiments/autofj-gdc_offline_data/embeddings"
-    # exp_dir = "autofj-gdc-experiments"
-    # output_dir = "autofj-gdc-experiments/autofj-gdc_offline_data"
-    # num_chunks = 4
-
-    # # For GDC+AutoFJ (with GDC breakdown / GDC GT)
-    # exp_dir = "gdc-autofj-experiments"
-    # embeddings_dir = exp_dir + "/gdc-autofj_offline_data/embeddings"
-    # output_dir = exp_dir + "/gdc-autofj_offline_data"
-    # num_chunks = 4
-
-    # # For GDC+Freyja (with GDC breakdown / GDC GT)
-    # exp_dir = "gdc-freyja-experiments"
-    # embeddings_dir = exp_dir + "/gdc-freyja_offline_data/embeddings"
-    # output_dir = exp_dir + "/gdc-freyja_offline_data"
-    # num_chunks = 4
-
-    # # For WT
-    # exp_dir = "wt-experiments"
-    # embeddings_dir = exp_dir + f"/wt_offline_data_{embedding_model}_no_column_names/embeddings"
-    # output_dir = exp_dir + f"/wt_offline_data_{embedding_model}_no_column_names"
-    # num_chunks = 4
-
-    # # For WT+AutoFJ
-    # exp_dir = "wt-autofj-experiments"
-    # embeddings_dir = exp_dir + "/wt-autofj_offline_data_no_column_names/embeddings"
-    # output_dir = exp_dir + "/wt-autofj_offline_data_no_column_names"
-    # num_chunks = 4
-
-    # # For AutoFJ+SANTOS Small experiments
-    # exp_dir = "autofj-santos-experiments"
-    # embeddings_dir = "autofj-santos-experiments/autofj-santos_offline_data/embeddings"
-    # output_dir = "autofj-santos-experiments/autofj-santos_offline_data"
-    # num_chunks = 10
-
-    """
-    Snoopy datasets
-    """
-    # # For WikiTable
-    # exp_dir = "wikitable-experiments"
-    # embedding_model = "embeddinggemma"
-    # embeddings_dir = exp_dir + f"/wikitable_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/wikitable_offline_data_{embedding_model}"
-
-    # # For WDC
-    # exp_dir = "wdc-experiments"
-    # embedding_model = "embeddinggemma"
-    # embeddings_dir = exp_dir + f"/wdc_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/wdc_offline_data_{embedding_model}"
-
-    # # For opendata
-    # exp_dir = "opendata-experiments"
-    # embedding_model = "embeddinggemma"
-    # embeddings_dir = exp_dir + f"/opendata_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/opendata_offline_data_{embedding_model}"
-
-    sketch_size = 128
     num_chunks = 10
-    # Clean up previous sketch data
-    # cleanup_sketch_data(output_dir, sketch_size)
     
     # Discover tables with embeddings
     tables = discover_embedding_tables(Path(embeddings_dir))
@@ -233,4 +147,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    argparser = argparse.ArgumentParser()
+    argparser.add_argument("--experiment", choices=["autofj", "wt", "freyja", "gdc", "autofj-wdc", "wt-wdc", "freyja-wdc"], type=str, required=True)
+    argparser.add_argument("--embedding_model", choices=["embeddinggemma", "mpnet"], default="embeddinggemma", type=str, required=False)
+    argparser.add_argument("--sketch_size", type=int, default=128, required=False)
+    args = argparser.parse_args()
+    main(args.experiment, args.embedding_model, args.sketch_size)
+

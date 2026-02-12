@@ -10,120 +10,19 @@ import math
 from pathlib import Path
 import pandas as pd
 import torch
+import argparse
 
-def main():
-    # Configuration
-    top_k_return = 50
-    similarity_threshold = 0.1  # For column-level matching
-    sketch_size = 128
+def main(experiment: str, embedding_model: str = "embeddinggemma", d_sketch_size: int = 128, sketch_size: int = 128, similarity_method: str = "chamfer", top_k_return: int = 50):
+    print(f"Running queries for {experiment} with {embedding_model} embeddings, d_sketch_size {d_sketch_size}, sketch_size {sketch_size}, similarity_method {similarity_method}, top_k_return {top_k_return}")
+    exp_dir = f"{experiment}-experiments"
+    datalake_dir = f"datasets/{experiment}/datalake"
+    query_file = f"datasets/{experiment}/query_columns.csv"
+
+    sketches_dir = f"{exp_dir}/{experiment}_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
+    embeddings_dir = f"{exp_dir}/{experiment}_offline_data_{embedding_model}/embeddings"
+    output_dir = f"{exp_dir}/{experiment}_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}_slurm"
     queries_per_job = 10
-    similarity_method = "chamfer"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer"
-    embedding_model = "embeddinggemma"
-    embedding_dim = 128  # Output dimension for embeddinggemma model
-    d_sketch_size = 128
     
-    # # For Freyja experiments
-    # datalake_dir = "datasets/freyja-semantic-join/datalake/singletons"
-    # sketches_dir = f"freyja-experiments/freyja_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    # query_file = "datasets/freyja-semantic-join/freyja_single_query_columns_no_column_names.csv"
-    # embeddings_dir = f"freyja-experiments/freyja_offline_data_{embedding_model}/embeddings"
-    # output_dir = f"freyja-experiments/freyja_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}_slurm"
-    # if similarity_method == "inverse_chamfer":
-    #     output_dir = f"freyja-experiments/freyja_query_results_{embedding_model}_D{d_sketch_size}_{similarity_method}_top{top_k_return}_slurm"
-
-    # # For AutoFJ experiments
-    # datalake_dir = "datasets/autofj_join_benchmark/datalake"
-    # sketches_dir = f"autofj-experiments/autofj_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    # query_file = "datasets/autofj_join_benchmark/autofj_query_columns.csv"
-    # embeddings_dir = f"autofj-experiments/autofj_offline_data_{embedding_model}/embeddings"
-    # output_dir = f"autofj-experiments/autofj_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}_slurm"
-
-    # For AutoFJ-WDC experiments
-    datalake_dir = "datasets/autofj-wdc/datalake"
-    sketches_dir = f"autofj-wdc-experiments/autofj-wdc_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    query_file = "datasets/autofj-wdc/autofj_query_columns.csv"
-    embeddings_dir = f"autofj-wdc-experiments/autofj-wdc_offline_data_{embedding_model}/embeddings"
-    output_dir = f"autofj-wdc-experiments/autofj-wdc_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}_slurm"
-
-    # # For GDC experiments
-    # datalake_dir = "datasets/gdc-breakdown/datalake"
-    # sketches_dir = f"gdc-experiments/gdc_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    # query_file = "datasets/gdc-breakdown/gdc_breakdown_query_columns.csv"
-    # embeddings_dir = f"gdc-experiments/gdc_offline_data_{embedding_model}/embeddings"
-    # output_dir = f"gdc-experiments/gdc_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}_slurm"
-    
-    # # For AutoFJ+GDC experiments
-    # datalake_dir = "datasets/autofj-gdc/datalake"
-    # sketches_dir = f"autofj-gdc-experiments/autofj-gdc_offline_data/sketches_k{d_sketch_size}"
-    # query_file = "datasets/autofj-gdc/autofj_query_columns.csv"
-    # embeddings_dir = "autofj-gdc-experiments/autofj-gdc_offline_data/embeddings"
-    # output_dir = f"autofj-gdc-experiments/autofj-gdc_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
-    
-    # # For GDC+AutoFJ (with GDC breakdown / GDC GT)
-    # datalake_dir = "datasets/gdc-autofj/datalake"
-    # sketches_dir = f"gdc-autofj-experiments/gdc-autofj_offline_data/sketches_k{d_sketch_size}"
-    # query_file = "datasets/gdc-autofj/gdc_breakdown_query_columns.csv"
-    # embeddings_dir = "gdc-autofj-experiments/gdc-autofj_offline_data/embeddings"
-    # output_dir = f"gdc-autofj-experiments/gdc-autofj_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
-    
-
-    # # For GDC+Freyja (with GDC breakdown / GDC GT)
-    # datalake_dir = "datasets/gdc-freyja/datalake"
-    # sketches_dir = f"gdc-freyja-experiments/gdc-freyja_offline_data/sketches_k{d_sketch_size}"
-    # query_file = "datasets/gdc-freyja/gdc_breakdown_query_columns.csv"
-    # embeddings_dir = "gdc-freyja-experiments/gdc-freyja_offline_data/embeddings"
-    # output_dir = f"gdc-freyja-experiments/gdc-freyja_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm"
-    
-    # # For WT
-    # datalake_dir = "datasets/wt/datalake_no_column_names"
-    # sketches_dir = f"wt-experiments/wt_offline_data_{embedding_model}_no_column_names/sketches_k{d_sketch_size}"
-    # query_file = "datasets/wt/wt_query_columns_no_column_names.csv"
-    # embeddings_dir = f"wt-experiments/wt_offline_data_{embedding_model}_no_column_names/embeddings"
-    # output_dir = f"wt-experiments/wt_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}"
-    
-
-    # # For WT+AutoFJ
-    # datalake_dir = "datasets/wt-autofj/datalake_no_column_names"
-    # sketches_dir = f"wt-autofj-experiments/wt-autofj_offline_data_no_column_names/sketches_k{d_sketch_size}"
-    # query_file = "datasets/wt-autofj/wt_query_columns_no_column_names.csv"
-    # embeddings_dir = "wt-autofj-experiments/wt-autofj_offline_data_no_column_names/embeddings"
-    # output_dir = f"wt-autofj-experiments/wt-autofj_query_results_k{sketch_size}_t{similarity_threshold}_top{top_k_return}_slurm_no_column_names"
-    
-
-    """
-    Snoopy datasets
-    """
-    # # For WikiTable
-    
-    # exp_dir = "wikitable-experiments"
-    # datalake_dir = "datasets/WikiTable/datalake"
-    # sketches_dir = exp_dir + f"/wikitable_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    # query_file = "datasets/WikiTable/autofj_query_columns.csv"
-    # embeddings_dir = exp_dir + f"/wikitable_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/wikitable_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}"
-    
-    # # For WDC
-    # embedding_model = "embeddinggemma"
-    # d_sketch_size = 128
-    # exp_dir = "wdc-experiments"
-    # datalake_dir = "datasets/WDC/datalake"
-    # sketches_dir = exp_dir + f"/wdc_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    # query_file = "datasets/WDC/autofj_query_columns.csv"
-    # embeddings_dir = exp_dir + f"/wdc_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/wdc_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}"
-
-    # # For opendata
-    # embedding_model = "embeddinggemma"
-    # embedding_dim = 128
-    # d_sketch_size = 128
-    # exp_dir = "opendata-experiments"
-    # datalake_dir = "datasets/opendata/datalake"
-    # sketches_dir = exp_dir + f"/opendata_offline_data_{embedding_model}/sketches_k{d_sketch_size}"
-    # query_file = "datasets/opendata/autofj_query_columns.csv"
-    # embeddings_dir = exp_dir + f"/opendata_offline_data_{embedding_model}/embeddings"
-    # output_dir = exp_dir + f"/opendata_query_results_{embedding_model}_D{d_sketch_size}_Q{sketch_size}_{similarity_method}_top{top_k_return}"
-
-
     # Validate query file
     if not Path(query_file).exists():
         print(f"❌ Error: Query file not found: {query_file}")
@@ -145,7 +44,7 @@ def main():
     array_spec = f"0-{num_jobs-1}"
     
     script_content = f"""#!/bin/bash
-#SBATCH --job-name=semantic_query
+#SBATCH --job-name=query
 #SBATCH --gres=gpu:1
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=1
@@ -200,5 +99,14 @@ python run_query_processing.py "{datalake_dir}" "{sketches_dir}" "{query_file}" 
     return 0
 
 if __name__ == "__main__":
-    exit(main())
+    argparser = argparse.ArgumentParser()
+    argparser.add_argument("--experiment", choices=["autofj", "wt", "freyja", "gdc", "autofj-wdc", "wt-wdc", "freyja-wdc"], type=str, required=True)
+    argparser.add_argument("--embedding_model", choices=["embeddinggemma", "mpnet"], default="embeddinggemma", type=str, required=False)
+    argparser.add_argument("--d_sketch_size", type=int, default=128, required=False)
+    argparser.add_argument("--sketch_size", type=int, default=128, required=False)
+    argparser.add_argument("--similarity_method", choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer"], default="chamfer", type=str, required=False)
+    argparser.add_argument("--top_k_return", type=int, default=50, required=False)
+    args = argparser.parse_args()
+    main(args.experiment, args.embedding_model, args.d_sketch_size, args.sketch_size, args.similarity_method, args.top_k_return)
+
 
