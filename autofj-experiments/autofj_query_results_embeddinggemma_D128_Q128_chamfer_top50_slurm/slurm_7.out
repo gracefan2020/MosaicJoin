@@ -1,0 +1,40 @@
+Loading query specifications from datasets/autofj_join_benchmark/autofj_query_columns.csv
+Found 50 query specifications
+Processing 5 specified queries
+
+Processing 5 queries with similarity_method=chamfer...
+Processing query 1/5: Election_left.csv.title
+  Loaded 6565 values
+Device selected: cuda
+Embedding model: embeddinggemma
+EmbeddingGemma output dimension: 128
+EmbeddingGemma initialized with output_dim=128
+  Found 50 similar columns
+Processing query 2/5: NCAATeamSeason_left.csv.title
+  Loaded 5619 values
+  Found 50 similar columns
+Processing query 3/5: Case_left.csv.title
+  Loaded 2474 values
+  Found 50 similar columns
+Processing query 4/5: Device_left.csv.title
+  Loaded 6933 values
+  Found 50 similar columns
+Processing query 5/5: Venue_left.csv.title
+  Loaded 4079 values
+  Found 50 similar columns
+
+Combined results saved to: autofj-experiments/autofj_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/job_7/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 5
+Successful queries: 5
+Failed queries: 0
+Total processing time: 7.44s
+Total candidates found: 250
+Average time per query: 1.4888s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 5/5
+Total results: 250
+Results saved to: autofj-experiments/autofj_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/job_7
