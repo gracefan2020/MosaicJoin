@@ -10,16 +10,23 @@ from __future__ import annotations
 
 import argparse
 import csv
-import hashlib
 import math
 import pickle
-import re
 import time
+import urllib.request
+import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
 import numpy as np
+
+MODEL_DIR = Path(__file__).resolve().parent / "model"
+
+FASTTEXT_DEFAULT_URL = (
+    "https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip"
+)
+FASTTEXT_DEFAULT_ZIP = "crawl-300d-2M-subword.zip"
 
 
 # ---------------------------------------------------------------------------
@@ -325,18 +332,24 @@ class ValueEmbedder:
         dim: int,
         seed: int,
         embedding_pickle: Optional[Path],
+        mpnet_model: Optional[str],
+        batch_size: int,
     ):
         self.mode = mode
         self.dim = dim
         self.seed = seed
         self.embedding_pickle = embedding_pickle
-        self._token_cache: Dict[str, np.ndarray] = {}
+        self.mpnet_model = mpnet_model
+        self.batch_size = batch_size
         self._value_cache: Dict[str, Optional[np.ndarray]] = {}
         self.external_vectors: Optional[Dict[str, np.ndarray]] = None
+        self._mpnet = None
+        self._fasttext = None
+        MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
-        if self.mode == "pickle":
+        if self.mode == "glove":
             if embedding_pickle is None:
-                raise ValueError("--embedding_mode pickle requires --embedding_pickle")
+                raise ValueError("--embedding_mode glove requires --embedding_pickle")
             with embedding_pickle.open("rb") as f:
                 payload = pickle.load(f)
             if not isinstance(payload, dict):
@@ -356,8 +369,27 @@ class ValueEmbedder:
             self.external_vectors = vectors
             self.dim = inferred_dim if inferred_dim is not None else self.dim
 
+        if self.mode == "fasttext":
+            kind, path = self._ensure_fasttext_artifact()
+            if kind == "bin":
+                self._fasttext = self._load_fasttext_bin(path)
+                self.dim = int(self._fasttext.get_dimension())
+            else:
+                self.external_vectors, self.dim = self._load_fasttext_vectors(path)
+
+        if self.mode == "mpnet":
+            if mpnet_model is None:
+                raise ValueError("--embedding_mode mpnet requires --mpnet_model")
+            try:
+                from sentence_transformers import SentenceTransformer
+            except Exception as exc:  # pragma: no cover - optional dependency
+                raise RuntimeError(
+                    "sentence-transformers is required for --embedding_mode mpnet"
+                ) from exc
+            self._mpnet = SentenceTransformer(mpnet_model, cache_folder=str(MODEL_DIR))
+
     def _tokenize(self, text: str) -> List[str]:
-        return re.findall(r"[A-Za-z0-9_]+", text.lower())
+        return text.lower().split()
 
     def _unit_vector(self, vec: np.ndarray) -> np.ndarray:
         norm = float(np.linalg.norm(vec))
@@ -365,31 +397,30 @@ class ValueEmbedder:
             return vec
         return vec / norm
 
-    def _hash_vector(self, token: str) -> np.ndarray:
-        cached = self._token_cache.get(token)
-        if cached is not None:
-            return cached
-        digest = hashlib.blake2b(token.encode("utf-8"), digest_size=8).digest()
-        token_seed = int.from_bytes(digest, byteorder="big", signed=False) ^ self.seed
-        rng = np.random.default_rng(token_seed)
-        vec = rng.standard_normal(self.dim).astype(np.float32)
-        vec = self._unit_vector(vec)
-        self._token_cache[token] = vec
-        return vec
-
     def _token_vector(self, token: str) -> Optional[np.ndarray]:
-        if self.mode == "pickle":
-            assert self.external_vectors is not None
-            vec = self.external_vectors.get(token)
-            if vec is None:
-                return None
+        if self.mode in {"glove", "fasttext"}:
+            if self.mode == "glove":
+                assert self.external_vectors is not None
+                vec = self.external_vectors.get(token)
+                if vec is None:
+                    return None
+            else:
+                if self._fasttext is not None:
+                    vec = self._fasttext.get_word_vector(token)
+                else:
+                    assert self.external_vectors is not None
+                    vec = self.external_vectors.get(token)
+                    if vec is None:
+                        return None
             norm = float(np.linalg.norm(vec))
             if norm <= 1e-12:
                 return None
             return (vec / norm).astype(np.float32)
-        return self._hash_vector(token)
+        return None
 
     def embed_value(self, value: str) -> Optional[np.ndarray]:
+        if self.mode == "mpnet":
+            raise RuntimeError("embed_value is not supported in mpnet mode; use embed_values")
         cached = self._value_cache.get(value)
         if cached is not None or value in self._value_cache:
             return cached
@@ -417,10 +448,147 @@ class ValueEmbedder:
         self._value_cache[value] = avg
         return avg
 
+    def embed_values(self, values: List[str]) -> List[Optional[np.ndarray]]:
+        results: List[Optional[np.ndarray]] = [None] * len(values)
+        pending: List[str] = []
+        pending_idx: List[int] = []
+
+        for idx, value in enumerate(values):
+            cached = self._value_cache.get(value)
+            if cached is not None or value in self._value_cache:
+                results[idx] = cached
+            else:
+                pending.append(value)
+                pending_idx.append(idx)
+
+        if not pending:
+            return results
+
+        if self.mode == "mpnet":
+            assert self._mpnet is not None
+            embeddings = self._mpnet.encode(
+                pending,
+                convert_to_numpy=True,
+                normalize_embeddings=True,
+                batch_size=self.batch_size,
+            )
+            embeddings = np.asarray(embeddings, dtype=np.float32)
+            for value, emb, idx in zip(pending, embeddings, pending_idx):
+                norm = float(np.linalg.norm(emb))
+                if norm <= 1e-12:
+                    self._value_cache[value] = None
+                    results[idx] = None
+                else:
+                    normalized = emb / norm
+                    self._value_cache[value] = normalized
+                    results[idx] = normalized
+            return results
+
+        for value, idx in zip(pending, pending_idx):
+            results[idx] = self.embed_value(value)
+        return results
+
+    def _load_fasttext_bin(self, model_path: Path):
+        try:
+            import fasttext
+        except Exception as exc:  # pragma: no cover - optional dependency
+            raise RuntimeError(
+                "fasttext import failed. On macOS, this often means the wheel was built "
+                "for a newer OS. Try: `pip uninstall -y fasttext` then "
+                "`pip install --no-binary :all: fasttext` (requires Xcode CLT), "
+                "or install via conda-forge."
+            ) from exc
+
+        return fasttext.load_model(str(model_path))
+
+    def _load_fasttext_vectors(self, path: Path) -> Tuple[Dict[str, np.ndarray], int]:
+        vectors: Dict[str, np.ndarray] = {}
+        inferred_dim = None
+        with path.open("r", encoding="utf-8", errors="ignore") as f:
+            first = f.readline()
+            parts = first.strip().split()
+            if len(parts) == 2 and parts[0].isdigit() and parts[1].isdigit():
+                inferred_dim = int(parts[1])
+            else:
+                token = parts[0]
+                vec = np.asarray([float(x) for x in parts[1:]], dtype=np.float32)
+                inferred_dim = vec.shape[0]
+                vectors[token] = vec
+
+            for line_idx, line in enumerate(f, start=1):
+                parts = line.rstrip().split()
+                if len(parts) <= 2:
+                    continue
+                token = parts[0]
+                vec = np.asarray([float(x) for x in parts[1:]], dtype=np.float32)
+                if inferred_dim is None:
+                    inferred_dim = vec.shape[0]
+                if vec.shape[0] != inferred_dim:
+                    continue
+                vectors[token] = vec
+                if line_idx % 200000 == 0:
+                    print(f"[INFO] loaded {len(vectors)} fasttext vectors")
+
+        if not vectors or inferred_dim is None:
+            raise ValueError(f"No vectors loaded from {path}")
+        return vectors, inferred_dim
+
+    def _ensure_fasttext_artifact(self) -> Tuple[str, Path]:
+        cache_dir = MODEL_DIR
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        zip_path = cache_dir / FASTTEXT_DEFAULT_ZIP
+
+        if not zip_path.is_file():
+            self._download_file(FASTTEXT_DEFAULT_URL, zip_path)
+
+        with zipfile.ZipFile(zip_path, "r") as zf:
+            names = zf.namelist()
+            bin_files = [n for n in names if n.endswith(".bin")]
+            vec_files = [n for n in names if n.endswith(".vec")]
+
+            if bin_files:
+                target = bin_files[0]
+                kind = "bin"
+            elif vec_files:
+                target = vec_files[0]
+                kind = "vec"
+            else:
+                raise ValueError(f"No .bin or .vec found in {zip_path}")
+
+            out_path = cache_dir / Path(target).name
+            if not out_path.is_file():
+                zf.extract(target, path=cache_dir)
+                extracted = cache_dir / target
+                if extracted != out_path:
+                    out_path.parent.mkdir(parents=True, exist_ok=True)
+                    extracted.replace(out_path)
+
+        if kind == "vec":
+            print(f"[WARN] fastText archive has no .bin; using .vec vectors from {out_path}")
+        return kind, out_path
+
+    def _download_file(self, url: str, dest: Path) -> None:
+        print(f"[INFO] downloading fastText vectors to {MODEL_DIR}: {url}")
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        with urllib.request.urlopen(url) as response, dest.open("wb") as out:
+            total = response.headers.get("Content-Length")
+            total_size = int(total) if total and total.isdigit() else None
+            downloaded = 0
+            chunk_size = 1024 * 1024 * 8
+            while True:
+                chunk = response.read(chunk_size)
+                if not chunk:
+                    break
+                out.write(chunk)
+                downloaded += len(chunk)
+                if total_size:
+                    pct = downloaded / total_size * 100
+                    if int(pct) % 10 == 0:
+                        print(f"[INFO] download {pct:.0f}%")
+
 
 def _normalize_text(value: str) -> str:
-    v = (value or "").strip().lower()
-    return " ".join(v.split())
+    return (value or "").strip().lower()
 
 
 def _has_csv_files(path: Path) -> bool:
@@ -641,6 +809,66 @@ def _select_farthest_pivots(points: np.ndarray, num_pivots: int, seed: int) -> n
     return points[np.asarray(selected, dtype=np.int32)]
 
 
+def _distance_matrix(x: np.ndarray, y: np.ndarray) -> np.ndarray:
+    diff = x[:, None, :] - y[None, :, :]
+    return np.sqrt(np.sum(diff * diff, axis=2, dtype=np.float64))
+
+
+def _select_lof_pivots(points: np.ndarray, num_pivots: int, seed: int) -> np.ndarray:
+    try:
+        from sklearn.decomposition import PCA
+        from sklearn.neighbors import LocalOutlierFactor
+    except Exception as exc:  # pragma: no cover - optional dependency
+        raise RuntimeError(
+            "scikit-learn is required for pivot_method=lof; install it or use --pivot_method farthest"
+        ) from exc
+
+    data = np.asarray(points, dtype=np.float64)
+    n = data.shape[0]
+    if n == 0:
+        raise ValueError("Cannot select pivots from empty point set")
+    num_pivots = max(1, min(num_pivots, n))
+    c = 5 if n > 5 * num_pivots else max(1, int(n / num_pivots))
+
+    lof = LocalOutlierFactor(n_neighbors=20, contamination="auto")
+    y_pred = lof.fit_predict(data)
+    outliers = data[y_pred == -1]
+    top_n_outliers = outliers[: c * num_pivots]
+    if len(top_n_outliers) < num_pivots:
+        top_n_outliers = data[:num_pivots]
+
+    distances = _distance_matrix(data, top_n_outliers)
+    k1 = num_pivots if num_pivots < len(top_n_outliers) else len(top_n_outliers)
+    pca = PCA(n_components=k1)
+    pca.fit(distances)
+    components = pca.components_
+
+    selected: List[np.ndarray] = []
+    used: Set[int] = set()
+    for i in range(k1):
+        scores: List[Tuple[float, int]] = []
+        for j in range(len(top_n_outliers)):
+            idxs = np.where(np.all(data == top_n_outliers[j], axis=1))[0]
+            if len(idxs) == 0:
+                continue
+            index = int(idxs[0])
+            proj = float(np.dot(components[i], distances[index]))
+            scores.append((abs(proj), index))
+        scores.sort()
+        for _, index in scores:
+            if index not in used:
+                used.add(index)
+                selected.append(data[index])
+                break
+
+    if len(selected) < num_pivots:
+        # Fill with farthest-first to reach requested count.
+        remaining = num_pivots - len(selected)
+        extras = _select_farthest_pivots(data, remaining, seed)
+        selected.extend(list(extras))
+    return np.asarray(selected[:num_pivots], dtype=np.float64)
+
+
 def _map_points_to_pivots(points: np.ndarray, pivots: np.ndarray) -> np.ndarray:
     # shape: (num_points, num_pivots)
     # Broadcasting distance computation without external dependencies.
@@ -656,6 +884,7 @@ def _build_index_payload(
     num_pivots: int,
     num_layers: int,
     seed: int,
+    pivot_method: str,
 ) -> Dict:
     print(f"[INFO] Building PEXESO index from {datalake_dir}")
     column_items: List[Tuple[str, str]] = []
@@ -671,8 +900,11 @@ def _build_index_payload(
         values_by_col = _read_columns(csv_path, selected_cols)
         for col in selected_cols:
             ids: Set[int] = set()
-            for value in values_by_col.get(col, set()):
-                vec = embedder.embed_value(value)
+            values = list(values_by_col.get(col, set()))
+            if not values:
+                continue
+            embeddings = embedder.embed_values(values)
+            for value, vec in zip(values, embeddings):
                 if vec is None:
                     continue
                 value_id = value_to_id.get(value)
@@ -691,7 +923,10 @@ def _build_index_payload(
         raise ValueError("No indexable values found in datalake")
 
     embedding_matrix = np.asarray(value_embeddings, dtype=np.float32)
-    pivots = _select_farthest_pivots(embedding_matrix, num_pivots=num_pivots, seed=seed)
+    if pivot_method == "lof":
+        pivots = _select_lof_pivots(embedding_matrix, num_pivots=num_pivots, seed=seed)
+    else:
+        pivots = _select_farthest_pivots(embedding_matrix, num_pivots=num_pivots, seed=seed)
     mapped_points = _map_points_to_pivots(embedding_matrix, pivots)
 
     x_min = float(math.floor(float(np.min(mapped_points))))
@@ -718,6 +953,19 @@ def _build_index_payload(
     )
 
     return {
+        "meta": {
+            "embedding_mode": embedder.mode,
+            "embedding_dim": embedder.dim,
+            "embedding_pickle": str(embedder.embedding_pickle) if embedder.embedding_pickle else None,
+            "fasttext_url": FASTTEXT_DEFAULT_URL if embedder.mode == "fasttext" else None,
+            "fasttext_cache_dir": str(MODEL_DIR),
+            "mpnet_model": str(embedder.mpnet_model) if embedder.mpnet_model else None,
+            "num_pivots": num_pivots,
+            "num_layers": num_layers,
+            "pivot_method": pivot_method,
+            "column_name": column_name,
+            "seed": seed,
+        },
         "column_items": column_items,
         "column_sets": column_sets,
         "value_to_id": value_to_id,
@@ -774,11 +1022,30 @@ def run_baseline(args: argparse.Namespace) -> int:
     print(f"[INFO] Query source: {query_source_desc} ({len(query_specs)} query columns)")
 
     embedding_pickle = Path(args.embedding_pickle) if args.embedding_pickle else None
+    if args.embedding_mode == "glove" and embedding_pickle is None:
+        candidates: List[Path] = []
+        if args.pexeso_repo:
+            candidates.append(Path(args.pexeso_repo) / "model" / "glove.pikle")
+        for candidate in candidates:
+            if candidate.is_file():
+                embedding_pickle = candidate
+                break
+    embedding_mode = args.embedding_mode
+    if embedding_mode == "glove" and embedding_pickle is None:
+        hint = None
+        if args.pexeso_repo:
+            hint = str(Path(args.pexeso_repo) / "model" / "glove.pikle")
+        msg = "embedding_mode glove requires --embedding_pickle"
+        if hint:
+            msg += f" (expected at {hint})"
+        raise ValueError(msg)
     embedder = ValueEmbedder(
-        mode=args.embedding_mode,
-        dim=args.embedding_dim,
+        mode=embedding_mode,
+        dim=0,
         seed=args.seed,
         embedding_pickle=embedding_pickle,
+        mpnet_model=args.mpnet_model,
+        batch_size=args.embedding_batch_size,
     )
 
     payload: Optional[Dict] = None
@@ -787,6 +1054,29 @@ def run_baseline(args: argparse.Namespace) -> int:
         print(f"[INFO] Loading index cache: {cache_path}")
         with cache_path.open("rb") as f:
             payload = pickle.load(f)
+        meta = payload.get("meta") if isinstance(payload, dict) else None
+        expected_meta = {
+            "embedding_mode": embedder.mode,
+            "embedding_dim": embedder.dim,
+            "embedding_pickle": str(embedder.embedding_pickle) if embedder.embedding_pickle else None,
+            "fasttext_url": FASTTEXT_DEFAULT_URL if embedder.mode == "fasttext" else None,
+            "fasttext_cache_dir": str(MODEL_DIR),
+            "mpnet_model": str(embedder.mpnet_model) if embedder.mpnet_model else None,
+            "num_pivots": args.num_pivots,
+            "num_layers": args.num_layers,
+            "pivot_method": args.pivot_method,
+            "column_name": args.column_name,
+            "seed": args.seed,
+        }
+        if not isinstance(meta, dict):
+            print("[WARN] index cache missing metadata; rebuilding to avoid mismatched embeddings")
+            payload = None
+        else:
+            for key, value in expected_meta.items():
+                if meta.get(key) != value:
+                    print(f"[WARN] index cache mismatch for {key}; rebuilding")
+                    payload = None
+                    break
     if payload is None:
         payload = _build_index_payload(
             datalake_dir=datalake_dir,
@@ -795,6 +1085,7 @@ def run_baseline(args: argparse.Namespace) -> int:
             num_pivots=args.num_pivots,
             num_layers=args.num_layers,
             seed=args.seed,
+            pivot_method=args.pivot_method,
         )
         if args.index_cache:
             cache_path = Path(args.index_cache)
@@ -839,8 +1130,8 @@ def run_baseline(args: argparse.Namespace) -> int:
 
             query_embeddings: List[np.ndarray] = []
             query_known_ids: Set[int] = set()
-            for value in query_values:
-                vec = embedder.embed_value(value)
+            query_vecs = embedder.embed_values(query_values)
+            for value, vec in zip(query_values, query_vecs):
                 if vec is None:
                     continue
                 query_embeddings.append(vec)
@@ -865,7 +1156,7 @@ def run_baseline(args: argparse.Namespace) -> int:
             pairs: Dict[int, Pair] = {}
             block(query_grid.root, index_grid.root, pairs, args.tau)
 
-            threshold_count = args.containment_threshold * len(query_embeddings)
+            threshold_count = args.containment_threshold * len(query_values)
             candidate_indices, match_count, over_time = verify(
                 pairs=pairs,
                 inverted_index=inverted_index,
@@ -953,6 +1244,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--num_pivots", type=int, default=3, help="Number of PEXESO pivots.")
     parser.add_argument("--num_layers", type=int, default=4, help="Hierarchical grid depth.")
+    parser.add_argument(
+        "--pivot_method",
+        choices=["lof", "farthest"],
+        default="lof",
+        help="Pivot selection method (paper default: lof).",
+    )
     parser.add_argument("--tau", type=float, default=0.6, help="Distance threshold (tau).")
     parser.add_argument(
         "--containment_threshold",
@@ -968,19 +1265,29 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--embedding_mode",
-        choices=["hash", "pickle"],
-        default="hash",
-        help="Value embedding mode: hash (deterministic, no external model) or pickle.",
+        choices=["glove", "fasttext", "mpnet"],
+        default="mpnet",
+        help="Value embedding mode: glove (paper default), fasttext, or mpnet (default).",
     )
     parser.add_argument(
         "--embedding_pickle",
-        help="Token->vector pickle path (required when --embedding_mode pickle).",
+        help="Token->vector pickle path (required for glove mode).",
     )
     parser.add_argument(
-        "--embedding_dim",
+        "--pexeso_repo",
+        default="/Users/yifanwu/Desktop/VIDA/tmp/LakeBench/join/Pexeso",
+        help="Optional PEXESO repo path to locate model/glove.pikle.",
+    )
+    parser.add_argument(
+        "--mpnet_model",
+        default="sentence-transformers/all-mpnet-base-v2",
+        help="MPNet v2 base model name or local path (default: HF).",
+    )
+    parser.add_argument(
+        "--embedding_batch_size",
         type=int,
-        default=50,
-        help="Embedding dimension for hash mode.",
+        default=256,
+        help="Batch size for mpnet embeddings.",
     )
     parser.add_argument("--seed", type=int, default=128, help="Random seed.")
     parser.add_argument("--index_cache", help="Optional pickle path to cache the built index.")
