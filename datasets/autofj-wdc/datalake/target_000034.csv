@@ -1,0 +1,56 @@
+id,title
+0,SCORING
+1,Points Per Game
+2,Points Off Turnovers
+3,FIRST DOWNS
+4,Rushing
+5,Passing
+6,Penalty
+7,RUSHING YARDAGE
+8,Yards gained rushing
+9,Yards lost rushing
+10,Rushing Attempts
+11,Average Per Rush
+12,Average Per Game
+13,TDs Rushing
+14,PASSING YARDAGE
+15,Comp-Att-Int
+16,Average Per Pass
+17,Average Per Catch
+18,Average Per Game
+19,TDs Passing
+20,TOTAL OFFENSE
+21,Total Plays
+22,Average Per Play
+23,Average Per Game
+24,KICK RETURNS: #-Yards
+25,PUNT RETURNS: #-Yards
+26,INT RETURNS: #-Yards
+27,KICK RETURN AVERAGE
+28,PUNT RETURN AVERAGE
+29,INT RETURN AVERAGE
+30,FUMBLES-LOST
+31,PENALTIES-Yards
+32,Average Per Game
+33,PUNTS-Yards
+34,Average Per Punt
+35,Net punt average
+36,KICKOFFS-Yards
+37,Average Per Kick
+38,Net kick average
+39,TIME OF POSSESSION/Game
+40,3RD-DOWN Conversions
+41,3rd-Down Pct
+42,4TH-DOWN Conversions
+43,4th-Down Pct
+44,SACKS BY-Yards
+45,MISC YARDS
+46,TOUCHDOWNS SCORED
+47,FIELD GOALS-ATTEMPTS
+48,ON-SIDE KICKS
+49,RED-ZONE SCORES
+50,RED-ZONE TOUCHDOWNS
+51,PAT-ATTEMPTS
+52,ATTENDANCE
+53,Games/Avg Per Game
+54,Neutral Site Games

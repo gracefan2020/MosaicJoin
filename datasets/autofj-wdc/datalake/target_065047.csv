@@ -1,0 +1,64 @@
+id,title
+0,Return sized enumerator from Enumerable#index_by
+1,Return sized enumerator from Batches#find_each
+2,Return sized enumerator from Batches#find_in_batches
+3,Strengthen test with different nb of rows and columns
+4,Remove obsolete line (was needed for Ruby 1.8.7 support)
+5,Remove obsolete test (builtin group_by is now used)
+6,find_in_batches should not mutate its argument
+7,Mention find_each in find_in_batches doc [ci skip]
+8,`find_in_batches` now returns an `Enumerator` when calle...
+9,Fixes for PR [#8267]
+10,"Update Migration and 4.0 Release Guides, Changelogs [#8267]"
+11,"Make execute, change_column and remove_columns methods a..."
+12,Make change_table reversible when possible [#8267]
+13,Migration generators use `change` even for destructive m...
+14,Factorize methods that are easily reversible [#8267]
+15,Make remove_index reversible [#8267]
+16,Differentiate between remove_column and remove_columns. ...
+17,Make drop_table reversible [#8267]
+18,Split ridiculously long line
+19,Allow reverting of migration commands with Migration#rev...
+20,Extract exec_migration [#8267]
+21,Allow revert of whole migration [#8267]
+22,Add Migration#reversible for reversible data operations ...
+23,Add drop_join_table [#8267]
+24,Simple replacement of variable name for consistency
+25,Simplify change_table and avoid duplicated logic
+26,Simplify (and optimize)
+27,Use Integer#div instead of Integer#/ to avoid side effec...
+28,"Avoid using Integer#/, as it is redefined by the 'mathn'..."
+29,Update documentation for CollectionProxy
+30,Nice and easy delegation to the class
+31,Fix bug when Rails.application is defined but is nil. Se...
+32,Fix doc example for dasherize
+33,+ ActiveRecord::Base#destroy!
+34,Fix bug when Rails.application is defined but is nil. Se...
+35,Fix constantize so top level constants are looked up pro...
+36,Make constantize look down the ancestor chain (excluding...
+37,Use respond_to_missing for TimeWithZone
+38,Use respond_to_missing? for Chars
+39,Use respond_to_missing? for OrderedOptions
+40,Adjust error message for partial names starting with an ...
+41,notify_observers should be public
+42,Allow extra arguments for Observers
+43,Observer: simplify tests
+44,Fix Observer by acting on singleton class [#3505]
+45,Generate appropriate error more judiciously
+46,Fix error message:
+47,ActiveModel::Name#i18n_key: Fix doc and add tests
+48,Handle correctly optional parameters for callable asset_...
+49,"Fix inconsistencies with Time{WithZone}#{hash,eql?}"
+50,Make explicit the default media when calling stylesheet_...
+51,Trivial optimization for Enumerable#each_with_object
+52,"Insure that Enumerable#index_by, group_by, ... return En..."
+53,Make Enumerable#many? iterate only over what is necessary
+54,Make Enumerable#many? not rely on #size
+55,Test using generic Enumerables instead of arrays.
+56,Make tests more precise
+57,Generate valid default fixtures for models with a type c...
+58,Generate valid default fixtures for models with a type c...
+59,Raise on invalid timezone
+60,Accept :alt => nil on image_tag [#4558 state:resolved]
+61,"Enumerable#sum now works will all enumerables, even if t..."
+62,"Enumerable#sum now works will all enumerables, even if t..."

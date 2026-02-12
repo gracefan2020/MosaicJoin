@@ -1,0 +1,65 @@
+id,title
+0,TPCC (EDMA)
+1,TPCC (EDMA)
+2,TPCC (EDMA)
+3,Mbox0 - mail_u1_irq (mailbox interrupt for pru0)
+4,Mbox0 - mail_u2_irq (mailbox interrupt for pru1)
+5,Debugss
+6,GPIO0
+7,eHRPWM0/eHRPWM1/eHRPWM2
+8,McASP0 Tx
+9,McASP0 Rx
+10,ADC_TSC
+11,UART2
+12,UART0
+13,3PGSW (GEMAC)
+14,3PGSW (GEMAC)
+15,3PGSW (GEMAC)
+16,3PGSW (GEMAC)
+17,eHRPWM1
+18,eQEP0
+19,McSPI0
+20,McASP0 Tx
+21,eCAP0
+22,I2C0
+23,DCAN0
+24,DCAN0
+25,DCAN0
+26,eHRPWM2
+27,eCAP2
+28,eCAP1
+29,McASP1 Rx
+30,McASP1 Tx
+31,UART1
+32,pru0 or pru1
+33,pru0 or pru1
+34,pru0 or pru1
+35,pru0 or pru1
+36,pru0 or pru1
+37,pru0 or pru1
+38,pru0 or pru1
+39,pru0 or pru1
+40,pru0 or pru1
+41,pru0 or pru1
+42,pru0 or pru1
+43,pru0 or pru1
+44,pru0 or pru1
+45,pru0 or pru1
+46,pru0 or pru1
+47,pru0 or pru1
+48,PRUSS eCAP
+49,PRUSS IEP (Ethercat)
+50,PRUSS IEP (Ethercat)
+51,PRUSS IEP (Ethercat)
+52,PRUSS IEP (Ethercat)
+53,PRUSS IEP (Ethercat)
+54,PRUSS IEP (Ethercat)
+55,PRUSS IEP (Ethercat)
+56,PRUSS IEP (Ethercat)
+57,PRUSS UART
+58,PRUSS UART
+59,PRUSS UART
+60,PRUSS Scratch Pad
+61,PRU1 (Shift Capture)
+62,PRU0 (Shift Capture)
+63,PRUSS Parity Logic

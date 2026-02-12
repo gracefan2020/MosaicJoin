@@ -1,0 +1,51 @@
+id,title
+0,"Main configuration, used by TWiki.pm"
+1,Main TWiki library
+2,Diff library
+3,"Diff library, used by TwikiUpgrade script"
+4,Access control
+5,Attachment handling
+6,Form handling
+7,Public functions that Plugins may use
+8,Meta data in topics
+9,SMTP mail handling
+10,Plugin handling
+11,Plugin handling a comment box
+12,Supporting module for Comment Plugin
+13,Supporting module for Comment Plugin
+14,Supporting module for Comment Plugin
+15,Handles some legacy rules
+16,Plugin to edit tables
+17,"Empty plugin, use to create your own"
+18,Use aliases as links for predefined URLs
+19,Plugin to render lists as nice trees
+20,Plugin turning headings into slides
+21,Plugin rendering smilies like :-)
+22,Plugin resolving spreadsheet formulae
+23,Plugin to render tables nicely
+24,Preferences handling
+25,TWiki markup to HTML rendering
+26,"Search engine, used by TWiki.pm"
+27,"Back-end storage, *.txt text file and *.txt,v RCS repository file handling"
+28,"Generic file handling code, a class"
+29,"Wrappers around RCS executables, a class that inherits from RcsFile"
+30,"A Perl RCS implemention, a class that inherits from RcsFile"
+31,User interface handling
+32,Functionality of changes script
+33,Functionality of edit script
+34,Functionality of manage script
+35,Functionality of oops script
+36,Functionality of preview script
+37,Functionality of rdiff script
+38,Functionality of save script
+39,Functionality of search script
+40,Functionality of statistics script
+41,Functionality of upload script
+42,Functionality of view script
+43,Functionality of viewfile script
+44,Supporting module of TwikiUpgrade script
+45,Supporting module of TwikiUpgrade script
+46,Supporting module of TwikiUpgrade script
+47,Abstraction package to allow plugable user authentication systems
+48,Apache Htpasswd file implementation (the default)
+49,"simple, no users authentication (totally wiki)"

@@ -1,0 +1,50 @@
+id,title
+0,Public transport graphing
+1,Generalized Inverted Indexing
+2,A vaguely Rake/Make/Cake-like thing for Perl - create steps and let a runner run them
+3,A specific subclass of TravisCI that does horrible things
+4,Create a Fake ShareDir for your modules for testing.
+5,Downgrade listed dependencies to recommendations if present.
+6,High level email parsing and manipulation
+7,Scan prerequisite modules and generate CPANfile
+8,"code to map countries to continents, esp. with nerd.dk dnsbl"
+9,It's new $module
+10,write command line apps with less suffering
+11,Command-line tool to help build and test bleadperl
+12,a set of version requirements for a CPAN dist
+13,Parse General Transit Feeds (GTFS)
+14,Convert Markdown to POD
+15,generate colorized RTF using Vim's syntax highlighting
+16,Read config files containing hashes
+17,build multipart/alternative messages from Markdown alone
+18,build messages from templates
+19,simple toml parser
+20,Document method parameters in the signature
+21,Perl OO interface for geojson
+22,A more casual approach to creating and sending Email:: emails
+23,Implements symbolic and ls chmod modes
+24,Author Bundle for Caleb Cushing
+25,Object and class methods for working with British postcodes.
+26,DEPRECATED MooseX::Types for Log::Any
+27,Author test that validates a package MANIFEST
+28,DZIL Author Bundle for BBYRD
+29,an extension of Params::Validate using Moose's types
+30,Utility to extract a name from a PPI Document
+31,textify some HTML arguments to assembly
+32,Check validity of Internet email addresses
+33,Declaratively generate fake structured data for testing
+34,a more sensible way to change directories
+35,(DEPRECATED) Homogenize prerequisites so dependency versions are consistent
+36,RFC 2822 Address Parsing and Creation
+37,DAGOLDEN's frequently-used or favorite modules
+38,Driver-based API for tracking parcel
+39,Parcel::Track driver for the Hanjin (한진택배)
+40,(DEPRECATED) Apply roles to action instances
+41,A structured event logger for Fluent
+42,Parcel::Track driver for the CJ Korea Express (CJ 대한통운)
+43,load fixture data to database.
+44,Minimalist class construction
+45,Parcel::Track driver for the KG Dongbu Express (KG 동부택배)
+46,Parcel::Track driver for the Yellowcap (옐로우캡)
+47,Parcel::Track driver for the KGB LOGIS
+48,Parcel::Track driver for the ePOST Korea (우체국)

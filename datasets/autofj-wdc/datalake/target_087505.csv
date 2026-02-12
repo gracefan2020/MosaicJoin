@@ -1,0 +1,51 @@
+id,title
+0,spam ticket
+1,Parrot can't read from stdin
+2,crash during the tests for the configuration phase.
+3,spam ticket
+4,decorate all function parameters with ARGIN etc.
+5,set_global cannot store subs compiled with :anon into namespace
+6,pass an Interp into the heredoc preprocessor
+7,improve management of intermediate file in heredoc preprocessor
+8,OrderedHash exposes hash corruption
+9,Refactor Integer.PMC overflow mechanism to use VTABLES
+10,remove pirc/src
+11,Failure in t/op/string_cclass.t
+12,Parrot needs a source of entropy
+13,load_bytecode only accepts ascii filenames
+14,"partcl's ""expr-old.test"" spec test file exposes segfault (r34059)"
+15,runtime/parrot/library/tcpstream.pir broken
+16,Whatever became of http://smoke.parrotcode.org/smoke/ ?
+17,rename compilers/pirc/new to compilers/pirc/src
+18,Fix class registry to allow HLL classes of identical names
+19,[patch]Patch for docs/book/
+20,"SVN misclassifying .t files as binary, preventing 'svn blame'"
+21,Parrot::Interpreter - cannot use Lua
+22,Parrot::Interpreter ->invoke cannot handle more than one arguments
+23,Parrot::Interpreter - allow compilation of PHP script
+24,Parrot::Interpreter - should support multi-level namespaces
+25,Remove executable code from src/jit//jit_emit.h
+26,Parrot::Interpreter - run Pynie code
+27,document the default HLL root namespace
+28,PDD19: Documentation of .HLL
+29,[patch]simplified expression
+30,"[patch]remove unused code, change function to macro, redefined UNUSED macro"
+31,[patch][RFC] gc_ims.c
+32,Add exported function Parrot_set_HLL()
+33,Tcl/Tk for Parrot - next iteration.
+34,'make test' inoperable in languages/PIR/
+35,pct user docs
+36,remove all [DEPRECATED] items
+37,"""make realclean"" causes Configure.pl to fail (missing pipp_hash.c)"
+38,Should all header files under src/ be moved to include/ dir?
+39,[PATCH]removed unnecessary code
+40,[TODO] add pod2man
+41,[patch]clean cages and reorder codes
+42,[install] make -C languages reallyall
+43,test installable config
+44,Emit bytecode for keys
+45,Implement :immediate and other sub flags that involve running subs
+46,Implement :slurpy and other PCC flags
+47,[test] add parrot_utils tests
+48,cpu_ret segfaults
+49,No self in PIR invoke VTABLE

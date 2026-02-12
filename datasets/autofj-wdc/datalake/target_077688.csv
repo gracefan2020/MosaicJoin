@@ -1,0 +1,53 @@
+id,title
+0,"Batch mode, combine images for histogram"
+1,Create a web site for slim-curve
+2,Closing Histogram Tool makes it go away for the session
+3,Stretched exponential fit results don't agree with TRI2
+4,Automatic refit is flakey
+5,Remove unimplemented features from UI
+6,Mirror new TRI2 rounding scheme
+7,Automatic refit for summed image
+8,Masked pixels should appear with NaN value
+9,Fitted images can have improper min/max ranges
+10,Summed fitted results are bad sometimes
+11,Estimate Cursors w/o Prompt is bad
+12,SLIMPlugin threshold control doesn't correspond to TRI2
+13,UI panel text fields fail to trigger refit
+14,TRI2/SP fitted parameter initial guess issues
+15,SP fitted images don't handle errors
+16,Histogram zoom when hiding pixels is flaky
+17,Autoranging min/max on histogram tool doesn't account for hidden pixels
+18,Need to distinguish sets of fitted images.
+19,Threshold mask doesn't work when binning is in effect.
+20,Remove initial logging message
+21,Add decay image file name to fitted images
+22,Honor ROIs when fitting images
+23,Hidden pixels get out of synch
+24,Histogram tool should have logarithmic checkbox
+25,Batch mode improvements
+26,"Batch mode, save & restore user settings"
+27,"Batch mode, automatically threshold each image"
+28,"Batch mode, allow saving pixels & histograms to separate files"
+29,Problematic FLIM file
+30,Can't open two images serially
+31,Default histogram s/b non-logarithmic
+32,Compare SLIM Plugin and SPC Image results
+33,SLIM Plugin grayscale overflow issue
+34,"Exported histograms should report A as a %, not raw"
+35,Numeric fields in UI need a spinner
+36,Export histograms in table form
+37,Resize histogram taller
+38,Resize grayscale image larger
+39,Resize decay graph larger
+40,Show chi-square on decay graph
+41,Show IRF on decay graph
+42,Evaluate need for fitted scatter parameter
+43,Add histogram smoothing
+44,Misinterpretation of Double.MIN_VALUE
+45,Residuals should be weighted
+46,Save/restore settings
+47,Batch mode needs progress bar
+48,summary
+49,Batch mode summary histogram numbers off
+50,Batch mode summary histogram support non-T parameters
+51,irf bugs

@@ -1,0 +1,60 @@
+id,title
+0,Getting Started
+1,The SQL Language
+2,Advanced Features
+3,SQL Syntax
+4,Data Definition
+5,Data Manipulation
+6,Queries
+7,Data Types
+8,Functions and Operators
+9,Type Conversion
+10,Indexes
+11,Full Text Search
+12,Concurrency Control
+13,Performance Tips
+14,Installation from Source Code
+15,Installation from Source Code on Windows
+16,Server Setup and Operation
+17,Server Configuration
+18,Client Authentication
+19,Database Roles
+20,Managing Databases
+21,Localization
+22,Routine Database Maintenance Tasks
+23,Backup and Restore
+24,"High Availability, Load Balancing, and Replication"
+25,Recovery Configuration
+26,Monitoring Database Activity
+27,Monitoring Disk Usage
+28,Reliability and the Write-Ahead Log
+29,Regression Tests
+30,ibpq - C Library
+31,Large Objects
+32,ECPG - Embedded SQL in C
+33,The Information Schema
+34,Extending SQL
+35,Triggers
+36,The Rule System
+37,Procedural Languages
+38,PL/pgSQL - SQL Procedural Language
+39,PL/Tcl - Tcl Procedural Language
+40,PL/Perl - Perl Procedural Language
+41,PL/Python - Python Procedural Language
+42,Server Programming Interface
+43,SQL Commands
+44,PostgreSQL Client Applications
+45,PostgreSQL Server Applications
+46,Overview of PostgreSQL Internals
+47,System Catalogs
+48,Frontend/Backend Protocol
+49,PostgreSQL Coding Conventions
+50,Native Language Support
+51,Writing A Procedural Language Handler
+52,Genetic Query Optimizer
+53,Index Access Method Interface Definition
+54,GiST Indexes
+55,GIN Indexes
+56,Database Physical Storage
+57,BKI Backend Interface
+58,How the Planner Uses Statistics

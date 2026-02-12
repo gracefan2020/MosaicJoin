@@ -1,0 +1,59 @@
+id,title
+0,Adds dates
+1,Adds time
+2,Converts from one timezone to another
+3,Returns the current date
+4,Synonyms for CURDATE()
+5,Synonyms for CURTIME()
+6,Synonyms for NOW()
+7,Returns the current time
+8,Adds two dates
+9,Formats date as specified
+10,Subtracts two dates
+11,Extracts the date part of a date or datetime expression
+12,Subtracts two dates
+13,Synonym for DAYOFMONTH()
+14,Returns the name of the weekday
+15,Returns the day of the month (1-31)
+16,Returns the weekday index of the argument
+17,Returns the day of the year (1-366)
+18,Extracts part of a date
+19,Converts a day number to a date
+20,Formats date as a UNIX timestamp
+21,Extracts the hour
+22,Returns the last day of the month for the argument
+23,Synonym for NOW()
+24,Synonym for NOW()
+25,Creates a date from the year and day of year
+26,MAKETIME()
+27,Returns the microseconds from argument
+28,Returns the minute from the argument
+29,Return the month from the date passed
+30,Returns the name of the month
+31,Returns the current date and time
+32,Adds a period to a year-month
+33,Returns the number of months between periods
+34,Returns the quarter from a date argument
+35,Converts seconds to 'HH:MM:SS' format
+36,Returns the second (0-59)
+37,Converts a string to a date
+38,When invoked with three arguments a synonym for DATE_SUB()
+39,Subtracts times
+40,Returns the time at which the function executes
+41,Formats as time
+42,Returns the argument converted to seconds
+43,Extracts the time portion of the expression passed
+44,Subtracts time
+45,"With a single argument, this function returns the date or datetime expression. With two arguments, the sum of the arguments"
+46,Adds an interval to a datetime expression
+47,Subtracts an interval from a datetime expression
+48,Returns the date argument converted to days
+49,Returns a UNIX timestamp
+50,Returns the current UTC date
+51,Returns the current UTC time
+52,Returns the current UTC date and time
+53,Returns the week number
+54,Returns the weekday index
+55,Returns the calendar week of the date (1-53)
+56,Returns the year
+57,Returns the year and week

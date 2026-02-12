@@ -1,0 +1,80 @@
+id,title
+0,New parser (using QLALR) and new lexer
+1,Import capability for MathML Presentation Markup in libanalitza
+2,Visualization of Schemes and Gradients at same time
+3,Usability Improvements
+4,Merging KPercentage functionalities into KBruch
+5,Add a Open File action
+6,Python bindings to the Marble widget and classes
+7,Display millions of stars
+8,Tool to predict Conjunctions
+9,Support of Non-western Constellations
+10,"Include HD Catalog Numbers (in search, in display)"
+11,Separate INDI From KStars
+12,Sky Calendar Tool
+13,Earth Satellites
+14,Add command line
+15,Add a color picker
+16,Export canvas as image
+17,Rewrite of the classic test writing/taking application
+18,Number support
+19,Theme manager
+20,Integrate an editor
+21,Plasmoid
+22,Theme manager
+23,Visual Indicator when letter is wrong
+24,Port Kalzium's periodic table to use new QGraphicsView.
+25,"Remove the libavogadro snapshot, depend on libavogadro directly."
+26,Plasmoid to access Kalzium database
+27,Improve GUI for creating softbody
+28,Use common constraints handling code for collisions
+29,Export to MathML Presentation Markup
+30,Some integration with the new KFormula widget
+31,Declensions
+32,Rework main window infrastructure
+33,Marble widget for Geolocation tool
+34,Better printed star charts
+35,Sync KStars time from device
+36,Better rendering of comets/asteroids
+37,Texture mapping of the skymap???
+38,Improve Observing List Wizard
+39,Display Comet Magnitudes whenever possible
+40,Information links in-place for each technical term
+41,Tool to suggest star-hopping techniques???
+42,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+43,Export map to MxN pixel bitmap
+44,Bookmarks
+45,Support for MarbleWidget::setEnabled( bool )
+46,Map Contents translation
+47,Editing GeoDataFeatures
+48,Layer Management Class
+49,Plugin architecture for map layers
+50,Extending GeoPainter
+51,Marble Runners
+52,GeoClue Integration
+53,Routing
+54,More map providers (WMS?)
+55,Winkel Triple projection / equivalent
+56,Marble WorldClock Plasmoid
+57,Qt-Version settings dialog
+58,Panoramio Support
+59,Twitter Plugin
+60,TimeZone Support
+61,Support for other planets and the moon
+62,DGML2 Support
+63,Support for imperial units
+64,Graticule plugin
+65,MeasureTool plugin
+66,Port authors list from the Qt-About dialog to the KDE-About dialog
+67,Basic KML support
+68,GeoData Model/View Visualization
+69,More generic projection support
+70,Network plugins
+71,Properties dialog for objects.
+72,Improve construction of bisect lines.
+73,Improve feedback when constructing objects.
+74,More geometric objects.
+75,Script objects as macros (to be reused more than once).
+76,Improve the Cabri import filter.
+77,Improve the new/edit script wizard.
+78,Optional rulers/grid for canvas units

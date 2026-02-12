@@ -1,0 +1,61 @@
+id,title
+0,ChangeLogdefault tip
+1,make cookies date parsing closer to the rfc
+2,wasteful use of strncpy
+3,tls.c a little cleanup
+4,integrate cert algorithm + key checking code with the other checks
+5,restore lost initialization of choice_answer
+6,"permit secure->insecure redirection for now, add large comment"
+7,let's disallow mixed content
+8,pop up dialog when an HTTPS page's form submission is insecure
+9,enable prefs.http_persistent_conns by default
+10,hsts changelog
+11,merge 3.0.5 branch
+12,tag3.0.5
+13,release date3.0.5 release-3_0_5
+14,version3.0.5
+15,HSTS add the preload list
+16,prefs.http_strict_transport_security
+17,HTTP Strict Transport Security
+18,MSG
+19,cookies be careful with overflow with ridiculously huge Max-Age values
+20,add a tls test site
+21,use [IMG] placeholder even if prefs.load_images is true
+22,rc13.0.5
+23,mention the most recent ChangeLog additions in splash3.0.5
+24,README version number in build instructions3.0.5
+25,handle openssl derivatives in the license permissions for the https dpi3.0.5
+26,BUG_MSG3.0.5
+27,"HTML 5.1 draft permits LINK with itemprop in body, so we might as well be quiet about it.3.0.5"
+28,html5 inside PRE don't complain about html4's pre.exclusion set3.0.5
+29,"HTML 5.1 draft permits META with itemprop in body, and its use is widespread, so let's not complain3.0.5"
+30,quiet MSG3.0.5
+31,bug msg3.0.5
+32,bug msg3.0.5
+33,bring some consistency to the bug messages.3.0.5
+34,bug messages: '\n' as separator instead of terminator3.0.5
+35,BUG_MSG3.0.5
+36,MSG3.0.5
+37,KB3.0.5
+38,a little more3.0.5
+39,paths MSG consistency3.0.5
+40,page bugs: fix line numbers for bugs in entities3.0.5
+41,"acknowledge that we view 0x80-0xFF bytes in urls as illegal, and make handling uniform whether char is signed or unsigned3.0.5"
+42,"in bad-url BUG_MSG, provide the url string3.0.5"
+43,ChangeLog3.0.5
+44,provide a redirection-blocked page3.0.5
+45,ChangeLog3.0.5
+46,Reimplemented the Dicache using dlib ADTs3.0.5
+47,Moved dicache entry removal to a_Dicache_cleanup()3.0.5
+48,"Ensure png, jpeg and gif decoders don't use DilloImage after set_parms()3.0.5"
+49,Fixed a potential problem in a_Dicache_unref()3.0.5
+50,Avoid a memory leak at exit time3.0.5
+51,"Fixed an ""invalid read"" in dicache (detected with valgrind)3.0.5"
+52,Avoid removing imgbuf and decoding the whole image again for reloads.3.0.5
+53,Avoid creation of unnecessary image bufs (at alt-text to img switch)3.0.5
+54,now give it a version number3.0.5
+55,Tests are now linked to libX11 when needed.3.0.5
+56,clarify situation with MENU element3.0.5
+57,more compact MSG3.0.5
+58,trim the publicsuffix TLDs yet again3.0.5
+59,TODO3.0.5

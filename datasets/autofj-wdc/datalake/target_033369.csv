@@ -1,0 +1,495 @@
+id,title
+0,Ensure changing RAILS_GROUPS will load the proper depend...
+1,Test against 1.9.3 as well.
+2,Merge pull request #2307 from thoefer/3-1-stable-fix1872
+3,Merge pull request #2373 from arunagw/31_schema_dumper_t...
+4,Merge pull request #2332 from thedarkone/resources-route...
+5,Merge pull request #2287 from dgeb/3-1-mailers-in-plugins
+6,Merge pull request #2263 from sferik/format_true
+7,Merge pull request #2256 from thedarkone/polymorphic-url...
+8,Merge pull request #2253 from dchelimsky/stringify-param...
+9,Merge pull request #2121 from arunagw/3-1-plugin_new_gen...
+10,Use cache/assets instead.
+11,assets.cache_store now defaults to filesystem. You will ...
+12,Require assets in all environments by default and provid...
+13,Make Rails.groups accept arrays.
+14,Move config.default_asset_host_protocol to the railtie.
+15,Give higher priority to assets.cache_store.
+16,Make compressors lazily load.
+17,Deprecate stream at the class level.
+18,Merge pull request #1949 from dmathieu/cherry-picks
+19,Merge pull request #1947 from spohlenz/refactor-asset-pa...
+20,Merge pull request #1946 from spohlenz/fix-engine-migrat...
+21,require 'thread' before using Mutex
+22,Make sure respond_with with :js tries to render a templa...
+23,Add has_key? and key? methods to CookieJar removed in 0c...
+24,Merge pull request #1912 from arunagw/new_plugin_g_test
+25,Fix configurable cristalization and tests.
+26,"[IMPORTANT] Make ""sprockets/railtie"" require explicit."
+27,Update railties.gemspec
+28,Copy the bin to railties so it also works if you don't h...
+29,Skip if it is actually a pluralize scheme.
+30,Edited railties/lib/rails/paths.rb via GitHub
+31,Merge pull request #1839 from wildchild/3-1-stable
+32,Edited actionpack/actionpack.gemspec via GitHub
+33,Update CHANGELOG.
+34,Require helpers so autoload is properly setup.
+35,Merge pull request #1804 from guilleiguaran/3-1-stable
+36,Don't use deprecated stuff.
+37,Create an :assets group in the Gemfile.
+38,Rename AV::Helpers::AssetPaths to AV::AssetPaths to solv...
+39,Add Rails.groups to encapsulate available groups for re...
+40,Merge pull request #1791 from cmeiklejohn/3-1-stable
+41,Merge pull request #1773 from bensie/class-attr-3-1-stable
+42,Merge pull request #1771 from arunagw/require_rel_remove
+43,Merge pull request #1768 from stevehodgkiss/3-1-stable
+44,Merge pull request #1749 from dmathieu/simple_format
+45,Merge pull request #1735 from SAP-Oxygen/3-1-stable-app_...
+46,Fix SafeBuffers by adding a dirty flag.
+47,Merge pull request #1726 from arunagw/mysql_bump_3-1-stable
+48,Merge pull request #1460 from SAP-Oxygen/27d7083addd1bc8...
+49,load_generators from engine should also handle self auto...
+50,Merge pull request #1713 from dmathieu/3-1-cherry
+51,Merge pull request #1702 from brianmario/lazy-mysql2-cas...
+52,Merge pull request #1675 from thoefer/3-1-stable
+53,Make i18n tests more robust.
+54,Update CHANGELOG.
+55,Add a deprecation for nested i18n namespace lookup.
+56,Get rid of the alternate namespace lookup.
+57,Merge pull request #1630 from BDQ/engine_migrations_3_1
+58,Merge pull request #1562 from sikachu/3-1-i18n-convention
+59,Merge pull request #1561 from sikachu/3-1-escapejs
+60,Merge pull request #1557 from guilleiguaran/multiple-sou...
+61,Merge pull request #1546 from sikachu/31safebuffer
+62,Merge pull request #1527 from guilleiguaran/3-1-stable
+63,Merge pull request #1508 from vijaydev/rake_rdoc_fixes_c...
+64,Merge pull request #1505 from arunagw/3-1-stable
+65,Merge pull request #1478 from arunagw/warning_cherry-picks
+66,Merge pull request #1495 from arunagw/fixed_failing_isol...
+67,Merge pull request #1313 from joshk/deprecation_message_...
+68,Everyone receives app as argument for consistency.
+69,Merge pull request #1235 from joshk/deprecate_kernel_req...
+70,"Move content length to the server, this brings the same ..."
+71,Use Rack 1.3.0.
+72,Fix I18n dependency as final is out.
+73,Fix failing tests.
+74,Merge pull request #1208 from dasch/patch-1
+75,Merge pull request #1206 from arunagw/jruby_openssl_load
+76,Merge pull request #1199 from vatrai/jdon_engine_test_fix
+77,Merge pull request #1198 from guilleiguaran/changelog_pl...
+78,Merge pull request #1191 from arunagw/removal_extra
+79,Merge pull request #1188 from thedarkone/duplicable-dura...
+80,Merge pull request #1182 from prakashmurthy/patch-1
+81,Merge pull request #1165 from arunagw/rubyforge_remove
+82,Merge pull request #1179 from castlerock/activesupport_test
+83,Merge pull request #1178 from joshk/ruby19_warning
+84,Merge pull request #1177 from joshk/ruby19_warnings
+85,Merge pull request #1175 from joshk/active_resource_corr...
+86,Temporarily ship with ContentLength middleware.
+87,Merge pull request #1169 from senny/specify_a_custom_act...
+88,Use Rack::ContentLength.
+89,Merge pull request #1151 from joshk/wrap_params_options_...
+90,Merge pull request #1137 from guilleiguaran/each_syntax_...
+91,Merge pull request #1136 from arunagw/actionmailer_readme
+92,Merge pull request #1135 from arunagw/for_to_each
+93,Merge pull request #1109 from dlee/optimize_indifferent_...
+94,Merge pull request #1133 from joshk/options_merger_test
+95,Merge pull request #1132 from joshk/ares_changelog
+96,Merge pull request #1131 from joshk/active_model_xml_fix
+97,Merge pull request #1126 from sikachu/bump_rack_mount
+98,Merge pull request #1124 from amatsuda/fix_railties_warn...
+99,Merge pull request #1115 from joshk/active_resource_json...
+100,Merge pull request #1123 from amatsuda/generator_for_to_...
+101,Merge pull request #1117 from joshk/as_numeric_time
+102,Merge pull request #1116 from guilleiguaran/typo_in_app_...
+103,Merge pull request #1112 from FLOChip/turn
+104,Merge pull request #1114 from arunagw/databaseyml_doc
+105,Ensure Set-Cookie is not set on assets.
+106,Dump and load rack-cache stuff.
+107,Add a test case for issue #476.
+108,Merge pull request #1093 from lucasmazza/patch-1
+109,Use anonymous? that works on both Ruby 1.8 and 1.9.
+110,Merge pull request #1104 from colinyoung/master
+111,Merge pull request #1106 from vatrai/user_instruct
+112,Merge pull request #1090 from dchelimsky/issue-1089
+113,Merge pull request #1105 from kevmoo/b1103
+114,Merge pull request #1099 from dlee/optimize_indifferent_...
+115,"Fixes failing test, closes #1098."
+116,Deprecate attr_accessor_with_default.
+117,Merge pull request #1087 from amatsuda/generate_number_f...
+118,Merge pull request #1085 from amatsuda/amo_validator_ini...
+119,Merge pull request #573 from smartinez87/attr
+120,Merge pull request #570 from sikachu/decouple_actionpack
+121,Merge pull request #568 from carlosantoniodasilva/fields...
+122,Added some docs to controller runtime.
+123,Merge pull request #554 from tomafro/reset-activerecord-...
+124,Merge pull request #550 from jasondew/patch-1
+125,Merge pull request #540 from sikachu/mailer_generator_1_...
+126,Merge pull request #542 from guilleiguaran/1_9_hash_style
+127,Merge pull request #547 from vatrai/patch-1
+128,Merge pull request #532 from amatsuda/update_script
+129,Merge pull request #531 from amatsuda/update_javascripts
+130,Merge pull request #524 from joshk/ar_create_mas_correction
+131,Merge pull request #515 from joshk/patch-3
+132,Merge pull request #519 from knapo/master
+133,Merge pull request #507 from dlee/fix_identity_map_tests
+134,Merge pull request #506 from dlee/custom_csrf_token_tests
+135,Merge pull request #503 from smartinez87/conventions
+136,Merge pull request #501 from guilleiguaran/patch-2
+137,Get around weird missing constant error caused by AS ins...
+138,Merge pull request #499 from smartinez87/csv
+139,Merge pull request #498 from vatrai/minor_cleaning
+140,Merge pull request #494 from vijaydev/patch-5
+141,Merge pull request #492 from jaw6/master
+142,Fix previous commit by allowing a proc to be given as re...
+143,Merge pull request #446 from danielstutzman/response_bod...
+144,Merge pull request #484 from slainer68/master
+145,Merge pull request #482 from vijaydev/patch-2
+146,"Document identity map inconsistency with associations, c..."
+147,Fix #480. Passing nil to create association works.
+148,"Revert ""b9ea751d0e56bd00d341766977a607ed3f7ddd0f""."
+149,Add failing tests according to #479.
+150,"Add failing tests, according to #480."
+151,Ensure assign_attributes and update_attributes do not fa...
+152,"Add tests for content_for() for read, closes #475."
+153,Disable identity map by default. Detailed documentation ...
+154,Merge pull request #471 from joshk/remove_as_concern
+155,Merge pull request #461 from chrislwade/sorted-migrations
+156,Warn if we cannot verify CSRF token authenticity
+157,Fix failing test.
+158,"Oops, missing autoload, closes #466"
+159,Merge pull request #460 from guilleiguaran/patch-1
+160,Optimize the most common resolver case.
+161,No need for replace.
+162,Merge pull request #457 from vijaydev/master
+163,Merge pull request #455 from joshk/mass_assignment_roles
+164,Merge pull request #388 from smartinez87/remove_method
+165,"prepend the assets route instead of appending, closes #436"
+166,Merge pull request #454 from dlee/nested_indifferent_access
+167,Revert to use === only here because of perf. :(
+168,Merge pull request #420 from burke/master
+169,Merge pull request #430 from dlee/methodoverride
+170,Fix failing xml mini test.
+171,Merge pull request #452 from jrom/runner-r-alias
+172,"Revert ""Merge pull request #275 from pk-amooma/master"""
+173,Always expand */*
+174,xml_mini_test.rb now runs.
+175,Merge pull request #434 from arunagw/changelog_doc
+176,Class.new.name returns an empty string on 1.8
+177,"Revert ""Revert the merge because tests did not pass."""
+178,Update CHANGELOG.
+179,Merge pull request #343 from asanghi/ampm
+180,Merge pull request #286 from jasoncodes/marshal_subsec
+181,ADdd missing requires (thanks to @arunagw)
+182,Merge pull request #280 from jballanc/frozen-string-stri...
+183,Merge pull request #275 from pk-amooma/master
+184,Merge pull request #263 from CvX/master
+185,Merge remote branch 'rolftimmermans/desc_tracker'
+186,Merge pull request #248 from bigfix/enumerable_as_json
+187,Merge pull request #349 from bradley178/master
+188,Use .ref instead of .to_sym.
+189,Merge pull request #424 from gnufied/master
+190,Revert the merge because tests did not pass.
+191,Merge pull request #423 from richardiux/master
+192,Merge pull request #419 from smartinez87/avail_action
+193,"Revert to old semantics, use available_action? instead o..."
+194,Merge pull request #389 from jasonrudolph/always_flush_l...
+195,Merge pull request #414 from asanghi/lh5796
+196,"Don't pluralize, camelize."
+197,"Move variables to underscore format, update protected in..."
+198,More updates to ivars list.
+199,Merge pull request #410 from asanghi/LH6074
+200,Merge pull request #408 from etdsoft/master
+201,Ensure params wrapper settings are not inherited and cal...
+202,Update CHANGELOGs.
+203,Merge pull request #400 from arunagw/ruby_prof
+204,Merge pull request #397 from dchelimsky/view-path-decorator
+205,Merge pull request #394 from splattael/fix_rake_routes_s...
+206,Merge pull request #392 from janx/master
+207,Update respond_with docs to deal better with collections.
+208,Merge pull request #390 from arunagw/jruby_openssl
+209,Merge pull request #391 from bradleypriest/patch-1
+210,Merge pull request #387 from smartinez87/remove_method.
+211,Fix renew feature on cookies.
+212,Fix .subdomain regression.
+213,Use remove possible method here.
+214,Relax this dependency a bit.
+215,Let's run those precious tests against the gem.
+216,Move sandbox to AR and pass the sandbox as a value. This...
+217,Remove defined?(ActiveRecord) and use the railtie hook i...
+218,More AV::Base cleanup.
+219,Move prefixes to view paths as they are now a lookup con...
+220,Also allow prefixes as third argument to lookup context.
+221,Merge remote branch 'apotonick/presentation'
+222,Use latest rack-test.
+223,Merge pull request #380 from vijaydev/master.
+224,Merge pull request #378 from danielvlopes/master.
+225,Add a shared entry point for AV and AC render which can ...
+226,Merge pull request #377 from joshk/rails_legacy_mapper_m...
+227,Merge pull request #375 from k33l0r/master.
+228,Add static_cache_control as configuration option and set...
+229,We no longer depend on those git repos.
+230,No need for a regexp here.
+231,Static middleware accepts cache control.
+232,Multipart is now fixed in Rack.
+233,Merge pull request #373 from sikachu/bomb.
+234,More performance optimizations.
+235,Improve performance for filtered parameters and add tests.
+236,Update CHANGELOG.
+237,Move most processing to load time for performance and im...
+238,Instrumentation should have callbacks.
+239,Koz asked to test something crazy.
+240,Allow ignore_accept_header through configuration option.
+241,Add ignore_accept_header config to AD::Request.
+242,Merge pull request #367 from sikachu/credit_changelog.
+243,Fix failing AR test.
+244,Merge pull request #360 from cgriego/activeresource-perf...
+245,Tidy up pending TODOs after discussion with Mr. Gatoz (@...
+246,Streaming docs.
+247,Add a test for rendering from the controller context.
+248,log errors when an exception happens when streaming.
+249,Introduce view renderer.
+250,Remove view dependency from AV::Renderer.
+251,Remove dependency from _template.
+252,Start abstracting the renderer.
+253,More cleanup and moving responsibilities around.
+254,Remove more dependencies from the view.
+255,No need for &block here.
+256,Make postgresql faster on development (thanks to @tapajos).
+257,Merged pull request #344 from asanghi/callback_if.
+258,Merge remote branch 'myron/am_disabling_fix_memory_leaks'
+259,Merged pull request #327 from dcrec1/master.
+260,Merged pull request #336 from neerajdotname/upgrade_rack...
+261,Tidy up previous commit.
+262,Merged pull request #219 from panthomakos/memcache.
+263,Merged pull request #333 from jgarber/master.
+264,"Revert ""Handle enabling/disabling observers at different..."
+265,Merged pull request #328 from MSNexploder/fix_clear_infl...
+266,Merged pull request #279 from miloops/434d757.
+267,Merged pull request #308 from joshk/assign_attributes.
+268,Merged pull request #305 from joshk/bump_deprecation.
+269,Fix tests.
+270,File watcher won't make the cut for 3.1. Maybe on 3.2.
+271,Use .erb in the test.
+272,Fix tests on 1.8 by explicitly checking for strings (whi...
+273,Use initialize_copy! to proper initialize now on clone.
+274,"Actually add an abstract class, so it is easier to get r..."
+275,Include modules to the context in the railtie.
+276,"Let's use inheritance here, shall we?"
+277,Let's not dup because value may not always be duplicable.
+278,Avoid define_method if possible.
+279,Do not stream on HTTP/1.0.
+280,Output a redirect to the 500 page if something happens w...
+281,"Do not inherit from Rack::Response, remove a shit-ton of..."
+282,Be sure to not store the closed flash in the session.
+283,Just define the controller if fibers are defined.
+284,Test explicit skip.
+285,Body... wanna *stream* my body? Body... such a thrill my...
+286,Rename it to DataStreaming.
+287,Add missing dependency.
+288,Slightly reorganize rendering stack.
+289,"What a lovely surprise, controller_generator_test was al..."
+290,Fix more generator tests.
+291,Lazily load sprockets.
+292,Fix assets generators.
+293,"Make generators more modular, add hooks and improve test..."
+294,Move app initializers to sprockets railtie.
+295,Move controller configs to sprockets own railtie.
+296,Generate app/* stubs directories for full plugins to sho...
+297,Fix CI test on 1.8
+298,Class docs.
+299,Docs.
+300,content_for should work with provide.
+301,"Add more tests, ensure we never yield outside the fiber ..."
+302,Basic tests for streaming. Basic tests for provide.
+303,The magic medicine worked.
+304,"Yo dawg, I heard you like streaming. So I put a fiber, i..."
+305,Buffer should be an option passed down to template rende...
+306,Initial work on fibered layout.
+307,Fix generator tests.
+308,Fix missing test_helper.
+309,"render :once, YAGNI."
+310,Make static faster as we don't have to serve multiple pa...
+311,Remove the ability for engines to serve assets from the ...
+312,Fix tests.
+313,"Booya, sprockets now works from Engines."
+314,Add some very simple docs.
+315,Remove rescue as it was clobbering the real error.
+316,attribute should be attributes
+317,Edited actionpack/lib/action_view/helpers/form_helper.rb...
+318,Remove code duplication.
+319,No need to rescue here. Invoking the wrong method in an ...
+320,"Revert ""Add :use_include option to allow user to explici..."
+321,Remove dead branch code that appeared back in a merge.
+322,Improve docs.
+323,Make action_method? public and change implicit rendering...
+324,Pass the proper method_name instead of hardcoding to act...
+325,Improved resolver docs a bit
+326,"Revert ""It should be possible to use ActiveSupport::Desc..."
+327,Add missing require 'thread' to BufferedLogger.
+328,log and readme should respect --quiet
+329,Fix tests on 1.8.
+330,Remove misleading reference to polymorphic_url.
+331,"Revert ""Removed Array#safe_join in AS core_ext and moved..."
+332,Use Mime::Type references.
+333,Ensure render is case sensitive even on systems with cas...
+334,Solve SystemStackError when changing locale inside Actio...
+335,Clean up PathSet.
+336,No need to symbolize these.
+337,Final tidy up on templates inheritance.
+338,Don't deprecate to_prepare.
+339,Clean up callbacks should also be called on exceptions.
+340,Small changes on AD::Reloader.
+341,Use class_attribute to ensure weak_passwords are inherit...
+342,'unsecure' => 'insecure'
+343,Make password messages translatable.
+344,Add missing require and remove extra module.
+345,Avoid warnings and fix small typo on SecurePassword.
+346,Ensure asset_path defaults to nil for application
+347,Merge remote branch 'drogus/dummy_tasks'
+348,Ensure resolvers backward compatibility.
+349,Clean up asset_host and asset_path.
+350,Properly check the arity for template handlers.
+351,Check if the routes object really responds to define_mou...
+352,Wrap everything in class << self.
+353,Merge remote branch 'joshk/redirect_routing'
+354,"Revert ""Fix generation of wrong json string when field h..."
+355,Deprecate handler_class_for_extension as template handle...
+356,Partialy revert f1c13b0dd7b22b5f6289ca1a09f1d7a8c7c8584b
+357,Fix tests on 1.9.2.
+358,trailing star mimes should respect the order in which mi...
+359,Update CHANGELOG.
+360,Only convert direct hash instances in hash with indiffer...
+361,Dynamically generaeted helpers on collection should not ...
+362,#:nodoc: internal methods.
+363,Allow template handlers to store temp data.
+364,Remove bazillion warnings from AP suite.
+365,Speed up subdomain and domain calculus.
+366,Ensure calling reset session twice does not raise errors.
+367,I18n is always loaded on boot by Active Model or Action ...
+368,"Revert ""Remove deprecated form_for with strings or symbols"""
+369,Facepunch failing tests.
+370,Pass the view object as parameter to the handler. Useful...
+371,Tidy up generators commits.
+372,Fix failing tests.
+373,Update the guides.
+374,Remove whitespaces and add missing test.
+375,Merge remote branch 'drogus/plugin_new'
+376,Add missing autoload.
+377,Remove inline comment.
+378,Allow AR Session Store to be renewed
+379,Add a note to TextHelpers making explicit their default ...
+380,Update to latest thor.
+381,Use latest I18n.
+382,Remove rack-cache-purge.
+383,Use render :template instead of render :file in nested l...
+384,Remove :cache => true on lookup templates initialization.
+385,SReorganize autoloads slightly and move two files to lib...
+386,render :once should consider the current controller prefix.
+387,Comment internal railties tasks.
+388,"Updated DOCS for engines and added a couple TODOs. Also,..."
+389,Do not allow templates coming from Fallback resolvers to...
+390,Use identifiers for template equality.
+391,Merge remote branch 'drogus/engines'
+392,Clean up unused methods from AV::Base and pass in the te...
+393,Add expire! and rerender to the template API. This will ...
+394,Add some unit tests to Template#refresh.
+395,Add support to render :once.
+396,Clean up the house before moving in the new furniture.
+397,Update CHANGELOG.
+398,Resolvers now consider timestamps.
+399,Deprecate old template handler API. Remove old handlers.
+400,Add more docs and tests to templates.
+401,Cleanup logger a bit.
+402,Ensure rack body responds to each.
+403,Fix 1.9.2 failures.
+404,Make collection rendering faster.
+405,Remove locals dependency from template.
+406,Allow cache to be temporarily disabled through lookup_co...
+407,render :template => 'foo/bar.json' now works as it should.
+408,Get rid of ruby warnings in Resolvers. Move a few method...
+409,Provide a cleaner syntax for paths configuration that do...
+410,Clean up the builder abstraction in AppGenerator.
+411,Don't expect an AD::Response object back from the app.
+412,Use RbConfig instead of Config for 1.9.3 compatibility.
+413,No need to pass self as parameter here.
+414,Link to rack from github for this while.
+415,Ensure the proper content type is returned for static fi...
+416,Update to Thor 0.14.3.
+417,Initialize sid should just skip instance variables.
+418,Merge branch 'racksession'
+419,Solve some warnings and a failing test.
+420,Move ETag and ConditionalGet logic from AD::Response to ...
+421,Rely on Rack::Session stores API for more compatibility ...
+422,Be more explicit about what is deprecated.
+423,Deprecate generators in Railties. You should use app_gen...
+424,:'' is not valid ruby.
+425,reload_routes! is part of the public API and should not ...
+426,Fix a routing test. Reorganize middleware tests.
+427,"Revert ""Perf: refactor _assign method to avoid inject an..."
+428,"Revert ""removing crazy finalizer code until there is pro..."
+429,Add more information to comments.
+430,Merge remote branch 'drogus/engines'
+431,Use .find here as it is simpler and faster.
+432,Merge remote branch 'miloops/warnings'
+433,Fix a small typo (ht: masterkain)
+434,Ensure that named routes do not overwrite previously def...
+435,Fix an error on 1.8.7.
+436,@_etag is not used anywhere.
+437,Avoid (@_var ||= nil) pattern by using initialize method...
+438,Merge remote branch 'miloops/warnings'
+439,Fix tests on 1.9.2.
+440,Properly initialize variables inside the initialize method.
+441,Merge remote branch 'gramos/ares-missing-prefix-value'
+442,Do not cache the script name outcome.
+443,Merge remote branch 'miloops/warnings'
+444,Call it compile_methods! and do the same on AM.
+445,Merge remote branch 'thedarkone/performance'
+446,Fix active_resource assertions.
+447,Update abort message (ht: tilsammans).
+448,Bump thor version requirement.
+449,There is no need to use instance_eval since the proc is ...
+450,Remove a few tests from old router that do not make sens...
+451,Merge remote branch 'drogus/remove_deprecated_routes'
+452,Remove more deprecated behavior from plugins.
+453,Small tidy up on Rails::Engine.
+454,This commit merges most of the work done by Piotr Sarnac...
+455,"Revert ""Setup explicit requires for files with exception..."
+456,Remove deprecated dispatch test.
+457,Ensure routes are loaded only after the initialization p...
+458,Merge josevalim/deprecations branch.
+459,Remove NonConcattingString.
+460,Remove deprecated support to <% form_for %> and several ...
+461,Remove constants deprecation.
+462,Remove deprecations in ActiveModel.
+463,Deprecate the old mailer API that was not deprecated yet.
+464,Remove the deprecated API from ActionMailer.
+465,Ensure we are not calling length on nil.
+466,Add missing require.
+467,Be sure to call helper :all just on direct children. (Te...
+468,"Doh, be sure to store the string modification."
+469,Do not modify frozen strings in place.
+470,Add clear_helpers as a way to clean up all helpers added...
+471,Ensure templates like template.html are found but still ...
+472,Update CHANGELOG.
+473,Allow format to be skipped. This is used internally by m...
+474,Finally fix the bug where symbols and strings were not h...
+475,Ensure shortcuts inside resources also generates helpers.
+476,Hide internal apps from rake routes [#5443 state:resolved]
+477,Fix how routes inside namespaces are generated.
+478,Ensure prefix in routes are generated properly.
+479,Ensure timestamps are not generated when explicitly set ...
+480,Fix a bug where symbols and strings were not behaving th...
+481,Update CHANGELOG for ActionPack.
+482,Use attribute readers as they are faster in general.
+483,annoted_source_code may return nil if an error happens d...
+484,Improve routes task code and print the application as :t...
+485,"to_key should return all exists keys (if any exists), re..."
+486,Make update_attribute behave as in Rails 2.3 and documen...
+487,Ensure @config is not a reserved instance variable in co...
+488,layout_for works again with objects as specified in the ...
+489,"Revert ""require_dependency should require using the norm..."
+490,"Revert ""If a file is in the load path, require it withou..."
+491,"Revert ""Put lib back on the autoload path"""
+492,Freeze options so we raise an error when people modify i...
+493,validates_length_of should not change the options hash i...

@@ -1,0 +1,50 @@
+id,title
+0,simpler/faster/newer/cooler AnyEvent API
+1,the only real threads in perl
+2,Yet Another RESTful-Archive Service
+3,Test an imaginary beowulf cluster of Clustericious services
+4,Pcore - perl applications development environment
+5,Yet another HTTP client
+6,lightweight asynchronous dns queries using EV and libadns
+7,A linked open code language and processor
+8,Interface to open3 under AnyEvent
+9,Async API for Elasticsearch using Promises
+10,Template Renderer Plugin for Mojolicious
+11,Collect bitcoin real-time price from many sites' streaming data source
+12,Simple asynchronous ident client and server
+13,Rate limit sync and async function calls
+14,Simple asynchronous finger client and server
+15,Pluggable authentication and authorization server.
+16,WebSocket client for AnyEvent
+17,Simple asynchronous FTP client and server
+18,Mojolicious plugin to interact with a remote ident service
+19,非阻塞的多线程多地址文件下载的模块
+20,"Checkout, watch and upload theme assets for buuilt.it"
+21,a bridge that supports EV from POE
+22,RJRAY's favorite modules
+23,ease non-blocking I/O streams based on EV
+24,Wrap git command-line interface without blocking
+25,Asynchronous redis client using hiredis and EV
+26,monitor a directory tree in a non-blocking way
+27,Cache plugin with blocking and non-blocking support
+28,"PSGI/Plack server with event driven connection manager, preforking workers"
+29,Modules that LESPEA uses on a daily basis
+30,Moo wrapper for queued downloads via Net::Curl & AnyEvent
+31,A simple blackboard database and dispatcher.
+32,An extension of Async::Blackboard which uses AnyEvent
+33,Event-based multi-process supervisor
+34,Manage AnyEvent callbacks and control the flow of events
+35,SOCKSv5 proxy plugin for IO::Stream
+36,SOCKSv4 proxy plugin for IO::Stream
+37,HTTPS proxy plugin for IO::Stream
+38,Crypt::MatrixSSL plugin for IO::Stream
+39,Crypt::RC4 plugin for IO::Stream
+40,Implement FastCGI protocol for use in EV-based applications
+41,Cache using sliding time-based expiration strategy
+42,Using Net::Curl::Multi with EV
+43,All the stuff I install with a fresh perl
+44,Add a finger protocol interface to your PlugAuth server
+45,Add crontab watcher into EV
+46,use IO::Async with EV
+47,Keep connection to OS Inferno's registry(4) and it tasks
+48,IPC through gearmand.

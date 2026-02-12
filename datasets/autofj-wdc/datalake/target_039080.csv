@@ -1,0 +1,51 @@
+id,title
+0,Allow any version
+1,jquery ui scripts (from CDN) are not added during a form rebuild caused by an AJAX event
+2,"""Split Summary at Cursor"" functionality broken with jQuery 1.7"
+3,Optionally exclude pages by path
+4,Add jQuery migrate to support modules like ICME
+5,CDN option is not compatible
+6,Code style
+7,all collapsible fields broken
+8,admin pages collapsible fieldsets not working with Google Chrome on Mac
+9,Link fragment broken by tableheader.js expecting undefined return for $().offset()
+10,Views UI doesn't seem to use jQuery after upgrade jQuery Update to 2.4
+11,jquery.effects.blind.min.js problem
+12,jquery_update scripts resets to drupal default after cron or reloading page
+13,Wrong jquery.ui.slider used
+14,$.ui.dialog.overlay.events is undefined
+15,invalid argument - Line: 5142
+16,How modify weight and group for jquery ui and jquery update
+17,Use of getPreventDefault() is deprecated. Use defaultPrevented instead.
+18,jQuery 1.10 breaks batch operations such as the update process
+19,"jquery.ui.menu.min.js doesn't exist, throwing 404 on jquery CDN"
+20,JQuery Tools is Incompatible with JQuery 1.10
+21,Custom module resets jQuery version to 1.4
+22,"$pattern doesn't match for jQuery 1.7.1, reverts to core jQuery on flush of cache tables"
+23,Cant aggregate JS because JQuery 1.8 is aggregated even if not enabled
+24,BOM characters in jquery* files
+25,Toolbar module causes conflict(s)
+26,Drag and Drop buggy with jQuery 1.3 in Drupal 6.x
+27,Update jQuery UI to the latest version (1.10.4)
+28,jQuery 1.81 and 1.82 known to crash certain Android mobile browsers
+29,jQuery update to 1.8 causes Views to lose height when user is logged in
+30,Allow other modules to alter the jQuery version to use
+31,which version should i choose?
+32,JQuery Version 1.8|1.7 breaks File Attachment Upload
+33,Build a stable (non-dev) that offers jQuery 1.9.x - other modules need it (Nice Menus for example).
+34,Tabindex issue in dialog
+35,"""jQuery is undefined"" in IE"
+36,Promote Dev Version to Full Release and Fix Compatibility Across Modules
+37,jquery update crashes WYSIWYG module
+38,Installation breaks admin_menu shortcuts
+39,Update jquery.form.js to latest to fix Webkit errors
+40,Internet Explorer error in JQuery 1.3.2
+41,add custom js to move smoothly
+42,Support for jquery_migrate
+43,upload filefield
+44,Administrative and Views compatibility suggestion
+45,How to use a custom theme (made with ThemeRoller) combined with this module?
+46,Fix jQuery 1.7 for Drupal 6
+47,Please update jQuery UI when jQuery 1.8 is in use
+48,jQuery 1.8+ Breaks Core JavaScript
+49,jQuery update breaks AHAH form when there is a file input (file upload) in the form

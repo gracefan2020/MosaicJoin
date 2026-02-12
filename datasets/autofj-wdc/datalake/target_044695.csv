@@ -1,0 +1,470 @@
+id,title
+0,HISN 265 Latin American History
+1,ACCN 101 Financial Accounting I
+2,ACCN 102 Financial Accounting II
+3,ACCN 201 Intermediate Accounting 1
+4,ACCN 202 Intermediate Accounting 2
+5,ACCN 204 Introduction to Finance
+6,ACCN 206 Cost Accounting
+7,ACCN 208 Investments
+8,ACCN 210 Managerial Accounting
+9,ACCN 214 Acctg Program Capstone
+10,ACCN 290 Accounting Internship
+11,AHLN 102 Medical Terminology
+12,AHLN 117 Medical Coding 1
+13,AHLN 119 Advanced Medical Coding/Applic
+14,AHLN 123 Kinesiology
+15,AHLN 166 Legal&ethical Issues Hlth Care
+16,AUTN 106 Internal Combustion Engine
+17,AUTN 113 Automotive Elec&wiring
+18,AUTN 114 Automotive Suspension/Steering
+19,AUTN 115 Adv Auto Electric&electronic
+20,AUTN 121 Auto Service& Maint
+21,AUTN 122 Auto Brake Systems
+22,AUTN 210 Engine Performance 1
+23,AUTN 215 Engine Performance 2
+24,AUTN 221 Auto Heating/Air Conditioning
+25,AUTN 226 Automotive Power Trains
+26,AUTN 227 Automatic Transmissions
+27,AUTN 228 Engine Repair
+28,AVTN 101 Maintenance Forms/Records
+29,AVTN 102 Airframe Structures 1
+30,AVTN 103 Airframe Structures 2
+31,AVTN 104 Materials and Processes
+32,AVTN 105 Aircraft Systems
+33,AVTN 106 Aviation Electronics
+34,AVTN 107 Digital Logic
+35,AVTN 108 Aviation Draftng& Blueprint
+36,AVTN 202 Airframe Electrical Systems
+37,AVTN 203 Hydraulics and Pneumatics
+38,AVTN 204 Assembly and Rigging
+39,AVTN 206 Reciprocating Engines 1
+40,AVTN 207 Reciprocating Engines 2
+41,AVTN 208 Engine Systems
+42,AVTN 209 Aircraft Propellers
+43,AVTN 210 Turbine Engine and Systems
+44,AVTN 211 Carburetion and Fuel Systems
+45,AVTN 212 Engine Electrical Systems
+46,BCPN 101 Intro to Computers
+47,BCPN 119 Software Applications
+48,BCPN 204 Word Processing: WORD
+49,BCPN 208 Spreadsheets: EXCEL
+50,BCPN 213 Database Mgt: ACCESS
+51,BCPN 216 Desktop Publishing
+52,BCPN 225 Advanced Software Application
+53,BU 211 Business Law I
+54,BUSN 101 Intro to Business
+55,BUSN 104 Principles of Marketing
+56,BUSN 110 Principles of Management
+57,BUSN 201 Human Resource Management
+58,BUSN 202 Labor Relations Mgt
+59,BUSN 204 Small Business Management
+60,BUSN 206 Consumer Behavior
+61,BUSN 207 Sales
+62,BUSN 208 Retailing
+63,BUSN 210 Marketing Strategies
+64,BUSN 213 Principles of Advertising
+65,BUSN 215 Integrated Marketing Communic
+66,BUSN 218 Dynamics of Org Behavior
+67,BUSN 230 Intro to Mgmt Info Systems
+68,BUSN 240 Business Law
+69,BUSN 290 Mgt Small Bus Entrprnshp Intrn
+70,BUSN 294 Marketing Internship
+71,CADN 105 CNC for Artists
+72,CADN 111 CADD I
+73,CADN 112 CADD II
+74,CADN 131 Technical Drawing
+75,CADN 215 CADD III
+76,CADN 216 CADD IV
+77,CHWN 101 Found of Hlth and Wellness
+78,CHWN 102 Somatic Theory
+79,"CHWN 103 Ethics, Business Marketing"
+80,CHWN 105 Guided Meditation&imagery
+81,CHWN 110 Introduction to Homeopathy
+82,CHWN 115 Introduction to Herbology
+83,CHWN 120 Introduction to Reiki Healing
+84,"CHWN 125 Yoga, Breath, Movement"
+85,CMNN 101 Introduction to Mass Communic
+86,CMNN 102 Principles of Communication
+87,CMNN 110 Introduction to Journalism
+88,CMNN 115 Introduction to Media Writing
+89,CMNN 201 News Writing
+90,CMNN 204 Screenwriting
+91,CPTN 101 PC Assmbly&Op Sys
+92,CPTN 104 Intro to Telecommunications
+93,CPTN 105 Internet Server Management
+94,CPTN 140 Essen Sys Analysis & Design
+95,CPTN 161 Intro Programng Visual Basic
+96,CPTN 175 Intermediate Progr: C++
+97,CPTN 201 Client Side Scripting - Java
+98,CPTN 202 Introduction to JAVA
+99,CPTN 203 Introduction to UNIX
+100,CPTN 204 Administ Windows Severs
+101,CPTN 205 Networking Basics
+102,CPTN 206 Internet Scripting/Actve Servr
+103,CPTN 207 Database Design&mgt
+104,CPTN 208 Perl Programming
+105,CPTN 209 UNIX Sys Admin Using Linux
+106,CPTN 210 Advanced Window Servers
+107,CPTN 215 Routing Fundamentals
+108,CPTN 225 Intermediate Networking
+109,CPTN 230 Advanced C++
+110,CPTN 250 CCNA Security
+111,CPTN 278 Data Structure: Using C++
+112,CPTN 285 Sr Sftwr Dev Lab:capstone
+113,CPTN 286 Networking Capstone Project
+114,CPTN 290 Computer Science Internship
+115,CRTN 101 Basic Collision Repair
+116,CRTN 105 Basic Auto Refinishing
+117,CRTN 201 Advanced Collision Repair
+118,CRTN 210 Structural Analysis&repair
+119,CRTN 225 Advanced Auto Refinishing
+120,CRTN 230 Collision Estimat&repair
+121,CRTN 235 Collision Mechncl&elec Sys
+122,CULN 2116 Culinary Craft-Based Learning
+123,CULN 2122 Culinary Concepts
+124,ECON 201 Microeconomics
+125,ECON 202 Macroeconomics
+126,EDUC 130 Foundations of Education
+127,EDUN 101 Foundations Early Childhd Ed
+128,EDUN 102 Growth & Dev of Young Child
+129,"EDUN 103 Hlth, Safety&nutrition Yng Chd"
+130,EDUN 104 Curr Early Chldhd Care Ed
+131,EDUN 105 Children Spec Needs/Families
+132,EDUN 120 Family Child Care Bus Mgt
+133,EDUN 124 Family Child Care Curr&ed
+134,EDUN 140 Conflict Resolution in Ed
+135,EDUN 190 Practicum 1
+136,EDUN 200 Dev Approp Prog-Infants & Tdlr
+137,EDUN 201 Org & Mgt in Early Childhood
+138,EDUN 202 Math & Sci for Dev Child
+139,EDUN 203 Emerging Literacy Early Childh
+140,EDUN 204 Dev Approp Guidance Yng Chld
+141,EDUN 205 Supp Techngs: Challenging Beha
+142,EDUN 206 Dev Approp Prog Schl Age
+143,EDUN 208 Children & Creativity
+144,EDUN 215 Creativity and Young Child
+145,EDUN 230 Early Chldhd Prof & Portfolio
+146,EDUN 290 Early Childhd Ed Practicum II
+147,EDUN 295 Teacher Ed Capstone Seminar
+148,EETN 110 Intro Obj Oriented Prgm Java
+149,EETN 115 Digital Obj Oriented Prgm C++
+150,EETN 121 Digital Circuits I
+151,EETN 122 Digital Circuits 2
+152,EETN 131 Circuit Analysis 1
+153,EETN 132 Circuit Analysis 2
+154,EETN 142 Analog Circuits 1
+155,EETN 170 Fund of Op Systems
+156,EETN 202 Data Communications
+157,EETN 230 Adv Obj Orient Prog C++
+158,EETN 243 Analog Circuits 2
+159,EETN 245 Communication Theory
+160,EETN 246 OP Amps & Linear Int Circuits
+161,EETN 251 Microprocessors
+162,EETN 252 Electronic Troubleshooting
+163,EETN 271 Op Sys Admin II
+164,EETN 274 Laboratory Project
+165,EETN 288 Capstone Experience
+166,ELECT Portfolio: Athletic Leadership
+167,EMTN 101 Electronics
+168,EMTN 102 Control Electronics
+169,EMTN 104 Digital Electronics
+170,EMTN 111 Microcomputers
+171,EMTN 201 Introductory Control Systems
+172,EMTN 202 Advanced Control Systems
+173,EMTN 203 Applied Mechanics I
+174,EMTN 204 Hydraulics and Pneumatics
+175,EMTN 210 Applied Mechanics II
+176,EMTN 211 Design Seminar
+177,EMTN 214 Programmable Controllers
+178,EMTN 215 Automation Programming
+179,EN 206 Writing Short Stories
+180,ENGN 098 Introduction to English I
+181,ENGN 099 Introduction to English II
+182,ENGN 101 College Composition
+183,ENGN 102 College Composition II
+184,ENGN 103 Prof Writing & Presentation
+185,ENGN 105 Intro to Literature
+186,ENGN 109 Oral Communications
+187,ENGN 122 Technical Writing
+188,ENGN 206 Writing Short Stories
+189,ENGN 220 Contemporary Dramatic Lit
+190,ENGN 230 British Lit 1
+191,ENGN 231 British Lit 2
+192,ENGN 235 Poetry Workshop
+193,ENGN 240 American Literature 1
+194,ENGN 241 American Literature II
+195,ENGN 285... Capstone English Or Comm
+196,EQMN 101 Equine Bodywork 1
+197,"EQMN 110 Equine Anatomy, Physio &kines"
+198,EQMN 119 Equine Bodywork Business&mrktg
+199,EQMN 121 Equine Bodywork 2
+200,EQMN 125 Equine Acupressure &aromathrpy
+201,EQMN 130 Equine Handling
+202,EQMN 135 Equestrian Bodywork
+203,EQMN 140 Equine Sports Bodywork
+204,EQMN 190 Equine Clinical Practicum
+205,ESL 098 Writing for Eng Lang Learnersv
+206,ESLN 082 Conversation for Authentic Com
+207,"ESLN 083 ESL Speaking, Listen,Pronounc"
+208,ESLN 084 ESL Transitional Eng 1
+209,ESLN 086 ESL Transitional English 2
+210,ESLN 088 Academic Writing Eng Lang Lrn
+211,ESLN 096 Introduction English ESL
+212,FA 101 World of Art
+213,FARN 101 Intro to Drawing
+214,FARN 111 Photography & Digital Imag I
+215,FARN 112 Photo & Digi Image 2
+216,FARN 120 Graphic Design Theory
+217,FARN 200 Drawing 2: Develop Personal
+218,FBMN 3196 Food & Beverage Mgt
+219,FBSN 1101 Craft-Based Learn: Fd&bev
+220,FBSN 1102 Princ Bar & Beverage Ops
+221,GA 101 Career Assessment for GAS
+222,GEON 101 Intro to Geography
+223,GEON 110 World Regional Geography
+224,GEON 130 The Human Geography
+225,GSTN 101 Assessment of Prior Learning
+226,HATN 106 Honda Engines & Measurements
+227,HATN 113 Honda Electricity & Wiring
+228,HATN 114 Honda Suspension/Steering
+229,HATN 115 Honda Adv Elec/Elect Systems
+230,HATN 121 Honda Service/Maintenance
+231,HATN 122 Honda Brakes/Stabil Syst
+232,HATN 190 Honda Dealer Internship 1
+233,HATN 191 Honda Dealer Internship 3
+234,HATN 192 Honda Dealership 4
+235,HATN 195 Honda Dealership Intern 2
+236,HATN 210 Honda Engine Performace 1
+237,HATN 215 Honda Engine Performance 2
+238,HATN 221 Honda Heating/Air Cond Sys
+239,HATN 225 Honda Advanced Vehicle Sys
+240,HATN 226 Honda Manual Drive Line
+241,HATN 227 Honda Automatic Transmissions
+242,HATN 228 Honda Engine Repair
+243,HISN 101 Western Civilization I
+244,HISN 102 Western Civilization II
+245,HISN 110 Ancient Civ of the World
+246,HISN 130 History of Mod Asia
+247,HISN 140 Us History I
+248,HISN 141 Us History II
+249,HISN 150 Lat American Hist: Indep-Pres
+250,HISN 160 History of Aviation
+251,HISN 164 History of Technology
+252,HISN 210 The Making of England
+253,HISN 230 China- a Survey
+254,HISN 240 The American Revolution
+255,HISN 241 Amer. Constitutional History
+256,HISN 242 Civil War and Reconstruction
+257,HISN 243 20thC US Soc Hist Thru Film
+258,HISN 245 Coming of World War II
+259,HISN 246 United St History Since 1945
+260,HISN 250 American Economic History
+261,HISN 251 United States and Vietnam
+262,HISN 252 Contemp Am Foreign Policy
+263,HISN 260 History of Multiculturalism
+264,HISN 285 Essential Skills of Historian
+265,HSPN 101 Intro to Hospitality
+266,HSPN 110 Front Office Op/Rev Mgt
+267,HSPN 201 Hospitality Sales & Mktng
+268,HSPN 210 Principles of Food & Beverage
+269,HSPN 211 Bar & Beverage Mgmt
+270,HSPN 290 Hospitality & Restaurant Mgmt
+271,HSVN 111 Intro to Human Services
+272,HSVN 120 Learning and Behavior
+273,HSVN 123 Supportive Communication Skill
+274,HSVN 125 Individual Assessment/Planning
+275,HSVN 126 Issues in Dev Disabl/Mental H
+276,HSVN 190 Fieldwork 1
+277,HSVN 212 Individual Counseling: Theory
+278,HSVN 220 Group Dynamics/Counseling
+279,HSVN 225 Family Supports
+280,HSVN 290 Fieldwork 2
+281,HSVN 291 Capstone Experience
+282,HUMN 101 Intro to Humanities
+283,HUMN 102 Art Appreciation
+284,HUMN 103 Music Appreciation
+285,HUMN 104 Jazz and Its Roots
+286,HUMN 107 World Religion
+287,HUMN 109 Intro to Philosophy
+288,HUMN 110 Critical Thinking Skills
+289,HUMN 120 Introduction Theatre
+290,HUMN 130 Music Composition
+291,HUMN 140 American Cinema
+292,HUMN 220 Classic Myths in Western Civ
+293,HUMN 230 Ethics in the Workplace
+294,HUMN 260 Counterculture US 1956-1976
+295,INTN 1108 Intenship:capstone Experience
+296,LEXN 101 Freshman Seminar
+297,LEXN 102 College Success Seminar
+298,LEXN 110 Service Learning Experience
+299,LIBN 101 Liberal Arts/Career Preparatio
+300,LIBN 290 Lib Arts Internship:capstone
+301,LIBN 295 Lib Arts Portfolio: Capstone
+302,LNGN 101 French 1
+303,LNGN 102 French 2
+304,LNGN 105 Spanish I
+305,LNGN 106 Spanish II
+306,LNGN 109 Italian 1
+307,LNGN 110 Italian 2
+308,LNGN 113 Basic German
+309,LNGN 114 German I
+310,LNGN 115 German II
+311,LNGN 120 Sign Language 1
+312,LNGN 121 Sign Language 2
+313,LNGN 205 Spanish 3
+314,LNGN 206 World Languages and Esol
+315,LNGN 214 German III
+316,LNGN 220 Sign Language 3
+317,LNGN 221 Sign Language 4
+318,MATHN 099 Algebra I
+319,MDTN 110 Automation Programming
+320,MDTN 280 Mechanical Design Capstone
+321,MDTN 285 Mechanical Des Capstone
+322,MSS 101 & MSS 111 & MSS 121 & MSS 124 & MSS 132 & MSS 134 & MSS 139 & MSS 133 & MSS 135 & MSS 136 & MSS 148 & MSS 170 & MSS 126 Swedish Massage I & Musculo-Skeletal Studies & Swedish Massage II & Oriental Massage/Accupuncture & Sports Massage & Self Care & Stress Mgt & Reflexology & Clinical Evaluation/Treatment & Deep Tissue Massage & Shiatsu & Somatic Massage & Clinical Internship & Massage Therapy Rules & Ethics
+323,MSS 131 Pathology
+324,MSTN 101 Swedish Massage 1
+325,MSTN 105 Spa Techniques
+326,MSTN 111 Musculo-Skeletal Studies
+327,MSTN 119 Massage Business Practices
+328,MSTN 121 Swedish Massage 2
+329,MSTN 124 Acupressure
+330,MSTN 126 Massage Rules/Ethics
+331,MSTN 131 Pathology
+332,MSTN 132 Sports Massage
+333,MSTN 133 Clinical Evaluation/Treatment
+334,MSTN 134 Self Care/Stress Mgt Technique
+335,MSTN 135 Deep Tissue Massage
+336,MSTN 136 Shiatsu
+337,MSTN 137 Pre/Post Natal Massage
+338,MSTN 139 Reflexology
+339,MSTN 141 Oriental Theory/Concepts
+340,MSTN 143 Chair Massage
+341,MSTN 145 Aromatherapy
+342,MSTN 147 Elder Massage
+343,MSTN 148 Somatic Massage
+344,MSTN 149 Russian Massage
+345,MSTN 153 Myofascial Release/Trigger
+346,MSTN 190 Clinical Internship
+347,MTHN 097 Mathematics I
+348,MTHN 103 Topics Applied Math
+349,MTHN 104 Topics in Mathematics
+350,MTHN 106 Elementary Statistics
+351,MTHN 108 Contemporary Mathematics
+352,MTHN 110 Algebra & Trigonometry
+353,MTHN 115 Finite Mathematics
+354,MTHN 120 Precalculus
+355,MTHN 170 Discrete Mathematics
+356,MTHN 210 Calculus I
+357,MTHN 211 Calculus 2
+358,MTHN 212 Multivariate Calculus
+359,MTHN 215 Linear Algebra
+360,"MTHN 216 Math Language, Logic&proof"
+361,MTHN 217 Probability & Statistics
+362,MTHN 220 Elementary Differential Equat
+363,MTTN 101 Manufacturing Processes
+364,MTTN 111 Machine Tool Proc/Theory 1
+365,MTTN 118 Machining Technology
+366,MTTN 122 Machine Tool Proc/Theory 2
+367,MTTN 211 Principles of Numerical Contrl
+368,MTTN 223 Computer Aided Manuf (CAM)
+369,MTTN 231 Advanced Mach Tool Proc/Thry
+370,MTTN 232 Advncd Mach Tool Proc/Thry 2
+371,NUNC 103 CNC Progrmmng/Operations
+372,NURN 112 Foundations for Nursing Pract
+373,NURN 114 Medical-Surgical Nursing 1
+374,NURN 115 Behavioral Health Nursing
+375,NURN 118 LPN-RN Transition
+376,NURN 212 Medical-Surgical Nrsng 2
+377,NURN 221 Maternal Child Nursing
+378,NURN 222 Medical-Surgical Nursing 3
+379,"NURN 229 Issues, Trends & Mgt"
+380,NURN 230 Pharmacology for Nursing Pract
+381,"PJSN 140 Peace, Educ & Ldrshp"
+382,PLSN 101 Basic Legal Studies
+383,PLSN 102 Legal Research & Writing
+384,PLSN 210 Litigation & Trial
+385,PLSN 220 Real Estate Law
+386,PLSN 230 Contracts & Business Orgs
+387,"PLSN 240 Probates,estates, Trusts"
+388,PLSN 250 Family Law
+389,PLSN 260 Criminal Law
+390,PLSN 280 Paralegal Capstone
+391,PLSN 290 Paralegal Internship
+392,POLN 101 Intro to Political Science
+393,POLN 102 American Govt & Politics
+394,POLN 205 Civic Engagement Project
+395,PSYC 130 Human Relations
+396,PSYN 101 Intro to Psychology
+397,PSYN 130 Human Relations in Orgs
+398,PSYN 201 Human Growth & Development
+399,PSYN 202 Personality Psychology
+400,PSYN 205 Child Psychology
+401,PSYN 207 Social Psychology
+402,PSYN 210 Abnormal Psychology
+403,PSYN 211 Issues in Psych of Grief/Loss
+404,PSYN 215 Cognitive Psychology
+405,PSYN 217 Psychology Learning/Memory
+406,PSYN 220 Research Methods
+407,PSYN 240 Drugs and Alcohol
+408,PSYN 280 Community Psychology
+409,PTS 123 Functional Kinesiology
+410,RDGN 107 Critical Reading
+411,RDNG 095 Reading Strategies
+412,RDNG 096 Reading for College Success
+413,SCIN 100 Chenistry for Bio Sci
+414,SCIN 101 Biology I
+415,SCIN 102 Biology II
+416,SCIN 111 Basic Human Anatomy/Physiology
+417,SCIN 115 Astronomy
+418,SCIN 116 Meteorology
+419,SCIN 117 Environmental Sci
+420,SCIN 120 Nutrition
+421,SCIN 130 Physics I
+422,SCIN 131 College Physics II
+423,SCIN 134 Stereo Physics
+424,SCIN 141 Introduction to Chemistry
+425,SCIN 142 General Chemistry I
+426,SCIN 150 Physical Science 1
+427,SCIN 151 Physical Science II
+428,SCIN 160 Genetics
+429,SCIN 201 Anatomy & Physiology I
+430,SCIN 202 Anatomy & Physiology II
+431,SCIN 205 Basic Pathophysiology
+432,SCIN 215 Microbiology
+433,SCIN 220 Ecology
+434,SCIN 231 Calculus-Based Physics I
+435,SCIN 232 Calculus-Based Physics II
+436,SCIN 242 Organic Chemistry I
+437,SLPN 110 Introduction to Comm Disorders
+438,SLPN 111 Speech & Language Development
+439,SLPN 112 Anat & Phys-Speech & Hearing
+440,SLPN 114 Speech-Lang Pathology
+441,SLPN 115 Phonetics
+442,SLPN 121 Language Disorders
+443,SLPN 123 Articulation&phonlogical Dis
+444,SLPN 220 Advanced Comm Disorders
+445,SLPN 221 Clinical Proc Speech-Lang Path
+446,SLPN 290 Capstone Seminar Comm Disrdrs
+447,SLPN 291 Speech-Lang Path Asst Pract I
+448,SLPN 292 Spc-Lang Path Pract II
+449,SLPN 293 Spc-Lang Path Pract III
+450,SNLN 100 Intro to Am Sign Language
+451,SNLN 101 Deaf Culture 1
+452,SNLN 102 Deaf Culture II
+453,SNLN 201 Deaf & Hearing Cultural Intera
+454,SOCN 101 Introduction to Sociology
+455,SOCN 108 Introduction Archeology
+456,SOCN 110 Cultural Antropology
+457,SOCN 201 Contemporary Social Problems
+458,SOCN 205 Changing Family
+459,SOCN 206 Sociology of Deaf Culture
+460,"SOCN 228 Class, Status and Power"
+461,TELN 101 Telecommunications Media
+462,TELN 102 Analog/Digital Key Sys
+463,TELN 202 Switching Technology
+464,TELN 204 Telecommunications Mgt
+465,TELN 205 Transmission Systems
+466,TELN 207 Fiber Optics
+467,TELN 290 Telecomm Internship
+468,TRMN 1186 Intro to World of Hospitality

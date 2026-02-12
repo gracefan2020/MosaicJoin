@@ -1,0 +1,91 @@
+id,title
+0,"render view: view, model: [postUrl: postUrl,"
+1,rememberMeParameter: config.rememberMe.parameter]
+2,rememberMeParameter: config.rememberMe.parameter]
+3,}
+4,/**
+5,* Shows the login page for users from a module
+6,*/
+7,def auth_remote = {
+8,def consumer = params.consumer
+9,def token = params.token
+10,/**
+11,* Shows the login page for users from a module
+12,*/
+13,def auth_remote = {
+14,def consumer = params.consumer
+15,def token = params.token
+16,if( consumer == null || token == null ) {
+17,"throw new Exception( ""Consumer and Token must be given!"" );"
+18,if (consumer == null || token == null) {
+19,"throw new Exception(""Consumer and Token must be given!"");"
+20,}
+21,def returnUrl = params.returnUrl
+22,"// If the user is already authenticated with this session_id, redirect"
+23,// him
+24,"if (authenticationService.isRemotelyLoggedIn(consumer, token)) {"
+25,if (returnUrl) {
+26,redirect url: returnUrl
+27,} else {
+28,redirect controller: 'home'
+29,}
+30,}
+31,def returnUrl = params.returnUrl
+32,"// If the user is already logged in locally, we log him in and"
+33,// immediately redirect him
+34,if (authenticationService.isLoggedIn()) {
+35,"authenticationService.logInRemotely(consumer, token, authenticationService.getLoggedInUser())"
+36,"// If the user is already authenticated with this session_id, redirect"
+37,// him
+38,"if( authenticationService.isRemotelyLoggedIn( consumer, token ) ) {"
+39,if( returnUrl ) {
+40,redirect url: returnUrl
+41,} else {
+42,redirect controller: 'home'
+43,}
+44,}
+45,if (returnUrl) {
+46,redirect url: returnUrl
+47,} else {
+48,redirect controller: 'home'
+49,}
+50,}
+51,"// If the user is already logged in locally, we log him in and"
+52,// immediately redirect him
+53,if (authenticationService.isLoggedIn()) {
+54,"authenticationService.logInRemotely( consumer, token, authenticationService.getLoggedInUser() )"
+55,// Otherwise we show the login screen
+56,def config = SpringSecurityUtils.securityConfig
+57,String view = 'auth'
+58,"String postUrl = ""${request.contextPath}${config.apf.filterProcessesUrl}"""
+59,"String redirectUrl = g.createLink(controller: 'login', action: 'auth_remote', params: [consumer: params.consumer, token: params.token, returnUrl: params.returnUrl], absolute: true)"
+60,"render view: view, model: [postUrl: postUrl,"
+61,"rememberMeParameter: config.rememberMe.parameter, redirectUrl: redirectUrl]"
+62,}
+63,if( returnUrl ) {
+64,redirect url: returnUrl
+65,} else {
+66,redirect controller: 'home'
+67,}
+68,}
+69,// Otherwise we show the login screen
+70,def config = SpringSecurityUtils.securityConfig
+71,String view = 'auth'
+72,"String postUrl = ""${request.contextPath}${config.apf.filterProcessesUrl}"""
+73,"String redirectUrl = g.createLink( controller: 'login', action: 'auth_remote', params: [ consumer: params.consumer, token: params.token, returnUrl: params.returnUrl ], absolute: true )"
+74,"render view: view, model: [postUrl: postUrl,"
+75,"rememberMeParameter: config.rememberMe.parameter, redirectUrl: redirectUrl ]"
+76,}
+77,/**
+78,* Show denied page.
+79,def denied = {
+80,if (springSecurityService.isLoggedIn() &&
+81,authenticationTrustResolver.isRememberMe(SCH.context?.authentication)) {
+82,authenticationTrustResolver.isRememberMe(SCH.context?.authentication)) {
+83,// have cookie but the page is guarded with IS_AUTHENTICATED_FULLY
+84,"redirect action: full, params: params"
+85,"render view: 'auth', params: params,"
+86,"model: [hasCookie: authenticationTrustResolver.isRememberMe(SCH.context?.authentication),"
+87,"postUrl: ""${request.contextPath}${config.apf.filterProcessesUrl}""]"
+88,"postUrl: ""${request.contextPath}${config.apf.filterProcessesUrl}""]"
+89,}

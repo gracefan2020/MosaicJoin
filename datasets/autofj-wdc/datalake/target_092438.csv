@@ -1,0 +1,101 @@
+id,title
+0,No support for Ogg ?
+1,Release ATEngageVideo
+2,Add filesize data into the catalog index
+3,Set up Plumi Trac to send mails to discuss list when tickets are added/modified
+4,Investigate creating a Plumi buildout using Ploneout
+5,Update extenals.txt
+6,rss2 does not contain content licensing metadata
+7,BitTorrent Functionality
+8,Torrent Tracker Page
+9,BitTorrent Tracker Info Displayed on Video Item Display (/view) page
+10,Comment in info section of torrent file back to video view page
+11,Set up mail accounts for plumi.org
+12,"Add a ""PlumiPowered"" chiclet to footer of page"
+13,"Download button on video_view template - change text to ""Download Hi-Res / Screening Version"""
+14,add FAQ doc file
+15,adding bittorent as a product to plone
+16,Video upload progress indicator
+17,New Feature - Playlists
+18,Auto Transcoding and Embedded Playback of Ogg Theora Files
+19,Productions Content Item
+20,"create custom item type for featured Items [ ATEngageVideo, News, Events, Call Outs]"
+21,Investigate Calendar Functionality
+22,Modify video upload form to be based on transmission metadata standard
+23,Add atom feeds
+24,Error When Uploading Video With Same File Name
+25,Managers Make Any Items Private - Content Pulling Made Easy
+26,Notification that feedback has been sent to author
+27,insure full itunes rss2/atom compatability
+28,"Genre, Topic and Country, Activities and Format Interests in Author Page Should Link to a List of Authors with Same Interests"
+29,Investigate and test p4a portfolio product for possible inclusion
+30,Design a Plone 3 buildout for Plumi 0.3
+31,Mobile Friendly Plumi Skin - Viewable on Android and iPhone
+32,Ability to add html in description field of smart folders
+33,Ability to add videos from other sites
+34,Automatic Metadata Extraction From Video Files
+35,Shorten text area for Tags in step 2 of video upload form
+36,Improved tagging functionality
+37,Thumnails don't align with titles in latest videos on front/author pages
+38,Description should wrap around flash player in video/view page
+39,Add captions/subtitles to uploaded videos
+40,Test Software Using Selenium
+41,UnicodeDecodeError in ATVideo/Extensions/AppInstall
+42,Festivals / Compilations Content Items
+43,Make image on latest videos + author page a link to the associated video
+44,make image thumbs links
+45,Server Requirements for installing Plumi?
+46,16:9 Flow player support
+47,fav.ico
+48,Wrap description text around flash player
+49,Add a class to tags header in portlet
+50,TypeError at frontpage with fresh ATVideo + PlumiSkin installation
+51,ATMediaFile import failure
+52,Move video product to Zope3
+53,Re-implement the ability to add a custom image to rss2 feeds
+54,"""full description"" header appears when no info is entered"
+55,Add news listing into author page
+56,fullscreen unavailable with plone
+57,Can't install ATVideo
+58,Content Ratings
+59,enhanced comment functionality and moderation
+60,Change alt-text on Plumi chiclet
+61,"Change Video View Template to Offer Small Ogg Download ""Download Lo-Res Ogg Version"""
+62,Add News and Events Listings on Author Page
+63,Make Thumbnail Splash Image with Button Overlay on Flash Player
+64,Callouts Content Item
+65,"Add Support for Transcoding From '.m4v','.ogm','.ogg','.divx','.flv'"
+66,Indytube / Flowplayer Does Not Go Fullscreen on Opera 9.23 / Mac OS 10.4.10 / PPC G3
+67,"Add ""call for submissions"" link, icon and text into /publish page and login_success"
+68,Plumi buttons
+69,Investigate ATBlobField
+70,Spec Out Fundraising & Micro Payments
+71,Contact Tab in Author Page
+72,E-Commerce and Shopping Cart for DVD/Tape Distro
+73,Make it easy for users to create their own custom vodcast channels
+74,Create widget to allow content licensing within news item edit form
+75,Ratings
+76,Group Functionality
+77,New Author Page / Workspace
+78,New users dont have 'listed' property set to True
+79,Make all boxes in step 2 of publish form the same width
+80,Upgrade to latest version of ContentLicensing (1.0.5 rc 2)
+81,Design Plumi Wordpress
+82,Upgrade to ContentLicensing Plone 3 branch
+83,Replace TagCloudExplorer with other products
+84,Upgrade using to BlobField for video product.
+85,GSXML import export functionality
+86,Indytube Egg process
+87,Debian package for Plumi
+88,Investigate ZEO clustering
+89,Upgrade to 2.5.4
+90,rss2 feeds times-out in miro/itunes/firefox
+91,plumi doesn't play flv files using vpip keyword
+92,Make Plumi compatible with Miro player search bar
+93,RSS1 Links to Video File Instead of Video_View Page
+94,2.5.4 upgrade CSS issues
+95,Add class .videoitemtop to catagory and location item in callouts template
+96,Rewriting of ATEngageVideo index_html - Plumi homepage
+97,Plumi doesn't handle big files well
+98,Plumi (or Plone) change the id of the object after editing it
+99,Investigate new captcha tools

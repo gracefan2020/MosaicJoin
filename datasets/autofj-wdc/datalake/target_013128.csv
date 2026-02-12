@@ -1,0 +1,53 @@
+id,title
+0,Direct SQL
+1,Basic dynamic SQL
+2,Extended dynamic SQL
+3,Untyped SQL-invoked function arguments
+4,CASCADE drop behavior
+5,ALTER TABLE statement: DROP COLUMN clause
+6,Extended REVOKE statement
+7,Intervals and datetime arithmetic
+8,OVERLAPS predicate
+9,Isolation levels other than SERIALIZABLE
+10,Basic diagnostics management
+11,Multiple schemas per user
+12,Referential delete actions
+13,INSERT statement: DEFAULT VALUES clause
+14,Privilege tables
+15,Domain support
+16,Compound character literals
+17,LIKE enhancements
+18,Usage tables
+19,Subprogram support
+20,Extended schema manipulation
+21,Long identifiers
+22,NATURAL JOIN
+23,NATIONAL CHARACTER
+24,Read-only scrollable cursors
+25,Extended set function support
+26,Mixed column references in set functions
+27,Constraint management
+28,Enhanced seconds precision
+29,Full value expressions
+30,INSERT column privileges
+31,Connection management
+32,Self-referencing operations
+33,SQL paths in function and type name resolution
+34,Timestamp in Information Schema
+35,BLOB data type
+36,CLOB data type
+37,"Triggers activated on UPDATE, INSERT or DELETE of one base table"
+38,BEFORE triggers
+39,AFTER triggers
+40,Ability to specify a search condition that must be true before the trigger is invoked
+41,Multiple triggers for the same event that are executed in the order in which they where created in the catalog
+42,Enhanced trigger capability
+43,START TRANSACTION statement
+44,ABS and MOD functions
+45,Enhanced EXISTS predicate
+46,Optional key words for default syntax
+47,UNIQUE constraints of possibly null columns
+48,Stored modules
+49,Computational completeness
+50,Information Schema views
+51,Mimer SQL extension

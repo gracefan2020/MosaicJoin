@@ -1,0 +1,297 @@
+id,title
+0,car horns
+1,helicopter sounds
+2,car doors
+3,car reverse gear accelerate
+4,car reverse gear rolling
+5,start car engine
+6,car on wet road noise
+7,car skid default
+8,"car skid dirt, car scrape soft"
+9,emergency vehicle siren
+10,emergency vehicle horn siren
+11,ambulance siren
+12,backup-beeper (reverse warning)
+13,Ice cream truck jingle
+14,open/close Coach door and airbrakes
+15,normal tire collision
+16,popped tire collision
+17,tire blown
+18,run on flat tire
+19,"tear gas, rain wind"
+20,bullet trail
+21,roller skates
+22,footsteps default
+23,"vehicle explosion, also used in thunder"
+24,"projectile explosion, also used in thunder"
+25,Molotov Cocktail explosion
+26,fire Pistol
+27,unused fire AK
+28,"fire Uzi/Minigun, drive-by"
+29,halt fire Uzi/MP5
+30,fire Sniper Rifle/PSG-1
+31,"fire Rocket Launcher, Hunter rockets, mine explosion"
+32,missile travel
+33,Flamethrower
+34,fire Chrome Shotgun/Stubby Shotgun
+35,"fire M60, Hunter/Sea Sparrow/Police Helicopter gun, drive-by in helicopter"
+36,halt fire M60
+37,fire Tec-9/Ingram Mac 10
+38,halt fire Tec 9/Ingram Mac 10
+39,fire M4/Ruger
+40,halt fire M4/Ruger
+41,reload Pistol/Colt Python
+42,reload general
+43,reload Rocket Launcher
+44,reload Sniper Rifle/PSG-1
+45,blunt weapon swing
+46,fire Minigun
+47,fire Spaz Shotgun
+48,halt fire Spaz Shotgun
+49,fire Colt Python
+50,fire MP5
+51,Tommy hitting regular wall
+52,wood collision
+53,*unknown
+54,garage door closed
+55,"melee hits on car, car door left ajar, 102 garage door opened"
+56,metal collisions (Metal Posts)
+57,fence collisions
+58,*unknown
+59,*unknown (same as 097-099)
+60,box collisions
+61,bench collision (Wooden Lathes)
+62,*unknown (similar to 097-099 at faster rate)
+63,footsteps hedge
+64,door collision
+65,box collisions 3
+66,newsstands/traffic light blown (Metal Sheet explosion)
+67,boxes blown
+68,gate collision 1
+69,car scrape hard
+70,gate collision 2
+71,glass breaking
+72,Molotov Cocktail thrown
+73,fire
+74,car skid grass
+75,after rain
+76,gun shell drop hard
+77,gun shell drop soft
+78,bullet penetrating ped
+79,bullet hitting car
+80,bullet hitting car or ground
+81,blunt weapon hit
+82,fist fight
+83,sharp weapon swing
+84,sharp weapon hit
+85,Brass knuckles/Hammer hit
+86,opening/closing garage
+87,car bomb tick
+88,detonate
+89,SFX audio adjuster
+90,police radio
+91,*bike idle or hunter blades?
+92,phone ring
+93,car engine at steady rpms
+94,engine echo
+95,blank
+96,motorcycle engine at steady rpms
+97,car idling
+98,blank
+99,motorcycle idling
+100,airplane
+101,airplane landing brakes
+102,boat
+103,escalator
+104,"fountain, boat moving over water"
+105,boat hit water
+106,boat engine at idle
+107,rain on car
+108,fall in water
+109,crushing body (squish)
+110,blow up boxes
+111,rocket ammo depleted
+112,rifle ammo depleted
+113,"moving shooting range target, Rhino cannon rotate"
+114,fall land
+115,jump land
+116,No Escape? card swipe
+117,gta3 timer
+118,hydraulics
+119,sex in car
+120,Keepie Uppy beachball
+121,Degenatron arcade machine
+122,dodo
+123,radio turned on/off
+124,radio tuning
+125,"generic noise (change cam, help box, etc...), pickup noise - info, bonus, bribe, frenzy"
+126,"pickup noise - adrenaline, armor, health"
+127,"genreral pickup noise, buy weapon"
+128,"package pickup noise, race countdown, objective complete"
+129,race go
+130,timer
+131,blank
+132,menu sounds
+133,radio static
+134,engine sounds 1 (perennial)
+135,engine sounds 2 (stinger)
+136,engine sounds 3 (yankee)
+137,engine sounds 4 (admiral)
+138,engine sounds 5 (flatbed)
+139,engine sounds 6 (bf injection)
+140,engine sounds 7 (hotring racer)
+141,engine sounds 8 (greenwood)
+142,engine sounds 9 (oceanic)
+143,engine sounds 10 (taxi)
+144,engine sounds 11 (sabre)
+145,engine sounds 12 (caddy)
+146,chainsaw
+147,rc
+148,rc helicopter
+149,blank
+150,freeway engine
+151,Freeway/Angel (chopper) wind
+152,blank
+153,faggio engine
+154,Faggio/Pizza Boy (moped) wind
+155,sanchez engine
+156,Sanchez wind
+157,pcj600 engine
+158,PCJ-600 wind
+159,blank
+160,hunter
+161,blank
+162,skimmer
+163,Dildo Dodo low fuel ping
+164,blank
+165,alarm
+166,snoring
+167,"Greasy Choppers ""Alloy Wheels of Steel"""
+168,"Greasy Choppers ""Messing with the Man"""
+169,"Greasy Choppers ""Hog Tied"""
+170,Greasy Choppers (unused)
+171,Malibu Club night
+172,Malibu Club day
+173,Malibu Club evening
+174,Pole Position night
+175,Pole Position day
+176,Pole Position evening
+177,South Washington Beach church
+178,?
+179,insects
+180,Malibu bg music
+181,footsteps grass
+182,footsteps dirt
+183,footsteps wood
+184,footsteps metal
+185,footsteps water
+186,footsteps sand
+187,47 (BMYBB)
+188,vice port authority
+189,vice police helicopter
+190,81 (JFOTO)
+191,82 (JMOTO)
+192,39 (BMYBE)
+193,18 (HFOBE)
+194,87/88 (SGa/SGb)
+195,89/90 (CLa/CLb)
+196,95/96 (PGa/PGb)
+197,91/92 (GDa/GDb)
+198,97/98/99/100/101 (vice1/vice2/vice3/vice4/vice5)
+199,102/103/104 (vice6/vice7/vice8)
+200,7 (male01)
+201,83/84 (CBa/CBb)
+202,93/94 (BKa/BKb)
+203,85/86 (HNa/HNb)
+204,female screams 1
+205,female grunt
+206,female screams 2
+207,male screams 1
+208,male grunts
+209,male screams 2
+210,cuban paramedic
+211,paramedic
+212,FBI #1
+213,FBI #2
+214,blank
+215,FBI #3
+216,blank
+217,SWAT #1
+218,SWAT #2
+219,SWAT #3
+220,105 (WFYG1)
+221,106 (WFYG2)
+222,28 (HMOCA)
+223,80 (WFOSH)
+224,77 (WFYSK)
+225,66 (WMYLG)
+226,60 (WMOBE)
+227,68 (WMYBU)
+228,51 (WMYST)
+229,46 (BMYPI)
+230,70 (WFYPR)
+231,55 (WMYRI)
+232,34 (BMOST)
+233,10 (HFOST)
+234,16 (HMORI)
+235,26 (HMOTR)
+236,27 (HMYAP)
+237,25 (HFOTR)
+238,20 (HMOBE)
+239,21 (HFYBU)
+240,23 (HFYCG)
+241,19 (HMYBE)
+242,64 (WMOGO)
+243,48 (WMYCR)
+244,76 (WMYJG)
+245,52 (WMOST)
+246,44 (BFOTR)
+247,53 (WFYRI)
+248,43 (BFYPR)
+249,37 (BMYRI)
+250,42 (BMYBU)
+251,78 (WMYSK)
+252,61 (WMYCW)
+253,9 (HFYST)
+254,12 (HMOST)
+255,15 (HMYRI)
+256,24 (HFYPR)
+257,22 (HFYMD)
+258,59 (WFOBE)
+259,35 (BFYRI)
+260,38 (BFYBE)
+261,45 (BMOTR)
+262,33 (BMYST)
+263,73 (WMYPI)
+264,30 (BMYCR)
+265,56 (WMORI)
+266,69 (WMOBU)
+267,29 (BMODK)
+268,17 (HFYBE)
+269,13 (HFYRI)
+270,32 (BFOST)
+271,36 (BFORI)
+272,31 (BFYST)
+273,14 (HFORI)
+274,67 (WFYBU)
+275,71 (WFOTR)
+276,75 (WFYJG)
+277,79 (WFYSH)
+278,72 (WMOTR)
+279,41 (BMOBE)
+280,62 (WMYGO)
+281,57 (WFYBE)
+282,54 (WFORI)
+283,63 (WFOGO)
+284,11 (HMYST)
+285,74 (WMOCA)
+286,58 (WMYBE)
+287,40 (BFOBE)
+288,65 (WFYLG)
+289,50 (WFOST)
+290,49 (WFYST)
+291,White Cop 1
+292,White Cop 2
+293,White Cop 3
+294,Tommy's voices
+295,Tommy's grunts

@@ -1,0 +1,255 @@
+id,title
+0,biological_process
+1,metabolic process
+2,cellular metabolic process
+3,organonitrogen compound metabolic process
+4,carboxylic acid metabolic process
+5,response to cyclopentenone
+6,toxin catabolic process
+7,oxoacid metabolic process
+8,cellular amide metabolic process
+9,cellular response to xenobiotic stimulus
+10,organic acid metabolic process
+11,response to xenobiotic stimulus
+12,response to chemical stimulus
+13,tRNA aminoacylation
+14,xenobiotic catabolic process
+15,translation
+16,protein targeting to mitochondrion
+17,establishment of protein localization to mitochondrion
+18,tRNA metabolic process
+19,aromatic amino acid family catabolic process
+20,cellular nitrogen compound metabolic process
+21,cellular response to interferon-gamma
+22,proteasome assembly
+23,tRNA aminoacylation for protein translation
+24,macropinocytosis
+25,L-ascorbic acid metabolic process
+26,pinocytosis
+27,regulation of signal transduction by p53 class mediator
+28,positive regulation of response to DNA damage stimulus
+29,response to interferon-gamma
+30,fatty acid beta-oxidation
+31,alpha-amino acid catabolic process
+32,response to misfolded protein
+33,regulation of response to stimulus
+34,positive regulation of biological process
+35,regulation of response to stress
+36,cellular amino acid catabolic process
+37,protein complex assembly
+38,protein complex biogenesis
+39,protein complex subunit organization
+40,macromolecular complex assembly
+41,cellular component assembly
+42,cellular response to cytokine stimulus
+43,cellular response to organic substance
+44,endocytosis
+45,positive regulation of cell communication
+46,positive regulation of signaling
+47,regulation of signaling
+48,regulation of cell communication
+49,biological regulation
+50,regulation of biological process
+51,regulation of response to DNA damage stimulus
+52,cellular protein complex assembly
+53,amino acid activation
+54,single-organism process
+55,response to stress
+56,monosaccharide metabolic process
+57,single-organism carbohydrate metabolic process
+58,water-soluble vitamin metabolic process
+59,small molecule metabolic process
+60,cellular process
+61,organic substance metabolic process
+62,cellular protein metabolic process
+63,macromolecule modification
+64,protein modification process
+65,catabolic process
+66,organic cyclic compound catabolic process
+67,aromatic compound catabolic process
+68,establishment of localization
+69,transport
+70,single-organism transport
+71,cellular response to stimulus
+72,single-organism catabolic process
+73,organic acid catabolic process
+74,small molecule catabolic process
+75,fatty acid oxidation
+76,lipid oxidation
+77,monocarboxylic acid catabolic process
+78,cellular lipid catabolic process
+79,oxidation-reduction process
+80,cellular lipid metabolic process
+81,cellular component organization
+82,establishment of protein localization
+83,protein localization
+84,cellular protein localization
+85,cellular macromolecule localization
+86,intracellular transport
+87,establishment of localization in cell
+88,protein targeting
+89,intracellular protein transport
+90,alpha-amino acid metabolic process
+91,aromatic amino acid family metabolic process
+92,organic substance biosynthetic process
+93,cellular biosynthetic process
+94,macromolecule biosynthetic process
+95,primary metabolic process
+96,macromolecule metabolic process
+97,nucleobase-containing compound metabolic process
+98,nucleic acid metabolic process
+99,single-organism metabolic process
+100,nitrogen compound metabolic process
+101,regulation of cellular process
+102,response to stimulus
+103,single-organism cellular process
+104,localization
+105,cellular component organization or biogenesis
+106,protein metabolic process
+107,biosynthetic process
+108,cellular aromatic compound metabolic process
+109,organic cyclic compound metabolic process
+110,cellular macromolecule metabolic process
+111,heterocycle metabolic process
+112,cellular amino acid metabolic process
+113,sulfur compound metabolic process
+114,cellular catabolic process
+115,cellular response to chemical stimulus
+116,positive regulation of response to stimulus
+117,positive regulation of cellular process
+118,organic substance catabolic process
+119,macromolecular complex subunit organization
+120,regulation of signal transduction
+121,cellular component biogenesis
+122,immune system process
+123,response to organic substance
+124,carbohydrate metabolic process
+125,cellular protein modification process
+126,ion transport
+127,lipid metabolic process
+128,monocarboxylic acid metabolic process
+129,macromolecule localization
+130,cellular localization
+131,organic substance transport
+132,organelle organization
+133,cellular macromolecule biosynthetic process
+134,gene expression
+135,RNA metabolic process
+136,peptide metabolic process
+137,cellular modified amino acid metabolic process
+138,secondary metabolic process
+139,response to organic cyclic compound
+140,response to oxidative stress
+141,organonitrogen compound catabolic process
+142,cellular macromolecular complex assembly
+143,immune response
+144,defense response
+145,response to cytokine stimulus
+146,vesicle-mediated transport
+147,positive regulation of signal transduction
+148,vitamin metabolic process
+149,anion transport
+150,carboxylic acid catabolic process
+151,fatty acid metabolic process
+152,lipid catabolic process
+153,protein localization to organelle
+154,mitochondrion organization
+155,cytoplasmic transport
+156,protein transport
+157,ncRNA metabolic process
+158,xenobiotic metabolic process
+159,glutathione metabolic process
+160,toxin metabolic process
+161,protein localization to mitochondrion
+162,benzene-containing compound metabolic process
+163,inorganic anion transport
+164,mitochondrial transport
+165,establishment of protein localization to organelle
+166,innate immune response
+167,response to topologically incorrect protein
+168,regulation of cellular response to stress
+169,lipid modification
+170,fatty acid catabolic process
+171,catalytic activity
+172,oligopeptide binding
+173,disulfide oxidoreductase activity
+174,glutathione binding
+175,modified amino acid binding
+176,anion channel activity
+177,"ligase activity, forming carbon-oxygen bonds"
+178,inorganic anion transmembrane transporter activity
+179,ion binding
+180,cis-trans isomerase activity
+181,identical protein binding
+182,protein binding
+183,molecular_function
+184,"oxidoreductase activity, acting on the CH-NH group of donors"
+185,ion transmembrane transporter activity
+186,substrate-specific transmembrane transporter activity
+187,substrate-specific transporter activity
+188,transmembrane transporter activity
+189,heterocyclic compound binding
+190,organic cyclic compound binding
+191,ion channel activity
+192,substrate-specific channel activity
+193,passive transmembrane transporter activity
+194,channel activity
+195,peroxidase activity
+196,transferase activity
+197,binding
+198,anion binding
+199,isomerase activity
+200,oxidoreductase activity
+201,nucleic acid binding
+202,transporter activity
+203,"transferase activity, transferring alkyl or aryl (other than methyl) groups"
+204,carboxylic acid binding
+205,sulfur compound binding
+206,amide binding
+207,protein dimerization activity
+208,ligase activity
+209,anion transmembrane transporter activity
+210,RNA binding
+211,glutathione transferase activity
+212,peptide binding
+213,amino acid binding
+214,"oxidoreductase activity, acting on a sulfur group of donors"
+215,antioxidant activity
+216,"oxidoreductase activity, acting on peroxide as acceptor"
+217,protein homodimerization activity
+218,"translation factor activity, nucleic acid binding"
+219,drug binding
+220,mitochondrion
+221,cytoplasm
+222,GAIT complex
+223,outer membrane
+224,mitochondrial membrane
+225,extracellular organelle
+226,extracellular vesicular exosome
+227,envelope
+228,membrane-bounded vesicle
+229,extracellular region
+230,organelle part
+231,intracellular part
+232,intracellular
+233,cellular_component
+234,cell part
+235,cell
+236,organelle
+237,membrane-bounded organelle
+238,intracellular organelle
+239,mitochondrial envelope
+240,macromolecular complex
+241,cytoplasmic part
+242,intracellular organelle part
+243,membrane
+244,protein complex
+245,intracellular membrane-bounded organelle
+246,cytosol
+247,organelle envelope
+248,vesicle
+249,extracellular region part
+250,organelle membrane
+251,mitochondrial part
+252,extracellular membrane-bounded organelle
+253,organelle outer membrane

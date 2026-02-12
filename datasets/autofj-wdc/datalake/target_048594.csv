@@ -1,0 +1,70 @@
+id,title
+0,UTF8-Bytestring Pango interface.
+1,cairoCreateContext
+2,implementation of onToggled for CellRendererToggle
+3,Missing dependency on containers package
+4,PixbufData instance for MArray missing a method
+5,toggleActionIsActive in ToggleActionEntry not changed when user checks or unchecks menu item
+6,GDK_TYPE_PIXBUF missing from the list of TMtypes
+7,please complete the entry completion implementation
+8,"webkit-0.12.2 cannot built, misses System.Glib.GString"
+9,segmentation fault when running webViewLoadUri in a multi-threaded program
+10,webkit build error
+11,ListStore+TreeView leaks memory when destroyed
+12,gtk2hs-buildtools update breaks glade 0.12.1
+13,Missing gtksourceview2.h path
+14,SourceView not recognised
+15,"Linking split-objs fails with ""xargs: /mingw/bin/ar: Bad file number"""
+16,GHC_PKG_CHECK fails when multiple versions of the package are installed
+17,can't install with ghc in C:\Program Files\ghc\ghc-6.8.1 on Vista
+18,build errors on Glib.UTFString
+19,No version for 0.9.13 in trac
+20,Could not find module `Graphics.UI.Gtk.SourceView'
+21,Windows installer and GHC 6.8.2
+22,gtk2hs-0-9-13 fails to generate docs with haddock-2.0.0.0
+23,getWindowTick is missing in SOE
+24,"cairo demo in ghci throws ""unknown symbol"" error"
+25,cairo performance is very bad
+26,Cairo register wrong library in extra-ghci-libraries on Windows
+27,libcroco-0.6-3.dll missing?
+28,gtk2hs refuses to build with cairo 1.8.0
+29,compile error of version 0.9.13
+30,Gstreamer Structures and Caps: parent_refcount == NULL
+31,parse error in c2hs in gobject.i
+32,Expose necessary functions to set _NET_WM_STRUT_PARTIAL on a window
+33,castToListStore not exported
+34,Button Printf Callback Fails
+35,Memory overwritten passing from GHC to GTK using textBufferSetText of the module Graphics.UI.Gtk.Multiline.TextBuffer
+36,Interaction between file monitoring and listStore (probably a memory bug)
+37,API links on documentation page old
+38,No menuItemSetLabel or menuItemGetLabel methods.
+39,"Link to ""Browse code"" on development page broken."
+40,GtkFileChooserButton broken
+41,testembedmoz segfaults
+42,GLib-CRITICAL **: g_timeout_add_full: assertion `function != NULL' failed
+43,toResponse crashes the program if the response ID is 0 or less than -11.
+44,buttonNewFromStock should have StockId as a parameter
+45,Broken links for images in Haddock
+46,Return type of treeModelSortGetModel
+47,Error building from source on Windows
+48,"NativeWindowId does not compile: ""cannot convert to a pointer type"""
+49,"drawWindowGetPointer raises ""NonExhaustivePattern"" or something..."
+50,"drawWindowGetPointer raises ""NonExhaustivePattern"" or something..."
+51,illegal instruction at CS:0537 IP:02d4 OP: 63 68 61 72 73 gtk2hs-0.9.12.1.exe
+52,MacPorts installation error
+53,Add windowForeignNew
+54,Add predicates for types of widgets.
+55,Graphics.UI.Gtk.Gdk.Events not exported by Graphics.UI.Gtk
+56,Not in scope: type constructor or class `CUInt'
+57,RadioActionEntry not initialized correctly
+58,gtk2hs-users no taccepting messages
+59,flipHorazontally -> flipHorizontally
+60,Please implement
+61,GHCi linking error.
+62,Documentation not available in website
+63,floating point error
+64,Text of treeview is not shown
+65,Graphics.UI.Gtk.ModelView.entryCompletionSetTextModel broken (patch included)
+66,Add Eq instances for all of Graphics.UI.Gtk.Gdk.Enums
+67,Build fails with gtk2-2.4.14 - patch included
+68,CULong -> CUInt needed in Gstreamer chs modules to build on 32-bit system.

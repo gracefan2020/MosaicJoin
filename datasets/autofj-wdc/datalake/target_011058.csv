@@ -1,0 +1,70 @@
+id,title
+0,/**
+1,"* the class MovieData encapsulates all quicktime-related stuff, so it doesn't polute the namespaces"
+2,"* it handles all calls to quicktime etc... It is mainly used by the QuicktimeImageStream, it is"
+3,* rarely needed in other contexts
+4,"* it handles all calls to quicktime etc... It is mainly used by the QuicktimeImageStream, it is"
+5,* rarely needed in other contexts
+6,*/
+7,class MovieData {
+8,public:
+9,/** default constructor */
+10,MovieData();
+11,/** default destructor */
+12,~MovieData();
+13,/**
+14,/**
+15,"* loads a movie, start it playing at startTime, use Image for the storage"
+16,"* @param image the image, to use as storage"
+17,*/
+18,"void load(osg::Image* image, std::string fileName, double startTime = 0.0);"
+19,/** @return the duration for this movie in seconds */
+20,inline double getMovieDuration() { return GetMovieDuration(_movie)/_timescale;}
+21,/** @return the current position for this movie in seconds */
+22,"inline double getMovieTime() {return GetMovieTime(_movie,NULL)/_timescale; }"
+23,/** stes the movietime */
+24,void setMovieTime(double atime);
+25,"/** @return the Movie-handle, to use it with other quicktime-calls */"
+26,inline Movie &getMovie() { return _movie; }
+27,/** @return the current movieRate */
+28,inline double getMovieRate() { return Fix2X(GetMovieRate(_movie)); }
+29,"/** @return returns the cached movierate, may differ to the real movierate */"
+30,inline double getCachedMovieRate() { return _movieRate; }
+31,/** sets the MovieRate for this movie */
+32,void setMovieRate(double rate);
+33,/** sets the volume for the soundtrack of this movie */
+34,"void setVolume(float volume) { SetMovieVolume(_movie,(short)(ceil(volume*255.0f)));}"
+35,float getVolume() const { return GetMovieVolume(_movie) / 255.0f; }
+36,void setAudioBalance(float f) {
+37,Float32 balance = f;
+38,"SetMovieAudioBalance(_movie, balance, 0);"
+39,}
+40,float getAudioBalance() {
+41,Float32 balance;
+42,return f;
+43,}
+44,"/** @return true, if this movie is looping */"
+45,bool isLooping() const { return _isLooping; }
+46,/** sets the looping mode */
+47,void setLooping(bool loop) {
+48,}
+49,}
+50,protected:
+51,char* _pointer;
+52,Movie _movie;
+53,GWorldPtr _gw;
+54,"unsigned int _movieWidth, _movieHeight, _textureWidth, _textureHeight;"
+55,double _timescale;
+56,bool _preRolled;
+57,bool _isLooping;
+58,/** inits the image for storage */
+59,void _initImage(osg::Image* image);
+60,"/** inits the gWorld, where the movie gets drawn into */"
+61,void _initGWorldStuff(osg::Image * image);
+62,/** inits the texture */
+63,void _initTexture();
+64,/** checks for an movie-error */
+65,inline void _checkMovieError(std::string msg) {
+66,}
+67,}
+68,};

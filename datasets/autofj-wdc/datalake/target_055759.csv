@@ -1,0 +1,51 @@
+id,title
+0,[Meta] YouTube Tab issue collection and roadmap
+1,Ability to add the same youtube video using different users.
+2,Add an option to force the HTML5 player when available
+3,"Add support for time-specific urls, ""t"" or ""start"" parameter"
+4,Add version dependency information
+5,"Adding skins variable for ""jw flv player"" settings group"
+6,Adding unlisted YouTube videos
+7,admin UI text doesn't get shown
+8,Allow disabling external calls to youtube
+9,Allow multi-value emvideo fields to be displayed as a (single) playlist
+10,Allow only videos that can be syndicated
+11,Allow video to be embedded with HTTPS url
+12,Ampersands encoded twice
+13,Any solutions to age restricted or removed videos?
+14,array_merge Errors and Preview size will not set
+15,array_merge warning on update
+16,Attributes added by the WYSIWYG on YouTube preview images are not preserved
+17,Autoplaying video from flag in url
+18,Can the size of the video display be flexible?
+19,Can you tell me is there a huge performance difference between the current dev relese and the stable release?
+20,Cannot authenticate. Error: CAPTCHA challenge issued by server
+21,Could not connect to youtube to request XML: HTTP error 404
+22,created option to autohide the controls
+23,Deep linking to parts of a video
+24,delete media-mover youtube video
+25,Embed and view private videos
+26,Embed Video: Found no valid media with that url.
+27,Embedding Chromeless Videos from YouTube
+28,Error with some youtube links
+29,"Exception: Error Processing Request. (Error: -1002, missing schema)"
+30,Fatal error - Cannot redeclare
+31,Fatal error: Allowed memory...
+32,Fatal error: Call to a member function get_parameters() on a non-object in .../includes/themes/media_youtube.theme.inc
+33,Fatal error: Call to undefined function media_youtube_variable_get()
+34,"Four ""Undefined index"" errors every time a YouTube video is displayed"
+35,Full clear HTTPS (SSL) support for YouTube player
+36,Fullscreen option always on when using HTML5 player
+37,gd getimagesize error
+38,Getting HTML5 to work
+39,Google Analytics Event Tracking
+40,High CPU Usage
+41,High Quality Content option no longer working
+42,hook_file_default_displays_alter causes Features to always appear overridden
+43,How do I access title and description information from web based media sources (e.g. Youtube)
+44,How to detect 'embedding disabled by request'?
+45,How to embed a whole youtube playlist - not just a video from the playlist - in 7.x?
+46,How to integrate with Colorbox
+47,How to set different video sizes?
+48,HTML5 support for JW FLV Player
+49,HTML5 YouTube Embed

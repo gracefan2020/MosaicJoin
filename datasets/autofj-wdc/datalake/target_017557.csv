@@ -1,0 +1,101 @@
+id,title
+0,Multiple local css customizations not available for Tooltip
+1,"when destroying the children, the tree.children.length keep increasing"
+2,on Collection.BinaryTree bug of preorderTraversal
+3,SimpleStore addData method
+4,More additions to DatePicker and a minor patch to DDDP
+5,[patch][cla] Layout manager overwrites element overflow settings
+6,[patch][cla]Add ID to fisheyelistitem
+7,revision 5651 prevents scrollbars on contentpanes
+8,dojo.date.getTimezoneName with tests
+9,TabContainer appears to be broken in Mozilla 1.7.13
+10,dojo.lang.repr function references undefined variable o.NAME
+11,user and password in BrowserIO.js
+12,credit card validation routines
+13,[patch][cla] TitlePane content area maintains spacing when closed
+14,wiki BookScript page contains erroneous script tag
+15,dojo.widget.validate is using a deprecated function
+16,TabContainer no longer properly overflowing
+17,small gap in remotely loaded TabContainer panels
+18,test_Validate.js update to include new CreditCard routines
+19,Slider widget doesn't work in Safari
+20,TitlePane collapse broken with revision 5108
+21,TabContainer layout broken with change 5651
+22,PopupMenu2 context menu is browser context menu
+23,[patch][cla] Feature to allow widgets within templates
+24,this.tabList has no properties - bootstrap1.js (line 422)
+25,Datepicker control enablement off by one
+26,Gap between TitlePane Title and Content with IE
+27,Error in dojo.widget.manager.getImplementationName + Namespace code Dojo & Me Dojo Mail
+28,"Tooltip freezes FF when using contentPane href="""""
+29,TreeNodeV3 object part of prototype instead of instance
+30,TreeV3 toogle=wipe doesnt play well
+31,ComboBox - corresponding value not selected
+32,dojo.date.format undefined var
+33,dojo.widget.Button's click does not receive the focus in IE
+34,[regression] latest TabContainer (5813) broken for user created new tabs
+35,When using multiple TitlePanes is does not collapse correctly
+36,ContentPane fails to redraw images properly on browser resize in Firefox
+37,TabContainer labelPosition not working
+38,dojo.lfx.wipeIn()/wipeOut() should set display:none; wiped-out item still takes up screen space
+39,Dojo fails to load in Mozilla for XML pages with
+40,TitlePane should extend ContentPane
+41,dojo.widget.Manager has a few global vars defined
+42,dialog widget does not support createWidget
+43,debug info change for XslTransform
+44,ComboBox - onValueChanged fails to trigger function
+45,ComboBox rendering in svn differs from 3.1
+46,[Widget] Subwidget definitions not necessarily respecting CSS definitions.
+47,regression: InlineEditBox no longer returns to original background color after editing is finished
+48,Add API docs for dojo.date
+49,Add API docs for dojo.debug
+50,Add API docs for dojo.event
+51,Add API docs for dojo.json
+52,Add API docs for dojo.lfx
+53,Add API docs for dojo.namespace
+54,Add API docs for dojo.profile
+55,Add API docs for dojo.rpc
+56,Add API docs for dojo.style
+57,Add API docs for dojo.svg
+58,Add API docs for dojo.uuid
+59,Add API docs for dojo.widget.svg
+60,Add API docs for dojo.widget.Editor2
+61,Add API docs for dojo.widget.nls
+62,Add API docs for dojo.widget.vml
+63,TabContainer doesnÂ´t fire selectTab dojo.event.connet
+64,LinkPane tab always preloading content
+65,ToolbarButtons in a ToolbarButtonGroup do not respond to events.
+66,"missingValue always says ""occupation is req'd"""
+67,"12 hour time validates format, but not range"
+68,test_spinner tests are b0rken
+69,"[patch][cla] DropdownDatePicker was copying startDate and endDate to DP, even when not given"
+70,checkbox image is not properly displayed in IE with a large font
+71,checkbox does honor disabled/checked settings under opera 9
+72,ComboBox - css glitch in IE with multiple combo boxes on the same page
+73,ValidateTextbox inhibits custom css to control appearance
+74,build system problems with gfx
+75,tests/widget/treeV3/demo.html (revision 5967) complains about not being able to load dojo.string.extras
+76,Rename shadowTR..png in src/html/images
+77,TitlePane content disappearing with IE
+78,& showing up in combobox widget
+79,FloatingPane has redundant requires
+80,ComboBox - resizes combo arrow in IE
+81,TitlePane - nesting doesn't work
+82,AccordionContainer: AccordionPane and singleton bug?
+83,dropdowntimepicker should use java-style date formatting
+84,"rename spinner widgets, mark experimental"
+85,remove dojo.widget.validate sub-module
+86,AccordionContainer: onShow and onHide back to AccordionPane
+87,dojo.validate.check doesn't check selected values in required for select lists
+88,Multiple dojo.provide() calls in files should be deleted
+89,XHR fails before dojo.js itself loaded
+90,"TreeBasicControllerV3.js line 280 _focusLabel(treeWidget, nodeWidget)"
+91,TimePicker.setTime() fails
+92,dojo.lfx.wipeIn()/wipeOut() don't work on fixed size items
+93,validate color confusion
+94,DropdownDatePicker popup does not select initial date in form tests
+95,sync XmlHttpRequest freeze Firefox 1.5
+96,Wrong checked propery in Checkbox widget
+97,src/text/__package__.js has vestigial code
+98,[patch][cla]Show widget doesn't display on IE at all
+99,FATAL exception raised: TypeError: this.normalizedEventName is not a function

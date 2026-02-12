@@ -1,0 +1,63 @@
+id,title
+0,NIU(children)
+1,Agriculture
+2,Mining
+3,Construction
+4,Manufacturing
+5,.Durable Goods
+6,"..Lumber and Wood Products, except Furniture"
+7,..Furniture and Fixtures
+8,"..Stone, Clay, Glass, Concrete Products"
+9,..Metal Industries
+10,...Primary Metals
+11,...Fabricated Metals
+12,...Not Specified Metal Industries
+13,"..Machinery, except Electrical"
+14,"..Electrical Machinery, Equipment, Supplies"
+15,..Transportation Equipment
+16,...Motor Vehicles and Equipment
+17,...Other Transportation Equipment
+18,....Aircraft and Parts
+19,....Other Transportation Equipment
+20,"..Professional and Photo Equipment, Watches"
+21,"..Toys, Amusements, and Sporting Goods"
+22,..Miscellaneous and Not Specified
+23,.Nondurable Goods
+24,..Food and Kindred Products
+25,..Tobacco Manufactures
+26,..Textile Mill Products
+27,..Apparel and Other Finished Textile Products
+28,..Paper and Allied Products
+29,"..Printing, Publishing, and Allied Industries"
+30,..Chemicals and Allied Products
+31,..Petroleum and Coal Products
+32,..Rubber and Miscellaneous Plastics Products
+33,..Leather and Leather Products
+34,"Transportation, Communications, and Other Public Utilities"
+35,.Transportation
+36,.Communication and Other Public Utilities
+37,..Communication
+38,..Utilities and Sanitary Services
+39,.Wholesale and Retail Trade
+40,.Wholesale Trade
+41,.Retail trade
+42,"Finance, Insurance, and Real Estate"
+43,.Banking and Other Finance
+44,.Insurance and Real Estate
+45,Service
+46,.Private Household
+47,.Miscellaneous Services
+48,..Business and Repair Services
+49,...Business Services
+50,...Repair Services
+51,.Personal Service except Private Household
+52,.Entertainment and Recreation Services
+53,.Professional and Related Services
+54,..Hospitals
+55,"..Health Services, except Hospitals"
+56,..Educational Services
+57,..Social Services
+58,..Other Professional Services
+59,Forestry and Fisheries
+60,Public Administration
+61,Never Worked (WKSWORK=0)

@@ -1,0 +1,219 @@
+id,title
+0,Line 24 documentation.
+1,.SH OPTIONS
+2,.rs
+3,.TP 10
+4,\fB-b\fP
+5,Behave as if each regex has the \fB/B\fP (show bytecode) modifier; the internal
+6,form is output after compilation.
+7,.TP 10
+8,\fB-C\fP
+9,"Output the version number of the PCRE library, and all available information"
+10,"about the optional features that are included, and then exit."
+11,.TP 10
+12,\fB-d\fP
+13,Behave as if each regex has the \fB/D\fP (debug) modifier; the internal
+14,form and information about the compiled pattern is output after compilation;
+15,\fB-d\fP is equivalent to \fB-b -i\fP.
+16,.TP 10
+17,\fB-dfa\fP
+18,Behave as if each data line contains the \eD escape sequence; this causes the
+19,"alternative matching function, \fBpcre_dfa_exec()\fP, to be used instead of the"
+20,standard \fBpcre_exec()\fP function (more detail is given below).
+21,.TP 10
+22,\fB-help\fP
+23,Output a brief summary these options and then exit.
+24,.TP 10
+25,\fB-i\fP
+26,Behave as if each regex has the \fB/I\fP modifier; information about the
+27,compiled pattern is given after compilation.
+28,"Line 56 with earlier versions of pcretest, \fB-s"
+29,.TP 10
+30,\fB-o\fP \fIosize\fP
+31,Set the number of elements in the output vector that is used when calling
+32,\fBpcre_exec()\fP or \fBpcre_dfa_exec()\fP to be \fIosize\fP. The default value
+33,"is 45, which is enough for 14 capturing subexpressions for \fBpcre_exec()\fP or"
+34,22 different matches for \fBpcre_dfa_exec()\fP. The vector size can be
+35,changed for individual matching calls by including \eO in the data line (see
+36,below).
+37,.TP 10
+38,\fB-p\fP
+39,Behave as if each regex has the \fB/P\fP modifier; the POSIX wrapper API is
+40,Line 78 megabytes.
+41,"Run each compile, study, and match many times with a timer, and output"
+42,resulting time per compile or match (in milliseconds). Do not set \fB-m\fP with
+43,"\fB-t\fP, because you will then get the size output a zillion times, and the"
+44,timing will be distorted. You can control the number of iterations that are
+45,used for timing by following \fB-t\fP with a number (as a separate item on the
+46,"command line). For example, ""-t 1000"" would iterate 1000 times. The default is"
+47,to iterate 500000 times.
+48,.TP 10
+49,\fB-tm\fP
+50,"This is like \fB-t\fP except that it times only the matching phase, not the"
+51,compile or study phases.
+52,.
+53,.
+54,.SH DESCRIPTION
+55,Line 103 lines to be matched against the pattern.
+56,.P
+57,Each data line is matched separately and independently. If you want to do
+58,"multi-line matches, you have to use the \en escape sequence (or \er or \er\en,"
+59,"etc., depending on the newline setting) in a single line of input to encode the"
+60,newline sequences. There is no limit on the length of data lines; the input
+61,buffer is automatically extended if it is too small.
+62,.P
+63,"An empty line signals the end of the data lines, at which point a new regular"
+64,Line 168 not correspond to anything in Perl:
+65,\fB/\fP PCRE_NEWLINE_CR
+66,\fB/\fP PCRE_NEWLINE_LF
+67,\fB/\fP PCRE_NEWLINE_CRLF
+68,\fB/\fP PCRE_NEWLINE_ANY
+69,.sp
+70,Those specifying line ending sequencess are literal strings as shown. This
+71,example sets multiline matching with CRLF as the line ending sequence:
+72,.sp
+73,/^abc/m
+74,.sp
+75,Details of the meanings of these PCRE options are given in the
+76,".\"" HREF"
+77,\fBpcreapi\fP
+78,".\"""
+79,"Line 213 matched the entire pattern, pcretest sho"
+80,the subject string. This is useful for tests where the subject contains
+81,multiple copies of the same substring.
+82,.P
+83,The \fB/B\fP modifier is a debugging feature. It requests that \fBpcretest\fP
+84,output a representation of the compiled byte code after compilation.
+85,.P
+86,"The \fB/L\fP modifier must be followed directly by the name of a locale, for"
+87,"example,"
+88,.sp
+89,Line 232 compiled pattern (whether it is anchored
+90,so on). It does this by calling \fBpcre_fullinfo()\fP after compiling a
+91,"pattern. If the pattern is studied, the results of that are also output."
+92,.P
+93,"The \fB/D\fP modifier is a PCRE debugging feature, and is equivalent to"
+94,"\fB/BI\fP, that is, both the \fP/B\fP and the \fB/I\fP modifiers."
+95,.P
+96,The \fB/F\fP modifier causes \fBpcretest\fP to flip the byte order of the
+97,fields in the compiled pattern that contain 2-byte and 4-byte numbers. This
+98,Line 277 complicated features of PCRE. If you are
+99,"expressions, you probably don't need any of these. The following escapes are"
+100,recognized:
+101,.sp
+102,"\ea alarm (BEL, \ex07)"
+103,\eb backspace (\ex08)
+104,\ee escape (\ex27)
+105,\ef formfeed (\ex0c)
+106,\en newline (\ex0a)
+107,".\"" JOIN"
+108,\eqdd set the PCRE_MATCH_LIMIT limit to dd
+109,(any number of digits)
+110,\er carriage return (\ex0d)
+111,\et tab (\ex09)
+112,\ev vertical tab (\ex0b)
+113,\ennn octal character (up to 3 octal digits)
+114,\exhh hexadecimal character (up to 2 hex digits)
+115,".\"" JOIN"
+116,Line 367 recognized:
+117,".\"" JOIN"
+118,\e pass the PCRE_NEWLINE_CRLF option to \fBpcre_exec()\fP
+119,or \fBpcre_dfa_exec()\fP
+120,".\"" JOIN"
+121,\e pass the PCRE_NEWLINE_ANY option to \fBpcre_exec()\fP
+122,or \fBpcre_dfa_exec()\fP
+123,.sp
+124,"The escapes that specify line ending sequences are literal strings, exactly as"
+125,shown. No more than one newline setting should be present in any data line.
+126,.P
+127,A backslash followed by anything else just escapes the anything else. If
+128,"the very last character is a backslash, it is ignored. This gives a way of"
+129,"passing an empty line as data, since a real empty line terminates the data"
+130,input.
+131,.P
+132,"If \eM is present, \fBpcretest\fP calls \fBpcre_exec()\fP several times, with"
+133,different values in the \fImatch_limit\fP and \fImatch_limit_recursion\fP
+134,"Line 440 respectively, and otherwise the PCRE neg"
+135,of an interactive \fBpcretest\fP run.
+136,.sp
+137,$ pcretest
+138,PCRE version 7.0 30-Nov-2006
+139,.sp
+140,re> /^abc(\ed+)/
+141,data> abc123
+142,Line 451 of an interactive \fBpcretest\fP run.
+143,.sp
+144,"If the strings contain any non-printing characters, they are output as \e0x"
+145,"escapes, or as \ex{...} escapes if the \fB/8\fP modifier was present on the"
+146,pattern. See below for the definition of non-printing characters. If the
+147,"pattern has the \fB/+\fP modifier, the output for substring 0 is followed by"
+148,"the the rest of the subject string, identified by ""0+"" like this:"
+149,.sp
+150,re> /cat/+
+151,data> cataract
+152,Line 481 instead of a colon. This is in addition
+153,"length (that is, the return from the extraction function) is given in"
+154,parentheses after each string for \fB\eC\fP and \fB\eG\fP.
+155,.P
+156,"Note that whereas patterns can be continued over several lines (a plain "">"""
+157,"prompt is used for continuations), data lines may not. However newlines can be"
+158,"included in data by means of the \en escape (or \er, \er\en, etc., depending on"
+159,the newline sequence setting).
+160,.
+161,.
+162,.
+163,".SH ""OUTPUT FROM THE ALTERNATIVE MATCHING FUNCTION"""
+164,Line 505 the subject where there is at least one
+165,"(Using the normal matching function on this data finds only ""tang"".) The"
+166,longest matching string is always given first (and numbered zero).
+167,.P
+168,"If \fB/g\fP is present on the pattern, the search for further matches resumes"
+169,at the end of the longest match. For example:
+170,.sp
+171,re> /(tang|tangerine|tan)/g
+172,Line 586 the
+173,documentation.
+174,.
+175,.
+176,.
+177,".SH ""NON-PRINTING CHARACTERS"""
+178,.rs
+179,.sp
+180,"When \fBpcretest\fP is outputting text in the compiled version of a pattern,"
+181,bytes other than 32-126 are always treated as non-printing characters are are
+182,therefore shown as hex escapes.
+183,.P
+184,When \fBpcretest\fP is outputting text that is a matched part of a subject
+185,"string, it behaves in the same way, unless a different locale has been set for"
+186,"the pattern (using the \fB/L\fP modifier). In this case, the \fBisprint()\fP"
+187,function to distinguish printing and non-printing characters.
+188,.
+189,.
+190,.
+191,".SH ""SAVING AND RELOADING COMPILED PATTERNS"""
+192,.rs
+193,.sp
+194,"Line 661 Finally, if you attempt to load a file t"
+195,result is undefined.
+196,.
+197,.
+198,".SH ""SEE ALSO"""
+199,.rs
+200,.sp
+201,"\fBpcre\fP(3), \fBpcreapi\fP(3), \fBpcrecallout\fP(3), \fBpcrematching\fP(3),"
+202,"\fBpcrepartial\fP(d), \fPpcrepattern\fP(3), \fBpcreprecompile\fP(3)."
+203,.
+204,.
+205,.SH AUTHOR
+206,.rs
+207,.sp
+208,Line 675 Philip Hazel
+209,.br
+210,"University Computing Service,"
+211,.br
+212,"Cambridge CB2 3QH, England."
+213,.P
+214,.in 0
+215,Last updated: 30 November 2006
+216,.br
+217,Copyright (c) 1997-2006 University of Cambridge.

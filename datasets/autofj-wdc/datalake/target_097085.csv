@@ -1,0 +1,51 @@
+id,title
+0,add support for key first_scenaraio_only=yes to [event]
+1,AI units with 0/0 moves will not attack adjacent enemies
+2,Mage of Light halo not drawing correctly
+3,the map generator that is used is not the one thats selected.
+4,victory_when_enemies_defeated=yes causes OOS in networked mp
+5,exit_hex event preventing any movement
+6,Packaging issue: Bundled documentation text files use Unix-style line endings
+7,Unsynced capture event triggering on undo move.
+8,Observer list broken
+9,Skip ai turns does not work for remote ai Sides
+10,Checking versions of dependencies of add-ons
+11,Warning that add-on updated failed not displayed
+12,[set_menu_item] synced=no does not save global variables
+13,[set_menu_item] synced=no not available for players who aren't taking their turn
+14,Wesnoth flashes from lobby to game tutorial midst writing a whisper
+15,Players get kicked to lobby at scenario transition
+16,Change units advancments directly in lua.
+17,Replays not saved after [endlevel] result=victory
+18,LoW carryover bugged
+19,Graphical errors around GUI elements in Wesnoth 1.13.1
+20,Language settings not persistent after exit BfW
+21,show unit details in mp leader selection dialog
+22,"Unwinnable situation in Delfador's Memoirs ""Showdown in the Northern Swamp"" not caught by the game"
+23,"NR ""The Pursuit"" unwinnable"
+24,Controllers can be changed when reloading a game
+25,autopath should prefer ocupied hexes
+26,unhighlighting combined enemy reach
+27,[unit_type] in [scenario]
+28,Make joining game faster
+29,A gui2 combobox
+30,bugs in Legend of Wesmere with shuffle sides active
+31,change minimap settings in mp lobby
+32,OOS when advancing to next scenario if next scenario changes a side controller
+33,LoW scenario3 bugged in local mp
+34,Show mp connect independent on allow_new_game=yes
+35,Read lua files from host.
+36,Activating/deactivating modifications is done via a confusing extra button
+37,Clicking cancel when waiting for players to join steps back to second game creation screen
+38,"Save file names are truncated/ellipsized on disk, breaking the Filter option in Load Game"
+39,Cannot use DejaVu Sans Mono in GUI2 dialogs on Apple OS X
+40,gui2 Sliders take too much space
+41,Custom menu item hotkeys are not preserved through save/load or scenario progression
+42,mp modifications added to sp campaigns
+43,UBSAN: findings while playing tutorial
+44,editor: severe FPS drop in map generation settings
+45,A New Land no longer allows you to recruit peasants
+46,save/reload process corrupts team_name
+47,"new add-on type ""developer-resource/tool"""
+48,Text is written in Helvetica instead of Deja Vu Sans
+49,Wesnoth crashes at main menu in standard build in OS X 10.10

@@ -1,0 +1,101 @@
+id,title
+0,overhaul the POI menu
+1,give more info when saving options fails
+2,show whole world on the screen
+3,retimestamp a gpx file from the master timestamp
+4,add info menu
+5,add clories/fuel estimation function
+6,after a big tile download modRana GUI crashes
+7,send position by sms
+8,add social network iteraction
+9,clikable tracklogs
+10,quick POI adding
+11,automatic rerouting
+12,N900: add direct calling of local search result numbers
+13,draw a custom route
+14,add support for offline routing
+15,substitute wrong terms in routing service output
+16,add quick search widget
+17,widget system overhaul
+18,voice: messages with empty distance string
+19,"add ""button pressed"" feedback"
+20,"""pixel zooming"" - like in tangogps"
+21,add jump-to-zoomlevel widget
+22,add easy jumping to track/route start/destination
+23,"tracklog renaming, route naming"
+24,add batch import of tiles to db
+25,use source zoomlevel for batch download while scaled
+26,Maemo 5@N900: modRana freezing
+27,"""burn"" tracks to map tiles"
+28,edit the Espeak substitution list from GUI
+29,"add tracklog re/naming, deleting"
+30,store directions when saving route
+31,special mode for batch downloads
+32,map data management tool
+33,Add more routing messages + improve the routing message box
+34,add a boat mode
+35,voice directions
+36,POI: sort by distance & search by typing
+37,add support for knots
+38,Point to Point distance measurement
+39,"boat: add weather, moonphase & tide info"
+40,free navigation (arrow + distance to a given POI/coordinates)
+41,export POI as a GPX file
+42,Maemo@N900+possibly other: remember and restore internet connection state
+43,Maemo@N900: switch between turns with the volume rocker
+44,ask to enable GPS
+45,SHR@NEO: wrong speed displayed due to FSO-GPSD
+46,list all navigation steps
+47,improve the GPX example tracks
+48,"UI: only show ""route"" button when applicable"
+49,Routing: add support for waypoints
+50,Routing: make start/destination indicators dragable
+51,anchor alarm
+52,batch download: add download visible mode
+53,batch download: around view -> around point + imporvements
+54,tile loding/download: Loading tiles stuck after switching network access rules
+55,Add optional GPS shutdown timeout
+56,Add more features for working with POI
+57,show onscreen menu/widget when track logging is in progress
+58,show ISS and other orbiting satellites on the map
+59,SHR@Neo automatic GPS start/stop
+60,Show whole tracklog on map
+61,cancel download of no longer visible tiles
+62,combine close turns to one message
+63,Pressing pause when logging does not stop the time
+64,Better readable and configurable scale indicator
+65,make routing box position configurable
+66,weather info integration
+67,barometer support
+68,better voice navigation messages
+69,smart tile preloading
+70,TBT Navigation - move position indicator location to show maximum of the route ahead on the screen
+71,batch download tiles around current route
+72,modrana remote data client/server
+73,download upper zoom levels first during batch download
+74,tile update
+75,QML UI: improve point display
+76,QML UI: pinch gesture in icon grid
+77,QML UI: Map layer gallery
+78,QML UI: Zoomable text fields
+79,"QML UI: center the loading Loading... label, remove Ready label"
+80,QML UI: show tile debugging info
+81,GTK UI: on map logging trace broken
+82,QML UI: enable notifications
+83,QML UI@N900: interface glitched outside of fullscreen
+84,QML UI@N9/950: add support for screen blanking control
+85,QR codes for points/coordinates
+86,QML GUI: remember last used zoom
+87,QML GUI: set fallback location to Brno as in GTK UI
+88,QML GUI: automatically zoom in/out when holding a zoom button
+89,add map storage path dialog to to GUI
+90,Handle ampersand in POI name
+91,Load POI detail module when POIs from last time are restored
+92,N900: notify users without CSSU when they try to launch the QML GUI
+93,average speed calculation wrong
+94,GTK UI: point2point routing - show feedback if only one point or no points are selected
+95,simple position publishing
+96,Way bounding box
+97,check out Marbles trace drawing algorithm
+98,"tracklog: if logging is paused, rename ""start"" to ""resume"""
+99,return Point coordiantes in more formats as string

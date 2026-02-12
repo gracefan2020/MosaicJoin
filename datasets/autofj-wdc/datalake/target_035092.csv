@@ -1,0 +1,90 @@
+id,title
+0,Inlet Air Temp. Circuit Low
+1,Inlet Air Temp. Circuit High
+2,1/1 O2 Sensor Slow During Catalyst Monitor
+3,2/1 O2 Sensor Slow During Catalyst Monitor
+4,1/2 O2 Sensor Slow During Catalyst Monitor
+5,Radiator Temperature Sensor Volts Too High
+6,Radiator Temperature Sensor Volts Too Low
+7,Engine Is Cold Too Long
+8,Fuel Pump Relay Control Circuit
+9,Idle Select Signal Invalid
+10,Fuel Injection Pump Battery Voltage Out Of Range
+11,Fuel Injection Pump Controller Always On
+12,Accelerator Pedal Position Sensor Supply Voltage Too High
+13,Fuel Injection Pump Controller Supply Voltage Low
+14,Intake Manifold Short Runner Solenoid Circuit
+15,Manifold Tune Valve Solenoid Circuit
+16,CNG Fuel Pressure Too High
+17,No Temp Rise Seen From Fuel Heaters
+18,CNG Pressure Sensor Voltage Too High
+19,CNG Pressure Sensor Voltage Too Low
+20,Target Idle Not Reached
+21,No 5 Volts To TP Sensor
+22,No 5 Volts To MAP Sensor
+23,No Change in MAP From Start To Run
+24,Lean Operation At wide Open Throttle
+25,Vacuum Leak Found (IAC Fully Seated)
+26,Auto Shutdown (ASD) Relay Control Circuit
+27,No Auto Shutdown (ASD) Relay Output Voltage At PCM
+28,Timing Belt Skipped One Tooth or More
+29,Intermittent Loss of CMP or CKP
+30,Mis-Fire Adapter Numerator at Limit
+31,Wait To Start Lamp Circuit
+32,No 5 Volts To EGR Sensor
+33,Aux. 5 Volt Output Too High
+34,Too Little Secondary Air
+35,Too Much Secondary Air
+36,Battery Temp Sensor Volts Out of Limit
+37,Transmission Fan Relay Circuit
+38,PCV Solenoid Valve
+39,Catalyst Temperature Sensor Circuit Shorted Low
+40,Catalyst Temperature Sensor Circuit Shorted High
+41,Catalytic Converter Overheat Detected
+42,Air Injection Solenoid Circuit
+43,Evap Leak Monitor Pinched Hose
+44,Hi Speed Rad Fan CTRL Relay Circuit
+45,Auxiliary 5 Volt Supply Output Too Low
+46,High Speed Fan CTRL Relay Circuit
+47,Low Speed Fan CTRL Relay Circuit
+48,Rad Fan Control Relay Circuit
+49,Battery Temperature Sensor Voltage Too High
+50,Battery Temperature Sensor Voltage Too Low
+51,Leak Detection Pump Switch or Mechanical Fault
+52,Leak Detection Pump Solenoid Circuit
+53,5 Volt Supply Output Too Low
+54,High speed Rad Fan Ground CTRL Rly Circuit
+55,Charging System Voltage Too High
+56,Speed Control Solenoid Circuits
+57,Speed Control Switch Always High
+58,Speed Control Switch Always Low
+59,A/C Pressure Sensor Volts Too High
+60,A/C Pressure Sensor Volts Too Low
+61,PCM Not Programmed
+62,Clutch Released Switch Circuit
+63,No I/P Cluster CCD/J1850 Messages Received
+64,Charging System Voltage Too Low
+65,Speed Control Power Relay Or Speed Control 12 Volt Driver Circuit
+66,Battery Disconnected Within Last 50 Starts
+67,Skim Invalid Key
+68,No SKIM Bus Message Received
+69,No Cluster Bus Message
+70,Internal Fuel Injection Pump Controller Failure
+71,No Communication Between ECM & Injection Pump Module
+72,Fuel injection pump CKP Sensor Does Not Agree With ECM CKP Sensor
+73,Fuel Injection Pump Controller Calibration Failure
+74,DTC Detected In ECM Or PCM
+75,No CCD Messages Received From ECM
+76,No CCD/J185O Message From BCM
+77,PCM Failure EEPROM Write Denied
+78,PCM Failure SRI Mile Not Stored
+79,No CCD Messages Received From PCM
+80,Skip Shift Solenoid Circuit
+81,TCC Or OD Solenoid Performance
+82,Governor Pressure Not Equal To Target At 15–20 PSI
+83,Governor Pressure Above 3 PSI When Request Is 0 PSI
+84,Governor Pressure Sensor Offset Improper Voltage
+85,Governor Pressure Sensor Voltage Too High
+86,Governor Pressure Sensor Voltage Too Low
+87,Trans 12 Volt Supply Relay Control Circuit
+88,Park/Neutral Position Switch Stuck In Park or In Gear

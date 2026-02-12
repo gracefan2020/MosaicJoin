@@ -1,0 +1,50 @@
+id,title
+0,Extract Raw Chunks of data from identifiable ELF Sections
+1,The base object for WADL clients.
+2,Command wrapper around FileDedup using MooseX::App::Simple
+3,Test double framework with method stubs and behaviour verification
+4,Plack handler for the STOMP protocol
+5,Static and dynamic SOAP client generator from WSDL & XSD files
+6,"(EXPERIMENTAL, DANGEROUS) Identify a distribution as eligible for static installation"
+7,Data::Page::Pagination - calculates the pagination view
+8,"Build a Build.PL that uses Module::Build::Tiny, falling back to Module::Build as needed"
+9,"A Fey-based ORM (If you like SQL, you might like Fey::ORM)"
+10,"Dir, File, HomeDir, and other sweet classes"
+11,BeLike::KENTNL when you build your distributions.
+12,update your git repository after release
+13,Build your distributions like FLORA does
+14,A Path::Class type library for Moose
+15,(DEPRECATED) Add an encoding command to your POD
+16,HTML forms using Moose
+17,WSDL to Perl classes when building your dist
+18,Better SQL Generation Through Perl
+19,Curate a repository of Perl modules
+20,A linked open code language and processor
+21,make dists require external commands
+22,converts a distribution to Dist::Zilla
+23,distribution builder; installer not included!
+24,Perl interface for Conductrics universal optimization and reporting platform
+25,(DEPRECATED) Declarative syntax for Moose
+26,An event-based Markdown parser toolkit
+27,Dist::Zilla configuration the way BAREFOOT does it
+28,A NoSQL document store with full text search for Moose objects using Elasticsearch as a backend.
+29,Continuous Database Migration
+30,A more awesome MakeMaker plugin for Dist::Zilla
+31,ISO8601 date and duration string type constraints and coercions for Moose
+32,Build your distributions like I do
+33,Extensible and flexible model for ElasticSearch based on Moose
+34,Travis CI plugins for your DZIL-based distribution
+35,Parameterized role for related class attributes
+36,Populate your 'CONTRIBUTORS' POD from the list of git authors
+37,Add all Dist::Zilla plugins presently in use as prerequisites.
+38,Shorthand for common attribute options
+39,Build your distributions like TAPPER does
+40,Structured Type Constraints for Moose
+41,An extracted dataref walker
+42,Moose with more antlers
+43,A library of commonly used type constraints
+44,Tools to make migrating your DBIx::Class databases easier
+45,Report what versions of things your distribution was built against
+46,Housekeeping for sets of named parameters
+47,Specify prerequisites for optional features in your distribution
+48,Provide a short simple README with just the essentials

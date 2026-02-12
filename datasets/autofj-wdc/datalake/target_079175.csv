@@ -1,0 +1,50 @@
+id,title
+0,Analyze the configuration of any SSL web server on the public Internet via ssllabs.com
+1,API interface to FritzBox devices
+2,build a library of syntax-sugared Throwable-based exceptions
+3,frequently asked questions about Perl
+4,Minimalistic REST server
+5,A set of tools designed to extract data from CRAC's SAM files and to provide annotations.
+6,Deduplicate files across directories
+7,prefix lines with the timestamps of their arrivals.
+8,PDL interface to Doug Rohde's SVD C Library
+9,"Quickly installs MySQL side server, either standalone or in groups"
+10,Subroutine signatures with no source filter
+11,Interface to perl's parser variables
+12,A CLI for PAUSE
+13,A lightweight Rinci/Riap-based command-line application framework
+14,AdWords API Perl Client Library
+15,A CLI for PAUSE (unpacked version)
+16,A CLI for PAUSE (fatpacked version)
+17,Check for dists that depend on the dist you're building
+18,Bioinformatics Utilities!
+19,The module detects the mobile device and passes the WURFL capabilities on to the other web application as environment variables
+20,Convert Perl5 source to compile under Perl6.
+21,CLI components for Web::MEST-based applications
+22,Get constructor caller from inside Mo/Moo/Moose/Mouse's BUILD/BUILDARGS
+23,A Handy Debugging Module With Colorized Output and Formatting
+24,Pack your dependencies onto your script file
+25,use Geography::States without warnings
+26,Apache::Solr interface for Dancer applications
+27,JSON::Schema interface for Dancer applications
+28,Manage your local CPAN mirror
+29,Add filtering for mirror()
+30,Distribution to test various things
+31,Routines for text containing wide characters
+32,Create init scripts in Perl
+33,Role to write modules to disk to a specified directory
+34,Perform SQL queries against files in CSV/TSV/LTSV/JSON/YAML formats
+35,Insert stuffs to POD from Rinci metadata
+36,An asynchronous library for InfluxDB time-series database
+37,"Perl's system() and backtick/qx replacement/wrapper, with options"
+38,Set language before executing system() or backtick/qx
+39,Pack dependencies onto scripts during build using 'depak'
+40,Perl interface to Drupal MembershipEntity entities
+41,Perl interface to the Drupal CMS
+42,A simple object system.
+43,Write and read InfluxDB LineProtocol
+44,Loads Moo without turning warnings to fatal.
+45,Perl API for manipulating with nfdump files based on libnf.net library
+46,A Lua parser
+47,caller()-related utility routines
+48,"Modules related to the Mo* modules family (Mo, Moo, Moose, Mouse)"

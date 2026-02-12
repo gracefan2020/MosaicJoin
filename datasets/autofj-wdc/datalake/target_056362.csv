@@ -1,0 +1,51 @@
+id,title
+0,rss feed based on a users cck selection.
+1,"""Node: Link"" field doesn't work as RSS link (Solution: use ""Node: Path"" field)"
+2,"""PHP Fatal error: Unsupported operand types"" on adding enclosure of type field_image"
+3,"""Replace relative paths with absolute URLs"" broken"
+4,"""RSS element"" is available to ""All taxonomy terms"" only, and I can't limit which vocabularies to be used."
+5,"""Show - Fields"" Not Appearing"
+6,404 page for node link
+7,formatting for other fields
+8,not appearing for MP3 file (file field)
+9,tags necessary?
+10,Add to book pages
+11,Add all RSS 2.0 spec's optional channel elements
+12,Add category tags for multiple terms
+13,Add context to (alter) hook(s)
+14,Add Option To Output Absolute URLS
+15,Adding image to rss
+16,Adds in Node: Title
+17,Advanced feed description customization
+18,Aggregation problems
+19,Allow arbitrary tags in field usage and output all views fields
+20,Allow for paging of a view
+21,Allow override for number of feed items
+22,Ampersands in search_api URLs
+23,Attempting to Save Feed View Causes Redirect to RSS feed_1 Summary (File Save Prompt in FireFox)
+24,auto discovery of feeds
+25,Cannot Add Image to Feed is Using Amazon S3 Module
+26,cannot get views-rss to parse html?
+27,CDATA
+28,Certain html entities get double encoded
+29,"Changing Format to ""RSS Feed - Fields"" Does Nothing"
+30,Channel Description element appears twice in Feed
+31,Channel link element points to base URL instead of path of feed settings
+32,Check for $row->{$alias} to avoid php notices in views rss style plugin
+33,check_plain runs twice on title
+34,content:encoded extension module
+35,Content:Image in Enclosure field in Items Elements:Core - image not displayed in MS Outlook RSS feed reader or Google Reader
+36,Contextual filters should not be added to feed URL if the feed display doesn't support them
+37,Control Weight/Rearrange Item Elements of Extension Modules
+38,"Core ""source"" tag does not validate when it contains &"
+39,Core channel element for image does not resolve to valid URL
+40,Core Description defaults to Site 'Mission' which does not exist in Drupal 7
+41,Create multiple category elements
+42,Custom row plugin
+43,Custom RSS feed
+44,Custom site url?
+45,Custom Templates
+46,Daily Events feed
+47,database update 6200 throws error
+48,Difference against default Feed display?
+49,Display pubDate and lastBuildDate channel properties for views_plugin_style_rss style

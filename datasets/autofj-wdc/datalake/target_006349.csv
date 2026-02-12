@@ -1,0 +1,56 @@
+id,title
+0,AccountId
+1,AssistantName
+2,AssistantPhone
+3,Birthdate
+4,CanAllowPortalSelfReg
+5,CleanStatus
+6,ConnectionReceivedId
+7,ConnectionSentId
+8,Department
+9,Description
+10,DoNotCall
+11,Email
+12,EmailBouncedDate
+13,EmailBouncedReason
+14,Fax
+15,FirstName
+16,HasOptedOutOfEmail
+17,HasOptedOutOfFax
+18,HomePhone
+19,IsDeleted
+20,IsEmailBounced
+21,IsPersonAccount
+22,Jigsaw
+23,LastActivityDate
+24,LastCURequestDate
+25,LastCUUpdateDate
+26,LastName
+27,LastReferencedDate
+28,LastViewedDate
+29,LeadSource
+30,MailingAddress
+31,MailingCity MailingState MailingCountry MailingPostalCode
+32,MailingStateCode MailingCountryCode
+33,MailingStreet
+34,MailingLatitude
+35,MailingLongitude
+36,MasterRecordId
+37,MiddleName
+38,MobilePhone
+39,Name
+40,OtherAddress
+41,OtherCity OtherCountry OtherPostalCode OtherState
+42,OtherCountryCode OtherStateCode
+43,OtherLatitude
+44,OtherLongitude
+45,OtherPhone
+46,OtherStreet
+47,OwnerId
+48,Phone
+49,PhotoUrl
+50,RecordTypeId
+51,ReportsToId
+52,Salutation
+53,Suffix
+54,Title

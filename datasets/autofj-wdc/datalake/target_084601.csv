@@ -1,0 +1,70 @@
+id,title
+0,/* -*-c++-*- OpenSceneGraph - Copyright (C) 1998-2006 Robert Osfield
+1,*
+2,* This library is open source and may be redistributed and/or modified under
+3,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+4,* This library is open source and may be redistributed and/or modified under
+5,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+6,* (at your option) any later version. The full license is in LICENSE file
+7,"* included with this distribution, and on the openscenegraph.org website."
+8,*
+9,*
+10,"* This library is distributed in the hope that it will be useful,"
+11,* but WITHOUT ANY WARRANTY; without even the implied warranty of
+12,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+13,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+14,* OpenSceneGraph Public License for more details.
+15,*/
+16,Referenced();
+17,explicit Referenced(bool threadSafeRefUnref);
+18,Referenced();
+19,explicit Referenced(bool threadSafeRefUnref);
+20,Referenced(const Referenced&);
+21,static OpenThreads::Mutex* getGlobalReferencedMutex();
+22,"/** Increment the reference count by one, indicating that"
+23,"/** Increment the reference count by one, indicating that"
+24,this object has another pointer which is referencing it.*/
+25,inline int ref() const;
+26,"/** Decrement the reference count by one, indicating that"
+27,"/** Decrement the reference count by one, indicating that"
+28,a pointer to this object is no longer referencing it. If the
+29,"reference count goes to zero, it is assumed that this object"
+30,is no longer referenced and is automatically deleted.*/
+31,inline int unref() const;
+32,"/** Decrement the reference count by one, indicating that"
+33,"/** Decrement the reference count by one, indicating that"
+34,"a pointer to this object is no longer referencing it. However, do"
+35,"not delete it, even if ref count goes to 0. Warning, unref_nodelete()"
+36,"not delete it, even if ref count goes to 0. Warning, unref_nodelete()"
+37,should only be called if the user knows exactly who will
+38,"be responsible for, one should prefer unref() over unref_nodelete()"
+39,"be responsible for, one should prefer unref() over unref_nodelete()"
+40,as the latter can lead to memory leaks.*/
+41,int unref_nodelete() const;
+42,/** Return the number of pointers currently referencing this object. */
+43,inline int referenceCount() const { return _refCount; }
+44,/** Set whether reference counting should use a mutex for thread safe reference counting.*/
+45,static void setThreadSafeReferenceCounting(bool enableThreadSafeReferenceCounting);
+46,/** Get whether reference counting is active.*/
+47,static bool getThreadSafeReferenceCounting();
+48,static DeleteHandler* getDeleteHandler();
+49,protected:
+50,virtual ~Referenced();
+51,mutable OpenThreads::Atomic _refCount;
+52,#else
+53,mutable OpenThreads::Mutex* _refMutex;
+54,mutable int _refCount;
+55,mutable void* _observerSet;
+56,#endif
+57,if (_refMutex)
+58,{
+59,OpenThreads::ScopedLock lock(*_refMutex);
+60,OpenThreads::ScopedLock lock(*_refMutex);
+61,return ++_refCount;
+62,}
+63,if (_refMutex)
+64,{
+65,OpenThreads::ScopedLock lock(*_refMutex);
+66,OpenThreads::ScopedLock lock(*_refMutex);
+67,newRef = --_refCount;
+68,needDelete = newRef==0;

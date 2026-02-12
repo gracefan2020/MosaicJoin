@@ -1,0 +1,53 @@
+id,title
+0,D&D of msg into adressbook should be place at dropposition
+1,Change the menu link to the ARexx documentation
+2,"Upper right main YAM window showing ""empty"" square"
+3,All mails was sent from Drafts folder
+4,"Installer script complains about ""Unmatched parenthesis in line 885"""
+5,"When receiving emails a MUI error/warning window pops up saying ""MUI_Redraw() was called from task..."""
+6,Crash in the install script preprocessing.
+7,Signature will get two leading and two ending unterlines at email addresses und URLs
+8,OS4 YAM 2.9 Installer script has bug and won't execute
+9,Some Config headings wrong
+10,Signature will get two leading and two ending unterlines at email addresses und URLs
+11,"Files ""in use"" block part of YAM 2.9 install script"
+12,AmigaPL->UTF-8 for sending mails problem
+13,Crahs in DateStamp2String()
+14,MUI_Redraw task mismatch
+15,CC and BCC labels in write window not localized
+16,Switch translation to use transifex.com
+17,Error with AISS mage file 'folder_archive' since 2.9 .update
+18,There should be no reply to sender / reply to all in response to a Mail-Followup-To: header when the mail is in a folder with mailing list support.
+19,Crash after recieving a mail.
+20,Problems with filter IN option
+21,YAM crashes when auto-saving emails
+22,Filters lost MoveTo folder specs on conversion to 2.9
+23,"Filters with AND in 2.8p1 were converted to ""if one or more conditions met"" in 2.9"
+24,New field for alternative Sent folder in identities not always ghosted when it should
+25,multi assigm
+26,"YAM should use ""Content-Disposition: attachment"" for all attachments"
+27,.emailcache with quotes
+28,Certain lines in a QP encoded mail get duplicated
+29,D&D of mails as attachments won't show the attachment list
+30,clone attachment list open wrong attachment
+31,"Using URLOpen in MIME, shows requester with additional """
+32,YAM seems not use MUI's: Window positions are...
+33,Cannot create Mailgroup folder in Addressbook
+34,"Crash when apply a ""remote filter"""
+35,wrong character conversation after deleting attachments
+36,Addressbook images blacked out on MorphOS
+37,Display name of folders should be editable
+38,"Transparence in ""Make a Donation"" button"
+39,MUIRedraw error message
+40,Cutted text on the about window
+41,Replying to some mails leave To-field empty
+42,"Old ""hold"" mails in the outgoing folder are sent out"
+43,Crash selecting a mail with the Enter key
+44,Config GUI - Filter: Condition page ghosted
+45,Falsche Umlaute in den Icons/Menüs
+46,Arexx function MAILCHECK does not work correctly
+47,Redirect menu item is disabled when in sent folder
+48,Ignore notification on new mails
+49,Crash on sending the FIRST mail
+50,Not translated text in column menu
+51,UpdateCheck window should inform about finished downloads

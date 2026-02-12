@@ -1,0 +1,295 @@
+id,title
+0,macromolecule metabolic process
+1,organic substance metabolic process
+2,dsRNA fragmentation
+3,nucleic acid transport
+4,cellular response to organic substance
+5,negative regulation of biological process
+6,RNA transport
+7,posttranscriptional gene silencing by RNA
+8,response to dsRNA
+9,negative regulation of macromolecule metabolic process
+10,response to chemical stimulus
+11,cellular response to dsRNA
+12,response to nitrogen compound
+13,gene silencing by RNA
+14,production of small RNA involved in gene silencing by RNA
+15,cellular response to organic cyclic compound
+16,macromolecular complex assembly
+17,regulation of defense response to virus by host
+18,nucleobase-containing compound metabolic process
+19,primary metabolic process
+20,posttranscriptional gene silencing
+21,RNA phosphodiester bond hydrolysis
+22,regulation of macromolecule metabolic process
+23,nucleic acid metabolic process
+24,defense response to virus
+25,cellular metabolic process
+26,metabolic process
+27,response to other organism
+28,regulation of response to biotic stimulus
+29,cellular nitrogen compound metabolic process
+30,regulation of myelination
+31,RNA localization
+32,cellular response to stimulus
+33,chromatin organization
+34,regulation of glial cell differentiation
+35,ribonucleoprotein complex assembly
+36,positive regulation of neurological system process
+37,ATP catabolic process
+38,regulation of gliogenesis
+39,purine ribonucleoside monophosphate catabolic process
+40,purine nucleoside monophosphate catabolic process
+41,ribonucleoside monophosphate catabolic process
+42,ncRNA processing
+43,ATP metabolic process
+44,regulation of defense response to virus
+45,purine nucleoside monophosphate metabolic process
+46,ribonucleoside monophosphate metabolic process
+47,regulation of biological process
+48,negative regulation of cellular macromolecule biosynthetic process
+49,purine ribonucleoside triphosphate catabolic process
+50,nucleoside triphosphate catabolic process
+51,purine nucleoside catabolic process
+52,ribonucleotide catabolic process
+53,ribonucleoside catabolic process
+54,purine nucleotide catabolic process
+55,ribonucleoside triphosphate metabolic process
+56,purine nucleoside triphosphate metabolic process
+57,negative regulation of cellular biosynthetic process
+58,nucleotide catabolic process
+59,glycosyl compound catabolic process
+60,biological regulation
+61,purine nucleoside metabolic process
+62,response to biotic stimulus
+63,single-organism process
+64,ribonucleoside metabolic process
+65,nucleoside metabolic process
+66,purine nucleotide metabolic process
+67,ribonucleotide metabolic process
+68,ribose phosphate metabolic process
+69,cellular process
+70,stem cell maintenance
+71,regulation of transmission of nerve impulse
+72,regulation of neurological system process
+73,nucleotide metabolic process
+74,purine-containing compound catabolic process
+75,nucleoside phosphate metabolic process
+76,nucleoside catabolic process
+77,regulation of response to stress
+78,nucleoside phosphate catabolic process
+79,brain development
+80,reproductive structure development
+81,regulation of neurogenesis
+82,establishment of localization
+83,transport
+84,regulation of RNA metabolic process
+85,regulation of cellular macromolecule biosynthetic process
+86,negative regulation of macromolecule biosynthetic process
+87,negative regulation of nucleobase-containing compound metabolic process
+88,negative regulation of RNA metabolic process
+89,"regulation of transcription, DNA-dependent"
+90,regulation of RNA biosynthetic process
+91,cellular component assembly
+92,regulation of immune system process
+93,stem cell differentiation
+94,system development
+95,multicellular organismal development
+96,anatomical structure development
+97,single-multicellular organism process
+98,reproductive process
+99,organonitrogen compound metabolic process
+100,small molecule metabolic process
+101,glycosyl compound metabolic process
+102,neurogenesis
+103,regulation of cell differentiation
+104,single-organism transport
+105,translation
+106,macromolecule biosynthetic process
+107,cellular protein metabolic process
+108,cellular biosynthetic process
+109,organic substance biosynthetic process
+110,positive regulation of biological process
+111,regulation of homeostatic process
+112,regulation of cell communication
+113,regulation of signaling
+114,regulation of multicellular organismal development
+115,regulation of biosynthetic process
+116,negative regulation of cellular metabolic process
+117,cellular component organization
+118,single-organism developmental process
+119,cell development
+120,regulation of cellular metabolic process
+121,regulation of nitrogen compound metabolic process
+122,regulation of primary metabolic process
+123,cellular developmental process
+124,biological_process
+125,cellular nitrogen compound catabolic process
+126,heterocycle catabolic process
+127,aromatic compound catabolic process
+128,organic cyclic compound catabolic process
+129,phosphorus metabolic process
+130,catabolic process
+131,purine-containing compound metabolic process
+132,behavior
+133,response to stress
+134,mRNA metabolic process
+135,regulation of response to stimulus
+136,cellular macromolecule metabolic process
+137,heterocycle metabolic process
+138,cellular aromatic compound metabolic process
+139,organic cyclic compound metabolic process
+140,nitrogen compound metabolic process
+141,cellular component organization or biogenesis
+142,regulation of metabolic process
+143,response to stimulus
+144,single-organism cellular process
+145,multicellular organismal process
+146,developmental process
+147,single-organism metabolic process
+148,protein metabolic process
+149,biosynthetic process
+150,regulation of cellular process
+151,localization
+152,negative regulation of metabolic process
+153,gene expression
+154,cellular response to chemical stimulus
+155,RNA metabolic process
+156,regulation of gene expression
+157,response to organic substance
+158,multi-organism process
+159,immune system process
+160,regulation of nucleobase-containing compound metabolic process
+161,macromolecular complex subunit organization
+162,macromolecule localization
+163,organelle organization
+164,cellular component biogenesis
+165,organic substance transport
+166,regulation of macromolecule biosynthetic process
+167,reproduction
+168,carbohydrate derivative metabolic process
+169,regulation of multicellular organismal process
+170,cellular macromolecule biosynthetic process
+171,positive regulation of cellular process
+172,regulation of developmental process
+173,regulation of cellular biosynthetic process
+174,negative regulation of cellular process
+175,nervous system development
+176,cell differentiation
+177,nucleobase-containing small molecule metabolic process
+178,organophosphate metabolic process
+179,phosphate-containing compound metabolic process
+180,organic substance catabolic process
+181,cellular catabolic process
+182,organ development
+183,cellular response to nitrogen compound
+184,nucleic acid phosphodiester bond hydrolysis
+185,ribonucleoprotein complex biogenesis
+186,immune effector process
+187,negative regulation of gene expression
+188,response to organic cyclic compound
+189,posttranscriptional regulation of gene expression
+190,RNA processing
+191,ncRNA metabolic process
+192,defense response
+193,regulation of immune effector process
+194,nucleoside monophosphate metabolic process
+195,nitrogen compound transport
+196,single-organism behavior
+197,nucleoside triphosphate metabolic process
+198,regulation of defense response
+199,organophosphate catabolic process
+200,purine ribonucleoside metabolic process
+201,purine ribonucleotide metabolic process
+202,carbohydrate derivative catabolic process
+203,organonitrogen compound catabolic process
+204,developmental process involved in reproduction
+205,positive regulation of multicellular organismal process
+206,regulation of system process
+207,negative regulation of biosynthetic process
+208,negative regulation of nitrogen compound metabolic process
+209,chromosome organization
+210,reproductive system development
+211,regulation of cell development
+212,generation of neurons
+213,mitochondrion organization
+214,regulation of nervous system development
+215,cellular macromolecular complex assembly
+216,negative regulation of developmental process
+217,nucleobase-containing compound catabolic process
+218,central nervous system development
+219,"regulation of gene expression, epigenetic"
+220,establishment of RNA localization
+221,gene silencing
+222,ribonucleoprotein complex subunit organization
+223,nucleobase-containing compound transport
+224,response to virus
+225,regulation of multi-organism process
+226,nucleoside monophosphate catabolic process
+227,purine ribonucleoside monophosphate metabolic process
+228,ribonucleoside triphosphate catabolic process
+229,purine nucleoside triphosphate catabolic process
+230,purine ribonucleoside catabolic process
+231,purine ribonucleotide catabolic process
+232,purine ribonucleoside triphosphate metabolic process
+233,regulation of ion homeostasis
+234,"RNA phosphodiester bond hydrolysis, endonucleolytic"
+235,stem cell development
+236,locomotory behavior
+237,"negative regulation of transcription, DNA-dependent"
+238,negative regulation of cell differentiation
+239,cell division
+240,mRNA processing
+241,double-stranded RNA binding
+242,ribonuclease activity
+243,ATPase activity
+244,endonuclease activity
+245,heterocyclic compound binding
+246,organic cyclic compound binding
+247,catalytic activity
+248,pyrophosphatase activity
+249,"hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+250,"hydrolase activity, acting on acid anhydrides"
+251,"endoribonuclease activity, producing 5'-phosphomonoesters"
+252,molecular_function
+253,hydrolase activity
+254,binding
+255,nucleic acid binding
+256,"hydrolase activity, acting on ester bonds"
+257,structural molecule activity
+258,nuclease activity
+259,RNA binding
+260,structural constituent of ribosome
+261,nucleoside-triphosphatase activity
+262,endoribonuclease activity
+263,"endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomo"
+264,mitochondrial large ribosomal subunit
+265,organellar large ribosomal subunit
+266,macromolecular complex
+267,organellar ribosome
+268,ribosomal subunit
+269,ribosome
+270,cellular_component
+271,cell part
+272,cell
+273,intracellular part
+274,intracellular
+275,organelle
+276,intracellular organelle
+277,organelle lumen
+278,membrane-enclosed lumen
+279,membrane-bounded organelle
+280,organelle part
+281,mitochondrion
+282,cytoplasm
+283,non-membrane-bounded organelle
+284,intracellular organelle part
+285,intracellular membrane-bounded organelle
+286,cytoplasmic part
+287,intracellular non-membrane-bounded organelle
+288,ribonucleoprotein complex
+289,intracellular organelle lumen
+290,mitochondrial part
+291,large ribosomal subunit
+292,mitochondrial matrix
+293,mitochondrial ribosome

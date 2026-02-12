@@ -1,0 +1,238 @@
+id,title
+0,A RenderSurface creates a window in a windowing system for the purpose of 3D
+1,A RenderSurface creates a window in a windowing system for the purpose of 3D
+2,rendering. The focus of a RenderSurface differs from a windowing system window
+3,"in that it is not a user input/output device, but rather a context and screen area"
+4,"specifically designed for 3D applications. Consequently, a RenderSurface does not"
+5,"specifically designed for 3D applications. Consequently, a RenderSurface does not"
+6,provide or impose a requirement on the caller to structure the application around
+7,"the capturing or handling of events. Further, RenderSurface provides increased"
+8,"the capturing or handling of events. Further, RenderSurface provides increased"
+9,control over the quality of pixel formats.
+10,*/
+11,static unsigned int _numScreens;
+12,class Callback : public osg::Referenced
+13,class Callback : public osg::Referenced
+14,{
+15,public:
+16,};
+17,struct InputRectangle
+18,struct InputRectangle
+19,{
+20,public:
+21,"InputRectangle( float left, float right, float bottom, float top ):"
+22,"_left(left), _bottom(bottom), _width(right-left), _height(top-bottom) {}"
+23,InputRectangle(const InputRectangle &ir)
+24,InputRectangle(const InputRectangle &ir)
+25,{
+26,_left = ir._left;
+27,}
+28,virtual ~InputRectangle() {}
+29,"void set( float left, float right, float bottom, float top )"
+30,{
+31,float width() const { return _width; }
+32,float height() const { return _height; }
+33,protected:
+34,private:
+35,"float _left, _bottom, _width, _height;"
+36,void setHostName( const std::string & );
+37,/**
+38,* Get the name of the Host the window is to be created on.
+39,/**
+40,* Get the name of the Host the window is to be created on.
+41,* Ignored on Win32 */
+42,const std::string& getHostName( void ) const;
+43,/**
+44,* Set the number of the display the render surface is to
+45,/**
+46,* Set the number of the display the render surface is to
+47,"* be created on. In XWindows, this is the number of the"
+48,* XServer. Ignored on Win32 */
+49,void setDisplayNum( int );
+50,/** Get the number of the display the render surface is to
+51,/** Get the number of the display the render surface is to
+52,"* be created on. In XWindows, this is the number of the"
+53,* XServer. Ignored on Win32 */
+54,int getDisplayNum( void ) const;
+55,/** Set the number of the screen the render surface is to
+56,/** Set the number of the screen the render surface is to
+57,"* be created on. In XWindows, this is the number of the"
+58,* XServer. Ignored on Win32 */
+59,void setScreenNum( int );
+60,/** Get the number of the screen the render surface is to
+61,/** Get the number of the screen the render surface is to
+62,"* be created on. In XWindows, this is the number of the"
+63,* XServer. Ignored on Win32 */
+64,int getScreenNum( void ) const;
+65,/** Get the size of the screen in pixels the render surface
+66,/** Get the size of the screen in pixels the render surface
+67,* is to be created on. */
+68,"void getScreenSize( unsigned int &width, unsigned int &height ) const;"
+69,/** Default window name */
+70,const std::string& getWindowName( void ) const;
+71,/** Set the windowing system rectangle the RenderSurface will
+72,/** Set the windowing system rectangle the RenderSurface will
+73,* occupy on the screen. The parameters are given as integers
+74,* in screen space. x and y determine the lower left hand corner
+75,* of the RenderSurface. Width and height are given in screen
+76,* of the RenderSurface. Width and height are given in screen
+77,* coordinates */
+78,"void setWindowRectangle( int x, int y, unsigned int width, unsigned int height,"
+79,"void setWindowRectangle( int x, int y, unsigned int width, unsigned int height,"
+80,bool resize=true );
+81,/** Get the windowing system rectangle the RenderSurface will
+82,/** Get the windowing system rectangle the RenderSurface will
+83,* occupy on the screen. The parameters are given as integers
+84,* in screen space. x and y determine the lower left hand corner
+85,* of the RenderSurface. Width and height are given in screen
+86,* of the RenderSurface. Width and height are given in screen
+87,* coordinates */
+88,"void getWindowRectangle( int &x, int &y, unsigned int &width, unsigned int &height ) const;"
+89,bool usesOverrideRedirect();
+90,"/** Request whether the window should have a visible cursor. If true, the"
+91,"/** Request whether the window should have a visible cursor. If true, the"
+92,* windowing system's default cursor will be assigned to the window. If false
+93,* the window will not have a visible cursor. */
+94,void setCursorToDefault();
+95,/** Specify whether the RenderSurface should use a separate thread for
+96,"* window configuration events. If flag is set to true, then the"
+97,* RenderSurface will spawn a new thread to manage events caused by
+98,/** Specify whether the RenderSurface should use a separate thread for
+99,"* window configuration events. If flag is set to true, then the"
+100,* RenderSurface will spawn a new thread to manage events caused by
+101,"* resizing the window, mapping or destroying the window. */"
+102,void useConfigEventThread(bool flag);
+103,/** shareAllGLContexts will share all OpenGL Contexts between render surfaces
+104,* upon realize. This must be called before any call to renderSurface::realize().
+105,*/
+106,*/
+107,static void shareAllGLContexts(bool);
+108,#if 0
+109,"/** Realize the RenderSurface. When realized, all components of the RenderSurface"
+110,"* not already configured are configured, a window and a graphics context are"
+111,"* not already configured are configured, a window and a graphics context are"
+112,* created and made current. If an already existing graphics context is passed
+113,"* through ""sharedGLContext"", then the graphics context created will share certain"
+114,"* through ""sharedGLContext"", then the graphics context created will share certain"
+115,"* graphics constructs (such as display lists) with ""sharedGLContext"". */"
+116,"bool realize( VisualChooser *vc=NULL, GLContext sharedGLContext=0 );"
+117,virtual void swapBuffers(void);
+118,/** Makes the graphics context and RenderSurface current for rendering */
+119,/** Makes the graphics context and RenderSurface current for rendering */
+120,bool makeCurrent(void) const;
+121,"/** Where supported, sync() will synchronize with the vertical retrace signal of the"
+122,"/** Where supported, sync() will synchronize with the vertical retrace signal of the"
+123,* graphics display device. \a divisor specifies the number of vertical retace signals
+124,* to allow before returning. */
+125,static void initThreads();
+126,/**
+127,/**
+128,* Puts the calling thread to sleep until the RenderSurface is realized. Returns true
+129,* if for success and false for failure.
+130,bool waitForRealize();
+131,"/** fullScreen(flag). If flag is true, RenderSurface resizes its window to fill the"
+132,"/** fullScreen(flag). If flag is true, RenderSurface resizes its window to fill the"
+133,"* entire screen and turns off the border. If false, the window is returned to a size"
+134,"* previously specified. If previous state specified a border around the window, a"
+135,"* previously specified. If previous state specified a border around the window, a"
+136,* the border is replaced
+137,* */
+138,#endif
+139,void fullScreen( bool flag );
+140,"/** setCustomFullScreenRencangle(x,y,width,height). Programmer may set a customized"
+141,"/** setCustomFullScreenRencangle(x,y,width,height). Programmer may set a customized"
+142,"* rectangle to be interpreted as ""fullscreen"" when fullscreen(true) is called. This"
+143,* allows configurations that have large virtual screens that span more than one monitor
+144,* screen size as fullscreen rather than the custom full screen rectangle
+145,*/
+146,void useDefaultFullScreenRectangle();
+147,/** isFullScreen() returns true if the RenderSurface's window fills the entire screen
+148,void useDefaultFullScreenRectangle();
+149,/** isFullScreen() returns true if the RenderSurface's window fills the entire screen
+150,* and has no border. */
+151,bool isFullScreen() const { return _isFullScreen; }
+152,BackBuffer
+153,};
+154,enum RenderToTextureMode {
+155,"RenderToTextureMode_None,"
+156,RenderToRGBATexture
+157,};
+158,enum RenderToTextureTarget {
+159,"Texture1D,"
+160,TextureCUBE
+161,};
+162,enum RenderToTextureOptions {
+163,"RenderToTextureOptions_Default = 0,"
+164,RequestLargestPBuffer = 2
+165,};
+166,enum CubeMapFace {
+167,"PositiveX = 0,"
+168,* This method affects PBuffer surfaces only. */
+169,void bindPBufferToTexture(BufferType buffer = FrontBuffer) const;
+170,/**
+171,/**
+172,* Get the render-to-texture mode (PBuffer drawables only).
+173,* This method has no effect if it is called after realize() */
+174,RenderToTextureMode getRenderToTextureMode() const;
+175,/**
+176,* Set the render-to-texture mode (PBuffer drawables only). You
+177,* This method has no effect if it is called after realize(). */
+178,void setRenderToTextureMode(RenderToTextureMode mode);
+179,/**
+180,/**
+181,* Get the render-to-texture target (PBuffer drawables only).
+182,* This method has no effect if it is called after realize(). */
+183,RenderToTextureTarget getRenderToTextureTarget() const;
+184,/**
+185,/**
+186,* Set the render-to-texture target (PBuffer drawables only). You
+187,* can pass int values different from the constants defined by
+188,* This method has no effect if it is called after realize(). */
+189,void setRenderToTextureTarget(RenderToTextureTarget target);
+190,/**
+191,/**
+192,* Get the render-to-texture options (PBuffer drawables only).
+193,* This method has no effect if it is called after realize(). */
+194,RenderToTextureOptions getRenderToTextureOptions() const;
+195,/**
+196,/**
+197,* Set the render-to-texture options (PBuffer drawables only).
+198,* You can pass any combination of the constants defined in
+199,* This method has no effect if it is called after realize(). */
+200,void setRenderToTextureOptions(RenderToTextureOptions options);
+201,/**
+202,* Get which mipmap level on the target texture will be
+203,* PBuffer has been realized. */
+204,void setRenderToTextureMipMapLevel(int level);
+205,/**
+206,* Get which face on the target cube map texture will be
+207,// END TEMPORARY PBUFFER RENDER TO TEXTURE SUPPORT
+208,/**
+209,* Get the (const) vector of user-defined PBuffer attributes. */
+210,std::string _hostname;
+211,int _displayNum;
+212,"float _windowLeft, _windowRight,"
+213,"float _windowLeft, _windowRight,"
+214,"_windowBottom, _windowTop;"
+215,"int _windowX, _windowY;"
+216,GLContext _fullscreenGlcontext;
+217,CFDictionaryRef _oldDisplayMode;
+218,bool _captureDisplayOrWindow();
+219,void _releaseDisplayOrWindow();
+220,#endif
+221,// user-defined PBuffer attributes
+222,std::vector _user_pbattr;
+223,bool _useConfigEventThread;
+224,bool _checkOwnEvents;
+225,bool _useDefaultEsc;
+226,InputRectangle _inputRectangle;
+227,"BOOL CreateGLWindow(char* title, int width, int height, int bits, bool fullscreenflag);"
+228,void KillGLWindow();
+229,"LONG WINAPI proc( Window, UINT, WPARAM, LPARAM );"
+230,"static LONG WINAPI s_proc( Window, UINT, WPARAM, LPARAM );"
+231,public:
+232,EventQueue * selectInput( unsigned int mask );
+233,"// if _parent is set, resize the window to"
+234,"// if _parent is set, resize the window to"
+235,// fill the client area of the parent
+236,void resizeToParent();

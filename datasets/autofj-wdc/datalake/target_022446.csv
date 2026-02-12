@@ -1,0 +1,101 @@
+id,title
+0,gnome-doc-utils: python import error for libxml2 module
+1,Defect : xsane does not build universal with gimp support enabled
+2,remove dependency on Xcode
+3,ld64 should symlink rather than copy ld and rebase on darwin > 10
+4,py-pyodbc: Add iODBC variant
+5,cljr - package manager for clojure
+6,"boost-gil-numeric @1.0 (devel), gil examples which come with the boost package fail to compile"
+7,meep @1.1.1 new submission
+8,p5-memoize
+9,p5-storable
+10,openldap @2.4.21 add back-ldap variant
+11,"gant fixes: noarch, remove unnecessary lines, use notes"
+12,PAC Manager
+13,sane-backends update issue
+14,Maude: universal variant fails
+15,Festival
+16,Paintbrush: update to 2.1.1
+17,transmission-x11 1.73 does not build on Tiger
+18,NEW: py26-pyang
+19,"When port not found, help user find port they wanted"
+20,gstreamermm 0.10.9.1 Port
+21,"sbcl +threads does not compile maxima (snow leopard, x86_64)"
+22,"tsocks: Tsocks.conf path block causing ""Segmentation fault"" in 1.8.4_1"
+23,tcpproxy crashes
+24,xulrunner: Update to 1.9.2.17 (or 2.0?)
+25,XBMC: update to 13.2
+26,caml-core doesn't compile
+27,Port of Scilab
+28,mpeg4ip @1.5.0.1 - Infinite loop in configure phase
+29,caml-camomile: reinplace didn't change anything in Makefile
+30,t1lib needs patch for afm parser; has other unpatched issues
+31,xapian-bindings: add perl
+32,add port for xapian/omega
+33,phpstylist should use MacPorts PHP
+34,dillo2 port
+35,New port: mod_log_firstbyte (apache2 module)
+36,afni update to 2011_05_26_1457
+37,gimp @2.6.11_0+animation+manual+quartz crashes while loading user manual from help menu
+38,amarok-devel does not find phonon
+39,*_select: add man pages
+40,*_select framework does not apply to Perl: fix provided
+41,playerstage-stage: update to latest version
+42,Unselect universal variant if there ends up being only one arch
+43,"emacs-app @23.3_0 Problem using tramp in emacs.app: ""ControlPath too long"""
+44,Add vim info to apache2 port
+45,sbcl does not respect build_arch or have a universal variant
+46,group php5extension - add default configs to *.ini files
+47,php5-eaccelerator - port conflicts and enhancements
+48,gcc44 @4.4.6 build failure
+49,nightshade: update to 11.2.1
+50,Add USB variant to wine and wine-devel ports
+51,jp2a: update to 1.0.6
+52,GLC_lib update to version 2.2.0.
+53,mplayer-devel @current install can fail if interrupted
+54,smokeping @2.4.2 +Prototype mismatch: sub SNMP_Session::AF_INET6
+55,libmpc 0.9 lacks mpc_get_dc
+56,imapfilter: update to 2.2.3
+57,Failed to install py26-sip-qt3
+58,Remove prc-tools
+59,Request pgmemcache port
+60,Request for schemacrawler port.
+61,Allow case-sensitive build roots
+62,swi-prolog-devel uses system ncurses rather than MacPorts
+63,drush: Remove dependency on port:php52
+64,GraphicsMagick fix for 10.7
+65,drush 2.1 Update drush to 4.4 minimum
+66,archives owned by different users
+67,terminator does not work
+68,libkml @ 1.2.0 configure does not detect SWIG correctly
+69,claws-mail-address_keeper - new submission
+70,claws-mail-attach_warner - new submission
+71,claws-mail-bsfilter - new submission
+72,claws-mail-clamd - new submission
+73,claws-mail-fetchinfo -- submission
+74,claws-mail-newmail - new submission
+75,claws-mail-rssyl - new submission
+76,claws-mail-tnef - new submission
+77,libmrss update to 0.19.2
+78,"freedink, freedink-data: update to latest version"
+79,adduser results in macports users appearing as interactive users
+80,Drop +postgres83 variant from mediawiki
+81,New Port: py27-txaws
+82,New Port: py-txzookeeper
+83,euler 1.1 - a command line interface for Project Euler
+84,New Port: py27-zookeeper
+85,New Port: juju
+86,New Port: byobu
+87,Installing gcc45 +universal does not result in a universal gcc45
+88,deluge: Variant to build daemon and webclient only
+89,rb-activesupport @2.2.2 checksum error
+90,cherokee: update to 1.2.29 and add new variants
+91,Additional option to selfupdate required if major changes take place
+92,"lensfun @0.2.5 / ufraw @0.18 UFraw crash with ""Bus Error"" EXC_BAD_ACCESS"
+93,cgdb source code listing broken
+94,NEW: pidgin-sipe
+95,raceintospace update to version 1.0.0.270
+96,MacPorts should offer to sign archives
+97,Maven 1.0 Uninstall Fails
+98,h2ph not rerun after perl5 upgrade
+99,expat @2.0.1 +universal Configure failure

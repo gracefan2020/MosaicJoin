@@ -1,0 +1,51 @@
+id,title
+0,segfault in _int_malloc
+1,Exception from :init sub in PIR compreg causes problems
+2,exit opcode doesn't set process return value
+3,Crash when appending to subclasses of ResizablePMCArray
+4,[DEPRECATED] ops file preamble format
+5,[DEPRECATED] NQP quoting rules going to be close to Perl6.
+6,Configure.pl mangles forwardslashed-flags for CL
+7,[PATCH]: Fix broken perldoc tags in docs/book/draft/ch01_introduction.pod
+8,t/op/io.t fails on win32
+9,t/examples/namespace.t is failing
+10,[DEPRECATED] NQP PIR q:to:...
+11,PGE will assume {*} at end of every regex
+12,[PATCH] building Rakudo from an installed Parrot
+13,separate tool for uploading to smolder
+14,Add 'testing' to Component pane in Trac
+15,OS.pmc - update file times
+16,[DEPRECATED] .find_key method on PGE;Match objects
+17,Mark OpenGL subsystem as experimental
+18,Can't load OpenGL
+19,config/inter/progs.pm: Figure out why -libpath: needs to be removed from $linkflags and $ldflags
+20,segfault in pbc_merge
+21,Parrot_floatval_time() and Parrot_intval_time() do not match up on Win32
+22,'make splint' needs graceful failure message
+23,Failed Pod extraction halts the build process
+24,mingw32-make fails upon tools\build\c2str.pl --all
+25,remove fulltest_all make target
+26,GC Segfault
+27,extra .pmc files in src/pmc cause silent pbc compatibility breaks
+28,"DEPRECATE (after review) the *bigint*, pow* and nextkey_keyed VTABLE functions"
+29,DEPRECATE generation of PAST::Val constants
+30,examples/benchmarks/overload.pir does not compile
+31,add 'rand' as a dynop
+32,PASM1 compiler and PDB_compile function
+33,Blanket ports exclusion needs discussion
+34,pgegrep is broke
+35,"[PATCH] Eliminate duplicate ""2009"" in PIR book documentation"
+36,"Deprecate pushaction, pushmark, popmark"
+37,Parrot fails to compile on OS X 10.6 with GCC 4.2 out of the box
+38,Recent commits break buildtools_tests
+39,"Due to locale settings, HEAD revision of svn was 0."
+40,SUPER() not handled correctly for DynPMCs
+41,parrot_debugger generates a Bus error if you set a break point before the source is loaded
+42,parrot_debugger printing registers does not work
+43,"[patch]various consting, memory leak fixes and so on."
+44,[patch]removed unused macro args
+45,[BUG]parrot make failed with chinese TEMP PATH
+46,parrot_debugger throws an exception when deleting a breakpoint
+47,build failed on intel mac osx 10.5
+48,[TODO] allow spaces in nci function signatures
+49,PARROT_IN_OBJECTS_C used only in one file

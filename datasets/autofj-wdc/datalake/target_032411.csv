@@ -1,0 +1,51 @@
+id,title
+0,Erroneous use of GSL_ERROR_NULL instead of GSL_ERROR macro
+1,gsl_sf_bessel_J0_e underestimates error for x>4
+2,Mathieu function documentation hasn't been updated after switching to SF API conventions
+3,wrong formula for BFGS update in gsl_multimin?
+4,gsl_min_find_bracket is most likely incorrectly implemented
+5,test/results.c uses outdated header file name varargs.h
+6,bsimp/msbdf e5_bigt in ode-initval2/test.c is FMA-sensitive
+7,Bug in vegas.c
+8,Make the vector write example consistent with the vector read example.
+9,bug in gsl_sf_hyperg_1F1
+10,Possible error in brent minimizer convergence criteria
+11,Bug in gsl_ran_poisson_pdf() for mu = 0.0
+12,Hermite polynomial contribution
+13,accuracy problems in specfunc
+14,confluent hypergeometric functions
+15,gsl_sf_coupling_6j overflows
+16,eigen test fails on 32-bit (x86) Linux with -O3
+17,Bug in gsl_bspline_knot constructor
+18,wrong results of the function gsl_cdf_ugaussian_Pinv
+19,gsl_linalg_HH_solve bugs
+20,"Division by zero in ""hybrid*"" when initial guess is root"
+21,"Division by zero in ""gnewton"" when ""f"" and ""fdf"" differ"
+22,GSL RSS Feed does not validate
+23,nan bug in bessel_Jnu
+24,bugs in gsl_sf_hyperg_U
+25,gsl_histogram_pdf docs
+26,Change/add multimin functions to return error codes
+27,valgrind finds errors in matrix/test.c
+28,Sporadic nan's from gsl_sf_bessel_Jn an related functions
+29,Document gsl_integration_qag behavior on key out-of-range
+30,possible error in poly test suite
+31,possible error in integration routines
+32,false position root finding requires too many function evals
+33,"roots/secant.c ""derivative value is not finite"" for a good guess"
+34,"more efficient algorithm for 3j,6j,9j calculations (gsl_sf_coupling_{3j,6j,9j}_e"
+35,add check for inf/nan in gsl_hypot3
+36,possible error in gsl_sf_coulomb_wave_FG_e
+37,make check errors with gcc -ffast-math (or default Intel icc)
+38,conditional arguments always evaluating to true
+39,make check errors with Intel icc 13.0.1
+40,Possible removal of some files
+41,gsl_cdf_chisq_Pinv fails for some values
+42,gsl_sf_hyperg_2F1_e fails for some test cases
+43,Rounding issues in gsl-histogram with integer numbers
+44,Shared library does not build on Cygwin
+45,The astronomical unit (AU) has been re-defined
+46,gsl_sf_bessel_jl_e returns NaN for large inputs without setting error code
+47,inconsistency in gsl_ieee_env_setup doc/api
+48,"vector/matrix _add,_scale routines take wrong scalar type"
+49,reserved identifier violation

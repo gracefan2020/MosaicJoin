@@ -1,0 +1,75 @@
+id,title
+0,show running-config
+1,show startup-config
+2,-
+3,show interface
+4,show interface ethernet
+5,show interface mgmt 0
+6,-
+7,show boot
+8,-
+9,show clock
+10,show clock detail
+11,-
+12,show environment
+13,show environment clock
+14,show environment fan
+15,show environment power
+16,show environment temperature
+17,-
+18,show feature
+19,-
+20,show log logfile
+21,show log nvram
+22,show module
+23,show module uptime
+24,show module fabric
+25,show platform fabric-utilization
+26,show process cpu
+27,show process cpu history
+28,show process cpu sorted
+29,-
+30,show system cores
+31,show system exception-info
+32,show system redundancy status
+33,show system resources
+34,show system uptime
+35,-
+36,show tech-support
+37,show tech-support
+38,-
+39,show version
+40,-
+41,show line
+42,show line com1
+43,show line console
+44,show line console connected
+45,show terminal
+46,show users
+47,-
+48,show vrf
+49,show vrf
+50,show vrf detail
+51,show vrf interface
+52,show vrf default
+53,show vrf detail
+54,show vrf interface
+55,show vrf management
+56,-
+57,show license
+58,show license brief
+59,show license file
+60,show license host-id
+61,show license usage
+62,show license usage
+63,show license usage vdc-all
+64,-
+65,show vdc
+66,show vdc
+67,show vdc detail
+68,show vdc membership
+69,show vdc resource
+70,show vdc current-vdc
+71,show vdc detail
+72,show vdc membership
+73,show vdc resources

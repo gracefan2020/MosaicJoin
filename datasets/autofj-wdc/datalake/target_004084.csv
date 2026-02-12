@@ -1,0 +1,101 @@
+id,title
+0,doesn't build in current PHP5_2
+1,segfault on startup if readonly protections is disabled
+2,Apache can't start with PHP/xcache
+3,compile failure on php 5.2.2
+4,XCache 1.2.2 does not cache zend guard file
+5,xcache compile error
+6,PHP 5.3.x + XCache 1.3 + Apache2 does not work
+7,Support for PHP 5.4
+8,xcache crash phar files
+9,Wrong path for same ??? file
+10,PHP 5.4.9 TRAITS with Xcache -> SEG FAULT
+11,3.01版本安装在iis下，与zend optimizer有冲突，请问如何解决
+12,compilation impossible with --enable-xcache-dprint parameter
+13,Compilation failure windows xcache 3.0.3
+14,add file extension config
+15,/dev/zero disapearing after starting apache
+16,redeclaration
+17,1.1 stability review due to gc_interval
+18,leaking info when cacher is not enabled
+19,PHP v5.2.3 coredumps if using xcache r272 on pfSense HEAD
+20,Cannot redeclare class
+21,jpgraph+xcache causes php to segfault
+22,xCache and phpMyAdmin
+23,lighttpd+fastcgi memory problem
+24,mod_rewrite vulnerability
+25,"XCache w/ Multiple ""Count"" option on IIS w/ PHP via FastCGI Fails to Load"
+26,Some Problem
+27,Some Problem
+28,xcache.var_size = 64M >> white page
+29,xCache Problem...
+30,vbulletin / vbjournal problem
+31,White pages after raising size to any greater than 0
+32,After installing xcache the pages are gone blank :S
+33,xcache doesn't work -
+34,Problem at your pages
+35,xcache cache 2 different site with a strange merge (?!?)
+36,Dmitri in touch
+37,null as default value for parameters with array type hint produces a fatal error
+38,The Windows Versions Of Admin Missing Files
+39,Fatal Error with conditional class definition.
+40,if and else execute together! (class extends)
+41,Cannot create shm in Unknown on line 0
+42,"Bug in the file ""Decompiler.class.php"" with the class extends"
+43,"The Zend Engine API version 220090626 which is installed, is newer."
+44,Can't disable the xcache.admin.enable_auth
+45,php5-fpm segfault while xcache_get a key with object in data
+46,Xcache 3.0.1 / PHP 5.4.13 Apache Child dies
+47,segfaults when using XCache 3.0.3 under heavy load
+48,segfaults with xcache.readonly_protection = Off under heavy load
+49,segfaults when using XCache 2.0.1 under heavy load
+50,XCache: Cannot create shm in Unknown on line 0
+51,Variable Cache always empty
+52,"Trunk compiling error - ""Not a member xc_vector_t on xc_cacher.c"""
+53,[TODO] AutoDisableOnCrash
+54,[TOSHARE] Administrator Web Scripts
+55,xc_coveragedump_dir definition missing in xcache.c
+56,Cannot build on freebsd
+57,Error on make install on freebsd
+58,Apache 2.2.2 and PHP 5.1.4 support on Win32
+59,inheritance problem
+60,support for __HALT_COMPILER() and __COMPILER_HALT_OFFSET__
+61,Apache start: xcache.so: undefined symbol: destroy_zend_function
+62,Win32 downloads not working
+63,win32 error - Invalid argument
+64,cannot configure with disassembler
+65,Problem with proxy requests and authentication
+66,httpd 2.2.2 crash with xcache enabled
+67,Bug in inherited static class variables
+68,xcache_get SEGV using objects
+69,xcache.coveragedumper does not work in PHP_INI_PER_DIR or PHP_INI_ALL
+70,coverager crashes with SEGV
+71,early class binding (was require_once with circular dependencies)
+72,conflict between sandbox and user error handler
+73,current svn does not pass php 5_2 test suite and glibc complains..
+74,xc_coverager_get_op_array_size_no_tail crash when size reaches 0
+75,xcache breaks Wordpress plugin WP-Cache2
+76,xcache_set is broken in current SVN (1.2beta)
+77,Problem with adodb when use pdo_mysql driver
+78,500 error with Wordpress
+79,1.2.0-rc1 does not compile on Solaris 10 with native m4
+80,xcache crashes php tokenizer on certain special situation
+81,xcache_set segfaults when xcache.var_size=0
+82,Forums does not work
+83,"Maximum execution time of 60 seconds exceeded with SquirrelMail 1.4.8, XCache-1.2.0, php 5.1.6"
+84,"use of xcache_clear_cache from the command line, seems to be impossible"
+85,Cannot compile
+86,Strict Standards on key/current functions
+87,debug_backtrace + array_shift = crash
+88,php fatal errors
+89,[169] broke configure when XCache source is bundled in php
+90,php fails to initialise correctly
+91,Authentication fails (user and password garbled in xcache.c::xcache_admin_auth_check()?!)
+92,even inode number result in hashing issue for cacheid (was php#0 (any one) bolck doesnt work.)
+93,var.cache is not working.
+94,check PHP_FCGI_CHILDREN and warn if it's not set for fcgi mode
+95,xcache not working
+96,var cache is not updating misses/hits counter correctly
+97,GC Interval Showing Negetive Time Value.
+98,vbulletin 3.6.4 / 3.6.5 rare fatal errors viewing threads w xcache 1.0.3
+99,Moodle will not run with xcache at all

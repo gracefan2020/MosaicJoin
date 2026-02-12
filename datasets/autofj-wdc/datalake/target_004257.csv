@@ -1,0 +1,111 @@
+id,title
+0,Firstname
+1,Lastname
+2,MPName
+3,VUName
+4,OutdialPhone
+5,ContactID
+6,GroupName
+7,TimeZone
+8,AnnounceQArr
+9,PasswordRequired
+10,ScreenedIntroduction
+11,BillCode
+12,IsActive
+13,Kind
+14,CanOutdial
+15,QuickMtgEntryAllowed
+16,PasswordRequiredOnOD
+17,MeetingRestriction
+18,MtgNoteRestriction
+19,CanRecordMeetings
+20,RecordMeetings
+21,IsAdvancedPromptsIs Default
+22,NamedDisconnectIs Default
+23,NamedIntroductionIs Default
+24,PasswordRequiredIs Default
+25,ScreenedIntroductionIsDefault
+26,BillCodeIsDefault
+27,IsActiveIsDefault
+28,CanOutdialIsDefault
+29,IsContactIDDefault
+30,TimeZoneIsDefault
+31,IsQuickMtgEntryAllowedDefault
+32,IsPasswordRequiredOnODDefault
+33,WFPasswordLast Changed
+34,VUPasswordLast Changed
+35,RecordMeetingIs Default
+36,IsMeetingRestriction Default
+37,IsMtgNoteRestriction Default
+38,CanRecordMeetingsIs Default
+39,Vname
+40,IsODXLatTableNum Default
+41,IsMaxImmedMtgsPer DayDefault
+42,IsMaximumMeeting LengthDefault
+43,IsMaxVUIODsPerMtgDefault
+44,ODXLatTableNum
+45,MaxImmedMtgsPerDay
+46,DayOfLastImmedMtg
+47,NumImmedMtgsOn ThatDay
+48,MaximumMeeting Length
+49,MaxVUIODsPerMtg
+50,FaxNum
+51,PagerNum
+52,MaxAttPerMtg
+53,ReceiveNotMask
+54,AttendPreference
+55,PriNotPreference
+56,SecNotPreference
+57,PagerType
+58,Emailtype
+59,MPSite
+60,Preferredunit
+61,EmailAdd
+62,FaxXLatTableNum
+63,SendNotAboutMtgs
+64,AutoDistributeAtt
+65,DefNotPriority
+66,SendNotAboutMtgChngs
+67,SendInviteListWithNot
+68,SendMtgPwdWithNot
+69,ReceiveAttWithNot
+70,FIFOAttPlayOrder
+71,fSchedPrefUnitOnly
+72,fAutoStartRecord
+73,fDisableRollCall
+74,fSchedHomeSiteOnly
+75,FlexField0
+76,FlexField1
+77,FlexField2
+78,ConcurrentQuestions
+79,AnnounceQArr
+80,AnnounceQDep
+81,fQNADisabled
+82,fTellPartPos
+83,fDisableAdvanceInfo
+84,fAutoProEnabled
+85,fStartPeopleInWR
+86,PublicULAllowed
+87,GroupULAllowed
+88,PrivateULAllowed
+89,MeetingCategory
+90,NumDataParts
+91,fEndMtgWarn
+92,IsAdvancedPrompts
+93,fAllowGuestView
+94,EmailAdd1
+95,AlternatePhone
+96,FindMePreference
+97,CanAllowGuestOutdial
+98,AllowGuestOutdial
+99,VLanguage
+100,FlexField20
+101,FlexField21
+102,FlexField22
+103,FlexField23
+104,CanChangeMtgID
+105,VideoEndPtAdd
+106,UseReservationless
+107,RsvnlessCnfg
+108,RsvnlessCnfgGD
+109,AllowVideoSched

@@ -1,0 +1,88 @@
+id,title
+0,Break key
+1,The four arrow keys . . .
+2,Home key (upward+left arrow)
+3,Backspace
+4,Function keys; space for 64 keys is reserved.
+5,For 0 ≤ n ≤ 63
+6,Delete line
+7,Insert line
+8,Delete character
+9,Insert char or enter insert mode
+10,Exit insert char mode
+11,Clear screen
+12,Clear to end of screen
+13,Clear to end of line
+14,Scroll 1 line forward
+15,Scroll 1 line backward (reverse)
+16,Next page
+17,Previous page
+18,Set tab
+19,Clear tab
+20,Clear all tabs
+21,Enter or send
+22,Soft (partial) reset
+23,Reset or hard reset
+24,Print or copy
+25,Home down or bottom (lower left). Keypad is arranged like this: (Row 1) A1 up A3 (Row 2) left B2 right (Row 3) C1 down C3
+26,Upper left of keypad
+27,Upper right of keypad
+28,Center of keypad
+29,Lower left of keypad
+30,Lower right of keypad
+31,Back tab key
+32,Beg(inning) key
+33,Cancel key
+34,Close key
+35,Cmd (command) key
+36,Copy key
+37,Create key
+38,End key
+39,Exit key
+40,Find key
+41,Help key
+42,Mark key
+43,Message key
+44,Move key
+45,Next object key
+46,Open key
+47,Options key
+48,Previous object key
+49,Redo key
+50,Reference key
+51,Refresh key
+52,Replace key
+53,Restart key
+54,Resume key
+55,Save key
+56,Shifted beginning key
+57,Shifted cancel key
+58,Shifted command key
+59,Shifted copy key
+60,Shifted create key
+61,Shifted delete char key
+62,Shifted delete line key
+63,Select key
+64,Shifted end key
+65,Shifted clear line key
+66,Shifted exit key
+67,Shifted find key
+68,Shifted help key
+69,Shifted home key
+70,Shifted input key
+71,Shifted left arrow key
+72,Shifted message key
+73,Shifted move key
+74,Shifted next key
+75,Shifted options key
+76,Shifted prev key
+77,Shifted print key
+78,Shifted redo key
+79,Shifted replace key
+80,Shifted right arrow
+81,Shifted resume key
+82,Shifted save key
+83,Shifted suspend key
+84,Shifted undo key
+85,Suspend key
+86,Undo key

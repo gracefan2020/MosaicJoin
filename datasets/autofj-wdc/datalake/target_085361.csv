@@ -1,0 +1,101 @@
+id,title
+0,No Image for Videos
+1,No Flowplayer on Front Page
+2,Default Country & Genre Selection
+3,Portlet Rendering Error
+4,Error on Video Upload
+5,Changes to Video Upload & Publish Form
+6,Add Empty Selection to Genre Drop-Down
+7,Remove Callouts from Plumi
+8,Complete EM Tickets on Redmine & Update EM staging site to RC 1
+9,Release 4.1 final and update demo.plumi.org
+10,New Testing Instance & Re-Design Infrastructure Notes
+11,Update demo.plumi.org with rc1
+12,Complete EM Tickets on Redmine & Update EM staging site to RC 1
+13,Complete EM Tickets on Redmine & Update EM staging site to RC 1
+14,Update Plumi manual to reflect 3.1.1 changes
+15,Add images/files to workflow and make pending but not public on submission
+16,Check videos are being displayed in the order of first transition to published state
+17,Update Plumi summary on Plone.org
+18,"Front page is almost 1mb, look at ways to reduce size"
+19,Top nav links run over 2 lines
+20,/callouts page throw an error
+21,"Remove image, image caption and body text as being compulsory in callouts"
+22,Author page throws error when logged in
+23,Captcha on mailto page
+24,Step 3 fields not inline
+25,"Next, previous, cancel buttons jutting up against bottom border"
+26,Error attempting to select CC license
+27,Remove full description text explanation in step 1 of publish form
+28,"Remove ""a video content"" text in video publish form"
+29,Double up of icons in left nav
+30,Login page elements not in alignment
+31,Publish page elements too close to left nav
+32,Comments box v.small again
+33,Login page elements not in alignment
+34,Video view shows all members folders
+35,Indonesian translation lacking many translations
+36,No flash player in 4.0 alpha
+37,Availability of transcoded content should correspond to Plone content states
+38,move taxonomies to a new and optional package
+39,Revert to Previous Flowplayer Splash Image File Size
+40,Zope ftp rejects m4v files coming from plumiftp
+41,Take PlumiFTP out as separate egg in buildout
+42,Extract Callouts from Plumi
+43,Code cleanup
+44,Investigate nginx
+45,Replace CacheFu with plone.app.caching & Squid with Varnish in the production buildout
+46,Add supervisor to the buildout
+47,Investigate Replacement for Taxonomy System
+48,Replace vaporisation with qi.portlet.TagClouds
+49,Replace collective.plonebookmarklets
+50,Replace ATCountryWidget with a selection widget + ATVocabularyManager for Plone 4 compatibility
+51,Investigate using Themeeditor to create Plone 4 Plumi Skin based on Sunburst
+52,First look at Plone 4 adaptation
+53,Check video view pages for non-essential elements
+54,Add number of comments to video listing template
+55,"Author page pulls in items based on Creator, it should be Owner"
+56,Other videos by this author
+57,Add ability to subscribe/follow other users videos
+58,Add you FB/twitter/other social networking spaces to your profile
+59,Refactor transcode.deamon to enable more reliable scheduling of transcoding jobs
+60,Ensure Plone Indonesian translation goes into Plone repo
+61,Integrate more elegant captcha system
+62,"Ensure the ""Date of First Publication"" value is used in an RSS2 feed of member's videos."
+63,Update Indonesian translation based on new design
+64,Enable reviewers to retranscode videos
+65,Add author comments to profile page
+66,Remove ability for ordinary users to change video view
+67,ZODB.POSException.ConflictError
+68,Social Networking Integration Spec
+69,Random Profile Images For Members
+70,REVAMPED TEMPLATE - Author / Profile Page
+71,Re-Design Publish Form
+72,Site Re-Design Principles
+73,Re-design Browse Content Page
+74,Create New Plumi Theme Using diazo
+75,New featured event doesn't appear in featured section
+76,"Taxonomy collections display Number of Videos on page, not in collection"
+77,Move video progress upload indicator msg to centre of page
+78,Social Media icons over-written by long video title in Firefox
+79,Update demo.plumi.org to 3.1.1-final
+80,"Merge plumi.app and plumi.buildout, deprecate plumi.migration"
+81,Creating a multi-video ISO failed
+82,Create spec for burnstation production system
+83,Create basic user how to for burnstation
+84,Cannot change author of video item
+85,"Error when clicking ""Burn Disc"" - become logged in as admin?"
+86,Increase font size in the Burn Queue portlet
+87,"""Clear Queue"" and ""Burn Disc"" link available when ISO is being built"
+88,"Change ""Burn Disc"" link to ""Make Disc Image"" and make it red"
+89,Problem creating an ISO unless logged in as admin
+90,Cannot play mounted ISO
+91,Videos frequently not picked up by Transcode.Daemon for transcoding
+92,Replace images in EditContent section
+93,"Move body text to below Description in ""callouts edit form"
+94,Make banner specific to topics/genre
+95,Adding Plumi embed code to wordpress blog or drupal adds cruft and doesn't work
+96,Change comments ordering to reverse chronological
+97,Remove language option in step 2 of upload form
+98,Update demo.plumi to 3.1-final
+99,"Video listings, member video folders and rss1/2 feeds not in reverse chronological order"

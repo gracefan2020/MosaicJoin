@@ -1,0 +1,200 @@
+id,title
+0,Check for Backdoor in unrealircd
+1,SGI Objectserver vuln
+2,Sun Java Web Start Remote Command Execution Vulnerability (Linux)
+3,Coppermine Local File Include Vulnerability
+4,Coppermine Multiple File Include Vulnerabilities
+5,MDaemon IMAP Server Remote Format String Vulnerability
+6,RunCMS Remote Arbitrary File Upload and Execution
+7,PeerCast Remote Format String Vulnerability
+8,Coppermine Photo Gallery < 1.3.4 EXIF Script Insertion
+9,Coppermine Photo Gallery PHP Code Injection
+10,Coppermine Photo Gallery Multiple Input Validation Errors
+11,RunCMS Remote Arbitrary File Upload and Execution
+12,phpMyAdmin Multiple Remote Vulnerabilities
+13,phpMyAdmin sql.php command execution
+14,vBulletin Remote Code Execution(2)
+15,Icecast XSL Parser Multiple Vulnerabilities
+16,Icecast HTTP Header Buffer Overflow Vulnerability
+17,Icecast print_client() Format String Vulnerability
+18,Icecast/Libshout Remote Buffer Overflow Vulnerability
+19,Icecast AVLLib Buffer Overflow Vulnerability
+20,MySQL on win32 locally exploitable buffer overflow
+21,MySQL mysqlbug/mysqld_multi priviledge escalation
+22,MySQL Multiple flaws (4)
+23,MySQL Mysqlhotcopy Insecure Temp File Vulnerability
+24,MySQL mysql_real_connect() buffer overflow
+25,MySQL Password Bypass Vulnerability
+26,MySQL Password Length Buffer Overflow Vulnerability
+27,MySQL Password Bypass Vulnerability
+28,MySQL Double Free Heap Corruption Vulnerability
+29,MySQL Multiple Flaws(2)
+30,MySQL Multiple Flaws
+31,MySQL Password Handler Buffer Overflow Vulnerability
+32,MySQL Bounded Parameter Buffer Overflow
+33,PostgreSQL Multiple Flaws(2)
+34,PostgreSQL to_ascii() overflow
+35,PostgreSQL Multiple Flaws
+36,PostgreSQL Insecure Temporary File Creation Vulnerability
+37,VBulletin Misc.PHP Arbitrary PHP Script Code Execution
+38,Cyrus imapd multiple vulnerabilities
+39,GPSD remote format string vulnerability
+40,FlatNuke Data validation errors
+41,Linksys multiple remote vulnerabilities
+42,Mercur Mailserver/Messaging version <= 5.0 IMAP Overflow Vulnerability
+43,QK SMTP Server 'RCPT TO' buffer overflow vulnerability
+44,FreeSSHD Key Exchange Buffer Overflow
+45,Discuz! <= 4.0.0 rc4 Arbitrary File Upload Flaw
+46,GlobalSCAPE Secure FTP Server User Input Overflow
+47,TFTPD small overflow
+48,MiniShare webserver buffer overflow
+49,TFTPD overflow
+50,4D WebStar Tomcat Plugin Remote Buffer Overflow flaw
+51,Delegate Multiple Overflows
+52,CA License Service Multiple Vulnerabilities
+53,poppassd USER overflow
+54,NNTP password overflow
+55,NNTP message headers overflow
+56,CUPS < 1.1.23 Multiple Vulnerabilities
+57,SHOUTcast Format String Attack
+58,Citadel/UX Format String Vulnerability
+59,Yard Radius Remote Buffer Overflow Vulnerability
+60,Mercury Mail Remote IMAP Stack Buffer Overflow Vulnerability
+61,Cyrus IMAPD Multiple Remote Vulnerabilities
+62,CCProxy Logging Function Overflow
+63,ipswitch IMail Server Delete Command Buffer Overflow
+64,Format string on HTTP header value
+65,Format string on HTTP header name
+66,Format string on URI
+67,Cherokee remote command execution
+68,Cherokee directory traversal flaw
+69,Cherokee auth_pam format string vulnerability
+70,Open WebMail userstat.pl Arbitrary Command Execution
+71,DB2 Multiple Vulnerabilities
+72,PostgreSQL insecure temporary file creation
+73,Kerio MailServer < 6.0.3
+74,Macromedia JRun Multiple Vulnerabilities
+75,Oracle DBS_SCHEDULER vulnerability
+76,NSS Library SSLv2 Challenge Overflow
+77,MySQL buffer overflow
+78,cfengine CFServD transaction packet buffer overrun vulnerability
+79,cfengine format string vulnerability
+80,Kerio MailServer < 6.0.1
+81,rsync path sanitation vulnerability
+82,Citadel/UX Username overflow
+83,mod_ssl hook functions format string vulnerability
+84,Open WebMail vacation.pl Arbitrary Command Execution
+85,Squid Remote NTLM auth buffer overflow
+86,mod_ssl SSL_Util_UUEncode_Binary Overflow
+87,Courier IMAP remote overflows
+88,F-Secure SSH Password Authentication Policy Evasion
+89,Oracle SOAP denial
+90,Oracle timezone overflow
+91,NETObserve Authentication Bypass vulnerability
+92,cyrus-imsp abook_dbname buffer overflow
+93,Ebola 0.1.4 buffer overflow
+94,OpenSSL overflow via invalid certificate passing
+95,Netware Perl CGI overflow
+96,mod_mylo overflow
+97,Microsoft RPC Interface Buffer Overrun (823980)
+98,Format string on HTTP method name
+99,Kerio WebMail v5 multiple flaws
+100,CesarFTP multiple overflows
+101,Magic WinMail Format string
+102,gnocatan multiple buffer overflows
+103,Header overflow against HTTP proxy
+104,Batalla Naval Overflow
+105,wsmp3d command execution
+106,Helix RealServer Buffer Overrun
+107,MailMax IMAP overflows (2)
+108,MailMax IMAP overflows
+109,MDaemon IMAP CREATE overflow
+110,Oracle LINK overflow
+111,mod_ntlm overflow / format string bug
+112,MonkeyWeb POST with too much data
+113,PPTP overflow
+114,tanned format string vulnerability
+115,ActiveSync packet overflow
+116,iPlanet Application Server Buffer Overflow
+117,qpopper Qvsnprintf buffer overflow
+118,OpenSSH Client Unauthorized Remote Forwarding
+119,PKCS 1 Version 1.5 Session Key Retrieval
+120,SSH1 SSH Daemon Logging Failure
+121,SSH Secure-RPC Weak Encrypted Authentication
+122,scp File Create/Overwrite
+123,Lotus Domino Vulnerabilities
+124,MCMS : Buffer overflow in Profile Service
+125,shtml.exe overflow
+126,Quicktime/Darwin Remote Admin Exploit
+127,Too long OPTIONS parameter
+128,Apache < 2.0.44 DOS device name
+129,Multiple vulnerabilities in CUPS
+130,BitKeeper remote command execution
+131,Cyrus IMAP pre-login buffer overrun
+132,SSH Multiple Vulns
+133,HTTP negative Content-Length buffer overflow
+134,Webserver4everyone too long URL
+135,SOCKS4 username overflow
+136,/bin/login overflow exploitation
+137,Generic format string
+138,BrowseGate HTTP headers overflows
+139,HTTP 1.1 header overflow
+140,HTTP 1.0 header overflow
+141,SOCKS4A hostname overflow
+142,Canna Overflow
+143,Omron WorldView Wnn Overflow
+144,Avirt gateway insecure telnet proxy
+145,Boozt index.cgi overflow
+146,Oracle9iAS too long URL
+147,HTTP header overflow
+148,HTTP Cookie overflow
+149,dwhttpd format string
+150,HTTP User-Agent overflow
+151,HTTP version number overflow
+152,OpenSSL overflow (generic test)
+153,Apache chunked encoding
+154,IMAP4buffer overflow in the BODY command
+155,SSH 3 AllowedAuthentication
+156,OpenSSH AFS/Kerberos ticket/token passing
+157,EFTP buffer overflow
+158,Squid overflows
+159,Apache-SSL overflow
+160,OpenSSH Channel Code Off by 1
+161,Shell Command Execution Vulnerability
+162,OpenSSH UseLogin Environment Variables
+163,Webalizer Cross Site Scripting Vulnerability
+164,libgtop_daemon format string
+165,rwhois format string attack (2)
+166,OpenSSH < 3.0.1
+167,rwhois format string attack
+168,OpenSSH 2.5.x -> 2.9.x adv.option
+169,TESO in.telnetd buffer overflow
+170,SSH 3.0.0
+171,SimpleServer remote execution
+172,IIS FrontPage DoS II
+173,snmpXdmid overflow
+174,NT IIS 5.0 Malformed HTTP Printer Request Header Buffer Overflow Vulnerability
+175,IMAP4rev1 buffer overflow after logon
+176,OpenSSH 2.3.1 authentication bypass vulnerability
+177,netscape imap buffer overflow after logon
+178,Oops buffer overflow
+179,iWS shtml overflow
+180,LPRng malformed input
+181,SSH Kerberos issue
+182,NAI Management Agent overflow
+183,qpopper euidl problem
+184,Gauntlet overflow
+185,rsh on finger output
+186,uw-imap buffer overflow after logon
+187,Possible Backdoor: Ingreslock
+188,F5 BIG-IP remote root authentication bypass Vulnerability
+189,vsftpd Compromised Source Packages Backdoor Vulnerability
+190,Linksys WAP610N Unauthenticated Root Access Security Vulnerability
+191,SSH Overflow
+192,SSH Insertion Attack
+193,qpopper LIST buffer overflow
+194,Netscape Enterprise 'Accept' buffer overflow
+195,ipop2d buffer overflow
+196,rsh with null username
+197,ProFTPD Backdoor Unauthorized Access Vulnerability
+198,FakeBO buffer overflow

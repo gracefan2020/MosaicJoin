@@ -1,0 +1,101 @@
+id,title
+0,sample bug
+1,fmt uses set-cdr!
+2,API requests
+3,support for v3 and v4
+4,stream-split-at
+5,stream-partition unusable
+6,make-response/xhtml/full
+7,memoization is not thread-safe
+8,make sets sequences
+9,optional and keyword args
+10,make-filter-input-port hopelessly broken
+11,Function.prototype.toString should produce source
+12,possible semantic issues with exceptions
+13,implement JavaScript library fully
+14,numbers are unfaithful to spec
+15,regular expressions aren't implemented
+16,over-parenthesization in while-conditions
+17,implement read-only __proto__
+18,"""use lexical scope"" pragma"
+19,parameter for top-level let semantics
+20,make prophecies sequences
+21,Incompatible with mzscheme 4+
+22,make a csv-reader that takes in an input-port
+23,add an expansion phase to the compiler
+24,setup fails on hash store; hash-store.plt/1/4/hash-store.ss:9:3: expand: unbound identifier in module in: base64-filename-safe
+25,Doc warnings
+26,long startup time
+27,binding arrows in DrScheme broken
+28,test infrastructure for different compilation modes
+29,coverage for compiler tests
+30,rename require.ss to main.ss
+31,Docs link unavailable; .DS_Store file unnecessary
+32,errors on initial compile
+33,audit duplicate-variable errors/non-errors
+34,Use of set-cdr!
+35,stack trace is often mostly unusable
+36,Use of {{{set-cdr!}}}
+37,Doesn't work in Current Version of PLT
+38,Doesn't work in Current Version of PLT
+39,Doesn't work in Current Version of PLT
+40,support unicode
+41,Request for docs on interaction model
+42,Planet breakage? Some surprising dependencies from xmlrpc.plt
+43,Cannot load package in 4.1.4
+44,_ pattern succeeds on end of input?
+45,schememodlang/this-package + defmodulelang/this-package
+46,test-suite semantics change makes my code infinite loop
+47,Feature request: lang/this-package
+48,Port to typed-scheme
+49,Pressing end causes error
+50,Pressing unicode in command mode causes insertion
+51,srfi.plt does not install cleanly due to error in info.ss
+52,same name as another planet package - confusing version numbering
+53,First line blank -> broken indenting
+54,c.plt fails to install correctly
+55,example from docs declares IDistributeLists as a module
+56,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+57,dracula rename export example from reference docs does not work
+58,"modular acl2 unresolved import problem, useless error message"
+59,"Modular ACL2 reacts poorly to mixing of ""code"" and exports"
+60,Dracula errors on (just) + or - at REPL
+61,SchemeUnit checks for syntax errors
+62,problem including this file from planeT
+63,prime? of neg. number doesn't end
+64,Warnings and a crash while installing on Windows
+65,apparent Scribble error during package installation
+66,Parsing of missing closing HTML tags duplicates HTML elements
+67,Sudoku example doesn't work
+68,"error: ""car: expects argument of type ; given ()"" on specific input"
+69,Fails to compile with 4.2.2
+70,"Depends on Schemeunit 1:2, which doesn't compile"
+71,scribble warnings
+72,segments->painter return is failing on being passed to paint
+73,^M end-of-lines
+74,error on require
+75,warnings from documentation
+76,slide/stage
+77,add name? to staged
+78,pict-* from scheme/slideshow should combine in the order of the clauses
+79,scribble text renderer dies with a type error
+80,note that you need to restart DrScheme after (require ...)-ing the projectmgr
+81,f4 toggle menu item does not show keyboard shortcut
+82,Digest contexts are leaked.
+83,bogon in docs
+84,wrong compile-omit-paths entry in info.ss
+85,permissive?
+86,incomplete folders
+87,build-path: absolute path
+88,mzsocket fails to install cleanly on OS X (10.5 and 10.6)
+89,please convert comments in xml file to *COMMENT* sxml nodes
+90,Start function doesn't allow for changing fps
+91,World object doesn't export get-objects
+92,eof error
+93,Please consider using development links.
+94,Unable to make 4.2.5 with shared libraries enabled.
+95,incorrect `declare-exporting'
+96,Fails to compile
+97,compile: unbound identifier in module
+98,png_set_gray_1_2_4_to_8 not found while compiling
+99,enhance define-datatype to handle #:property prop:equal+hash

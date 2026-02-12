@@ -1,0 +1,101 @@
+id,title
+0,Secure Connection Failure
+1,network map not working on 0.2.4.17rc - geoip
+2,flashproxy-reg-appspot should support custom domains
+3,start-tor-browser reports an error on start
+4,issuu.com documents do not load
+5,ESR24 won't work without ctypes being enabled
+6,More locales for Tor Browser Bundle (esp Japanese)
+7,Uploading files to direct to S3 from another site using CORS failes if HTTPS Everywhere is installed
+8,Cannot upload photos to Facebook
+9,HTTPS Everywhere Breaks Amazon mp3 Previews
+10,Disable RC4 in TBB Firefox
+11,Enabling Amazon Web Services causing Issuu publications to break
+12,Free tier for Amazon EC2 exceeded because of outdated instructions on Torcloud setup page
+13,Vidalia shows tor is down after the control port is closed
+14,Images and photos not loading in Tor
+15,https everywhere slows down google translate in Chrome browser
+16,Tor Cloud instances default to 1024 GB of storage space
+17,Multiple problems with TBB3.0rc1
+18,I'm not sure what the error is here
+19,Offline cache prompt shown; Allow button does not dismiss.
+20,Obfsproxy memory leak
+21,check tells people about javascript but points them to atlas
+22,version information
+23,"""new identity"" button causes in-progress downloads to be aborted"
+24,Visiting http://awards.tweakers.net logs you out on tweakers.net
+25,Segmentation fault when Tor Browser 3.5 has a ton of state.
+26,TBB 3.5 Windows installer makes users think it's smearing itself across the hard drive
+27,"""New identity"" button in Vidalia is misleading and should be renamed."
+28,Slow menu response of Torbrowser
+29,OS X: High CPU usage when TBB can't access a site
+30,TBB OS X: Last directory recorded in /Users/User/Library/Preferences/
+31,Tor Browser crashes on OS X if gocomics.com is involved
+32,Wrong atlas link on check.torproject.org
+33,"The source for the entry ""feedly"" cannot be loaded and so it doesn't work"
+34,Random crashes with TBB on OS X 10.9
+35,httpse-ruleset-bug - Bright Cove
+36,[CHROME] Hanging on BBC Websites
+37,"Tor Cloud instance creates 1,024 Gigabyte root drive"
+38,Https everywhere rules not working at login pages
+39,Cannot play embedded youtube videos because of HTTPS Everywhere youtube rule
+40,HTTPS Everywhere breaks S3 uploader on Stickermule
+41,`nsILocalFile` should be replaced with `nsIFile` in our extensions
+42,Unused code confuses validator
+43,TorBrowser Health Report pane is misleading
+44,arm crashes when it connects to relay with ExitPolicy reject6
+45,arm hangs when monitoring ipv6 relay on switching to connection page
+46,Login problems in a forum site
+47,"about:tor may fetch the ""you're using Tor"" page from browser cache"
+48,Tor Browser Bundle 3.5 holds open files (gvfsd-metadata)
+49,aggregate.py unhappy with input data
+50,Vidalia standalone is a tarbomb
+51,onion won't peel
+52,MacOS TBB 3.5 hang (due to popups?)
+53,LinkedIn page freezes Tor Browser
+54,Apt errors and Warnings with Tor Cloud
+55,Torbirdy does not remember customized settings after enabling it again
+56,tor-arm's man page doesn't mention --socket option
+57,TBB 3.5 hangs under OS X on certain sites (possibly a JavaScript problem)
+58,NSIS scripts can request Windows to avoid registry writes?
+59,LiveJournal rule breaks account manage & related pages
+60,Tor Browser segmentation fault
+61,Standalone Vidalia won't launch on Fedora 19+
+62,Live Youtube videos not playing with HTTPS Everywhere 3.4.5 (FireFox)
+63,TorBridy should try both SOCKS port 9050 and 9150
+64,Torbrowser does not work on FreeBSD
+65,Torbutton/Noscript plugin settings ambiguous to user
+66,TorBrowser Noscript plugin does not block HTML5 audio/video tags
+67,Spreadshirt's force-https-rule break tshirt designer
+68,Detect overtuned exit relays
+69,Using Firefox UI to remember history disables third party tracking/cookie protection
+70,"Block 127.0.0.0/8, RFC1918, and others ranges (for Non-Tor SOCKS proxies)"
+71,HTTPS-Everywhere Causing Flash to Crash
+72,Limit IPv4 addresses to dotted-decimal form (as per RFC3986)
+73,compass url not reusable if you don't specify number of results
+74,HTTPS Everywhere Chrome Extension Conflict with Disconnect
+75,"TorButton won't ""blink"" for update if using local Tor"
+76,Mozilla trademarks still remain in some about: urls
+77,"Disabled add-on then reenabled, and all the rules were gone"
+78,Amazon Prime Streaming not work
+79,TBB 3.x does not show up in Launchpad on MacOS
+80,Tor Browser leaves developer windows open after New Identity
+81,Bypassing proxy settings?
+82,searching atlas for email addresses fails
+83,Shrink the FAQ
+84,https-E causes shockwave flash plugin to crash
+85,Windows installer's language should default to the bundle's language
+86,Conflict with Firefox on Mac OS Mavericks: Open new FF window fails
+87,Orbot doesn't start on GT-N7100 (4.3)
+88,pycrypto's AES implementation is not constant time
+89,torsocks should log errors to stderr and not stdout
+90,obfsproxy should use C implementation of UniformDH
+91,Open new tab/window open a firefox tab/window
+92,Firefox extension interferes with other firefox extension
+93,Setup Nagios probes for the webchat support system
+94,Videos at PBS do not load
+95,target dkb.de is a redirect page
+96,Ruleset AliceDSL.xml outdated
+97,bookmark star icon does not update when user presses
+98,US Dept of Housing has mis directed rule set?
+99,obfsproxy's SOCKS server should send success response post handshake

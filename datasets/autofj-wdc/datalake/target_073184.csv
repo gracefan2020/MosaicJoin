@@ -1,0 +1,50 @@
+id,title
+0,d
+1,dd
+2,ddd
+3,"dddd (plus any number of additional ""d"" specifiers)"
+4,f
+5,ff
+6,fff
+7,ffff
+8,fffff
+9,ffffff
+10,fffffff
+11,F
+12,FF
+13,FFF
+14,FFFF
+15,FFFFF
+16,FFFFFF
+17,FFFFFFF
+18,"g or gg (plus any number of additional ""g"" specifiers)"
+19,h
+20,"hh, hh (plus any number of additional ""h"" specifiers)"
+21,H
+22,"HH, HH (plus any number of additional ""H"" specifiers)"
+23,K
+24,m
+25,"mm, mm (plus any number of additional ""m"" specifiers)"
+26,M
+27,MM
+28,MMM
+29,MMMM
+30,s
+31,"ss, ss (plus any number of additional ""s"" specifiers)"
+32,t
+33,"tt, tt (plus any number of additional ""t"" specifiers)"
+34,y
+35,yy
+36,yyy
+37,yyyy
+38,"yyyyy (plus any number of additional ""y"" specifiers)"
+39,z
+40,zz
+41,"zzz, zzz (plus any number of additional ""z"" specifiers)"
+42,:
+43,/
+44,""""
+45,'
+46,%c
+47,\c
+48,Any other character

@@ -1,0 +1,51 @@
+id,title
+0,Getting Duplicate numbers and gaps in the sequence order
+1,Serial not available as Token for Automatic Node Titles
+2,Update a serial field
+3,Doesn't work with node_clone
+4,Add generic entity support
+5,Strange Behavior: Missing SIDs in Increments of ten
+6,Add support for year prefix
+7,Allow for step value other than 1
+8,Generating a new serial after refresh
+9,Port to Drupal 8
+10,Support importing serial field with Feeds importer
+11,Allow some bundles to share serial number sequence
+12,"Getting ""AJAX HTTP error occurred"" error"
+13,Setting the new Start Number for a Serial
+14,Using serial tokens in fields on same new node does not always get filled in correctly - no value - not a correct redirect
+15,Support for Entity Reference
+16,Working around Acquia's non-default step value
+17,Make serial IDs optional
+18,I am getting duplicate numbers
+19,Option to specify the serial value (initially or later)
+20,Table names can exceed database maximums
+21,Display a read only field on node edit forms
+22,Share serial fields
+23,Can't include my serial field in a Search API index
+24,Serial per user
+25,Serial is generating used numbers: The automatically generated alias xxx/1 with an existing alias. Alias changed to xxx/1-0.
+26,Rules support: Generate a serial as a rules action
+27,Using Serial field in Rules
+28,Sequential Serial Numbers only for published nodes
+29,Database update failled
+30,tokens for D7
+31,Information request: Why module deletes only some temporary entries from DB
+32,Unknown column 'n.language' in 'where clause' query
+33,"number ranges and prefix, suffix"
+34,Provide support for migrate
+35,Serial field value not visible to authenticated user
+36,Serial Field per Content Type and per Taxonomy term
+37,User warning error
+38,Getting error when creating new node that has this field
+39,Wrong redirection when for taxonomy fields
+40,"Really should have ""ONLY WORKS FOR NODES"" on the description page"
+41,Add support for the Batch API
+42,does it work with entityform module ?
+43,Add a structured communication (formatter?)
+44,Pathauto aliases will not work if Serial field is hidden
+45,"Despite auto-hidden, it is not hidden"
+46,Sync Serial Field with translated nodes
+47,How is the field displayed and incremented?
+48,Remove LICENSE.txt from Git repository
+49,'Sub node' serial field

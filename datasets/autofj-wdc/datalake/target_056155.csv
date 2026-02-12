@@ -1,0 +1,101 @@
+id,title
+0,"adding option to only get ""newer than"" - objects"
+1,Add ability to search GPX traces by tag
+2,Go to latest changes in your area
+3,"User-defined radius for ""users in your area"" feature"
+4,"Multiple areas of interest for ""users in your area"" feature"
+5,Tag list only shows tags for traces on page
+6,Parse more lat/lon formats
+7,User search funciton
+8,Allow people to be multi-homed
+9,Remove the showing of nothing when something isn't found
+10,[PATCH] Add a marker for the first point in the GPX trace
+11,Display aspect ratio of selection in export tab
+12,area automatically should get tag area=yes
+13,Allow login to the wiki using an OSM account
+14,Support for importing JOSM statefull OSM format
+15,Support for file sniffing
+16,Measure tool
+17,cycleway=track not rendered on Cycle Map
+18,osm2pgsql does not handle role=outer and role=inner on same polygon
+19,"Highlight ""nodes on the same spot"""
+20,canals in the same colour as the border of natural water
+21,Order GPS points by track then timestamp
+22,AI for tag completion
+23,Possibility to show icons on both ends of a road
+24,'Error uploading request' endless loop
+25,"Please expand radius and amount of nearby users to show on ""Nearby users"" map"
+26,Allow to add member to relation by Id
+27,Snapping to multiple nodes in existing ways
+28,Deleting ways outside the bounding box leaves empty nodes
+29,Allow selections in the upload window
+30,allow map call spanning 180th meridian
+31,disable node / way / ... creation in red dot background
+32,Restore name completion in tag editor
+33,Provide a tool to convert a junction to a roundabout
+34,Upload GPS Trace doesn't work and shows uninformative message
+35,schema_info is now schema_migrations
+36,Show changeset comment
+37,"Add support for an ""incomplete"" attribute."
+38,Easy undelete from way history
+39,Option to filter changesets that don't change objects within BBOX
+40,half wrong key binding for Edit->Select
+41,Make relation browser view more like changesets
+42,"send ""geomessage"""
+43,mapnik-osm-updater.sh looks in the wrong place on Fedora 10/x86_64 for lwpostgis.sql
+44,osmisis seems to produce backslash escapes in its output
+45,Wrong error on updates with no XML payload
+46,Add the ability for an explicit cache expiry via HTCP to renderd
+47,Make languages.yml translatable
+48,Provide Error Header for 404 in Multi Fetch
+49,search in/ sort users own gpx-tracks
+50,Default to a map of the whole world in the Slippy Map at /user/:user/diary/new and /user/:user/account
+51,Add an option to watch comments for other user's diary entries
+52,Add support new access restrictions
+53,Select all nodes in a way
+54,Allow supression of deleted nodes/ways in the web based data browser
+55,Treat very similar trace tags as equal
+56,non-specific data invalid error should be more focuses
+57,Write test to verify that you cannot upload tags with ascii control chars
+58,osm2pgsql segfaults when readinga style file with more than MAX_STYLES styles
+59,History viewer doesn't show the visible attribute visibly enough
+60,cycleway:left=track not rendered
+61,gosmore does not route over ways with 'bridge=no'
+62,Sustrans milepost icons are too small at low zoom
+63,Add an Atom version of the user diary / GPS traces feeds
+64,Display the user profile icon on Atom/RSS feeds if it exists
+65,Development of version 2
+66,Add a timezone setting
+67,Change style for school node in MapnikPlus
+68,Server-side object merge
+69,opencyclemap should render hostels and camp sites at low zoom
+70,Cumulative length of selected lines
+71,Display total length of a relation in data browser
+72,pub rendered as postbox
+73,PGError & 500 error when given invalid Authorization: Basic string
+74,Ability to view GPS trace on the map
+75,browse history: show only last x edits
+76,browse history: compare last edits
+77,Cycleways rendered differently per surface
+78,barrier:cycle_barrier not rendered in cyclemap layer
+79,Cyclemap rendering of crossing:island
+80,gps trace not fully followed
+81,display of oneway roads
+82,Missing icons
+83,Segfault on planet rebuild
+84,Take into account max. weight/height/width when calculating a route
+85,[INCOMPLTE PATCH] Include info on message name/who it was sent to after it has been sert
+86,"API feature request: /map take centre point and width,height, or zoom level"
+87,Make amf_controller.rb error messages translatable
+88,Export tab should get ritcher posibilities of export settings
+89,Nominatim web API should give possibility to download all records in certain bbox
+90,search must mach both russian ie and yo insensitive to them
+91,Cyclemap is not rendering grade for tracks
+92,Handle or ignore postal code
+93,Can't make gosmore headless
+94,Order results by distance to specified location
+95,opencyclemap and car directions
+96,Tool for rectifying rectangles
+97,"Changeset should show ""ref"" if there is no ""name"""
+98,POI API call
+99,Bike parking areas should be rendered

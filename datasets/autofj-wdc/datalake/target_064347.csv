@@ -1,0 +1,176 @@
+id,title
+0,Re: Malformed Rows
+1,Re: Malformed Rows
+2,Re: Malformed Rows
+3,Re: Malformed Rows
+4,Re: Malformed Rows
+5,RE: Malformed Rows
+6,Some thoughts about extension of Hive
+7,"Core For Paper ---- Grid and Cloud Middleware Workshop, in conjunction with GCC2009"
+8,mysql exception when running a metastore thrift server
+9,Re: mysql exception when running a metastore thrift server
+10,Re: mysql exception when running a metastore thrift server
+11,report a BUG of HiveServer.java
+12,Re: report a BUG of HiveServer.java
+13,Re: report a BUG of HiveServer.java
+14,Re: report a BUG of HiveServer.java
+15,Re: report a BUG of HiveServer.java
+16,Re: Combine() optimization
+17,Re: Combine() optimization
+18,RE: Combine() optimization
+19,RE: Combine() optimization
+20,cannot create temporary udf dynamically
+21,wiki page for Hive Web Interface
+22,Re: wiki page for Hive Web Interface
+23,Re: wiki page for Hive Web Interface
+24,Re: wiki page for Hive Web Interface
+25,Re: wiki page for Hive Web Interface
+26,Re: wiki page for Hive Web Interface
+27,Cannot issue query
+28,Cannot issue query
+29,Re: Cannot issue query
+30,Re: Cannot issue query
+31,Re: Cannot issue query
+32,Re: Cannot issue query
+33,RE: Querying JSON/Thrift data?
+34,RE: Querying JSON/Thrift data?
+35,RE: Querying JSON/Thrift data?
+36,RE: Querying JSON/Thrift data?
+37,RE: Querying JSON/Thrift data?
+38,RE: Querying JSON/Thrift data?
+39,Re: Querying JSON/Thrift data?
+40,Re: Querying JSON/Thrift data?
+41,RE: Querying JSON/Thrift data?
+42,RE: Querying JSON/Thrift data?
+43,RE: Querying JSON/Thrift data?
+44,thread cofinement session state
+45,RE: thread cofinement session state
+46,Re: thread cofinement session state
+47,Re: thread cofinement session state
+48,RE: thread cofinement session state
+49,Re: thread cofinement session state
+50,Re: thread cofinement session state
+51,RE: thread cofinement session state
+52,Re: thread cofinement session state
+53,RE: thread cofinement session state
+54,Re: thread cofinement session state
+55,Re: thread cofinement session state
+56,Re: thread cofinement session state
+57,RE: thread cofinement session state
+58,Re: thread cofinement session state
+59,Re: thread cofinement session state
+60,RE: thread cofinement session state
+61,RE: thread cofinement session state
+62,python client import error
+63,Re: python client import error
+64,Re: python client import error
+65,Re: python client import error
+66,Re: python client import error
+67,Re: python client import error
+68,Re: python client import error
+69,Re: python client import error
+70,Re: python client import error
+71,Re: python client import error
+72,where should Cloudera host their next public training session?
+73,file delimiting
+74,Re: file delimiting
+75,Re: file delimiting
+76,Re: file delimiting
+77,Cloudera Hadoop and Hive training now free online
+78,Java/Python examples
+79,Re: Java/Python examples
+80,Re: Java/Python examples
+81,RE: Java/Python examples
+82,Re: Java/Python examples
+83,Re: Java/Python examples
+84,Re: Java/Python examples
+85,Re: Java/Python examples
+86,Re: Java/Python examples
+87,Re: Java/Python examples
+88,Re: Java/Python examples
+89,Re: Java/Python examples
+90,Re: Java/Python examples
+91,Re: Java/Python examples
+92,Re: Java/Python examples
+93,Re: Java/Python examples
+94,Re: Java/Python examples
+95,Cloudera's Distribution for Hadoop
+96,NullPointerException when using join on table with map column
+97,Re: NullPointerException when using join on table with map column
+98,RE: NullPointerException when using join on table with map column
+99,Re: NullPointerException when using join on table with map column
+100,Keeping Data compressed
+101,RE: Keeping Data compressed
+102,Re: Keeping Data compressed
+103,Re: Keeping Data compressed
+104,Re: Keeping Data compressed
+105,RE: Keeping Data compressed
+106,Re: Keeping Data compressed
+107,Re: Keeping Data compressed
+108,Re: Keeping Data compressed
+109,RE: Keeping Data compressed
+110,Re: Keeping Data compressed
+111,Re: Keeping Data compressed
+112,Re: Keeping Data compressed
+113,RE: Keeping Data compressed
+114,Adding data to a bucketed table/partition
+115,RE: Adding data to a bucketed table/partition
+116,Re: Adding data to a bucketed table/partition
+117,getting different row counts on each import
+118,Re: getting different row counts on each import
+119,Re: getting different row counts on each import
+120,RE: getting different row counts on each import
+121,Re: getting different row counts on each import
+122,RE: getting different row counts on each import
+123,Re: getting different row counts on each import
+124,RE: getting different row counts on each import
+125,LOAD DATA question
+126,Re: LOAD DATA question
+127,Re: LOAD DATA question
+128,Re: LOAD DATA question
+129,Re: LOAD DATA question
+130,timestamp as a field name bug?
+131,Re: timestamp as a field name bug?
+132,Re: timestamp as a field name bug?
+133,Hive for RRA Data
+134,Re: Hive for RRA Data
+135,Updating HDFS table locations in metastore_db
+136,Re: Updating HDFS table locations in metastore_db
+137,RE: Updating HDFS table locations in metastore_db
+138,Sorting data
+139,Re: Sorting data
+140,Re: Sorting data
+141,Re: Sorting data
+142,Re: Sorting data
+143,Re: Sorting data
+144,Documentation for using JDBC interface?
+145,Re: Documentation for using JDBC interface?
+146,Re: Documentation for using JDBC interface?
+147,RE: Documentation for using JDBC interface?
+148,Re: Documentation for using JDBC interface?
+149,Re: Documentation for using JDBC interface?
+150,Re: Documentation for using JDBC interface?
+151,Re: Documentation for using JDBC interface?
+152,Making branch 0.3 for Hadoop Hive soon
+153,Re: Making branch 0.3 for Hadoop Hive soon
+154,"very basic question, does hive support java?"
+155,screen hangs on query
+156,RE: screen hangs on query
+157,Re: screen hangs on query
+158,Re: screen hangs on query
+159,hive sub query support
+160,Re: hive sub query support
+161,Re: hive sub query support
+162,Re: hive sub query support
+163,Re: hive sub query support
+164,RE: hive sub query support
+165,submit job to fair scheduler pool
+166,Re: submit job to fair scheduler pool
+167,Re: submit job to fair scheduler pool
+168,how to find jdbc url port settings?
+169,Re: how to find jdbc url port settings?
+170,ExecDriver Failing
+171,RE: ExecDriver Failing
+172,hive running error on eclipse
+173,Re: hive running error on eclipse
+174,Re: hive running error on eclipse

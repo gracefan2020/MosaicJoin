@@ -1,0 +1,50 @@
+id,title
+0,Adds or subtracts days
+1,Adds or subtracts months
+2,Assigns date
+3,Checks if the given date is valid
+4,Compares dates
+5,Gets number of days between two dates
+6,Converts string to date
+7,Gets the date portion of a date
+8,Gets the time portion of a date
+9,Gets date of last day of month
+10,Gets date of next day
+11,Sets the date portion of a date
+12,Sets the time portion of a date
+13,Gets current system date and time
+14,Converts date to string
+15,Performs datetime assignment
+16,Checks if the given date is valid
+17,Compares two datetime values
+18,Constructs a datetime descriptor
+19,Converts one datetime type to another
+20,Converts an array of size OCI_DT_ARRAYLEN to an OCIDateTime descriptor
+21,"Converts the given string to Oracle datetime type in the OCIDateTime descriptor, according to the specified format"
+22,"Gets the date (year, month, day) portion of a datetime value"
+23,"Gets the time (hour, min, second, fractional second) out of a datetime value"
+24,Gets the time zone name portion of a datetime value
+25,"Gets the time zone (hour, minute) portion of a datetime value"
+26,Adds an interval to a datetime to produce a resulting datetime
+27,Subtracts an interval from a datetime and stores the result in a datetime
+28,Takes two datetimes as input and stores their difference in an interval
+29,Gets the system current date and time as a timestamp with time zone
+30,Converts a OCIDateTime descriptor to an array
+31,Converts the given date to a string according to the specified format
+32,Converts date from one time zone to another zone
+33,Adds two intervals to produce a resulting interval
+34,Copies one interval to another
+35,Checks the validity of an interval
+36,Compares two intervals
+37,Divides an interval by an Oracle NUMBER to produce an interval
+38,Converts an Oracle NUMBER to an interval
+39,"Given an interval string, returns the interval represented by the string"
+40,Returns an OCI_DTYPE_INTERVAL_DS.
+41,"Gets values of day, hour, minute, and second from an interval"
+42,Gets year and month from an interval
+43,Multiplies an interval by an Oracle NUMBER to produce an interval
+44,"Sets day, hour, minute, and second in an interval"
+45,Sets year and month in an interval
+46,Subtracts two intervals and stores the result in an interval
+47,Converts an interval to an Oracle NUMBER
+48,"Given an interval, produces a string representing the interval"

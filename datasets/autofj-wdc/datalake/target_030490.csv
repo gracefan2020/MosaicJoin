@@ -1,0 +1,68 @@
+id,title
+0,[[TracGuideToc]]
+1,Trac has a built-in functionality for visualizing “diffs” - changes to files.
+2,There are different kinds of ''change sets''.
+3,"Some can correspond to revisions made in the repositories,"
+4,"others can aggregate changes made in several revisions,"
+5,"but in the end, any kind of differences can be shown."
+6,"The changeset view consists of two parts, the ''header''"
+7,and the ''diff views''.
+8,== Changeset Header ==
+9,The header shows an overview of the whole changeset.
+10,Here you will find information such as:
+11,* Timestamp -- When the changeset was commited
+12,* Author -- Who commited the changeset
+13,* Message -- A brief description from the author (the commit log message)
+14,* Files -- A list of files affected by this changeset
+15,If more than one revision is involved in the set of changes being
+16,"displayed, the ''Timestamp'', ''Author'' and ''Message'' fields"
+17,won't be shown.
+18,"In front of each listed file, you'll find a colored rectangle. The color"
+19,indicates how the file is affected by the changeset.
+20,* Green: Added
+21,* Red: Removed
+22,* Yellow: Modified
+23,* Blue: Copied
+24,* Gray: Moved
+25,The color legend is located below the header as a reminder.
+26,== Diff Views ==
+27,"Below the header is the main part of the changeset, the diff view. Each file is shown in a separate section, each of which will contain only the regions of the file that are affected by the changeset. There are two different styles of displaying the diffs: ''inline'' or ''side-by-side'' (you can switch between those styles using the preferences form):"
+28,"* The ''inline'' style shows the changed regions of a file underneath each other. A region removed from the file will be colored red, an added region will be colored green. If a region was modified, the old version is displayed above the new version. Line numbers on the left side indicate the exact position of the change in both the old and the new version of the file."
+29,"* The ''side-by-side'' style shows the old version on the left and the new version on the right (this will typically require more screen width than the inline style.) Added and removed regions will be colored in the same way as with the inline style (green and red, respectively), but modified regions will have a yellow background."
+30,"In addition, various advanced options are available in the preferences form for adjusting the display of the diffs:"
+31,* You can set how many lines are displayed before and after every change
+32,"(if the value ''all'' is used, then the full file will be shown)"
+33,"* You can toggle whether blank lines, case changes and white space changes are ignored, thereby letting you find the functional changes more quickly"
+34,== The Different Ways to Get a Diff ==
+35,=== Examining a Changeset ===
+36,"When viewing a repository check-in, such as when following a"
+37,changeset [wiki:TracLinks link] or a changeset event in the
+38,"[wiki:TracTimeline timeline], Trac will display the exact changes"
+39,made by the check-in.
+40,There will be also navigation links to the ''Previous Changeset''
+41,to and ''Next Changeset''.
+42,=== Examining Differences Between Revisions ===
+43,Often you'll want to look at changes made on a file
+44,or on a directory spanning multiple revisions. The easiest way
+45,"to get there is from the TracRevisionLog, where you can select"
+46,"the ''old'' and the ''new'' revisions of the file or directory, and"
+47,then click the ''View changes'' button.
+48,=== Examining Differences Between Branches ===
+49,One of the core features of version control systems is the possibility
+50,"to work simultaneously on different ''Lines of Developments'', commonly"
+51,called “branches”. Trac enables you to examine the exact differences
+52,between such branches.
+53,Using the '''View changes ...''' button in the TracBrowser allows you to enter
+54,''From:'' and ''To:'' path/revision pairs. The resulting set of differences consist
+55,of the changes that should be applied to the ''From:'' content in order
+56,to get to the ''To:'' content.
+57,"For convenience, it is possible to invert the roles of the ''old'' and the ''new''"
+58,path/revision pairs by clicking the ''Reverse Diff'' link on the changeset page.
+59,=== Checking the Last Change ===
+60,The last possibility for examining changes is to use the ''Last Change''
+61,link provided by the TracBrowser.
+62,This link will take you to the last change that was made on that path.
+63,"From there, you can use the ''Previous Change'' and ''Next Change'' links"
+64,to traverse the change history of the file or directory.
+65,----
+66,"See also: TracGuide, TracBrowser"

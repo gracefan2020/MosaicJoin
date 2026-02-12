@@ -1,0 +1,357 @@
+id,title
+0,Edit own action in User Manager**
+1,Users with create rights in a category but not component can't create subcategories**
+2,Edit state option does not work as expected on front end
+3,Code cleaning for user notes
+4,No parent categories showing in one scenario
+5,ACL Issues when user has edit (but not create) permission in specific categories.
+6,Changing 'Home' to a 'External Link' or 'Menu Item Alias' causes '404 Component Not Found' error on
+7,Templates are still available for assignment after being unpublished
+8,When 'No Editor' is selected for user HTML still re-formats when a file is saved..
+9,Improve .htaccess rewrite efficency
+10,Temp folder has to include JPATH_ROOT for gz extension upload to work
+11,Menus creation fail with 1.5-style menus metadata: using SimpleXMLElement attributes missing (string
+12,Option to display Blog subcategory content within Blog is missing
+13,*Installation unexpectedly terminated: Method not supported for this extension type: template +
+14,Toolbar images are not properly centered over their text in IE8 - Bluestork
+15,Toggle enabled state in User Manager
+16,Bug in profile edition on admin side
+17,the filter 'Hide protected extensions' is selected when all extensions are selected
+18,Fix a couple of issues related to path configuration
+19,No empty menus in menu
+20,Fix various IE7 issues with Hathor
+21,Web services configuration option still there
+22,Can't bulk delete users
+23,Menu views blanked out in menu item type select modal in Hathor
+24,More PHP strict compatibility fixes
+25,Move hardcoded bluestork image in mod_logged to media/system
+26,In Chrome the pagination buttons are misaligned in admin Hathor plus remove duplicate css
+27,View administrator/index.php?option=com_languages&view=installed displays site AND admin languag
+28,Article editor fails to define global settings if plugin disabled and still set at default
+29,Hathor security css and image update/fixes
+30,A couple of possible extraneous images in Admin
+31,Backend com_languages XXS
+32,Hathor security review fixes
+33,Fix background color in high contrast batch fieldsets
+34,Refresh Cache in Extension Manager: Failed loading XML file
+35,"3rd party components install in location ""site"" instead of ""administrator"""
+36,Inconsistent term for User Group
+37,*PHP warning in extension manger
+38,User Profile Date showing wrong Birthday date
+39,Language fixes and new warnings for com_installer
+40,Multiple groups are a problem in the user manager
+41,Improve the cpanel of admin templates + correting some errors
+42,Improve the Directory Permissions in com_admin
+43,Templates filter searches all extensions
+44,Don't always load Mootools (More) in the backend.
+45,Administrator (with a capital A) does weird stuff
+46,Problems with aliases when there is a menu alias menu type
+47,Missing messages for some menu item types having no Basic Options
+48,Incorrect redirection after saving an admin module
+49,Alternative Layout Not Implemented in com_search com_users
+50,*Systeminformation > Directory Permissions: List incomplete
+51,Cant set template style
+52,Logout in administration menu not working
+53,New feature: Add Site name after Page title
+54,Can't insert image for menu item
+55,Incorrect call of onUserBeforeSave while blocking/activating user in backend plugins aren't loaded
+56,Batch actions for articles
+57,*Editing template files is impossible if Codemirror and editor None are disabled
+58,Menu type manager slows down considerably as menu tree gets larger
+59,Don't render when it has no content.
+60,Disabling admin module Title breaks layout
+61,The com_config component does not refresh current component page when clicking on Save & Close
+62,Remove the module position preview icons if the option is disabled
+63,Template and module managers using different icons for duplicate
+64,Recursive permanent deletion of nested categories
+65,Plug-in Manager problem mixing pagination and filter
+66,Text Filter settings ignored in Category Manager
+67,Plug-Ins Manager missing string on no results
+68,Fatal PHP Error on calling method JMenuSite::getDefault() in Administrator
+69,Joomla! automatically adds the From email address to the Replyto email array
+70,Unexpected behavior of children in Categories and Menu Items
+71,Wrong # cols in tfoot of Installer view from com_languages
+72,Remove diff files from installation folder
+73,Search Result Menu
+74,Strict standards: Declaration of CategoriesModelCategory
+75,Strict standards: Declaration of TemplatesModelStyle
+76,Menu item save as copy does not work
+77,*Batch language action broken for categories.
+78,Add a Admin Menu Item for adding a New User Notes Category
+79,Fixing Update Notification to call specific icons
+80,Extension Database screen has malformed slider with no errors
+81,JInstaller: :Install: Error on upgrade 1.7.3 to 2.5 Beta 1
+82,SQL Date issue
+83,Setting a home menu item with language duplicates the menu
+84,* regression : Message when trashing/publishing/etc. items does not reflect anymore the number of it
+85,Double Slashes with CodeMirror use
+86,Smart Search patch to show warning if content plug-in not enabled
+87,Code style fix and Hathor CSS fixes to Extensions/Installer
+88,Clean up of various things in com_templates
+89,Smart Search indexing does not properly account for item published states
+90,Web links metadata fields missing from user interface
+91,logs/error.php visible to anyone
+92,Hathor Global configuration not working
+93,*Smartsearch remaining issues after commit #27565 **
+94,Add a context to onGetIcon event
+95,*Regression: Debug on breaks template assignments to menu items
+96,Tracker #27896 messed up CSS in Hathor control panel
+97,Php errors in smart search content map tab in Hathor
+98,image float issues
+99,com_users fail to redirect properly on login failure
+100,User Notes breaks admin login for some groups
+101,Incorrect check in page_heading in weblinks
+102,More autoformatting fixes
+103,End of line inconsistencies
+104,Remove calls to import() that are now handled by the platform
+105,Fix some E_STRICT warnings
+106,strict standards on initialise
+107,PHP 5.3 Strict Mode complains aboiut Strict Standards on some methods
+108,another strict when click on image tab in editor area
+109,*Strict standards BannersModelBanners::getItems()
+110,*Simplifying code for copy title/alias for menu item
+111,Use JDate::toSql()
+112,Remove unnecessary import calls and fix up docblocks
+113,*Strict in com_users
+114,Fix the use of several deprecated functions
+115,Tweaks to CLI scripts
+116,Updates for Finder plugins
+117,Fix JFormFieldFilters
+118,Strict Standards: and other finder bugs
+119,Author tag in xml
+120,Smart Search - Duplicate Code Cleanup Strict Errors with FinderControllerUpdater
+121,SQL Server - Fix MySQL Specific Query in administrator/includes/application.php
+122,Remove the use of more deprecated functions
+123,Remove files that are now linked
+124,Strict standards: Module manager
+125,Notice errors in Hathor article edit
+126,Strict standards: Declaration of LanguagesModelLanguage::delete() should be compatible with that of
+127,*Strict error when creating/editing a Content Language
+128,Last updated on article without updating it bugs
+129,JComponentHelper::renderComponent assumes $app variable unchanged
+130,Some queries not correctly dealing with trash
+131,user registration model should always use frontend urls
+132,Extension manager - modules status
+133,Duplicated (unnecesary) pagination code in featured contact's default_items.php
+134,Unused code Com_Contact
+135,Article button for wysiwyg creating links different from links created by menu items
+136,*Articles filtering parameters not implemented for Contacts 'Other information'
+137,Spelling mistake in com_menu function name incorrect
+138,Sorting broken in com_contact single category view
+139,"*Type display in Plugin Manager ""Select Type"" filter dropdown broken"
+140,MenusHelper::getAssociations() returns invalid data if no associations
+141,undefined $option com_media
+142,Update finder to 2.5 databases cleaning
+143,Smart Search db errors on upgraded 1.7.2 to 2.5 b1
+144,Smart Search index does not auto update
+145,Bad character in Smart Search newsfeeds plug-in
+146,Incorrect route created by Smart Search contact plug-in
+147,Smart Search caching issues.
+148,*patch for captcha fields on reset remind and contact forms
+149,Smart Search - Fix use of CHAR_LENGTH MySQL command
+150,"SQL Server - Language column in grids displays as ""Undefined"" if item language set to All"
+151,Smart Search sorting issues**
+152,*Finder search broken because of filters Country and Region
+153,Com_content arrticle view params: image and links -> Position Links/URLS
+154,error saving _finder_tokens with big articles
+155,Smart Search stemmer support not working**
+156,SQL Server - Cannot access Smart Search Filter Edit View
+157,com_newsfeeds fix - mysql specific query fixed
+158,Two fixes to Database files to support seamless installation on multidb
+159,Add the #__user_notes table in sqlsrv and sqlazure
+160,get_table_constraints renamed to getTableConstraints to support backup in sqlserver
+161,SQLServer nameQuote
+162,toSQL Date format
+163,SQLQuery with function!
+164,Group by clause in articles missing 2 new columns
+165,Menu Manager error: Strict standards: Declaration of MenusModelItem::batch()
+166,"NameQuote missing for sqlsrv to handle reserved words like ""option"""
+167,Query issue in SQLServer
+168,com_config - db query standardized
+169,SQLAzure /SQLServer specific -- duplicate class loader issue
+170,Finder schema to support SQLServer
+171,Error in opening Joomla 2.5 website if no database available
+172,Sample Data for SQLServer and SQLAzure
+173,Usernotes had db specific query
+174,Issue with replacePrefix -- valid only for SQLServer
+175,PHP Strict error for SQLServer
+176,unique identifier it convert into corresponding text.
+177,sample sites - category not found
+178,Toggle registered users in user manager
+179,Sort in Users management - backend
+180,SQL Server - Error updating #__schemas table
+181,"Smart Search - ""web page not found error"""
+182,500 error in Language Manager - DB specific
+183,404 category not found - due to syntax change in platform
+184,500 error in Tempaate Manager - DB specific
+185,server not found error in Extension Manager - DB specific
+186,Internationalization support for Joomla on SQLAzure is breaking.
+187,SQL Server - Smart Search Statistics view fails to load
+188,Update MooTools to version 1.4 and SqueezeBox to 1.3
+189,Module template and plugin preprocess forms not passing content group or any group to allow editin
+190,Front end clear link for media field and file field closes form
+191,Adding 'Last' in menu item ordering
+192,JFormFieldTimezone default value not set
+193,Use the new JFormFieldPlugins
+194,Use the new url filtering for fields
+195,JForm issue with Fabrik - proposed solution
+196,Something in 22409 broke frontend editing of weblinks
+197,Wrong length of #__newsfeeds alias column in joomla.sql
+198,Remove the prefix check in the installation since it's buggy
+199,* Bug in preinstall check
+200,*Installation problem on step 1 - server without JSON
+201,JInstaller::getInstance() not returning a global object
+202,Update version information and add new extensions to installation
+203,Global Text Filter Default values not added to joomla.sql
+204,Step 6 of Joomla 2.5b1 Installation CSS/Layout errors
+205,Failed loading XML file mod_finder_status.xml
+206,*Add a check for Magic Quotes GPC to the installation
+207,*Multidb: can not install without mysql support
+208,PHP 5.4 (E_STRICT): installation fails due to strict warnings
+209,Database check feature improvements
+210,Installation Folder not directory
+211,In banners module open link in popup window does not work.
+212,Fix JavaScript that relies on MooTools 1.2 **
+213,Fix some of the new Javascript
+214,Smart Search Filter / Fx.Scroll
+215,"Cache calls function ""getHeadData"" which is not defined in ""JDocumentRaw"""
+216,Replace deprecated method getEscaped
+217,Backward compatibility issue with JRules() and JRule()
+218,Error in sql query
+219,*Error on uninstalling language pack since 2.5beta
+220,Menu items of different languages can't have same alias menu items are cached for each user
+221,*Login Module redirects issue with multilanguage
+222,Inaccurate language string for empty Introtext
+223,Unable to add a trashed Content Language again
+224,Language String Changes for Consistency
+225,bad english in en-GB.mod_syndicate.ini
+226,*Validation through W3C broken on multilanguage sites
+227,Backend or back-end
+228,centred spelling en-GB
+229,sef or SEF
+230,normally not normaly - spelling
+231,Logged in or Logged-in
+232,template component language
+233,Login component language
+234,utilize not en-GB
+235,customize not en-GB
+236,Capitalise quick icon
+237,*Alternate meta tags for multilingual sites
+238,Untranslated strings in Smart Search module
+239,Missing capitalisation in en-GB.com_users.ini
+240,Finder / Smart Search language
+241,* Smart Search ALL language displays as *
+242,Capitalisation of extension names in language files
+243,Move Smart Search content type-specific language strings into their respective plug-ins
+244,Link in Plug-in Manager: System - Language Code
+245,Give contact email label its own string
+246,Email or e-mail inconsistency
+247,id or ID inconsistency
+248,br fixes
+249,URL capitalisation
+250,itemID consistency
+251,UTF-8 consistency
+252,Remove unused strings from en-GB.com_finder.sys.ini
+253,Improve tool tip and label for manage permission
+254,*Useless 'language' information in Sys info
+255,Duplicated keys at language files.
+256,"Inconsistency of ""Status"" translation in plugin and user manager"
+257,trouble with broken Intro image
+258,Unescaped code in com_content
+259,com_media image button upload using file_path not image_path param for base path**
+260,"Menu items don't become active (i.e. highlight) if the Menu Item Type is ""Menu Item Alias"""
+261,Link to users profiles on latest user and whos online
+262,Broken module chrome when using 'New window without navigation'
+263,Fatal error: Call to undefined method JDocumentFeed::getHeadData() in /home/content/53/8127853/html/
+264,When Global Cache enabled sub menus don't expand
+265,modMenuHelper references non-existent parameter
+266,Wrong module language file names in mod_articles_popular.xml
+267,Search from smart search module is producing two item ids. **
+268,Active taxonomy nodes are ignored in Smart Search module
+269,JForm::getGroup() not properly generating nested group names
+270,Error removing styles in uninstall function
+271,JHtml::_('grid.boolean' $i $value) should add void(0) if not given a task
+272,Media form field is not allowed access to media manager in the front end
+273,wrong behaviour of libraries/joomla/application/module/JModuleHelper:moduleCache()
+274,Follow on to 25462 for plugin uninstall
+275,Joomla automatic add meta robots=index follow
+276,Add a context to JHtmlContent::prepare
+277,Class 'JRequest' not found in session.php
+278,Wrong default format in JParameter->bind()
+279,Contacts Component sets Reply-To incorrectly in 1.7
+280,Inconsistent operation of user field type
+281,Forgotten JRoute:_ in JControllerForm
+282,Wrong parameter to validation error
+283,Problems by usergroups with the same name.
+284,Collection updater not working in Joomla! 1.7
+285,Strict standard error in JCache::_getStorage()
+286,Adding the possibility to automatically load (un)compressed css and js file whether debug in on or o
+287,Move garbagecron.txt to the cli folder.
+288,Backport the autoloader from the platform
+289,More syncing with platform 11.3
+290,Test CMS migration for platform 11.3
+291,Invalid foreach in com_content route*
+292,Strict standards: News feeds do not display when error_reporting is set to E_STRICT
+293,Start fading out the use of deprecated platform APIs
+294,Catch up to the current platform
+295,Missing platform change for update notification
+296,Synch up with platform changes as of CMS beta 2.5
+297,Fatal error: Cannot access protected property JLibraryManifest::$libraryname
+298,*Useless replacement for alias in filter output
+299,Update Generator Tag
+300,Backport some fixes from the platform
+301,protected function dayToString($day $abbr = false) Why protected
+302,Backport joomla platform pull requests #704 #718 #738 #739 #746 and #747.
+303,JFormField uses get_called_class method that is not compatible with PHP 5.2.4
+304,*JLanguage: Avoid BOM error when debug as BOM is OK when using parse_ini
+305,"""Image"" button in tinyMCE is missing when creating new content"
+306,Profile Plugin is not allowing different settings for register and profile
+307,Fields with multi select in the profile won't work**
+308,Update TinyMCE to 3.4.7
+309,Page Navigation rel next/prev back to front
+310,Authentication plugins use deprecated features of joomla platform
+311,*Some search plugins do not query for the created date
+312,plg_profile: Missing server side validation
+313,Fix: Debug plugin reloaded tm
+314,Add appropriatestyling to system debug plugin
+315,* Plugin redirect patch
+316,script.php needs to delete one more folder
+317,JS Error: #plg_quickicon_joomlaupdate does not exist
+318,Smart Search search term highlighting not working**
+319,Smart search content plug-in screen name
+320,Move the debug CSS to its own file
+321,reCaptcha is installing as default in Global Config causing errors on frontend
+322,reCaptcha always shows up in english
+323,mod_status is mirroring incorrect in RTL admin panel
+324,Fix missing article itemid in com_contact
+325,web.config malfunction - need IIS tester
+326,Incorrect Article Order in Sample Data
+327,Modify default permissions for Admin Group
+328,Configuration.php-dist for multi-db
+329,Sample Data for SQLServer and SQLAzure sync
+330,*Updating 1.7.0 with 2.5 beta update package does not install Finder
+331,Review and corrections to sample content
+332,Errors in joomla.sql
+333,There is an unneeded row in sample data
+334,Default Beez templates hard coded paths
+335,Pagination and page navigation in default templates can look broken in front end.
+336,Joomla! Administration Login box has very SMALL margin at the bottom.
+337,Implement a administrator/templates/hathor/html/com_users/notes/default.php layout in hathor plus ot
+338,Options have replaced preferences
+339,Changesearch/ finder template image references
+340,Beez 5 has a Beez 2 language key
+341,Bluestork template image error
+342,Move the highlighter CSS to templates/system/css/system.css
+343,The new links in article lack styling flexibility plus fix invalid html
+344,*Syntax error in templates.php
+345,float of full article image is not affected at all
+346,When adding a new item from a category view that category should be selected**
+347,(patch) Enhancement to update listing to show infourl items
+348,Add back search/finder images
+349,*Smart Search does not show up in fliter
+350,Finder / Smart Search selectbox order
+351,Missing or incorrect help screen key references
+352,*regression: Multilanguage template styles do not display flags when homes set for a Content languag
+353,Option to disable Smart Search autocompleter missing from user interface
+354,Indicate unpublished categories in category edit drop down
+355,unexpected behaviour in RSS with feed email

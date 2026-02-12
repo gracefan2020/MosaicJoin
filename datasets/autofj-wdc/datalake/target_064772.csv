@@ -1,0 +1,152 @@
+id,title
+0,gc buffer busy
+1,latch: cache buffers chains
+2,enq: HW - contention
+3,gc cr block busy
+4,log file sync
+5,db file sequential read
+6,gc cr multi block request
+7,enq: UL - contention
+8,log file parallel write
+9,gc cr block 2-way
+10,cursor: pin S wait on X
+11,db file parallel write
+12,wait for scn ack
+13,enq: TX - index contention
+14,gcs log flush sync
+15,DFS lock handle
+16,buffer busy waits
+17,cr request retry
+18,latch: undo global data
+19,gc current block 2-way
+20,read by other session
+21,row cache lock
+22,enq: FB - contention
+23,gc current multi block request
+24,gc current grant busy
+25,enq: TX - row lock contention
+26,SQL*Net more data to client
+27,gc current block busy
+28,latch: object queue header operation
+29,library cache lock
+30,enq: TX - contention
+31,gc cr grant 2-way
+32,enq: SQ - contention
+33,enq: KO - fast object checkpoint
+34,SQL*Net more data from client
+35,library cache load lock
+36,gc current grant 2-way
+37,SQL*Net message to client
+38,global enqueue expand wait
+39,gcs drm freeze in enter server mode
+40,db file scattered read
+41,latch: redo allocation
+42,buffer deadlock
+43,enq: RO - fast object reuse
+44,latch: cache buffers lru chain
+45,latch: library cache
+46,kksfbc child completion
+47,latch free
+48,reliable message
+49,wait list latch free
+50,enq: US - contention
+51,SQL*Net break/reset to client
+52,db file parallel read
+53,LGWR wait for redo copy
+54,name-service call wait
+55,enq: DV - contention
+56,gc cr block congested
+57,PX Deq Credit: send blkd
+58,os thread startup
+59,PX Deq: Signal ACK
+60,control file sequential read
+61,ksxr poll remote instances
+62,lock deadlock retry
+63,control file parallel write
+64,library cache pin
+65,latch: library cache pin
+66,gc current block congested
+67,latch: ges resource hash list
+68,rdbms ipc reply
+69,latch: gcs resource hash
+70,lock escalate retry
+71,gc recovery quiesce
+72,gc quiesce wait
+73,latch: cache buffer handles
+74,enq: TX - allocate ITL entry
+75,enq: TM - contention
+76,CGS wait for IPC msg
+77,gc cr grant congested
+78,latch: row cache objects
+79,enq: WF - contention
+80,ges global resource directory to be frozen
+81,PX qref latch
+82,local write wait
+83,gc current grant congested
+84,PX Deq: reap credit
+85,cursor: pin S
+86,enq: PS - contention
+87,undo segment extension
+88,latch: session allocation
+89,enq: CF - contention
+90,L1 validation
+91,latch: KCL gc element parent latch
+92,latch: checkpoint queue latch
+93,latch: redo writing
+94,latch: library cache lock
+95,latch: messages
+96,enq: TT - contention
+97,latch: shared pool
+98,gc current split
+99,enq: TO - contention
+100,kjbdrmcvtq lmon drm quiesce: ping completion
+101,enq: TA - contention
+102,latch: enqueue hash chains
+103,IPC send completion sync
+104,gc current retry
+105,gc cr failure
+106,latch: object queue header heap
+107,cursor: mutex S
+108,enq: DR - contention
+109,enq: KM - contention
+110,enq: MD - contention
+111,enq: CU - contention
+112,enq: PI - contention
+113,cursor: mutex X
+114,KJC: Wait for msg sends to complete
+115,enq: AF - task serialization
+116,gc current block unknown
+117,direct path read
+118,write complete waits
+119,ges2 LMON to wake up LMD - mrcvr
+120,enq: TQ - TM contention
+121,enq: TQ - DDL contention
+122,enq: MW - contention
+123,enq: DL - contention
+124,direct path write temp
+125,gc cr block lost
+126,enq: FU - contention
+127,direct path write
+128,gc cr disk read
+129,direct path read temp
+130,SQL*Net message from client
+131,pipe get
+132,gcs remote message
+133,Streams AQ: waiting for messages in the queue
+134,PX Idle Wait
+135,jobq slave wait
+136,DIAG idle wait
+137,ges remote message
+138,Streams AQ: qmn slave idle wait
+139,Streams AQ: qmn coordinator idle wait
+140,Streams AQ: waiting for time management or cleanup tasks
+141,PL/SQL lock timer
+142,PX Deq: Execution Msg
+143,PX Deq: Execute Reply
+144,PX Deq: Parse Reply
+145,PX Deq Credit: need buffer
+146,PX Deq: Join ACK
+147,PX Deq: Msg Fragment
+148,PX Deq: Table Q Normal
+149,class slave wait
+150,Streams AQ: RAC qmn coordinator idle wait

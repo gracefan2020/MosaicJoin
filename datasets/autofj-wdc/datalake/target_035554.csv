@@ -1,0 +1,45 @@
+id,title
+0,enum FrameScheme
+1,{
+2,"ON_DEMAND,"
+3,CONTINUOUS
+4,};
+5,void setRunFrameScheme(FrameScheme fs) { _runFrameScheme = fs; }
+6,FrameScheme getRunFrameScheme() const { return _runFrameScheme; }
+7,void setRunMaxFrameRate(double frameRate) { _runMaxFrameRate = frameRate; }
+8,double getRunMaxFrameRate() const { return _runMaxFrameRate; }
+9,/** Execute a main frame loop.
+10,* and installs trackball manipulator if one is not already assigned.
+11,*/
+12,virtual int run() = 0;
+13,virtual int run();
+14,"/** check to see if the new frame is required, called by run(..) when FrameScheme is set to ON_DEMAND.*/"
+15,virtual bool checkNeedToDoFrame() = 0;
+16,/** Render a complete new frame.
+17,protected:
+18,void viewerBaseInit();
+19,friend class osgViewer::View;
+20,inline void makeCurrent(osg::GraphicsContext* gc)
+21,{
+22,if (_currentContext==gc) return;
+23,releaseContext();
+24,if (gc && gc->valid() && gc->makeCurrent()) _currentContext = gc;
+25,}
+26,inline void releaseContext()
+27,{
+28,bool _quitEventSetsDone;
+29,bool _releaseContextAtEndOfFrameHint;
+30,ThreadingModel _threadingModel;
+31,bool _threadsRunning;
+32,bool _requestRedraw;
+33,bool _requestContinousUpdate;
+34,FrameScheme _runFrameScheme;
+35,double _runMaxFrameRate;
+36,BarrierPosition _endBarrierPosition;
+37,osg::ref_ptr _endRenderingDispatchBarrier;
+38,osg::ref_ptr _endDynamicDrawBlock;
+39,osg::ref_ptr _eventVisitor;
+40,osg::ref_ptr _updateOperations;
+41,osg::ref_ptr _updateVisitor;
+42,osg::ref_ptr _realizeOperation;
+43,osg::ref_ptr _incrementalCompileOperation;

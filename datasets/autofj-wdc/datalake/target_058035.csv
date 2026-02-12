@@ -1,0 +1,100 @@
+id,title
+0,Line 40 JIT. The support is limited to the follo
+1,MIPS 32-bit
+2,Power PC 32-bit and 64-bit
+3,.sp
+4,"If --enable-jit is set on an unsupported platform, compilation fails."
+5,.P
+6,A program that is linked with PCRE 8.20 or later can tell if JIT support is
+7,available by calling \fBpcre_config()\fP with the PCRE_CONFIG_JIT option. The
+8,"result is 1 when JIT is available, and 0 otherwise. However, a simple program"
+9,does not need to check this in order to use JIT. The API is implemented in a
+10,way that falls back to the interpretive code if JIT is not available.
+11,.P
+12,If your program may sometimes be linked with versions of PCRE that are older
+13,"than 8.20, but you want to use JIT when it is available, you can test"
+14,Line 64 You have to do two things to make use of
+15,\fBpcre_exec()\fP.
+16,.sp
+17,(2) Use \fBpcre_free_study()\fP to free the \fBpcre_extra\fP block when it is
+18,"no longer needed, instead of just freeing it yourself. This"
+19,ensures that any JIT data is also freed.
+20,.sp
+21,"For a program that may be linked with pre-8.20 versions of PCRE, you can insert"
+22,Line 82 this to free the study data:
+23,pcre_free(study_ptr);
+24,#endif
+25,.sp
+26,PCRE_STUDY_JIT_COMPILE requests the JIT compiler to generate code for complete
+27,matches. If you want to run partial matches using the PCRE_PARTIAL_HARD or
+28,"PCRE_PARTIAL_SOFT options of \fBpcre_exec()\fP, you should set one or both of"
+29,"the following options in addition to, or instead of, PCRE_STUDY_JIT_COMPILE"
+30,when you call \fBpcre_study()\fP:
+31,.sp
+32,PCRE_STUDY_JIT_PARTIAL_HARD_COMPILE
+33,PCRE_STUDY_JIT_PARTIAL_SOFT_COMPILE
+34,.sp
+35,The JIT compiler generates different optimized code for each of the three
+36,"modes (normal, soft partial, hard partial). When \fBpcre_exec()\fP is called,"
+37,"the appropriate code is run if it is available. Otherwise, the pattern is"
+38,matched using interpretive code.
+39,.P
+40,In some circumstances you may need to call additional functions. These are
+41,described in the section entitled
+42,".\"" HTML"
+43,Line 104 described in the section entitled
+44,".\"""
+45,below.
+46,.P
+47,"If JIT support is not available, PCRE_STUDY_JIT_COMPILE etc. are ignored, and"
+48,"no JIT data is created. Otherwise, the compiled pattern is passed to the JIT"
+49,"compiler, which turns it into machine code that executes much faster than the"
+50,normal interpretive code. When \fBpcre_exec()\fP is passed a \fBpcre_extra\fP
+51,block containing a pointer to JIT code of the appropriate mode (normal or
+52,"hard/soft partial), it obeys that code instead of running the interpreter. The"
+53,"result is identical, but the compiled JIT code runs much faster."
+54,.P
+55,There are some \fBpcre_exec()\fP options that are not supported for JIT
+56,execution. There are also some pattern items that JIT cannot handle. Details
+57,Line 121 If the JIT compiler finds an unsupported
+58,can find out if JIT execution is available after studying a pattern by calling
+59,\fBpcre_fullinfo()\fP with the PCRE_INFO_JIT option. A result of 1 means that
+60,JIT compilation was successful. A result of 0 means that JIT support is not
+61,"available, or the pattern was not studied with PCRE_STUDY_JIT_COMPILE etc., or"
+62,the JIT compiler was not able to handle the pattern.
+63,.P
+64,"Once a pattern has been studied, with or without JIT, it can be used as many"
+65,times as you like for matching different subject strings.
+66,Line 132 times as you like for matching different
+67,.rs
+68,.sp
+69,The only \fBpcre_exec()\fP options that are supported for JIT execution are
+70,"PCRE_NO_UTF8_CHECK, PCRE_NOTBOL, PCRE_NOTEOL, PCRE_NOTEMPTY,"
+71,"PCRE_NOTEMPTY_ATSTART, PCRE_PARTIAL_HARD, and PCRE_PARTIAL_SOFT."
+72,.P
+73,The unsupported pattern items are:
+74,.sp
+75,Line 222 should use. Its arguments are as follows
+76,void *data
+77,.sp
+78,The \fIextra\fP argument must be the result of studying a pattern with
+79,PCRE_STUDY_JIT_COMPILE etc. There are three cases for the values of the other
+80,two options:
+81,.sp
+82,"(1) If \fIcallback\fP is NULL and \fIdata\fP is NULL, an internal 32K block"
+83,on the machine stack is used.
+84,Line 262 This is a suggestion for how a typical m
+85,"All the functions described in this section do nothing if JIT is not available,"
+86,and \fBpcre_assign_jit_stack()\fP does nothing unless the \fBextra\fP argument
+87,is non-NULL and points to a \fBpcre_extra\fP block that is the result of a
+88,successful study with PCRE_STUDY_JIT_COMPILE etc.
+89,.
+90,.
+91,".\"" HTML"
+92,"Line 379 Cambridge CB2 3QH, England."
+93,.rs
+94,.sp
+95,.nf
+96,Last updated: 18 February 2012
+97,Copyright (c) 1997-2012 University of Cambridge.
+98,.fi

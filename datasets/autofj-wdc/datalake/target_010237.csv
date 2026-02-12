@@ -1,0 +1,101 @@
+id,title
+0,YOURS does not consider highway=tertiary_link
+1,render_list ignoring current tiles with --all parameter
+2,Can't build windows ce version
+3,OpenCyclemap: Generic path and cycleway looks identical in map-view (but different in editor-view)
+4,Text in potlatch2 start window is too small
+5,"In the search for street names in Spanish, stop words should be eliminated."
+6,"Potlatch repeatedly freezes at ""M"" key shortcut"
+7,"Ability to flag ""notes"" to be hidden or deleted when containing inappropriate text"
+8,long permalink does not add notes layer
+9,Russian geocoding support in Nominatim
+10,Errors in installation instructions in YOURS wiki
+11,--report-integrity Cannot represent 2149356848 as an integer
+12,Adress not appearing in search results
+13,[osm2shp] glibconfig.h: No such file or directory
+14,Website should redirect HTTP connections to HTTPS
+15,Resolving directional suffixes
+16,highway=cycleway next to a road make street names unreadable
+17,Missing canadian postal codes
+18,Streams not showing on OCM
+19,bicycle_parking with access=private should be less visible
+20,"Street name not rendered when specified only on the ""associatedStreet"" relation"
+21,Nominatim finds only part of the results
+22,"Barriers of all types with the key ""bicycle=no"" should be rendered"
+23,"London, UK is not found"
+24,Add ability to search GPX traces by tag
+25,Go to latest changes in your area
+26,Parse more lat/lon formats
+27,User search funciton
+28,[PATCH] Add a marker for the first point in the GPX trace
+29,Possibility to show icons on both ends of a road
+30,disable node / way / ... creation in red dot background
+31,"Add support for an ""incomplete"" attribute."
+32,Cycleways rendered differently per surface
+33,Take into account max. weight/height/width when calculating a route
+34,Nominatim web API should give possibility to download all records in certain bbox
+35,opencyclemap and car directions
+36,Scales and/or distance measurement tool
+37,api call to get the relations for a list of elements
+38,Option to convert interpolated addresses into a series of nodes.
+39,Transfer tags to relation
+40,Drag multiple nodes in Move mode
+41,Add hole to area
+42,merkaartor: allow to make nodes/roads readonly based on filter settings
+43,Add table prefix for postgis tasks
+44,Pre-upload checks
+45,Simplify ways - keep areas
+46,Parking Icons - bicycle parking
+47,street intersections
+48,Improve history view for ways by showing node-count
+49,Strange recommended cycle route
+50,surface=cobblestone should be painted on bicycle map
+51,Cycle Map should render glaciers
+52,different rendering for roads where cycling is forbidden (bicycle=no)
+53,"When relation view times out, should show simple view"
+54,please add command line switch for custom temporary directory
+55,Support for photomapping
+56,Support for simultaneous tags
+57,"Add ability to create a no_u_turn restriction with a way ""via"""
+58,Usability: 'Loading data...' indicator should be more obvious
+59,Usability: Discoverability of adding additional node in way is low
+60,Usability: Authorisation Required dialog and workflow needs reworking
+61,osmosis creates incorrect linestring geometry in simple schema
+62,Show users of a tag
+63,Additional tags are easily missed in Simple Mode
+64,Cyclemap should render surface=cobblestone
+65,i18n: make map_features i18n-ed
+66,Internationalization of UI incomplete
+67,Easily add contact information and opening_hours for local businesses (POIs)
+68,"On upload (save), a version conflict can't be resolved, user losing edits"
+69,Usability - User's can't finish/exit creating a geometry
+70,Usability: Discoverability and meaning of Advanced Tagging Tab
+71,"In simple mode, the entry for the designation tag needs better explanation"
+72,"nomination should for addres in CZ, SK should be improved (addr:conscriptionnumber, addr:streetnumber)"
+73,Show a scale on Potlatch2
+74,Add indication that a mergeable external data layer exists in current location
+75,Partial matching of addr:housenumber
+76,Potlatch2 mouse coordinate display options
+77,Support schemas for database tasks
+78,Add the VisualEditor extension to the OSM wiki
+79,Provide imagery blacklist in API capabilities
+80,Background for Austria: basemap.at
+81,Icon for mosque is cross on OpenCyclemap
+82,Retrieve objects by tag with address
+83,Error-tolerant search for house numbers with spaces
+84,"Render service:bicycle:retail, service:bicycle:repair"
+85,Rendering Proposal for amenity=social_facility
+86,Write test to verify that you cannot upload tags with ascii control chars
+87,Development of version 2
+88,Tag list only shows tags for traces on page
+89,'Error uploading request' endless loop
+90,Upload GPS Trace doesn't work and shows uninformative message
+91,half wrong key binding for Edit->Select
+92,mapnik-osm-updater.sh looks in the wrong place on Fedora 10/x86_64 for lwpostgis.sql
+93,osmisis seems to produce backslash escapes in its output
+94,non-specific data invalid error should be more focuses
+95,History viewer doesn't show the visible attribute visibly enough
+96,Sustrans milepost icons are too small at low zoom
+97,opencyclemap should render hostels and camp sites at low zoom
+98,pub rendered as postbox
+99,PGError & 500 error when given invalid Authorization: Basic string

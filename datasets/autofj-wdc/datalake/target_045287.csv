@@ -1,0 +1,293 @@
+id,title
+0,regulation of programmed cell death
+1,biological regulation
+2,regulation of establishment of protein localization
+3,lymphocyte homeostasis
+4,cell death
+5,signaling
+6,regulation of biological process
+7,death
+8,regulation of apoptotic process
+9,programmed cell death
+10,regulation of lymphocyte activation
+11,apoptotic signaling pathway
+12,cellular response to cytokine stimulus
+13,response to other organism
+14,single organism signaling
+15,regulation of leukocyte activation
+16,negative regulation of cell activation
+17,negative regulation of protein secretion
+18,positive regulation of T cell migration
+19,lymphocyte apoptotic process
+20,regulation of leukocyte proliferation
+21,prostanoid metabolic process
+22,regulation of protein secretion
+23,leukocyte apoptotic process
+24,positive regulation of lymphocyte migration
+25,regulation of inflammatory response
+26,biological_process
+27,cellular response to mechanical stimulus
+28,regulation of T cell migration
+29,cell communication
+30,regulation of cysteine-type endopeptidase activity
+31,negative regulation of leukocyte proliferation
+32,intrinsic apoptotic signaling pathway in response to DNA damage
+33,positive regulation of inflammatory response
+34,regulation of cell death
+35,fatty acid derivative metabolic process
+36,regulation of protein transport
+37,regulation of endopeptidase activity
+38,regulation of response to stimulus
+39,response to mechanical stimulus
+40,regulation of B cell activation
+41,regulation of immune system process
+42,regulation of phosphorylation
+43,cellular response to stimulus
+44,rhythmic process
+45,single-organism process
+46,regulation of JNK cascade
+47,regulation of cellular localization
+48,protein homotrimerization
+49,protein complex assembly
+50,protein complex biogenesis
+51,response to biotic stimulus
+52,regulation of sequence-specific DNA binding transcription factor activity
+53,protein trimerization
+54,positive regulation of transcription from RNA polymerase II promoter
+55,homeostasis of number of cells
+56,positive regulation of cytokine biosynthetic process
+57,macromolecular complex assembly
+58,cellular response to organic substance
+59,positive regulation of peptidyl-tyrosine phosphorylation
+60,regulation of transport
+61,adaptive immune response
+62,homeostatic process
+63,regulation of cell migration
+64,protein complex subunit organization
+65,negative regulation of cytokine secretion
+66,regulation of cell motility
+67,positive regulation of signaling
+68,positive regulation of cell communication
+69,regulation of interleukin-12 production
+70,regulation of leukocyte migration
+71,positive regulation of leukocyte migration
+72,positive regulation of cell motility
+73,positive regulation of cellular component movement
+74,positive regulation of locomotion
+75,regulation of signaling
+76,regulation of cell communication
+77,regulation of extrinsic apoptotic signaling pathway
+78,negative regulation of signal transduction
+79,response to external stimulus
+80,cellular response to abiotic stimulus
+81,cellular response to external stimulus
+82,cellular component organization
+83,cellular component assembly
+84,regulation of hydrolase activity
+85,regulation of molecular function
+86,neuron death
+87,regulation of RNA biosynthetic process
+88,regulation of nitrogen compound metabolic process
+89,"regulation of transcription, DNA-dependent"
+90,regulation of cellular macromolecule biosynthetic process
+91,regulation of RNA metabolic process
+92,regulation of macromolecule metabolic process
+93,regulation of primary metabolic process
+94,regulation of biosynthetic process
+95,negative regulation of biological process
+96,positive regulation of phosphorylation
+97,positive regulation of protein phosphorylation
+98,positive regulation of phosphorus metabolic process
+99,positive regulation of cellular protein metabolic process
+100,positive regulation of protein modification process
+101,regulation of response to stress
+102,positive regulation of biological process
+103,system development
+104,immune system development
+105,multicellular organismal development
+106,anatomical structure development
+107,single-multicellular organism process
+108,single-organism developmental process
+109,regulation of lymphocyte proliferation
+110,negative regulation of lymphocyte activation
+111,negative regulation of lymphocyte proliferation
+112,negative regulation of mononuclear cell proliferation
+113,negative regulation of alpha-beta T cell activation
+114,negative regulation of T cell activation
+115,regulation of alpha-beta T cell activation
+116,regulation of T cell proliferation
+117,regulation of stress-activated protein kinase signaling cascade
+118,regulation of stress-activated MAPK cascade
+119,regulation of MAPK cascade
+120,regulation of cellular metabolic process
+121,positive regulation of nitrogen compound metabolic process
+122,positive regulation of RNA metabolic process
+123,regulation of multicellular organismal development
+124,regulation of phosphorus metabolic process
+125,positive regulation of cellular metabolic process
+126,positive regulation of macromolecule metabolic process
+127,positive regulation of biosynthetic process
+128,organic substance metabolic process
+129,metabolic process
+130,cellular metabolic process
+131,primary metabolic process
+132,cell surface receptor signaling pathway
+133,response to molecule of bacterial origin
+134,positive regulation of leukocyte activation
+135,positive regulation of lymphocyte activation
+136,positive regulation of T cell activation
+137,response to chemical stimulus
+138,response to stress
+139,cellular process
+140,small molecule metabolic process
+141,oxoacid metabolic process
+142,organic acid metabolic process
+143,cellular lipid metabolic process
+144,carboxylic acid metabolic process
+145,regulation of adaptive immune response
+146,positive regulation of protein transport
+147,positive regulation of secretion
+148,regulation of cytokine production involved in immune response
+149,regulation of cytokine secretion involved in immune response
+150,positive regulation of cytokine secretion
+151,regulation of protein modification process
+152,regulation of cellular protein metabolic process
+153,response to stimulus
+154,single-organism cellular process
+155,regulation of cellular process
+156,cellular component organization or biogenesis
+157,regulation of metabolic process
+158,multicellular organismal process
+159,developmental process
+160,single-organism metabolic process
+161,immune system process
+162,multi-organism process
+163,signal transduction
+164,positive regulation of response to stimulus
+165,regulation of phosphate metabolic process
+166,response to organic substance
+167,cellular response to chemical stimulus
+168,regulation of multicellular organismal process
+169,regulation of localization
+170,regulation of signal transduction
+171,negative regulation of cellular process
+172,response to abiotic stimulus
+173,cellular component biogenesis
+174,macromolecular complex subunit organization
+175,regulation of catalytic activity
+176,regulation of nucleobase-containing compound metabolic process
+177,regulation of gene expression
+178,regulation of cellular biosynthetic process
+179,regulation of macromolecule biosynthetic process
+180,organ development
+181,regulation of developmental process
+182,positive regulation of metabolic process
+183,positive regulation of cellular process
+184,regulation of protein metabolic process
+185,response to oxygen-containing compound
+186,cellular response to stress
+187,monocarboxylic acid metabolic process
+188,lipid metabolic process
+189,regulation of biological quality
+190,regulation of cell activation
+191,response to cytokine stimulus
+192,regulation of cytokine production
+193,defense response
+194,regulation of cell proliferation
+195,response to wounding
+196,regulation of protein localization
+197,regulation of apoptotic signaling pathway
+198,negative regulation of immune system process
+199,regulation of protein phosphorylation
+200,positive regulation of immune system process
+201,hematopoietic or lymphoid organ development
+202,regulation of secretion
+203,response to bacterium
+204,regulation of peptidase activity
+205,fatty acid metabolic process
+206,negative regulation of transport
+207,positive regulation of signal transduction
+208,regulation of cellular component movement
+209,regulation of locomotion
+210,negative regulation of cell communication
+211,negative regulation of signaling
+212,negative regulation of response to stimulus
+213,apoptotic process
+214,protein oligomerization
+215,positive regulation of phosphate metabolic process
+216,regulation of defense response
+217,regulation of intracellular protein kinase cascade
+218,regulation of transcription from RNA polymerase II promoter
+219,positive regulation of nucleobase-containing compound metabolic process
+220,positive regulation of gene expression
+221,regulation of anatomical structure morphogenesis
+222,positive regulation of protein metabolic process
+223,positive regulation of macromolecule biosynthetic process
+224,positive regulation of cellular biosynthetic process
+225,response to lipid
+226,regulation of response to external stimulus
+227,intracellular signal transduction
+228,response to DNA damage stimulus
+229,positive regulation of transport
+230,regulation of immune response
+231,regulation of immune effector process
+232,immune response
+233,regulation of mononuclear cell proliferation
+234,cytokine-mediated signaling pathway
+235,regulation of production of molecular mediator of immune response
+236,inflammatory response
+237,extrinsic apoptotic signaling pathway
+238,leukocyte homeostasis
+239,regulation of lymphocyte migration
+240,icosanoid metabolic process
+241,unsaturated fatty acid metabolic process
+242,regulation of adaptive immune response based on somatic recombination of immune receptors built from
+243,response to lipopolysaccharide
+244,intrinsic apoptotic signaling pathway
+245,regulation of cytokine secretion
+246,negative regulation of leukocyte activation
+247,positive regulation of defense response
+248,positive regulation of response to external stimulus
+249,positive regulation of protein secretion
+250,positive regulation of cell activation
+251,regulation of cytokine biosynthetic process
+252,regulation of organ morphogenesis
+253,positive regulation of apoptotic signaling pathway
+254,positive regulation of cell migration
+255,negative regulation of apoptotic signaling pathway
+256,protein homooligomerization
+257,cell-type specific apoptotic process
+258,regulation of peptidyl-tyrosine phosphorylation
+259,negative regulation of secretion
+260,negative regulation of protein transport
+261,negative regulation of cell proliferation
+262,regulation of cellular response to stress
+263,"positive regulation of transcription, DNA-dependent"
+264,regulation of T cell activation
+265,signal transducer activity
+266,transmembrane signaling receptor activity
+267,cytokine binding
+268,protein binding
+269,growth factor binding
+270,small conjugating protein ligase binding
+271,molecular_function
+272,signaling receptor activity
+273,binding
+274,molecular transducer activity
+275,receptor activity
+276,enzyme binding
+277,cell periphery
+278,membrane part
+279,plasma membrane part
+280,extracellular region
+281,neuron part
+282,cell part
+283,cell
+284,cellular_component
+285,membrane
+286,plasma membrane
+287,extracellular region part
+288,cell projection
+289,cell surface
+290,neuron projection
+291,external side of plasma membrane

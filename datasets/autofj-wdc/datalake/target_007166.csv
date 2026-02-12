@@ -1,0 +1,61 @@
+id,title
+0,Fix warningsdefault tip lyh
+1,Merge the official development
+2,"legend.m: Text objects should inherit textcolor, interpreter properties from legend (bug #40064)."
+3,ellipj: Move numerical code into liboctave
+4,-Werror at JIT related files
+5,Fully uint32 type support
+6,Fully uint64 type support
+7,Fully uint8 type support
+8,Fully int32 type support
+9,Fix int16 type comments
+10,Fully int16 type support
+11,Merge the official development
+12,make fltk the default graphics toolkit
+13,linsolve.m: Use Octave coding conventions.
+14,linsolve.m: Add new function for Matlab compatibility.
+15,doc: Fix recommendation on where to put spaces around parens
+16,-Werror at libinterp/corefcn/jit-typeinfo.cc
+17,Fix int8 type sub
+18,Fully int64 type support
+19,Fully int8 type support
+20,Merge the official development
+21,text.m: Match variable names to documentation.
+22,graphics_toolkit.m: Adjust spacing in docstring.
+23,ndgrid.m: Add explanation of differences with meshgrid to docstring.
+24,hidden.m: Fix hidden so that it also works for trimesh objects.
+25,Fully uint16 type support
+26,Fix uminus op support with scalar type
+27,Merge the official development
+28,"sombrero.m: Return meshgridded x,y rather than vectors."
+29,meshgrid.m: Close @code{} macro in docstring.
+30,Merge the official development
+31,surfl.m: Overhaul function.
+32,meshgrid.m: Overhaul function.
+33,svds.m: Increase tolerance in test.
+34,isprop.m: Overhaul function.
+35,hist.m: Overhaul function.
+36,Fully single type support & clean the code
+37,Merge the official development
+38,"doc: Add seealso links between hggroup, addproperty, addlistener."
+39,guihandles.m: Overhaul function.
+40,guidata.m: Overhaul function to use modern Octave conventions.
+41,"doc: Add seealso links between waitfor, waitforbuttonpress, and ginput."
+42,es_ES.ts: Update of spanish GUI translations from Valentin
+43,"doc: Add to documentation for gca, gcf."
+44,gcbf.m: Ignore unused returned argument from gcbo with '~'.
+45,doc: Redo fplot docstring.
+46,doc: Fix a typo in findobj docstring.
+47,findfigs.m: Overhaul function.
+48,maint: Correct indentation for several plot routines.
+49,cylinder.m: Correct indentation.
+50,__contour__.m: Ignore dummy input in all listener functions.
+51,allow objects to load if constructor fails but loadobj method succeeds
+52,feather.m: Overhaul function for Matlab visual compatibility.
+53,compass.m: Add %!error input validation tests.
+54,Overhaul contour labeling functions.
+55,improve interpreter tex Tables
+56,assert.m: Replace repmat call with const*ones(...) for ~23% speed-up
+57,assert.m: Speed up function by ~16% by not pre-calculating warning message.
+58,__contour__.m: Overhaul function.
+59,bump version number to 3.7.7+

@@ -1,0 +1,32 @@
+id,title
+0,=head2 TABLESPACES
+1,"If I will detect additional tablespaces, they will be"
+2,also compressed to generated tarball.
+3,"Since full path to tablespace directory is important, and should be preserved,"
+4,"and normally tar doesn't let you store files which path starts with ""/"" (as it"
+5,"would be dangerous), I uses following approach:"
+6,"all tablespaces will be stored in tar, and upon extraction they will be put in"
+7,"directory ""tablespaces"", and under it - there will be full path to tablespace"
+8,directory.
+9,For example:
+10,"Assuming PostgreSQL PGDATA is in /var/lib/pgsql/data, and it has 3 extra"
+11,tablespaces placed in:
+12,=over
+13,=item * /mnt/san/tablespace
+14,=item * /home/whatever/xxx
+15,=item * /media/ssd
+16,=back
+17,generated DATA tarball will contain 2 directories:
+18,=item * data - copy of /var/lib/pgsql/data
+19,=item * tablespaces - which contains full directory structure leading to:
+20,=over
+21,=item * tablespaces/mnt/san/tablespace - copy of /mnt/san/tablespace
+22,=item * tablespaces/home/whatever/xxx - copy of /home/whatever/xxx
+23,=item * tablespaces/media/ssd - copy of /media/ssd
+24,=back
+25,=back
+26,"Thanks to this approach, if you'll create symlink ""tablespaces"" pointing to root"
+27,directory (I) B exploding tarball - all tablespace
+28,files will be created already in correct places. This is of course not
+29,"necessary, but will help if you'd ever need to recover from such backup."
+30,=head2 EXAMPLES

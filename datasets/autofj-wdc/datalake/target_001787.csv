@@ -1,0 +1,84 @@
+id,title
+0,Create a group
+1,Delete a group
+2,View a group (across Group)
+3,Edit a group (across Group)
+4,Create a user
+5,Delete a user
+6,View a user (across Group)
+7,Edit a user (across Group)
+8,View a device (across Group)
+9,Edit a device (across Group)
+10,View device activation settings
+11,Edit device activation settings
+12,Create an IT policy
+13,Delete an IT policy
+14,View an IT policy
+15,Edit an IT policy
+16,Import an IT policy
+17,Export a data file
+18,Create a user-defined IT policy template
+19,Delete a user-defined IT policy template
+20,Edit a user-defined IT policy template
+21,Import an IT policy template
+22,Create a software configuration
+23,View a software configuration
+24,Edit a software configuration
+25,Delete a software configuration
+26,Create an application
+27,View an application
+28,Edit an application
+29,Delete an application
+30,Create an administrator user
+31,Specify an activation password
+32,Generate an activation email
+33,Assign the current device to a user
+34,Turn off and on external services
+35,Clear activation password
+36,Clear synchronization backup data
+37,Clear user statistics
+38,Reset user field mapping
+39,Turn on redirection
+40,Turn off redirection
+41,Refresh available user list from company directory
+42,Synchronize GroupWise System Address Book
+43,Clear and synchronize GroupWise System Address Book
+44,View a server
+45,Edit a server
+46,View a component
+47,Edit a component
+48,View an instance
+49,Edit an instance
+50,Change the status of an instance
+51,Edit an instance relationship
+52,View a job
+53,Edit a job
+54,View default distribution settings for a job
+55,Edit default distribution settings for a job
+56,Update peer-to-peer encryption key
+57,View job distribution settings
+58,Edit job distribution settings
+59,Delete an instance
+60,Edit license keys
+61,License key view
+62,Manually fail a job
+63,Clear instance statistics
+64,Clear statistics for a BlackBerry MDS Connection Service instance
+65,View push rules for the BlackBerry MDS Connection Service
+66,View pull rules for the BlackBerry MDS Connection Service
+67,Send message (across Group)
+68,Create a role
+69,Delete a role
+70,View a role
+71,Edit a role
+72,Add and remove a role (across Group)
+73,View a group across organizations
+74,Edit a group across organizations
+75,Add and remove a role across organizations
+76,View a device across organizations
+77,Edit a device across organizations
+78,Register an event notification
+79,Create an event notification
+80,Edit a BlackBerry Administration Service timer
+81,View BlackBerry Monitoring Service information
+82,Edit BlackBerry Monitoring Service settings

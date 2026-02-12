@@ -1,0 +1,290 @@
+id,title
+0,embryonic epithelial tube formation
+1,neural tube formation
+2,neural tube closure
+3,regulation of sodium ion transport
+4,regulation of systemic arterial blood pressure
+5,regulation of DNA repair
+6,protein targeting
+7,protein targeting to vacuole
+8,Golgi organization
+9,vacuolar transport
+10,transmembrane receptor protein serine/threonine kinase signaling pathway
+11,single fertilization
+12,sex differentiation
+13,biological_process
+14,metabolic process
+15,female gonad development
+16,catabolic process
+17,macromolecule catabolic process
+18,regulation of catabolic process
+19,cellular process
+20,negative regulation of organelle organization
+21,primary neural tube formation
+22,regulation of phosphatidylinositol 3-kinase cascade
+23,positive regulation of phosphatidylinositol 3-kinase cascade
+24,viral process
+25,endosomal transport
+26,modification-dependent protein catabolic process
+27,regulation of cell migration
+28,intracellular receptor signaling pathway
+29,prostate gland development
+30,regulation of histone modification
+31,negative regulation of protein ubiquitination
+32,positive regulation of transporter activity
+33,regulation of ion transmembrane transporter activity
+34,protein modification by small protein conjugation
+35,regulation of chromosome organization
+36,tube formation
+37,protein modification process
+38,ovulation cycle
+39,macromolecule metabolic process
+40,negative regulation of ion transport
+41,macromolecule modification
+42,modification-dependent macromolecule catabolic process
+43,cellular metabolic process
+44,primary metabolic process
+45,cellular protein catabolic process
+46,cellular protein metabolic process
+47,single-organism process
+48,development of primary sexual characteristics
+49,positive regulation of protein catabolic process
+50,female sex differentiation
+51,rhythmic process
+52,negative regulation of biological process
+53,negative regulation of DNA metabolic process
+54,proteolysis involved in cellular protein catabolic process
+55,tube closure
+56,biological regulation
+57,organic substance metabolic process
+58,protein localization to vacuole
+59,establishment of protein localization to vacuole
+60,regulation of cell junction assembly
+61,regulation of chromatin organization
+62,regulation of cellular macromolecule biosynthetic process
+63,regulation of double-strand break repair
+64,regulation of RNA biosynthetic process
+65,negative regulation of chromosome organization
+66,positive regulation of ion transmembrane transporter activity
+67,regulation of cation channel activity
+68,negative regulation of macromolecule metabolic process
+69,regulation of response to DNA damage stimulus
+70,regulation of primary metabolic process
+71,regulation of macromolecule metabolic process
+72,regulation of cellular metabolic process
+73,regulation of response to stress
+74,protein localization
+75,cellular protein localization
+76,cellular macromolecule localization
+77,establishment of protein localization
+78,cellular component organization
+79,membrane organization
+80,multicellular organismal development
+81,single-organism developmental process
+82,anatomical structure development
+83,negative regulation of nucleobase-containing compound metabolic process
+84,regulation of nitrogen compound metabolic process
+85,regulation of biological process
+86,regulation of response to stimulus
+87,circulatory system process
+88,positive regulation of biological process
+89,positive regulation of macromolecule metabolic process
+90,regulation of RNA metabolic process
+91,regulation of biosynthetic process
+92,regulation of molecular function
+93,"regulation of transcription, DNA-dependent"
+94,negative regulation of molecular function
+95,regulation of sequence-specific DNA binding transcription factor activity
+96,establishment of localization
+97,transport
+98,single-organism transport
+99,multicellular organism reproduction
+100,endocytosis
+101,negative regulation of cellular metabolic process
+102,negative regulation of cellular protein metabolic process
+103,regulation of protein modification process
+104,regulation of cellular protein metabolic process
+105,intracellular transport
+106,establishment of localization in cell
+107,regulation of transmembrane transporter activity
+108,regulation of ion transmembrane transport
+109,reproductive structure development
+110,urogenital system development
+111,reproductive process
+112,cell communication
+113,signaling
+114,single organism signaling
+115,regulation of cell motility
+116,"symbiosis, encompassing mutualism through parasitism"
+117,interspecies interaction between organisms
+118,positive regulation of cell communication
+119,positive regulation of signaling
+120,regulation of signaling
+121,regulation of cell communication
+122,morphogenesis of an epithelium
+123,embryo development
+124,response to osmotic stress
+125,system development
+126,cell surface receptor signaling pathway
+127,cellular response to stimulus
+128,response to stress
+129,intracellular protein transport
+130,regulation of transport
+131,regulation of metal ion transport
+132,tube morphogenesis
+133,epithelial tube morphogenesis
+134,chordate embryonic development
+135,single-multicellular organism process
+136,protein metabolic process
+137,multicellular organismal process
+138,developmental process
+139,cellular macromolecule metabolic process
+140,regulation of metabolic process
+141,regulation of cellular process
+142,cellular component organization or biogenesis
+143,localization
+144,response to stimulus
+145,single-organism cellular process
+146,cellular protein modification process
+147,regulation of localization
+148,macromolecule localization
+149,cellular catabolic process
+150,regulation of protein metabolic process
+151,organic substance catabolic process
+152,positive regulation of molecular function
+153,anatomical structure morphogenesis
+154,system process
+155,positive regulation of metabolic process
+156,regulation of macromolecule biosynthetic process
+157,regulation of cellular biosynthetic process
+158,regulation of nucleobase-containing compound metabolic process
+159,regulation of gene expression
+160,organic substance transport
+161,negative regulation of metabolic process
+162,negative regulation of cellular process
+163,regulation of cellular component organization
+164,cellular localization
+165,reproduction
+166,signal transduction
+167,regulation of multicellular organismal process
+168,multi-organism process
+169,positive regulation of cellular process
+170,positive regulation of response to stimulus
+171,regulation of signal transduction
+172,nervous system development
+173,response to abiotic stimulus
+174,organ development
+175,organelle organization
+176,cellular response to stress
+177,regulation of biological quality
+178,tissue development
+179,proteolysis
+180,response to DNA damage stimulus
+181,blood circulation
+182,negative regulation of cell communication
+183,sexual reproduction
+184,negative regulation of signaling
+185,protein catabolic process
+186,regulation of ion transport
+187,cellular macromolecule catabolic process
+188,negative regulation of response to stimulus
+189,positive regulation of transport
+190,negative regulation of transport
+191,protein modification by small protein conjugation or removal
+192,negative regulation of cellular component organization
+193,regulation of cellular component biogenesis
+194,negative regulation of nitrogen compound metabolic process
+195,protein localization to organelle
+196,growth
+197,tube development
+198,anatomical structure formation involved in morphogenesis
+199,positive regulation of protein metabolic process
+200,multicellular organismal reproductive process
+201,vesicle-mediated transport
+202,cellular process involved in reproduction
+203,negative regulation of protein metabolic process
+204,regulation of organelle organization
+205,cytoplasmic transport
+206,reproductive system development
+207,gland development
+208,developmental process involved in reproduction
+209,regulation of locomotion
+210,regulation of cellular component movement
+211,positive regulation of signal transduction
+212,tissue morphogenesis
+213,embryonic morphogenesis
+214,single organism reproductive process
+215,enzyme linked receptor protein signaling pathway
+216,protein transport
+217,embryo development ending in birth or egg hatching
+218,epithelium development
+219,ubiquitin-dependent protein catabolic process
+220,regulation of blood pressure
+221,gonad development
+222,fertilization
+223,response to salt stress
+224,positive regulation of catabolic process
+225,morphogenesis of embryonic epithelium
+226,protein ubiquitination
+227,ovulation cycle process
+228,regulation of protein ubiquitination
+229,regulation of transporter activity
+230,regulation of transmembrane transport
+231,regulation of protein catabolic process
+232,negative regulation of sequence-specific DNA binding transcription factor activity
+233,development of primary female sexual characteristics
+234,regulation of DNA metabolic process
+235,membrane fusion
+236,epithelial tube formation
+237,establishment of protein localization to organelle
+238,regulation of cellular response to stress
+239,regulation of cellular response to growth factor stimulus
+240,developmental growth
+241,negative regulation of protein modification process
+242,negative regulation of multicellular organismal process
+243,multi-organism cellular process
+244,neural tube development
+245,protein binding transcription factor activity
+246,catalytic activity
+247,protein binding
+248,ion channel inhibitor activity
+249,channel inhibitor activity
+250,"ligase activity, forming carbon-nitrogen bonds"
+251,acid-amino acid ligase activity
+252,sodium channel regulator activity
+253,Rab GTPase binding
+254,sodium channel inhibitor activity
+255,small GTPase binding
+256,GTPase binding
+257,molecular_function
+258,transcription cofactor activity
+259,binding
+260,ligase activity
+261,enzyme binding
+262,transcription factor binding transcription factor activity
+263,channel regulator activity
+264,Ras GTPase binding
+265,small conjugating protein ligase activity
+266,Golgi membrane
+267,nucleus
+268,Golgi apparatus part
+269,organelle
+270,membrane-bounded organelle
+271,intracellular organelle
+272,cellular_component
+273,intracellular
+274,cell
+275,intracellular part
+276,cell part
+277,organelle part
+278,cytoplasm
+279,macromolecular complex
+280,intracellular membrane-bounded organelle
+281,intracellular organelle part
+282,cytoplasmic part
+283,protein complex
+284,membrane
+285,endomembrane system
+286,organelle membrane
+287,ubiquitin ligase complex
+288,Golgi apparatus

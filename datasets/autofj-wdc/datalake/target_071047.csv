@@ -1,0 +1,61 @@
+id,title
+0,Allow tags for update releases w/3 digitsdefault tip
+1,Blacklist jdk9/client/deploy fff4ff4fd6f0 (erroneous push)
+2,"Blacklist jdk/src/closed a19596796430, jdk/test/closed d2308c9714c9"
+3,Add a hook to check pushkeys
+4,Blacklist jdk9/jdk9/closed 61fdebb503d7 (bad tag)
+5,"Blacklist jdk8/tl/jdk da4b0962ad11, jdk8/tl/jdk/test/closed 1e69a1ce212c (erroneous push)"
+6,hg 2.9 compatibility - repo.branchtags() was removed
+7,Blacklist hsx/jdk7u/hotspot f5d8e6d72e23 (wrong bugid)
+8,Allow tags for jdk 9
+9,Blacklist jdk8/build/pubs 3ecd3336c805 (executable files)
+10,Whitelist hotspot/test/closed 8407fef5685f (no Reviewed-by line)
+11,A missing Reviewer line is not always detected
+12,"Blacklist bad fix for 8025034 in 5.0u55, 6u65, 7u45"
+13,Blacklist jdk8/ds/install 835ef04a36e5 (dup bugid)
+14,Blacklist hsx/hotspot-gc/hotspot 9561e0a8a2d6 (wrong bugid)
+15,Whitelist pubs changeset with an invalid bugid line
+16,Blacklist mistaken pushes to jdk7u40
+17,Restore missing lines to runtest.sh
+18,Don't collect non-numeric bugids
+19,Allow bug id line to be ignored
+20,Fix broken tags=lax test
+21,Blacklist hsx/hotspot-emb/hotspot 29ab68ef5bb6 (wrong bugid)
+22,Blacklist jdk8/nashorn tag jdk8-b78
+23,Blacklist bad fix for 8006611
+24,Blacklist bad fix for 7192390 and related csets
+25,Blacklist changesets with INTJDK bug numbers
+26,Blacklist bad merges in hsx/hsx24
+27,Rename test() to runtest() since test is a builtin in some shells
+28,Lax bugids
+29,Updated contact address
+30,Whitelist jdk8/build/pubs 45849c62c298 (executable files)
+31,Allow bugids of the form 8xxxxxx
+32,Fix unexpected-operator error in test script
+33,Fix dist target commit date
+34,Blacklist jdk7u/jdk7u5/jdk b06f6d9a6c32 (bad fix)
+35,Fix publication date/time logic
+36,Makefile cleanup and parameterization
+37,Add distribution sub-repo
+38,Move instructions to web
+39,Blacklist jdk8/2d/src/closed security fix 8c7fbf082af5
+40,Whitelist hotspot dup bug id 7147064
+41,Blacklist jdk8/build/pubs 2528f2a11170 (executable file)
+42,Blacklist jdk7u/jdk7u-dev/jaxp 24f4c1185305 (mistaken push)
+43,Allow tags=lax in .jcheck/conf
+44,Blacklist jdk8/awt/jdk f218e6bdf1e8 (dup bugid 7100054)
+45,Ignore local tags since they cannot be pushed
+46,hg 1.9 compatibility - matchall moved from cmdutil -> scmutil
+47,Blacklist hsx/hotspot-rt/hotspot aa5f3f597899 + merge
+48,Blacklist hsx/hotspot-comp/jdk ad2d48306709 (dup bugid)
+49,Update whitelist for jdk6
+50,Blacklist hsdev/hotspot/hotspot 0d8777617a2d (dup bugid)
+51,Simplify code that retrieves file flags
+52,Display jcheck version on first error
+53,Change blacklist file location to /oj/db/hg/blacklist
+54,Allow tags for jdk releases 1.4 - 1.8
+55,Read additional blacklisted changeset hashes from a file
+56,Allow bugids of the form 7xxxxxx
+57,Test a tag with trailing whitespace only with hg < 1.6
+58,Blacklist update
+59,Allow tags of the form jdkXuYY-bZZ

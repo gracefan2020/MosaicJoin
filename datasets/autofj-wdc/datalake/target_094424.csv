@@ -1,0 +1,101 @@
+id,title
+0,Bad configuration options for SCAYT
+1,SCAYT dialog is in English
+2,Bundled plugins should not be included in the distribution
+3,Adapting formattings from MS-Word to editor's style system
+4,Support callback param for CKEDITOR.editor::setData
+5,Setting column paragraph alignment generates spurious 's before table
+6,Documenting CKTester
+7,Unable to start editing when image inside document not loaded
+8,CKEditor maximized appears below select element in IE6
+9,Combo boxes make the toolbar be heigher with Office2003 skin & RTL mode on IE
+10,V3 : Inline CSS support
+11,Enhance 'Paste As Text'
+12,Deprecate the dialog of 'Paste from Word'
+13,editor.dataProcessor.dataFilter.addRules() doesnt work for same multiple elements
+14,Hungarian translation for CKFinder 3.X
+15,inaccessible bullet created when adding bullet at higher level and pressing enter twice
+16,Missing th in objectElements of styles plugin
+17,Select all not enabled in source mode
+18,"Styles combo is not ""active"" until it's clicked"
+19,FCKEditor 2.6.5 Does Not work with Safari 3.2.1
+20,CKPackager: post increment does not check whether space is needed
+21,Add norwegian language file for CKFinder
+22,Adobe AIR support
+23,Tooltip is required for the collapse/expand control
+24,Make the editor ARIA-aware
+25,Paste plain text linebreaks alignment with v2
+26,Greek Translation for CKFinder
+27,'cssFloat'/'styleFloat' problem break dt/core/dom/element.html
+28,TC from dt/plugins/styles is broken because of semicolon fixing
+29,Link selection - not always correct
+30,Editor edit area disables on back button
+31,[IE6] config 'dialog_backgroundCoverColor' doesn't apply
+32,[IE]Unable to open dialog without editor focus
+33,[IE]Unable to maximize without editor focus
+34,[IE] Tab key to dialog buttons shift their position
+35,"""Text and table"" - unable to edit table"
+36,Checkbox command generates invalid HTML
+37,Opera: context menu doesn't work
+38,Opera: Check Spelling button is disabled
+39,[IE] Keyboard navigation doesn't work on float panel with Quirks
+40,Undo unavailable after replacing content with template
+41,[webkit] Scrollbars in Link dialog
+42,Cannot access Ok/Cancel buttons using tab key
+43,Unable to move cursor between hr and table
+44,uiColor creates wrong css-code when editor-id contains colons
+45,Load the skin CSS in parallel
+46,Fake comment plugin
+47,"Make the querystring ""anti-cache"" feature configurable"
+48,Float panel menu will not respond after the editor instance is re-created.
+49,checkDirty() returns 'true' when there is no change in context
+50,Memory Leak
+51,IE8 In source view pres backspace throw error on page
+52,right click menus width in other langs
+53,Ignore empty paragraph doesn't work with config.enties = false;
+54,V3: Table merging tools
+55,"link dialog breaks relative urls like href=""foo"""
+56,Popup Window Name field is populated with Target Frame Name value.
+57,Updated link Target field is not updating when updating to certian values.
+58,Implement fullpage support in preview plugin
+59,Implement document properties plugin
+60,Paste from Word dialog does not create an undo snapshot.
+61,Context menu goes off-screen when mouse is at right had side of screen.
+62,Template options on the Template dialog are not keyboard accessible.
+63,Image Reset Size and Lock Ratio icons not visible in high contrast mode.
+64,[Webkit] Drag-and-drop images into the tables
+65,IE8 XP SP3 - maximize on long pages cuts off toolbar
+66,Unable to disable sub menu items
+67,AutoGrow plugin
+68,Text next to Flash object is missing after save.
+69,[FF2 FF3] Flash object is missing
+70,Bug when insert SELECT in a form
+71,Attribute protection fails because of line-break
+72,[IE] the onbeforeunload event of the parent document is being triggered when inserting icon
+73,firefox doesn't show googlemaps iframes
+74,Clicking table sometimes generates anothor empty table
+75,Pasting table twice will corrupt undo buffer
+76,CK Editor stays visible when parent DIV is hidden
+77,[FF] Unable to open context menu on flash
+78,Page break does not work in IE8
+79,Invalid HTML causes infinite loop in IE
+80,The new color picker is not keyboard accessible
+81,Can not select image when navigating text with arrow keys.
+82,[FF] Deleted and Inserted text styles being rendered
+83,Default label for rich combo doesn't work
+84,Translation updates for Norwegian
+85,Translation missing in link dialog
+86,[IE] Behavior for pasting from Excel is changed in 'pasting' branch
+87,Undo not removing added horizontal line
+88,Undo not available straight away if shift key is used to enter first character.
+89,"Undo not working for Smileys, Page break and Anchor after HTML source mode."
+90,Editing tables using table properties dialog overwrites table's style values
+91,Keyboard navigation problem with tabs in image dialog
+92,Content of any tag with width or height property is not editable in IE7 and IE8
+93,Text color not set to Automatic when Automatic is selected.
+94,SCAYT affecting IsDirty and ResetIsDirty.
+95,htmlParser goes wrong with empty inline elements
+96,CKPackager remove mandatory parenthsis
+97,Removing text colour and background color in high contrast mode prevents focus to toolbar buttons after them.
+98,CKEditor image Toolbar resubmits on click in IE 7 and FireFox 3.0.x
+99,Missing configuration from pre-3.0: HtmlEncodeOutput

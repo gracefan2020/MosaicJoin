@@ -1,0 +1,50 @@
+id,title
+0,Perl Direct Connect protocol implementation
+1,Loader class for phrasebook implementations using DBI
+2,"Code server side, use client side."
+3,"Simple, flexible system to implement workflows"
+4,Generate reports for PHP Live!
+5,DBI Backend for Deeme
+6,SQLite Backend using DBI for Deeme
+7,Bind a Gtk3::Builder - generated window to a DBI data source
+8,Chained and minimal ORM
+9,modules I use
+10,Lite Web Application Framework
+11,a multi-level Web-based timeline viewer
+12,Maintain control of SQL queries while still having a layer of abstraction above DBI
+13,Dump mysql data directory for Test::mysqld
+14,Test::Docker::MySQL is a module to launch MySQL in docker containers.
+15,JBD is a namespace
+16,"Notification queue for Zabbix, Nagios, et.al."
+17,Managing on-call rotation and notification queues
+18,simple database tests
+19,Dynamically load lexicon from a database table
+20,A framework for Parallel Corpora processing
+21,Export DBI database as HTTP API (Riap::HTTP)
+22,Perl module for interfacing with the OSDial.
+23,An interface to sharded key-value stores
+24,"Stuff written by me, Nour Sharabash"
+25,generate Class::DBI sub-class modules from a pre-exsting database's structure.
+26,let other threads run while doing mysql requests
+27,Simple DBI wrapper
+28,Transaction handling for database.
+29,Database handles ready for testing
+30,A Task module for DWIM Perl http://dwimperl.com/
+31,locks for db resources that might not be totally insane
+32,Application that runs on cpanlists.org
+33,CUBRID database driver for the DBI module
+34,Relaxing interface to SQLite
+35,This module is a wrapper around DBI with array interfaces
+36,Thesaurus management
+37,Sympa dependencies
+38,Database management tool/front-end (SQL console)
+39,Simple interface for calling PostgreSQL functions from Perl
+40,https://pinboard.in/ API client
+41,Oracle database driver for the DBI module
+42,A new way to organize your database code
+43,"Control how many instances of an application run in parallel, using DBI as the IPC method."
+44,"Scope database transactions on DBI handles in code, to detect and prevent issues with unterminated transactions."
+45,Flexible Perl ORM for easy transitions from inline SQL to objects.
+46,A Template Toolkit plugin to display audit events recorded by Audit::DBI
+47,Audit data changes in your code and store searchable log records in a database.
+48,A basic queuing system

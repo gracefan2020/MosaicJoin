@@ -1,0 +1,97 @@
+id,title
+0,Use same build options as official releases
+1,Type of build to produce
+2,Flags for C Compiler
+3,Flags for C++ Compiler
+4,Installation base directory
+5,Comment about compilation environment
+6,Whether package build produces single file
+7,The default server character set
+8,The default server collation
+9,Exclude Performance Schema condition instrumentation
+10,Exclude Performance Schema file instrumentation
+11,Exclude Performance Schema idle instrumentation
+12,Exclude Performance Schema memory instrumentation
+13,Exclude Performance Schema metadata instrumentation
+14,Exclude Performance Schema mutex instrumentation
+15,Exclude Performance Schema rwlock instrumentation
+16,Exclude Performance Schema socket instrumentation
+17,Exclude Performance Schema stored program instrumentation
+18,Exclude Performance Schema stage instrumentation
+19,Exclude Performance Schema statement instrumentation
+20,Exclude Performance Schema statement_digest instrumentation
+21,Exclude Performance Schema table instrumentation
+22,Whether to download the Boost library
+23,Timeout in seconds for downloading the Boost library
+24,Whether to enable Debug Sync support
+25,Whether to download optional files
+26,Whether to include DTrace support
+27,Whether to include gcov support
+28,Enable gprof (optimized Linux builds only)
+29,Whether to enable LOCAL for LOAD DATA INFILE
+30,Whether to enable query profiling code
+31,Whether to permit unsupported compiler
+32,"With -DBUILD_CONFIG=mysql_release, ignore libaio check"
+33,Enable or disable atomic page reference counting
+34,User executables directory
+35,Documentation directory
+36,README file directory
+37,Header file directory
+38,Info file directory
+39,Select predefined installation layout
+40,Library file directory
+41,Manual page directory
+42,Shared data directory
+43,mysql-test directory
+44,Plugin directory
+45,Server executable directory
+46,Scripts directory
+47,secure_file_priv default value for libmysqld
+48,secure_file_priv default value
+49,aclocal/mysql.m4 installation directory
+50,sql-bench directory
+51,Extra support files directory
+52,Maximum indexes per table
+53,InnoDB mutex type
+54,Data directory
+55,Whether to enable MySQL maintainer-specific development environment
+56,Windows/OS X project name
+57,TCP/IP port number
+58,Unix socket file
+59,ODBC includes directory
+60,ODBC library directory
+61,Whether to support optimizer tracing
+62,Client link library on Solaris 10+
+63,Option file directory
+64,Directory for PID file under systemd
+65,Name of MySQL service under systemd
+66,tmpdir default value
+67,Whether to disable function inlining
+68,Enable AddressSanitizer
+69,Build PAM authentication plugin
+70,Whether to download the Boost library
+71,Build client-side protocol tracing framework
+72,Whether to include debugging support
+73,Whether to use default compiler options
+74,Whether to use default feature set
+75,Which libedit/editline library to use
+76,Whether to build embedded server
+77,Whether to build a shared embedded server library
+78,Compile storage engine xxx statically into server
+79,Which extra character sets to include
+80,Whether to include extra debugging support for InnoDB.
+81,Whether to generate memcached shared libraries.
+82,Which libevent library to use
+83,Whether to include libwrap (TCP wrappers) support
+84,Compiles MeCab
+85,Enable MemorySanitizer
+86,Enable Visual Studio CRT memory leak tracing
+87,Type of SSL support
+88,Enable installation of systemd support files
+89,Build test protocol trace plugin
+90,Enable Undefined Behavior Sanitizer
+91,Enable unixODBC support
+92,Whether to compile in Valgrind header files
+93,Type of zlib support
+94,Exclude storage engine xxx from build
+95,Do not build the server

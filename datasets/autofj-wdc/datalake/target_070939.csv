@@ -1,0 +1,53 @@
+id,title
+0,Perl extension for automating PayPal transactions
+1,Perl extension for appending annotations on PDFs
+2,Managing a directory structure on an HTTP server
+3,A Simple totally OO CGI interface that is CGI.pm compliant
+4,CGI class for handling browser file uploads
+5,To dig CPAN
+6,Description on how to created binary packages from CPAN distributions
+7,some stuff is not here
+8,package to test the SCO clone
+9,package to test the SCO clone
+10,useful base class for other modules
+11,Class for easy date and time manipulation
+12,Try to explain what $ @ % & * and the rest mean
+13,Track and report execution time for parts of code
+14,A platform to develop things
+15,automate interactions with command line programs that expose a text terminal interface.
+16,An Object Oriented way to read and write files
+17,UNIX tools implemented as Perl Modules and made available to other platforms as well
+18,Estimate file space usage (similar to `du`)
+19,allow to use Rakudo from Perl 5 code
+20,Perl extension for Reverse Polish Math Expression Evaluation
+21,Help to find memory leaks
+22,A set of scripts to access MetaCPAN.org via its API and provide reports
+23,Generate report upon packages of CPAN distributions
+24,create PDF files
+25,Utility methods and base class for manipulating Perl via PPI
+26,Parse error messages from the perl interpreter
+27,list all the functions in source code
+28,Experimental Perl 6 implementation of an INI file reader
+29,The Perl Cookbook examples implemented in Perl 6
+30,Framework for creating pipes using iterators
+31,Csv processor tube in Pipe
+32,Create a static syntax tree for a POD
+33,Date and time regexps.
+34,Perl extension for generating Scalable Vector Graphics (SVG) documents
+35,a port to Perl of the syntax highlight engine of the Kate texteditor.
+36,A Task module for DWIM Perl http://dwimperl.com/
+37,A Task module for Litmus https://litmus.mozilla.org/
+38,an easy way to install lots of modules needed for testing
+39,provide a progress meter on a standard terminal
+40,Asking the user for a password (for Win32)
+41,for testing stand alone scripts and executables
+42,"Check syntax, presence of use strict; and test coverage"
+43,Translate Wiki markup into other text formats
+44,connecting test files with pod documentation
+45,Perl extension for formatting text with Trac Wiki Style.
+46,control over the flow of time
+47,A simple AdServer that can be stand alone PSGI or be part of a larger system
+48,Implementing the Gittip (now Gratipay) API. More or less.
+49,Client API to the service of Smartsheet.com
+50,Generate Atom and RSS feeds
+51,Google data protocol v2.

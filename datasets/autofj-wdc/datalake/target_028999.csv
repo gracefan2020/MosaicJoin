@@ -1,0 +1,105 @@
+id,title
+0,actions/player-volume-muted
+1,actions/edit-undo-close-tab
+2,apps/preferences-system-network-proxy
+3,apps/preferences-web-browser-identification
+4,actions/system-shutdown
+5,actions/system-reboot
+6,actions/system-suspend and system-suspend-hibernate
+7,apps/preferences-system-windows-effect
+8,apps/preferences-desktop-effect
+9,apps/preferences-system-windows-effect-boxswitch
+10,apps/preferences-system-windows-effect-desktop-grid
+11,apps/preferences-system-windows-effect-presentwindows
+12,apps/preferences-system-windows-effect-shadow
+13,actions/window-duplicate
+14,apps/preferences-plugin-word-completion-ktexteditor
+15,apps/preferences-desktop-launch-feedback
+16,apps/drkonqi
+17,(various)
+18,kmix icons
+19,actions/view-table-of-contents-ltr / view-table-of-contents-rtl
+20,(various) See http://wiki.koffice.org/index.php?title=Icons
+21,apps/kthesaurus - bug #49983
+22,plugins/textshape
+23,apps/kalgebra
+24,apps/kig
+25,action/insert-row & action/insert-column
+26,mail-download-now
+27,mail-download-later
+28,kmmsgfullyencrypted
+29,kmmsgpartiallyencrypted
+30,kmmsgundefinedencrypted
+31,kmmsgencryptionproblematic
+32,kmmsgsignatureproblematic
+33,actions/mail-mark-junk
+34,online_status
+35,addressee-distributionlist (or something like that)
+36,actions/mail-message-new-list
+37,mail-reply-custom
+38,apps/kalarm
+39,apps/office-calendar
+40,actions/appointment-new
+41,actions/task-new
+42,actions/journal-new
+43,actions/address-book-open
+44,apps/preferences-calendar-freebusy
+45,status/appointment-recurring
+46,status/task-recurring
+47,status/task-complete
+48,status/task-inprogress
+49,status/task-needsattention
+50,status/appointment-reminder
+51,status/task-reminder
+52,action/meeting-attending
+53,action/meeting-attending-tentative
+54,status/meeting-organizer
+55,korgac
+56,birthday
+57,anniversary
+58,planner
+59,special occassion
+60,holiday
+61,actions/sync-start
+62,actions/feed-fetch
+63,actions/feed-fetch-all
+64,katomic
+65,kbattleship
+66,kblackbox
+67,kbounce
+68,kgoldrunner
+69,kiriki
+70,kjumpingcube
+71,klines
+72,kmahjongg
+73,kmines
+74,knetwalk
+75,kolf
+76,konquest
+77,kpat
+78,kreversi
+79,ksame
+80,kshisen
+81,kspaceduel
+82,ksquares
+83,ktuberling
+84,kfourinline
+85,lskat
+86,status/network-connecting
+87,apps/im-aim
+88,apps/im-icq
+89,apps/im-jabber
+90,apps/im-msn
+91,apps/im-yahoo
+92,more protocol icons [jpetso: no time for retrieving the whole list right now]
+93,apps/preferences-desktop-user-privacy
+94,apps/preferences-plugin-text-effect-kopete
+95,apps/preferences-text-autocorrection
+96,apps/preferences-text-highlighting
+97,apps/preferences-pipes
+98,status/dock-kopete-flashing
+99,apps/kapptemplate
+100,actions/insert-horizontal-rule
+101,plasma's toolbox
+102,battery.svg
+103,apps/ktts(d?).png

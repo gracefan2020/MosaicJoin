@@ -1,0 +1,51 @@
+id,title
+0,Allow select fields to be targeted by sum validator
+1,Do not validates components hidden by conditional actions
+2,Add Support for Boolean Webform fields (webform_boolean)
+3,"""some of several"" rule hates page breaks"
+4,Compatibility with Webform Share
+5,Validate only one time
+6,Use of undefined constant WEBFORM_CONDITIONAL_INCLUDE
+7,Remove use of _webform_client_form_rule_check()
+8,Maximum amount of equal values
+9,Some of several - numeric values
+10,Multiple options mandatory select
+11,Field name in validation message needs to use the translation if available.
+12,Prevent Credit Card Number Submissions
+13,Undefined index: submitted in webform_validation_validate()
+14,Indicate which fields have validation rules applied on 'Form components' screen
+15,Incorrect component name displayed for Equal Values validation
+16,Validation rule per user role?
+17,Validate part of email address
+18,Allow rules to be exported and imported with node_export module
+19,"Improve description of ""Compare two values"" validator"
+20,Refactor: Move call to webform_validation_prefix_keys() in webform_validation_validate() out of for loop
+21,Date and Time Validation Rules Expansion
+22,Add/Edit rule page lacks Cancel button
+23,Drupal 8 version
+24,PHP 5.2 issue with new version
+25,Disabling webform validation module also disabled webform module
+26,Validate Grid components
+27,Call to undefined function i18n_string_update
+28,Unique values check across all submissions
+29,PDOException: SQLSTATE[42S22]
+30,Add a rule for summing the values of a set of number fields
+31,"""adds up to"" validator causes crash: webform_conditional_compare_floats() has been renamed webform_compare_floats()"
+32,Is PHP 5.3 essential for version 7.x-1.6
+33,Word count is wrong for non-Latin text
+34,Webform update fails with error Webform Validation
+35,Webform update fails with error
+36,regex for validating email
+37,Notice: Undefined index: #type in theme_webform_validation_manage_overview_form()
+38,how to validate not only numbers but letters as well
+39,conditional validation
+40,Allow comparison with zero
+41,Require exactly one of several fields
+42,API change: Remove _webform_validation_preg_quote() and require PHP 5.3
+43,Improve comments.
+44,Allow validation of fields added by third-party modules through the webform API
+45,API change: Remove _webform_validation_all_allowed()
+46,"if one field is filled, then another field is required"
+47,Case sensitivity and equal values for e-mail fields
+48,Validate not equal values in components
+49,Refactor webform_validation_webform_validation_validate()

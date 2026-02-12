@@ -1,0 +1,91 @@
+id,title
+0,CLDRFile output not escaping quotes
+1,Prepare UTR #35 LDML for Release 22.1
+2,BRS Update items
+3,CLDR 22.1 release tasks
+4,Currency for en_150 is USD !
+5,timezone name: regionFormat and fallbackFormat are not consistent in root
+6,Move 'private' setting on collator to be visibility attribute
+7,Need mechanism for transforming/filtering CLDRFile
+8,Rename PickerData files to remove spaces.
+9,Change English pattern for yG
+10,"Better fallback for ""v"" zone: use city + time"
+11,Fix Q and QQQ available formats
+12,Add source archives for the 2 ICU jar files for debugging
+13,Spurious spacing differences
+14,Correct day periods for ee
+15,"errors against ""possible alternate"" values"
+16,Update to Unicode 6.2
+17,Inappropriate uses of MINUS SIGN
+18,cannot access Welsh forum when logged in
+19,Currency updates
+20,Coutry / Exemplar / Time zone generic name collisions
+21,Turkish Currency Format
+22,Bad anchor names and links in UTS #35 for CLDR 22
+23,Fix Russian-Latin_BGN.txt
+24,typo in RBNF for Portuguese
+25,Bogus currency symbols in Nepali?
+26,Khmer decimal separator should be a period
+27,Serious problems in compact decimals
+28,collation: make U+FFFD non-tailorable
+29,"LDML: clarify -co-ducet ""available in all locales"""
+30,New Repository Structure
+31,intervalFmt with skeleton H*
+32,Tweak to ScriptCategories.java
+33,Clarify that text in dateTimeFormat is part of a date/time pattern
+34,LDML spec update for release 22.1
+35,Add language matching rules for Swiss German
+36,Exemplars: fix according to recommendations (rest of 2789)
+37,Generate Serbian (Latin) from Serbian (Cyrillic)
+38,No leading zero for short date format for tr_TR
+39,Likely Subtag info missing
+40,Add test that language names must not contain 4 digits
+41,"supplementData.xml - tag for Kurdish population in TR should be ""KU"""
+42,supplementalData.xml: Change references from ku_Arab to ckb
+43,Update country_language_population data to add bs_Cyrl
+44,Proposed Transform Mechanism: Buckwalter
+45,Proposed Transform Mechanism: SATTS
+46,unittest: TestTerritoryContainment
+47,"deprecate ""stopwords"""
+48,"Update picker data, part 2"
+49,RBNF rule name for neuter rules are misspelled as neutre
+50,Akan thousands separator should be a comma
+51,Albanian thousands separator should be a non-breaking space
+52,Modify DisplayCollision for exemplarCity + region
+53,Have DAIP fix NBSP in number formats
+54,Fix generated items
+55,Clean up the tools as much as possible
+56,Consider doing an Eclipse reformat of all files
+57,ST: allow quick way to disable output files
+58,Document the bucket headers for bopomofo Alphabetic index
+59,Refactoring ICU utilities
+60,UnicodeSets aren't ordered- tr35 on index chars is wrong
+61,Bengali error corrections - followup
+62,tg (Tajik) locale missing name for TJ (Tajikistan)
+63,"Consistent capitalization for calendar/collation types in da, hu, it"
+64,Consistent capitalization for language names in pt_PT
+65,"Add translations for variant SCOTLAND: cs, es, it, ja, ko"
+66,"Incorrect zh_Hant translation for language ""lt"" (Lithuanian)"
+67,Hindi RBNF updates
+68,Hungarian intervalFormats error for yMMMM
+69,Korean intervalFormatFallback has wrong range marker
+70,Erroneous hyphen in Dutch MMMd format
+71,Bogus Russian intervalFormat for MEd
+72,"""nb"", wrong time separator for availableFormats ms item"
+73,"""pt"", wrong time separator for non-Gregorian availableFormats"
+74,Polish: Remove '*' in name for SX Sint Maarten
+75,"Sort count=""x"" forms in the XML files"
+76,"Adding transform aliases: Hans-Hant, others?"
+77,"availableFormats y/Gy items for islamic, Gy for all"
+78,printStackTrace
+79,remove //foo/bar
+80,"Change English name for ""lus"" to ""Mizo"""
+81,possible performance fix
+82,Add a new calendar type for traditional Korean lunisolar calendar
+83,RBNF plural problem for French
+84,"Armenian Currency Symbol, any other new UTC decisions not taken into account?"
+85,Belarussian RBNF ordinal fixes for large values
+86,test ticket
+87,Numbers are incorrectly spelled-out in Croatian
+88,Slovenian availableFormats wrong for yMMMd
+89,Add collation visibility attribute to spec

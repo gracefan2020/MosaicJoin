@@ -1,0 +1,221 @@
+id,title
+0,Contempt of Court; Indirect
+1,Murder in the first degree
+2,Attempted murder in the first degree
+3,Solicitation to murder in the first degree
+4,Attempted murder 2nd degree; Sub-section unknown
+5,Assault
+6,Assault on a law enforcement officer
+7,Aggravated assault
+8,Aggravated assault on law enforcement officer
+9,Battery
+10,Battery causing bodily harm
+11,Battery causing rude physical contact
+12,Domestic battery; intentional bodily harm caused by one family member to another
+13,Domestic battery; physical contact by family member in rude manner
+14,Battery against a law enforcement officer
+15,Aggravated battery; Sub-section or degree unknown
+16,"Aggravated battery; Intentional, great bodily harm"
+17,"Aggravated battery; Intentional, bodily harm"
+18,"Aggravated battery; Intentional, physical contact"
+19,"Aggravated battery; Reckless, bodily harm"
+20,Criminal threat
+21,Kidnapping
+22,Aggravated kidnapping
+23,Interference with parental custody; Unknown circumstances
+24,Aggravated interference with parental custody
+25,Interference with parental custody in all other cases
+26,Interference with parental custody; Parent joint custody
+27,Interference w/parental custody; other than joint custody
+28,Criminal restraint
+29,Robbery
+30,Attempted robbery
+31,Aggravated robbery
+32,Attempted aggravated robbery
+33,Blackmail
+34,Mistreatment of a dependent adult; Unknown circumstances
+35,Stalking
+36,Involuntary manslaughter while driving u/influence of alcohol or drugs
+37,Rape; Sub-section unknown
+38,Attempted rape; Sub-section unknown
+39,Rape; Sexual intercourse with a person who does not consent; Force
+40,Rape; Sexual intercourse with a child <14 yoa
+41,Indecent liberties with child; Unknown sub-section
+42,Indecent liberties w/child; >14 <16 yoa; Lewd fondling or touching
+43,Aggravated indecent liberties with a child
+44,Aggravated indecent liberties w/child; >14 <16 yoa; Fondling/touching
+45,Criminal Sodomy; Sub-section unknown
+46,Aggravated criminal sodomy; Sub-section unknown
+47,Aggravated criminal sodomy; Child <14 yoa engage w/animal or person
+48,Lewd and lascivious behavior; Unknown type or victim
+49,Solicitation to lewd and lascivious behavior; Unknown type or victim
+50,Lewd and lascivious behavior; Sexual relations in presence 16 or over
+51,Lewd and lascivious behavior; Exposure to subject 16 YOA or over
+52,Indecent solicitation of a child; Sub-section unknown
+53,Aggravated indecent solicitation of a child; Sub-section unknown
+54,Solicitation agg indecent solicitation of child <14; Secluded place
+55,Patronizing a prostitute
+56,Sexual exploitation of a child; Sub-section unknown
+57,Sexual exploitation of child; promote performance child <18 yoa
+58,Sexual battery
+59,Aggravated sexual battery
+60,Unlawful voluntary sexual intercourse by u/19 yoa w/child 14-16 yoa
+61,Abandonment of child; Involves child <16 yoa
+62,Endangering a child; Involves child <18 yoa
+63,Abuse of a child; <18 yoa; Intent torture/cruel beating/inhuman punish
+64,Furnishing alcohol to a minor
+65,Contributing to child's misconduct
+66,Theft; Value unknown
+67,Attempted theft; Value unknown
+68,Theft; Felony
+69,Attempted theft; Felony
+70,Theft; Misdemeanor
+71,Attempted theft; Misdemeanor
+72,Attempted theft by deception; unknown value
+73,Theft by deception <$500
+74,"Theft by deception o/$500 to $25,000"
+75,Theft by deception u/$500
+76,Attempted theft by deception u/$500
+77,Possession of stolen property; value over $500
+78,Attempt to possess stolen property; value over $500
+79,Possession of stolen property; value less than $500
+80,Attempt to possess stolen property; value under $500
+81,"Theft >$500 <$25,000"
+82,"Theft value at least $25,000 but <$100,000"
+83,"Theft value at least $1,000 but <$25,000"
+84,Theft; Loss of <$500
+85,Attempted Theft; Loss of <$500
+86,"Theft value <$1,000"
+87,"Attempted theft value <$1,000"
+88,Theft of lost or mislaid property; Misdemeanor
+89,Theft of services; Misdemeanor
+90,"Theft of services <$1,000"
+91,Criminal deprivation of property
+92,Criminal deprivation of a motor vehicle
+93,Giving a worthless check; Unknown value
+94,Giving worthless check; Felony
+95,Giving worthless check; Misdemeanor
+96,Giving a worthless check <$500
+97,Forgery
+98,Attempted forgery
+99,Making a false writing
+100,Attempted making a false writing
+101,Burglary; Unknown structure
+102,Attempted burglary; Unknown structure
+103,Solicitation to burglary; Unknown structure
+104,Burglary; Building used as a dwelling
+105,Attempted burglary; Building used as a dwelling
+106,Burglary; Building not used as a dwelling
+107,Attempted burglary; Building not used as a dwelling
+108,"Burglary; Motor vehicle, aircraft, or other means of conveyance"
+109,"Attempted burglary; MV, aircraft, or other means of conveyance"
+110,Aggravated burglary
+111,Attempted aggravated burglary
+112,Arson; Type of structure not reported
+113,Arson; non-dwelling w/out consent of owner
+114,Arson; non-dwelling with intent to injure or defraud
+115,Aggravated arson; Unknown value
+116,Aggravated arson; Substantial risk of bodily harm
+117,Criminal damage to property; Unknown value
+118,Criminal damage to property; Felony
+119,Criminal damage to property; Misdemeanor
+120,Attempted criminal damage to property; Misdemeanor
+121,"Criminal damage to property >$25,000"
+122,"Criminal damage to property >$500 <$25,000"
+123,Criminal damage to property <$500
+124,Criminal trespass
+125,Criminal trespass by subject of restraining order
+126,Littering
+127,Criminal hunting
+128,Criminal use of a financial card; Unknown value
+129,Attempted criminal use of a financial card; Unknown value
+130,Criminal use of a financial card; Felony
+131,Attempted criminal use of financial card; Felony
+132,Criminal use of a financial card; Misdemeanor
+133,Attempted criminal use of a financial card; Misdemeanor
+134,"Criminal use of a financial card; W/in 7dys >$500 <$25,000"
+135,Criminal use of a financial card; W/in 7 days <$500
+136,Attempted criminal use of a financial card; W/in 7 days <$500
+137,Criminal use of explosives
+138,Computer crime
+139,Unauthorized disclosure of computer password/access
+140,Unlawful removal of theft detection device
+141,Theft of motor fuel
+142,Obstructing legal process or official duty
+143,Obstructing legal process or official duty; Resist Arrest
+144,Obstructing legal process in felony case
+145,Obstructing legal process in misdemeanor case
+146,Escape from custody
+147,Failure to appear on a misdemeanor
+148,Falsely reporting a crime
+149,False impersonation
+150,Dealing in false identification documents; Felony
+151,Intimidation of a witness or victim
+152,Aggravated intimidation of a witness or victim
+153,Harassment by telefacsimile communication
+154,Violation of a protective order
+155,Violation of protective order issued from abuse
+156,Violation of protective order issued by court post disposition
+157,Eavesdropping
+158,Breach of privacy
+159,Identity theft
+160,Identity theft
+161,Attempted identity theft
+162,Disorderly conduct
+163,Giving false alarm
+164,Criminal desecration; Misdemeanor
+165,Harassment by telephone
+166,Criminal use of weapons
+167,Criminal use of weapons; Misdemeanor
+168,Criminal use of weapons; Dagger/dirk/blackjack/knife
+169,Aggravated weapons violation; Unknown sub-section
+170,Criminal possession of firearm
+171,Criminal possession of firearm; Felony
+172,Criminal possession of a firearm; Misdemeanor
+173,Criminal possession of firearm with felony conv or cont substances
+174,Defacing identification marks of firearm
+175,Obtaining prescription only drugs by fraudulent means
+176,Unlawful discharge of firearms
+177,Criminal discharge of a firearm
+178,Promoting obscenity to minors
+179,Cruelty to animals
+180,Unlawful disposition of animals
+181,Arrest by law enforcement officer
+182,Warrant arrest
+183,Warrant arrest for another jurisdiction
+184,Probation Violation
+185,CINC; Child in need of care; Unreported circumstances
+186,Juvenile; Neglected child
+187,Juveniles; Ungovernable/wayward child
+188,Juvenile; Abandoned child
+189,Juveniles; Curfew violation/Status offender
+190,Juveniles; Runaway-resident of the state of Kansas
+191,"Juveniles; Victim of physical, mental, emotional abuse"
+192,Failure to report abuse/neglect of residents
+193,Vehicles; Liability insurance coverage required
+194,Liquor; Retailers; Mix drinks on premises/employment of certain person
+195,Liquor; Consumption in public places prohibited
+196,Liquor; Purchase/consumption alcoholic liquor/CMB by minor
+197,Liquor; 'Open Saloon'
+198,Liquor; Legal hours of operation
+199,Protective custody
+200,Water supply & sewage; Prevention of surface water pollution
+201,Hazardous Wastes; Unlawful Acts
+202,Know/intentional rec/acquire proceeds uniform control substances
+203,Poss simulated controlled substances or drug paraphernalia
+204,Use or possession of simulated controlled substance
+205,Use or possess drug paraphernalia to introduce in human body
+206,"Possession of opiates, opium or narcotic drugs"
+207,"Sale etc. of opiates, opium or narcotic drugs"
+208,"Conspiracy to sale opiates, opium, or narcotic drugs"
+209,"Poss w/intent to sell, sale, etc. w/in 1,000' of school property"
+210,"Solicitation to poss w/int to sell, sale etc w/in 1000' of school"
+211,Poss of depressant/stimulants/hallucinogenics/steroids
+212,"Sale, offer depressants/hallucin/stimulants/anabolic steroids"
+213,Sale or possession w/intent to sell depressant
+214,Solicitation sale or possession w/intent to sell depressant
+215,Sale or possession w/intent to sell stimulant
+216,Sale or possession w/intent to sell hallucinogen
+217,"Sale, poss w/int to sell, deliver Substances in KSA 65-4113"
+218,Possess ephedrine or deriv. As precursor to illegal substance
+219,Parole violation

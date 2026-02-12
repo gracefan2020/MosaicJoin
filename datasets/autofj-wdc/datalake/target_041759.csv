@@ -1,0 +1,51 @@
+id,title
+0,interpinfo.pasm constants don't match docs in core.ops
+1,Enforce NULL checks on C function arguments
+2,Deprecated: Data::Sort
+3,Deprecated: Data::Escape
+4,remove Data::Replace?
+5,remove File::Spec
+6,unable to create trac tickets
+7,"[Patch]changed args to marco, fixed typo, tidy comments"
+8,"[patch] Add 'pop', 'push', 'shift' and 'unshift' methods to ResizableStringArray PMCs"
+9,[PATCH] sal.h is not included in Visual Studio.NET 2003
+10,Win32 build failure due to incorrect `make` detection
+11,[todo] make test with already installed parrot
+12,intermittent failure of t/pmc/freeze_25.pir
+13,[todo] 4 different perl slurp methods in Parrot::
+14,[patch]patch for editor.in
+15,[PATCH] refactor configure steps for libraries
+16,Deprecated: DWIM.pir
+17,t/pmc/eval.t test10 fails on cygwin
+18,-t4 broken (r34808)
+19,remove more hard-coded runtime/ paths from libs
+20,[cage]removed unused codes
+21,Parrot won't build on windows due to new assert stuff
+22,"optimize load_bytecode, .include paths: no library/ and include/ prefix"
+23,do not stat extensions when an extension was already given
+24,Honor source types in Parrot_locate_runtime_file
+25,"fix load_bytecode without ext, do not recompile a .pbc"
+26,[bug] failed build on windows xp with strawberry perl
+27,test failures in Revision: 34994
+28,methodtailcall broken
+29,[PATCH] Update Pod::Simple and Pod::Escapes to the latest version available from CPAN
+30,[PATCH] [CAGE] Almost fix 'make doc_tests'
+31,BASIC broken
+32,"new $P0, ['Integer'] doesn't work in pir"
+33,"when we switch from svn.perl.org to trac, consider using git"
+34,Move executable code out of jit_emit.h for IA64
+35,Move executable code out of jit_emit.h for ALPHA
+36,Move executable code out of jit_emit.h for ARM
+37,Move executable code out of jit_emit.h for HPPA
+38,Move executable code out of jit_emit.h for MIPS
+39,Move executable code out of jit_emit.h for PPC
+40,Move executable code out of jit_emit.h for SUN4
+41,[PATCH] [CAGE] Perl-to-PIR conversion of the remaining tests in t/oo/
+42,Remove unused (and broken?) real_self code
+43,Zero PMC_struct_val when allocating objects
+44,Add capability for trying different library names to DBDI::SQLite3
+45,"load_bytecode, loadlib, and HLL"
+46,"t/pmc/exceptionhandler.t: File terminates early without explanation, disrupting plan"
+47,Do we need PARROT_CATCH_NULL?
+48,[patch]simplified PMC_is_null function
+49,subclassed ExceptionHandlers can't handle exceptions

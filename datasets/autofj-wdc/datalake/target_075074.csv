@@ -1,0 +1,49 @@
+id,title
+0,Safely modify the QUERY_STRING of a PSGI request
+1,Form Based Authentication for Plack (think CatalystX::SimpleLogin but on Plack level)
+2,Yet Uh-nother wiki
+3,HTTP API into ESMTP
+4,Let you use a filehandle in the response body that has ->read but not ->getline
+5,DAIA Server as Plack application
+6,Plack::App::FakeApache1 needs a more meaningful abstract
+7,My favourite and frequently used modules
+8,Plack middleware which turns application/json responses into HTML
+9,"View Markdown texts as a ""Mook-Book"" style"
+10,Session for Jedi
+11,Auth for Jedi
+12,A microcore architecture WAF
+13,Glues a cache to your PSGI application
+14,Use Pye as a Plack logger
+15,Preforking AnyEvent HTTP server for PSGI
+16,Session plugin for Nephia
+17,Serve static files from document root with directory index using Apaxy
+18,Concatenate and minify JavaScript and CSS files
+19,Set woothee information based on User-Agent
+20,Serve static files with case insensitive paths
+21,Skype message delivery by HTTP
+22,Monitoring dashboard
+23,CSRF Defender Plugin for Nephia
+24,light weight Catalyst-ish web application framework
+25,Plack Middleware to integrate with Mozilla Persona (Auth by email)
+26,PSGI web server with SPDY support
+27,The Plack middleware for tracing %ENV
+28,Web Document System
+29,Subclass of Plack::Request which supports encoding.
+30,Cuts off language tags out of the request's PATH_INFO to simplify internationalization route handlers.
+31,Maintain and serve a PGXN web site
+32,DarkPAN Server
+33,serves static files and minify CSS and JavaScript
+34,modify HTTP request headers
+35,All these modules are installed on LiveDVDs we give away
+36,Requests throttling for Plack
+37,Plack::Middleware::Static with open file cache
+38,remove cookies from the requests
+39,Easily establish an HTTP server inside a program
+40,PSGI adapter for JSON::RPC2::AnyEvent::Server
+41,HTTP::Session bindings for Amon2
+42,The bot framework
+43,Serve static files and Text::Xslate template files from document root with directory index
+44,form validator
+45,Amon2 plugins set for Japanese mobile phones
+46,Redis based session store for Plack apps.
+47,Expose a Timed::Logger Instance in Middleware

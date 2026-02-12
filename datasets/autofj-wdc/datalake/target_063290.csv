@@ -1,0 +1,52 @@
+id,title
+0,Print help for the command name on stdout Arguments
+1,Run the script file named filename. Arguments
+2,Load the ETM module represented by the DLL “name.dll” Arguments
+3,ping target Arguments [options]
+4,Quit the shell
+5,Write audio parameters
+6,Read audio parameters
+7,Load audio parameters from FFS file
+8,Save audio parameters to FFS file
+9,Format flash
+10,File write from PC to target
+11,File read from target to PC
+12,Change current working directory
+13,Make a new directory
+14,Delete a file or directory
+15,Move or rename a file
+16,Print working directory
+17,List files in directory
+18,View of text files
+19,Make a link between files
+20,Change files/directories permissions
+21,Create an empty file
+22,Show the amount of free space
+23,Query ffs parameters and values
+24,Enable RF – transmit and receive
+25,Enable special customer task
+26,Setup the statistics configuration
+27,Read the statistics configuration
+28,Get statistics results
+29,Write RF parameters for receive mode
+30,Read RF parameters for receive mode
+31,Write RX parameter for receive mode
+32,Read RX parameters for receive mode
+33,Set parameters for transmit mode
+34,Read parameters for transmit mode
+35,Write customer special parameter
+36,Read customer special parameter
+37,Write a RF table
+38,Read a RF table
+39,Write a ramp template to transmitter
+40,Read a ramp template from transmitter
+41,Write a customer special table
+42,Read a customer special table
+43,Read value from memory address
+44,Write value to memory address
+45,Read value from codec register
+46,Write value to codec register
+47,Enable miscellaneous parameter
+48,Read miscellaneous parameter
+49,Write miscellaneous parameter
+50,Get hardware or software version

@@ -1,0 +1,54 @@
+id,title
+0,envp argument to main()
+1,Keywords
+2,extern and static functions declarations inside a block
+3,Identifiers
+4,long float types
+5,Multi-character character-constants
+6,Integer constants
+7,Assignment operators
+8,Unsigned preserving semantics for expressions
+9,Single/double precision calculations
+10,Name spaces of struct/union members
+11,A cast as an lvalue
+12,Implied int declarations
+13,Empty declarations
+14,Type specifiers on type definitions
+15,Types allowed on bit fields
+16,Treatment of tags in incomplete declarations
+17,Mismatch on struct/union/enum declarations
+18,Labels in expressions
+19,switch condition type
+20,Syntax of conditional inclusion directives
+21,Token-pasting and the ## preprocessor operator
+22,Preprocessor rescanning
+23,typedef names in formal parameter lists
+24,Implementation-specific initializations of aggregates
+25,Comments spanning include files
+26,Formal parameter substitution within a character constant
+27,Formal parameter substitution within a string constant
+28,Preprocessor built into the compiler “front-end”
+29,Line concatenation with backslash
+30,Trigraphs in string literals
+31,asm keyword
+32,Linkage of identifiers
+33,Name spaces
+34,long double type
+35,Floating point constants
+36,Unsuffixed integer constants can have different types
+37,Wide character constants
+38,’\a’ and ’\x’
+39,Concatenation of string literals
+40,Wide character string literal syntax
+41,Pointers: void * versus char *
+42,Unary plus operator
+43,Function prototypes— ellipses
+44,Type definitions
+45,Initialization of extern variables
+46,Initialization of aggregates
+47,Prototypes
+48,Syntax of preprocessing directive
+49,The # preprocessor operator
+50,#error directive
+51,Preprocessor directives
+52,Predefined macro names

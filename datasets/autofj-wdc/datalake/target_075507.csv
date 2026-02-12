@@ -1,0 +1,168 @@
+id,title
+0,Mouse right-click on a toolbar to customize it
+1,Powerful UI of Envelope auto-create based on database is nee
+2,"After using toolbar dock option, the toolbar should blink fo"
+3,Toolbar customisation more difficult than in 1.1.x!
+4,Add a typography checker
+5,Intuitive UI (input)
+6,"Change font size using ""+/- n"""
+7,Del a site out of a document
+8,PPT: OLE objects which provide WMF data should be displayed
+9,Chart axis labels wrap to next line instead of pushing chart
+10,"re-establish ""Load URL"""
+11,"""Apply Style"" in toolbar has fixed width"
+12,Tools > Bibliography database not removed even after deletin
+13,Show/hide toolbars during navigation of document creates a v
+14,Ctrl + Home should go to the first slide
+15,Pixels should be a measurement unit
+16,"Default font for fontwork is always ""Arial Black"""
+17,Plugin or automatic funktions for organigramms
+18,General input/output error opening file on NFS mount
+19,OOo 2.0 opens a 1.1.x document with wrong fonts
+20,Mail Merged file counts every page as 2 pages
+21,Several differences after import
+22,PDF widget button action should match OOo action
+23,Documents won't open when OO not already launched
+24,File > Recent Documents should be deletable
+25,File Menu Doesn't Open unless you click the edge of it.
+26,OOo crashes at start after installeing german dictionaries
+27,PDF Export plain: use different compression for images and l
+28,Minimize app does not minimize undocked toolbar
+29,OOo does not recognise CUPS printers with CUPS 1.1.22 (Gento
+30,Writer-Page Preview-Preview Zoom did not show the largest al
+31,Unexpected invocation of windows installer at first run
+32,Opening more than one document in writer - distorted window
+33,Opening an already opened document doesn't confirm
+34,OO doesn't detect installed JRE
+35,Cannot my macro assign macro to a dialog button
+36,Open dialog goes off-screen after a resize
+37,Copy and Paste objects
+38,User can't run OO
+39,Rotate multiple objects
+40,Missing options in Dialog Customize
+41,Outline wordwrap different from slideview
+42,Bad implementation of Order Window
+43,Patch to import plural documen templates at once
+44,Helvetica-Narrow substituted for Haettenschweiler in importe
+45,parent directory locked after file closed
+46,com.sun.star.ui.dialogs.FilePicker does not work in macro wi
+47,"""Open With"" not registered properly"
+48,libxmlsec ->defining symbol NEED_LEADING_UNDERSCORE not nee
+49,Office should show an error message by trying to insert an e
+50,builds breakage because syntaxis problems in makefile.mk
+51,"The Thesaurus option not showing results for mosthe word ""m"
+52,cannot open created XW document
+53,To enable the option 'vertical ruler' in Writer
+54,Font work gallery improvement.
+55,File chooser control has a mix of Windows styles
+56,help is not the topmost window on most actions
+57,Spell checker fails
+58,combo box doesn't have sliding effect under Windows XP
+59,cropped pin icon in help
+60,Ligatures mangled with Windows OpenType renderer
+61,"Unable to work with WebDAV (browse folders, open/save files)"
+62,Cancelling the Save As ... from Letter wizard asks for a con
+63,The Get statement is missing from Basic
+64,Resizing application windows not painted properly
+65,Better support for metric settings
+66,Indexing and searching OO.o supported file formats
+67,Floating Toolbars shift position
+68,ability to postion floating toolbar in the toolbar areas
+69,toolbar 'presentation' - button 'slide' - tooltip should be
+70,"template name back loaded, saving doesn't work"
+71,right click menu for toolbar selection
+72,"When 1 subwindow open in a document, can't switch to other d"
+73,PDF generation never finishes
+74,Problems saving in Word 97/2000/XP formats
+75,Docking for Find dialog
+76,no display on page preview
+77,MAc OSX m67 automation breaks main function missing
+78,patch for necessary main function in padmin Mac OSX SRC680
+79,sc break on Mac OSX SRC680 m67 build because inlining
+80,bridge build fails on Mac OSX SRC680 m67 build registry prob
+81,Copy / Paste from web page crashes and exits
+82,extensions : lot of problems building nsplugin on Mac OSX SR
+83,files not found in instsetoo_native Mac OSX SRC680 m67
+84,X-axis and legent labes in chart
+85,Autodetection of language of typed text
+86,inserting many big tables takes incredible much performance
+87,Left edge of toolbar aligned with mouse pointer instead of t
+88,Screen redraw slow in table view
+89,Linux PowerPC m67 packages cannot be build register componen
+90,undo/restore history in basic editor
+91,Lines & Arrows (Fills) Toolbar title given in German
+92,Menus not being redrawn correctly after being chosen in Mand
+93,"doesn't start under Debian unstable - ""internal error"""
+94,Locked toolbar state not remembered across program invocatio
+95,Provide handles to objects inside the form / report for bett
+96,postion of floating toolbars should be remembered
+97,incorrect toolbar positioning
+98,Quickly move Rows and columns like in Writer
+99,"Calc toolbar functions have incorrect title (e.g. ""Columns"")"
+100,"Office window ""x"" close button should always appear"
+101,Attempts to open .ppt file cause OpenOffice to hang (shadows
+102,OOo chrashes when exportig documents as PDF that contains a
+103,Not all text manipulation features on text toolbar
+104,Support StarOffice launch without user install directory or
+105,Usability: Page size should automatically set to size of an
+106,Document that causes crash when printed on certain printers
+107,better placement for text on connector
+108,Find & Replace Menu flashes after 3min. in the background
+109,"Calc doc with subtotal and filter, export to ms excel, open"
+110,Calc Find/Replace does not provide 'whole words only' checkb
+111,Formats do not work in Find/Replace dialog
+112,Repagination of a document with OLE objects at page boundary
+113,Dimension line could not be coppeled with an other object
+114,change gridcolor and type
+115,"paragraph format stuck in ""do not split paragraph"""
+116,Make an option to switch off toolbar gradients
+117,Long initial delay when connecting via ODBC
+118,Cannot select multiple inline drawing objects in Writer
+119,OLE Objects are very unstable when importing from excel spre
+120,Editing forms after opening them doesn't work (changes are n
+121,Desktop Icon Issues
+122,space missing
+123,ability to cancel document restoration
+124,text box shifted in print view
+125,Use original MS Office icons for its file types or replace b
+126,Hard to set H and V Rulers to an exact unit size - provide t
+127,[Math object in Writer] some symbols can not be displayed pr
+128,Text editing bug
+129,OOo Base crashes on query edit
+130,After Install of JMF:OOo crashes after insert mov-file as pl
+131,Problems with images in large (~20Mb) presentations
+132,Some menu items missing ellipsis
+133,"Needs Spec: Make Calc ""Data Validity"" more powerful and easi"
+134,Build instructions for the Mac OSX port of S68m71s1
+135,Documents to be recovered kan not be removed
+136,improved table contents moving
+137,moving subform over page shadow gives bad color
+138,Improper display of signs in exponents of formulas.
+139,Unicode U+034F (Combining Grapheme Joiner) not interpreted c
+140,Square boxes appears in tools/language/hyphenation in UNIX p
+141,separation of advanced preferences
+142,default keyboard shorcut
+143,No close button for media player
+144,Tables and queries do not show as drop down options in form
+145,unnecessary reformatting when dragging rows
+146,Loading file from address bar leads to crash
+147,Document recovery dialog could not be cancelled
+148,Highlight the default action in context menu for database ob
+149,Too slow startup on Windows 2000
+150,"centered, middle aligned text at an angle is displaced"
+151,"Save/export (pdf) gives me a ""General Input/Output error"""
+152,"""Recent Documents"" lost from menu"
+153,Numbering in headings is lost during save to ODT format
+154,videos can't be started/stopped during presentation with jmf
+155,Editing the slidemaster it is impossible to remove pictures
+156,Clicking 'Tables' in left pane causes connection error
+157,Tables disappear when .odb file renamed
+158,arrows for bullet-indention in the text-toolbar are inacitve
+159,Cannot use subform in Calc
+160,Opens in undesirable state after program crash
+161,Delete Key does not work in query design editor
+162,case sensitivity in open dialog history
+163,Convert table to text converts the whole table even if a row
+164,draw:path defect : command a(elliptical arc) in svg:d should
+165,New Default database could not have tables / no properties /
+166,Ctrl + A is unable to make selection of all objects while ed

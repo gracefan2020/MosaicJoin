@@ -1,0 +1,67 @@
+id,title
+0,(not so) Silly shape-dependent representation tricks
+1,A statistics library and environment
+2,A substitution stepper
+3,A universal data store interface.
+4,Add NUMA-supporting features to GHC
+5,Add NVIDIA CUDA backend for Data Parallel Haskell
+6,Better Hackage UI / Discoverability
+7,Better tooling for profiling and performance monitoring
+8,Bring Hat tracing back to life
+9,C Bindings to Haskell Values
+10,C++ -> Haskell FFI Generator using SWIG
+11,Cabal support for the UHC JavaScript backend
+12,Combine Threadscope with Heap Profiling Tools
+13,Embedded Haskell: calling Haskell from other languages
+14,Embedding Haskell in C++: The FFI upside-down
+15,FFI bridge to Python
+16,Further Parsec Improvements
+17,GObject Introspection based static binding generator for Gtk2hs
+18,General FFI improvements
+19,Generalize cabal to work with collections of packages instead of having a single package focus
+20,HBlas Projects / FFI Numerics Bindings
+21,Haddock Improvements
+22,Haiku support
+23,Haskell Qt binding generator
+24,"Haskell for the ""real-time web"""
+25,"Have GHC track the different library ""ways"" it has installed"
+26,Hyperlinked sourcecode for documentation
+27,IHaskell Projects
+28,Implement 2-3 concurrent data structures from the literature
+29,Implement Cabal<->OS package management systems relations
+30,Implement SplitMix for System.Random
+31,Implement overlap and exhaustiveness checking for pattern matching
+32,Improve Nomyx
+33,Improve documentation and examples in GHC's base
+34,Improve performance of native code
+35,Improve several areas of EclipseFP
+36,Improve/rewrite HDBC backends
+37,Improvements to the criterion Library
+38,LLVM optimisation passes / tables next to code
+39,Language.C enhancements
+40,Library for the Arduino platform
+41,Machine learning library
+42,Make parallel builds in GHC actually give speed-ups
+43,Make the GHC performance monitoring build bot production ready
+44,Mathematical environment in Haskell
+45,Module Import Improvements
+46,Out-of-process Template Haskell
+47,PVP compliance checker
+48,Parallel programming benchmarking and benchmark suite
+49,Platform neutral GUI leading to ... hackage 3
+50,PureScript Improvements
+51,Replicating backend for AcidState.
+52,Rewrite the Pandoc Markdown Parser
+53,Sandboxed Haskell
+54,Snap: Implement type-safe URL support for the Snap Web Framework
+55,Solve cabal dependency hell
+56,"Supply dependencies for non-simple cabal build types (eg, Setup.hs)"
+57,Switch cabal to use an off-the-shelf SAT-solver/theorem prover for solving version constraints
+58,ThreadScope with custom probes.
+59,Treat each .cabal component separately during dependency solving
+60,Tweak memory-reuse analysis tools for GHC compatibility
+61,Type-level programming library
+62,Visual Haskell
+63,XML Schema implementation
+64,wxHaskell improvements
+65,xmonad: compositing support

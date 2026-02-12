@@ -1,0 +1,101 @@
+id,title
+0,Move common appender methods to parent class
+1,Remove deprecated appender LoggerAppenderAdodb
+2,LoggerUserFieldPatternConverter class missing in log4php archive
+3,Bugs during HipHop build
+4,The syslog appender does not correctly parse options
+5,LoggerConfiguratorPhp does not accept INT constants for appender threshold
+6,Incorrect usage of changes.xml
+7,Permission denied while renaming log file when hundred of users are accessing the application
+8,PDO appender doesn't close connections
+9,Improve XML configuration docs
+10,File appenders parameters
+11,Log4PHP causes odd errors in the underlying application if used with source having an existing __autoload function
+12,Update site content for Apache Project Branding Requirements
+13,LoggerConfiguratorPhp does not appear to respect appender file property from config
+14,LoggerConfiguratorPhp does not parse renderer configuration
+15,RendererMap::getByClassName doesnt recognize instances of child classes
+16,Additivity cannot be disabled through log4php.properties ini file.
+17,Unassigned
+18,"Instanciate LoggerAppenderPDO ""by hand"" throw exception"
+19,Milliseconds do not change when using LoggerLayoutPattern
+20,Logging ClassName doesn't work
+21,Problem using a custom ConversionPattern
+22,mongo database appender for log4php
+23,patch for Throwable information associated with logging event
+24,Add HTML line break to LoggerAppenderEcho output
+25,Site should updated via svn
+26,"LoggerReflectionUtils::setProperties() does not reset $properties array pointer, causing appenders to not be configured"
+27,LoggerMDC needs refactoring
+28,LoggerNDC: discuss sense and refactor
+29,Exception when using more than one LoggerAppenderFile
+30,LoggerLayoutPattern fails tests
+31,Directly assign an array on Logger PHP configuration
+32,Some of the tests don't pass under Windows
+33,Add trace level to Log4PHP
+34,LoggerClassNamePatternConverter accessing private property
+35,LoginOptionConverter.php
+36,Minor release arti facts improvments
+37,phpdoc generated files missing license header
+38,NOTICE file date format
+39,LoggerAppenderRollingFileTest fails due to realpath()=>false on nonexisting files
+40,Unittest fail due to changed default of xmlLayout->setLocationInfo
+41,undefined method getLoggerRepository() in LoggerLoggingEvent
+42,More examples and API documentation
+43,Boolean values in .properties files and incorrectly parsed by LoggerConfiguratorIni
+44,Trying to set unknown properties should result in an exception
+45,AppenderPDO: Some database fields seem a bit too short
+46,AppenderSocket: locationInfo=false has no effect
+47,LoggerReflectionUtils::setter() should be defined as a static method
+48,Unable to configure socket appender with attribute useXml = true
+49,Website should be deployed after a successful buildbot build
+50,Buildbot needs PDO extension enabled
+51,No output from logge r after trunk update
+52,Official release date?
+53,Using LoggerAppenderFile logging to the log file in one Apache session blocks every other Apache session that tries to write to the file until the original request has been processed
+54,remove LoggerManager references from docs
+55,Mailing Lists page not being created
+56,Refactoring: Use Logger instead of LoggerManager
+57,"LoggerConfiguratorBasicTest fails in ""mvn test"" but not in phpunit"
+58,Mixing protected and private in Logger and the inheriting LoggerRoot
+59,Remove deprecated call-by-reference in LoggerLayoutPattern
+60,PDOAppender should throw LoggerException on database problems
+61,Does not print warning if ini file is corrupt
+62,Stick with log4j and allow Logger::getLogger(...)
+63,New quickstart.apt
+64,LoggerAppenderConsole is initialized wrong
+65,HTML encoding typo on Quickstart page
+66,"""please shutdown all loggers"" ; - we have destructors for this!"
+67,Replace define('LOG4PHP_CONFIGURATION' by static variable
+68,Make phpunit available on buildbot
+69,Updated PHPDoc in classes
+70,Remo ve references
+71,Use of custom factorys is discouraged - clean up
+72,Create SyslogAppender Test
+73,Create more File Appender Tests
+74,Create LoggerAppend erSocket Test
+75,Check if PDO Appender needs quote()
+76,Use PreparedStatement in PDO-Appender
+77,Divide LoggerPatternConverter.php
+78,PEAR package
+79,Remove size restriction of MDC table in LoggerMDC
+80,Create phpunit tests
+81,Refactor class names and directory layout
+82,Merge Logger Appender and LoggerAppenderSkeleton
+83,Remove deprecated methods
+84,Replace is_a() with instanceof
+85,Remove LoggerAppenderDb
+86,Implement a LoggerPhpConfigurato r
+87,Replace LOG4PHP_LINE_SEP with PHP_EOL
+88,Remove all internal debugging
+89,Appenders is not properly closed upon destruction
+90,Refactor from using def ine to class contants
+91,Removing unnecessary use of LOG4PHP_DIR
+92,Implement LoggerAppenderPDO
+93,Load classes through autoload instead of explicitly include them
+94,LoggerAppenderConsole doesn't write to STDERR
+95,Add file locking to file appenders
+96,Allow to set environment variables in LoggerOptionConverter
+97,LoggerAppenderRollingFile unable to rollover
+98,Mixed PHP4 and PHP5 syntax
+99,log4php.dtd invalid

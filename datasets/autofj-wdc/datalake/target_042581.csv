@@ -1,0 +1,51 @@
+id,title
+0,"""Administer"" link gets removed from breadcrumb"
+1,'Append page title to breadcrumb' not working for forum module pages
+2,Ability to retrieve the selected menu.
+3,Add breadcrumb to home page
+4,Allow appended title to be css selectable/themable (wrap in tag + add a class or id to it)
+5,Append page title results in double item
+6,Appended page title as an URL - does NOT work
+7,Block title is custom active link
+8,"Breadcrumb fires at init, doesn't display/gets overwritten by Ubercart catalog, and potentially others. (patch included)"
+9,Breadcrumb only show Home > Node Title no matter where on the site
+10,Breadcrumb trail not being updated when using menu position
+11,Breadcrumb translated partialy if the same path is used for multiple languages
+12,Breadcrumbs for Core Modules misplaced!
+13,Call to undefined function _privatemsg_assemble_query()
+14,Can't see how to have book pages remain in the menu breadcrumb
+15,Causes node_load() in hook_init()
+16,Co-maintainer(s) sought for Menu Breadcrumb
+17,Conflicts with Node Hierarchy
+18,Consider generalising menu weighting / blacklist / whitelist solutions
+19,Consider merging with menutrails
+20,Contact Form As Submenu Item: Can't get it to work
+21,Controlling number of breadcrumbs?
+22,Custom text for 'Home' link
+23,Deactivate URL for Current Menu Item
+24,Display all menu's on the settings form.
+25,Do not set variables outside of form submission
+26,Doesn't work for Views pages
+27,Drupal 8 port for Menu Breadcrumb
+28,duplicate breadcrumb item for view with pager
+29,Duplicate breadcrumb item using Rubik theme & Menu Breadcrumb module
+30,"Edit home page, breadcrumb shows: Home > Home > Home"
+31,Feature request for hook_menu_breadcrumb().
+32,Give priorty/weight to menu breadcrumb
+33,"Handle menu entries with embedded HTML (resolves conflict with ""Menu HTML"" module)"
+34,Hide the breadcrumb if the breadcrumb only contains the link to the front page not working with i18n menu.
+35,hide vocabulary's name is possible with Patterns?
+36,How do I generate breadcrumb for a path?
+37,How to troubleshoot one random missing link...?
+38,Incorrect breadcrumb when multilingual node appears in menu more than once
+39,Issues with project and menu_breadcrumb integration.
+40,Label for hiding breadcrumb when only referring to the front page seems at odds with behaviour
+41,Menu Breadcrumb
+42,Menu Breadcrumb module causes admin/build/block to malfunction
+43,Menu breadcrumb not takes into account the multilingual
+44,Menu Breadcrumb on node/%nid/draft pages (workbench_moderation support)
+45,Menu local task title.
+46,Menu name in breadcrumb
+47,menu parent link
+48,Menu taxonomy page breadcrumb
+49,Menu weights reset

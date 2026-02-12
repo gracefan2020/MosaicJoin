@@ -1,0 +1,61 @@
+id,title
+0,Startup Mode
+1,Common Java Properties
+2,Listen Address
+3,Listen Port
+4,Custom Identity Keystore File
+5,Custom Identity Keystore Passphrase File
+6,Custom Trust Keystore File
+7,Custom Trust Keystore Passphrase File
+8,Custom Identity Private Key Alias
+9,Custom Identity Private Key Passphrase File
+10,Oracle WebLogic Server Cluster Configuration Properties
+11,Messaging Mode
+12,Cluster Address
+13,Unicast Channel
+14,Multicast Address
+15,Multicast Port
+16,Frontend Host
+17,Frontend HTTP Port
+18,Machine Configuration Properties
+19,Machine Name
+20,Node Manager Listen Address
+21,Node Manager Listen Port
+22,Deployment Plans
+23,Deployment Plan
+24,Authenticators
+25,Host Name
+26,Port
+27,Principal
+28,Password File
+29,User Base DN
+30,User Object Class
+31,Group Base DN
+32,GUID Attribute
+33,Data Source Configuration
+34,Driver Class
+35,Url
+36,User
+37,Password File
+38,LDAP-Based Policy and Credential Store Configuration
+39,Password File
+40,LDAP User
+41,Jps Root
+42,Domain
+43,Server Type
+44,LDAP Url
+45,Database-Based Policy and Credential Store Configuration
+46,Password File
+47,DataSource Jndi Name
+48,Jps Root
+49,Domain
+50,Driver Class
+51,Url
+52,User
+53,RDBMS Security Store
+54,URL
+55,Driver Class
+56,User
+57,Password File
+58,Resource Adapter Configuration
+59,Deployment Plan

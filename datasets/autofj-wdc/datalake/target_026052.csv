@@ -1,0 +1,190 @@
+id,title
+0,16*bi; 24V DC sink
+1,"4*ai + 2*ao; 12-bit, 10V or 4-20ma"
+2,"8*ai; 12-bit, 10V or 4-20ma"
+3,"2*ai + 2*ao; 12-bit, 10V or 4-20ma"
+4,"4*ao; 12-bit, 10V or 4-20ma"
+5,8*bo; relay 24V DC/120V AC
+6,"High Voltage Power Supply, Multi Channel CAN-I/O"
+7,Dual-channel System SourceMeter Instrument
+8,Power Supply Programmer
+9,"eSCL for series including BLuDC9, BLuDC4, STAC5, and STAC6."
+10,Small Pump Controller
+11,laser power meter
+12,Oscilloscope
+13,High Voltage control software for Wiener MPOD crate. Tested with EHS 8060n modules.
+14,MODICON Quantum and Momentum PLCs via Ethernet
+15,Simple Brain + SNAP I/O modules
+16,Picomotor Multi-Axis Driver
+17,Digital Mulitmeter
+18,Multimeter
+19,Data Aquisition / Switch Unit
+20,Powermeter
+21,Frequency Counter
+22,DC Power Supply
+23,System DC Electronic Load
+24,Dual Power Supply
+25,DC Power Supply
+26,Vector Voltmeter
+27,RF Sig generator 0.1-990 MHz
+28,RF Sig generator 0.1-1040 MHz
+29,4 channel NIM counter
+30,Incremental Encoder Interface
+31,Nanovoltmeter
+32,digital Multimeter
+33,Digital Multimeter
+34,Digital Multimeter
+35,Calibrator/Source
+36,pA-meter
+37,pA-meter
+38,pA-meter / Switch Unit
+39,Switch System (Scanner)
+40,Switch System (400-Channel Scanner)
+41,Picoammeter
+42,Programmable DC Power Supply
+43,Digital Multimeter / Switch Unit
+44,Frequency Synthesizer
+45,Signal Generator
+46,Power Supplies (5KW and 10KW)
+47,Frequency Counter
+48,digital Oscilloscope
+49,Local/Remote temperature sensor
+50,16-Bit High Density Analog Output Module (ao)
+51,16-Bit High Density Analog Input Module (ai)
+52,32 isolated solid relay outputs
+53,48 channel digital I/O
+54,Six & Two 16-Bit Counter/Timer Modules (JPL Specific Pulse Generator for Pico Motor Support)
+55,SU analog out 16 chan se 10V
+56,"24 Line Digital Input/Output Module (bi, bo, longout, longin, mbbodirect)"
+57,"40 Channel Low Side Driver Module (bi, bo)"
+58,binary out 8 chan latching
+59,binary in/out 24 ch+inter
+60,analog in 8 chan diff +/-10V
+61,Refrigerated Thermo-chiller
+62,Panel mount PID Controller (used by Filtrine Chiller)
+63,110V Mains Power controller
+64,"Ion Vacuum Pump Power Supply, measures current to 10pA"
+65,Dual-channel System SourceMeter Instrument
+66,"MKS 901, 901P, 925, 971B, 972B, 974B vacuum gauge support"
+67,Multi Stage Ramp/Soak Temperature Process Controller
+68,Digital Thermometer
+69,Ion pump controllers
+70,App to Communicate and control VME fan tray
+71,PLC
+72,multiple pump controller
+73,Small Pump Controller
+74,titanium sublimation pump controller
+75,Lab Chiller
+76,turbomolecular pump controller
+77,Ion Pump Controller
+78,Gauge Controller
+79,Power Supply Programmer
+80,Programmable DC Power Supplies
+81,diode-pumped amplified laser
+82,Chillers/Circulators
+83,vacuum gauge controller
+84,Liquid cryogen level monitor
+85,Liquid Helium Compressor
+86,Magnet Power Supply
+87,Solid State Modulator
+88,4 Channel Low Current Monitor. Input > 10 pA < 1 mA; Output +/-10V
+89,UHV ion pump power supply (2-500 l/s)
+90,multiple pump controller
+91,Small Pump Controller
+92,BILT iTest system - 5A bipolar current source
+93,"8 Channel, primarily XRAY in the 60KeV range (Ethernet available)"
+94,Chillers/Circulators
+95,digital arbitary waveform generator with auxiliary step output
+96,Superconducting Magnet Power Supply
+97,Digital Scan Control and Motor Driver for monochromators
+98,vacuum gauge controller
+99,vacuum gauge controller
+100,Baratron gauge controller
+101,RGA controller PC
+102,Dual-Channel Joulemeter/Power Meter
+103,Single-Axis motion controller/Driver for DC or Stepper
+104,8-channel Cryogenic Digital Thermometers
+105,4-channel digital transmitters
+106,High Speed 8-ch Thermocouple Interface Card
+107,Vacuum Gauge Controller
+108,Pulse Generator
+109,Chillers/Circulators
+110,Programmable Bench Power Supply
+111,ion pump controller
+112,driver support for A-B DF1 serial protocol
+113,stepper-motor controller
+114,8-chan digitial thermometer
+115,Temp controller: heater + 2 sensors
+116,Temperature monitor
+117,radiation monitor
+118,4-channel digital transmitters
+119,Dual Ion Pump Controller
+120,CAMAC Serial Highway
+121,VME ControlNet Interface Module
+122,VME-VXI adapter
+123,"16-bit analog input, 16 channel"
+124,laser interferometer
+125,RF 4:1 Multiplexer
+126,"ai*8, 16-bit@400 kHz"
+127,Time and Frequency Processor
+128,Video text/interrupt/time code/DIO
+129,EVENTLink Timing Master Input
+130,EVENTLink Timing Slave Output
+131,Digitizer and Display Device
+132,integrated image processing system
+133,Integrated image processing system
+134,Region-Of-Interest Storage Device
+135,analog output 16-bit
+136,"analog output 8-chan, 12-bit"
+137,"analog input 16 chan, 16-bit, fast"
+138,15 to 1 video multiplexor
+139,counter/timer (6 chan / 50 nsec res / 32 bits)
+140,pulse gen (6 chan / 32 nsec res / 24 bits)
+141,Four-port VME serial board
+142,counter
+143,4 chan incremental encoder
+144,stepmotor controller
+145,LVDT
+146,Digital Delay Generator
+147,"18-bit opto-isolated DAC, 2 chan"
+148,"8-ch, 12/14-bit, 10MHz transient recorder"
+149,BITBUS Interface
+150,VME High Voltage Power Supply
+151,"8 channel, 16-bit waveform generator"
+152,8/16-channel scaler
+153,waveform analyzer
+154,waveform analyzer
+155,analog output 12-bit 10 MHz
+156,64-bit binary input
+157,digital input 128-bit
+158,64-channel binary input
+159,binary output 64-bit high voltage
+160,high voltage 64-bit binary output
+161,32-bit relay input
+162,digital input/output 32-bit relay
+163,32-bit binary input/output
+164,32-bit binary input/output
+165,"12-bit scanning analog input, 64-channel"
+166,analog input 12-bit high-thruput w/4 ch S+H
+167,100kHz 16-bit waveform recorder
+168,analog input 16-bit high-perf
+169,analog input 16-bit high-thruput w/16 ch S+H
+170,"12-bit scanning analog input, 32 channel"
+171,"16-bit analog output, 8 channel"
+172,"32-channel, 12-bit analog output"
+173,arbitrary waveform generator 4-channel 16-bit
+174,analog output 12-channel isolated
+175,"12-bit scanning analog, 16/16 channel in/out"
+176,analog input/output 16-channel scanning
+177,Reflective (distributed shared) Memory
+178,Digital input
+179,Analog output 12-bit 8-ch
+180,Analog input 12-bit 16- or 32-ch/output
+181,Slot zero translator
+182,18 GHz Microwave Switch Module
+183,Arbitrary function generator
+184,"Comparator, 16 chan analog"
+185,VXI-MXI with INTX
+186,"8-Bit, 2/4 channels, 250 MHz,1 GS/s waveform analyzer"
+187,"8-Bit, 2/4 channels, 1 GHz, 5GS/s waveform analyzer"
+188,Description

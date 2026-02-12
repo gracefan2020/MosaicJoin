@@ -1,0 +1,194 @@
+id,title
+0,Customer Elicitation Report
+1,Setup initial trac with team member info/other info
+2,Create reasonable project goals/longterm plan
+3,High Concept report
+4,Customer Elicitation on 9/6
+5,Write elicitation report
+6,Create a game map and other graphic animations
+7,Test pygame development platform by implementing main screen and some buttons
+8,Write up detailed requirement specifications
+9,"Decide on resources to include in game, economic interactions between those markets"
+10,Decide on high priortiy policies
+11,Design a game interface for initializing a policy on a trade good
+12,Game Use Cases
+13,Technology Assessment
+14,Management Update 9/13
+15,Prototype
+16,Proposal
+17,Game Treatment
+18,Management plan update 9/6
+19,Update Teacher on TWiki Blog (week of 9/13)
+20,"develop Map, Resource, Trade Route classes"
+21,Postmortem Phase 1
+22,1st Architectural Design Draft: Use cases - Due 9/27 [30 min]
+23,Management Plan 9/22 Alpha Use Cases Rationale
+24,Management Plan 9/22 Phase 2 Goal Stack
+25,Management Plan 9/22 Phase 2 Risk Analysis
+26,Management Plan 9/22 Goal Plan
+27,Initialize Game - Alpha Release
+28,Initial Trade Setup - Alpha Release
+29,Display Map and Interface - Alpha Release
+30,Play Game - Alpha Release
+31,Make Tax Policy - Alpha Release
+32,Display and Update Meters - Alpha Release
+33,Hover actions - Alpha Release
+34,End Game - Alpha Release
+35,Write basic AI - Alpha Release
+36,1st Architectural Design Draft: Domain Diagram Due 9-27 [30 min]
+37,1st Architectural Design Draft: Initial Class Diagram Due 9-27 [1-2hr]
+38,1st Architectural Design Draft: Sequence Diagrams due 9-27 [1hr]
+39,1st Architectural Design Draft: Design Analysis Due 9-27 [1 hr]
+40,"Prototype. UC Play Game: create turn mechanism, button. [goal = 9-27, t = 1-2hrs]"
+41,Prototype. UC Make Policy: create popup window describing policy details [goal=9-27 t =1-2hr]
+42,"Prototype. UC Make Policy: incorporate resource clicking into popups [ goal = 10-11, t = 1hr]"
+43,Prototype. UC Make Tax Policy [goal=9-27 t=1hr]
+44,Group Blog Due 9-27 [t = 30min]
+45,Prototype writeup due 9-27 [t=30min]
+46,Management plan update 9/27
+47,Second Architectural Design Draft: Important components of class interface - Due 10-4 [1 hour]
+48,Second Architectural Design Draft: I/O specifications - Due 10-4 [1 hr]
+49,Second Architectural Design Draft: Underlying models and algorithms - Due 10-4 [1 hr]
+50,Second Architectural Design: Revision - Due 10-4 [1 hr]
+51,Second Architectural Design: Critique - Due 10-4 [1 hr]
+52,Initial UI Design - Due 10-4 [2hrs]
+53,User test Due 10-4 [30 min]
+54,Blog Entry - Due 10-4 [30min]
+55,Prototype Assessment Due 10-4 [30 min]
+56,"Prototype. UC Meters: choose concrete level goals for each meter [goal = 10-4, t = 1 hr]"
+57,"Prototype. UC Meters: implement functions to set UI meter levels [goal = 10-4, t = 2-3 hr]"
+58,"Prototype. UC Meters: update meters from country stats during turn [goal = 10-4, t=30min]"
+59,"Prototype. UC Make Policy: write instructions in info box for implementing policy [goal = 10-4, t = 1hr]"
+60,"Art for Different Popups, tariff, embargo, subsidy (also for UI Design) [goal = 10-4 t = 30 min]"
+61,Management plan update 10/4 Due 10-4 [2hr]
+62,Architectural Design Review Package Due 10-6 [1hr]
+63,Design Review Use Cases Due 10-11 [1hr]
+64,Design Review Other Models Due 10-11 [1.5hr]
+65,Design Review Class Diagram Due 10-11 [2hr]
+66,Design Review Sequence Diagrams+Buildability+Extensibility Due 10-11 [1.5hr]
+67,Final UI Design Due 10-11 [30min]
+68,Test Plan: Main Due 10-11 [1hr]
+69,Test Plan: Economic Model Due 10-11 [1hr]
+70,Blog Update 10-11 [30min]
+71,Prototype Assessment Due 10-11 [30min]
+72,"Prototype. UC Play Game: Tutorial [goal=10-11, t=4hr]"
+73,"Prototype. UC Play Game: Hover [goal=10-11, t=1hr]"
+74,"Prototype. Text Content [goal = 11-15, t = 3hr]"
+75,"Prototype. Model Enhancement [goal = 10-4, t = 1hr]"
+76,Management Plan Update Due 10-11 [t = 2hr]
+77,Final Architecture Due 10-20 [3 hr]
+78,Test plan implementation Stage I Due 10-20 [1 hour]
+79,Test plan implementation stage II Due 10-25 [30min]
+80,Blog Update Due 10-25 [30min]
+81,Prototype Assessment Due 10-25 [30min]
+82,Alpha release Executable: Refactor Due 10-25 [4 hr]
+83,Alpha release Executable: Text Content Due 10-25 [1hr]
+84,Prototype: provide more information about buttons hovered over [1-2 hrs]
+85,Execute test plan: First iteration due 11-1 [1.5 hr]
+86,Prototype: choose meter goals for each level [1.5 hr]
+87,Prototype: add win event [.7 hr]
+88,Beta release: executable due 11-15 [1hr]
+89,Beta release: user documentation due 11-15 [1hr]
+90,Beta release: user survey 11-15 [2hr]
+91,Beta release: user survey analysis due 11-22 [1.5hr]
+92,Beta release: presentation 11-17 [2.5hr]
+93,V1 Release: Create installer or single executable due 12-9 [2 hr]
+94,Beta release: add game ending due 11-1 [2 hr]
+95,V1 Release: Framework for AI due 11-8 [2 hr]
+96,Beta release: storyline popups due 11-15 [2 hr]
+97,Beta release: only pass window around (refactoring) due 11-15 [3 hr]
+98,Alpha release: Documentation Due 10-27 [3 hours]
+99,Alpha release: Presentation Due 10-27 [2 hours]
+100,Beta Release: decide on level goals [1-1.5 hr]
+101,add level objective text to infobox [.5 hr]
+102,"Testing Review Package: Intro, Agenda, Criteria due 11-3 [1 hr]"
+103,Testing Review Package: Risk Analysis due 11-3 [1 hr]
+104,"Testing Review Package: Rational, Tests, Test Results due 11-3 [1 hr]"
+105,Testing Review due 11-3 [1 hr each member]
+106,Testing due 11-8 [1 hr]
+107,Management plan update due 11/1 [1 hr]
+108,High Score Feature due 11-22(cont) [3 hrs]
+109,Prototype: End Turn Summary due 11-8 (on hold) [1 hr]
+110,Protoype: Economic Model Improvements for Gameplay goal 11-15 [2hr]
+111,Prototype Assessment due 11-8 [30min]
+112,Blog Update due 11-8 [30 min]
+113,background flashes when popups appear during intro
+114,highlighted icons become unhighlighted when pressed but not released on (not actually clicked on)
+115,government income from tariffs not calculated correctly
+116,game cannot load background image in linux due to race conditions. causes crash
+117,game doesn't end yet
+118,level popup images inconsistent with model goals
+119,game doesn't end again since somebody didn't update before committing
+120,objective 3 is too hard to complete
+121,the last level is too short for enough events to appear
+122,the event popups don't do anything yet
+123,the save and load buttons don't work yet
+124,the end-turn popups are inconvenient for testing
+125,the buttons don't appear in the correct location in the event popups
+126,the font in the infobox is unreadable
+127,Beta: implement event popup effects [2 hr]
+128,Beta: add a help button [2 hr]
+129,Beta: add options button to main menu [3 hr]
+130,Test Plan Response Due 11-5 [1 hr]
+131,"The ""DONE"" and other buttons for embargoes appear in the turn summary popup during the last objective"
+132,high score button doesn't have hover image
+133,First and Thrid level take too many turns to complete
+134,There is no way to restart the game once you lose
+135,the high score button doesn't work
+136,Management plan update due 11/15 [1 hr]
+137,Blog Update due 11/22 [30min]
+138,Prototype Assessment due 11-22 [30min]
+139,Testing due 11-22 [1 hr]
+140,"Prototype: Change help button to say help [goal = 11-22, t = 30 min]"
+141,Prototype: make objectives and hints always show on screen [ goal = 11-22]
+142,"Prototype: Economic model enhancements [goal = 11-22, t = 30 min]"
+143,V1: add specific descriptions of policies linked to help menu [2 hr]
+144,v1: add line on meters to show projected meter levels
+145,v1: there should be a button that shows objective when hovered over
+146,missing some constants in the meter drawing
+147,v1: add tutorial that highlights button functions [1.5 hr]
+148,cannot load high score list - pickel misspelled
+149,subsidies not deducted during protest
+150,arrow doesn't appear on meters if target is above maximum value
+151,should there be a limit on number of high scores?
+152,missing a lot of constants in high score mechanism
+153,you always get a high score
+154,high score dialog uses a lot of cpu
+155,Consumer/Producer happiness can go above 100% [fixed in current version]
+156,Testing due 11-22 [1 hr]
+157,Blog Update due 11-29 [30 min]
+158,Prototype Assessment due 11-29 [30min]
+159,Management plan update due 11/22[[1 hr]
+160,Management plan update due 11/22 [1 hr]
+161,Management plan update due 11/29[1 hr]
+162,Code Review Package due 12-1 [t = 1 hr]
+163,high score text currently goes past end of box [fixed in current version]
+164,"Prototype Update: Hover tutorial [t = 1 hr, goal = 12-6]"
+165,V1: make popup for objective button [1 hr]
+166,V1: tutorial for hovering over anything and clicking on meters [2 hr]
+167,Code Review due 12-6 [t = 1 hr each]
+168,V1: move help button?
+169,Testing due 12-6 [1 hr]
+170,no objective in infobox after winning - makes game crash
+171,objective not shown immediately after tutorial
+172,"objective popup text sometimes covered by button, done button not in right place"
+173,tariff hint text under objective button
+174,make sure students know that policies from previous levels can still be used
+175,Code Review Package: Intro and Agenda Due 12-1 [t = 1hr]
+176,Code Review Pkg Criteria and Rubric due 12-1 [1.5 hr]
+177,Code Review Pkg Class Diagram/Code Policy due 12-1 [1hr]
+178,Code Review Pkg writing quality control due 12-1 [30min]
+179,treasury is low message on embargo popup not always accurate
+180,high score popup could allow for more text (make it longer?)
+181,after tax popup should appear after new game started
+182,"game sometimes crashes when hidden with ""Visual C++ Runtime 9.0"" error in exe mode"
+183,V1: Make Release Executable
+184,V1: Final Report - Background [.5 hr]
+185,V1: Final Report - Requirements [1 hr]
+186,V1: Final Report - Design [.5 hr]
+187,V1: Final Report - Testing [.5 hr]
+188,V1: Final Report - Results[2 hr]
+189,V1: Final Presentation [1 hr]
+190,Management Plan 12-6 [1 hr]
+191,Code Prototype Update 12-6 [.7 hr]
+192,game icon doesn't appear on Windows 7

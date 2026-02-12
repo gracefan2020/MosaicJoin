@@ -1,0 +1,51 @@
+id,title
+0,Permissions for creating different 'Model Types' not functioning
+1,Stop using ModelUIController
+2,Revision support
+3,model_entity_info_alter() should not depend on Entity API helper functions.
+4,access callback for model types not loading correct object
+5,Object of class Model could not be converted to int
+6,Uninstalling model module causes fatal error
+7,Theme hook not implemented
+8,Remove custom controllers
+9,Separate module and entity names.
+10,Integration with Inline Entity Form
+11,"Error message on node save, ""Accessing non-object"" on model.module line 150"
+12,Entity with no bundle
+13,Allow set a data value for the name property (rules integration)
+14,Add a Field to an Entity Programmatically
+15,entity type name cannot be a number
+16,Operational links not working if entity_type is not exportable
+17,Model created fields are not deleted upon uninstall.
+18,Remove hook_entity_info_alter
+19,Unable to delete model type when model type name is number
+20,Automate replacement entity name by drush
+21,How To Specify Which Fields Appear on Default Edit/Add Form?
+22,can not make new entity based on this module
+23,views bug.
+24,Strongly typed argument causes problems in model_save function
+25,"""Model"" view not imported when multiple Models enabled"
+26,"New ""label"" property for the 'entity keys' array"
+27,"Admin Model View loses Model_ID, Name and Type fields"
+28,Fix broken link on project page
+29,Add default bundle
+30,Difference with Entity Construction Kit (ECK) module
+31,Do not use dual entities
+32,Attempting to install module using SQLite database results in PDOException: SQLSTATE[HY000]
+33,Functions model_delete_form_submit and model_form_submit_delete could use different names
+34,Cannot manage Model Types - pages not found
+35,A white area shows on admin menu
+36,Documentation confusion
+37,Is it possible to make models exportable?
+38,"Question about documentation ""Customizing your entities in 3 simple steps"""
+39,Add buildQuery example
+40,Left views dependencies as a submodule
+41,Update example to take Entity API api change into account
+42,Broken/missing handler (Broken handler model.operations)
+43,Use of entity_exportable_schema_fields() in hook_schema()
+44,PLEASE READ: MODEL SUPPORT
+45,How to create context/relationship with users via a uid field in my custom entity
+46,admin/structure/model_types/manage links are broken in dev branch
+47,Fatal error when uninstalling module
+48,Remove entity_exportable_schema_fields() from hook_schema()
+49,Broken link in Project description

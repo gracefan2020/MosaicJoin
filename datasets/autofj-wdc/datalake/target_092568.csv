@@ -1,0 +1,53 @@
+id,title
+0,New parser (using QLALR) and new lexer
+1,Import capability for MathML Presentation Markup in libanalitza
+2,Visualization of Schemes and Gradients at same time
+3,Usability Improvements
+4,Merging KPercentage functionalities into KBruch
+5,Add a Open File action
+6,Python bindings to the Marble widget and classes
+7,Display millions of stars
+8,Tool to predict Conjunctions
+9,Support of Non-western Constellations
+10,"Include HD Catalog Numbers (in search, in display)"
+11,Separate INDI From KStars
+12,Sky Calendar Tool
+13,Earth Satellites
+14,Add command line
+15,Add a color picker
+16,Export canvas as image
+17,Rework main window infrastructure
+18,Improve GUI for creating softbody
+19,Use common constraints handling code for collisions
+20,Export to MathML Presentation Markup
+21,Some integration with the new KFormula widget
+22,Declensions
+23,Export map to MxN pixel bitmap
+24,Bookmarks
+25,Support for MarbleWidget::setEnabled( bool )
+26,Map Contents translation
+27,Editing GeoDataFeatures
+28,Layer Management Class
+29,Plugin architecture for map layers
+30,Extending GeoPainter
+31,Marble Runners
+32,GeoClue Integration
+33,Routing
+34,More map providers (WMS?)
+35,Winkel Triple projection / equivalent
+36,Marble WorldClock Plasmoid
+37,Qt-Version settings dialog
+38,Panoramio Support
+39,Twitter Plugin
+40,TimeZone Support
+41,Support for other planets and the moon
+42,DGML2 Support
+43,Support for imperial units
+44,Graticule plugin
+45,MeasureTool plugin
+46,Port authors list from the Qt-About dialog to the KDE-About dialog
+47,Basic KML support
+48,GeoData Model/View Visualization
+49,More generic projection support
+50,Network plugins
+51,Optional rulers/grid for canvas units

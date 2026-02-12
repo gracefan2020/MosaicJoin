@@ -1,0 +1,51 @@
+id,title
+0,Remove unused and NON-MIT/GPL licensed or compatible code
+1,"Updating from 7.x-2.3 to 7.x-2.4, Accordion autoheight broke"
+2,Update to 2.4+ with default jQuery 1.7 breaks some features
+3,Update from 7x-2.4 to 7x-2.5 - Accordion doesn't work
+4,[jquery_update] 3rd party libraries
+5,User can change the version of JQuery if they don't have admin permissions on theme settings
+6,Allow detection of different jQuery UI libraries in sites/*/libraries/jquery.ui
+7,Move and update jquery.cookie
+8,Wysiwyg ckeditor breaks after jquery update in node/edit page
+9,"Error: ""Add existing field: you need to select a widget"" when adding a field if jQuery is updated"
+10,Views UI Styles not working with Jquery 1.10
+11,Offer latest jQuery 2.x as an option (currently 2.1.0) - Fall back to 1.x for IE6/7/8.
+12,2.6 update broke both my drupal sites
+13,Menu item missing
+14,updating to 7.x-3.0-alpha resets admin theme jquery to default (1.4)
+15,Document which version? 2.x or 3.x?
+16,Remove 1.9 replacement files and force enable the migrate plugin
+17,Update jquery.form.js
+18,Not saving variables
+19,b.handleError is not a function
+20,Move config form to separate file
+21,Respect the alphabetical order of the entries in the site Status report page.
+22,Update 7001 breaks installer by setting an admin version
+23,Tabledrag.js and jQuery 1.4.2
+24,Remove Byte Order Marks (BOM) from the code
+25,Keep jQuery 1.8.x updated to the latest version available (currently shipping 1.8.2 - update to 1.8.3).
+26,Add jQuery 2.1.4
+27,Change jQuery Update for specific paths (module specific)
+28,Configuration fails to store some values
+29,Update 1.7 to 1.7.2
+30,Setting jQuery_update values in the database
+31,jQuery UI is no longer loaded when you log out of Drupals site?
+32,Support (optionally) the use of the jQuery Migrate Plugin
+33,JQuery Update breaks Views UI
+34,"AJAX HTTP error 200, when try to manage field display & Views"
+35,Issue with tabs and fieldset
+36,jQuery update not replacing js files in Drupal 6
+37,Uncaught TypeError: Cannot read property 'prototype' of undefined
+38,"AJAX HTTP error, Code 403"
+39,Ie 7 and ie 8 issues with ajax
+40,Notice: Undefined variable: min in jquery_update_library_alter() (line 151...
+41,Secure pages issue
+42,Check for available update data is broken when
+43,ndefined is not a function (jquery.form.js)
+44,Offer latest jQuery UI 1.11.4
+45,load the jquery.min.js at the bottom of the page (also for 6.x vers)
+46,Error D.ajax is undefined
+47,After 7.x-2.5 update status report says missing jQuery UI plugin
+48,References Dialog modal floats below Panels IPE
+49,Update Instructions and INSTALLATION sections

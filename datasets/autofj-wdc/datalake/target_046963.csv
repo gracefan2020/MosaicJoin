@@ -1,0 +1,184 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. AFC
+4,vs. NFC
+5,vs. Own Division
+6,Grass
+7,Turf
+8,Outdoors
+9,Indoors
+10,Day Games
+11,Split
+12,September
+13,October
+14,November
+15,December
+16,January
+17,On Saturday
+18,On Sunday
+19,Games 1-8
+20,Games 9-16
+21,Outdoor Temp 41-60 F
+22,Outdoor Temp 61-80 F
+23,In High Wind
+24,Clear Weather
+25,Split
+26,As Starter
+27,In Wins/Ties
+28,In Losses
+29,1st Half
+30,2nd Half
+31,1st Qtr
+32,2nd Qtr
+33,3rd Qtr
+34,4th Qtr
+35,Last 2 Min. Half
+36,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+37,Score Diff > 7 points
+38,Final Margin 7 pts or less
+39,"4th Qtr, +/-3 pts"
+40,"4th Qtr, +/-7 Pts"
+41,Split
+42,1st Down
+43,2nd Down
+44,3rd Down
+45,4th Down
+46,Own 1-19
+47,Own 20-39
+48,Between 40s
+49,Opp 39-20
+50,Opp 19-Goal
+51,Opp 9-Goal
+52,"First down, 10 yds to go"
+53,Plays gaining 20+ yds
+54,Split
+55,vs. ATL
+56,vs. CHI
+57,vs. DET
+58,vs. GB
+59,vs. IND
+60,vs. JAC
+61,vs. MIN
+62,vs. NO
+63,vs. ARI
+64,vs. TB
+65,vs. TEN
+66,vs. WAS
+67,vs. HOU
+68,Split
+69,Soldier Field
+70,Louisiana Superdome
+71,Georgia Dome
+72,Ericsson Stadium
+73,Raymond James Stadium
+74,Split
+75,vs NFC East teams
+76,vs NFC West teams
+77,Split
+78,Line 2 yds or less yards from TD
+79,1st & Goal
+80,2nd & Goal
+81,3rd & Goal
+82,"1st Down, 0-2 To Go"
+83,"1st Down, 3-7 To Go"
+84,"1st Down, 8-10 To Go"
+85,"1st Down, 11+ To Go"
+86,"1st Down, < 6 To Go"
+87,"1st Down, 6+ To Go"
+88,"2nd Down, 0-2 To Go"
+89,"2nd Down, 3-7 To Go"
+90,"2nd Down, 8-10 To Go"
+91,"2nd Down, 11+ To Go"
+92,"2nd Down, < 6 To Go"
+93,"2nd Down, 6+ To Go"
+94,"3rd Down, 0-2 To Go"
+95,"3rd Down, 3-7 To Go"
+96,"3rd Down, 8-10 To Go"
+97,"3rd Down, 11+ To Go"
+98,"3rd Down, < 6 To Go"
+99,"3rd Down, 6+ To Go"
+100,"4th Down, 0-2 To Go"
+101,"4th Down, 3-7 To Go"
+102,"4th Down, 8-10 To Go"
+103,"4th Down, 11+ To Go"
+104,"4th Down, < 6 To Go"
+105,"4th Down, 6+ To Go"
+106,Split
+107,Final Margin 0-7
+108,Final Margin 8-14
+109,Final Margin 15+
+110,Winning 22+
+111,Winning 15-21
+112,Winning 8-14
+113,Winning 1-7
+114,When Tied
+115,Losing 1-7
+116,Losing 8-14
+117,Losing 15-21
+118,Losing 22+
+119,When Winning
+120,When Trailing
+121,In Winning Games Started
+122,In Losing Games Started
+123,Split
+124,Carries 1-5
+125,Carries 6-10
+126,Carries 11-15
+127,Runs of 10+ yards
+128,Split
+129,Attempts 1-10 of game
+130,Attempts 11-20 of game
+131,Attempts 21-30 of game
+132,Attempts 31-40 of game
+133,Attempts 41+ of game
+134,Split
+135,0 Tight Ends
+136,1 Tight End
+137,2 Tight Ends
+138,3+ Tight Ends
+139,No Offensive Motion
+140,Offensive Motion
+141,< 4 on Def. line
+142,4 on Def. Line
+143,5 on Def. Line
+144,6 on Def. Line
+145,> 6 on Def. Line
+146,Shotgun
+147,Pro Form
+148,I-Formation
+149,Single Back
+150,0-1 Wide Receivers
+151,2 Wide Receivers
+152,3 Wide Receivers
+153,4+ Wide Receivers
+154,Split
+155,Right Side
+156,Left Side
+157,Middle
+158,Left Sideline
+159,Right Sideline
+160,Pass Thrown Behind Line of Scrimmage
+161,Pass Thrown 1-10 yds
+162,Pass Thrown 11-20 yds
+163,Pass Thrown 21-30 yds
+164,Pass Thrown 31-40 yds
+165,Pass Thrown 41+ yds
+166,Split
+167,Blitz
+168,QB Under Pressure
+169,QB Knocked Down
+170,Pass Dropped
+171,QB Hit by Defender
+172,Receiver Hit by Defender
+173,Batted Down at Scrimmage
+174,QB-Rcvr Miscommunicate
+175,Pass Overthrown
+176,Ball Spike to Stop Clock
+177,Thrown Away Intentionally
+178,Pass Underthrown
+179,Pass Thrown Wide
+180,Pass Defensed
+181,Pass Caught-OOB
+182,QB kneels to kill clock

@@ -1,0 +1,101 @@
+id,title
+0,Inconsistent treatment of blank passwords for superusers
+1,Can't log in from /admin/logout/
+2,"Referential integrity violation upon applying output of ""django-admin.py sqlclear"" after admin update"
+3,TimeFormat seconds function has unused second argument (w/ patch)
+4,Allow the strings the cycle tag uses to contain spaces
+5,errors from tutorial 1
+6,Some tables are unreadable due to white text on white background
+7,[Patch] Remove edit_inline_type / edit_inline verbosity
+8,help_text is not displayed for ManyToManyField in the admin interface
+9,error submitting empty times
+10,[patch] Allow selecting individual fields in SQL SELECT statements via the models API
+11,Need to generate postgresql tables WITHOUT OIDS by default
+12,sqlite3 broken post rev 329
+13,Multiple foreign keys to one table
+14,changing column sort order in admin interface doesn't change sort order
+15,The change history for an object is recording changes with a 6-hour offset to the timestamp
+16,List requirements
+17,Missing argument for ForeignKey in documentation
+18,"r335 - sqlite database wrapper produces numeric (none,none) for a float field"
+19,[PATCH] Breadcrumb navigation broken in admin documentation
+20,AUTH_SESSION_COOKIE change
+21,MS SQL Server via ADO
+22,MetaWeblog API Support
+23,sqlite and unicode problems
+24,[patch] Better handling of timezones
+25,Some images are linked-in externally in Admin interface
+26,FloatField with MySQL Backend fails silently
+27,[patch] Make appropriate model fields honor max_length param
+28,session example.
+29,Using ImageField without PIL
+30,Make simple cache thread-safe
+31,meta.HashField()
+32,Add support for deleting cookies easily
+33,get_absolute_url doesn't show up right in admin
+34,Database tests fail with sqlite
+35,Initializing a model instance should not require fields with blank
+36,get_callback() improvements
+37,Add a django.contrib.markup app
+38,Traceback when viewing tag docs.
+39,lack of ordering the get_list() params
+40,[patch] Make new get_values() function more forgiving of mistakes
+41,Remove old ordering syntax
+42,Can't do circular ForeignKey relationships between classes
+43,Webpage to list web hosts
+44,"Add a ""addtopath"" command to django-admin.py"
+45,IRC nicks
+46,Metasystem needs a BinaryField
+47,"[patch] Add ""AND"" and ""OR"" clauses to the SQL query syntax"
+48,Update shared hosting FAQ
+49,Admin add interface is looking for key that doesn't exist
+50,can't download the files
+51,FileField doesn't work
+52,(patch) add ifequal template tag to set of default tags
+53,Empty model modules shouldn't cause an error
+54,Cannot create many-many relationships within the same table
+55,Admin errors with edit_inline and foreign keys.
+56,ManyToMany fields need raw_id_admin
+57,the administrator with edit_inline should give ordering choices
+58,editable=False doesn't show in tables that are created with edit_inline=True
+59,inspectdb should give hint on the need to run sqlinitialdata
+60,None
+61,Patch: RequiredIfOtherField and friends don't work with edit_inline
+62,Patch: a validator that matches against another list if some other field has a specific value
+63,"admin redirect when ""save and continue editing"" uses object.id"
+64,Patch: new validator that validates one of many validators
+65,Patch: validator that matches against a regular expression
+66,Patch: edit_inline and default on fields don't work together
+67,"""ManyToOneField"" seen in Model Reference should read ""ForeignKey"""
+68,Error while executing
+69,[patch] Password salt and other algorithms support
+70,data model permissions are only being added to 'auth_permissions' if custom permissions are also defined
+71,Missing arg in django.core.validators.RequiredIfOtherFieldGiven introduced by changeset 403
+72,[patch] new template tag 'strip'
+73,CommonMiddleware URL rewriting discards POST data
+74,Problems saving objects with non-id primary key fields and SQLite database
+75,[patch] TemplateDoesNotExist on Windows
+76,add _pre_delete and _post_delete hooks
+77,Improve e-mail address validation
+78,Database is locked
+79,templatetags/log.py breaks on AnonymousUser
+80,Request for https access to the svn repository
+81,WSGIRequest should set request.path to full uri path
+82,[patch] Eliminate unintuitive behavior when using edit_inline with no core fields specified
+83,slugify description incorrect
+84,Document custom template tags systyem
+85,"[patch] more details with ""Please correct the errors below."""
+86,Typo in tutorial 4?
+87,Installation problems
+88,"The page title in tutorial part 4 says ""part 3"""
+89,Typo in Tutorial 4
+90,Use setuptools more aggressively for templates
+91,"[patch] Add reverse counter variables to template ""for loops"""
+92,[patch] Typo in docs/model_api.txt
+93,"Add ""--settings"" option to runtests.py"
+94,Need impovement to POST.copy()
+95,Slugify shouldn't remove hyphens
+96,ImportError in simple setup
+97,Last update on Community page
+98,"object.save() doesn't update, re-inserts"
+99,Error: got unexpected keyword argument when deleting object in admin interface

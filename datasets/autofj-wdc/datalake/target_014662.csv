@@ -1,0 +1,65 @@
+id,title
+0,No value was returned by the ECS.
+1,Invalid origination or destination address.
+2,Capability sequence was violated or underlying protocol error was detected; an unrecognized value was returned by the ECS.
+3,Resources to fulfill service are not available.
+4,Capability is implemented but not subscribed to by requester.
+5,Incompatible options selected.
+6,One of the required parameters is missing.
+7,Value specified in parameter is not allowed or defined.
+8,Domain or call is being monitored by another adjunct.
+9,Call is no longer in active state.
+10,Message not compatible with call state.
+11,Invalid call identifier (sao_id also known as cluster_id) used or call does not exist.
+12,Incompatible options used to establish the call.
+13,Timer expired.
+14,Agent not logged in to split.
+15,Agent not member of specified split or split number specified incorrectly.
+16,Domain or call is being monitored by another adjunct.
+17,Originating address does not respond to service.
+18,Permission checks for service have failed.
+19,Association terminated because service is not active.
+20,Domain was removed by administration.
+21,Agent not in compatible state.
+22,Agent logged in to maximum number of splits.
+23,Invalid login password.
+24,Request to put agent in the state that the agent is already in.
+25,ACD not provisioned or optioned.
+26,Normal termination; call routed successfully.
+27,Association terminated because of network congestion.
+28,Unknown information element detected.
+29,Queue is full.
+30,Reorder/Denial.
+31,Administration is in progress; request cannot be serviced.
+32,The ECS has rejected a request from the adjunct.
+33,Unassigned number.
+34,Call rejected.
+35,Number changed.
+36,"Normal, unspecified."
+37,No circuit or channel available.
+38,Temporary Failure.
+39,Bearer capability not presently available.
+40,Incompatible destination.
+41,"Invalid message, unspecified (backward compatibility)."
+42,Message nonexistent/ not implemented.
+43,Unspecified.
+44,No answer.
+45,Trunks not available.
+46,Classifiers not available.
+47,Redirected.
+48,Network out of order.
+49,Undefined value returned from the ECS.
+50,Outgoing call was barred.
+51,Call remains in queue.
+52,Bearer service not implemented.
+53,Assumed answer based on internal timer.
+54,Voice energy detected by the ECS.
+55,Channel or tone do not exist (no tone connected to the specified call).
+56,Answering machine detected.
+57,Facility rejected.
+58,Redirection cause.
+59,Redirection cause.
+60,Redirection cause.
+61,Redirection cause.
+62,Single-Step Conference listen only.
+63,Single-Step Conference listen-talk.

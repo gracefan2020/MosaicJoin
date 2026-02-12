@@ -1,0 +1,51 @@
+id,title
+0,Logintoboggan compatibility issue
+1,"the email address ""username"" is not valid."
+2,Guest Checkout - User Experience
+3,Checkout button on shopping cart form
+4,Module has stopped working
+5,Get the 'You need to be logged in to be able to checkout' to be tranlatable.
+6,Profile2 custom profile shows up at default registration page
+7,duplicate orders
+8,Append order id to the redirect url
+9,hook_form_alter() implementation calls order_load() - bottleneck
+10,Trailing slash in form state redirect element
+11,"Invisible Continue button on IE due to ""incorrect"" javascript states"
+12,Redirect message not displaying
+13,Redirected to my account after logging with social logins
+14,Optimizing user experience by adding setting to select which forms to alter
+15,"Redirect does not function again if user has used ""back"" button"
+16,Use AJAX instead of javascript states
+17,Support the Email Registration module
+18,Anonymous checkout as login option at registration and profile forms
+19,User name field could be hidden with anonymous checkout as login option and not using user name as e-mail
+20,Users cannot set their initial passwords when they continue shopping instead of immediately setting the password
+21,Username vs email
+22,"Palpal ""continue to checkout"""
+23,How to get SSL working with checkout redirect?
+24,Notice: Undefined property: stdClass::$commerce_line_items in commerce_checkout_redirect_items_in_cart()
+25,"don not redirect to checkout, if i redirect to front page after login using rules"
+26,Add user property to indetify the user is on checkout (redirect) process
+27,Update documentation
+28,"""Checkout without an account"" has to be translatable"
+29,Overlay option
+30,Redirect with facebook login
+31,How do you configure this module
+32,Acces denied after logged and visit checkout/xx/user/register or checkout/xx/user/login
+33,Template .tpl
+34,Is the user logged in at regestration?
+35,No registration option available
+36,LoginToboggan Unified
+37,Allow registration to be optional
+38,Not being redirected to checkout after user has registered and validated her e-mail
+39,The requested page could not be found.
+40,Not being redirected to checkout after having logged in
+41,Change title of user/* pages
+42,cart dependency
+43,Option for default redirect
+44,Make the login message configurable
+45,Redirect to register page instead of login
+46,Rewrite module
+47,Off-site payment redirect is locked in the code to the Payment page and was repositioned accordingly.
+48,Support for User Registration Password (and possibly others)
+49,Some code cleaning and improvments

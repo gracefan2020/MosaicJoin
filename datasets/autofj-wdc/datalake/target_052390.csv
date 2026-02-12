@@ -1,0 +1,101 @@
+id,title
+0,xinput disables both my touchpad and my USB wireless mouse.
+1,xfce ibus does not work again ??
+2,xfce ibus does not work
+3,xdg-open script is not ready for Gnome 3?
+4,xbmc doesn't start due to NVIDIA internal version mismatch
+5,x-chat in meta-package
+6,wrong md5sum for USB-BootOnly-64-Bit
+7,wpa_supplicant.conf keeps getting clobbered
+8,would it be possible to decrease the usb img filesize low to 3.5GB?
+9,wlan ssid can't have space characters
+10,wireless icon in tray showing wrong icon
+11,wine pbi does not exe files including from terminal
+12,weird appcafe GUI quirkiness
+13,webcamd seems to not run
+14,web browser goes back one page
+15,warden- can not create linux jail
+16,warden in 10.0 does not properly create jails
+17,warden UI sometimes miss network interface setting
+18,warden - wrong recognition of zfs-pool structure
+19,warden - add ability to have mounts per jails
+20,"vmware video driver does not work well, does not detect the right screen."
+21,virtualbox: installation freezes at early stage of booting up
+22,virtualbox-ose segfaults
+23,virtualbox problem
+24,virtualbox not working since system update pcbsd 9.2 and 10 (stable)
+25,virtualbox not working since system update pcbsd 9.2
+26,virtualbox for windows 7 basic 64bits: PCBSD don't works
+27,virtualbox bridged adapter not working since upgrade from 9.0 to 9.1
+28,vesa mode gnome and i3 refuse to fully start up.
+29,vboxvideo - black screen
+30,using custom disk partitions causes newfs to skip/fail during install
+31,user set screen resolution in X not used
+32,usb keyboard intermittant failure
+33,upgrading FreeBSD is not possible
+34,upgrade from 9.2 to 10.0 throws a few errors then fails
+35,update tray icon doues not handle connection error
+36,update manager fails - don't update on the reboot
+37,unzip package is missing
+38,unable to start PCBSD 8.0-RC amd64 graphical installer
+39,unable to load printer driver (Foomatic) for epson stylus photo 825
+40,typo in build-files/conf/port-make.conf
+41,trueos hangs on every reboot
+42,system updates repeatedly applying the same update
+43,system panic on first boot
+44,system not installl GRUB2 to the HDD partitition
+45,system freezes shortly after startup
+46,"sysinstaller - inactive ""save"" button for swap partition"
+47,sysinstaller - extra check-box for auto-login when installation type is FreeBSD
+48,subversion context menu exist but not working (cosmetic bug)
+49,stray bash-ism in warden installinmate.sh script
+50,sshd wont start because of hosts.allow and hosts.denyssh
+51,"skype-2.1.0.81_1,1-amd64.pbi fails to launch with file missing error"
+52,skype won't start
+53,shutdown hangs on Intel NUC
+54,"set moused_flags=""-3"""
+55,russian filenames
+56,running git mergetool fails on launching meld
+57,root partition with ZFS leads to installation failure
+58,remove usbd_enable from rc.conf
+59,remmina tray icon broken
+60,rc.conf and wpa_supplicant.conf gets corrupted on configuring network via UI
+61,pulseaudio error messages
+62,problem loading apache22
+63,preload_enable is not set properly
+64,powerd flags hiadaptive
+65,ports/www/w3m: disabled M17N(multilingualization) option.
+66,portjail script improvements
+67,portjail loses new users
+68,portjail /etc/rc.conf reverted on reboot
+69,pefs + switch to virtual terminal closes homedir decryption
+70,"pcbsd7.2 : first boot after install hangs on ""Display Settings"""
+71,pcbsd-utils is absent in jail
+72,pcbsd install covered up existing Linux and Windows Grub dual boot
+73,pcbsd 10.0.2-RELEASE boots on wrong grub entry
+74,pcbsd 10.0-RC5 unable to detect disk drives
+75,pc-updatemanager ignores PC_FETCHGUI variable for all downloads
+76,pc-updatemanager ignores PCFETCHGUI variable
+77,pc-thinclient doesn't work on 9.1-RC*.
+78,pc-sysinstaller only reserves 512MB for / if installing FreeBSD
+79,pc-sysinstall unable to parse commands containing equals sign in pc-sysinstall.cfg
+80,pc-sysinstall fails to sort datasets/mountpoints properly; fails on nested datasets
+81,pc-netmanager closes on cancel button in sub dialog
+82,pc-mounttray closes up on its own
+83,pc-mounttray and codepage
+84,pc-mounttray
+85,pc-metapkgmanager broken by echos in get_mirror() in /usr/local/share/pcbsd/scripts/functions.sh
+86,pc-metapackagemanager don't perform pkg autoremove
+87,pc-cupscfg/system-config-printer mutex error
+88,pc-controlpanel-next not launching items
+89,pc-bsd 7.1.1 x86-64 install failure
+90,pbidir.com - user for pbi
+91,pbidir.com - user administration
+92,pbidir.com - search capability
+93,pbidir.com - problem with release dates
+94,pbidir.com - add new fields
+95,partition overlap
+96,ossec
+97,"openoffice pbi 2.1 removal, not working"
+98,openoffice for PBI
+99,openjdk7-7.21.11-amd64 Checksum error

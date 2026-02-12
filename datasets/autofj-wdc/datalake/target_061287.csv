@@ -1,0 +1,201 @@
+id,title
+0,continued support for LDAPD (X.500-LDAP Gateway)
+1,Re: continued support for LDAPD (X.500-LDAP Gateway)
+2,Re: continued support for LDAPD (X.500-LDAP Gateway)
+3,Re: continued support for LDAPD (X.500-LDAP Gateway)
+4,Re: ldap_modify on OPENLDAP_REL_ENG_1_2
+5,Re: continued support for LDAPD (X.500-LDAP Gateway)
+6,continued support for chlog2replog and edb2ldif (quipu tools)
+7,Re: continued support for chlog2replog and edb2ldif (quipu tools)
+8,UMich LDAP 3.3
+9,reading invalid stack in dbcache
+10,Kerberos Support
+11,Re: Kerberos Support
+12,Re: Kerberos Support
+13,Re: Kerberos Support
+14,new backend
+15,Re: new backend
+16,Re: reading invalid stack in dbcache
+17,Re: UMich LDAP 3.3
+18,Porting of slapd on Windows NT with Visual C++
+19,NT Threads / ITS#216
+20,Netscape client misparsing the bind response
+21,Re: Netscape client misparsing the bind response
+22,Re: Netscape client misparsing the bind response
+23,Re: Netscape client misparsing the bind response
+24,Re: Kerberos Support
+25,more verbose error reporting
+26,Re: more verbose error reporting
+27,Re: more verbose error reporting
+28,Re: libldap LDAP_OPT_NETWORK_TIMEOUT feature (ITS#239)
+29,userPassword in generated LDIF
+30,RE: more verbose error reporting
+31,Crash at SLAPD startup
+32,RE: Crash at SLAPD startup
+33,Re: Crash at SLAPD startup
+34,Re: Kerberos Support
+35,Re: Kerberos Support
+36,profiled slapd (from -devel branch)
+37,Re: profiled slapd (from -devel branch)
+38,RE: profiled slapd (from -devel branch)
+39,"Using TLS/SSL with slapd, a quick guide"
+40,backend modules
+41,Re: backend modules
+42,Re: backend modules
+43,Re: backend modules
+44,RE: backend modules
+45,problem downloading hs_regex from http://people.delphi.com/gjc/hs_regex.html
+46,RE: backend modules
+47,Re: backend modules
+48,slapd fails on the second ldapmodify.
+49,Re: backend modules
+50,RE: backend modules
+51,Re: backend modules
+52,OpenLDAP enhancements
+53,Re: OpenLDAP enhancements
+54,Re: OpenLDAP enhancements
+55,Re: OpenLDAP enhancements
+56,Re: OpenLDAP enhancements
+57,Re: OpenLDAP enhancements
+58,Re: OpenLDAP enhancements
+59,Re: OpenLDAP enhancements
+60,TransportSecurity/AuthenticationMech based ACLs (was: OpenLDAP enhancements)
+61,Re: ldapmodify/LDIF problem
+62,Re: OpenLDAP enhancements
+63,Re: OpenLDAP enhancements
+64,Re: OpenLDAP enhancements
+65,Re: OpenLDAP enhancements
+66,Re: OpenLDAP enhancements
+67,Re: OpenLDAP enhancements
+68,Berkeley DB
+69,RE: Berkeley DB
+70,Re: Berkeley DB
+71,Re: OpenLDAP enhancements
+72,RE: Berkeley DB
+73,NEXTID (again!)
+74,Re: NEXTID (again!)
+75,Re: NEXTID (again!)
+76,Re: OpenLDAP enhancements
+77,Re: NEXTID (again!)
+78,_LIBC_REENTRANT in Linux?
+79,Re: NEXTID (again!)
+80,Re: NEXTID (again!)
+81,"Connection->c_protocol, vlv, server-side sorting."
+82,"Re: Connection->c_protocol, vlv, server-side sorting."
+83,The Big Step
+84,Re: The Big Step
+85,"Re: Connection->c_protocol, vlv, server-side sorting."
+86,"Re: Connection->c_protocol, vlv, server-side sorting."
+87,2.0-alpha and Solaris 7
+88,Re: 2.0-alpha and Solaris 7
+89,Re: 2.0-alpha and Solaris 7
+90,Syntax OIDs
+91,Re: 2.0-alpha and Solaris 7
+92,Re: Syntax OIDs
+93,Re: 2.0-alpha and Solaris 7
+94,Re: 2.0-alpha and Solaris 7
+95,Re: 2.0-alpha and Solaris 7
+96,Re: 2.0-alpha and Solaris 7
+97,Re: 2.0-alpha and Solaris 7
+98,Re: 2.0-alpha and Solaris 7
+99,Re: 2.0-alpha and Solaris 7
+100,Re: 2.0-alpha and Solaris 7
+101,Re: 2.0-alpha and Solaris 7
+102,Problem with ldif2ldbm.exe
+103,Re: 2.0-alpha and Solaris 7
+104,Re: 2.0-alpha and Solaris 7
+105,Re: 2.0-alpha and Solaris 7
+106,Re: 2.0-alpha and Solaris 7
+107,Re: 2.0-alpha and Solaris 7
+108,Re: 2.0-alpha and Solaris 7
+109,HEADS UP: Index format/tool changes
+110,Implementing object-based access control
+111,Re: Implementing object-based access control
+112,Re: Implementing object-based access control
+113,"another small ""make distclean"" bug(let)"
+114,lber etest.c bitstring broken
+115,2.0-alpha build on Win2000
+116,OpenLDAP-2.0-alpha & varargs or stdarg
+117,"Specific add, delete rights vs. children/entry"
+118,Re: OpenLDAP-2.0-alpha & varargs or stdarg
+119,OpenLDAP 2.0-Alpha2 available
+120,Re: OpenLDAP 2.0-Alpha2 available
+121,Re: OpenLDAP-2.0-alpha & varargs or stdarg
+122,Same old AIX problem
+123,Re: OpenLDAP-2.0-alpha & varargs or stdarg
+124,ReReRe: OpenLDAP-2.0-alpha & varargs or stdarg
+125,Re: ReReRe: OpenLDAP-2.0-alpha & varargs or stdarg
+126,Re: ReReRe: OpenLDAP-2.0-alpha & varargs or stdarg
+127,Re: ReReRe: OpenLDAP-2.0-alpha & varargs or stdarg
+128,Re: Same old AIX problem
+129,Re: OpenLDAP-2.0-alpha & varargs or stdarg
+130,Re: OpenLDAP-2.0-alpha & varargs or stdarg
+131,Re: commit: ldap/servers/slapd filterentry.c
+132,Re: commit: ldap/servers/slapd filterentry.c
+133,Re: commit: ldap/servers/slapd filterentry.c
+134,Re: Same old AIX problem
+135,ldapdelete with OpenLDAP 2.0-alpha2?
+136,Distinguished name ++
+137,Distinguished name ++ (continued)
+138,Re: Distinguished name ++ (continued)
+139,Re: Distinguished name ++ (continued)
+140,Re: Distinguished name ++ (continued)
+141,Re: Distinguished name ++ (continued)
+142,Re: Same old AIX problem
+143,Re: Distinguished name ++ (continued)
+144,Distinguished name format & RFC 1779
+145,Re: commit: ldap/servers/slapd filterentry.c
+146,Re: Distinguished name format & RFC 1779
+147,Re: Distinguished name ++ (continued)
+148,signal() behavior
+149,Re: signal() behavior
+150,Re: signal() behavior
+151,RE: signal() behavior
+152,RE: signal() behavior
+153,Re: signal() behavior
+154,Re: signal() behavior
+155,RE: signal() behavior
+156,RE: signal() behavior
+157,Re: Distinguished name format & RFC 1779
+158,Nice surprise
+159,OpenLDAP 2.0-alpha2
+160,Re: OpenLDAP 2.0-alpha2
+161,Re: Nice surprise
+162,Re: OpenLDAP 2.0-alpha2
+163,Re: Distinguished name format & RFC 1779
+164,Re: OpenLDAP 2.0-alpha2
+165,reading invalid stack
+166,Re: reading invalid stack
+167,Re: reading invalid stack
+168,Re: Distinguished name format & RFC 1779
+169,Re: OpenLDAP 2.0-alpha2
+170,TACACS & LDAP Source
+171,Normalizing directory data (Was: Distinguished name format & RFC 1779)
+172,Re: Normalizing directory data (Was: Distinguished name format & RFC 1779)
+173,Shell backend when disabled
+174,OpenLDAP-2.0alpha2 bind problem
+175,Re: Normalizing directory data (Was: Distinguished name format & RFC 1779)
+176,Re: OpenLDAP-2.0alpha2 bind problem
+177,Re: Normalizing directory data (Was: Distinguished name format & RFC 1779)
+178,Re: Normalizing directory data (Was: Distinguished name format & RFC 1779)
+179,Re: Normalizing directory data (Was: Distinguished name format & RFC 1779)
+180,Re: ldapdelete with OpenLDAP 2.0-alpha2?
+181,Re: OpenLDAP-2.0alpha2 bind problem
+182,CSRI malloc support?
+183,Re: CSRI malloc support?
+184,Re: OpenLDAP-2.0alpha2 bind problem
+185,Re: OpenLDAP-2.0alpha2 bind problem (more info)
+186,OpenLDAP2.0 alpha2 on BSD/OS 3.1
+187,unknown objectclass=ok
+188,Re: OpenLDAP2.0 alpha2 on BSD/OS 3.1
+189,Re: OpenLDAP-2.0alpha2 bind problem
+190,Re: OpenLDAP-2.0alpha2 bind problem (more info)
+191,RE: signal() behavior
+192,RE: signal() behavior
+193,Re: signal() behavior
+194,RE: signal() behavior
+195,Re: signal() behavior
+196,RE: signal() behavior
+197,"OpenLDAP-devel TODO List, Call for developers"
+198,LDAP/CORBA merge
+199,Pls help: search OpenLDAP with ADSI in VB ?

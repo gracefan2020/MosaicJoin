@@ -1,0 +1,143 @@
+id,title
+0,Version number of ep_engine.
+1,Seconds since most recently stored object was initially queued.
+2,ep_storage_age high water mark
+3,Minimum data age setting.
+4,System-generated engine startup time
+5,Queue age cap setting.
+6,Max number of updates per transaction.
+7,Seconds since most recently stored object was modified.
+8,ep_data_age high water mark
+9,Deprecated in 2.1.0. Number of times an object was not stored due to being too young.
+10,Deprecated in 2.1.0. Number of times an object was stored after being dirty too long.
+11,Total number of items queued for persistence
+12,Total number of persisted new items.
+13,Total number of persisted deletions.
+14,Total number of items persisted.
+15,Number of times an item failed to flush due to storage errors.
+16,Number of times a transaction failed to commit due to storage errors.
+17,Number of times a transaction failed to start due to storage errors.
+18,Number of times an item was expired on application access.
+19,Number of times an item was expired by ep engine item pager.
+20,Number of times an item is not flushed due to the expiry of the item
+21,Number of items queued for storage.
+22,Number of items remaining to be written.
+23,Current state of the flusher thread.
+24,Total number of write commits.
+25,Number of milliseconds of most recent commit
+26,Cumulative milliseconds spent committing.
+27,Number of vbucket deletion events.
+28,Number of failed vbucket deletion events.
+29,Max wall time (µs) spent by deleting a vbucket
+30,Avg wall time (µs) spent by deleting a vbucket
+31,Cumulative seconds spent flushing.
+32,True if disk flush_all is scheduled
+33,Number of getMeta operations
+34,Number of setWithMeta operations
+35,Number of delWithMeta operations
+36,Num items in active vbuckets (temp + live)
+37,Num temp items in active vbuckets
+38,"Num current items including those not active (replica, dead and pending states)"
+39,"Memory used to store item metadata, keys and values, no matter the vbucket’s state. If an item’s value is ejected, this stat will be decremented by the size of the item’s value."
+40,Memory used to store values for resident keys
+41,"Extra memory used by transient data like persistence queues, replication queues, checkpoints, etc."
+42,Max amount of data allowed in memory.
+43,Low water mark for auto-evictions.
+44,High water mark for auto-evictions.
+45,"The total byte size of all items, no matter the vbucket’s state, no matter if an item’s value is ejected."
+46,Number of times unrecoverable OOMs happened while processing operations
+47,Number of times temporary OOMs happened while processing operations
+48,True if memory usage tracker is enabled
+49,Number of items fetched from disk.
+50,Number of meta items fetched from disk.
+51,Number of remaining background fetch jobs.
+52,Number of tap disk fetches
+53,Number of times a tap background fetch task is re-queued.
+54,Number of times we ran pager loops to seek additional memory.
+55,Number of times we ran expiry pager loops to purge expired items from memory/disk
+56,Number of times we ran access scanner to snapshot working set
+57,Number of items that last access scanner task swept to access log.
+58,Time of the next access scanner task (GMT)
+59,Number of seconds that last access scanner task took to complete.
+60,Number of items removed from closed unreferenced checkpoints.
+61,Number of times item values got ejected from memory to disk
+62,Number of items that could not be ejected
+63,Number of times Not My VBucket exception happened during runtime
+64,Tap keep-alive time.
+65,DB path.
+66,Number of seconds to initialize DB.
+67,Number of io read operations
+68,Number of io write operations
+69,Number of bytes read (key + values)
+70,Number of bytes written (key + values)
+71,Number of ops awaiting pending vbuckets
+72,Total blocked pending ops since reset
+73,Max ops seen awaiting 1 pending vbucket
+74,Max time (µs) used waiting on pending vbuckets
+75,The number of samples included in the average
+76,The shortest time (µs) in the wait queue
+77,The longest time (µs) in the wait queue
+78,The average wait time (µs) for an item before it is serviced by the dispatcher
+79,The shortest load time (µs)
+80,The longest load time (µs)
+81,The average time (µs) for an item to be loaded from the persistence layer
+82,The number of non-resident items
+83,Maximum allowed concurrency at the storage layer.
+84,Maximum number of concurrent read-only storage threads.
+85,Maximum number of concurrent read/write storage threads.
+86,The total elapse time for the wait queue
+87,The total elapse time for items to be loaded from the persistence layer
+88,Number of times mutation log compactor is executed
+89,Total vBuckets (count)
+90,Total number of items
+91,Number of active items in memory
+92,Number of temporary items in memory
+93,Number of dead vBuckets
+94,Total items in disk queue
+95,Total memory used in disk queue
+96,Total enqueued items on disk queue
+97,Total drained items on disk queue
+98,Total bytes of pending writes
+99,Total VB state snapshots persisted in disk
+100,Number of active vBuckets
+101,Number of in memory items
+102,Number of non-resident items
+103,% memory resident
+104,Number of times item values got ejected
+105,Number of times an item was expired
+106,Memory overhead of the hashtable
+107,Total item memory
+108,Total metadata memory
+109,Number of create operations
+110,Number of update operations
+111,Number of delete operations
+112,Number of rejected operations
+113,Active items in disk queue
+114,Memory used for disk queue
+115,Sum of disk queue item age in milliseconds
+116,Total bytes of pending writes
+117,Total enqueued items
+118,Total drained items
+119,Number of referenced items
+120,Number of times referenced item values got ejected
+121,Number of pending vBuckets
+122,Number of in memory items
+123,Number of non-resident items
+124,% of memory used for resident items
+125,Number of times item values got ejected
+126,Number of times an item was expired
+127,Memory overhead of the hashtable
+128,Total item in memory
+129,Total metadata memory
+130,Number of create operations
+131,Number of update operations
+132,Number of delete operations
+133,Number of rejected operations
+134,Pending items in disk queue
+135,Memory used for disk queue
+136,Sum of disk queue item age in milliseconds
+137,Total bytes of pending writes
+138,Total enqueued items
+139,Total drained items
+140,Number of referenced items
+141,Number of times referenced item values got ejected

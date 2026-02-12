@@ -1,0 +1,52 @@
+id,title
+0,XForms namespace
+1,id attribute
+2,foreign attributes
+3,src attribute
+4,single-node binding - ref attribute
+5,single-node binding - model attribute
+6,single-node binding - bind attribute
+7,single-node binding - invalid bind IDREF
+8,single-node binding - invalid model IDREF
+9,first node rule
+10,node-set binding - nodeset attribute and bind attribute override
+11,node-set binding - model attribute
+12,node-set binding - bind attribute overrides model attribute
+13,node-set binding - bind attribute of itemset element
+14,node-set binding - no nodeset or bind is included
+15,node-set binding - invalid model IDREF
+16,node-set binding - invalid bind IDREF
+17,50 models created
+18,no models created
+19,invalid function
+20,valid schema
+21,invalid schema
+22,multiple schemas in a single namespace
+23,version attribute
+24,version attribute negative test 1
+25,version attribute negative test 2
+26,model with no instance
+27,link to externally defined instance data
+28,invalid link to externally defined instance data
+29,instance with inline data and src attribute
+30,invalid instance has two root element nodes
+31,bind attribute of submission element
+32,ref attribute of submission element
+33,action attribute of submission element
+34,method attribute of submission element
+35,version attribute of submission element
+36,indent attribute of submission element
+37,mediatype attribute of submission element
+38,encoding attribute of submission element
+39,omit-xml-declaration attribute of submission element
+40,standalone attribute of submission element
+41,cdata-section-elements attribute of submission element
+42,replace attribute of submission element
+43,instance attribute of submission element
+44,invalid instance attribute of submission element
+45,separator attribute of submission element
+46,includenamespaceprefixes attribute of submission element
+47,nodeset attribute of bind element
+48,mustUnderstand attribute
+49,mustUnderstand attribute
+50,Negative test case for extension elements

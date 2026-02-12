@@ -1,0 +1,147 @@
+id,title
+0,Diameter common message
+1,NASREQ
+2,Mobile IPv4
+3,Diameter base accounting
+4,Diameter Credit Control
+5,Diameter EAP
+6,Diameter Session Initiation Protocol (SIP) Application
+7,Diameter Mobile IPv6 IKE (MIP6I)
+8,Diameter Mobile IPv6 Auth (MIP6A)
+9,Diameter QoS application
+10,Diameter Capabilities Update
+11,Diameter IKE SK (IKESK)
+12,Diameter NAT Control Application
+13,Diameter ERP
+14,Unassigned
+15,3GPP Cx
+16,3GPP Sh
+17,3GPP Re
+18,3GPP Wx
+19,3GPP Zn
+20,3GPP Zh
+21,3GPP Gq
+22,3GPP Gmb
+23,3GPP Gx
+24,3GPP Gx over Gy
+25,3GPP MM10
+26,Ericsson MSI
+27,Ericsson Zx
+28,3GPP Rx
+29,3GPP Pr
+30,ETSI e4
+31,Ericsson Charging-CIP
+32,Ericsson Mm
+33,Vodafone Gx+
+34,ITU-T Rs
+35,3GPP Rx
+36,3GPP2 Ty
+37,3GPP Gx
+38,Juniper Cluster
+39,Juniper Policy-Control-AAA
+40,iptego USPI
+41,Covergence-specific SIP routing
+42,Policy Processing
+43,Juniper Policy-Control-JSRC
+44,ITU-T S-TC1
+45,NSN Unified Charging Trigger Function (UCTF)
+46,3GPP2 CAN Access Authentication and Authorization
+47,3GPP2 WLAN Interworking Access Authentication and Authorization
+48,3GPP2 WLAN Interworking Accounting
+49,3GPP Sta
+50,3GPP S6a
+51,3GPP S13
+52,ETSI Re
+53,ETSI GOCAP
+54,SLg
+55,ITU-T Rw
+56,ETSI a4
+57,ITU-T Rt
+58,CARA
+59,CAMA
+60,Femtocell extension to Diameter EAP Application
+61,ITU-T Ru
+62,ITU-T Ng
+63,3GPP SWm
+64,3GPP SWx
+65,3GPP Gxx
+66,3GPP S9
+67,3GPP Zpn
+68,Ericsson HSI
+69,Juniper-Example
+70,ITU-T Ri
+71,3GPP S6b
+72,Juniper JGx
+73,ITU-T Rd
+74,ADMI Notification Application
+75,ADMI Messaging Interface Application
+76,Peter-Service VSI
+77,ETSI Rr request model
+78,ETSI Rr delegated model
+79,WIMAX HRPD Interworking
+80,WiMAX Network Access Authentication and Authorization Diameter Application (WNAAADA)
+81,WiMAX Network Accounting Diameter Application (WNADA)
+82,WiMAX MIP4 Diameter Application (WM4DA)
+83,WiMAX MIP6 Diameter Application (WM6DA)
+84,WiMAX DHCP Diameter Application (WDDA)
+85,WiMAX-Location-Authentication-Authorization Diameter Application (WLAADA)
+86,WiMAX-Policy-and-Charging-Control-R3-Policies Diameter Application (WiMAX PCC-R3-P)
+87,WiMAX-Policy-and-Charging-Control-R3-OFfline-Charging Diameter Application (WiMAX PCC-R3-OFC)
+88,WiMAX-Policy-and-Charging-Control-R3-Offline-Charging-Prime Diameter Application (WiMAX PCC-R3-OFC-PRIME)
+89,WiMAX-Policy-and-Charging-Control-R3-Online-Charging Diameter Application (WiMAX PCC-R3-OC)
+90,3GPP SLh
+91,3GPP SGmb
+92,CMDI - Cloudmark Diameter Interface
+93,Camiant DRMA
+94,PiLTE Interworking Diameter Application
+95,Juniper-Sessions-Recovery (JSR)
+96,Vedicis LiveProxy
+97,Pi*3GPP2 Diameter Application
+98,Sandvine Rf+
+99,Subscription Information Application
+100,Ericsson Charging-DCIP
+101,3GPP Sy
+102,3GPP Sd
+103,Ericsson Sy
+104,HP DTD
+105,M9 interface between MLM-PE(P) and MLM-PE(C)
+106,ITU-T M13
+107,3GPP S7a
+108,3GPP Tsp
+109,3GPP S6m
+110,3GPP T4
+111,3GPP S6c
+112,3GPP SGd
+113,Intrado-SLg
+114,Ericsson Diameter Signalling Controller Application (DSC)
+115,Verizon-Femto-Loc
+116,Nokia Siemens Networks (NSN) Hd Application
+117,3GPP S15
+118,3GPP S9a
+119,3GPP S9a*
+120,Gateway Location Application
+121,Verizon Session Recovery
+122,3GPP2 M1 Interface
+123,MAGIC Client Interface Protocol (CIP)
+124,ITU-T Nc
+125,ITU-T Ne
+126,Ericsson Sx
+127,"Nokia Service Extension, NSE"
+128,Rivada Xd
+129,Rivada Xm
+130,Rivada Xh
+131,Rivada Xf
+132,Rivada Xp
+133,Rivada Xa
+134,3GPP MB2-C
+135,3GPP PC4a
+136,3GPP PC2
+137,Juniper Domain Policy
+138,Host Observer
+139,3GPP PC6/PC7
+140,Nokia Sdr Application
+141,3GPP Np
+142,Sandvine Location Relay Service
+143,Sandvine Fairshare Traffic Management Service
+144,Unassigned
+145,Relay

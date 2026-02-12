@@ -1,0 +1,101 @@
+id,title
+0,Data.List should have a takeLastN function
+1,DefaultSignatures: error message mentions internal name
+2,feature: warn about unused data definitions (with typeclass instances)
+3,Closed type families: Warn if it doesn't handle all cases
+4,Export typeRepKinds in Data.Typeable
+5,GHC does not specialize based on type equality
+6,Get profiling info without stopping program
+7,Suboptimal error message with deferred type errors
+8,Add support for typed holes in Template Haskell
+9,Create a dedicated `TypeError` exception type
+10,Cycles in class declaration (via superclasses) sometimes make sense.
+11,Add Android and iOS Operating Systems in Trac
+12,Devise workaround for how infinite types prevent closed type family reduction
+13,Make Semigroup as a superclass of Monoid
+14,\case should trigger auto-multiline mode in ghci
+15,No detail for profiling costs atributed to SYSTEM / PINNED / ARR_WORDS
+16,Make listArray non-strict in structure of argument list
+17,Shorter import syntax
+18,Allow addTopDecls to create annotations
+19,more specific types in the generated *_stub.h files
+20,"Generic instances missing for Int32, Word64 etc."
+21,Generic for existential types
+22,Expose kind information for type variables with reify
+23,Recommend ScopedTypeVariables
+24,Allow cycles in class declarations
+25,avoid redundant stores to the stack when examining already-tagged data
+26,Auto derive from top to bottom
+27,Make up instances
+28,Mechanism for checking that we only enter single-entry thunks once
+29,Show constraints in ``Found hole...''
+30,Handle annotations in hsig/boot files
+31,-fwarn-redundant-constraints should not be part of -Wall
+32,Better cache performance in Array#
+33,add a required wrapper around plugin installers
+34,Redo T7919 and TH_spliceE5_prof with a cabal file
+35,Add fudge-factor for performance tests run on non-validate builds
+36,lookupSymbol API is unsafe
+37,Resurrect ticky code for counting constructor arity
+38,Optimize tagToEnum# at Core level
+39,Place heap checks common in case alternatives before the case
+40,Create more specialized entries to GC
+41,Improvements to SpinLock implementation
+42,Git Hook script to prevent large binary blobs being checked in
+43,IO hack in demand analyzer gets in the way of CPR
+44,Evaluate know-to-terminate-soon thunks
+45,Instructions for using gdb with GHC on Windows
+46,"IEEE Standard 754 for Binary Floating-Point Arithmetic by Prof. W. Kahan, UCB"
+47,GHC-IO-Handle-Text.hPutStr' and writeBlocks look like they need refactoring
+48,"Testsuite driver: replace ""extra_clean"" by ""git clean -X"""
+49,nofib target for just building should be part of validate
+50,Clean up Trac versions
+51,Use TrieMaps to speed up type class instance lookup
+52,Introduce a logging API to GHC
+53,"Replace ""error"" with ""errorWithStackTrace"" from GHC.Stack in base libs"
+54,Separate PprFlags (used by Outputable) from DynFlags
+55,Cross-platform sed
+56,Lint check: arity invariant
+57,Make it easier to print stack traces when debugging GHC itself
+58,Eta expand PAPs
+59,Convert User Guide from DocBook to AsciiDoc
+60,Make BranchList simpler
+61,Properly link Haskell shared libs on ELF systems
+62,Refactor HsForAllTy
+63,GHC should be distributed with debug symbols
+64,Rename Backpack packages to units
+65,Clear up difference between `WayDyn` and `Opt_Static`
+66,Some GHC.* module should export word size and heap object header size
+67,System.IO.openTempFile does not scale
+68,Simplifer non-determinism leading to 8 fold difference in run time performance
+69,Static pointers in GHCi cause panic
+70,Add the ability to :set -l{foo} in .ghci files
+71,Implement -rdynamic
+72,"Regression on MacOS platform, error in ghci calling main after loading compiled code: ""Too late for parseStaticFlags..."""
+73,Plugins/dynamic loading subtly broken (it seems)
+74,GHC 7.10.1 User Guide profiling section 5.4 missing images
+75,Inaccessible code might be accessible with newtypes and Coercible
+76,Poor error message for Coercible constraint unsatisfiability
+77,"""if ... then \case -> else ..."" causes a ""missing else clause"" error"
+78,SourceNotes are not applied to all identifiers
+79,RecordWildCards causes “is not a (visible) field of constructor” in ghci
+80,"Regression from 7.8.4, loading GLUT into GHCI fails on the Mac"
+81,RTS failing with removeThreadFromDeQueue: not found message
+82,the ghc-7.10.1-x86_64-apple-darwin.tar.bz2 doesn't install /sw/lib/ghc-7.10.1/ghcpr_8TmvWUcS1U1IKHT0levwg3/GHC
+83,Template Haskell : getQ and putQ doesn't work
+84,.dyn_o isn't generated for .hsig files with -dynamic-too
+85,Missing brackets in import hint with TypeOperators
+86,Export more types in GHC.RTS.Flags
+87,Integer overflow in array allocation
+88,Missed opportunity for let-no-esape
+89,Stack check for AP_STACK
+90,Derived Read instances for recursive datatypes with infix constructors are too inefficient
+91,ModBreaks.modBreaks_array not initialised
+92,"""make install-strip"" should work"
+93,hSetBuffering stdin NoBuffering doesn't work on Windows
+94,threadWaitRead on mingw32 threaded causes internal error
+95,Invalid Eq/Ord instances in Data.Version
+96,Int / Word / IntN / WordN are unequally optimized
+97,Permission denied error with runProcess/openFile
+98,ghci: can't load .so/.DLL for: m (addDLL: could not load DLL)
+99,SpecConstr should exploit cases where there is exactly one call pattern

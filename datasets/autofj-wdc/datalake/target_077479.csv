@@ -1,0 +1,432 @@
+id,title
+0,"Operation while Registration or License is Refused, Suspended or Revoked"
+1,Operation without an Ignition Interlock Device
+2,Reckless Driving
+3,Negligent Homicide with a Motor Vehicle
+4,Evading Responsibility
+5,Driving Under the Influence
+6,"Driving Under the Influence, Under 21 Years Old"
+7,Obtaining Prescription Drugs by Fraud
+8,Illegal Sale or Possession of Prescription Drugs
+9,Obtaining a Controlled Substance by Fraud
+10,Use of or Possession with Intent to Use Drug Paraphernalia
+11,Drug Paraphernalia: Delivering
+12,Misrepresenting Substance as Controlled
+13,Sale or Possession with Intent to Sell a Controlled Substance
+14,Possession of Drug Paraphernalia in a Drug Factory Situation
+15,Sale or Possession with Intent to Sell a Controlled Substance by a Non-Drug-Dependent Person
+16,Illegal Distribution of a Controlled Substance to a Minor
+17,"Illegal Distribution of a Controlled Substance near School, Public Housing, or Day Care Center"
+18,Employment of Minors in the Illegal Distribution of a Controlled Substance
+19,Illegal Possession
+20,"Improper Sale, Delivery or Transfer of Pistol or Revolver"
+21,Purchasing a Pistol or Revolver without a Permit
+22,False Statement or Information in Connection with Sale or Transfer of a Pistol or Revolver
+23,Sale or Transfer of Pistol or Revolver to Person under 21 Years of Age
+24,Carrying a Pistol or Revolver without Permit
+25,Altering of Firearm Identification Mark
+26,False statement or information in connection with sale or transfer of a firearm
+27,Purchase of Firearm with Intent to Transfer it to Person Prohibited from Purchasing or Possessing
+28,Weapons in Vehicles
+29,Defrauding Life or Accident Insurance Companies
+30,Risk of Injury to a Minor (Situation Prong)
+31,Risk of Injury to a Minor (Act Prong)
+32,Risk of Injury to a Minor (Sexual Contact)
+33,Sale or Buying of a Child
+34,Abandoning a Child under 6 Years of Age
+35,Hazing
+36,Manufacture of Bombs
+37,Illegal Sale or Possession of Master Car Key
+38,Escape from Certain Institutions
+39,Machine Guns
+40,Sale or Transfer of Assault Weapon
+41,Possession of Assault Weapon
+42,Transportation of Assault Weapon
+43,"Commission of a Class A, B, or C Felony with an Assault Weapon"
+44,"Commission of a Class A, B, or C Felony with a Firearm"
+45,Affirmative Defense to Possession of Assault Weapon
+46,Firearms Trafficking
+47,Unlawful Discharge of Firearm
+48,"Shotguns, Rifles and Muzzleloaders in Vehicles and Snowmobiles"
+49,Carrying Dangerous Weapons
+50,Sale of a Facsimile Firearm
+51,Carrying or Brandishing Facsimile Firearm in a Threatening Manner
+52,Brandishing Facsimile Firearm in the Presence of an Officer
+53,Carrying a Firearm while Intoxicated
+54,Hunting while Intoxicated
+55,Cruelty to Animals
+56,Sale or Delivery of Body Armor
+57,Extortionate Extension of Credit
+58,Advancing Money for Extortionate Extension of Credit
+59,Participation or Conspiracy in use of Extortionate Means
+60,Corrupt Organizations and Racketeering Activity (CORA)
+61,Health Insurance Fraud
+62,Unauthorized Use of a Computer or Computer Network
+63,Unlawful Sale or Distribution of Certain Software
+64,Intoxication
+65,Accessories and Accomplices
+66,Vicarious Liability for Providing a Firearm
+67,Renunciation of Criminal Purpose (Accessory)
+68,Lack of Capacity
+69,Duress
+70,Entrapment
+71,Inoperability of Firearm
+72,Unarmed Coparticipant
+73,Self-Defense and Defense of Others
+74,"Exceptions to Use of Deadly Physical Force: Duty to Retreat, Surrender Property, Comply with Demand"
+75,"Exceptions to Justification: Provocation, Initial Aggressor, Combat by Agreement"
+76,Defense of Premises
+77,Defense of Personal Property
+78,Use of Physical Force by Peace Officer in Making Arrest or Preventing Escape
+79,Use of Physical Force by Private Person at the Request of a Peace Officer in Making Arrest or Preventing Escape
+80,Use of Physical Force by Private Person to Make an Arrest
+81,Resisting Arrest by Physical Force
+82,Persistent Offenders
+83,Persistent Offenders of Certain Crimes Involving Bigotry and Bias
+84,Commission of a Crime while on Release
+85,"Persistent Offenders of Certain Crimes Involving Assault, Stalking, Trespassing, Threatening, Harassment, Criminal Violation of a Protective Order or Criminal Violation of a Restraining Order"
+86,Persistent Operating while under the Influence Felony Offender
+87,Conspiracy
+88,Renunciation of Criminal Purpose (Conspiracy)
+89,Attempt
+90,Attempt
+91,Renunciation of Criminal Purpose (Attempt)
+92,Murder
+93,Affirmative Defense of Extreme Emotional Disturbance
+94,Capital Felony or Murder with Special Circumstances
+95,Felony Murder
+96,Affirmative Defense to Felony Murder
+97,Arson Murder
+98,Manslaughter in the First Degree (Intentional)
+99,Manslaughter in the First Degree (Extreme Emotional Distress)
+100,Manslaughter in the First Degree (Reckless Indifference)
+101,Manslaughter in the First Degree with a Firearm
+102,Manslaughter in the Second Degree
+103,Manslaughter in the Second Degree (Aiding Suicide)
+104,Manslaughter in the Second Degree with a Firearm
+105,Manslaughter in the Second Degree with a Motor Vehicle
+106,Misconduct with a Motor Vehicle
+107,Criminally Negligent Homicide
+108,Assault in the First Degree (Deadly Weapon or Dangerous Instrument)
+109,Assault in the First Degree (Maiming)
+110,Assault in the First Degree (Reckless Indifference)
+111,Assault in the First Degree (Aided by Two or More Persons)
+112,Assault in the First Degree (Discharge of a Firearm)
+113,"Assault of an Elderly, Blind, Disabled, Pregnant or Intellectually Disabled Person in the First Degree"
+114,Assault of an Employee of the Department of Correction in the First Degree
+115,Assault of a Pregnant Woman Resulting in Termination of Pregnancy
+116,Assault in the Second Degree (Serious Physical Injury)
+117,Assault in the Second Degree (Intentional with a Deadly Weapon)
+118,Assault in the Second Degree (Reckless with a Deadly Weapon)
+119,Assault in the Second Degree (Administration of Stupefying Drugs)
+120,Assault in the Second Degree (Board of Parole Employee or Member)
+121,Assault in the Second Degree with a Firearm
+122,"Assault of an Elderly, Blind, Disabled, Pregnant or Intellectually Disabled Person in the Second Degree"
+123,"Assault of an Elderly, Blind, Disabled, Pregnant or Intellectually Disabled Person in the Second Degree with a Firearm"
+124,Assault in the Second Degree with a Motor Vehicle
+125,Assault in the Third Degree (Physical Injury)
+126,Assault in the Third Degree (Reckless)
+127,Assault in the Third Degree (Deadly Weapon)
+128,"Assault of an Elderly, Blind, Disabled, Pregnant or Intellectually Disabled Person in the Third Degree"
+129,Threatening in the First Degree (Intentional)
+130,Threatening in the First Degree (Reckless)
+131,Threatening in the First Degree (With a Firearm)
+132,Threatening in the Second Degree
+133,Reckless Endangerment in the First Degree
+134,Reckless Endangerment in the Second Degree
+135,Strangulation in the First Degree
+136,Strangulation in the Second Degree
+137,Strangulation in the Third Degree
+138,Affirmative Defense to Sexual Assault
+139,Sexual Assault in the First Degree
+140,Sexual Assault in the First Degree
+141,Sexual Assault in the First Degree
+142,Sexual Assault in the First Degree
+143,Aggravated Sexual Assault in the First Degree
+144,Sexual Assault in Spousal or Cohabiting Relationship
+145,Aggravated Sexual Assault of a Minor
+146,Sexual Assault in the Second Degree
+147,Sexual Assault in the Third Degree
+148,Sexual Assault in the Third Degree
+149,Sexual Assault in the Third Degree with a Firearm
+150,Sexual Assault in the Fourth Degree
+151,Sexual Assault in the Fourth Degree
+152,Prostitution
+153,Patronizing a Prostitute
+154,Patronizing a Prostitute from Motor Vehicle
+155,Promoting Prostitution in the First Degree (Coercion)
+156,Promoting Prostitution in the First Degree (By a Minor)
+157,Promoting Prostitution in the Second Degree
+158,Promoting Prostitution in the Third Degree
+159,Permitting Prostitution
+160,Enticing a Minor
+161,Misrepresentation of Age to Entice a Minor
+162,Kidnapping in the First Degree (Ransom)
+163,Kidnapping in the First Degree
+164,Kidnapping with a Firearm
+165,Kidnapping in the Second Degree
+166,Kidnapping with a Firearm
+167,Unlawful Restraint in the First Degree
+168,Unlawful Restraint in the Second Degree
+169,Custodial Interference in the First Degree
+170,Custodial Interference in the Second Degree
+171,Custodial Interference in the Second Degree
+172,Custodial Interference in the Second Degree
+173,Substitution of Children
+174,Home Invasion
+175,Burglary in the First Degree
+176,Burglary in the First Degree
+177,Burglary in the Second Degree
+178,Burglary with a Firearm in the Second Degree
+179,Burglary in the Third Degree
+180,Burglary with a Firearm in the Third Degree
+181,Affirmative Defense to Burglary
+182,Manufacturing or Possession of Burglar's Tools
+183,Criminal Trespass in the First Degree
+184,Criminal Trespass in the First Degree
+185,Criminal Trespass in the Second Degree
+186,Criminal Trespass in the Third Degree
+187,Affirmative Defenses to Criminal Trespass
+188,Arson in the First Degree
+189,Arson in the Second Degree
+190,Arson in the Second Degree
+191,Arson in the Third degree
+192,Reckless Burning
+193,Criminal Mischief in the First Degree
+194,Criminal Mischief in the First Degree
+195,Criminal Mischief in the First Degree
+196,Criminal Mischief in the First Degree
+197,Criminal Mischief in the Second Degree
+198,Criminal Mischief in the Second Degree
+199,Criminal Mischief in the Third Degree
+200,Criminal Mischief in the Third Degree
+201,Criminal Mischief in the Fourth Degree
+202,Criminal Mischief in the Fourth Degree
+203,Criminal Damage of Landlord's Property in the First Degree
+204,Criminal Damage of Landlord's Property in the Second Degree
+205,Criminal Damage of Landlord's Property in the Third Degree
+206,Larceny
+207,Larceny by Embezzlement
+208,Larceny by Obtaining Property by False Pretenses
+209,Larceny by Obtaining Property by False Promise
+210,"Larceny by Acquiring Property Lost, Mislaid or Delivered by Mistake"
+211,Larceny by Extortion
+212,Larceny by Defrauding Public Community
+213,Larceny by Defrauding Public Community
+214,Larceny by Theft of Services
+215,Larceny by Receiving Stolen Property
+216,Larceny by Shoplifting
+217,Larceny by Conversion of a Motor Vehicle
+218,Larceny by Obtaining Property Through Fraudulent Use of an Automated Teller Machine
+219,Larceny by Library Theft
+220,Larceny by Conversion of Leased Personal Property
+221,Larceny by Failure to Pay Prevailing Rate of Wages
+222,Larceny by Theft of Utility Service
+223,Using Motor Vehicle or Vessel without the Owner's Permission
+224,Interfering or Tampering with a Motor Vehicle
+225,Interfering or Tampering with a Motor Vehicle
+226,Larceny in the First Degree
+227,Larceny of a Motor Vehicle in the First Degree
+228,Larceny in the Second Degree
+229,Larceny of a Motor Vehicle in the Second Degree
+230,Larceny from the Person
+231,Larceny in the Third Degree
+232,Larceny of a Motor Vehicle in the Third Degree
+233,Larceny of a Public Record
+234,"Larceny of a Secret Scientific or Technical Process, Invention or Formula"
+235,Larceny in the Fourth Degree
+236,Larceny in the Fifth Degree
+237,Larceny in the Sixth Degree
+238,Criminal Trover in the First Degree
+239,Criminal Trover in the Second Degree
+240,Fraudulent Use of an Automated Teller Machine
+241,Theft of Utility Service
+242,Theft of Utility Service
+243,Theft of Utility Service
+244,Possession of a Shoplifting Device
+245,Issuing or Passing a Bad Check
+246,False Statement to Procure Issuance of a Credit Card
+247,Credit Card Theft
+248,Credit Card Theft
+249,Illegal Transfer of a Credit Card
+250,Obtaining a Credit Card by Fraud
+251,Receiving Illegally Obtained Credit Cards
+252,Credit Card Forgery
+253,Credit Card Forgery
+254,Illegal Use of a Credit Card
+255,Illegal Use of a Credit Card
+256,Illegal Use of a Credit Card
+257,"Illegal Furnishing of Money, Goods or Services on a Credit Card"
+258,"Illegal Furnishing of Money, Goods or Services on a Credit Card"
+259,Unlawful Completion of a Credit Card
+260,Unlawful Possession of Items Used in the Production of Credit Cards
+261,"Receipt of Money, Goods or Services Obtained by Illegal Use of a Credit Card"
+262,Identity Theft in the First Degree
+263,Identity Theft in the Second Degree
+264,Identity Theft in the Third Degree
+265,Trafficking in Identifying Information
+266,Criminal Impersonation
+267,Criminal Impersonation
+268,Criminal Impersonation (by Electronic Device)
+269,Criminal Impersonation (State Marshal)
+270,Impersonation of a Police Officer
+271,Unlawfully Concealing a Will
+272,Robbery in the First Degree
+273,Robbery in the Second Degree
+274,Robbery in the Second Degree (in a Bank or Credit Union)
+275,Robbery in the Third Degree
+276,Carjacking
+277,Forgery in the First Degree
+278,Forgery in the Second Degree
+279,Forgery in the Third Degree
+280,Criminal Simulation
+281,Criminal Simulation
+282,Forgery of Symbols
+283,Unlawfully Using Slugs in the First Degree
+284,Unlawfully Using Slugs in the Second Degree
+285,Unlawfully Using Slugs in the Second Degree
+286,Bribery
+287,Bribe Receiving
+288,Bribery of a Witness
+289,Bribe Receiving by a Witness
+290,Tampering with a Witness
+291,Intimidating a Witness
+292,Bribery of a Juror
+293,Bribe Receiving by a Juror
+294,Tampering with a Juror
+295,Tampering with or Fabricating Physical Evidence
+296,Perjury
+297,False Statement on a Certified Payroll
+298,False Statement
+299,Bribery of a Labor Official
+300,Bribe Receiving by a Labor Official
+301,Commercial Bribery
+302,Receiving a Commercial Bribe
+303,Bid Rigging
+304,Disclosure of Bid or Proposal
+305,Receiving Kickbacks
+306,Receiving Kickbacks
+307,Receiving Kickbacks
+308,Paying a Kickback
+309,Paying a Kickback
+310,Hindering Prosecution in the First Degree
+311,Hindering Prosecution in the Second Degree
+312,Hindering Prosecution in the Third Degree
+313,Interfering with an Officer
+314,"Failure to Assist a Peace Officer, Special Policeman or Firefighter"
+315,Assault of Public Safety or Emergency Medical Personnel
+316,Assault of a Prosecutor
+317,Escape in the First Degree
+318,Escape in the Second Degree
+319,Escape from Custody
+320,Escape from Custody
+321,Aiding Escape of Mentally Ill or Drug Dependent Person
+322,Failure to Appear in the First Degree (While Released on Bail or a Promise to Appear)
+323,Failure to Appear in the First Degree (While on Probation)
+324,Failure to Appear in the Second Degree (While Released on Bail or a Promise to Appear)
+325,Failure to Appear in the Second Degree (While on Probation)
+326,Unauthorized Conveyance of Items into Correctional or Humane Institution or to Inmate
+327,Possession of Weapon or Dangerous Instrument in Correctional Institution
+328,Riot in the First Degree
+329,Riot in the Second Degree
+330,Unlawful Assembly
+331,Inciting to Riot
+332,Criminal Advocacy
+333,Inciting Injury to Persons or Property
+334,Rioting at Correctional Institution
+335,Inciting to Riot at Correctional Institution
+336,Falsely Reporting an Incident in the First Degree
+337,Falsely Reporting an Incident in the First Degree
+338,Falsely Reporting an Incident Resulting in Serious Physical Injury or Death
+339,Falsely Reporting an Incident Concerning Serious Physical Injury or Death
+340,Falsely Reporting an Incident in the Second Degree
+341,Breach of the Peace in the First Degree
+342,Breach of the Peace in the Second Degree
+343,Breach of the Peace in the Second Degree
+344,Breach of the Peace in the Second Degree
+345,Breach of the Peace in the Second Degree
+346,Breach of the Peace in the Second Degree
+347,Breach of the Peace in the Second Degree
+348,Stalking in the First Degree
+349,Stalking in the Second Degree
+350,Stalking in the Third Degree
+351,Intimidation Based on Bigotry or Bias in the First Degree
+352,Intimidation Based on Bigotry or Bias in the Second Degree
+353,Intimidation Based on Bigotry or Bias in the Third Degree
+354,Disorderly Conduct
+355,Obstructing Free Passage
+356,Harassment in the First Degree
+357,Harassment in the Second Degree (Obscenity)
+358,Harassment in the Second Degree (Written Communication)
+359,Harassment in the Second Degree (Telephone)
+360,Interfering with Emergency Call
+361,Loitering on School Grounds
+362,Public Indecency
+363,Tampering with Private Communications
+364,Tampering with Private Communications
+365,Illegal Wiretapping
+366,Eavesdropping
+367,Voyeurism
+368,Coercion
+369,Trafficking in Persons
+370,Obscenity
+371,Defense to Obscenity
+372,Obscenity as to Minors
+373,Affirmative Defense to Obscenity as to Minors
+374,Employing a Minor in an Obscene Performance
+375,Promoting a Minor in an Obscene Performance
+376,Importing Child Pornography
+377,Possessing Child Pornography in the First Degree
+378,Possessing Child Pornography in the Second Degree
+379,Possessing Child Pornography in the Third Degree
+380,Affirmative Defenses to Child Pornography Possession
+381,Possessing or Transmitting Child Pornography by a Minor
+382,Possession of a Sawed-Off Shotgun or Silencer
+383,Stealing a Firearm
+384,Drinking while Operating Motor Vehicle
+385,Insurance Fraud
+386,Criminal Use of Firearm or Electronic Defense Weapon
+387,Criminal Possession of a Firearm or Electronic Defense Weapon
+388,Criminally Negligent Storage of a Firearm
+389,Possession of a Weapon on School Grounds
+390,Criminal Possession of a Pistol or Revolver
+391,Criminal Possession of Body Armor
+392,Violating Conditions of Release in the First Degree
+393,Violating Conditions of Release in the Second Degree
+394,Criminal Violation of a Protective Order
+395,Criminal Violation of a Standing Criminal Restraining Order
+396,Criminal Violation of a Restraining Order
+397,Unauthorized Access to a Computer System
+398,Theft of Computer Services
+399,Interruption of Computer Services
+400,Misuse of Computer System Information
+401,Misuse of Computer System Information
+402,Misuse of Computer System Information
+403,Destruction of Computer Equipment
+404,Computer Crime in the First Degree
+405,Computer Crime in the Second Degree
+406,Computer Crime in the Third Degree
+407,Computer Crime in the Fourth Degree
+408,Computer Crime in the Fifth Degree
+409,Money Laundering in the First Degree
+410,Money Laundering in the Second Degree
+411,Money Laundering in the Third Degree
+412,Money Laundering in the Fourth Degree
+413,Vendor Fraud in the First Degree
+414,Vendor Fraud in the Second Degree
+415,Vendor Fraud in the Third Degree
+416,Vendor Fraud in the Fourth Degree
+417,Vendor Fraud in the Fifth Degree
+418,Vendor Fraud in the Sixth Degree
+419,Act of Terrorism
+420,Computer Crime for Terrorist Purposes
+421,"Abuse of Elderly, Blind, Disabled or Intellectually Disabled Person in the First Degree"
+422,"Abuse of Elderly, Blind, Disabled or Intellectually Disabled Person in the Second Degree"
+423,"Abuse of Elderly, Blind, Disabled or Intellectually Disabled Person in the Third Degree"
+424,Interference with Search
+425,Noncompliance with DNA Sampling
+426,Noncompliance with Venereal Disease or HIV Exam
+427,Failure to Register as a Sex Offender
+428,Failure to Register as a Sex Offender
+429,Failure to Register as a Sex Offender
+430,Failure to Register as a Sex Offender

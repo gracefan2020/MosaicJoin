@@ -1,0 +1,57 @@
+id,title
+0,Segmentation fault on updating a Ref
+1,Desugaring pattern matches with guards is broken
+2,Better error message when region and closure vars appear in terms
+3,Shape crusher isn't preserving effect and closure terms
+4,Better error message when trying to define an instance of an unknown class
+5,Module names need to be filtred in generated C code
+6,Output gets printed twice
+7,Export type followed by data definition incorrectly results in ErrorRdefinedData
+8,Type signature without implementation should be an error
+9,PANIC in Type.Crush.Unify
+10,Merge Core.Util.Pack with Type.Util.Pack
+11,Merge Core.Util.Trim with Type.Util.Trim
+12,Refactor TFetters to TConstrained
+13,PANIC in Type.Solve : floatBranch: can't find branch for index
+14,Fix Order4-5 example
+15,Check that top level CAFs don't have side effects.
+16,Parse error on list comprehension
+17,crushProjClassT panics when there are type errors
+18,Allow projections to be added foreign imported unboxed types
+19,Parse error with lists
+20,ellipsis in list generator expressions not comprehensive enough
+21,Error in parsing end of {- -} comments
+22,Finding which modules needs to be rebuilt is grossly inefficient.
+23,Need better error message when source file does not exist
+24,Parse error on let
+25,PANIC in Source.DefixApps ($ do)
+26,Infix quotes have wrong precedence
+27,Handle patterns in left of list comprehension generators.
+28,TinyPTC-X11 doesn't build on Debian unstable
+29,Fix build dependencies
+30,Infixl/Infixr do not accept backtick quote names
+31,Improve warning message output and extend war driver to check for warnings.
+32,Type mismatch during unification
+33,Bad pattern match code generated for list comprehension
+34,Configure does not correctly detect 32 bit user space on 64 bit kernel
+35,ddc: Bad code generated for statement containing nothing but a curried function.
+36,ddc doesn't find modules in current directory
+37,Kind error with projections in recursive function
+38,Core.Reconstruct isn't using the PCtor defs.
+39,Combine function bindings in projection dictionaries
+40,Don't try and make a module that doesn't include main
+41,Panic in type inferencer
+42,Parsing fails when a block comment ends on an import line
+43,Parsing or desugaring of field initialisers is broken
+44,Parsing problems with when/irrefutable patterns
+45,Parsing problems with where/irrefutable patterns
+46,Fix parsing and printing of Bot for effect and closures.
+47,Unresolved TApp during inference
+48,Compilation time is exponential in depth of constructor nesting
+49,Renamer problems in data type defs
+50,Fix postgeneralisation check.
+51,Fix option parser to be more forgiving
+52,Closure/IntFun test produces bad core when compiled with -O
+53,Renamer problem with class functions
+54,PANIC in Type.Location
+55,Fix minimumBy thing in raytracer

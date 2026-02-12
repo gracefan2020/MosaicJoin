@@ -1,0 +1,51 @@
+id,title
+0,plugins.curve.circle and closed Bezier Spline issue
+1,Text drawing with multiple viewports is wrong
+2,drawField gives wrong colors for nodal fields
+3,principalSizes return Coords type instead of numpy array
+4,selectProp if there are no prop
+5,Adding a Mesh method to return the characteristic levelVolume
+6,Faster computation of element volumes for hex8 in Mesh
+7,closest in geomtools can be improved
+8,coords.scale along arbitrary direction
+9,gui.image.save wrong transparency after 18 January 2015
+10,Extend PolyLine.append to fuse both ends
+11,Viewport->Clear All raises an error
+12,Create contour lines from the OpenGL rendering
+13,Cannot deepcopy PropertyDB
+14,coordinate system (and axes) incorrectly drawn
+15,TriSurface.centerline is not loaded by default when calling the method
+16,mesh.sweep around closed path
+17,Problems with method smooth between TriSurface and Mesh
+18,console and opengl.draw. why it is not imported by default?
+19,why splitting a curve is so difficult? (it isn't!)
+20,bkcolor does not work for me on gl2
+21,"adding a parameter for the pre approximation , max / min segment length in Curve.atChordal"
+22,ascii or binary pgf in webGL models?
+23,warning() + interact with GUI
+24,Problems when drawing a PlaneActor
+25,extension of coords.sweepCoords to provide a list of bases instead of one single Coord object
+26,When creating a new viewport the rendermode stays NONE and prevent drawing actors
+27,why vtkClip return all mesh level?
+28,Extension of Mesh.normals to return normals at elements?
+29,pgf.gz in webGL scene have too many nodes
+30,drawPoints2D returns coordinates relative to the camera focus
+31,drawNumbers does not work in wireframe mode
+32,fillBorder with method='planar' may be incorrect
+33,picking from one single object
+34,TriSurface.write sometimes writes incorrect filetypes
+35,multitask hangs when writing surfaces coz of pf.message?
+36,geomtools.distance of points from planes
+37,alpha and bkalpha
+38,Mesh.concatenate does not work with empty meshes
+39,Should .attrib be inherited just like .prop?
+40,tools query distances does not work with openGL2
+41,Formex.toMesh()
+42,extension of Coords.rotate to do multiple rotation at once
+43,Surface registration menu
+44,print log file of pyFormex
+45,pyformex_gts.boolean returns non-manifold surface
+46,Change default mouse bindings in picking mode.
+47,Plane objects
+48,remaining adjacency functions in connectivity.py
+49,save PNG image add transparency when resolution is decided by user

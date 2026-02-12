@@ -1,0 +1,48 @@
+id,title
+0,Turnkey ajaxy webapps
+1,CSV view class
+2,RapidApp demo application
+3,Return a DBIC row based on the current Catalyst context
+4,"Mostly, Controller's Moose::Roles for easy CRUD/Validation API's"
+5,"PSGI version of the RapidApp ""Chinook"" demo"
+6,College Basketball Tournament Bracket Web Application
+7,Per request clone of a DBIC model with additional parameters
+8,Instant AJAX web front-end for DBIx::Class
+9,Use the CHI cache handler for session storage.
+10,A Wiki with a tree
+11,Provide CRUD functionality to your Controllers
+12,Provides a DBIx::Class web service automagically
+13,A storage class for Catalyst Authentication using DBIx::Class
+14,CRUD for Catalyst::Model::DBIC::Schema
+15,Framework for Catalyst-based CMS Web Applications
+16,Paginate DBIx::Class::ResultSets for ExtJS consumption
+17,Puts the context's current user into your Catalyst::Model::DBIC::Schema schema.
+18,"Helps you paginate, search, sort, and more easily using DBIx::Class"
+19,Extend Catalyst Components to share application accross sites
+20,Tapper - Frontend web application based on Catalyst
+21,"Ability based authorization for Catalyst/DBIx::Class apps, based on Catalyst::Plugin::Authorization::Roles"
+22,"Create a schema for each unique calling context, defined by your model"
+23,Provides a set of Catalyst modules
+24,Web-related modules RSRCHBOY uses!
+25,KING OF CMS
+26,Find a DBIC Results from Arguments
+27,Miniature Model Organism Sequence Aligner
+28,REST Controller for [% schema_class %]
+29,Speedier interface to HTML::FormFu for Catalyst
+30,All you need to start with Catalyst
+31,Catalyst based application
+32,Serialize to Excel spreadsheets
+33,HTML widget for digg-style paginated DBIx::ResulSet
+34,use Bread::Board to configure your Catalyst app
+35,Profile time query took with DBIC::Schema in your Catalyst application.
+36,a demo website for Catalyst framework
+37,DBIx::Class::QueryLog support for Catalyst::Model::DBIC::Schema
+38,Event Repository
+39,Foorum - forum system based on Catalyst
+40,(DEPERCATED) DBIx::Class::QueryLog Model Class
+41,Message board / forum application
+42,Catalyst and related modules for exploring Catalyst
+43,Everything you need to follow the Catalyst Tutorial
+44,Catalyst based application
+45,**DEPRECATED** Authentication and authorization against a DBIx::Class or Class::DBI model.
+46,Update or Insert DBIx::Class data from Validators

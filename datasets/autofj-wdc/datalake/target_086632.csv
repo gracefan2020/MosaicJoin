@@ -1,0 +1,51 @@
+id,title
+0,With -n lyrics are not exported
+1,Interface too small on OS X
+2,On windows some dialogs have window decorations that can cause a crash.
+3,Key signature dialog hiccup
+4,Refresh button in Print View could be smarter
+5,The view when playing back
+6,MusicXML import ignores cautionary property
+7,Edit->Edit Score/Movement Directives not protected against too many items
+8,Shift with numeric keypad does not change note duration in Windows
+9,Cues misbehave if structural changes are made
+10,Manual on Windows has wrong images directory contents
+11,configure.ac needs upgrade
+12,MIDI output is very basic
+13,Not all actions can have shortcuts.
+14,"After Play Along Playback and recording, play crashes Denemo"
+15,Simple titles LilyPond syntax is obscure
+16,Denemo 1.2 crashes all the time on OS X 10.10.2
+17,Directives could edit or at least identify in the LilyPond output
+18,Some LilyPond errors cause typesetting to hang
+19,Several bugs with OS X 10.9.2
+20,Book titles only fit on A4 paper size
+21,[italian] Fix two translations
+22,Dynamics Staff restrictions not caught
+23,Cairo segfault
+24,Audio error spam
+25,Choose Seek Edit Directive command menu can be too large
+26,Page Break does not check it is at a bar boundary.
+27,Dead link on the website
+28,Mouse clicking to select staff fails in very special case
+29,Play button does not become Pause button on first use.
+30,README file in GNU/Linux binary is spurious?
+31,Print View window doesn't remember where it should pop up.
+32,Make the staff-name clickable
+33,Change key signature object is in a mess
+34,keep prefs does not keep the custom templates
+35,autosave file is not offered after crash
+36,Update website screenshots
+37,Thumbnailer fails to choose well
+38,Mouse click in LilyPond window always seeks anchor
+39,Tempo is in 1/4 notes per minute could use the time signature denominator.
+40,No user error message when LilyPond not found
+41,Give directive tag and location when lilypond errors output is requested (and lilypond window visible)
+42,Include files are machine specific
+43,"GUI under looses font ( Windows 7, 64-bit)"
+44,double click popup does not remember where it should pop up.
+45,Clean unused code
+46,Consistent behaviour and user interface across staff and clef directives/properties
+47,Move annoying pop-ups to the side
+48,File chooser name field crowded out by thumbnail
+49,Accidentals in Voices not visible but affect MIDI

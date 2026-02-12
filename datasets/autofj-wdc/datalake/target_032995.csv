@@ -1,0 +1,61 @@
+id,title
+0,ioemu: Fix serial console for HVM guestsdefault tip
+1,x86: Fix backport of xen-unstable:19544
+2,Update Xen version to 3.3.3-rc1-pre
+3,Added tag RELEASE-3.3.2 for changeset d96d6e70b185
+4,Update Xen version for 3.3.2RELEASE-3.3.2
+5,ept p2m: set rwx flags to 0 for invalid and mmio_dm types.
+6,Added tag 3.3.2-rc8 for changeset dd3ba8257b03
+7,Update Xen version for 3.3.2-rc83.3.2-rc8
+8,Added tag 3.3.2-rc7 for changeset f8c3b97ba0dd
+9,Update Xen version for 3.3.2-rc73.3.2-rc7
+10,hvm vlapic: Fix vlapic_write() for partial register writes.
+11,x86_32: handle x87 opcodes in TLS segment fixups
+12,xend: Set up CPUID leaves on restore for both PV and HVM guests.
+13,xsm: Move ACM_DEBUG and printkd() out of public header. They are
+14,Added tag 3.3.2-rc6 for changeset 600f379b491f
+15,Update Xen version for 3.3.2-rc63.3.2-rc6
+16,vmx: Fix handling of FS/GS base MSRs.
+17,i386: fix handling of Xen entries in final L2 page table
+18,stubdom: don't leak include dir on distclean
+19,stubdom: fix stubdom-dm error path
+20,Added tag 3.3.2-rc5 for changeset 1254d012c455
+21,Update Xen version for 3.3.2-rc53.3.2-rc5
+22,Added tag 3.3.2-rc4 for changeset 76ca9768ec2a
+23,Update Xen version for 3.3.2-rc43.3.2-rc4
+24,32on64: increase size of compat argument translation area to 2 pages.
+25,Avoid compat_arg_xlat to be a large per-CPU object
+26,x86 shadow: disable fast np path in OOS.
+27,x86 shadow: Fix lock-less race between resync and fast path.
+28,Fix buildsystem to detect udev > version 124
+29,Added tag 3.3.2-rc3 for changeset 99a03713a35b
+30,Update Xen version for 3.3.2-rc33.3.2-rc3
+31,xenconsoled: fix timestamp log
+32,VT-d: correct kill hvm_timer
+33,xenconsoled: Fix rate-limit calculation overflow leading to console
+34,x86 svm: Clean up and fix start_svm() to avoid memory leaks and
+35,Added tag 3.3.2-rc2 for changeset a9f690216675
+36,Update Xen version for 3.3.2-rc23.3.2-rc2
+37,x86: fix s3 resume on AMD CPUs
+38,"x86, hvm: set vcpu->is_initialised after restore/migration"
+39,"x86, hvm: fix a domain_lock leak"
+40,[IA64] fix early access to per cpu area.
+41,Update Xen version for 3.3.2-rc2-pre
+42,Added tag 3.3.2-rc1 for changeset 6e8580302724
+43,Update Xen version for 3.3.2-rc13.3.2-rc1
+44,blkif: Clarify units for 'sector'-sized blkif request params.
+45,minios: Fix blkfront driver when sector_size != 512
+46,tools: Fix an obvious xgettext build typo.
+47,x86: update ioport_quirks_tbl[] for the proliant BL2xx
+48,x86 hvm: hvm_set_callback_irq_level() must not be called in IRQ
+49,x86: Extend VMX_PERF_EXIT_REASON_SIZE to sync with latest SDM
+50,x86: Fix a couple of asm constraints.
+51,xenstore: Add brief notice regarding xenstore protocol limits to xs.h.
+52,x86 shadow: fix audit mode.
+53,x86: Add boot options regarding e820 parsinga nd clipping.
+54,minios: Backport part of xen-unstable 18928:b33b745cd5ec to avoid nested functions.
+55,x86 vmx: Reuse idtv_info to avoid double read of IDT_VECTORING.
+56,"x86 hvm: During task switch, LDT must be loaded before all other"
+57,x86: Detect bogus BIOS e820 tables which are not fully covered as
+58,x86 numa: Fix left shift overflows
+59,xenconsoled: Fixes to domain management.

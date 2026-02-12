@@ -1,0 +1,189 @@
+id,title
+0,Year
+1,DOY
+2,MST
+3,CR3000 CF Change
+4,CR3000 Zen Angle
+5,Global LI-200
+6,Global CM22 (vent/corr.)
+7,Global RG780 PSP (vent/corr.)
+8,Global TSP-1
+9,Global CM6b (corr.)
+10,Global SP Lite
+11,Global SP-110
+12,Global TSP-700 (vent.)
+13,Research Ch. 1
+14,Research Ch. 2
+15,Global UV-Total TUVR
+16,Global UVB 501A
+17,Global UVE 501A (MED)
+18,Global UVB MS210W
+19,Global UVA CUVA1
+20,Global UVB CUVB1
+21,Global UVA UV-S-A-T
+22,Global UVB UV-S-B-T
+23,Global UVB UVB-1
+24,Global UVE 501A (Index)
+25,Direct NIP (unit 1)
+26,Direct NIP (unit 2)
+27,Direct LI-201
+28,Direct RG780 NIP
+29,Direct CH1
+30,Zebra PSP (corr.)
+31,Direct UVA CUVA2
+32,Direct UVB CUVB2
+33,Photometer TWC (500nm)
+34,Global SPN1
+35,Diffuse SPN1
+36,Dry Bulb Temp (Data lab)
+37,Relative Humidity (Data lab)
+38,Diffuse PSP (sband/corr.)
+39,Research Field 1
+40,Diffuse 8-48 (vent.)
+41,Diffuse CM22 (vent/corr.)
+42,Research Field 0
+43,Research Ch. 3
+44,Downwelling IR PIR (vent.)
+45,Downwelling IR CG4 (vent.)
+46,Upwelling IR PIR
+47,Instrument Net DW PIR
+48,Instrument Net DW CG4
+49,Instrument Net UW PIR
+50,Global PSP (corr.)
+51,Global PSP (vent/corr.)
+52,Diffuse PSP (vent/corr.)
+53,Diffuse UV-Total CUV4
+54,Global UV-Total CUV4
+55,Wind Speed (19')
+56,Wind Direction (19')
+57,Pk Wind Speed (19')
+58,Direct MS-56
+59,Research Ch. 4
+60,PIR DW Dome Temp
+61,PIR DW Case Temp
+62,CG4 DW Case Temp
+63,PIR UW Dome Temp
+64,PIR UW Case Temp
+65,CR3000 Temp
+66,Dry Bulb Temp (Deck)
+67,Relative Humidity (Deck)
+68,501A Temp
+69,CUVA1 Temp
+70,CUVB1 Temp
+71,CUVA2 Temp
+72,CUVB2 Temp
+73,UV-S-A-T Temp
+74,UV-S-B-T Temp
+75,UVB-1 Temp
+76,Horiz TP Thermal Corr
+77,CR3000 Battery
+78,CR3000 Pgm. Time (max)
+79,Direct Quantum LI-190
+80,Direct UV-Total TUVR
+81,Signal PSP (global)
+82,Signal PSP Vent (global)
+83,Signal CM22 (global)
+84,Signal PSP RG780
+85,Signal CM6b
+86,Signal PSP (zebra)
+87,Signal PSP (sband)
+88,Signal PSP (diffuse)
+89,Signal CM22 (diffuse)
+90,Global Quantum LI-190
+91,Global Photometric LI-210
+92,Upwelling Shwv CM3 (CNR1)
+93,Upwelling IR CG3 (CNR1)
+94,Instrument Net UW CG3
+95,Upwelling Shortwave PSP
+96,Upwelling Shortwave LI-200
+97,Upwelling Quantum LI-190
+98,CNR1 Case Temp
+99,Global CM3 (CNR1)
+100,Downwelling IR CG3 (CNR1)
+101,Instrument Net DW CG3
+102,Snow Depth
+103,Precipitation
+104,Precipitation (Accumulated)
+105,Station Pressure
+106,Global 40-South PSP
+107,Global 40-South LI-200
+108,Global Normal CM-21
+109,Global 90-North PSP
+110,Global 90-North LI-200
+111,Global 90-East PSP
+112,Global 90-East LI-200
+113,Global 90-South PSP
+114,Global 90-South LI-200
+115,Global 90-West PSP
+116,Global 90-West LI-200
+117,Research RadTwr 0
+118,Research RadTwr 1
+119,Research RadTwr 2
+120,Atmospheric Electric Field
+121,CR10X Temp (Rad-Twr)
+122,CR10X Battery (Rad-Twr)
+123,LI-2020 Battery
+124,Dry Bulb Temp (Tower)
+125,Relative Humidity (Tower)
+126,Wind Speed (6')
+127,Wind Direction (6')
+128,Pk Wind Speed (6')
+129,CR10X Overuns (Rad-Twr)
+130,Snow Depth Quality
+131,Dry Bulb Temp (SE)
+132,Relative Humidity (SE)
+133,SE-POA Angle
+134,Global SE-POA LI-200
+135,CR10X Overuns (Met-Twr)
+136,CR10X Temp (Met-Twr)
+137,CR10X Battery (Met-Twr)
+138,Vertical Wind Shear
+139,Research PVTwr 1
+140,Research PVTwr 2
+141,Wind Speed (22')
+142,Wind Direction (22')
+143,Wind Speed (42')
+144,Wind Direction (42')
+145,Research PVTwr 0
+146,Pk Wind Speed (22')
+147,Pk Wind Speed (42')
+148,ΔUT1
+149,AOD TWC (500nm)
+150,Net Radiation (Eppley)
+151,Net Radiation (K&Z)
+152,Net Infrared PIRs (atmos.)
+153,Net Infrared K&Zs (atmos.)
+154,Albedo (PSP)
+155,Albedo (K&Z)
+156,Albedo (LI-200)
+157,Albedo Quantum (LI-190)
+158,Broadband Turbidity
+159,AOD Estimated (500nm)
+160,Est. Sea-Level Pressure
+161,Dew Point Temp (Tower)
+162,Wet Bulb Temp (Tower)
+163,Wind Chill Temp (Tower)
+164,Wind Chill Temp (Deck)
+165,Cloud Cover (Total)
+166,Cloud Cover (Opaque)
+167,Global Extraterrestrial (calc.)
+168,Direct Extraterrestrial (calc.)
+169,Zenith Angle
+170,Azimuth Angle
+171,Airmass
+172,ΔT
+173,Photometer POM-01 (315nm)
+174,Photometer POM-01 (400nm)
+175,Photometer POM-01 (500nm)
+176,Photometer POM-01 (675nm)
+177,Photometer POM-01 (870nm)
+178,Photometer POM-01 (940nm)
+179,Photometer POM-01 (1020nm)
+180,AOD (Obsolete 315nm)
+181,AOD (Obsolete 400nm)
+182,AOD (Obsolete 500nm)
+183,AOD (Obsolete 675nm)
+184,AOD (Obsolete 870nm)
+185,AOD (Obsolete 940nm)
+186,AOD (Obsolete 1020nm)
+187,Research Field 2

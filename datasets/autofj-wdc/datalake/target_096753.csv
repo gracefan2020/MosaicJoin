@@ -1,0 +1,51 @@
+id,title
+0,Add hook documentation that hook_service_links_alter() is cached
+1,Customize PDF
+2,Refactor the ctools content type plugin -> integrate with ctools contexts
+3,Service links as a field type
+4,extra service links & whatsapp
+5,svg support
+6,"""Service Links Field Share on Facebook"" No longer displays Picture or links to article."
+7,Encoding problems in titles (again)
+8,Image not showing on facebook share
+9,extend share framework also for drupal commet framework
+10,Support for localized Facebook share button
+11,Consolidate shares into 1 number
+12,Multilingual support for Twitter users
+13,Detect site language and show service site in accordance with that language
+14,Override title does not work for none nodes in a block.
+15,Add Facebook send=true attribute to Like widget.
+16,weibo extra service error
+17,"Shorten URL not working if bit.ly is primary shortener and ""use www instead of http"" is selected"
+18,Add an alter hook for the service_links settings on a given node
+19,Text Only option not working.
+20,Wrong README.txt in 6.x-2.2
+21,Facebook & Twitter widgets count problem
+22,Facebook Like Widget Broken - App ID not included
+23,Translation problem
+24,share count is not accounted
+25,Facebook Like button as HTML5
+26,Add option to show share button in facebook like button widget
+27,misaligned service icons
+28,Drupal 8 port?
+29,LinkedIn not showing links or title
+30,Twitter links invalid (error 301)
+31,Switch Facebook Like button from iframe to HTML5 version
+32,Share on facebook not showing the description
+33,Forward set to icon but shows icon+text
+34,Show linkedin counter if zero
+35,"Allow service links to show in user profile pages for 7.x-2,x"
+36,Counter on Twitter Tweet Does not Show
+37,what version of 'forward' is compatible? 7.x-2.x or 7.x-3.x?
+38,Service Links Displays DS field title
+39,Award userpoints for each share
+40,"Share witter and linkedin, like button, views, taxonomy"
+41,"Unsafe JavaScript attempt to access frame with URL - Domains, protocols and ports must match."
+42,Translation doesn't show
+43,"""Field tags"" as as entity reference field"
+44,"Error in ""Example of preset function"""
+45,doesn't return the node id
+46,Add locale field to to Facebook share widget settings
+47,Service Links Displays stopped working with DS 7.x-2.x
+48,Module update 6200 of service_links is broken on PostgreSQL due to invalid SQL
+49,Custom Pin It Icon

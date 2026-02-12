@@ -1,0 +1,83 @@
+id,title
+0,usr_key
+1,act_key
+2,Last Name
+3,First Name
+4,Middle Name
+5,Full Name
+6,Display Name
+7,Xellerate Type
+8,usr_password
+9,usr_disabled
+10,Status
+11,Role
+12,User Login
+13,usr_manager_key
+14,Start Date
+15,End Date
+16,usr_provisioning_date
+17,usr_deprovisioning_date
+18,usr_provisioned_date
+19,usr_deprovisioned_date
+20,Email
+21,usr_locked
+22,Locked On
+23,Automatically Delete On
+24,Manually Locked
+25,usr_login_attempts_ctr
+26,usr_create
+27,usr_update
+28,usr_timezone
+29,usr_locale
+30,usr_pwd_cant_change
+31,usr_pwd_must_change
+32,usr_pwd_never_expires
+33,usr_pwd_expire_date
+34,usr_pwd_warn_date
+35,usr_pwd_expired
+36,usr_pwd_warned
+37,usr_pwd_reset_attempts_ctr
+38,usr_change_pwd_at_next_logon
+39,usr_data_level
+40,usr_pwd_min_age_date
+41,usr_createby
+42,usr_updateby
+43,usr_created
+44,usr_policy_update
+45,Country
+46,Department Number
+47,Description
+48,Common Name
+49,Employee Number
+50,Fax
+51,Generation Qualifier
+52,Hire Date
+53,Home Phone
+54,Locality Name
+55,Mobile
+56,Pager
+57,Home Postal Address
+58,Postal Address
+59,Postal Code
+60,PO Box
+61,State
+62,Street
+63,Telephone Number
+64,Title
+65,Initials
+66,Password Generated
+67,LDAP Organization
+68,LDAP Organization Unit
+69,LDAP GUID
+70,LDAP DN
+71,FA Language
+72,Embedded Help
+73,Number Format
+74,Date Format
+75,Time Format
+76,Currency
+77,Font Size
+78,Color Contrast
+79,Accessibility Mode
+80,FA Territory
+81,User Name Preferred Language

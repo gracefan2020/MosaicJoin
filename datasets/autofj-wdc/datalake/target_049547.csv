@@ -1,0 +1,101 @@
+id,title
+0,"Create typesafe method of obtaining dictionary types from class definitions, and constraint objects from dictionary types"
+1,Add bindings for marshaling to/from mpz_t
+2,No message when GCHI reusing compiled code
+3,Wanted: higher-order type-level programming
+4,Offer copy-on-GC sliced arrays
+5,Option to truncate Show output in ghci REPL
+6,GHC's link step needs to be told which packages to link
+7,Recommend class constraint instead of instance constraint
+8,Add -g
+9,Allow more general structural recursion without UndecidableInstances
+10,Top level module identifiers shadow imported identifiers
+11,PostfixOperators doesn't work for types
+12,:info enhancements
+13,Support symbols in GHCi tab completion
+14,Data.Array.Base.elems needlessly calls bounds.
+15,UNPACK support for existentials
+16,Harbormaster doesn't post to Differential on success
+17,Make Const (Control.Applicative) kind polymorphic in its second argument
+18,Lower level memcpy primop
+19,"Add support for ""foo""## literals to MagicHash"
+20,Idris REPL is pretty and we can too
+21,Don't suppress warnings in the presence of errors
+22,Data.List should have a takeLastN function
+23,DefaultSignatures: error message mentions internal name
+24,feature: warn about unused data definitions (with typeclass instances)
+25,Closed type families: Warn if it doesn't handle all cases
+26,Export typeRepKinds in Data.Typeable
+27,GHC does not specialize based on type equality
+28,Get profiling info without stopping program
+29,Suboptimal error message with deferred type errors
+30,Add support for typed holes in Template Haskell
+31,Create a dedicated `TypeError` exception type
+32,Cycles in class declaration (via superclasses) sometimes make sense.
+33,Add Android and iOS Operating Systems in Trac
+34,Devise workaround for how infinite types prevent closed type family reduction
+35,Make Semigroup as a superclass of Monoid
+36,\case should trigger auto-multiline mode in ghci
+37,No detail for profiling costs atributed to SYSTEM / PINNED / ARR_WORDS
+38,Make listArray non-strict in structure of argument list
+39,Shorter import syntax
+40,Allow addTopDecls to create annotations
+41,more specific types in the generated *_stub.h files
+42,"Generic instances missing for Int32, Word64 etc."
+43,Generic for existential types
+44,Expose kind information for type variables with reify
+45,Recommend ScopedTypeVariables
+46,Allow cycles in class declarations
+47,avoid redundant stores to the stack when examining already-tagged data
+48,Auto derive from top to bottom
+49,Make up instances
+50,Mechanism for checking that we only enter single-entry thunks once
+51,Show constraints in ``Found hole...''
+52,Handle annotations in hsig/boot files
+53,-fwarn-redundant-constraints should not be part of -Wall
+54,Better cache performance in Array#
+55,add a required wrapper around plugin installers
+56,Redo T7919 and TH_spliceE5_prof with a cabal file
+57,Add fudge-factor for performance tests run on non-validate builds
+58,lookupSymbol API is unsafe
+59,Resurrect ticky code for counting constructor arity
+60,Optimize tagToEnum# at Core level
+61,Place heap checks common in case alternatives before the case
+62,Create more specialized entries to GC
+63,Annotations should not distinguish type and value
+64,Improvements to SpinLock implementation
+65,Git Hook script to prevent large binary blobs being checked in
+66,IO hack in demand analyzer gets in the way of CPR
+67,Evaluate know-to-terminate-soon thunks
+68,Instructions for using gdb with GHC on Windows
+69,"IEEE Standard 754 for Binary Floating-Point Arithmetic by Prof. W. Kahan, UCB"
+70,GHC-IO-Handle-Text.hPutStr' and writeBlocks look like they need refactoring
+71,"Testsuite driver: replace ""extra_clean"" by ""git clean -X"""
+72,nofib target for just building should be part of validate
+73,Clean up Trac versions
+74,Use TrieMaps to speed up type class instance lookup
+75,Introduce a logging API to GHC
+76,"Replace ""error"" with ""errorWithStackTrace"" from GHC.Stack in base libs"
+77,Separate PprFlags (used by Outputable) from DynFlags
+78,Cross-platform sed
+79,Lint check: arity invariant
+80,Make it easier to print stack traces when debugging GHC itself
+81,Eta expand PAPs
+82,Convert User Guide from DocBook to AsciiDoc
+83,Make BranchList simpler
+84,Properly link Haskell shared libs on ELF systems
+85,Refactor HsForAllTy
+86,GHC should be distributed with debug symbols
+87,Rename Backpack packages to units
+88,Clear up difference between `WayDyn` and `Opt_Static`
+89,Uses of Binary decode should have a proper error message
+90,GHC uses nub
+91,Different floating point results with -msse2 on 32bit Linux
+92,Of Bird tacks and non-blank blank lines
+93,A combination of type-level comparison and subtraction does not work for 0
+94,ghc.exe: internal error: loadArchive: error whilst reading `C'
+95,GHC is inconsistent with the Haskell Report on which Unicode characters are allowed in string and character literals
+96,Hyperbolic arc cosine fails on (-1) :: Complex r.
+97,Invalid constructor names are accepted in data declarations
+98,Overlapping patterns warning misplaced
+99,Invalid Unicode Codepoints in Char

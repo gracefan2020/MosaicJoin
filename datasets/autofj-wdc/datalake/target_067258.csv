@@ -1,0 +1,51 @@
+id,title
+0,"ref-manual: Corrected the ""package_rpm.bbclass"" section.dora"
+1,documentation: Updated the date in Manual Revision History tableyocto-1.5.4dora-10.0.4
+2,yocto-bsp: Update qemu inclusion lists
+3,build-appliance-image: Update to dora head revision
+4,poky: Update version to 1.5.4
+5,build-appliance-image: Update to dora head revision
+6,systemtap: fix do_compile failed on fedora21
+7,ltp: Added zip-native as a DEPENDS
+8,package.bbclass: Add CONFFILES to list of package specific variables
+9,profile-manual: Updates to the LTTng Documentation section.
+10,build-appliance-image: Update to dora head revision
+11,build-appliance-image: Update to daisy head revision
+12,openssl: Fix for CVE-2014-3568
+13,openssl: Fix for CVE-2014-3567
+14,openssl: Fix for CVE-2014-3513
+15,openssl: Fix for CVE-2014-3566
+16,poky.ent: Updated the YOCTO_RELEASE_NOTES variable.
+17,bash: Fix-for-CVE-2014-6278
+18,bash: Fix for CVE-2014-6277
+19,bash: Fix for CVE-2014-7186 and CVE-2014-7187
+20,bash: Fix for exported function namespace change
+21,bash: add missing patch for CVE-2014-7169 to 4.2 recipe
+22,bash: add missing patch for CVE-2014-6271 to 4.2 recipe
+23,bash: Fix CVE-2014-7169
+24,bash: fix CVE-2014-6271
+25,apmd.service: Fix typo (not mandatory EnvironmentFile prefix)
+26,documentation: Steps to prepare for 1.5.4 YP doc set.
+27,qt4: Fix Qt 4.8.5 source to new location
+28,gcc-4.8: backport fix for ICE when building opus
+29,cairo: explicitly disable LTO support by backporting patch which removes it
+30,binutils: Fix building nativesdk binutils with gcc 4.9
+31,"ref-manual: Updated note in the ""CentOS Packages"" section."
+32,dev-manual: Fixed broken link to MACHINE variable.
+33,"dev-manual: Updates to the ""Creating Partitioned Images"" section."
+34,build-appliance-image: Update to dora head revisionyocto-1.5.3dora-10.0.3
+35,poky.conf: Bump version for 1.5.3 dora release
+36,build-appliance-image: Update to dora head revision
+37,opkg: putting the service files into PN
+38,populate-extfs.sh: fix to handle special file names correctly
+39,libtool-cross/native: Force usage of bash due to sstate inconsistencies
+40,perf: split packging
+41,perf: add slang to the dependencies
+42,perf: fix broken shell comparsion in do_install
+43,e2fsprogs: Fix populate-extfs.sh
+44,prelink: Fix SRC_URI
+45,populate-extfs.sh: keep file timestamps
+46,rpm: Fix rpm -V usage
+47,consolekit: fix console-kit-log-system-start.service startup
+48,populate-extfs.sh: error out if debugfs encounters some error
+49,populate-extfs.sh: fix to handle /var/lib/opkg/alternatives/[[ correctly

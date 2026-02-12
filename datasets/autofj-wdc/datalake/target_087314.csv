@@ -1,0 +1,101 @@
+id,title
+0,Make tag post meta box more accessible
+1,Multiple wp_editor's with different settings
+2,Quicktags: Can't add them using just a keyboard in IE
+3,Title field on Insert/edit link form shouldn't allow autosuggest
+4,Using PgDn and PgUp keyboard keys in the editor scrolls both post edit box and the whole viewport
+5,double newlines inserted before captions
+6,save_state() in postbox.js should look at the hidden checkboxes instead of :hidden
+7,wplink modal accessibility
+8,Allow wp_link_dialogue to open in contexts outside of the editor
+9,Do action before #minor-publishing-actions in publish meta-box
+10,Formatting bar loading experience is subpar
+11,Improve the writing experience on mobile
+12,Add oEmbed support for WordPress.com
+13,Only enforce OEmbed whitelisting for dangerous types
+14,Consider supporting oEmbed for Tumblr sites on custom domains
+15,Export API
+16,users with no posts are not exported
+17,Sourcemaps should be provided for use with minified javascript libraries
+18,Stop using ereg() and eregi()
+19,Update Masonry (v3.3.0) & imagesLoaded (v3.1.8) package
+20,Update json2.js
+21,Comments on attachments don't appear in site-wide comments RSS feed
+22,Last-Modified headers for individual comment feeds are incorrect
+23,WordPress should not generate feeds for 404 pages
+24,Make comment feeds fail with an error code when comments are closed
+25,Multiple feed fixes and enhancements
+26,feed_links should have a parameter to choose which feed to display
+27,Incorporate MediaRSS Plugin into core
+28,Allow array for $extra_fields in request_filesystem_credentials
+29,Add hook to delete_plugins() on successful delete
+30,Better caching for get_dirsize
+31,"Introduce wp_scandir, remove opendir / closedir code"
+32,Email address sanitisation mangles valid email addresses
+33,Invalid HTML Output
+34,Make is_email() compliant with RFC2822
+35,esc_url eats square brackets.
+36,"format_to_edit runs esc_textarea if $richedit param is set to false, not true"
+37,"get_bloginfo() doesn't sanitize URLs, even when $filter is 'display'"
+38,"make_clickable problem with multiple ""Punctuation URL character"""
+39,the_excerpt() - handling
+40,wpautop breaks style and script tags
+41,wpautop() fails on uppercase closing tags
+42,Add image dimensions to smiley img element
+43,Introduce esc_color()
+44,Move color sanitize function to wp-includes/formatting.php
+45,New Generic Sanitize Functions for Core
+46,Normalize characters with combining marks to precomposed characters
+47,add support for picture element and srcset attribute on img in wp_kses
+48,esc_url() instead of esc_html() in wp_nonce_url()
+49,"wp_check_invalid_utf8 - pcre tricks and failsafes, +mb_convert_encoding, iconv fix, performance"
+50,Gallery Category Doesn't change with article
+51,Updating Link URL on image within Admin with Gallery
+52,Add Link Size Parameter to Gallery Shortcode
+53,Allow gallery shortcode to accept a maximum number of items
+54,Additional audit for recent documentation changes
+55,Preview doesn’t work - WP installed in its own directory
+56,Zlib does not work on fresh ubuntu installations...
+57,is_serialized() returns false on serialized doubles
+58,json_last_error is not provided by JSON compatibility layer
+59,wp_is_mobile() includes tablets
+60,Add some user agent to wp_is_mobile
+61,Adding a link without a name or web address yields no (error) feedback
+62,Allow absolute paths to be passed into content_url()
+63,Discourage search engines setup/config inconsistency
+64,Enhance wp_parse_args() by adding filters before/after the array_merge()
+65,Ideas for improvements to to wp_die() usages
+66,Introduce utility functions to check constants
+67,Meta boxes should have before/after hooks
+68,Move AJAX action parameters out of the method body and into the declaration.
+69,Move show_message() into WP_Error class and add support for various WP_Error features that are missing
+70,New core API for adding Meta tags to the header
+71,Optimization for PHP FPM
+72,Soft 404 at /wp-content/plugins/
+73,Unique identifier for Heartbeat API calls
+74,create menu page for custom post types
+75,wp_list_pluck cannot be used with arrays of references
+76,Add Registry Class as WP_App
+77,JavaScript actions and filters
+78,Make wp-content an svn external to official repositories
+79,Make WP_HTTP_BLOCK_EXTERNAL more easy to use
+80,About screen text assumes user has update privileges
+81,Add help to media modals
+82,Role-based help text
+83,Avoid using HTML tags in translation strings (wp-admin/edit-form-advanced.php)‎
+84,Month format in Publish box
+85,Sorting tags and towns does not work well for utf-8
+86,add-textdomain doesn't conform to WP coding standards
+87,is_textdomain_loaded() returns true even if there are no translations for the domain
+88,Multiple entity codes in POT file for the same character
+89,Plurals in JavaScript
+90,Suggested x Default images for header
+91,WordPress does not localize ordinal suffixes in dates
+92,language_attributes() print WP lang instead content lang.
+93,wp_localize_script unexpectedly converts numbers to strings
+94,Search with special characters and similar terms
+95,User Admin Language
+96,LiveJournal Importer mishandles some and expressions
+97,RSS Import Doesn't Properly Strip CDATA Tags
+98,WordPress Importer - Strict Standards compatibility
+99,Detecting MIME Types in WXR Files

@@ -1,0 +1,51 @@
+id,title
+0,"Got past the Form_Builder update Glitch, but now ""No Modules implement support"""
+1,SQLSTATE[42000] syntax error near 'form_id' on form_builder_update_7002
+2,php 5.3 support
+3,Always shows as a draft
+4,Webform only?
+5,Fieldsets inside fieldsets randomly deleted
+6,Order of webforms components not saved when using form builder
+7,Survey Builder module no longer works with form builder upgrade to 1.9
+8,Formbuilder UI - Drupal 8
+9,Gracefully handle components without form_builder support.
+10,Form cache delete on node save should remove all cache entries for that form
+11,Radio/Checkboxes/Select options disappear
+12,"compatibility between ""pre-built option list"" and form builder UI"
+13,Add abilitaty for admins to bypass the Form Builder interface to access advanced Webform component settings
+14,Support new token use in webform file components
+15,JavaScript Events
+16,_webform_form_builder_properties_COMPONENT() suggests that there are component specific properties.
+17,Pagebreaks: make next and previous page label editable
+18,Bartik support: More robust CSS
+19,Request for advice
+20,Consider supporting Webform CiviCRM
+21,Wysiwyg is broken for markup component
+22,Webform integration missing time component
+23,How to see available tokens for webform fields?
+24,multiple option
+25,Add ability to clone entire fieldsets in Form builder
+26,Conditional Properties
+27,Add support for webform wrapper css class
+28,Fatal error: Call to undefined function form_builder_property_key_form_validate()
+29,Component custom attribute update on edit
+30,Support FAPI #states property
+31,Is it possible to add taxonomy terms to select list of form builder?
+32,CCK/Node Integration?
+33,Disable editing machine name (Form key)
+34,Palette not displaying in Webform integration
+35,Port form_builder to Drupal 8
+36,Drag fieldset sometimes lost fieldset and fields
+37,Deleting a (already saved) non-empty fieldset throws notices.
+38,Paired Field
+39,Allow other modules to alter the palette.
+40,hook_form_builder_validators never invoked
+41,Two/Multiple column form layout
+42,form_builder_webform doesn't provide $component['nid']
+43,Support for Signature Field
+44,Custom properties not working properly
+45,Multi-step form without Webform
+46,How can i show entity forms in Modal form view
+47,Allow for positioning/duplication of Submit button
+48,Question regarding a new webform component - autocomplete
+49,Replace component properties within tabs

@@ -1,0 +1,61 @@
+id,title
+0,fix: thx torhudefault tip
+1,merge
+2,remove TANGOSVN for 0.99.8
+3,redirect direct prints to DwtLogger
+4,Make compilable for tango 0.99.8
+5,transfered data shall be utf16. Thanks hduregger.
+6,Same change as in dwt-win. Thx to Craig Slusher.
+7,doc fix
+8,Fixes for TANGOSVN r4235 -- still some warnings but builds
+9,Readme update
+10,Fixes for XPCOM 1.9 and anonymous classes
+11,Oops... Add new 3.4.1 files
+12,Update Browser/Mozilla package to SWT 3.4.1 and bug fixes
+13,Update to SWT 3.4.1
+14,Conclusion of long painful debugging: working Browser package :) (aplha)
+15,Update XPCOM Interfaces for correct interface ID's per SWT
+16,Test Update to fix linux XPCOM interface issues
+17,Update to make sure dwt/internal/mozilla package compiles
+18,Browser Package now compiles (phase 2 complete)
+19,Fixups
+20,more fixups:
+21,Mozilla.d compiles successfully :)
+22,Fixup
+23,Ongoing fixup for compile
+24,Fixes
+25,Mozilla module complete (first phase complete)
+26,merge
+27,More Mozilla
+28,Enable unicode literal in resource bundles.
+29,Mozilla update
+30,Quick fix
+31,Continued progress on Mozilla.d
+32,Support for SWT language files
+33,typos
+34,merge
+35,"Added 'all.d' package import, a dwt.all for everything and a dwt.std for the essential stuff"
+36,add TANGOSVN to file
+37,merge branches
+38,remove backup file
+39,Better static asserts to detect changing .stringof format
+40,rename version LLVMDC to LDC
+41,Sync dwt/custom with dwt-win
+42,Added missing dwthelper.utils imports. (catched by llvmdc)
+43,Fixes for LLVMDC
+44,Fix tango.core.Array.remove use
+45,"fix Widget setDataStr, getDataStr typos"
+46,"String version for Widget getData,setData"
+47,sync with dwt-win
+48,update TANGOSVN
+49,Improved Listeners access functions.
+50,merge
+51,comment
+52,Fix potential seg fault
+53,Additions for jface.text
+54,System.out.println and interface CharSequence
+55,Allow null args
+56,Fix: DateTime to startup with current Date/Time.
+57,sync with dwt-win
+58,fix dwthelper after recent change
+59,Mozilla module progress; fixes to other browser modules; update XPCOM interfaces

@@ -1,0 +1,356 @@
+id,title
+0,01 Sleeping
+1,02 Sleeplessness
+2,"99 Sleeping, n.e.c."
+3,"01 Washing, dressing and grooming oneself"
+4,"99 Grooming, n.e.c."
+5,01 Health-related self care
+6,"99 Self care, n.e.c."
+7,01 Personal/Private Activities
+8,"99 Personal activities, n.e.c."
+9,01 Personal emergencies
+10,"99 Personal care, emergencies, n.e.c."
+11,01 Interior Cleaning
+12,02 Laundry
+13,"03 Sewing, repairing, and maintaining textiles"
+14,"04 Storing interior HH items, including food"
+15,"99 Housework, n.e.c."
+16,01 Food and drink preparation
+17,02 Food presentation
+18,03 Kitchen and Food Clean-Up
+19,"99 Food and drink prep, presentation, and clean-up, n.e.c"
+20,"01 Interior arrangement, decoration, and repairs"
+21,02 Building and repairing furniture
+22,03 Heating and cooling
+23,"99 Interior maintenance, repair and decoration, n.e.c."
+24,01 Exterior Cleaning
+25,"02 Exterior repair, improvements, and decoration"
+26,"99 Exterior maintenance, repair and decoration, n.e.c."
+27,"01 Lawn, Garden, and Houseplants"
+28,"02 Ponds, pools, and hot tubs"
+29,"99 Lawn and garden, n.e.c."
+30,01 Care for animals and pets (not veterinary care)
+31,"99 Pet and animal care, n.e.c."
+32,01 Vehicle repair and maintenance (by self)
+33,"99 Vehicles, n.e.c."
+34,"01 Appliance and tool set-up, repair, and maintenance (by self)"
+35,"99 Appliances and tools, n.e.c."
+36,01 Financial management
+37,02 HH personal organization and planning
+38,03 HH and personal mail and messages (except e-mail)
+39,04 HH and personal e-mail and messages
+40,05 Home Security
+41,"99 HH management, n.e.c."
+42,"99 HH activities, n.e.c."
+43,01 Physical care for HH children
+44,02 Reading to/with HH children
+45,"03 Playing with HH children, not sports"
+46,04 Arts and crafts with HH children
+47,05 Playing sports with HH children
+48,06 Talking with/listening to HH children
+49,07 Helping/teaching HH children (not related to education)
+50,08 Organization and planning for HH children
+51,09 Looking after HH children (as a primary activity)
+52,10 Attending HH children's events
+53,11 Waiting for/with HH children
+54,12 Picking up/dropping off HH children
+55,"99 Caring for and helping HH children, n.e.c."
+56,01 Homework (HH children)
+57,02 Meetings and school conferences (HH children)
+58,03 Home schooling of HH children
+59,04 Waiting associated with HH children's education
+60,"99 Activities related to HH children's education, n.e.c."
+61,01 Providing medical care to HH children
+62,02 Obtaining medical care for HH children
+63,03 Waiting associated with HH children's health
+64,"99 Activities related to HH children's health, n.e.c."
+65,01 Physical care for HH adults
+66,02 Looking after HH adult (as primary activity)
+67,03 Providing medical care to HH adult
+68,04 Obtaining medical and care services for HH adult
+69,05 Waiting associated with caring for HH adults
+70,"99 Caring for and helping HH adult, n.e.c."
+71,01 Helping HH adults
+72,02 Organization and planning for HH adults
+73,03 Picking up/dropping off HH adult
+74,04 Waiting associated with helping HH adults
+75,"99 Helping HH adults, n.e.c."
+76,"99 Caring for and Helping HH Members, n.e.c."
+77,01 Physical care for nonHH children
+78,02 Reading to/with nonHH children
+79,"03 Playing with nonHH children, not sports"
+80,04 Arts and crafts with nonHH children
+81,05 Playing sports with nonHH children
+82,06 Talking with/listening to HH children
+83,07 Helping/teaching nonHH children (not related to education)
+84,08 Organization and planning for nonHH children
+85,09 Looking after nonHH children (as a primary activity)
+86,10 Attending nonHH children's events
+87,11 Waiting for/with nonHH children
+88,12 Dropping off/picking up nonHH children
+89,"99 Caring for and helping nonHH children, n.e.c."
+90,01 Homework (nonHH children)
+91,02 Meetings and school conferences (nonHH children)
+92,03 Home schooling of nonHH children
+93,04 Waiting associated with nonHH children's education
+94,"99 Activities related to nonHH child's education, n.e.c."
+95,01 Providing medical care to nonHH children
+96,02 Obtaining medical care for nonHH children
+97,03 Waiting associated with nonHH children's health
+98,"99 Activities related to nonHH child's health, n.e.c."
+99,01 Physical care for nonHH adults
+100,02 Looking after nonHH adult (as primary activity)
+101,03 Providing medical care services for nonHH adult
+102,04 Obtaining medical and care services for nonHH adult
+103,05 Waiting associated with caring for nonHH adults
+104,"99 Caring for nonHH adult, n.e.c."
+105,"01 Housework, cooking, and shopping assistance for nonhh adults"
+106,02 House & lawn maintenance and repair assistance for nonhh adults
+107,03 Animal and pet care assistance for nonHH adults
+108,04 Vehicle & appliance maintenance/repair assistance for nonHH adults
+109,05 Financial Management assistance for nonHH adults
+110,06 HH management and paperwork assistance for nonhh adults
+111,07 Picking up/dropping off nonHH adult
+112,08 Waiting associated with helping nonHH adults
+113,"99 Helping nonHH adults, n.e.c."
+114,"99 Caring for and helping nonHH members, n.e.c."
+115,01 Taking classes: degree
+116,02 Taking classes: personal interest
+117,03 Waiting associated with taking classes
+118,04 Security procedures related to taking classes
+119,"99 Taking classes, n.e.c."
+120,01 Extracurricular club activities
+121,02 Extracurricular music and performance activities
+122,03 Extracurricular student government activities
+123,"99 Education-related extracurricular activities, n.e.c."
+124,01 Research/homework: class for degree
+125,02 Research/homework: class for personal interest
+126,03 Waiting associated with research/homework
+127,"99 Research/homework, n.e.c."
+128,01 Administrative activities: class for degree
+129,02 Administrative activities: class for personal interest
+130,03 Waiting associated with administrative activities (education)
+131,"99 Administrative for education, n.e.c."
+132,"99 Education, n.e.c."
+133,01 Grocery shopping
+134,02 Purchasing gas
+135,03 Purchasing food (not groceries)
+136,"04 Shopping, except groceries, food, and gas"
+137,05 Waiting associated with shopping
+138,"99 Shopping, n.e.c."
+139,01 Comparison shopping
+140,"99 Researching purchases, n.e.c."
+141,01 Security procedures related to consumer purchases
+142,"99 Security procedures related to consumer purchases, n.e.c."
+143,"99 Consumer purchases, n.e.c."
+144,01 Using paid childcare services
+145,02 Waiting associated with purchasing childcare services
+146,"99 Using paid childcare services, n.e.c."
+147,01 Banking
+148,02 Using other financial services
+149,03 Waiting associated with banking/financial services
+150,"99 Using financial services and banking, n.e.c."
+151,01 Using legal services
+152,02 Waiting associated with legal services
+153,"99 Using legal services, n.e.c."
+154,01 Using health and care services outside the home
+155,02 Using in-home health and care services
+156,03 Waiting associated with medical services
+157,"99 Using medical services, n.e.c."
+158,01 Using personal care services
+159,02 Waiting associated with personal care services
+160,"99 Using personal care services, n.e.c."
+161,01 Activities related to purchasing/selling real estate
+162,02 Waiting associated with purchasing/selling real estate
+163,"99 Using real estate services, n.e.c."
+164,01 Using veterinary services
+165,02 Waiting associated with veterinary services
+166,"99 Using veterinary services, n.e.c."
+167,01 Security procedures related to professional/personal services
+168,"99 Security procedures related to professional/personal services, n.e.c."
+169,"99 Professional and personal services, n.e.c."
+170,01 Using interior cleaning services
+171,02 Using meal preparation services
+172,03 Using clothing repair and cleaning services
+173,04 Waiting associated with using HH services
+174,"99 Using HH services, n.e.c."
+175,"01 Using home maintenance, repair, decoration, and construction services"
+176,02 Waiting associated with home maintenance/repair/decoration/construction
+177,"99 Using home maintenance, repair, decoration, construction svcs, n.e.c."
+178,01 Using pet services
+179,02 Waiting associated with pet services
+180,"99 Using pet services, n.e.c."
+181,01 Using lawn and garden services
+182,02 Waiting associated with using lawn and garden services
+183,"99 Using lawn and garden services, n.e.c."
+184,01 Using vehicle maintenance or repair services
+185,02 Waiting associated with vehicle maintenance or repair services
+186,"99 Using vehicle maintenance and repair services, n.e.c."
+187,"99 Using HH services, n.e.c."
+188,01 Using police and fire services
+189,02 Using social services
+190,"03 Obtaining licenses and paying fines, fees, taxes"
+191,"99 Using government services, n.e.c."
+192,01 Civic obligations and participation
+193,"99 Civic obligations and participation, n.e.c."
+194,01 Waiting associated with using police/fire services
+195,02 Waiting associated with obtaining licenses
+196,03 Waiting associated with civic obligations and participation
+197,"99 Waiting associated with government services or civic obligations, n.e.c."
+198,01 Security procedures related to government services/civic obligations
+199,"99 Security procedures related to government services/civic obligations, n.e.c."
+200,"99 Government services, n.e.c."
+201,01 Eating and drinking
+202,"99 Eating and drinking, n.e.c."
+203,01 Waiting associated with eating and drinking at home
+204,02 Waiting assoc. w/eating and drinking at restaurant/bar/place of purchase
+205,03 Waiting associated with eating and drinking in transit
+206,04 Elsewhere (same as 110299)
+207,99 Elsewhere (same as 110204)
+208,"99 Eating and drinking, n.e.c."
+209,01 Socializing and communicating with others
+210,"99 Socializing and communicating, n.e.c."
+211,01 Attending or hosting parties/receptions/ceremonies
+212,02 Attending meetings for personal interest (not volunteering)
+213,"99 Attending/hosting social events, n.e.c."
+214,"01 Relaxing, thinking"
+215,02 Tobacco and drug use
+216,03 Television and movies (not religious)
+217,04 Television (religious)
+218,05 Listening to the radio
+219,06 Listening to/playing music (not radio)
+220,07 Playing games
+221,08 Computer use for leisure (except games)
+222,09 Arts and crafts as a hobby
+223,10 Collecting as a hobby
+224,"11 Hobbies, except arts and crafts and collecting"
+225,12 Reading for personal interest
+226,13 Writing for personal interest
+227,"99 Relaxing and leisure, n.e.c."
+228,01 Attending performing arts
+229,02 Attending museums
+230,03 Attending movies/film
+231,04 Attending gambling establishments
+232,05 Security procedures related to arts and entertainment
+233,"99 Arts and entertainment, n.e.c."
+234,01 Waiting associated with socializing and communicating
+235,02 Waiting associated with attending/hosting social events
+236,03 Waiting associated with relaxing/leisure
+237,04 Waiting associated with arts and entertainment
+238,"99 Waiting associated with socializing, n.e.c."
+239,"99 Socializing, relaxing, and leisure, n.e.c."
+240,01 Doing Aerobics
+241,02 Playing baseball
+242,03 Playing basketball
+243,04 Biking
+244,05 Playing billiards
+245,06 Boating
+246,07 Bowling
+247,"08 Climbing, spelunking, caving"
+248,09 Dancing
+249,10 Participating in equestrian sports
+250,11 Fencing
+251,12 Fishing
+252,13 Playing football
+253,14 Golfing
+254,15 Doing Gymnastics
+255,16 Hiking
+256,17 Playing hockey
+257,18 Hunting
+258,19 Participating in martial arts
+259,20 Playing racquet sports
+260,21 Participating in rodeo competitions
+261,22 Rollerblading
+262,23 Playing rugby
+263,24 Running
+264,"25 Skiing, ice skating, snowboarding"
+265,26 Playing soccer
+266,27 Softball
+267,28 Using cardiovascular equipment
+268,29 Vehicle touring/racing
+269,30 Playing volleyball
+270,31 Walking
+271,32 Participating in water sports
+272,33 Weightlifting/strength training
+273,"34 Working out, unspecified"
+274,35 Wrestling
+275,36 Doing yoga
+276,"99 Playing sports, n.e.c."
+277,01 Watching aerobics
+278,02 Watching baseball
+279,03 Watching basketball
+280,04 Watching biking
+281,05 Watching billiards
+282,06 Watching boating
+283,07 Watching bowling
+284,"08 Watching climbing, spelunking, caving"
+285,09 Watching dancing
+286,10 Watching equestrian sports
+287,11 Watching fencing
+288,12 Watching fishing
+289,13 Watching football
+290,14 Watching golfing
+291,15 Watching gymnastics
+292,16 Watching hockey
+293,17 Watching martial arts
+294,18 Watching racquet sports
+295,19 Watching rodeo competitions
+296,20 Watching rollerblading
+297,21 Watching rugby
+298,22 Watching running
+299,"23 Watching skiing, ice skating, snowboarding"
+300,24 Watching soccer
+301,25 Watching softball
+302,26 Watching vehicle touring/racing
+303,27 Watching volleyball
+304,28 Watching walking
+305,29 Watching water sports
+306,30 Watching weightlifting/strength training
+307,"31 Watching people working out, unspecified"
+308,32 Watching wrestling
+309,"99 Attending sporting events, n.e.c."
+310,01 Waiting related to playing sports or exercising
+311,02 Waiting related to attending sporting events
+312,"99 Waiting associated with sports, exercise, and recreation, n.e.c."
+313,01 Security related to playing sports or exercising
+314,02 Security related to attending sporting events
+315,"99 Security related to sports, exercise, and recreation, n.e.c."
+316,"99 Sports, exercise and recreation, n.e.c."
+317,01 Attending religious services
+318,02 Participation in religious practices
+319,03 Waiting associated with religious and spiritual activities
+320,04 Security procedures related to religious and spiritual activities
+321,"99 Religious and spiritual activities, n.e.c."
+322,01 Computer use
+323,02 Organizing and preparing
+324,03 Reading
+325,04 Telephone calls (except hotline counseling)
+326,05 Writing
+327,06 Fundraising
+328,"99 Administrative and support activities, n.e.c."
+329,"01 Food preparation, presentation, clean-up"
+330,02 Collecting and delivering clothing and other goods
+331,03 Providing care
+332,"04 Teaching, leading, counseling, mentoring"
+333,"99 Social Service and care activities, n.e.c."
+334,"01 Building houses, wildlife sites, and other structures"
+335,"02 Indoor and outdoor maintenance, repair, and clean-up"
+336,"99 Indoor & outdoor maintenance, building & clean-up activities, n.e.c."
+337,01 Performing
+338,02 Serving at volunteer events and cultural activities
+339,"99 Participating in performance and cultural activities, n.e.c."
+340,"01 Attending meetings, conferences, and training"
+341,"99 Attending meetings, conferences, and training, n.e.c."
+342,01 Public health activities
+343,02 Public safety activities
+344,"99 Public health and safety activities, n.e.c."
+345,"99 Volunteer activities, n.e.c."
+346,01 Telephone calls to/from family members
+347,"02 Telephone calls to/from friends, neighbors, or acquaintance"
+348,03 Telephone calls to/from education services providers
+349,04 Telephone calls to/from salespeople
+350,05 Telephone calls to/from professional or personal care services providers
+351,06 Telephone calls to/from HH services providers
+352,07 Telephone calls to/from paid child or adult care providers
+353,08 Telephone calls to/from government officials
+354,"99 Telephone Calls, n.e.c."

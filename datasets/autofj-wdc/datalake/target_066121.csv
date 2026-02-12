@@ -1,0 +1,101 @@
+id,title
+0,port dojo.lfx/animation to 0.9
+1,Currency Euro (EUR) format symbol is wrong
+2,Do not deliver _base directory with a build
+3,0.9: _byId in _base/lfx.js is removed by the dojo compressor.
+4,"dojo.number tests fail in Safari, Opera"
+5,"textboxes end up with some attribute values as ""undefined"""
+6,scripting modifications to textboxes result in incorrect id value
+7,Rename dijit.form.SpinnerBase to dijit.form._Spinner
+8,textbox ucFirst attribute doesn't follow dojo style
+9,port dojo.date to 0.9
+10,IntegerSpinner min=0 not working when initial value set to 0
+11,"xd loading: in some cases, the xd loader will call onload listeners before dj_load_init has run"
+12,xd loading: loading a local i18n bundle from inside a local module causes errors
+13,broken templateCssPath
+14,onkey event broken in 0.4.2 (due to change [7508])
+15,ComboBox doesn't allow access to inlined option values
+16,D.O.H. cannot be shared between components today.
+17,implement dojo.cookie
+18,Menu.js replace getElementsByClass code
+19,ProgressBar: remove server polling
+20,Editor2: focus issues on IE and FF
+21,Editor2: test failures for test_RichTextStyleSheets.html
+22,"extend ShrinkSafe to add "";"" after function definitions in order to get it to ""play nice"" with Dean Edwards' Packer"
+23,"0.9's build tools need to not put builds so far down the tree. Also, must copy in Djiit and Dojox"
+24,"Container.js: nextElement is not defined, _getSibling is not defined"
+25,DOH should be able to take multiple module names to run
+26,Inconsistent naming of dijit.util.Typematic?
+27,remove support for multiple date formats from parser
+28,port scriptsrcio to Core
+29,port AdpaterRegistry to core
+30,Building default module prefix paths if messed up
+31,make it possible to toggle sounds in DOH
+32,"with debugAtAllCosts: true, a json answer turns to true"
+33,Early GC of srcNodeRef in Widget creation
+34,Manager cleanup
+35,shrinksafe regression
+36,Implement preventCache for io calls
+37,Fix web builds to work with layered build changes
+38,"""grey"" is not a CSS standard color keyword -> change to ""gray"""
+39,While ruunning in IE6 getting this error --DEBUG: dojo.widget.Parse: error:[object Error]
+40,Editor Widget Fails in TabContainer
+41,[Widget]Combo Box does not render normally in IE 5
+42,infinite loop calling for getChildren in TreeRpcControllerV3.js
+43,can't use TreeV3 context menu on mozilla
+44,Another bug in TreeV3 DnD for 0.4.3
+45,"Multiple problems with Editor2 widget (Toolbar issue on Firefox, Rendering issue on IE)"
+46,IE fails on dojo.html.getBoxSizing() when node is IMG
+47,Editor 2 widget creation fails when attach node is followed by comments / whitespace
+48,fix some date/time textbox porting errors
+49,Dijit: create infrastructure
+50,fix broken local unit test
+51,M2: 09: Number tests 'parse' fails on IE 6
+52,expose sourceNode in dijit for templates.
+53,Editor: toolbar items for font and font-size
+54,Coding error with for loop n dojo.widget.RichText
+55,TitlePane: port to dijit
+56,"Textbox, ValidationTextBox, NumericTextBox, IntegerTextbox: port to dijit"
+57,ColorPalette: port/rewrite for dijit
+58,ProgressBar: port/refactor for dijit
+59,M2: 09 JsonItemStore has minor nits to fix.
+60,"Button, DropDownButton, Combobutton: port to Dijit"
+61,InlineEditBox: port/redesign for dijit
+62,Add pretty print option to dojo.toJson
+63,destroy widget code in dijit/base/Widget.js is broken
+64,Toaster.js and CheckBox.js should not use this.widgetId
+65,dijit textbox needs proper type
+66,Port dojo.data API and JsonItemStore to Dojo 0.9 M1 code split.
+67,M2: XHR support for sync mode on XHR objects is broken.
+68,M2: Enable XHR (URL loading) support in JsonItemStore with new dojo.xhrGet() API
+69,M2: Odd problems/interactions between xhr tests and JsonItemStore tests
+70,popup validation error messages as a tooltip
+71,Dijit: browser tag on
+72,M2: 0.9 xhrGet tests fail on IE 6 and IE 7.
+73,M2: 09 JsonItemStore needs correction in error handling case.
+74,[CLA] dojo.number.parse fails for negative numbers in IE
+75,D.O.H. incorrectly reports group success
+76,M2: 0.9Update docs in dojo/data/Read.js from 2007-04-25 meeting outcome
+77,IntegerSpinner: port to dijit
+78,Autocompletor: port/redesign for dijit
+79,Select: port/redesign for dijit
+80,TextArea: create textarea widget that sizes automatically
+81,Accordion: port to dijit
+82,Menu: port to dijit
+83,Toaster: port to dojox
+84,Tundra: TitlePane theme
+85,M2: 09: Create unit test runner HTML file and module.js loader files for dojo and dojox.
+86,M2: 09. Update doh runner.js to load dojo.tests.module by default (the updated loader for all UT in core dojo)
+87,M2: 09: Create unit test runner HTML file and module.js loader files for dojox.
+88,M2: 09: animateHeight dojo.fx Unit Test fails on IE 6
+89,"ensure that all Core HTML, CSS, and JS files have native EOL props set"
+90,M2: 0.9: Add in XmlStore example implementation in dojox
+91,broken unit test in IE: number.parse
+92,Dijit: factor out scrollIntoView()
+93,M2: 0.9 New odd behavior with D.O.H and IE
+94,"dojo.disconnect is not disconnecting ""onkeypress"" event listeners"
+95,M2: 09: Add in default behavior for undefined attribute comparisons getting sorted to bottom.
+96,M2: 0.9 Add in queryIgnoreCase option for Datastores
+97,Remove input type=reset from dijit form html tests/examples
+98,dojo.number.parse throws an exception on empty string
+99,09: M2: Add in new data binding layer to dojox (wire).

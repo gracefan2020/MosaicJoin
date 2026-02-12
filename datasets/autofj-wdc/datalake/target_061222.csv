@@ -1,0 +1,51 @@
+id,title
+0,Import using Feeds?
+1,CSV import data alter hook
+2,"""Invalid argument"" error when viewing a node with a zero-row table"
+3,Table resetting to 3 rows / 3 cols after publish.
+4,Editing/Deleting Table Data?
+5,Rows and cols of tablefield is restricted by the saved data of a field which conflicts with default values
+6,Default value are missing when using tablefield in an embedded form via #ajax
+7,Big tables can exceed PHP input variables limit
+8,Integrate with google charts and/or charts module?
+9,ApacheSolr not indexing nodes with tablefield
+10,Disable rebuilding the table (columns/rows) and importing (CSV) on node add/edit form on per-field basis
+11,set tablefield value programmatically
+12,CSV import is only working with UTF-8 encoded files
+13,Colspan feature
+14,Allow other modules to store arbitrary data in tablefield values.
+15,Input CSS !important Rule
+16,Render Tablefield properly in Global - No results in views
+17,How do use tablefield type in hook_form()?
+18,Copy paste option
+19,recognize the Classic Mac (CR) new line character?
+20,Help text/description placed above rather than under field
+21,problem with Conditional Fields
+22,Hide header
+23,import from views data or CSV path created by views_data_export
+24,Each field validation & auto complete field
+25,Responsive table support (es. Foo table)
+26,allow to translate just table headers
+27,Not showing tables when the user doesn't fill them in
+28,Empty table field should not output any code.
+29,Text Formats option is broken
+30,How to hide or disable the import CSV option?
+31,Invalid argument supplied for foreach()
+32,"""Undefined index tablefield"" prevent Migrate module from working"
+33,[Patch] Migrate support
+34,Create link in cell
+35,D8 port
+36,Support for row headers
+37,Allow ability to set table caption
+38,tfoot & caption tag support
+39,Multiple Field hook_field_load Issue
+40,Allow for better description of tables
+41,Sort option would be wonderful
+42,How to easily output a table field in a template
+43,Compatibilty problem with field collections
+44,Sortable rows
+45,Title for table
+46,Exposing Individual Cell Values to Views
+47,Support for header fields
+48,Migration of Tablemanager data
+49,Access tablefield cells

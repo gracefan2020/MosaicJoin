@@ -1,0 +1,65 @@
+id,title
+0,castToSpinner not available
+1,Think about resource management
+2,Broken links at Graphics.UI.Gtk.Abstract.Separator in Hackage
+3,cairo hidden dependency on gtk2hs-buildtools
+4,poppler-0.13 build fails
+5,widgetQueueDraw leaking memory on Windows
+6,gtk2hs on windows fails to run
+7,Assertion failed: (_cairo_status_is_error (status))
+8,gtksourceview2-0.12.3.1 broken with cabal because of duplicate code
+9,Ambiguous occurrence `moreRecentFile'
+10,gtk2hs-cast-gtk-0.10.1.2 broken with cabal Could not deduce (object ~ GObject)
+11,Failure to install: gtk2hsC2hs: Error in C header file.
+12,Add support for the Gtk AppChooserDialog
+13,include librsvg sub-element functions in svgcairo
+14,Order of the arguments of the Graphics.UI.Gtk.Windows.Window.windowSetDefaultSize is incorrect
+15,Documentation cut off in Graphics.UI.Gtk.Gdk.Keys
+16,gtk-0.12.0 fails to install on my setup
+17,gtk2hs-buildtools-0.12.5.2 doesn't build on GHC 7.8
+18,"configure.ac requires gtksourceview-2.0.2, code needs 2.2"
+19,Bad linking on MacOSX
+20,set mouse cursor
+21,"Build fails with ghc 7.0.3 from Haskell Platform, Mac OS Snow Leopard"
+22,Why not upload the newest code in darcs repos to hackage?
+23,script* events
+24,Can't load cario-0.11.1
+25,Hover signal segfault
+26,PackageDB type mismatch in build system
+27,Reinstate the getWindowTick facility for Graphics.SOE.Gtk module
+28,Cairo error when running program
+29,Windows/Gtk2hs : Can't load `gtk` package on GHCi
+30,missing symbols when gtk is built with Quartz backend
+31,"Any ""IO Pixbuf"" will cause memory leak."
+32,cabal install of gconf terminates with 'gconf-2.0 version >=2.0.0 is required'
+33,cellLayoutSetAttributes on a TreeModelSort leads to crashes
+34,gio error on windows: HSgio-0.12.0.o: unknown symbol `_g_app_inf o_get_display_name'
+35,Gtk accelerators not working when compiling with -threaded
+36,x86_64 problem
+37,gtk2hs-buildtools fails to build with alex 3.0.1
+38,TreeModelFilter crashes
+39,consoleMessage arguments problem
+40,malloc: pointer being freed was not allocated
+41,add Glade.xmlNewFromString
+42,Allow loading pictures from String/ByteString as well as from files
+43,gettext support
+44,Xinput Extension device
+45,Add g_object_notify binding
+46,No binding yet for gdk_window_create_similar_surface().
+47,"Add instance Ord GObject (Object, Widget, etc...)"
+48,webkit_get_default_session in the Haskell webkit bindings
+49,cairo with X11 without GTK
+50,drag-and-drop with IconViews doesn't work with empty destination store
+51,Filling a TreeView from a background thread
+52,"cairo demo in ghci throws ""unknown symbol"" error"
+53,"webkit-0.12.2 cannot built, misses System.Glib.GString"
+54,parse error in c2hs in gobject.i
+55,castToListStore not exported
+56,Button Printf Callback Fails
+57,Memory overwritten passing from GHC to GTK using textBufferSetText of the module Graphics.UI.Gtk.Multiline.TextBuffer
+58,Gstreamer Structures and Caps: parent_refcount == NULL
+59,Interaction between file monitoring and listStore (probably a memory bug)
+60,ListStore+TreeView leaks memory when destroyed
+61,segmentation fault when running webViewLoadUri in a multi-threaded program
+62,UTF8-Bytestring Pango interface.
+63,Expose necessary functions to set _NET_WM_STRUT_PARTIAL on a window

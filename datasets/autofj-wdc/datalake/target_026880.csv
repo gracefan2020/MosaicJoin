@@ -1,0 +1,101 @@
+id,title
+0,MzScheme not running on OS X 10.6.8+10.7/MBP Early 2011 (Sandy Bridge)
+1,"file not found error "".../collects/unstable/planet.rkt"""
+2,scribble warnings
+3,ryanc/db 1.3 reports warnings on installation
+4,test
+5,Probiotics Side Effects scoops
+6,scribble warnings
+7,Better error messages
+8,Does not load without errors
+9,unbound identifier in module
+10,spgsql erroneously believes that sockets are not supported on 64-bit Linux machines
+11,Type Predicate For Connection - Typed/Racket
+12,compile: unbound identifier error when using neil/sicp with DrRacket 5.1.
+13,Struct creation failure leaves orphan document in collection
+14,Development version of PLT complains of duplicate definition
+15,no sqlite3_prepare_v2
+16,Problem with sound
+17,possible race condition on static buffer in HMAC-SHA1
+18,Mistype
+19,Failed statements prevent me from closing database
+20,More consistent APIs
+21,clSetKernelArg: No function for seting arg of arbitrary non-pointer type
+22,require fails with errors
+23,Index for GeoSpatial Queries
+24,Index for GeoSpatial Queries (fixed report)
+25,Plane Issue
+26,Structural equality broken
+27,map not usable in untyped contexts
+28,Rename `list-length' to `length'
+29,#:limit values other than 1 return the whole collection in mongo-collection-find
+30,More examples!
+31,MzScheme display doesn't work when stdout is redirected
+32,tick-rate contract
+33,quickstart make-post fails
+34,struct should be a define-like keyword
+35,Incompatible with PLT 4.0
+36,in-ra-list and for/ra-list
+37,(choose n m) doesn't work for large numbers (runtime error)
+38,Error in make-hasheq
+39,"error ""make-hasheq: expects no arguments, given 1"""
+40,Towers of Hanoi example in docs have wrong number of disks in output
+41,test cases & contracts in define-type
+42,the mutator language changes the names of procedures
+43,contracts on field selectors use the wrong name
+44,case expands to a free reference to member in the mutator language
+45,"""__kernel square"" should be ""__kernel void square"" in test.ss"
+46,#f is passed to clGetPlatformInfo in test.ss
+47,define-type's error message adds extra parens
+48,"values created from define-type structs now print with ""make-"" prefix"
+49,collector language's test/exn doesn't work
+50,Windows platform
+51,plai gc-gui.ss: move frame show to after panel creation
+52,plai mutator: top-level printouts
+53,mutator internal error (doesn't like literal numbers?)
+54,mutator error message for empty program unclear
+55,testing notification emails
+56,plai signals unbound identifier for a field name
+57,plai:1:9 disallows murec define-types
+58,printign for expected values differs from printing for actual values
+59,define-type doesn't evalute the field contracts soon enough
+60,(string->number x 10) expects string but is getting #
+61,Pack of strings is incorrect.
+62,DLGolaCiJ
+63,Fails to compile
+64,Typo in 3.1.3 Contracts
+65,Scribble problems
+66,magic in XQueryPointer signature
+67,Scribbe error on build
+68,Scribble error on build
+69,Error in Correlation Function
+70,grammar: ParameterDeclaration missing production
+71,missing function
+72,Bug in gamma-inc implementation and documentation
+73,file position doesn't get updated correctly for string type
+74,Could not find any of (libcblas libgslcblas) under paths (/usr/lib)
+75,Support for working copy features
+76,wrong documented contract for check forms
+77,Some SQL column types aren't recognised when parsing result data
+78,contract for `open' does not match documentation
+79,Issue with docs tutorial with plt-scheme 4.2
+80,loading this package fails
+81,unable to install spgsql in 4.1.3 - required package not found
+82,"Not a ticket for this component, but the request enhancement for the web server"
+83,quantile-from-sorted-data misdocumented
+84,Necesito Package PLAI
+85,cardinality
+86,->BlockStatement called incorrect in #%try
+87,Error in require
+88,Documentation links have red underline
+89,Non numeric version
+90,list-ref doesn't work
+91,list-length would be nice and a sequence interface
+92,Contracts not working or documentation incorrect
+93,save all button
+94,drocaml does not seem to work fully with DrScheme 4.x
+95,Email address incorrect in documentation
+96,Incorrect rendering of case clauses
+97,doc build problem
+98,SchemeUnit doc linking
+99,"""require"" in docs seems out-of-date"

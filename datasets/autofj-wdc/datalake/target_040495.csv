@@ -1,0 +1,51 @@
+id,title
+0,Enabling XMLSiteMapEngines module give fatal error - xmlsitemap_engines\Form\XmlSitemapEnginesSettingsForm contains 1 abstract method
+1,renaming default sitemap name to protect content
+2,"Restrict access to search engines only, not the public"
+3,Maximum execution time of 240 seconds exceeded in exceeded in /var/www/public/includes/module.inc
+4,xmlsitemap doesn't work with nodes translated with entity translation (and title_field)
+5,Blank settings page
+6,After moving to anotehr directory stylesheets are loaded from the old one
+7,add support for automatically exporting node type variable to features
+8,change frequency option for nodes
+9,Fatal error when enabling the base XML SiteMap module
+10,"using rel=""alternate"" rather than multiple sitemaps by language context"
+11,"Having rel=""alternate"" URLs in sitemap under custom circumstances"
+12,XML Parsing Error: XML or text declaration not at start of entity
+13,Does not work with a base URL including an underscore
+14,Generating sitemap of entities doesn't work
+15,"""Error loading stylesheet"""
+16,Sitemap for multipal languages
+17,Sitemap menu links generated with xmlsitemap_menu sub module disabled
+18,Sitemap for a website on a subdomain
+19,Content shows 0 visible items
+20,Priority Setting is not working
+21,Create Multiple SiteMaps
+22,False alarms on Status report
+23,Child Menu Links Not Adding To XML Sitemap
+24,The directory public://xmlsitemap does not exist or is not writable
+25,frontpage link not added when working with domain_xmlsitemap
+26,Provide XML Sitemap fields to views
+27,Double content in XML sitemap
+28,Error on rebuild: Invalid parameter number
+29,Missing @group annotation in tests
+30,Redo EFQ in rebuild_batch_fetch
+31,Error saving settings in Beta10
+32,Allow administrators to set URI scheme
+33,Sitemap URIs are incorrect
+34,XML sitemap needs to bootstrap to DRUPAL_BOOTSTRAP_CONFIGURATION before using variable_get in hook_drush_command()
+35,XML sitemap ESLint errors
+36,nolink menu item should not be present in sitemap.xml
+37,Error 500 when enabling XMLsitemap module
+38,"Custom URL returns error ""is either invalid or it cannot be accessed by anonymous users."""
+39,Generalize to work with any Entity Type
+40,watchdog is now logging
+41,Add a submodule to integrate Panel pages
+42,Rebuild has error when Language enabled
+43,xmlsitemap_menu failing to properly create sitemaps for other languages.
+44,Use relative path for XSL File
+45,Use Protocol-less URL for XSL File
+46,Add ability to override changefreq
+47,"Got a ""Cannot send session cookie"" warning with xmlsitemap from search engine bots"
+48,Token and Rules integration
+49,PHP Memory GREATLY Exceeded on Drush Regenerate

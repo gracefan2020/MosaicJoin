@@ -1,0 +1,378 @@
+id,title
+0,Legislators
+1,Administrative Services Managers
+2,Purchasing Managers
+3,"Transportation, Storage, and Distribution Managers"
+4,Transportation Managers Green
+5,Storage and Distribution Managers
+6,Logistics Managers Bright Outlook
+7,Human Resources Managers
+8,"Education Administrators, All Other"
+9,Distance Learning Coordinators
+10,Fitness and Wellness Coordinators
+11,Gaming Managers
+12,Natural Sciences Managers
+13,Clinical Research Coordinators
+14,Water Resource Specialists
+15,Postmasters and Mail Superintendents
+16,Social and Community Service Managers
+17,Emergency Management Directors
+18,"Managers, All Other"
+19,Regulatory Affairs Managers
+20,Compliance Managers
+21,Investment Fund Managers
+22,Supply Chain Managers
+23,Security Managers
+24,Loss Prevention Managers
+25,Wind Energy Operations Managers
+26,Wind Energy Project Managers
+27,Brownfield Redevelopment Specialists and Site Managers
+28,"Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+29,"Claims Adjusters, Examiners, and Investigators"
+30,"Claims Examiners, Property and Casualty Insurance"
+31,"Insurance Adjusters, Examiners, and Investigators"
+32,Compliance Officers
+33,Environmental Compliance Inspectors
+34,Licensing Examiners and Inspectors
+35,Equal Opportunity Representatives and Officers
+36,Government Property Inspectors and Investigators
+37,Coroners
+38,Regulatory Affairs Specialists
+39,Human Resources Specialists
+40,Logisticians
+41,Logistics Engineers
+42,Logistics Analysts
+43,Management Analysts
+44,"Compensation, Benefits, and Job Analysis Specialists"
+45,"Business Operations Specialists, All Other"
+46,Energy Auditors
+47,Security Management Specialists
+48,Customs Brokers
+49,Business Continuity Planners
+50,Sustainability Specialists
+51,Online Merchants
+52,Appraisers and Assessors of Real Estate
+53,Assessors
+54,"Appraisers, Real Estate"
+55,Budget Analysts
+56,Financial Examiners
+57,"Tax Examiners and Collectors, and Revenue Agents"
+58,"Financial Specialists, All Other"
+59,Financial Quantitative Analysts
+60,Risk Management Specialists
+61,Investment Underwriters
+62,"Fraud Examiners, Investigators and Analysts"
+63,Computer and Information Research Scientists
+64,"Computer Occupations, All Other"
+65,Software Quality Assurance Engineers and Testers
+66,Computer Systems Engineers/Architects
+67,Web Administrators
+68,Geospatial Information Scientists and Technologists
+69,Geographic Information Systems Technicians
+70,Database Architects
+71,Data Warehousing Specialists
+72,Business Intelligence Analysts
+73,Information Technology Project Managers
+74,Search Marketing Strategists
+75,Video Game Designers
+76,Document Management Specialists
+77,Mathematicians
+78,Operations Research Analysts
+79,Statisticians
+80,Biostatisticians
+81,Clinical Data Managers
+82,Mathematical Technicians
+83,"Mathematical Science Occupations, All Other"
+84,Cartographers and Photogrammetrists
+85,Surveyors
+86,Geodetic Surveyors
+87,Aerospace Engineers
+88,Agricultural Engineers
+89,Civil Engineers
+90,Transportation Engineers
+91,"Electronics Engineers, Except Computer"
+92,Radio Frequency Identification Device Specialists
+93,Environmental Engineers
+94,Water/Wastewater Engineers
+95,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+96,Industrial Safety and Health Engineers
+97,Fire-Prevention and Protection Engineers
+98,Product Safety Engineers
+99,Marine Engineers and Naval Architects
+100,Marine Engineers
+101,Marine Architects
+102,Nuclear Engineers
+103,"Engineers, All Other"
+104,Biochemical Engineers
+105,Validation Engineers
+106,Energy Engineers
+107,Manufacturing Engineers
+108,Mechatronics Engineers
+109,Microsystems Engineers
+110,Photonics Engineers
+111,Robotics Engineers
+112,Nanosystems Engineers
+113,Wind Energy Engineers
+114,Solar Energy Systems Engineers
+115,Civil Engineering Technicians
+116,Electrical and Electronic Engineering Technicians
+117,Electronics Engineering Technicians
+118,Electrical Engineering Technicians
+119,Environmental Engineering Technicians
+120,"Engineering Technicians, Except Drafters, All Other"
+121,Non-Destructive Testing Specialists
+122,Electrical Engineering Technologists
+123,Electromechanical Engineering Technologists
+124,Electronics Engineering Technologists
+125,Industrial Engineering Technologists
+126,Manufacturing Engineering Technologists
+127,Mechanical Engineering Technologists
+128,Photonics Technicians
+129,Manufacturing Production Technicians
+130,Fuel Cell Technicians
+131,Nanotechnology Engineering Technologists
+132,Nanotechnology Engineering Technicians
+133,Surveying and Mapping Technicians
+134,Surveying Technicians
+135,Mapping Technicians
+136,Soil and Plant Scientists
+137,Microbiologists
+138,Zoologists and Wildlife Biologists
+139,"Biological Scientists, All Other"
+140,Bioinformatics Scientists
+141,Molecular and Cellular Biologists
+142,Geneticists
+143,Conservation Scientists
+144,Soil and Water Conservationists
+145,Range Managers
+146,Park Naturalists
+147,Foresters
+148,Epidemiologists
+149,"Life Scientists, All Other"
+150,Astronomers
+151,Physicists
+152,Atmospheric and Space Scientists
+153,Chemists
+154,"Environmental Scientists and Specialists, Including Health"
+155,Climate Change Analysts
+156,Environmental Restoration Planners
+157,Industrial Ecologists
+158,"Geoscientists, Except Hydrologists and Geographers"
+159,Hydrologists
+160,"Physical Scientists, All Other"
+161,Remote Sensing Scientists and Technologists
+162,Economists
+163,Environmental Economists
+164,Industrial-Organizational Psychologists
+165,"Psychologists, All Other"
+166,Neuropsychologists and Clinical Neuropsychologists
+167,Sociologists
+168,Urban and Regional Planners
+169,Anthropologists and Archeologists
+170,Anthropologists
+171,Archeologists
+172,Geographers
+173,Historians
+174,Political Scientists
+175,"Social Scientists and Related Workers, All Other"
+176,Transportation Planners
+177,Biological Technicians
+178,"Environmental Science and Protection Technicians, Including Health"
+179,Forensic Science Technicians
+180,Forest and Conservation Technicians
+181,"Life, Physical, and Social Science Technicians, All Other"
+182,Quality Control Analysts
+183,Precision Agriculture Technicians
+184,Remote Sensing Technicians
+185,Substance Abuse and Behavioral Disorder Counselors
+186,Marriage and Family Therapists
+187,Rehabilitation Counselors
+188,"Counselors, All Other"
+189,"Child, Family, and School Social Workers"
+190,Healthcare Social Workers
+191,Mental Health and Substance Abuse Social Workers
+192,"Social Workers, All Other"
+193,Health Educators
+194,Probation Officers and Correctional Treatment Specialists
+195,Social and Human Service Assistants
+196,Community Health Workers
+197,"Community and Social Service Specialists, All Other"
+198,Lawyers
+199,Judicial Law Clerks
+200,"Administrative Law Judges, Adjudicators, and Hearing Officers"
+201,"Arbitrators, Mediators, and Conciliators"
+202,"Judges, Magistrate Judges, and Magistrates"
+203,Paralegals and Legal Assistants
+204,Court Reporters
+205,"Legal Support Workers, All Other"
+206,Archivists
+207,Curators
+208,Museum Technicians and Conservators
+209,Librarians
+210,Library Technicians
+211,Farm and Home Management Advisors
+212,"Education, Training, and Library Workers, All Other"
+213,"Artists and Related Workers, All Other"
+214,"Umpires, Referees, and Other Sports Officials"
+215,Radio Operators
+216,"Media and Communication Equipment Workers, All Other"
+217,"Dentists, All Other Specialists"
+218,Dietitians and Nutritionists
+219,Psychiatrists
+220,"Physicians and Surgeons, All Other"
+221,Allergists and Immunologists
+222,Dermatologists
+223,Hospitalists
+224,Neurologists
+225,Nuclear Medicine Physicians
+226,Ophthalmologists
+227,Pathologists
+228,Physical Medicine and Rehabilitation Physicians
+229,Preventive Medicine Physicians
+230,Radiologists
+231,Sports Medicine Physicians
+232,Urologists
+233,Recreational Therapists
+234,Art Therapists
+235,Music Therapists
+236,"Health Diagnosing and Treating Practitioners, All Other"
+237,Acupuncturists
+238,Naturopathic Physicians
+239,Orthoptists
+240,Emergency Medical Technicians and Paramedics
+241,Dietetic Technicians
+242,Psychiatric Technicians
+243,Occupational Health and Safety Specialists
+244,Occupational Health and Safety Technicians
+245,"Healthcare Practitioners and Technical Workers, All Other"
+246,Midwives
+247,Psychiatric Aides
+248,"Healthcare Support Workers, All Other"
+249,Speech-Language Pathology Assistants
+250,Endoscopy Technicians
+251,First-Line Supervisors of Correctional Officers
+252,First-Line Supervisors of Police and Detectives
+253,First-Line Supervisors of Fire Fighting and Prevention Workers
+254,Municipal Fire Fighting and Prevention Supervisors
+255,Forest Fire Fighting and Prevention Supervisors
+256,"First-Line Supervisors of Protective Service Workers, All Other"
+257,Firefighters
+258,Municipal Firefighters
+259,Forest Firefighters
+260,Fire Inspectors and Investigators
+261,Fire Inspectors
+262,Fire Investigators
+263,Forest Fire Inspectors and Prevention Specialists
+264,Bailiffs
+265,Correctional Officers and Jailers
+266,Detectives and Criminal Investigators
+267,Police Detectives
+268,Police Identification and Records Officers
+269,Criminal Investigators and Special Agents
+270,Immigration and Customs Inspectors
+271,Intelligence Analysts
+272,Fish and Game Wardens
+273,Parking Enforcement Workers
+274,Police and Sheriff's Patrol Officers
+275,Police Patrol Officers
+276,Sheriffs and Deputy Sheriffs
+277,Transit and Railroad Police
+278,Animal Control Workers
+279,Gaming Surveillance Officers and Gaming Investigators
+280,Crossing Guards
+281,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
+282,Transportation Security Screeners
+283,"Protective Service Workers, All Other"
+284,Retail Loss Prevention Specialists
+285,"Pesticide Handlers, Sprayers, and Applicators, Vegetation"
+286,"Grounds Maintenance Workers, All Other"
+287,Gaming Supervisors
+288,Slot Supervisors
+289,Gaming Dealers
+290,Gaming and Sports Book Writers and Runners
+291,"Gaming Service Workers, All Other"
+292,Amusement and Recreation Attendants
+293,"Entertainment Attendants and Related Workers, All Other"
+294,Recreation Workers
+295,"Personal Care and Service Workers, All Other"
+296,Gaming Change Persons and Booth Cashiers
+297,"Communications Equipment Operators, All Other"
+298,Gaming Cage Workers
+299,Procurement Clerks
+300,Correspondence Clerks
+301,"Court, Municipal, and License Clerks"
+302,Court Clerks
+303,Municipal Clerks
+304,License Clerks
+305,"Eligibility Interviewers, Government Programs"
+306,File Clerks
+307,"Library Assistants, Clerical"
+308,"Human Resources Assistants, Except Payroll and Timekeeping"
+309,"Information and Record Clerks, All Other"
+310,"Police, Fire, and Ambulance Dispatchers"
+311,"Meter Readers, Utilities"
+312,Postal Service Clerks
+313,Postal Service Mail Carriers
+314,"Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+315,Executive Secretaries and Executive Administrative Assistants
+316,Computer Operators
+317,Word Processors and Typists
+318,Statistical Assistants
+319,Bioinformatics Technicians
+320,"Office and Administrative Support Workers, All Other"
+321,Agricultural Inspectors
+322,Forest and Conservation Workers
+323,"Paving, Surfacing, and Tamping Equipment Operators"
+324,Operating Engineers and Other Construction Equipment Operators
+325,Pipelayers
+326,Construction and Building Inspectors
+327,Highway Maintenance Workers
+328,Septic Tank Servicers and Sewer Pipe Cleaners
+329,"Construction and Related Workers, All Other"
+330,Solar Thermal Installers and Technicians
+331,Weatherization Installers and Technicians
+332,"Explosives Workers, Ordnance Handling Experts, and Blasters"
+333,"First-Line Supervisors of Mechanics, Installers, and Repairers"
+334,Avionics Technicians
+335,"Electrical and Electronics Installers and Repairers, Transportation Equipment"
+336,"Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+337,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
+338,Aircraft Mechanics and Service Technicians
+339,Bus and Truck Mechanics and Diesel Engine Specialists
+340,"Mobile Heavy Equipment Mechanics, Except Engines"
+341,"Control and Valve Installers and Repairers, Except Mechanical Door"
+342,Electrical Power-Line Installers and Repairers
+343,"Precision Instrument and Equipment Repairers, All Other"
+344,"Maintenance and Repair Workers, General"
+345,Riggers
+346,Signal and Track Switch Repairers
+347,"Installation, Maintenance, and Repair Workers, All Other"
+348,Geothermal Technicians
+349,Power Distributors and Dispatchers
+350,Power Plant Operators
+351,Stationary Engineers and Boiler Operators
+352,Water and Wastewater Treatment Plant and System Operators
+353,"Plant and System Operators, All Other"
+354,Biofuels Processing Technicians
+355,Methane/Landfill Gas Generation System Technicians
+356,Biomass Plant Technicians
+357,Hydroelectric Plant Technicians
+358,First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators
+359,Air Traffic Controllers
+360,Airfield Operations Specialists
+361,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+362,"Bus Drivers, Transit and Intercity"
+363,"Bus Drivers, School or Special Client"
+364,"Motor Vehicle Operators, All Other"
+365,Subway and Streetcar Operators
+366,"Rail Transportation Workers, All Other"
+367,Sailors and Marine Oilers
+368,Motorboat Operators
+369,Ship Engineers
+370,Bridge and Lock Tenders
+371,Traffic Technicians
+372,Transportation Inspectors
+373,Aviation Inspectors
+374,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation"
+375,Freight and Cargo Inspectors
+376,Refuse and Recyclable Material Collectors

@@ -1,0 +1,55 @@
+id,title
+0,restricted character set support via digraphs and (originally specified in AMD1)
+1,wide character library support in and (originally specified in AMD1)
+2,more precise aliasing rules via effective type
+3,restricted pointers
+4,variable length arrays
+5,flexible array members
+6,static and type qualifiers in parameter array declarators
+7,complex (and imaginary) support in
+8,type-generic math macros in
+9,the long long int type and library functions
+10,increased minimum translation limits
+11,additional floating-point characteristics in
+12,remove implicit int
+13,reliable integer division
+14,universal character names (\u and \U)
+15,extended identifiers
+16,hexadecimal floating-point constants and %a and %A printf/scanf conversion specifiers
+17,compound literals
+18,designated initializers
+19,// comments
+20,extended integer types and library functions in and
+21,remove implicit function declaration
+22,preprocessor arithmetic done in intmax_t/uintmax_t
+23,mixed declarations and code
+24,new block scopes for selection and iteration statements
+25,integer constant type rules
+26,integer promotion rules
+27,macros with a variable number of arguments
+28,the vscanf family of functions in and
+29,additional math library functions in
+30,treatment of error conditions by math library functions (math_errhandling)
+31,floating-point environment access in
+32,IEC 60559 (also known as IEC 559 or IEEE arithmetic) support
+33,trailing comma allowed in enum declaration
+34,%lf conversion specifier allowed in printf
+35,inline functions
+36,the snprintf family of functions in
+37,boolean type in
+38,idempotent type qualifiers
+39,empty macro arguments
+40,new structure type compatibility rules (tag compatibility)
+41,additional predefined macro names
+42,_Pragma preprocessing operator
+43,standard pragmas
+44,__func__ predefined identifier
+45,va_copy macro
+46,additional strftime conversion specifiers
+47,LIA compatibility annex
+48,deprecate ungetc at the beginning of a binary file
+49,remove deprecation of aliased array parameters
+50,conversion of array to pointer not limited to lvalues
+51,relaxed constraints on aggregate and union initialization
+52,relaxed restrictions on portable header names
+53,return without expression not permitted in function that returns a value (and vice versa)

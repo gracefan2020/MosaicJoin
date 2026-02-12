@@ -1,0 +1,75 @@
+id,title
+0,256 Color Terminals
+1,Active Directory
+2,Agent Free Management
+3,Avahi by Default on the Desktop
+4,CIM Management
+5,Clojure
+6,Display Manager Infrastructure Rework
+7,DNF and Hawkey
+8,D Programming
+9,DragonEgg
+10,Dwarf Compressor
+11,Eucalyptus
+12,Boost 1.50
+13,FedFS
+14,firewalld - default firewall solution
+15,Fontconfig 2.10
+16,GHC 7.4
+17,GNOME 3.6
+18,GNOME IBus Integration
+19,GSS Proxy
+20,Heat
+21,ibus-libpinyin
+22,Ibus-Typing-Booster
+23,Initial Experience
+24,IPA v3 Trusts
+25,IPython 0.13
+26,KDE Plasma Workspaces 4.9
+27,KRB5 Credential Cache Move
+28,KRB5 DIR: Credential Caches
+29,Liberation Fonts 2
+30,LLVM support on 64-bit POWER systems
+31,LTTng 2.0
+32,MATE Desktop
+33,MiniDebugInfo
+34,NetworkManager Hotspots
+35,New Installer UI
+36,NFSometer
+37,Offline Updates using systemd and PackageKit
+38,OpenShift Origin
+39,OpenStack Folsom
+40,oVirt engine 3.1
+41,ownCloud
+42,Package Service Presets
+43,PCRE 8.30
+44,Perl 5.16
+45,PowerPC ppc64p7 subarch support
+46,procps-ng
+47,Python 3.3
+48,QXL/Spice KMS Driver
+49,Rework Package Groups
+50,rngd default-on
+51,RPM 4.10
+52,Rails 3.2
+53,Riak
+54,Samba 4
+55,Secure Boot
+56,Secure Containers
+57,SELinux Rename Booleans
+58,SELinux Systemd Access Control
+59,Server KMS Drivers
+60,Simplified crash reporting via ABRT Server
+61,Storage Management
+62,Sugar 0.98
+63,Syscall Filters
+64,System Storage Manager
+65,Systemtap 2
+66,SysV to Systemd
+67,Team Driver
+68,/tmp on tmpfs
+69,Virt Guest Suspend/Hibernate support
+70,Virt Live Snapshots
+71,Usermode Migration
+72,VNCServer support for LLVMpipe/Mesa on 64-bit IBM Power Systems
+73,Xfce 4.10

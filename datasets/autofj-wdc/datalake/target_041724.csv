@@ -1,0 +1,49 @@
+id,title
+0,Line 2
+1,[[!toc levels=2]]
+2,**Project owner: [Julio Merino](mailto:jmmv@NetBSD.org).**
+3,**Status: under review by tech-userlevel@ as of 2013-02-01.**
+4,The import of Kyua into NetBSD to replace the deprecated ATF tools is
+5,"planned to happen in NetBSD 7.0. The ATF libraries will remain in place,"
+6,Line 152 the review:
+7,* [Issue 40](http://code.google.com/p/kyua/issues/detail?id=40): Provide
+8,manpages instead of an info document. **DONE**
+9,* [Issue 47](http://code.google.com/p/kyua/issues/detail?id=47): Implement
+10,"independent testers, which reduces the amount of C++ code and avoids the"
+11,need of modifying `bsd.dep.mk`. **DONE**
+12,## Import Kyua into src
+13,"As the [[introductory page to Kyua|/kyua]] describes, Kyua has been"
+14,Line 177 The specific steps to perform this impor
+15,"Kyua, and was split into its own package per the request of some users"
+16,that found this component useful on its own.
+17,1. Import the Kyua testers into `external/bsd/kyua-testers/`. This yields two
+18,new binaries in `/usr/libexec` (`kyua-atf-tester` and
+19,`kyua-plain-tester`) and a bunch of tests in `/usr/tests/kyua-testers`.
+20,1. Import the Kyua frontend into `external/bsd/kyua-cli/`. This yields a
+21,"new kyua binary in `/usr/bin`, a lot of test programs in"
+22,`/usr/tests/kyua-cli` (around 100) and some auxiliary files in
+23,`/usr/share/kyua`.
+24,1. Protect all products of Lutok and Kyua with a new `MKKYUA` knob. **Set
+25,"`MKKYUA=no` by default.** Once the ATF tools are removed, the existence"
+26,Line 206 NetBSD/macppc builds (which are the port
+27,consider that some other tricky architecture should be build-tested
+28,"(sparc64?), let me know and I'll include it in the list."
+29,The submission to CVS will be prepared locally and performed on a package
+30,"basis (i.e. `lutok`, `kyua-testers` and `kyua-cli`, in this order). These"
+31,are to be imported separately to simplify the review of the changes and to
+32,allow me to better test every individual change locally. There may be an
+33,arbitrary amount of time between the submission of each package: this
+34,should not be a problem because these modules are still disabled due to
+35,`MKKYUA` being set to `no` by default.
+36,## Adjust continuous testing systems to use Kyua
+37,"Line 361 use, or will soon use, C++ in their code"
+38,"be able to remove all C++ support from base anytime soon due to this, while"
+39,at the same time keeping support for all the ports that NetBSD has.
+40,Thanks to the
+41,"[testers project](http://code.google.com/p/kyua/wiki/TestersDesign), and"
+42,"starting with Kyua 0.6, a lot of the tricky OS-specific code in Kyua has"
+43,been rewritten in plain C. This paves the way to rewriting parts of the
+44,"now-simpler frontend in C or Lua, if the use of C++ proves to be a serious"
+45,problem in the future.
+46,"In the short term, the replacement of ATF with Kyua does not make things"
+47,worse: this project just changes one chunk of code with another.

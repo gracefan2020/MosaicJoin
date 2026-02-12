@@ -1,0 +1,51 @@
+id,title
+0,Content migrate fails without helpful error when upgrading from D6
+1,Embedded Video Field is not in 7.x-1.0-alpha2 download
+2,Heavy performance problem
+3,Video does not display and field is empty after save.
+4,Demonstration not found
+5,PHP Notices in in theme_emvideo_modal_generic
+6,Value not saved when used in a CCK Multigroup
+7,Flickr API requires SSL
+8,Add context for error message.
+9,Create upgrade path from Embedded Media Field (6.x) to Media module (7.x)
+10,Move Emfied on D6 to Media on D7 using migrate
+11,Add Vine support
+12,Dailymotion thumbnails stopped working
+13,PHP Notices in voicethread provider
+14,Embedded Media Thumbnail for DRUPAL 7
+15,"Error on upgrade: ""undefined function content_types_install"""
+16,Embedded videos not working with Colorbox - path does not load in tag
+17,Default settings may not work always
+18,Drupal 7 + Youtube + Views + Lightbox2
+19,Support for Prezi.com
+20,Can I upgrade directly from 6.x-1.17 to 6.x-2.6?
+21,Formatters not showing in Views when using fields
+22,contrib folder missing
+23,Dailymotion stops working
+24,URL detection regex does not match hyphens / breaks HTML markup
+25,Video fields display on node when empty.
+26,Undefined index: fid in emfield_widget_value() (line 105
+27,Embedded Video Field not Working with YouTube videos in Internet Explorer
+28,Video title field Broken handler
+29,Custom alt and title tags are not removed when saved.
+30,Blank ALT and TITLE attributes on Custom Image Thumbnail
+31,Error on installing: array_merge() [function.array-merge]: Argument #2 is not an array
+32,Post settings like Media module
+33,Serialized data is corrupted on a double node save
+34,Colorbox display not working
+35,JUST audio?
+36,Can't edit node (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fm.status')
+37,Superior than TinyMCE's media plugin?
+38,Documendation for upgrating from D6+emfield to D7+media
+39,emfield does not work well after updating from drupal 5 to 6
+40,Create documentation on using D7 Embedded Media Field
+41,YouTube changing embed code to an iFrame format.
+42,"Create a node with video emfield, programmatically"
+43,You have specified an invalid media URL or embed code.
+44,Custom video thumbnails lost after node_save
+45,Content migrate fails when YouTube video not valid
+46,instructions for getting colorbox + emvideo working
+47,vimeo file_get_contents error: file access disabled on server
+48,User-provided path to JW FLV Media Player being overridden by _emfield_autodiscover_path()
+49,JW Media Player path always reset to blank

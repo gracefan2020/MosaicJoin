@@ -1,0 +1,54 @@
+id,title
+0,/* -*-c++-*- OpenSceneGraph - Copyright (C) 1998-2006 Robert Osfield
+1,*
+2,* This library is open source and may be redistributed and/or modified under
+3,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+4,* This library is open source and may be redistributed and/or modified under
+5,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+6,* (at your option) any later version. The full license is in LICENSE file
+7,"* included with this distribution, and on the openscenegraph.org website."
+8,*
+9,*
+10,"* This library is distributed in the hope that it will be useful,"
+11,* but WITHOUT ANY WARRANTY; without even the implied warranty of
+12,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+13,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+14,* OpenSceneGraph Public License for more details.
+15,*/
+16,{
+17,/** ConnectConnectedParticleSystem is a specialise ConnectedParticleSystem for effects
+18,/** ConnectConnectedParticleSystem is a specialise ConnectedParticleSystem for effects
+19,"* like missle trails, where the individual particles are rendered as"
+20,* single ribbon.
+21,* single ribbon.
+22,*/
+23,class OSGPARTICLE_EXPORT ConnectedParticleSystem: public osgParticle::ParticleSystem
+24,{
+25,public:
+26,ConnectedParticleSystem();
+27,"ConnectedParticleSystem(const ConnectedParticleSystem& copy, const osg::CopyOp& copyop = osg::CopyOp::SHALLOW_COPY);"
+28,"META_Object(osgParticle, ConnectedParticleSystem);"
+29,/// Create a new particle from the specified template (or the default one if ptemplate is null).
+30,virtual Particle* createParticle(const Particle* ptemplate);
+31,/// Reuse the i-th particle.
+32,virtual void reuseParticle(int i);
+33,"/// Draw the connected particles as either a line or a quad strip, depending upon viewing distance. ."
+34,virtual void drawImplementation(osg::RenderInfo& renderInfo) const;
+35,///Get the (const) particle from where the line or quadstrip starts to be drawn
+36,const osgParticle::Particle* getStartParticle() const
+37,return (_startParticle != Particle::INVALID_INDEX) ? &_particles[_startParticle] : 0;
+38,}
+39,///Get the particle from where the line or quadstrip starts to be drawn
+40,osgParticle::Particle* getStartParticle()
+41,return (_startParticle != Particle::INVALID_INDEX) ? &_particles[_startParticle] : 0;
+42,}
+43,///Set the maximum numbers of particles to be skipped during the predraw filtering
+44,void setMaxNumberOfParticlesToSkip(unsigned int maxNumberofParticlesToSkip){_maxNumberOfParticlesToSkip = maxNumberofParticlesToSkip;}
+45,///Get the maximum numbers of particles to be skipped during the predraw filtering
+46,unsigned int getMaxNumberOfParticlesToSkip(){ return _maxNumberOfParticlesToSkip;}
+47,protected:
+48,ConnectedParticleSystem& operator=(const ConnectedParticleSystem&) { return *this; }
+49,int _lastParticleCreated;
+50,unsigned int _maxNumberOfParticlesToSkip;
+51,int _startParticle;
+52,};

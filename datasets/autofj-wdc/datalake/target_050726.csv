@@ -1,0 +1,81 @@
+id,title
+0,Uploading Image to MediaWiki
+1,Existing image links are smashed when saving
+2,Html entity problem
+3,Configure DefaultFontLabel does not change default used font
+4,error in page FCKdialog is undefined
+5,Can not save edits
+6,Multiple Editors not fireing onload event.
+7,Javascript loading errors when loading FCK in Firefox
+8,Spacing issues
+9,Editor content is corrapted after pressing del in the end of paragraph (FireFox)
+10,IE: browser throws an error when FCKeditor is placed in a popup window
+11,Error with convert tag nbsp while POSTing content
+12,javascript in deleted form header
+13,Creating a list from selection in gecko fails if starting from a blank page
+14,"Editor - Anchor,Page Break,HR,INPUT:hidden and Flash - java script error"
+15,FCK grabs initial focus in IE
+16,Punctuation Placement Issue with Right-to-Left Language Input
+17,Revision comparison bug (HTML passing into comparison rather than WikiText)
+18,Nested formatting goes wrong
+19,wiki sites freeze in firefox 3.0
+20,"Cut, copy and paste buttons are not working"
+21,Formatting not applied
+22,"AutoDetectLanguage, not using ""first available language"""
+23,FCKeditor 2.6.2 - problem with loading on opera 9.50
+24,"Access denied in IE7 and Wordpress 2.5.1, FCKEditor 2.4.1 WP plugin"
+25,"Tag object: Switching to wysiwyg mode changes param ""movie"" to ""about:blank"""
+26,"creating link with the string ""gif"" in it creates bad url"
+27,Image Property Dialog Not Displaying Correctly
+28,NaN when using or
+29,Wrong processing of the link browsed from server
+30,List is broken when pressing enter in empty sublist item
+31,Two paragraph elements added on a single Enter keystroke
+32,using in FCKeditor - does not handle anything after
+33,destroyed template tag when using mediawiki fckeditor extension with Firefox 1.5.0.4
+34,OnSelectionChange / isDirty not handled correctly on FF when not focus set
+35,Incorrect class definition (double quotes)
+36,Don't convert newline characters into inside ...
+37,Page Break in the middle of paragraph closes opening 'p' tag before and adds to ending 'p' tag when toggling to source
+38,'OK' button in table dialog disappears
+39,Browse server button not working in when we upload the image
+40,EditorAreaCSS IE8
+41,Access denied when using GetHtml - IE
+42,no automatic search results - MediaWiki + FCKeditor
+43,JavaScript : Sample 02 : Replacement of a TEXTAREA
+44,plugin:flash 'id' attribute failed to apply in IE
+45,plugin:showblock missing tagname icon
+46,V3 : Show blocks bug
+47,Block styles incorrect with list
+48,In IE: CKEditor - Editor Area content is not word wrapped
+49,Unknown script code appears in the editor
+50,[IE] Indent problem with
+51,Anchor image not visible in Safari on empty paragraph
+52,'Deleted Text' Style within list item problem
+53,2.6.4 version Focus Problem
+54,JavaScript error on tab and shift-tab in IE with tabindex
+55,Styles are not being applied to multiple selections
+56,Create a line break in the Message Body when creating an E-Mail Link Type
+57,Error pressing enter after selectAll
+58,Style names does not appear in CKEditor
+59,Wrong display the font names
+60,Wrong display the style names
+61,FCKeditor 2.6.4 save didn't work with Chrome 3.0
+62,IE: Template throws error
+63,QuickUpload doesn't work
+64,[IE] The first opened panel doesn't hide
+65,[FF3] dialogs sometimes doesn't show
+66,Editor Source Mode Removed Head Tag
+67,stylesheets for WSC plugin are broken
+68,"Firefox WinXP 3.5.1: Seeing ""Your browser is not compatible with CKEditor"" error"
+69,CKEditor UI not visible in IE7 when the cache is empty and placed in table-layout:fixed
+70,"IE6/IE7 problem - ""Browse server"" not working"
+71,Protected tag not rendered right with insertElement
+72,IE - selection is not visible when context menu is opened
+73,msie and safari problems
+74,"having a submit button with name=""submit"" in the same form causes error IE7"
+75,Cannot remove format from selected text when SCAYT is enabled
+76,Cannot remove border on Image - when link is attached
+77,JAWS reads dialog fields incorrectly
+78,CKEDITOR_BASEPATH has no affect on CKEDITOR.basePath
+79,Flash checkbox options on properties tab are not read by JAWS

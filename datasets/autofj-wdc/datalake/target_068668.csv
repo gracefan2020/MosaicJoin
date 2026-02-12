@@ -1,0 +1,88 @@
+id,title
+0,Wizards and customizable workflows
+1,Command line processing
+2,Free data viewer
+3,Combine DB search results
+4,Mascot results integration
+5,SEQUEST results integration
+6,Proteome Discover results integration
+7,Protein Pilot results integration
+8,X!Tandem results integration
+9,PepXML results integration
+10,Combined enzyme rule support
+11,MudPit workflows
+12,GeLC workflows
+13,Peptide FDR-concatenated DB
+14,Protein FDR-concatenated DB
+15,Peptide FDR-separate target/decoy DB
+16,Protein FDR-separate target/decoy DB
+17,Peptide probability
+18,Protein probability
+19,Protein parsimony analysis
+20,60 filters
+21,17 interactive Plots
+22,Peptidomic centric view
+23,Proteomic centric view
+24,Sequence verification view
+25,MS/MS spectral views
+26,Create multiple protein sets
+27,Extract proteins/peptides from list
+28,Difference Function
+29,Intersection Function
+30,Union Function
+31,Search for neutral losses
+32,Query for peptides by PTM
+33,Extract PTM containing peptides
+34,GO Terms
+35,KEGG Pathways
+36,Display membrane domains
+37,Display signal peptides
+38,Integrated transcriptomic data
+39,Export according to PSI standards
+40,Export to FASTA
+41,Export peptides
+42,Export proteins
+43,Export MS/MS spectra
+44,Create web pages for LIMS integration
+45,Compare/Quantify across samples
+46,Compare/Quantify across replicates
+47,Group/Replicate level filtering
+48,Qualitative peptide/protein views
+49,Spectral count quantification (SPC)
+50,Replicate and sample SPC
+51,Normalize by internal standards
+52,NSAF Nrmalization
+53,Spectral count Nrmalization
+54,Apportion shared peptides by uniqueness
+55,ANva significance test
+56,iTRAQ quantification
+57,TMT quantification
+58,Create custom isobaric labels
+59,Multiplicity support
+60,Internal and external replicates
+61,Correction factors
+62,Control reporter ion peak picking
+63,Modify reference group selection
+64,Intensity based Nrmalization
+65,Validate reportor ion intensity
+66,Quantify by SILAC
+67,Support for ICAT
+68,15N and 18O workflows
+69,Create custom isotopic labels
+70,XIC visualization
+71,Interactive precursor scans
+72,Baseline detection
+73,S/N detection algorithms
+74,Peak smoothing
+75,Manual peak integration
+76,Intensity based label free quantification
+77,Robust peak alignment
+78,Support for fractionation workflows
+79,Customized precursor selection
+80,Support for high resolution data
+81,Support for low resolution data
+82,Manual peak area selection
+83,Peptide and protein label free quantification
+84,Thermo Scientific™ MS file support
+85,ABI MS file support
+86,Maximum file limitations (64bit OS)

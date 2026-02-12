@@ -1,0 +1,76 @@
+id,title
+0,"""Dangling pointer"" on erasing files with multiple hard links"
+1,Forum calls every post spam...
+2,Eraser 6.1.0.2617 crashes upon closing after an erasing job; no report created
+3,MFT and Directory Entries erasure
+4,Make ghost MFT-records more empty
+5,Compact & truncate MFT (NTFS)
+6,Implement the Executor as a Service
+7,Redesign Website database schema
+8,Eraser 6.1.0.2945 crashes on erasing recycle bin
+9,Eraser 6.1.0.2945 sometimes crashes on closing.
+10,Eraser 6.1.0.2945 can't erase all files in recycle bin
+11,Erase setting not being honored
+12,Automatic shredding that can not be circumvented by user
+13,Vitamax Garcinia Cambogia
+14,Verify Eraser's plugin loading behaviour when CRLs cannot be verified
+15,ObjectDisposedException when viewing the log as erase tasks execute
+16,Fall back to large block erasing if space is freed on a volume being erased
+17,Don't run the Eraser process in the background
+18,Test Eraser with Screen Readers
+19,Eraser 6.1.0.2779 Crash Assistant very slow compressing crash reports
+20,Eraser 6.1.0.2791 can't erase files from admin acct when Eraser started in same acct
+21,Eraser failed to delete files with paths longer than 260 characters
+22,Eraser Watched Folder
+23,Cleaning up of privacy leaks
+24,Pause erasures
+25,User-based erasure control
+26,Erase whole drive
+27,Upgrade Remote Executor classes
+28,Eraser Boot !
+29,"Eraser not deleting very long filenames, round 3"
+30,Display progress when erasing from Shell
+31,Silently ignore selected cluster tip erase failures
+32,Erasing improvements
+33,Allow users to check whether their crashes have been fixed
+34,Eraser could not load the setting
+35,Break up MFT erase folders to folders of fixed lengths.
+36,User-defined prefix for file name obscuration
+37,Logging improvements
+38,Allow users to erase all users' recycle bins if they have the needed rights
+39,Properly detect SSDs and warn when erasing them
+40,Program a Web Interface for the BlackBox component
+41,Include a list of drives on the computer when generating BlackBox reports
+42,Task List and log saving behaviour improvement
+43,Portable Eraser 6
+44,Eraser Unified File Manager
+45,Implement feature-complete CLI
+46,Perform Profiling of Eraser
+47,Update About Dialog
+48,difficulty on release resolved
+49,difficulty on release resolved
+50,OS Version
+51,Sumbit Arabic loc patch
+52,Continuous access to floppy disk drive
+53,Simultaneous Erasing
+54,Recycle Bin Catch All
+55,Ballast File Creation.
+56,"Add shortcut to the ""erasure progress window"" in systray."
+57,Let the bootstrapper decompression proceed in a secondary thread
+58,Use number of files found for entropy
+59,Keep highest privilege level of Eraser running
+60,Tray Menu List
+61,Customizable Shell Extension
+62,Allow resolutions to be passed to BlackBox reporters
+63,FileSystemWatcher as a source of entropy
+64,Update the shell with file status changes
+65,Use of tool tips in the task editing dialog
+66,Option to schedule a recurring erase on startup
+67,Feature-complete exclude masks
+68,Reset File times with values from the last 3 months
+69,command line documentation clarification
+70,show usage help in case of wrong argument
+71,Improve name of GOST 50739 erasure method
+72,Progressive corrupting of files as a wipe method
+73,About dialog improvements
+74,Create walkthrough for Eraser

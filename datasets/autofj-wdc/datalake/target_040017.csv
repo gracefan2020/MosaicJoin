@@ -1,0 +1,92 @@
+id,title
+0,Column-specific whatsthis-help
+1,Combined search and add task widget
+2,Drag&Drop
+3,File management (file->load)
+4,Managing history
+5,Tracking tasks by active applications
+6,Whatsthis-help dependant on if a task has been created
+7,Ability to add LDAP search results to distribution lists
+8,copy/cut/paste context menu items
+9,Indication of which resource folder a contact belongs to
+10,Read-only view for contacts in read-only folders
+11,Ability to search in internal and external certificates at the same time
+12,"New, tabbed, mainwindow design"
+13,General UI Server
+14,OpenPGP support
+15,Konqueror and Dolphin Kleopatra plugins
+16,Ability to easily create todos with reminders from emails
+17,Ability to open messages from search results when the reader is hidden
+18,Better invitation update emails showing what changed
+19,"Better, natural language search criteria names"
+20,Better reminder visualization in very small events
+21,Clickable status columns
+22,Client side configurability of warnings in shared folders
+23,Colored ribbons for indication of signing and encryption status in the composer
+24,Configuration option for whether invitation emails are automatically deleted or not when having been acted upon
+25,Copy/paste and drag and drop from/to the mail composer
+26,Display of quota information in foldertree tooltips
+27,Drag and drop and copy and paste support in the search result viewer
+28,Drag and drop from the mail reader window and mime-tree viewer
+29,Drag and drop of folders
+30,Editing of attachments from the composer
+31,Export and import of filters
+32,Favorites Folder
+33,Folder quicksearch
+34,Harmonization of actions in main and standalone mail reader windows
+35,IMAP Server storage of non-standard flags
+36,Improved quota warnings
+37,Improved TNEF attachment handling
+38,Initialize full search from quicksearch on request
+39,lost+found recovery of locally changed folders that lose access rights
+40,Override font and fontsize for standalone message viewers
+41,Per-folder identity configurability
+42,Recursive IMAP cache troubleshooting
+43,Resizable recipients area in composer
+44,Support for creating new mails based on received mails (Resend)
+45,Support for immediate sync of resource folders
+46,Support for soft line breaking
+47,Tab navigation through groups in the address completion
+48,Text snippets with shortcuts and variable expansion in the composer
+49,Warning about active out-of-office scripts
+50,Ability to print notes
+51,"Support ""file"" and ""localdir"" resources"
+52,Config option to close despite system tray
+53,"Harmonization of component naming in sidebar, configuration, summary view"
+54,Right-aligned component navigation toolbar
+55,Ubiquitous sync actions
+56,Ability to have both distribution lists and addresbook extension visible
+57,Aggregated reminders view
+58,Better default resource colors
+59,Faster initial loading of kolab resources
+60,Forwarding and delegation of invitations
+61,Improved coloring of agenda view items
+62,Improved event printing
+63,More readable Kolab resource folder labels
+64,Side-by-side calendar view
+65,Support for by-value attachments
+66,Timeline calendar view
+67,"Month view scrolling, paging, mouse-wheeling"
+68,HTML Signatures
+69,New Planner summary; combines Appointment+To-do+SpecialDates into 1 pretty summary
+70,"KBlogger, a blogging application"
+71,New option to specify reminder times in minutes
+72,Prevent multiple identical error messages accumulating for the same alarm
+73,Remember main window show/hide options used when KAlarm closed instead of setting them in Preferences dialog
+74,Remove alarm daemon and do all scheduling in kalarm itself
+75,Replace simple repetitions by recurrence sub-repetitions to reduce confusion
+76,Simplification and improvements to alarm edit dialog
+77,Aggregated attachment view in the mail header area of the reader window
+78,Decryption on demand in reader window
+79,Improved error messages and audit log for cryptographic operations
+80,Support for Kontact wide profiles
+81,Ability to jump to the right day in the agenda from invitation mails
+82,Drag and drop in the free-busy view
+83,Drag and drop of attachments
+84,Merge of the attachment view in into the main page
+85,Merge of the free-busy and attendee views for easier scheduling
+86,Redesigned incidence editor UI
+87,Support for comments in replies to invitations
+88,Support for extended free-busy lists
+89,"Finish Keyring conduit, base conduit code and test cases, category syncing"
+90,Port old conduits to new base conduit architecture and KDE4/Qt4

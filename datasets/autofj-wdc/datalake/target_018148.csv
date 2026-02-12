@@ -1,0 +1,53 @@
+id,title
+0,DataNode
+1,DataNode
+2,DataNode
+3,DataNode
+4,DataNode
+5,NameNode
+6,NameNode
+7,NameNode
+8,Secondary NameNode
+9,Secondary NameNode
+10,JournalNode
+11,JournalNode
+12,JobTracker
+13,JobTracker
+14,JobTracker
+15,TaskTracker
+16,TaskTracker
+17,ResourceManager
+18,ResourceManager
+19,ResourceManager
+20,ResourceManager
+21,ResourceManager
+22,NodeManager
+23,NodeManager
+24,NodeManager
+25,MapReduce JobHistory Server
+26,MapReduce JobHistory Server
+27,Master
+28,Master
+29,RegionServer
+30,RegionServer
+31,HQuorumPeer
+32,HQuorumPeer
+33,HQuorumPeer
+34,REST
+35,ThriftServer
+36,Metastore
+37,HiveServer
+38,Metastore
+39,Sqoop 2 server
+40,Server (with CDH4 and/or Cloudera Manager 4)
+41,Server (with CDH4 only)
+42,Server (with CDH4 only)
+43,Server (with CDH4 and Cloudera Manager 4)
+44,Server (with CDH4 and Cloudera Manager 4)
+45,ZooKeeper FailoverController (ZKFC)
+46,ZooKeeper JMX port
+47,Server
+48,Beeswax Server
+49,Beeswax Metastore
+50,Oozie Server
+51,Oozie Server

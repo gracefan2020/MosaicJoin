@@ -1,0 +1,73 @@
+id,title
+0,Digital simulation
+1,Analytical simulation
+2,Theoretical peak
+3,No. of adsorption reaction
+4,Surface concentration
+5,Convert surface concentration to current
+6,Convert current to surface concentration
+7,Any species symbol
+8,Tips
+9,Open parameter
+10,Open waveform
+11,Open current
+12,Save parameter
+13,Save waveform
+14,Save current
+15,Save graph
+16,Show pulse current
+17,No. Of charge reaction
+18,No. Of chemical reaction
+19,Techniques:
+20,LSV and CV
+21,DC
+22,Normal pulse
+23,Reverse Pulse
+24,Differential pulse
+25,Cyclic diff. pulse
+26,Square wave
+27,Cyclic square wave
+28,Additive square wave
+29,Staircase
+30,Potential step
+31,Design waveform
+32,Import waveform
+33,Effect:
+34,Adsorption
+35,Convection
+36,Noise
+37,Charge current
+38,Resistance
+39,Reactant number
+40,Product number
+41,Preconcentration time
+42,Preconcentration potential
+43,Pre-equilibration
+44,pH
+45,Negative electron number
+46,Fractal electron number
+47,Pulse height
+48,Pulse width
+49,First sampling time
+50,Second sampling time
+51,Analysis:
+52,Differentiate
+53,Integrate
+54,Semi-differentiate
+55,Semi-integrate
+56,Manual fit
+57,Auto fit
+58,Manual separate
+59,Auto separate
+60,Electrode:
+61,Planar
+62,(Micro) spherical
+63,(Micro) hemispherical
+64,cylindrical
+65,semicylindrical
+66,DME
+67,Microdisc
+68,Band
+69,Thin film
+70,Ring
+71,Rotating all electrodes

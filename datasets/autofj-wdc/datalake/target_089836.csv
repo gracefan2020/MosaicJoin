@@ -1,0 +1,49 @@
+id,title
+0,the main module of the AnnualCal distribution
+1,the wxPerl demo
+2,crossplatform GUI-Texteditor along Perl alike Paradigms
+3,Perl Application Development and Refactoring Environment
+4,wxSingleChoiceDialog with RadioBox
+5,POD browser in Wx using wxRichTextCtrl.
+6,GUI wrapper for command line scripts and programs
+7,ask your users about stuff
+8,Image::Base drawing to Wx things.
+9,Scintilla source code editing for wxWidgets
+10,access IO of external processes via events
+11,ActiveX Control Interface for Wx
+12,Generate Perl GUI code from wxFormBuilder .fbp files
+13,get and set main value of a Wx widget with less syntax and more magic
+14,FBP::Perl Demonstration Application
+15,interface to the Wx::TreeListCtrl class
+16,PSGI/Plack plugin for Padre
+17,a sensible API for Wx::ListCtrl
+18,interface to wxWidgets' OpenGL canvas
+19,read-evaluate-print plugin for Padre
+20,A wxPerl-based interactive PPI debugger/tester
+21,Cross-platform modular flashcard GUI application
+22,Perl extension for blah blah blah
+23,Benchmarking POE's performance ( acts more like a smoker )
+24,A RichText Ctrl for creating Pod
+25,pipe output to an unfocussed window
+26,dynamic list that can be displayed in various controls
+27,A CPANPLUS GUI Shell written in wxWidgets
+28,virtual list control interface
+29,virtual tree control interface
+30,Cross-Platform XML Book Reader
+31,parameterized constructors
+32,shortcuts for wxFOO style constants
+33,file system handler based upon LWP
+34,Build a tree control on demand
+35,a nontrivial example of wxPerl threads
+36,Object for logging through Wx::Log*
+37,A filesystem handler for UNC filepaths
+38,Perl extension to access OS X's webkit framework under Wx
+39,Use the embedded Mozilla HTML rendering engine in WxPerl programs.
+40,A cross-platform CPAN-installable Perl Notepad
+41,A drop-in replacement for Wx::Image with all functionality of Image::Magick
+42,A simple Wx::WizardPage subclass for making a selection from RadioBoxes
+43,A simple Wx::WizardPage subclass for making a selection from checkboxes
+44,Simple Plotter Control
+45,A simple Wx::WizardPage subclass for showing rendered HTML
+46,Tree Control with checkbox functionality
+47,An animated throbber/spinner

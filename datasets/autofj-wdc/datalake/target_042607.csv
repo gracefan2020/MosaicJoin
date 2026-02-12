@@ -1,0 +1,50 @@
+id,title
+0,Retrieve random lines from a file
+1,Hold subroutine/constants for LinkedListLetter objects These are NOT contained in a separate package so that another file can use them and they automatically get imported into that package.
+2,Produces warnings when unused variables are detected
+3,map of common English spelling errors
+4,intersecting lines and circles
+5,Path-like access to complex data structures
+6,An interface to a Riak server.
+7,Execute commands with sound
+8,a l33t interpreter
+9,Perl wrapper for KyTea
+10,Unicode grapheme-level versions of core Perl functions
+11,Send Log::Any logs to syslog
+12,level-triggered resource observer like select(2)
+13,Dump strings of characters (or bytes) for printing and debugging
+14,Perl interface to Google's Weather API
+15,AnyEvent module for reading from Current Cost energy meters
+16,Traverse Soar working memory dumps
+17,Calculate PSNR (Peak Signal-to-Noise Ratio) and MSE (Mean Square Error).
+18,sharing PDL data between Perl threads
+19,Perl OO interface to Japanese WordNet database
+20,Utility for creating graphs of Soar's working memory
+21,Mojolicious Plugin
+22,Group chains of subs by field name
+23,Perl extension for drawing Heatmap using Imager
+24,paged queries for CDBI
+25,Analyzes CPAN modules and generates their dependency tree
+26,Mocked DBI interface for testing purposes
+27,Perl extension for Reverse Polish Math Expression Evaluation
+28,These modules are used for internal cPanel development.
+29,A standard DBIx::Class layer for the Chado database schema.
+30,turn one big decision into many small decisions
+31,Make URLs for Gravatars from an email address
+32,Create word cloud images
+33,source constants from POD to avoid repetition
+34,Lower blocks from compile time to runtime
+35,Asynchronous wrapper around IPC::PerlSSH
+36,An implementation of the OAuth protocol
+37,Replace sequences of characters with typographic ligatures
+38,"Simples dependency-injection (DI) container, distant relation of IoC."
+39,get and set main value of a Wx widget with less syntax and more magic
+40,Perl extension for determining the set median of a set of strings
+41,Carp adapted to POE
+42,BioPerl-Network - package for biological networks
+43,encode/decode numbers using Douglas Crockford's Base32 Encoding
+44,Fast C metadata and tag reader for all common audio file formats
+45,low-level routines for working with BLAST tools and formats
+46,Short hand ResultSet Accessors
+47,rasterize SVG content to pixel graphics
+48,Create a module based on a template to use with Module::Build

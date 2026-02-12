@@ -1,0 +1,92 @@
+id,title
+0,Visual Haskell
+1,XMPP (aka Jabber) bindings for Haskell
+2,Implement a model checker
+3,New I/O library (async I/O+unicode filenames+filesystem manipulations+...)
+4,Debian package autobuilder for hackage packages
+5,MIME library
+6,Machine learning library
+7,Debugger for Attribute Grammar using Haskell
+8,Type-level programming library
+9,Further Parsec Improvements
+10,Implement overlap and exhaustiveness checking for pattern matching
+11,Language.C enhancements
+12,A statistics library and environment
+13,Mathematical environment in Haskell
+14,Library for the Arduino platform
+15,A universal data store interface.
+16,"Haskell for the ""real-time web"""
+17,Implement 2-3 concurrent data structures from the literature
+18,Solve cabal dependency hell
+19,Haiku support
+20,Replicating backend for AcidState.
+21,Implement Cabal<->OS package management systems relations
+22,Tweak memory-reuse analysis tools for GHC compatibility
+23,Switch cabal to use an off-the-shelf SAT-solver/theorem prover for solving version constraints
+24,Rewrite the Pandoc Markdown Parser
+25,IHaskell Projects
+26,HBlas Projects / FFI Numerics Bindings
+27,Better Hackage UI / Discoverability
+28,Improvements to the criterion Library
+29,Module Import Improvements
+30,(not so) Silly shape-dependent representation tricks
+31,Haddock Improvements
+32,Out-of-process Template Haskell
+33,Implement SplitMix for System.Random
+34,Continuations-based DSL on top of HAppS
+35,Tie HAppS with SQL databases
+36,XML Schema implementation
+37,Snap: Implement type-safe URL support for the Snap Web Framework
+38,PureScript Improvements
+39,"GuiHaskell, to superceed WinHugs"
+40,Bring Hat tracing back to life
+41,Improve several areas of EclipseFP
+42,Embedding Haskell in C++: The FFI upside-down
+43,Cabal support for the UHC JavaScript backend
+44,Make the GHC performance monitoring build bot production ready
+45,A substitution stepper
+46,Darcs project management web application
+47,Graphical type analysis
+48,xmonad: compositing support
+49,SNMP MIB compiler using Parsec
+50,JHC Hacking
+51,.NET CLR back end for jhc
+52,Hyperlinked sourcecode for documentation
+53,Improvements to the INBlobs tool developed at U. Minho
+54,3D GUI system and widget library
+55,wxHaskell improvements
+56,Platform neutral GUI leading to ... hackage 3
+57,Improve Nomyx
+58,integrate searchpath and ghc
+59,Sandboxed Haskell
+60,LLVM optimisation passes / tables next to code
+61,ThreadScope with custom probes.
+62,Combine Threadscope with Heap Profiling Tools
+63,Add NUMA-supporting features to GHC
+64,General FFI improvements
+65,Make parallel builds in GHC actually give speed-ups
+66,Better tooling for profiling and performance monitoring
+67,Improve performance of native code
+68,Improve documentation and examples in GHC's base
+69,Port HaskellDB to HList
+70,Add support for optimization features in HaskellDB
+71,BSPHlib - A parallel programming library based on BSP model
+72,Add NVIDIA CUDA backend for Data Parallel Haskell
+73,Parallel programming benchmarking and benchmark suite
+74,"Supply dependencies for non-simple cabal build types (eg, Setup.hs)"
+75,Generalize cabal to work with collections of packages instead of having a single package focus
+76,PVP compliance checker
+77,"Have GHC track the different library ""ways"" it has installed"
+78,Treat each .cabal component separately during dependency solving
+79,Bioinformatics tools
+80,bio library development
+81,GSL Binding
+82,GStreamer bindings
+83,COM interop library and IDL compiler for Haskell
+84,Haskell Qt binding generator
+85,FFI bridge to Python
+86,Embedded Haskell: calling Haskell from other languages
+87,C Bindings to Haskell Values
+88,GObject Introspection based static binding generator for Gtk2hs
+89,C++ -> Haskell FFI Generator using SWIG
+90,Improve/rewrite HDBC backends

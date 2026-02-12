@@ -1,0 +1,61 @@
+id,title
+0,svn r644 - processor/processor.m4
+1,Cache local files relative to the current execution-path
+2,several segfaults with r662
+3,E_DEPRECATED error at parsing - Custom error handler cant access previously declared classes
+4,2G/4G limitation on 64bit arch
+5,xcache_unset matching e.g. prefixed_ values
+6,duplicate content does not update in some case
+7,var cache doesn't work for php cli
+8,Reching of var_cache RAM limit cause Apache to swap alot
+9,compilation warnings
+10,Trac does not tell to validate email
+11,compiling yes after some time
+12,multiple caches of same file and file modification
+13,xcache crashes during module shutdown when used together with ionCube Loader
+14,__DIR__ value cached incorrectly when using opcode caching
+15,reproducible memory leak when xcache.size is set too small to process a request
+16,"Bug in the file ""Decompiler.class.php"" with the class extends"
+17,xcache fails with hardlinked sources and gallery2
+18,Support for PHP 5.4
+19,xcache and phar
+20,compile error under osx 10.7.3 (Lion)
+21,misleading option in config.w32
+22,admin page in opera is broken
+23,500 error
+24,Do not require a config.php for xcache-admin
+25,Apache Crashes Under Load With XCache
+26,high miss if file does not exist
+27,XCache admin APIs (admin page) cause SEGV if XCache failed to initize
+28,Cache not updated after renaming or moving directory
+29,check for cli and setup xcache.var_size before commencing xcache_var.phpt
+30,"separated cache by vhost, with patch!"
+31,AttributeError: 'NoneType' object has no attribute 'lower'
+32,Can't compile on FreeBSD 9
+33,Ioncube problem (XCache 3.0.1)
+34,Xcache 3.0.x with Ioncube Loader
+35,PHP 5.4.9 TRAITS with Xcache -> SEG FAULT
+36,"Multiple instances of the same software causes PHP ""cannot redeclare class"" errors when xcache enabled"
+37,Segmentation fault on php execution
+38,Xcache 3.0.1 / PHP 5.4.13 Apache Child dies
+39,tablesort.js missing from Diagnosis and Coverager
+40,nginx 502 response when i enable xcache
+41,Segmentation Fault during startup.
+42,Does not compile with PHP 5.5
+43,Problem building from source
+44,Problem with constants in class
+45,MS VC compiler warnings
+46,Warnings while building from source
+47,segfaults when using XCache 3.0.3 under heavy load
+48,segfaults with xcache.readonly_protection = Off under heavy load
+49,Opcode SPEC for 5.4
+50,Duplicate ++LOOPCOUNTER
+51,require/include 缓存的bcompiler编码文件出错
+52,Compilation failure windows xcache 3.0.3
+53,Memory usage keeps growing while repeatedly require() the same empty file
+54,Files cached incorrectly between vhosts
+55,accessing to restoring from xcache variable crash php-fpm
+56,the xcache is not support php 5.6.0
+57,Class properties created from __FILE__ break multi sites
+58,wired name of directory
+59,"Trunk compiling error - ""Not a member xc_vector_t on xc_cacher.c"""

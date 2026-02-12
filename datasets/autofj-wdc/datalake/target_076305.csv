@@ -1,0 +1,152 @@
+id,title
+0,Embedded Ada
+1,Embedded COBOL
+2,Embedded Fortran
+3,Embedded MUMPS
+4,Embedded Pascal
+5,Embedded PL/I
+6,Basic dynamic SQL
+7,Extended dynamic SQL
+8,statement
+9,Extensions to embedded SQL exception declarations
+10,Enhanced execution rights
+11,Basic Privileges
+12,UPDATE privilege at the column level
+13,REFERENCES privilege at the column level
+14,WITH GRANT OPTION
+15,Basic cursor support
+16,OPEN statement
+17,Positioned UPDATE statement
+18,Positioned DELETE statement
+19,WITH HOLD cursors
+20,Basic SET TRANSACTION statement
+21,SET TRANSACTION statement: READ ONLY and READ WRITE clauses
+22,Updatable queries with subqueries
+23,SQLSTATE support
+24,Multiple module support
+25,Module language
+26,Basic information schema
+27,COLUMNS view
+28,TABLES view
+29,VIEWS view
+30,TABLE_CONSTRAINTS view
+31,REFERENTIAL_CONSTRAINTS view
+32,CHECK_CONSTRAINTS view
+33,REVOKE statement: RESTRICT clause
+34,Extended REVOKE statement
+35,REVOKE statement performed by other than the owner of a schema object
+36,REVOKE statement: GRANT OPTION FOR clause
+37,REVOKE statement to revoke a privilege that the grantee has WITH GRANT OPTION
+38,Isolation levels other than SERIALIZABLE
+39,READ UNCOMMITTED isolation level
+40,REPEATABLE READ isolation level
+41,Basic diagnostics management
+42,GET DIAGNOSTICS statement
+43,SET TRANSACTION statement: DIAGNOSTICS SIZE clause
+44,Privilege Tables
+45,TABLE_PRIVILEGES view
+46,COLUMN_PRIVILEGES view
+47,USAGE_PRIVILEGES view
+48,UNIQUE predicate
+49,CORRESPONDING in query expressions
+50,CREATE VIEW: WITH CHECK OPTION
+51,Usage tables
+52,Read-only scrollable cursors
+53,FETCH FIRST
+54,FETCH LAST
+55,FETCH ABSOLUTE
+56,Character set definition
+57,Named character sets
+58,Features and conformance views
+59,SQL_FEATURES view
+60,SQL_SIZING view
+61,SQL_LANGUAGES view
+62,Enhanced documentation tables
+63,SQL_SIZING_PROFILES view
+64,SQL_IMPLEMENTATION_INFO view
+65,SQL_PACKAGES view
+66,Assertions
+67,Row and table constructors
+68,Simple tables
+69,Subqueries in CHECK
+70,Collation and translation
+71,ALTER domain
+72,Deferrable constraints
+73,INSERT column privileges
+74,Referential MATCH types
+75,View CHECK enhancements
+76,Connection management
+77,Self-referencing operations
+78,Extended flagging
+79,Basic flagging
+80,"Extended flagging for ""Core SQL Flagging"" and ""Catalog Lookup"" only"
+81,Local table references
+82,Full cursor update
+83,Updatable scrollable cursors
+84,Updatable ordered cursors
+85,Distinct data types
+86,USER_DEFINED_TYPES view
+87,Basic structured types
+88,Enhanced structured types
+89,Basic reference types
+90,Enhanced reference types
+91,Create table of type
+92,Subtables
+93,Basic array support
+94,Arrays of built-in data types
+95,Arrays of distinct types
+96,Array expressions
+97,Arrays of user-defined types
+98,Arrays of reference types
+99,Type predicate
+100,Subtype treatment
+101,SQL routines on arrays
+102,Array parameters
+103,Array as result type of functions
+104,Structured type locators
+105,Array locators
+106,Transform functions
+107,User-defined orderings
+108,Specific type method
+109,Timestamp in Information Schema
+110,Basic LOB data type support
+111,BLOB data type
+112,CLOB data type
+113,"POSITION, LENGTH, LOWER, TRIM, UPPER, and SUBSTRING functions for LOB data types"
+114,Concatenation of LOB data types
+115,LOB locator: non-holdable
+116,Extended LOB data type support
+117,Row types
+118,"Updatable joins, unions, and columns"
+119,WITH (excluding RECURSIVE) in query expression
+120,Recursive query
+121,LIKE clause in table definition
+122,Basic trigger capability
+123,Ability to specify a search condition that must be true before the trigger is invoked
+124,Support for run-time rules for the interaction of triggers and constraints
+125,Multiple triggers for the same the event are executed in the order in which they were created
+126,Enhanced trigger capability
+127,SET TRANSACTION statement: LOCAL option
+128,Chained transactions
+129,Savepoints
+130,SELECT privilege with column granularity
+131,Functional Dependencies
+132,Basic SQL-invoked routines
+133,User-defined stored procedures with no overloading
+134,CALL statement
+135,RETURN statement
+136,ROUTINES view
+137,PARAMETERS view
+138,Basic roles
+139,Extended roles
+140,INSERT into a cursor
+141,UPDATE statement: SET ROW option
+142,CUBE and ROLLUP operations
+143,Symmetric BETWEEN predicate
+144,Result sets return value
+145,LATERAL derived table
+146,Transaction counts
+147,Updatable table references
+148,Holdable locators
+149,Array-returning external SQL-invoked functions
+150,Local cursor references

@@ -1,0 +1,121 @@
+id,title
+0,ETH TX-
+1,ETH TX+
+2,ETH GND
+3,ETH RX-
+4,ETH RX+
+5,ETH SPEED
+6,ETH LINK
+7,GND
+8,System Reset
+9,bus clock
+10,bus nWAIT
+11,bus nOE
+12,bus nWE
+13,bus nCS3
+14,bus LADDR[0]
+15,bus LADDR[1]
+16,bus LADDR[2]
+17,bus LADDR[3]
+18,bus LADDR[4]
+19,bus LADDR[5]
+20,bus LADDR[6]
+21,bus LDATA[0]
+22,bus LDATA[1]
+23,bus LDATA[2]
+24,bus LDATA[3]
+25,bus LDATA[4]
+26,bus LDATA[5]
+27,bus LDATA[6]
+28,bus LDATA[7]
+29,Vcc input 3.3V
+30,Vcc input 3.3V
+31,lcd Power
+32,lcd HSYNC
+33,lcd PCLK
+34,lcd VSYNC
+35,lcd VDEN
+36,GND
+37,lcd VD[2]
+38,lcd VD[3]
+39,lcd VD[4]
+40,lcd VD[5]
+41,lcd VD[6]
+42,lcd VD[7]
+43,lcd VD[10]
+44,lcd VD[11]
+45,lcd VD[12]
+46,lcd VD[13]
+47,lcd VD[14]
+48,lcd VD[15]
+49,lcd VD[18]
+50,lcd VD[19]
+51,lcd VD[20]
+52,lcd VD[21]
+53,lcd VD[22]
+54,lcd VD[23]
+55,audio LPOUT
+56,audio RPOUT
+57,audio MIC
+58,audio LIN
+59,audio RIN
+60,audio GND
+61,uart TXD0
+62,uart RXD0
+63,uart nRTS0
+64,uart nCTS0
+65,uart TXD1
+66,uart RXD1
+67,uart nRTS1
+68,uart nCTS1
+69,uart TXD2
+70,uart RXD2
+71,uart TXD3
+72,uart RXD3
+73,iic
+74,iic
+75,spi
+76,spi
+77,spi
+78,spi
+79,sd0
+80,sd0
+81,sd0
+82,sd0
+83,sd0
+84,sd0
+85,GND
+86,VCCrtc
+87,mode select
+88,mode select
+89,mode select
+90,sd1 card detect
+91,sd1
+92,sd1
+93,sd1
+94,sd1
+95,sd1
+96,sd1
+97,GND
+98,touch
+99,touch
+100,touch
+101,touch
+102,ADC
+103,ADC
+104,Ext Int
+105,Ext Int
+106,Ext Int
+107,Ext Int
+108,Ext Int
+109,Ext Int
+110,Ext Int
+111,Ext Int
+112,Ext Int
+113,Ext Int
+114,GND
+115,usb device
+116,usb device
+117,Ext Int
+118,usb host
+119,usb host

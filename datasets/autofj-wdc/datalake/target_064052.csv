@@ -1,0 +1,53 @@
+id,title
+0,arrays - general
+1,arrays - type-specific
+2,bindings
+3,bitwise operations
+4,Clojure code access
+5,compiling
+6,conditional logic
+7,conversions
+8,databases
+9,exception handling
+10,functions
+11,multimethods
+12,input/output
+13,iteration
+14,Java interop.
+15,Java interop. - proxies
+16,list creation
+17,predicates - logical
+18,predicates - relational
+19,predicates - types
+20,predicates - other
+21,macros
+22,map operations
+23,math - general
+24,math - unchecked
+25,metadata
+26,namespaces
+27,parallel operations (in clojure.parallel namespace)
+28,quoting and unquoting (evaluating)
+29,reflection
+30,reference types - all
+31,reference types - agents
+32,reference types - agents as watchers
+33,reference types - atoms
+34,reference types - refs
+35,reference types - vars
+36,regular expressions
+37,sequence operations to retrieve a single item
+38,sequence operations to retrieve multiple items
+39,sequence operations to do other things
+40,set operations in clojure.core namespace
+41,set operations in clojure.set namespace
+42,string and character operations
+43,structs
+44,testing
+45,threads and concurrency
+46,transactions and refs
+47,trees (in clojure.zip namespace)
+48,type hierarchies
+49,vector operations
+50,XML
+51,miscellaneous

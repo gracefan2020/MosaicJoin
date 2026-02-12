@@ -1,0 +1,134 @@
+id,title
+0,Class Abstraction (available since PHP 5.0.0)
+1,assignment operators
+2,"array(), array syntax"
+3,type-casting
+4,foreach
+5,"anything below ASCII 32 except \t (0x09), \n (0x0a) and \r (0x0d)"
+6,logical operators
+7,logical operators
+8,type-casting
+9,break
+10,callable
+11,switch
+12,Exceptions (available since PHP 5.0.0)
+13,not used anymore
+14,classes and objects
+15,magic constants
+16,classes and objects
+17,escaping from HTML
+18,comments
+19,assignment operators
+20,class constants
+21,string syntax
+22,continue
+23,complex variable parsed syntax
+24,incrementing/decrementing operators
+25,declare
+26,switch
+27,magic constants (available since PHP 5.3.0)
+28,assignment operators
+29,floating point numbers
+30,PHPDoc style comments
+31,do..while
+32,complex variable parsed syntax
+33,array syntax
+34,type-casting
+35,see T_PAAMAYIM_NEKUDOTAYIM below
+36,echo
+37,function arguments (available since PHP 5.6.0)
+38,else
+39,elseif
+40,empty()
+41,constant part of string with variables
+42,"declare, alternative syntax"
+43,"for, alternative syntax"
+44,"foreach, alternative syntax"
+45,"if, alternative syntax"
+46,"switch, alternative syntax"
+47,"while, alternative syntax"
+48,heredoc syntax
+49,eval()
+50,"exit(), die()"
+51,"extends, classes and objects"
+52,magic constants
+53,Final Keyword
+54,Exceptions (available since PHP 5.5.0)
+55,for
+56,foreach
+57,functions
+58,magic constants
+59,variable scope
+60,(available since PHP 5.3.0)
+61,__halt_compiler (available since PHP 5.1.0)
+62,if
+63,Object Interfaces
+64,incrementing/decrementing operators
+65,include
+66,include_once
+67,text outside PHP
+68,type operators
+69,Traits (available since PHP 5.4.0)
+70,type-casting
+71,Object Interfaces
+72,isset()
+73,comparison operators
+74,comparison operators
+75,comparison operators
+76,comparison operators
+77,comparison operators
+78,comparison operators
+79,comparison operators (available since PHP 7.0.0)
+80,magic constants
+81,list()
+82,integers
+83,logical operators
+84,logical operators
+85,logical operators
+86,magic constants
+87,assignment operators
+88,assignment operators
+89,assignment operators
+90,namespaces (available since PHP 5.3.0)
+91,namespaces (available since PHP 5.3.0)
+92,namespaces (available since PHP 5.3.0)
+93,classes and objects
+94,numeric array index inside string
+95,type-casting
+96,classes and objects
+97,escaping from HTML
+98,escaping from HTML
+99,assignment operators
+100,::. Also defined as T_DOUBLE_COLON.
+101,assignment operators
+102,arithmetic operators (available since PHP 5.6.0)
+103,assignment operators (available since PHP 5.6.0)
+104,print
+105,classes and objects
+106,classes and objects
+107,classes and objects
+108,require
+109,require_once
+110,returning values
+111,bitwise operators
+112,assignment operators
+113,bitwise operators
+114,assignment operators
+115,heredoc syntax
+116,variable scope
+117,"identifiers, e.g. keywords like parent and self, function names, class names and more are matched. See also T_CONSTANT_ENCAPSED_STRING."
+118,type-casting
+119,complex variable parsed syntax
+120,switch
+121,Exceptions
+122,Traits (available since PHP 5.4.0)
+123,__TRAIT__ (available since PHP 5.4.0)
+124,Exceptions
+125,unset()
+126,type-casting
+127,namespaces (available since PHP 5.3.0; reserved since PHP 4.0.0)
+128,classes and objects
+129,variables
+130,"while, do..while"
+131,assignment operators
+132,generators (available since PHP 5.5.0)

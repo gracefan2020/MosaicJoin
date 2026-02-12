@@ -1,0 +1,54 @@
+id,title
+0,Model Number
+1,Interface
+2,Cache
+3,Capacity
+4,Guaranteed Sectors
+5,Number of pins on the I/O connector
+6,PHYSICAL
+7,Height (max)
+8,Width (max)
+9,Length (max)
+10,Weight (typical)
+11,COMPLIANCE
+12,European Union Restriction of Hazardous Substances
+13,PERFORMANCE
+14,Spindle Speed
+15,Average latency
+16,Random read seek time
+17,Random write seek time
+18,Maximum interface transfer rate
+19,RELIABILITY
+20,Annual Failure Rate
+21,Unrecoverable read errors
+22,POWER
+23,Average idle current
+24,Average seek power
+25,Standby power
+26,Sleep power
+27,"Maximum start current, DC"
+28,ENVIRONMENT
+29,Ambient Temperature
+30,Operating
+31,Nonoperating
+32,Maximum operating temperature change
+33,Maximum nonoperating temperature change
+34,Maximum operating case temperature
+35,Relative Humidity
+36,Operating
+37,Nonoperating
+38,Maximum allowable humidity change
+39,Altitude
+40,Operating altitude (min)
+41,Operating altitude (max)
+42,Nonoperating altitude (min)
+43,Nonoperating altitude (max)
+44,Shock
+45,Operating Shock (max)
+46,Nonoperating Shock (max)
+47,Vibration
+48,Operating vibration
+49,Nonoperating vibration
+50,ACOUSTICS
+51,Acoustics (Idle Volume)
+52,Acoustics (Seek Volume)

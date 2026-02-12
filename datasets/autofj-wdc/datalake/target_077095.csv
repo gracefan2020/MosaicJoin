@@ -1,0 +1,59 @@
+id,title
+0,List tasks with a short description of their purposes
+1,Calculate a baseline-based gain calibration solution
+2,Calculate a baseline-based bandpass calibration solution
+3,Calibrate bandpasses
+4,Calibrate gains (amplitudes and phases)
+5,Apply calibration to data
+6,Combine images
+7,Calibrate bandpasses by polynomial fitting
+8,Concatenate u-v datasets
+9,Load a task with default parameters
+10,Import old-format VLA data
+11,Import a u-v dataset which is in FITS format
+12,Import an image which is in FITS format
+13,Write a u-v dataset to FITS format
+14,Write an image to FITS format
+15,Calibrate group delays and phase rates.
+16,Determine flux densities for other cals
+17,Run a task
+18,Display the help page for a task
+19,Image and deconvolve
+20,Fit gaussian components to an image
+21,View header for u-v data
+22,View header for an image
+23,Subtract continuum in image plane
+24,Import a FITS image
+25,Measure statistics on an image
+26,View task parameters
+27,Fit gaussian components to an image
+28,Print basic data
+29,List image data files
+30,Compute moments from an image
+31,Regrids an image onto another image's geometry
+32,Correct an image for the primary beam
+33,Calibrate polarization
+34,Plot bandpass calibration tables
+35,Plot spectra
+36,Print antenna locations
+37,Plot antenna locations
+38,Remove first integrations from scans
+39,Rename an image or dataset
+40,Set flux densities for flux cals
+41,Smooth an image
+42,Plot gain calibration tables
+43,Flag raster image of time v. channel
+44,Write out u-v files for individual sources
+45,Load a task with current parameters
+46,Load a task with parameters last used for that task
+47,Display image
+48,Flag raster image of time v. baseline
+49,List u-v data files
+50,"Compute u, v, and w coordinates"
+51,Flag data
+52,Subtract continuum from u-v data
+53,Subtract continuum from u-v data
+54,Plot u-v data
+55,Subtracts model u-v data from corrected u-v data
+56,Plot and flag u-v data
+57,Delete data files

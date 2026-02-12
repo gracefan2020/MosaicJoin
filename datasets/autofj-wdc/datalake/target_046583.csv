@@ -1,0 +1,101 @@
+id,title
+0,The combo keys for type a backslash (\) on OS X with french keyboard raises the contextual menu
+1,"Not able to install, Padre on Win7 with Active perl 5.14.2 from CPAN"
+2,DWIMPerl Unable to run Scripts
+3,Functions Window does not show all functions or slowdown if source contains UTF-8
+4,"""Introduce Temporary Variable"" need to be fixed"
+5,Preferences shortcut
+6,Add a Debug Launch dialogue
+7,Padre::Logger fails when Plugin is reloaded
+8,Padre::Plugin::HG error messages and warnings
+9,Mouse (Ubuntu) Copy Paste X-Clipboard
+10,Padre::Plugin::Moose Undefined Subroutine Error on launching Moose Assistant
+11,Debugger causing Padre crash - MacOSx
+12,code folding icon hides break-point icon
+13,Tabs are all confused
+14,"Preferences dialog: ""Indentation"" is confusing"
+15,Fix TDD flow in Padre Testing
+16,Space bar doesn't work in editor
+17,"I now have ""add"", ""delete"", ""commit"", ""revert"" and ""status"" working for hg and svn in the version control sidebar."
+18,"""Stop Execution"" and ""Run"" should somehow indicate in the Output window how the script terminated"
+19,Syntax checking disturbs autocomplete
+20,variable name completition
+21,Implement better method autocompletion heuristics
+22,Setting indent option zaps main menu
+23,Don't show unncecessary windows
+24,./dev can not be run on the branch
+25,"Padre::Plugin::Catalyst Crash after pressing ""New Catalyst Application"""
+26,unable to compile with strawberry perl 5.12.3
+27,Track the configuration load time
+28,config.yml -> autocomplete_always: 1
+29,cant activate plugins as root user
+30,Context menu: keyboard alternatives do not work
+31,100% CPU when idling
+32,"Using Ctrl-3 (""Quick Menu Access"") leads to GTK warnings and eventually crashes"
+33,patch/diff dialog should be resizable
+34,diffs!
+35,Directory browser changes unpredictably
+36,allow the Project (directory tree) window to be linked with the editor
+37,Docbrowser - searching for the right document
+38,Provide a way to create eclipse style tutorials
+39,multiple folding in code
+40,Emacs Keybindings
+41,Padre Document change encoding (broken)
+42,Padre is not displaying DOS-ASCII ANSI encoded text files with Hebrew correctly
+43,Filter through Perl: improvements
+44,Padre on fink
+45,remember folding state when reopening files.
+46,wishlist: folding for use statements
+47,Java and C# function list: do not ignore method declarations after line comments
+48,Broken commenting in HTML and CSS in 0.94
+49,Proper plural handling with Wx::gettext()
+50,problems with Japanese encodings on Windows
+51,Just an idea: integrate Dist::Zilla for project management
+52,change in indent does not update until padre is closed and opened
+53,function keys not bound as shortcuts lead to strange character input
+54,Module::Install::PRIVATE::Padre is both in privinc/ and in inc/ in the distribution
+55,Key bindings dialog: Support more than one shortcut per action
+56,Keyboard edit shortcuts ( Copy/Paste/Undo/Redo etc.) not working on Mac OSX
+57,saving and loading of key binding settings
+58,Action Toolbar vanishes in fullscreen mode.
+59,shell script on OS X
+60,"could not find encoding on OS X 10.5, fails tests"
+61,osx Padre icon toolbar default should be same as linux (default to true)
+62,[osx] wxPerl not needed on OSX
+63,OSX Unsupported window created of class: NSNavOpenPanel
+64,[osx] Could not find system(darwin) default encoding
+65,"Display of sessions in ""Open Session"" has possible off-by-one error?"
+66,Padre automatic indentation not working on Mac OS X
+67,Install Padre with Citrus Perl on Mac OS Lion - t/15_locale.t........Failed 5/7
+68,Shortcut keys from edit menu stop working on OS X
+69,Ctrl for hotkeys should be disabled on OS X
+70,osx Wx::Scintilla .21_04 causes Padre to scroll poorly
+71,Outline should display methods created by Class::XSAccessor
+72,"(wishlist) outline: ""new"" method should be highlighted"
+73,direct manipulation in outline
+74,Parrot: F2 help
+75,Add support for additional keyword lists in Scintilla LexPerl
+76,Plugin cache needs to be invalidated when a new (version of a) plugin has been installed
+77,add wysiwyg-ish pod editing capabilities
+78,Syntax highlighting for POD files
+79,Padre release 0.98 and svn rev 19736 crash when setting default_project_directory to anything other than /home/user?/projects
+80,Run Parameters: Possible extensions
+81,Printing Source Code from Padre
+82,"Feature request: ""Rename subroutine"""
+83,"Feature request: ""Rename label"""
+84,Refactoring support: automatic global-to-lexical conversion
+85,Rename variable options and preview window
+86,Lexically rename variable changes the screen position dramatically (and shouldn't have to)
+87,"Lexical variable renaming doesn't support <<""HEREDOCS"""
+88,Switch if-Syntax
+89,Variable renaming: No declaration found if variable is declared in parentheses
+90,rename project-wide variable/function name
+91,"""Change variable style"" does not always work properly"
+92,renaming variable names inside regular expressions does not work
+93,refactoring: renaming of hash keys
+94,refactoring: replace double quotes by single quotes where appropriate
+95,Preview window for extract subroutine
+96,"(wishlist) variable renaming: highlighting, inline-editing"
+97,(wishlist) offer Regex Editor in context menu when cursor is on a regular expression
+98,odd behavior of regex Find
+99,0.98 is broken

@@ -1,0 +1,184 @@
+id,title
+0,--
+1,Tests if the node is NULL.
+2,Casts the node to an Attribute.
+3,Casts the node to a CDataSection.
+4,Casts the node to CharacterData.
+5,Casts the node to a Comment.
+6,Casts the node to a DocumentFragment.
+7,Casts the node to a Document Type.
+8,Casts the node to an Element.
+9,Casts the node to an Entity.
+10,Casts the node to an EntityReference.
+11,Casts the node to a Notation.
+12,Casts the node to a DOMProcessingInstruction.
+13,Casts the node to a DOMText.
+14,Casts the node to a DOMDocument.
+15,Writes the contents of the node to a file.
+16,Writes the contents of the node to a buffer.
+17,Writes the contents of the node to a clob.
+18,Retrieves the Name of the Node.
+19,Retrieves the Value of the Node.
+20,Sets the Value of the Node.
+21,Retrieves the Type of the node.
+22,Retrieves the parent of the node.
+23,Retrieves the children of the node.
+24,Retrieves the first child of the node.
+25,Retrieves the last child of the node.
+26,Retrieves the previous sibling of the node.
+27,Retrieves the next sibling of the node.
+28,Retrieves the attributes of the node.
+29,Retrieves the owner document of the node.
+30,Inserts a child before the reference child.
+31,Replaces the old child with a new child.
+32,Removes a specified child from a node.
+33,Appends a new child to the node.
+34,Tests if the node has child nodes.
+35,Clones the node.
+36,--
+37,Tests if the NodeMap is NULL.
+38,Retrieves the item specified by the name.
+39,Sets the item in the map specified by the name.
+40,Removes the item specified by name.
+41,Retrieves the item given the index in the map.
+42,Retrieves the number of items in the map.
+43,--
+44,Tests if the Nodelist is NULL.
+45,Retrieves the item given the index in the nodelist.
+46,Retrieves the number of items in the list.
+47,--
+48,Tests if the Attribute Node is NULL.
+49,Casts the Attribute to a node.
+50,Retrieves the Qualified Name of the attribute.
+51,Retrieves the NS URI of the attribute.
+52,Retrieves the local name of the attribute.
+53,Retrieves the expanded name of the attribute.
+54,Retrieves the name of the attribute.
+55,Tests if attribute was specified in the owning element.
+56,Retrieves the value of the attribute.
+57,Sets the value of the attribute.
+58,--
+59,Tests if the CDataSection is NULL.
+60,Casts the CDatasection to a node.
+61,--
+62,Tests if the CharacterData is NULL.
+63,Casts the CharacterData to a node.
+64,Retrieves the data of the node.
+65,Sets the data to the node.
+66,Retrieves the length of the data.
+67,Retrieves the substring of the data.
+68,Appends the given data to the node data.
+69,Inserts the data in the node at the given offSets.
+70,Deletes the data from the given offSets.
+71,Replaces the data from the given offSets.
+72,--
+73,Tests if the comment is NULL.
+74,Casts the Comment to a node.
+75,--
+76,Tests if the DOMImplementation node is NULL.
+77,Tests if the DOM implements a given feature. [Not supported in this release]
+78,--
+79,Tests if the DocumentFragment is NULL.
+80,Casts the Document Fragment to a node.
+81,--
+82,Tests if the Document Type is NULL.
+83,Casts the document type to a node.
+84,Finds the specified entity in the document type.
+85,Finds the specified notation in the document type.
+86,Retrieves the public ID of the document type.
+87,Retrieves the system ID of the document type.
+88,Writes the Document Type Definition to a file.
+89,Writes the Document Type Definition to a buffer.
+90,Writes the Document Type Definition to a clob.
+91,Retrieves the name of the Document type.
+92,Retrieves the nodemap of entities in the Document type.
+93,Retrieves the nodemap of the notations in the Document type.
+94,--
+95,Tests if the Element is NULL.
+96,Casts the Element to a node.
+97,Retrieves the qualified name of the element.
+98,Retrieves the NS URI of the element.
+99,Retrieves the local name of the element.
+100,Retrieves the expanded name of the element.
+101,Retrieves the children of the element by tag name.
+102,Retrieves the elements in the subtree by element.
+103,Resolve the prefix to a namespace uri.
+104,Retrieves the Tag name of the element.
+105,Retrieves the attribute node specified by the name.
+106,Sets the attribute specified by the name.
+107,Removes the attribute specified by the name.
+108,Retrieves the attribute node specified by the name.
+109,Sets the attribute node in the element.
+110,Removes the attribute node in the element.
+111,Normalizes the text children of the element.
+112,--
+113,Tests if the Entity is NULL.
+114,Casts the Entity to a node.
+115,Retrieves the public Id of the entity.
+116,Retrieves the system Id of the entity.
+117,Retrieves the notation name of the entity.
+118,--
+119,Tests if the entity reference is NULL.
+120,Casts the Entity reference to NULL.
+121,--
+122,Tests if the notation is NULL.
+123,Casts the notation to a node.
+124,Retrieves the public Id of the notation.
+125,Retrieves the system Id of the notation.
+126,--
+127,Tests if the processing instruction is NULL.
+128,Casts the Processing instruction to a node.
+129,Retrieves the data of the processing instruction.
+130,Retrieves the target of the processing instruction.
+131,Sets the data of the processing instruction.
+132,--
+133,Tests if the text is NULL.
+134,Casts the text to a node.
+135,Splits the contents of the text node into 2 text nodes.
+136,--
+137,Tests if the document is NULL.
+138,Casts the document to a node.
+139,Creates a new document.
+140,Frees the document.
+141,Retrieves the version of the document.
+142,Sets the version of the document.
+143,Retrieves the Character set of the document.
+144,Sets the Character set of the document.
+145,Retrieves if the document is specified as standalone.
+146,Sets the document standalone.
+147,Writes the document to a file.
+148,Writes the document to a buffer.
+149,Writes the document to a clob.
+150,Writes the DTD of the document to a file. [Not supported in this release]
+151,Writes the DTD of the document to a buffer. [Not supported in this release]
+152,Writes the DTD of the document to a clob. [Not supported in this release]
+153,Retrieves the DTD of the document.
+154,Retrieves the DOM implementation.
+155,Retrieves the root element of the document.
+156,Creates a new element.
+157,Creates a new document fragment.
+158,Creates a Text node.
+159,Creates a comment node.
+160,Creates a CDatasection node.
+161,Creates a processing instruction.
+162,Creates an attribute.
+163,Creates an Entity reference.
+164,Retrieves the elements in the by tag name.
+165,"FUNCTION adoptNode(doc DOMdocument, adoptednode domnode)RETURN DOMNode; Adopts the given node: removes it from its owner document and adds it to the given document."
+166,"FUNCTION createDocument (namspaceURI IN VARCHAR2, qualifiedName IN VARCHAR2, doctype IN DOMType) RETURN DocDocument;"
+167,FUNCTION getPrefix(n DOMNode) RETURN VARCHAR2;
+168,PROCEDURE setPrefix (n DOMNode) RETURN VARCHAR2;
+169,FUNCTION hasAttributes (n DOMNode) RETURN BOOLEAN;
+170,"FUNCTION getNamedItem (nnm DOMNamedNodeMap, name IN VARCHAR2, ns IN VARCHAR2) RETURN DOMNode;"
+171,"FUNCTION getNamedItem (nnm DOMNamedNodeMap, arg IN DOMNode, ns IN VARCHAR2) RETURN DOMNode;"
+172,"FUNCTION removeNamedItem (nnm DOMNamesNodeMap, name in VARCHAR2, ns IN VARCHAR2) RETURN DOMNode;"
+173,FUNCTION getOwnerElement (a DOMAttr) RETURN DOMElement;
+174,"FUNCTION getAttribute (elem DOMElement, name IN VARCHAR2, ns IN VARCHAR2) RETURN VARCHAR2;"
+175,"FUNCTION hasAttribute (elem DOMElement, name IN VARCHAR2) RETURN BOOLEAN;"
+176,"FUNCTION hasAttribute (elem DOMElement, name IN VARCHAR2, ns IN VARCHAR2) RETURN BOOLEAN;"
+177,"PROCEDURE setAttribute (elem DOMElement, name IN VARCHAR2, newvalue IN VARCHAR2, ns IN VARCHAR2);"
+178,"PROCEDURE removeAttribute (elem DOMElement, name IN VARCHAR2, ns IN VARCHAR2);"
+179,"FUNCTION getAttributeNode(elem DOMElement, name IN VARCHAR2, ns IN VARCHAR2) RETURN DOMAttr;"
+180,"FUNCTION setAttributeNode(elem DOMElement, newAttr IN DOMAttr, ns IN VARCHAR2) RETURN DOMAttr;"
+181,"FUNCTION createElement (doc DOMDocument, tagname IN VARCHAR2, ns IN VARCHAR2) RETURN DOMElement;"
+182,"FUNCTION createAttribute (doc DOMDocument, name IN VARCHAR2, ns IN VARCHAR2) RETURN DOMAttr;"

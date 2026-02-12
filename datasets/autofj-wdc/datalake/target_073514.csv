@@ -1,0 +1,101 @@
+id,title
+0,interface decl for PrelTup
+1,-O causes unbounded memory use
+2,Missing # from #-} elicits utterly opaque error
+3,"When compiled with -O2, we get extra warnings"
+4,Reading multiple files fails
+5,Installation procedure asks too much space
+6,Non-exhaultive patterns from derived Read
+7,GHCi Crash
+8,panic! (impossible happened) 5.0.2/RH6.2
+9,Signature context in recursive groups
+10,BIG Bignum => segfault
+11,Simplifier and optimization flags
+12,GHCi + profiling doesn't work
+13,user-visible env in GHCi sometimes wrong
+14,compiler panic with existential types and ... ?
+15,ghc --make + hi-boot + class declarations = trouble
+16,5.0: .hi files should indicate origin
+17,parsing of infix decls broken
+18,Incorrect source location on defaulting warnings.
+19,power-pc code generation error
+20,"Link failure with -prof (OS X, CVS GHC)"
+21,Program aborts with segmentation fault when profiling used.
+22,Segmentation fault compiling URI.hs
+23,FreeBSD port broken
+24,String gap fails for some chars
+25,"single-writer, multiple reader locking on files"
+26,Compiled code performance regression
+27,Internal compiler error with -O1 and -O2
+28,Bogus warning with OverloadedLists
+29,Coverage Condition cannot be turned off
+30,Cross-compiling from x86_64-unknown-linux-gnu to x86_64-sun-solaris2 tries to run target compiled inplace/lib/bin/mkGmpDerivedConstants on host/build
+31,"confusing specialization CORE warning, also can't mark type class instances INLINEABLE unless class defn is marked INLINEABLE"
+32,Float out causes major space leak
+33,Template Haskell cannot represent type wildcards
+34,Add wildcards (from partial type signatures) to template-haskell
+35,Better error message regarding type synonyms and PolyKinds
+36,Type class with injective type functions
+37,Regression in constraint solver from 7.8 to 7.10
+38,clang's cpp causes incorrect line numbers in type errors
+39,Optimizer has bugs regarding handling of -0.0
+40,repeated field name allowed in constructor
+41,«the 'impossible' happened» when compiling singletons
+42,round on negative fractionals causes a segfault
+43,the 'impossible' happened while building stack
+44,GHC cannot match representations using Coercible constraint
+45,runghc shows the value produced by main when its type is a non-() Show instance
+46,Constraints should commute over ~
+47,Name libraries (dll/so) separately from linker symbols
+48,Haskell Platform generic linux installer creates incorrect symlinks for /usr/local/man/man1 (and probably /usr/local/share/doc) when directory does not already exist
+49,"Confusing parse error when forgetting ""deriving"""
+50,Template variable unbound in rewrite rule
+51,"ghc: panic! (the 'impossible' happened) when building ""bitmap-0.0.2"""
+52,Couldn't match type ‘a’ with ‘Int’ / ‘a’ is untouchable / inside the constraints ()
+53,64-bit statically linked binary consumes all memory while spinning on 'SIGVTALRM's
+54,qual_pkg panic with template haskell
+55,compiling huge HashSet hogs memory
+56,compiling huge HashSet hogs memory
+57,Segfault when calling show on an Integer of a certain size
+58,internal error: evacuate: strange closure type 3269
+59,Release note links to Trac are wrong
+60,Warn when supplying version number to package-qualified import
+61,Documentation not built for base
+62,Weak inference when using rank-2 types and type families.
+63,Weak inference when using rank-2 types and type families.
+64,Weak inference when using rank-2 types and type families.
+65,System.IO.Error documentation refers to invalid module Control.Exception.Exception
+66,Remove magic parsing of (~)
+67,GHC readme.md seems out of date
+68,abs for IEEE floating point is slightly wrong.
+69,Clang CPP adds extra newline character
+70,GHC inlines past lambda in do-notation
+71,"Error message: f is applied to two arguments, but its type has only two (sic)"
+72,time: Show instance for UTCTime is orphan
+73,Provide option to show current module in ghci prompt without listing imported modules.
+74,Add (&) to Data.Function
+75,"GHC 7.8.4 panics while building ""vty"" library test suite"
+76,Error
+77,Derived DataKinds Typeable instance collision leads to SafeHaskell violation
+78,Allow switching to different monads in GHCi
+79,Linker error (TemplateHaskell + HPC?)
+80,Couldn't match type `Id (Id Char)' with `Char'
+81,Haddock panics when exporting a module with pattern synonyms
+82,Internal error when using equality constraint in pattern synonyms
+83,Inconsistent type family resolution
+84,LANGUAGE pragma parser nit
+85,Template Haskell does not seem to support StandaloneDeriving
+86,add a CPP program field to Settings file (decouple CPP program and C compiler choice)
+87,Docs on strictness info out of date
+88,Add flag to infer undefined for variables with only types
+89,ghcilink003 and ghcilink006 fail on OSX
+90,libHSghc exports more symbols than Windows can handle
+91,ffi/should_run fptr02 fails on OS X amd64
+92,No Typeable instance for type-level literals and promoted types
+93,/usr/local hard-coded in cabal
+94,Libraries installed in wrong place
+95,The most minimal Gloss project causes the profiler to fail silently.
+96,Installed signal handlers are not cleared up by GHC API
+97,Invalid object in processHeapClosureForDead(): 2130762223
+98,internal error: allocation of ... bytes too large
+99,allocation of 10790760 bytes too large

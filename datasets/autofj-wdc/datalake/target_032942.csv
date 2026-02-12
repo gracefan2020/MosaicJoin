@@ -1,0 +1,72 @@
+id,title
+0,Export to MathML Presentation Markup
+1,Some integration with the QtMathMLWidget widget
+2,Port Kalzium's periodic table to use new QGraphicsView.
+3,Separate compound viewer/editor application from Kalzium.
+4,"Remove the libavogadro snapshot, depend on libavogadro directly."
+5,Plasmoid to access Kalzium database
+6,Rewrite of the classic test writing/taking application
+7,Integrate an editor
+8,Plasmoid
+9,Theme manager
+10,Properties dialog for objects.
+11,Improve construction of bisect lines.
+12,Improve feedback when constructing objects.
+13,More geometric objects.
+14,Script objects as macros (to be reused more than once).
+15,Improve the Cabri import filter.
+16,Improve the new/edit script wizard.
+17,Visual Indicator when letter is wrong
+18,Number support
+19,Theme manager
+20,Marble widget for Geolocation tool
+21,Better printed star charts
+22,Sync KStars time from device
+23,Better rendering of comets/asteroids
+24,Texture mapping of the skymap???
+25,Improve Observing List Wizard
+26,Display Comet Magnitudes whenever possible
+27,Information links in-place for each technical term
+28,Tool to suggest star-hopping techniques???
+29,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+30,Extend conjunction tool to predict oppositions and occultations
+31,Simulate Lunar Eclipses
+32,Simulate Satellites and Iridium Flares
+33,Social and Geographical Integration for KStars
+34,Merge SAC with NGC / IC as default catalog
+35,Optional rulers/grid for canvas units
+36,Export map to MxN pixel bitmap
+37,Bookmarks
+38,Planet Filter
+39,Time KML support
+40,Support for MarbleWidget::setEnabled( bool )
+41,Map Contents translation
+42,Editing GeoDataFeatures
+43,"Update Map (""F5"")"
+44,Layer Management Class
+45,Plugin architecture for map layers
+46,Extending GeoPainter
+47,Marble Runners
+48,GeoClue Integration
+49,Routing
+50,More map providers (WMS?)
+51,Winkel Triple projection / equivalent
+52,Marble WorldClock Plasmoid
+53,Qt-Version settings dialog
+54,Panoramio Support
+55,Twitter Plugin
+56,TimeZone Support
+57,Support for other planets and the moon
+58,DGML2 Support
+59,Support for imperial units
+60,Graticule plugin
+61,MeasureTool plugin
+62,Port authors list from the Qt-About dialog to the KDE-About dialog
+63,Basic KML support
+64,GeoData Model/View Visualization
+65,More generic projection support
+66,Network plugins
+67,Geolocation plugins
+68,Declensions
+69,Improve GUI for creating softbody
+70,Use common constraints handling code for collisions

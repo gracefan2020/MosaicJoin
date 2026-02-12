@@ -1,0 +1,183 @@
+id,title
+0,Embedded Ada
+1,Embedded COBOL
+2,Embedded Fortran
+3,Embedded MUMPS
+4,Embedded Pascal
+5,Embedded PL/I
+6,Basic dynamic SQL
+7,Extended dynamic SQL
+8,Untyped SQL-invoked function arguments
+9,Dynamic specification of cursor attributes
+10,Extensions to embedded SQL exception declarations
+11,Enhanced execution rights
+12,Module language Ada
+13,Module language C
+14,Module language COBOL
+15,Module language Fortran
+16,Module language MUMPS
+17,Module language Pascal
+18,Module language PL/I
+19,Routine language Ada
+20,Routine language C
+21,Routine language COBOL
+22,Routine language Fortran
+23,Routine language MUMPS
+24,Routine language Pascal
+25,Routine language PL/I
+26,Routine language SQL
+27,Call-Level Interface
+28,Basic Privileges
+29,UPDATE privilege at the column level
+30,REFERENCES privilege at the column level
+31,USAGE privilege
+32,Basic cursor support
+33,Positioned UPDATE statement
+34,Positioned DELETE statement
+35,Updatable queries with subqueries
+36,Module language
+37,Basic diagnostics management
+38,GET DIAGNOSTICS statement
+39,SET TRANSACTION statement: DIAGNOSTICS SIZE clause
+40,Multiple module support
+41,Extended CASE expression
+42,Comma-separated predicates in simple CASE expression
+43,UNIQUE predicate
+44,CORRESPONDING in query expressions
+45,Schema definition statement
+46,CREATE VIEW: WITH CHECK OPTION
+47,MERGE statement
+48,Usage tables
+49,Unicode escapes in identifiers
+50,Unicode escapes in literals
+51,"Named column joins for LOBs, arrays, and multisets"
+52,Mixed column references in set functions
+53,Character set definition
+54,Named character sets
+55,Assertions
+56,Row and table constructors
+57,Simple tables
+58,Subqueries in CHECK
+59,Collation and translation
+60,Enhanced collation support
+61,SQL-session and client module collations
+62,Translation support
+63,Additional translation documentation
+64,Deferrable constraints
+65,INSERT column privileges
+66,Referential MATCH types
+67,View CHECK enhancements
+68,Extended flagging
+69,Basic flagging
+70,Extended flagging
+71,Local table references
+72,Full cursor update
+73,Updatable scrollable cursors
+74,Updatable ordered cursors
+75,Distinct data types
+76,USER_DEFINED_TYPES view
+77,Basic structured types
+78,Enhanced structured types
+79,Final structured types
+80,Self-referencing structured types
+81,Create method by specific method name
+82,Permutable UDT options list
+83,Basic reference types
+84,Enhanced reference types
+85,Create table of type
+86,Subtables
+87,Basic array support
+88,Arrays of built-in data types
+89,Arrays of distinct types
+90,Array expressions
+91,Arrays of user-defined types
+92,Arrays of reference types
+93,Array constructors by query
+94,Optional array bounds
+95,Array element assignment
+96,Type predicate
+97,Subtype treatment
+98,Subtype treatment for references
+99,SQL-invoked routines on arrays
+100,Array parameters
+101,Array as result type of functions
+102,SQL-invoked routines on multisets
+103,Structured type locators
+104,Array locators
+105,Multiset locators
+106,Transform functions
+107,Alter transform statement
+108,User-defined orderings
+109,Specific type method
+110,Basic multiset support
+111,Multisets of user-defined types
+112,Multisets of reference types
+113,Advanced multiset support
+114,Nested collection types
+115,Unique constraint on entire row
+116,Timestamp in Information Schema
+117,Basic LOB data type support
+118,BLOB data type
+119,CLOB data type
+120,"POSITION, LENGTH, LOWER, TRIM, UPPER, and SUBSTRING functions for LOB data types"
+121,Concatenation of LOB data types
+122,LOB locator: non-holdable
+123,Extended LOB data type support
+124,Row types
+125,MAX and MIN for row types
+126,Explicit aliases for all-fields reference
+127,UCS support
+128,"Updatable joins, unions, and columns"
+129,WITH (excluding RECURSIVE) in query expression
+130,WITH (excluding RECURSIVE) in subquery
+131,Recursive query
+132,Recursive query in subquery
+133,DISTINCT predicate with negation
+134,AS subquery clause in table definition
+135,Extended LIKE clause in table definition
+136,Identity columns
+137,Generated columns
+138,Sequence generator support
+139,Basic trigger capability
+140,Ability to specify a search condition that must be true before the trigger is invoked
+141,Support for run-time rules for the interaction of triggers and constraints
+142,Multiple triggers for the same event are executed in the order in which they were created in the catalog
+143,SET TRANSACTION statement: LOCAL option
+144,Chained transactions
+145,Enhanced savepoint management
+146,SELECT privilege with column granularity
+147,Functional dependencies
+148,Basic SQL-invoked routines
+149,User-defined stored procedures with no overloading
+150,CALL statement
+151,RETURN statement
+152,Explicit security for SQL routines
+153,Qualified SQL parameter references
+154,Table functions
+155,Basic roles
+156,Extended roles
+157,INSERT into a cursor
+158,UPDATE statement: SET ROW option
+159,Extended grouping capabilities
+160,Nested and concatenated GROUPING SETS
+161,Multiargument GROUPING function
+162,GROUP BY DISINCT
+163,Result sets return value
+164,LATERAL derived table
+165,Transaction counts
+166,Updatable table references
+167,Holdable locators
+168,Array-returning external SQL-invoked functions
+169,Multiset-returning external SQL-invoked functions
+170,Local cursor references
+171,Elementary OLAP operations
+172,Advanced OLAP operations
+173,Sampling
+174,Enhanced numeric functions
+175,IN predicate with one list element
+176,Multiple column assignment
+177,SQL-schema statements in SQL routines
+178,SQL-dynamic statements in SQL routines
+179,SQL-schema statements in external routines
+180,SQL-dynamic statements in external routines
+181,Cyclically dependent routines

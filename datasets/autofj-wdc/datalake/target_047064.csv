@@ -1,0 +1,455 @@
+id,title
+0,AK Anchorage
+1,AK State of Alaska
+2,AK Total
+3,AL Auburn-Opelika
+4,AL Birmingham
+5,AL Dothan
+6,AL Jasper
+7,AL Mobile
+8,AL Montgomery
+9,AL State of Alabama
+10,AL Tuscaloosa
+11,AL Total
+12,AR Fayetteville
+13,AR Little Rock-N. Little Rock
+14,AR Pine Bluff
+15,AR Springdale
+16,AR State of Arkansas
+17,AR Total
+18,AZ Phoenix
+19,AZ Tucson
+20,AZ Yuma
+21,AZ Total
+22,CA Davis
+23,CA Fairfield
+24,CA Folsom
+25,CA Lake Tahoe
+26,CA Los Angeles
+27,CA Palm Springs
+28,CA Riverside-San Bernadino
+29,CA Sacramento
+30,CA San Diego
+31,CA San Francisco-Oakland
+32,CA San Jose
+33,CA Santa Barbara
+34,CA Santa Cruz
+35,CA Santa Maria
+36,CA Santa Rosa
+37,CA Seaside-Monterey
+38,CA State of California
+39,CA Stockton
+40,CA Ukiah
+41,CA Woodland
+42,CA Total
+43,CO Boulder
+44,CO Breckinridge
+45,CO Colorado Springs
+46,CO Crested Butte
+47,CO Denver
+48,CO Durango
+49,CO Eagle County
+50,CO Fort Collins
+51,CO Greeley
+52,CO Pitken County
+53,CO Pueblo
+54,CO State of Colorado
+55,CO Telluride
+56,CO Vail
+57,CO Total
+58,CT Hartford
+59,CT New Haven-Meriden
+60,CT New London-Norwich
+61,CT State of Connecticut
+62,CT Total
+63,"DC Washington, DC-MD-VA"
+64,DC Total
+65,DE New Castle Co.
+66,DE State of Delaware
+67,DE Sussexx
+68,"DE Wilmington, DE-MD-NJ-PA"
+69,DE Total
+70,FL Daytona Beach
+71,FL Ft. Laud.-Hollywd-Pomp.
+72,FL Gainesville
+73,FL Jacksonville
+74,FL Key West
+75,FL Lakeland
+76,FL Melbourne
+77,FL Miami-Hialeah
+78,FL Ocala
+79,FL Orlando
+80,FL Pensacola
+81,FL Sarasota-Bradenton
+82,FL Tampa-St. Pete.-Clrwater
+83,FL Volusia County
+84,FL W Plm Bch-Boca Rtn-Dlry Bch
+85,FL Total
+86,GA Albany
+87,GA Athens
+88,GA Atlanta
+89,"GA Augusta, GA-SC"
+90,"GA Columbus, GA-AL"
+91,GA Macon
+92,GA Rome
+93,GA Savannah
+94,GA Total
+95,HI Honolulu
+96,HI Kauai
+97,HI State of Hawaii
+98,HI Total
+99,IA Ames
+100,IA Burlington
+101,IA Cedar Rapids
+102,"IA Davenport-Rk Isnd-Moline, IA-IL"
+103,IA Des Moines
+104,"IA Dubuque, IA-IL"
+105,IA Iowa City
+106,"IA Sioux City, SD-IA-NE"
+107,IA State of Iowa
+108,IA Waterloo
+109,IA Total
+110,ID Boise
+111,ID Pocatello
+112,ID State of Idaho
+113,ID Total
+114,IL Champaign-Urbana
+115,IL Chicago
+116,"IL Danville, IL-IN"
+117,"IL Davenport-Rk Isnd-Moline, IA-IL"
+118,IL Decatur
+119,IL DeKalb County
+120,IL Henry County
+121,IL Madison County
+122,IL Peoria
+123,IL Peoria County
+124,IL Quincy
+125,IL Rockford
+126,IL Springfield
+127,IL State of Illinois
+128,"IL St. Louis, MO-IL"
+129,IL Total
+130,IN Anderson
+131,IN Bedford
+132,IN Bloomington
+133,IN Evansville
+134,IN Fort Wayne
+135,IN Indianapolis
+136,IN Lafayette
+137,IN Monroe County
+138,IN Muncie
+139,IN Northwestern Indiana
+140,IN South Bend
+141,IN State of Indiana
+142,IN Terre Haute
+143,IN Total
+144,KS Johnson County
+145,"KS Kansas City, MO-KS"
+146,KS Lawrence
+147,KS State of Kansas
+148,KS Topeka
+149,KS Wichita
+150,KS Total
+151,"KY Cincinnati, OH-KY"
+152,KY Fort Wright
+153,KY Lexington
+154,"KY Louisville, KY-IN"
+155,KY Owensboro
+156,KY State of Kentucky
+157,KY Total
+158,LA Alexandria
+159,LA Baton Rouge
+160,LA Gretna
+161,LA Huoma
+162,LA Lafayette
+163,LA Lake Charles
+164,LA Monroe
+165,LA New Orleans
+166,LA Shreveport
+167,LA State of Louisiana
+168,LA Total
+169,MA Boston
+170,MA Greenfield
+171,"MA Lawrence-Haverhill, MA-NH"
+172,MA Lowell
+173,MA New Bedford
+174,MA Pittsfield
+175,"MA Springfield, MA-CT"
+176,MA State of Massachusetts
+177,MA Total
+178,MD Annapolis
+179,MD Baltimore
+180,MD Cumberland
+181,MD Frederick
+182,MD Frederick County
+183,MD Hagerstown
+184,MD Harford County
+185,MD Montgomery County
+186,MD Ocean City
+187,MD State of Maryland
+188,"MD Washington, DC-MD-VA"
+189,MD Total
+190,ME Bangor
+191,ME Lewiston-Auburn
+192,ME Portland
+193,"ME Portsmouth-Dvr-Rchstr, ME-NH"
+194,ME South Portland
+195,ME State of Maine
+196,ME Total
+197,MI Battle Creek
+198,MI Bay City
+199,MI Benton Harbor
+200,MI Detroit
+201,MI Flint
+202,MI Grand Rapids
+203,MI Jackson
+204,MI Kalamazoo
+205,MI Lansing-East Lansing
+206,MI Muskegon
+207,MI Niles
+208,MI Port Huron
+209,MI Saginaw
+210,MI State of Michigan
+211,MI Total
+212,"MN Duluth, MN-WI"
+213,"MN Fargo-Moorhead, ND-MN"
+214,MN Minneapolis-St. Paul
+215,MN Rochester
+216,MN State of Minnesota
+217,MN St. Cloud
+218,MN Total
+219,MO Columbia
+220,"MO Kansas City, MO-KS"
+221,MO Springfield
+222,"MO St. Joseph, MO-KS"
+223,"MO St. Louis, MO-IL"
+224,MO State of Missouri
+225,MO Total
+226,MS Biloxi-Gulfport
+227,MS Jackson
+228,MS State of Mississippi
+229,MS Total
+230,MT Billings
+231,MT Butte
+232,MT Great Falls
+233,MT Missoula
+234,MT State of Montana
+235,MT Total
+236,NC Ashville
+237,NC Chapel Hill
+238,NC Charlotte
+239,NC Durham
+240,NC Fayetteville
+241,NC Gaston County
+242,NC Gastonia
+243,NC Greensboro
+244,NC Greenville
+245,NC Hickory
+246,NC High Point
+247,NC Raleigh
+248,NC Raleigh-Durham-Chap Hll
+249,NC Research Triangle
+250,NC Rocky Mt.
+251,NC State of North Carolina
+252,NC Wilmington
+253,NC Winston-Salem
+254,NC Total
+255,ND Bismarck
+256,"ND Fargo-Moorhead, ND-MN"
+257,"ND Grand Forks, ND-MN"
+258,ND State of North Dakota
+259,ND Total
+260,NE Lincoln
+261,NE Omaha
+262,NE State of Nebraska
+263,NE Total
+264,NH Concord
+265,NH State of New Hampshire
+266,NH Total
+267,NJ Northeastern New Jersey
+268,NJ Total
+269,NM Albuquerque
+270,NM Las Cruces
+271,NM Rio Rancho
+272,NM Santa Fe
+273,NM State of New Mexico
+274,NM Taos
+275,NM Total
+276,NV Las Vegas
+277,NV Reno
+278,NV State of Nevada
+279,NV Total
+280,NY Albany-Schenectady-Troy
+281,NY Binghamton
+282,NY Broome County
+283,NY Buffalo-Niagara Falls
+284,NY Chemung County
+285,NY Elmira
+286,NY Ithaca
+287,NY Nassau County
+288,NY New York City
+289,NY Poughkeepsie
+290,NY Rochester-Gennesse
+291,NY State of New York
+292,NY Syracuse
+293,NY Utica-Rome
+294,NY Westchester County
+295,NY Total
+296,OH Akron
+297,OH Brunswick
+298,OH Canton
+299,"OH Cincinnati, OH-KY"
+300,OH Cleveland
+301,OH Columbus
+302,OH Dayton
+303,OH Hamilton
+304,OH Lake County
+305,"OH Lorain-Elyria, OH"
+306,OH Mansfield
+307,OH Springfield
+308,OH State of Ohio
+309,"OH Toledo, OH-MI"
+310,"OH Wheeling, WV-OH"
+311,OH Youngstown-Warren
+312,OH Total
+313,OK Enid
+314,OK Lawton
+315,OK Oklahoma City
+316,OK State of Oklahoma
+317,OK Tulsa
+318,OK Total
+319,OR Albany
+320,OR Corvallis
+321,OR Eugene-Springfield
+322,OR Klamath Falls
+323,OR Medford
+324,"OR Portland-Vancouver, OR-WA"
+325,OR Salem
+326,OR State of Oregon
+327,OR Wilsonville
+328,OR Total
+329,"PA Allentown-Beth.-Easton, PA-NJ"
+330,PA Altoona
+331,PA Chambersburg
+332,PA Erie
+333,PA Harrisburg
+334,PA Indiana
+335,PA Johnsonburg
+336,PA Johnstown
+337,PA Kittanning
+338,PA Monessen
+339,"PA Philadelphia, PA-NJ"
+340,PA Pittsburgh
+341,PA Scranton-Wilkes Barre
+342,"PA Sharon, PA-OH"
+343,PA Somerset City
+344,PA State College
+345,PA State of Pennsylvania
+346,PA Williamsport
+347,PA York
+348,PA Total
+349,PR San Juan
+350,PR Total
+351,"RI Providence-Pwtckt, RI-MA"
+352,RI Total
+353,SC Charleston
+354,SC Columbia
+355,SC Florence
+356,SC Greenville
+357,SC State of South Carolina
+358,SC Total
+359,SD Sioux Falls
+360,SD State of South Dakota
+361,SD Total
+362,TN Bristol
+363,TN Chattanooga
+364,"TN Clarksville, TN-KY"
+365,TN Gatlinburg
+366,TN Jackson
+367,TN Johnson City
+368,TN Kingsport
+369,TN Knoxville
+370,"TN Memphis, TN-AR-MS"
+371,TN Nashville
+372,TN Pigeon Forge
+373,TN State of Tennessee
+374,TN Total
+375,TX Abilene
+376,TX Amarillo
+377,TX Austin
+378,TX Beaumont
+379,TX Brazos Valley
+380,TX Brownsville
+381,TX Bryan-College Station
+382,TX Corpus Christi
+383,TX Dallas-Fort Worth
+384,"TX El Paso, TX-NM"
+385,TX Galveston
+386,TX Houston
+387,TX Laredo
+388,TX Lubbock
+389,TX San Angelo
+390,TX San Antonio
+391,TX San Marcos
+392,TX State of Texas
+393,TX Waco
+394,TX Total
+395,UT Ogden
+396,UT Park City
+397,UT Provo-Orem
+398,UT Salt Lake City
+399,UT Total
+400,VA Charlottesville
+401,VA Lynchburg
+402,VA Richmond
+403,VA Roanoke
+404,VA State of Virginia
+405,"VA Washington, DC-MD-VA"
+406,VA Total
+407,VI St. Thomas
+408,VI Total
+409,VT Barre / Montpelier
+410,VT Bennington
+411,VT Burlington
+412,VT Rutland
+413,VT State of Vermont
+414,VT Total
+415,WA Bellingham
+416,WA Olympia
+417,WA Richland
+418,WA Seattle
+419,WA Spokane
+420,WA State of Washington
+421,WA Tacoma
+422,WA Total
+423,WI Appleton
+424,"WI Beloit, WI-IL"
+425,WI Chippewa Falls
+426,WI Eau Claire
+427,WI Green Bay
+428,WI Janesville
+429,WI Kenosha
+430,"WI La Crosse, WI-MN"
+431,WI Madison
+432,WI Milwaukee
+433,WI Oshkosh
+434,WI Racine
+435,WI Sheboygan
+436,WI State of Wisconsin
+437,WI Superior
+438,WI Wausau
+439,WI Total
+440,WV Charleston
+441,"WV Huntington-Ashland, WV-KY-OH"
+442,WV Martinsburg
+443,WV Morgantown
+444,WV Parkersburg
+445,"WV Wheeling, WV-OH"
+446,WV State of West Virginia
+447,"WV Steubenville-Weir, OH-PH-WV"
+448,WV Total
+449,WY Riverton
+450,WY Rock Spring
+451,WY Total
+452,TOTAL
+453,% of 10-yr Total

@@ -1,0 +1,103 @@
+id,title
+0,OpenJPAPersistence.EntityManager
+1,OpenJPAPersistence.EntityManagerFactory
+2,OpenJPAPersistence.toEntityManagerFactory (BrokerFactory)
+3,OpenJPAPersistence.toBrokerFactory(EntityManagerFactory)
+4,OpenJPAPersistence.toEntityManager(Broker)
+5,OpenJPAPersistence.toBroker(EntityManager)
+6,OpenJPAPersistence.getMetaData(Object)
+7,"OpenJPAPersistence.getMetaData(EntityManager, Class)"
+8,"OpenJPAPersistence.getMetaData(EntityManagerFactory, Class)"
+9,OpenJPAPersistence.fromOpenJPAObjectId(Object)
+10,"OpenJPAPersistence.toOpenJPAObjectId(ClassMetaData, Object)"
+11,"OpenJPAPersistence.toOpenJPAObjectId(ClassMetaData, Object[])"
+12,"OpenJPAPersistence.toOpenJPAObjectId(ClassMetaData, Collection)"
+13,OpenJPAPersistence.fromOpenJPAObjectIdClass(Class)
+14,FetchPlan.getQueryResultCache()
+15,FetchPlan.setQueryResultCache(boolean cache)
+16,FetchPlan.getDelegate()
+17,OpenJPAEntityManagerFactory.CONN_RETAIN_DEMAND
+18,OpenJPAEntityManagerFactory.CONN_RETAIN_TRANS
+19,OpenJPAEntityManagerFactory.CONN_RETAIN_ALWAYS
+20,OpenJPAEntityManagerFactory.getConfiguration()
+21,"OpenJPAEntityManagerFactory.addLifecycleListener(Object, Class[])"
+22,OpenJPAEntityManagerFactory.removeLifecycleListener(Object)
+23,OpenJPAEntityManagerFactory.addTransactionListener(Object)
+24,OpenJPAEntityManagerFactory.removeTransactionListener(Object)
+25,QueryResultCache.getDelegate()
+26,Extent.getDelegate()
+27,OpenJPAQuery.OP_SELECT
+28,OpenJPAQuery.OP_DELETE
+29,OpenJPAQuery.OP_UPDATE
+30,OpenJPAQuery.FLUSH_TRUE
+31,OpenJPAQuery.FLUSH_FALSE
+32,OpenJPAQuery.FLUSH_WITH_CONNECTIONS
+33,OpenJPAQuery.addFilterListener(FilterListener)
+34,OpenJPAQuery.removeFilterListener(FilterListener)
+35,OpenJPAQuery.addAggregateListener(AggregateListener)
+36,OpenJPAQuery.removeAggregateListener(AggregateListener)
+37,StoreCache.getDelegate()
+38,Generator.getDelegate()
+39,OpenJPAEntityManager.CONN_RETAIN_DEMAND
+40,OpenJPAEntityManager.CONN_RETAIN_TRANS
+41,OpenJPAEntityManager.CONN_RETAIN_ALWAYS
+42,OpenJPAEntityManager.DETACH_FETCH_GROUPS
+43,OpenJPAEntityManager.DETACH_FGS
+44,OpenJPAEntityManager.DETACH_LOADED
+45,OpenJPAEntityManager.DETACH_ALL
+46,OpenJPAEntityManager.RESTORE_ALL
+47,OpenJPAEntityManager.RESTORE_NONE
+48,OpenJPAEntityManager.RESTORE_IMMUTABLE
+49,OpenJPAEntityManager.DETACH_CLOSE
+50,OpenJPAEntityManager.DETACH_COMMIT
+51,OpenJPAEntityManager.DETACH_NONTXREAD
+52,OpenJPAEntityManager.DETACH_ROLLBACK
+53,OpenJPAEntityManager.CLEAR_DATASTORE
+54,OpenJPAEntityManager.CLEAR_ALL
+55,OpenJPAEntityManager.CALLBACK_FAIL_FAST
+56,OpenJPAEntityManager.CALLBACK_IGNORE
+57,OpenJPAEntityManager.CALLBACK_LOG
+58,OpenJPAEntityManager.CALLBACK_RETHROW
+59,OpenJPAEntityManager.CALLBACK_ROLLBACK
+60,OpenJPAEntityManager.getConfiguration()
+61,OpenJPAEntityManager.setRestoreState(int)
+62,OpenJPAEntityManager.setDetachState(int)
+63,OpenJPAEntityManager.setAutoClear(int)
+64,OpenJPAEntityManager.setAutoDetach(int)
+65,"OpenJPAEntityManager.setAutoDetach(int, boolean)"
+66,OpenJPAEntityManager.isLargeTransaction()
+67,OpenJPAEntityManager.setLargeTransaction(boolean)
+68,OpenJPAEntityManager.addTransactionListener(Object)
+69,OpenJPAEntityManager.removeTransactionListener(Object)
+70,OpenJPAEntityManager.getTransactionListenerCallbackMode()
+71,OpenJPAEntityManager.setTransactionListenerCallbackMode(int)
+72,"OpenJPAEntityManager.addLifecycleListener(Object, Class[])"
+73,OpenJPAEntityManager.removeLifecycleListener(Object)
+74,OpenJPAEntityManager.getLifecycleListenerCallbackMode()
+75,OpenJPAEntityManager.setLifecycleListenerCallbackMode(int)
+76,OpenJPAEntityManager.begin()
+77,OpenJPAEntityManager.commit()
+78,OpenJPAEntityManager.rollback()
+79,OpenJPAEntityManager.isActive()
+80,OpenJPAEntityManager.commitAndResume()
+81,OpenJPAEntityManager.rollbackAndResume()
+82,OpenJPAEntityManager.setRollbackOnly()
+83,OpenJPAEntityManager.setRollbackOnly(Throwable)
+84,OpenJPAEntityManager.getRollbackCause()
+85,OpenJPAEntityManager.getRollbackOnly()
+86,JDBCFetchPlan.EAGER_MODE
+87,JDBCFetchPlan.EAGER_JOIN
+88,JDBCFetchPlan.EAGER_PARALLEL
+89,JDBCFetchPlan.SIZE_UNKNOWN
+90,JDBCFetchPlan.SIZE_LAST
+91,JDBCFetchPlan.SIZE_QUERY
+92,JDBCFetchPlan.SYNTAX_SQL92
+93,JDBCFetchPlan.SYNTAX_TRADITIONAL
+94,JDBCFetchPlan.SYNTAX_DATABASE
+95,JDBCFetchPlan.setEagerFetchMode(int)
+96,JDBCFetchPlan.setSubclassFetchMode(int)
+97,JDBCFetchPlan.setResultSetType(int)
+98,JDBCFetchPlan.setFetchDirection(int)
+99,JDBCFetchPlan.getLRSSize()
+100,JDBCFetchPlan.setLRSSize(int)
+101,JDBCFetchPlan.setJoinSyntax(int)

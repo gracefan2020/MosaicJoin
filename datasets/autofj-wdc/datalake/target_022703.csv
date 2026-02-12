@@ -1,0 +1,50 @@
+id,title
+0,Attempt to recover from people calling UNIVERSAL::isa as a function
+1,(DEPRECATED) Wrapper Class for the various JSON classes
+2,Keep imports out of your namespace
+3,A Test::Deep plugin for comparing an unordered list of tuples
+4,Parse various dpkg files into Perl Objects
+5,Pull in hand-crafted metadata from a specified file.
+6,(DEPRECATED) Declarative syntax for Moose
+7,make NEXT suck less
+8,Dist::Zilla plugin configuration for me
+9,"Common tests to check syntax of your modules, only using core modules"
+10,Vertically pad a string
+11,PkgVersion for block packages
+12,Dist::Zilla configuration the way BAREFOOT does it
+13,Nothing to be done
+14,Author tests that ensure hard tabs are not used
+15,Fine-grained cloning support for Moose objects.
+16,dzil plugins used by Dancer projects
+17,A LWP::UserAgent suitable for simulating and testing network calls
+18,Mashes up MooseX::Getopt and App::Cmd
+19,A more awesome MakeMaker plugin for Dist::Zilla
+20,ISO8601 date and duration string type constraints and coercions for Moose
+21,Removes empty leading and trailing lines
+22,(DEPRECATED) Temporary files support for testing
+23,Execute code after a scope finished compilation
+24,Dist::Zilla configuration the way MITHALDU does it
+25,Erlang-inspired babysitting
+26,Map::Metro map for Lille
+27,Compare data and files at different phases of the distribution build process
+28,Remove prerequisites that are already provided.
+29,Automatically add all plugins in a bundle as dependencies
+30,A serialization framework for Moose classes
+31,Author tests for POD spelling
+32,a module that declares its $VERSION in hexadecimal
+33,Map::Metro map for Helsinki
+34,A Test::Deep plugin for comparing YAML-encoded data
+35,(re)name a sub
+36,add metadata to your distribution marking it as deprecated
+37,Author tests making sure correct line endings are used
+38,Perl version plugin for Badge::Depot
+39,Dist::Zilla Mixed Up
+40,"Mmm, pie"
+41,BeLike::RJBS when you build your dists
+42,Dump all plugins that 'do' a certain role
+43,KENTNL's DZil plugin testing tool
+44,Dump a textual representation of each phase's parts.
+45,Perform arbitrary commands when Dist::Zilla prompts you
+46,build your dist and run Perl::Critic on the built files.
+47,bake dist.ini to not need the bundles.
+48,BeLike::GENEHACK when you zilla your dist

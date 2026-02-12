@@ -1,0 +1,315 @@
+id,title
+0,Alarm Indication Signal
+1,Alarm Indication Signal-Line
+2,Automatic Laser Shutdown
+3,Optical Amplifier Initialization
+4,Automatic Power Control Disabled
+5,Automatic Power Control Failure
+6,Byte Failure
+7,Improper Automatic Protection Switch (APS) Code
+8,Default K Byte
+9,Inconsistent APS Code
+10,Protection Switching Channel Match Failure
+11,Node ID Mismatch
+12,APS Invalid Mode
+13,APS Mode Mismatch
+14,Alarms Suppressed By User Command
+15,Alarms Suppressed For Maintenance
+16,AIS-Administration Unit-Alarm Indication Signal
+17,LOF-Administration Unit-Loss of Multi Frame
+18,LOP-Administration Unit-Loss of Pointer
+19,Audit Log 100 Percent Full-Oldest records will be lost
+20,Audit Log 80 Percent Full
+21,Automatic Laser Shutoff Due To High Temperature
+22,Automatic System Reset
+23,Automatic SNCP Switch caused by AIS
+24,Automatic SNCP Switch Caused By LOP
+25,Automatic SNCP Switch Caused By PDI
+26,Automatic SNCP Switch Caused By SDBER
+27,Automatic SNCP Switch Caused By SFBER
+28,Automatic SNCP Switch Caused By UNEQ
+29,AWG Temperature Degrade
+30,AWG Temperature Failure
+31,AWG Over-Temperature
+32,AWG Warm Up
+33,Battery Failure
+34,High Volt
+35,Low Volt
+36,Primary Non-Volatile Backup Memory Failure
+37,Carrier Loss On The LAN
+38,Case Temperature Degrade
+39,Signaling unable to set up circuit
+40,Cold Restart
+41,IO Slot To XCON Communication Failure
+42,Plug-in Module Communication Failure
+43,TCC A To DCC A Processor Communication Failure
+44,TCC B To DCC B Processor Communication Failure
+45,Controller A To Shelf Slot Communication Failure
+46,Controller B To Shelf Slot Communication Failure
+47,Connection Equipment Mismatch
+48,Interconnection Equipment Failure-Protect XC Payload Bus
+49,Interconnection Equipment Failure-Working XC Payload Bus
+50,Software Fault-Data Integrity Fault
+51,Standby Database Out of Sync
+52,DS3 Frame Format Mismatch
+53,DSP Communication Failure
+54,DSP Failure
+55,IP address already in use within the same DCC Area
+56,Node name already in use within the same DCC area
+57,Both Ends Of Fiber Provisioned As East Or Both As West
+58,E3 Idle Condition
+59,Extreme High Volt
+60,Extreme Low Volt
+61,RS-DCC Termination Failure
+62,Equipment Failure
+63,Replaceable Equipment/Unit is Missing
+64,Enhanced Remote Failure Indication-Path-Connectivity
+65,Enhanced Remote Failure Indication-Path-Payload
+66,Enhanced Remote Failure Indication-Path-Server
+67,Error in Startup Configuration
+68,Rear Panel Ethernet Link Removed
+69,Excess Collisions On The LAN
+70,Exercise Request on Ring Failed
+71,Exercise Request on Ring
+72,Exercise Request on Span Failed
+73,Exercise Request on Span
+74,Failure Detected External To The NE
+75,Extra Traffic Preempted
+76,Failure To Switch To Protection
+77,Failure To Switch To Protection-High Order Path
+78,Failure To Switch To Protection-Low Order Path
+79,Failure To Switch To Protection-Ring
+80,Failure To Switch To Protection-Span
+81,Fan Failure
+82,Partial Fan Failure
+83,Far End AIS
+84,Far End Multiple DS1 LOS Detected On DS3
+85,Far End DS1 Equipment Failure-Non Service Affecting
+86,Far End DS1 Equipment Failure-Service Affecting
+87,Far End Single DS1 LOS
+88,Far End DS3 Equipment Failure-Non Service Affecting
+89,Far End DS3 Equipment Failure-Service Affecting
+90,Far end multiple E1 LOS detected on E3
+91,Far end E1 eqpt fail non service affecting
+92,Far end E1 eqpt fail service affecting
+93,Far end signal E1 LOS
+94,Far end E3 eqpt fail non service affecting
+95,Far end E3 eqpt fail service affecting
+96,Far End Common Equipment Failure-Non Service Affecting
+97,Far End Exercising Ring
+98,Far End Exercising Span
+99,Far End Working Facility Forced To Switch To Protection-Ring
+100,Far End Working Facility Forced To Switch To Protection-Span
+101,Far End IDLE
+102,Far End Lockout Of Protection-All Spans
+103,Far End Lockout Of Protection-Ring
+104,Far End Lockout Of Protection-Span
+105,Far End Lockout Of Working-Ring
+106,Far End Lockout Of Working-Span
+107,Far End LOF
+108,Far End LOS
+109,Far End Manual Switch Of Working Facility To Protection-Ring
+110,Far End Manual Switch Of Working Facility To Protection-Span
+111,APS Channel-Far End Protection Line Signal Degrade
+112,FEC Mismatch
+113,Far End Protection Line Failure
+114,Fiber Temperature Degrade
+115,Forced Switch Request
+116,Forced Switch Request On Ring
+117,Forced Switch Request On Span
+118,Forced Switch To Internal Clock
+119,Forced Switch To Primary Reference
+120,Forced Switch To Second Reference
+121,Forced Switch To Third Reference
+122,Free Running Synchronization Mode
+123,Fast Start Synchronization Mode
+124,Bidirectional Full Pass Through Is Active
+125,Optical Amplifier Gain Degrade High
+126,Optical Amplifier Gain Failure High
+127,Optical Amplifier Gain Degrade Low
+128,Optical Amplifier Gain Failure Low
+129,GCC Termination Failure
+130,Gigabit Ethernet Out of Sync
+131,Equipment High Laser Bias
+132,Equipment High Receive Power
+133,Equipment High Transmit Power
+134,High Temperature
+135,Holdover Synchronization Mode
+136,Remote Failure Indication-High Order-Remote Failure/Alarm Indication
+137,High Order-Trace Identifier Mismatch Failure
+138,Signal Label Mismatch Failure (SLMF)-Unequipped High Order-Path Unequipped
+139,Industrial High Temperature
+140,Improper Removal
+141,Out Of Frame Detected by Generic Framing Protocol (GFP) Receiver
+142,Client Signal Loss Frames Detected by GFP Receiver
+143,DS3 Idle Condition
+144,Incoming Signal Loss on Fibre Channel Interface
+145,Incoming Synchronization Loss on Fibre Channel Interface
+146,Client Synchronization Loss Frames Detected by GFP Receiver
+147,Inhibit Switch To Protect Request On Equipment
+148,Inhibit Switch To Working Request On Equipment
+149,Security Intrusion Attempt Detected-See Audit Log
+150,Invalid MAC Address
+151,Ios Config Copy In Progress
+152,K Bytes Pass-Through Is Active
+153,Kbyte Channel Failure
+154,Lan Connection Polarity Reversed
+155,Laser Auto Power Reduction
+156,Laser Bias Degrade
+157,Laser Bias Failure
+158,Laser Approaching End of Life
+159,Laser Temperature Degrade
+160,Lockout Of Protection-Ring
+161,Lockout Of Protection-Span
+162,Lockout Of Working-Ring
+163,Lockout Of Working-Span
+164,Link Management Protocol (LMP) Hello FSM to Control Channel down
+165,LMP Neighbor Discovery has failed
+166,Equipment Low Receive Power
+167,Equipment Low Transmit Power
+168,Loss of Alignment
+169,Loss of Channel
+170,Lockout Switch Request On Facility or Equipment
+171,Lockout Switch Request On Ring
+172,Lockout Of Protection
+173,Loss Of Frame
+174,Loss of Multi-Frame
+175,Loss Of Signal
+176,Loss Of Continuity
+177,Signal Label Mismatch Failure (SLMF)-PLM Low Order-Path Label Mismatch
+178,RFI-Low Order-Remote Failure/Alarm Indication
+179,TIM Low Order-Trace Identifier Mismatch Failure
+180,Signal Label Mismatch Failure (SLMF)-Unequipped Low Order-Path Unequipped
+181,Cross-connect Loopback
+182,DS1 Loopback Due To Far End Alarm and Control (FEAC) Command
+183,DS3 Loopback Due To FEAC Command
+184,DS3 Loopback Command Sent To Far End
+185,E1 loopback due to FEAC command
+186,E3 loopback due to FEAC command
+187,E3 loopback command sent to far end
+188,Facility Loopback
+189,Terminal Loopback
+190,Manual Switch Request
+191,Manual System Reset
+192,Manual Switch To Internal Clock
+193,Manual Switch To Primary Reference
+194,Manual Switch To Second Reference
+195,Manual Switch To Third Reference
+196,Manual Switch Request On Ring
+197,Manual Switch Request On Span
+198,Mismatch Of Equipment And Attributes
+199,Free Memory On Card Near Zero
+200,Free Memory On Card Very Low
+201,Manufacturing Data Memory (EEPROM Failure)
+202,AIS-Multiplex Section-Alarm Indication Signal
+203,Multiplex Section DCC Termination Failure
+204,RFI-Multiplex Section-Remote Failure/Alarm Indication
+205,Procedural Error-MS-SPRing out of sync
+206,No Startup Configuration
+207,Network Topology Incomplete
+208,Optical Channel Activation Failure
+209,Optical Channel Deactivation Failure
+210,Optical Channel Connection Failure
+211,Optical Channel Incomplete
+212,ODUk: Alarm Indication Signal
+213,ODUk: PM Backward Defect Indication
+214,ODUk: Locked Defect -Performance Monitoring (PM)
+215,ODUk: Open Connection Indication
+216,ODUk: Signal Degrade
+217,ODUk: Signal Failure
+218,ODUk: Trail Trace Identifier Mismatch
+219,Out of Use-Transport Failure
+220,Optical Network Type Mismatch
+221,Optical Power Degrade High
+222,Optical Power Failure High
+223,Optical Power Degrade Low
+224,Optical Power Failure Low
+225,OTUk: Alarm Indication Signal
+226,OTUk: Backward Defect Indication
+227,OTUk: Loss Of Frame
+228,OTUk: Signal Degrade
+229,OTUk: Signal Failure
+230,OTUk: Trail Trace Identifier Mismatch
+231,8B10B Out of Sync
+232,Payload Defect Indication-Path
+233,Peer Card Not Responding
+234,Pluggable port security code mismatch
+235,Module Communication Failure
+236,Pluggable port rate mismatch
+237,Pluggable port missing
+238,Duplicate Node ID
+239,Protection Unit Not Available
+240,Payload Type Identifier Mismatch
+241,Redundant Power Capability Lost
+242,Remote Alarm Indication
+243,Facility Termination Equipment-Receiver Missing
+244,Remote Failure Indication
+245,Remote Failure Indication-Line
+246,Ring Id Mismatch
+247,Far End Of Fiber Is Provisioned With Different Ring ID
+248,Ring Switch Is Active On The East Side
+249,Ring Switch Is Active On The West Side
+250,RSVP Hello FSM to Neighbor down
+251,Need to Save Running Config
+252,Signal Degrade
+253,Bit Error Rate (BER) Threshold Exceeded For Signal Degrade-Line
+254,BER Threshold Exceeded For Signal Degrade-High Order
+255,Signal Failure
+256,BER Threshold Exceeded For Signal Failure-Line
+257,BER Threshold Exceeded For Signal Failure-High Order
+258,Software Download In Progress
+259,Shutter Insertion Loss Variation Degrade High
+260,Shutter Insertion Loss Variation Degrade Low
+261,Shutter Open
+262,Simple Network time Protocol (SNTP) Host Failure
+263,Span Switch Is Active On The East Side
+264,Span Switch Is Active On The West Side
+265,Sequence Mismatch
+266,Ring Is Squelching Traffic
+267,Squelching Path
+268,Equipment Squelched
+269,Do Not Use For Synchronization
+270,Failed To Receive Synchronization Status Message
+271,ITU-T G.812-Local Node Clock traceable
+272,Synchronization Status Messages Are Disabled On This Interface
+273,ITU-T G.811-Primary Reference Clock traceable
+274,Stratum 1 Primary Reference Source Traceable
+275,Reserved For Network Synchronization Use
+276,ITU-T G.812-Transit Node Clock traceable
+277,ITU-T G.813-Synchronous Equipment Timing Source traceable
+278,SDH Minimum Clock Traceable
+279,Stratum 2 Traceable
+280,Stratum 3 Traceable
+281,Stratum 3E Traceable
+282,Stratum 4 Traceable
+283,Synchronized-Traceability Unknown
+284,Transit Node Clock Traceable
+285,Switching Matrix Module Failure
+286,Switch To Primary Reference
+287,Switch To Second Reference
+288,Switch To Third Reference
+289,Synchronization Reference Frequency Out Of Bounds
+290,Primary Synchronization Reference Failure
+291,Secondary Synchronization Reference Failure
+292,Third Synchronization Reference Failure
+293,System Reboot
+294,TIM Section-Trace Identifier Mismatch Failure
+295,TIM Section Monitor-Trace Identifier Mismatch Failure
+296,Transport layer failure
+297,Transmit Failure
+298,Facility Termination Equipment-Transmitter Missing
+299,AIS-Tributary Unit-Alarm Indication Signal
+300,LOP-Tributary Unit-Loss of Pointer
+301,Ethernet Transmit First In First Out Underrun
+302,Alarm Indication Signal in TX
+303,Remote Alarm Indication in TX
+304,FEC Uncorrected Word
+305,VCAT Group Degraded
+306,VCAT Group Down
+307,Variable Optical Attenuator Degrade High
+308,Variable Optical Attenuator Failure High
+309,Variable Optical Attenuator Degrade Low
+310,Variable Optical Attenuator Failure Low
+311,Switched To Protection
+312,Wait To Restore
+313,Equipment Wavelength Mismatch

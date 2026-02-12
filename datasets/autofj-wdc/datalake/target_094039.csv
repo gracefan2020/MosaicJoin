@@ -1,0 +1,241 @@
+id,title
+0,Device Unreachable
+1,Device Inaccessible
+2,Interface Error
+3,Service Infrastructure Error
+4,CTS Malfunction
+5,Telepresence endpoint Peripheral Error
+6,Device Unregistered
+7,Resource Low
+8,Call Termination
+9,Call Quality - Packet Loss
+10,Call Quality - Jitter
+11,Call Quality - Latency
+12,Cluster replication error
+13,Hardware failure
+14,Capacity and license warning
+15,NTP server warning
+16,Failed to load Call Policy file
+17,Database failure
+18,Uncontrolled shutdown detected
+19,Application failure
+20,Cluster communication failure
+21,SNMP service warning
+22,TMS service warning
+23,Zone is not active
+24,The percentage of CPU load is over the configured percentage.
+25,The percentage of available virtual memory is lower than the configured value.
+26,The percentage of available active disk space is lower than the configured value.
+27,The percentage of available swap disk space is lower than the configured value.
+28,The percentage of available inactive disk space is lower than the configured value.
+29,The percentage of used disk space in the log partition has exceeded the configured high water mark.
+30,The percentage of used disk space in the log partition has exceeded the configured low water mark.
+31,DB replication error.
+32,Environment error
+33,Operational status warning
+34,Blade in critical conditions
+35,Supervisor fan tray problem
+36,Supervisor power shelf fault
+37,Supervisor voltage problem
+38,System reset
+39,Call terminated by error
+40,ICTCallThrottlingStart
+41,Number Of Registered Gateways Increased
+42,Number Of Registered Gateways Decreased
+43,SystemVersionMismatched
+44,LowAvailableDiskSpace
+45,UnknownPublisher
+46,RTMTDataMissing
+47,LowAvailableInboxLicenses
+48,Media List Exhausted
+49,Route List Exhausted
+50,Authentication Failed
+51,Duplicate IP Address
+52,ExcessiveFragmentation
+53,Flapping
+54,HighBackplaneUtilization
+55,HighBroadcastRate
+56,HighBufferMissRate
+57,HighBufferUtilization
+58,HighCollisionRate
+59,HighDiscardRate
+60,HighErrorRate
+61,HighUtilization
+62,InformAlarm
+63,InsufficientFreeMemory
+64,OperationallyDown
+65,OutofRange
+66,RepeatedRestarts
+67,Unresponsive
+68,ServiceDown
+69,HTTPInaccessible
+70,SyntheticTestFailed
+71,DPAPortCallManagerLinkDown
+72,DPAPortTelephonyLinkDown
+73,FanDegraded
+74,FanDown
+75,InsufficientFreeHardDisk
+76,LowInactivePartitionAvailableDiskSpace
+77,LowActivePartitionAvailableDiskSpace
+78,InsufficientFreeVirtualMemory
+79,LowAvailableVirtualMemory
+80,PowerSupplyDegraded
+81,PowerSupplyDown
+82,TemperatureHigh
+83,TemperatureSensorDegraded
+84,TemperatureSensorDown
+85,EndPointLostContact
+86,VoicePortOperationallyDown
+87,CCMEDown
+88,ComponentDown
+89,NicDown
+90,PimDown
+91,TotalTimeUsedThresholdExceeded
+92,Code Red
+93,Code Yellow
+94,DataPhysicalDiskDown
+95,SCSIDriveDown
+96,IdeAtaDiskDown
+97,CUEApplicationStatusChange
+98,CUEStorageIssue
+99,CUECallAgentConnectionLost
+100,CUEResourceExhausted
+101,CUEBackupFailed
+102,CUENTPIssue
+103,IPCCDualStateNotification
+104,IPCCSingleStateNotification
+105,SRSTRouterFailure
+106,CCMEStatusChange
+107,CCMEMaximumConferencesExceeded
+108,CCMELivefeedMOHFailed
+109,CCMEEphoneUnregistrationsExceeded
+110,CCMEEphoneDeceased
+111,CCMEEphoneRegistrationFailed
+112,CCMEEphoneLoginFailed
+113,CCMENightServiceChange
+114,CCMEKeyEphoneRegistrationChange
+115,DeviceRestarted
+116,CPUUtilizationExceeded
+117,CPALoginFailureThresholdExceeded
+118,CPATransferFailedThresholdExceeded
+119,CPAVoicemailThresholdExceeded
+120,DBReplicationFailure
+121,IDS Replication Failure
+122,LocationBWOutOfResources
+123,CTILinkDown
+124,SCSIControllerDown
+125,LowAvailableSubscriberLicenses
+126,UnityFailOverOrRestart
+127,UMRCommunicationError
+128,ExpertAdvisorSystemDown
+129,MeetingPlaceMajorSwAlarm
+130,MeetingPlaceMinorSwAlarm
+131,OutOfDiskSpace
+132,DevicePartiallyMonitored
+133,HardDiskError
+134,ExchangeLoginFailed
+135,LowSwapPartitionAvailableDiskSpace
+136,LogPartitionLowWaterMarkExceeded
+137,LogPartitionHighWaterMarkExceeded
+138,ctpPeripheralCableError
+139,ctpPeripheralPowerError
+140,ctpPeripheralLinkError
+141,ctpPeripheralConfigError
+142,ctpPeripheralDeviceError
+143,ctpPeripheralInError
+144,ctpPeripheralSystemError
+145,SoftwareAlarm
+146,DSPFailure
+147,NodeToNodeTestFailed
+148,RoundTripResponseTime_ThresholdExceeded
+149,RingBackResponseTime_ThresholdExceeded
+150,RegistrationResponseTime_ThresholdExceeded
+151,AverageLatency_ThresholdExceeded
+152,PacketLossDS_ThresholdExceeded
+153,PacketLossSD_ThresholdExceeded
+154,JitterSD_ThresholdExceeded
+155,Quality Dropped Below Threshold
+156,IAJitterDS_ThresholdExceeded
+157,RFactorDS_ThresholdExceeded
+158,MosCQDS_ThresholdExceeded
+159,MosLQDS_ThresholdExceeded
+160,RTPPacketLossDS_ThresholdExceeded
+161,HighAnalogPortUtilization
+162,HighDigitalPortUtilization
+163,HighPortUtilization
+164,HighResourceUtilization
+165,PerformancePollingStopped
+166,PhoneUnregThresholdExceeded
+167,SDL Link Out Of Service
+168,Cisco DRF Failure
+169,CDR Maximum Disk Space Exceeded
+170,Core Dump File Found
+171,CDR Agent Send File Failed
+172,CDR File Delivery Failed
+173,CDR High Water Mark Exceeded
+174,Number Of Registered Phones Dropped
+175,Number Of Registered MediaDevices Increased
+176,Number Of Registered MediaDevices Decreased
+177,D Channel Out of Service
+178,Hardware Failure
+179,Thread Counter Update Stopped
+180,ReplicationStopped
+181,AutoFailoverFailed
+182,NoConnectionToPeer
+183,LicenseExpired
+184,LicenseExpirationwarning
+185,SIP Trunk Out Of Service
+186,SIP Trunk Partially In Service
+187,Subscriber License Violated
+188,AutoFailoverSucceeded
+189,AutoFailbackSucceeded
+190,AutoFailbackFailed
+191,Service Quality Issue
+192,ServiceQualityThresholdCrossed
+193,Sensor Down
+194,SRSTEntered
+195,SRSTSuspected
+196,PhoneReachabilityTestFailed
+197,SyntheticTestThresholdExceeded
+198,JitterDS_ThresholdExceeded
+199,CUESecurityIssue
+200,MajorAlarm
+201,HighTrunkUtilization
+202,MinorAlarm
+203,MWIOnTimeExceeded
+204,IBMDiskTrapEvent
+205,StateNotNormal
+206,MOSCQEReachedMajorThreshold
+207,SLAViolation
+208,DynamicBlackList
+209,ServiceCardOffline
+210,ExcessiveDAFaults
+211,H248ControllerDetached
+212,Critical Service Quality Issue
+213,CPUCongestion
+214,MemoryCongestion
+215,HighGroupRouteUtilization
+216,ServiceCardStandby
+217,SourceAlert
+218,MOSCQEReachedCriticalThreshold
+219,MOSCQEReachedMinorThreshold
+220,ServiceStopped
+221,CPUPegging
+222,EvtLicCucExpiredError1
+223,EvtLicCucDemoModeToExpiredModeError
+224,EvtLicCucComplianceModeToExpiredModeError
+225,EvtLicCucViolationModeToExpiredModeError
+226,CiscoSystemSecurityMismatch
+227,CiscoNoProvisionTimeout
+228,CiscoElmNotConnected
+229,CiscoSystemInOverage
+230,MaliciousCallAlert
+231,TextConferenceRoomsExceeded
+232,CPU and Memory Utilization High
+233,Too many CPU Spikes Detected
+234,Repeated Location Bandwidth Out Of Resource
+235,Interface Flapping
+236,Prolonged Low Memory Condition Detected
+237,WAN Link Outage Detected
+238,Repeated Authentication Failure
+239,Call Throttling Detected

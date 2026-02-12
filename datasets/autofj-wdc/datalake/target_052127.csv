@@ -1,0 +1,73 @@
+id,title
+0,읽기 지연 오류(Read Error Rate)
+1,Throughput Performance
+2,Spin-Up Time
+3,Start/Stop Count
+4,Reallocated Sectors Count
+5,Read Channel Margin
+6,탐색 지연 오류(Seek Error Rate)
+7,Seek Time Performance
+8,Power-On Hours (POH)
+9,Spin Retry Count
+10,Recalibration Retries / Calibration Retry Count
+11,Power Cycle Count
+12,Soft Read Error Rate
+13,Unused Reserved Block Count Total
+14,Program Fail Count Total / Non-4K Aligned Access Count
+15,SATA Downshift Error Count / Runtime Bad Block
+16,End-to-End error / IOEDC
+17,Head Stability
+18,Induced Op-Vibration Detection
+19,Reported Uncorrectable Errors
+20,Command Timeout
+21,High Fly Writes
+22,Airflow Temperature (WDC) resp. Airflow Temperature Celsius (HP)
+23,Temperature Difference from 100
+24,G-sense Error Rate
+25,Power-off Retract Count / Emergency Retract Cycle Count (Fujitsu)[2]
+26,Load Cycle Count / Load/Unload Cycle Count (Fujitsu)
+27,Temperature resp. Temperature Celsius
+28,Hardware ECC Recovered
+29,Reallocation Event Count
+30,Current Pending Sector Count
+31,Uncorrectable Sector Count / Offline Uncorrectable / Off-Line Scan Uncorrectable Sector Count[2]
+32,UltraDMA CRC Error Count
+33,Multi-Zone Error Rate [3]
+34,Write Error Rate (Fujitsu)
+35,Soft Read Error Rate / TA Counter Detected
+36,Data Address Mark errors / TA Counter Increased
+37,Run Out Cancel
+38,Soft ECC Correction
+39,Thermal Asperity Rate (TAR)
+40,Flying Height
+41,Spin High Current
+42,Spin Buzz
+43,Offline Seek Performance
+44,Vibration During Write
+45,Vibration During Write
+46,Shock During Write
+47,Disk Shift
+48,G-Sense Error Rate
+49,Loaded Hours
+50,Load/Unload Retry Count
+51,Load Friction
+52,Load/Unload Cycle Count
+53,Load 'In'-time
+54,Torque Amplification Count
+55,Power-Off Retract Cycle
+56,GMR Head Amplitude
+57,Drive Life Protection Status
+58,Temperature
+59,SSD Life Left
+60,Endurance Remaining
+61,Available Reserved Space
+62,Power-On Hours
+63,Media Wearout Indicator
+64,Average erase count AND Maximum Erase Count
+65,Good Block Count AND System(Free) Block Count
+66,Head Flying Hours
+67,Transfer Error Rate (Fujitsu)
+68,Total LBAs Written
+69,Total LBAs Read
+70,Read Error Retry Rate
+71,Free Fall Protection

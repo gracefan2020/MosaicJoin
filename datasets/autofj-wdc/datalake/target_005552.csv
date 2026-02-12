@@ -1,0 +1,128 @@
+id,title
+0,Tab Character
+1,End of Paragraph
+2,Forced Line Break
+3,Any Page Number
+4,Current Page Number
+5,Next Page Number
+6,Previous Page Number
+7,* Any Variable
+8,Section Marker
+9,* Anchored Object Marker
+10,* Footnote Reference Marker
+11,* Index Marker
+12,Bullet Character
+13,Japanese Bullet
+14,Caret Character
+15,Backslash Character
+16,Copyright Symbol
+17,Ellipsis
+18,Tilde
+19,Paragraph Symbol
+20,Registered Trademark Symbol
+21,Section Symbol
+22,Trademark Symbol
+23,Open Parenthesis Character
+24,Close Parenthesis Character
+25,Open Brace Character
+26,Close Brace Character
+27,Open Bracket Character
+28,Close Bracket Character
+29,Em Dash
+30,En Dash
+31,Discretionary Hyphen
+32,Nonbreaking Hyphen
+33,Ideographic Space
+34,Em Space
+35,En Space
+36,Third Space
+37,Quarter Space
+38,Sixth Space
+39,Flush Space
+40,Hair Space
+41,Nonbreaking Space
+42,Nonbreaking Space (fixed width)
+43,Thin Space
+44,Figure Space
+45,Punctuation Space
+46,"^ Clipboard Contents, Formatted"
+47,"^ Clipboard Contents, Unformatted"
+48,Any Double Quotation Mark
+49,Any Single Quotation Mark
+50,Straight Double Quotation Mark
+51,Double Left Quotation Mark
+52,Double Right Quotation Mark
+53,Straight Single Quotation Mark
+54,Single Left Quotation Mark
+55,Single Right Quotation Mark
+56,Standard carriage return
+57,Column Break
+58,Frame Break
+59,Page Break
+60,Odd Page Break
+61,Even Page Break
+62,Discretionary Line Break
+63,Right Indent Tab
+64,Indent to Here
+65,End Nested Style Here
+66,Nonjoiner
+67,* Running header (paragraph style) variable
+68,* Running header (character style) variable
+69,* Custom text variable
+70,* Last page number variable
+71,* Chapter number variable
+72,* Creation date variable
+73,* Modification date variable
+74,* Output date variable
+75,* File name variable
+76,* Any Digit
+77,* Any character that is not a digit
+78,* Any Letter
+79,* Any Character
+80,* White Space (any space or tab)
+81,* Any character that is not a white space
+82,* Any word character
+83,* Any character that is not a word character
+84,* Any uppercase letter
+85,* Any character that is not an uppercase letter
+86,* Any lowercase letter
+87,* Any character that is not a lowercase letter
+88,^ All Found Text
+89,Found Text 1-9
+90,* Kanji
+91,* Beginning of Word
+92,* End of Word
+93,* Word Boundary
+94,* Opposite of Word Boundary
+95,* Beginning of Paragraph
+96,* End of Paragraph [location]
+97,* Zero or One Time
+98,* Zero or More Times
+99,* One or More Times
+100,* Zero or One Time (Shortest Match)
+101,* Zero or More Times (Shortest Match)
+102,* One or More Times (Shortest Match)
+103,* Marking Subexpression
+104,* Non-marking Subexpression
+105,* Character Set
+106,* Or
+107,* Positive Lookbehind
+108,* Negative Lookbehind
+109,* Positive Lookahead
+110,* Negative Lookahead
+111,* Case-insensitive On
+112,* Case-insensitive Off
+113,* Multiline On
+114,* Multiline Off
+115,* Single-line On
+116,* Single-line Off
+117,* Any alphanumeric character
+118,* Any alphabetic character
+119,"* Any blank character, either space or tab"
+120,* Any control character
+121,* Any graphical character
+122,* Any printable character
+123,* Any punctuation character
+124,* Any character whose code is greater than 255 (applies only to the wide character traits classes)
+125,"* Any hexadecimal digit character 0-9, a-f, and A-F"
+126,"* Any character of a certain glyph set, such as a, à, á, â, ã, ä, å, A, À, Á, Â, Ã, Ä and Å"

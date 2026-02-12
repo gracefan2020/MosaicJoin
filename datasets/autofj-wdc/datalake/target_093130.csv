@@ -1,0 +1,65 @@
+id,title
+0,/* -*-c++-*- OpenSceneGraph - Copyright (C) 1998-2006 Robert Osfield
+1,*
+2,* This library is open source and may be redistributed and/or modified under
+3,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+4,* This library is open source and may be redistributed and/or modified under
+5,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+6,* (at your option) any later version. The full license is in LICENSE file
+7,"* included with this distribution, and on the openscenegraph.org website."
+8,*
+9,*
+10,"* This library is distributed in the hope that it will be useful,"
+11,* but WITHOUT ANY WARRANTY; without even the implied warranty of
+12,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+13,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+14,* OpenSceneGraph Public License for more details.
+15,*
+16,class LispSM;
+17,class OSGSHADOW_EXPORT LightSpacePerspectiveShadowMapAlgorithm
+18,class OSGSHADOW_EXPORT LightSpacePerspectiveShadowMapAlgorithm
+19,{
+20,public:
+21,void operator() (
+22,"const osgShadow::ConvexPolyhedron* hullShadowedView,"
+23,"const osg::Camera* cameraMain,"
+24,"const osg::Camera* cameraMain,"
+25,osg::Camera* cameraShadow ) const;
+26,};
+27,// Optimized for draw traversal shadow bounds
+28,// Optimized for draw traversal shadow bounds
+29,"class OSGSHADOW_EXPORT LightSpacePerspectiveShadowMapDB: public ProjectionShadowMap< MinimalDrawBoundsShadowMap, LightSpacePerspectiveShadowMapAlgorithm >"
+30,{
+31,/** Classic OSG cloning constructor */
+32,LightSpacePerspectiveShadowMapDB(
+33,"const LightSpacePerspectiveShadowMapDB& copy,"
+34,"const LightSpacePerspectiveShadowMapDB& copy,"
+35,"const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY) : BaseClass(copy,copyop)"
+36,{
+37,};
+38,// Optimized for cull traversal shadow bounds
+39,// Optimized for cull traversal shadow bounds
+40,"class OSGSHADOW_EXPORT LightSpacePerspectiveShadowMapCB: public ProjectionShadowMap< MinimalCullBoundsShadowMap, LightSpacePerspectiveShadowMapAlgorithm >"
+41,{
+42,"typedef ProjectionShadowMap< MinimalCullBoundsShadowMap, LightSpacePerspectiveShadowMapAlgorithm > BaseClass;"
+43,/** Classic OSG constructor */
+44,/** Classic OSG constructor */
+45,LightSpacePerspectiveShadowMapCB()
+46,{
+47,/** Classic OSG cloning constructor */
+48,LightSpacePerspectiveShadowMapCB(
+49,"const LightSpacePerspectiveShadowMapCB& copy,"
+50,"const LightSpacePerspectiveShadowMapCB& copy,"
+51,"const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY) : BaseClass(copy,copyop)"
+52,{
+53,};
+54,// Optimized for view frustum bounds
+55,// Optimized for view frustum bounds
+56,"class OSGSHADOW_EXPORT LightSpacePerspectiveShadowMapVB: public ProjectionShadowMap< MinimalShadowMap, LightSpacePerspectiveShadowMapAlgorithm >"
+57,{
+58,/** Classic OSG cloning constructor */
+59,LightSpacePerspectiveShadowMapVB(
+60,"const LightSpacePerspectiveShadowMapVB& copy,"
+61,"const LightSpacePerspectiveShadowMapVB& copy,"
+62,"const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY) : BaseClass(copy,copyop)"
+63,{

@@ -1,0 +1,51 @@
+id,title
+0,Recurring exceptions not updated on event change
+1,Some translation files are not UTF-8 converted
+2,Errors related to accounts_ldap
+3,filemanager should check _FILES upload error codes
+4,"New calendar item , ""import"" looks like the ""save"" button"
+5,Enhancement request : account unblocking facility in admin
+6,Cannot attach file to an email message
+7,Errors when trying to use address book to fill in email To: line
+8,undefined index in new mail
+9,calendar planner consumes 128M ?
+10,errors in todo list -> grant access
+11,undefined index when adding custom fields
+12,undefined index in Asynchronous timed services
+13,Undefined variable in View Access Log
+14,undefined variable in View Sessions
+15,"""add sub"" button does not make a sub-category"
+16,errors importing contacts (vcard format)
+17,undefined variable in contacts - import contacts
+18,undefined index in calendar when adding new item
+19,adding a new user gives Undefined index errors
+20,Undefined index when adding a new user account
+21,Fatal error when searching for todo list entries
+22,preg_match error in calendar - planner view
+23,Cannot make new todo entries
+24,Error in contacts: undefined variable
+25,undefined indexes in preferences
+26,Bug saving user account
+27,bad id2name in accounts_ldap causes bad group memberships
+28,Sorting todo items is broken
+29,strange domain set for session cookies
+30,bad call to parent constructor in class.accounts_ldap.inc.php
+31,Removing LDAP user in admin wont remove memberUid in groups
+32,Email settings allows changes
+33,Warning: Invalid argument supplied for foreach() in .../phpgroupware/bookmarks/inc/class.ui.inc.php on line 861
+34,colums missing in tts tables_curent.inc.php
+35,Error in /phpgroupware/ftp/index.php on Line 205
+36,"Missing ""comma"" in query"
+37,"mcrypt errors frequently, but seemingly random"
+38,Template Error: set_root: is not a directory. (editing addressbook entry)
+39,MySQL Error When Viewing User Profile in HR
+40,Several MySQL Tables missing
+41,eval in soap_parser fails
+42,Upgrade to MySQL 5.x causes MySQL 1064 error when opening individual Forums.
+43,Cannot modify header information
+44,"With php5 and js address book, cannot compose mail."
+45,On SOAP 'fault' method result errors are in the page
+46,"ACL not set for ""children"""
+47,infolog - page refreshes but nothing changes
+48,phpgwapi/inc/class.Template.inc.php setup/inc/class.Template.inc.php differ
+49,qmailldap broken in head

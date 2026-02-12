@@ -1,0 +1,51 @@
+id,title
+0,Update from 7x-2.4 to 7x-2.5 - Accordion doesn't work
+1,[jquery_update] 3rd party libraries
+2,User can change the version of JQuery if they don't have admin permissions on theme settings
+3,Allow detection of different jQuery UI libraries in sites/*/libraries/jquery.ui
+4,Move and update jquery.cookie
+5,Wysiwyg ckeditor breaks after jquery update in node/edit page
+6,Remove unused and NON-MIT/GPL licensed or compatible code
+7,"Error: ""Add existing field: you need to select a widget"" when adding a field if jQuery is updated"
+8,Views UI Styles not working with Jquery 1.10
+9,2.6 update broke both my drupal sites
+10,Menu item missing
+11,updating to 7.x-3.0-alpha resets admin theme jquery to default (1.4)
+12,Document which version? 2.x or 3.x?
+13,Remove 1.9 replacement files and force enable the migrate plugin
+14,Update 7001 breaks installer by setting an admin version
+15,Tabledrag.js and jQuery 1.4.2
+16,Change jQuery Update for specific paths (module specific)
+17,jQuery UI is no longer loaded when you log out of Drupals site?
+18,"AJAX HTTP error 200, when try to manage field display & Views"
+19,Issue with tabs and fieldset
+20,jQuery update not replacing js files in Drupal 6
+21,Uncaught TypeError: Cannot read property 'prototype' of undefined
+22,"AJAX HTTP error, Code 403"
+23,Ie 7 and ie 8 issues with ajax
+24,Secure pages issue
+25,Check for available update data is broken when
+26,ndefined is not a function (jquery.form.js)
+27,Offer latest jQuery UI 1.11.4
+28,After 7.x-2.5 update status report says missing jQuery UI plugin
+29,References Dialog modal floats below Panels IPE
+30,Update Instructions and INSTALLATION sections
+31,"""Alternate jQuery version for administrative pages"" doesn't work for upgraded site."
+32,Administration page when not logged-in
+33,"""TypeError: $(...).on is not a function"" if ""View the administration theme"" disabled"
+34,would you pleas add the support of upyun js cdn
+35,admin_menu displays even after logout
+36,Aggregation of JavaScript files fails if using jQuery >= 1.9
+37,jquery.cookie.js fails to minify
+38,Option for custom jquery host
+39,"Add a ""Disabled"" option to the list of jQuery versions"
+40,Change jquery version on specific paths (not all admin and/or other paths)
+41,Use Google's Javascript CDN for jQuery
+42,jquery update loads wrong jquery.ui through ajax on commerce tax rules page
+43,Add jquery-1.10.2.min.map
+44,Page erased by document.write
+45,"jQuery 1.5.1 delivered (bundled version), 1.5.2 with CDN"
+46,More Admin UI Compatibility Issues: Rules can't handle a different Admin page jQuery branch
+47,Left behind diff file commited to repository
+48,Port jQuery Update to Drupal 8
+49,Allow any version

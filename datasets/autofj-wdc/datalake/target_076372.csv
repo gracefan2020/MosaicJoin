@@ -1,0 +1,76 @@
+id,title
+0,Tool to move/copy/rename user's data
+1,URL based profile import/export from another horde install
+2,Alternate Portal Layout
+3,Support for password expiration in Samba authentication drivers
+4,Restrict users to virtual domains
+5,Implement humanized messages in Horde
+6,Drag & Drop portal
+7,API tests for supported RPC backends
+8,Re-add sortColumn column shading in tables.js
+9,Virtual Keyboard to prevent keylogging
+10,identity creation auditing
+11,OAuth consumer support
+12,"Add -y/--yes option to all upgrade scripts, get rid of any that require editing $live"
+13,Alarm clock block
+14,Show progress during attachment upload
+15,OAuth support in the Horde API
+16,Audit for inappropriate use of mt_rand()
+17,Incoming email processor for generic email actions
+18,RPC access for guest users
+19,Right Now horde_block
+20,Create a Horde_Block dashboard widget and theme
+21,Horde portal tabs
+22,Create sidebar or Horde_Block drop target for note/bookmark/task/event/etc. creation
+23,Horde_Alarm Firefox extension
+24,Horde quick actions Firefox extension
+25,Google docs/calendar API support and Horde_Blocks
+26,SAML and general horde single sign-on
+27,Horde helper Mac OS application for Services menu plugins
+28,Improve / standarize / clean up log messages
+29,Improve button rendering
+30,Remember ME button
+31,Horde as an OpenSocial container
+32,Sort out LDAP preferences mess with user bindings
+33,Wizard functionality in help screens
+34,Add OpenMapi support
+35,Share performance: Search to find shares
+36,Horde iPhone app for push notifications
+37,Security Audit
+38,Add titles in sidebar
+39,Add fluid growl notifications
+40,Add user auto-complete to permissions pages
+41,a Listing of Groups in the account Block would be nice
+42,HTTP Extensions for Account Management and Session Identification
+43,Custom base DN only in LDAP configurations
+44,Option for external URLs
+45,User profile creation wizard
+46,migration script db user rights
+47,Masonry portal layout
+48,Add email as input to signup form
+49,Implement authentication driver stack in composite authentication
+50,Auto-detect locale support
+51,Allow user to choose LDAP Field to match in group membership
+52,"Horde portal - add a link for toggling configuration mode on/off, or always allow drag/drop rearranging of blocks"
+53,Horde portal - have Add Content go to a new page or dialog to select the new widget
+54,Profile pages for Horde users
+55,Notifications should be cleared on logout
+56,use jqm DOM caching
+57,"Autocompleter uses ""email""-field only"
+58,Add support for the Unity Web API
+59,horde_alarms tries always to login as first admin user but with an empty password
+60,Horde5 webmail-install script fails when installing into seperate pear
+61,Secondary authentication
+62,horde-set-perms non interactive usage
+63,Syncing fails with funambol client
+64,Perform Login Tasks issue.
+65,H3->H5 Migration Postgres problems
+66,Implement API for non-RPC friendly API calls.
+67,verify_from_addr send email from requester address
+68,Cli for editing conf.php
+69,Apple touch icon
+70,Upgrade to Plupload 2.x
+71,language problem in menu-bar after successful login
+72,Disable individual guest permissions if globally disabled
+73,Allow providing netmask when $conf[auth][checkip] is checked
+74,horde still depends on Services_Weather

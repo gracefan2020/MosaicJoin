@@ -1,0 +1,134 @@
+id,title
+0,Return Polygon or MultiPolygon area
+1,Convert from internal geometry format to WKB
+2,Convert from internal geometry format to WKT
+3,Return geometry of points within given distance from geometry
+4,Return centroid as a point
+5,Whether MBR of one geometry contains MBR of another
+6,Return convex hull of geometry
+7,Whether one geometry crosses another
+8,Dimension of geometry
+9,Whether MBRs of two geometries are disjoint
+10,The distance of one geometry from another
+11,End Point of LineString
+12,Return MBR of geometry
+13,Whether MBRs of two geometries are equal
+14,Return exterior ring of Polygon
+15,Return geometry collection from WKT
+16,Return geometry collection from WKB
+17,Construct geometry collection from geometries
+18,Return N-th geometry from geometry collection
+19,Return name of geometry type
+20,Return geometry from WKT
+21,Return geometry from WKB
+22,Return length of LineString
+23,Return N-th interior ring of Polygon
+24,Whether MBRs of two geometries intersect
+25,Whether a geometry is closed and simple
+26,Placeholder function
+27,Whether a geometry is simple
+28,Construct LineString from WKT
+29,Construct LineString from WKB
+30,Construct LineString from Point values
+31,Whether MBR of one geometry contains MBR of another
+32,Whether one MBR is covered by another
+33,Whether one MBR covers another
+34,Whether MBRs of two geometries are disjoint
+35,Whether MBRs of two geometries are equal
+36,Whether MBRs of two geometries are equal
+37,Whether MBRs of two geometries intersect
+38,Whether MBRs of two geometries overlap
+39,Whether MBRs of two geometries touch
+40,Whether MBR of one geometry is within MBR of another
+41,Construct MultiLineString from WKT
+42,Construct MultiLineString from WKB
+43,Construct MultiPoint from WKT
+44,Construct MultiPoint from WKB
+45,Construct MultiPolygon from WKT
+46,Construct MultiPolygon from WKB
+47,Contruct MultiLineString from LineString values
+48,Construct MultiPoint from Point values
+49,Construct MultiPolygon from Polygon values
+50,Return number of geometries in geometry collection
+51,Return number of interior rings in Polygon
+52,Return number of points in LineString
+53,Whether MBRs of two geometries overlap
+54,Construct Point from coordinates
+55,Construct Point from WKT
+56,Construct Point from WKB
+57,Return N-th point from LineString
+58,Construct Polygon from WKT
+59,Construct Polygon from WKB
+60,Construct Polygon from LineString arguments
+61,Return spatial reference system ID for geometry
+62,Return Polygon or MultiPolygon area
+63,Convert from internal geometry format to WKB
+64,Generate GeoJSON object from geometry
+65,Convert from internal geometry format to WKT
+66,Produce strategy option for ST_Buffer()
+67,Return geometry of points within given distance from geometry
+68,Return centroid as a point
+69,Whether one geometry contains another
+70,Return convex hull of geometry
+71,Whether one geometry crosses another
+72,Return point set difference of two geometries
+73,Dimension of geometry
+74,Whether one geometry is disjoint from another
+75,Minimum distance on earth between two geometries
+76,The distance of one geometry from another
+77,End Point of LineString
+78,Return MBR of geometry
+79,Whether one geometry is equal to another
+80,Return exterior ring of Polygon
+81,Produce a geohash value
+82,Return geometry collection from WKT
+83,Return geometry collection from WKB
+84,Return N-th geometry from geometry collection
+85,Return name of geometry type
+86,Generate geometry from GeoJSON object
+87,Return geometry from WKT
+88,Return geometry from WKB
+89,Return N-th interior ring of Polygon
+90,Return point set intersection of two geometries
+91,Whether one geometry intersects another
+92,Whether a geometry is closed and simple
+93,Placeholder function
+94,Whether a geometry is simple
+95,Whether a geometry is valid
+96,Return latitude from geohash value
+97,Return length of LineString
+98,Construct LineString from WKT
+99,Construct LineString from WKB
+100,Return longitude from geohash value
+101,Rectangle around two points
+102,Construct MultiLineString from WKT
+103,Construct MultiLineString from WKB
+104,Construct MultiPoint from WKT
+105,Construct MultiPoint from WKB
+106,Construct MultiPolygon from WKT
+107,Construct MultiPolygon from WKB
+108,Return number of geometries in geometry collection
+109,Return number of interior rings in Polygon
+110,Return number of points in LineString
+111,Whether one geometry overlaps another
+112,Convert geohash value to POINT value
+113,Construct Point from WKT
+114,Construct Point from WKB
+115,Return N-th point from LineString
+116,Construct Polygon from WKT
+117,Construct Polygon from WKB
+118,Return simplified geometry
+119,Return spatial reference system ID for geometry
+120,Start Point of LineString
+121,Return point set symmetric difference of two geometries
+122,Whether one geometry touches another
+123,Return point set union of two geometries
+124,Return validated geometry
+125,Whether one geometry is within another
+126,Return X coordinate of Point
+127,Return Y coordinate of Point
+128,Start Point of LineString
+129,Whether one geometry touches another
+130,Whether MBR of one geometry is within MBR of another
+131,Return X coordinate of Point
+132,Return Y coordinate of Point

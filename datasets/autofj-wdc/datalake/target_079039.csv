@@ -1,0 +1,77 @@
+id,title
+0,* value: Default value.
+1,* order: Sort order placement. (Determines relative placement in forms .)
+2,* order: Sort order placement. (Determines relative placement in forms with respect to other custom fields.)
+3,* '''checkbox''': A boolean value check box.
+4,* label: Descriptive label.
+5,* label: Descriptive label.
+6,"* options: List of values, separated by '''|''' (vertical pipe)."
+7,"* value: Default value ( Item #, starting at 0)."
+8,* value: Default value ( one of the values from options).
+9,* order: Sort order placement.
+10,* '''radio''': Radio buttons. Essentially the same as '''select'''.
+11,* label: Descriptive label.
+12,"* options: List of values, separated by '''|''' (vertical pipe)."
+13,"* value: Default value ( Item #, starting at 0)."
+14,* value: Default value ( one of the values from options).
+15,* order: Sort order placement.
+16,* '''textarea''': Multi-line text area.
+17,test_four.label = My selectbox
+18,test_four.options = one|two|third option|four
+19,test_four.value = 2
+20,test_four.value = two
+21,test_five = radio
+22,test_five.label = Radio buttons are fun
+23,test_five.options = uno|dos|tres|cuatro|cinco
+24,test_five.value = 1
+25,test_five.value = dos
+26,test_six = textarea
+27,=== Reports Involving Custom Fields ===
+28,The SQL required for TracReports to include custom ticket fields is relatively hard to get right. You need a `JOIN` with the `ticket_custom` field for every custom field that should be involved.
+29,"Custom ticket fields are stored in the `ticket_custom` table, not in the `ticket` table. So to display the values from custom fields in a report, you will need a join on the 2 tables. Let's use an example with a custom ticket field called `progress`."
+30,The following example includes a custom ticket field named `progress` in the report:
+31,{{{
+32,#!sql
+33,"SELECT p.value AS __color__,"
+34,"id AS ticket, summary, owner, c.value AS progress"
+35,"FROM ticket t, enum p, ticket_custom c"
+36,WHERE status IN ('assigned') AND t.id = c.ticket AND c.name = 'progress'
+37,AND p.name = t.priority AND p.type = 'priority'
+38,ORDER BY p.value
+39,}}}
+40,"'''Note''' that this will only show tickets that have progress set in them, which is '''not the same as showing all tickets'''. If you created this custom ticket field ''after'' you have already created some tickets, they will not have that field defined, and thus they will never show up on this ticket query. If you go back and modify those tickets, the field will be defined, and they will appear in the query. If that's all you want, you're set."
+41,"However, if you want to show all ticket entries (with progress defined and without), you need to use a `JOIN` for every custom field that is in the query."
+42,{{{
+43,#!sql
+44,Note in particular the `LEFT OUTER JOIN` statement here.
+45,=== Updating the database ===
+46,"As noted above, any tickets created before a custom field has been defined will not have a value for that field. Here's a bit of SQL (tested with SQLite) that you can run directly on the Trac database to set an initial value for custom ticket fields. Inserts the default value of 'None' into a custom field called 'request_source' for all tickets that have no existing value:"
+47,{{{
+48,#!sql
+49,INSERT INTO ticket_custom
+50,"(ticket, name, value)"
+51,SELECT
+52,"id AS ticket,"
+53,"'request_source' AS name,"
+54,'None' AS value
+55,FROM ticket
+56,WHERE id NOT IN (
+57,SELECT ticket FROM ticket_custom
+58,);
+59,}}}
+60,"If you added multiple custom fields at different points in time, you should be more specific in the subquery on table {{{ticket}}} by adding the exact custom field name to the query:"
+61,{{{
+62,#!sql
+63,INSERT INTO ticket_custom
+64,"(ticket, name, value)"
+65,SELECT
+66,"id AS ticket,"
+67,"'request_source' AS name,"
+68,'None' AS value
+69,FROM ticket
+70,WHERE id NOT IN (
+71,SELECT ticket FROM ticket_custom WHERE name = 'request_source'
+72,);
+73,}}}
+74,----
+75,"See also: TracTickets, TracIni"

@@ -1,0 +1,174 @@
+id,title
+0,Director's Property Hierarchy
+1,Director Help Functions
+2,Menu Accelerator Key Overview
+3,Standard Selection Modifiers
+4,Context-Sensitive Menus
+5,File Menu Commands and Accelerators
+6,Edit Menu Commands and Accelerators
+7,Window Menu Shortcuts
+8,Cast Member and Sprite Editing Shortcuts
+9,Numeric Keypad Shortcuts
+10,Supplemental Keys
+11,Function Key Shortcuts
+12,Windows OS Shortcuts
+13,Mac OS Key Combinations While Rebooting
+14,Mac OS Shortcuts
+15,Operating System Screen Grab Shortcuts
+16,Animation Technique Comparison
+17,Director 7 Sprite Transformation Properties
+18,Animation Operations in the Cast and Score
+19,"Director 5, 6, and 7 Score Comparison"
+20,Score Window Appearance
+21,Director 7 Sprite Transformation Properties
+22,Tempo Channel Options
+23,Transition-Related Lingo
+24,Marker Manipulation
+25,Saving Time in the Score
+26,Score Shortcut Pop-up Menus
+27,Stage Shortcut Pop-up Menus
+28,Editing Sprite Paths on the Stage
+29,Other On-Stage Shortcuts
+30,Sprite Channel Manipulation
+31,Commands that Change the Score View
+32,Moving the Playback Head
+33,"Copying, Inserting, and Deleting Frames"
+34,Lingo for Navigation
+35,Puppeting the Effects and Sprite Channels
+36,Score Recording
+37,The scoreSelection Codes
+38,Shared Cast Versus External CastLibs
+39,Working with CastLibs
+40,Saving and Converting CastLibs and Movies
+41,Supported Import File Formats
+42,Additional Supported Formats
+43,Media Types and Subtypes
+44,Creating and Inserting Media Within Director
+45,Cast Window Shortcuts
+46,CastLib and Cast Member Lingo
+47,Cast Member and Sprite Properties
+48,When and Where to Change Member and Sprite Properties
+49,Member Coordinate Properties
+50,Sprite Coordinate Properties
+51,Mouse and Cursor Coordinates
+52,Rect and Point Lingo Commands
+53,"Stage-, Monitor-, and Window-Relative Coordinates"
+54,Adjusting Coordinates in the Interface
+55,Stage Size and Location Settings
+56,"Stage Size, Position, and Window Commands"
+57,Macintosh and Windows windowType Attributes
+58,"Commands to Open, Close, Forget, and Stack MIAWs"
+59,Movie-Related Event Handlers
+60,Window-Related Event Handlers
+61,Cross-Platform Limitations
+62,Monitor Resolutions
+63,External File Differences
+64,Macintosh and Windows Projector Sizes
+65,Platform-Specific Restart Commands
+66,Analyzing Runtime Environment Properties
+67,The Platform's Return Values
+68,DirMMX Xtra Methods
+69,Macintosh Projector Default Memory Allocation
+70,Size-Related Member Properties
+71,CD-ROM Speeds
+72,CD-ROM Capacities
+73,Program Memory Budget
+74,Media Memory Budget
+75,Lingo Data Structure Memory Requirements
+76,Unload Commands
+77,Memory and Disk Space Analysis Commands
+78,Preloading Commands
+79,Idle Loading
+80,Accessing Installed Xtras
+81,Network Xtras Filenames
+82,Graphic MIX Xtras by Platform
+83,Sprite Asset and Lingo Xtras
+84,New Xtras in Director 7
+85,Supplemental (D5) or Temporary Xtras (D6) Folders
+86,Supported Platforms
+87,Macintosh Browser Memory Requirements
+88,"Shocking Movie, castLibs, and Audio"
+89,Lingo Differences Between Shockwave and Projectors
+90,NetLingo Commands
+91,Supported Browser Scripting Configurations
+92,Browser Scripting Lingo
+93,Browser Control of Shockwave Movie
+94,Macromedia netError() Codes
+95,Multiuser Xtra Commands
+96,"SendNetMessage ""System"" Commands"
+97,SendNetMessage Database Commands
+98,XML Parser Xtra Commands
+99,Choosing the Right Type of Text
+100,Supported Attributes for Each Type of Text
+101,Cross-Platform Font-Mapping
+102,Creating Common Symbols
+103,Text Manipulation Commands
+104,Manipulating Text and Button Sprites on Stage
+105,Field and Rich Text Properties
+106,Text Member Properties in Director
+107,Font Member Properties
+108,Hypertext Commands
+109,Hyperlink Commands in Director 7
+110,Color-Related Lingo
+111,Graphics Formats
+112,Animated GIF Lingo
+113,Vector Shape Properties
+114,Vector Shape Keyboard Commands
+115,The colorDepth Property Values
+116,Palette-Related Interface Options
+117,Palette Property Codes
+118,Color Palette Window Options
+119,Paint-Related Interface Options
+120,Paint Tool­Related Preferences
+121,Paint Window Tools and Shortcuts
+122,Paint Window Selection Modifier Keys
+123,Paint Window Color Chips Shortcuts
+124,Other Paint Window Shortcuts
+125,Paint Window Transformation Options
+126,Director 7 Bitmap Functions and Properties
+127,Paint Window Inks
+128,Sprite Ink Effects
+129,Color Chips
+130,BackColor and ForeColor Properties
+131,Button-Related Lingo Usage
+132,Cursor Resource IDs
+133,Common Cursor Operations
+134,Cursor-Related Lingo Commands
+135,Custom Cursor Xtra Commands
+136,Menu Definition Codes
+137,Cross-Platform Custom Menu Differences
+138,Menu-Related Lingo Commands
+139,Configuring a PopMenu Cast Member
+140,Cross-Platform Audio Comparison
+141,Audio Playback Method Comparison
+142,Audio Playback Method Features
+143,Common Sound Operations
+144,Preferred Sound Mixer Configurations
+145,Sound-Related Interface Options
+146,Cue Point Functions
+147,Shockwave Audio Delivery Rate Comparison
+148,Shockwave Audio Lingo
+149,System-Level Sound-Related Lingo
+150,DIRECTORINI File Sound-Related Settings
+151,Volume-Related Lingo
+152,Xtras Needed for Sound Playback
+153,The Unsupported Din Xtra
+154,Supported QuickTime Versions in D65
+155,The QuickTimePresent and QuickTimeVersion()
+156,QuickTime 3 Xtras
+157,Cross-Platform Digital Video Differences
+158,Digital Video Interface Options
+159,QT2 and QT3 Framing Options
+160,Support for Direct-to-Stage Video
+161,Lingo Equivalents to DV and QT Xtra Property Dialog Box
+162,Digital Video and QuickTime 3 Properties
+163,QTVR-Specific Properties of QT3 Assets
+164,QuickTime 3 Asset Xtra Commands and Functions
+165,Synchronous Playback Speeds
+166,Asynchronous Playback Speeds
+167,Digital Video Timing
+168,Track-Specific Digital Video Commands
+169,Track Sampling and Time Functions
+170,Common Digital Video Operations
+171,QTVR 10 Xtra Commands
+172,QD3D Xtra Member and Sprite Properties

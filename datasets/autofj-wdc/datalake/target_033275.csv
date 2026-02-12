@@ -1,0 +1,51 @@
+id,title
+0,CloudByte
+1,Coraid
+2,Datera
+3,Dell EqualLogic
+4,Dell Storage Center
+5,EMC VMAX
+6,EMC VNX Direct
+7,EMC XtremIO
+8,Fujitsu ETERNUS
+9,GlusterFS
+10,Hitachi (HUS)
+11,Hitachi (HUS-VM)
+12,"Hitachi (VSP, VSP G1000)"
+13,Hitachi (VSP G200-G600)
+14,Hitachi (HNAS)
+15,HP 3PAR (StoreServ)
+16,HP Lefthand (StoreVirtual)
+17,HP MSA
+18,Huawei T Series V1
+19,Huawei T Series V2
+20,Huawei V3 Series
+21,Huawei 18000 Series
+22,IBM DS8000
+23,IBM FlashSystem
+24,IBM GPFS
+25,IBM Storwize family/SVC
+26,IBM NAS
+27,IBM XIV
+28,LVM (Reference)
+29,NetApp Data ONTAP
+30,NetApp E/EF-series
+31,Nexenta
+32,NFS (Reference)
+33,Nimble Storage
+34,Pure Storage
+35,Quobyte
+36,RBD (Ceph)
+37,Scality
+38,SMB
+39,SolidFire
+40,StorPool
+41,Symantec
+42,Tintri
+43,Violin Memory
+44,VMware
+45,Windows Server 2012
+46,X-IO technologies
+47,Zadara Storage
+48,Solaris (ZFS)
+49,ProphetStor (Flexvisor)

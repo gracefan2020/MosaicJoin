@@ -1,0 +1,236 @@
+id,title
+0,sulfate assimilation
+1,organic acid metabolic process
+2,nucleobase-containing compound metabolic process
+3,purine nucleotide biosynthetic process
+4,tRNA metabolic process
+5,translation
+6,tRNA aminoacylation for protein translation
+7,glycerophospholipid metabolic process
+8,phosphatidylcholine biosynthetic process
+9,coenzyme metabolic process
+10,nucleoside phosphate metabolic process
+11,water-soluble vitamin metabolic process
+12,metabolic process
+13,phospholipid biosynthetic process
+14,macromolecule biosynthetic process
+15,nucleotide metabolic process
+16,ribonucleoside metabolic process
+17,purine ribonucleotide biosynthetic process
+18,nucleoside biosynthetic process
+19,ribonucleotide biosynthetic process
+20,flower development
+21,cellular process
+22,coenzyme A biosynthetic process
+23,pantothenate metabolic process
+24,pantothenate biosynthetic process
+25,nicotinamide nucleotide biosynthetic process
+26,pyridine nucleotide metabolic process
+27,pyridine nucleotide biosynthetic process
+28,NAD metabolic process
+29,nucleoside bisphosphate metabolic process
+30,nucleoside bisphosphate biosynthetic process
+31,purine nucleoside bisphosphate metabolic process
+32,response to interferon-gamma
+33,cellular nitrogen compound metabolic process
+34,purine nucleoside biosynthetic process
+35,ribonucleoside biosynthetic process
+36,amino acid activation
+37,tRNA aminoacylation
+38,oxoacid metabolic process
+39,cellular amine metabolic process
+40,cellular metabolic process
+41,primary metabolic process
+42,cellular biosynthetic process
+43,cellular protein metabolic process
+44,small molecule metabolic process
+45,glycerolipid biosynthetic process
+46,purine ribonucleoside biosynthetic process
+47,alcohol biosynthetic process
+48,phosphatidylcholine metabolic process
+49,floral organ development
+50,floral whorl development
+51,phyllome development
+52,3'-phosphoadenosine 5'-phosphosulfate metabolic process
+53,cofactor biosynthetic process
+54,cellular response to interferon-gamma
+55,organic substance metabolic process
+56,nucleic acid metabolic process
+57,organophosphate biosynthetic process
+58,nucleoside phosphate biosynthetic process
+59,organonitrogen compound metabolic process
+60,organic substance biosynthetic process
+61,response to chemical stimulus
+62,cellular response to stimulus
+63,cellular response to organic substance
+64,cellular response to cytokine stimulus
+65,purine ribonucleoside bisphosphate metabolic process
+66,single-organism developmental process
+67,shoot system development
+68,lipid biosynthetic process
+69,cellular lipid metabolic process
+70,phosphorus metabolic process
+71,amine metabolic process
+72,carboxylic acid metabolic process
+73,small molecule biosynthetic process
+74,cellular amino acid biosynthetic process
+75,organic acid biosynthetic process
+76,carboxylic acid biosynthetic process
+77,reproductive process
+78,reproductive structure development
+79,response to stress
+80,purine-containing compound metabolic process
+81,ribonucleoside bisphosphate metabolic process
+82,vitamin biosynthetic process
+83,water-soluble vitamin biosynthetic process
+84,cellular amide metabolic process
+85,purine nucleoside metabolic process
+86,ribonucleotide metabolic process
+87,ribose phosphate metabolic process
+88,purine nucleotide metabolic process
+89,macromolecule metabolic process
+90,multicellular organismal development
+91,system development
+92,anatomical structure development
+93,single-multicellular organism process
+94,single-organism process
+95,embryo development
+96,carbohydrate derivative biosynthetic process
+97,glycosyl compound metabolic process
+98,nucleobase-containing compound biosynthetic process
+99,nucleoside metabolic process
+100,cellular component organization
+101,biological_process
+102,cellular aromatic compound metabolic process
+103,nitrogen compound metabolic process
+104,biosynthetic process
+105,protein metabolic process
+106,single-organism metabolic process
+107,heterocycle metabolic process
+108,organic cyclic compound metabolic process
+109,response to stimulus
+110,multicellular organismal process
+111,developmental process
+112,single-organism cellular process
+113,cellular component organization or biogenesis
+114,cellular macromolecule metabolic process
+115,cellular amino acid metabolic process
+116,phosphate-containing compound metabolic process
+117,gene expression
+118,RNA metabolic process
+119,organophosphate metabolic process
+120,cellular macromolecule biosynthetic process
+121,cofactor metabolic process
+122,cellular response to chemical stimulus
+123,organ development
+124,lipid metabolic process
+125,organic hydroxy compound metabolic process
+126,single-organism biosynthetic process
+127,reproduction
+128,immune system process
+129,response to organic substance
+130,carbohydrate derivative metabolic process
+131,nucleobase-containing small molecule metabolic process
+132,cellular nitrogen compound biosynthetic process
+133,heterocycle biosynthetic process
+134,organic cyclic compound biosynthetic process
+135,organonitrogen compound biosynthetic process
+136,aromatic compound biosynthetic process
+137,organelle organization
+138,sulfur compound metabolic process
+139,cellular biogenic amine metabolic process
+140,phospholipid metabolic process
+141,mitochondrion organization
+142,coenzyme biosynthetic process
+143,nucleotide biosynthetic process
+144,ncRNA metabolic process
+145,purine ribonucleoside metabolic process
+146,glycerolipid metabolic process
+147,purine-containing compound biosynthetic process
+148,defense response
+149,immune response
+150,response to cytokine stimulus
+151,sulfur compound biosynthetic process
+152,alcohol metabolic process
+153,organic hydroxy compound biosynthetic process
+154,developmental process involved in reproduction
+155,reproductive system development
+156,pyridine-containing compound metabolic process
+157,oxidoreduction coenzyme metabolic process
+158,amide biosynthetic process
+159,cellular modified amino acid metabolic process
+160,vitamin metabolic process
+161,purine ribonucleotide metabolic process
+162,glycosyl compound biosynthetic process
+163,ribose phosphate biosynthetic process
+164,coenzyme A metabolic process
+165,ribonucleoside bisphosphate biosynthetic process
+166,purine nucleoside bisphosphate biosynthetic process
+167,cellular modified amino acid biosynthetic process
+168,ethanolamine-containing compound metabolic process
+169,glycerophospholipid biosynthetic process
+170,nicotinamide nucleotide metabolic process
+171,post-embryonic organ development
+172,pyridine-containing compound biosynthetic process
+173,innate immune response
+174,post-embryonic development
+175,nucleoside binding
+176,purine nucleoside binding
+177,catalytic activity
+178,adenylylsulfate kinase activity
+179,pantoate-beta-alanine ligase activity
+180,"ligase activity, forming carbon-oxygen bonds"
+181,purine nucleotide binding
+182,adenyl nucleotide binding
+183,ribonucleoside binding
+184,ribonucleotide binding
+185,purine ribonucleotide binding
+186,adenyl ribonucleotide binding
+187,cytidylyltransferase activity
+188,ion binding
+189,nucleoside phosphate binding
+190,organic cyclic compound binding
+191,heterocyclic compound binding
+192,"ligase activity, forming carbon-nitrogen bonds"
+193,acid-amino acid ligase activity
+194,molecular_function
+195,small molecule binding
+196,binding
+197,transferase activity
+198,"transferase activity, transferring phosphorus-containing groups"
+199,anion binding
+200,nucleic acid binding
+201,nucleotidyltransferase activity
+202,ligase activity
+203,purine ribonucleoside binding
+204,purine ribonucleoside triphosphate binding
+205,nucleotide binding
+206,kinase activity
+207,"phosphotransferase activity, alcohol group as acceptor"
+208,RNA binding
+209,ATP binding
+210,adenylyltransferase activity
+211,intracellular
+212,cell
+213,cytoplasm
+214,mitochondrion
+215,intracellular part
+216,plastid part
+217,cell part
+218,GAIT complex
+219,organelle
+220,membrane-bounded organelle
+221,intracellular organelle
+222,macromolecular complex
+223,organelle part
+224,membrane-enclosed lumen
+225,organelle lumen
+226,cellular_component
+227,intracellular membrane-bounded organelle
+228,cytoplasmic part
+229,protein complex
+230,intracellular organelle part
+231,mitochondrial part
+232,intracellular organelle lumen
+233,mitochondrial matrix
+234,plastid

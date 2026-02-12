@@ -1,0 +1,56 @@
+id,title
+0,The location of authentication certificate files for local HTTP clients.
+1,The printer classes configuration file for the scheduler.
+2,The scheduler configuration file.
+3,The location of System V interface scripts for printers.
+4,The list of standard file filters included with CUPS.
+5,The list of recognized file types for CUPS.
+6,"The location of PostScript Printer Description (""PPD"") files for printers."
+7,The printer configuration file for the scheduler.
+8,The System V cancel job(s) command.
+9,The System V disable printer command.
+10,The System V enable printer command.
+11,The System V print command.
+12,Sets user-defined printing options and defaults.
+13,"Adds, changes, or removes Digest password accounts."
+14,The Berkeley status command.
+15,The Berkeley print command.
+16,The Berkeley cancel job(s) command.
+17,The System V status command.
+18,CUPS API header files.
+19,Static libraries (IRIX 6.5)
+20,Static libraries (all others)
+21,Shared libraries (HP-UX)
+22,Shared libraries (IRIX 6.5)
+23,Shared libraries (all others)
+24,Backends for various types of printer connections (*BSD and OSX)
+25,Backends for various types of printer connections (all others)
+26,CGI programs for the scheduler (*BSD and OSX)
+27,CGI programs for the scheduler (all others)
+28,Daemons for polling and LPD support (*BSD and OSX)
+29,Daemons for polling and LPD support (all others)
+30,Filters for various types of files (*BSD and OSX)
+31,Filters for various types of files (all others)
+32,The location of language-specific message files. (System V)
+33,The location of language-specific message files. (Compaq Tru64 UNIX)
+34,"The location of language-specific message files. (Linux, *BSD)"
+35,The accept-jobs command.
+36,The CUPS print scheduler.
+37,The System V printer administration tool.
+38,The Berkeley printer administration tool.
+39,The get-devices and get-ppds command.
+40,The move-jobs command.
+41,The reject-jobs command.
+42,Man pages (IRIX)
+43,"Man pages (Compaq Tru64 UNIX, HP-UX, Solaris)"
+44,Man pages (all others)
+45,The location of filter data files.
+46,The PostScript test page file.
+47,The location of PostScript fonts for the PostScript RIP.
+48,"The location of PostScript Printer Description (""PPD"") files and interface scripts that may be used to setup a printer queue."
+49,Other PostScript RIP initialization files.
+50,The font mapping file (converts filenames to fontnames)
+51,The location of HTML template files for the web interfaces.
+52,Documentation and web page data for the scheduler.
+53,The location of scheduler log files.
+54,The location of print files waiting to be printed.

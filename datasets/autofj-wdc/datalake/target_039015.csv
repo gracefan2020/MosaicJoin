@@ -1,0 +1,105 @@
+id,title
+0,Object audits on the selected tables
+1,Table and column comments for the selected tables
+2,Constraints (including referential constraints) on the selected tables
+3,Object grants on the selected tables
+4,Indexes (including domain indexes) on the selected tables
+5,Object grants on the selected tables
+6,Referential (foreign key) constraints on the selected tables
+7,Statistics on the selected tables
+8,Row data for the selected tables
+9,Triggers on the selected tables
+10,Statistics type associations for objects in the selected schemas
+11,Audits on all objects in the selected schemas
+12,Clusters in the selected schemas and their indexes
+13,Comments on all objects in the selected schemas
+14,Constraints (including referential constraints) on all objects in the selected schemas
+15,Private database links in the selected schemas
+16,Default roles granted to users associated with the selected schemas
+17,Dimensions in the selected schemas
+18,Functions in the selected schemas and their dependent grants and audits
+19,Grants on objects in the selected schemas
+20,Indexes (including domain indexes) on tables and clusters in the selected schemas
+21,Indextypes in the selected schemas and their dependent grants and audits
+22,Java sources in the selected schemas and their dependent grants and audits
+23,Jobs in the selected schemas
+24,External procedure libraries in the selected schemas
+25,Materialized views in the selected schemas
+26,Materialized view logs on tables in the selected schemas
+27,Grants on objects in the selected schemas
+28,Operators in the selected schemas and their dependent grants and audits
+29,"Packages (both specification and body) in the selected schemas, and their dependent grants and audits"
+30,Package bodies in the selected schemas
+31,Package specifications in the selected schemas
+32,The password history for users associated with the selected schemas
+33,Procedures in the selected schemas and their dependent grants and audits
+34,Referential (foreign key) constraints on tables in the selected schemas
+35,Refresh groups in the selected schemas
+36,Sequences in the selected schemas and their dependent grants and audits
+37,Statistics on tables and indexes in the selected schemas
+38,Private synonyms in the selected schemas
+39,"Tables in the selected schemas and their dependent objects (indexes, constraints, triggers, grants, audits, comments, table data, and so on)"
+40,Row data for tables in the selected schemas
+41,Tablespace quota granted to users associated with the selected schemas
+42,Triggers on tables in the selected schemas
+43,"Types (both specification and body) in the selected schemas, and their dependent grants and audits"
+44,Type bodies in the selected schemas
+45,Type specifications in the selected schemas
+46,User definitions for users associated with the selected schemas
+47,"Views in the selected schemas and their dependent objects (grants, constraints, comments, audits)"
+48,Statistics type associations for objects in the database
+49,Audits of SQL statements
+50,Audits on all objects in the database
+51,Clusters and their indexes
+52,Comments on all objects
+53,Constraints (including referential constraints)
+54,Application contexts
+55,Private and public database links
+56,Default roles granted to users in the database
+57,Dimensions in the database
+58,Directory objects in the database
+59,Fine-grained audit policies
+60,Functions
+61,Object and system grants
+62,Indexes (including domain indexes) on tables and clusters
+63,Indextypes and their dependent grants and audits
+64,Java sources and their dependent grants and audits
+65,Jobs
+66,External procedure libraries
+67,Materialized views
+68,Materialized view logs
+69,All object grants in the database
+70,Operators and their dependent grants and audits
+71,Packages (both specification and body) and their dependent grants and audits
+72,Package bodies
+73,Package specifications
+74,Password histories for database users
+75,The password complexity verification function
+76,Procedures and their dependent grants and objects
+77,Profiles
+78,Proxy authentications
+79,Referential (foreign key) constraints on tables in the database
+80,Refresh groups
+81,Resource cost information
+82,Fine-grained access-control driving contexts
+83,Fine-grained access-control policy groups
+84,Fine-grained access-control policies
+85,Roles
+86,Role grants to users in the database
+87,Rollback segments
+88,"Database schemas including for each schema all related and dependent objects: user definitions and their attributes (default roles, role grants, tablespace quotas, and so on), objects in the schema (tables, view, packages, types, and so on), and their dependent objects (grants, audits, indexes, constraints, and so on). The NAME and NAME_EXPR filters can be used with this object type path name to designate the database schemas to be fetched."
+89,Sequences
+90,Statistics on tables and indexes
+91,Public and private synonyms
+92,System privilege grants
+93,"Tables and their dependent objects (indexes, constraints, triggers, grants, audits, comments, table data, and so on)"
+94,Row data for all tables
+95,Tablespace definitions
+96,Tablespace quota granted to users in the database
+97,"Triggers on the database, on schemas, and on schema objects"
+98,Trusted links
+99,Types (both specification and body) and their dependent grants and audits
+100,Type bodies
+101,Type specifications
+102,User definitions
+103,Views

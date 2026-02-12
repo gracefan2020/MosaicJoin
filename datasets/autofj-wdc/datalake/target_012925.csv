@@ -1,0 +1,100 @@
+id,title
+0,"ISAKMP. IKE, Internet Key Exchange."
+1,STMF.
+2,asa-appl-proto.
+3,Intrinsa.
+4,citadel.
+5,mailbox-lm.
+6,ohimsrv.
+7,crs.
+8,xvttp.
+9,snare.
+10,FirstClass Protocol.
+11,mynet-as.
+12,"rexec, remote process execution. Used by mail system to notify users of new mail received."
+13,Rlogin. Maintains data bases for who's logged on a local net and the average load of the machine.
+14,Syslog. cmd like exec but automatic authentication is performed for login server.
+15,LPR.
+16,videotex.
+17,Like tenex link but across machine - doesn't use link protocol. A rendezvous port establishes a tcp connection.
+18,ntalk.
+19,unixtime.
+20,"RIP, Routing Information Protocol. Extended file name server."
+21,RIPng.
+22,ULP.
+23,IBM-DB2.
+24,NCP.
+25,timeserver.
+26,newdate.
+27,Stock IXChange.
+28,Customer IXChange.
+29,IRC-SERV.
+30,rpc.
+31,chat.
+32,readnews.
+33,emergency broadcasts.
+34,MegaMedia Admin.
+35,iiop.
+36,opalis-rdv.
+37,Networked Media Streaming Protocol.
+38,gdomap.
+39,Apertus Technologies Load Determination.
+40,uucpd.
+41,uucp-rlogin.
+42,commerce.
+43,klogin.
+44,krcmd.
+45,appleqtcsrvr.
+46,DHCPv6 client.
+47,DHCPv6 server.
+48,AFP over TCP.
+49,IDFP.
+50,new-who.
+51,cybercash.
+52,deviceshare.
+53,pirp.
+54,"RTSP, Real Time Streaming Protocol."
+55,dsf.
+56,rfs server.
+57,openvms-sysipc.
+58,SDNSKMP.
+59,TEEDTAP.
+60,rmonitord.
+61,monitor.
+62,chcmd.
+63,NNTP over TLS.
+64,plan 9 file service.
+65,whoami.
+66,streettalk.
+67,banyan-rpc.
+68,microsoft shuttle.
+69,microsoft rome.
+70,demon.
+71,udemon.
+72,sonar.
+73,banyan-vip.
+74,FTP Software Agent System.
+75,"VEMMI, VErsatile MultiMedia Interface."
+76,ipcd.
+77,vnas.
+78,ipdd.
+79,decbsrv.
+80,SNTP HEARTBEAT.
+81,Bundle Discovery Protocol.
+82,SCC Security.
+83,Philips Video-Conferencing.
+84,Key Server.
+85,Password Change.
+86,"ESMTP, Extended Simple Mail Transfer Protocol."
+87,CAL.
+88,EyeLink.
+89,TNS CML.
+90,FileMaker Inc. - HTTP Alternate (see Port 80).
+91,Eudora Set.
+92,HTTP RPC Ep Map.
+93,TPIP.
+94,CAB Protocol.
+95,SMSD.
+96,PTC Name Service.
+97,SCO Web Server Manager 3.
+98,Aeolon Core Protocol.

@@ -1,0 +1,334 @@
+id,title
+0,Statin-Induced Pathologies
+1,Myopathies
+2,Chemically-Induced Liver Damage
+3,High Cholesterol
+4,Drug-Induced Nutrient Depletion: Statin Drugs
+5,Rhabdomyolysis
+6,Diabetes Mellitus: Type 2
+7,Coenzyme Q10 Deficiency
+8,Cancers: All
+9,Drug-Induced Toxicity
+10,Coronary Artery Disease
+11,Pancreatitis
+12,Cataract
+13,Cardiovascular Diseases
+14,Mitochondrial Dysfunction
+15,Oxidative Stress
+16,Myalgias
+17,Peripheral Neuropathies
+18,Hyperlipidemia
+19,Mitochondrial Myopathies
+20,Cognitive Decline/Dysfunction
+21,Insulin Resistance
+22,Creatine Phosphokinase (CK): Elevated
+23,Testosterone: Too Low
+24,GGT
+25,Memory Disorders
+26,Erectile Dysfunction
+27,Kidney Failure
+28,Esophageal Cancer
+29,Liver Damage
+30,Neuropathies
+31,Low Testosterone
+32,Hyperglycemia
+33,Muscle Damage: Exercise-Induced
+34,Athletic Performance
+35,Blood Platelet Disorders
+36,Hepatitis: Cholestatic
+37,Elevated: ALT
+38,Elevated: Creatinine Kinase
+39,Hypertension
+40,Cholestasis
+41,Polyneuropathies
+42,Liver Disease
+43,Diabetes Mellitus: Type 1
+44,Intracerebral Hemorrhage
+45,AST: Elevated
+46,Birth Defects
+47,Diabetes Insipidus
+48,Diabetes Mellitus: Type 2: Prevention
+49,Fibromyalgia
+50,Hemodialysis
+51,Liver Failure: Drug Induced
+52,Myopathy
+53,Hepatitis: Autoimmune
+54,Autoimmune Diseases
+55,Immune Disorders: Low Immune Function
+56,Kidney Failure: Acute
+57,Cholesterol: Oxidation
+58,Lupus-Like Syndrome
+59,Cardiomyopathy
+60,Depression
+61,Dietary Fatty Acid Imbalance: Omega3/Omega6 Ratio
+62,Muscle Soreness
+63,Aggression
+64,Aldosterone levels: Low
+65,Breast Cancer
+66,Cardiac Mortality
+67,Copper Deficiency
+68,Diabetes: Cardiovascular Illness
+69,Eczema
+70,Heart Failure
+71,Hormonal Perturbations: Dopamine Elevation
+72,Hormonal Perturbations: Homovanillic acid (HVA) Elevations
+73,Insomnia
+74,Kidney Diseases
+75,Organ Transplantation: Heart
+76,Psoriasis
+77,Renal Failure: Chronic
+78,Sperm Quality: Low
+79,Zinc Deficiency
+80,Myositis
+81,Kidney Damage: Drug-Induced
+82,Neurotoxicity
+83,Prenatal Chemical Exposures
+84,Psychiatric Disorders
+85,Sleep Disorders
+86,Hypothyroidism
+87,Death: Statin-Induced
+88,Endothelial Dysfunction
+89,Hepatitis
+90,Interstitial Lung Diseases
+91,Mitochondrial Diseases
+92,Muscle Disorders
+93,DNA damage
+94,Lichenoid Dermatitis
+95,Omega-3 Fatty Acid Deficiency
+96,Amyotrophic Lateral Sclerosis
+97,Aortic Stenosis
+98,Arterial Calcification
+99,Blood Sugar Problems
+100,Bone Fractures
+101,Colorectal Cancer
+102,DHEA: Low
+103,Dermatomyositis
+104,Exercise-Induced Tissue Damage
+105,Gastrointestinal Complaints
+106,Infants: Low Birth Weight
+107,Muscle Fatigue
+108,Myasthenia Gravis
+109,Myocardial Infarction
+110,Pneumonia
+111,Polymyositis
+112,Premature Birth
+113,Prostate Cancer
+114,Sepsis
+115,Stroke
+116,Testicular Cancer
+117,Neurodegenerative Diseases
+118,Anxiety Disorders
+119,Lens Diseases
+120,Lichen Planus
+121,Lupus Erythematosus: Cutaneous
+122,Memory Disorders: Drug-Induced
+123,Psychological Well-Being
+124,Systemic Lupus Erythematosus
+125,Jaundice
+126,Liver Damage: Drug-Induced
+127,Multi-Organ Failure
+128,Brain Damage
+129,Infertility: Male
+130,Dementia
+131,Impotence
+132,Memory Loss
+133,Neuromuscular Diseases
+134,Nightmare
+135,Polymyalgia Rheumatica
+136,Gynecomastia
+137,Tendon Rupture
+138,Thrombocytopenia
+139,Demyelinating Diseases
+140,Pregnancy: Environmental Exposures
+141,Skin Cancer
+142,Stroke: Attenuation/Recovery
+143,Violence
+144,Alzheimer's Disease
+145,Ammonia: Elevated
+146,Aneurysmal subarachnoid hemorrhage (SAH)
+147,Aortic Calcification
+148,Arteriovenous Fistula
+149,Bacterial Infections and Mycoses
+150,Balance Disorders
+151,Bilirubin: Low
+152,Bladder Cancer
+153,Blood Lactate/ Pyruvate Ratio: Elevated
+154,Breast Cancer: Ductal Carcinoma In Situ
+155,Breast Cancer: Invasive Lobular Carcinoma (ILC)
+156,C-Reactive Protein
+157,Calcium Homeostasis: Impairment
+158,Cerebral Hemorrhage
+159,Chemotherapy-Induced Toxicity
+160,Cholesterol: High
+161,Cough
+162,Domestic Violence
+163,Dry Mouth
+164,Dysphagia
+165,Ectopic Calcification
+166,Endothelial Damage
+167,Family Violence
+168,Fatigue
+169,Herpes Zoster
+170,Herpes family viruses
+171,Hip Fracture
+172,Hypogonadism
+173,IGF2 and IGFBP3: Low
+174,Infection: Bloodstream
+175,Inflammation
+176,Insulin-Like Growth Factor (IGF): Low
+177,Irritability
+178,Isoprostane 8-epi-PGF2alpha: Elevated
+179,Kidney Cancer
+180,Libido: Low
+181,Lung Cancer
+182,Lupus Erythematosus: Systemic
+183,Macular Degeneration
+184,Malignant Hyperthermia
+185,McArdle Disease
+186,Melanoma
+187,Microalbuminuria
+188,Multiple Myeloma
+189,Muscle Soreness: Exercise-Induced
+190,Muscle Stiffness: Exercise-Induced
+191,Myocardial Ischemia
+192,Myotoxicity
+193,Neuropsychological Dysfunction: Psychomotor Speed
+194,Oral Symptoms
+195,Osteoarthritis: Knee
+196,Pancreatic Cancer
+197,Prostatectomy
+198,Radical Prostatectomy
+199,Rheumatoid Arthritis
+200,Shingles
+201,Skeletal Muscle: Changes to MHC I expression
+202,Sperm Count: Low
+203,Thrombosis
+204,Vasospasm: Intracranial
+205,Vitamin D Deficiency
+206,Weight Problems: Drug-Induced
+207,A1C
+208,Bile Duct Injury
+209,Diabetes: Glycation/A1C
+210,Eosinophilia
+211,Eye Diseases
+212,Lactic Acidosis
+213,Lens Damage
+214,Lung Diseases: Interstitial
+215,Myositis Migrans
+216,Myositis: Focal
+217,Skeletal Muscle Changes: Endoplasmic Reticulum Stress
+218,Lipid Peroxidation
+219,Abortion: Spontaneous
+220,Multiple Sclerosis
+221,Pneumonia: Interstitial
+222,Alopecia
+223,Ataxia
+224,Bipolar Disorder
+225,Blepharoptosis
+226,Blood-Brain-Barrier Disorders
+227,Cheilitis
+228,Compartment Syndromes
+229,Cutaneous Eruptions
+230,Cystitis: Hemorrhagic
+231,Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)
+232,Gitelman's syndrome (False Presentation)
+233,Mood Disorders
+234,Multiple Mononeuropathy
+235,Myoglobinuria
+236,Organ Transplantation: Liver
+237,Paranoia
+238,Perioperative Care
+239,Rhabdomyolysis: Fatal
+240,Senile Paranoid Dementia
+241,Tendinopathy
+242,Toxic Epidermal Necrolysis
+243,Ulcerative Colitis
+244,Vasculitis
+245,Aging
+246,Congestive Heart Failure
+247,Mineral Deficiencies: Selenium
+248,Skin Problems: Compromised Barrier Function
+249,Alcohol Toxicity
+250,Drug-Induced Toxicity: Indomethacin
+251,Gastrointestinal Diseases
+252,Immune Dysregulation: TH1/TH2 imbalance
+253,Infertility
+254,Infertility: Female
+255,Lung Diseases
+256,NSAID-induced toxicity
+257,Organ Transplantation
+258,Ovarian Diseases
+259,Pancreatic Diseases
+260,Proteoglycan Expression: Down-Regulation of Chondroitin Sulfate
+261,Proteoglycan Expression: Pathological
+262,Respiratory Diseases
+263,Spinal Cord Injuries
+264,Testicular Diseases
+265,Acute Respiratory Distress Syndrome
+266,Acute generalized exanthematous pustulosis (AGEP)
+267,Alkaline Phosphatase: Elevated
+268,Appetite Disorders: Loss/Lack of
+269,Arthralgia
+270,Bilirubin: Elevated
+271,Bullous Dermatosis
+272,Cholangiolitis
+273,Colitis
+274,Dermatitis: Actinic
+275,Gastric Ulcer
+276,Guillain-Barre Syndrome
+277,Headache: Altitude-Induced
+278,Hepatitis: Acute
+279,Hyperkalemia
+280,Hypersensitivity
+281,Hyperthermia
+282,Hypotension
+283,Intraocular Hemorrhage
+284,Kidney Failure: Chronic
+285,Kidney Transplant
+286,Lens Opacities
+287,Low Libido
+288,Lupus Erythematosus: Cutaneous: Subacute
+289,Melas Syndrome
+290,Musculoskeletal Complaints
+291,Neuroleptic Malignant Syndrome
+292,Ovulation Disorders
+293,Pleurisy
+294,Pneumonitis
+295,Pneumonitis: Hypersensitivity Type
+296,Presymptomatic Metabolic Myopathy
+297,Seizures
+298,Sleep Apnea
+299,Smell Disorders
+300,Tendon Injury
+301,Tendon Rupture: Spontaneous Bilateral Quadriceps
+302,Urticarial Vasculitis
+303,Alveolar Capillary Congestion
+304,Cochlear Neuronal Damage
+305,Hearing Disorders
+306,Hypoadrenalism
+307,Infant Mortality
+308,Influenza A
+309,Insulin-like Growth Factor-1: Signaling Abnormalities
+310,Lethargy
+311,Lung Damage
+312,Neurologic Disorders
+313,Optic Nerve Diseases
+314,Proteinuria
+315,Pulmonary Alveolar Proteinosis
+316,Skeletal Muscle Changes: Ultrastructural Changes
+317,Tumors
+318,Elderly: Age Specific Diseases
+319,Ichthyosis
+320,Immune-Mediated Necrotizing Myopathies
+321,Kidney Damage
+322,Molecular Pathologies: Dolichol Depletion
+323,Myopathy: Iatrogenic
+324,Neurodevelopmental Disorders
+325,Neuromyotoxicity
+326,Ovarian Failure
+327,Prostate Diseases
+328,Skeletal Muscle: Drug-Induced Changes
+329,Squamous cell carcinoma
+330,Stroke: Hemorrhagic
+331,Suicidal Behavior
+332,Vitamin E Deficiency

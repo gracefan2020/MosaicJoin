@@ -1,0 +1,51 @@
+id,title
+0,Render Passes
+1,Linear output forced on every scene
+2,"redundant ""No RGB"" setting for scalar blend materials maps"
+3,Forward compatibility with Blender Color Management
+4,Exporting packed textures unpack without an alpha.
+5,Rough glass isn't working properly in blend material
+6,Improved stenciling
+7,Blender crash with blend materials
+8,Gamma 1.80 input on linux
+9,Soft spotlight is to dark
+10,Gamma correction performed on EXR files
+11,Light emitting particles and photon mapping
+12,XML parsing is locale-dependant
+13,Rendering with 2 or more volumetric objects results in no light affecting on the objects
+14,YafaRay texture alpha inverted respect to Blender texture alpha
+15,Final Gather uses non-IBL background in glass
+16,Particles render
+17,SSS in Yafaray
+18,"Instances, proxies or other repeatable mesh data management system"
+19,Lost configuration of Blend material
+20,Mapping Oren Nayar sigma
+21,"Option for ""indirect light only"""
+22,Sub Surface Scattering
+23,Sun disk on mirror component
+24,Let emitting textures shoot photons for caustics
+25,blender's map input nor
+26,Generate a snapshot of the render progress every XX seconds
+27,Spefici Car Paint shader
+28,Physical camera
+29,Ray ordering the easy way
+30,contrast/brightness
+31,ability to add all data from Yafaray render settings
+32,Noise Priority Rendering
+33,animation output naming conention
+34,emit material doesn't emit light in photon maping
+35,Huge memory consumption for textures / memory leak
+36,Add qt qui preview window for yafaray-xml.exe
+37,A mean to resample the scene once the initially specified passes are finished
+38,blender's map input win
+39,Crop on border render
+40,Problem with set smooth / set solid
+41,Photon map saving
+42,YR render perspective doesn't match with BI render
+43,never resample background
+44,Option to include caustic photons in final gather rather than rendered separately.
+45,Volumes behind glass and transparent objects are not rendered
+46,Yafray edgetex
+47,add a checkbox for computer's shutdown when render is finished
+48,Raytraced/Geometry Motion Blur and Motion Blurred Shadows
+49,Mikk TSpace Normal shader

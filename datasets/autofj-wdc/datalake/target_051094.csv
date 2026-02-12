@@ -1,0 +1,43 @@
+id,title
+0,Standards: available for purchase from VESA http://www.vesa.org
+1,"Datasheets: Publicly available from Atmel (www.atmel.com),"
+2,"Fairchild (www.fairchildsemi.com), and"
+3,Microchip (www.microchip.com)
+4,Chip Size (bits) Address
+5,24C01 1K 0x50 (shadows at 0x51 - 0x57)
+6,(Typical device in monitors)
+7,24C01A 1K 0x50 - 0x57 (Typical device in monitors)
+8,24C02 2K 0x50 - 0x57
+9,"24C04 4K 0x50, 0x52, 0x54, 0x56"
+10,"(additional data at 0x51, 0x53, 0x55, 0x57)"
+11,"24C08 8K 0x50, 0x54 (additional data at 0x51, 0x52,"
+12,"0x53, 0x55, 0x56, 0x57)"
+13,24C16 16K 0x50 (additional data at 0x51 - 0x57)
+14,"Authors: Frodo Looijaard , Philip Edelbrock ,"
+15,"List of adapter,address pairs to boldly assume to be present"
+16,"* force_ddcmon: short array (min = 1, max = 48)"
+17,"List of adapter,address pairs which are unquestionably assumed to contain"
+18,a `ddcmon' chip
+19,Same as 'force'
+20,"* ignore: short array (min = 1, max = 48)"
+21,"List of adapter,address pairs not to scan"
+22,of the DDC Monitor's eeprom.
+23,"- If a DDC monitor eeprom lacks the 'signature', you may use the"
+24,"'force' parameter (modprobe ddcmon force=x,0x50 where 'x' is the"
+25,i2c bus number).
+26,- This module requires a bus driver for your video chip to access the
+27,DDC bus. Currently drivers exist for Voodoo3/Banshee chips and
+28,Matrox chips only. See documentation for those drivers in ../busses.
+29,"DDC bus. In this package, drivers exist for Voodoo3/Banshee chips."
+30,See documentation for those drivers in ../busses. Other drivers
+31,"(Matrox and NVidia, for example) are available in the kernel or"
+32,elsewhere. See our 'Supported Devices' web page for details.
+33,- There is a checksum over the 128 bytes in the eeprom but the driver
+34,available by enhancing the driver.
+35,"To see the entire eeprom, use the eeprom.o module instead of ddcmon.o."
+36,"However, then you lose the DDC-specific formatting."
+37,- This driver does not support the DDC/CI (DDC2Bi) bidirectional
+38,- The driver caches the data from the monitor and only rereads it
+39,from the eeprom if the cache is more than 5 minutes old.
+40,- X 4.0 also accesses the DDC monitor EEPROM to auto-configure itself.
+41,There could possibly be conflicts from these multiple accesses.

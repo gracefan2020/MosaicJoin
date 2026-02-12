@@ -1,0 +1,101 @@
+id,title
+0,Demo Playback Controls
+1,Improved In-Game Server List
+2,"Clan ""Logos"" on Jerseys"
+3,Better Bot AI
+4,Kill-Cam
+5,Female Player Model
+6,Ranking System
+7,High-Polygon Weapon Models
+8,Player Search Function
+9,Names on Jerseys
+10,Ragdoll Physics
+11,(Optional?) In-Game Ads to Support Development Costs
+12,New Map Format
+13,Map Voting Adjustments
+14,High Resolution Item Textures
+15,Global Login Clan-Based Auto-Specinvite
+16,Hints and Tips
+17,Stop Disconnects from Preventing Flag Captures
+18,Server-Side Demo Playback
+19,Improve Smoke Grenades
+20,Grenade Toss Animation
+21,Bump/Normal Mapping
+22,Auto-Delete Non-Activated DPLogin Accounts
+23,Improved 3D Sound (OpenAL)
+24,Download Textures Required by RScripts
+25,Command to Retrieve All Names Registered to a Login ID Number
+26,Break Game Code Up Into Multiple (Open-Sourced) Libraries
+27,Extend Ignore and Specinvite Commands to Include Team Colors
+28,Map Option to Reset Entities Every Round
+29,Vote Kick
+30,Log Admin Name when Player is Kicked
+31,More Visible MOTD
+32,User's National Flag
+33,Clan Expiration
+34,Team-Specific Entities
+35,Revisit Spawning Code
+36,Query API for Global Login System
+37,Xfire & Skype Name on Global Login System Profile
+38,Player Search Function for In-Game Server Browser
+39,AVI Video Export
+40,Prevent Pong Ball from Passing Through Players
+41,Multi-Column List Widgets
+42,Underwater Air Bar Meter
+43,Highlighting and Copying in Console
+44,Animation Blending
+45,Clan Administration Event Logging
+46,Global Login Based Server Bans
+47,Reasons for Kicks/Bans
+48,Particle Collision (To Stop Paint Splats from Flying Through Walls)
+49,Update Screenshots
+50,Require Play Time to Create/Join Clans and Vote
+51,Round Countdown Timer
+52,Move Faster in Noclip Observer Mode
+53,Shadows from .SKM models
+54,Dead Man Practice Mode
+55,Display Current Weapon/Gun on HUD
+56,Don't Remove Streak With Admin Kill / Viewgib
+57,Dense Foliage Support
+58,List Game Mode in Server Browser
+59,Additional Trial Training Clan Tag/Group
+60,Include Zorch's menus
+61,Mute List
+62,Splash Effect When Paintballs Hit Water
+63,Configurable GUI/HUD Images
+64,Show Ban History in Global Login Profile
+65,Lock Chasecam to Player
+66,Jump Mod
+67,Simplify In-Game Login System GUI
+68,Prop Physics
+69,Avoid Hogging CPU on Fatal Errors
+70,Domination Game Mode
+71,"More Player Movement Animations (Strafe, etc.)"
+72,"Machine-Readable logging for Commands, Chat, Connects, Etc."
+73,Optimize/Reduce CPU Usage on Server
+74,Automatically Change Map After Set Time Period
+75,Fire and Smoke Particle Emitters
+76,Global Login Based Ops/Server Login
+77,Mediawiki
+78,Gun Game / Weapon Game Mode
+79,Private Chat Messages In-Game
+80,Ability to Add Notes to Clan Join Requests
+81,More DSM Options
+82,Clan Ranking/Rating/Ladder System
+83,Don't Crash Server with Too Many Entities
+84,New Text System with Variable Font Support
+85,In-Game Account Registration
+86,Recoverable Error when a Map Fails to Load
+87,Time Remaining Clock for Demos
+88,Visual Guide Points for Strafe Jumping
+89,First-Time Startup Wizard
+90,ARB Fragment Program (Pixel Shader) Support for Texture Scripts
+91,Fix Add Poll Link on Forums
+92,Show Characters Left for Funname
+93,RCON Command to Get Player Info with Teams
+94,Display Name of Player Who Scored in Pong Mode
+95,In-Game Map Rating
+96,Replace Comical Death/Round/Etc. Sounds
+97,UPnP Port Forwarding
+98,Show Registration Dates of Player Names
+99,Allow More Attenuation Options for Looping Sounds in Maps

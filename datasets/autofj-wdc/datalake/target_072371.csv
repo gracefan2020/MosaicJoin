@@ -1,0 +1,71 @@
+id,title
+0,Displays the running configuration
+1,Displays the startup configuration
+2,-
+3,Displays the status for all of the interfaces
+4,Displays the status for a specific interface
+5,-
+6,Displays the current boot variables
+7,-
+8,Displays the system clock and time zone configuration
+9,Displays the summer-time configuration
+10,-
+11,Displays all environment parameters
+12,Displays clock status for A/B and active clock
+13,Displays fan status
+14,Displays power budget
+15,Displays environment data
+16,-
+17,Displays the local log
+18,Displays persistent log messages (Severity 0-2) in NVRAM
+19,Displays installed modules and their status
+20,Displays how long each module has be powered up
+21,Displays fabric modules and their current status
+22,Displays the % of fabric utilized per module
+23,Displays the processes running on the CPU
+24,Displays the processes history of the CPU
+25,Displays sorted processes running on the CPU
+26,-
+27,Displays the core dump files if present
+28,Displays last exception log
+29,Displays the supervisors High Availability status
+30,Displays CPU and memory usage data
+31,Displays system and kernel start time
+32,-
+33,"Displays running software version, basic hardware, CMP status and system uptime"
+34,-
+35,Displays console and auxiliary port information
+36,Displays auxiliary port information
+37,Displays console port information
+38,States if the console port is physically connected
+39,Displays terminal settings
+40,Displays current virtual terminal settings
+41,-
+42,Displays a list of all configured VRFs
+43,Displays an specified VRF
+44,Displays details for a specified
+45,Displays interface assignment for a specified VRF
+46,Displays a summary of the default VRF
+47,Displays details for all VRF's
+48,Displays VRF interface assignment
+49,Displays a summary of the management VRF
+50,-
+51,Displays all license file information
+52,Displays the license file names installed
+53,Displays license contents based on a specified name
+54,Displays the chassis Host-ID used for creating a license
+55,Displays all licenses used by the system
+56,Displays all licenses used by the system per type
+57,Displays all licenses used by the system for all VDCs
+58,Displays all license file information
+59,-
+60,Displays a list of the configured VDC's
+61,Displays a summary of the individual VDC
+62,Displays configuration details for a specific VDC
+63,Displays interface membership for a specific VDC
+64,Displays resource allocation for a specific VDC
+65,Displays the VDC that the user is currently in
+66,Displays details information for all VDCs
+67,Displays interface membership for all VDCs
+68,Displays resource allocation for all VDCs
+69,Displays a list of the configured VDCs

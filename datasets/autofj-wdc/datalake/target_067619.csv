@@ -1,0 +1,101 @@
+id,title
+0,give more info when saving options fails
+1,add info menu
+2,quick POI adding
+3,substitute wrong terms in routing service output
+4,"""pixel zooming"" - like in tangogps"
+5,combine close turns to one message
+6,QML UI: Map layer gallery
+7,Monav: more robust monav-server shutdown
+8,option: shut down GPS when in standby for X minutes
+9,use zsync to update offline routing data
+10,overhaul the POI menu
+11,show whole world on the screen
+12,retimestamp a gpx file from the master timestamp
+13,add clories/fuel estimation function
+14,after a big tile download modRana GUI crashes
+15,send position by sms
+16,add social network iteraction
+17,clikable tracklogs
+18,automatic rerouting
+19,N900: add direct calling of local search result numbers
+20,draw a custom route
+21,add support for offline routing
+22,add quick search widget
+23,widget system overhaul
+24,voice: messages with empty distance string
+25,"add ""button pressed"" feedback"
+26,add jump-to-zoomlevel widget
+27,add easy jumping to track/route start/destination
+28,"tracklog renaming, route naming"
+29,add batch import of tiles to db
+30,use source zoomlevel for batch download while scaled
+31,Maemo 5@N900: modRana freezing
+32,"""burn"" tracks to map tiles"
+33,edit the Espeak substitution list from GUI
+34,"add tracklog re/naming, deleting"
+35,store directions when saving route
+36,special mode for batch downloads
+37,map data management tool
+38,Add more routing messages + improve the routing message box
+39,add a boat mode
+40,voice directions
+41,POI: sort by distance & search by typing
+42,add support for knots
+43,Point to Point distance measurement
+44,"boat: add weather, moonphase & tide info"
+45,free navigation (arrow + distance to a given POI/coordinates)
+46,export POI as a GPX file
+47,Maemo@N900+possibly other: remember and restore internet connection state
+48,Maemo@N900: switch between turns with the volume rocker
+49,ask to enable GPS
+50,SHR@NEO: wrong speed displayed due to FSO-GPSD
+51,list all navigation steps
+52,improve the GPX example tracks
+53,"UI: only show ""route"" button when applicable"
+54,Routing: add support for waypoints
+55,Routing: make start/destination indicators dragable
+56,anchor alarm
+57,batch download: add download visible mode
+58,batch download: around view -> around point + imporvements
+59,tile loding/download: Loading tiles stuck after switching network access rules
+60,Add optional GPS shutdown timeout
+61,Add more features for working with POI
+62,show onscreen menu/widget when track logging is in progress
+63,show ISS and other orbiting satellites on the map
+64,SHR@Neo automatic GPS start/stop
+65,Show whole tracklog on map
+66,cancel download of no longer visible tiles
+67,Pressing pause when logging does not stop the time
+68,Better readable and configurable scale indicator
+69,make routing box position configurable
+70,weather info integration
+71,barometer support
+72,better voice navigation messages
+73,smart tile preloading
+74,TBT Navigation - move position indicator location to show maximum of the route ahead on the screen
+75,batch download tiles around current route
+76,modrana remote data client/server
+77,download upper zoom levels first during batch download
+78,tile update
+79,QML UI: improve point display
+80,QML UI: pinch gesture in icon grid
+81,QML UI: Zoomable text fields
+82,"QML UI: center the loading Loading... label, remove Ready label"
+83,QML UI: show tile debugging info
+84,GTK UI: on map logging trace broken
+85,QML UI: enable notifications
+86,QML UI@N900: interface glitched outside of fullscreen
+87,QML UI@N9/950: add support for screen blanking control
+88,QR codes for points/coordinates
+89,QML GUI: remember last used zoom
+90,QML GUI: set fallback location to Brno as in GTK UI
+91,QML GUI: automatically zoom in/out when holding a zoom button
+92,add map storage path dialog to to GUI
+93,Handle ampersand in POI name
+94,Load POI detail module when POIs from last time are restored
+95,N900: notify users without CSSU when they try to launch the QML GUI
+96,average speed calculation wrong
+97,GTK UI: point2point routing - show feedback if only one point or no points are selected
+98,simple position publishing
+99,Way bounding box

@@ -1,0 +1,63 @@
+id,title
+0,Debugger Online
+1,Settings Object Online
+2,Security Online
+3,End of initialization
+4,Item Object Spawning: 154 (Total Items: 1)
+5,Item Object Spawned: 154 Type:html_object
+6,Finished adding Page View Data
+7,Executing Mode: display
+8,Premode Tasks - Start
+9,Start Premode Tasks display
+10,End Premode Tasks display
+11,Mode Tasks - Start
+12,Finished Executing Mode: display
+13,Prepare starting in render
+14,Initializing Smarty
+15,Initialized Smarty Object From mode_base
+16,Search: 1 Starting Search
+17,Item Object Spawning: 2 (Total Items: 2)
+18,Item Object Spawned: 2 Type:profile_object
+19,Search: 1 Finished Search Query Time: 0000.0008271
+20,Search: 2 Starting Search
+21,Search: 2 Finished Search Query Time: 0000.0009320
+22,Start mode_prepare
+23,End mode_prepare
+24,Prepare complete in render
+25,Begin Render
+26,Render Starting
+27,Rendering Content - Start
+28,Rendering template site/custom/templates/web/items/html/default_display.tpl
+29,Item Object Spawning: 7 (Total Items: 3)
+30,Item Object Spawned: 7 Type:menu_object
+31,Item Object Spawning: 70 (Total Items: 4)
+32,Item Object Spawned: 70 Type:menu_object
+33,Finished rendering template site/custom/templates/web/items/html/default_display.tpl
+34,Rendering Content - End
+35,Rendering section head - Start
+36,Rendering template site/custom/templates/web/site/head.tpl
+37,Item Object Spawning: 11 (Total Items: 5)
+38,Item Object Spawned: 11 Type:section_object
+39,Item Object Spawning: 61 (Total Items: 6)
+40,Item Object Spawned: 61 Type:menu_object
+41,Search: 3 Starting Search
+42,Item Object Spawning: 52 (Total Items: 7)
+43,Item Object Spawned: 52 Type:menu_object
+44,Search: 3 Finished Search Query Time: 0000.0111918
+45,Search: 4 Starting Search
+46,Search: 4 Finished Search Query Time: 0000.0167911
+47,Finished rendering template site/custom/templates/web/site/head.tpl
+48,Rendering section head - End
+49,Rendering section foot - Start
+50,Rendering template site/custom/templates/web/site/foot.tpl
+51,Finished rendering template site/custom/templates/web/site/foot.tpl
+52,Rendering section foot - End
+53,Rendering section post - Start
+54,Rendering template site/core/templates/web/site/post.tpl
+55,Finished rendering template site/core/templates/web/site/post.tpl
+56,Rendering section post - End
+57,Rendering template site/custom/templates/web/site/pre.tpl
+58,Start rendering css asset block.
+59,Start rendering js asset block.
+60,Finished rendering template site/custom/templates/web/site/pre.tpl
+61,Rendering template site/core/templates/web/helpers/debugger_popup.tpl

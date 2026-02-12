@@ -1,0 +1,125 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. AFC
+4,vs. NFC
+5,vs. Own Division
+6,Grass
+7,Turf
+8,Outdoors
+9,Indoors
+10,Day Games
+11,Night Games
+12,Split
+13,September
+14,October
+15,November
+16,January
+17,On Thursday
+18,On Sunday
+19,On Monday
+20,Games 1-8
+21,Games 9-16
+22,Outdoor Temp 41-60 F
+23,Outdoor Temp 61-80 F
+24,In High Wind
+25,Clear Weather
+26,As Substitute
+27,In Wins/Ties
+28,In Losses
+29,1st Half
+30,2nd Half
+31,1st Qtr
+32,2nd Qtr
+33,3rd Qtr
+34,4th Qtr
+35,Last 2 Min. Half
+36,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+37,Score Diff > 7 points
+38,Final Margin 7 pts or less
+39,"4th Qtr, +/-3 pts"
+40,"4th Qtr, +/-7 Pts"
+41,Split
+42,1st Down
+43,2nd Down
+44,3rd Down
+45,Own 20-39
+46,Between 40s
+47,Opp 39-20
+48,"First down, 10 yds to go"
+49,Split
+50,vs. CIN
+51,vs. JAC
+52,vs. NYJ
+53,vs. ARI
+54,vs. PIT
+55,vs. SF
+56,vs. SEA
+57,vs. STL
+58,vs. TEN
+59,vs. HOU
+60,Split
+61,ALLTEL Stadium
+62,Trans World Dome
+63,Paul Brown Stadium
+64,Adelphia Coliseum
+65,Heinz Field
+66,PSInet Stadium
+67,Split
+68,vs AFC East teams
+69,vs NFC West teams
+70,Split
+71,"1st Down, 8-10 To Go"
+72,"1st Down, 6+ To Go"
+73,"2nd Down, 3-7 To Go"
+74,"2nd Down, 8-10 To Go"
+75,"2nd Down, < 6 To Go"
+76,"2nd Down, 6+ To Go"
+77,"3rd Down, 0-2 To Go"
+78,"3rd Down, 3-7 To Go"
+79,"3rd Down, 8-10 To Go"
+80,"3rd Down, 11+ To Go"
+81,"3rd Down, < 6 To Go"
+82,"3rd Down, 6+ To Go"
+83,Final Margin 0-7
+84,Final Margin 8-14
+85,Final Margin 15+
+86,Winning 22+
+87,Winning 15-21
+88,Winning 1-7
+89,When Tied
+90,Losing 1-7
+91,Losing 8-14
+92,When Winning
+93,When Trailing
+94,Split
+95,0 Tight Ends
+96,1 Tight End
+97,No Offensive Motion
+98,Offensive Motion
+99,4 on Def. Line
+100,5 on Def. Line
+101,6 on Def. Line
+102,> 6 on Def. Line
+103,Shotgun
+104,Pro Form
+105,Single Back
+106,3 Wide Receivers
+107,4+ Wide Receivers
+108,Split
+109,Right Side
+110,Left Side
+111,Middle
+112,Left Sideline
+113,Right Sideline
+114,Pass Thrown 1-10 yds
+115,Pass Thrown 11-20 yds
+116,Pass Thrown 31-40 yds
+117,Split
+118,Blitz
+119,QB Under Pressure
+120,Pass Dropped
+121,Pass Thrown Wide
+122,Pass Defensed
+123,Pass Caught-OOB

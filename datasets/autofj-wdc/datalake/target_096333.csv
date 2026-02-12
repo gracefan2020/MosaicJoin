@@ -1,0 +1,101 @@
+id,title
+0,Installer fails when trying to do dd on existing gpt partition with pc-bsd installed
+1,can not use iBus in some application. (10.0.2 RC2)
+2,Not allowed to modify or save time zone in Gnome3 or KDE
+3,pc-controlpanel-next not launching items
+4,New pc-controlpanel crashing
+5,10.0-RELEASE-p14 Fatal trap 30: reserved (unknown) fault while in kernel mode
+6,life preserver restore fails
+7,life preserver doesn't save its configuration
+8,AppCafe displays package size differently
+9,Can't deactivate Replication task
+10,pcbsd 10.0.2-RELEASE boots on wrong grub entry
+11,Gnome 3 window manager failing always I use pkg
+12,wpa_supplicant.conf keeps getting clobbered
+13,"TrueOS installer - Add input validation for IPv4 address, netmask, DNS, and Gateway"
+14,"Appcafe ""User Tips"" firefox"
+15,"AppCafe ""loading"" screen disappears when clicked"
+16,AppCafé close itself
+17,"System unstable, Firefox/Thunderbird/XBMC keep segfaulting"
+18,PC BSD 10.0.2: GPT + GELI: Grub hangs up on boot time
+19,Display Settings wizard
+20,Installation fails
+21,wireless icon in tray showing wrong icon
+22,Endless loop whele detecting graphics hardware
+23,CD detection should detect blank CDs
+24,HTTPS does not work with Static IP
+25,Wiki page for System Manager incorrect
+26,Wi-Fi Broadcom BCM43224 doesn`t work and etc.
+27,Cinnamon not working
+28,AppCafe packages update - download progress issue
+29,Warden installs an outdated ports tree
+30,Warden can't create template on zpool with altroot
+31,GRUB menu order
+32,xinput disables both my touchpad and my USB wireless mouse.
+33,AppCafe fails to start from the PC-BSD Control Panel
+34,Deleting a file in PC-BSD logs me out
+35,Warden incorrectly reports jails as Running
+36,Little bug in the first boot wizard
+37,"Update ""FreeBSD base system"" page of Bug Reporting tool"
+38,weird appcafe GUI quirkiness
+39,xfce ibus does not work again ??
+40,"Amarok not playing files, not showing context information"
+41,AppCafe does not start and does not warn user in case of connection issue
+42,Scan Network in Life Preserver does not detect running SSH server
+43,Create meta-PBI for QT dependencies (so we can build utilities)
+44,Gnome 3 loses effects/animation when enabling gdm
+45,PC-BSD 10 black screen
+46,Manual DNS configuration is not applied correctly
+47,Wrong UTF-8 characters in login screen user names
+48,internal error: failed to initialize ZFS library
+49,Warden GUI - User Administrator - Remove button
+50,USB keyboard hot swapping issues
+51,Remove Rating Doesn't
+52,acpi_ibm functionality deteriorated
+53,Platform and Architecture Fields in AppCafe are Confusing
+54,Cannot install programs in portsjail
+55,pc-netmanager closes on cancel button in sub dialog
+56,No Sound System detected in Jitisi 2.3.0.build.by.SVN on 10.0-RELEASE-p4
+57,pulseaudio error messages
+58,Alt + . : Dolphin crashes
+59,freebsd-update doesn't
+60,ATI Mobility Radeon 9700
+61,hw.usb.no_shutdown_wait setting does the opposite
+62,"Upgrade 9.2 > 10: KDE, XFCE, Cinnamon not working anymore"
+63,App Cafe segfault on first launch
+64,PC-BSD 10.0.1 Release not appearing on side/mirrors
+65,Cinnamon Screensaver Lock Password Issue
+66,OpenOffice 4.0.1 crashes when saving documents on 10.0-RELEASE-p4
+67,Docs - Broken link on Laptops page
+68,New Appcafe Slow to launch & sometimes doesn't launch at all
+69,Bluetooth Tray Icon Crash
+70,Virtualbox Module not loading automatically
+71,AppCafe Does Not Start
+72,"Boot Manager GUI allows user to delete default boot environment, rendering system unbootable"
+73,"Boot Manager is showing wrong snapshot as ""default"""
+74,Long startup times of Control panel / AppCafé
+75,System Update Tray not showing latest base system updates
+76,"PC-BSD, PCBSD10.0-RELEASE-x64-USB failed installing on Acer Aspire ONE D257-1471 Netbook"
+77,preload_enable is not set properly
+78,PC-BSD Control Panel Freezing Bug
+79,lost sound
+80,AppCafé not showing installed base packages
+81,dual boot error
+82,Hyperthreading causing problems with resume from suspend (state S3)
+83,System hangs at the point of reboot point install
+84,Warden Export Jail Fails PCBSD10.0
+85,Installer fails when selecting RaidZ1.
+86,Installer - ZFS Pool Name will not let you select a manual name with a # in it.
+87,PC-BSD GUI utilities are not uniform in basic layout
+88,Request for Clementine PBI
+89,Update Manager Icon not Updating
+90,PC-BSD Update Center got confused from applying updates
+91,Update center: possible open web link as root
+92,PC-BSD Update Center last log does not contain errors
+93,PC-BSD Update Center icon on system tray
+94,Enable the default battery monitor for LXDE
+95,After logout/login systemupdater and life preserver trays are gone
+96,AppCafé migration not working
+97,New AppCafé not deleting desktop icons when deinstalling program
+98,PEFS - Encryption with log-out not working
+99,pc-mounttray

@@ -1,0 +1,358 @@
+id,title
+0,Alternative menu item type names
+1,Java call-in on Linux
+2,hAndle OCX events synchronously
+3,Time Zones – Standard/Daylight
+4,Formating text in wishes
+5,ListToStruct – StructToList
+6,Compiler – error
+7,DB: autonumber
+8,Binary File POST/PUT without java memory buffers
+9,Add systematically jsonClass=\”array\” tag to entities with componentToStruct statement
+10,Dynamic field list for update/insert
+11,#file statement for ini files
+12,Attach=Hmove etc defined in model
+13,show queue in urouter
+14,"An equivalent of $curword, $curline, but for editboxes"
+15,JTI
+16,Packing code A for all DBMS drivers
+17,Vertical lines connection in graphical printing
+18,Full Linux front-end support
+19,Keypress trigger
+20,Abillity to use OCX controls with strict time domain
+21,When compiling stop going to top of trigger
+22,Field orientation
+23,Simplified timer
+24,Direct RTF file generation.
+25,Grid widget: officially support VScrollBar_HitEnd extended trigger
+26,Change HTTP Header content with SOAP Connector
+27,HIde occurrences in the grid widget
+28,New 3gl functions: uputregraw/ugetregraw
+29,using diffent libraries on all global objects
+30,$applinfo()
+31,Make $assignments() official
+32,forentity to cope with remocc and discard
+33,ASN summary
+34,Support for MS SQL Server bigint data type
+35,Global Uniface challenge 2014
+36,A function to indicate the field and entity which currently has the cursor
+37,IDF compiler
+38,Uniface 9.6 UDE titlebar text
+39,Windows style button with icon
+40,Order columns in a grid
+41,Update $status from $replace
+42,CHANGE $FILE_NEW_LINE ON THE FLY
+43,fields in window scalable
+44,Attach hmove/vmove should work for all widgets (including hyperlinks and labels)
+45,Precompiler enhencement
+46,Detail on Tabex
+47,Component serialization
+48,Encrypt and Decrypt triggers to not trigger locking
+49,Uniface LDAP driver support for encryption
+50,export/import
+51,Compiler should provide detailed info about relationships
+52,Ability to enable/disable certain compiler warnings
+53,Reset form layout state with 4GL function
+54,filebox multi file select
+55,$snapshot
+56,Oracle 12c
+57,Show open component and version in title bar
+58,Sonar code analytics
+59,Update latest service pack through Menu
+60,Command Line/ASN control over state registry key
+61,Proc Logging to log elapsed time for external activates
+62,WindowType
+63,Use Image Files in Panel
+64,Split Bar: Move Split Bar
+65,Automation of WSDL compilation
+66,/cpy sorted output
+67,"$entinfo($entname,\”FIELDLIST\”)"
+68,Oracle 8k packing code
+69,hot deployment
+70,Tree Widget: Node/Leaf Independent sorting
+71,Tree widget: column sorting in listview should be due to $nls_sort_order
+72,The Oracle driver from Uniface needs to support all_rows and hint_first_rows_n.
+73,selectcase enhancement
+74,$replace enhancement
+75,Tree widget: Tooltip/Mouseover function
+76,Optional prarmeters
+77,Force ANSII mode
+78,Change Field Layout definition programatically
+79,UNIFACE 9 UDE – Selecting Operations/Local Procs
+80,UNIFACE 9 UDE – Undo Functionality
+81,UNIFACE 9 UDE – Double Clicking Text
+82,UNIFACE 9 UDE – Tabbing Code
+83,UNIFACE 9 UDE – Renaming Variables
+84,Allow $TIMEOUT values greater than 60
+85,ACCEPT Defaults
+86,Fix the remove-indentation button in the development environment
+87,\”a no-process precompiler command\” or a precompiler-safe version of angle brackets so XML and HTML tags can be put in a string via uniface code w/o conflicst with (global) constants
+88,IDF operational completely via keyboard
+89,Support for Crystal Reports
+90,SQL command results returned in a Uniface list with or without trimming trailing spaces.
+91,rounding accurancy as variable
+92,Stay on same trigger when changing fields in IDF
+93,Version control model clustering
+94,Grid widget: Enable images on command buttons in grid
+95,DSP Editor Setup property for Source Editor
+96,JavaScript API documentation for JS developers
+97,Start DSP with JS API and direct output to div
+98,Get HTML element ID for JavaScript API object
+99,Trigger at entity level for DSP
+100,Label: Move label with field using $paintedfieldproperties
+101,discard
+102,Get compiletime by $componentinfo
+103,Show current line number in procedure editor
+104,Add EntityName into error messages
+105,See compile dates in UAR files
+106,Add function $monthend to Uniface proc as well
+107,Secure username/passwords in SOAP_PARAMS
+108,Tree widget: Convert content to List
+109,Form and Widget windows handle availability
+110,Uniface 9 UDE titlebar text
+111,Enhancement of $encode / $decode
+112,relationship constraints wo painting all entities
+113,"$entinfo(Entity,Option) on not painted entities"
+114,Oracle date with timezone
+115,Enable paging to the database drivers
+116,Enable html files for yellow web error messages
+117,Message line: Hide or remove Uniface status bar
+118,A DSP forum representitive
+119,Use of STRUCT in public operations
+120,replace id with representation in putlist
+121,Run nonmodal/attached forms from modal
+122,SQL scripts as part of repository
+123,Soap with Attachments
+124,Re-write the IDF without using uniface
+125,Hyperlink widget: focus rectangle for transparent hyperlinks
+126,Correct back tabbing
+127,Using Contained Forms as Normal forms and vice versa
+128,Copy and paste fields in the same form and entity
+129,Support for html attributes size and maxlength
+130,Possible to dynamically set the URL of the WSDL
+131,uServer to prcess HTTP actions OPTIONS and HEAD
+132,A new trigger to fire like INIT operation
+133,asn setting $macro_first as proc code
+134,Reg – free for COM Objects
+135,Compile constant CompileLevel
+136,Tree widget: reorder of a subtree expanded also to leaves
+137,TabEx widget: Associate picture and colors with tabs
+138,Maximum Length of Component Name
+139,Add a screen reader as a supported browser
+140,update Uniface – COM interface
+141,Display support for multi page tiff files
+142,Convertion Rich Text to flat text
+143,Remote debugging of a targeted userver
+144,Grid widget: Add filtering option to Grid
+145,Distinguish L/R-side references in XRef
+146,File Upload Box for DSP
+147,Menu: refresh
+148,Spawn
+149,Extended Display
+150,Calendar widget: DatePicker style widget for client/server GUI
+151,Dynamic $valrep assignment in DSP’s
+152,Radio Group widget & Checkbox widget: Transparency property
+153,“Quicker access to “”Editors –> Library”” in IDE”
+154,Support for JSON
+155,Support for regular expressions
+156,Provide support for the latest version of dojo
+157,Browser side date validation and correction.
+158,New options for entitycopy
+159,Minimum number of UST (userver) processes
+160,group components and have more than 1 version
+161,Tree widget: Select whole line in the listview
+162,Support for SOAP headers in SOAP Call-out
+163,Built in random number generator
+164,Get process ID from Uniface
+165,SOAP to run over TCP
+166,Release Uniface with the latest version of Java
+167,UHTTP to be able to grab raw data
+168,Drag and drop to allow field data to be dragged
+169,Menu: Office style menu ribbon along the top
+170,Menu: Icons next to Menu bar items
+171,Multi occurrence: Screen resize to auto increase number of occurrences
+172,Bookmark / shortcut to code in UDE
+173,String builder
+174,Unicode PDF printing
+175,Support for HMAC SHA256 encryption
+176,Document Style XML parser (with XPATH)
+177,Cloud in Client Server
+178,Controlled exit for web application
+179,Explicit declaring fields in (globale) procs
+180,Forward errors on edit/show
+181,TabEx widget: Close Button on Tab
+182,Interface with the licence manager
+183,Grid widget: Dynamically change the order of columns in Grid
+184,End transaction before notify user: change default
+185,64 bit version
+186,“Allow a “”field order”” value to control next/prev”
+187,Show in structure window: inner entity up or down?
+188,Precompiler to only include proc where necessary
+189,Gomez support within Uniface
+190,Allow Debug to run in a run-time only environment
+191,Dynamic Toolbars
+192,Ctrl-Z = Undo
+193,Different default for Non-Database entities
+194,Asured interfaces
+195,access EXIF data of picture widget or image
+196,DSP function mapped to java script confirm
+197,manage repository by Performing SQL commands
+198,Perform global update on part of retrieved records
+199,webflush command
+200,Add Read Line functionalit to File management
+201,Create and keep shortcut for each developer
+202,Editbox widget: Capture key typed in datefield before change occur
+203,Abillity to trace triggers (Call Stack) in Code
+204,duplicate entity to duplicate component subtypes
+205,Add ability to create tables using $ude command
+206,“if (whatever != “”value””) next/continue”
+207,Database/transaction information
+208,Management by project
+209,preprocessor: extend expression and constant
+210,Label: configure label defaults in ini-file
+211,a WITH (entityname) DO Block
+212,Variable User-Defined Attributes in XML
+213,Name-spaces for Proc Library
+214,Compile forms in Global Updates-Component Entities
+215,Debugger option to inspect all fields in an entity
+216,DTD’s values based on entity field layout
+217,"Assign the tuple (year,month,day) to a date"
+218,Uniface datetime in ISO-8601:2004 format
+219,Convert field(name) to string
+220,"“Missing $ude(“”export””,””entdef””,…)”"
+221,Unnecessary warnings by using IDF /cpy
+222,Assign if different commands
+223,“Enhancement of the dialog “”Deployment Archive”””
+224,Uniface Development Environment deployed using UAR
+225,$scan and $replace with option case insensitive
+226,More details on uRouter/userver aborting
+227,charset=windows-1254 Turkish Alphabet
+228,manipulating line of txt file statements
+229,Disable warnings by warning number
+230,Dynamically determine URL of WSDL at runtime
+231,Activate operation/trigger when Tomcat timeout
+232,trigger a widget periodically
+233,Intellisense functionality
+234,Uniface 9 UDE titlebar text
+235,Support for SQL Server 2008 Native Driver for ODBC
+236,Duplication of field duplicate component triggers
+237,Support for Websockets
+238,Signing of SOAP message
+239,Easy management of C/S DTDs
+240,Oracle 11g R2
+241,$prompt on web
+242,java integration with C/C++ wrapper samples
+243,warning if primary key exceeds max of 500 bytes
+244,READ statement: allow DMLStatement in order by
+245,List inspector in Debug
+246,URouter logging
+247,Change to UXMLWRITER->CHARACTERS function
+248,version control
+249,create table utility with Sybase connector
+250,“Support for “”Activate”” SqlServer SP”
+251,Expand sql command for more than 16K
+252,Extended trigger OnKeyPress on editbox/input DSP
+253,Trigger fired on window resize.
+254,Component subtype triggers in field templates
+255,Split Bar: Dynamic control over splitter bars
+256,Support for technical keys.
+257,Update of field labels in component subtypes.
+258,Adding 1:1 relations
+259,More flexibility in u_where clause
+260,Wildcard for resources
+261,Advanced String handling methods
+262,Cascading element mapping in xmlload/save
+263,Ability to bypass overflow table mechanism
+264,DSP with Submit button
+265,Change Field Layout alignment automatically when detecting RTL text
+266,Reduce unnecessary related entity warnings.
+267,Ability to use .NET (OCX) controls on forms
+268,"support $curline, $curword in editboxes"
+269,GUI Skinning ability
+270,Line Frame: Attach to border and 3D properties
+271,To lock widgets in relative positions on forms
+272,support handles ($occhandle) in lists
+273,Encoding for XMLSAVE
+274,Handling MS-SQL store proc. with activate command
+275,Quick Reference Guide for U9
+276,Extra $UDE functionality
+277,JTi-SSL-Transport for Java
+278,xmlsave/raw
+279,precompiler directive MACRO
+280,More controls of web browser by uniface
+281,delitem into a target
+282,new proc function $screencurocc
+283,Scope evaluation at run-time
+284,READ statement: add OFFSET option
+285,TabEx widget: change color of tab individually on tab container
+286,more control over the ‘formatting proc’ function
+287,enhance subsystems
+288,Add a nice fileupload to Uniface 94
+289,uugesv08 should know the new objectname
+290,Public API and doc for extending RIA widget set
+291,enable MySQL for Unicode
+292,Remove implicit creocc for entity/occurrence inout
+293,Code sensitive in UDE
+294,Need for $occid !!
+295,Form Container widget: new widget: tabpage-container
+296,Precompiler directive for extra uxcross entries.
+297,Extend USIPARM->ULITPARMNAM field to be 64
+298,Activate comp even if the operation isn’t found
+299,$occid
+300,$componententities
+301,Snippet library
+302,User defined context sensitive help
+303,Goto definition for procedure calls and operations
+304,Ability to overload functions
+305,Management of tooltip on field
+306,Print-out in PDF format
+307,MS SQL-‘MAX’
+308,Textfile reader
+309,Have the posibility to interrupt a Uniface process
+310,Show me the fieldname I am editing
+311,Break XML output file into segments.
+312,Drop Down List: Show image when not in focus and Dynamic=T
+313,Wish to use html label tag for accessibility
+314,MSM files to aid in rolling out Uniface upgrades
+315,a statement about the tool uniface
+316,XSD support for xmlload and xmlsave
+317,Grid widget: Drag & drop support
+318,Extended Header Info in UPOPMAIL
+319,Model-ViewS(!)-Controler
+320,HTML support in UPOPMAIL
+321,Grid widget: Variable Row Height
+322,Grid widget: ComboBox on grid widget
+323,"Grid widget: Support multiple rows selection (+CTRL, + SHIFT)"
+324,Grid widget: Dynamic column move
+325,Grid widget: Reduce memory usage and improve performance
+326,Java call-out
+327,"$activepath, $activepath = (same with dbpath)"
+328,Field layout issues
+329,$paintedfieldproperties
+330,Consider Duplicate definition of module as a bug
+331,Active field color using new color scheme
+332,Support Web Services call in/out Linux
+333,Open Hitlist / Pagination
+334,uniface needs RTL-facility (Right to Left).
+335,Ability to change order of menu items
+336,Context specific help to re-use open ulibrary.chm
+337,Improve visibility of constants
+338,Improve visibility of includes
+339,compiler directive #or
+340,New field type to handle email addresses
+341,upop mail connection errors
+342,Regular expressions (regexp)
+343,"Multiple IDs from list, or retrieve/listprofile"
+344,more precompiler constants on entities
+345,some precompiler directives
+346,Ability to turn off validation for include procs
+347,Native Java Call-Out
+348,System environment variables in assignment file
+349,“Trigger “”on Procerror”””
+350,triggers on association level
+351,Removal of strict hierarchy on presentation layer
+352,Hidden elements on paint tableau
+353,“automatic position to trigger on “”Find ..”””
+354,More detailed results in ‘Find proc in component’
+355,Supported cross component find and replace
+356,#includeinherited and #includedefault

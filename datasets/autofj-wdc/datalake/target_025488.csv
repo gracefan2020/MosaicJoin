@@ -1,0 +1,101 @@
+id,title
+0,Feature #796: Additional storage configuration
+1,Feature #796: Additional storage configuration
+2,Bug #792: Hang at Welcome screen during R7.00.03 install
+3,Bug #808: iguanair/Lirc no longer working....
+4,Support #736: Advanced Format drives (4k sectors)
+5,Feature #805: support additional window managers
+6,Bug #804: myth_mtc uses the wrong path
+7,Feature #806: supplemental web
+8,Feature #806: supplemental web
+9,Feature #805: support additional window managers
+10,Bug #807: dcron Version
+11,Bug #804: myth_mtc uses the wrong path
+12,Bug #803: myth_mtc needs the mythtv bindings syntax updated
+13,Bug #797: ddclient does not respect -foreground
+14,Bug #767: Error in Current Version of MythExport
+15,Bug #705: Upgrade script assumes that it is run in xterm
+16,Bug #767: Error in Current Version of MythExport
+17,Feature #744: implement nfs4 as the default nfs falvor
+18,Feature #789: add the aiblity to read remotes from the users ...
+19,Bug #782: locales are not being generated for new installs
+20,Feature #775: Add new disk tools
+21,Bug #781: again package conflicts (deps warning) in R7 te...
+22,Feature #647: Update major core componets
+23,Bug #596: IMON VFD requires module parameters
+24,Bug #780: missing x11vnc or/and tightvnc ...
+25,Feature #755: idle.sh: Check for logins and windows
+26,Feature #755: idle.sh: Check for logins and windows
+27,Bug #514: xconfig.sh has it's legacy check backwards...
+28,Bug #383: perl-javascript seg. faulting
+29,Bug #777: pacman 3.5 and new config file
+30,Feature #763: Install to usb drive
+31,Feature #763: Install to usb drive
+32,Bug #17: local-website
+33,Bug #767: Error in Current Version of MythExport
+34,Feature #741: Add mpd to LinHES
+35,Bug #767: Error in Current Version of MythExport
+36,Bug #747: screenshooter doesn't work anymore
+37,Bug #246: Fix LinHES theme to gray out unselectable GUI e...
+38,Bug #774: package conflicts in R7 with pacman -Syu
+39,Bug #777: pacman 3.5 and new config file
+40,Bug #776: runit script for mysql needs updating
+41,Bug #774: package conflicts in R7 with pacman -Syu
+42,Bug #762: Pacman not updating myth-contrib
+43,Bug #754: rebuild packages with elfutils
+44,Bug #752: mythweb module path wrong
+45,Bug #752: mythweb module path wrong
+46,Bug #746: mythweather
+47,Feature #702: Add libva for VA API support
+48,Feature #730: Go to XBMC added to Media Library
+49,Feature #742: Addition of ck's patchset with brain fuck sched...
+50,Bug #723: HDPVR Driver not recognizing new product ID
+51,Feature #740: upgrade xbmc to 10.0
+52,Feature #737: add config file to systemconfig.py
+53,"Feature #732: Run ""nvidia-settings --load-config-only"" automa..."
+54,Bug #710: mplayer-wrapper.pl overcropping
+55,Bug #735: portmap
+56,Feature #691: Add option for a larger cursor
+57,Bug #721: Off-by-one error in screensaver setup
+58,Bug #670: Add etcnet man pages
+59,Bug #721: Off-by-one error in screensaver setup
+60,Bug #706: Links to bug tracker
+61,Bug #709: install_hulu.sh give NO menu option
+62,Feature #612: Add the user created themes listed on the mytht...
+63,Feature #173: Backup and restore need more feedback
+64,Support #693: Support Foxconn nt330i netbook
+65,Bug #682: myth 0.23 packages names and version
+66,Bug #673: Update lcdproc to 0.5.3
+67,Bug #410: update Apple Trailers list dynamically
+68,Bug #485: local website layout and ordering
+69,Bug #527: iPhone compatibility for the default LinHES loc...
+70,Bug #622: Add SiliconDust HDHR as an I/R Receiver option
+71,Bug #408: Packages to enable LinHES to send mail through ...
+72,Feature #663: add config file to enable/disable systemconfig....
+73,Bug #464: Add mutt / other e-mail programs to LinHES repo...
+74,Bug #666: localhost /etc/hosts
+75,Bug #666: localhost /etc/hosts
+76,Bug #561: suggestion: alternative config for hauppauge-gr...
+77,Bug #668: first time run of mythsmolt for systems without X
+78,Feature #654: create public version of git repo
+79,Bug #622: Add SiliconDust HDHR as an I/R Receiver option
+80,Bug #389: alt+m can launch multiple frontends
+81,Bug #633: use 'svn export' instead of 'svn co' in build p...
+82,Bug #667: mythsmolt: tuners sometimes fails because of ne...
+83,Bug #658: Remove the Bug Cloud
+84,Bug #518: add tjc's post-install script
+85,Bug #665: popup after upgrade
+86,Bug #665: popup after upgrade
+87,Feature #454: hostname can end up as type_hostname_here
+88,Bug #392: guide data download not required prior to watch...
+89,"Bug #497: ssh: ""allow root login"" option trumped by resto..."
+90,Bug #610: Nameserver error with static IP
+91,"Bug #664: rrd_ups.pl does not work, wrong paths"
+92,Bug #662: grub entry for no_x may not work
+93,Bug #632: recstat not working in R6
+94,Bug #496: provide alternate hdd descriptive text
+95,Bug #492: add powersaved
+96,Bug #565: replace /sbin/shutdown with the official Arch v...
+97,Bug #620: add monitorix package to the repo (system monit...
+98,Bug #541: Middle Mouse Button Emulation
+99,Bug #637: In .23 mythrename.pl has been replaced with myt...

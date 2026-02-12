@@ -1,0 +1,411 @@
+id,title
+0,T cell proliferation
+1,lymphocyte proliferation
+2,T cell activation
+3,regulation of cell cycle
+4,regulation of protein kinase activity
+5,regulation of transferase activity
+6,cell proliferation
+7,regulation of phosphorylation
+8,regulation of protein modification process
+9,regulation of cellular protein metabolic process
+10,regulation of phosphorus metabolic process
+11,biological regulation
+12,regulation of macromolecule metabolic process
+13,regulation of primary metabolic process
+14,regulation of molecular function
+15,regulation of cellular metabolic process
+16,single-organism process
+17,cellular process
+18,cell cycle
+19,interphase
+20,positive regulation of cell cycle
+21,epidermis development
+22,regulation of cyclin-dependent protein serine/threonine kinase activity
+23,stomatal complex development
+24,DNA endoreduplication
+25,cell cycle phase transition
+26,interphase of mitotic cell cycle
+27,macromolecule biosynthetic process
+28,negative regulation of cell cycle process
+29,skin development
+30,nucleic acid metabolic process
+31,nucleobase-containing compound metabolic process
+32,cerebral cortex radial glia guided migration
+33,layer formation in cerebral cortex
+34,cerebral cortex radially oriented cell migration
+35,regulation of microtubule cytoskeleton organization
+36,cerebral cortex cell migration
+37,cellular nitrogen compound metabolic process
+38,mononuclear cell proliferation
+39,RNA biosynthetic process
+40,negative regulation of G1/S transition of mitotic cell cycle
+41,hepatocyte apoptotic process
+42,nuclear division
+43,telencephalon cell migration
+44,positive regulation of protein targeting to membrane
+45,forebrain cell migration
+46,regulation of mitotic cell cycle phase transition
+47,G1 DNA damage checkpoint
+48,cellular biosynthetic process
+49,neuron migration
+50,organic substance biosynthetic process
+51,regulation of protein targeting to membrane
+52,nucleobase-containing compound biosynthetic process
+53,organelle fission
+54,negative regulation of axon extension
+55,mitotic DNA integrity checkpoint
+56,mitotic DNA damage checkpoint
+57,positive regulation of fibroblast proliferation
+58,"DNA-dependent transcription, initiation"
+59,macromolecule metabolic process
+60,cell cycle DNA replication
+61,regulation of cellular macromolecule biosynthetic process
+62,hippocampus development
+63,developmental maturation
+64,"RNA splicing, via endonucleolytic cleavage and ligation"
+65,proteasomal ubiquitin-dependent protein catabolic process
+66,regulation of microtubule-based process
+67,transcription from RNA polymerase III promoter
+68,regulation of fibroblast proliferation
+69,limbic system development
+70,protein modification process
+71,negative regulation of axonogenesis
+72,JAK-STAT cascade
+73,cerebral cortex development
+74,peptidyl-serine phosphorylation
+75,regulation of protein serine/threonine kinase activity
+76,positive regulation of phosphorus metabolic process
+77,regulation of unidimensional cell growth
+78,regulation of JAK-STAT cascade
+79,Wnt receptor signaling pathway
+80,cellular developmental process
+81,pallium development
+82,positive regulation of intracellular protein transport
+83,modification-dependent protein catabolic process
+84,in utero embryonic development
+85,positive regulation of cellular protein metabolic process
+86,DNA packaging
+87,DNA conformation change
+88,programmed cell death
+89,death
+90,cell death
+91,positive regulation of protein transport
+92,regulation of transport
+93,regulation of cellular localization
+94,regulation of protein transport
+95,regulation of establishment of protein localization
+96,regulation of biological process
+97,biological_process
+98,regulation of cell cycle arrest
+99,response to radiation
+100,histone lysine methylation
+101,protein alkylation
+102,methylation
+103,histone methylation
+104,macromolecule methylation
+105,regulation of cell morphogenesis
+106,regulation of cell growth
+107,negative regulation of neurogenesis
+108,negative regulation of cell development
+109,regulation of neuron differentiation
+110,negative regulation of cell projection organization
+111,regulation of axonogenesis
+112,regulation of neurogenesis
+113,regulation of cell projection organization
+114,cellular component organization
+115,positive regulation of cell proliferation
+116,positive regulation of transferase activity
+117,positive regulation of protein serine/threonine kinase activity
+118,positive regulation of protein phosphorylation
+119,positive regulation of phosphorylation
+120,positive regulation of catalytic activity
+121,positive regulation of kinase activity
+122,positive regulation of protein modification process
+123,muscle cell differentiation
+124,DNA integrity checkpoint
+125,response to stress
+126,mitotic cell cycle checkpoint
+127,catabolic process
+128,regulation of signaling
+129,regulation of cell communication
+130,regulation of response to stimulus
+131,lymphocyte activation
+132,cell activation
+133,DNA-dependent DNA replication
+134,chromatin modification
+135,chromatin organization
+136,covalent chromatin modification
+137,response to steroid hormone stimulus
+138,response to chemical stimulus
+139,positive regulation of macromolecule metabolic process
+140,regulation of multicellular organismal development
+141,regulation of cell differentiation
+142,negative regulation of biological process
+143,neurogenesis
+144,negative regulation of developmental growth
+145,regulation of axon extension
+146,regulation of cellular component size
+147,regulation of extent of cell growth
+148,negative regulation of growth
+149,anatomical structure development
+150,multicellular organismal development
+151,system development
+152,single-organism developmental process
+153,cell migration
+154,cell motility
+155,forebrain development
+156,single-multicellular organism process
+157,brain development
+158,macromolecule catabolic process
+159,single organism signaling
+160,signaling
+161,cell surface receptor signaling pathway
+162,negative regulation of organelle organization
+163,regulation of cytoskeleton organization
+164,positive regulation of biological process
+165,positive regulation of cellular metabolic process
+166,cell communication
+167,intracellular protein kinase cascade
+168,cellular response to stimulus
+169,proteolysis involved in cellular protein catabolic process
+170,cellular protein catabolic process
+171,modification-dependent macromolecule catabolic process
+172,macromolecule modification
+173,cellular protein metabolic process
+174,phosphorus metabolic process
+175,primary metabolic process
+176,metabolic process
+177,cellular metabolic process
+178,organic substance metabolic process
+179,embryo development
+180,chordate embryonic development
+181,oocyte development
+182,oocyte differentiation
+183,oogenesis
+184,reproductive process
+185,cell maturation
+186,germ cell development
+187,gamete generation
+188,multicellular organism reproduction
+189,cell development
+190,cytokinesis
+191,regulation of biosynthetic process
+192,regulation of nitrogen compound metabolic process
+193,G1/S transition of mitotic cell cycle
+194,regulation of RNA biosynthetic process
+195,"regulation of transcription, DNA-dependent"
+196,regulation of RNA metabolic process
+197,regulation of cell cycle phase transition
+198,negative regulation of cell cycle phase transition
+199,cell cycle checkpoint
+200,regulation of cellular process
+201,single-organism cellular process
+202,regulation of metabolic process
+203,developmental process
+204,cellular aromatic compound metabolic process
+205,heterocycle metabolic process
+206,organic cyclic compound metabolic process
+207,cellular macromolecule metabolic process
+208,multicellular organismal process
+209,biosynthetic process
+210,nitrogen compound metabolic process
+211,cellular component organization or biogenesis
+212,localization
+213,response to stimulus
+214,protein metabolic process
+215,regulation of protein metabolic process
+216,regulation of catalytic activity
+217,regulation of phosphate metabolic process
+218,cellular macromolecule biosynthetic process
+219,cellular nitrogen compound biosynthetic process
+220,heterocycle biosynthetic process
+221,aromatic compound biosynthetic process
+222,organic cyclic compound biosynthetic process
+223,cellular response to stress
+224,reproduction
+225,cellular protein modification process
+226,regulation of localization
+227,response to abiotic stimulus
+228,organelle organization
+229,regulation of signal transduction
+230,positive regulation of molecular function
+231,cellular catabolic process
+232,organic substance catabolic process
+233,immune system process
+234,response to organic substance
+235,response to endogenous stimulus
+236,response to oxygen-containing compound
+237,negative regulation of cellular process
+238,regulation of developmental process
+239,regulation of multicellular organismal process
+240,regulation of biological quality
+241,anatomical structure morphogenesis
+242,nervous system development
+243,organ development
+244,signal transduction
+245,positive regulation of cellular process
+246,regulation of cellular component organization
+247,positive regulation of metabolic process
+248,tissue development
+249,phosphate-containing compound metabolic process
+250,RNA metabolic process
+251,gene expression
+252,regulation of macromolecule biosynthetic process
+253,regulation of nucleobase-containing compound metabolic process
+254,cell differentiation
+255,regulation of cellular biosynthetic process
+256,regulation of gene expression
+257,regulation of kinase activity
+258,regulation of protein phosphorylation
+259,cell cycle process
+260,phosphorylation
+261,DNA metabolic process
+262,mitotic cell cycle
+263,"transcription, DNA-dependent"
+264,response to DNA damage stimulus
+265,apoptotic process
+266,positive regulation of transport
+267,regulation of protein localization
+268,regulation of intracellular transport
+269,response to light stimulus
+270,chromosome organization
+271,regulation of growth
+272,generation of neurons
+273,regulation of cell development
+274,regulation of nervous system development
+275,negative regulation of developmental process
+276,negative regulation of cellular component organization
+277,regulation of cell proliferation
+278,positive regulation of protein metabolic process
+279,positive regulation of phosphate metabolic process
+280,muscle structure development
+281,regulation of mitotic cell cycle
+282,regulation of cell cycle process
+283,peptidyl-amino acid modification
+284,regulation of intracellular protein kinase cascade
+285,leukocyte activation
+286,response to lipid
+287,response to organic cyclic compound
+288,response to hormone stimulus
+289,regulation of anatomical structure morphogenesis
+290,regulation of anatomical structure size
+291,anatomical structure formation involved in morphogenesis
+292,localization of cell
+293,locomotion
+294,cellular component movement
+295,central nervous system development
+296,cellular macromolecule catabolic process
+297,regulation of organelle organization
+298,intracellular signal transduction
+299,protein catabolic process
+300,proteolysis
+301,embryo development ending in birth or egg hatching
+302,cellular process involved in reproduction
+303,multicellular organismal reproductive process
+304,developmental process involved in reproduction
+305,single organism reproductive process
+306,sexual reproduction
+307,RNA processing
+308,regulation of transcription from RNA polymerase II promoter
+309,mitotic cell cycle phase transition
+310,cell cycle phase
+311,post-embryonic development
+312,DNA damage checkpoint
+313,DNA replication
+314,peptidyl-serine modification
+315,positive regulation of cell cycle process
+316,response to UV
+317,regulation of G1/S transition of mitotic cell cycle
+318,protein phosphorylation
+319,proteasomal protein catabolic process
+320,cell division
+321,ubiquitin-dependent protein catabolic process
+322,negative regulation of cell cycle
+323,negative regulation of mitotic cell cycle phase transition
+324,cell-type specific apoptotic process
+325,positive regulation of intracellular transport
+326,regulation of intracellular protein transport
+327,protein methylation
+328,regulation of developmental growth
+329,regulation of neuron projection development
+330,regulation of cell morphogenesis involved in differentiation
+331,negative regulation of cell differentiation
+332,leukocyte proliferation
+333,positive regulation of protein kinase activity
+334,histone modification
+335,response to alcohol
+336,regulation of cell size
+337,negative regulation of cell growth
+338,telencephalon development
+339,regulation of DNA metabolic process
+340,female gamete generation
+341,cellular process involved in reproduction in multicellular organism
+342,RNA splicing
+343,cyclin-dependent protein serine/threonine kinase activity
+344,cyclin-dependent protein kinase activity
+345,kinase regulator activity
+346,protein binding
+347,cyclin-dependent protein serine/threonine kinase regulator activity
+348,protein binding transcription factor activity
+349,protein kinase activator activity
+350,molecular_function
+351,kinase activator activity
+352,catalytic activity
+353,protein serine/threonine kinase activity
+354,binding
+355,transferase activity
+356,"transferase activity, transferring phosphorus-containing groups"
+357,enzyme regulator activity
+358,kinase activity
+359,enzyme activator activity
+360,enzyme binding
+361,"phosphotransferase activity, alcohol group as acceptor"
+362,protein kinase regulator activity
+363,kinase binding
+364,transcription factor binding
+365,protein kinase activity
+366,nucleus
+367,membrane-bounded organelle
+368,intracellular organelle
+369,organelle
+370,intracellular part
+371,intracellular
+372,cell part
+373,cell
+374,nucleoplasm
+375,cyclin-dependent protein kinase holoenzyme complex
+376,membrane-enclosed lumen
+377,macromolecular complex
+378,organelle lumen
+379,carboxy-terminal domain protein kinase complex
+380,mediator complex
+381,transcription factor complex
+382,organelle part
+383,nuclear lumen
+384,DNA-directed RNA polymerase complex
+385,centriole
+386,microtubule organizing center part
+387,microtubule organizing center
+388,RNA polymerase complex
+389,transcription elongation factor complex
+390,SCF ubiquitin ligase complex
+391,cellular_component
+392,cytoplasm
+393,cytoskeletal part
+394,non-membrane-bounded organelle
+395,"DNA-directed RNA polymerase II, holoenzyme"
+396,intracellular membrane-bounded organelle
+397,protein complex
+398,intracellular organelle part
+399,cytoplasmic part
+400,intracellular non-membrane-bounded organelle
+401,intracellular organelle lumen
+402,nuclear part
+403,cytoskeleton
+404,nucleoplasm part
+405,microtubule cytoskeleton
+406,ubiquitin ligase complex
+407,nuclear DNA-directed RNA polymerase complex
+408,centrosome
+409,cullin-RING ubiquitin ligase complex

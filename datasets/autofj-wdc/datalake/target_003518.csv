@@ -1,0 +1,78 @@
+id,title
+0,db file sequential read
+1,log file parallel write
+2,log file sync
+3,enq: TX - row lock contention
+4,db file parallel write
+5,db file scattered read
+6,enq: TM - contention
+7,read by other session
+8,SQL*Net more data from client
+9,enq: TX - index contention
+10,library cache pin
+11,enq: UL - contention
+12,rdbms ipc reply
+13,SQL*Net message to client
+14,SQL*Net break/reset to client
+15,PX Deq: Signal ACK
+16,direct path read temp
+17,SQL*Net more data to client
+18,latch: library cache
+19,buffer busy waits
+20,library cache load lock
+21,control file sequential read
+22,enq: DV - contention
+23,control file parallel write
+24,direct path write temp
+25,local write wait
+26,enq: RO - fast object reuse
+27,PX qref latch
+28,PX Deq Credit: send blkd
+29,latch: library cache pin
+30,latch: cache buffers chains
+31,enq: SQ - contention
+32,latch: shared pool
+33,process startup
+34,LGWR wait for redo copy
+35,latch: session allocation
+36,enq: HW - contention
+37,latch: undo global data
+38,enq: TX - allocate ITL entry
+39,kksfbc child completion
+40,direct path read
+41,latch: In memory undo latch
+42,control file single write
+43,enq: TX - contention
+44,latch free
+45,enq: CU - contention
+46,latch: library cache lock
+47,latch: row cache objects
+48,log buffer space
+49,direct path write
+50,latch: object queue header operation
+51,latch: cache buffers lru chain
+52,latch: redo allocation
+53,undo segment extension
+54,enq: PS - contention
+55,enq: FB - contention
+56,latch: enqueue hash chains
+57,PX Deq: Table Q qref
+58,latch: cache buffer handles
+59,row cache lock
+60,buffer deadlock
+61,SQL*Net message from client
+62,pipe get
+63,queue messages
+64,PX Idle Wait
+65,Queue Monitor Wait
+66,wakeup time manager
+67,PL/SQL lock timer
+68,PX Deq: Execution Msg
+69,jobq slave wait
+70,PX Deq: Execute Reply
+71,PX Deq: Table Q Normal
+72,PX Deq: Msg Fragment
+73,PX Deq: Parse Reply
+74,PX Deq Credit: need buffer
+75,PX Deq: Join ACK
+76,PX Deq: Table Q Sample

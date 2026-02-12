@@ -1,0 +1,132 @@
+id,title
+0,Command Code: BMFOL
+1,Command Definer Code: E
+2,"TIN, Display File Source Code"
+3,Name Control
+4,Potentially Dangerous Taxpayer Indicator: *PDT*
+5,Caution Indicator:*CAU*
+6,Cycle of Latest Update
+7,≡ ≡
+8,Entity 48 Indicator
+9,0 = Indicator off
+10,"1 = A TC 480 is currently on record, a TC 780 is currently on record or a TC 780 has been on record for some time during the last 5 years."
+11,Offer in Compromise Indicator: *OIC*
+12,Account Freezes:
+13,CSED:A–
+14,DMF:V–
+15,BAD REF:–U
+16,BANKR:–V
+17,LEGAL:–W
+18,TC740:S–
+19,≡ ≡ ≡ ≡
+20,TC916
+21,Various Conditions:
+22,PMF
+23,SHELTER
+24,FTD ALERT SUP
+25,EMIS
+26,AIMS
+27,Establishment Date
+28,Year and month that the entity was established on the master file
+29,Fiscal Year Month
+30,Business Closed Date
+31,Bankruptcy Litigation Location Code
+32,Currently Not Collected Literal
+33,F637 Literal
+34,CEP Literal
+35,NAICS Code
+36,Geographic Code
+37,Wages Last Paid Date
+38,Parent EIN
+39,Enrollment Code
+40,Electronic Deposit Year
+41,Historic Electronic Deposit Year
+42,"Tin of Principal Officer, Owner of Trust"
+43,Disaster Indicator
+44,CP07X Indicator
+45,Business Operating Division Code
+46,Business Operating Division Client Code
+47,Primary Location Code:
+48,Universal Location Code (ULC)
+49,Area Office Code (AO)
+50,Collection Location Code (CLC)
+51,Small Business Area Office (SB AO)
+52,Petition Date
+53,Prior Fiscal Year Month
+54,XREF SSN
+55,Earliest MFT and Tax Period for TEFRA
+56,MFT in the TEFRA election data used to identify a specific tax form
+57,148 Hold
+58,00 = no freeze
+59,01 = unreversed TC 148 posted
+60,02 = non-filer
+61,03–99 = Non-compliance code of latest unreversed TC 148 posted to the Entity
+62,AC 630 date
+63,Railroad Retirement Board Number
+64,An 8 digit field in the entity showing the railroad retirement board number
+65,F941 TDA/TDI Indicator
+66,Electronic Return Originator Indicator
+67,0 = Insignificant
+68,1 = ERO
+69,1120F Connected Income Indicator
+70,Last Return Amount Code
+71,Last return amount code as input on a TC136 posting to the entity
+72,"1 = last return amount exceeds $25,000"
+73,"2 = last return amount is $5,000 to $24,999"
+74,"3 = last return amount is under $5,000"
+75,Business Operating Date
+76,Wages Paid Date
+77,FMS Levy Switch
+78,0 = Insignificant
+79,1 = Significant
+80,Manual BOD Indicator
+81,NY/Pentagon Terrorist Indicator
+82,0 = Not significant
+83,1 = FEMA identified affected taxpayers — penalty & interest relief
+84,2 = IRS identified affected taxpayers — penalty relief only
+85,4 = Self-Identified affected taxpayers — penalty & interest relief
+86,TDI/TDA repeater
+87,Employment Code
+88,C = Church Electing Non-FICA
+89,F = Federal Employer
+90,G = State or Local Government
+91,I = Indian Tribal Government
+92,M = Maritime
+93,N = Non-Profit
+94,S = Foreign Subsidiary
+95,T = SSA
+96,W = Exempt Organizations
+97,TETR Indicator
+98,KATRINA Indicator
+99,F944 BYPASS Indicator
+100,0 = not significant
+101,1 = turned on when TC01X is set to 1
+102,F1065 Partner Tax Period
+103,TETR 424 Indicator
+104,0 = insignificant
+105,1 = significant
+106,Lien Indicator
+107,0 = insignificant
+108,1 = Entity has a tax module account with a significant lien indicator.
+109,3 = Entity has tax module with significant lien indicator plus TC001 or TC006 in the Entity.
+110,LLC indicator
+111,RAF EFTPS Indicators:
+112,Form 940 EFTPS Indicator
+113,Form 941 EFTPS Indicator
+114,Form 943 EFTPS Indicator
+115,Form 944 EFTPS Indicator
+116,Form 945 EFTPS Indicator
+117,Form CT-1 EFTPS Indicator
+118,Form 720 EFTPS Indicator
+119,Form 1042 EFTPS Indicator
+120,Form Corp. EFTPS Indicator
+121,Form 940 RAF Filing Indicator
+122,Form 941 RAF Filing Indicator
+123,Form 943 RAF Filing Indicator
+124,Form 944 RAF Filing Indicator
+125,Form 945 RAF Filing Indicator
+126,Form CT-1 RAF Filing Indicator
+127,Form 1042 RAF Filing Indicator
+128,Filing Requirements: Form Number & Value
+129,Filing Requirements: Form Number & Value
+130,See Document 6209 for values and meanings

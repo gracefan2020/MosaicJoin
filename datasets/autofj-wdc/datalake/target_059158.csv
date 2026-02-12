@@ -1,0 +1,75 @@
+id,title
+0,Client IP Address
+1,Server IP Address
+2,Client port number
+3,Server port number
+4,Client packets MAC address in hexadecimal format
+5,Server packets MAC address in hexadecimal format
+6,The total number of packets sent from client to server
+7,The total number of packets sent from server to client
+8,The number of acknowledgement packets sent from client to server
+9,The number of acknowledgement packets sent from server to client
+10,The number of missing packet gaps detected within the request
+11,The number of missing packet gaps detected within the response
+12,The number of duplicate packets sent from client to server
+13,The number of duplicate packets sent from server to client
+14,The number of data packets sent from client to server
+15,The number of data packets sent from server to client
+16,The number of bytes sent from client to server
+17,The number of bytes sent from server to client
+18,The total number of bytes transferred
+19,"Number of microseconds that it took to complete a flow event, from the end user's perspective"
+20,Number of microseconds that it took the client to send a request
+21,Number of microseconds that it took the server to acknowledge receipt of the request
+22,Number of microseconds that it took the server to start replying to a request
+23,Number of microseconds that it took the server to send a response
+24,Number of microseconds that it took the client to acknowledge receipt of the response
+25,Number of microseconds that it took to negotiate an SSL handshake
+26,"SSL protocol version used for encryption, or undefined if not encrypted"
+27,Number of microseconds from the last request packet to the last response packet
+28,Average round trip time in microseconds from the client to the point of capture
+29,Average round trip time in microseconds from the server to the point of capture
+30,Sum of all round trip time measurements from the client to the point of capture
+31,Sum of all round trip time measurements from the server to the point of capture
+32,Number of round trip measurements from the client to the point of capture
+33,Number of round trip measurements from the server to the point of capture
+34,Number of requests that were refused by the server
+35,Number of HTTP responses that were canceled early by the client
+36,TCP session server endpoint (IP address and TCP port)
+37,"TCP handshake status (0=OK, 1=RESET, 2=IGNORED)"
+38,"Level 7 protocol name (http, ftp, etc.)"
+39,Transport layer protocol (udp or tcp)
+40,Decoded attached files content
+41,"Attached file disposition, inline vs attachment"
+42,Attachment name
+43,Contains the encoding of the attached content
+44,Content type of the sent attached file
+45,Data containing body
+46,Transfer-encoding used on the e-mail message
+47,Message date
+48,Index of the request which the email is attached to
+49,Contains the greeting message of the server
+50,User's login string
+51,"Concatenated login and server: @, string"
+52,Command sent by the client
+53,Content-type of the e-mail message
+54,Unique identifier for the e-mail message
+55,User's password string
+56,Contains the IP address of the receiving host name
+57,Contains the receiving host name
+58,Date when the transport service relayed the message
+59,Contains the IP address of the sending host name
+60,Contains the sending host name
+61,Contains the name of the sever agent
+62,Contains the software used to send the email
+63,Full address of email receiver (including cc and bcc receivers)
+64,Name of email receiver (included cc and bcc receivers)
+65,E-mail address of the message recipient
+66,Type of the email receiver
+67,Email address to use in a reply for this message
+68,Full address of email sender (alias followed by email address)
+69,Name of the email sender
+70,Email address of the email sender
+71,The return code of the server
+72,Subject of the e-mail message
+73,Name of the client software used

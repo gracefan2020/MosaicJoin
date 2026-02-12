@@ -1,0 +1,77 @@
+id,title
+0,Oracle ADF URL Connection
+1,Port
+2,URL
+3,Oracle ADF Business Components Service Connection
+4,ServiceEndpointProvider
+5,JndiFactoryInitial
+6,JndiProviderUrl
+7,JndiSecurityPrincipal
+8,WebServiceConnectionName
+9,Oracle Enterprise Scheduler
+10,NotificationServiceURL
+11,RequestFileDirectory
+12,SAMLTokenPolicyURI
+13,EssCallbackClientSecurityPolicyURI
+14,Oracle Business Activity Monitoring
+15,WEBTIER_SERVER
+16,USER_NAME
+17,PASSWORD
+18,WEBTIER_SERVER_PORT
+19,BAM_SERVER_PORT
+20,BAM_WEBTIER_PROTOCOL
+21,BI Presentation Services connection
+22,StaticResourcesLocation
+23,WSDLContext
+24,Host
+25,Port
+26,ShouldPerformImpersonation
+27,Context
+28,Protocol
+29,IsStaticResourcesLocationAutomatic
+30,Oracle Essbase
+31,Host
+32,Cluster
+33,Port
+34,Username
+35,Oracle Secure Enterprise Search in Oracle WebCenter Portal
+36,SoapURL
+37,Oracle WebCenter Portal Content Repository
+38,ServerHost
+39,ServerPort
+40,ServerWebUrl
+41,Oracle WebCenter Portal Announcements and Discussions
+42,AdminUser
+43,Url
+44,Oracle WebCenter Portal External Applications
+45,Url
+46,Oracle WebCenter Portal Instant Messaging and Presence
+47,BaseConnectionURL
+48,Domain
+49,ExternalAppId
+50,Oracle WebCenter Portal Mail Server
+51,ExternalAppId
+52,ImapHost
+53,ImapPort
+54,ImapSecured
+55,SmtpHost
+56,SmtpPort
+57,SmtpSecured
+58,Oracle WebCenter Portal Personal Events
+59,ExternalAppId
+60,WebServiceURL
+61,Oracle WebCenter Portal WSRP Producers
+62,ProxyHost
+63,ProxyPort
+64,Oracle WebCenter Portal PDK-Java Producers
+65,Host
+66,Port
+67,URL
+68,Oracle WebCenter Portal Worklists
+69,URL
+70,Oracle Web Services
+71,WsdlUrl
+72,Oracle Web Services
+73,AddressUrl
+74,ProxyHost
+75,ProxyPort

@@ -1,0 +1,50 @@
+id,title
+0,Templating using pure Perl code
+1,Higher level interface to Devel-Declare
+2,(DEPRECATED) Declarative syntax for Moose
+3,Create new quote-like operators in Perl
+4,Trim leading whitespace from all lines in a string
+5,Remove the same indendation from all lines in a string
+6,Fix as much of Perl 5 as possible in one pragma
+7,method and function declarations with signatures and no source filter
+8,yet another assertion keyword
+9,DEPRECATED: Method declarations with type constraints and no source filter
+10,the f**k?
+11,more sugar for MooseX::Declare
+12,"qwa(), qwh() and qwk() quote-like operators to create arrayrefs and hashrefs"
+13,a quote-like operator with no string escapes
+14,automatically curried subroutines
+15,"Modules used in Mastering Perl, 2nd Edition"
+16,Easier than Devel::Declare
+17,custom parsing attached to subroutines
+18,"first class try catch semantics for Perl, without source filters."
+19,"implicit invoker, sort of"
+20,"Basic method declarations with signatures, without source filters"
+21,Syntax sugar for dispose pattern
+22,A Thrift-based rapid API framework
+23,Localize variables to a coroutine
+24,Make Moose method modifiers Devel::Cover friendly
+25,Declare cgiapp runmodes with keywords
+26,Markup as Perl
+27,compile time lexical variables
+28,Turns a quoted string into a single line
+29,Add sugar for declarative method callbacks
+30,Semantically meaningful Catalyst Actions with signatures
+31,Moose-based Test::Class replacement
+32,Catalyst based application
+33,Declarative Sugar for Test::Mini
+34,Track memory allocation
+35,EXPERIMENTAL Declarative Syntax for Catalyst Applications
+36,Lazy variables
+37,Detect leaked callbacks
+38,A Perl extension to allow a bare block after method call
+39,A JavaScript-style with statement for lexically-scoped method delegation
+40,Multi Method Dispatch based on Moose type constraints
+41,Bareword URL with HTTP request
+42,Auto-completion for Perl
+43,"declare individual handlers for AUTLOADed subs, respecting can and inheritance"
+44,Eject variables from hash to current namespace
+45,Helper syntax for writing Test::Class tests
+46,Perl dark magic materials
+47,"Perl programming, the rubyish way."
+48,Some Perl6 programming in Perl5 code.

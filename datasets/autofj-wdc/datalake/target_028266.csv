@@ -1,0 +1,51 @@
+id,title
+0,Race condition creating the socket directories
+1,sixel integration
+2,Provide [de]attach hook for client program(s)
+3,Logging output coninues to go to
+4,Preselection of window for -X exec ignored in screen
+5,Clock in status line (%c:%s) stops if time has been set backwards until shown time has been reached again
+6,Ability to redraw scrollback buffer on screen (with color)
+7,hardstatus lastline UTF-8 corruption
+8,Robust Session Restoration
+9,Screen not able to recover if -c is passed to a file on afs
+10,socket.c buffer overrun
+11,"use-after-free, etc."
+12,argument --sysconfdir to configure ignored by make
+13,screen -d -r connects to wrong screen instance or gives an error
+14,'screen -list' show client PID
+15,Screen keybindings
+16,Reduntant files in source archive
+17,Rename sched.h
+18,Patches for installation
+19,Patches for cross-compilation support
+20,memcpy is not a safe fallback for bcopy/memmove
+21,Text order marks cause corrupted display
+22,CheckTtyname fail on AIX (realpath)
+23,"the command ""windowlist"" freezes the program"
+24,Specify log file via command line parameter
+25,Support for different newline modes (CR/LF/CRLF) in serial mode
+26,Globbing support in commands
+27,IRIX: build problems SCM_RIGHTS is undefined / _XOPEN_SOURCE
+28,screen 4.2.1 in xterm: hardstatus in window title disappears
+29,screen hangs irretrievably
+30,-flow doesn't work
+31,4.2.1 regression: compile error with Sun Studio 12 on Solaris 10
+32,byobu >= 5.77 crashes screen server process on pressing Ctrl-A c
+33,screen with STY set to outside screen session does not behave as expected
+34,Please put an option for log name and log flush in screen like -L
+35,[Feature request] Scripting in backtick.
+36,Lock/unlock windowless region bug
+37,Crash when using zombie resurect for windows with built-in telnet
+38,"""Attach attempt with bad pid"" multi-user screen on AIX 6.1"
+39,[braille.c:707]: (warning) Logical conjunction always evaluates to false: n < 0 && n > 3.
+40,su actions not properly logged
+41,screen could play nicer with terminal scrollbars
+42,"""screen -r"" should optionally pick up X11 DISPLAY variable from environment"
+43,Cannot :title ♬
+44,who gets masked by screen sessions
+45,[PATCH] Add . command to scrollback mode.
+46,Command line to enable logging does not work -X log
+47,unicode 6/emoji support
+48,ForkWindow: fix race with pty creation
+49,[PATCH] exec: fix ':' for stdin

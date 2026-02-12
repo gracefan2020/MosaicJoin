@@ -1,0 +1,50 @@
+id,title
+0,free memory
+1,joxlod exec hp
+2,joxs heap
+3,PX msg pool
+4,free memory
+5,ASH buffers
+6,FileOpenBlock
+7,KGLF Frame Hea
+8,KGLS heap
+9,KQR L PO
+10,KQR L SO
+11,KQR M PO
+12,KQR M SO
+13,KQR S SO
+14,KTI-UNDO
+15,PL/SQL DIANA
+16,PL/SQL MPCODE
+17,PLS non-lib hp
+18,PX subheap
+19,QSMQUTL summar
+20,enqueue resources
+21,evaluation con
+22,event statistics per sess
+23,fixed allocation callback
+24,free memory
+25,joxlod exec hp
+26,joxlod pcod hp
+27,joxlod rsrc hp
+28,joxs heap
+29,library cache
+30,miscellaneous
+31,parameters
+32,partitioning d
+33,pl/sql source
+34,private strands
+35,repository
+36,row cache
+37,rule set evalu
+38,sessions
+39,sql area
+40,synonym source
+41,table definiti
+42,temporary tabl
+43,transaction
+44,trigger defini
+45,type object de
+46,buffer_cache
+47,fixed_sga
+48,log_buffer

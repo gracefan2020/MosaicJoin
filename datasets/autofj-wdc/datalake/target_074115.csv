@@ -1,0 +1,103 @@
+id,title
+0,OUTPUT
+1,Output Volt Amp Capacity (VA)
+2,Output kVA capacity (kVA)
+3,Output Watt Capacity (watts)
+4,Output kW capacity
+5,Output power factor
+6,Crest Factor
+7,Nominal Output Voltage(s) Supported
+8,Nominal Voltage details
+9,Frequency compatibility
+10,Frequency compatibility details
+11,Output voltage regulation (line mode)
+12,Output voltage regulation (Economy line mode)
+13,Output voltage regulation (Battery mode)
+14,Built-in UPS output receptacles
+15,Built-in controllable switched load banks
+16,Basic PDU options
+17,Metered PDU options
+18,Switched PDU options
+19,External PDU redundancy options
+20,Output AC waveform (AC mode)
+21,Output AC waveform (battery mode)
+22,INPUT
+23,Rated input current (at maximum load)
+24,Nominal Input Voltage(s) Supported
+25,UPS input connection type
+26,Input circuit breaker
+27,UPS Input cord length (ft.)
+28,UPS Input cord length (m)
+29,Recommended Electrical Service
+30,BATTERY
+31,Full load runtime (minutes)
+32,Half load runtime (minutes)
+33,Expandable battery runtime
+34,External battery pack compatibility
+35,DC system voltage
+36,Battery recharge rate (included batteries)
+37,Replacement battery cartridge (internal UPS battery replacement)
+38,Battery Access
+39,Battery replacement description
+40,VOLTAGE REGULATION
+41,Voltage regulation description
+42,Overvoltage correction
+43,Undervoltage correction
+44,Severe undervoltage correction
+45,LEDS ALARMS & SWITCHES
+46,LED Indicators
+47,Alarms
+48,Alarm cancel operation
+49,Switches
+50,SURGE / NOISE SUPPRESSION
+51,UPS AC suppression joule rating
+52,UPS AC suppression response time
+53,UPS Dataline suppression
+54,EMI / RFI AC noise suppression
+55,PHYSICAL
+56,Installation form factors supported with included accessories
+57,Installation form factors supported with optional accessories
+58,Primary form factor
+59,UPS / Power Module dimensions in primary form factor (height x width x depth / inches)
+60,UPS / Power Module dimensions in primary form factor (height x width x depth / cm)
+61,Installed whole system total rack space height (rack spaces)
+62,Secondary form factor
+63,Installed whole system dimensions in secondary form factor (height x width x depth / inches)
+64,UPS dimensions in secondary form factor (height x width x depth / cm)
+65,UPS / Power Module weight (lbs)
+66,UPS / Power Module weight (kg)
+67,UPS Shipping dimensions (height x width x depth / inches)
+68,UPS Shipping dimensions (height x width x depth / cm)
+69,Shipping weight (lbs)
+70,Shipping weight (kg)
+71,UPS housing material
+72,Cooling method
+73,ENVIRONMENTAL
+74,Operating Temperature Range
+75,Storage Temperature Range
+76,Relative Humidity
+77,AC mode BTU / hr. (full load)
+78,AC economy mode BTU / hr. (full load)
+79,Battery mode BTU / hr. (full load)
+80,AC economy mode efficiency rating (100% load)
+81,COMMUNICATIONS
+82,Communications interface
+83,Network monitoring port description
+84,PowerAlert software
+85,Communications cable
+86,WatchDog compatibility
+87,LINE / BATTERY TRANSFER
+88,Transfer time
+89,Low voltage transfer to battery power (setpoint)
+90,High voltage transfer to battery power (setpoint)
+91,SPECIAL FEATURES
+92,Cold Start (startup in battery mode during a power failure)
+93,High availability UPS features
+94,Green & high efficiency features
+95,CERTIFICATIONS
+96,UPS Certifications
+97,WARRANTY
+98,"Product Warranty Period (U.S., Canada & Puerto Rico)"
+99,"Connected Equipment Insurance (U.S., Canada & Puerto Rico)"
+100,Release Date
+101,First seen

@@ -1,0 +1,59 @@
+id,title
+0,Model Number
+1,Interface
+2,PHYSICAL
+3,Height (max)
+4,Width (max)
+5,Length (max)
+6,Weight (typical)
+7,Cache
+8,Capacity
+9,Guaranteed Sectors
+10,Number of pins on the I/O connector
+11,Total tracks per surface
+12,PERFORMANCE
+13,Spindle Speed
+14,Average latency
+15,Random read seek time
+16,Random write seek time
+17,RELIABILITY
+18,MTBF
+19,Power-on hours
+20,Unrecoverable read errors
+21,Recoverable read errors
+22,ENVIRONMENT
+23,Temperature
+24,Ambient operating temperature (min)
+25,Ambient operating temperature (max)
+26,Ambient nonoperating temperature (min)
+27,Ambient nonoperating temperature (max)
+28,Maximum operating temperature change
+29,Maximum nonoperating temperature change
+30,Maximum operating case temperature
+31,Humidity
+32,Minimum Relative humidity (operating)
+33,Maximum Relative humidity (operating)
+34,Minimum Relative humidity (nonoperating)
+35,Maximum Relative humidity (nonoperating)
+36,Maximum allowable humidity change
+37,Altitude
+38,Operating altitude (min)
+39,Operating altitude (min)
+40,Operating altitude (max)
+41,Operating altitude (max)
+42,Nonoperating altitude (min)
+43,Nonoperating altitude (min)
+44,Nonoperating altitude (max)
+45,Nonoperating altitude (max)
+46,Shock
+47,Vibration
+48,Operating Shock (max)
+49,Operating shock
+50,Nonoperating Shock (max)
+51,Nonoperating shock
+52,Operating vibration
+53,Operating vibration
+54,Nonoperating vibration
+55,Nonoperating vibration
+56,ACOUSTICS
+57,Acoustics (Idle Volume)

@@ -1,0 +1,101 @@
+id,title
+0,Unit test fails because of problem with reverse!
+1,eof error
+2,audit duplicate-variable errors/non-errors
+3,sample bug
+4,fmt uses set-cdr!
+5,support for v3 and v4
+6,stream-split-at
+7,stream-partition unusable
+8,make-filter-input-port hopelessly broken
+9,possible semantic issues with exceptions
+10,Incompatible with mzscheme 4+
+11,Doc warnings
+12,binding arrows in DrScheme broken
+13,errors on initial compile
+14,stack trace is often mostly unusable
+15,Use of {{{set-cdr!}}}
+16,Doesn't work in Current Version of PLT
+17,Doesn't work in Current Version of PLT
+18,support unicode
+19,Planet breakage? Some surprising dependencies from xmlrpc.plt
+20,Cannot load package in 4.1.4
+21,_ pattern succeeds on end of input?
+22,srfi.plt does not install cleanly due to error in info.ss
+23,First line blank -> broken indenting
+24,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+25,dracula rename export example from reference docs does not work
+26,"modular acl2 unresolved import problem, useless error message"
+27,Dracula errors on (just) + or - at REPL
+28,apparent Scribble error during package installation
+29,Parsing of missing closing HTML tags duplicates HTML elements
+30,"error: ""car: expects argument of type ; given ()"" on specific input"
+31,Fails to compile with 4.2.2
+32,scribble warnings
+33,segments->painter return is failing on being passed to paint
+34,error on require
+35,warnings from documentation
+36,slide/stage
+37,add name? to staged
+38,scribble text renderer dies with a type error
+39,Digest contexts are leaked.
+40,wrong compile-omit-paths entry in info.ss
+41,permissive?
+42,incomplete folders
+43,build-path: absolute path
+44,Unable to make 4.2.5 with shared libraries enabled.
+45,incorrect `declare-exporting'
+46,Fails to compile
+47,png_set_gray_1_2_4_to_8 not found while compiling
+48,Cannot typecheck (equal? (list) (list))
+49,define/memo doesn't save time for funs of arity > 1
+50,(rsound-play ding) does not play in Debian sid
+51,Looks like this language extension is broken on latest version of Racket and PLT-Scheme
+52,Error with Racket 5.1.2 and bzlib
+53,socket.plt fails to install
+54,Upgrade bindings to the current Cairo release
+55,Hello world doesn't compile
+56,writing comment inserts extra spaces
+57,Running example code produces no sound
+58,Unbound identifier
+59,compilation error on racket v5.1.3
+60,compilation error
+61,Negative numbers unsupported
+62,Growing memory consumption when using ryanc/db.plt
+63,bug in firmata.scrbl
+64,static-page won't load for 5.2.1
+65,Subquotes break the csv-reader
+66,install complains
+67,install complains
+68,JSON parser incorrectly parses '[' with newline and then ']'
+69,stty on mac doesn't support -F
+70,Doc bug in csv->list applied to a string
+71,can't bind commands to capital letters
+72,i need rosetta
+73,Unable to install
+74,Problem finding files - package setup/internal links
+75,Font lock doesn't work for subsubsubsection
+76,Doesnt' run
+77,Fixing the test files
+78,Problem installing Whalesong
+79,"Bad typecheck in map, foldl, foldr"
+80,transform-painter fails on non-rectangle configuration
+81,charterm event not ready when bytes are available
+82,charterm event not ready when bytes are available
+83,charterm event not ready when bytes are available
+84,Channel mask should be 0xf instead of 0x7
+85,API requests
+86,make-response/xhtml/full
+87,memoization is not thread-safe
+88,make sets sequences
+89,optional and keyword args
+90,Function.prototype.toString should produce source
+91,parameter for top-level let semantics
+92,make prophecies sequences
+93,long startup time
+94,Request for docs on interaction model
+95,schememodlang/this-package + defmodulelang/this-package
+96,Feature request: lang/this-package
+97,SchemeUnit checks for syntax errors
+98,Start function doesn't allow for changing fps
+99,World object doesn't export get-objects

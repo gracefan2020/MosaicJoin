@@ -1,0 +1,61 @@
+id,title
+0,Fixed a compiler crash on some closures that can't complete normallydefault tip
+1,Make transfers transparent to catch clauses.
+2,"Implemented ""nonlocal transfers"": return/break/continue from inside a closure."
+3,Merge
+4,"6627362: javac generates code that uses array.clone, which is not available on JavaCard"
+5,6720185: DiagnosticFormatter refactoring
+6,6675483: Javac rejects multiple type-variable bound declarations starting with an enum type
+7,6500701: Enhanced for loop with generics generates faulty bytecode
+8,6717241: some diagnostic argument is prematurely converted into a String object
+9,6594284: NPE thrown when calling a method on an intersection type
+10,6651719: Compiler crashes possibly during forward reference of TypeParameter
+11,6726015: JavaCompiler: replace desugarLater by compileStates
+12,Merge
+13,Merge
+14,Added tag jdk7-b31 for changeset 07c916ecfc71
+15,6657907: javadoc has unchecked warnings
+16,6724071: refactor Log into a front end and back end
+17,First working implementation of return inside a closure.
+18,Snapshot of working state.
+19,Snapshot of Neal's working state.
+20,Working snapshot.
+21,"The ""for"" qualifier on methods is now preserved in the class"
+22,Merge.
+23,Merge with tip
+24,6725036: javac returns incorrect value for lastModifiedTime() when source is a zip file archive
+25,6724551: Use Queues instead of Lists to link compiler phases
+26,6724327: eliminate use of shell tests for simple golden file tests
+27,"4501661: disallow mixing -public, -private, and -protected options at the same time"
+28,6716452: (classfile) need a method to get the index of an attribute
+29,6715753: unknown option error can be a little more helpful
+30,"6715757: javap does not print ""extends java.lang.Object"""
+31,6715251: javap should be consistent with javac and return 2 if given no arguments
+32,Resolved some cases that would cause a failure to parse or a
+33,1. The closure conversion from an unrestricted closure to a
+34,The type of a closure should be reported with the appropriate token
+35,"See Bloch's ""Closures Controversy"", slide 33, bottom, which"
+36,Merge copyright updates
+37,Complete merge
+38,Merge copyright changes
+39,Mergejdk7-b31
+40,Added tag jdk7-b30 for changeset eaf608c64fec
+41,6719955: Update copyright yearjdk7-b30
+42,Initial checkin of closures prototype [gafter]
+43,Merge
+44,Merge
+45,Added tag jdk7-b29 for changeset dec081837b01
+46,6715767: javap on java.lang.ClassLoader crashes
+47,Merge
+48,Merge
+49,Added tag jdk7-b28 for changeset 4ef4bd318569jdk7-b29
+50,6507179: javadoc -source 1.3 does not work with jdk6
+51,6294779: Problem with interface inheritance and covariant return types
+52,6716866: some javac regression tests fail to compile with re-orged file manager
+53,6714365: refactor JavacFileManager to move nested classes to top level
+54,6625520: javac handles missing entries on classpath badly
+55,6714364: refactor javac File handling code into new javac.file package
+56,Merge
+57,Merge
+58,Merge
+59,Added tag jdk7-b27 for changeset a17265993253jdk7-b28

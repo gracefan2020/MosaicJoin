@@ -1,0 +1,445 @@
+id,title
+0,Phoenix
+1,Yuma
+2,Las Vegas
+3,Los Angeles
+4,Los Angeles
+5,Los Angeles
+6,Los Angeles
+7,Los Angeles
+8,Los Angeles
+9,Los Angeles
+10,Los Angeles
+11,Los Angeles
+12,Los Angeles
+13,Los Angeles
+14,Los Angeles
+15,Los Angeles
+16,Los Angeles
+17,Los Angeles
+18,Los Angeles
+19,Los Angeles
+20,Los Angeles
+21,Los Angeles
+22,Los Angeles
+23,Los Angeles
+24,Los Angeles
+25,Los Angeles
+26,Los Angeles
+27,Los Angeles
+28,Los Angeles
+29,Los Angeles
+30,Los Angeles
+31,Los Angeles
+32,West Hollywood
+33,Los Angeles
+34,Los Angeles
+35,Los Angeles
+36,Los Angeles
+37,Los Angeles
+38,Bell
+39,Beverly Hills
+40,Beverly Hills
+41,Beverly Hills
+42,Compton
+43,Culver City
+44,Culver City
+45,Downey
+46,Downey
+47,El Segundo
+48,Gardena
+49,Gardena
+50,Hawthorne
+51,Hermosa Beach
+52,Lawndale
+53,Malibu
+54,Manhattan Beach
+55,Pacific Palisades
+56,Palos Verdes Peninsula
+57,Rancho Palos Verdes
+58,Redondo Beach
+59,Redondo Beach
+60,Venice
+61,Marina del Rey
+62,Playa del Rey
+63,Inglewood
+64,Inglewood
+65,Inglewood
+66,Santa Monica
+67,Santa Monica
+68,Santa Monica
+69,Santa Monica
+70,Torrance
+71,Torrance
+72,Torrance
+73,Torrance
+74,Torrance
+75,Whittier
+76,Whittier
+77,Whittier
+78,Buena Park
+79,Buena Park
+80,La Palma
+81,Cypress
+82,La Habra
+83,La Mirada
+84,Santa Fe Springs
+85,Stanton
+86,Cerritos
+87,Avalon
+88,Bellflower
+89,Lakewood
+90,Lakewood
+91,Lakewood
+92,Los Alamitos
+93,San Pedro
+94,San Pedro
+95,Seal Beach
+96,Wilmington
+97,Carson
+98,Carson
+99,Carson
+100,Long Beach
+101,Long Beach
+102,Long Beach
+103,Long Beach
+104,Long Beach
+105,Long Beach
+106,Long Beach
+107,Long Beach
+108,Long Beach
+109,Montrose
+110,South Pasadena
+111,Tujunga
+112,Pasadena
+113,Pasadena
+114,Pasadena
+115,Glendale
+116,Glendale
+117,Glendale
+118,Glendale
+119,Agoura Hills
+120,Calabasas
+121,Canoga Park
+122,Canoga Park
+123,West Hills
+124,Chatsworth
+125,Newbury Park
+126,Porter Ranch
+127,Northridge
+128,Reseda
+129,North Hills
+130,Granada Hills
+131,Santa Clarita
+132,Canyon Country
+133,Valencia
+134,Tarzana
+135,Thousand Oaks
+136,Westlake Village
+137,Thousand Oaks
+138,Woodland Hills
+139,Woodland Hills
+140,Castaic
+141,Panorama City
+142,Sherman Oaks
+143,Van Nuys
+144,Sherman Oaks
+145,Encino
+146,Burbank
+147,North Hollywood
+148,Studio City
+149,North Hollywood
+150,Universal City
+151,Rancho Cucamonga
+152,Baldwin Park
+153,Chino Hills
+154,Chino
+155,Claremont
+156,Rancho Cucamonga
+157,Rancho Cucamonga
+158,Rancho Cucamonga
+159,Glendora
+160,Hacienda Heights
+161,La Verne
+162,Monterey Park
+163,Ontario
+164,Ontario
+165,Ontario
+166,Diamond Bar
+167,Pomona
+168,Pomona
+169,Rosemead
+170,Upland
+171,Walnut
+172,Alhambra
+173,Alpine
+174,Bonita
+175,Boulevard
+176,Campo
+177,Chula Vista
+178,Chula Vista
+179,Chula Vista
+180,Chula Vista
+181,Chula Vista
+182,Descanso
+183,Imperial Beach
+184,Jacumba
+185,Jamul
+186,La Mesa
+187,La Mesa
+188,Lemon Grove
+189,National City
+190,Pine Valley
+191,Spring Valley
+192,Spring Valley
+193,Bonsall
+194,Borrego Springs
+195,Cardiff By the Sea
+196,Carlsbad
+197,Carlsbad
+198,Del Mar
+199,El Cajon
+200,El Cajon
+201,El Cajon
+202,Encinitas
+203,Escondido
+204,Escondido
+205,Escondido
+206,Fallbrook
+207,Escondido
+208,Julian
+209,La Jolla
+210,Lakeside
+211,Oceanside
+212,Camp Pendleton
+213,Oceanside
+214,Oceanside
+215,Pala
+216,Pauma Valley
+217,Poway
+218,Ramona
+219,San Marcos
+220,Santee
+221,Solana Beach
+222,San Marcos
+223,Valley Center
+224,Vista
+225,Vista
+226,Warner Springs
+227,Rancho Santa Fe
+228,San Marcos
+229,San Diego
+230,San Diego
+231,San Diego
+232,San Diego
+233,San Diego
+234,San Diego
+235,San Diego
+236,San Diego
+237,San Diego
+238,San Diego
+239,San Diego
+240,San Diego
+241,San Diego
+242,San Diego
+243,San Diego
+244,San Diego
+245,Coronado
+246,San Diego
+247,San Diego
+248,San Diego
+249,San Diego
+250,San Diego
+251,San Diego
+252,San Diego
+253,San Diego
+254,San Diego
+255,San Diego
+256,San Diego
+257,San Diego
+258,San Diego
+259,San Diego
+260,San Diego
+261,San Diego
+262,San Diego
+263,San Diego
+264,San Diego
+265,San Diego
+266,San Diego
+267,San Ysidro
+268,San Diego
+269,Indio
+270,Indio
+271,Indian Wells
+272,Palm Desert
+273,Banning
+274,Calexico
+275,Cathedral City
+276,Coachella
+277,Desert Hot Springs
+278,El Centro
+279,Holtville
+280,Imperial
+281,Joshua Tree
+282,La Quinta
+283,Morongo Valley
+284,Palm Desert
+285,Palm Springs
+286,Palm Springs
+287,Rancho Mirage
+288,Thermal
+289,Thousand Palms
+290,Twentynine Palms
+291,Twentynine Palms
+292,Apple Valley
+293,Grand Terrace
+294,Big Bear City
+295,Fontana
+296,Fontana
+297,Fontana
+298,Loma Linda
+299,Redlands
+300,Redlands
+301,Rialto
+302,Victorville
+303,Yucaipa
+304,San Bernardino
+305,San Bernardino
+306,San Bernardino
+307,San Bernardino
+308,San Bernardino
+309,Riverside
+310,Riverside
+311,Riverside
+312,Riverside
+313,Riverside
+314,Riverside
+315,Riverside
+316,Riverside
+317,Riverside
+318,Lake Elsinore
+319,Lake Elsinore
+320,Aguanga
+321,Anza
+322,Hemet
+323,Hemet
+324,Hemet
+325,Idyllwild
+326,Moreno Valley
+327,Moreno Valley
+328,Moreno Valley
+329,Moreno Valley
+330,Murrieta
+331,Murrieta
+332,Perris
+333,Perris
+334,San Jacinto
+335,Menifee
+336,Sun City
+337,Sun City
+338,Temecula
+339,Temecula
+340,Temecula
+341,Wildomar
+342,Winchester
+343,Irvine
+344,Irvine
+345,Irvine
+346,Irvine
+347,Foothill Ranch
+348,Irvine
+349,Irvine
+350,Irvine
+351,Irvine
+352,Capistrano Beach
+353,Corona del Mar
+354,Costa Mesa
+355,Costa Mesa
+356,Dana Point
+357,Lake Forest
+358,Huntington Beach
+359,Huntington Beach
+360,Huntington Beach
+361,Huntington Beach
+362,Laguna Beach
+363,Laguna Hills
+364,Aliso Viejo
+365,Newport Coast
+366,Newport Beach
+367,Newport Beach
+368,Newport Beach
+369,Newport Beach
+370,San Clemente
+371,San Clemente
+372,San Juan Capistrano
+373,Silverado
+374,Laguna Niguel
+375,Trabuco Canyon
+376,Westminster
+377,Rancho Santa Margarita
+378,Mission Viejo
+379,Mission Viejo
+380,Ladera Ranch
+381,Santa Ana
+382,Santa Ana
+383,Santa Ana
+384,Santa Ana
+385,Santa Ana
+386,Santa Ana
+387,Fountain Valley
+388,Tustin
+389,Tustin
+390,Anaheim
+391,Anaheim
+392,Anaheim
+393,Anaheim
+394,Anaheim
+395,Anaheim
+396,Anaheim
+397,Brea
+398,Fullerton
+399,Fullerton
+400,Fullerton
+401,Fullerton
+402,Garden Grove
+403,Garden Grove
+404,Garden Grove
+405,Garden Grove
+406,Garden Grove
+407,Norco
+408,Orange
+409,Orange
+410,Orange
+411,Orange
+412,Placentia
+413,Corona
+414,Corona
+415,Corona
+416,Corona
+417,Yorba Linda
+418,Yorba Linda
+419,Ventura
+420,Ventura
+421,Camarillo
+422,Camarillo
+423,Fillmore
+424,Moorpark
+425,Oxnard
+426,Santa Paula
+427,Simi Valley
+428,Santa Barbara
+429,Santa Barbara
+430,Bakersfield
+431,San Miguel
+432,California City
+433,Acton
+434,Boron
+435,Lancaster
+436,Lancaster
+437,Palmdale
+438,Palmdale
+439,Tehachapi
+440,Madera
+441,King City
+442,Saratoga
+443,Mariposa

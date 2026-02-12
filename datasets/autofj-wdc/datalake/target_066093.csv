@@ -1,0 +1,69 @@
+id,title
+0,Shell-free bootup
+1,Modular C coded early boot services included
+2,Read-Ahead
+3,Socket-based Activation
+4,Socket-based Activation: inetd compatibility
+5,Bus-based Activation
+6,Device-based Activation
+7,Configuration of device dependencies with udev rules
+8,Path-based Activation (inotify)
+9,Timer-based Activation
+10,Mount handling
+11,fsck handling
+12,Quota handling
+13,Automount handling
+14,Swap handling
+15,Snapshotting of system state
+16,XDG_RUNTIME_DIR Support
+17,Optionally kills remaining processes of users logging out
+18,Linux Control Groups Integration
+19,Audit record generation for started services
+20,SELinux integration
+21,PAM integration
+22,Encrypted hard disk handling (LUKS)
+23,"SSL Certificate/LUKS Password handling, including Plymouth, Console, wall(1), TTY and GNOME agents"
+24,Network Loopback device handling
+25,binfmt_misc handling
+26,System-wide locale handling
+27,Console and keyboard setup
+28,"Infrastructure for creating, removing, cleaning up of temporary and volatile files"
+29,Handling for /proc/sys sysctl
+30,Plymouth integration
+31,Save/restore random seed
+32,Static loading of kernel modules
+33,Automatic serial console handling
+34,Unique Machine ID handling
+35,Dynamic host name and machine meta data handling
+36,Reliable termination of services
+37,Early boot /dev/log logging
+38,Minimal kmsg-based syslog daemon for embedded use
+39,Respawning on service crash without losing connectivity
+40,Gapless service upgrades
+41,Graphical UI
+42,Built-In Profiling and Tools
+43,Instantiated services
+44,PolicyKit integration
+45,Remote access/Cluster support built into client tools
+46,Can list all processes of a service
+47,Can identify service of a process
+48,Automatic per-service CPU cgroups to even out CPU usage between them
+49,Automatic per-user cgroups
+50,SysV compatibility
+51,SysV services controllable like native services
+52,SysV-compatible /dev/initctl
+53,Reexecution with full serialization of state
+54,Interactive boot-up
+55,Container support (as advanced chroot() replacement)
+56,Dependency-based bootup
+57,Disabling of services without editing files
+58,Masking of services without editing files
+59,Robust system shutdown within PID 1
+60,Built-in kexec support
+61,Dynamic service generation
+62,Upstream support in various other OS components
+63,Service files compatible between distributions
+64,Signal delivery to services
+65,Reliable termination of user sessions before shutdown
+66,utmp/wtmp support
+67,"Easily writable, extensible and parseable service files, suitable for manipulation with enterprise management tools"

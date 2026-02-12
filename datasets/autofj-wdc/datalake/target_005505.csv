@@ -1,0 +1,101 @@
+id,title
+0,sample bug
+1,fmt uses set-cdr!
+2,API requests
+3,compile error
+4,support for v3 and v4
+5,stream-split-at
+6,stream-partition unusable
+7,bad variable reference
+8,unbound variable
+9,make-response/xhtml/full
+10,drscheme:tool-exports^ signature change in 369
+11,Test ticket
+12,Testing
+13,layout not backtracking
+14,exponential blow-up
+15,memoization is not thread-safe
+16,define/memo fails on multiple args
+17,update 3xx memoize for SchemeUnit 2
+18,make sets sequences
+19,update for v4
+20,optional and keyword args
+21,eq/equal on multiple args
+22,update tests for new schemeunit
+23,Ancient version of SchemeUnit causes errors and embarassment!
+24,update tests for new schemeunit
+25,make-filter-input-port hopelessly broken
+26,xhtml using obsolete web-server library
+27,Function.prototype.toString should produce source
+28,possible semantic issues with exceptions
+29,over-parenthesization in while-conditions
+30,implement read-only __proto__
+31,compile errors
+32,compile errors
+33,use scheme/runtime-path for in-current-directory
+34,pseudo-parameter/c is borked
+35,pseudo-parameter/c still borked for higher-order contracts
+36,object-name wrong for (pseudo-parameter/c ... -> ...)
+37,declare-exporting should also include main.ss
+38,config.ss is broken because of pseudo-parameter/c
+39,update tests for PLT v4
+40,"""use lexical scope"" pragma"
+41,implement JS 1.7 let-declarations
+42,implement JS 1.7 let-expressions
+43,parameter for top-level let semantics
+44,"let declarations in ""for"" head"
+45,module-path? contract broken
+46,Error message on loading Schemeunit GUI
+47,PLeuozNvH
+48,PLeuozNvH
+49,PLeuozNvH
+50,PLeuozNvH
+51,PLeuozNvH
+52,PLeuozNvH
+53,None
+54,None
+55,None
+56,None
+57,None
+58,make prophecies sequences
+59,Hello world example fails
+60,New official version of LeftParen released; please remove this version from PLaneT
+61,Incompatible with mzscheme 4+
+62,allow page width of #f
+63,Incorrect rendering of for-in blocks
+64,sexp syntax: for-in should fault on wrong number of variables
+65,Testing equality of AST structures
+66,bad parenthesization in pretty-printing
+67,Provide format-substatement and format-map from print.ss
+68,expose sexp syntax
+69,make AST types prefab
+70,main.ss doesn't export config.ss or ast.ss
+71,term=? predicate
+72,arguments object isn't initialized
+73,make a csv-reader that takes in an input-port
+74,"Possible incorrect expression precedences for DotReference, BracketReference and CallExpression"
+75,Home Insurance
+76,numbers are unfaithful to spec
+77,implement JavaScript library fully
+78,export sexp utilities
+79,regular expressions aren't implemented
+80,add an expansion phase to the compiler
+81,Incompatible file path separators in the documentation
+82,mutating with-bindings doesn't stick
+83,refactor implementation of environments
+84,direct eval should allow introducing bindings
+85,direct eval should inherit lexical environment
+86,fix representation of arrays
+87,Scribble Build Error on Linux
+88,Doc warnings
+89,long startup time
+90,"What does ""restart"" actually do?"
+91,Missing Scribble Sources
+92,binding arrows in DrScheme broken
+93,test infrastructure for different compilation modes
+94,coverage for compiler tests
+95,rename require.ss to main.ss
+96,Docs link unavailable; .DS_Store file unnecessary
+97,implement Array library
+98,bug when treating primitives as objects
+99,allow #lang line

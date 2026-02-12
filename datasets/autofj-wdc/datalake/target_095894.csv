@@ -1,0 +1,101 @@
+id,title
+0,xpath-parser.ss problem w/ abbreviated xpath syntax
+1,wrong compile-omit-paths entry in info.ss
+2,writing comment inserts extra spaces
+3,warnings from documentation
+4,transform-painter fails on non-rectangle configuration
+5,test-suite semantics change makes my code infinite loop
+6,test infrastructure for different compilation modes
+7,support unicode
+8,support for v3 and v4
+9,stty on mac doesn't support -F
+10,stream-split-at
+11,stream-partition unusable
+12,static-page won't load for 5.2.1
+13,stack trace is often mostly unusable
+14,srfi.plt does not install cleanly due to error in info.ss
+15,socket.plt fails to install
+16,slide/stage
+17,setup fails on hash store; hash-store.plt/1/4/hash-store.ss:9:3: expand: unbound identifier in module in: base64-filename-safe
+18,segments->painter return is failing on being passed to paint
+19,scribble warnings
+20,scribble text renderer dies with a type error
+21,schememodlang/this-package + defmodulelang/this-package
+22,sample bug
+23,same name as another planet package - confusing version numbering
+24,require error on installing
+25,rename require.ss to main.ss
+26,regular expressions aren't implemented
+27,problem including this file from planeT
+28,prime? of neg. number doesn't end
+29,possible semantic issues with exceptions
+30,png_set_gray_1_2_4_to_8 not found while compiling
+31,please convert comments in xml file to *COMMENT* sxml nodes
+32,pict-* from scheme/slideshow should combine in the order of the clauses
+33,permissive?
+34,parameter for top-level let semantics
+35,over-parenthesization in while-conditions
+36,optional and keyword args
+37,numbers are unfaithful to spec
+38,note that you need to restart DrScheme after (require ...)-ing the projectmgr
+39,mzsocket fails to install cleanly on OS X (10.5 and 10.6)
+40,"modular acl2 unresolved import problem, useless error message"
+41,memoization is not thread-safe
+42,make-response/xhtml/full
+43,make-filter-input-port hopelessly broken
+44,make sets sequences
+45,make prophecies sequences
+46,make a csv-reader that takes in an input-port
+47,long startup time
+48,install complains
+49,install complains
+50,incorrect `declare-exporting'
+51,incomplete folders
+52,implement read-only __proto__
+53,implement JavaScript library fully
+54,i need rosetta
+55,fmt uses set-cdr!
+56,f4 toggle menu item does not show keyboard shortcut
+57,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+58,example from docs declares IDistributeLists as a module
+59,errors on initial compile
+60,"error: ""car: expects argument of type ; given ()"" on specific input"
+61,error on require
+62,eof error
+63,enhance define-datatype to handle #:property prop:equal+hash
+64,dracula rename export example from reference docs does not work
+65,define/memo doesn't save time for funs of arity > 1
+66,current-print is inactive
+67,coverage for compiler tests
+68,compile: unbound identifier in module
+69,compilation error on racket v5.1.3
+70,compilation error
+71,"claims to install successfully, but doesn't seem to actually work"
+72,charterm event not ready when bytes are available
+73,charterm event not ready when bytes are available
+74,charterm event not ready when bytes are available
+75,can't bind commands to capital letters
+76,c.plt fails to install correctly
+77,build-path: absolute path
+78,bug in firmata.scrbl
+79,bogon in docs
+80,binding arrows in DrScheme broken
+81,audit duplicate-variable errors/non-errors
+82,apparent Scribble error during package installation
+83,add name? to staged
+84,add an expansion phase to the compiler
+85,`prime?' function does not check if x < 2.
+86,_ pattern succeeds on end of input?
+87,^M end-of-lines
+88,ZeroMQ integration with Racket 5.3.2 on Windows broken in FFI-lib
+89,World object doesn't export get-objects
+90,Warnings and a crash while installing on Windows
+91,Use of {{{set-cdr!}}}
+92,Use of set-cdr!
+93,Upgrade bindings to the current Cairo release
+94,Unit test fails because of problem with reverse!
+95,Unbound identifier
+96,Unable to make 4.2.5 with shared libraries enabled.
+97,Unable to install
+98,Unable to create unique indices
+99,Support vectors

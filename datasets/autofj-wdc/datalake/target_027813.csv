@@ -1,0 +1,50 @@
+id,title
+0,Forward Original(a1)
+1,Redirect Original(a1)
+2,Reply Original(a1)
+3,Reply Reply Save Original(a1)
+4,Reply Save Original(a1)
+5,Reply Save(a2)
+6,Accept Save Draft Changes
+7,Reject first Outgoing Compose
+8,Compose Save
+9,OutBound Original Changes
+10,Reject second Outgoing
+11,Assign Task To User
+12,Task Save
+13,InBound User Assignment
+14,OutBound User Assignment
+15,Pull
+16,Queue Transfer
+17,Skill Based Module
+18,User Transfer
+19,Assign Task To Queue
+20,InBound Queue Assignment
+21,OutBound Queue Assignment
+22,Accept first Outgoing(a2)
+23,Reattempt first Outgoing
+24,Reject first Outgoing Reply
+25,Undispatch
+26,Activity Completion
+27,Dispatcher
+28,Dispatcher Processing
+29,Reply complete Original(a1)
+30,Forward Outgoing(a2)
+31,Auto Reply
+32,Auto Ack
+33,Redirect Outgoing(a2)
+34,Default OutBound Rule
+35,InBound Rules
+36,Assign Task To System
+37,Retriever
+38,Permanent Undeliver
+39,Temporary Undeliver
+40,Department Transfer
+41,Reply complete Outgoing(a2)
+42,Reply Outgoing(a2)
+43,Reply Reply Save(a2)
+44,Compose send
+45,Compose send complete
+46,Group Reply
+47,Accept second Outgoing(a3)
+48,Reattempt second outgoing

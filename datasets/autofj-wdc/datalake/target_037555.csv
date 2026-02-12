@@ -1,0 +1,101 @@
+id,title
+0,Folders act like files in the File Browser
+1,Font & bg colorpickers display cut when ToolbarLocation=out
+2,Font Format combo doesn't reflect selection in IE
+3,Font names in fonts' menu aren't displayed in the right font
+4,Font name will only stay in the Font window for less than 10 seconds.
+5,Font size transposes lines
+6,FontStyleAdv Command
+7,Force bold and italics (b and i)
+8,forcepastaspaintext ie 6 bug
+9,Formating options in context-menu
+10,Formatting not applied
+11,Form fields end up ouside the form area
+12,FTP upload for picturs with the PHP connector
+13,Getting InstanceName though iframe ID
+14,Half text-lines when resizing (IE)
+15,"having a submit button with name=""submit"" in the same form causes error IE7"
+16,"HR in input ""source"" completely destroys document structure"
+17,tag breaks source
+18,Html entity problem
+19,HTML Tidy
+20,HTTP MSIE Multiple Style Tags Code Exec
+21,Hyperlink incorrect when pasting in Firefox
+22,IE 5.5: JS error loading form
+23,"IE6/IE7 problem - ""Browse server"" not working"
+24,IE 6 issues
+25,IE6 + MediaWiki Extension: Minor edits within an existing line crash IE6
+26,IE7 does not understand the page-break tag
+27,"IE7: ""Error: no such interface supported"" when opening custom file browser"
+28,IE add when perform 'View Source' or 'Submit'
+29,IE: Bold text bleeds over when applying Custom Italic style
+30,IE: added in regular text after pasting.
+31,IE: browser throws an error when FCKeditor is placed in a popup window
+32,"IE: Can't use the Styles combo with TR, TD, TH"
+33,IE changes in Active Content (Flash) handling
+34,IE Display Issues With DPI Set To Large Sizes
+35,IE - Display issue with table select
+36,[IE] Indent problem with
+37,IE - Paste as Plain text and list commands
+38,IE paste from Word problem
+39,IE - selection is not visible when context menu is opened
+40,ieSpell & multiple editors not responding
+41,IE Stripping Object Tag
+42,IE: Template throws error
+43,[IE] The first opened panel doesn't hide
+44,IE: too many CRs xor problems in lists
+45,"IE: When editor gets the focus on load, the ""del"" key is not functional"
+46,Image height and width in IE6
+47,Image inside floating DIV looses selection with Context Menu
+48,"image popup: add margin-right, margin-left props"
+49,Image properties: border color
+50,Image Property Dialog Not Displaying Correctly
+51,"Images resized by control points, less pixelated"
+52,"Images toggle alt="""" between each parse"
+53,Implement Marquee For Scrolling Text
+54,@import in css files do not work for editor area styles
+55,"Impossible to ""leave"" a form"
+56,Inconsistent drag-and-drop behavior
+57,Incorrect class definition (double quotes)
+58,In IE: CKEditor - Editor Area content is not word wrapped
+59,Inline comment editor
+60,Insert media files
+61,Insert of model causes IE crash
+62,Insert Smiley does not include required alt attribute
+63,Instert Template FireFox
+64,"Introduce configurable, non-editable, wrapping XHTML"
+65,Javascript error in loading FCK editor in IE7
+66,JavaScript error on tab and shift-tab in IE with tabindex
+67,javascript in deleted form header
+68,"JavaScript integration: ""CreateHtml is not a function"""
+69,Javascript loading errors when loading FCK in Firefox
+70,JavaScript : Sample 02 : Replacement of a TEXTAREA
+71,JAWS reads dialog fields incorrectly
+72,js error in fckeditorcode_ie.js
+73,Justification Buttons Function Improperly
+74,Justification not working
+75,Keystroke bypass disabled buttons in source mode
+76,KHTML Compatibility?
+77,"links have target=""undefined"""
+78,tag is being modified upon save
+79,List is broken when pressing enter in empty sublist item
+80,Locked/Editable Region Support
+81,Lotus Notes Domino Connector upload parameter
+82,Make editor detectable on server side
+83,Make Paste from Word XHTML 1.0 Strict compliant
+84,Make subscript/superscript switchable
+85,Make TabSpaces work with FF
+86,"Make ""Target"" available when creating link to ""anchor"""
+87,"""Maximize the editor size"" button can't handle relative DIVs"
+88,Maximum number of characters
+89,media/real/quicktime player
+90,Mediawiki 1.11.0 doesn't support it
+91,Mediawiki: Safari 3.0.3 preview problems
+92,merged add/edit link with delete link
+93,merge of table cells doesn't work in IE
+94,Merging cells command changes
+95,Meta Placeholder
+96,"Missing alt="""" with Smiley"
+97,Missing TemplatesXmlPath Property in FCKeditor.cs
+98,Mixing GET and POST parameters not RFC-Compliant
+99,More advanced ruler (HR) insert

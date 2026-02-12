@@ -1,0 +1,111 @@
+id,title
+0,Various problems when working with a big-assed spreadsheet
+1,Reduce subset animations to the actual subset bounding box
+2,Compilation of svtools fails with --with-system-jpeg
+3,Line polygons have extra lines
+4,Canvas cannot display bezier polygons
+5,Arrows toolbar missing in impress
+6,uneven / inaccurate paragraph justification for Thai / CTL
+7,filter build breaks with nojava option : xcu files for filte
+8,Badly Viewed Filenames for the Macro Assignments Saving in C
+9,Interoperability with MS Word - text language doesn't conver
+10,Default agenda template name .stw?
+11,WW8: Doc file (containing many objects) loops Writer
+12,Merging slides with different orientation looks wrong in sli
+13,Initial size of navigator is incorrect
+14,german string in en-US GSi file
+15,Texteffects in presentation are much too slow.
+16,Improve performance by reducing exported symbols of SVL and
+17,"Copyright -> Licence for .spec files, already done for redha"
+18,de UI: missing translations in Hyperlink dialog
+19,"de UI: missing translation of ""Class Location"" in ""Insert Ap"
+20,Caret in StarBasic IDE frequently disappears
+21,"ptBr UI: translation of ""Add..."" in Customize dialog does no"
+22,"es UI: translation of ""Toolbar"" in Customize dialog does not"
+23,CustomShapes are lost if saving into OpenOffice.org format
+24,crash during redo of paste page
+25,gcc3.3 parsing error in vcl/source/control/button.cxx
+26,import of settings from 1.1.x fails
+27,"Title bar of Writer/Web just shows ""Openoffice.org Writer/We"
+28,"hyperlink type ""local document"" changes to type ""internet d"
+29,Complex script runs in exported .doc file are undisplayable
+30,[regr] incorrect printout for #10 Envelope orientation verti
+31,spadmin does not allow normal user to install fonts
+32,Fillings of pie charts looks wrong.
+33,New doc from Template->save->load triggers warning that styl
+34,linked JPEG pictures will disappear when doc is modified.
+35,OOo sleeps for 100sec. if started by TestTool
+36,WW8: crash during import
+37,Embedded Excel OLE object could not be opened in OO Calc
+38,OpenOffice DOC document Heap Overflow
+39,HC radio button are not repainted on travelling
+40,macro instead of Makro in German version
+41,Draw crashes when impress is not installed (missing dependen
+42,"wrong German for ""toolbar"""
+43,[regr] OOo temporary files readable by non-privileged users
+44,gcc3.3 parsing error in vcl/source/app/help.cxx
+45,Insert Sheet from file broken for doc with txt extension
+46,Crash when closing office while having a ole object in clipb
+47,"Mac OS X : build broken at vcl project, sleep is declared ag"
+48,Outline: Removed Heading will be counted as first heading
+49,Outline from sxw sometimes counted continuously through leve
+50,Showstopper: Change of slide-per-row-number has no effect
+51,Crash after dragging task pane to bottom
+52,Focus in wrong line after TAB in Outline view
+53,OOoBean crashes Internet Explorer
+54,Compilation with gcc33 fails in sd/source/ui/unoidl/unomodel
+55,Assigning Heading Paragraph Style to Exisiting Numbering Cha
+56,dropdown comboboxes broken
+57,Connectors move to different points after save/open
+58,Selection rectangle can not select slides in last row of sli
+59,Deleting many slides in slide sorter takes too much time.
+60,Repaint problems when switching to slide sorter view
+61,fr UI: truncated strings on Events tab in Customize dialog
+62,Ruler setting not persistent after view change
+63,Drag from Navigator to desktop crashees OOo (Linux) or shows
+64,Resize problem: repaint missing when scaling application win
+65,WW8: Remove new tab handling for numbering/bullets
+66,style converted to hard text attributes upon save/reload
+67,impossible to send a unsaved doc as pdf attachment
+68,Background shapes are imported in foreground from DOC
+69,Showstopper: Picture with custom animation gets black after
+70,Document loops after loading (while formatting)
+71,Cutting out slide with more than one OLE object leaves dead
+72,open 6.0/7 templates for editing via command line doesnt wor
+73,Showstopper: Crash when using spellchecker
+74,Showstopper: Crash when deleting slides in slide browser in
+75,wordml reimport: data lost. no header
+76,Creating a new doc in m91 is ~30% slower compared to m88
+77,'ctrl'-v in URL-box paste content also in the open doc
+78,autorecovery crashes after saving files
+79,Showstopper: Presentation Wizard Crash at step 4 (when apply
+80,F10 fails to activate the menu bar
+81,de UI: broken character on Options - Internet - Search
+82,Showstopper: Crash when closing impress after deleting slide
+83,binfilter include of setjmp.h should take place outside the
+84,Storing large text doc in m91 is ~45% slower compared to m88
+85,Unicode chars in filenames are displayed as e.g. %c3 in XML
+86,Custom Animation: Direction misses ID.
+87,combreloc should be passed to linker like the rest of the op
+88,ppc crash on startup
+89,Crash while closing help
+90,API: calling oDoc.printPages(); oDoc.close(true) crashes the
+91,WW8: export quite simple document leads to crash
+92,"WW8: crash while opening the document (Assertion ""Keine Shel"
+93,Cannot select text for custom animation
+94,VCL Canvas: repaint missing when starting presentation with
+95,"Plugin: ActiveX plugin not registred for ""all users"""
+96,impress crashes with 'com::sun::star::beans::UnknownProperty
+97,Untranslated strings in UI [DE]
+98,no recovery UI if office was killed hardly
+99,Crash while opening godintro.pps
+100,lose of Database Ranges
+101,crash when loading bugdoc and click on Button1
+102,slide sorter: all slides in the upper left corner
+103,dynamic reports open in edit mode
+104,report wizard: grouping does not work
+105,W32-tcsh build failure in odk/pack/gendocu
+106,MailMerge: New created database will not automaticaly set
+107,Text is invisible after custom text animation
+108,Build breaks in svtools/source/config
+109,missing document file extensions in Basic Macro dialog

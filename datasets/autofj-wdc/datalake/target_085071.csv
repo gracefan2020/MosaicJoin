@@ -1,0 +1,51 @@
+id,title
+0,Authenticated user won't see any link to upload images
+1,permission issues
+2,"warnig, error etc..."
+3,Misspelling
+4,To D5
+5,Auth User cannot add pics
+6,The gallery type and image type can't be the same.
+7,'is_cover' in 'ng_images' table
+8,Proposal to become a co-maintainer of the node_gallery module
+9,Cannot upload images
+10,Function name conflicts
+11,Errors / warnings after fresh install
+12,Node Gallery and Content Profile
+13,Coding standards violations
+14,Image.module a requirement?
+15,"Images upload (with error), but do not display in gallery"
+16,Does this module support user-managed galleries?
+17,integration with views
+18,node_gallery_access/passwd/js: An illegal choice has been detected.
+19,Using ImageX module for bulk uploads
+20,Token Implementations
+21,Invalid Argument supplied for foreach() in function theme_gallery_teaser()
+22,Bulk upload with zip / more than 5 images
+23,Images in gallery aren't showing up
+24,Class 'drupal_web_test_case' not found
+25,lightbox2 Gallery integration.
+26,Image upload gets stuck
+27,Delete ImageCache files when deleting an Image or Gallery
+28,Cover Image missing in views (recently upgraded from alpha6 to 8)
+29,Views support for uploaded images
+30,Any directions on how to create a gallery?
+31,various db errors with new release
+32,demo site filled with spam
+33,Node Gallery Status and Ideas.
+34,File not uploaded to proper directory?
+35,"Too many ""updated"" confirmations after image editing"
+36,teaser problem
+37,View is not being created on module install
+38,"warning: preg_match() expects parameter 2 to be string, array given in xxxxx/includes/bootstrap.inc on line 771"
+39,Comments are not displaying under images
+40,error when i want to upload a image
+41,Upgrade from alpha8 to 9 failed
+42,gallery_image_grid View has reported error text under Fields
+43,images with + sign won't process
+44,How to enable lightbox2 for node gallery?
+45,Upload failes in 2.x even
+46,One Public Gallery
+47,Image Upload Limitation Default Settings
+48,Managing a larger gallery failed
+49,Can't delete images from larger galleries

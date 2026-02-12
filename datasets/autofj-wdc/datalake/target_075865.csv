@@ -1,0 +1,141 @@
+id,title
+0,State Code
+1,Structure Number
+2,Inventory Route
+3,Record Type
+4,Route Signing Prefix
+5,Designated Level of Service
+6,Route Number
+7,Directional Suffix
+8,Highway Agency District
+9,County (Parish) Code
+10,Place Code
+11,Features Intersected
+12,Features Intersected
+13,Critical Facility Indicator
+14,Facility Carried By Structure
+15,Location
+16,"Inventory Rte, Min Vert Clearance"
+17,Kilometerpoint
+18,Base Highway Network
+19,"Inventory Route, Subroute Number"
+20,LRS Inventory Route
+21,Subroute Number
+22,Latitude
+23,Longitude
+24,Bypass/Detour Length
+25,Toll
+26,Maintenance Responsibility
+27,Owner
+28,Functional Class Of Inventory Rte.
+29,Year Built
+30,Lanes On/Under Structure
+31,Lanes On Structure
+32,Lanes Under Structure
+33,Average Daily Traffic
+34,Year Of Average Daily Traffic
+35,Design Load
+36,Approach Roadway Width
+37,Bridge Median
+38,Skew
+39,Structure Flared
+40,Traffic Safety Features
+41,Bridge Railings
+42,Transitions
+43,Approach Guardrail
+44,Approach Guardrail Ends
+45,Historical significance
+46,Navigation Control
+47,Navigation Vertical Clearance
+48,Navigation Horizontal Clearance
+49,Structure Open/Posted/Closed
+50,Type Of Service
+51,Type of Service On Bridge
+52,Type of Service Under Bridge
+53,"Structure Type, Main"
+54,Kind of Material/Design
+55,Type of Design/Construction
+56,"Structure Type, Approach Spans"
+57,Kind of Material/Design
+58,Type of Design/Construction
+59,Number Of Spans In Main Unit
+60,Number Of Approach Spans
+61,Inventory Rte Total Horz Clearance
+62,Length Of Maximum Span
+63,Structure Length
+64,Curb/Sidewalk Widths
+65,Left Curb/Sidewalk Width
+66,Right Curb/Sidewalk Width
+67,Bridge Roadway Width Curb-To-Curb
+68,"Deck Width, Out-To-Out"
+69,Min Vert Clear Over Bridge Roadway
+70,Minimum Vertical Underclearance
+71,Reference Feature
+72,Minimum Vertical Underclearance
+73,Min Lateral Underclear On Right
+74,Reference Feature
+75,Minimum Lateral Underclearance
+76,Min Lateral Underclear On Left
+77,Deck
+78,Superstructure
+79,Substructure
+80,Channel/Channel Protection
+81,Culverts
+82,Method Used To Determine Operating Rating
+83,Operating Rating
+84,Method Used To Determine Inventory Rating
+85,Inventory Rating
+86,Structural Evaluation
+87,Deck Geometry
+88,"Underclear, Vertical & Horizontal"
+89,Bridge Posting
+90,Waterway Adequacy
+91,Approach Roadway Alignment
+92,Type of Work
+93,Type of Work Proposed
+94,Work Done By
+95,Length Of Structure Improvement
+96,Inspection Date
+97,Designated Inspection Frequency
+98,Critical Feature Inspection
+99,Fracture Critical Details
+100,Underwater Inspection
+101,Other Special Inspection
+102,Critical Feature Inspection Dates
+103,Fracture Critical Details Date
+104,Underwater Inspection Date
+105,Other Special Inspection Date
+106,Bridge Improvement Cost
+107,Roadway Improvement Cost
+108,Total Project Cost
+109,Year Of Improvement Cost Estimate
+110,Border Bridge
+111,Neighboring State Code
+112,Percent Responsibility
+113,Border Bridge Structure Number
+114,STRAHNET Highway Designation
+115,Parallel Structure Designation
+116,Direction Of Traffic
+117,Temporary Structure Designation
+118,Highway System Of Inventory Route
+119,Federal Lands Highways
+120,Year Reconstructed
+121,Deck Structure Type
+122,Wearing Surface/Protective System
+123,Type of Wearing Surface
+124,Type of Membrane
+125,Deck Protection
+126,AVERAGE DAILY TRUCK TRAFFIC
+127,DESIGNATED NATIONAL NETWORK
+128,PIER/ABUTMENT PROTECTION
+129,NBIS BRIDGE LENGTH
+130,SCOUR CRITICAL BRIDGES
+131,FUTURE AVERAGE DAILY TRAFFIC
+132,YEAR OF FUTURE AVG DAILY TRAFFIC
+133,MINIMUM NAVIGATION VERTICAL CLEARANCE VERTICAL LIFT BRIDGE
+134,FEDERAL AGENCY INDICATOR
+135,Washington Headquarters Use
+136,STATUS with 10yr rule
+137,Asterisk Field in SR
+138,SUFFICIENCY RATING (select from last 4 positions only)
+139,STATUS without 10yr rule. Field new in 2013 and future years (This field is not part of the NBI annual file submittal. It is a download field only.)

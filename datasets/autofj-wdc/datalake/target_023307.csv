@@ -1,0 +1,186 @@
+id,title
+0,Additional shared OE metadata
+1,Core metadata
+2,Ettus E1XX series BSP
+3,Ettus E3XX Series BSP
+4,AArch64 (64-bit ARM) architecture support
+5,Acer machines support
+6,Altera SoC BSP layer
+7,AMD board support common layer (official)
+8,Asus machines support
+9,Official Yocto Project layer for Atmel SoCs
+10,AMD Bald Eagle platform BSP
+11,Support for beagleboard.org devices
+12,BugLabs bug20 machine support
+13,Official BSP layer for bytesatwork based platform
+14,Meta layer to support Creator CI20 mips boards
+15,Intel Crown Bay platform BSP
+16,Intel Crystal Forest platform BSP
+17,SolidRun CuBox platform BSP
+18,Support for Digi ConnectCore/ConnectCard Modules
+19,Tizen BSP layer for DRA7XX-EVM
+20,Genesi Efika MX machine support
+21,Intel eMenlow platform BSP
+22,BSP layer for exynos based machines
+23,"Kontron ""Fish River Island 2"" BSP"
+24,Freescale ARM hardware support
+25,Freescale ARM hardware support (extra boards)
+26,Freescale PowerPC hardware support
+27,geeksphone device support
+28,Gumstix board support (official)
+29,Gumstix board support (unofficial community BSP)
+30,Gumstix board support extras (official)
+31,"Older handheld device support (Zaurus, iPAQ, etc.)"
+32,BSP and related Distro for embedded devices from the DResearch Fahrzeugelektronik GmbH
+33,HTC smartphone support
+34,IGEP board support
+35,Intel board support common layer (official)
+36,Intel Quark platform support
+37,BSP layer for IVI reference hardware
+38,Intel Jasper Forest platform BSP
+39,Marvell Kirkwood-based device support
+40,LSI Axxia Communication Processors Platform BSP
+41,MinnowBoard BSP layer
+42,Psion NetBook Pro device support
+43,BSP Layer from NetModule for various boards
+44,Nokia N900 support
+45,Linksys NSLU2 device support
+46,Intel Next Unit of Computing BSP
+47,This support the series of Odroid boards made by Hardkernel
+48,OpenMoko device support
+49,OpenPandora machine support
+50,support ouya game console
+51,Palm Pre machine support
+52,Support for the Parallella board from Adapteva
+53,Picosam9 board support
+54,layer for other qemu machines
+55,Raspberry Pi board support
+56,Official BSP layer for Renesas RZ/A1 platforms
+57,Layer supporting public rockchip-based development boards and products
+58,Intel Romley platform BSP
+59,Samsung smartphone support
+60,Intel Sugar Bay platform BSP
+61,Allwinner sunxi board support
+62,Texas Instruments board support (official)
+63,VIA VAB-820 / AMOS-820 BSP layer
+64,Xilinx hardware support
+65,Additional Xilinx hardware support
+66,BSP layer for Yocto Project reference hardware
+67,Former Yocto Project reference BSPs
+68,Ångström distribution
+69,Arago/TI-SDK distribution
+70,Using Debian source code to bitbake images
+71,Provides the Digi Embedded Linux distribution images
+72,Mobile access point
+73,Denx ELDK distribution
+74,Guacamayo distribution
+75,Distro layer for the Intel IoT Developer Kit
+76,Collection of software related to In-Vehicle Infotainment systems
+77,Distro layer for LuneOS
+78,luvOS distribution
+79,Mentor Embedded Linux distribution (from Mentor Graphics Corporation)
+80,micro distribution
+81,An example distro layer customised for the Raspberry Pi
+82,SHR distribution
+83,SlugOS distribution
+84,Tizen reference for the Yocto Project
+85,WebOS distribution (official)
+86,Distro layer for LuneOS
+87,WebOS community Edition distribution
+88,Poky reference distribution for the Yocto Project
+89,"Lightweight (legacy) X desktop, tools, and recipe extensions"
+90,Baryon example NAS distribution
+91,Carrier Grade Linux compliance packages
+92,OpenEmbedded meta layer for darwin based SDKs
+93,GObject Introspection Support
+94,Intel Galileo platform support
+95,Kernel development extras
+96,Linaro layer for openembedded
+97,Mentor Graphics Staging Layer for Yocto/OE
+98,OpenEmbedded meta layer for mingw based SDKs
+99,Staging area for improvements to read-only-rootfs handling
+100,Time Limited Kernel layer
+101,Ada support
+102,Android specific tools
+103,Arago/TI extra apps
+104,ASP.NET 5
+105,This contains recipes for various audio DSP tools
+106,aurora UI
+107,BeagleBoard extras
+108,"Web browsers (Chromium, Firefox, etc.)"
+109,BugLabs middleware and specific OSGi components
+110,Chicken toolchain support
+111,The OpenEmbedded/Yocto BSP layer for CI related things.
+112,Clang/llvm alternative to gcc for C/C++ cross compiler
+113,General package support for cloud and clustering development
+114,"Recipes for cogl, clutter and friends"
+115,Crosswalk is a web runtime for ambitious HTML5 applications.
+116,Enlightenment UI support
+117,Erlang support
+118,Support for additional filesystems
+119,OpenEmbedded/Yocto layer for Freescale's Demonstration images
+120,freesmartphone.org framework support
+121,Software layer for video game system emulators
+122,Open-source games
+123,GNOME UI support
+124,This layer provides support for cross-compiling programs written in Go language
+125,GPE UI support (very minimal currently)
+126,OpenEmbedded layer for GStreamer 1.0
+127,Hamradio related software
+128,initramfs tools
+129,Shared middleware recipes for Intel IoT platforms
+130,GENIVI Yocto Demo Platform
+131,Java support
+132,Kali penetration test tools
+133,KDE 4 / Plasma Active
+134,KDE Frameworks 5
+135,Linaro toolchain support
+136,Recipes for LuneOS UI
+137,Yocto layer for the LXCBENCH project
+138,Tools and utilities related to measuring software and trusted computing
+139,Mentor Embedded Linux Support Layer for Yocto/OE
+140,Mono
+141,Multimedia-related software
+142,Support for the musl C library
+143,Additioanl packets used by NetModule
+144,Network-related software
+145,Support for building the Open Interconnect Consortium Iotivity framework
+146,Layer to support SAFplus midleware components
+147,Yocto layer providing openHAB (home automation software)
+148,OpenStack support
+149,OpenStack compute node support
+150,OpenStack controller node support
+151,OpenStack QEMU image support
+152,Opie UI support
+153,Oracle Java support
+154,OsmocomBB support
+155,Additional Perl recipes
+156,Python support
+157,Qt 3.x support
+158,Qt5 modules
+159,Desktop environments and applications based on qt5
+160,Additional realtime support
+161,ROS (Robot Operating System) support layer
+162,Ruby support
+163,Software Defined Radio (SDR) related recipes.
+164,Security tools for Internet Connected devices
+165,adds higher-level security middleware and tools
+166,adds the Smack LSM to OpenEmbedded distros
+167,SELinux support
+168,SHR applications
+169,GNU Smalltalk and ports
+170,CodeSourcery toolchain support layer by Mentor Graphics Corporation
+171,Support for the Simple PCIe FMC Carrier (SPEC)
+172,Layer supporting Software Update via swupdate
+173,systemd support
+174,Telephony-related software
+175,TellStick support layer
+176,Layer to add necessary agent support for Sourcery Analyzer (lttng+systemtap bits)
+177,Software for drones
+178,"Hypervisor, virtualization tool stack, and cloud support"
+179,Layer enabling browser based kiosk devices with virtual keyboard support
+180,Web server related software
+181,"Lightweight, portable, C-language-based SSL/TLS library"
+182,x10 protocol related software
+183,XFCE UI support
+184,Older/newer toolchains

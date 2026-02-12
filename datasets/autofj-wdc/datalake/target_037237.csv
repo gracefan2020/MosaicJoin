@@ -1,0 +1,81 @@
+id,title
+0,Turns on punctuation matching
+1,"Parameters for mv_subroutine (mv_arg0,mv_arg1,...)"
+2,Sets base directory for search file names
+3,Pattern must match beginning of field
+4,Turns on case sensitivity
+5,Sets the shopping cart name
+6,"Any form, sets multiple user variables after update"
+7,"Any form, sets multiple form variables before update"
+8,"Default mv_click routine, click is mv_click_arg"
+9,"Routine for a click , sends click as arg"
+10,Argument name in scratch space
+11,Enables field/spec matching coordination
+12,Operation for coordinated search
+13,Discussed in order security (some are read-only)
+14,Upper bound for binary search
+15,Non-case sensitive binary search
+16,Sets upper bound based on character position
+17,Search specification for binary search
+18,Sets dictionary order mode
+19,Sets default action
+20,Reply-to address for orders
+21,Sets word-matching mode
+22,Sets CGI values to use on failed profile check
+23,Sets page to display on on failed profile check
+24,Forces zeroing of current form values on failed profile check
+25,Sets file to find field names for Glimpse
+26,"Sets field names for search, starting at 1"
+27,Start displaying search at specified match
+28,Check form with Interchange profile
+29,Sets skipping of header line(s) in index
+30,Delimiter for search fields (TAB default)
+31,Sets match page size
+32,Sets maximum match return
+33,Sets minimum search spec size
+34,Records NOT matching will be found
+35,Sets next page user will go to
+36,Comparison numeric in coordinated search
+37,Allows grouping of master item/sub item
+38,Causes the order of an item
+39,Order number of the last order (read-only)
+40,Sets the quantity of an ordered item
+41,Selects the order check profile
+42,Sets the receipt displayed
+43,Sets the order report sent
+44,Sets the subject line of order email
+45,Selects AND/OR of search words
+46,Selects search profile
+47,Search index record delimiter
+48,Return all lines found (subject to range search)
+49,Return record delimiter
+50,Fields to return on a search
+51,Set return of file name for searches
+52,Return the search string as the only result
+53,Set to non-zero to prevent expiration of user session
+54,Sets the fields to be searched
+55,Sets the file(s) to be searched
+56,Each line is a return code (loop search)
+57,Returns the number of matches found (read-only)
+58,Sets the page for search display
+59,Search specification
+60,"Sets search type (text, glimpse, db or sql)"
+61,Sets separate order lines (one per item ordered)
+62,Suggests user session id (overridden by cookie)
+63,Sets shipping mode for custom shipping
+64,Field(s) to sort on
+65,Options for sort
+66,Number of spelling errors for Glimpse
+67,Turns off word-matching mode
+68,Sets CGI values to use on successful profile check
+69,Sets page to display on on successful profile check
+70,Forces zeroing of current form values on successful profile check
+71,"Common to all forms, sets form action"
+72,Contains form imagemap
+73,Causes checkout action on click of image
+74,Causes return action on click of image
+75,Causes submit action on click of image
+76,Set by form imagemap
+77,Set by form imagemap
+78,Return unique search results only
+79,Sets value on one-click search (va=var=value)

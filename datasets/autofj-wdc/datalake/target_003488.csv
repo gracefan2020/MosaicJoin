@@ -1,0 +1,50 @@
+id,title
+0,Bill Numbered but not Distributed
+1,Numbered Bill Publicly Distributed
+2,Senate/ received bill from Legislative Research
+3,Senate/ 1st reading (Introduced)
+4,Senate/ to standing committee
+5,LFA/ bill sent to agencies for fiscal input
+6,Senate Comm - Substitute Recommendation
+7,Senate Comm - Favorable Recommendation
+8,Bill Substituted by Standing Committee
+9,LFA/ fiscal note sent to sponsor
+10,LFA/ fiscal note publicly available
+11,Senate/ received fiscal note from Fiscal Analyst
+12,Senate/ comm rpt/ substituted
+13,Senate/ placed on 2nd Reading Calendar
+14,Senate/ 2nd reading
+15,Senate/ passed 2nd reading
+16,Senate/ 3rd reading
+17,Senate/ floor amendment # 1
+18,Senate/ passed 3rd reading
+19,Senate/ to House
+20,House/ received from Senate
+21,House/ 1st reading (Introduced)
+22,House/ to standing committee
+23,House Comm - Amendment Recommendation
+24,House Comm - Favorable Recommendation
+25,House/ comm rpt/ amended
+26,House/ 2nd reading
+27,House/ 3rd reading
+28,House/ floor amendment failed
+29,House/ passed 3rd reading
+30,House/ to Senate
+31,Senate/ received from House
+32,Senate/ placed on Concurrence Calendar
+33,Senate/ circled
+34,Senate/ uncircled
+35,Senate/ concurs with House amendment
+36,Senate/ to House
+37,House/ received from Senate
+38,House/ signed by Speaker/ returned to Senate
+39,House/ to Senate
+40,Senate/ received from House
+41,Senate/ signed by President/ sent for enrolling
+42,Bill Received from Senate for Enrolling
+43,Draft of Enrolled Bill Prepared
+44,Enrolled Bill Returned to House or Senate
+45,Senate/ enrolled bill to Printing
+46,Senate/ received enrolled bill from Printing
+47,Senate/ to Governor
+48,Governor Signed

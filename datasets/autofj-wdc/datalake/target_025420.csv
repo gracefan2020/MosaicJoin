@@ -1,0 +1,182 @@
+id,title
+0,Line 1
+1,ChangeLog for PCRE
+2,------------------
+3,Version 7.7 05-Mar-08
+4,---------------------
+5,"1. Applied Craig's patch to sort out a long long problem: ""If we can't convert"
+6,"a string to a long long, pretend we don't even have a long long."" This is"
+7,"done by checking for the strtoq, strtoll, and _strtoi64 functions."
+8,2. Applied Craig's patch to pcrecpp.cc to restore ABI compatibility with
+9,"pre-7.6 versions, which defined a global no_arg variable instead of putting"
+10,it in the RE class. (See also #8 below.)
+11,"3. Remove a line of dead code, identified by coverity and reported by Nuno"
+12,Lopes.
+13,4. Fixed two related pcregrep bugs involving -r with --include or --exclude:
+14,(1) The include/exclude patterns were being applied to the whole pathnames
+15,"of files, instead of just to the final components."
+16,"(2) If there was more than one level of directory, the subdirectories were"
+17,skipped unless they satisfied the include/exclude conditions. This is
+18,inconsistent with GNU grep (and could even be seen as contrary to the
+19,pcregrep specification - which I improved to make it absolutely clear).
+20,"The action now is always to scan all levels of directory, and just"
+21,apply the include/exclude patterns to regular files.
+22,"5. Added the --include_dir and --exclude_dir patterns to pcregrep, and used"
+23,--exclude_dir in the tests to avoid scanning .svn directories.
+24,6. Applied Craig's patch to the QuoteMeta function so that it escapes the
+25,"NUL character as backslash + 0 rather than backslash + NUL, because PCRE"
+26,doesn't support NULs in patterns.
+27,"7. Added some missing ""const""s to declarations of static tables in"
+28,pcre_compile.c and pcre_dfa_exec.c.
+29,8. Applied Craig's patch to pcrecpp.cc to fix a problem in OS X that was
+30,caused by fix #2 above. (Subsequently also a second patch to fix the
+31,first patch. And a third patch - this was a messy problem.)
+32,9. Applied Craig's patch to remove the use of push_back().
+33,10. Applied Alan Lehotsky's patch to add REG_STARTEND support to the POSIX
+34,matching function regexec().
+35,"11. Added support for the Oniguruma syntax \g, \g, \g'name', \g'n',"
+36,"which, however, unlike Perl's \g{...}, are subroutine calls, not back"
+37,references. PCRE supports relative numbers with this syntax (I don't think
+38,Oniguruma does).
+39,Version 7.6 28-Jan-08
+40,---------------------
+41,1. A character class containing a very large number of characters with
+42,"codepoints greater than 255 (in UTF-8 mode, of course) caused a buffer"
+43,overflow.
+44,"2. Patch to cut out the ""long long"" test in pcrecpp_unittest when"
+45,HAVE_LONG_LONG is not defined.
+46,3. Applied Christian Ehrlicher's patch to update the CMake build files to
+47,bring them up to date and include new features. This patch includes:
+48,- Fixed PH's badly added libz and libbz2 support.
+49,- Fixed a problem with static linking.
+50,- Added pcredemo. [But later removed - see 7 below.]
+51,- Fixed dftables problem and added an option.
+52,"- Added a number of HAVE_XXX tests, including HAVE_WINDOWS_H and"
+53,HAVE_LONG_LONG.
+54,- Added readline support for pcretest.
+55,- Added an listing of the option settings after cmake has run.
+56,4. A user submitted a patch to Makefile that makes it easy to create
+57,"""pcre.dll"" under mingw when using Configure/Make. I added stuff to"
+58,"Makefile.am that cause it to include this special target, without"
+59,affecting anything else. Note that the same mingw target plus all
+60,the other distribution libraries and programs are now supported
+61,when configuring with CMake (see 6 below) instead of with
+62,Configure/Make.
+63,5. Applied Craig's patch that moves no_arg into the RE class in the C++ code.
+64,"This is an attempt to solve the reported problem ""pcrecpp::no_arg is not"
+65,"exported in the Windows port"". It has not yet been confirmed that the patch"
+66,"solves the problem, but it does no harm."
+67,6. Applied Sheri's patch to CMakeLists.txt to add NON_STANDARD_LIB_PREFIX and
+68,NON_STANDARD_LIB_SUFFIX for dll names built with mingw when configured
+69,"with CMake, and also correct the comment about stack recursion."
+70,7. Remove the automatic building of pcredemo from the ./configure system and
+71,from CMakeLists.txt. The whole idea of pcredemo.c is that it is an example
+72,"of a program that users should build themselves after PCRE is installed, so"
+73,"building it automatically is not really right. What is more, it gave"
+74,trouble in some build environments.
+75,8. Further tidies to CMakeLists.txt from Sheri and Christian.
+76,Version 7.5 10-Jan-08
+77,---------------------
+78,"1. Applied a patch from Craig: ""This patch makes it possible to 'ignore'"
+79,"values in parens when parsing an RE using the C++ wrapper."""
+80,2. Negative specials like \S did not work in character classes in UTF-8 mode.
+81,Characters greater than 255 were excluded from the class instead of being
+82,included.
+83,3. The same bug as (2) above applied to negated POSIX classes such as
+84,[:^space:].
+85,"4. PCRECPP_STATIC was referenced in pcrecpp_internal.h, but nowhere was it"
+86,"defined or documented. It seems to have been a typo for PCRE_STATIC, so"
+87,I have changed it.
+88,5. The construct (?&) was not diagnosed as a syntax error (it referenced the
+89,first named subpattern) and a construct such as (?&a) would reference the
+90,"first named subpattern whose name started with ""a"" (in other words, the"
+91,"length check was missing). Both these problems are fixed. ""Subpattern name"
+92,"expected"" is now given for (?&) (a zero-length name), and this patch also"
+93,makes it give the same error for \k'' (previously it complained that that
+94,was a reference to a non-existent subpattern).
+95,6. The erroneous patterns (?+-a) and (?-+a) give different error messages;
+96,this is right because (?- can be followed by option settings as well as by
+97,"digits. I have, however, made the messages clearer."
+98,7. Patterns such as (?(1)a|b) (a pattern that contains fewer subpatterns
+99,than the number used in the conditional) now cause a compile-time error.
+100,"This is actually not compatible with Perl, which accepts such patterns, but"
+101,"treats the conditional as always being FALSE (as PCRE used to), but it"
+102,seems to me that giving a diagnostic is better.
+103,"8. Change ""alphameric"" to the more common word ""alphanumeric"" in comments"
+104,and messages.
+105,"9. Fix two occurrences of ""backslash"" in comments that should have been"
+106,"""backspace""."
+107,10. Remove two redundant lines of code that can never be obeyed (their function
+108,was moved elsewhere).
+109,11. The program that makes PCRE's Unicode character property table had a bug
+110,which caused it to generate incorrect table entries for sequences of
+111,"characters that have the same character type, but are in different scripts."
+112,"It amalgamated them into a single range, with the script of the first of"
+113,"them. In other words, some characters were in the wrong script. There were"
+114,"thirteen such cases, affecting characters in the following ranges:"
+115,U+002b0 - U+002c1
+116,U+0060c - U+0060d
+117,U+0061e - U+00612
+118,U+0064b - U+0065e
+119,U+0074d - U+0076d
+120,U+01800 - U+01805
+121,Line 165 Version 7.5 12-Nov-07
+122,U+0fb46 - U+0fbb1
+123,U+10450 - U+1049d
+124,12. The -o option (show only the matching part of a line) for pcregrep was not
+125,"compatible with GNU grep in that, if there was more than one match in a"
+126,"line, it showed only the first of them. It now behaves in the same way as"
+127,GNU grep.
+128,"13. If the -o and -v options were combined for pcregrep, it printed a blank"
+129,"line for every non-matching line. GNU grep prints nothing, and pcregrep now"
+130,does the same. The return code can be used to tell if there were any
+131,non-matching lines.
+132,14. Added --file-offsets and --line-offsets to pcregrep.
+133,15. The pattern (?=something)(?R) was not being diagnosed as a potentially
+134,infinitely looping recursion. The bug was that positive lookaheads were not
+135,being skipped when checking for a possible empty match (negative lookaheads
+136,and both kinds of lookbehind were skipped).
+137,"16. Fixed two typos in the Windows-only code in pcregrep.c, and moved the"
+138,inclusion of to before rather than after the definition of
+139,INVALID_FILE_ATTRIBUTES (patch from David Byron).
+140,17. Specifying a possessive quantifier with a specific limit for a Unicode
+141,"character property caused pcre_compile() to compile bad code, which led at"
+142,runtime to PCRE_ERROR_INTERNAL (-14). Examples of patterns that caused this
+143,"are: /\p{Zl}{2,3}+/8 and /\p{Cc}{2}+/8. It was the possessive ""+"" that"
+144,caused the error; without that there was no problem.
+145,18. Added --enable-pcregrep-libz and --enable-pcregrep-libbz2.
+146,19. Added --enable-pcretest-libreadline.
+147,"20. In pcrecpp.cc, the variable 'count' was incremented twice in"
+148,"RE::GlobalReplace(). As a result, the number of replacements returned was"
+149,"double what it should be. I removed one of the increments, but Craig sent a"
+150,later patch that removed the other one (the right fix) and added unit tests
+151,that check the return values (which was not done before).
+152,21. Several CMake things:
+153,"(1) Arranged that, when cmake is used on Unix, the libraries end up with"
+154,"the names libpcre and libpcreposix, not just pcre and pcreposix."
+155,(2) The above change means that pcretest and pcregrep are now correctly
+156,"linked with the newly-built libraries, not previously installed ones."
+157,"(3) Added PCRE_SUPPORT_LIBREADLINE, PCRE_SUPPORT_LIBZ, PCRE_SUPPORT_LIBBZ2."
+158,"22. In UTF-8 mode, with newline set to ""any"", a pattern such as .*a.*=.b.*"
+159,crashed when matching a string such as a\x{2029}b (note that \x{2029} is a
+160,UTF-8 newline character). The key issue is that the pattern starts .*;
+161,"this means that the match must be either at the beginning, or after a"
+162,newline. The bug was in the code for advancing after a failed match and
+163,checking that the new position followed a newline. It was not taking
+164,account of UTF-8 characters correctly.
+165,23. PCRE was behaving differently from Perl in the way it recognized POSIX
+166,character classes. PCRE was not treating the sequence [:...:] as a
+167,"character class unless the ... were all letters. Perl, however, seems to"
+168,"allow any characters between [: and :], though of course it rejects as"
+169,"unknown any ""names"" that contain non-letters, because all the known class"
+170,"names consist only of letters. Thus, Perl gives an error for [[:1234:]],"
+171,"for example, whereas PCRE did not - it did not recognize a POSIX character"
+172,"class. This seemed a bit dangerous, so the code has been changed to be"
+173,"closer to Perl. The behaviour is not identical to Perl, because PCRE will"
+174,"diagnose an unknown class for, for example, [[:l\ower:]] where Perl will"
+175,"treat it as [[:lower:]]. However, PCRE does now give ""unknown"" errors where"
+176,"Perl does, and where it didn't before."
+177,24. Rewrite so as to remove the single use of %n from pcregrep because in some
+178,Windows environments %n is disabled by default.
+179,Version 7.4 21-Sep-07
+180,---------------------

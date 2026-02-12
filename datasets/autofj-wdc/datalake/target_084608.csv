@@ -1,0 +1,96 @@
+id,title
+0,Message Block Start
+1,Message Block Data
+2,Fire Warning Computer
+3,Lateral Protection Level
+4,Vertical Protection Level
+5,FAS Vertical Alarm Limit
+6,MLS Aux Data Part 1 Group A
+7,MLS Aux Data Part 2 Group A
+8,MLS Aux Data Part 3 Group A
+9,MLS Aux Data Part 4 Group A
+10,Relative Altitude of the Most Threatening Traffic
+11,MLS Aux Data Part 1 Group B
+12,MLS Aux Data Part 2 Group B
+13,MLS Aux Data Part 3 Group B
+14,MLS Aux Data Part 4 Group B
+15,MLS Aux Data Part 1 Group C
+16,MFP-1 (Multi Functional Probe)
+17,SSA-1 (Side Slip Angle Probe)
+18,MLS Aux Data Part 2 Group C
+19,ISP1-1 (Integrated Static Probe)
+20,ISP1-2 (Integrated Static Probe)
+21,MFP-2 (Multi Functional Probe)
+22,Satcom Antenna Control/ Status Word
+23,SSA-2 (Side Slip Angle Probe)
+24,ISP2-1 (Integrated Static Probe)
+25,ISP2-2 (Integrated Static Probe)
+26,MFP-3 (Multi Functional Probe)
+27,SSA-3 (Side Slip Angle Probe)
+28,Open Loop Steering Word
+29,ISP3-1 (Integrated Static Probe)
+30,ISP3-2 (Integrated Static Probe)
+31,On-board Airport Navigation System (OANS)
+32,Density Altitude - Derived
+33,Radar Altitude
+34,DAS Altitude Alarm Limit
+35,SDU Satellite System Type
+36,MLS Selected Back AZ Angle
+37,SBAS FAS Datablock Word # 1
+38,SBAS FAS Datablock Word # 2
+39,SBAS FAS Datablock Word # 3
+40,SBAS FAS Datablock Word # 4
+41,SBAS FAS Datablock Word # 5
+42,SBAS FAS Datablock Word # 6
+43,SBAS FAS Datablock Word # 7
+44,SBAS FAS Datablock Word # 8
+45,Inmarsat Swift64 Base Forward ID Word 1
+46,Inmarsat 24-Bit Swift64 Base Forward ID Word 2
+47,SBAS FAS Datablock Word # 9
+48,SBAS FAS Datablock Word # 10
+49,SBAS FAS Datablock Word # 11
+50,SBAS FAS Datablock Word # 12
+51,SDU/ Antenna Command Summary Word
+52,UPLink VHF Frequency
+53,UPLink Beacon Code
+54,SBAS FAS Datablock Word # 13
+55,Fuel Permittivity
+56,UPLink HF Frequency
+57,Selected Glide Path Angle
+58,Threshold Crossing Height
+59,SBAS FAS Datablock Word # 14
+60,SBAS FAS Datablock Word # 15
+61,FTP to GARP Distance
+62,SBAS FAS Datablock Word # 16
+63,Unflagged Horizontal Deviation - Rectilinear
+64,Unflagged Vertical Deviation - Rectilinear
+65,Right Inner Tank Forward Fuel Quantity
+66,Right Inner Tank AFT Fuel Quantity
+67,Left Inner Tank Forward Fuel Quantity
+68,Left Inner Tank AFT Fuel Quantity
+69,GLS Status
+70,DGPS Status
+71,Selected/ Achieved GBAS Approach Service Type
+72,Data Load Address
+73,AFIRS (Automated Flight Information Reporting System)
+74,Aircraft Altitude
+75,Anchor Point Latitude
+76,Anchor Point Longitude
+77,Anchor Point Altitude
+78,FLS Beam Slope
+79,Local Magnetic Deviation
+80,Runway Threshold Latitude
+81,Runway Threshold Longitude
+82,Cursor Control Device - Left (1)
+83,Cursor Control Device - Right (2)
+84,Aircraft Longitude Fine
+85,Integrated Air System Controller
+86,Landing Gear Control & Interface Unit
+87,Satellite Antenna Maintenance Word
+88,GLS Maintenance Word
+89,Program Pin Status
+90,MMR Identification
+91,GNSS Fault Summary
+92,MMR Fault Message
+93,Display Traffic Information File (DTIF)
+94,GNSS Height

@@ -1,0 +1,58 @@
+id,title
+0,TenGigabitEthernet...is up ...is administratively down
+1,line protocol is
+2,Hardware
+3,Description
+4,Internet address
+5,MTU
+6,BW
+7,DLY
+8,reliability
+9,"txload, rxload"
+10,Encapsulation
+11,loopback
+12,Keepalive
+13,"Half-duplex, Full-duplex"
+14,10Gb/s
+15,input flow control ...
+16,ARP type:
+17,Last input
+18,output
+19,output hang
+20,Last clearing
+21,Input queue (size/max/drops/flushes)
+22,Total output drops
+23,Queueing strategy
+24,Output queue (size/max)
+25,"5 minute input rate, 5 minute output rate"
+26,L2 Switched
+27,L3 in Switched
+28,L3 out Switched
+29,packets input
+30,bytes
+31,Received...broadcasts
+32,runts
+33,giants
+34,throttles
+35,input errors
+36,CRC
+37,frame
+38,overrun
+39,ignored
+40,watchdog
+41,multicast
+42,pause input
+43,input packets with dribble condition detected
+44,packets output
+45,bytes
+46,underruns
+47,output errors
+48,collisions
+49,interface resets
+50,babbles
+51,late collision
+52,deferred
+53,lost carrier
+54,no carrier
+55,pause output
+56,"output buffer failures, output buffers swapped out"

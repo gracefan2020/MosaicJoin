@@ -1,0 +1,87 @@
+id,title
+0,Module extensions: delivery of *dll
+1,compiler directive -tune=pentiumpro doesn't work on all syst
+2,Inconsistent RMFLAGS for different 4NT versions
+3,dmake -PX does not work
+4,latest set of gcj changes
+5,XParametricPolyPolygon2DFactory.idl contains illigal char
+6,register for uri support in Gnome 2
+7,Merge bridges/test/java_uno/multinherit into testtools/sourc
+8,extensions : lot of problems building nsplugin on Mac OSX SR
+9,FreeBSD porting : SDK is unusable
+10,"audit locales, cs_CZ"
+11,static data apparently not initialized in vcl/source/app/svd
+12,Align Malay locale data with CLDR
+13,Locale data validating code in product version
+14,"Export DEFAULT_TO_ENGLISH_FOR_PACKING=""yes"" into env."
+15,pspfontcache changes with every OOo startup
+16,psprint threading bug(s) / memory corrupter ...
+17,Include collation data for Khmer
+18,Unused image in desktop\res folder
+19,libicudata still not compiled with -fpic/-fPIC
+20,Afrikaans locale file errors
+21,FreeBSD: portaudio
+22,Align locale data to CLDR
+23,Bad RPATH in libxmlsec1-nss.so.1.2.6
+24,Crash when I selected a slide which is nearly scrolled out o
+25,Not pre-known separators don't work
+26,Minor locale corrections for da_DK.xml and fo_FO.xml
+27,XSLT Transform of XML document to .odt produces randomly inv
+28,KDE VCL bug - white text in menu
+29,warning: missing sentinel in function call (gcc4)
+30,Non-breaking space instead of ordinary space as group separa
+31,freedesktop-menus spec file is bash specific
+32,Office crashes with certain settings in Common.xcu
+33,Digital Signatures: ADD-button sometimes without functionali
+34,Crash on exit when using kde plugin
+35,KStartupInfo::appStarted() should be called only once
+36,faked command line arguments not freed
+37,config_office/set_soenv.in changes for MacOSX 10.4
+38,kde plugin: missing highlight effect in toolbar
+39,kde plugin: selected menu items white on white
+40,Signatures can't be verified without Mozilla Profile (Linux/
+41,[cws kdeplugfixes] special control in control property brows
+42,Problems with the mandrakelinux-menu RPM
+43,Fix on Master for 680m101 for cp1251.pyc breaks builds with
+44,Provide prebuilt mozilla libraries for download
+45,openofficeorg-desktop-integratn does not have install/depend
+46,wrong mime type for odb in desktop integration
+47,New symbol has wrong version in sal
+48,JDS3 ja locale: Selected text is deleted with mouse selectio
+49,linkoo & types.rdb
+50,Showstopper: Transparency gradient filling looks destroyed w
+51,plugin: Send document as eMail doesn't work
+52,OpenDocument file format: attribute value of
+53,configuration data inconsistency due to updated xcs file
+54,Java URP bridge can hang if MessageDispatcher thread is lost
+55,Plugin: Mozilla plugin doesn't work on Linux
+56,"""Custom"" animations: Office does not accept mouseclick to mo"
+57,Build NSIS installation set if NSIS tools are found by confi
+58,Letter Wizard in StarOffice should only include SO official
+59,Add Estonian to NSIS
+60,Help->OpenOffice.org Help crashes if help not available
+61,sysui build fails with newer glibcs and rpm using libc's glo
+62,Add Bulgarian to NSIS
+63,--with-build-version and C2015: too many characters in a con
+64,GPF when trying to open document without appropiate apps. in
+65,Description for soffice.bin is broken
+66,Fontsize of additional inserted Titles after save and reload
+67,Mac OSX + Linux PPC / jvmfwk typo in otherjre.cxx
+68,Browse button on last page of letter wizard doesn't work
+69,module libxmlsec Mac OSX / gcc-3.3 breaks : libnss and libns
+70,"configure/configure.in contains ==, which is bash's extentio"
+71,FreeBSD porting : crashrep/source/unx/makefile.mk contains
+72,FreeBSD porting : bridge project. catch up recent version of
+73,FreeBSD porting : incorrect version number of libxmlsec
+74,FreeBSD porting : Do not need -noinhibit-exec at sndfile/mak
+75,"FreeBSD porting : sndfile project, version number of shared"
+76,FreeBSD porting : Update unxfbsdi.mk to recent version of un
+77,FreeBSD porting : Get rid of -ldl for FREEBSD from vcl/util/
+78,position of all drawing objects in master documents (OpenOff
+79,linkoo update
+80,tools/source/communi build broken with patch
+81,beanshell: patch creates file with mode x000
+82,make libgcc3_uno.so.1 not require executable stack
+83,Content of python subdirectory gets wrong permissions during
+84,makefile error with new dmake in filter/source/config/fragme
+85,MacOS X: static libraries at the end

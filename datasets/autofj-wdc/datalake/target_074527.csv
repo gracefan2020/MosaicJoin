@@ -1,0 +1,160 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. AFC
+4,vs. NFC
+5,vs. Own Division
+6,Grass
+7,Turf
+8,Outdoors
+9,Day Games
+10,Night Games
+11,Split
+12,September
+13,October
+14,November
+15,December
+16,January
+17,On Saturday
+18,On Sunday
+19,On Monday
+20,Games 1-8
+21,Games 9-16
+22,Outdoor Temp 21-40 F
+23,Outdoor Temp 41-60 F
+24,Outdoor Temp 61-80 F
+25,Outdoor Temp < 40 F
+26,Outdoor Temp 81+ F
+27,In High Wind
+28,Clear Weather
+29,Split
+30,As Starter
+31,As Substitute
+32,In Wins/Ties
+33,In Losses
+34,1st Half
+35,2nd Half
+36,1st Qtr
+37,2nd Qtr
+38,3rd Qtr
+39,4th Qtr
+40,Last 2 Min. Half
+41,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+42,Score Diff > 7 points
+43,Final Margin 7 pts or less
+44,"4th Qtr, +/-3 pts"
+45,"4th Qtr, +/-7 Pts"
+46,Split
+47,1st Down
+48,2nd Down
+49,3rd Down
+50,4th Down
+51,Own 1-19
+52,Own 20-39
+53,Between 40s
+54,Opp 39-20
+55,Opp 19-Goal
+56,Opp 9-Goal
+57,"First down, 10 yds to go"
+58,Plays gaining 20+ yds
+59,Split
+60,vs. BUF
+61,vs. DAL
+62,vs. DEN
+63,vs. IND
+64,vs. KC
+65,vs. OAK
+66,vs. MIA
+67,vs. NYG
+68,vs. NYJ
+69,vs. PHI
+70,vs. PIT
+71,Split
+72,Ralph Wilson Stadium
+73,Pro Player Stadium
+74,Network Associates Coliseum
+75,Invesco Field
+76,Heinz Field
+77,Split
+78,vs AFC East teams
+79,vs AFC West teams
+80,vs NFC East teams
+81,Split
+82,Line 2 yds or less yards from TD
+83,1st & Goal
+84,2nd & Goal
+85,"1st Down, 0-2 To Go"
+86,"1st Down, 8-10 To Go"
+87,"1st Down, < 6 To Go"
+88,"1st Down, 6+ To Go"
+89,"2nd Down, 0-2 To Go"
+90,"2nd Down, 3-7 To Go"
+91,"2nd Down, 8-10 To Go"
+92,"2nd Down, 11+ To Go"
+93,"2nd Down, < 6 To Go"
+94,"2nd Down, 6+ To Go"
+95,"3rd Down, 11+ To Go"
+96,"3rd Down, 6+ To Go"
+97,"4th Down, 0-2 To Go"
+98,"4th Down, < 6 To Go"
+99,Split
+100,Final Margin 0-7
+101,Final Margin 8-14
+102,Final Margin 15+
+103,Winning 8-14
+104,Winning 1-7
+105,When Tied
+106,Losing 1-7
+107,Losing 8-14
+108,Losing 15-21
+109,Losing 22+
+110,When Winning
+111,When Trailing
+112,In Winning Games Started
+113,In Losing Games Started
+114,Split
+115,Carries 1-5
+116,Carries 6-10
+117,Carries 11-15
+118,Carries 16-20
+119,Runs of 10+ yards
+120,Split
+121,Attempts 1-10 of game
+122,Attempts 11-20 of game
+123,Attempts 21-30 of game
+124,Attempts 31-40 of game
+125,Split
+126,0 Tight Ends
+127,1 Tight End
+128,2 Tight Ends
+129,3+ Tight Ends
+130,No Offensive Motion
+131,Offensive Motion
+132,< 4 on Def. line
+133,4 on Def. Line
+134,5 on Def. Line
+135,6 on Def. Line
+136,> 6 on Def. Line
+137,Shotgun
+138,Pro Form
+139,I-Formation
+140,Single Back
+141,0-1 Wide Receivers
+142,2 Wide Receivers
+143,3 Wide Receivers
+144,4+ Wide Receivers
+145,Split
+146,Right Side
+147,Left Side
+148,Middle
+149,Left Sideline
+150,Right Sideline
+151,Pass Thrown Behind Line of Scrimmage
+152,Pass Thrown 1-10 yds
+153,Pass Thrown 11-20 yds
+154,Split
+155,Blitz
+156,QB Under Pressure
+157,QB Knocked Down
+158,Pass Defensed

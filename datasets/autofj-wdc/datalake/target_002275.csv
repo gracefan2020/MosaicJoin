@@ -1,0 +1,78 @@
+id,title
+0,Unassigned/unallocated number
+1,No route to specified transit network
+2,No route to specified transit network
+3,Unassigned
+4,Channel unacceptable
+5,Call awarded and delivered
+6,Unassigned
+7,Normal call clearing
+8,User busy
+9,No user response
+10,No answer
+11,Unassigned
+12,Call rejected
+13,Number changed
+14,Unassigned
+15,Destination out of order
+16,Invalid number format/incomplete number
+17,Facility rejected
+18,Response to status enquiry
+19,"Normal, unspecified"
+20,Unassigned
+21,No circuit/channel available
+22,Unassigned
+23,Network out of order
+24,Unassigned
+25,Temporary failure
+26,Switch congestion
+27,Access information discarded
+28,Requested channel not available
+29,Pre-empted (causes.h only)
+30,Unassigned
+31,"Resource unavailable, unspecified (Q.931 only)"
+32,Unassigned
+33,Facility not subscribed (causes.h only)
+34,Unassigned
+35,Outgoing call barred (causes.h only)
+36,Unassigned
+37,Incoming call barred (causes.h only)
+38,Unassigned
+39,Bearer capability not authorized
+40,Bearer capability not available
+41,Unassigned
+42,Service or option not available (Q.931 only)
+43,Unassigned
+44,Bearer capability not implemented
+45,Channel type not implemented
+46,Unassigned
+47,Facility not implemented
+48,Only restricted digital information bearer capability is available (Q.931 only)
+49,Unassigned
+50,Service or option not available (Q.931 only)
+51,Unassigned
+52,Invalid call reference
+53,Identified channel does not exist (Q.931 only)
+54,"A suspended call exists, but this call identity does not (Q.931 only)"
+55,Call identity in use (Q.931 only)
+56,No call suspended (Q.931 only)
+57,Call has been cleared (Q.931 only)
+58,Unassigned
+59,Incompatible destination
+60,Unassigned
+61,Invalid transit network selection (Q.931 only)
+62,Unassigned
+63,"Invalid message, unspecified"
+64,Mandatory information element missing (Q.931 only)
+65,Message type nonexistent/not implemented
+66,Message not compatible with call state
+67,Information element nonexistent
+68,Invalid information element contents
+69,Message not compatible with call state
+70,Recovery on timer expiration
+71,Mandatory information element length error (causes.h only)
+72,Unassigned
+73,"Protocol error, unspecified"
+74,Unassigned
+75,"Internetworking, unspecified"
+76,Unassigned

@@ -1,0 +1,103 @@
+id,title
+0,GLAS record index
+1,Transmit time of first shot in frame in J2000
+2,One-way transmit time
+3,Spares
+4,Delta GPS time correction
+5,Laser shot time deltas (shots 2-40)
+6,"Coordinate data, latitude, specific to sea ice range"
+7,"Coordinate data, longitude, specific to sea ice range"
+8,Sea ice surface elevation
+9,Campaign
+10,i_spare40
+11,Cycle and Track
+12,Local apparent solar time
+13,Spare 41
+14,Delta Ellipsoid
+15,Co-elevation
+16,Azimuth
+17,Distance to the reference ground track
+18,Signal Begin Range Increment
+19,High Resolution Source Flag
+20,DEMhiresArElv
+21,Elevation Bias Correction
+22,Spare 42
+23,Attitude quality indicator
+24,Local azimuth
+25,Solar incidence angle
+26,Transmit pulse intensity - frame average
+27,Transmit pulse azimuth - frame average
+28,Transmit pulse eccentricity - frame average
+29,Transmit pulse major axis - frame average
+30,Pole Tide
+31,Geoid
+32,Solid earth tide elevation (at first and last shot)
+33,"Tide elevations, specific"
+34,Load tide elevation
+35,Spares
+36,Range correction - wet troposphere
+37,Range correction - dry troposphere
+38,Region type (view byte structure)
+39,Spare 11
+40,DEM elevation
+41,Reference range
+42,Threshold retracker range offset
+43,Sea ice range offset
+44,Signal end range offset
+45,Centroid range offset
+46,reflctUC
+47,"Reflectance correction, atmosphere"
+48,Peak amplitude of smoothed received echo
+49,Ocean tide elevation (at first and last shot)
+50,Number of peaks found in the return
+51,Kurtosis of the Received Echo (standard)
+52,Skewness
+53,Spares
+54,Iceberg elevation
+55,Spares
+56,Sea ice range increment to first peak
+57,Standard deviation of the sea ice Gaussian fit
+58,Elevation use flag (view byte structure)
+59,Atmosphere availaility flag (view byte structure)
+60,Spare 16
+61,Cloud multiple scattering warning flag (view byte structure)
+62,Medium resolution cloud availability flag (view byte structure)
+63,Spares
+64,Elevation definition flag (view byte structure)
+65,Range offset quality/use flag (view byte structure)
+66,Spare 49
+67,Time correction flag (view byte structure)
+68,APID data availability flag (view byte structure)
+69,Attitude flag 2 (view byte structure)
+70,Spares
+71,Altimeter frame quality flag (view byte structure)
+72,POD flag (orbit flag) (view byte structure)
+73,Range correction flag (view byte structure)
+74,Correction status flag (view byte structure)
+75,Spare 15
+76,Attitude flag 1 (view byte structure)
+77,Spares
+78,Spare 44
+79,Saturation Index
+80,Saturation Elevation Correction
+81,Saturation Correction Flag (view byte structure)
+82,Saturation Energy Correction
+83,Spares
+84,Gain Value used for Received Pulse
+85,Received Energy signal begin to signal end
+86,Full Resolution 1064 Cloud Top
+87,Full Resolution 1064 Quality Flag (view byte structure)
+88,Atmosphere Characterization Flag
+89,Atmosphere Characterization Flag Confidence
+90,Spare 48
+91,Full Resolution 1064 Integrated Signal
+92,Spares
+93,Surface Temperature
+94,Surface Pressure
+95,Relative Humidity
+96,Max Amplitude of Received Echo
+97,Standard deviation of 1064 nm background noise (alternate)
+98,Percent Saturation
+99,1064 nm laser transmit energy
+100,Equilibrium tide elevation (at first and last shot)
+101,Spares

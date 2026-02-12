@@ -1,0 +1,75 @@
+id,title
+0,Favorite folders view
+1,Folder quicksearch
+2,IMAP Server storage of non-standard flags
+3,Improved quota warnings
+4,Drag and drop from the mail reader window and mime-tree viewer
+5,Copy/paste and drag and drop from/to the mail composer
+6,Decryption on demand in reader window
+7,Improved error messages and audit log for cryptographic operations
+8,kdepim@kdab.net
+9,Indication of which resource folder a contact belongs to
+10,Read-only view for contacts in read-only folders
+11,Ability to have both distribution lists and addresbook extension visible
+12,Ability to add LDAP search results to distribution lists
+13,Merge of the attachment view in into the main page
+14,Drag and drop of attachments
+15,Merge of the free-busy and attendee views for easier scheduling
+16,Support for comments in replies to invitations
+17,Ability to jump to the right day in the agenda from invitation mails
+18,Warning about active out-of-office scripts
+19,kdepim@kdab.net
+20,Config option to close despite system tray
+21,Clickable status columns
+22,Ability to easily create todos with reminders from emails
+23,Export and import of filters
+24,Harmonization of actions in main and standalone mail reader windows
+25,Support for soft line breaking
+26,Aggregated attachment view in the mail header area of the reader window
+27,Text snippets with shortcuts and variable expansion in the composer
+28,Per-folder identity configurability
+29,Resizable recipients area in composer
+30,"Better, natural language search criteria names"
+31,Initialize full search from quicksearch on request
+32,Ability to open messages from search results when the reader is hidden
+33,Colored ribbons for indication of signing and encryption status in the composer
+34,copy/cut/paste context menu items
+35,Better default resource colors
+36,Faster initial loading of kolab resources
+37,Support for immediate sync of resource folders
+38,Support for extended free-busy lists
+39,Configuration option for whether invitation emails are automatically deleted or not when having been acted upon
+40,Better invitation update emails showing what changed
+41,Aggregated reminders view
+42,More readable Kolab resource folder labels
+43,Improved event printing
+44,Editing of attachments from the composer
+45,Support for creating new mails based on received mails (Resend)
+46,Redesigned incidence editor UI
+47,Export and import of filters
+48,Improved TNEF attachment handling
+49,Ability to search in internal and external certificates at the same time
+50,Drag and drop in the free-busy view
+51,Recursive IMAP cache troubleshooting
+52,Display of quota information in foldertree tooltips
+53,Tab navigation through groups in the address completion
+54,Better reminder visualization in very small events
+55,Right-aligned component navigation toolbar
+56,"Harmonization of component naming in sidebar, configuration, summary view"
+57,lost+found recovery of locally changed folders that lose access rights
+58,Forwarding and delegation of invitations
+59,Ubiquitous sync actions
+60,Client side configurability of warnings in shared folders
+61,Ability to print notes
+62,Override font and fontsize for standalone message viewers
+63,Drag and drop of folders
+64,Drag and drop and copy and paste support in the search result viewer
+65,Support for by-value attachments
+66,Side-by-side calendar view
+67,Timeline calendar view
+68,Support for Kontact wide profiles
+69,Replace simple repetitions by recurrence sub-repetitions to reduce confusion
+70,Simplification and improvements to alarm edit dialog
+71,Remember main window show/hide options used when KAlarm closed instead of setting them in Preferences dialog
+72,Prevent multiple identical error messages accumulating for the same alarm
+73,New option to specify reminder times in minutes

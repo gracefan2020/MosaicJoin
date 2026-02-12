@@ -1,0 +1,57 @@
+id,title
+0,Rewrite of the classic test writing/taking application
+1,Number support
+2,Theme manager
+3,Add a Open File action
+4,Integrate an editor
+5,Plasmoid
+6,Theme manager
+7,Visual indicator when letter is wrong
+8,Port Kalzium's periodic table to use new QGraphicsView.
+9,Plasmoid to access Kalzium database
+10,Improve GUI for creating softbody
+11,Use common constraints handling code for collisions
+12,New parser (using QLALR) and new lexer
+13,Import capability for MathML Presentation Markup in libanalitza
+14,Export to MathML Presentation Markup
+15,Some integration with the new KFormula widget
+16,Declensions
+17,Rework main window infrastructure
+18,Display millions of stars
+19,Tool to predict Conjunctions
+20,Earth Satellites
+21,Sky Calendar Tool
+22,"Include HD Catalog Numbers (in search, in display)"
+23,Marble widget for Geolocation tool
+24,Better printed star charts
+25,Better rendering of comets/asteroids
+26,Texture mapping of the skymap???
+27,Improve Observing List Wizard
+28,Display Comet Magnitudes whenever possible
+29,Tool to suggest star-hopping techniques???
+30,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+31,Export map to MxN pixel bitmap
+32,Support for MarbleWidget::setEnabled( bool )
+33,Map Contents translation
+34,Layer Management Class
+35,Plugin architecture for map layers
+36,DGML2 Support
+37,KDE-Version settings dialog
+38,Port authors list from the Qt-About dialog to the KDE-About dialog
+39,Qt-Version settings dialog
+40,Improved KML support
+41,OpenStreetMap support using original OSM tiles
+42,Real Time Cloud-Cover
+43,Mercator Projection
+44,More generic projection support
+45,Usage of Marble in non-widgets
+46,Properties dialog for objects.
+47,Improve construction of bisect lines.
+48,Improve feedback when constructing objects.
+49,More geometric objects.
+50,Script objects as macros (to be reused more than once).
+51,Improve the Cabri import filter.
+52,Export canvas as image
+53,Optional rulers/grid for canvas units
+54,Add command line
+55,Add a color picker

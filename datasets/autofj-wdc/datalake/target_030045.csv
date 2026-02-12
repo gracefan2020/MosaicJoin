@@ -1,0 +1,311 @@
+id,title
+0,Return the absolute value
+1,Return the arc cosine
+2,Add time values (intervals) to a date value
+3,Add time
+4,Decrypt using AES
+5,Encrypt using AES
+6,Logical AND
+7,Return Polygon or MultiPolygon area
+8,Convert from internal geometry format to WKB
+9,Return numeric value of left-most character
+10,Return the arc sine
+11,"Assign a value (as part of a SET statement, or as part of the SET clause in an UPDATE statement)"
+12,Assign a value
+13,Convert from internal geometry format to WKT
+14,Return the arc tangent of the two arguments
+15,Return the arc tangent
+16,Return the average value of the argument
+17,Repeatedly execute an expression
+18,Check whether a value is within a range of values
+19,Return a string containing binary representation of a number
+20,Cast a string to a binary string
+21,Return bitwise and
+22,Return the number of bits that are set
+23,Return length of argument in bits
+24,Return bitwise or
+25,Return bitwise xor
+26,Bitwise AND
+27,Invert bits
+28,Bitwise OR
+29,Bitwise XOR
+30,Case operator
+31,Cast a value as a certain type
+32,Return the smallest integer value not less than the argument
+33,Return the smallest integer value not less than the argument
+34,Return centroid as a point
+35,Return number of characters in argument
+36,Return the character for each integer passed
+37,Synonym for CHAR_LENGTH()
+38,Return the character set of the argument
+39,Return the first non-NULL argument
+40,Return the collation coercibility value of the string argument
+41,Return the collation of the string argument
+42,Return result as a binary string
+43,Return concatenate with separator
+44,Return concatenated string
+45,Return the connection ID (thread ID) for the connection
+46,Whether MBR of one geometry contains MBR of another
+47,Convert numbers between different number bases
+48,Convert from one timezone to another
+49,Cast a value as a certain type
+50,Return the cosine
+51,Return the cotangent
+52,Return the count of a number of different values
+53,Return a count of the number of rows returned
+54,Compute a cyclic redundancy check value
+55,Whether one geometry crosses another
+56,Return the current date
+57,Synonyms for CURDATE()
+58,Synonyms for CURTIME()
+59,Synonyms for NOW()
+60,The authenticated user name and host name
+61,Return the current time
+62,Return the default (current) database name
+63,Add time values (intervals) to a date value
+64,Format date as specified
+65,Subtract a time value (interval) from a date
+66,Extract the date part of a date or datetime expression
+67,Subtract two dates
+68,Synonym for DAYOFMONTH()
+69,Return the name of the weekday
+70,Return the day of the month (0-31)
+71,Return the weekday index of the argument
+72,Return the day of the year (1-366)
+73,Decodes a string encrypted using ENCODE()
+74,Return the default value for a table column
+75,Convert radians to degrees
+76,Decrypt a string
+77,Encrypt a string
+78,Dimension of geometry
+79,Whether MBRs of two geometries are disjoint
+80,Integer division
+81,Division operator
+82,Return string at index number
+83,Encode a string
+84,Encrypt a string
+85,End Point of LineString
+86,Return MBR of geometry
+87,NULL-safe equal to operator
+88,Equal operator
+89,Whether MBRs of two geometries are equal
+90,Raise to the power of
+91,"Return a string such that for every bit set in the value bits, you get an on string and for every unset bit, you get an off string"
+92,Return exterior ring of Polygon
+93,Extract part of a date
+94,Return the index (position) of the first argument in the subsequent arguments
+95,Return the index position of the first argument within the second argument
+96,Return the largest integer value not greater than the argument
+97,Return a number formatted to specified number of decimal places
+98,"For a SELECT with a LIMIT clause, the number of rows that would be returned were there no LIMIT clause"
+99,Convert a day number to a date
+100,Format UNIX timestamp as a date
+101,Return geometry collection from WKT
+102,Return geometry collection from WKB
+103,Construct geometry collection from geometries
+104,Return N-th geometry from geometry collection
+105,Return name of geometry type
+106,Return geometry from WKT
+107,Return geometry from WKB
+108,Return a date format string
+109,Get a named lock
+110,Return length of LineString
+111,Greater than or equal operator
+112,Greater than operator
+113,Return the largest argument
+114,Return a concatenated string
+115,Return a hexadecimal representation of a decimal or string value
+116,Extract the hour
+117,If/else construct
+118,Null if/else construct
+119,Check whether a value is within a set of values
+120,Return the numeric value of an IP address
+121,Return the IP address from a numeric value
+122,Insert a substring at the specified position up to the specified number of characters
+123,Return the index of the first occurrence of substring
+124,Return N-th interior ring of Polygon
+125,Whether MBRs of two geometries intersect
+126,Return the index of the argument that is less than the first argument
+127,Checks whether the named lock is free
+128,NOT NULL value test
+129,Test a value against a boolean
+130,NULL value test
+131,Checks whether the named lock is in use. Return connection identifier if true.
+132,Test a value against a boolean
+133,Whether a geometry is closed and simple
+134,Placeholder function
+135,Test whether the argument is NULL
+136,Whether a geometry is simple
+137,Return the last day of the month for the argument
+138,Value of the AUTOINCREMENT column for the last INSERT
+139,Synonym for LOWER()
+140,Return the smallest argument
+141,Left shift
+142,Return the leftmost number of characters as specified
+143,Return the length of a string in bytes
+144,Less than or equal operator
+145,Less than operator
+146,Simple pattern matching
+147,Construct LineString from WKT
+148,Construct LineString from WKB
+149,Construct LineString from Point values
+150,Return the natural logarithm of the argument
+151,Load the named file
+152,Synonym for NOW()
+153,Synonym for NOW()
+154,Return the position of the first occurrence of substring
+155,Return the base-10 logarithm of the argument
+156,Return the base-2 logarithm of the argument
+157,Return the natural logarithm of the first argument
+158,Return the argument in lowercase
+159,"Return the string argument, left-padded with the specified string"
+160,Remove leading spaces
+161,Return a set of comma-separated strings that have the corresponding bit in bits set
+162,Create a date from the year and day of year
+163,"Create time from hour, minute, second"
+164,Block until the slave has read and applied all updates up to the specified position
+165,Perform full-text search
+166,Return the maximum value
+167,Whether MBR of one geometry contains MBR of another
+168,Whether MBRs of two geometries are disjoint
+169,Whether MBRs of two geometries are equal
+170,Whether MBRs of two geometries intersect
+171,Whether MBRs of two geometries overlap
+172,Whether MBRs of two geometries touch
+173,Whether MBR of one geometry is within MBR of another
+174,Calculate MD5 checksum
+175,Return the microseconds from argument
+176,Return a substring starting from the specified position
+177,Return the minimum value
+178,Minus operator
+179,Return the minute from the argument
+180,Construct MultiLineString from WKT
+181,Construct MultiLineString from WKB
+182,Return the remainder
+183,Modulo operator
+184,Return the month from the date passed
+185,Return the name of the month
+186,Construct MultiPoint from WKT
+187,Construct MultiPoint from WKB
+188,Construct MultiPolygon from WKT
+189,Construct MultiPolygon from WKB
+190,Contruct MultiLineString from LineString values
+191,Construct MultiPoint from Point values
+192,Construct MultiPolygon from Polygon values
+193,Causes the column to have the given name
+194,Check whether a value is not within a range of values
+195,Not equal operator
+196,Check whether a value is not within a set of values
+197,Negation of simple pattern matching
+198,Negation of REGEXP
+199,Negates value
+200,Return the current date and time
+201,Return NULL if expr1 = expr2
+202,Return number of geometries in geometry collection
+203,Return number of interior rings in Polygon
+204,Return number of points in LineString
+205,Return a string containing octal representation of a number
+206,Synonym for LENGTH()
+207,Return the value of the pre-4.1 implementation of PASSWORD
+208,Logical OR
+209,Return character code for leftmost character of the argument
+210,Whether MBRs of two geometries overlap
+211,Calculate and return a password string
+212,Add a period to a year-month
+213,Return the number of months between periods
+214,Return the value of pi
+215,Addition operator
+216,Construct Point from coordinates
+217,Construct Point from WKT
+218,Construct Point from WKB
+219,Return N-th point from LineString
+220,Construct Polygon from WKT
+221,Construct Polygon from WKB
+222,Construct Polygon from LineString arguments
+223,Synonym for LOCATE()
+224,Return the argument raised to the specified power
+225,Return the argument raised to the specified power
+226,Analyze the results of a query
+227,Return the quarter from a date argument
+228,Escape the argument for use in an SQL statement
+229,Return argument converted to radians
+230,Return a random floating-point value
+231,Pattern matching using regular expressions
+232,Releases the named lock
+233,Repeat a string the specified number of times
+234,Replace occurrences of a specified string
+235,Reverse the characters in a string
+236,Right shift
+237,Return the specified rightmost number of characters
+238,Synonym for REGEXP
+239,Round the argument
+240,The number of rows updated
+241,Append string the specified number of times
+242,Remove trailing spaces
+243,Synonym for DATABASE()
+244,Converts seconds to 'HH:MM:SS' format
+245,Return the second (0-59)
+246,Synonym for USER()
+247,Calculate an SHA-1 160-bit checksum
+248,Return the sign of the argument
+249,Return the sine of the argument
+250,Sleep for a number of seconds
+251,Return a soundex string
+252,Compare sounds
+253,Return a string of the specified number of spaces
+254,Return the square root of the argument
+255,Return spatial reference system ID for geometry
+256,Start Point of LineString
+257,Return the population standard deviation
+258,Return the population standard deviation
+259,Return the sample standard deviation
+260,Return the population standard deviation
+261,Convert a string to a date
+262,Compare two strings
+263,Synonym for DATE_SUB() when invoked with three arguments
+264,Return the substring as specified
+265,Return a substring from a string before the specified number of occurrences of the delimiter
+266,Return the substring as specified
+267,Subtract times
+268,Return the sum
+269,Return the time at which the function executes
+270,Synonym for USER()
+271,Return the tangent of the argument
+272,Format as time
+273,Return the argument converted to seconds
+274,Extract the time portion of the expression passed
+275,Subtract time
+276,Multiplication operator
+277,"With a single argument, this function returns the date or datetime expression; with two arguments, the sum of the arguments"
+278,Add an interval to a datetime expression
+279,Subtract an interval from a datetime expression
+280,Return the date argument converted to days
+281,Whether one geometry touches another
+282,Remove leading and trailing spaces
+283,Truncate to specified number of decimal places
+284,Synonym for UPPER()
+285,Change the sign of the argument
+286,Uncompress a string compressed
+287,Return the length of a string before compression
+288,Return a string containing hex representation of a number
+289,Return a UNIX timestamp
+290,Convert to uppercase
+291,The user name and host name provided by the client
+292,Return the current UTC date
+293,Return the current UTC time
+294,Return the current UTC date and time
+295,Return a Universal Unique Identifier (UUID)
+296,Defines the values to be used during an INSERT
+297,Return the population standard variance
+298,Return the sample variance
+299,Return the population standard variance
+300,Return a string that indicates the MySQL server version
+301,Return the week number
+302,Return the weekday index
+303,Return the calendar week of the date (1-53)
+304,Whether MBR of one geometry is within MBR of another
+305,Return X coordinate of Point
+306,Logical XOR
+307,Return Y coordinate of Point
+308,Return the year
+309,Return the year and week

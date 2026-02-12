@@ -1,0 +1,292 @@
+id,title
+0,Disaster Recovery Test
+1,Disaster Recovery Test
+2,License Server Maintenance
+3,Production Server Environment Maintenance
+4,Test Server Environment Maintenance
+5,Mainframe Downtime for August 2015
+6,Mainframe Downtime for August 2015
+7,C01AS400 Scheduled Downtime.
+8,ConnectND Higher Education Maintenance
+9,ConnectND Higher Education Maintenance
+10,RightFax Configuration Update
+11,Wiki Upgrade
+12,WINS Server Maintenance
+13,Grand Forks Quadrant STAGEnet network outage
+14,ConnectND HigherEd HR Maintenance
+15,Load Balancer Maintenance
+16,ADABAS41 (MEDICAID SIT) Maintenance
+17,Power School Firewall migration to Data-center Firewall
+18,Mainframe Downtime for July 2015
+19,Storage Controller Maintenance
+20,Network Outage
+21,Reboot Fargo Quad IDS Firewalls
+22,C01AS400 Scheduled Downtime
+23,Storage Controller Maintenance
+24,DOT Teleform Server Upgrade
+25,Email Encryption Maintenance
+26,Production Filenet Updates
+27,Storage Controller Maintenance
+28,ConnectND Firewall Cutover
+29,GIS Hub Data Notice - Updated FCC Datasets
+30,File Server Maintenance
+31,Department of Transportation GIS Maintenance
+32,SQL Production Patching
+33,ADABAS41 (MEDICAID SIT) Maintenance
+34,New VLAN Interface on User SSLVPN
+35,ConnectND State Portal Production Maintenance
+36,Message light on phone not working correctly.
+37,ITD equipment refresh at State Radio
+38,Static Web Server Maintenance
+39,Changes at State radio
+40,Update GIS Hub Explorer
+41,Replacing failing hardware.
+42,Internet Filter Upgrade
+43,C01AS400 Scheduled Downtime
+44,Replacing failing hardware/
+45,Validate ConnectND Firewall Config
+46,Finalist Address File Updates
+47,Mainframe Downtime for June 2015
+48,Disaster Recovery Test
+49,SRT Moving Fiber
+50,Williston city wide network outage
+51,Google Search Appliance Software Upgrade
+52,Cutover NCIC/NLETS Environment to State Radio PA DEM2
+53,Email Filter Appliance Maintenance
+54,Mainframe Downtime for May 2015
+55,Production Server Environment Maintenance
+56,Load Balancer Maintenance
+57,Upgrading ITSM to HEAT Service Management Software
+58,C01AS400 Scheduled Downtime
+59,New Address Group Object on BND Firewalls
+60,State Radio BDCN-Tower Firewall reboot at 4am 5/14/15
+61,Finalist Address File Updates
+62,GIS Hub Data Notice - Update GNF_LakeContours Service
+63,Cognos Production Maintenance
+64,Test Server Environment Maintenance
+65,File Server Maintenance
+66,10g StageNet ring fail over.
+67,Software OS Upgrade on Core IDS Firewalls
+68,Update Test SQL Servers
+69,Test Filenet Maintenance
+70,GIS Hub Data Notice - Updated FCC and Emergency Services Datasets
+71,Cognos Production Maintenance
+72,Email Encryption Appliance Maintenance
+73,Production Filenet Maintenance
+74,Finalist Address Upgrade to v9.0
+75,Mainframe Downtime for April 2015
+76,C01AS400 Scheduled Downtime
+77,GIS Hub Data Notice - Update Basemap_Imagery Service
+78,GIS Hub Data Notice - New Layer IDs for All_Imagery
+79,MCI Production Maintenance
+80,ADABAS41 (MEDICAID SIT) Maintenance
+81,Datacenter Firewalls OS Upgrade
+82,Pioneer E-mail Maintenance
+83,ILINX Capture Production Maintenance
+84,ILINX Email Production Maintenance
+85,TEST ILINX Email Maintenance
+86,Updated GIS Hub Data Notice
+87,C01AS400 Scheduled Downtime
+88,ILINX Capture TEST Maintenance
+89,Production Proxy Maintenance
+90,Mainframe Downtime for March 2015
+91,Filenet WorkplaceXT Production Maintenance
+92,GIS Hub Data Notice - DES Cached Base Map Downtime
+93,G&F Database Outage and Application Changes
+94,Administer Access on SSLVPN
+95,Add New VLAN for User SSLVPN
+96,Planned GIS Hub Outage
+97,RightFax Maintenance
+98,Rebooting Fargo Internet Filtering Load Balancer
+99,Production MCI Maintenance
+100,C01AS400 Scheduled Downtime
+101,C01AS400 Scheduled Downtime
+102,C01AS400 Scheduled Downtime
+103,GIS Hub Data Notice - Basemap_General Downtime
+104,Production MDM (MCI) Upgrade
+105,GIS Hub Data Notice - DES Base Map Downtime
+106,Production Filenet WorkplaceXT Image Viewer Maintenance
+107,Decommission auth.apps.state.nd.us
+108,TEST ILINX Capture Maintenance
+109,Updated GIS Hub Data Notice
+110,Team Foundation Server Maintenance
+111,Liquid Office Production Maintenance
+112,ADABAS41 (MEDICAID SIT) Maintenance
+113,Updated GIS Hub Data Notice
+114,Production Lync Maintenance
+115,Production Vision DLM Maintenance
+116,Production Lync Maintenance
+117,TEST Filenet WorkplaceXT Image Viewer Maintenance
+118,Finalist Address File Updates
+119,TEST MCI Acceptance (UAT) environments upgrade to latest version of MDM.
+120,Production Server Environment Maintenance
+121,Oracle Production Maintenance
+122,Mainframe Downtime for February 2015
+123,GIS Hub Web Services Restart
+124,Oracle Test Maintenance
+125,DHS Production Combridge Maintenance
+126,C01AS400 Scheduled Downtime
+127,TEST ONLY
+128,Remove static route from CC router
+129,DHS Vision Maintenance
+130,Updated GIS Data Notice
+131,Modifying UND Gateway
+132,Move NAT rules
+133,RightFax Maintenance
+134,Exchange Email Maintenance
+135,Liquid Office Productiion Maintenance
+136,ILINX Capture Email Production Upgrade
+137,C01AS400 Scheduled Downtime
+138,File Server Migration
+139,GIS Updated Data
+140,ILINX Capture Production Upgrade
+141,Exchange E-Mail Maintenance
+142,ADABAS41 Maintenance
+143,C01AS400 Scheduled Downtime
+144,Changing Fargo Area Router ID's
+145,Internet Filtering Reporter Update/Change
+146,ConnectND Higher Education Maintenance
+147,Finalist Address File Updates
+148,ILINX Capture Production Maintenance
+149,ILINX Email Test Upgrade
+150,Rightfax Maintenance
+151,Mainframe Downtime for January 2015
+152,Add Non-routed Heartbeat VLANs to Metro Ring
+153,TEST SQL Server Maintenance
+154,File Server Migration
+155,Internet Filtering Outage in Western ND
+156,Internet Filtering Outage: Western Side of State (Eastern not affected)
+157,Internal Proxy Change
+158,ConnectND Higher Education Maintenance
+159,Adjusting Internet Filtering/Load Balancing
+160,Exchange Email Maintenance
+161,ADABAS41 (MEDICAID SIT) Maintenance
+162,File Server Migration
+163,Upgrade TEST MCI Environments
+164,Test RFC for Clone
+165,Oracle Linux Shared RAC Server Maintenance
+166,Email Gateway Software Maintenance
+167,C01AS400 Maintenance
+168,ConnectND Higher Ed Maintenance HEHP
+169,ConnectND State Maintenance STHP
+170,ConnectND Higher Education Maintenance on HEHP and HEFP
+171,Consolidating Firewall Policies
+172,Finalist Address File Updates
+173,SharePoint Maintenance
+174,Oracle Linux Shared RAC Server Maintenance
+175,Upgrading from ITSM to HEAT 2014
+176,Reloading SSL VPN Server
+177,Reloading SSL VPN Server
+178,ConnectND State Maintenance STHS
+179,Mainframe Downtime for November 2014
+180,Upgrading Core Switches in Grand Forks Quadrant
+181,ConnectND State Maintenance STTHRS
+182,Lync Server Maintenance
+183,Mainframe Downtime for November 2014
+184,Production Server Environment Maintenance
+185,ADABAS41 (MEDICAID SIT) Maintenance
+186,ConnectND State Financials Application Upgrade
+187,RightFax Maintenance
+188,State ConnectND Production Finance Upgrade
+189,Test Server Environment Maintenance
+190,Production Server Environment Maintenance
+191,PowerSchool Maintenance
+192,Installing Bismarck Quad IDS/IPS
+193,ConnectND State HR Production Maintenance
+194,ConnectND Maintenance
+195,Test Server Environment Maintenance
+196,Finalist Address File Updates
+197,Test ILINX Capture Upgrade
+198,Bismarck SVC Maintenance
+199,Test Server Environment Maintenance
+200,Cognos Maintenance
+201,PowerSchool Maintenance
+202,Gentax Maintenance
+203,SFTP Server Maintenance
+204,VMware Software Maintenance
+205,Test SQL Server Maintenance
+206,C01AS400 Scheduled Downtime
+207,Rebooting Core Switch in Fargo
+208,Zenoss Maintenance
+209,RightFax Maintenance
+210,ConnectND Production Maintenance
+211,Wireless Controller Upgrades
+212,Change Bismarck Metro Fiber Ring
+213,Voice Core Infrastructure Patches
+214,Voice Mail System Upgrade
+215,Lotus Notes Maintenance
+216,Lotus Notes Maintenance
+217,ConnectND State Maintenance STHQ
+218,Production SQL Server Maintenance
+219,E-mail Gateway Maintenance
+220,ADABAS41 (MEDICAID SIT) Maintenance
+221,Upgrade Core Video Components
+222,Voice Core Infrastructure Updates
+223,Wiki Maintenance
+224,E-mail Encryption Appliance Maintenance
+225,Production Exchange E-mail Maintenance
+226,Production WorkForce Software Maintenance
+227,Work Management System (WMS) Maintenance
+228,Cognos TEST Maintenance
+229,SharePoint Maintenance
+230,C01AS400 Scheduled Downtime
+231,ConnectND Higher Education Production HR Maintenance
+232,TEST SQL Server Maintenance
+233,Administration Restriction to Video Core
+234,Administration Restriction to Voice Core
+235,Finalist Address File Updates
+236,SeeBeyond Maintenance
+237,Production Lync Maintenance
+238,ConnectND State Maintenance STHT
+239,Liquid Office Production Upgrade
+240,Moving Midco Fiber
+241,Install Temp Firewall in Fargo
+242,ADABAS41 (MEDICAID SIT) Maintenance
+243,Fargo IDS/IPS Install
+244,Team Foundation Server 2013 Update
+245,ConnectND State Maintenance on STHT
+246,TEST SQL 2008 Maintenance
+247,VPN Reboot
+248,Replacing Switch Stack at Fraine Barracks
+249,AS400 Maintenance
+250,SSL VPN Security Patches
+251,ConnectND State Financial TEST Maintenance
+252,Production DHS Services Hub Move to Websphere 8
+253,RightFax Maintenance
+254,Oracle Database Maintenance
+255,Liquid Office Test Maintenance
+256,C01AS400 Scheduled Downtime
+257,Prepare Voice Network for Virtualization
+258,Web Server Maintenance
+259,Converting HECN Switch to a Router in Fargo
+260,TEST Database Maintenance
+261,Upgrading Software on Data Center Firewalls
+262,ConnectND State Maintenance STHD Tools/Image 8 Patching
+263,Email Gateway Maintenance
+264,Locality Upgrade
+265,Avaya Aura Conferencing (AAC) Upgrade
+266,ConnectND Non Production Maintenance
+267,WAVE Server Upgrade
+268,ADABAS41 (MEDICAID SIT) Maintenance
+269,ILINX Capture Production Maintenance
+270,Eastern Internet Outage
+271,ConnectND State Maintenance STFS tools/refresh.
+272,Western Internet Outage
+273,Finalist Address File Updates
+274,ConnectND State Maintenance Refresh of STHD for tools patching.
+275,ILINX Email Production Upgrade
+276,Mainframe Maintenance
+277,Production Server Environment Maintenance
+278,ROAP Production Maintenance
+279,Upgrading Internal & External DNS/DHCP
+280,C01AS400 Scheduled Downtime
+281,Western Internet Outage
+282,FileNet WorkplaceXT Patch
+283,PowerSchool v8.0.1.1 Update (Phase 2)
+284,SharePoint 2013
+285,PowerSchool v8.0.1.1 Upgrade (Phase 1)
+286,NetMotion Upgrade for MFA
+287,Mobile Device Management Upgrade
+288,Test Server Environment Maintenance
+289,Changing configuration of the Bismarck filtering solution.
+290,Workplace XT Test Maintenance

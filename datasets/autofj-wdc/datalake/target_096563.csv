@@ -1,0 +1,58 @@
+id,title
+0,IDBG in DFU mode
+1,IDBG in normal mode
+2,"Neo1973/FreeRunner kernel usbnet (g_ether, CDC Ethernet) Mode"
+3,Debug Board (FT2232D) for Neo1973/FreeRunner
+4,Neo1973/FreeRunner u-boot usbtty CDC ACM Mode
+5,HXD8 u-boot usbtty CDC ACM Mode
+6,SMDK2440 u-boot usbtty CDC ACM mode
+7,SMDK2443 u-boot usbtty CDC ACM mode
+8,QT2410 u-boot usbtty CDC ACM mode
+9,Reserved
+10,Reserved
+11,Neo1973/FreeRunner u-boot generic serial Mode
+12,Neo1973/FreeRunner kernel mass storage (g_storage) Mode
+13,"Neo1973/FreeRunner kernel usbnet (g_ether, RNDIS) Mode"
+14,Neo1973/FreeRunner internal USB Bluetooth CSR4 module
+15,Neo1973/FreeRunner Bluetooth Device ID service
+16,TBD
+17,TBD
+18,Ubertooth Zero
+19,Ubertooth Zero DFU
+20,Ubertooth One
+21,Ubertooth One DFU
+22,LeoLipo (Arduino Leonardo clone with LiPo charger)
+23,LED Flower S
+24,LED Cube
+25,LED Flower
+26,Kisbee 802.15.4 transceiver
+27,Adjacent Reality Tracker
+28,AVR Programmer
+29,Hypna Go Go
+30,CatNip LPC1343 development board
+31,Enhanced RoboBrrd Brain Board
+32,OpenRISC Ordb2a-ep4ce22 development board
+33,Paparazzi Lisa/M (DFU)
+34,Openpipe flute/bagpipe MIDI controller
+35,LeoLipo (DFU)
+36,Universal C64 Cartridge
+37,DiscFerret magnetic disc analyser (Bootloader)
+38,DiscFerret magnetic disc analyser (Active/run)
+39,Smoothieboard
+40,phInterface
+41,Black Magic Debug Probe (DFU)
+42,Black Magic Debug Probe (Application)
+43,4pi 5 axis motion controller
+44,Paparazzi Lisa/M (Application)
+45,IST-2 chronograph for bullet speeds
+46,EPOSMote II
+47,UDS18B20 USB Temperature Sensor
+48,5x5 STM32 prototyping board
+49,uNSF - Portable NSF Player
+50,Toad3 - 4 Axis CNC controller
+51,AlphaSphere - USB peripheral music controller
+52,LightPack - monitor light for presence effect strengthening
+53,Pixelkit - turn old game controllers into USB HID
+54,Illucia - connect computer programs by physical jacks + cables
+55,Keyglove - Keyboard glove (HID)
+56,Keyglove - Keyboard glove (USB Serial)

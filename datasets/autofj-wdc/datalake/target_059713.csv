@@ -1,0 +1,50 @@
+id,title
+0,Perl interface to the LZ4 (de)compressor
+1,Perl interface to Google's Snappy (de)compressor
+2,Perl interface to the scrypt key derivation function
+3,Drop-in replacement for Crypt::Skip32
+4,solve captchas from textcaptcha.com
+5,Perl interface to the BLAKE digest algorithm
+6,Perl interface to the Blue Midnight Wish digest algorithm
+7,Perl interface to the CubeHash digest algorithm
+8,Perl interface to the ECHO digest algorithm
+9,Perl interface to the Edon-R digest algorithm
+10,Perl interface to the Fugue digest algorithm
+11,Perl interface to the GOST R 34.11-94 digest algorithm
+12,Perl interface to the Groestl digest algorithm
+13,Perl interface to the Hamsi digest algorithm
+14,Perl interface to the JH digest algorithm
+15,Perl interface to the Keccak digest algorithm
+16,Perl interface to the Luffa digest algorithm
+17,Perl interface to the SHAvite-3 digest algorithm
+18,Perl interface to the SIMD digest algorithm
+19,Perl interface to the Shabal digest algorithm
+20,DiscoverCard account information and SOAN creation
+21,Geocode addresses with ArcGIS
+22,Geocode addresses with the Bing Maps API
+23,Geocode addresses in bulk with the Bing Spatial
+24,Geocode addresses with the Mappy AJAX API
+25,Geocode addresses with Mapquest
+26,Geocode addresses with the Multimap Open API
+27,Geocode addresses with the Navteq MapTP AJAX API
+28,Geocode addresses with the OpenStreetMap Nominatim API
+29,Geocode addresses with the Ovi Maps API
+30,Geocode addresses with Rand Mcnally Maps
+31,Geocode addresses with the TomTom Map Toolkit API
+32,speed up Geo::Distance
+33,fast grid transformations
+34,Cookie storage and management for Opera
+35,useful functions missing from IO::AIO
+36,Text::Xslate renderer for Mojo
+37,Perl interface to the posix_spawn function
+38,injects Google Chrome Frame into IE
+39,calculate the deviation from Benford's Law
+40,Implementation of the top-k streaming algorithm
+41,Task to install all available cryptographic message digests
+42,Calculate Dice's coefficient of two strings
+43,Perl interface to the libstree library.
+44,Create a URI that uses the CoralCDN
+45,Remove obvious redirects from a URI
+46,Unicode security mechanisms
+47,interface to Anonymouse.org Email and News posting
+48,Perl interface to the Google Reader API

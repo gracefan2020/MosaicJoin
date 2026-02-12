@@ -1,0 +1,121 @@
+id,title
+0,architecture Firebug 1.8
+1,defaultModuleList Firebug 1.8
+2,javascript.options.strict.debug
+3,defaultPanelName
+4,throttleMessages
+5,textSize
+6,showInfoTips
+7,textWrapWidth
+8,framePosition Firebug 1.9
+9,previousPlacement
+10,showErrorCount
+11,viewPanelOrient
+12,allPagesActivation
+13,hiddenPanels
+14,panelTabMinWidth
+15,sourceLinkLabelWidth
+16,currentVersion
+17,showFirstRunPage Firebug 1.9
+18,useDefaultLocale
+19,activateSameOrigin
+20,toolbarCustomizationDone
+21,showBreakNotification
+22,stringCropLength Firebug 1.9
+23,hideDefaultInspector Firebug 1.10
+24,delayLoad Firebug 1.10
+25,enableOrion Firebug 1.10
+26,commandEditor
+27,alwaysShowCommandLine Firebug 1.8
+28,searchCaseSensitive
+29,searchGlobal
+30,searchUseRegularExpression
+31,netSearchHeaders
+32,netSearchParameters
+33,netSearchResponseBody
+34,console.defaultPersist
+35,net.defaultPersist
+36,showJSErrors
+37,showJSWarnings
+38,showCSSErrors
+39,showXMLErrors
+40,showChromeErrors
+41,showChromeMessages
+42,showNetworkErrors
+43,showXMLHttpRequests
+44,showStackTrace
+45,console.logLimit
+46,console.enableSites
+47,tabularLogMaxHeight
+48,consoleFilterTypes
+49,preferJSDSourceLinks Firebug 1.10
+50,commandLineShowCompleterPopup Firebug 1.12
+51,console.groupLogMessages Firebug 1.12.1
+52,showCommentNodes
+53,showTextNodesWithWhitespace
+54,entityDisplay
+55,showFullTextNodes
+56,highlightMutations
+57,expandMutations
+58,scrollToMutations
+59,shadeBoxModel
+60,showQuickInfoBox
+61,displayedAttributeValueLimit
+62,multiHighlightLimit Firebug 1.9
+63,onlyShowAppliedStyles
+64,showUserAgentCSS
+65,expandShorthandProps
+66,cssEditMode
+67,colorDisplay Firebug 1.10
+68,showMozillaSpecificStyles
+69,computedStylesDisplay
+70,breakOnErrors
+71,trackThrowCatch
+72,script.enableSites
+73,scriptsFilter
+74,replaceTabs
+75,filterSystemURLs
+76,maxScriptLineLength Firebug 1.9
+77,omitObjectPathStack
+78,showStackFrameArguments Firebug 1.12
+79,showUserProps
+80,showUserFuncs
+81,showDOMProps
+82,showDOMFuncs
+83,showDOMConstants
+84,showInlineEventHandlers Firebug 1.9
+85,showClosures Firebug 1.11.2
+86,ObjectShortIteratorMax
+87,showEnumerableProperties Firebug 1.8
+88,showOwnProperties Firebug 1.8
+89,showRulers
+90,netFilterCategories
+91,net.logLimit
+92,net.enableSites
+93,net.hiddenColumns
+94,net.curlAddCompressedArgument Firebug 1.12
+95,netDisplayedResponseLimit
+96,netDisplayedPostBodyLimit
+97,netPhaseInterval
+98,sizePrecision
+99,netParamNameLimit
+100,netShowPaintEvents
+101,netShowBFCacheResponses
+102,netHtmlPreviewHeight Firebug 1.8
+103,sortJsonPreview
+104,cache.mimeTypes
+105,cache.responseLimit
+106,cookies.enableSites Firebug 1.10
+107,cookies.logEvents Firebug 1.10
+108,cookies.clearWhenDeny Firebug 1.10
+109,cookies.filterByPath Firebug 1.10
+110,cookies.showRejectedCookies Firebug 1.10
+111,cookies.defaultExpireTime Firebug 1.10
+112,cookies.lastSortedColumn Firebug 1.10
+113,cookies.hiddenColumns Firebug 1.10
+114,cookies.removeConfirmation Firebug 1.10
+115,cookies.removeSessionConfirmation Firebug 1.10
+116,externalEditors
+117,debugCommandLineAPI Firebug 2.0
+118,showWrappedListeners Firebug 2.0
+119,a11y.enable

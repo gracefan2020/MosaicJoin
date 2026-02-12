@@ -1,0 +1,50 @@
+id,title
+0,"Forwarding to ""Chain""-Actions in Catalyst"
+1,Module abstract (<= 44 characters) goes here
+2,Catalyst Server Engine *DEPRECATED*
+3,"Unmaintained, dangerous proof of concept"
+4,Catalyst Config Plugin using Config::Multi
+5,Catalyst Plugin for Multiple ConfigLoader
+6,Store your sessions in a database using Data::ObjectDriver.
+7,Dynamically load adaptor modules
+8,Load Cache::Funky Modules.
+9,Single-threaded multi-tasking Catalyst engine (deprecated in favor of HTTP::Prefork)
+10,IM IN UR CATALYST APLACASHUN REWRITIN YUR OUTPUTS.
+11,Testing of Catalyst based XMLRPC applications
+12,Redirect and detach at the same time
+13,Catalyst Model to post and retrieve blog entries using Net::Blogger
+14,A YUI Uploader example for Catalyst
+15,foundations for displaying and editing lists (CRUD) in a Catalyst application
+16,Catalyst FormValidator Plugin in Lazy way
+17,Standard access to search results
+18,Update or Insert DBIx::Class data from Validators
+19,generic base class for template-based views
+20,Catalyst View using the Bricklayer::Templater engine
+21,"View class for lighty X-SendFile and perlbal X-REPROXY-FILE, X-REPROXY-URL"
+22,MicroMason View Class
+23,TypeKey Authentication
+24,tset the budnos of lieibiglty and dstraneotme how we pcvreiee wdors wtih yuor Ctyslaat apicapltion
+25,JabberRPC Model Class for Catalyst
+26,A Catalyst View for GD images
+27,DEPRECATED - FastMmap cache store for Catalyst::Plugin::Cache.
+28,XMLRPC Model Class for Catalyst
+29,Catalyst model for Net::Amazon SOAP interface
+30,Model class of MogileFS::Client on Catalyst
+31,Moose role to create only one instance of component per context
+32,Catalyst Plugin to subvert NEXT to use Class::C3
+33,Module abstract (<= 44 characters) goes here
+34,Catalyst Model for the YouTube Web Services
+35,Helper for Jemplate Views
+36,livedoor Auth API for Catalyst.
+37,JugemKey authentication plugin for Catalyst
+38,Send Japanese emails with Catalyst
+39,Hatena authentication for Catalyst
+40,Catalyst model for Amazon's S3 web service
+41,Catalyst model for Text Link Ads
+42,"Internationalization for Catalyst, data loaded from database"
+43,Maintain order of submitted form parameters
+44,Catalyst action for embedding Firebug Lite tag
+45,Generate functions from ... to be used from a TT view
+46,ClamAV scanning Plugin for Catalyst
+47,"LDAP Authentication for Catalyst *DEPRECATED, use Store::LDAP instead*"
+48,(DEPRECATED) Basic authentication via remote host.

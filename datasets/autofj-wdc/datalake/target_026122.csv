@@ -1,0 +1,37 @@
+id,title
+0,Additional info about PWM on the AS99127F (may apply to other Asus
+1,* Additional info about PWM on the AS99127F (may apply to other Asus
+2,chips as well) by Jean Delvare as of 2004-04-09:
+3,AS99127F chips at all.
+4,Additional info about PWM on the AS99127F rev.1 by Hector Martin:
+5,* Additional info about PWM on the AS99127F rev.1 by Hector Martin:
+6,I've been fiddling around with the (in)famous 0x59 register and
+7,"with speedfan under Windows, where 0-15% would be off, 15-2x% (can't"
+8,remember the exact value) would be 70% and higher would be full on.
+9,* Additional info about PWM on the AS99127F rev.1 from lm-sensors
+10,ticket #2350:
+11,I conducted some experiment on Asus P3B-F motherboard with AS99127F
+12,(Ver. 1).
+13,I confirm that 0x59 register control the CPU_Fan Header on this
+14,"motherboard, and 0x5a register control PWR_Fan."
+15,"In order to reduce the dependency of specific fan, the measurement is"
+16,conducted with a digital scope without fan connected. I found out that
+17,"P3B-F actually output variable DC voltage on fan header center pin,"
+18,looks like PWM is filtered on this motherboard.
+19,Here are some of measurements:
+20,0x80 20 mV
+21,0x81 20 mV
+22,0x82 232 mV
+23,0x83 1.2 V
+24,0x84 2.31 V
+25,0x85 3.44 V
+26,0x86 4.62 V
+27,0x87 5.81 V
+28,0x88 7.01 V
+29,9x89 8.22 V
+30,0x8a 9.42 V
+31,0x8b 10.6 V
+32,0x8c 11.9 V
+33,0x8d 12.4 V
+34,0x8e 12.4 V
+35,0x8f 12.4 V

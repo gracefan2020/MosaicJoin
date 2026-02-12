@@ -1,0 +1,80 @@
+id,title
+0,The icon that will render when the changed attribute is true. Includes .AFChangedIcon:alias.
+1,"Icon that can be used instead of a background-image on af|richTextEditor::dynamic-help-icon-style. By default this is null. If you use this af|richTextEditor::dynamic-help-icon-style can then be used for background colors, etc."
+2,Icon for the add-link button in active state.
+3,Icon for the add-link button in disabled state.
+4,Icon for the add-link button in hover state.
+5,Icon for add link button.
+6,Icon for bold button in active state.
+7,Icon for bold button in disabled state.
+8,Icon for bold button in hover state.
+9,Icon for bold button.
+10,Icon for clear-style button in active state.
+11,Icon for clear-style button in disabled state.
+12,Icon for clear-style button in hover state.
+13,Icon for clear-style button.
+14,Icon for indent button in active state.
+15,Icon for indent button in hover state.
+16,Icon for indent button.
+17,Icon for italic button in active state.
+18,Icon for italic button in disabled state.
+19,Icon for italiv button in hover state.
+20,Icon for italic button.
+21,Icon for justify-center button in active state.
+22,Icon for justify-center button in disabled state.
+23,Icon for justify-center button in hover state.
+24,Icon for justify-center button.
+25,Icon for justify-full button in active state.
+26,Icon for justify-full button in disabled state.
+27,Icon for justify-full button in hover state.
+28,Icon for justify-full button.
+29,Icon for justify-left button in active state.
+30,Icon for justify-left button in disabled state.
+31,Icon for justify-left button in hover state.
+32,Icon for justify-left button.
+33,Icon for justify-right button in active state.
+34,Icon for justify-right button in disabled state.
+35,Icon for justify-right button in hover state.
+36,Icon for justify-right button.
+37,Icon for list-ordered button in active state.
+38,Icon for list-ordered button in disabled state.
+39,Icon for list-ordered button in hover state.
+40,Icon for list-ordered button.
+41,Icon for list-unordered button in active state.
+42,Icon for list-unordered button in disabled state.
+43,Icon for list-unordered button in hover state.
+44,Icon for list-unordered button.
+45,Icon for mode-code button in active state.
+46,Icon for mode-code button in disabled state.
+47,Icon for mode-code button in hover state.
+48,Icon for mode-code button.
+49,Icon for mode-rich-text button in active state.
+50,Icon for mode-rich-text button in disabled state.
+51,Icon for mode-rich-text button in hover state.
+52,Icon for mode-rich-text button.
+53,Icon for redo button in active state.
+54,Icon for redo button in hover state.
+55,Icon for remove-link button in hover state.
+56,Icon for remove-link button.
+57,Icon for strikethrough button in active state.
+58,Icon for strikethrough button in disabled state.
+59,Icon for strikethrough button in hover state.
+60,Icon for strikethrough button.
+61,Icon for subscript button in active state.
+62,Icon for subscript button in disabled state.
+63,Icon for subscript button in hover state.
+64,Icon for subscript button.
+65,Icon for superscript button in active state.
+66,Icon for superscript button in disabled state.
+67,Icon for superscript button in hover state.
+68,Icon for superscript button.
+69,Icon for underline button in active state.
+70,Icon for underline button in disabled state.
+71,Icon for underline button in hover state.
+72,Icon for underline button.
+73,Icon for undo button in active state.
+74,Icon for undo button in hover state.
+75,Icon for unindent button in active state.
+76,Icon for unindent button in disabled state.
+77,Icon for unindent button in hover state.
+78,Icon for unindent button.

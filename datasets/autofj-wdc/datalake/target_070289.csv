@@ -1,0 +1,50 @@
+id,title
+0,"The currently active container object, or NULL if not initialized yet."
+1,Returns the access manager service.
+2,Returns the requested cache bin.
+3,Retrieves a configuration object.
+4,Retrieves the configuration factory.
+5,Core API compatibility.
+6,Core minimum schema version.
+7,Returns the CSRF token manager service.
+8,Gets the current active user.
+9,Returns the current primary database.
+10,Returns the redirect destination helper.
+11,Retrieves the entity manager service.
+12,Returns the entity query object for this entity type.
+13,Returns the entity query aggregate object for this entity type.
+14,Returns the flood instance.
+15,Returns the form builder service.
+16,Returns the currently active global container.
+17,"Returns TRUE if the container has been initialized, FALSE otherwise."
+18,Indicates if there is a currently active request object.
+19,Indicates if a service is defined in the container.
+20,Returns the default http client.
+21,Gets the syncing state.
+22,Returns a key/value storage collection.
+23,Returns an expirable key value store collection.
+24,Renders a link with a given link text and Url object.
+25,Returns the language manager service.
+26,Returns the link generator service.
+27,Returns the locking layer instance.
+28,Returns a channel logger object.
+29,Returns the menu tree.
+30,Returns the module handler.
+31,Returns the path validator.
+32,Returns a queue for the given queue name.
+33,Retrieves the currently active request object.
+34,Retrives the request stack.
+35,Gets the app root.
+36,Retrieves the currently active route match object.
+37,Retrieves a service from the container.
+38,Sets a new global container.
+39,Returns the state storage service.
+40,Gets the theme service.
+41,Returns the token service.
+42,Returns the string translation service.
+43,Returns the transliteration service.
+44,Returns the typed data manager service.
+45,Unsets the global container.
+46,Generates a URL string for a specific route based on the given parameters.
+47,Returns the url generator service.
+48,The current system version.

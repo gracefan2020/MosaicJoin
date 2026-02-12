@@ -1,0 +1,73 @@
+id,title
+0,Cruise Label
+1,Station number_Cast number
+2,Station type
+3,Cast date(UTC)
+4,Cast time (UTC)
+5,LATITUDE
+6,LONGITUDE
+7,Reported depth to bottom.
+8,Depth
+9,Quality flag for CTD data
+10,Pressure
+11,Quality flag for CTD data
+12,Temperature
+13,Quality flag for CTD data
+14,Temperature from Deep Ocean Standards Thermometer
+15,Quality flag for CTD data
+16,CTD Salinity sensor
+17,Quality flag for CTD data
+18,Salinity
+19,Quality flags for water samples
+20,CTD Oxygen sensor
+21,Quality flag for CTD data
+22,Optode oxygen
+23,Quality flag for CTD data
+24,Oxygen
+25,Quality flags for water samples
+26,Down-cast pressure at the same density of the up-cast CTD data
+27,Quality flag for CTD data
+28,Down-cast CTD oxygen at pressure of DWNPRS
+29,Quality flag for CTD data
+30,Silicate
+31,Quality flags for water samples
+32,Uncertainty of Silicate data
+33,Quality flags for water samples
+34,Nitrate
+35,Quality flags for water samples
+36,Uncertainty of Nitrate data
+37,Quality flags for water samples
+38,Nitrite
+39,Quality flags for water samples
+40,Uncertainty of Nitrite data
+41,Quality flags for water samples
+42,Phosphate
+43,Quality flags for water samples
+44,Uncertainty of Phosphate data
+45,Quality flags for water samples
+46,Freon-11
+47,Quality flags for water samples
+48,Freon-12
+49,Quality flags for water samples
+50,Freon-113
+51,Quality flags for water samples
+52,Total carbon
+53,Quality flags for water samples
+54,Total alkalinity
+55,Quality flags for water samples
+56,pH
+57,Quality flags for water samples
+58,14Carbon
+59,Quality flags for water samples
+60,Expected error
+61,Quality flags for water samples
+62,13Carbon
+63,Quality flags for water samples
+64,Expected error
+65,Quality flags for water samples
+66,Potential temperature
+67,Quality flag for CTD data
+68,Density
+69,Quality flag for CTD data
+70,Sample number
+71,Bottle quality flag

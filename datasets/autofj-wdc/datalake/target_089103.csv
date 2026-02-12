@@ -1,0 +1,51 @@
+id,title
+0,Text and Heading not saving
+1,Can't add or edit slides after latest media update
+2,Array to string conversion in rotating_banner_block_configure()
+3,Non Responsive Images in Mobile Theme
+4,Options to open link in new window (_blank)
+5,jquery.easing.js is not working!
+6,After update --> Jquery Cycle is not installed. See the README.txt
+7,banner shadow
+8,Warning: strlen() and Notice: filter_xss() after adding banners to a panel
+9,Use Libraries API module for jquery.cycle and jquery.easing
+10,Customizing Prev/Next Control
+11,"no media browser when click ""Choose banner image"""
+12,This patch fixes the problem
+13,rotating_banner_add_form() error when creating new rotating banner
+14,Docs for Rotating Banner
+15,Banner not rotating; getting JS error
+16,Banner settings rotater quits working once images added
+17,Fatal Error Call to undefined method stdClass::initialize() rotating_banner.classes.inc on line 279
+18,Transition type none
+19,Multiple text overlays with multiple links
+20,Display bug in IE 8
+21,need update for file_entity changes in media module
+22,Cannot install module
+23,Rotating Banner not working with specific theme (Works with all others)
+24,Work fine on MAMP (local) but crash + Make error on Live
+25,"Add ""None"" option to ""Layout"" in slide page"
+26,Can't find a way to use Rotating Banner
+27,Thumbnails
+28,Open banner link in a new window
+29,Allow banner to work without a background image
+30,Update Message
+31,Getting 500 - Internal server error
+32,CSS and IE Compatibility
+33,Improper Configuration?
+34,Call to undefined function media_load()
+35,How to show both numbers and Prev/Next control
+36,How to stop scrolling onmouseover event
+37,User should be able to select multiple images quickly and get started with reasonable defaults
+38,Notice: Undefined index: #file in theme_media_thumbnail() (line 288 of .../sites/all/modules/media/includes/media.theme.inc)
+39,Rotating banner module not working with sqlite
+40,"after adding banner title, browser was redirected to non existing page"
+41,error for configuring the block
+42,Slides don't link.
+43,Rotating Banner Accessibility for Screen Readers
+44,Banner does not rotate when home page is set
+45,Undefined index: slides in rotating_banner_block_save() line 363
+46,Does not work with performance block caching
+47,Randomize slides
+48,Choose banner image issue
+49,"Styling on blank ""Title"" box appears in FF"

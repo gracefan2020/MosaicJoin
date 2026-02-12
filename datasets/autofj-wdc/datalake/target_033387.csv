@@ -1,0 +1,108 @@
+id,title
+0,20080410-1900 broken
+1,"tm.terminal should not include source, to save space"
+2,"Welcome Page: Standard links are not working (Samples, Tutorials, ...)"
+3,add capabilities (and preferences)
+4,update site list is not correct in package
+5,"Welcome Page: Standard links are not working (Samples, Tutorials, ...)"
+6,Runtime-only features should not be installed in an IDE
+7,progress message steps on image text
+8,remove references to uncertain capabilities bundles
+9,the What's new link on the Welcome page does not work
+10,improved about box graphic
+11,"Welcome Page: Standard links are not working (Samples, Tutorials, ...)"
+12,splash progress text should be white
+13,Missing Eclipse Icon under Linux
+14,Some start to product customization
+15,"remove pde from jee package or default ""on"" capabilties."
+16,jst and wst features should be expanded
+17,No build ID in about dialog of JEE 3.5rc1 package
+18,No Capabilities Preference Page in JEE 3.5rc1
+19,need build to handle about.mappings?
+20,"Need build to pickup ""welcome"" bundle"
+21,should not jar up product plugin
+22,javax.transaction is configured as framework extension
+23,restore capability bundles
+24,still seeing some pollution of update sites in Java EE M3
+25,Cannot update Eclipse Platform in JEE package
+26,Include m2e as part of this package
+27,"""Too many open files"" during signing check, while installing more stuff"
+28,Include egit as part of Java EE Package
+29,JEE Package displays git configuration dialog on startup
+30,Updating EPP Java EE Windows package from Kepler SR1 to SR2 fails
+31,Kepler Java EE package missing key m2e bundles
+32,ECLIPSE_.RSA in org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar does not match the one from Eclipse Juno SR1 (4.2.1)
+33,Welcome screen has some out-of-place (out dated?) items
+34,Update JEE package with new Dali Common features
+35,webtools/updates site needs to be changed
+36,add jsf feature to Java EE IDE package
+37,eclipse-jee-helios-M7-win32 doesn't include the JAX-WS tool
+38,use package icon on web page
+39,The MD5 given for this download does not match
+40,"only ""Generic"" displayed in the extension point"
+41,"EE package includes PDE indirectly, but should be direct"
+42,EclipseGalileo Hanging frequently.
+43,"[Java EE package] Community and JPA links in welcome page goes to a ""Not Found"" page"
+44,Jee 3.5rc1 has no window icon
+45,Equinox p2 installer failed to install eclipse-java-ganymede-win32.zip
+46,packages should enable all their primary update sites (by default)
+47,Missing DTP features in initial JEE 3.4 release
+48,Crashes on startup
+49,"DTP features should not include source, to save size"
+50,"Ganymede JEE Package dist for MacOSX has old ""Software Updates"" component"
+51,Ganymede M7 first startup takes several minuts and bundled plugins are not detected
+52,Perspective Tab
+53,Need to filter out TPTP features from Mac. distributions.
+54,Why are not all JEE Project upate sites enabled?
+55,Warning logged about undefined tm.terminal command
+56,datatools doc error in JEE package
+57,JEE package configuration updates
+58,icu4j jar packaged in the JavaEE install is different from the M6/M6a
+59,Pre-installed packages are not installed. And cannot be either
+60,JEE package update to Ganymede M7
+61,"added forgotten feature, EclipseLink Support to JEE"
+62,"Package is missing ""capabilities"""
+63,missing program icon
+64,64 bit package opens to Java Perspective
+65,Weird Small Window
+66,Package fails after update because there is no metadata for the launcher.library
+67,IDE for Java EE Developers won't start on 64-bit Vista
+68,Unusual exception logged on startup
+69,Problem while installing Eclipse Updates
+70,Addition of EclipseLink Galileo bundles to the Java EE package
+71,There is no xsd and xsd.edit feature in the jee Galileo M6 package
+72,A few language improvements for M7
+73,default workspace is wrong directory
+74,externailize strings for jee bundle
+75,Another rev of feature
+76,Eclipse says 'Java EE IDE Package' as application name
+77,Ganymede hangs when clicking View Error Log
+78,New&Noteworthy for DSDP-TM missing on JEE EPP Ganymede SR2 page
+79,Default Eclipse distro cannot upgrade
+80,Automatic updates fail.
+81,PROBLEM with Eclipse Ganymede UPDATE
+82,X86_64 release can not be unzip & untar with X86_64 linux
+83,"md5 files are ""hard to read"""
+84,org.eclipse.pde.p2 feature should be in eclipse-jee-ganymede
+85,Unsigned Content warning due to javax.persistence when installing JEE package with eclipse-installer
+86,NPE in ReadManager
+87,The JEE package refer to outdated TM Terminal features
+88,Eclispe is damn slow.
+89,add code recommenders to jee package
+90,Fatal Error starting Eclipse
+91,Kick PDE out of JEE package
+92,Cannot install remote marketplace locations
+93,Add MPC to the JEE package
+94,Welcome page links don't work without Internet Connectivity
+95,Error logged on Help > Install due to file:// repositories leaked into package
+96,Eclipse Tools for Java Enterprise Development contains too much
+97,Help contents not available in JEE 3.5rc1 package
+98,"""eclipse"" symlink present in eclipse-SDK download is missing from package"
+99,RSE Terminal uses ugly fonts in JEE package
+100,WebPage Editor don´t recognize EL 2.2 method call with parameter
+101,EULA for the package does not match the other ones
+102,javax.transaction plugin is not being loaded.
+103,Update JEE package with new Dali feature names
+104,Ganymede-jee-64Bit-Linux-Download broken
+105,"Download page doesn't detect 64 bit linux, and offers 32bit download"
+106,Java EE package should say it requires a 1.6 JRE

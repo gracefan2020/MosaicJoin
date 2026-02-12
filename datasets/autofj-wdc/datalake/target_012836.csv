@@ -1,0 +1,50 @@
+id,title
+0,virtualhost-aware PSGI app developer tool
+1,Run external commands and code at specific phases of Dist::Zilla
+2,Interface to talk to DAV servers
+3,Google Authenticator TBOT Abstraction
+4,A tiny Mojolicious wrapper for SQLite
+5,A Simple Framebuffer Graphics Library
+6,Perl extension to access redis database
+7,Process supervision shell for daemontools/perp/s6/runit
+8,Write and read InfluxDB LineProtocol
+9,embeding a fast C compiler directly into your Perl parser
+10,Stripe API bindings
+11,Tail a file from Dancer
+12,Interface com o gateway de pagamentos Moip
+13,a modular policy daemon for postfix
+14,Auto handling of Devel::NYTProf in your Mojolicious app
+15,commands to interact with a Matrix home-server
+16,Show just the keys of deep data structure
+17,Record store timing information to statsd.
+18,Moose minus the antlers
+19,Execute commands with sound
+20,Database independent interface for Perl
+21,IO::Socket with read/write timeout
+22,Generate RFC 7469 HTTP Public Key Pin (HPKP) header values
+23,Cmdline tool around Data::DPath
+24,Perl interface to Drupal MembershipEntity entities
+25,LTSV logger
+26,Adds Server Name Indication (SNI) support to AnyEvent::TLS client.
+27,Perl module to calculate the roundtrip delay d and
+28,Powerful fast feature-rich Perl source code profiler
+29,perform European VAT calculations
+30,Module to load PS1 status line elements
+31,Interface to Food Additive ECodes.
+32,Date::Holidays::* adapter and aggregator for all your holiday needs
+33,Validate Japanese phone numbers
+34,DNSSEC extensions to Net::DNS
+35,A base role for quickly and easily creating web service clients
+36,JSON Schema implementation of Perl
+37,Perl interface to the Drupal CMS
+38,"Sugar for your favorite ORM, DBIx::Class"
+39,Perl client for Artifactory REST API
+40,Distribute dual-life modules with Dist::Zilla
+41,"a set of strongly-typed, PSGI-friendly HTTP 1.1 exception libraries"
+42,A Lua parser
+43,bcrypt-capable mkpasswd(1) and exported helpers
+44,Perl language kernel for IPython
+45,drop check results into nagios' spool dir
+46,Indian Numbering System representation
+47,a simple PSGI/Plack HTTP server which uses threads
+48,a light and pure-Perl PSGI/Plack HTTP server with pre-forks

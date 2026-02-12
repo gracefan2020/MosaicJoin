@@ -1,0 +1,86 @@
+id,title
+0,Zend Db: Multiple nested selects - Zend Paginator with nested select bind parameters error
+1,Fixes #4521
+2,patch #5860
+3,Circular dependency test for #5651
+4,Prevent fatal error in JsonRpc-Client
+5,php 5.6 compatibility
+6,fix typo
+7,"Issue - AbstractDiServiceFactory ,MvcTranslatorFactory throws Exception"
+8,"Upgrading branch aliases for components: 2.2-dev -> 2.3-dev, 2.3-dev -> 2.4-dev"
+9,Collection Input Filter fix messages
+10,Adds disableInArrayValidator check to Radio
+11,permissions : docBlock
+12,Rbac::getRole() : check object->getName()
+13,Update wrong DocBlock comment
+14,ZF 2.3.0 BC break in MvcTranslator
+15,Fix BC break in TranslatorServiceFactory
+16,[cs-fixer\ Centralize configuration in a single file
+17,Corrected placeholder token '%' for some translations
+18,InputFilter\Factory can't handle config with null input
+19,Fix patterns for mobile (allows 7 as fisrt number)
+20,Allow aria-labelledby and aria-describedby attributes in form elements
+21,---removed---
+22,Update segment route to TranslatorInterface
+23,Add missing bitwise validator in pluginmanager
+24,Blackhole cache adapter : docblock corrections
+25,typo on comment fixed
+26,InputFilterPluginManager needs to allow InputInterface retrieval
+27,"ZendMvc depends on ZendLog by default in 2.3.0, add it to composer"
+28,Form\Element\Select multiple is always required
+29,Zend\ProgressBar\Adapter\Console::notify should use mb_substr
+30,Fix for #6012 - Use wrapper for substr() in ProgressBar
+31,"Missed variable, renamed to one which exists."
+32,"Invalid instantiator of type ""NULL"" for ""Zend\I18n\Translator\TranslatorInterface"""
+33,Parameter generator backslash escaping
+34,Dispatch error should be preventable
+35,decompress() Zend/Filter/Compress/Zip fix
+36,Allow empty response strings in \Zend\Http\Response::fromStream
+37,Method getValue should check the type of input inside InputFilter
+38,Remove duplicate comment
+39,remove double semicolon
+40,fix comment on PhpMemoryArray loader
+41,fix exception message. Must be Stdlib\Hydrator
+42,Require PHP extension mcrypt in composer.json
+43,Hotfix : Zend\Test trace error flag
+44,Fix documentation
+45,File Form Element don't works
+46,Allow InputInterface retrieval from InputFilterPluginManager
+47,Fix Zend\Test test
+48,Fix for issue 6048
+49,update copyright year that still using 2013 to 2014
+50,2.2.6 -> 2.3.0 causes DI to try to instantiate `Zend\I18n\Translator\TranslatorInterface` instead of `Zend\I18n\Translator\Translator`
+51,Fixes a typo
+52,added missing License header
+53,fixed typo
+54,code-to-explain-code test in MultiCheckboxTest to check multi selected
+55,Re enable zip compression tests on Travis
+56,fix for issue 6076. avoid GlobIterator globbing to directories which it ...
+57,Using \Zend\Db\Sql\Expression as part of join name. Object of class Zend\Db\Sql\Expression could not be converted to string
+58,NumberOfParameterFilter correctly handles argument count greater than 0.
+59,Fixes #5929 - Remove a page recursively
+60,Problems with serializing Zend\Stdlib\ArrayObject
+61,Hotfix for #6089 - ArrayObject serialization doesn't restore `protectedProperties`
+62,Fix unused imports and local variables
+63,"Fix undefined classes, constants and methods"
+64,Prevent ArrayObject recursion in 5.6
+65,More tests for nested form fieldsets
+66,Zend\Filter\Compress\Tar::setMode() would not work
+67,Zend\Filter\Compress\Tar::setMode() should work with case-insensitive
+68,Validator\Ip should not allow newlines in any case.
+69,add missing resource messages at en - Bitwize & Datestep
+70,suggest ext-mcrypt
+71,Allow session garbage collection to use an index
+72,fixed typos
+73,Extra fieldsets are created when calling form bind multiple times
+74,Mail: Require Zend\Validator
+75,added missing { and } after if
+76,Tiny typo fix in docblock
+77,Fix class description
+78,change is_null($var) to (null === $var) for consistency
+79,"change docblocks and comments that still using ""Zend_"" to ""Zend\"""
+80,FormElementManager: Only initialize a shared element once
+81,Fix: No need to prefix imports
+82,Fix: Test name
+83,"Fix: Indentation in array initialization, trailing commas"
+84,"** Potential XSS vector in multiple view helpers due to inappropriate HTML attribute escaping. Many view helpers were using the `escapeHtml()` view helper in order to escape HTML attributes. This release patches them to use the `escapeHtmlAttr()` view helper in these situations. If you use form or navigation view helpers, or ""HTML element"" view helpers (such as `gravatar()`, `htmlFlash()`, `htmlPage()`, or `htmlQuicktime()`),"

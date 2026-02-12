@@ -1,0 +1,51 @@
+id,title
+0,Custom send rate to 1 send 1 email every two (or second newsletter is being sent after any content is created)
+1,Emails not sent for manual newsletter
+2,Installation error: Table field_data_field_tags already exists
+3,Add fields to subscription form
+4,Statistic issue
+5,"Multilangual site, Entity Translation: Newsletter Lists failed"
+6,Milti-part format
+7,How to redirect user after submitting the form to a different page?
+8,Add checkbox in registration form
+9,token [newsletter_list:*] not available on basic template
+10,Deleted lists are still shown on subscribe form
+11,Send a confirmation email to administrator
+12,Change form submit from location.href to top.location.href
+13,Multiple Subscriber Form Blocks & Templating/Theming them
+14,Feature Request = Download or Export Subscriber List
+15,FieldException: Attempt to create an instance of a field field_test that doesn't exist or is currently inactive. in field_create_instance() (line 474 of C:\wamp\www\xxxxxx.com\modules\field\field.crud.inc).
+16,Tutorial: How to embed a latest article view in your newsletter
+17,Newsletter form not showing for non-loggedin users
+18,Custom datetime for newsletters
+19,On cron get error
+20,"Doesn´t send newsletters with many subscribers and errors ""Notice: Undefined index: 4 in newsletter_template_load() (line 42..."""
+21,Subscribe restriction based on roles
+22,Image not found
+23,Users cannot join new lists when already subscribed
+24,Drupal 8 port
+25,Provide option to send a newsletter even if no associated nodes are available
+26,Create Send page opening
+27,"Mass contact import using CSV, XML, EXCEL"
+28,No Gender Token in Template
+29,Subscribers IP gets not stored
+30,'newsletter_list' tokens not available to basic templates
+31,Repeat token to see last node published
+32,How do i remove the page redirect from newsletter module?
+33,Policy restriction in effect notice
+34,Tokens are not being replaced with a value
+35,Get personal info firstname - lastname with tokens in newsletter templates
+36,Installing fields for taxonomy causes db error -- table exists
+37,Send newsletter with segmentation conditions
+38,Add subscribers (Mass) with entities fields
+39,Add some documentation on the pages for clarification
+40,newsletter does not stop sending
+41,template tokens not working
+42,Test mail failed to send with smtp on
+43,No wysiwyg editor
+44,Subscriber confirmation and welcome email is in plain text!
+45,Error after instalation
+46,Newsletter: Subscribe block - no subscribers comes in the list
+47,Fatal error: : Unsupported operand types
+48,"New User to Drupal and Newsletter please help, Custom Letters"
+49,How To: send content of a node without tokens (workaround)

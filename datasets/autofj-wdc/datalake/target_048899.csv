@@ -1,0 +1,65 @@
+id,title
+0,ApplicationName 1
+1,BigintData1
+2,BigintData2
+3,Binary Data
+4,ClientProcessID 1
+5,ColumnPermissions
+6,CPU
+7,Database ID 1
+8,DatabaseName
+9,DBUserName 1
+10,Duration
+11,EndTime
+12,Error
+13,EventClass 1
+14,EventSequence
+15,EventSubClass 1
+16,GUID
+17,FileName
+18,Handle
+19,HostName 1
+20,IndexID
+21,IntegerData
+22,IntegerData2
+23,IsSystem
+24,LineNumber
+25,LinkedServerName
+26,LoginName
+27,LoginSid 1
+28,MethodName
+29,Mode
+30,NestLevel
+31,NTDomainName 1
+32,NTUserName 1
+33,ObjectID
+34,ObjectID2
+35,ObjectName
+36,ObjectType 2
+37,Offset
+38,OwnerID
+39,OwnerName
+40,ParentName
+41,Permissions
+42,ProviderName
+43,Reads
+44,RequestID
+45,RoleName
+46,RowCounts
+47,ServerName 1
+48,SessionLoginName
+49,Severity
+50,SourceDatabaseID
+51,SPID
+52,SqlHandle
+53,StartTime 1
+54,State
+55,Success
+56,TargetLoginName
+57,TargetLoginSid
+58,TargetUserName
+59,TextData
+60,Transaction ID
+61,Type
+62,Writes
+63,XactSequence

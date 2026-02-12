@@ -1,0 +1,51 @@
+id,title
+0,Spelling error in theme name
+1,path_to_theme problems
+2,Admin theme + admin theme settings
+3,Minor escaping bug for first-word SPAN in block.tpl.php
+4,Collapsiblock compatibility
+5,Needed head variable in page.tpl.php
+6,User input theme settings not translatable
+7,"Theme settings for breadcrumb reset, admin theme options fail on node/edit and node/delete"
+8,"Missing ""."" in dev.css"
+9,"""Node bottom"" region issue"
+10,Unable to theme two areas
+11,Mulitlingual Support
+12,dev.css
+13,Equal Height Sidebars issue in IE7 only
+14,Theme developer module borks layout settings fieldsets
+15,defunct imagefield selector in theme.css
+16,.info file Skinr errors
+17,File: template.theme-overrides.inc Missing in package and CVS
+18,incorrect comment form selectors in theme.css
+19,null class attribute in comment wrapper
+20,DHTML menu not working
+21,Improve support for Submitted By module
+22,incorrect comment selector in theme.css
+23,Unknown css property -border-radius
+24,superfish
+25,Invalid HTML in comment-wrapper.tpl.php
+26,primary_links setting not respected
+27,clean up pager selectors in theme.css
+28,Where are the subthemes?
+29,How can I make the admin design show on my main ?
+30,Configurable weight of breadcrumbs
+31,Non default language primary links don't appear on front page
+32,Breadcrumb separator and Terms delimiter not sanitized
+33,404 Error on Images in Admin Theme
+34,Could the theme cause a server error
+35,User menu link to My Account showing for logged out user
+36,Color Schemes - only default color scheme showing
+37,spelling error in equal heights settings field
+38,clean up theme.css - miscellaneous cruft
+39,Equalized Columns with overboard style.
+40,Insert styles for IE
+41,How to resave your new default Theme Settings
+42,Flexible breadcrumb positioning
+43,Breadcrumb incomplete
+44,Setting Adaptive Theme Background to image
+45,$is_front not set on my subtheme and the main theme
+46,collapsiblock support
+47,best way to span a block over sidebar_first and sidebar_last
+48,tertiary-content needs to be clearfixed
+49,AT Admin Overflow

@@ -1,0 +1,51 @@
+id,title
+0,Add Batch API support
+1,add a handler for generic Entity API metadata properties
+2,Duplicate fields output using entity reference
+3,Show warning message that Editable Table must be saved after changing values
+4,Add ability to change Published Status
+5,Widgets for Entity Metadata Properties
+6,There is no editable user mail?
+7,option to hide current value (only show edit box) or make them editable on click
+8,"Title field doesn't offer ""Hide widget..."" options"
+9,AJAX submit fails in Editable View when exposed filter is used
+10,Display is not working with a bulk operation field
+11,"Editing only nodes with changed field, not all of them"
+12,editing date field
+13,Views sorted
+14,Undefined property
+15,Editable view doesn't save values with multliple values field
+16,Create a confirmation page
+17,All fields disappear
+18,Several editable views in the same page
+19,Generic Handler Class editableviews_handler_entity_field_edit for Entity Properties in Editable Views
+20,Check for another user editing simultaneously
+21,Editable Views AJAX
+22,Add checkbox to determine which rows to save
+23,Notice: Undefined variable: result_indexes in editableviews_plugin_style_row_edit_table->insert_form_elements()
+24,editableviews plugin declaration breaks views_view_table theme
+25,editable views + views distinct
+26,Ajax problem?
+27,Hide editable view if field is empty
+28,Inline Ajax Save Button not working with views filter
+29,Support revisions
+30,Add ability to edit path aliases
+31,handling change to View result between form generation and submision
+32,Saving a paginated form seems to update random nodes
+33,Support for field permissions
+34,Issues with Image Crop
+35,Won't work with ajax pager
+36,Protect users from leaving the page without saving
+37,Errors with Field permissions
+38,400 Plus nodes | Memory resource error
+39,Styling of editable fields in editable views
+40,Edit / Non-Edit view
+41,Add referenced node when multiple filters give no result
+42,Is this module compatible with Organic Groups?
+43,Support for file entity / file_managed name
+44,Limit Field Collections to only allow creation of a new entry
+45,Doesn't play nice with Draggable Views
+46,Include the 'click to edit' option
+47,Support for Field Collections
+48,Undefined variable errors in insert_form_elements()
+49,Add new node / entity?

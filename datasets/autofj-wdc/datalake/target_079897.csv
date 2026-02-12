@@ -1,0 +1,135 @@
+id,title
+0,Access to Dashboards
+1,Access to Answers
+2,Access to Delivers
+3,Access to Briefing Books
+4,Access to Administration
+5,Access to Segments
+6,Access to Segment Trees
+7,Access to List Formats
+8,Access to Metadata Dictionary
+9,Access to Oracle BI for Microsoft Office
+10,Access to KPI Builder
+11,Access to Scorecard
+12,Create Navigate Actions
+13,Create Invoke Actions
+14,Save Actions Containing Embedded HTML
+15,Change Permissions
+16,Toggle Maintenance Mode
+17,Manage Sessions
+18,Manage Dashboards
+19,See Session IDs
+20,Issue SQL Directly
+21,View System Information
+22,Performance Monitor
+23,Manage Agent Sessions
+24,Manage Device Types
+25,Manage Map Data
+26,See Privileged Errors
+27,See SQL Issued in Errors
+28,Manage Marketing Jobs
+29,Manage Marketing Defaults
+30,Manage Catalog Groups
+31,Manage Privileges
+32,Set Ownership of Catalog Objects
+33,User Population - Can List Users
+34,User Population - Can List Groups
+35,Add To or Edit a Briefing Book
+36,Download Briefing Book
+37,Personal Storage
+38,Reload Metadata
+39,See Hidden Items
+40,Create Folders
+41,Archive Catalog
+42,Unarchive Catalog
+43,Upload Files
+44,Create Conditions
+45,Save Customizations
+46,Assign Default Customizations
+47,Save SystemWide Column Formats
+48,Access to My Account
+49,Change Preferences
+50,Change Delivery Options
+51,Create Views
+52,Create Prompts
+53,Access Advanced Tab
+54,Edit Column Formulas
+55,Save Content with HTML Markup
+56,Enter XML and Logical SQL
+57,Edit Direct Database Analysis
+58,Create Analysis from Simple SQL
+59,Create Advanced Filters and Set Operations
+60,Save Filters
+61,Execute Direct Database Analysis
+62,Create Agents
+63,Publish Agents for Subscription
+64,Deliver Agents to Specific or Dynamically Determined Users
+65,Chain Agents
+66,Modify Current Subscriptions for Agents
+67,Act As Proxy
+68,Access to RSS Feeds
+69,Create/Edit Scorecards
+70,View Scorecards
+71,Create/Edit Objectives
+72,Create/Edit Initiatives
+73,Create Views
+74,Create/Edit Causes and Effects Linkages
+75,Create/Edit Perspectives
+76,Add Annotations
+77,Override Status
+78,Create/Edit KPIs
+79,Add Scorecard Views to Dashboards
+80,Create List Formats
+81,Create Headers and Footers
+82,Access Options Tab
+83,Add/Remove List Format Columns
+84,Create Segments
+85,Create Segment Trees
+86,Create/Purge Saved Result Sets
+87,Access Segment Advanced Options Tab
+88,Access Segment Tree Advanced Options Tab
+89,Change Target Levels within Segment Designer
+90,Access SOAP
+91,Impersonate as System User
+92,Access MetadataService Service
+93,Access AnalysisExportViewsService Service
+94,Access ReportingEditingService Service
+95,Access ConditionEvaluationService Service
+96,Access ReplicationService Service
+97,Access CatalogIndexingService Service
+98,Access DashboardService Service
+99,Access SecurityService Service
+100,Access ScorecardMetadataService Service
+101,Access ScorecardAssessmentService Service
+102,Access HtmlViewService Service
+103,Access CatalogService Service
+104,Access IBotService Service
+105,Access XmlGenerationService Service
+106,Access JobManagementService Service
+107,Access KPIAssessmentService Service
+108,Access within Oracle BI Answers
+109,Add/Edit AnalyzerView
+110,Add/Edit Column SelectorView
+111,Add/Edit CompoundView
+112,Add/Edit GraphView
+113,Add/Edit FunnelView
+114,Add/Edit GaugeView
+115,Add/Edit FiltersView
+116,Add/Edit Dashboard PromptView
+117,Add/Edit Static TextView
+118,Add/Edit Legend View
+119,Add/Edit MapView
+120,Add/Edit NarrativeView
+121,Add/Edit Nested RequestView
+122,Add/Edit No ResultsView
+123,Add/Edit Pivot TableView
+124,Add/Edit Report PromptView
+125,Add/Edit Create SegmentView
+126,Add/Edit Logical SQLView
+127,Add/Edit TableView
+128,Add/Edit Create Target ListView
+129,Add/Edit TickerView
+130,Add/Edit TitleView
+131,Add/Edit View SelectorView
+132,Write Back to Database
+133,Manage Write Back

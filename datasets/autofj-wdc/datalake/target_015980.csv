@@ -1,0 +1,51 @@
+id,title
+0,ordered destruction
+1,implement pdd14-numbers
+2,Can't thaw a Sub (or a PIR subclass of a Sub)
+3,assign_pmc broken for pir subclasses?
+4,Build error on windows 2008 server
+5,cmp/bitwise/other mmd vtable functions should not go through proxy pmc
+6,Some files copyright Melvin Smith
+7,complex NaN
+8,Deprecation warnings in in config/gen/platform/darwin/dl.c in r37011
+9,RFC: Remove or fix SDL
+10,t/dynpmc/os.t has invalid stat() and lstat() tests.
+11,installed versions of dynext/*.so still link to -lparrot in build directory
+12,PackFile_unpack followed by PackFile_pack produces wrong results.
+13,[doc] < is not always escaped in HTML generation
+14,[doc] POD escape E<> is not handled by HTML generation
+15,build failure on Solaris/x86 with GCC and native assembler
+16,pir compiler must be reentrant
+17,Free()ing of SymReg variables
+18,Pg NCI Test Makes Unportable Connection
+19,Lexicals and :outer not Thawed Properly from PBC
+20,NCI segfaults with null pcc_params_signature
+21,Parrot::Pmc2c::Emitter line # error
+22,build - header file detection w/o perl5
+23,Correct destruction of PackFile objects
+24,Enable meaningful testing of t/native_pbc/*.t
+25,languages moved to examples need tests.
+26,make cover doesn't show coverage of *.ops files.
+27,change function of get_addr and set_addr
+28,Produce Single PBC from Multiple PIR Files with -o
+29,"change get_string on FPA, RPA (et al?)"
+30,JSON libraries should be renamed to something less confusing
+31,need ability to dispatch to parent's method or vtable from PIR
+32,'parrot foo' automatically finds and invokes foo.pbc
+33,".eof returns false if last read call read the last byte of the file, but not beyond"
+34,"remove optional features from default config, refactor config probes"
+35,export conventions (cross hll)
+36,pdd31-hll interop
+37,hll interop
+38,Add documentation for parrot_debugger
+39,"standard seed libraries (postgres, opengl, etc)"
+40,bytecode migration tool
+41,bytecode generation from post
+42,bytecode testing framework
+43,compacting/copying gc
+44,serialize/resumable execution
+45,pluggable everything
+46,sweep-free gc
+47,improved NCI/FFI
+48,update pdd26-ast
+49,[TODO] Merge parrotblog.org into parrot.org

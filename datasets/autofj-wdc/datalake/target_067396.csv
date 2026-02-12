@@ -1,0 +1,101 @@
+id,title
+0,Development version of PLT complains of duplicate definition
+1,no sqlite3_prepare_v2
+2,Problem with sound
+3,possible race condition on static buffer in HMAC-SHA1
+4,Mistype
+5,Failed statements prevent me from closing database
+6,More consistent APIs
+7,clSetKernelArg: No function for seting arg of arbitrary non-pointer type
+8,require fails with errors
+9,Index for GeoSpatial Queries
+10,Index for GeoSpatial Queries (fixed report)
+11,Plane Issue
+12,Structural equality broken
+13,map not usable in untyped contexts
+14,Rename `list-length' to `length'
+15,#:limit values other than 1 return the whole collection in mongo-collection-find
+16,More examples!
+17,MzScheme display doesn't work when stdout is redirected
+18,tick-rate contract
+19,quickstart make-post fails
+20,struct should be a define-like keyword
+21,Incompatible with PLT 4.0
+22,in-ra-list and for/ra-list
+23,(choose n m) doesn't work for large numbers (runtime error)
+24,Error in make-hasheq
+25,"error ""make-hasheq: expects no arguments, given 1"""
+26,Towers of Hanoi example in docs have wrong number of disks in output
+27,test cases & contracts in define-type
+28,the mutator language changes the names of procedures
+29,contracts on field selectors use the wrong name
+30,case expands to a free reference to member in the mutator language
+31,"""__kernel square"" should be ""__kernel void square"" in test.ss"
+32,#f is passed to clGetPlatformInfo in test.ss
+33,define-type's error message adds extra parens
+34,"values created from define-type structs now print with ""make-"" prefix"
+35,collector language's test/exn doesn't work
+36,Windows platform
+37,plai gc-gui.ss: move frame show to after panel creation
+38,plai mutator: top-level printouts
+39,mutator internal error (doesn't like literal numbers?)
+40,mutator error message for empty program unclear
+41,testing notification emails
+42,plai signals unbound identifier for a field name
+43,plai:1:9 disallows murec define-types
+44,printign for expected values differs from printing for actual values
+45,define-type doesn't evalute the field contracts soon enough
+46,(string->number x 10) expects string but is getting #
+47,Pack of strings is incorrect.
+48,DLGolaCiJ
+49,Fails to compile
+50,Typo in 3.1.3 Contracts
+51,Scribble problems
+52,magic in XQueryPointer signature
+53,Scribbe error on build
+54,Scribble error on build
+55,Error in Correlation Function
+56,grammar: ParameterDeclaration missing production
+57,missing function
+58,Bug in gamma-inc implementation and documentation
+59,file position doesn't get updated correctly for string type
+60,Could not find any of (libcblas libgslcblas) under paths (/usr/lib)
+61,Support for working copy features
+62,wrong documented contract for check forms
+63,Some SQL column types aren't recognised when parsing result data
+64,contract for `open' does not match documentation
+65,Issue with docs tutorial with plt-scheme 4.2
+66,loading this package fails
+67,unable to install spgsql in 4.1.3 - required package not found
+68,"Not a ticket for this component, but the request enhancement for the web server"
+69,quantile-from-sorted-data misdocumented
+70,Necesito Package PLAI
+71,cardinality
+72,->BlockStatement called incorrect in #%try
+73,Error in require
+74,Documentation links have red underline
+75,Non numeric version
+76,list-ref doesn't work
+77,list-length would be nice and a sequence interface
+78,Contracts not working or documentation incorrect
+79,save all button
+80,drocaml does not seem to work fully with DrScheme 4.x
+81,Email address incorrect in documentation
+82,Incorrect rendering of case clauses
+83,doc build problem
+84,SchemeUnit doc linking
+85,"""require"" in docs seems out-of-date"
+86,incompatible with planet dherman/memoize:3:1
+87,The prim predicate is not accurate
+88,Unable to get static files to serve with (1 8) version
+89,"What does ""restart"" actually do?"
+90,Doesn't work on mac os x ppc
+91,deprecate the S-expression syntax?
+92,implement lambda
+93,implement completion values tail-recursively
+94,represent JS booleans as Scheme booleans
+95,implement proper tail recursion
+96,Doesn't seem to work with PLT 4.1.3
+97,Galore 4.0 fails to install due to new SRFI-42 implementation; patch attached
+98,can't load module
+99,errors during half-arsed attempt to setup tool

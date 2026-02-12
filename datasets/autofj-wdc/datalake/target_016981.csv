@@ -1,0 +1,57 @@
+id,title
+0,.
+1,awk
+2,basename
+3,cat
+4,cd
+5,chmod
+6,chown
+7,cp
+8,cut
+9,date
+10,declare
+11,df
+12,diff
+13,dirname
+14,echo
+15,egrep
+16,eval
+17,exec
+18,export
+19,find
+20,ftp
+21,function
+22,grep
+23,hostname
+24,integer
+25,kill
+26,ln
+27,ln -s
+28,ls
+29,mkdir
+30,mkpath
+31,mv
+32,od
+33,print
+34,printf
+35,ps
+36,pwd
+37,rand
+38,read
+39,rm
+40,rm -f
+41,sed
+42,select
+43,sleep
+44,sort
+45,source
+46,tail
+47,telnet
+48,times
+49,touch
+50,trap
+51,typeset
+52,typeset -i
+53,typeset -l
+54,typeset -u
+55,typeset -Z

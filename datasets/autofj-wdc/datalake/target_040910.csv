@@ -1,0 +1,61 @@
+id,title
+0,Added tag jdk7-b147 for changeset d91364304d7cdefault tip
+1,Mergejdk7-b147
+2,7057046: Add embedded license to THIRD PARTY README
+3,Added tag jdk7-b146 for changeset 2d38c2a79c14
+4,Added tag jdk7-b145 for changeset 55e9ebf03218jdk7-b146
+5,Mergejdk7-b145
+6,7045697: JDK7 THIRD PARTY README update
+7,Added tag jdk7-b144 for changeset 7203965666a4
+8,Added tag jdk7-b143 for changeset 14b8e7eee105jdk7-b144
+9,7043700: Regression for IcedTea buildsjdk7-b143
+10,Added tag jdk7-b142 for changeset cfbbdb77eac0
+11,Added tag jdk7-b141 for changeset c6569c558585jdk7-b142
+12,Mergejdk7-b141
+13,Added tag jdk7-b140 for changeset dcfe74f1c655
+14,Merge
+15,6631003: Add hg tip changeset to build image
+16,Added tag jdk7-b139 for changeset 7ed6d0b9aaa1jdk7-b140
+17,Added tag jdk7-b138 for changeset fc47c97bbbd9jdk7-b139
+18,Mergejdk7-b138
+19,7033660: Update copyright year to 2011 on any files changed in 2011
+20,Merge
+21,Merge
+22,6737397: Should support running JCK test suite with test/Makefile and JPRT
+23,Added tag jdk7-b137 for changeset 7654afc6a29e
+24,Added tag jdk7-b136 for changeset 2fe76e73adaajdk7-b137
+25,Mergejdk7-b136
+26,7030131: Update README-builds.html to cover changes introduced by SE-Embedded integration
+27,Added tag jdk7-b135 for changeset 783bd02b4ab4
+28,Mergejdk7-b135
+29,6896934: README: Document how the drop source bundles work for jaxp/jaxws
+30,Added tag jdk7-b134 for changeset ddc2fcb3682f
+31,Added tag jdk7-b133 for changeset c6f380693342jdk7-b134
+32,7026167: Broken fastdebug only buildjdk7-b133
+33,Merge
+34,Merge
+35,7023111: Add webrev script to make/scripts
+36,7021753: Add a build times report
+37,Added tag jdk7-b132 for changeset 0f62a65fb666
+38,Added tag jdk7-b131 for changeset 5d86d951426ajdk7-b132
+39,Mergejdk7-b131
+40,7013964: openjdk LICENSE file needs rebranding
+41,Merge
+42,7019371: JDK7 is not building UPX. IFTW wrappers are not compressed.
+43,Merge
+44,Merge
+45,Merge
+46,Merge
+47,Merge
+48,Merge
+49,Added tag jdk7-b130 for changeset cc58c11af154
+50,Added tag jdk7-b129 for changeset a6b015b59fbcjdk7-b130
+51,7016976: Documentation for required ant version on JDK7 builds on Solaris 10 and Solaris 11jdk7-b129
+52,Merge
+53,"7014634: By default, only build the product bits with a closed jdk build (like openjdk does)"
+54,Added tag jdk7-b128 for changeset 57d702105b23
+55,Mergejdk7-b128
+56,Merge
+57,Merge
+58,6950375: Remove msvcrt.dll from the Windows JRE bundles
+59,Merge

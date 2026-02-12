@@ -1,0 +1,101 @@
+id,title
+0,Summary
+1,Check and compare an old patch concerning object with indices against current sympy
+2,Classifying formulas
+3,Bug in subs
+4,Documentation for the Expr class
+5,Move stuff from the Google Code SVN to git
+6,sympy development rules
+7,List of dependencies
+8,Document why unpickling a singleton doesn't return the singleton object with protocol 0 and 1
+9,integrate() should use the ode module's undetermined coefficients solver when possible
+10,SymPy's readthedocs documentation is broken
+11,Check for incorrect usage of expr.atoms() and change it to free_symbols
+12,Clean up test_lambdify.py
+13,"Use ""with open"" instead of ""open … close"""
+14,Remove bare except statements
+15,Import all public functions and classes into Sphinx: polys
+16,Update isympy manpage
+17,Unicode Sigma for pretty printed Sum
+18,The Product() class should not evaluate by default
+19,Refactor GA* documentation to use doctests (or move it to examples/)
+20,det() is called when inverting matrix through GE
+21,latex(symbol_names) not working with ~x
+22,Fix the SymPy Logo
+23,Make video tutorials for SymPy
+24,Make video tutorials for SymPy
+25,Make video tutorials for SymPy
+26,Make video tutorials for SymPy
+27,Make video tutorials for SymPy
+28,``See Also`` feature in Number Theory
+29,``See Also`` feature in Combinotorics
+30,``See Also`` feature in integrals
+31,``See Also`` feature in functions
+32,``See Also`` feature in functions/special
+33,``See Also`` feature in Matrices
+34,1/function() should be printed differently by latex printer
+35,Use \functionname instead of \operatorname{functionname} whenever possible
+36,Commented out tests should be XFAILed
+37,Translate our webpage to German
+38,Translate our webpage to French
+39,Translate our webpage to Czech
+40,Translate our webpage to Polish
+41,Translate our webpage to Bulgarian
+42,Translate our webpage to Russian
+43,Translate our webpage to Serbian
+44,Flesh out the SymPy Papers wiki page
+45,Add more tips to the tips page (10 tips)
+46,Add more tips to the tips page (10 tips)
+47,Add more tips to the tips page (10 tips)
+48,Add more tips to the tips page (10 tips)
+49,Add more tips to the tips page (10 tips)
+50,Add more tips to the tips page (10 tips)
+51,"Parts of the pyglet plotting module does not follow PEP 8, fix it"
+52,Make sure all the built-in __methods__ are defined
+53,checkodesol() should use force=True
+54,Move the KroneckerDelta class to another module
+55,Integral.transform should allow a change to a different variable
+56,Make video tutorials for SymPy
+57,Make video tutorials for SymPy
+58,Make video tutorials for SymPy
+59,Make video tutorials for SymPy
+60,Make video tutorials for SymPy
+61,Pretty print Product
+62,Fix the occasions where functions are called with wrong name and write tests
+63,Remove dead code from _eval_subs()
+64,Square root denesting
+65,bin/test --random should also shuffle tests inside a file
+66,SymPy Cheat Sheet
+67,Objects that know how to combine themselves
+68,LaTeX input
+69,live.sympy.org isn't so easy to use on a mobile device
+70,"Piecewise should use a different syntax for ""otherwise"""
+71,"Research ways to do the assumptions system, including removing the old system"
+72,Add a feed of what people are doing at SymPy Live
+73,Write a document showing the difference between SymPy and other mathematical systems: Maple
+74,Write a document showing the difference between SymPy and other mathematical systems: Mathematica
+75,Write a document showing the difference between SymPy and other mathematical systems: Matlab
+76,Write a document showing the difference between SymPy and other mathematical systems: Maxima
+77,Write a document showing the difference between SymPy and other mathematical systems: Axiom
+78,Write a document showing the difference between SymPy and other mathematical systems: Magma
+79,Write a document showing the difference between SymPy and other mathematical systems: Sage
+80,Write a document showing the difference between SymPy and other mathematical systems: Other
+81,Some UI/GUI for the test runner
+82,Implement the trigsimp algorithm by fu et al
+83,minpoly should work with roots of unity in exponential form
+84,Allow to manage slow tests better with our test runner
+85,"Investigate how to employ complexity measures in functions like trigsimp(), etc."
+86,coverage testing should be part of the bot test
+87,Fix failures found by shuffling tests in test file
+88,Add a split() method for sympy expressions
+89,Infinity should not be a subclass of Rational
+90,Pass coverage_doctest.py
+91,move some wikis to github.com/sympy/sympy/wiki
+92,either tangent_line or is_tangent is wrong
+93,Have re and im call expand(complex=True)
+94,Problem installing in Windows
+95,use pyflakes to identify simple bugs in sympy and fix them
+96,use pyflakes to identify simple bugs in sympy and fix them
+97,use pyflakes to identify simple bugs in sympy and fix them
+98,use pyflakes to identify simple bugs in sympy and fix them
+99,use pyflakes to identify simple bugs in sympy and fix them

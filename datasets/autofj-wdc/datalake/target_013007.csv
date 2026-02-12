@@ -1,0 +1,51 @@
+id,title
+0,Autocomplete returns incomplete results
+1,Replace global $config with a property on the Settings singleton
+2,"Remove DrupalKernel::initializeRequestGlobals and replace base_root, base_url and base_path with a service"
+3,Entity reference title show always as the default language
+4,Write menu-concept.txt
+5,Implement caching mechanism
+6,Add more test coverage for node/file verbose fields.
+7,Pass all the product attributes to Amazon
+8,Custom File Fields as Mappers
+9,[D7]Commerce PayU India Payment Gateway
+10,"Theme is not valid CSS (69 errors, 300 warnings)"
+11,Check condition when add file custom.js
+12,"Theme is not HTML valid (1 error, 2 warnings)"
+13,Fatal error when try to enable Audit filter logging module on php less than 5.5
+14,Include coffee module
+15,Field default markup - removing the divitis
+16,og:image can not have whitespace
+17,[D7] Mailman Integration
+18,Update order status after the order completion by Amazon
+19,"Allow support for default, module-defined fields"
+20,Counter / Maxlength not working / showing up.
+21,getting error on installation
+22,HTML characters in hover
+23,Remove SafeMarkup::set in template_preprocess_file_widget_multiple()
+24,lexicon encoding quote to '
+25,Exception log messages are double-escaped when viewing a single entry
+26,Port to 8?
+27,Local Storage for Coffee
+28,PathItem::delete() never runs because the path field type is a computed field in disguise
+29,Spam Report
+30,Uninstall Error
+31,Team block takes valuable space away from translating stuff and permissions page
+32,Modal display is entirely broken
+33,SQL Server | WSOD after installing Advagg Bundler
+34,Add proximity filtering
+35,Remove SafeMarkup::set in ViewListBuilder
+36,Add Commerce Search API
+37,Remove unused text handler operators
+38,Update.eslintrc to work with eslint 1.0.0
+39,Wrong validation message for non required invitation field
+40,Refactor to extend SelectQueryExtender instead of using socrata_query
+41,Conflict with string overrides
+42,Striping for odd/event
+43,Update Commerce Discount Product Category and patch.
+44,Add Commerce Price Savings Formatter
+45,Spam Report
+46,PHP Fatal error: Cannot redeclare ctools_block_content_type_content_type()
+47,Optimize automatic cron subscriber
+48,SpecialAttributesRouteSubscriber::onAlterRoutes() doesn't return a value
+49,[D7] Commerce Chase Orbital

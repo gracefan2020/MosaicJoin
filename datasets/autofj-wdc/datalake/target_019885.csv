@@ -1,0 +1,51 @@
+id,title
+0,Can't verify the signature of spamass-milter-0.4.0.tar.gz
+1,mail spamass-milter: Could not extract score from <>
+2,refine logging for spamass-milter
+3,Faked received header leeds to false positives
+4,"Patch: Making spamass-milter DISCARD instead of REJECT when ""Precendence: List"" header is present"
+5,Rejection message
+6,spamass-milter crashes intermittently
+7,"spamass-milter 0.3.1 and solaris 10, uses 100% of CPU"
+8,FreeBSD 6.3 cpu hog with spamass-milter - broken thread ?
+9,Sendmail's smfi-register error
+10,How to pass throught spamass-milter only if mail < x bytes ?
+11,smfi hdridx hard-coded (patch proposed)
+12,Patch for per-user rejection threshold
+13,Milter delete: header X-Spam-Status: HIGH ; 156
+14,Forwarding the suspect spam and deleting obvious spam.
+15,MIMEfying non-MIME messages for report_safe 1
+16,-r discard instead of reject?
+17,reject not functioing
+18,-b bucket function does not work
+19,"Could not retrieve sendmail macro ""r""!"
+20,Skip running SpamAssassin if SA headers already present?
+21,rejecting does not work when using both -r and -b
+22,"Solaris 8, compilation problem."
+23,spamass-milter -r Flag
+24,spamass-milter: status: O?
+25,Temporarily Reject E-Mail When SPAMD Is Unreachable
+26,./configure file cannot find libmilter
+27,change required=5.0
+28,out of memory error
+29,don't run spamass-milter if mail comes from authenticated relay?
+30,Spamass-milter not properly changing subject
+31,Thrown error: poll says my read pipe is busted
+32,spamass-milter hangs after :Broken pipe; connection refused
+33,Spamass-milter die after few mails !? (may it be -m option ?)
+34,Problems compiling spamassassin-milter 0.2.0
+35,Weird results with Spamassassin 3.0 release
+36,second subject added to empty subject line
+37,Some emails are not passed to spamc
+38,spamass-milter lets through mail
+39,send to another folder
+40,spamass-milter with user and/or virtual users
+41,Spamass-milter 0.2.0 dying occaionally
+42,Resolution for crash?
+43,How to get custom headers inserted into mail
+44,Timeouts
+45,problem with make spamass-milt 0.2 on Solaris 5.8 sparc
+46,Configuration/Enhancement Request
+47,spamass doesn't start
+48,Anti virus - seems a silly question.
+49,slackware 9.1 and libmilter

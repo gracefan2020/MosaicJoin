@@ -1,0 +1,52 @@
+id,title
+0,Continue
+1,Switching Protocols
+2,Processing
+3,OK
+4,Created
+5,Accepted
+6,Non-Authoritative Information
+7,No Content
+8,Reset Content
+9,Partial Content
+10,Multi-Status
+11,IM Used
+12,Multiple Choices
+13,Moved Permanently
+14,Found
+15,See Other
+16,Not Modified
+17,Use Proxy
+18,(Reserved)
+19,Temporary Redirect
+20,Bad Request
+21,Unauthorized
+22,Payment Required
+23,Forbidden
+24,Not Found
+25,Method Not Allowed
+26,Not Acceptable
+27,Proxy Authentication Required
+28,Request Timeout
+29,Conflict
+30,Gone
+31,Length Required
+32,Precondition Failed
+33,Request Entity Too Large
+34,Request-URI Too Long
+35,Unsupported Media Type
+36,Requested Range Not Satisfiable
+37,Expectation Failed
+38,Unprocessable Entity
+39,Locked
+40,Failed Dependency
+41,Upgrade Required
+42,Internal Server Error
+43,Not Implemented
+44,Bad Gateway
+45,Service Unavailable
+46,Gateway Timeout
+47,HTTP Version Not Supported
+48,Variant Also Negotiates
+49,Insufficient Storage
+50,Not Extended

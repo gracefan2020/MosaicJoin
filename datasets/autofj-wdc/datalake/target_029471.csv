@@ -1,0 +1,62 @@
+id,title
+0,Cannot typecheck (equal? (list) (list))
+1,"Bad typecheck in map, foldl, foldr"
+2,Better error messages for accessors
+3,please convert comments in xml file to *COMMENT* sxml nodes
+4,wrong compile-omit-paths entry in info.ss
+5,xpath-parser.ss problem w/ abbreviated xpath syntax
+6,stty on mac doesn't support -F
+7,charterm event not ready when bytes are available
+8,charterm event not ready when bytes are available
+9,charterm event not ready when bytes are available
+10,Subquotes break the csv-reader
+11,Doc bug in csv->list applied to a string
+12,Unable to install
+13,make a csv-reader that takes in an input-port
+14,writing comment inserts extra spaces
+15,Parsing bug discovered
+16,Font lock doesn't work for subsubsubsection
+17,install complains
+18,current-print is inactive
+19,Please consider using development links.
+20,Cannot load package in 4.1.4
+21,^M end-of-lines
+22,Growing memory consumption when using ryanc/db.plt
+23,rename require.ss to main.ss
+24,Upgrade bindings to the current Cairo release
+25,error on require
+26,"Depends on Schemeunit 1:2, which doesn't compile"
+27,Fails to compile with 4.2.2
+28,Warnings and a crash while installing on Windows
+29,Port to typed-scheme
+30,SchemeUnit checks for syntax errors
+31,test-suite semantics change makes my code infinite loop
+32,Planet breakage? Some surprising dependencies from xmlrpc.plt
+33,Fixing the test files
+34,eof error
+35,Digest contexts are leaked.
+36,scribble warnings
+37,prime? of neg. number doesn't end
+38,segments->painter return is failing on being passed to paint
+39,install complains
+40,transform-painter fails on non-rectangle configuration
+41,srfi.plt does not install cleanly due to error in info.ss
+42,note that you need to restart DrScheme after (require ...)-ing the projectmgr
+43,problem including this file from planeT
+44,Implicit passing of monad argument
+45,Get and put
+46,Use of set-cdr!
+47,Doesn't work in Current Version of PLT
+48,Doesn't work in Current Version of PLT
+49,Doesn't work in Current Version of PLT
+50,compilation error
+51,warnings from documentation
+52,stack trace is often mostly unusable
+53,long startup time
+54,Request for docs on interaction model
+55,socket.plt fails to install
+56,mzsocket fails to install cleanly on OS X (10.5 and 10.6)
+57,Sudoku example doesn't work
+58,Racket v5.1 for/vector
+59,bug in firmata.scrbl
+60,Docs link unavailable; .DS_Store file unnecessary

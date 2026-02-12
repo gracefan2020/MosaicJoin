@@ -1,0 +1,166 @@
+id,title
+0,/**
+1,* Available boolean operators for searches
+2,* @author robert
+3,*
+4,*/
+5,enum SearchMode {
+6,"and, or"
+7,}
+8,class Search {
+9,public String entity;
+10,public SecUser user;
+11,public Date executionDate;
+12,public int id; // Is only used when this query is saved in session
+13,public String entity;
+14,public SearchMode searchMode = SearchMode.and
+15,protected List criteria;
+16,protected List results;
+17,public List getCriteria() { return criteria; }
+18,public void setCriteria( List c ) { criteria = c; }
+19,public void addCriterion( Criterion c ) {
+20,if( criteria )
+21,criteria << c;
+22,else
+23,criteria = [c];
+24,}
+25,public List getResults() { return results; }
+26,public void setResults( List r ) { results = r; }
+27,public List filterResults( List selectedIds ) {
+28,if( !selectedIds || !results )
+29,return results
+30,return results.findAll {
+31,selectedIds.contains( it.id )
+32,}
+33,}
+34,public Map getResultFields() { return resultFields; }
+35,/**
+36,* Executes a search based on the given criteria. Should be filled in by
+37,* subclasses searching for a specific entity
+38,* Executes a search based on the given criteria.
+39,*/
+40,public void execute() {
+41,this.executionDate = new Date();
+42,}
+43,switch( searchMode ) {
+44,case SearchMode.and:
+45,executeAnd();
+46,break;
+47,case SearchMode.or:
+48,executeOr();
+49,break;
+50,}
+51,}
+52,/**
+53,* Executes an inclusive (AND) search based on the given criteria. Should be filled in by
+54,* subclasses searching for a specific entity
+55,*/
+56,public void executeAnd() {
+57,}
+58,/**
+59,* Executes an exclusive (OR) search based on the given criteria. Should be filled in by
+60,* subclasses searching for a specific entity
+61,*/
+62,public void executeOr() {
+63,}
+64,/**
+65,"protected List filterEntityList( List entities, List criteria, Closure check ) {"
+66,if( !entities || !criteria || criteria.size() == 0 ) {
+67,return entities;
+68,}
+69,if( searchMode == SearchMode.and )
+70,return entities;
+71,else if( searchMode == SearchMode.or )
+72,return []
+73,}
+74,return entities.findAll { entity ->
+75,for( criterion in criteria ) {
+76,"if( !check( entity, criterion ) ) {"
+77,return false;
+78,}
+79,if( searchMode == SearchMode.and ) {
+80,for( criterion in criteria ) {
+81,"if( !check( entity, criterion ) ) {"
+82,return false;
+83,}
+84,}
+85,return true;
+86,} else if( searchMode == SearchMode.or ) {
+87,for( criterion in criteria ) {
+88,"if( check( entity, criterion ) ) {"
+89,return true;
+90,}
+91,}
+92,return false;
+93,}
+94,return true;
+95,}
+96,}
+97,*/
+98,"public static def prepare( def value, TemplateFieldType type ) {"
+99,if( value == null )
+100,return value
+101,switch (type) {
+102,case TemplateFieldType.DATE:
+103,}
+104,}
+105,}
+106,/**
+107,"def value = valueCallback( study, criterion );"
+108,if( value == null )
+109,if( value == null ) {
+110,return false
+111,}
+112,if( value instanceof Collection ) {
+113,return criterion.matchAny( value )
+114,def ctx = ApplicationHolder.getApplication().getMainContext();
+115,"def moduleCommunicationService = ctx.getBean(""moduleCommunicationService"");"
+116,def allEntities = []
+117,if( searchMode == SearchMode.or ) {
+118,allEntities += entities;
+119,entities = [];
+120,}
+121,// Loop through all modules and check whether criteria have been given
+122,// for that module
+123,"def json = moduleCommunicationService.callModuleRestMethodJSON( module.url, callUrl );"
+124,// The data has been retrieved. Now walk through all criteria to filter the samples
+125,"entities = filterEntityList( entities, moduleCriteria, { entity, criterion ->"
+126,"Closure checkClosure = { entity, criterion ->"
+127,// Find the value of the field in this sample. That value is still in the
+128,// JSON object
+129,}
+130,// Loop through all values and match any
+131,for( val in value ) {
+132,// Convert numbers to a long or double in order to process them correctly
+133,// Convert numbers to a long or double in order to process them correctly
+134,def values = value.collect { val ->
+135,val = val.toString();
+136,if( val.isLong() ) {
+137,val = Double.parseDouble( val );
+138,}
+139,return val;
+140,}
+141,// Loop through all values and match any
+142,for( val in values ) {
+143,if( criterion.match( val ) )
+144,return true;
+145,return false;
+146,});
+147,}
+148,// The data has been retrieved. Now walk through all criteria to filter the samples
+149,if( searchMode == SearchMode.and ) {
+150,"entities = filterEntityList( entities, moduleCriteria, checkClosure );"
+151,} else if( searchMode == SearchMode.or ) {
+152,"entities += filterEntityList( allEntities - entities, moduleCriteria, checkClosure );"
+153,entities = entities.unique();
+154,}
+155,} catch( Exception e ) {
+156,resultFields[ id ] = [:]
+157,// Handle special cases
+158,if( value == null )
+159,"value = """";"
+160,if( value instanceof Collection ) {
+161,value = value.findAll { it != null }
+162,}
+163,resultFields[ id ][ fieldName ] = value;
+164,}

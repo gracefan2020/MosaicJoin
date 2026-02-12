@@ -1,0 +1,81 @@
+id,title
+0,Seq No.
+1,Isophotal flux
+2,X coord
+3,Error in X
+4,Y coord
+5,Error in Y
+6,Gaussian sigma
+7,Ellipticity
+8,Position angle
+9,Areal profile 1
+10,Areal profile 2
+11,Areal profile 3
+12,Areal profile 4
+13,Areal profile 5
+14,Areal profile 6
+15,Areal profile 7
+16,Areal profile 8
+17,Peak height
+18,Error in pkht
+19,Aperture flux 1
+20,Error in flux
+21,Aperture flux 2
+22,Error in flux
+23,Aperture flux 3
+24,Error in flux
+25,Aperture flux 4
+26,Error in flux
+27,Aperture flux 5
+28,Error in flux
+29,Aperture flux 6
+30,Error in flux
+31,Aperture flux 7
+32,Error in flux
+33,Aperture flux 8
+34,Error in flux
+35,Aperture flux 9
+36,Error in flux
+37,Aperture flux 10
+38,Error in flux
+39,Aperture flux 11
+40,Error in flux
+41,Aperture flux 12
+42,Error in flux
+43,Aperture flux 13
+44,Error in flux
+45,Petrosian radius
+46,Kron radius
+47,Hall radius
+48,Petrosian flux
+49,Error in flux
+50,Kron flux
+51,Error in flux
+52,Hall flux
+53,Error in flux
+54,Error bit flag
+55,Sky level
+56,Sky rms
+57,Av conf
+58,RA
+59,Dec
+60,Classification
+61,Statistic
+62,PSF flux
+63,Error in flux
+64,X coord
+65,Error in X coord
+66,Y coord
+67,Error in Y coord
+68,PSF fit chi2
+69,nu(PSF)
+70,1D Sersic flux
+71,Scale length
+72,Power index
+73,Error in fit
+74,nu(S1)
+75,2D Sersic flux
+76,Scale length
+77,Power index
+78,Error in fit
+79,nu(S2)

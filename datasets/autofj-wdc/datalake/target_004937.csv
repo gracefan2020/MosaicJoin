@@ -1,0 +1,73 @@
+id,title
+0,Enable shadow passwords
+1,Disable shadow passwords
+2,Hash/crypt algorithm to be used
+3,Enable NIS for user account configuration
+4,Disable NIS for user account configuration
+5,Specify an NIS domain
+6,Specify an NIS server
+7,Enable LDAP for user account configuration
+8,Disable LDAP for user account configuration
+9,Enable use of TLS with LDAP
+10,Disable use of TLS with LDAP
+11,Enable use of RFC-2307bis schema for LDAP user information lookups
+12,Disable use of RFC-2307bis schema for LDAP user information lookups
+13,Enable LDAP for authentication
+14,Disable LDAP for authentication
+15,Specify an LDAP server
+16,Specify an LDAP base DN (Distinguished Name)
+17,Load a CA certificate from the specified URL
+18,Enable Kerberos for authentication
+19,Disable Kerberos for authentication
+20,Specify Kerberos KDC server
+21,Specify Kerberos administration server
+22,Specify Kerberos realm
+23,Enable use of DNS to find Kerberos KDCs
+24,Disable use of DNS to find Kerberos KDCs
+25,Enable use of DNS to find Kerberos realms
+26,Disable use of DNS to find Kerberos realms
+27,Enable winbind for user account configuration
+28,Disable winbind for user account configuration
+29,Enable winbindauth for authentication
+30,Disable winbindauth for authentication
+31,Character used to separate the domain and user part of winbind usernames if winbindusedefaultdomain is not enabled
+32,Directory that winbind users have as their home
+33,Group that winbind users have as their primary group
+34,Shell that winbind users have as their default login shell
+35,Configures winbind to assume that users with no domain in their usernames are domain users
+36,Configures winbind to assume that users with no domain in their usernames are not domain users
+37,Joins the winbind domain or ADS realm as the specified administrator
+38,Configures winbind to allow offline login
+39,Configures winbind to prevent offline login
+40,Security mode to use for the Samba and Winbind services
+41,Default realm for Samba and Winbind services when security is set to ads
+42,Enable Wins for hostname resolution
+43,Disable Wins for hostname resolution
+44,Enable SSSD for user information
+45,Disable SSSD for user information
+46,Enable nscd
+47,Disable nscd
+48,Local authorization is sufficient for local users
+49,Local users are also authorized through a remote service
+50,Authenticate system accounts with network services
+51,Authenticate system accounts with local files only
+52,Check /etc/security/access.conf during account authorization
+53,Do not check /etc/security/access.conf during account authorization
+54,Create a home directory for a user on the first login
+55,Do not create a home directory for a user on the first login
+56,Enable authentication with a smart card
+57,Disable authentication with a smart card
+58,Require smart card for authentication
+59,Do not require smart card for authentication
+60,Default smart card module to use
+61,Action to be taken when smart card removal is detected
+62,Enable fingerprint authentication
+63,Disable fingerprint authentication
+64,"Do not start or stop the portmap, ypbind, or nscd services even if they are configured"
+65,"Do not update the configuration files, only print the new settings"
+66,"Opposite of --test, update configuration files with changed settings"
+67,Update all configuration files
+68,Probe and display network defaults
+69,Save a backup of all configuration files
+70,Restore a backup of all configuration files
+71,Restore the backup of configuration files saved before the previous configuration change

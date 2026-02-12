@@ -1,0 +1,101 @@
+id,title
+0,paludis::ReportTask dubs virtual/alsa (new-style) as unused
+1,Wrong options order for tar
+2,subversion support does not handle URL svn+ssh scheme correctly
+3,document how to merge configuration file changes
+4,kusi owes rbrown £10
+5,paludis-0.26.0_alpha3 fails to build
+6,-fomit-frame-pointer in default bashrc supplied by paludis lossage
+7,Playman doesn't run
+8,Security set does not work
+9,cameras_* is not a valid choice name with prefix
+10,unmet required use constraints
+11,reasons of blocks are not complete in all cases
+12,Trailing whitespace at vdb environment variable values
+13,"""cave import"" does not allow same version installed in multiple slots"
+14,Global arch.list?
+15,randomly select mirrors
+16,dep list destinations
+17,CRAN is broken for destinations
+18,CHOST etc should be stored in ebin metadata
+19,ebin env var query is broken
+20,ebin origins
+21,ebin EBUILD is wrong
+22,hooks need to know DESTINATION
+23,ebin should write CATEGORIES
+24,mask by CHOST
+25,ebin KEYWORDs should be stripped
+26,ebin drops DEPEND
+27,mkdir fails if parent directory not yet existent => use mkdir --parents
+28,multiple suffixes in version
+29,Fix CRAN
+30,Fix Gems
+31,Fix QA / qualudis
+32,Fix ebins
+33,lt-visitor_TEST and lt-visitor_cast_TEST fail on PowerPC64
+34,paludis doesn't reinstall after error in merge phase
+35,--info displays incorrect CXXFLAGS
+36,Unable to umnask dev-libs/boost-1.37.0 and dev-utils/boost-build-1.37.0
+37,cave-resolve useflag rdepend problem
+38,Internal error - segmentation fault
+39,File access quite slow
+40,sys-apps/hal-0.5.7.1-r3::gentoo fails to compile
+41,CRAN repos should allow for multiple sync urls
+42,Insane message when checking comiler flags sanity
+43,extend --report
+44,sync deleting repo_name
+45,contrarius should put masked use flags in parentheses
+46,Wrong ${location} when in repository_defaults.conf
+47,why not support to create binary packages?
+48,Make an INSTALL_MASK hook
+49,option like 'emerge -b' to build binary packages?
+50,"--dl-blocks is ignored (always acts like ""error"") when trying to install two packages that block each other"
+51,Add a hook for die
+52,DepList Hooks
+53,"eselect repo broken, update of templates needed"
+54,strange output... why is it using fortune as a conf-file?
+55,"Paludis's ruby support requires rubygems, but it is not a dependancy."
+56,problems setting userpriv when distfiles and/or build directory is automounted
+57,Unexpeced downgrade
+58,Configuration editing
+59,Support for public key verification of ebuilds
+60,Expected '/usr/lib' to be a directory but found a symlink to a directory
+61,USE variable in bash command line
+62,adjutrix -w ~mips =sys-auth/pam_usb-0.4.0 gives AllMaskedError (Problems handling -arch in deptree)
+63,problems installing com_err on ppc64
+64,superfluous video card use flags with xorg-server
+65,SHA256 fails
+66,paludis has symlink problems
+67,wxpython-2.6.3.3
+68,static number for paludisbuild group
+69,CRAN Repository sync breaks Paludis with non-standard package name
+70,VersionSpec flyweight
+71,--first-uninstall support
+72,We need a new exception heirarchy
+73,Use --import rather than --sync for initial checkouts
+74,Rework DepListEntry
+75,paludis uses shell -> errors in /etc/profile and slows down paludis
+76,Split out AddVisitor
+77,Change VisitorThing::ConstItem
+78,"Dependencies not caught on ""-pi world"""
+79,Gems sync
+80,Portage/Paludis equivalent guide.
+81,baselayout-vserver fails to merge
+82,paludis should check slotted ebuilds while uninstalling with --with-dependencies
+83,syntax error in app-emulation/vmware-workstation-6.0.0.45731:vmware
+84,Paludis can't compile paludis on a gcc 3.4 hardened machine
+85,mirror.conf is also used for overlays
+86,WORKDIR should be automatically created
+87,An error message assuming too much of the user
+88,paludis fails with EXDEV when reinstalling a package (using aufs/unionfs)
+89,flac not updated
+90,tests fail: news_TEST
+91,unable to install any package
+92,--dl-override-masks doesn't make paludis consider all possibilities
+93,Paludis missed dependency block on upgrade
+94,paludis fail on doc generation for fltk package
+95,implify formatters
+96,Dep resolution screwiness with cycle breaking
+97,paludis-0.24.6 fails to build with gcc 4.2.2
+98,File dep tags
+99,paludis -o returns wrong package list

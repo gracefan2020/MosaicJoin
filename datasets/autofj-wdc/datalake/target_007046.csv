@@ -1,0 +1,64 @@
+id,title
+0,Kickoff orientation dependent layout
+1,Restore menu system
+2,Configure autostart desktop file
+3,improve fail to launch and needs config
+4,UI for selecting WMs
+5,polish kickoff
+6,toolbox improvements
+7,GHNS2 plasma themes
+8,"Resizable, relocatable panel"
+9,Refactor Solid::Control networking
+10,Backend for NetworkManager 0.7
+11,Filtering/Lazy load category modules
+12,Monitor process I/O
+13,Add printer applet for viewing print jobs and printer auto-configuration.
+14,Mac-like menu bar plasmoid
+15,Add 'smart setting' of extended colors
+16,Add KDE3 scheme import
+17,Query kwin for supported colors; add full set of kwin colors
+18,"reintroduce KDEPrint Print Management tools, e.g. KCM, kprinter, kjobviewer, etc. Depends upon progress of kdelibs side of KDEPrint and Qt4.4 feature set."
+19,Administrator mode support
+20,Revamp GUI.
+21,keyboard shortcuts
+22,webkit widget
+23,shared timer in engines
+24,welcome plasmoid
+25,dashboard widget support
+26,Plasmagik packaging (and package classes)
+27,Scriptengines
+28,QtScript scriptengine
+29,Filebrowser Plasmoid
+30,Improve QtScript support
+31,Zooming User Interface
+32,Multiple Desktop Containments
+33,Networkmanager Plasmoid and DataEngine
+34,API changes Projects/Plasma/Tokamak1
+35,Panel Toolbox
+36,Panel changes to make it work with the new default theme
+37,"Generic folder view applet/containment, that can also be used as the desktop background (showing the desktop folder)."
+38,"Configuration options for blacklisting, user ranking, runner ranking, learning"
+39,Simple learning
+40,Simple GUI for above options
+41,Runners able to share parsing
+42,Configuration dialog for KRunner
+43,Noun-Verb support
+44,Temperature sensing in the device engine
+45,Video data in the device engine
+46,New plasma themes
+47,physics-based animator
+48,Improve the base set of plasmoids
+49,New wallpapers
+50,"New way of handling wallpapers and different sizes (package format, and so on...)"
+51,Top-level windows plasmoids
+52,change showConfigurationInterfaction to createConfigurationInterface
+53,Plasma::Service
+54,panel hiding
+55,non-linear animations also for KWin
+56,Compiz's wobbly like effect for KWin
+57,Theme KDM (login manager) by default
+58,New default splashscreen
+59,Simple Desktop Search client based on Nepomuk search
+60,Add a dataengine that implements galago-project Notifications DBus interface and a plasmoid which provides cute visualization of notifications along with nice and easy way to interact with them
+61,"loadDefaultSetup from a file, not hardcoded"
+62,Make the fade-to-gray logout effect work even when composite is disabled

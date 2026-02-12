@@ -1,0 +1,50 @@
+id,title
+0,Compilation based XML processing
+1,Pure-Perl OpenPGP implementation
+2,tolerance ranges for inexact numbers
+3,"Convert, check, and inspect mobile MEID values."
+4,DateTime Calculation Utilities
+5,"Utilities related to prime numbers, including fast sieves and factoring"
+6,A perl implemantation of SimpleFlake. Inspired by https://github.com/SawdustSoftware/simpleflake
+7,OO Interface to Network devices and MIBs through SNMP
+8,an object to collect and print Logwatch events
+9,A Cleaner API for Net::AMQP::RabbitMQ
+10,Identify IPs that fall within collections of network blocks
+11,Read MaxMind DB files and look up IP addresses
+12,modular integer arithmetic
+13,An RDF Framework for Perl
+14,Miscellaneous routines to do with manipulating with strings and numbers!
+15,Mathematical paths through the 2-D plane.
+16,Sane APIs for IP addresses and networks
+17,Code shared by the MaxMind DB reader and writer modules
+18,"Convert dates to seconds since epoch, for arbritrary epochs"
+19,Decodes and encodes DOCSIS config files
+20,Manipulate 128 bits integers in Perl
+21,Encoding and decoding of base36 strings
+22,version agnostic Perl bindings for zeromq using ffi
+23,Localized number formatters using the Unicode CLDR
+24,"Extensible, high performance object-relational mapper (ORM)."
+25,Version-agnostic representation of an IP address
+26,Sphinx search engine API Perl client
+27,Asynchronous ZeroMQ sockets for POE
+28,"A Perl module for constructing memory efficient packed representations of bit vectors from different data types, and for logical and arithmetic operations on such vectors"
+29,IPv4/IPv6 address library
+30,supply object methods for interacting with GnuPG
+31,Low-level access to Win32 system API calls for files/dirs.
+32,generate short hashes from numbers
+33,A no-frills converter between 1D and 2D spaces using the Hilbert curve
+34,Translate an IDL source to an AST
+35,Translate a ECMAScript source to an AST
+36,wire protocol support functions for Cassandra CQL
+37,Translate SQL-2003 source to an AST
+38,Deal with Library-of-Congress call numbers
+39,Type constraints for numbers
+40,Secure Remote Protocol
+41,XMLSchema compatible Moose types library
+42,Libraries shared between Net::OpenID::Consumer and Net::OpenID::Server
+43,work with Mac plists at a low level
+44,Math::BigFloat wrappers for PGObject classes
+45,Combinatorial counting operations
+46,a GUI to scan any perl data structure or object
+47,common data validation methods
+48,Perl extension for updating dual-lived modules

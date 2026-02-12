@@ -1,0 +1,63 @@
+id,title
+0,header
+1,rendering options
+2,immutable options
+3,projection
+4,eye position
+5,x
+6,y
+7,z
+8,look direction
+9,x
+10,y
+11,z
+12,up direction
+13,x
+14,y
+15,z
+16,width
+17,screen distance
+18,lens diameter
+19,focal length
+20,image width
+21,image height
+22,default object color
+23,x
+24,y
+25,z
+26,seconds between saves
+27,tonemap adaptation luminance
+28,emitter path number
+29,photon map size
+30,lightsource emittance threshold
+31,emitter path length limit
+32,emitter path end threshold
+33,eye path length limit
+34,eye path end threshold
+35,display characteristics
+36,black point
+37,x
+38,y
+39,z
+40,white point
+41,x
+42,y
+43,z
+44,chromaticities XYZ x
+45,x
+46,y
+47,z
+48,chromaticities XYZ y
+49,x
+50,y
+51,z
+52,chromaticities XYZ z
+53,x
+54,y
+55,z
+56,gamma xyz
+57,x
+58,y
+59,z
+60,is illumination logging
+61,is rasterizer logging

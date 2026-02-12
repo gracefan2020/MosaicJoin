@@ -1,0 +1,66 @@
+id,title
+0,Altitude above mean sea level
+1,Altitude
+2,Altitude above ground level
+3,"Antenna transition indicator, 1 if between sweeps, otherwise 0"
+4,Azimuth angle from true north
+5,Base time in Epoch
+6,Copolar correlation coefficient (also known as rhoHV)
+7,Differential propagation phase shift
+8,Differential reflectivity
+9,Elevation angle from horizontal
+10,Target angle for sweep
+11,Follow mode
+12,Operating frequency
+13,Instrument type
+14,North latitude
+15,Latitude
+16,Radar polarization Linear depolarization ratio H
+17,East longitude
+18,Longitude
+19,Hydrometeor fall velocity Mean Doppler velocity
+20,Number of samples used to compute moments
+21,Unambiguous Doppler velocity
+22,Platform type
+23,Polarization mode
+24,Primary axis of rotation
+25,Pulse repetition time
+26,PRT mode
+27,Pulse width
+28,Index for the calibration that applies to each ray
+29,Noise floor power for horizontal copolar channel1
+30,Noise power in noise source region for horizontal copolar channel 1
+31,Noise power in noise source region for vertical cross-polar channel
+32,Noise floor for vertical cross-polar channel 2
+33,Pulse width for this calibration
+34,"Radar constant, horizontal copolar channel 1"
+35,"Radar constant, vertical cross-polar channel 2"
+36,Receiver gain for horizontal copolar channel 1
+37,Receiver gain for vertical cross-polar channel 2
+38,Time of the calibration that applies to each ray
+39,Two-way radome loss
+40,Transmit power
+41,"Nominal radar antenna gain, h channel"
+42,"Nominal radar antenna gain, v channel"
+43,"Radar beam width, horizontal channel"
+44,"Radar beam width, vertical channel"
+45,"Radar measured transmit power, h channel"
+46,Range to measurement volume
+47,Radar reflectivity Equivalent reflectivity factor
+48,"Scan rate, positive for clockwise or increasing elevation"
+49,"Sky noise, copolar"
+50,"Sky noise, cross-polar"
+51,"Sky power, copolar"
+52,"Sky power, cross-polar"
+53,Signal-to-noise-ratio
+54,Cloud particle size distribution Spectrum width
+55,"Index of last ray in sweep, 0-based"
+56,Sweep mode
+57,Sweep number
+58,"Index of first ray in sweep, 0-based"
+59,Time in seconds since volume start
+60,Time corresponding to last radial in file
+61,Time corresponding to first radial in file
+62,Time offset from base_time
+63,Unambiguous range
+64,Volume number

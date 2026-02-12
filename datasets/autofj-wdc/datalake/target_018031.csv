@@ -1,0 +1,51 @@
+id,title
+0,Chrome tests failing on Travis-CI
+1,Use latest Chrome on Travis-CI
+2,Multilingual options for menu does not work
+3,Add settings for each individual customizations that panopoly_admin makes to the node edit form
+4,"Convert accordion ""heightAuto"" to ""heightStyle"" for jQuery UI >= 1.9"
+5,Cannot enable additional panes for inclusion in mini-panel
+6,Migrate to new Travis infrastructure
+7,Does panopoly_admin really depend on panopoly_theme?
+8,Panopoly Widgets - support the Title module
+9,composer.json build requirements should be require-dev and not require
+10,"Missing comma in font-family between ""verdana sans-serif"""
+11,Date popup hover issue
+12,Assign UID 1 to 'administrator' role on install
+13,Counting Spotlight clicks
+14,Media dialog broken (possible bug)
+15,Unable to select required field destination on media upload
+16,Update media_vimeo to version 2.1
+17,Cannot override panopoly-images.css from module panopoly_image in my subtheme
+18,Media oEmbed module: SoundCloud embed shows in wysiwg text format but not on rendered node
+19,Cache Drush and Composer on Travis for builds
+20,File entity patch to improve theming of video elements
+21,"Panopoly users, default config permissions, and panealizer static cache issue"
+22,User profile image should use more appropriate image style
+23,Redirect after log-in works only partially
+24,Add Widgets local task to /admin/content
+25,[meta] Should we remove functionality from Panopoly?
+26,title_field breaks the edit form title box styling
+27,Removing non-required modules from .info / .make files
+28,"Allow users to choose which widgets are considered ""advanced"""
+29,Inlinehelp using Joyride
+30,Add autosave
+31,[META] Improve test performance on Travis-CI
+32,[META] Customize this page: Accessibility issues
+33,[meta] Refactor Behat tests
+34,[META] Perform coding style fixes
+35,Meta: translation problems
+36,Search operators
+37,Limit pane styles to certain pane types
+38,AJAX Crashing while trying to enable panes
+39,List drush command to install distribution on project page
+40,"Some images on App server have ""panoply"" instead of ""panopoly"" in the name"
+41,Update to Media 2.0-beta1 and File Entity 2.0-beta2
+42,Undefined Index on line 162 of display-edit.inc when re-arranging panels of newly created content type
+43,PHP notices generated after most test scenarios
+44,localization vs widgets
+45,Content pane title overrides
+46,"Page preparation, chaotic"
+47,"When slide in Spotlight has keyboard focus, all focus is lost when the slide changes (under Chrome)"
+48,"Move ""Use Advanced Panel Plugin"" to magic/widgets"
+49,"Change ""Use Advanced Panel Plugins"" to a permission"

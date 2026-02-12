@@ -1,0 +1,243 @@
+id,title
+0,biological_process
+1,biological regulation
+2,negative regulation of cell adhesion
+3,negative regulation of cell projection organization
+4,negative regulation of peptidase activity
+5,neuron migration
+6,regulation of activated T cell proliferation
+7,regulation of glucose metabolic process
+8,regulation of endopeptidase activity
+9,regulation of cell-substrate adhesion
+10,regulation of cell migration
+11,extracellular structure organization
+12,positive regulation of mononuclear cell proliferation
+13,regulation of cell motility
+14,regulation of carbohydrate metabolic process
+15,chondroitin sulfate metabolic process
+16,regulation of cell projection organization
+17,positive regulation of lymphocyte activation
+18,negative regulation of cell morphogenesis involved in differentiation
+19,chondroitin sulfate proteoglycan metabolic process
+20,proteoglycan metabolic process
+21,regulation of myoblast differentiation
+22,regulation of cell differentiation
+23,regulation of morphogenesis of a branching structure
+24,regulation of lymphocyte activation
+25,negative regulation of cell-substrate adhesion
+26,negative regulation of hydrolase activity
+27,regulation of neuron differentiation
+28,regulation of cytoskeleton organization
+29,aminoglycan metabolic process
+30,cell proliferation
+31,positive regulation of muscle cell differentiation
+32,regulation of epithelial cell migration
+33,negative regulation of neuron projection development
+34,single-organism process
+35,regulation of skeletal muscle tissue development
+36,cell migration
+37,regulation of leukocyte activation
+38,glycoprotein metabolic process
+39,negative regulation of cell motility
+40,cell motility
+41,regulation of cell growth
+42,negative regulation of cell migration
+43,positive regulation of leukocyte activation
+44,negative regulation of organelle organization
+45,regulation of actin filament-based process
+46,system development
+47,positive regulation of cell adhesion
+48,negative regulation of molecular function
+49,positive regulation of cell proliferation
+50,regulation of hydrolase activity
+51,regulation of molecular function
+52,regulation of biological process
+53,regulation of leukocyte proliferation
+54,regulation of immune system process
+55,regulation of lymphocyte proliferation
+56,regulation of T cell proliferation
+57,cellular process
+58,single-multicellular organism process
+59,regulation of neurogenesis
+60,regulation of muscle cell differentiation
+61,positive regulation of cell differentiation
+62,regulation of muscle organ development
+63,regulation of muscle tissue development
+64,regulation of skeletal muscle fiber development
+65,positive regulation of signaling
+66,positive regulation of cell communication
+67,regulation of signaling
+68,regulation of cell communication
+69,regulation of response to stimulus
+70,positive regulation of biological process
+71,positive regulation of lymphocyte proliferation
+72,positive regulation of T cell proliferation
+73,positive regulation of T cell activation
+74,negative regulation of biological process
+75,cellular metabolic process
+76,oxoacid metabolic process
+77,organic acid metabolic process
+78,small molecule metabolic process
+79,organic substance metabolic process
+80,metabolic process
+81,organonitrogen compound metabolic process
+82,cellular component organization
+83,neurogenesis
+84,neuron differentiation
+85,primary metabolic process
+86,macromolecule metabolic process
+87,cellular protein metabolic process
+88,macromolecule modification
+89,protein modification process
+90,regulation of multicellular organismal development
+91,negative regulation of cell development
+92,regulation of cell morphogenesis
+93,regulation of cellular metabolic process
+94,regulation of primary metabolic process
+95,multicellular organismal development
+96,anatomical structure development
+97,cellular developmental process
+98,developmental process
+99,regulation of cellular process
+100,multicellular organismal process
+101,regulation of metabolic process
+102,single-organism cellular process
+103,single-organism metabolic process
+104,nitrogen compound metabolic process
+105,cellular component organization or biogenesis
+106,protein metabolic process
+107,cellular macromolecule metabolic process
+108,localization
+109,regulation of developmental process
+110,regulation of cellular component organization
+111,regulation of signal transduction
+112,sulfur compound metabolic process
+113,regulation of catalytic activity
+114,cell differentiation
+115,negative regulation of cellular process
+116,regulation of localization
+117,positive regulation of cellular process
+118,regulation of multicellular organismal process
+119,positive regulation of response to stimulus
+120,carbohydrate derivative metabolic process
+121,cellular protein modification process
+122,nervous system development
+123,negative regulation of cellular component organization
+124,regulation of peptidase activity
+125,negative regulation of developmental process
+126,localization of cell
+127,biological adhesion
+128,negative regulation of catalytic activity
+129,regulation of cellular component movement
+130,regulation of locomotion
+131,regulation of cell proliferation
+132,regulation of cellular component biogenesis
+133,regulation of anatomical structure morphogenesis
+134,regulation of organelle organization
+135,positive regulation of developmental process
+136,regulation of nervous system development
+137,positive regulation of signal transduction
+138,positive regulation of immune system process
+139,generation of neurons
+140,central nervous system development
+141,peptidyl-amino acid modification
+142,regulation of cell development
+143,regulation of cell activation
+144,locomotion
+145,cellular component movement
+146,regulation of growth
+147,regulation of cell adhesion
+148,negative regulation of endopeptidase activity
+149,extracellular matrix organization
+150,negative regulation of cytoskeleton organization
+151,regulation of cellular carbohydrate metabolic process
+152,regulation of mononuclear cell proliferation
+153,regulation of actin cytoskeleton organization
+154,negative regulation of locomotion
+155,negative regulation of cellular component movement
+156,peptidyl-serine modification
+157,glycosaminoglycan metabolic process
+158,regulation of striated muscle cell differentiation
+159,negative regulation of cell differentiation
+160,regulation of striated muscle tissue development
+161,positive regulation of leukocyte proliferation
+162,positive regulation of cell activation
+163,cell adhesion
+164,regulation of organ morphogenesis
+165,negative regulation of multicellular organismal process
+166,regulation of T cell activation
+167,regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+168,regulation of neuron projection development
+169,regulation of cell morphogenesis involved in differentiation
+170,growth factor binding
+171,metalloendopeptidase inhibitor activity
+172,peptidase inhibitor activity
+173,metalloenzyme inhibitor activity
+174,endopeptidase regulator activity
+175,endopeptidase inhibitor activity
+176,metalloenzyme regulator activity
+177,extracellular matrix binding
+178,glycosaminoglycan binding
+179,protein phosphatase regulator activity
+180,metal ion binding
+181,ion binding
+182,molecular_function
+183,protein binding
+184,binding
+185,enzyme regulator activity
+186,cation binding
+187,peptidase regulator activity
+188,carbohydrate derivative binding
+189,enzyme inhibitor activity
+190,sulfur compound binding
+191,enzyme activator activity
+192,calcium ion binding
+193,cysteine-type endopeptidase inhibitor activity
+194,phosphatase regulator activity
+195,lateral plasma membrane
+196,sarcoplasm
+197,basal part of cell
+198,extracellular region
+199,neuromuscular junction
+200,basal plasma membrane
+201,axon part
+202,plasma membrane part
+203,tight junction
+204,occluding junction
+205,axon
+206,apical junction complex
+207,synapse
+208,cell projection part
+209,membrane part
+210,neuron part
+211,extracellular vesicular exosome
+212,basement membrane
+213,cell periphery
+214,cellular_component
+215,extracellular organelle
+216,membrane-bounded vesicle
+217,organelle
+218,membrane-bounded organelle
+219,macromolecular complex
+220,intracellular
+221,intracellular part
+222,cytoplasm
+223,cell-cell junction
+224,cell part
+225,cell
+226,protein complex
+227,membrane
+228,extracellular region part
+229,plasma membrane
+230,vesicle
+231,cell projection
+232,extracellular matrix
+233,neuron projection
+234,cell surface
+235,extracellular membrane-bounded organelle
+236,extracellular space
+237,cell junction
+238,main axon
+239,extracellular matrix part
+240,basolateral plasma membrane
+241,proteinaceous extracellular matrix

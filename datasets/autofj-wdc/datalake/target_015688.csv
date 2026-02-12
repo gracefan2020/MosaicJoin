@@ -1,0 +1,101 @@
+id,title
+0,Besser fühlen Calriphen
+1,scribble text renderer dies with a type error
+2,Unable to make 4.2.5 with shared libraries enabled.
+3,png_set_gray_1_2_4_to_8 not found while compiling
+4,compile: unbound identifier in module
+5,First line blank -> broken indenting
+6,Looks like this language extension is broken on latest version of Racket and PLT-Scheme
+7,i need rosetta
+8,fmt uses set-cdr!
+9,Parsing of missing closing HTML tags duplicates HTML elements
+10,Adding support for a testing ticket status
+11,Error with Racket 5.1.2 and bzlib
+12,Reg Fixers
+13,Cigar Site
+14,"Request for adding parser combinator ""zero"""
+15,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+16,dracula rename export example from reference docs does not work
+17,"modular acl2 unresolved import problem, useless error message"
+18,Dracula errors on (just) + or - at REPL
+19,example from docs declares IDistributeLists as a module
+20,"Modular ACL2 reacts poorly to mixing of ""code"" and exports"
+21,require error on installing
+22,apparent Scribble error during package installation
+23,slide/stage
+24,add name? to staged
+25,schememodlang/this-package + defmodulelang/this-package
+26,Feature request: lang/this-package
+27,pict-* from scheme/slideshow should combine in the order of the clauses
+28,Channel mask should be 0xf instead of 0x7
+29,(rsound-play ding) does not play in Debian sid
+30,"""not a procedure"" problem on Windows"
+31,Incompatible with mzscheme 4+
+32,"error: ""car: expects argument of type ; given ()"" on specific input"
+33,c.plt fails to install correctly
+34,make-filter-input-port hopelessly broken
+35,audit duplicate-variable errors/non-errors
+36,possible semantic issues with exceptions
+37,binding arrows in DrScheme broken
+38,errors on initial compile
+39,Fails to compile
+40,Function.prototype.toString should produce source
+41,parameter for top-level let semantics
+42,"""use lexical scope"" pragma"
+43,add an expansion phase to the compiler
+44,test infrastructure for different compilation modes
+45,coverage for compiler tests
+46,numbers are unfaithful to spec
+47,over-parenthesization in while-conditions
+48,bogon in docs
+49,implement read-only __proto__
+50,implement JavaScript library fully
+51,regular expressions aren't implemented
+52,JSON parser incorrectly parses '[' with newline and then ']'
+53,Empty file reports wrong error
+54,Support vectors
+55,Doc warnings
+56,define/memo doesn't save time for funs of arity > 1
+57,memoization is not thread-safe
+58,optional and keyword args
+59,Problem finding files - package setup/internal links
+60,compilation error on racket v5.1.3
+61,make prophecies sequences
+62,API requests
+63,make sets sequences
+64,static-page won't load for 5.2.1
+65,stream-split-at
+66,stream-partition unusable
+67,support for v3 and v4
+68,incorrect `declare-exporting'
+69,enhance define-datatype to handle #:property prop:equal+hash
+70,make-response/xhtml/full
+71,Unit test fails because of problem with reverse!
+72,Pressing end causes error
+73,Pressing unicode in command mode causes insertion
+74,"claims to install successfully, but doesn't seem to actually work"
+75,can't bind commands to capital letters
+76,f4 toggle menu item does not show keyboard shortcut
+77,`prime?' function does not check if x < 2.
+78,Documentation bug: Incorrect SCRBL markup
+79,Frequency counting benchmark hash-for-each bug
+80,Hello world doesn't compile
+81,Problem installing Whalesong
+82,sample bug
+83,Unbound identifier
+84,Running example code produces no sound
+85,same name as another planet package - confusing version numbering
+86,setup fails on hash store; hash-store.plt/1/4/hash-store.ss:9:3: expand: unbound identifier in module in: base64-filename-safe
+87,Unable to create unique indices
+88,ZeroMQ integration with Racket 5.3.2 on Windows broken in FFI-lib
+89,Negative numbers unsupported
+90,Use of {{{set-cdr!}}}
+91,Start function doesn't allow for changing fps
+92,World object doesn't export get-objects
+93,support unicode
+94,_ pattern succeeds on end of input?
+95,permissive?
+96,incomplete folders
+97,build-path: absolute path
+98,Doesnt' run
+99,Revision to previous ticket

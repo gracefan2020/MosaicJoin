@@ -1,0 +1,62 @@
+id,title
+0,Turn on internal sanity checking
+1,Dump to files instead of stdout
+2,Dump assembly
+3,Dump interpreter byte code
+4,Dump C-- output
+5,Print a one-line summary of the size of the Core program at the end of the optimisation pipeline
+6,Dump output from CPR analysis
+7,Dump CSE output
+8,Dump deriving output
+9,Dump desugarer output
+10,Dump “flat” C
+11,Dump foreign export stubs
+12,Dump after instrumentation for program coverage
+13,Dump inlining info
+14,Dump LLVM intermediate code
+15,Dump occurrence analysis output
+16,Dump the results of C-- to C-- optimising passes
+17,Dump parse tree
+18,Dump prepared core
+19,Dump renamer output
+20,Dump rule firing info
+21,Dump detailed rule firing info
+22,Dump rules
+23,Dump vectoriser input and output
+24,Dump final simplifier output
+25,Dump output from each simplifier phase
+26,Dump output from each simplifier iteration
+27,Dump specialiser output
+28,"Dump TH spliced expressions, and what they evaluate to"
+29,Dump final STG
+30,Dump strictness analyser output
+31,Dump typechecker output
+32,Dump type signatures
+33,Dump worker-wrapper output
+34,Trace interface files
+35,Trace typechecker
+36,Trace vectoriser
+37,Trace renamer
+38,Renamer stats
+39,Dump simplifier stats
+40,Suppress unsolicited debugging output
+41,Turn on debug printing (more verbose)
+42,Don't output pragma info in dumps
+43,Set the depth for printing expressions in error msgs
+44,Set the width of debugging output. For example -dppr-cols200
+45,Print single alternative case expressions as strict lets.
+46,"In core dumps, suppress everything that is suppressable."
+47,Suppress the printing of uniques in debug output (easier to use diff)
+48,Suppress extended information about identifiers where they are bound
+49,Suppress the printing of module qualification prefixes
+50,Suppress type signatures
+51,Suppress type applications
+52,Suppress the printing of coercions in Core dumps to make them shorter
+53,Dump haskell source stats
+54,C-- pass sanity checking
+55,STG pass sanity checking
+56,Dump STG stats
+57,Show output from each core-to-core pass
+58,Show output from each STG-to-STG pass
+59,Print out each pass name as it happens
+60,Show statistics for fast string usage when finished

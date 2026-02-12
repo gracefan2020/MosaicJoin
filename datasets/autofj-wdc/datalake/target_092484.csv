@@ -1,0 +1,131 @@
+id,title
+0,HEADS UP: LBER I/O rewrite
+1,Alpha4 TODO List
+2,HEADS UP: ldapd -> Attic
+3,OpenLDAP requires compiler to support STDC protottypes
+4,Re: OpenLDAP requires compiler to support STDC protottypes
+5,ACI syntax
+6,Re: ACI syntax
+7,Re: ACI syntax
+8,LDUP Replication Work
+9,Re: LDUP Replication Work
+10,HEADS UP: LDBM indexing
+11,Alpha4 Last Call
+12,Please comment
+13,More requests for comments
+14,Re: More requests for comments
+15,Re: Please comment
+16,Re: Please comment
+17,Re: Please comment
+18,DN normalization (was: Please comment)
+19,Re: Please comment
+20,Re: Please comment
+21,HEADS UPS: auto translation of T.61 strings
+22,HEADS UP: dx support removed
+23,user configurable root DSE attributes
+24,Re: HEADS UP: dx support removed
+25,Re: HEADS UP: dx support removed
+26,HEADS UP: unifdef -DSLAPD_SCHEMA_NOT_COMPAT -USLAPD_SCHEMA_COMPAT
+27,Re: libraries/*/options.c
+28,HEADS UPS: back-bdb2 -> Attic
+29,Re: Please comment
+30,threads
+31,Replication - Persitent search - What to do???
+32,Re: Replication - Persitent search - What to do???
+33,Re: ACI syntax
+34,Re: ACI syntax
+35,Re: ACI syntax
+36,Granting rights based on relationships
+37,Re: ACI syntax
+38,Re: Granting rights based on relationships
+39,Re: Granting rights based on relationships
+40,RE: Granting rights based on relationships
+41,Re: Granting rights based on relationships
+42,RE: Granting rights based on relationships
+43,RE: Granting rights based on relationships
+44,RE: Granting rights based on relationships
+45,Re: Granting rights based on relationships
+46,Re: Granting rights based on relationships
+47,"Has anyone written a ""surrogate"" parent for shell backend?"
+48,IPv6 detection
+49,"Re: Has anyone written a ""surrogate"" parent for shell backend?"
+50,"Re: Has anyone written a ""surrogate"" parent for shell backend?"
+51,Re: IPv6 detection
+52,OpenSSL Password hash method.
+53,Re: IPv6 detection
+54,Re: IPv6 detection
+55,Re: OpenSSL Password hash method.
+56,Re: openldap on alpha (fwd)
+57,Re: Please comment
+58,Re: Please comment
+59,openldap-2.0/TLS certificate error
+60,Re: openldap-2.0/TLS certificate error
+61,Question on old schema support
+62,Re: Question on old schema support
+63,Re: Question on old schema support
+64,RE: openldap-2.0/TLS certificate error
+65,RE: openldap-2.0/TLS certificate error
+66,RE: openldap-2.0/TLS certificate error
+67,Distribution Lists
+68,Re: openldap-2.0/TLS certificate error
+69,Re: openldap-2.0/TLS certificate error
+70,RE: openldap-2.0/TLS certificate error
+71,Authentication & Login sessions
+72,RE: Authentication & Login sessions
+73,Re: Authentication & Login sessions
+74,Re: Authentication & Login sessions
+75,Re: commit: ldap/servers/slapd dn.c
+76,All tests passed on Dec Alpha OSF4.0e
+77,ITS#578: prototype macros
+78,corrupted binary attributes
+79,Re: All tests passed on Dec Alpha OSF4.0e
+80,Re: ITS#578: prototype macros
+81,Re: All tests passed on Dec Alpha OSF4.0e
+82,Re: ITS#578: prototype macros
+83,Re: corrupted binary attributes
+84,Two problems with pre-Alpha4
+85,Re: Two problems with pre-Alpha4
+86,Re: Two problems with pre-Alpha4
+87,Re: Two problems with pre-Alpha4
+88,Re: Two problems with pre-Alpha4
+89,OpenLDAP 2.0-Alpha4 Available
+90,__NEED_PROTOTYPES vs. LDAP_NEED_PROTOTYPES
+91,Re: __NEED_PROTOTYPES vs. LDAP_NEED_PROTOTYPES
+92,How to do statistics in ldap?
+93,Re: How to do statistics in ldap?
+94,Shortcutting on a local server
+95,Help with VB an LDAP
+96,ldapmodify with 2.0 on win2000
+97,Re: Help with VB an LDAP
+98,Re: Shortcutting on a local server
+99,"Strange problems... (index_read NULL, index_change_values)"
+100,LAST CALL: Changes for OpenLDAP 2.0-beta
+101,HEADS UP: command line tools changes
+102,"Re: Strange problems... (index_read NULL, index_change_values)"
+103,Re: Shortcutting on a local server
+104,Re: ldapmodify with 2.0 on win2000
+105,2.0 TO DO List
+106,Re: 2.0 TO DO List
+107,Re: openldap-2.0/TLS certificate error
+108,configuration problem
+109,Re: configuration problem
+110,PRNG not seeded
+111,RE: PRNG not seeded
+112,RE: PRNG not seeded
+113,RE: PRNG not seeded
+114,RE: PRNG not seeded
+115,Compiling using ldap.h and lber.h the corresponding libraries
+116,Re: 2.0 TO DO List
+117,Re: Compiling using ldap.h and lber.h the corresponding libraries
+118,ldap_simple_bind_s core dump
+119,Re: ldap_simple_bind_s core dump
+120,Encrypted password
+121,slapd problems under stress
+122,Re: slapd problems under stress
+123,encrypted password
+124,Re: encrypted password
+125,Re: slapd problems under stress
+126,Re: slapd problems under stress
+127,Re: slapd problems under stress
+128,Re: slapd problems under stress
+129,booleanPretty (Was: Boolean Syntax not implemented (ITS#612))

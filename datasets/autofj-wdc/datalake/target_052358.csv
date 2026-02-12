@@ -1,0 +1,57 @@
+id,title
+0,Clean up the database. I am syncing with the BlueObelisk data repository again. There we decided to remove the density (not a element property but a compound property. I also removed the mean weight. We think it is better to provide correct data than a lot (but partly wrong) data.
+1,Calculator Plasmoid
+2,Vector support
+3,"A physics simulator, move from playground to kdeedu module"
+4,Update the snapshot of libavogadro to 0.6.1. This introduces a gazillion new possibilities for the 3D renderer and fixes many issues.
+5,Make use of the new libavogadro-version.
+6,Expose molecular editing features of libavogadro.
+7,Port Kalzium's periodic table to use new QGraphicsView.
+8,Tool to predict Conjunctions
+9,DGML2 Support
+10,KDE-Version settings dialog
+11,Port authors list from the Qt-About dialog to the KDE-About dialog
+12,Qt-Version settings dialog
+13,Improved KML support
+14,OpenStreetMap support using original OSM tiles
+15,Real Time Cloud-Cover
+16,Map Contents translation
+17,Copy position to clipboard
+18,Create Tiles on compile time
+19,Mercator Projection
+20,More generic projection support
+21,Usage of Marble in non-widgets
+22,Export map to MxN pixel bitmap
+23,Support for MarbleWidget::setEnabled( bool )
+24,Layer Management Class
+25,Plugin architecture for map layers
+26,Rewrite of the classic test writing/taking application
+27,Redesigned main window
+28,Vocabulary Plasmoid
+29,Merge in 1 app
+30,Plasmoid to access Kalzium database
+31,Improve GUI for creating gas and softbody
+32,Variables share between calculations
+33,Export canvas as image
+34,Optional rulers/grid for canvas units
+35,Add command line
+36,Add a color picker
+37,Declensions
+38,Improved printing support
+39,Number support
+40,Theme manager
+41,Add a Open File action
+42,Integrate an editor
+43,Plasmoid
+44,Theme manager
+45,Visual indicator when letter is wrong
+46,Link radselect with kiten
+47,Sort output by dictionary/user selected sorting values
+48,Use common constraints handling code for collisions
+49,Cubic-line intersection in case two of the three intersection points are already present
+50,Properties dialog for objects.
+51,Improve construction of bisect lines.
+52,Improve feedback when constructing objects.
+53,More geometric objects.
+54,Script objects as macros (to be reused more than once).
+55,Improve the Cabri import filter.

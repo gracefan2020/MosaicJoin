@@ -1,0 +1,101 @@
+id,title
+0,SyntaxError su file rest.htm
+1,Pianificazione ordini interGAS
+2,Le Decurtazioni modificate e ripetute vengono sommate
+3,Gruppo: parole chiave da usare per i ticket
+4,Whitespaces alla fine del name delle ProductCategory
+5,"Un referente fornitore può sospendere un patto di solidarietà tramite bottone ""modifica"""
+6,[Decurtazione Gasista] Non si aggiorna il blocco delle decurtazioni se lo stato dell'ordine deve passare ad Archived
+7,[email] visualizzazione e utilizzo nel software delle mail degli utenti
+8,Il GAS rileva ordini aperti su un patto di solidarietà anche se non li ha aperti lui
+9,"Mettere utente, timestamp di login nelle sessioni"
+10,Gestione efficace delle anagrafiche
+11,Il modello `Icon` non e' definito
+12,Variabile indefinita: `pstore`
+13,Variabile indefinita: `records`
+14,Integrare django-workflows nel gestionale
+15,"Aggiungere la colonna ""data di consegna"" nel blocco ""Paniere"""
+16,Visualizzare lo storico degli ordini fatti da un gasista
+17,Paniere modificato da aggiungi famiglia in decurtazione
+18,Decurtazione a 0 in prima battuta
+19,"Non mostrare tra gli ordini da pagare quelli chiusi, ma pagati"
+20,Eliminare la possibilità accidentale che si creino Decurtazioni Multiple su un singolo ordine
+21,Il produttore e i suoi prodotti in vetrina
+22,Mettere il link alle liste nella vetrina
+23,Anagrafiche: MapAndReduceModel per Place e Contact
+24,Anagrafica: forms.PlaceField e forms.ContactField
+25,Trasferire nel documento di analisi funzionale le esigenze
+26,Modello economico
+27,Implementare un meccanismo di gestione dei surplus di produzione
+28,Implementare un meccanismo per l'apertura di OrdiniProduttore periodici
+29,Definire come associare le certificazioni ai Produttori
+30,Azioni del Motore
+31,Interazione produttori
+32,Retina Ordine
+33,Borsellino
+34,Mancanza di notifiche via mail in fase di registrazione dell'utente
+35,Decurtazioni ordini non corrette quando un importo utente è 0
+36,Ancora Errori nella visualizzazione degli ordini Archiviati
+37,Decurtazione utente senza spesa (valore nullo)
+38,Reply Mailing list
+39,Des popup Crea soggetto form validation
+40,Manca un resoconto unico e totale degli ordini multigas
+41,Associare una foto ad ogni prodotto nel DES
+42,Write unit tests for the `auth` application
+43,Add an example of model-level state management
+44,Definire quali sono i tipi di transazione rilevanti per i DES
+45,Implementare nei modelli una API per l'accesso alle informazioni finanziarie
+46,Write unit tests for `django-simple-accounting` app
+47,Implementazione di un sistema di rating per i Produttori/Prodotti
+48,Definire quali soggetti possono esprimere una valutazione sui Produttori
+49,Stilare una policy per la privacy
+50,Gestione personalizzata report ordini fornitore
+51,"Notifiche settimanali/mensili su ""cose da sistemare"""
+52,[GASMember] Add role
+53,Ottimizzare la leggibilita' dei report PDF
+54,Organizzazione gestione asset informatici del DES
+55,"Spunti di Euclides Mance (flussi, pianificazione produzione, prezzo equo)"
+56,Installazioni di Gasista Felice nei territori: server regionale?
+57,"Visualizzazione liste ""ad icone"""
+58,Aggiornare chi ha già attivato lo sviluppo di piattaforme web per i GAS
+59,Temi caldi
+60,Temi da proporre all'incontro nazionale dell'Economia Solidale di Collecchio
+61,Modifica Modello Product per gestione categorie
+62,Mail crea-modifica prodotto
+63,Fixture Mappatura Categorie
+64,Verifica metodo UGLY Supplier.accounting.missing_accounts
+65,Possibilità di aumentare/decrementare in percentuale e in assoluto la decurtazione
+66,Export csv della lista movimenti
+67,Multipli punti di consegna
+68,Nome visualizzato della persona
+69,[Cerca] Add Models GASMember e GASSupplierOrderPact
+70,Where we should put workflow-related data ?
+71,Il modo migliore per salvare disponibilità periodiche
+72,Analisi modello Configurazione GAS
+73,Notificare la variazione della disponibilita' di un prodotto nel paniere
+74,Migliorare l' aspetto logistico dell' ordine finale (Report) al produttore
+75,Variazione minore alla API dei blocchi: attributi request e resource
+76,Ricerca in griglia
+77,Definire una procedura di completamento automatico di un OrdineProduttore
+78,Magazzino
+79,Consentire ai gasisti di pianificare i propri ordini
+80,Validazione modello per prodotti e categorie
+81,Consumatori particolari
+82,Un referente deve poter creare una nuova categoria
+83,Cambio password per il produttore
+84,Email di chiusura da ordini interGAS annulati
+85,introdure campo economico balance nei soggetti
+86,Write a test to check consistency of worklow-related data
+87,Solidal pact act
+88,Modifica modello Supplier
+89,Gestione degli ordini inter-GAS a livello di modello Django
+90,Conferma dell'attivazione di un patto di solidarietà
+91,Implementare un sistema di reportistica relativa alle statistiche generali del DES
+92,Implementare un meccanismo di SSO
+93,Risalire la filiera
+94,"Prevedere diversi ""tipi di ordine"""
+95,Esportazione degli ordini in formati x foglio di calcolo
+96,"Scrivere unit tests per la ""Resource API"""
+97,Preparazione script per migrazione-in-use
+98,Lista predefinita di acquisto
+99,Configurazione fornitore (SupplierConfig): motivazioni

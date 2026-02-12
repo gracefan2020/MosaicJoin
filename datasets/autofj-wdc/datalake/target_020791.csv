@@ -1,0 +1,51 @@
+id,title
+0,episode
+1,episode.search
+2,episode.setstatus
+3,exceptions
+4,future
+5,history
+6,history.clear
+7,history.trim
+8,logs
+9,show
+10,show.addexisting
+11,show.addnew
+12,show.cache
+13,show.delete
+14,show.getbanner
+15,show.getposter
+16,show.getquality
+17,show.pause
+18,show.refresh
+19,show.seasonlist
+20,show.seasons
+21,show.setquality
+22,show.stats
+23,show.update
+24,shows
+25,shows.stats
+26,sb
+27,sb.addrootdir
+28,sb.checkscheduler
+29,sb.deleterootdir
+30,sb.forcesearch
+31,sb.getdefaults
+32,sb.getmessages
+33,sb.getrootdirs
+34,sb.pausebacklog
+35,sb.ping
+36,sb.restart
+37,sb.searchtvdb
+38,sb.setdefaults
+39,sb.shutdown
+40,Special Commands
+41,debug
+42,profile
+43,help
+44,callback / jsonp
+45,Miscellaneous
+46,change log
+47,api builder
+48,advanced api
+49,disclaimer

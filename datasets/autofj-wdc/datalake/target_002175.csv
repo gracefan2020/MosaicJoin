@@ -1,0 +1,232 @@
+id,title
+0,Add adjacent word with interlock.
+1,Add two multiple-precision binary numbers.
+2,Add two quadwords times.
+3,Analyze a string descriptor.
+4,Analyze a string descriptor. 1
+5,Assign a channel to a mailbox.
+6,Check for active AST.
+7,Attach a terminal to a process.
+8,Test and clear a bit with interlock.
+9,Test and set a bit with interlock.
+10,Build a node-name specification.
+11,Call a procedure with a general argument list.
+12,Call a procedure with a general argument list. 1
+13,Transform a byte to the first character of a string.
+14,Compare two node names.
+15,Compress a node name to its short form equivalent.
+16,Convert a date string to a quadword.
+17,Calculate a cyclic redundancy check (CRC).
+18,Construct a cyclic redundancy check (CRC) table.
+19,Create a directory.
+20,Create a user-defined storage zone.
+21,Create a user-defined storage zone. 1
+22,Create a new storage zone.
+23,Create a new storage zone. 1
+24,Insert a key in the cross-reference table.
+25,Insert a reference to a key in the cross-reference table.
+26,Output some cross-reference table information.
+27,Get the system currency symbol.
+28,Convert internal time to external time (F-floating value).
+29,Convert internal time to external time (IEEE S-floating value).
+30,Convert external time to internal time (F-floating value).
+31,Convert external time to internal time (IEEE S-floating value).
+32,Convert the specified data type.
+33,Convert internal time to external time.
+34,Convert external time to internal time.
+35,Convert 7-word vector to internal time.
+36,Convert numeric text to binary.
+37,Convert numeric text to binary. 1
+38,Return the date and time as a string.
+39,Return the day number as a longword integer.
+40,Return the numeric day of the week.
+41,Decode instruction stream during a fault. 2
+42,Enable or disable decimal overflow detection. 2
+43,Delete one or more files.
+44,Delete a logical name.
+45,Delete a CLI symbol.
+46,Delete a virtual memory zone.
+47,Delete a virtual memory zone. 1
+48,Get the digit separator symbol.
+49,Disable CLI interception of control characters.
+50,Execute the specified command.
+51,Perform an extended-precision divide.
+52,Perform extended multiply and integerize for D-floating values.
+53,Perform extended multiply and integerize for F-floating values.
+54,Perform extended multiply and integerize for G-floating values.
+55,Perform extended multiply and integerize for H-floating values. 2
+56,Perform extended multiply and integerize for IEEE S-floating values.
+57,Perform extended multiply and integerize for IEEE T-floating values.
+58,Perform an extended-precision multiply.
+59,Enable CLI interception of control characters.
+60,Establish a condition handler. 2 3
+61,Expand a node name to its full name equivalent.
+62,Extract a field and sign-extend.
+63,Extract a zero-extended field.
+64,Find the first clear or set bit.
+65,Convert a device and file ID to a file specification.
+66,Perform a file scan.
+67,End a file scan.
+68,Find a file.
+69,End of find file.
+70,Merge activate an image symbol.
+71,Find the next valid zone.
+72,Find the next valid zone. 1
+73,Fit a node name into an output field.
+74,Fix floating reserved operand. 2
+75,Detect a floating-point underflow. 2
+76,Format a date and/or time.
+77,Format protection mask. 4
+78,Free the context used to format a date.
+79,Free an event flag.
+80,Free a logical unit number.
+81,Free timer storage.
+82,Free virtual memory from the program region.
+83,Free virtual memory from the program region. 1
+84,Free a virtual memory page.
+85,Free a virtual memory page. 1
+86,Get device/volume information.
+87,Get job/process information.
+88,Get queue information.
+89,Get systemwide information.
+90,Get access name table for a security object identified by name. 4
+91,Get access name table for a security object identified by $GET_SECURITY or $SET_SECURITY context. 4
+92,Get line from SYS$COMMAND.
+93,Get string from common area.
+94,Get current invocation context. 1
+95,Return the user's date input format.
+96,Get an event flag.
+97,Get foreign command line.
+98,Get the offset to the starting position of the most significant part of a full name.
+99,Get host node name.
+100,Get line from SYS$INPUT.
+101,Get invocation context. 1
+102,Get invocation handle. 1
+103,Get logical unit number.
+104,Get the maximum possible date/time string length.
+105,Get previous invocation context. 1
+106,Get previous invocation handle. 1
+107,Get the value of a CLI symbol.
+108,Return the user's language choice.
+109,Allocate virtual memory.
+110,Allocate virtual memory. 1
+111,Get a virtual memory page.
+112,Get a virtual memory page. 1
+113,Convert the first character of a string to an integer.
+114,Allocate and initialize an invocation context block. 5
+115,Get current invocation context. 5
+116,Deallocate an invocation context block. 5
+117,Get current invocation handle. 5
+118,Get floating-point register value. 5
+119,Get general register value. 5
+120,Get invocation handle. 5
+121,Get invocation context. 5
+122,Get previous invocation context. 5
+123,Free memory used to process unwind descriptors. 5
+124,Get previous invocation handle. 5
+125,"Given a pc_value, find the function value (address of the procedure descriptor) for the condition handler, if present, and write it to handler_fv. 5"
+126,Find Address of Unwind Information Block Language-Specific Data. 5
+127,Find address of the unwind information block operating system-specific data area. 5
+128,Initialize an invocation context block that has already been allocated. 5
+129,Determine whether a given PC value represents an AST dispatch frame. 5
+130,Determine whether a given PC value represents an exception dispatch frame. 5
+131,Update register contetnts using a given invocation context. 5
+132,Free memory used tp process unwind descriptors. 5
+133,Write context of invocation context block. 5
+134,Write invocation block general register value. 5
+135,Write pc_copy value of invocation context block. 5
+136,Index to relative position of substring.
+137,Initialize the context used in formatting date/time strings.
+138,Initialize times and counts.
+139,Insert entry in a balanced binary tree.
+140,Insert entry in a balanced binary tree. 1
+141,Insert entry at the head of a queue.
+142,Insert entry at the head of a queue. 1
+143,Insert entry at the tail of a queue.
+144,Insert entry at the tail of a queue. 1
+145,Insert a variable bit field.
+146,Detect integer overflow. 2
+147,Return the length of a string as a longword.
+148,Locate a character.
+149,Lock a specified image in the process's working set.
+150,Look up keyword in table.
+151,Look up an entry in a balanced binary tree.
+152,Look up an entry in a balanced binary tree. 1
+153,Specify the number of lines on each printer page.
+154,"Match characters, return relative position."
+155,Match condition values.
+156,Move characters.
+157,Move characters with fill.
+158,Move translated characters.
+159,Move translated until character.
+160,Multiply delta time by F-floating scalar.
+161,Multiply delta time by IEEE S-floating scalar.
+162,Multiply delta time by scalar.
+163,Parse access-encoded name string. 4
+164,Parse protection string. 4
+165,Pause program execution.
+166,Evaluate polynomials for D-floating values.
+167,Evaluate polynomials for F-floating values.
+168,Evaluate polynomials for G-floating values.
+169,Evaluate polynomials for H-floating values. 2
+170,Evaluate polynomials for IEEE S-floating values.
+171,Evaluate polynomials for IEEE T-floating values.
+172,Put string into common area.
+173,Put invocation registers. 1
+174,Put line to SYS$OUTPUT.
+175,Radix point symbol.
+176,Remove entry from head of queue.
+177,Remove entry from head of queue. 1
+178,Remove entry from tail of queue.
+179,Remove entry from tail of queue. 1
+180,Rename one or more files.
+181,Reserve an event flag.
+182,Reset virtual memory zone.
+183,Reset virtual memory zone. 1
+184,Revert to the handler of the procedure activator. 2 3
+185,Run new program.
+186,Scan for characters and return relative position.
+187,Copy source string by descriptor to destination.
+188,Copy source string by reference to destination.
+189,Copy source string by reference to destination. 1
+190,Set logical name.
+191,Set the value of a CLI symbol.
+192,Free one or more dynamic strings.
+193,Free n dynamic strings.
+194,Get one dynamic string.
+195,Get one dynamic string. 1
+196,Show accumulated times and counts.
+197,Show virtual memory statistics.
+198,Show virtual memory statistics. 1
+199,Display information about a virtual memory zone.
+200,Display information about a virtual memory zone. 1
+201,Signal exception condition.
+202,Convert a signaled message to a return status.
+203,Convert a signaled condition to a signaled stop.
+204,Simulate floating trap. 2
+205,Skip equal characters.
+206,Skip selected characters.
+207,Spawn a subprocess.
+208,Return accumulated time and count statistics.
+209,Return virtual memory statistics.
+210,Return virtual memory statistics. 1
+211,Stop execution and signal the condition.
+212,Perform multiple-precision binary subtraction.
+213,Subtract two quadword times.
+214,Invoke $ASCTIM to convert binary time to ASCII.
+215,Invoke $FAO system service to format output.
+216,Invoke $FAOL system service to format output.
+217,Invoke $FAOL system service to format output. 1
+218,Invoke $GETMSG system service to get message text.
+219,"Implement a table-driven, finite-state parser."
+220,"Implement a table-driven, finite-state parser. 2"
+221,Traverse a balanced binary tree.
+222,Traverse a balanced binary tree. 1
+223,Translate ASCII to EBCDIC.
+224,Translate EBCDIC to ASCII.
+225,Fit a long file specification into a fixed field.
+226,Trim a full name to fit into a desired output field.
+227,Unlock a specified image in the process's working set.
+228,Verify a virtual memory zone.
+229,Verify a virtual memory zone. 1
+230,Wait a specified period of time.

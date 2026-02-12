@@ -1,0 +1,101 @@
+id,title
+0,nodes too small
+1,stretch yahoo if possible?
+2,Segment direction is reversed
+3,Potlatch displaying deleted ways
+4,ways created in reverse direction
+5,Potlach: fit to screen size
+6,Potlach: display all nodes
+7,Potlatch continues pretending to work after a login session expires
+8,Small adjustments to the position of a node are ignored by Potlatch
+9,tabbing whilst in tagging dialog
+10,Duplicating segments & nodes
+11,Potlach: orphaned segments while adding node into segment
+12,GPX display broken
+13,selecting a node off-center causes node to move
+14,yahoo layer bugs
+15,Landsat background
+16,preset tag for lake is wrong
+17,Overflow when selecting a node with 12+ tags
+18,Potlatch deletes the whole way when canceling drawing an extension with esc in certain conditions
+19,more presets available for POI labels
+20,add more Potlatch presets
+21,add a POI or tagging pallete
+22,Potlatch: waterway=stream should be displayed blue
+23,Offset Yahoo imagery
+24,Potlatch makes duplicated nodes at intersections
+25,Potlatch makes duplicated nodes at intersections
+26,Potlatch makes duplicated nodes at intersections
+27,Potlatch and objects with lots of tags
+28,Magic roundabout button
+29,history in potlatch shows users who have not made their edits public
+30,PoI node icon when part of Way
+31,Multiple s with the same ref in a way
+32,Preset suggestions from mailing list
+33,Potlatch yahoo image displays in the wrong zoom level
+34,Potlatch yahoo image displays in the wrong zoom level
+35,ways not connected when placed over existing node
+36,Potlatch should prevent two-node circular ways
+37,"Can't select way if there's another way ""on top"""
+38,new edits may vanish
+39,Inconsistencies in OSM data
+40,Potlatch history and large ways
+41,show the node count of a way in potlatch edit mode
+42,key-area in edit-mode does not get cleaned correctly
+43,Potlatch is showing wrong tags
+44,Yahoo imagery slightly offset when using Flash Player 'Zoom in' option
+45,Double vs triple-click
+46,"""Temporary"" POIs aren't being deleted on way save"
+47,Potlatch improvements for Swindon project
+48,Allow redo for latest edit action
+49,Yahoo! imagery does not immediately appear in Potlatch
+50,Show trackpoints of GPS-tracks
+51,"Store aerial imagery preference by string, not number"
+52,Stop people creating 'city' when they don't mean to
+53,Link to data browser from potlatch
+54,Dragging background imagery around with space
+55,Requesting Yahoo on every click?
+56,Add background layer tagging
+57,potlatch should tag objects with the imagery used
+58,Deleting all nodes from a way in Potlatch
+59,Revert bug?
+60,Undeleting long ways
+61,whichways when communication broken ('!')
+62,"Show ""waterside"" on coastline ways"
+63,Show direction of closed ways and allow to change it
+64,Lauri Hahne's suggestions
+65,Adding new point can make the line not-straight
+66,whichways enlargement is probably too big
+67,Require user to actively choose 'practice' or 'edit'
+68,Autocomplete clicks on keys don't work for freeform values
+69,button to user page from history in potlatch
+70,Handle GPXs that haven't processed yet
+71,Typing a tag name overwrites anything with the half-complete name
+72,Relations enhancements
+73,potlatch doesn't work right on small screens
+74,Deleting ways with relations breaks (returns 500)
+75,Colour different types of route relations according to network/transport type etc.
+76,Changing tags doesn't update preset menu
+77,Tabbing through new tag doesn't work properly
+78,New potlatch x-sign in keys is over text in some cases
+79,Allow connecting waypoints for old ways
+80,filter list of relations depending on type of way
+81,[patch] Display names of other types of routes
+82,Show nodes with keys
+83,potlatch creates broken (one-node) way
+84,potlatch created duplicate node
+85,Indicate loading status in gpx edit mode
+86,Autosplit long ways created from GPX
+87,Identify tile
+88,footway / footpath confusion
+89,Encoding problems with Linux Flash Player
+90,Add service to available tags from car icon in Potlatch
+91,"""Are you sure"" confirmation before abaNdoning new ways"
+92,Geotools (modified Potlatch)
+93,Auto-completion for key values
+94,Potlatch no longer shows waypoints in GPX mode
+95,Long GPX tracks not drawn till end
+96,Drag-and-drop icons for Potlatch
+97,"Last used relation should be suggested first, ordered by used"
+98,Potlatch relation display has no EXIT function
+99,Error reverting joined ways

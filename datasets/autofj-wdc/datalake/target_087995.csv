@@ -1,0 +1,50 @@
+id,title
+0,Total number of institutions
+1,Total assets (thousands $)
+2,Total deposits (thousands $)
+3,Number of institutions by minority code (Min Cd)
+4,1 African American
+5,5 Caucasian Women
+6,10 Hispanic
+7,20 Asian Americans
+8,30 Native Americans
+9,35 Eskimos
+10,37 Aleuts
+11,39 Low Income Credit Union
+12,99 Other Minorities
+13,Total
+14,Number of institutions by Federal Reserve System membership status
+15,Member - Federally charterd
+16,Member - State chartered
+17,Nonmember
+18,Total
+19,Charter Class (Chr Cls) Code
+20,Each charter class is composed of three separate digits:
+21,First digit - Chartering authority
+22,0 = Not applicable
+23,1 = Federal (or National)
+24,2 = State
+25,Second digit - Federal Reserve System membership
+26,0 = Not applicable or Nonmember
+27,1 = Member
+28,Third digit - primary insurer
+29,0 = Not applicable or uninsured
+30,1 = Federal Deposit Insurance Corp/Bank Insurance Fund
+31,2 = FDIC/Savings Association Insurance Fund
+32,3 = National Credit Union Share Insurance Fund
+33,4 = State
+34,5 = Other
+35,6 = FDIC/BIF and FDIC/SAIF
+36,7 = Deposit Insurance Fund (DIF) - the FDIC merged BIF &
+37,"SAIF Mar 30, 2006 to form DIF"
+38,Entity Type (Ent Type)
+39,NAT = National Bank
+40,SMB = State Member Bank
+41,NMB = Non-member Bank
+42,FSB = Federal Savings Bank
+43,SSB = State Savings Bank
+44,SAL = Savings & Loan Association
+45,FCU = Federal Credit Union
+46,CRU = Credit Union
+47,Holding Company Number
+48,0 = Not applicable (Independent entity)

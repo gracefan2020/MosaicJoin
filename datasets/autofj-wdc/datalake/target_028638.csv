@@ -1,0 +1,316 @@
+id,title
+0,All Occupations
+1,Management Occupations
+2,Chief Executives
+3,General and Operations Managers
+4,Legislators
+5,Sales Managers
+6,Administrative Services Managers
+7,Computer and Information Systems Managers
+8,Financial Managers
+9,Industrial Production Managers
+10,"Transportation, Storage, and Distribution Managers"
+11,Construction Managers
+12,"Education Administrators, Elementary and Secondary School"
+13,"Education Administrators, Postsecondary"
+14,Food Service Managers
+15,Medical and Health Services Managers
+16,Social and Community Service Managers
+17,Business and Financial Operations Occupations
+18,"Wholesale and Retail Buyers, Except Farm Products"
+19,"Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+20,Compliance Officers
+21,Cost Estimators
+22,Human Resources Specialists
+23,Management Analysts
+24,"Compensation, Benefits, and Job Analysis Specialists"
+25,Training and Development Specialists
+26,Market Research Analysts and Marketing Specialists
+27,"Business Operations Specialists, All Other"
+28,Accountants and Auditors
+29,Appraisers and Assessors of Real Estate
+30,Loan Officers
+31,Tax Preparers
+32,Computer and Mathematical Occupations
+33,Computer Systems Analysts
+34,Computer Programmers
+35,Database Administrators
+36,Network and Computer Systems Administrators
+37,Computer User Support Specialists
+38,Computer Network Support Specialists
+39,Architecture and Engineering Occupations
+40,Surveyors
+41,Electrical Engineers
+42,Industrial Engineers
+43,Mechanical Engineers
+44,Petroleum Engineers
+45,Architectural and Civil Drafters
+46,Civil Engineering Technicians
+47,Electrical and Electronics Engineering Technicians
+48,Surveying and Mapping Technicians
+49,"Life, Physical, and Social Science Occupations"
+50,"Environmental Scientists and Specialists, Including Health"
+51,"Clinical, Counseling, and School Psychologists"
+52,Chemical Technicians
+53,"Environmental Science and Protection Technicians, Including Health"
+54,"Life, Physical, and Social Science Technicians, All Other"
+55,Community and Social Service Occupations
+56,"Educational, Guidance, School, and Vocational Counselors"
+57,Rehabilitation Counselors
+58,"Counselors, All Other"
+59,"Child, Family, and School Social Workers"
+60,Healthcare Social Workers
+61,Probation Officers and Correctional Treatment Specialists
+62,Social and Human Service Assistants
+63,Legal Occupations
+64,Lawyers
+65,Paralegals and Legal Assistants
+66,"Title Examiners, Abstractors, and Searchers"
+67,"Education, Training, and Library Occupations"
+68,"Business Teachers, Postsecondary"
+69,"Computer Science Teachers, Postsecondary"
+70,"Mathematical Science Teachers, Postsecondary"
+71,"Agricultural Sciences Teachers, Postsecondary"
+72,"Biological Science Teachers, Postsecondary"
+73,"Psychology Teachers, Postsecondary"
+74,"Health Specialties Teachers, Postsecondary"
+75,"Nursing Instructors and Teachers, Postsecondary"
+76,"Education Teachers, Postsecondary"
+77,"Criminal Justice and Law Enforcement Teachers, Postsecondary"
+78,"Art, Drama, and Music Teachers, Postsecondary"
+79,"Recreation and Fitness Studies Teachers, Postsecondary"
+80,"Vocational Education Teachers, Postsecondary"
+81,"Preschool Teachers, Except Special Education"
+82,"Kindergarten Teachers, Except Special Education"
+83,"Elementary School Teachers, Except Special Education"
+84,"Middle School Teachers, Except Special and Career/Technical Education"
+85,"Career/Technical Education Teachers, Middle School"
+86,"Secondary School Teachers, Except Special and Career/Technical Education"
+87,"Career/Technical Education Teachers, Secondary School"
+88,"Special Education Teachers, Kindergarten and Elementary School"
+89,"Special Education Teachers, Secondary School"
+90,"Teachers and Instructors, All Other, Except Substitute Teachers"
+91,Substitute Teachers
+92,Librarians
+93,Library Technicians
+94,Instructional Coordinators
+95,Teacher Assistants
+96,"Arts, Design, Entertainment, Sports, and Media Occupations"
+97,Floral Designers
+98,Merchandise Displayers and Window Trimmers
+99,Coaches and Scouts
+100,Public Relations Specialists
+101,Healthcare Practitioners and Technical Occupations
+102,"Dentists, General"
+103,Pharmacists
+104,Surgeons
+105,"Physicians and Surgeons, All Other"
+106,Occupational Therapists
+107,Physical Therapists
+108,Respiratory Therapists
+109,Speech-Language Pathologists
+110,Veterinarians
+111,Registered Nurses
+112,Medical and Clinical Laboratory Technologists
+113,Medical and Clinical Laboratory Technicians
+114,Dental Hygienists
+115,Radiologic Technologists
+116,Emergency Medical Technicians and Paramedics
+117,Pharmacy Technicians
+118,Veterinary Technologists and Technicians
+119,Ophthalmic Medical Technicians
+120,Licensed Practical and Licensed Vocational Nurses
+121,Medical Records and Health Information Technicians
+122,"Opticians, Dispensing"
+123,Occupational Health and Safety Specialists
+124,Occupational Health and Safety Technicians
+125,Healthcare Support Occupations
+126,Home Health Aides
+127,Nursing Assistants
+128,Physical Therapist Assistants
+129,Physical Therapist Aides
+130,Dental Assistants
+131,Medical Assistants
+132,Pharmacy Aides
+133,Protective Service Occupations
+134,First-Line Supervisors of Correctional Officers
+135,First-Line Supervisors of Police and Detectives
+136,Firefighters
+137,Correctional Officers and Jailers
+138,Detectives and Criminal Investigators
+139,Police and Sheriff's Patrol Officers
+140,Security Guards
+141,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
+142,"Protective Service Workers, All Other"
+143,Food Preparation and Serving Related Occupations
+144,Chefs and Head Cooks
+145,First-Line Supervisors of Food Preparation and Serving Workers
+146,"Cooks, Fast Food"
+147,"Cooks, Institution and Cafeteria"
+148,"Cooks, Restaurant"
+149,"Cooks, Short Order"
+150,Food Preparation Workers
+151,Bartenders
+152,"Combined Food Preparation and Serving Workers, Including Fast Food"
+153,"Counter Attendants, Cafeteria, Food Concession, and Coffee Shop"
+154,Waiters and Waitresses
+155,"Food Servers, Nonrestaurant"
+156,Dining Room and Cafeteria Attendants and Bartender Helpers
+157,Dishwashers
+158,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop"
+159,Building and Grounds Cleaning and Maintenance Occupations
+160,First-Line Supervisors of Housekeeping and Janitorial Workers
+161,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
+162,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+163,Maids and Housekeeping Cleaners
+164,Pest Control Workers
+165,Landscaping and Groundskeeping Workers
+166,Personal Care and Service Occupations
+167,First-Line Supervisors of Personal Service Workers
+168,Nonfarm Animal Caretakers
+169,Amusement and Recreation Attendants
+170,Funeral Attendants
+171,"Hairdressers, Hairstylists, and Cosmetologists"
+172,Childcare Workers
+173,Personal Care Aides
+174,Fitness Trainers and Aerobics Instructors
+175,Recreation Workers
+176,Residential Advisors
+177,Sales and Related Occupations
+178,First-Line Supervisors of Retail Sales Workers
+179,First-Line Supervisors of Non-Retail Sales Workers
+180,Cashiers
+181,Counter and Rental Clerks
+182,Parts Salespersons
+183,Retail Salespersons
+184,Advertising Sales Agents
+185,Insurance Sales Agents
+186,"Securities, Commodities, and Financial Services Sales Agents"
+187,"Sales Representatives, Services, All Other"
+188,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+189,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+190,Real Estate Sales Agents
+191,"Sales and Related Workers, All Other"
+192,Office and Administrative Support Occupations
+193,First-Line Supervisors of Office and Administrative Support Workers
+194,"Switchboard Operators, Including Answering Service"
+195,Bill and Account Collectors
+196,Billing and Posting Clerks
+197,"Bookkeeping, Accounting, and Auditing Clerks"
+198,Payroll and Timekeeping Clerks
+199,Procurement Clerks
+200,Tellers
+201,"Court, Municipal, and License Clerks"
+202,"Credit Authorizers, Checkers, and Clerks"
+203,Customer Service Representatives
+204,"Eligibility Interviewers, Government Programs"
+205,File Clerks
+206,"Hotel, Motel, and Resort Desk Clerks"
+207,"Interviewers, Except Eligibility and Loan"
+208,"Library Assistants, Clerical"
+209,Loan Interviewers and Clerks
+210,New Accounts Clerks
+211,Order Clerks
+212,"Human Resources Assistants, Except Payroll and Timekeeping"
+213,Receptionists and Information Clerks
+214,"Information and Record Clerks, All Other"
+215,Couriers and Messengers
+216,"Police, Fire, and Ambulance Dispatchers"
+217,"Dispatchers, Except Police, Fire, and Ambulance"
+218,"Meter Readers, Utilities"
+219,Postal Service Clerks
+220,Postal Service Mail Carriers
+221,"Production, Planning, and Expediting Clerks"
+222,"Shipping, Receiving, and Traffic Clerks"
+223,Stock Clerks and Order Fillers
+224,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+225,Executive Secretaries and Executive Administrative Assistants
+226,Legal Secretaries
+227,Medical Secretaries
+228,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+229,Data Entry Keyers
+230,Insurance Claims and Policy Processing Clerks
+231,"Office Clerks, General"
+232,"Office Machine Operators, Except Computer"
+233,"Farming, Fishing, and Forestry Occupations"
+234,"First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+235,"Farmworkers, Farm, Ranch, and Aquacultural Animals"
+236,Construction and Extraction Occupations
+237,First-Line Supervisors of Construction Trades and Extraction Workers
+238,Brickmasons and Blockmasons
+239,Carpenters
+240,Cement Masons and Concrete Finishers
+241,Construction Laborers
+242,"Paving, Surfacing, and Tamping Equipment Operators"
+243,Operating Engineers and Other Construction Equipment Operators
+244,Electricians
+245,"Painters, Construction and Maintenance"
+246,Pipelayers
+247,"Plumbers, Pipefitters, and Steamfitters"
+248,Helpers--Electricians
+249,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters"
+250,Construction and Building Inspectors
+251,Highway Maintenance Workers
+252,"Rotary Drill Operators, Oil and Gas"
+253,"Service Unit Operators, Oil, Gas, and Mining"
+254,"Roustabouts, Oil and Gas"
+255,"Installation, Maintenance, and Repair Occupations"
+256,"First-Line Supervisors of Mechanics, Installers, and Repairers"
+257,"Telecommunications Equipment Installers and Repairers, Except Line Installers"
+258,Automotive Body and Related Repairers
+259,Automotive Service Technicians and Mechanics
+260,Bus and Truck Mechanics and Diesel Engine Specialists
+261,Farm Equipment Mechanics and Service Technicians
+262,"Mobile Heavy Equipment Mechanics, Except Engines"
+263,Tire Repairers and Changers
+264,"Control and Valve Installers and Repairers, Except Mechanical Door"
+265,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+266,Industrial Machinery Mechanics
+267,"Maintenance Workers, Machinery"
+268,Electrical Power-Line Installers and Repairers
+269,Telecommunications Line Installers and Repairers
+270,"Maintenance and Repair Workers, General"
+271,"Helpers--Installation, Maintenance, and Repair Workers"
+272,"Installation, Maintenance, and Repair Workers, All Other"
+273,Production Occupations
+274,First-Line Supervisors of Production and Operating Workers
+275,Electrical and Electronic Equipment Assemblers
+276,Team Assemblers
+277,"Assemblers and Fabricators, All Other"
+278,Bakers
+279,Butchers and Meat Cutters
+280,Food Batchmakers
+281,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
+282,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+283,Machinists
+284,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic"
+285,Tool and Die Makers
+286,"Welders, Cutters, Solderers, and Brazers"
+287,"Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic"
+288,Printing Press Operators
+289,Laundry and Dry-Cleaning Workers
+290,Sewing Machine Operators
+291,Cabinetmakers and Bench Carpenters
+292,Water and Wastewater Treatment Plant and System Operators
+293,Chemical Equipment Operators and Tenders
+294,"Grinding and Polishing Workers, Hand"
+295,"Mixing and Blending Machine Setters, Operators, and Tenders"
+296,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
+297,"Inspectors, Testers, Sorters, Samplers, and Weighers"
+298,Packaging and Filling Machine Operators and Tenders
+299,Helpers--Production Workers
+300,Transportation and Material Moving Occupations
+301,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+302,First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators
+303,"Bus Drivers, School or Special Client"
+304,Driver/Sales Workers
+305,Heavy and Tractor-Trailer Truck Drivers
+306,Light Truck or Delivery Services Drivers
+307,Taxi Drivers and Chauffeurs
+308,Automotive and Watercraft Service Attendants
+309,Crane and Tower Operators
+310,Excavating and Loading Machine and Dragline Operators
+311,Industrial Truck and Tractor Operators
+312,Cleaners of Vehicles and Equipment
+313,"Laborers and Freight, Stock, and Material Movers, Hand"
+314,"Packers and Packagers, Hand"

@@ -1,0 +1,139 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. AFC
+4,vs. NFC
+5,vs. Own Division
+6,Grass
+7,Turf
+8,Outdoors
+9,Indoors
+10,Day Games
+11,Split
+12,October
+13,November
+14,December
+15,January
+16,On Saturday
+17,On Sunday
+18,On Monday
+19,Games 1-8
+20,Games 9-16
+21,Outdoor Temp 21-40 F
+22,Outdoor Temp 41-60 F
+23,Outdoor Temp < 40 F
+24,Clear Weather
+25,Split
+26,As Starter
+27,As Substitute
+28,In Wins/Ties
+29,In Losses
+30,1st Half
+31,2nd Half
+32,1st Qtr
+33,2nd Qtr
+34,3rd Qtr
+35,4th Qtr
+36,Last 2 Min. Half
+37,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+38,Score Diff > 7 points
+39,Final Margin 7 pts or less
+40,"4th Qtr, +/-7 Pts"
+41,Split
+42,1st Down
+43,2nd Down
+44,3rd Down
+45,Own 1-19
+46,Own 20-39
+47,Between 40s
+48,Opp 39-20
+49,Opp 19-Goal
+50,Opp 9-Goal
+51,"First down, 10 yds to go"
+52,Plays gaining 20+ yds
+53,Split
+54,vs. CIN
+55,vs. DAL
+56,vs. NO
+57,vs. ARI
+58,vs. PIT
+59,vs. SF
+60,vs. SEA
+61,Split
+62,3Com Park
+63,Trans World Dome
+64,Heinz Field
+65,Split
+66,vs NFC East teams
+67,vs NFC West teams
+68,Split
+69,3rd & Goal
+70,"1st Down, 8-10 To Go"
+71,"1st Down, 6+ To Go"
+72,"2nd Down, 3-7 To Go"
+73,"2nd Down, 8-10 To Go"
+74,"2nd Down, 11+ To Go"
+75,"2nd Down, < 6 To Go"
+76,"2nd Down, 6+ To Go"
+77,"3rd Down, 0-2 To Go"
+78,"3rd Down, 3-7 To Go"
+79,"3rd Down, < 6 To Go"
+80,"3rd Down, 6+ To Go"
+81,Split
+82,Final Margin 0-7
+83,Final Margin 8-14
+84,Final Margin 15+
+85,Winning 22+
+86,Winning 15-21
+87,Winning 8-14
+88,Winning 1-7
+89,When Tied
+90,Losing 1-7
+91,When Winning
+92,When Trailing
+93,In Losing Games Started
+94,Split
+95,Carries 1-5
+96,Carries 6-10
+97,Carries 11-15
+98,Carries 16-20
+99,Runs of 10+ yards
+100,Split
+101,Attempts 1-10 of game
+102,Attempts 11-20 of game
+103,Attempts 21-30 of game
+104,Split
+105,0 Tight Ends
+106,1 Tight End
+107,2 Tight Ends
+108,3+ Tight Ends
+109,No Offensive Motion
+110,Offensive Motion
+111,4 on Def. Line
+112,5 on Def. Line
+113,6 on Def. Line
+114,> 6 on Def. Line
+115,Shotgun
+116,Pro Form
+117,I-Formation
+118,Single Back
+119,0-1 Wide Receivers
+120,2 Wide Receivers
+121,3 Wide Receivers
+122,4+ Wide Receivers
+123,Split
+124,Right Side
+125,Left Side
+126,Middle
+127,Left Sideline
+128,Right Sideline
+129,Pass Thrown Behind Line of Scrimmage
+130,Pass Thrown 1-10 yds
+131,Pass Thrown 11-20 yds
+132,Split
+133,Blitz
+134,QB Under Pressure
+135,QB Knocked Down
+136,Pass Overthrown
+137,Pass Defensed

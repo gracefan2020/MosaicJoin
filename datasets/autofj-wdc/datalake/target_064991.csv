@@ -1,0 +1,200 @@
+id,title
+0,script.xlc overwritten with incorrect path information when
+1,Macros are loaded before document itself
+2,ThisComponent not setting correctly with a draw document.
+3,Copy and Paste objects
+4,Rotate multiple objects
+5,Office should show an error message by trying to insert an e
+6,Writer-Page Preview-Preview Zoom did not show the largest al
+7,"Named object gets no name in ""Change order"""
+8,Move along curve not implemented in OOo1 975
+9,Import from PPT gives wrong connected connectors
+10,Attempts to open .ppt file cause OpenOffice to hang (shadows
+11,"slides in the ""Slides panel"" get unselectable"
+12,Outline wordwrap different from slideview
+13,Bad implementation of Order Window
+14,Fullscreen/slide pane bugs with imported PPT presentation
+15,Stylist doesn't works on design-slide witout any associated
+16,Master Design slides get deleted when no slide uses them
+17,"""Master Mode"" is very confusing, error-prone and not coheren"
+18,Textbox in Template new strategy to wide
+19,font type has been changed
+20,Need including fonts
+21,Powerpoint document crashes OOo on import
+22,Mail Merge Still Lacks the ability to automatically suppress
+23,Should not copy M$ GUI styles; about integrity of GUI look
+24,Make an option to switch off toolbar gradients
+25,Mail Merge Wizard seems to lack field template for common U.
+26,ability to postion floating toolbar in the toolbar areas
+27,OOo Base crashes on query edit
+28,Long initial delay when connecting via ODBC
+29,Repagination of a document with OLE objects at page boundary
+30,"Office window ""x"" close button should always appear"
+31,Display of invalid combining sequences broken with some Unic
+32,Align Malay locale data with CLDR
+33,Impress - Some items were not translated to Brazilian Portug
+34,Some buttons of the Presentation Assistent are not translate
+35,Draw - Some items were not translated to Brazilian Portugues
+36,Calc - Some items were not translated to Brazilian Portugues
+37,"Base - ""Help"" and ""Cancel"" buttons should be translated to B"
+38,Base - Some items were not translated to Brazilian Portugues
+39,"Writer - the item ""Table"" is not translated to brazilian por"
+40,incorrectly imported chart - regression
+41,Linux PowerPC m67 packages cannot be build register componen
+42,libxmlsec ->defining symbol NEED_LEADING_UNDERSCORE not nee
+43,extensions : lot of problems building nsplugin on Mac OSX SR
+44,OO can't gets pictures from ms.com when I copy-paste all int
+45,Load Styles... from Master Document
+46,unnecessary reformatting when dragging rows
+47,Very long undo string in menu makes Edit menu unusable
+48,To enable the option 'vertical ruler' in Writer
+49,Document does not have same formatting in OO 1.1.3 and 1.9.7
+50,Update the Wizards (fonts and dictionaries)
+51,Could not find Help page / Help ID: 10256
+52,"Should have separate font for each script as in Mozilla, ins"
+53,"When 'show Nonprinting characters', space after Thai text ca"
+54,Interoperability with MS Word - text language doesn't conver
+55,Number and currency spellout
+56,Need feature for easy manual override of incorrect word brea
+57,Thai date formats non-functional
+58,Font size for default fonts needs to be configurable for eac
+59,Optional bell/flash when invalid input sequence entered
+60,Should have visual feedback for current keyboard layout (e.g
+61,No warning box needed for PDF export
+62,PDF export to existing file gives General i/o error
+63,PDF Export options to reduce file size
+64,PDF widget button action should match OOo action
+65,Export to PDF without Commands
+66,True Type Font WINGDINGS2 Doesn't print correctly
+67,Mail Merged file counts every page as 2 pages
+68,Uncorrect Tagging of PDF Exports
+69,Writer won't close after printing
+70,Incorrectly prints .odt file
+71,General Input Output error when export to PDF
+72,Fixes -lstdc++ missing in soltools/HIDCompiler/makefile.mk
+73,need -lgcc_s in NetBSD for store/util
+74,ZH_CN: Context menu text error in Impress
+75,The countries' name aren't translated in Swedish correctly
+76,Document that causes crash when printed on certain printers
+77,Installation delete dictionaries
+78,Badly Viewed Filenames for the Macro Assignments Saving in C
+79,After Install of JMF:OOo crashes after insert mov-file as pl
+80,com.sun.star.ui.dialogs.FilePicker does not work in macro wi
+81,"""Page Number"" displays ""Page Numbers"" in field name view"
+82,Build instructions for the Mac OSX port of S68m71s1
+83,Update set_soenv and solenv to support MIPSpro 7.4
+84,Build fail in np_sdk
+85,Build problem in libxmlsec
+86,Notes on compiling for Solaris 10 with Studio 10
+87,Porting OpenOffice.org 2.0 for NetBSD 2.0 on x86
+88,internal error 2352
+89,"Needs Spec: Make Calc ""Data Validity"" more powerful and easi"
+90,Large font family installed using fontconfig confuses OOo
+91,"General input/output error on ""save"""
+92,Table of Contents does not export custom-named styles to MS
+93,incorrect RTF export of special characters (UTF)
+94,Problems saving in Word 97/2000/XP formats
+95,incorrect pagination in imported msword document
+96,chapter numbering lost on opening 1.1.4 template
+97,crash when opening specific documents
+98,digital signatures - broken display of locale specific chara
+99,Unable to open table
+100,unable to get table data from oracle 9i via oracle odbc
+101,"After new db file, table button shows error"
+102,"""Can't Undo/Redo"" fixed message"
+103,Ctrl + A is unable to make selection of all objects while ed
+104,New Default database could not have tables / no properties /
+105,Clicking 'Tables' in left pane causes connection error
+106,Screen redraw slow in table view
+107,Address Data Source / Mozilla: Could not load the library li
+108,Bug with fullscreen mode
+109,"When large numbers of tables in an Oracle database, some tab"
+110,Cannot create tables with Oracle 10g
+111,"Creating Oracle 10g table gives ""ORA-00906: missing left par"
+112,OOo crashes reliably on Create Report AND crashes crashrep o
+113,"Form Wizard in Base launches Writer, not the wizard"
+114,"OO ""Base"" is so generic a name it is very hard to search"
+115,Trying to create database causes dialog box and lockup when
+116,Extra (unneeded) page generated by Report Wizard
+117,Background image chosen by Headers and Footers of Report Wiz
+118,Database Application Locks Up
+119,Language Pack Installer doesn't detects newer 1.9.x version
+120,Insert secondary keys as part of the composite key of a tabl
+121,Font work gallery improvement.
+122,Usability: Page size should automatically set to size of an
+123,better placement for text on connector
+124,Dimension line could not be coppeled with an other object
+125,add modifying point/handle to shape 'magnetic disc'
+126,undo/restore history in basic editor
+127,Support StarOffice launch without user install directory or
+128,ability to cancel document restoration
+129,separation of advanced preferences
+130,Document Conversion should be more discreet.
+131,Localisation ISO 8601
+132,Suggestions for improving File->New->Templates and Documents
+133,Splash screen takes over desktop
+134,toolbar 'presentation' - button 'slide' - tooltip should be
+135,videos can't be started/stopped during presentation with jmf
+136,Motion Paths |Custom Animation is missing distance
+137,"Change order, from Modify effect is not high enough"
+138,connector 'follows' object
+139,Combine Connector Dialogs
+140,Impossibility to hide or move the views bar
+141,Document automatically to slides (Slides from outline)
+142,hyperlinks should support word wrap
+143,Calc Find/Replace does not provide 'whole words only' checkb
+144,Incorporate ooextras and openclipart into OOo
+145,Administrator priviledges required for OOo installation.
+146,Docking for Find dialog
+147,Remember last formatting
+148,Missing Other Common Sizes of Desktop Icons
+149,remove checkbox infront of menu icon and make the icon 'pres
+150,"Add numbers to list of availbel windows in ""Window"" menu"
+151,Recycle Bin Icon in 'Program Maintenance' Dialog
+152,unable to install under Debian Sarge
+153,Use original MS Office icons for its file types or replace b
+154,Provide handles to objects inside the form / report for bett
+155,Create Primary only available through right-click context me
+156,No Way to Share Database Applications and have multiple peop
+157,Autodetection of language of typed text
+158,Hard to set H and V Rulers to an exact unit size - provide t
+159,No close button for media player
+160,Convert table to text converts the whole table even if a row
+161,Writer - horizontal scroll bar appears even when there's now
+162,Partial reset in Tools-Customize
+163,Please make OpenOffice 2.0 word count meaningful
+164,hyperlink dialog uses nonstandard alternative to ok / cancel
+165,Enhance display of Breaks (Nonprinting Characters)
+166,record case changes
+167,pt-BR translation: Format menu. Frame not translated
+168,pt-BR translation: Tools Macros menu entry not translated
+169,pt-BR translation: Table menu. Menu not translated
+170,Up One Level - dropdown button has contradictory visual lang
+171,Checkboxes are not visible
+172,"In German installation, replace ""Vervollständigen"" by ""Voll"
+173,Redraw: Auto completion suggestion cancelation leaves junk
+174,Thesaurus Crashes when word is selected
+175,word completion collects words from help
+176,Zoom Level is not Preserved on Closing a Document
+177,Insert->Fields->File Name inserts Doc Title
+178,keypad insert and keypad delete don't work
+179,KDE themes not rendered correctly
+180,middle-click on Scrollbar is broken on Unix
+181,Make Styles in Template Management more discoverable by addi
+182,Too few space for German text in installation wizard
+183,"when Stylist and Navigator docked, navigator get sometimes r"
+184,UI froze for a while when cut and pasting Image from slow se
+185,PDF export dialog: inactive text edit field not greyed out
+186,PDF page transtions: Follow document instead of always use i
+187,print-ranges are set incorrect
+188,Filter addition
+189,no visual indicator for anchor button
+190,Cannot copy/paste between spreadsheet components of 2.0bc an
+191,Duplicate field on DataPilot
+192,Copy/Paste a table from Writer to Calc
+193,OLE Objects are very unstable when importing from excel spre
+194,text box shifted in print view
+195,Saving large Spreadsheet document takes 8 times longer in na
+196,CTRL should suppress toolbar docking (like MS Office and oth
+197,Changing alignment changes fonts
+198,Terminal Server opens document in wrong session using shell

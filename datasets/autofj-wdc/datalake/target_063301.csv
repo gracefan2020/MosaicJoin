@@ -1,0 +1,124 @@
+id,title
+0,General
+1,European Solution
+2,International user interface
+3,Web 2.0 interfaces
+4,Modularity
+5,Connection reliability
+6,Secure data transmissions (TLS)
+7,AJAX Interface
+8,Web theme modification
+9,Developpement possibilities
+10,Integrated Documentation
+11,External (X509) certificates support
+12,High Avalaibility
+13,Software Solution
+14,Virtual Appliance / Box solution
+15,Extensible portal
+16,Risk Overview
+17,Documentation
+18,Training
+19,Performances
+20,EPS max (per node)
+21,Collector parallelisation
+22,Manager parrallelisation
+23,Correlator parallelisation
+24,Load balancing
+25,Correlation speed
+26,Compatibility
+27,Syslog compatibility (TCP/UDP/SSL)
+28,Snort
+29,Suricata
+30,Ossec
+31,Sagan
+32,Samhain
+33,ClamAV
+34,Supported devices
+35,WMI compatibility
+36,XML import
+37,SDEE Agent (IPS Cisco)
+38,Agent SDK
+39,Rights management
+40,Filterscreation
+41,Rights isolation
+42,Customized Views
+43,Fine-grained rights
+44,Profile management
+45,LDAP (S) authentication
+46,Single Sign-On (SSO)
+47,Collect
+48,Agentless
+49,IDMEF compatibility (RFC 4765)
+50,Syslog compatibility
+51,"IDMEF connector : Snort, Suricata, Ossec, Samhain, etc."
+52,Development toolkit for new probes
+53,High performance database
+54,Manager relaying
+55,Reverse relaying (DMZ)
+56,Rules Compatibility certified
+57,Reputation Database
+58,Standardisation
+59,IDMEF (RFC 4765)
+60,IODEF (RFC 5070) (creation)
+61,IODEF (RFC 5070) (storage)
+62,HTTP(S)
+63,LDAP(S)
+64,Syslog
+65,SMTP
+66,Selection/Correlation/Agrégation
+67,Files parsing rules
+68,Parsing rules wysiwyg Interface
+69,Real time agregation
+70,Real time correlation
+71,Advanced correlation and agregation
+72,Python correlation rules
+73,Meta-langage correlation files
+74,Correlation rules wysiwyg interface
+75,ALERT
+76,Alerts dashboard
+77,Filters and views
+78,Realtime searches
+79,Alert acknowledgement/storage
+80,Advanced alert dashboard
+81,False positive management
+82,ANALYZE
+83,Static statistics
+84,Dril down statitics
+85,Alert geolocalisation
+86,Statistic Dashboard
+87,"Forensics graphs (Circos, Sankey, etc.)"
+88,MAP
+89,"Network map (devices, flows, etc.)"
+90,Map wysiwyg editor
+91,Inventory link
+92,Discovery Module
+93,Business services monitoring
+94,Incident response
+95,Integrated trouble tickets
+96,External trouble tickets possibility
+97,Knowledge base
+98,Remediation capabilities
+99,ARCHIVE
+100,Raw log storage
+101,Raw log indexation
+102,Search interface
+103,« Google syntax » search
+104,Graph and statistics generation
+105,Log export
+106,ITIL
+107,Assets management
+108,Help-Desk
+109,Discovery Module
+110,Inventory Agent
+111,Worflow management
+112,REPORT
+113,PDF alerts export
+114,"Simple reporting (PDF, DOC, EXCEL, etc)"
+115,Advanced reporting
+116,Ad'hoc reports
+117,Dashboard creation
+118,VULN
+119,External scanner correlation
+120,Vulnerabilities scanner
+121,Contract and support
+122,Professional support and maintenance : bronze – silver -gold

@@ -1,0 +1,315 @@
+id,title
+0,Embedded Ada
+1,Embedded COBOL
+2,Embedded Fortran
+3,Embedded MUMPS
+4,Embedded Pascal
+5,Embedded PL/I
+6,Basic dynamic SQL
+7,Extended dynamic SQL
+8,Untyped SQL-invoked function arguments
+9,Dynamic specification of cursor attributes
+10,Non-extended descriptor names
+11,Extensions to embedded SQL exception declarations
+12,Enhanced execution rights
+13,Module language Ada
+14,Module language C
+15,Module language COBOL
+16,Module language Fortran
+17,Module language MUMPS
+18,Module language Pascal
+19,Module language PL/I
+20,Routine language Ada
+21,Routine language C
+22,Routine language COBOL
+23,Routine language Fortran
+24,Routine language MUMPS
+25,Routine language Pascal
+26,Routine language PL/I
+27,Routine language SQL
+28,Module language Ada: VARCHAR and NUMERIC support
+29,Routine language Ada: VARCHAR and NUMERIC support
+30,Updatable queries with subqueries
+31,Module language
+32,TIMESTAMP in DATE type precedence list
+33,Basic diagnostics management
+34,GET DIAGNOSTICS statement
+35,SET TRANSACTION statement: DIAGNOSTICS SIZE clause
+36,Enhanced diagnostics management
+37,All diagnostics
+38,Multiple module support
+39,TRUNCATE TABLE: identity column restart option
+40,Comma-separated predicates in simple CASE expression
+41,UNIQUE predicate
+42,CORRESPONDING in query expressions
+43,Schema definition statement
+44,CREATE VIEW: WITH CHECK OPTION
+45,MERGE statement
+46,Enhanced MERGE statement
+47,MERGE statement with DELETE branch
+48,Usage tables
+49,Drop identity property clause
+50,Drop column generation expression clause
+51,Set identity column generation clause
+52,Optional normal form specification
+53,Partitioned joined tables
+54,Character set definition
+55,Named character sets
+56,Optional table constraint enforcement
+57,Assertions
+58,Subqueries in CHECK
+59,SQL-session and client module collations
+60,Translation support
+61,Additional translation documentation
+62,Deferrable constraints
+63,Referential MATCH types
+64,View CHECK enhancements
+65,Basic flagging
+66,Extended flagging
+67,Local table references
+68,Full cursor update
+69,Updatable scrollable cursors
+70,Updatable ordered cursors
+71,LIKE_REGEX predicate
+72,OCCURENCES_REGEX function
+73,POSITION_REGEX function
+74,SUBSTRING_REGEX function
+75,TRANSLATE_REGEX function
+76,Octet support in regular expression operators
+77,Nonconstant regular expressions
+78,FETCH FIRST clause: PERCENT option
+79,FETCH FIRST clause: WITH TIES option
+80,Distinct data types
+81,USER_DEFINED_TYPES view
+82,Basic structured types
+83,Enhanced structured types
+84,Final structured types
+85,Self-referencing structured types
+86,Create method by specific method name
+87,Permutable UDT options list
+88,Basic reference types
+89,Enhanced reference types
+90,Create table of type
+91,Subtables
+92,Basic array support
+93,Arrays of built-in data types
+94,Arrays of distinct types
+95,Array expressions
+96,Arrays of reference types
+97,Array element assignment
+98,Type predicate
+99,Subtype treatment
+100,Subtype treatment for references
+101,SQL-invoked routines on multisets
+102,Structured type locators
+103,Array locators
+104,Multiset locators
+105,Transform functions
+106,Alter transform statement
+107,User-defined orderings
+108,Specific type method
+109,Basic multiset support
+110,Multisets of user-defined types
+111,Multisets of reference types
+112,Advanced multiset support
+113,Nested collection types
+114,Unique constraint on entire row
+115,Enhanced UNNEST
+116,Distinct types based on array types
+117,Distinct types based on distinct types
+118,MAX_CARDINALITY
+119,TRIM_ARRAY
+120,Timestamp in Information Schema
+121,BINARY and VARBINARY data types
+122,Advanced support for BINARY and VARBINARY data types
+123,Compound binary literal
+124,Spaces in binary literals
+125,Basic LOB data type support
+126,BLOB data type
+127,CLOB data type
+128,"POSITION, LENGTH, LOWER, TRIM, UPPER, and SUBSTRING functions for LOB data types"
+129,Concatenation of LOB data types
+130,LOB locator: non-holdable
+131,Extended LOB data type support
+132,Multiplier T
+133,Multiplier P
+134,Row types
+135,MAX and MIN for row types
+136,Explicit aliases for all-fields reference
+137,UCS support
+138,Enhanced nullability determination
+139,"Updatable joins, unions, and columns"
+140,Identity columns
+141,Generated columns
+142,Sequence generator support
+143,Sequence generator support: simple restart option
+144,Identity columns: simple restart option
+145,System-versioned tables
+146,Application-time period tables
+147,Basic trigger capability
+148,Support for run-time rules for the interaction of triggers and constraints
+149,Multiple triggers for the same event are executed in the order in which they were created in the catalog
+150,SET TRANSACTION statement: LOCAL option
+151,Chained transactions
+152,Enhanced savepoint management
+153,Enhanced derived column names
+154,Functional dependencies
+155,Basic SQL-invoked routines
+156,User-defined stored procedures with no overloading
+157,CALL statement
+158,RETURN statement
+159,Declared data type attributes
+160,Explicit security for SQL routines
+161,Qualified SQL parameter references
+162,Table functions
+163,Extended roles
+164,Extended grouping capabilities
+165,Nested and concatenated GROUPING SETS
+166,Multiargument GROUPING function
+167,GROUP BY DISTINCT
+168,Result sets return value
+169,DESCRIBE CURSOR
+170,LATERAL derived table
+171,Combined data change and retrieval
+172,Period predicates
+173,Transaction counts
+174,Named arguments in CALL statement
+175,Default values for IN parameters of SQL-invoked procedures
+176,Updatable table references
+177,Holdable locators
+178,Array-returning external SQL-invoked functions
+179,Multiset-returning external SQL-invoked functions
+180,Local cursor references
+181,Elementary OLAP operations
+182,Advanced OLAP operations
+183,Sampling
+184,Null treatment option for LEAD and LAG functions
+185,NTH_VALUE function
+186,Nested window functions
+187,WINDOW clause: GROUPS option
+188,Multiple column assignment
+189,SQL-dynamic statements in SQL routines
+190,SQL-schema statements in external routines
+191,SQL-dynamic statements in external routines
+192,Datalinks
+193,Datalinks via SQL/CLI
+194,Datalinks via Embedded SQL
+195,Foreign data support
+196,Foreign schema support
+197,GetSQLString routine
+198,TransmitRequest
+199,GetOpts and GetStatistics routines
+200,Foreign data wrapper support
+201,Datalinks via Ada
+202,Datalinks via C
+203,Datalinks via COBOL
+204,Datalinks via Fortran
+205,Datalinks via M
+206,Datalinks via Pascal
+207,Datalinks via PL/I
+208,Foreign data wrapper interface routines in Ada
+209,Foreign data wrapper interface routines in C
+210,Foreign data wrapper interface routines in COBOL
+211,Foreign data wrapper interface routines in Fortran
+212,Foreign data wrapper interface routines in MUMPS
+213,Foreign data wrapper interface routines in Pascal
+214,Foreign data wrapper interface routines in PL/I
+215,SQL-server foreign data support
+216,Foreign data wrapper general routines
+217,Multisets of XML type
+218,Distinct types of XML type
+219,Attributes of XML type
+220,Fields of XML type
+221,XMLCast
+222,XMLDocument
+223,XMLText
+224,XMLParse: BLOB input and CONTENT option
+225,XMLParse: BLOB input and DOCUMENT option
+226,XMLSerialize: BOM
+227,XMLSerialize: INDENT
+228,XMLSerialize: BLOB serialization and CONTENT option
+229,XMLSerialize: BLOB serialization and DOCUMENT option
+230,XMLSerialize: BLOB serialization
+231,XMLSerialize: VERSION
+232,XMLSerialize: explicit ENCODING option
+233,XMLSerialize: explicit XML declaration
+234,Namespaces in XML publishing
+235,Query-level XML namespace declarations
+236,XML namespace declarations in DML
+237,XML namespace declarations in DDL
+238,XML namespace declarations in compound statements
+239,Predefined namespace prefixes
+240,XML namespace declarations in XMLTable
+241,XML content predicate
+242,XMLExists
+243,Host language support for XML: CONTENT option
+244,Host language support for XML: DOCUMENT option
+245,Host language support for XML: VARCHAR mapping
+246,Host language support for XML: CLOB mapping
+247,Host language support for XML: BLOB mapping
+248,Host language support for XML: STRIP WHITESPACE option
+249,Host language support for XML: PRESERVE WHITESPACE option
+250,Query-level XMLBINARY clause
+251,XMLBINARY clause in DML
+252,XMLBINARY clause in DDL
+253,XMLBINARY clause in compound statements
+254,XMLBINARY clause in subqueries
+255,IS VALID predicate: data-driven case
+256,IS VALID predicate: ACCORDING TO clause
+257,IS VALID predicate: ELEMENT clause
+258,IS VALID predicate: schema location
+259,IS VALID predicate outside check constraints
+260,IS VALID predicate with DOCUMENT option
+261,IS VALID predicate with CONTENT option
+262,IS VALID predicate with SEQUENCE option
+263,IS VALID predicate: NAMESPACE without ELEMENT clause
+264,IS VALID predicate: NO NAMESPACE with ELEMENT clause
+265,Basic Information Schema for registered XML Schemas
+266,Advanced Information Schema for registered XML Schemas
+267,XML null handling options
+268,NIL ON NO CONTENT option
+269,XML(DOCUMENT(UNTYPED)) type
+270,XML(DOCUMENT(ANY)) type
+271,XML(SEQUENCE) type
+272,XML(DOCUMENT(XMLSCHEMA)) type
+273,XML(CONTENT(XMLSCHEMA)) type
+274,XMLQuery
+275,XMLQuery: RETURNING CONTENT
+276,XMLQuery: RETURNING SEQUENCE
+277,XMLQuery: passing a context item
+278,XMLQuery: initializing an XQuery variable
+279,XMLQuery: EMPTY ON EMPTY option
+280,XMLQuery: NULL ON EMPTY option
+281,XML 1.1 support
+282,XML passing mechanism BY VALUE
+283,XML passing mechanism BY REF
+284,XML(CONTENT(UNTYPED)) type
+285,XML(CONTENT(ANY)) type
+286,RETURNING CONTENT in XML publishing
+287,RETURNING SEQUENCE in XML publishing
+288,Persistent XML values of XML(DOCUMENT(UNTYPED)) type
+289,Persistent XML values of XML(DOCUMENT(ANY)) type
+290,Persistent XML values of XML(CONTENT(UNTYPED)) type
+291,Persistent XML values of XML(CONTENT(ANY)) type
+292,Persistent XML values of XML(SEQUENCE) type
+293,Persistent XML values of XML(DOCUMENT(XMLSCHEMA)) type
+294,Persistent XML values of XML(CONTENT(XMLSCHEMA)) type
+295,XML type: ELEMENT clause
+296,XML type: NAMESPACE without ELEMENT clause
+297,XML type: NO NAMESPACE with ELEMENT clause
+298,XML type: schema location
+299,XMLValidate: data-driven case
+300,XMLValidate: ACCORDING TO clause
+301,XMLValidate: ELEMENT clause
+302,XMLValidate: schema location
+303,XMLValidate: with DOCUMENT option
+304,XMLValidate with CONTENT option
+305,XMLValidate with SEQUENCE option
+306,XMLValidate NAMESPACE without ELEMENT clause
+307,XMLValidate: NO NAMESPACE with ELEMENT clause
+308,XMLTable
+309,XMLTable: derived column list option
+310,XMLTable: ordinality column option
+311,XMLTable: column default option
+312,XMLTable: passing a context item
+313,XMLTable: initializing an XQuery variable

@@ -1,0 +1,69 @@
+id,title
+0,Planet name.
+1,"Planet NASA Kepler name, if applicable."
+2,"Planet NASA Kepler Object of Interest (KOI) name, if applicable."
+3,"Planet habitable zone classification (hot, warm, or cold)."
+4,"Planet Mass Class (mercurian, subterran, terran, superterran, neptunian, or jovian)."
+5,"Planet Composition Class (iron, rocky-iron, rocky-water, water-gas, gas)."
+6,"Planet Atmosphere Class (none, metals-rich, hydrogen-rich)."
+7,"Planet Habitable Class (mesoplanet, thermoplanet, psychroplanet, hypopsychroplanet, hyperthermoplanet, non-habitable)."
+8,Planet minimum mass.
+9,Planet mass. Most of the values were estimated from minimum mass.
+10,Planet maximum mass.
+11,Planet radius. Most of these values were estimated for confirmed planets.
+12,Planet density.
+13,Planet gravity.
+14,Planet escape velocity.
+15,Planet minimum stellar flux.
+16,Planet mean stellar flux.
+17,Planet maximum stellar flux.
+18,Planet minimum equilibrium temperature (at apastron).
+19,Planet mean equilibrium temperature.
+20,Planet maximum equilibrium temperature (at periastron).
+21,Planet minimum surface temperature (at apastron).
+22,Planet mean surface temperature.
+23,Planet maximum surface temperature (at periastron).
+24,Planet surface pressure.
+25,Planet magnitude as seen from a Moon-Earth distance (Moon = -12.7).
+26,Planet apparent size as seen from a Moon-Earth distance (Moon = 0.5°).
+27,Planet period.
+28,Planet semi major axis.
+29,Planet eccentricity (assumed 0 when not available).
+30,Planet mean distance from the star.
+31,"Planet inclination (assumed 60° when not available, and 90° for Kepler data)."
+32,Planet omega.
+33,Star name.
+34,Star name from the Henry Draper Star Catalog.
+35,Star name from the Hipparchus Star Catalog.
+36,Star constellation name (abbreviated).
+37,Star type.
+38,Star mass.
+39,Star radius.
+40,Star effective temperature.
+41,Star luminosity.
+42,Star iron to hydrogen ratio [Fe/H].
+43,Star age.
+44,Star apparent visual magnitude from Earth.
+45,Star distance from Earth.
+46,Star right ascension.
+47,Star declination.
+48,Star apparent visual magnitude from planet (Sun = -25 from Earth).
+49,Star apparent size from planet (Sun = 0.5° from Earth).
+50,Star number of planets.
+51,Star number of planets in the habitable zone.
+52,Star inner edge of habitable zone.
+53,Star outer edge of habitable zone.
+54,Planet Habitable Zone Distance (HZD).
+55,Planet Habitable Zone Composition (HZD).
+56,Planet Habitable Zone Atmosphere (HZD).
+57,Planet Habitable Zone Index (HZI).
+58,Planet Standard Primary Habitability (SPH).
+59,Planet Interior Earth Similarity Index (iESI).
+60,Planet Surface Earth Similarity Index (sESI).
+61,Planet Earth Similarity Index (ESI).
+62,Star is in the HabCat database.
+63,Planet is potentially habitable.
+64,Planet is candidate for potential habitable exomoons.
+65,Planet is confirmed (relevant to the Kepler data).
+66,"Planet discovery method (rv = radial velocity, tran = transiting, ima = imaging, micro = micro lensing, pul = pulsar timing, ast = astrometry)."
+67,Planet discovery year.

@@ -1,0 +1,51 @@
+id,title
+0,About unmaintaining this module
+1,PHP v5.3 bug
+2,Menu order control (treemenu doesn't allow custom order / reorder of terms once generated)
+3,how to display taxonomy tree menu
+4,Syntax error in ini file caused cron & drush & advanced help errors
+5,DHTML menus collapse when node is selected
+6,Possibility to use different tree url for different level
+7,I get this warning
+8,edit/delete links??
+9,How to show nodes under parent level?
+10,The menu name can't be longer than 27 characters
+11,hook_schema_alter is implemented incorrectly
+12,Memory exhausted building or viewing a TTM for a large vocabulary
+13,minor conflict with fixed admin menu
+14,page view of taxonomy with multiple-parent terms fails
+15,Add taxonomy term url customisation option in the admin area
+16,Garbage shown in tree branches
+17,Call-time pass-by-reference has been deprecated
+18,Could TTMs be paginated?
+19,Permissions for taxonomy terms
+20,Not able to create multiple hierarchy
+21,Demo please
+22,"taxonomy_treemenu-6.x-7.1.tar advised as security update, fails update.php although not enabled on a site"
+23,Selecting multiple branches
+24,New Terms/Menu Items Not Showing Alphabetically
+25,disable link for terms with 0 items
+26,Could it work with Taxonomy Breadcrumb?
+27,"taxonomy menutree add, blank page"
+28,Primary and Secondary Links
+29,Note on support - Autumn 2009
+30,Doesn't work with Site Map
+31,translations don't work
+32,Undefined Index PHP Notices
+33,Does it work with nice_menu?
+34,Add option to suppress term(s) without content
+35,quota incompatibility with postgree
+36,Node counts returning zero
+37,"Selecting ""Hide term links with no nodes attached"" results in empty menu"
+38,Installation fails to add tlineage column to menu_links table
+39,"Add option for ""collapsed"" initial presentation"
+40,"Show full menu path on ""edit"" page"
+41,"Views title doesn't change, stuck after clearing and editing titles/arguments"
+42,Version 7 - Notes and install instructions
+43,"""Enabled"" message nits"
+44,Database table prefix missing
+45,Note on the development of Taxonomy Treemenu - Autumn
+46,Click on parent term and show nodes for its descendants
+47,Version 6 - notes and install instructions
+48,"""Show node counts"" not working"
+49,"""Comparison"" page nits"

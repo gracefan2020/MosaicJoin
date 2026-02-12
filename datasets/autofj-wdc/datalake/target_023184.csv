@@ -1,0 +1,73 @@
+id,title
+0,"Access Policy Revoke If No Longer Applies Enhancement Note: This property is not used in Oracle Identity Manager Release 2 (11.1.2), but has been retained only for backward compatibility."
+1,Allows access policy based provisioning of multiple instances of a resource
+2,Are challenge questions disabled in OIM
+3,CommonName generation plugin
+4,Compiler Path for Connectors
+5,Copy user password reset e-mail to manager
+6,Data Collection Session ID
+7,Data Collection Status
+8,Default Date Format
+9,Default Policy for common name generation
+10,Default policy for username generation
+11,Default user name domain
+12,Direct Provisioning vs. Request for Access Policy Conflicts
+13,Does user have to provide challenge information during registration
+14,Duplicate challenge responses allowed
+15,Email Server
+16,Email Validation Pattern
+17,Enable 9.x permission checking when searching organizations
+18,Enable Exception Reports
+19,Enable disabled resource instances when a user is enabled
+20,Evaluate LDAP Container Rules for Entity Modification
+21,FA Administrators Role Name IN LDAP
+22,FA cookie-http-only flag turned on
+23,Flag for new permissioning model
+24,Force Password Change at First Login
+25,Force to set questions at startup
+26,GTC Auto Import
+27,Homepage for Self Service console
+28,Indicates if referential integrity is enabled in target LDAP directory
+29,Is Self-Registration Allowed
+30,Is disabled manager allowed
+31,LDAP Reservation Plugin
+32,Maximum Number of Login Attempts
+33,Maximum Number of Password Reset Attempts
+34,Minimum length of challenge response
+35,Number of Correct Answers
+36,Number of Questions
+37,OIA integration status
+38,Old Password Validator
+39,Organization Delete/Disable Action
+40,Pending Cancelled Tasks
+41,Period to Delay User Delete
+42,Property dictates whether database name will be displayed
+43,Proxy User Email Notification
+44,Recon Batch Size
+45,Record Read Limit
+46,Request Notification Level
+47,Reset with generated password
+48,Retry Count for recon event
+49,Role SoD Check Topology Name
+50,Search Stop Count
+51,Segregation of Duties (SOD) Check Required
+52,Should send notifications in recon or not
+53,Show left navigation taskflow panel in Self Service console?
+54,Show toolbar navigation in Self Service console?
+55,Skin Family for OIM UI
+56,Skin Version for OIM UI
+57,Specifies the LDAP container mapper plug-in to be used
+58,URL for challenge questions modification
+59,URL for change password
+60,Unlock Account Automatically After Time Period
+61,Use Row Restriction
+62,Use of Default Questions
+63,Use semicolon as delimiter in API parameters
+64,User Attribute Reservation Enabled
+65,User Id reuse property.Requires dropping the index present on USR_LOGIN column
+66,User Language
+67,User Region
+68,User Variant
+69,User profile audit data collection level
+70,Xellerate User resource provision mode
+71,Whether or not email should be validated for uniqueness

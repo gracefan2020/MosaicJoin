@@ -1,0 +1,60 @@
+id,title
+0,Zoom +/-
+1,Zoom +/-
+2,Zoom +/-
+3,Sélection d'objet
+4,Dé-sélectionne un objet
+5,Auto-zoom moins
+6,Auto-zoom plus sur l'objet sélectionné
+7,Centre sur l'objet sélectionné
+8,Bascule entre monture équatoriale ou azimutale
+9,Appel la fenêtre d'aide
+10,Appel la fenêtre de configuration
+11,Appel la fenêtre de recherche
+12,Appel la fenêtre de configuration du ciel et de la vision
+13,Appel la fenêtre de configuration de la date et de l'heure
+14,Appel la fenêtre de configuration de l'emplacement de l'observation
+15,Affichage ou non du dessin des constellations
+16,Affichage ou non du dessin des limites des constellations ?
+17,Affichage des noms des constellations
+18,Affichage des dessins artistiques des constellations
+19,Affichage du nom des étoiles
+20,Active/Désactive le nom des nébuleuses
+21,Active/Désactive la grille RA/Dec
+22,Au choix: monter méridien; montrer Alt / GRID Azi; rien
+23,"Au choix: sans étiquettes planètes; étiquettes des planètes, étiquettes des planètes avec des orbites"
+24,Affichage ou non du sol
+25,Affichage ou non de l'atmosphère
+26,Active/Désactive l'affichage de la brume sur l'horizon
+27,"Affichage ou non des points cardinaux (N, S, E, W)"
+28,Affichage ou non de l'échelle de la lune (4x /1x)
+29,Déplace le point de vue pour garder l'objet sélectionné dans le centre
+30,Affichage ou non des étoiles
+31,Cycle through: draw ecliptic; draw ecliptic & planet trails; draw neither
+32,Active/Désactive l'affichage de la ligne équatoriale
+33,Faire une capture d'écran (nom du fichier: Stellarium*.bmp)
+34,Active/Désactive l'enregistrement de script
+35,Active/Désactive l'affichage de la fenêtre de recherche
+36,Active/Désactive l'affichage de la fenêtre d'aide
+37,Active/Désactive l'affichage de la fenêtre d'information
+38,Active/Désactive l'affichage de la fenêtre de configuration
+39,Active/Désactive le menu textuel
+40,"Ferme la fenêtre ouverte et sélectionnée (help, info, & configuration)"
+41,Temps de pause (ou mettre en pause le script si un script est exécuté)
+42,Arrêt du temps (fige le temps)
+43,Met la date et l'heure actuelle
+44,Diminue la vitesse du temps (ou diminue la vitesse d'un script en cours d'exécution)
+45,Retour au défilement normal du temps
+46,Augmente la vitesse du temps (ou augmente la vitesse d'un script en cours d'exécution)
+47,Recule de 1 jour solaire
+48,Avance de 1 jour solaire
+49,Recule de 1 semaine solaire
+50,Avance de 1 semaine solaire
+51,Arrête l'exécution d'un script
+52,Quitte Stellarium. (command+Q sur un Mac)
+53,Baisse le volume (seulement si un script est en cours d'exécution)
+54,Baisse le volume (seulement si un script est en cours d'exécution)
+55,"Sélection de la quantité de pluie des météorites: faible, moyen, élevé, très élevé"
+56,Bascule l'image horizontalement
+57,Bascule l'image verticalement
+58,Make telescope [num] point at currently selected object

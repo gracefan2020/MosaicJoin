@@ -1,0 +1,212 @@
+id,title
+0,Fix bad assumption in BacktraceCleaner test [#3249 state...
+1,Remove SQLite2 from CI setup
+2,More places to bump rack-test version [#3250 state:resol...
+3,SQLite 2 test passage is no longer required when patchin...
+4,Clean up documentation on validates_length_of and change...
+5,Use 'git apply' to apply patches
+6,Remove sqlite2 build from CI recipe [#3066 state:resolved]
+7,Updates/additions to contributing guide
+8,Insert missing word in callbacks documentation.
+9,Minor cleanup to Getting Started for 2.3.3
+10,Updated migration documentation to reflect default for U...
+11,rdoc spelling fix
+12,Some general cleanup to the rdoc for date_select
+13,Correct typo on add_month_numbers option (From: Sam Pohl...
+14,Remove obsolete wiki reference [#2291 state:resolved]
+15,Fix comment in seeds.rb to make more sense.
+16,Minor update to RDoc for enumerable#sum
+17,Tweak to credits.
+18,Remove excess mocking from polymorphic_url tests [#2330 ...
+19,Added touch to associations guide
+20,"Remove named scopes from query guide contents, separate ..."
+21,Fix typo in release notes
+22,Fix typos in date helper rdoc (via Mike Breen)
+23,Fix grammar error in caching docs (via pblka)
+24,"Revert ""Changes to indicate release notes refer to most ..."
+25,Tech edit of caching guide from Gregg Pollack
+26,Clear up a little confusing wording in Routing Guide.
+27,Merge branch 'master' of git@github.com:lifo/docrails
+28,Add note about change to session options
+29,Minor edits to I18n guide; publish guide
+30,A few more changes for caching guide
+31,Some editorial cleanup on caching guide
+32,Mark callbacks guide done
+33,Minor cleanup to callbacks/validations guide
+34,"Update 2.3 relnotes through 3/13 AM, remove warning abou..."
+35,Update 2.3 release notes with changes through March 6
+36,Fix typo in Routing Guide
+37,Fix bad link on index dropdown
+38,Reconcile index and layout for Guides.
+39,Fix bad crossref in RDoc for ActiveSupport::CoreExtensio...
+40,The missing guide.
+41,"Added ""Contributing"" Guide"
+42,Update 2.3 release notes.
+43,Update release notes for 2.3 RC2
+44,Added RC2 note to Release Notes for 2.3.
+45,Updating release notes for 2.3.
+46,Add ActiveRecord each and find_with_batches to release n...
+47,Bring 2.3 release notes up to date.
+48,Fix AR callbacks sample code to actually make sense
+49,Updates to 2.3 release notes.
+50,Layout fixes for configuring guide.
+51,Layout cleanup and minor edits for layouts & rendering g...
+52,Warning about config.threadsafe! in the configuration gu...
+53,Add some clarification of the side effects of threadsafe!
+54,Fix code sample in Association Basics Guide
+55,Update the contribute page
+56,Some cleanup to Credits page
+57,Update 2.3 release notes.
+58,Format and typo cleanup of 2.3 release notes
+59,Add example of creating join table to habtm documentation
+60,Formatting fixes for Getting Started guide
+61,Regenerate Guides HTML
+62,Add missing changelog entry to getting started guide
+63,Update associations guide for 2.3
+64,Regenerate HTML
+65,Getting Started edit + 2.3 content
+66,Additional links on 2.3 release notes
+67,Update 2.3 release notes
+68,Rebuild release note HTML
+69,Rebuild guides + relnotes HTML
+70,"Update 2.3 release notes, plus one late change to 2.2 re..."
+71,First draft of Rails 2.3 release notes.
+72,Edits to validation section
+73,Copy editing on performance test guide.
+74,Update CI configuration to reflect latest gems.
+75,Update CI configuration to reflect latest gems.
+76,Complete draft of configuring guide; add configuring gui...
+77,FIx bad date in Guide changelog.
+78,Update table syntax in guides to fix deprecation warning...
+79,Add transaction check to SQLite2 adapter to fix test_sql...
+80,Fix named scope tests for sqlite3 [#1667 state:resolved]
+81,Fix failing gem dependency tests [#1659 state:resolved]
+82,Fix FCGI dispatching tests
+83,Regenerate Guides HTML
+84,More formatting cleanup for testing guide
+85,Fix typo in layout and rendering guide
+86,Merge patch on subtemplates into layouts & rendering guide
+87,Add information on new rendering syntax to layouts + ren...
+88,Formatting changes on index and testing guide
+89,Add version links to index
+90,"Fix bad link in Getting Started, rebuild HTML"
+91,Fix bad RDoc markup on update_all.
+92,Remove bad markup on validation method placeholders
+93,Typo fixes to various guides.
+94,Regenerate Guides HTML
+95,Final changes for 2.2 release notes
+96,"Configuration options for Active Model, Active Resource,..."
+97,Finishing up RDoc 2.x markup for cattr_accessors
+98,Regenerate Guide HTML
+99,FIx minor errors in Getting Started & Associations guides
+100,Structure change to AR Associations Guide
+101,Fix bad link in Getting Started guide
+102,Added Action View and Action Mailer documentation to the...
+103,Fix markup for cattr_accessors in Action View and Action...
+104,Added documentation of Action Controller configuration o...
+105,Fix markup for cattr_accessors in Action Controller to w...
+106,Added documentation of ActiveRecord configuration option...
+107,Fix markup for cattr_accessors in ActiveRecord to work w...
+108,Additional details on config.gem processing for 2.2 rele...
+109,Typo fix in 2.2 relnotes (core ticket #1378)
+110,Getting a few recent changes into 2.2 release notes.
+111,Fix typo in routing guide.
+112,Regenerate Guides HTML
+113,Add :except and :only documentation to the Routing Guide
+114,Add :except and :only for resource routes to 2.2 release...
+115,Mention DB2 Adapter transactional migration support in 2...
+116,Add collection counters to layouts & rendering guide
+117,Fix major gaffe about shallow routes in routing guide & ...
+118,Rewrite start of Finders guide to be more consistent wit...
+119,Format & edit cleanup of named scope guide
+120,Amend description of SQLite in Getting Started guide (#33)
+121,Fix typo in Getting Started guide (#34)
+122,Fix typos in Debugging Guide (core LH #1388)
+123,Outline for Configuration Guide
+124,Add more documentation pointers to Getting Started Guide.
+125,Copy edit on AC Basics Guide
+126,Regenerate recently-changed guides.
+127,Typo fix in testing guide
+128,Fix a typo in 2.2 release notes (http://rails.lighthouse...
+129,"Formatting tweaks on Getting Started, regen Guides HTML"
+130,Finalized debugging guide.
+131,Marking Getting Started and Security guides as finished.
+132,Error fix and some reformatting for Layouts/Rendering Guide
+133,Add warning about deprecated partials behavior to Layout...
+134,Update 2.2 relnotes & Layouts/Rendering Guide to include...
+135,Update release notes.
+136,Clarify use of :select on :belongs_to in AR Associations...
+137,"Fix typo in routing guide, regenerate routing + actionco..."
+138,Typo fix for AR Associations Guide
+139,Fix reference to StringQuestioneer (renamed to StringInq...
+140,"Fix bug in layout guide, regenerate guides html"
+141,Editing pass on AR Finders guide.
+142,One more link for Release notes
+143,Typo fixes in 2.2 release notes
+144,Fix a few more typos in 2.2 release notes.
+145,Tiny cleanup in layouts & rendering guide
+146,2.2 Relnotes: more info on association proxies
+147,"Updates to Getting Started: REST references, partials, f..."
+148,Added details on how Rails locates layouts to Layouts & ...
+149,Fix grids in AR guide
+150,Fix minor formatting issues on AR guide
+151,Add license to Guides.
+152,Fix up broken links in Getting Started guide
+153,Added note on route generation from arrays.
+154,Edit pass on security guide.
+155,Typo fixes in Getting Started guide.
+156,Editing pass on debugging guide.
+157,Fixes to Getting Started guide
+158,More detail on partials.
+159,Additional detail on rendering partials
+160,A few updates to Getting Started guide
+161,Marking layout guide completed
+162,Revised draft of Getting Started guide.
+163,Minor formatting change in Getting Started guide.
+164,Edit/formatting pass for the testing guide
+165,"First complete draft of ""getting started"" guide"
+166,Edits and rewrites (work in progress)
+167,Fix egregious error in documenting :class_name
+168,"First complete draft of ""getting started"" guide"
+169,Edits and rewrites (work in progress)
+170,Fix egregious error in documenting :class_name
+171,Typo fix in routing guide
+172,Minor change on :name_prefix and :path_prefix documentat...
+173,Additional detail on routes for namespaced controllers.
+174,Added some additional detail on asset caching syntax.
+175,Clarify that the event sequence shown in the comments ap...
+176,Additional detail on specifying verbs for resource membe...
+177,Additional detail on options for rendering partials.
+178,Revise associations guide: no need to set default on cou...
+179,Remove erroneous warning about counter_cache column defa...
+180,Fix several typos in route names.
+181,Correct number of routes created by map.resource.
+182,Rework of Guides index page
+183,Layout & Rendering Guide
+184,Back mentions of accessible out of Associations guide
+185,Image updates & reorganization. First release version.
+186,"Change erroneous ""unless"" to ""if"" in documentation."
+187,Finished rendering and redirecting section.
+188,"Fix substitution of path_prefix for name_prefix, some re..."
+189,Finished section on :render
+190,"Various fixes, section on self-joins, note on using hmt ..."
+191,Work in progress.
+192,Slight change to examples.
+193,Added section on controller namespaces.
+194,"Added images to associations guide, cleaned up some typo..."
+195,Added a small section on defining multiple resources on ...
+196,Eradicate some stray colons.
+197,"Added namespaced routes, added more on defaults, cleaned..."
+198,Fix typo (see http://rails.lighthouseapp.com/projects/16...
+199,Typo fixes.
+200,Add author info/changelogs for Routing & Associations gu...
+201,Merge branch 'master' of git@github.com:lifo/docrails
+202,Added some additional text about default routes.
+203,Changes for routing from the outside in guide
+204,Fix a bunch of singular-vs-plural mistakes in URLs
+205,Fix various AsciiDoc markup issues and a few typos.
+206,Merge branch 'master' of git@github.com:lifo/docrails
+207,"Add ""A Guide to Active Record Associations"""
+208,"Updates to nested/shallow routes discussion in ""Routing ..."
+209,"Edits to the ""Routing from the Outside In"" guide."
+210,"Added ""Routing from the Outside In"" guide."

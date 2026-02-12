@@ -1,0 +1,51 @@
+id,title
+0,Retrieve only one CAPTCHA per form submission attempt
+1,Provide simple export feature for Mollom statistics regarding disposition of messages
+2,Make it easier to see why comment was blocked
+3,Improve test coverage for switching to audio captcha
+4,Evaluate free tags for spam and offensive content
+5,Entering the website's url triggers spam filter.
+6,Incompatibility between Mollom and Captcha module
+7,Escaped text (&) appearing in titles
+8,Protecting webforms in multilanguage sites
+9,Mollom doesn't unpublish already published and later edited (adding spammy content) node or revision
+10,Remove {mollom} schema default values for reason and languages
+11,Mollom API UTC incorrect time
+12,Integrate with Flag to allow users to flag spam for submission to Mollom
+13,Allow black lists to use regular expressions
+14,Make Mollom Language Editable
+15,"D8: Allow filtering of blacklist based on ""reason"""
+16,D8: Remove open id support
+17,D8: Convert refresh captcha ajax to remove setCached().
+18,Add tests for the admin/reports/mollom page
+19,Support for Security Review module
+20,Mollom disappears after submitting a node form in panels
+21,Allow the import or bulk addition of terms to blacklists
+22,Update.php fails with AJAX error
+23,Add a block for Mollom Free users to show available remaining legitimate posts
+24,"Change CAPTCHA switch links from ""verify using audio|image"" to ""Get an audio|visual challenge"""
+25,Profile2 integration for user registration form
+26,Spam module conflicts with Mollom module
+27,Provide option to exclude author information
+28,Why not work with anti-spam module?
+29,Protect user signatures
+30,"""verify using audio/image"" text is ambiguous"
+31,Page not found
+32,Test for blacklist creation date
+33,Use an icon instead of text links to toggle image and audio captchas
+34,"Allow moderators to remove links (""delinkify"")"
+35,Change default method to retain unwanted posts instead of discarding them (if supported)
+36,Spambot bypass User registration
+37,Allow custom bypass access callback in hook_mollom_form_info()
+38,W3C markup validation fails on a protected form
+39,Connect to Mollom whitelist API
+40,Don't show CAPTCHA on multipage forms when a page is left blank
+41,Remove content moderation platform
+42,Allow admins to clear reputations of users
+43,Add token integration
+44,Drupal 8: Bypass permissions list for form not updated
+45,Marking spam as ham and publishing the ham
+46,Top Spammers Report
+47,logs truncated in syslog with long postBody
+48,"state of 'Text fields to analyze' ignored, if it is already mapped?"
+49,Determine if the CAPTCHA is necessary and show it via AJAX instead of page reload

@@ -1,0 +1,91 @@
+id,title
+0,db file sequential read
+1,log file sync
+2,log file parallel write
+3,db file parallel write
+4,enq: TX - row lock contention
+5,db file scattered read
+6,SQL*Net more data from client
+7,read by other session
+8,enq: UL - contention
+9,cursor: pin S wait on X
+10,SQL*Net message to client
+11,latch: cache buffers chains
+12,buffer busy waits
+13,SQL*Net more data to client
+14,library cache load lock
+15,enq: TX - index contention
+16,PX Deq Credit: send blkd
+17,control file sequential read
+18,rdbms ipc reply
+19,SQL*Net break/reset to client
+20,kksfbc child completion
+21,enq: RO - fast object reuse
+22,os thread startup
+23,PX Deq: Signal ACK
+24,wait list latch free
+25,enq: HW - contention
+26,control file parallel write
+27,local write wait
+28,row cache lock
+29,enq: DV - contention
+30,latch: library cache
+31,enq: TX - contention
+32,direct path read
+33,LGWR wait for redo copy
+34,enq: SQ - contention
+35,latch: In memory undo latch
+36,latch: object queue header operation
+37,latch free
+38,library cache pin
+39,latch: library cache pin
+40,SGA: allocation forcing component growth
+41,enq: TX - allocate ITL entry
+42,buffer deadlock
+43,enq: TM - contention
+44,latch: undo global data
+45,latch: session allocation
+46,latch: redo allocation
+47,latch: cache buffers lru chain
+48,enq: FB - contention
+49,latch: row cache objects
+50,latch: shared pool
+51,latch: library cache lock
+52,enq: CU - contention
+53,cursor: pin S
+54,PX qref latch
+55,latch: object queue header heap
+56,latch: messages
+57,reliable message
+58,latch: cache buffer handles
+59,enq: US - contention
+60,L1 validation
+61,cursor: mutex S
+62,latch: checkpoint queue latch
+63,latch: redo writing
+64,cursor: mutex X
+65,direct path write
+66,enq: PS - contention
+67,latch: enqueue hash chains
+68,write complete waits
+69,library cache lock
+70,latch: parallel query alloc buffer
+71,log buffer space
+72,direct path write temp
+73,direct path read temp
+74,SQL*Net message from client
+75,pipe get
+76,Streams AQ: qmn slave idle wait
+77,Streams AQ: qmn coordinator idle wait
+78,Streams AQ: waiting for time management or cleanup tasks
+79,PX Idle Wait
+80,PL/SQL lock timer
+81,jobq slave wait
+82,PX Deq: Execution Msg
+83,PX Deq: Execute Reply
+84,PX Deq Credit: need buffer
+85,PX Deq: Msg Fragment
+86,PX Deq: Table Q Normal
+87,PX Deq: Parse Reply
+88,PX Deq: Join ACK
+89,class slave wait

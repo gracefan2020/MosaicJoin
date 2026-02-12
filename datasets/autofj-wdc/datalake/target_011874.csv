@@ -1,0 +1,157 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. AFC
+4,vs. NFC
+5,vs. Own Division
+6,Grass
+7,Turf
+8,Outdoors
+9,Indoors
+10,Day Games
+11,Night Games
+12,Split
+13,September
+14,October
+15,November
+16,December
+17,January
+18,On Saturday
+19,On Sunday
+20,On Monday
+21,Games 1-8
+22,Games 9-16
+23,Outdoor Temp 21-40 F
+24,Outdoor Temp 41-60 F
+25,Outdoor Temp 61-80 F
+26,Outdoor Temp < 40 F
+27,Outdoor Temp 81+ F
+28,In Rain
+29,In High Wind
+30,Clear Weather
+31,Split
+32,As Starter
+33,As Substitute
+34,In Wins/Ties
+35,In Losses
+36,1st Half
+37,2nd Half
+38,1st Qtr
+39,2nd Qtr
+40,3rd Qtr
+41,4th Qtr
+42,Last 2 Min. Half
+43,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+44,Score Diff > 7 points
+45,Final Margin 7 pts or less
+46,"4th Qtr, +/-3 pts"
+47,"4th Qtr, +/-7 Pts"
+48,1st Down
+49,2nd Down
+50,3rd Down
+51,Own 1-19
+52,Own 20-39
+53,Between 40s
+54,Opp 39-20
+55,Opp 19-Goal
+56,Opp 9-Goal
+57,"First down, 10 yds to go"
+58,Plays gaining 20+ yds
+59,vs. BUF
+60,vs. DAL
+61,vs. GB
+62,vs. MIA
+63,vs. NE
+64,vs. NO
+65,vs. NYJ
+66,vs. PHI
+67,vs. ARI
+68,vs. SF
+69,vs. SEA
+70,vs. STL
+71,vs. WAS
+72,Louisiana Superdome
+73,3Com Park
+74,FedEx Field
+75,Split
+76,vs AFC East teams
+77,vs NFC East teams
+78,vs NFC West teams
+79,Split
+80,1st & Goal
+81,2nd & Goal
+82,"1st Down, 8-10 To Go"
+83,"1st Down, 6+ To Go"
+84,"2nd Down, 0-2 To Go"
+85,"2nd Down, 3-7 To Go"
+86,"2nd Down, 8-10 To Go"
+87,"2nd Down, 11+ To Go"
+88,"2nd Down, < 6 To Go"
+89,"2nd Down, 6+ To Go"
+90,"3rd Down, 0-2 To Go"
+91,"3rd Down, 3-7 To Go"
+92,"3rd Down, 8-10 To Go"
+93,"3rd Down, 11+ To Go"
+94,"3rd Down, < 6 To Go"
+95,"3rd Down, 6+ To Go"
+96,Split
+97,Final Margin 0-7
+98,Final Margin 8-14
+99,Final Margin 15+
+100,Winning 15-21
+101,Winning 8-14
+102,Winning 1-7
+103,When Tied
+104,Losing 1-7
+105,Losing 8-14
+106,Losing 15-21
+107,When Winning
+108,When Trailing
+109,In Winning Games Started
+110,In Losing Games Started
+111,Carries 1-5
+112,Carries 6-10
+113,Carries 11-15
+114,Carries 16-20
+115,Carries 21-25
+116,Runs of 10+ yards
+117,Split
+118,Attempts 1-10 of game
+119,Attempts 11-20 of game
+120,Attempts 21-30 of game
+121,Attempts 31-40 of game
+122,Split
+123,0 Tight Ends
+124,1 Tight End
+125,2 Tight Ends
+126,3+ Tight Ends
+127,No Offensive Motion
+128,Offensive Motion
+129,< 4 on Def. line
+130,4 on Def. Line
+131,5 on Def. Line
+132,6 on Def. Line
+133,> 6 on Def. Line
+134,Shotgun
+135,Pro Form
+136,I-Formation
+137,Single Back
+138,0-1 Wide Receivers
+139,2 Wide Receivers
+140,3 Wide Receivers
+141,4+ Wide Receivers
+142,Split
+143,Right Side
+144,Left Side
+145,Middle
+146,Left Sideline
+147,Right Sideline
+148,Pass Thrown Behind Line of Scrimmage
+149,Pass Thrown 1-10 yds
+150,Pass Thrown 11-20 yds
+151,Split
+152,Blitz
+153,QB Under Pressure
+154,QB Knocked Down
+155,Pass Defensed

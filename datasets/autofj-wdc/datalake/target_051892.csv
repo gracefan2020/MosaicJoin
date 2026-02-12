@@ -1,0 +1,51 @@
+id,title
+0,issame fails for String PMC argument
+1,Re-evaluate max. number of get_args values
+2,[core] Re-evaluate max. number of get_args values
+3,parrotbug@parrotcode.org still works and directs to old ticket system
+4,MMD calls the wrong sub
+5,spam ticket
+6,[PATCH] Lines using CONST_STRING must be all on one line
+7,None
+8,Parrot::Interpreter - cannot use Lua
+9,Parrot::Interpreter ->invoke cannot handle more than one arguments
+10,Parrot::Interpreter - should support multi-level namespaces
+11,[patch]simplified expression
+12,'make test' inoperable in languages/PIR/
+13,Should all header files under src/ be moved to include/ dir?
+14,[PATCH]removed unnecessary code
+15,[TODO] add pod2man
+16,Deprecated: Data::Escape
+17,remove File::Spec
+18,"[Patch]changed args to marco, fixed typo, tidy comments"
+19,"[patch] Add 'pop', 'push', 'shift' and 'unshift' methods to ResizableStringArray PMCs"
+20,[patch]patch for editor.in
+21,[cage]removed unused codes
+22,[PATCH] Update Pod::Simple and Pod::Escapes to the latest version available from CPAN
+23,Move executable code out of jit_emit.h for HPPA
+24,Move executable code out of jit_emit.h for MIPS
+25,Move executable code out of jit_emit.h for PPC
+26,Move executable code out of jit_emit.h for SUN4
+27,[PATCH] [CAGE] Perl-to-PIR conversion of the remaining tests in t/oo/
+28,"load_bytecode, loadlib, and HLL"
+29,[patch]simplified PMC_is_null function
+30,Cannot relocate source tree after compilation
+31,Intermittent failures in t/op/arithmetics_27.pir
+32,[patch]consted lots of variable
+33,"[PATCH] for file ""parrot.spec"""
+34,[PATCH] MANIFEST.generated is missing installable_pbc_disassemble
+35,fix badly named variable in generated code
+36,deprecated: all socket-related opcodes
+37,list_new_init seems like it would crash if called
+38,t/op/pushaction fails with runcore PBC
+39,__FILE__ is not defined in PIPP
+40,mk_gitignore.pl (lib/Parrot/Manifest.pm) needs svk
+41,PHC command line has changed
+42,"[PATCH] for the file ""lib/Parrot/Configure/Messages.pm"""
+43,xlst out of date
+44,"[PATCH] for the file ""compilers/imcc/main.c"""
+45,[PATCH] t/configure test failure
+46,[PATCH] gettingstarted.pod: rsync mirror and daily snapshots are gone
+47,[PATCH] for the file parrot.spec to support SuSE
+48,[PATCH] pbc_to_exe should use 'link' to link.
+49,Access attributes of PMC from derived pir classes

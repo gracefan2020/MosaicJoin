@@ -1,0 +1,51 @@
+id,title
+0,Deprecate Flash in favor of Javascript photosets
+1,Problem when generating thumbnails
+2,Integration with picture module
+3,"The Media Flickr module should use a local stream wrapper, since it already saves a local thumbnail of the Flickr image"
+4,Change from using square_thumbnail to media_thumbnail
+5,Any documentation available? HELP
+6,Empty entity title while importing
+7,Move default file displays to a separate file
+8,Flickr embeds do not work on https pages
+9,Moving module on the filesystem WSODs all future accesses
+10,Flickr original link as caption
+11,Wishlist: Any missing functionality before we enter 7.x-1.x first beta?
+12,"Flickr API Going SSL-Only on June 27th, 2014"
+13,Flickr embeds not working anymore?
+14,Reformat media-flickr-photoset.tpl.php to improve readability
+15,Unable to parse photos in Flickr groups pool
+16,New username based Flickr URLs not supported
+17,Media Flickr should download the original (largest) size photo from Flickr by default
+18,How will I display the image from the module in the theme? (and not in views)
+19,White screen uploading media
+20,Flickr embeds not working anymore?
+21,Node save reverts from a photoset to single photo
+22,Using flickr.people.findByUsername does not always map to the expected user.
+23,Unable to embed Flickr Photosets
+24,Continued Testing - Does not work
+25,Media: Flickr is unable to handle slideshow url
+26,HTTPs website accessing Flickr Media
+27,How to update from D6 to D7
+28,How do you display a Flickr set?
+29,not working at all
+30,"Image quality, support for sets"
+31,Show all photos from a Flickr account
+32,Display Fields Option: Full Screen Video
+33,Fatal error: Cannot use string offset as an array
+34,Link to Flickr API settings page is wrong and error if API key is missing
+35,Flickr images using image style doesn't show
+36,Support picture upload to Flickr
+37,Demonstration
+38,Do not want file local storage
+39,Flickr set URL is changed when entering edit mode
+40,flickr PHP file-wrapper missing
+41,"""Error processing request"" due to http call instead of https"
+42,Fatal error: Call to a member function get_parameters() on a non-object in media_flickr.theme.inc on line 59
+43,Flickr App Stats are 0
+44,Cannot use Media:Flickr when allow_url_fopen is OFF on server
+45,"Media v2 removed XML APIs, update module"
+46,Remove dummy stream wrapper
+47,Remove unnecessary local task
+48,Shouldn't media stream integration be read only?
+49,Remove unnecessary variable namespacing

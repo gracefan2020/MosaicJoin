@@ -1,0 +1,51 @@
+id,title
+0,Add permission to list fieldable panel panes
+1,Admin title field for FPP panes (UX issue)
+2,Allow a particular revision of a fieldable panels pane to be placed in a panelized page
+3,FPP and Views Bulk Operations Compatibility
+4,Can't edit Reusable Fieldable Panel Pane field values until after the pane is saved
+5,More characters in the path field
+6,Allow context keyword substitutions in FPP
+7,Fieldable panel panes should specify redirect support in hook_entity_info()
+8,Convert the path property to a field so it can be translated
+9,Manage Fields and display Link does not work
+10,fieldable_panels_pane bundle deleted
+11,Add 'Panels Cache Expiration' as Related Module on Project Page
+12,Move list view of fieldable panels panes to the Content section of the administration menu
+13,Required field within field collection > validation is skipped
+14,Domain / Ctools Domain integration proposal UI ++
+15,Special characters in title not displaying properly when title is a link
+16,"Allow ""title link"" option to be disabled per FPP type"
+17,Views Error when selecting FPP bundle
+18,panes dont update preview on save with IPE
+19,Only show view modes with custom settings on FPP edit form
+20,fieldable_panels_panes_fieldable_panels_pane_content_type_content_types loading all entities on every page
+21,[meta] Accessibility review of Fieldable Panels Panes
+22,Expose Fieldable Panels Panes as blocks
+23,FPP language issues
+24,"Clicking ""Save and add fields"" redirects to /fields"
+25,Panelizing fppanes: title issues
+26,incorrect dependencies
+27,Improved(?) Token support
+28,Document APIs
+29,Permissions don't work
+30,[meta] Plan for Fieldable Panels Pane 7.x-1.7 release
+31,Default Locking Settings for Fieldable Panels Panes
+32,Security issue. Add access callback for admin views.
+33,option to not use title field
+34,EntityMalformedException translating FPP entity
+35,Copy or clone a fieldable pane
+36,Panelizing Fieldable Panels Pane
+37,Add Status Property
+38,Comparison with the Bean module
+39,Automatically add all fields when exporting via Features
+40,Search API indexing
+41,Private files download access within a fpp
+42,Migration path to use ECK
+43,Notice: Undefined index: title in panels_renderer_editor->ajax_style_type()
+44,"Can not save translated FPPs if the FPP has a file the error message will be like ""Image is required"" or ""Thumbnail is required."""
+45,Translations aren't possible for existing fieldable panel panes
+46,fieldable_panels_panes_access() does not affect IPE interface
+47,Unpublished translations are shown to anonymous users
+48,inline_entity_form integration has fields in strange order
+49,Use a variable for FPP default categories

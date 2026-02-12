@@ -1,0 +1,103 @@
+id,title
+0,Total
+1,Day
+2,Night
+3,Grass
+4,Indoor
+5,Outdoor
+6,vs. Left
+7,vs. Right
+8,Inning 1-6
+9,Inning 7+
+10,As LHB
+11,As RHB
+12,One-run games
+13,Extra-inning games
+14,Pre-All Star
+15,"vs P, 1st time in G"
+16,"vs P, 2nd time in G"
+17,"vs P, 3rd time in G"
+18,"vs P, 4th+ time in G"
+19,SPLIT
+20,April
+21,May
+22,June
+23,SPLIT
+24,vs. Det
+25,vs. KC
+26,vs. Ari
+27,vs. Atl
+28,vs. ChC
+29,vs. Hou
+30,vs. LA
+31,vs. Mil
+32,vs. Phi
+33,vs. Pit
+34,vs. SD
+35,vs. SF
+36,SPLIT
+37,Home
+38,Away
+39,Bank One Ballpark
+40,Comerica Park
+41,Dodger Stadium
+42,Kauffman Stadium
+43,Minute Maid Park
+44,Pacific Bell Park
+45,PNC Park
+46,Turner Field
+47,Wrigley Field
+48,SPLIT
+49,0-0 count
+50,0-1 Count
+51,0-2 Count
+52,1-0 Count
+53,1-1 Count
+54,1-2 Count
+55,2-0 Count
+56,2-1 Count
+57,2-2 Count
+58,3-0 Count
+59,3-1 Count
+60,3-2 Count
+61,After (0-1)
+62,After (0-2)
+63,After (1-0)
+64,After (1-1)
+65,After (1-2)
+66,After (2-0)
+67,After (2-1)
+68,After (2-2)
+69,After (3-0)
+70,After (3-1)
+71,After (3-2)
+72,SPLIT
+73,None on
+74,Runners on
+75,Scoring Posn
+76,Bases Loaded
+77,None on/out
+78,None on: 1/2 Out
+79,"Men on, 2 outs"
+80,"Man on 3rd, < 2 outs"
+81,ScPos/2 Out
+82,Runner on 2nd
+83,Runner on 3rd
+84,"Runners 1st, 2nd"
+85,"Runners 1st, 3rd"
+86,"Runners 2nd, 3rd"
+87,SB Opp
+88,SB Atd
+89,GDP Opp
+90,SPLIT
+91,Batting #1
+92,Batting #2
+93,Batting #7
+94,Batting #8
+95,Batting #9
+96,Leading Off Inning
+97,SPLIT
+98,As 2b
+99,As cf
+100,As rf
+101,As ph (not dh)

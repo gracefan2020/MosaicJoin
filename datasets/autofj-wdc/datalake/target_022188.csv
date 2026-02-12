@@ -1,0 +1,51 @@
+id,title
+0,"Support for multiple ""Field Collection"" fields."
+1,Setting the value of a single on/off checkbox doesn't work
+2,multiple instances of same fields
+3,'Filled with a value' form state is broken
+4,"Doesn't work with a ""Field Collection"" on ""Profile 2"" fields"
+5,Conditionally required fields are not required
+6,Copy a field's value to another field
+7,Date field not saving when dependent
+8,Content for dependent fields is NOT saved
+9,Compatibility with Addressfield
+10,Inline Entity Form field cannot be dependent (error when used with IEF module)
+11,Duplicate field and Inline entity form
+12,Conditional Fields not working in FieldCollections
+13,View Context Settings
+14,Undefined offset: 4 in _menu_translate
+15,Fieldgroup support
+16,"Select lists always considered ""filled"""
+17,Load number of multiple value field forms based on numeric field value
+18,conditional_fields_attach_dependency uses '#parents' instead of '#array_parents'
+19,Selection list dependee with multiple options not working
+20,Improve integration with features
+21,Conditional fields not working with user registration
+22,Multi Level conditional Dependents not hiding
+23,Conditional fields not saving
+24,Hierarchical select compatibility
+25,Option to delete/reset values in hidden fields on condition change?
+26,Notice: Undefined property: stdClass::$field_XYZ
+27,"""Insert value from widget"" and ""Fill with a value"""
+28,how to make it work with jquery iCheck plugin
+29,Using shs with conditional_fields module does not work
+30,Compatibility with Select (or other) module
+31,It is not working for Hierarchical Select
+32,Entity reference using external field as filter
+33,Appear to break CKEditor and WYSIWYG
+34,Dependent Field Collections don't work inside Paragraphs
+35,TypeError: reference is null
+36,make comment required
+37,Allow case-insensitive regular expressions
+38,layered dependency not working w term reference
+39,Field dependencies causes Chrome to jump to location in /node/add
+40,Dependent fields are not visible in IE
+41,Dependent fields don't open in IE
+42,Condition value set on page load
+43,Dependent field is not acted upon with multiple OR/XOR dependees unless last inserted dependee is selected.
+44,Javascript error on jQuery versions 1.8 and higher
+45,Expose fields from host entity as dependees for Field Collection fields.
+46,Condtions Not Working for Me
+47,Exporting with taxonomy term created problem
+48,Allow multiple effects on a single dependent
+49,Set a select value on dependent when select dependee as specific value

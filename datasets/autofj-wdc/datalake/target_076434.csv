@@ -1,0 +1,68 @@
+id,title
+0,Lambda expressions
+1,A Perl5 Virtual Machine in Pure Perl (APVM)
+2,Extends require() to accept module names
+3,Smart interface to sprintf()
+4,"tap the ""hakushu"" (like!) button for YAPC::Asia 2012, LTthon"
+5,"Convert Moose libraries to Mouse ones, or vice versa"
+6,Runs Travis-CI scripts (.travis.yml)
+7,Manipulates foreach iterators
+8,Measure size of Perl OPs and SVs
+9,Provides monadic methods (a.k.a. singleton methods)
+10,Polymorphic data cloning
+11,MessagePack serializing/deserializing
+12,A selection of utilities for data and data types
+13,Rule based validator on type constraint system
+14,Provides mro functions for XS modules
+15,Traces opcodes which are running now
+16,Yet another distribution maker
+17,Memoization of File::Spec to make it faster
+18,Multiple HTTP requests with Coro
+19,Perl extention to do something
+20,Lightweight FillInForm module in Pure Perl
+21,Lightweight field hash for inside-out objects
+22,Pushes string back into input filehandle
+23,The real boolean keywords
+24,Perl interface to dankogai's LLEval service
+25,Accumulates the effect of methods in a class hierarchy
+26,Cumulative destructors
+27,Utility functions for XS modules
+28,Support for implementation of pragmas
+29,Moose minus the antlers
+30,Extends non-Mouse classes as well as Mouse classes
+31,A Mouse role for processing command line options
+32,Extend your attribute interfaces for Mouse
+33,Make your object constructors blow up on unknown attributes
+34,automatically apply roles at object creation time
+35,Organize your Mouse types in libraries
+36,A set of commonly-used type constraints
+37,DWIM loading of Mouse objects from YAML
+38,Hook registrations at fork(2)
+39,Perl interface to pselect(2)
+40,A selection of general PerlIO utilities
+41,Calls a subroutine with I/O interface
+42,Deals with Filesystem Encoding
+43,Command line interface to PSGI applications
+44,Shows gray favicon for development env
+45,Perl interface to Ruby interpreter
+46,Perl extention to declare lexical scalar aliases
+47,Generates and installs is-a predicates
+48,Changes version information in all the modules.
+49,Reliable subroutine attribute handlers
+50,Traces memory leaks
+51,Detects unused variables
+52,Smarty compatible template engine on Xslate
+53,Convert markdown text to Inao-format
+54,Scalable template engine for Perl5
+55,Template::Alloy virtual methods for Xslate
+56,Template-Toolkit virtual methods and filters for Xslate (deprecated)
+57,Provides UNIVERSAL::DOES() method for older perls
+58,Automatically makes references weaken
+59,Provides assertion macros for XS modules
+60,Provides mro functions for XS modules
+61,Provides PERL_MAGIC_ext manipulators for XS modules
+62,Installs missing modules on demand
+63,An implementation of macro processor
+64,Use the Oniguruma regex engine with Perl
+65,Produces warnings if methods are called as functions
+66,Produces warnings when unused variables are detected

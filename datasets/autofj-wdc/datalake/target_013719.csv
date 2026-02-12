@@ -1,0 +1,51 @@
+id,title
+0,No video at all (empty block) with Video module
+1,Don't use Flash fallback when there is no MP4
+2,The style attribute of the #vjs-flash-fallback div is munged
+3,Incompatible with new version 3 of video-js?
+4,codecs available
+5,Viewing video as anonymous user behaves differently than as logged in user
+6,Add a link to the original library videoJS
+7,No Flash fall-back
+8,flow player fall back not working with views ui enabled
+9,VideoJS and Lightbox2
+10,Interface broken in all browsers.
+11,Safari plays sound but no video
+12,video.js not loaded in views (7.x-2.x)
+13,"Individualize height, width, and autoplay settings"
+14,200 error stream not found
+15,Setting mime type of video when serving it from the private directory.
+16,Use a simpler flash fall back
+17,PHP Fatal Error: Function name must be a string
+18,Video Resize Issue
+19,Changing the video source.
+20,Implement VideoJS Flash fallback (version 3)
+21,Notice: Undefined offset: 0 in template_preprocess_videojs()
+22,no wmode attribute on flash fallback
+23,autoplay
+24,Flash fallback using local flowplayer
+25,Video JS does not fall back to download links
+26,PHP code printed as HTML
+27,The flash fallback flowplayer cannot play video file
+28,warning: Invalid argument supplied for foreach() in C:\wamp\www\drupal6....\videojs\includes\videojs.theme.inc on line 76
+29,Poster images not appearing when adding fields to existing content types
+30,Embed field
+31,Filepath ($filepath) not displaying in views
+32,foreach() in videojs.theme.inc line 76 when no video is present
+33,IE 6 7 8 require object id or the browser crashes
+34,Wrong variable called in videojs.tpl.php
+35,Use of file_create_path($path) breaks serving videos from external sites
+36,Bad URLs when using videojs_theme function in videojs.theme.inc - patch attached
+37,CONTENT_HANDLE_MULTIPLE error
+38,"Error ""warning: array_merge() [function.array-merge]: Argument #1 is not an array in /homez.xxx.."""
+39,array_merge in videojs.theme.inc not working
+40,No Video player visible ( js is there but the page is empty )
+41,Videojs doesn't show video
+42,Page not found with VideoJS
+43,No poster image for browsers w/ No video playback capabilities
+44,VideoJS within an Article
+45,VideoJS within a colorbox.
+46,"No HTML5, no skin and only audio with firefox, only loading bar with chrome"
+47,Misleading documentation regarding poster image - patch attached
+48,VideoJS does not display - only default html5 player
+49,Flash fallback is NULL when use 'flowplayer' - code change included

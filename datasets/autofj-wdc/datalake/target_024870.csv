@@ -1,0 +1,57 @@
+id,title
+0,Display Comet Magnitudes whenever possible
+1,Information links in-place for each technical term
+2,Tool to suggest star-hopping techniques???
+3,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+4,Simulate Lunar Eclipses
+5,Simulate Satellites and Iridium Flares
+6,Social and Geographical Integration for KStars
+7,Marble widget for Geolocation tool
+8,Better printed star charts
+9,Better rendering of comets/asteroids
+10,Texture mapping of the skymap???
+11,"Add proper support for GPX waypoints, tracks and routes display"
+12,Export map to MxN pixel bitmap
+13,Support for MarbleWidget::setEnabled( bool )
+14,Map Contents translation
+15,Port Kalzium to use QGV based periodic table widget
+16,Import to kdeedu
+17,"Remove libavogadro snapshot, port to use system libavogadro"
+18,"Add ""download region"" feature"
+19,Editing Tools
+20,OSM Import
+21,UI Simplification
+22,Custom Layouts
+23,Discrete Zoom Levels
+24,Performance Improvements
+25,KML Improvements
+26,Sky Mode
+27,Measure Tool Plugin
+28,Settings for plugins
+29,Kinetic Scrolling
+30,Optimized 2D Mode
+31,Bookmarks
+32,Time KML support
+33,Editing GeoDataFeatures
+34,"Update Map (""F5"")"
+35,Layer Management Class
+36,Plugin architecture for map layers
+37,Extending GeoPainter
+38,Marble Runners
+39,GeoClue Integration
+40,Routing
+41,More map providers (WMS?)
+42,GeoData Model/View rework
+43,Rewritten practice
+44,KAlgebra backend for Cantor
+45,Support for lists
+46,Improved MathML Presentation support
+47,Added 2D parametric function plotting
+48,Improved jump detections
+49,Made lambda expressions more usable
+50,Improve Observing List Wizard
+51,Add F2 context help
+52,Add SVG export for the canvas
+53,Add HTML export of the code
+54,Add printing support for the canvas
+55,Import to kdeedu

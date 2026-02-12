@@ -1,0 +1,65 @@
+id,title
+0,linkoo / symlink handling fix.
+1,wrong usage of gcc option under Linux
+2,CUSTOMMANIFESTFILE not safe against parallel jar file creati
+3,build time zip -u return 12 on rebuild when nothing to do.
+4,missing build dependency in soltools
+5,'deliver -delete' with DELIVER_TO_ZIP=TRUE fails on mileston
+6,Readme contains old email address for groupware
+7,readme.txt needs correction
+8,[Readme] $SAL_ENABLE_FILE_LOCKING is now _enabled_ by defaul
+9,unable to specify load type ...
+10,fpicker / filter change issue ...
+11,"css.text.TextGraphicObject documented, css.text.GraphicObjec"
+12,"Installation wizard: provide pictures without Sun logos, ..."
+13,"icu: useless cat, unnecessary awk pattern"
+14,Flush instruction cache in bridges/cpp_uno for linux sparc
+15,Create or update final OOo 2.0 readme
+16,VCL canvas still slow on inferior hardware
+17,"In imported SO 6/7 documents, text in formulas becomes itali"
+18,installation error with --disable-binfilter
+19,Formulas replaced by others when document re-opened
+20,gnome-vfs 2.6+ authentication broken ...
+21,[gnome filepicker] fails to open any files with Russian name
+22,RTF: export loses text following OLE object
+23,Remove moz/zipped/* from the source tarball
+24,Change in Format will reset other formats
+25,Patches and GSI file for Croatian language ui in OOo 2.0
+26,Effect split shows vertical line
+27,Add OOO_LANGPACK_DESC and OOO_LANGPACK_NAME for Hungarian an
+28,Office crashes using wizards (letter/fax)
+29,Outline numbering wrong when applying on existing text
+30,xform binding for a submission is deleted after reload the d
+31,Bad RPATH in libstlport
+32,mandrakelinux renamed to the mandriva linux
+33,Numbering following a Heading paragraph started in wrong lev
+34,Crash during deletion of outlines
+35,"OOo 2.0 letterwizard patch to show up languages: cs, bg, da,"
+36,Text animation by word or by letter doesn't work with group
+37,Outlined text is badly displayed in presentation mode
+38,Crash on saving truncates original file
+39,[RTF-Export] german special chars create corrupted chars on
+40,Showstopper:Bulleted text not visible with running effect
+41,Multiple recursions in icu build for windows
+42,interactionen on master don't work
+43,Crash when using Undo drop-down just after undo becomes unav
+44,Numbering in 2nd level will be back 1st level after paragrap
+45,"In slide show png and jpg are poor displayed, part 2"
+46,digital signature vanish after loading a document when the d
+47,"implement the perl side for ""get_cws_with_state(mws, state)"""
+48,build flags for linux sparc
+49,Console output while typing asian chars on SUSE93
+50,Certain font sizes cause outline mode to generate crap
+51,Documents containing Charts get the modified flag set on loa
+52,Layouts list not updated correctly after switching the views
+53,Impress: Deleting inserted OLE shape results in GPF
+54,rebuild in cli_ure/source/native fails
+55,"Writer preview of documents shows toolbars, crash possible"
+56,Task Pane appears in Draw
+57,crash when finish the form wizard twice
+58,Graphics-Interaction-Calls : Uncontrolled execution of possi
+59,Support link
+60,Impress crash when outline content introduced by 'paste'
+61,W32 build fails in connectivity
+62,MediaType has not the correct value for database
+63,INCPRE does not generate proper dependencies

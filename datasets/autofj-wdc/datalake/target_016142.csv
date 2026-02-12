@@ -1,0 +1,50 @@
+id,title
+0,Command-line interface for RESTful web services
+1,Compare various stopword list modules
+2,Extend ORLite to support remote SQLite databases
+3,Create CPAN::Mini mirrors with the archives extracted
+4,Perl Interface to the XING API
+5,"Scripts to cross-check Build.PL/Makefile.PL with Module::CoreList, etc"
+6,Manage credentials for DBI
+7,Generator for the CPAN Meta database
+8,Collect information from multiple sources
+9,"Minimal-configuration, read-only LDAP server"
+10,whoever die()s with the most badges win
+11,Compare various array/set handling modules
+12,Basic shopping cart
+13,"Compare Locale::Codes, Locale::Country::Multilingual, WWW::Scraper::Wikipedia::ISO3166, etc"
+14,Infra red remote control of the Ardour DAW.
+15,Moose config attribute loaded from file in home dir
+16,"Cluster operations based on parallel SSH, set and interval arithmetic"
+17,Sync configuration files across machines
+18,cooperative pandemic board game
+19,download and parse the latest USDA National Nutrient Database
+20,Interface to the Google Fusion Tables API
+21,Access to Mediathek
+22,Perl 6 documentation reader
+23,Command-line client for CPAN::Mini::Inject::REST
+24,an advanced way to manage/track/serve thoughts/articles/posts
+25,collects and reports statistics on perl code
+26,LWP::UserAgent extension with local cache
+27,Run Pod::Weaver on the files within a distribution.
+28,Silki is a Catalyst-based wiki hosting platform
+29,Perl wrapper for Phanfare API
+30,Bundle up your favorite modules and imports into one call
+31,Listen to a RabbitMQ exchange and emit the messages to console.
+32,File::HomeDir returning Path::Class objects
+33,"Copy secrets from a YAML/JSON cipherstore into the clipboard (pbcopy, xsel, xclip)"
+34,helm - Easy server and cluster automation
+35,4th generation Win32 Perl distribution builder
+36,Import your project into http://github.com
+37,Create a module based on a template to use with Module::Build
+38,This distribution aids in the automatic generation of perl modules from owl ontologies.
+39,Convert a Tree::DAG_Node object into the HTML and JS for a YUI3 menu
+40,Access Lotus Notes/Domino configuration
+41,Helper library for writing WWW::TypePad apps
+42,Manages DBI connections with password and other params stored in a .ini style file.
+43,This distribution aids in the creation of BioMOBY perl based web services.
+44,persistent application data storage
+45,utilities to build requests for the notifo.com service
+46,Preview POD files in a browser
+47,gather all files from MANIFEST
+48,class for working with remind's daemon mode

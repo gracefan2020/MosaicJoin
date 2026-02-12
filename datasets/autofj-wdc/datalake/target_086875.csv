@@ -1,0 +1,135 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. NFC
+4,vs. Own Division
+5,Grass
+6,Turf
+7,Outdoors
+8,Indoors
+9,Day Games
+10,Night Games
+11,Split
+12,September
+13,October
+14,November
+15,On Sunday
+16,On Monday
+17,Games 1-8
+18,Outdoor Temp 41-60 F
+19,Outdoor Temp 61-80 F
+20,In High Wind
+21,Clear Weather
+22,Split
+23,As Starter
+24,As Substitute
+25,In Wins/Ties
+26,In Losses
+27,1st Half
+28,2nd Half
+29,1st Qtr
+30,2nd Qtr
+31,3rd Qtr
+32,4th Qtr
+33,Last 2 Min. Half
+34,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+35,Score Diff > 7 points
+36,Final Margin 7 pts or less
+37,"4th Qtr, +/-3 pts"
+38,"4th Qtr, +/-7 Pts"
+39,Split
+40,1st Down
+41,2nd Down
+42,3rd Down
+43,4th Down
+44,Own 1-19
+45,Own 20-39
+46,Between 40s
+47,Opp 39-20
+48,Opp 19-Goal
+49,Opp 9-Goal
+50,"First down, 10 yds to go"
+51,Plays gaining 20+ yds
+52,Split
+53,vs. DAL
+54,vs. GB
+55,vs. NO
+56,vs. NYG
+57,vs. PHI
+58,vs. ARI
+59,Split
+60,Lambeau Field
+61,Trans World Dome
+62,Split
+63,vs NFC East teams
+64,vs NFC West teams
+65,Split
+66,Line 2 yds or less yards from TD
+67,3rd & Goal
+68,"1st Down, 8-10 To Go"
+69,"1st Down, 6+ To Go"
+70,"2nd Down, 3-7 To Go"
+71,"2nd Down, 8-10 To Go"
+72,"2nd Down, 11+ To Go"
+73,"2nd Down, 6+ To Go"
+74,"3rd Down, 0-2 To Go"
+75,"3rd Down, 3-7 To Go"
+76,"3rd Down, 8-10 To Go"
+77,"3rd Down, 11+ To Go"
+78,"3rd Down, < 6 To Go"
+79,"3rd Down, 6+ To Go"
+80,"4th Down, 0-2 To Go"
+81,"4th Down, < 6 To Go"
+82,Split
+83,Final Margin 0-7
+84,Final Margin 8-14
+85,Final Margin 15+
+86,Winning 15-21
+87,Winning 8-14
+88,Winning 1-7
+89,When Tied
+90,Losing 1-7
+91,Losing 8-14
+92,Losing 15-21
+93,Losing 22+
+94,When Winning
+95,When Trailing
+96,In Losing Games Started
+97,Split
+98,Carries 1-5
+99,Split
+100,0 Tight Ends
+101,1 Tight End
+102,No Offensive Motion
+103,Offensive Motion
+104,< 4 on Def. line
+105,4 on Def. Line
+106,5 on Def. Line
+107,6 on Def. Line
+108,Shotgun
+109,Pro Form
+110,Single Back
+111,3 Wide Receivers
+112,4+ Wide Receivers
+113,Split
+114,Right Side
+115,Left Side
+116,Middle
+117,Left Sideline
+118,Right Sideline
+119,Pass Thrown Behind Line of Scrimmage
+120,Pass Thrown 1-10 yds
+121,Pass Thrown 11-20 yds
+122,Pass Thrown 21-30 yds
+123,Split
+124,Blitz
+125,QB Under Pressure
+126,QB Knocked Down
+127,Pass Dropped
+128,Batted Down at Scrimmage
+129,QB-Rcvr Miscommunicate
+130,Pass Overthrown
+131,Thrown Away Intentionally
+132,Pass Thrown Wide
+133,Pass Defensed

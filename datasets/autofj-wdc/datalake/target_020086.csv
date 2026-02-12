@@ -1,0 +1,49 @@
+id,title
+0,"Notification queue for Zabbix, Nagios, et.al."
+1,Managing on-call rotation and notification queues
+2,A simple structure for Web::Simple applications
+3,Log headers and body of HTTP traffic
+4,Dancer plugin to cache response content (and anything else)
+5,A simple Web::Simple wrapper for GitHub's PostReceive hooks
+6,Ukigumo test runner server
+7,Export DBI database as HTTP API (Riap::HTTP)
+8,Pipelined State Machine Plack Middleware Framework
+9,serve OpenSearch results
+10,modify log output.
+11,Hacks for Plack under Apache2
+12,Hacks for Plack and CGI under Apache2
+13,Map multiple apps in different paths
+14,Sinatra-ish Simple and Clear web application framework
+15,"PSGI/Plack server with event driven connection manager, preforking workers"
+16,A Task module for DWIM Perl http://dwimperl.com/
+17,Override LWP's HTTP/HTTPS backend with your own PSGI application
+18,Middleware for Profiling a Plack App
+19,Application that runs on cpanlists.org
+20,Test your application's warnings
+21,implementation of WebID (a.k.a. FOAF+SSL)
+22,Plack::Middleware which sets removes body for HTTP response if it's not required
+23,Middleware to provide LemonLDAP support for Plack applications
+24,The web service creation framework written with events in mind.
+25,RESTful web application framework based on Plack
+26,IkuSan is IRC reaction bot framework.
+27,Web server to notify GitHub Webhooks to App::Ikachan
+28,OX::RouteBuilder which routes to an action method in a controller class based on HTTP verbs
+29,the hardest working two letters in Perl
+30,It's new $module
+31,The Chrome Logger Middleware for Plack
+32,MongoDB based session store for Plack apps.
+33,Plugin for Template Toolkit
+34,View wrapper class for TT renderers
+35,modify HTTP response headers
+36,modules I use
+37,"Just few modules I use, or like, or both."
+38,modules I use
+39,agent server for APNS
+40,PSGI Log handler for Dancer
+41,fake CDN server emulator
+42,Communicate with PhantomJS
+43,use a PSGI app in a Catalyst Controller
+44,Pluggable STF Dispatcher Interface
+45,"A small, lightweight profiler for time and memory as Plack middleware"
+46,Simple REST endpoint app for db backend build with Plack and DBIC
+47,Yet another AccessLog Middleware

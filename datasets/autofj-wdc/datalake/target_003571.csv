@@ -1,0 +1,51 @@
+id,title
+0,Additional arguments handling
+1,Calendar shows wrong date in day display in its default view
+2,Missing argument 4 for calendar_ical_views_feed_argument()... calendar_ical.module on line 323
+3,Loss of ICAL settings
+4,Turn off event display in Year/Month View
+5,image uploads appear in calendar
+6,HTML error caused by theme_calendar_nav_wrapper()
+7,get rid of military time in main calendar
+8,Local Time Zone Issues
+9,date not always correct
+10,Not valid code...
+11,Not work for nodes with modified time
+12,Can't open page
+13,Installation Problems
+14,Can't update Calendar module
+15,Removed Tags
+16,bug with a multiple value CCK date field
+17,upcoming and recent events block
+18,CCK content types not showing up in Calendar
+19,How to do a simple calendar
+20,"CCK-based entries only show day created, not date entered"
+21,Day view - node title is skewed on month and year
+22,Day view - node title is skewed on month and year
+23,Date Displayed in Title Not Correct
+24,nothing is displayed
+25,Is week view working fine?
+26,Argument from Calendar: Day doesn't seem to be passed along
+27,timezones - probably more related to Date module
+28,Wrong date/times being shown due to collision between current Date module and Calendar module
+29,"In month view, hi-lighted day is incorrect."
+30,Todays Date is Off on Calendar
+31,pathauto
+32,Calendar-not the usual date issue
+33,Invalid CSS in calendar.css
+34,update.php error
+35,enormous view queries from calendar.module slow down each drupal page request
+36,$base_url malarchy
+37,SQL Error on fresh installation
+38,No data after update
+39,format_date() use for different language locales and a little bug found when generating page title and breadcrumbs
+40,Error on update: Table 'calendar_ical' Doesn't Exist
+41,"Outputing extra css declaration in head, that is not valid"
+42,"Upon entering admin/modules page, blank screen. Apache log reports PHP parse error ')' line 967"
+43,calendar_ical.install fails to install tables
+44,Try out a demonstration (demos site)- Calc doesn't show properly
+45,Day and week view doesn't show the content
+46,ical icon missing
+47,remove sidebars from specific calendar views
+48,"Block display, list format"
+49,Calendar doesnt get i18n'ized properly

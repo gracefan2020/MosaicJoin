@@ -1,0 +1,223 @@
+id,title
+0,Specify date/time validity better?
+1,Conjunction types?
+2,Why allow divergent order relations?
+3,Enumerations should inherit ordering from underlying type
+4,Ordering information is missing
+5,Do strings need collation sequence?
+6,Arbitrary-precision decimal too much?
+7,Integers should not allow non-significant leading or trailing zeroes
+8,How do I restrict strings to ASCII or Latin 1?
+9,Clarify the exposition of identity-constraint tables
+10,Date and time period
+11,How can a module creator make attributes available to other modules?
+12,How can a module creator add things to content models in other modules?
+13,Define an XPath type
+14,Allow hints for initial value of an attribute?
+15,Allow arbitrary order with occurrence > 1?
+16,Give BNF for regular-expression language?
+17,Clarify character-set subtraction?
+18,Make - unambiguous in regexes?
+19,Clean up definition of multi-character escape?
+20,Allow non-gregorian dates?
+21,Where's the glossary?
+22,Use 2000 not 1999 in XML Schema namespace name?
+23,Improve or drop tabulation of changes in Structures?
+24,Why have pattern facet for Boolean?
+25,Drop pattern from binary?
+26,Allow multiple lexical spaces for floats?
+27,Don't list fixed-value facets?
+28,Fix lexical form for recurringDay?
+29,Where is xml.xsd?
+30,"Provide archive of spec, DTDs, stylesheets, and XSDs?"
+31,Add shorthands to regex syntax?
+32,"Why is {0,0} there?"
+33,Define single-character escape for vertical bar?
+34,Typo in example in Primer section 5?
+35,Reconsider project requirements and design?
+36,Multi-field keys?
+37,Fix defaulting text for maxOccurs?
+38,Typo: for finalDefault read blockDefault?
+39,xsi:null and keyref
+40,Typos in datatypes?
+41,Typos in Primer Section 3.1?
+42,Defining lists of permitted attribute values
+43,Questions relating to data types
+44,Questions
+45,Remove default values?
+46,Typo in example?
+47,Fix declaration of simpleType element?
+48,Streamline restriction of content models?
+49,Suppress multiple local declarations of attribute element?
+50,Can XML Schema define XSLT?
+51,Clarify minOccur/maxOccur defaulting?
+52,Shipper/biller vs. Shippee/billee in part 0
+53,Drop nonPositiveInteger?
+54,Proper home namespace/resource for built-in datatypes
+55,"Add schemaPrefix, targetPrefix attributes?"
+56,Add maximum depth for includes?
+57,How to deal with nested imports?
+58,Allow user-defined list separators?
+59,Change meaning of anyAttribute?
+60,Allow record-style simple types?
+61,Doubly specified facets
+62,Forbid recursion in content models?
+63,Entities
+64,Why are {min occurs}/{max occurs} optional in Attribute Declaration?
+65,{name} of the Ur-Type
+66,Why does absent point to definition for null in glossary?
+67,Should there be a Simple Type Definition of the Ur-Type?
+68,"Should ""anyAttribute"" have a ""processContents"" attribute?"
+69,Can ##local stand alone in namespace attribute or must it be in a list?
+70,{value constraint} in top-level attribute declarations
+71,Representation of {target namespace} in second case has parent instead of ancestor
+72,XML Schema Namespace versioning
+73,Define an explicit name for the urType?
+74,Using appinfo annotations to store integrity constraints
+75,Defining inherited attribute values
+76,"Namespace of has-facet, has-property"
+77,Possible schema validation issue in 3.0b3
+78,Stray data in Datatypes schema?
+79,Stray slash in declaration of base attribute for simple types?
+80,Schema-for-schema files
+81,XML Schema considered inadequately extensible
+82,Better support for semantics?
+83,Arrays?
+84,4.3.1: second scenario: should value constraint default to FIXED?
+85,Optional component != mandatory but absent?
+86,Value space for xsi:null attribute
+87,Limits on lists
+88,Undeclared and unnamed namespaces
+89,Extension of mixed types
+90,Support declaration of character entities?
+91,Dynamic element name specification.
+92,Disjoint datatypes?
+93,Clarify Structures 5.11 Complex Type Definition Constraints - Type Derivation OK
+94,Use of xml:lang
+95,equivClass: common ancestor type
+96,Allow hex notation for integers?
+97,Clarifying schema location and namespace
+98,XPath expressions in key definitions
+99,Suggested rewording in '3.8 Particle Details'
+100,Help on Wildcard
+101,Suggestion: Microparsing support in XML Schema
+102,Restricting Facets
+103,XML Signature WG's review of XML Schema
+104,Please stabilize syntax
+105,"Restructure Structures 2.2.*, or define components?"
+106,Reagle's comments on XML Schema
+107,Clear relation of xsi and xsd namespaces
+108,Make schema and DTD locations more explicit?
+109,"Simplify default values, or document better"
+110,Clearer guidelines in Primer section 3?
+111,Determinism and Choices of Sequences
+112,Minor comments for WD-xmlschema-1-20000407
+113,Minor part 1 comments
+114,Resolution of QNames references
+115,Require declaration before use of schema location?
+116,(Locating Schema resources)
+117,Making it easy to create signable schemas
+118,Question on include
+119,[Clarifications] Part 2 Datatypes
+120,Element names should be xml:ids in schemas
+121,xsd:appinfo
+122,Inconsistency on content model for group
+123,MPEG-7 Feedback to Last Call for Review
+124,Extend last-call comment period?
+125,Content model of
+126,Error logging in the infoset
+127,Lee Buck's use case returns: a hesitant proposal for type modification
+128,Minor typos in WD-xmlschema-2-20000407
+129,XML Schema Comments
+130,[Dummy]
+131,Contents which may occur in any order
+132,Well-known URIs for all built-in datatypes and facets
+133,[Dummy]
+134,'form' and 'elementFormDefault' appear harmful
+135,Symbolic constants
+136,[Dummy]
+137,[Dummy]
+138,Mixed Content Model
+139,[Dummy]
+140,[Dummy]
+141,Oracle Comments on XML Schema Last Call:
+142,Simplifying XML Schema
+143,X3D-related comments on Schema datatypes
+144,How do I specify additional numeric constraints?
+145,"Question on ""ref"" attribute"
+146,[Dummy]
+147,[Dummy]
+148,Provide guidance on extending schema for schemas?
+149,Allow specification of size constraints in instance?
+150,How do I restrict IDREFs to particular (element) types?
+151,Simultaneous restriction and extension?
+152,Re-align occurrence indications for elements and attributes?
+153,Allow explicit specification of name import/export?
+154,Restore global openness
+155,Make schema for schemas open?
+156,Clarify schema evolution
+157,Split the specification?
+158,Add PSV infoset properties for keyref info?
+159,Default equivclass blocking?
+160,An API needed for the PSV info set?
+161,Add items to PSV infoset for schemas?
+162,Recurring durations
+163,Drop xsi:type?
+164,Drop xsi:null?
+165,Align simple and complex types more fully?
+166,Local declarations: less or more
+167,Drop/clarify anonymous types?
+168,Primer notes
+169,Drop include?
+170,Drop/clarify keys?
+171,Drop any wildcard?
+172,Miscellaneous notes on structures
+173,Drop abstract model?
+174,Drop equivalence classes?
+175,Drop/clarify notation?
+176,Tighten conformance rules?
+177,Clarify!
+178,May components not at the top level be named?
+179,Locality of exposition
+180,Allow abstract types in element declarations?
+181,Relax single-binding rule?
+182,Clarify details of lax validation?
+183,How do I combine schemas for two namespaces in one schema?
+184,Comments from XML Core WG
+185,Naturalizing names while declaring their relation to their original namespace
+186,Type hierarchy for numerics
+187,Notes on the primer
+188,Easier (more compact) enumerations?
+189,Allow attributes and content model in any order?
+190,Comments from XForms Group
+191,Comments from DOM WG
+192,How do I specify co-occurrence constraints on attributes?
+193,Align better with OR schema
+194,Eliminate the term 'obtains'?
+195,Need graphics?
+196,Allow negative scale?
+197,Provide type-information in PSV Infoset?
+198,A schema for the schemaless?
+199,Distinguish sequences from sets?
+200,Support cross-document keyref?
+201,Make physical representation an optional PSV property?
+202,Align part 1 and part 2 better on datatypes infoset?
+203,Type coercions
+204,"I18n notes on primer, misc"
+205,I18n notes on structures
+206,"I18n notes on datatypes, misc"
+207,Rename equivalence classes?
+208,Open enumerations
+209,Make DTD non-normative?
+210,Add masks?
+211,Currencies
+212,Drop facets?
+213,Add facets?
+214,Easy add-ins
+215,"Merge mixed, text-only, and string?"
+216,Allow pattern on complex types?
+217,Solve C0 control-character issue?
+218,Lay foundation for multiple lexical representations?
+219,Single lexical representations?
+220,I18n on date/time types
+221,Revamp occurrence indicators?

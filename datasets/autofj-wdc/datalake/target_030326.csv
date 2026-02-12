@@ -1,0 +1,216 @@
+id,title
+0,County/District/School code
+1,"Record Type D=District, S=School, X=State, M=Small, F=Direct Funded Charter, A=ASAM"
+2,"Type 1=Unified, 2=Elementary District, 3=9-12 High District, 4=7-12 High District, E=Elementary School, M=Middle School, H=High School"
+3,School Name
+4,District Name
+5,County Name
+6,2003 Base (Field will be blank if not available)
+7,2004 Growth (Field will be blank if not available)
+8,Change in API (Field will be blank if not available)
+9,"Yes = Met all 2004 AYP Criteria, No = Did not Meet all 2004 AYP Criteria, N/A=Not Available"
+10,Number of AYP criteria met
+11,Number of AYP criteria possible
+12,Participation met (Yes/No or N/A)
+13,Percent Proficient met (Yes/No or N/A)
+14,API met (Yes/No or N/A)
+15,Met Graduation requirement (Yes/No or N/A)
+16,Percent proficient method A =Pair and share B =9th or 11th grade CST results C =District values D =Other H =Safe Harbor S =Standard
+17,API method A =Pair and share B =CAPA only C =District values D =Other S =Standard
+18,Graduation method A =Pair and share C =District or state values D =Other S =Standard
+19,API for numerically significant socio-economic disadvantaged subgroup for districts only
+20,ELA (CAPA) Percent proficient and above
+21,ELA (CAPA) Above 1.0
+22,ELA (CAPA) Exception Approved
+23,Math (CAPA) Percent proficient and above
+24,Math (CAPA) Above 1.0
+25,Math (CAPA) Exception Approved
+26,Schoolwide or LEA-wide ELA Enrollment
+27,Schoolwide or LEA-wide ELA Tested
+28,Schoolwide or LEA-wide ELA Participation Rate
+29,Schoolwide or LEA-wide ELA Participation Rate met
+30,Schoolwide or LEA-wide Math Enrollment
+31,Schoolwide or LEA-wide Math Tested
+32,Schoolwide or LEA-wide Math Participation Rate
+33,Schoolwide or LEA-wide Math Participation Rate met
+34,ELA Enrollment African American
+35,ELA Tested African American
+36,ELA Participation Rate African American
+37,ELA Participation Rate Met African American
+38,Math Enrollment African American
+39,Math Tested African American
+40,Math Participation Rate African American
+41,Math Participation Rate Met African American
+42,ELA Enrollment American Indian
+43,ELA Tested American Indian
+44,ELA Participation Rate American Indian
+45,ELA Participation Rate met American Indian
+46,Math Enrollment American Indian
+47,Math Tested American Indian
+48,Math Participation Rate American Indian
+49,Math Participation Rate met American Indian
+50,ELA Enrollment Asian
+51,ELA Tested Asian
+52,ELA Participation Rate Asian
+53,ELA Participation Rate Met Asian
+54,Math Enrollment Asian
+55,Math Tested Asian
+56,Math Participation Rate Asian
+57,Math Participation Rate Met Asian
+58,EL A Enrollment Filipino
+59,ELA Tested Filipino
+60,ELA Participation Rate Filipino
+61,ELA Participation Rate Met Filipino
+62,Math Enrollment Filipino
+63,Math Tested Filipino
+64,Math Participation Rate Filipino
+65,Math Participation Rate Met Filipino
+66,ELA Enrollment Hispanic
+67,ELA Tested Hispanic
+68,ELA Participation Rate Hispanic
+69,ELA Participation Rate met Hispanic
+70,Math Enrollment Hispanic
+71,Math Tested Hispanic
+72,Math Participation Rate Hispanic
+73,Math Participation Rate met Hispanic
+74,ELA Enrollment Pacific Islander
+75,ELA Tested Pacific Islander
+76,ELA Participation Rate Pacific Islander
+77,ELA Participation Rate met Pacific Islander
+78,Math Enrollment Pacific Islander
+79,Math Tested Pacific Islander
+80,Math Participation Rate Pacific Islander
+81,Math Participation Rate met Pacific Islander
+82,ELA Enrollment White
+83,ELA Tested White
+84,ELA Participation Rate White
+85,ELA Participation Rate met White
+86,Math Enrollment White
+87,Math Tested White
+88,Math Participation Rate White
+89,Math Participation Rate met White
+90,ELA Enrollment Socioeconomic Disadvantaged
+91,ELA Tested Socioeconomic Disadvantaged
+92,ELA Participation Rate Socioeconomic Disadvantaged
+93,ELA Participation Rate met Socioeconomic Disadvantaged
+94,Math Enrollment Socioeconomic Disadvantaged
+95,Math Tested Socioeconomic Disadvantaged
+96,Math Participation Rate Socioeconomic Disadvantaged
+97,Math Participation Rate met Socioeconomic Disadvantaged
+98,ELA Enrollment English Learner
+99,ELA Tested English Learner
+100,ELA Participation Rate English Learner
+101,ELA Participation Rate met English Learner
+102,Math Enrollment English Learner
+103,Math Tested English Learner
+104,Math Participation Rate English Learner
+105,Math Participation Rate met English Learner
+106,ELA Enrollment Students with Disabilities
+107,ELA Tested Students with Disabilities
+108,ELA Participation Rate Students with Disabilities
+109,ELA Participation Rate met Students with Disabilities
+110,Math Enrollment Students with Disabilities
+111,Math Tested Students with Disabilities
+112,Math Participation Rate Students with Disabilities
+113,Math Participation Rate met Students with Disabilities
+114,Schoolwide or LEA-wide ELA Number of Valid scores
+115,Schoolwide or LEA-wide ELA Number of students scoring Proficient or Above
+116,Schoolwide or LEA-wide ELA Percent of students scoring Proficient or Above
+117,Schoolwide or LEA-wide ELA Percent Proficient or Above met
+118,Schoolwide or LEA-wide Math Valid scores
+119,Schoolwide Math number of students scoring Proficient or Above
+120,Schoolwide Math Percent of students scoring Proficient or Above
+121,Schoolwide Math Percent Proficient or Above met
+122,ELA Valid scores African American
+123,ELA Number of students scoring Proficient or Above African American
+124,ELA Percent Proficient or Above African American
+125,ELA Percent Proficient or Above met African American
+126,Math Valid scores African American
+127,Math students scoring Proficient or Above African American
+128,Math Percent of students scoring Proficient or Above African American
+129,Math Percent Proficient or Above met African American
+130,ELA Valid scores American Indian
+131,ELA Number students scoring Proficient or Above American Indian
+132,ELA Percent of students scoring Proficient or Above American Indian
+133,ELA Percent Proficient or Above met American Indian
+134,Math Valid scores American Indian
+135,Math students scoring Proficient or Above American Indian
+136,Math Percent of students scoring Proficient or Above American Indian
+137,Math Percent Proficient or Above met American Indian
+138,ELA Valid scores Asian
+139,ELA Number of students scoring Proficient or Above Asian
+140,ELA Percent of students scoring Proficient or Above Asian
+141,ELA Percent Proficient or Above met Asian
+142,Math Valid scores Asian
+143,Math students scoring Proficient or Above Asian
+144,Math Percent of students scoring Proficient or Above Asian
+145,Math Percent Proficient or Above met Asian
+146,ELA Valid scores Filipino
+147,ELA Number of students scoring Proficient or Above Filipino
+148,ELA Percent of students scoring Proficient or Above Filipino
+149,ELA Percent Proficient or Above met Filipino
+150,Math Valid scores Filipino
+151,Math students scoring Proficient or Above Filipino
+152,Math Percent of students scoring Proficient or Above Filipino
+153,Math Percent Proficient or Above met Filipino
+154,ELA Valid scores Hispanic
+155,ELA Number students scoring Proficient or Above Hispanic
+156,ELA Percent of students scoring Proficient or Above Hispanic
+157,ELA Percent Proficient or Above met Hispanic
+158,Math Valid scores Hispanic
+159,Math students scoring Proficient or Above Hispanic
+160,Math Percent of students scoring Proficient or Above Hispanic
+161,Math Percent Proficient or Above met Hispanic
+162,ELA Valid scores Pacific Islander
+163,ELA Number of students scoring Proficient or Above Pacific Islander
+164,ELA Percent of students scoring Proficient or Above Pacific Islander
+165,ELA Percent Proficient or Above Met Pacific Islander
+166,Math Valid scores Pacific Islander
+167,Math students scoring Proficient or Above Pacific Islander
+168,Math Percent of students scoring Proficient or Above Pacific Islander
+169,Math Percent Proficient or Above Met Pacific Islander
+170,ELA Valid scores White
+171,ELA Number of students scoring Proficient or Above White
+172,ELA Percent of students scoring Proficient or Above White
+173,ELA Percent Proficient or Above Met White
+174,Math Valid scores White
+175,Math students scoring Proficient or Above White
+176,Math Percent of students scoring Proficient or Above White
+177,Math Percent Proficient or Above Met White
+178,ELA Valid scores Socioeconomic Disadvantaged
+179,ELA Number of students scoring Proficient or Above Socioeconomic Disadvantaged
+180,ELA Percent of students scoring Proficient or Above Socioeconomic Disadvantaged
+181,ELA Percent Proficient or Above Met Socioeconomic Disadvantaged
+182,Math Valid scores Socioeconomic Disadvantaged
+183,Math students scoring Proficient or Above Socioeconomic Disadvantaged
+184,Math Percent of students scoring Proficient or Above Socioeconomic Disadvantaged
+185,Math Percent Proficient or Above Met Socioeconomic Disadvantaged
+186,ELA Valid scores English Learner
+187,ELA students scoring Proficient or Above English Learner
+188,ELA Percent of students scoring Proficient or Above English Learner
+189,ELA Percent Proficient or Above Met English Learner
+190,Math Valid scores English Learner
+191,Math students scoring Proficient or Above English Learner
+192,Math Percent of students scoring Proficient or Above English Learner
+193,Math Percent Proficient or Above Met English Learner
+194,ELA Valid scores Students with Disabilities
+195,ELA students scoring Proficient or Above Students with Disabilities
+196,ELA Percent of students scoring Proficient or Above Students with Disabilities
+197,ELA Percent Proficient or Above Met Students with Disabilities
+198,Math students with a Valid scores Students with Disabilities
+199,Math Number of Students with Disabilities students scoring Proficient or Above
+200,Math Percent of Students with Disabilities scoring Proficient or Above
+201,Math Percent Proficient or Above Met Students with Disabilities
+202,"Graduation Rate for 2004, Class of 2002–03 (or N/A)"
+203,"Graduation Rate for 2003, Class of 2001–02 (or N/A)"
+204,2003–2004 Change in Graduation Rate (or N/A)
+205,Change from the average of 2002 to 2004 (or N/A)
+206,"1= parent waiver, 2= testing irregularities, 3= Failed the 85% rule - no valid API given, 4= under 11 valid scores"
+207,Results on this report may change because: C = the LEA will be changing data.
+208,Results on this report may change because the LEA exceeded the 1.0 percent cap on proficient or above scores based on 2004 CAPA.
+209,"Participation Rate ELA (Y=Yes, N=No, YMA=Yes Met on Appeal, N/A)"
+210,"Participation Rate Math (Y=Yes, N=No, YMA=Yes Met on Appeal, N/A)"
+211,"Percent Proficient ELA (Y=Yes, N=No, YMA=Yes Met on Appeal, N/A)"
+212,"Percent Proficient Math (Y=Yes, N=No, YMA=Yes Met on Appeal, N/A)"
+213,"API Criteria (Y=Yes, N=No, YMA=Yes Met on Appeal, N/A)"
+214,"Graduation Rate (Y=Yes, N=No, YMA=Yes Met on Appeal, N/A)"

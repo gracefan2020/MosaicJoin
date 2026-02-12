@@ -1,0 +1,377 @@
+id,title
+0,drug metabolic process
+1,cellular response to oxidative stress
+2,organonitrogen compound metabolic process
+3,actin filament depolymerization
+4,pyridine nucleotide metabolic process
+5,oxidation-reduction process
+6,hydrogen peroxide catabolic process
+7,protein depolymerization
+8,amine catabolic process
+9,steroid metabolic process
+10,generation of precursor metabolites and energy
+11,actin polymerization or depolymerization
+12,polyamine catabolic process
+13,cellular protein complex disassembly
+14,organic acid metabolic process
+15,cellular amine metabolic process
+16,protein complex disassembly
+17,phenol-containing compound catabolic process
+18,cellular response to hydrogen peroxide
+19,catecholamine catabolic process
+20,hormone metabolic process
+21,cofactor biosynthetic process
+22,tricarboxylic acid cycle
+23,choline metabolic process
+24,protein geranylgeranylation
+25,reactive oxygen species metabolic process
+26,macromolecular complex disassembly
+27,succinate metabolic process
+28,cellular respiration
+29,protein prenylation
+30,prenylation
+31,cellular amino acid catabolic process
+32,auxin biosynthetic process
+33,ketone biosynthetic process
+34,regulation of protein targeting to membrane
+35,organic hydroxy compound catabolic process
+36,response to reactive oxygen species
+37,auxin metabolic process
+38,regulation of Rab GTPase activity
+39,regulation of Rab protein signal transduction
+40,NAD metabolic process
+41,acetyl-CoA metabolic process
+42,dopamine catabolic process
+43,alditol phosphate metabolic process
+44,mitochondrial ATP synthesis coupled electron transport
+45,lysine metabolic process
+46,cellular modified amino acid catabolic process
+47,amine metabolic process
+48,pyruvate metabolic process
+49,catechol-containing compound catabolic process
+50,cellular amide metabolic process
+51,organic acid catabolic process
+52,tetrapyrrole biosynthetic process
+53,nonribosomal peptide biosynthetic process
+54,cellular alcohol metabolic process
+55,organic substance biosynthetic process
+56,regulation of transport
+57,regulation of cellular localization
+58,negative regulation of intracellular protein transport
+59,negative regulation of biological process
+60,regulation of protein transport
+61,regulation of establishment of protein localization
+62,biological regulation
+63,regulation of biological process
+64,NADP metabolic process
+65,covalent chromatin modification
+66,demethylation
+67,cellular biosynthetic process
+68,cellular process
+69,metabolic process
+70,cellular metabolic process
+71,regulation of hormone biosynthetic process
+72,carboxylic acid metabolic process
+73,instar larval or pupal development
+74,multicellular organismal development
+75,single-multicellular organism process
+76,cellular homeostasis
+77,homeostatic process
+78,phosphorus metabolic process
+79,respiratory electron transport chain
+80,ATP synthesis coupled electron transport
+81,catecholamine metabolic process
+82,catabolic process
+83,organic cyclic compound catabolic process
+84,dopamine metabolic process
+85,cellular nitrogen compound metabolic process
+86,small molecule biosynthetic process
+87,small molecule metabolic process
+88,macromolecule modification
+89,cellular protein metabolic process
+90,protein modification process
+91,cellular response to stimulus
+92,response to chemical stimulus
+93,tetrapyrrole metabolic process
+94,regulation of signaling
+95,regulation of cell communication
+96,regulation of Ras protein signal transduction
+97,regulation of small GTPase mediated signal transduction
+98,regulation of nitrogen compound metabolic process
+99,regulation of primary metabolic process
+100,regulation of nucleotide catabolic process
+101,regulation of GTP catabolic process
+102,regulation of molecular function
+103,regulation of purine nucleotide catabolic process
+104,regulation of GTPase activity
+105,positive regulation of Ras GTPase activity
+106,positive regulation of catalytic activity
+107,Ras protein signal transduction
+108,cell communication
+109,single organism signaling
+110,signaling
+111,regulation of hormone metabolic process
+112,positive regulation of biological process
+113,regulation of response to stimulus
+114,regulation of phosphorus metabolic process
+115,regulation of hydrolase activity
+116,regulation of catabolic process
+117,regulation of nucleotide metabolic process
+118,regulation of cellular metabolic process
+119,terpenoid metabolic process
+120,lipid biosynthetic process
+121,terpenoid biosynthetic process
+122,nucleobase-containing compound metabolic process
+123,aromatic compound catabolic process
+124,catechol-containing compound metabolic process
+125,nucleotide metabolic process
+126,nucleoside phosphate metabolic process
+127,macromolecule metabolic process
+128,biological_process
+129,chromatin organization
+130,chromatin modification
+131,single-organism process
+132,carbohydrate derivative biosynthetic process
+133,glycosyl compound metabolic process
+134,positive regulation of biosynthetic process
+135,regulation of biosynthetic process
+136,positive regulation of cellular metabolic process
+137,positive regulation of RNA metabolic process
+138,positive regulation of nitrogen compound metabolic process
+139,regulation of RNA metabolic process
+140,positive regulation of macromolecule metabolic process
+141,"regulation of transcription, DNA-dependent"
+142,positive regulation of transcription from RNA polymerase II promoter
+143,regulation of cellular macromolecule biosynthetic process
+144,regulation of RNA biosynthetic process
+145,regulation of macromolecule metabolic process
+146,cellular component organization
+147,protein complex subunit organization
+148,actin cytoskeleton organization
+149,organic substance metabolic process
+150,cellular lipid metabolic process
+151,small molecule catabolic process
+152,single-organism catabolic process
+153,alpha-amino acid metabolic process
+154,alpha-amino acid catabolic process
+155,aspartate family amino acid catabolic process
+156,dicarboxylic acid metabolic process
+157,primary metabolic process
+158,oxoacid metabolic process
+159,coenzyme metabolic process
+160,thioester metabolic process
+161,response to stress
+162,single-organism metabolic process
+163,nitrogen compound metabolic process
+164,regulation of cellular process
+165,biosynthetic process
+166,multicellular organismal process
+167,developmental process
+168,response to stimulus
+169,regulation of metabolic process
+170,organic cyclic compound metabolic process
+171,heterocycle metabolic process
+172,cellular aromatic compound metabolic process
+173,single-organism cellular process
+174,cellular component organization or biogenesis
+175,protein metabolic process
+176,cellular macromolecule metabolic process
+177,sulfur compound metabolic process
+178,cofactor metabolic process
+179,cellular amino acid metabolic process
+180,organic hydroxy compound metabolic process
+181,single-organism biosynthetic process
+182,regulation of localization
+183,nucleobase-containing small molecule metabolic process
+184,regulation of biological quality
+185,phosphate-containing compound metabolic process
+186,organic substance catabolic process
+187,cellular catabolic process
+188,cellular protein modification process
+189,cellular response to stress
+190,cellular response to chemical stimulus
+191,organic cyclic compound biosynthetic process
+192,aromatic compound biosynthetic process
+193,heterocycle biosynthetic process
+194,regulation of signal transduction
+195,regulation of nucleobase-containing compound metabolic process
+196,positive regulation of molecular function
+197,signal transduction
+198,positive regulation of metabolic process
+199,regulation of phosphate metabolic process
+200,regulation of catalytic activity
+201,cellular nitrogen compound biosynthetic process
+202,organonitrogen compound biosynthetic process
+203,positive regulation of cellular process
+204,regulation of cellular biosynthetic process
+205,regulation of macromolecule biosynthetic process
+206,regulation of gene expression
+207,macromolecular complex subunit organization
+208,organelle organization
+209,lipid metabolic process
+210,monocarboxylic acid metabolic process
+211,organophosphate metabolic process
+212,carbohydrate derivative metabolic process
+213,response to oxygen-containing compound
+214,response to oxidative stress
+215,pyridine-containing compound metabolic process
+216,cellular ketone metabolic process
+217,cellular biogenic amine metabolic process
+218,oxidoreduction coenzyme metabolic process
+219,isoprenoid metabolic process
+220,regulation of hormone levels
+221,cellular modified amino acid metabolic process
+222,secondary metabolic process
+223,peptide metabolic process
+224,negative regulation of transport
+225,regulation of intracellular transport
+226,regulation of protein localization
+227,cellular response to oxygen-containing compound
+228,pigment metabolic process
+229,phosphorylation
+230,energy derivation by oxidation of organic compounds
+231,response to inorganic substance
+232,organonitrogen compound catabolic process
+233,regulation of nucleoside metabolic process
+234,positive regulation of hydrolase activity
+235,intracellular signal transduction
+236,regulation of cellular catabolic process
+237,regulation of purine nucleotide metabolic process
+238,sulfur amino acid metabolic process
+239,alcohol metabolic process
+240,amide biosynthetic process
+241,chromosome organization
+242,sulfur compound biosynthetic process
+243,glycosyl compound biosynthetic process
+244,positive regulation of cellular biosynthetic process
+245,positive regulation of nucleobase-containing compound metabolic process
+246,positive regulation of gene expression
+247,regulation of transcription from RNA polymerase II promoter
+248,positive regulation of macromolecule biosynthetic process
+249,cytoskeleton organization
+250,actin filament-based process
+251,carboxylic acid catabolic process
+252,aspartate family amino acid metabolic process
+253,cell redox homeostasis
+254,nicotinamide nucleotide metabolic process
+255,hydrogen peroxide metabolic process
+256,secondary metabolite biosynthetic process
+257,cellular hormone metabolic process
+258,isoprenoid biosynthetic process
+259,cellular biogenic amine catabolic process
+260,pigment biosynthetic process
+261,cellular response to reactive oxygen species
+262,polyamine metabolic process
+263,response to hydrogen peroxide
+264,steroid biosynthetic process
+265,cellular component disassembly
+266,toxin metabolic process
+267,oxidative phosphorylation
+268,phenol-containing compound metabolic process
+269,negative regulation of intracellular transport
+270,negative regulation of protein transport
+271,regulation of intracellular protein transport
+272,histone modification
+273,post-embryonic development
+274,electron transport chain
+275,regulation of Ras GTPase activity
+276,positive regulation of GTPase activity
+277,small GTPase mediated signal transduction
+278,ethanolamine-containing compound metabolic process
+279,peptide biosynthetic process
+280,"positive regulation of transcription, DNA-dependent"
+281,hormone biosynthetic process
+282,actin filament organization
+283,aerobic respiration
+284,acyl-CoA metabolic process
+285,sulfur compound catabolic process
+286,"oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor"
+287,thioredoxin-disulfide reductase activity
+288,flavin adenine dinucleotide binding
+289,coenzyme binding
+290,"oxidoreductase activity, acting on the CH-NH group of donors"
+291,nucleoside phosphate binding
+292,ion binding
+293,small molecule binding
+294,catalytic activity
+295,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge"
+296,GDP-dissociation inhibitor activity
+297,"oxidoreductase activity, acting on the CH-OH group of donors, oxygen as acceptor"
+298,succinate dehydrogenase activity
+299,Rab GTPase binding
+300,demethylase activity
+301,"oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor"
+302,steroid dehydrogenase activity
+303,small GTPase binding
+304,GTPase binding
+305,protein binding
+306,"oxidoreductase activity, acting on iron-sulfur proteins as donors"
+307,"oxidoreductase activity, acting on the CH-NH2 group of donors"
+308,disulfide oxidoreductase activity
+309,Ras GTPase activator activity
+310,nucleoside-triphosphatase regulator activity
+311,molecular_function
+312,"oxidoreductase activity, acting on the CH-CH group of donors, oxygen as acceptor"
+313,heterocyclic compound binding
+314,organic cyclic compound binding
+315,binding
+316,oxidoreductase activity
+317,anion binding
+318,enzyme regulator activity
+319,"oxidoreductase activity, acting on NAD(P)H"
+320,cofactor binding
+321,nucleotide binding
+322,electron carrier activity
+323,enzyme binding
+324,"oxidoreductase activity, acting on CH-OH group of donors"
+325,GTPase regulator activity
+326,enzyme activator activity
+327,antioxidant activity
+328,"oxidoreductase activity, acting on a sulfur group of donors"
+329,monooxygenase activity
+330,"oxidoreductase activity, acting on the CH-CH group of donors"
+331,small GTPase regulator activity
+332,Ras GTPase binding
+333,GTPase activator activity
+334,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxyge"
+335,mitochondrion
+336,envelope
+337,cellular_component
+338,mitochondrial membrane
+339,organelle inner membrane
+340,mitochondrial envelope
+341,respiratory chain complex II
+342,succinate dehydrogenase complex
+343,fumarate reductase complex
+344,outer membrane
+345,Rab-protein geranylgeranyltransferase complex
+346,mitochondrial respiratory chain complex II
+347,organelle envelope lumen
+348,membrane part
+349,macromolecular complex
+350,intracellular
+351,intracellular part
+352,cytoplasm
+353,cell part
+354,cell
+355,organelle part
+356,intracellular organelle
+357,membrane-bounded organelle
+358,organelle
+359,membrane-enclosed lumen
+360,mitochondrial inner membrane
+361,mitochondrial respiratory chain
+362,succinate dehydrogenase complex (ubiquinone)
+363,protein complex
+364,cytoplasmic part
+365,intracellular organelle part
+366,intracellular membrane-bounded organelle
+367,membrane
+368,organelle envelope
+369,mitochondrial part
+370,organelle membrane
+371,intrinsic to membrane
+372,mitochondrial membrane part
+373,respiratory chain
+374,organelle outer membrane
+375,intrinsic to organelle membrane

@@ -1,0 +1,101 @@
+id,title
+0,ldmlICU.dtd to allow multiple dictionaries
+1,Fix most obvious problems in child locales
+2,LDML2ICUConverter puts extra spaces in brkfiles.mk
+3,Tag the release 2.0
+4,Describe the index labels in the spec
+5,PRI to modify collation rules for script reordering
+6,CLDR 2.0 Integration/Merge activities
+7,Merge new languages from Afrigen
+8,CLDRFile only resolves one level of aliases
+9,Submitting puntuation exemplars i hopeless...
+10,annoying automove to last position of a field in ST
+11,"Error in collation files ko.xml, ja.xml and zh.xml"
+12,"Turn ""Unsynced"" values into warnings"
+13,"""missing"" and ""en changed but did not"" do not allow entry of new data strings"
+14,Construct fallbackRegionFormats where missing
+15,Votes for decimal and group symbols are not accepted
+16,US metazones coverage
+17,Metazones not zooming
+18,Change minimize to not minimize against root
+19,Add Summary Vetting View
+20,Problems in the vetted directory
+21,Initial dump of ST data for 2.0
+22,Give Error on mixed scripts
+23,CLDRModify: minimize needs to take parent locales into account
+24,Bump cldrVersion to 2.0
+25,Fix data errors found during ICU integration
+26,Remove und-Hani
+27,Meta zone translation problems
+28,Final CLDRModify passes 2.0
+29,Fix data errors found during ICU integration - FINAL
+30,Updates to POSIX utilities due to structure changes in CLDR 2.0
+31,Update the test data ( BRS item B04 )
+32,Days in week (min) for French territories
+33,"Fix coverage page so it is reasonable on displays < 24"""
+34,ST Filtering based on coverage
+35,Make links stable over time: change ST to use real xpath in URL
+36,Handling of new language codes from BCP47
+37,Need template for data needed to create a new locale
+38,"Regularize non-gregorian date formats in root, adjust locales pt.1"
+39,Add sideways aliases for numbering systems - deprecate zeroDigit and patternDigit
+40,"Support inflected forms of units for use with ""ago"""
+41,Add name exemplar data
+42,branch: Post-1.9 ST / build work
+43,Add import syntax to data files
+44,Root search collator comments
+45,BRS: Regenerate charts
+46,"Consider removing validSubLocales from collation, etc. (was 3075)"
+47,Inconsictency between bcp47/timezone.xml and $tzid in supplementalMetadata.xml
+48,Duplicate aliases - fix in CLDRModify/minimize
+49,Missing Collation Import feature
+50,Numbering System consistent with symbols.
+51,Add User Prefs object to SurveyTool
+52,Update to scripts for Cham
+53,Add stopwords
+54,Add another pattern for zones
+55,Missing canonical timezone IDs for some regions
+56,Formulate a plan for finding missing Plural rules
+57,AJAX verify for all ST data
+58,Add special PUA characters in CJK collations
+59,Usability improvements to the ST for 2.0
+60,More relative times
+61,Update metazone definitions for Russia due to 2010 changes:
+62,Add coverage for non-Gregorian calendars
+63,Move seldom used day periods to higher coverage level
+64,Fix Coverage Levels per Coverage Review
+65,Optimize new coverage info
+66,Write test to compare new and old Coverage Level
+67,New timezone America/North_Dakota/Beulah in 2011b
+68,Kurdish language population data in Iran
+69,English exemplar city name
+70,Update coverage for relative year fields
+71,Make U+20B9 INDIAN RUPEE SIGN the default symbol for INR in root
+72,Provide method for testing outdated values
+73,Add narrow versions of am/pm
+74,More disturbing messages from punctuation
+75,Supplemental data : territory containment - EU
+76,make a way for ST to export+checkin changed VXML automatically
+77,Provide method in ST to see important vetting items
+78,Russian abbreviated months wrong
+79,Add count=0 and count=1
+80,Include the Breton language in the list
+81,Titlecase inconsistency
+82,Error in English new relative units
+83,Support default (and other?) CSS linebreak styles for Japanese
+84,Updates for 2011c
+85,OrdinalRules should not use modifier letters for ordinal indicators
+86,Need Bopomofo-Latin transform
+87,Should LDML data be in NFC format or NFD format?
+88,"Entries for Time Zones showing up in more than one view, with inconsistent status"
+89,Move unclear currency symbols up from root
+90,Update coverage levels
+91,Which items to allow changes in during vetting?
+92,Point to Translation Guidelines
+93,Exception in CheckDates
+94,"{dz}, {gb}, {kp}, {ny} and {ts} in Ewe exemplar character set."
+95,mn resolves to wrong ISO 639-3 code
+96,More efficient testing in DisplayCollisions
+97,"""Missing country for timezone America/North_Dakota/Beulah"""
+98,"Consider weakening ""contributed"" slightly"
+99,Fix the Forum link

@@ -1,0 +1,51 @@
+id,title
+0,freeze opcode segfaults on working bytecode from Rakudo
+1,Pmc2c should generate mark and destroy VTABLES
+2,Add 6model to Parrot
+3,Dynloadable runcores
+4,"Add ""current"" versions of Parrot_pcc_get_foo and Parrot_pcc_set_foo functions"
+5,Parrot_floatval_time() and Parrot_intval_time() do not match up on Win32
+6,Deprecation warnings in in config/gen/platform/darwin/dl.c in r37011
+7,Coredumping Parrot with only 2 lines of PASM for fun and profit
+8,Crash when appending to subclasses of ResizablePMCArray
+9,Reconsider IGLOBALS_PBC_LIBS
+10,-t4 broken (r34808)
+11,"""new ['FixedStringArray'], -5"" core dumps"
+12,VTABLE_substr is never used
+13,Need tests for invoke_sigobject for Sub subclasses.
+14,Internal assertion triggered when writing trivial code.
+15,t/pmc/complex.t: sinh_of_complex_numbers: some tests fail on Win32
+16,Memory leak in Parrot_find_method_with_cache
+17,Tests for macro_local
+18,String concatenation is really slow
+19,Segfault caused by new dynop mapping code
+20,readline on Socket is broken
+21,What are valid characteristics for 'inspect_str' vtable?
+22,join opcode causes segfaults and other memory corruption issues
+23,cmp_pmc not working in extend_vtable
+24,t/pmc/sub fails with runcore PBC
+25,Error handling in socket system
+26,Make it so that Parrot on RTEMS does not call the system exit()
+27,icc-10.0 32bit imcc crash
+28,[DEPRECATED] assign on FPA
+29,src/dynext.c uses STRING's ->strstart
+30,NCI_FB_CB and NCI_FB_UD in iglobals
+31,[RFC] StringHandle interface
+32,Incompatible bytecode error lacks file name of offending file
+33,Create a get_numeric_pmc VTABLE
+34,Object.find_method fails if PIR 'find_method' vtable override returns null
+35,"add vtables for: get_pmc_keyed{_int,_str,}_lvalue ; and similarly for slice"
+36,IPv6 support for Parrot
+37,loadlib_p_s_p
+38,Subclassing FileHandle
+39,continuation method of Continuation PMC
+40,add write barrier to all PMCs that write in unusual VTABLE functions
+41,Review overriddable vtable interfaces
+42,Test.readdir is not skipped on Win32 even though it appears that it should be
+43,Integer PMC missing math methods
+44,t/pmc/bigint.t: implement 2 todo-ed items: Minint conversions
+45,Get_class confuses NSes that have same final name.
+46,Create a 'vivify' opcode
+47,Parrot underestimates memory on OS X
+48,rename parrot.h to internals.h or private.h or equivalent
+49,Add experimental method stdhandle to the interpreter pmc

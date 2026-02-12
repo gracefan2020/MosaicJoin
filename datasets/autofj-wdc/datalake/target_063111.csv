@@ -1,0 +1,87 @@
+id,title
+0,LDML2ICUConverter failure on Greek break iterator data
+1,2.0 ST dump destroyed Irish (ga) data
+2,Serbian number formatting messed up
+3,preserve voting data
+4,Lang/pop things broken out of bug #3076
+5,Documentation for adding locales needs an update...
+6,Plurals and aliasing problem - Hebrew
+7,Usage of Roman vs Chinese numerals in month names in zh_Hant
+8,Review currencies for consistency in style and number of forms
+9,Consider removing relative +/-3
+10,Review country locale data for inconsistencies and outright errors
+11,Thousands of cases where value = type
+12,Problems updating codes
+13,"""month(s) ago"" in zh_Hans incorrect"
+14,Formatting problems.
+15,"At least one language for each script, and script for language"
+16,Fix name of 419
+17,Remove whole-alias files
+18,Remove commonlyUsed and most short metazone data
+19,Add more descriptions for number format patterns.
+20,"Add ""en"" varieties in"
+21,Urdu should use U+060D as date separator
+22,Add missing specs for changes in supplemental dtd.
+23,Error in supplemental data: hm instead of him.
+24,Fix bad code for Kurdish
+25,"Add ""private"" attribute to collation files for avoiding creation of binary data in imports"
+26,Missing documentation for CJK Index labels
+27,Create maint-2-0 branch for post 2.0 maintenance releases
+28,Fix H/h mismatch in availableFormats
+29,"Polish availableFormats ""yMMM"" should use LLL, instead of MMM"
+30,clean up Korean date formats
+31,Maintain URLs in charts (diff) directory
+32,Change root LB rules to allow breaks between small kana and \u30FC
+33,Add description attribute to bcp47 tags
+34,CLDR tools and text files
+35,Add file-driven changes to CLDRModify
+36,Fix the spec for 0/1
+37,time zone names data bugs
+38,Metazone mapping update for tzdata 2011h
+39,Need define India Rupee symbol in India locales
+40,Slovak has = arab
+41,FULLWIDTH-HALFWIDTH transliterator producing an extra slash when converting fullwidth FF3C
+42,Somehow Danish got messed up.
+43,"For ""bs"" Remove parentLocale sr_Latn, copy formerly aliased data"
+44,"Change ""ordering of date fields"" to warning for now"
+45,2.0.1 BRS release related tasks
+46,"Missing bcp47 key-type data for ""ducet"" and ""tamldec"""
+47,Reverse es currency position
+48,Bengali collation
+49,Plurals: CLDR : Breton language (br) - Plural rules
+50,Thai collation fixes
+51,collation for as_IN
+52,Exemplars should refer to NumberSytems
+53,"Korean search collator variant for ""initial consonant"" search"
+54,"If possible, reset the trac HTML to be 100%"
+55,"Inconsistency problems in field/day/relative, units/unit/unitPattern"
+56,Vote needed to approve or confirm proposals in ee under code list currency
+57,svn properties on common
+58,CLDRFile.isDistinguishing() patch
+59,Wrong currency name in Arabic language: Syrian Pound
+60,Plural rules for Tyap and Jju
+61,Amendment to Irish (gd) plural rules
+62,Indonesian date format separator incorrect
+63,Indonesian Relative Date format issues
+64,More Czech fixes - follow-on
+65,Fix DTD for widths
+66,mn resolves to wrong ISO 639-3 code (split)
+67,"Replace bs data formerly aliased to sr_Latn, or make it a child"
+68,Add updates to tools and tests for the last release
+69,"Change English name of ""to"" language to ""Tongan"""
+70,Add more tests
+71,Territory Codes need to be unique
+72,bug in cldr/common/transforms/Russian-Latin-BGN.xml
+73,quarternary (mis-spelling) type in the LDML spec
+74,"Collation type ""quarternary"" (misspelling) in bcp47 collation.xml"
+75,Improved spellout rules for ordinals in French
+76,"Khmer, standard collation fix"
+77,RBNF for Ewe
+78,Oddity in Welsh
+79,Suggest HI for timezone selection (was about Data to support such)
+80,remove .classpath / .project from CLDR root
+81,new changes in ee_GH
+82,Restore islamic calendar data copied from root to various locales
+83,Uzbek grego wide months are actually for islamic
+84,test/readme.html file needs update for 2.0.1
+85,Does common.zip replace the old core.zip?

@@ -1,0 +1,94 @@
+id,title
+0,Fix for CVE-2009-0363 (through testing-security)
+1,Fix a typo to remove base correctly
+2,Fix atomic operations on alpha and ia64
+3,Upload with fixed version number
+4,Various fixes
+5,Fix typo which prevents perl scripts to work
+6,Kernel ABI change
+7,Fix dependency on ghostscript-x
+8,Fix a double free
+9,Fix copying loop
+10,Add dependency on oss-compat
+11,Fix infinite loop caused by setting color scheme
+12,Add dependency on oss-compat
+13,Fix failover and message corruption
+14,Replace non-free fonts
+15,Do not crash on bogus /proc/irq entries
+16,Fix hang on reboot with virtio
+17,[armel]
+18,Fix information leak
+19,[armel]
+20,[armel]
+21,[armel]
+22,[armel]
+23,[armel]
+24,[armel]
+25,[armel]
+26,[armel]
+27,[armel]
+28,Several issues
+29,New kernel for debian-installer
+30,New kernel for debian-installer
+31,Add minix-modules to orion5x kernel flavour
+32,New kernel for debian-installer
+33,New kernel for debian-installer
+34,New kernel for debian-installer
+35,New kernel for debian-installer
+36,New kernel for debian-installer
+37,New kernel for debian-installer
+38,New kernel for debian-installer
+39,New kernel for debian-installer
+40,New kernel for debian-installer
+41,Kernel ABI change
+42,Rebuild for kernel ABI change
+43,New kernel modules for debian-installer
+44,New kernel modules for debian-installer
+45,New kernel modules for debian-installer
+46,New kernel modules for debian-installer
+47,New kernel modules for debian-installer
+48,New kernel modules for debian-installer
+49,New kernel modules for debian-installer
+50,New kernel modules for debian-installer
+51,New kernel modules for debian-installer
+52,New kernel modules for debian-installer
+53,New kernel modules for debian-installer
+54,New kernel modules for debian-installer
+55,Rebuild for kernel ABI change
+56,Rebuild for kernel ABI change
+57,"Fix media timeout, boot and shutdown issues"
+58,Fix lvm on multipath in initrd
+59,Fix XSS vulnerabilities
+60,[i386]
+61,Fix crasher in built-in webserver
+62,Fix cgi mode
+63,Rebuild for kernel ABI change
+64,Rebuild for kernel ABI change
+65,Rebuild for kernel ABI change
+66,Rebuild for kernel ABI change
+67,Add support for the D-Link DNS-323
+68,Fix builds with other kernels than the running one
+69,"Repacked source to remove RFC text file, various bug fixes"
+70,Fix array overflow vulnerability
+71,Fix signedness error in _pam_StrTok
+72,Fix memory leak and capturing on lo
+73,Fix failure while connecting to ICQ servers due to protocol changes
+74,Provide translation
+75,[armel]
+76,New upstream bugfix release
+77,Fix module for python2.5 on 64 bit arch
+78,[armel]
+79,Add libsm-dev as Build-Dependency
+80,Fix several vulnerabilities
+81,[armel]
+82,Fix two bugs of severity important
+83,[armel]
+84,Fix sbnc.key file location
+85,Build with pthreads explicitly to fix a crash on alpha
+86,Fix target not checking for running daemon
+87,Fix possible segfault
+88,"Blacklist aurora, non-commercial license"
+89,Portability fixes
+90,Rebuild against updated linux-source
+91,Work around broken PCI on sparc in lenny's kernel
+92,Do not add panel modes when there is no panel

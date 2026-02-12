@@ -1,0 +1,59 @@
+id,title
+0,cache buffers chains
+1,undo global data
+2,library cache
+3,cache buffer handles
+4,library cache pin
+5,redo allocation
+6,row cache objects
+7,sequence cache
+8,ges resource hash list
+9,mostly latch-free SCN
+10,session allocation
+11,library cache lock
+12,cache buffers lru chain
+13,object queue header operation
+14,channel operations parent latch
+15,enqueue hash chains
+16,ges enqueue table freelist
+17,shared pool
+18,ges group table
+19,messages
+20,dml lock allocation
+21,session idle bit
+22,enqueues
+23,checkpoint queue latch
+24,sort extent pool
+25,gcs resource hash
+26,KCL gc element parent latch
+27,query server freelists
+28,parallel query alloc buffer
+29,KJCT flow control latch
+30,ges caches resource lists
+31,message pool operations parent latch
+32,lgwr LWN SCN
+33,object queue header heap
+34,post/wait queue
+35,redo writing
+36,KJC message pool free list
+37,ges domain table
+38,SQL memory manager workarea list latch
+39,parameter table allocation management
+40,channel handle pool latch
+41,library cache lock allocation
+42,active service list
+43,parallel query stats
+44,process queue reference
+45,object stats modification
+46,resmgr:free threads list
+47,Consistent RBA
+48,gcs resource freelist
+49,session state list latch
+50,multiblock read objects
+51,library cache load lock
+52,library cache pin allocation
+53,process allocation
+54,resmgr:actses active list
+55,loader state object freelist
+56,gcs remastering latch
+57,qmn task queue latch

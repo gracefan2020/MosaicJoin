@@ -1,0 +1,53 @@
+id,title
+0,Rewrite of the classic test writing/taking application
+1,Number support
+2,Theme manager
+3,Add a Open File action
+4,Integrate an editor
+5,Plasmoid
+6,Theme manager
+7,Visual indicator when letter is wrong
+8,Port Kalzium's periodic table to use new QGraphicsView.
+9,Plasmoid to access Kalzium database
+10,Improve GUI for creating softbody
+11,Use common constraints handling code for collisions
+12,New parser using QLALR
+13,Declensions
+14,Display millions of stars
+15,Tool to predict Conjunctions
+16,Earth Satellites
+17,Sky Calendar Tool
+18,"Include HD Catalog Numbers (in search, in display)"
+19,Marble widget for Geolocation tool
+20,Better printed star charts
+21,Better rendering of comets/asteroids
+22,Texture mapping of the skymap???
+23,Improve Observing List Wizard
+24,Display Comet Magnitudes whenever possible
+25,Tool to suggest star-hopping techniques???
+26,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+27,Export map to MxN pixel bitmap
+28,Support for MarbleWidget::setEnabled( bool )
+29,Map Contents translation
+30,Layer Management Class
+31,Plugin architecture for map layers
+32,DGML2 Support
+33,KDE-Version settings dialog
+34,Port authors list from the Qt-About dialog to the KDE-About dialog
+35,Qt-Version settings dialog
+36,Improved KML support
+37,OpenStreetMap support using original OSM tiles
+38,Real Time Cloud-Cover
+39,Mercator Projection
+40,More generic projection support
+41,Usage of Marble in non-widgets
+42,Properties dialog for objects.
+43,Improve construction of bisect lines.
+44,Improve feedback when constructing objects.
+45,More geometric objects.
+46,Script objects as macros (to be reused more than once).
+47,Improve the Cabri import filter.
+48,Export canvas as image
+49,Optional rulers/grid for canvas units
+50,Add command line
+51,Add a color picker

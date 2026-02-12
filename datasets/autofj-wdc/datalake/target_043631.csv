@@ -1,0 +1,170 @@
+id,title
+0,ABSTRACT The abstract keyword.
+1,"ANNOTATION An annotation of a package, type, field, parameter or variable."
+2,ANNOTATION_ARRAY_INIT An annotation array member initialisation.
+3,ANNOTATION_DEF An annotation declaration.
+4,ANNOTATION_FIELD_DEF An annotation field declaration.
+5,ANNOTATION_MEMBER_VALUE_PAIR An initialisation of an annotation member with a value.
+6,ANNOTATIONS A collection of annotations on a package or enum constant.
+7,ARRAY_DECLARATOR An array declaration.
+8,ARRAY_INIT An array initialization.
+9,ASSIGN The = (assignment) operator.
+10,AT An 'at' symbol - signifying an annotation instance or the prefix to the interface literal signifying the definition of an annotation declaration.
+11,BAND The & (bitwise AND) operator.
+12,BAND_ASSIGN The &= (bitwise AND assignment) operator.
+13,BLOCK_COMMENT_BEGIN Begining of block comment: '/*'.
+14,BLOCK_COMMENT_END End of block comment: '* /'.
+15,BNOT The ~ (bitwise complement) operator.
+16,BOR The | (bitwise OR) operator.
+17,BOR_ASSIGN The |= (bitwise OR assignment) operator.
+18,BSR The >>> (unsigned shift right) operator.
+19,BSR_ASSIGN The >>>= (unsigned right shift assignment) operator.
+20,BXOR The ^ (bitwise exclusive OR) operator.
+21,BXOR_ASSIGN The ^= (bitwise exclusive OR assignment) operator.
+22,CASE_GROUP A group of case clauses.
+23,CHAR_LITERAL A character literal.
+24,CLASS_DEF A class declaration.
+25,COLON The : (colon) operator.
+26,"COMMA The , (comma) operator."
+27,COMMENT_CONTENT Text of single-line or block comment.
+28,CTOR_CALL A constructor call.
+29,CTOR_DEF A constructor declaration.
+30,DEC The -- (prefix decrement) operator.
+31,DIV The / (division) operator.
+32,DIV_ASSIGN The /= (division assignment) operator.
+33,DO_WHILE Literal while in do-while loop.
+34,DOT The . (dot) operator.
+35,DOUBLE_COLON The :: (double colon) operator.
+36,ELIST An expression list.
+37,ELLIPSIS A triple dot for variable-length parameters.
+38,EMPTY_STAT The empty statement.
+39,ENUM The enum keyword.
+40,ENUM_CONSTANT_DEF An enum constant declaration.
+41,ENUM_DEF An enum declaration.
+42,EOF The end of file token.
+43,EQUAL The == (equal) operator.
+44,EXPR An expression.
+45,EXTENDS_CLAUSE An extends clause.
+46,FINAL The final keyword.
+47,FOR_CONDITION A for loop condition.
+48,FOR_EACH_CLAUSE A for-each clause.
+49,FOR_INIT A for loop initializer.
+50,FOR_ITERATOR A for loop iterator.
+51,GE The >= (greater than or equal) operator.
+52,GENERIC_END '>' symbol signifying the end of type arguments or type parameters.
+53,GENERIC_START '<' symbol signifying the start of type arguments or type parameters.
+54,GT The > (greater than) operator.
+55,IDENT An identifier.
+56,IMPLEMENTS_CLAUSE An implements clause.
+57,IMPORT An import declaration.
+58,INC The ++ (prefix increment) operator.
+59,INDEX_OP The array index operator.
+60,INSTANCE_INIT An instance initializer.
+61,INTERFACE_DEF An interface declaration.
+62,LABELED_STAT A labeled statement.
+63,LAMBDA Special lambda symbol '->'.
+64,LAND The && (conditional AND) operator.
+65,LCURLY A left (curly) brace ({).
+66,LE The <= (less than or equal) operator.
+67,LITERAL_ASSERT The assert keyword.
+68,LITERAL_BOOLEAN The boolean keyword.
+69,LITERAL_BREAK The break keyword.
+70,LITERAL_BYTE The byte keyword.
+71,LITERAL_CASE The case keyword.
+72,LITERAL_CATCH The catch keyword.
+73,LITERAL_CHAR The char keyword.
+74,LITERAL_CLASS The class keyword.
+75,LITERAL_CONTINUE The continue keyword.
+76,LITERAL_DEFAULT The default keyword.
+77,LITERAL_DO The do keyword.
+78,LITERAL_DOUBLE The double keyword.
+79,LITERAL_ELSE The else keyword.
+80,LITERAL_FALSE The false keyword.
+81,LITERAL_FINALLY The finally keyword.
+82,LITERAL_FLOAT The float keyword.
+83,LITERAL_FOR The for keyword.
+84,LITERAL_IF The if keyword.
+85,LITERAL_INSTANCEOF The instanceof operator.
+86,LITERAL_INT The int keyword.
+87,LITERAL_INTERFACE The interface keyword.
+88,LITERAL_LONG The long keyword.
+89,LITERAL_NATIVE The native keyword.
+90,LITERAL_NEW The new keyword.
+91,LITERAL_NULL The null keyword.
+92,LITERAL_PRIVATE The private keyword.
+93,LITERAL_PROTECTED The protected keyword.
+94,LITERAL_PUBLIC The public keyword.
+95,LITERAL_RETURN The return keyword.
+96,LITERAL_SHORT The short keyword.
+97,LITERAL_STATIC The static keyword.
+98,LITERAL_SUPER The super keyword.
+99,LITERAL_SWITCH The switch keyword.
+100,LITERAL_SYNCHRONIZED The synchronized keyword.
+101,LITERAL_THIS The this keyword.
+102,LITERAL_THROW The throw keyword.
+103,LITERAL_THROWS The throws keyword.
+104,LITERAL_TRANSIENT The transient keyword.
+105,LITERAL_TRUE The true keyword.
+106,LITERAL_TRY The try keyword.
+107,LITERAL_VOID The void keyword.
+108,LITERAL_VOLATILE The volatile keyword.
+109,LITERAL_WHILE The while keyword.
+110,LNOT The ! (logical complement) operator.
+111,LOR The || (conditional OR) operator.
+112,LPAREN A left parenthesis (().
+113,LT The < (less than) operator.
+114,METHOD_CALL A method call.
+115,METHOD_DEF A method declaration.
+116,METHOD_REF Part of Java 8 syntax.
+117,MINUS The - (subtraction) operator.
+118,MINUS_ASSIGN The -= (subtraction assignment) operator.
+119,MOD The % (remainder) operator.
+120,MOD_ASSIGN The %= (remainder assignment) operator.
+121,"MODIFIERS Modifiers for type, method, and field declarations."
+122,NOT_EQUAL The != (not equal) operator.
+123,NUM_DOUBLE A double precision floating point literal.
+124,NUM_FLOAT A single precision floating point literal.
+125,NUM_INT An integer literal.
+126,NUM_LONG A long integer literal.
+127,OBJBLOCK An object block.
+128,PACKAGE_DEF The package declaration.
+129,PARAMETER_DEF A parameter declaration.
+130,PARAMETERS A list of parameters to a method or constructor.
+131,PLUS The + (addition) operator.
+132,PLUS_ASSIGN The += (addition assignment) operator.
+133,POST_DEC The -- (postfix decrement) operator.
+134,POST_INC The ++ (postfix increment) operator.
+135,QUESTION The ? (conditional) operator.
+136,RBRACK The ] symbol.
+137,RCURLY A right (curly) brace (}).
+138,RESOURCE Java 7 try-with-resources construct.
+139,RESOURCE_SPECIFICATION Java 7 try-with-resources construct.
+140,RESOURCES Java 7 try-with-resources construct.
+141,RPAREN A right parenthesis ()).
+142,SEMI The statement terminator (;).
+143,SINGLE_LINE_COMMENT Begining of single line comment: '//'.
+144,SL The << (shift left) operator.
+145,SL_ASSIGN The <<= (left shift assignment) operator.
+146,SLIST A list of statements.
+147,SR The >> (signed shift right) operator.
+148,SR_ASSIGN The >>= (signed right shift assignment) operator.
+149,STAR The * (multiplication or wildcard) operator.
+150,STAR_ASSIGN The *= (multiplication assignment) operator.
+151,STATIC_IMPORT A static import declaration.
+152,STATIC_INIT A static initialization block.
+153,STRICTFP The strictfp keyword.
+154,STRING_LITERAL A string literal.
+155,SUPER_CTOR_CALL A super constructor call.
+156,TYPE A type.
+157,TYPE_ARGUMENT A type arguments to a type reference or a method/ctor invocation.
+158,TYPE_ARGUMENTS A list of type arguments to a type reference or a method/ctor invocation.
+159,TYPE_EXTENSION_AND '&' symbol when used in a generic upper or lower bounds constrain e.g.
+160,TYPE_LOWER_BOUNDS A lower bounds on a wildcard type argument.
+161,"TYPE_PARAMETER A type parameter to a class, interface or method definition."
+162,"TYPE_PARAMETERS A list of type parameters to a class, interface or method definition."
+163,TYPE_UPPER_BOUNDS An upper bounds on a wildcard type argument or type parameter.
+164,TYPECAST A type-cast.
+165,UNARY_MINUS The - (unary minus) operator.
+166,UNARY_PLUS The + (unary plus) operator.
+167,VARIABLE_DEF A field or local variable declaration.
+168,WILDCARD_TYPE The type that refers to all types.

@@ -1,0 +1,86 @@
+id,title
+0,db file sequential read
+1,latch: cache buffers chains
+2,log file sync
+3,log file parallel write
+4,enq: UL - contention
+5,enq: TX - row lock contention
+6,db file parallel write
+7,buffer busy waits
+8,SQL*Net more data from client
+9,read by other session
+10,library cache pin
+11,latch: In memory undo latch
+12,enq: TX - index contention
+13,latch: undo global data
+14,db file scattered read
+15,SQL*Net more data to client
+16,rdbms ipc reply
+17,latch free
+18,SQL*Net message to client
+19,library cache load lock
+20,latch: library cache
+21,SQL*Net break/reset to client
+22,local write wait
+23,enq: CI - contention
+24,direct path read temp
+25,LGWR wait for redo copy
+26,library cache lock
+27,enq: RO - fast object reuse
+28,PX Deq Credit: send blkd
+29,direct path write temp
+30,control file parallel write
+31,enq: HW - contention
+32,enq: TX - contention
+33,enq: TM - contention
+34,enq: SQ - contention
+35,latch: redo allocation
+36,latch: library cache pin
+37,PX Deq: Signal ACK
+38,log file switch completion
+39,control file sequential read
+40,latch: cache buffers lru chain
+41,enq: DV - contention
+42,latch: row cache objects
+43,row cache lock
+44,process startup
+45,enq: CU - contention
+46,enq: FB - contention
+47,latch: session allocation
+48,latch: cache buffer handles
+49,latch: shared pool
+50,latch: object queue header operation
+51,control file single write
+52,latch: library cache lock
+53,PX qref latch
+54,buffer deadlock
+55,kksfbc child completion
+56,enq: TX - allocate ITL entry
+57,direct path read
+58,undo segment extension
+59,latch: enqueue hash chains
+60,latch: redo writing
+61,direct path write
+62,db file parallel read
+63,latch: checkpoint queue latch
+64,log file sequential read
+65,enq: PS - contention
+66,log file single write
+67,PX Deq: Table Q qref
+68,L1 validation
+69,SQL*Net message from client
+70,queue messages
+71,pipe get
+72,PL/SQL lock timer
+73,PX Idle Wait
+74,Queue Monitor Wait
+75,wakeup time manager
+76,PX Deq: Execution Msg
+77,jobq slave wait
+78,PX Deq: Execute Reply
+79,PX Deq: Msg Fragment
+80,PX Deq: Parse Reply
+81,PX Deq Credit: need buffer
+82,PX Deq: Table Q Normal
+83,PX Deq: Table Q Sample
+84,PX Deq: Join ACK

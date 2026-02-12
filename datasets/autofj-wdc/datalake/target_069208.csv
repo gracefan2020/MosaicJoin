@@ -1,0 +1,401 @@
+id,title
+0,cellular monovalent inorganic cation homeostasis
+1,cellular response to cAMP
+2,spermatid development
+3,pH elevation
+4,ribonucleoside monophosphate metabolic process
+5,germ cell development
+6,purine nucleoside monophosphate metabolic process
+7,membrane hyperpolarization
+8,cell maturation
+9,purine ribonucleoside monophosphate catabolic process
+10,response to cAMP
+11,ribonucleoside monophosphate catabolic process
+12,cellular homeostasis
+13,response to chemical stimulus
+14,bicarbonate transport
+15,developmental maturation
+16,transport
+17,intracellular pH elevation
+18,spermatid differentiation
+19,reproductive process
+20,organic anion transport
+21,ATP metabolic process
+22,drug transport
+23,regulation of intracellular pH
+24,establishment of localization
+25,response to organophosphorus
+26,ATP catabolic process
+27,purine nucleoside monophosphate catabolic process
+28,epithelial cell differentiation
+29,single-organism transport
+30,stress response to metal ion
+31,purine ribonucleoside triphosphate catabolic process
+32,nucleoside triphosphate catabolic process
+33,purine nucleoside catabolic process
+34,multicellular organism reproduction
+35,ribonucleotide catabolic process
+36,ribonucleoside catabolic process
+37,purine nucleotide catabolic process
+38,ribonucleoside triphosphate metabolic process
+39,purine nucleoside triphosphate metabolic process
+40,response to nitrogen compound
+41,nucleotide catabolic process
+42,glycosyl compound catabolic process
+43,nucleoside phosphate catabolic process
+44,positive regulation of T cell mediated cytotoxicity
+45,antigen processing and presentation of peptide antigen
+46,positive regulation of T cell mediated immunity
+47,homeostatic process
+48,purine-containing compound catabolic process
+49,purine nucleoside metabolic process
+50,nucleoside catabolic process
+51,regulation of leukocyte mediated cytotoxicity
+52,male gamete generation
+53,ribonucleoside metabolic process
+54,cellular response to organonitrogen compound
+55,regulation of cell killing
+56,fruiting body development
+57,positive regulation of cell killing
+58,positive regulation of adaptive immune response based on somatic recombination of immune receptors b
+59,spore-bearing organ development
+60,nucleoside metabolic process
+61,glycosyl compound metabolic process
+62,purine nucleotide metabolic process
+63,ribonucleotide metabolic process
+64,ribose phosphate metabolic process
+65,chemical homeostasis
+66,drug transmembrane transport
+67,purine-containing compound metabolic process
+68,iron ion homeostasis
+69,cellular response to organic cyclic compound
+70,single-organism process
+71,floral whorl development
+72,regulation of lymphocyte mediated immunity
+73,cellular potassium ion transport
+74,regulation of leukocyte mediated immunity
+75,antigen processing and presentation of endogenous antigen
+76,very long-chain fatty acid catabolic process
+77,heterocycle catabolic process
+78,cellular nitrogen compound catabolic process
+79,regulation of adaptive immune response
+80,aromatic compound catabolic process
+81,regulation of cellular pH
+82,peptide transport
+83,positive regulation of immune effector process
+84,pigmentation
+85,organic cyclic compound catabolic process
+86,ion homeostasis
+87,cellular ion homeostasis
+88,nucleotide metabolic process
+89,nucleoside phosphate metabolic process
+90,phyllome development
+91,modified amino acid transport
+92,very long-chain fatty acid metabolic process
+93,reproductive structure development
+94,regulation of pH
+95,cell development
+96,shoot system development
+97,posttranscriptional gene silencing by RNA
+98,flower development
+99,posttranscriptional gene silencing
+100,gamete generation
+101,fatty acid beta-oxidation
+102,response to metal ion
+103,lipid transport
+104,cellular transition metal ion homeostasis
+105,lipid oxidation
+106,gene silencing by RNA
+107,fatty acid oxidation
+108,antigen processing and presentation of peptide antigen via MHC class I
+109,cellular cation homeostasis
+110,positive regulation of leukocyte mediated immunity
+111,amino acid transmembrane transport
+112,response to starvation
+113,positive regulation of immune response
+114,cellular response to stimulus
+115,potassium ion transport
+116,cation transport
+117,cellular response to organic substance
+118,biological regulation
+119,metal ion homeostasis
+120,floral organ development
+121,cellular metal ion homeostasis
+122,organonitrogen compound metabolic process
+123,cellular nitrogen compound metabolic process
+124,nucleobase-containing compound metabolic process
+125,primary metabolic process
+126,small molecule metabolic process
+127,negative regulation of biological process
+128,regulation of macromolecule metabolic process
+129,ion transmembrane transport
+130,sulfur compound transport
+131,oxidation-reduction process
+132,cellular lipid metabolic process
+133,system development
+134,single-multicellular organism process
+135,multicellular organismal development
+136,response to external stimulus
+137,response to extracellular stimulus
+138,asexual reproduction
+139,anatomical structure development
+140,response to stress
+141,negative regulation of macromolecule metabolic process
+142,regulation of biological process
+143,carboxylic acid transport
+144,fatty acid transport
+145,long-chain fatty acid transport
+146,biological_process
+147,response to radiation
+148,response to temperature stimulus
+149,cellular process
+150,phosphorus metabolic process
+151,catabolic process
+152,organic substance metabolic process
+153,metabolic process
+154,cellular metabolic process
+155,oxoacid metabolic process
+156,organic acid metabolic process
+157,monocarboxylic acid catabolic process
+158,cellular lipid catabolic process
+159,organic acid catabolic process
+160,single-organism catabolic process
+161,small molecule catabolic process
+162,cellular developmental process
+163,single-organism developmental process
+164,carboxylic acid metabolic process
+165,antigen processing and presentation of exogenous antigen
+166,antigen processing and presentation of exogenous peptide antigen
+167,regulation of response to stimulus
+168,positive regulation of biological process
+169,regulation of T cell mediated immunity
+170,regulation of immune system process
+171,regulation of T cell mediated cytotoxicity
+172,localization
+173,response to stimulus
+174,single-organism cellular process
+175,heterocycle metabolic process
+176,organic cyclic compound metabolic process
+177,cellular aromatic compound metabolic process
+178,nitrogen compound metabolic process
+179,single-organism metabolic process
+180,regulation of metabolic process
+181,developmental process
+182,multicellular organismal process
+183,reproduction
+184,response to endogenous stimulus
+185,regulation of biological quality
+186,ion transport
+187,nucleobase-containing small molecule metabolic process
+188,carbohydrate derivative metabolic process
+189,tissue development
+190,organophosphate metabolic process
+191,organic substance transport
+192,cellular catabolic process
+193,multi-organism process
+194,cellular response to chemical stimulus
+195,response to oxygen-containing compound
+196,response to organic substance
+197,negative regulation of metabolic process
+198,regulation of gene expression
+199,lipid metabolic process
+200,anatomical structure morphogenesis
+201,organ development
+202,macromolecule localization
+203,response to abiotic stimulus
+204,phosphate-containing compound metabolic process
+205,organic substance catabolic process
+206,monocarboxylic acid metabolic process
+207,cell differentiation
+208,positive regulation of response to stimulus
+209,immune system process
+210,transmembrane transport
+211,response to organonitrogen compound
+212,nucleoside monophosphate metabolic process
+213,developmental process involved in reproduction
+214,response to organic cyclic compound
+215,cellular process involved in reproduction
+216,epithelium development
+217,lipid localization
+218,nucleoside triphosphate metabolic process
+219,anion transport
+220,organophosphate catabolic process
+221,purine ribonucleoside metabolic process
+222,carbohydrate derivative catabolic process
+223,purine ribonucleotide metabolic process
+224,cellular chemical homeostasis
+225,cellular response to nitrogen compound
+226,single organism reproductive process
+227,nucleobase-containing compound catabolic process
+228,organonitrogen compound catabolic process
+229,reproductive system development
+230,response to nutrient levels
+231,regulation of immune effector process
+232,organic acid transport
+233,cellular response to oxygen-containing compound
+234,nitrogen compound transport
+235,metal ion transport
+236,cellular response to endogenous stimulus
+237,cation homeostasis
+238,negative regulation of gene expression
+239,posttranscriptional regulation of gene expression
+240,response to inorganic substance
+241,response to light stimulus
+242,lipid catabolic process
+243,carboxylic acid catabolic process
+244,fatty acid metabolic process
+245,sexual reproduction
+246,multicellular organismal reproductive process
+247,positive regulation of immune system process
+248,regulation of immune response
+249,spermatogenesis
+250,response to purine-containing compound
+251,nucleoside monophosphate catabolic process
+252,purine ribonucleoside monophosphate metabolic process
+253,epithelial cell development
+254,monovalent inorganic cation homeostasis
+255,regulation of membrane potential
+256,cellular process involved in reproduction in multicellular organism
+257,ribonucleoside triphosphate catabolic process
+258,purine nucleoside triphosphate catabolic process
+259,purine ribonucleoside catabolic process
+260,purine ribonucleotide catabolic process
+261,purine ribonucleoside triphosphate metabolic process
+262,antigen processing and presentation
+263,positive regulation of adaptive immune response
+264,response to drug
+265,amide transport
+266,regulation of adaptive immune response based on somatic recombination of immune receptors built from
+267,response to UV
+268,transition metal ion homeostasis
+269,response to cold
+270,fatty acid catabolic process
+271,response to cadmium ion
+272,monovalent inorganic cation transport
+273,post-embryonic organ development
+274,post-embryonic development
+275,gene silencing
+276,amino acid transport
+277,lipid modification
+278,"regulation of gene expression, epigenetic"
+279,monocarboxylic acid transport
+280,positive regulation of lymphocyte mediated immunity
+281,positive regulation of leukocyte mediated cytotoxicity
+282,ATPase activity
+283,"hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+284,adenyl nucleotide binding
+285,pyrophosphatase activity
+286,ion channel inhibitor activity
+287,primary active transmembrane transporter activity
+288,"hydrolase activity, acting on acid anhydrides"
+289,P-P-bond-hydrolysis-driven transmembrane transporter activity
+290,"ATPase activity, coupled to movement of substances"
+291,adenyl ribonucleotide binding
+292,MHC protein binding
+293,anion channel activity
+294,ribonucleoside binding
+295,purine nucleoside binding
+296,nucleoside binding
+297,purine ribonucleotide binding
+298,channel inhibitor activity
+299,nucleoside phosphate binding
+300,small molecule binding
+301,"ATPase activity, coupled"
+302,peptide transporter activity
+303,catalytic activity
+304,inorganic anion transmembrane transporter activity
+305,drug transmembrane transporter activity
+306,amide transmembrane transporter activity
+307,drug transporter activity
+308,ion channel activity
+309,potassium channel activity
+310,purine nucleotide binding
+311,ribonucleotide binding
+312,"ATPase activity, coupled to transmembrane movement of substances"
+313,protein binding
+314,molecular_function
+315,ion binding
+316,heterocyclic compound binding
+317,organic cyclic compound binding
+318,substrate-specific transporter activity
+319,substrate-specific transmembrane transporter activity
+320,transmembrane transporter activity
+321,ion transmembrane transporter activity
+322,transmembrane signaling receptor activity
+323,signaling receptor activity
+324,signal transducer activity
+325,cation transmembrane transporter activity
+326,potassium ion transmembrane transporter activity
+327,monovalent inorganic cation transmembrane transporter activity
+328,substrate-specific channel activity
+329,passive transmembrane transporter activity
+330,channel activity
+331,hydrolase activity
+332,binding
+333,transporter activity
+334,anion binding
+335,nucleoside-triphosphatase activity
+336,"hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances"
+337,anion transmembrane transporter activity
+338,active transmembrane transporter activity
+339,purine ribonucleoside binding
+340,purine ribonucleoside triphosphate binding
+341,nucleotide binding
+342,metal ion transmembrane transporter activity
+343,receptor binding
+344,molecular transducer activity
+345,receptor activity
+346,inorganic cation transmembrane transporter activity
+347,channel regulator activity
+348,ATP binding
+349,cation channel activity
+350,cell part
+351,peroxisomal membrane
+352,cell periphery
+353,membrane part
+354,microbody part
+355,cell
+356,cytoplasm
+357,early endosome
+358,microbody membrane
+359,vacuole
+360,intercellular canaliculus
+361,organelle
+362,intracellular organelle
+363,peroxisomal part
+364,mitochondrion
+365,cell-cell junction
+366,apical part of cell
+367,organelle inner membrane
+368,vacuolar membrane
+369,plasma membrane part
+370,plant-type vacuole
+371,organelle part
+372,mitochondrial envelope
+373,integral to organelle membrane
+374,membrane-bounded organelle
+375,macromolecular complex
+376,intracellular part
+377,intracellular
+378,cellular_component
+379,envelope
+380,peroxisome
+381,membrane
+382,cytoplasmic part
+383,protein complex
+384,intracellular organelle part
+385,intracellular membrane-bounded organelle
+386,plasma membrane
+387,organelle membrane
+388,intrinsic to membrane
+389,organelle envelope
+390,mitochondrial part
+391,endosome
+392,integral to membrane
+393,vacuolar part
+394,microbody
+395,cell junction
+396,lytic vacuole
+397,ATP-binding cassette (ABC) transporter complex
+398,intrinsic to organelle membrane
+399,symplast

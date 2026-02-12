@@ -1,0 +1,51 @@
+id,title
+0,Revision rights for Fieldable panels panes are linked to 'delete' or 'administer' panels pane rights
+1,How to hide the 'view access' and 'edit access' tabs?
+2,Undocumented behavior when UUID module is enabled.
+3,Use context keywords in fieldable panels
+4,Improved(?) Token support
+5,Comparison with the Bean module
+6,Convert the path property to a field so it can be translated
+7,Expose Fieldable Panels Panes as blocks
+8,Unpublished translations are shown to anonymous users
+9,Domain / Ctools Domain integration proposal UI ++
+10,Allow a particular revision of a fieldable panels pane to be placed in a panelized page
+11,Panelizing fppanes: title issues
+12,Allow context keyword substitutions in FPP
+13,More characters in the path field
+14,Search API indexing
+15,Translations aren't possible for existing fieldable panel panes
+16,Integration with other modules that use the CTools modal
+17,Default new panes to bundle category if specified
+18,Option to make revisions optional (like nodes)
+19,Add Services Resources
+20,How do you attach a FPP to a panel in code?
+21,How to export fieldable panels panes?
+22,Add permission to list fieldable panel panes
+23,Access control not working
+24,Reduce markup
+25,Manage Fields and display Link does not work
+26,fieldable_panels_panes_access() does not affect IPE interface
+27,Make FPP bundle 'title' field editable
+28,"Allow ""reusable"" option to be disabled per FPP type"
+29,"Allow ""title link"" option to be disabled per FPP type"
+30,Use CTools 1.4's UUID support
+31,Fieldable pane dialog from 'Add content' does not let you select view mode
+32,Fieldable Pane cannot save view mode?
+33,Created bundle not selectable
+34,Notice: Undefined index: title in panels_renderer_editor->ajax_style_type()
+35,How to handle empty placeholders when an FPP is deleted?
+36,Use a variable for FPP default categories
+37,Inconsistent preprocessing
+38,fieldable_panels_panes_fieldable_panels_pane_content_type_content_types loading all entities on every page
+39,Export Fieldable Panels Panes with content if part of a Panel Node
+40,Private files download access within a fpp
+41,Security issue. Add access callback for admin views.
+42,Document APIs
+43,Set default Panelizer title to '%fieldable_panels_pane:title'
+44,Custom panes for each FPP custom attribute
+45,inline_entity_form integration has fields in strange order
+46,Automatically add all fields when exporting via Features
+47,"Can not save translated FPPs if the FPP has a file the error message will be like ""Image is required"" or ""Thumbnail is required."""
+48,Permissions don't work
+49,EntityMalformedException translating FPP entity

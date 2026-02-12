@@ -1,0 +1,57 @@
+id,title
+0,Analyze cluster
+1,Analyze tables/statistics
+2,Application contexts
+3,Auditing information
+4,"B-tree, bitmap, domain function-based indexes"
+5,Cluster definitions
+6,Column and table comments
+7,Database links
+8,Default roles
+9,Dimensions
+10,Directory aliases
+11,External tables (without data)
+12,Foreign function libraries
+13,Indexes owned by users other than table owner
+14,Index types
+15,Java resources and classes
+16,Job queues
+17,Nested table data
+18,Object grants
+19,Object type definitions used by table
+20,Object types
+21,Operators
+22,Password history
+23,Postinstance actions and objects
+24,Postschema procedural actions and objects
+25,Posttable actions
+26,Posttable procedural actions and objects
+27,Preschema procedural objects and actions
+28,Pretable actions
+29,Pretable procedural actions
+30,Private synonyms
+31,Procedural objects
+32,Profiles
+33,Public synonyms
+34,Referential integrity constraints
+35,Refresh groups
+36,Resource costs
+37,Role grants
+38,Roles
+39,Rollback segment definitions
+40,Security policies for table
+41,Sequence numbers
+42,Snapshot logs
+43,Snapshots and materialized views
+44,System privilege grants
+45,"Table constraints (primary, unique, check)"
+46,Table data
+47,Table definitions
+48,Tablespace definitions
+49,Tablespace quotas
+50,Triggers
+51,Triggers owned by other users
+52,User definitions
+53,User proxies
+54,User views
+55,"User-stored procedures, packages, and functions"

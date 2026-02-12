@@ -1,0 +1,50 @@
+id,title
+0,Foorum - forum system based on Catalyst
+1,wrap all inserts into transaction
+2,stash for DBIC
+3,Store multiple boolean fields in one integer field
+4,Validate all data before submitting to your database.
+5,Phonetic search with DBIC
+6,Adds syntactic sugar to skip the fancy objects
+7,improve DBIx::Class::ResultSet with void context
+8,Easily use DBIC with snowflake schemas.
+9,Catalyst and related modules for exploring Catalyst
+10,Automatic compress columns
+11,Everything you need to follow the Catalyst Tutorial
+12,Force UTF8 (Unicode) flag on columns
+13,Inflate columns into Path::Class objects
+14,A multi-purpose PKI.
+15,like CDBI::Plugin::AsFdat.
+16,Automatically set update and create user id fields
+17,Filter of geometry columns to access with WKT
+18,Catalyst based application
+19,Generate Kwalitee ratings for the whole CPAN
+20,**DEPRECATED** Authentication and authorization against a DBIx::Class or Class::DBI model.
+21,lib/Egg/Release/DBIC.pm
+22,"Create an adjunct ""[column]Doc"" accessor of a column's data which is automatically parsed into a LibXML documentElement (beta-software)."
+23,make database rows returned by DBIx::Class into singletons
+24,Convenient way to use dynamic subclassing.
+25,DEPRECATED - use HTML::FormFu::Model::DBIC instead
+26,Auto-create Data::Currency objects from columns.
+27,Automatically tokenize a column on creation
+28,unique check for DBIC::Schema
+29,get table name list from database
+30,Aggregate DBIC processes between multiple tables.
+31,"Track books you want to read, are reading, and have read"
+32,Like FromForm but with DBIx::Class and HTML::Widget
+33,Update or Insert DBIx::Class data from Validators
+34,Facilitates Automated Testing for DBIx::Class
+35,deploy a DBIx::Class schema
+36,Simple way of defining models for DBIx::Class.
+37,Auto-create URI objects from columns
+38,Auto-create Business::ISBN objects from columns.
+39,DBIx::Class Authentication Driver
+40,Load templates using DBIx::Class
+41,Automatic digest columns
+42,DBIx::Class::Loader ADO Implementation.
+43,Update or Insert DBIx::Class data using from Sledge
+44,Salts password columns
+45,Pluggable RSS/Atom Aggregator
+46,Creates format accessors for you
+47,Handle column encodings
+48,Persistent RobotRules which use DBIC.

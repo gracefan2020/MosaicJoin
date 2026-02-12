@@ -1,0 +1,51 @@
+id,title
+0,Druplicon 'tell' function lacks context
+1,Allow to search for factoids
+2,Fire kills bot
+3,Log URL case sensitivity
+4,Allow to add a space before [!\?] in factoids
+5,Druplicon: is also... messes existing factoid
+6,External relay of message
+7,Upgrade to Drupal 8
+8,Backdrop CMS support?
+9,SmartIRC.php(481) WARNING: channel() does not exist!
+10,hook_irc_msg_notice() not firing
+11,Incompatible with drupal.org update
+12,Bind bot to specific IP
+13,Tells to a nick of > 60 characters cause bot to crash
+14,Regex substition
+15,Add variable module integration
+16,Add support for sites who cannot install a PHP extension
+17,Bulk karma
+18,Undefined variable error on the /bot/log page
+19,Entitification of bot wherever it makes sense
+20,Time zone suport
+21,Add options to browsable factoids
+22,Bot log settings: filter on message type
+23,Add recurring reminders feature to Bot module
+24,drush bot-start doesn't start the bot.
+25,Make issue-tracking integration extensible (for Redmine)
+26,Tweak seen matching string for better clarity
+27,"Problem with quakenet, reconnects alot"
+28,Record daily count of max users in a channel
+29,Bot API
+30,General cleanup work
+31,Remove rate limits after full connection restored
+32,No commands in drush
+33,XMPP Support
+34,Add search of bot logs to Drupal search
+35,Node number in the sentence
+36,Add nick/hostmask ignorance
+37,Re: bot_karma -- Ignore status portion of nick after vertical bar
+38,Optionally have bot tell people they have messages upon joining a channel
+39,Live update for bot_log
+40,bot_tell: Notify Users of Messages privately if there are more than X messages
+41,Tweet fetching in bot_potpourri
+42,create bot queue for website hook instances
+43,Allow to use subject in response
+44,Add ability to 'stash' messages for future reference
+45,Add hook_irc_bot_reply_action/message_alter() hook so that other modules can modify outgoing messages.
+46,Hook Documentation
+47,Translated keywords are not triggering help
+48,Additional variable
+49,Botstracism

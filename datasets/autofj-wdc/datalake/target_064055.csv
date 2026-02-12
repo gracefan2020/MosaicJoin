@@ -1,0 +1,51 @@
+id,title
+0,White page while maintaining the settings of the field
+1,Admin Themes Override Inline Style of Widget
+2,Feeds mapper for Office hours
+3,Provide more context to the theming function.
+4,Cannot set midnight end time
+5,Cleanup code
+6,"""First day of the week"" setting should be respected (D8)"
+7,Fatal Cannot access protected property Drupal\field\Entity\FieldStorageConfig
+8,Undefined offset: 0 in OfficeHoursWidget->errorElement
+9,Undefined index: day when there are no values yet
+10,Clean up widget code and css
+11,Shows closed when hours are open
+12,Change the display of the times 'am' vs. 'a.m.'
+13,Project Date-Api is a requirement but unable to find it
+14,"No hours to select in drop down, minutes"
+15,"Add ""Seasonal Hours / Duration"" feature"
+16,"Add ""exception day"" feature"
+17,An alter to allow users to update the items before processing
+18,"""First day of the week"" setting should be respected (D7)"
+19,Integrate with Search API / Apache Solr
+20,Expose Open / Closed Now indicators as Entity properties
+21,Closed all week
+22,Add checkbox to display all days as closed
+23,Cardinality is limited only in UI
+24,Make End Hours Optional
+25,Hours select field is empty after update to version 7.x-1.4
+26,'Apply to all' link on Widget when Monday is first-day-of-week
+27,Panels/Panelizer Field Formatter
+28,Add links 'clear' and 'apply to all' to Widget to improve usability
+29,Office Hours Exposed Filter Error
+30,_office_hours_mil_to_tf() sometimes get array when saving a node
+31,Split module file
+32,"Display ""Closed"" on current closed date"
+33,Port office_hours to Drupal 8
+34,_office_hours_select_validate() error
+35,Add Views Filter handler for Open/Closed (today/now/soon)
+36,Add context to functions t()
+37,How to set the label width correctly?
+38,Javascript for 'N time blocks per day' is not complete
+39,'current status' in formatter is on same line as first Hours block.
+40,Broken field form element after validation
+41,Description text is shown for each day
+42,Office Hours Next Day on Saturday for Sunday
+43,Views Open Filter
+44,"Finish Views 3 integration: fields, filter criteria, sort criteria, ..."
+45,Widget redesign for 'days with same opening hours' : group together or provide a copy/paste functionality
+46,Widget redesign proposition: closed days - grouped days - first day of the week - add more hours features
+47,Javascript link for copying value to other days
+48,Handle the exceptional values in office_hours_feeds_set_target()
+49,Turn On/Off display in form

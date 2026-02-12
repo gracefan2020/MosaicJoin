@@ -1,0 +1,495 @@
+id,title
+0,anatomical structure development
+1,positive regulation of RNA metabolic process
+2,biological regulation
+3,regulation of nitrogen compound metabolic process
+4,positive regulation of B cell activation
+5,"regulation of transcription, DNA-dependent"
+6,regulation of primary metabolic process
+7,mammary gland development
+8,hemopoiesis
+9,signaling
+10,regulation of biological process
+11,positive regulation of leukocyte activation
+12,positive regulation of nitrogen compound metabolic process
+13,lymphocyte differentiation
+14,single-organism process
+15,regulation of cellular macromolecule biosynthetic process
+16,cell communication
+17,regulation of biosynthetic process
+18,regulation of RNA metabolic process
+19,regulation of RNA biosynthetic process
+20,positive regulation of lymphocyte activation
+21,cellular response to stimulus
+22,regulation of macromolecule metabolic process
+23,regulation of B cell activation
+24,system development
+25,lymphocyte activation
+26,single organism signaling
+27,regulation of lymphocyte activation
+28,positive regulation of cellular metabolic process
+29,positive regulation of biosynthetic process
+30,cellular process
+31,regulation of lymphocyte mediated immunity
+32,regulation of leukocyte mediated immunity
+33,positive regulation of macromolecule metabolic process
+34,positive regulation of biological process
+35,cellular developmental process
+36,single-organism developmental process
+37,regulation of cellular metabolic process
+38,cell activation
+39,leukocyte differentiation
+40,regulation of leukocyte activation
+41,single-multicellular organism process
+42,negative regulation of biological process
+43,immune system development
+44,gland morphogenesis
+45,multicellular organismal development
+46,regulation of immune system process
+47,regulation of response to stimulus
+48,positive regulation of immune effector process
+49,regulation of multicellular organismal development
+50,activation of cysteine-type endopeptidase activity
+51,regulation of endothelial cell proliferation
+52,cellular response to organic substance
+53,RNA biosynthetic process
+54,lymphocyte homeostasis
+55,T cell homeostasis
+56,eating behavior
+57,regulation of T cell proliferation
+58,negative regulation of intracellular protein kinase cascade
+59,cellular response to cytokine stimulus
+60,response to nitrogen compound
+61,circulatory system process
+62,positive regulation of peptidase activity
+63,metanephros development
+64,regulation of I-kappaB kinase/NF-kappaB cascade
+65,regulation of activated T cell proliferation
+66,regulation of steroid metabolic process
+67,positive regulation of mononuclear cell proliferation
+68,intracellular protein kinase cascade
+69,regulation of apoptotic process
+70,nucleobase-containing compound biosynthetic process
+71,glucose homeostasis
+72,response to peptide
+73,regulation of endopeptidase activity
+74,positive regulation of inflammatory response
+75,positive regulation of T cell proliferation
+76,body fluid secretion
+77,regulation of cysteine-type endopeptidase activity
+78,female gonad development
+79,cell proliferation
+80,JAK-STAT cascade
+81,mesenchymal cell proliferation
+82,positive regulation of mitotic cell cycle
+83,feeding behavior
+84,temperature homeostasis
+85,positive regulation of cysteine-type endopeptidase activity
+86,positive regulation of smooth muscle cell proliferation
+87,secretion by tissue
+88,sex differentiation
+89,ovulation cycle
+90,response to exogenous dsRNA
+91,programmed cell death
+92,stem cell differentiation
+93,negative regulation of syncytium formation by plasma membrane fusion
+94,regulation of cell differentiation
+95,positive regulation of natural killer cell mediated cytotoxicity
+96,positive regulation of natural killer cell mediated immunity
+97,eye development
+98,negative regulation of epithelial cell differentiation
+99,rhythmic process
+100,photoreceptor cell differentiation
+101,regulation of natural killer cell mediated cytotoxicity
+102,response to cAMP
+103,positive regulation of cell proliferation
+104,female sex differentiation
+105,activation of cysteine-type endopeptidase activity involved in apoptotic process
+106,regulation of glycolysis
+107,response to organophosphorus
+108,eye photoreceptor cell differentiation
+109,urogenital system development
+110,regulation of carbohydrate catabolic process
+111,macromolecule biosynthetic process
+112,multicellular organismal homeostasis
+113,kidney development
+114,regulation of hydrolase activity
+115,negative regulation of glycolysis
+116,regulation of syncytium formation by plasma membrane fusion
+117,astrocyte differentiation
+118,positive regulation of cysteine-type endopeptidase activity involved in apoptotic process
+119,homeostatic process
+120,response to chemical stimulus
+121,positive regulation of leukocyte differentiation
+122,positive regulation of catalytic activity
+123,positive regulation of cytokine biosynthetic process
+124,prolactin signaling pathway
+125,regulation of cell death
+126,positive regulation of multicellular organism growth
+127,regulation of glucose metabolic process
+128,multi-organism reproductive process
+129,negative regulation of epithelial cell proliferation
+130,negative regulation of cell migration
+131,secretion
+132,negative regulation of cell motility
+133,cellular response to hormone stimulus
+134,negative regulation of myeloid cell apoptotic process
+135,death
+136,positive regulation of cell cycle
+137,negative regulation of angiogenesis
+138,negative regulation of cellular carbohydrate metabolic process
+139,development of primary sexual characteristics
+140,cell surface receptor signaling pathway
+141,regulation of homeostatic process
+142,metabolic process
+143,regulation of inflammatory response
+144,response to extracellular stimulus
+145,protein import into nucleus
+146,cell death
+147,male sex differentiation
+148,regulation of cellular carbohydrate catabolic process
+149,cellular response to organonitrogen compound
+150,nucleic acid metabolic process
+151,peptidyl-tyrosine modification
+152,regulation of cell killing
+153,lipopolysaccharide-mediated signaling pathway
+154,negative regulation of catabolic process
+155,regulation of natural killer cell mediated immunity
+156,nucleocytoplasmic transport
+157,nuclear transport
+158,regulation of lymphocyte differentiation
+159,regulation of vasculature development
+160,regulation of myeloid cell apoptotic process
+161,positive regulation of cell killing
+162,reproductive process
+163,cellular response to peptide hormone stimulus
+164,regulation of generation of precursor metabolites and energy
+165,homeostasis of number of cells
+166,response to interferon-gamma
+167,regulation of cell migration
+168,organic substance biosynthetic process
+169,nucleobase-containing compound metabolic process
+170,mesenchymal cell differentiation
+171,stem cell maintenance
+172,regulation of Notch signaling pathway
+173,negative regulation of myeloid cell differentiation
+174,positive regulation of myeloid cell differentiation
+175,transport
+176,cellular biosynthetic process
+177,neurogenesis
+178,regulation of neurogenesis
+179,regulation of cell motility
+180,response to growth factor stimulus
+181,epithelial cell differentiation
+182,prostate gland development
+183,morphogenesis of an epithelium
+184,reproductive structure development
+185,positive regulation of myeloid leukocyte differentiation
+186,regulation of myeloid leukocyte differentiation
+187,regulation of molecular function
+188,intracellular transport
+189,establishment of localization in cell
+190,regulation of epithelial cell proliferation
+191,gliogenesis
+192,multicellular organism reproduction
+193,positive regulation of T cell activation
+194,regulation of leukocyte proliferation
+195,regulation of lymphocyte proliferation
+196,positive regulation of immune response
+197,negative regulation of macromolecule metabolic process
+198,regulation of cell cycle
+199,positive regulation of cell communication
+200,positive regulation of signaling
+201,positive regulation of cell differentiation
+202,regulation of T cell differentiation
+203,cellular metabolic process
+204,response to dsRNA
+205,negative regulation of signal transduction
+206,behavior
+207,chemical homeostasis
+208,positive regulation of lymphocyte proliferation
+209,organic substance metabolic process
+210,response to stress
+211,protein localization
+212,cellular protein localization
+213,cellular macromolecule localization
+214,negative regulation of programmed cell death
+215,regulation of programmed cell death
+216,regulation of leukocyte apoptotic process
+217,single-organism transport
+218,cellular nitrogen compound metabolic process
+219,response to biotic stimulus
+220,cellular response to molecule of bacterial origin
+221,cellular response to lipopolysaccharide
+222,response to molecule of bacterial origin
+223,cellular response to lipid
+224,regulation of response to stress
+225,negative regulation of cellular metabolic process
+226,regulation of catabolic process
+227,cell development
+228,primary metabolic process
+229,protein modification process
+230,macromolecule modification
+231,cellular protein metabolic process
+232,phosphorus metabolic process
+233,biological_process
+234,regulation of carbohydrate metabolic process
+235,macromolecule metabolic process
+236,response to other organism
+237,regulation of signaling
+238,regulation of cell communication
+239,response to external stimulus
+240,establishment of localization
+241,intracellular protein transport
+242,protein targeting
+243,establishment of protein localization
+244,positive regulation of innate immune response
+245,positive regulation of leukocyte mediated immunity
+246,regulation of leukocyte mediated cytotoxicity
+247,neuron differentiation
+248,regulation of cellular process
+249,developmental process
+250,multicellular organismal process
+251,response to stimulus
+252,single-organism cellular process
+253,regulation of metabolic process
+254,organic cyclic compound metabolic process
+255,biosynthetic process
+256,heterocycle metabolic process
+257,nitrogen compound metabolic process
+258,cellular macromolecule metabolic process
+259,cellular aromatic compound metabolic process
+260,protein metabolic process
+261,localization
+262,signal transduction
+263,organ development
+264,immune system process
+265,regulation of macromolecule biosynthetic process
+266,regulation of developmental process
+267,cell differentiation
+268,regulation of nucleobase-containing compound metabolic process
+269,positive regulation of metabolic process
+270,regulation of gene expression
+271,regulation of cellular biosynthetic process
+272,positive regulation of cellular process
+273,regulation of multicellular organismal process
+274,negative regulation of cellular process
+275,aromatic compound biosynthetic process
+276,cellular response to chemical stimulus
+277,response to endogenous stimulus
+278,cellular nitrogen compound biosynthetic process
+279,heterocycle biosynthetic process
+280,reproduction
+281,response to organic substance
+282,organic cyclic compound biosynthetic process
+283,cellular macromolecule biosynthetic process
+284,multi-organism process
+285,RNA metabolic process
+286,gene expression
+287,positive regulation of molecular function
+288,response to oxygen-containing compound
+289,macromolecule localization
+290,phosphate-containing compound metabolic process
+291,nervous system development
+292,regulation of localization
+293,tissue development
+294,cellular localization
+295,regulation of biological quality
+296,regulation of catalytic activity
+297,regulation of protein metabolic process
+298,regulation of cellular component organization
+299,negative regulation of metabolic process
+300,anatomical structure morphogenesis
+301,cellular protein modification process
+302,organic substance transport
+303,regulation of signal transduction
+304,system process
+305,positive regulation of response to stimulus
+306,positive regulation of nucleobase-containing compound metabolic process
+307,positive regulation of gene expression
+308,regulation of cell proliferation
+309,positive regulation of macromolecule biosynthetic process
+310,positive regulation of cellular biosynthetic process
+311,regulation of cell activation
+312,regulation of transcription from RNA polymerase II promoter
+313,gland development
+314,hematopoietic or lymphoid organ development
+315,leukocyte activation
+316,regulation of peptidase activity
+317,blood circulation
+318,response to nutrient levels
+319,"transcription, DNA-dependent"
+320,response to cytokine stimulus
+321,negative regulation of developmental process
+322,apoptotic process
+323,positive regulation of hydrolase activity
+324,regulation of defense response
+325,regulation of mitotic cell cycle
+326,intracellular signal transduction
+327,regulation of growth
+328,response to hormone stimulus
+329,phosphorylation
+330,lipid localization
+331,response to organonitrogen compound
+332,cellular response to nitrogen compound
+333,regulation of body fluid levels
+334,defense response
+335,cellular response to oxygen-containing compound
+336,generation of neurons
+337,multi-multicellular organism process
+338,immune response
+339,response to bacterium
+340,regulation of lipid metabolic process
+341,multicellular organismal reproductive process
+342,protein localization to organelle
+343,regulation of cell development
+344,regulation of nervous system development
+345,regulation of cellular component movement
+346,regulation of locomotion
+347,cellular response to endogenous stimulus
+348,cellular process involved in reproduction
+349,epithelium development
+350,tissue morphogenesis
+351,reproductive system development
+352,enzyme linked receptor protein signaling pathway
+353,response to organic cyclic compound
+354,cytoplasmic transport
+355,central nervous system development
+356,positive regulation of immune system process
+357,positive regulation of signal transduction
+358,positive regulation of developmental process
+359,developmental process involved in reproduction
+360,regulation of intracellular protein kinase cascade
+361,negative regulation of signaling
+362,negative regulation of cell communication
+363,single organism reproductive process
+364,regulation of immune response
+365,regulation of immune effector process
+366,positive regulation of protein metabolic process
+367,regulation of cytokine production
+368,positive regulation of multicellular organismal process
+369,negative regulation of cellular component organization
+370,negative regulation of cell death
+371,regulation of response to external stimulus
+372,response to lipid
+373,regulation of cellular catabolic process
+374,peptidyl-amino acid modification
+375,regulation of anatomical structure morphogenesis
+376,negative regulation of response to stimulus
+377,protein transport
+378,organ morphogenesis
+379,sensory organ development
+380,"positive regulation of transcription, DNA-dependent"
+381,positive regulation of cell activation
+382,mammary gland epithelium development
+383,female pregnancy
+384,cytokine-mediated signaling pathway
+385,regulation of epithelial cell differentiation
+386,regulation of mononuclear cell proliferation
+387,lactation
+388,positive regulation of endopeptidase activity
+389,ovulation cycle process
+390,negative regulation of cell differentiation
+391,regulation of multicellular organism growth
+392,carbohydrate homeostasis
+393,mesenchyme development
+394,regulation of smooth muscle cell proliferation
+395,response to peptide hormone stimulus
+396,transmembrane receptor protein tyrosine kinase signaling pathway
+397,positive regulation of leukocyte mediated cytotoxicity
+398,leukocyte homeostasis
+399,regulation of cytokine biosynthetic process
+400,positive regulation of response to external stimulus
+401,cellular response to peptide
+402,regulation of myeloid cell differentiation
+403,renal system development
+404,gonad development
+405,response to purine-containing compound
+406,positive regulation of defense response
+407,negative regulation of carbohydrate metabolic process
+408,negative regulation of multicellular organismal process
+409,eye morphogenesis
+410,stem cell proliferation
+411,regulation of cysteine-type endopeptidase activity involved in apoptotic process
+412,negative regulation of cell proliferation
+413,protein targeting to nucleus
+414,regulation of cell adhesion
+415,regulation of angiogenesis
+416,protein localization to nucleus
+417,regulation of leukocyte differentiation
+418,negative regulation of cellular catabolic process
+419,positive regulation of growth
+420,development of primary female sexual characteristics
+421,cellular response to biotic stimulus
+422,nuclear import
+423,innate immune response
+424,protein import
+425,positive regulation of leukocyte proliferation
+426,negative regulation of cellular component movement
+427,negative regulation of locomotion
+428,cellular response to growth factor stimulus
+429,glial cell differentiation
+430,regulation of T cell activation
+431,positive regulation of lymphocyte mediated immunity
+432,regulation of innate immune response
+433,hormone-mediated signaling pathway
+434,negative regulation of apoptotic process
+435,response to lipopolysaccharide
+436,stem cell development
+437,regulation of cellular carbohydrate metabolic process
+438,heterocyclic compound binding
+439,RNA polymerase II core promoter sequence-specific DNA binding
+440,organic cyclic compound binding
+441,core promoter sequence-specific DNA binding
+442,RNA polymerase II regulatory region sequence-specific DNA binding
+443,core promoter binding
+444,molecular_function
+445,sequence-specific DNA binding
+446,RNA polymerase II regulatory region DNA binding
+447,protein kinase binding
+448,signal transducer activity
+449,sequence-specific DNA binding RNA polymerase II transcription factor activity
+450,protein binding
+451,regulatory region nucleic acid binding
+452,regulatory region DNA binding
+453,phosphatase binding
+454,transcription regulatory region sequence-specific DNA binding
+455,binding
+456,nucleic acid binding
+457,DNA binding
+458,nucleic acid binding transcription factor activity
+459,protein dimerization activity
+460,enzyme binding
+461,molecular transducer activity
+462,receptor binding
+463,transcription regulatory region DNA binding
+464,sequence-specific DNA binding transcription factor activity
+465,protein phosphatase binding
+466,cytokine receptor binding
+467,kinase binding
+468,cell part
+469,cell
+470,intracellular part
+471,intracellular
+472,cellular_component
+473,cytoplasm
+474,membrane-bounded organelle
+475,organelle
+476,nucleus
+477,nuclear lumen
+478,organelle lumen
+479,nucleolus
+480,membrane-enclosed lumen
+481,axon
+482,organelle part
+483,intracellular organelle
+484,neuron part
+485,non-membrane-bounded organelle
+486,intracellular membrane-bounded organelle
+487,intracellular organelle part
+488,intracellular non-membrane-bounded organelle
+489,intracellular organelle lumen
+490,nuclear part
+491,cell projection
+492,neuron projection
+493,dendrite

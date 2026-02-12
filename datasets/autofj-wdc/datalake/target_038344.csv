@@ -1,0 +1,51 @@
+id,title
+0,Fatal error in rooms units
+1,Bookings list should be sortable
+2,Entity traslation
+3,Add a filter for calculated price in search:
+4,Price Calculation Variables
+5,Change Booking Unit Type on existing site
+6,Improve multi-currency handling in Rooms
+7,Value in Booking Unit Options rounds to whole numbers
+8,No calendars to be seen
+9,Translate Bookable Units field ?
+10,"Price Calculation ""Per person per night"" does not work"
+11,Restrict bookings to be only available by weeks
+12,problem with the calendar design and responsive themes
+13,Unit Types Error
+14,The price of the room change inner view
+15,Error $booking_id in rooms_entity_access line 223
+16,updated status 1 day longer than requested
+17,Per person per night supplemental Rooms options
+18,Price traslation
+19,Price of unit options not is displayed
+20,"Is possible add the ""book this"" buttom in the ""Unit Description"" node?"
+21,Name of the rooms not available as field.
+22,Option quantity
+23,Trying to get property of non-object en rooms_booking_manager_price_apply()
+24,Rooms availability calendar popup alignment
+25,Notice: Undefined index: Standard Single Room in _rooms_booking_manager_get_unit_type_labels()
+26,Drupal 8 roadmap
+27,Edit Booking Issue: Could not update calendar because a locked event is blocking the update - you need to unlock any locked even
+28,[Rooms] Possible integration of availability_calendars and rooms
+29,Booking beds in rooms (Hostels)
+30,Rooms Partial Payments / Reservation Deposits
+31,checkAvailability slow
+32,Tighter concurrency
+33,to manage method payment
+34,to require unit type selector
+35,Booked Rooms missing from Calendar
+36,Booking page Options quantity select
+37,Incorrect conversion from Room Unit Type Option description to HTML element name
+38,Drupal Rooms Feature Requests Master List
+39,No information about only paying a percentage/part
+40,Orders not updated
+41,Permissions are confusing
+42,Rooms related date fields not useable
+43,When re-assigning a unit on the bulk availability page the status on the calendar does not refresh
+44,using rooms for car rentals
+45,Replace 'und' with the constant LANGUAGE_NONE for multi language site in rooms
+46,Import existing reservations into Rooms
+47,Autoselect available rooms
+48,Duplicate booking when re-assigning the unit?
+49,Datepicker disappeared from Rooms Availability Management

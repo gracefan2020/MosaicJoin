@@ -1,0 +1,387 @@
+id,title
+0,Agricultural Bus & Mgmt
+1,Agri Production/Worker & Mgrs
+2,Agri & Food Products Process
+3,Agri Supplies & Related Sci
+4,Horticulture Serv Oper & Mgmt
+5,International Agriculture
+6,Natural Resources Conserv
+7,Fishing & Fish Sci & Mgmt
+8,Forestry & Related Sciences
+9,Wildlife & Wildlands Mgmt
+10,"Conserv/Renew Nat Rsrces, Oth"
+11,City/Urban Commun & Rgnl Plan
+12,Architectural Environ Design
+13,Landscape Architecture
+14,Area Studies
+15,Ethnic & Cultural Studies
+16,"Area, Ethnic & Cult Stud, Oth"
+17,Journalism & Mass Commun
+18,Radio & TV Broadcasting
+19,"Communications, Oth"
+20,"Computer & Info Sciences, Gen"
+21,Computer Programming
+22,Data Processing Technology
+23,Information Sci & Systems
+24,Computer Systems Analysis
+25,Computer Science
+26,Funeral Serv & Mortuary Sci
+27,Cosmetic Services
+28,"Personal & Misc Serv, Oth"
+29,Curriculum & Instruction
+30,Educ Admin & Supervision
+31,Educ/Instruct Media Design
+32,"Educ Eval, Research & Stat"
+33,Soc & Phil Foundations of Ed
+34,Special Education
+35,Student Couns/Personnel Serv
+36,General Teacher Education
+37,Teach Engl as Second/For Lang
+38,Teacher Assistant/Aide
+39,"Education, Oth"
+40,"Engineering, Gen"
+41,Agricultural Engineering
+42,Architectural Engineering
+43,Ceramic Sci & Engineering
+44,Chemical Engineering
+45,Civil Engineering
+46,Computer Engineering
+47,"Elect, Electron & Commun Eng"
+48,Engineering Mechanics
+49,Engineering Science
+50,Envir/Envir Health Engineer
+51,Materials Engineering
+52,Mechanical Engineering
+53,Metallurgical Engineering
+54,Mining & Mineral Engineering
+55,Naval Arch & Marine Engineer
+56,Ocean Engineering
+57,Petroleum Engineering
+58,Systems Engineering
+59,Textile Sci & Engineering
+60,Materials Science
+61,Polymer/Plastics Engineering
+62,"Engineering, Oth"
+63,Civil Engineer/Civil Tech
+64,Elec/Electron Eng-Related Tech
+65,Environmental Control Tech
+66,Industrial Prod Tech
+67,Quality Control/Safety Tech
+68,Mechanical Eng-Related Tech
+69,Mining & Petroleum Tech
+70,Misc Engineering-Related Tech
+71,"Engineering-Related Tech, Oth"
+72,Foreign Lang & Lit
+73,"Foreign Lang & Lit, Oth"
+74,"Home Economics, Gen"
+75,Family/Consumer Resource Mgmt
+76,Foods & Nutrition Studies
+77,Housing Studies
+78,Indiv/Family Develop Studies
+79,Technology Educ/Indus Arts
+80,Law & Legal Studies
+81,"English Lang & Lit, Gen"
+82,English Creative Writing
+83,American Lit (United States)
+84,English Lit (British & Comm)
+85,Speech & Rhetorical Studies
+86,English Tech & Bus Writing
+87,"Lib Arts & Sci, Gen Stu/Human"
+88,Library Science/Librarianship
+89,Library Assistant
+90,"Library Science, Oth"
+91,"Biology, Gen"
+92,Biochemistry & Biophysics
+93,Cell & Molecular Biology
+94,Microbiology/Bacteriology
+95,Zoology
+96,Mathematics
+97,Applied Mathematics
+98,Mathematical Statistics
+99,"Mathematics, Oth"
+100,Air Force ROTC
+101,Army ROTC
+102,Navy/Marine Corps ROTC
+103,Peace & Conflict Studies
+104,Systems Sciences & Theory
+105,Mathematics & Computer Science
+106,Biopsychology
+107,Gerontoloty
+108,Medieval & Renaissance Studies
+109,Museology/Museum Studies
+110,"Science, Technology & Society"
+111,"Multi/Interdisc Studies, Oth"
+112,"Parks, Rec, & Leisure Studies"
+113,Health & Phys Educ/Fitness
+114,"Parks, Rec, Leis/Fit Stu, Oth"
+115,Basic Skills
+116,Citizenship Activities
+117,Interpersonal & Social Skills
+118,Leisure & Recreational Activ
+119,Philosophy
+120,Religion/Religious Studies
+121,Philosophy & Religion
+122,Bible/Biblical Studies
+123,Missions/Missionary Studies
+124,Religious/Sacred Music
+125,Theological/Minister Studies
+126,Pastoral Couns/Spec Ministries
+127,"Theol St/Relig Vocations, Oth"
+128,Astronomy
+129,Atmospheric Sci & Meteorology
+130,Chemistry
+131,Geological & Related Sciences
+132,Physics
+133,Biological Technology
+134,Nuclear/Indus Radiologic Tech
+135,Physical Science Technologies
+136,"Science Technologies, Oth"
+137,Psychology
+138,Cognitive Psych & Psycholing
+139,Community Psychology
+140,Counseling Psychology
+141,Development & Child Psychology
+142,Indus & Organiz Psychology
+143,Physiolical Psych/Psychobiol
+144,Social Psychology
+145,School Psychology
+146,"Psychology, Oth"
+147,Criminal Justice & Corrections
+148,"Protective Services, Oth"
+149,"Commun Organiz, Resour & Serv"
+150,Public Policy Analysis
+151,Social Work
+152,"Social Sciences, Gen"
+153,Anthropology
+154,Archeology
+155,Criminology
+156,Demography/Population Studies
+157,Economics
+158,Geography
+159,International Relations & Aff
+160,Sociology
+161,"Social Sciences & History, Oth"
+162,Masons & Tile Setters
+163,Carpenters
+164,Elect & Power Trans Installers
+165,Construct/Build Finish & Mgrs
+166,"Construction Trades, Oth"
+167,Elec/Electron Equip Instal/Rep
+168,"Heat, Air Cond & Refrig Mech"
+169,Indus Equip Maint & Repairers
+170,Vehicl/Mobile Equip Mech & Rep
+171,"Mechanics & Repairers, Oth"
+172,Leatherworkers & Upholsterers
+173,Woodworkers
+174,"Precision Product Trades, Oth"
+175,Air Transportation Workers
+176,Vehicle & Equipment Operators
+177,Water Transportation Workers
+178,Visual & Performing Arts
+179,"Crafts, Folk Art & Artisanry"
+180,Dance
+181,Design & Applied Arts
+182,"Dramatic/Theater Arts, Stgcrft"
+183,Fine Arts & Art Studies
+184,Music
+185,"Visual & Performing Arts, Oth"
+186,"Chiropractic (DC, DCM)"
+187,Communication Disord Sci/Serv
+188,Dental Services
+189,Health & Medical Admin Serv
+190,Health & Medical Assistants
+191,"Health/Medical Diag, Treatment"
+192,Health & Medical Prep Programs
+193,Medicine (MD)
+194,"Medical Clinical Sci (MS, PhD)"
+195,Mental Health Services
+196,Nursing
+197,Optometry (OD)
+198,Osteopathic Medicine (DO)
+199,Pharmacy
+200,"Podiatry (DPM, DP, PodD)"
+201,Public Health
+202,Veterinary Medicine (DVM)
+203,"Veterinary Clin Sci (MS, PhD)"
+204,Misc Health Aides
+205,"Health Prof/Related Sci, Oth"
+206,Business
+207,Accounting
+208,Admin & Secretarial Sci
+209,Business Communications
+210,Business/Managerial Econ
+211,Enterprise Mgmt & Operation
+212,Human Resources Mgmt
+213,International Business
+214,Business Info/Data Proc Serv
+215,Business Quant Meth/Mgmt Sci
+216,Marketing Mgmt & Research
+217,Real Estate
+218,"Business Mgmt/Admin Serv, Oth"
+219,High School/Secondary Diploma
+220,High School/Secondary Certif
+221,Interior Architecture
+222,Bilingual/Bicultural Educ
+223,"Aerosp, Aeronaut, Astro Eng"
+224,Arch Engineering Tech
+225,Clothing/Apparel & Textile St
+226,Biological & Physical Sciences
+227,Health-Related Knowledge/Skill
+228,Public Administration
+229,Urban Affairs/Studies
+230,Dental Clin Sci/Grad Dentistry
+231,Rehabilitation/Therapeut Serv
+232,Hospitality Services Mgmt
+233,Clinical Psychology
+234,Experimental Psychology
+235,Fire Protection
+236,"Public Admin & Services, Oth"
+237,Political Science & Government
+238,Plumbers & Pipefitters
+239,Misc Mechanics & Repairers
+240,Precision Metal Workers
+241,"Transprt & Water Mov Work, Oth"
+242,Film/Video & Photographic Arts
+243,"Dentistry (DDS, DMD)"
+244,Health/Med Lab Technol/Technic
+245,Ophthalmic/Optometric Services
+246,Misc Health Professions
+247,Business Admin & Mgmt
+248,Financial Mgmt & Services
+249,Taxation
+250,Agricultural Mechanization
+251,Nat Resources Mgmt & Prot Serv
+252,Architecture
+253,"Architect & Related Prog, Oth"
+254,"Communications, Gen"
+255,Communications Technologies
+256,"Computer & Info Sciences, Oth"
+257,"Education, Gen"
+258,International & Compar Educ
+259,"Teacher Ed, Specific Programs"
+260,Bioengineering/Biomed Eng
+261,Engineering Physics
+262,Nuclear Engineering
+263,Electromech Instr/Maint Tech
+264,Construction/Building Tech
+265,Greek Lang & Lit (Modern)
+266,Home Econ Business Services
+267,"Home Economics, Oth"
+268,English Composition
+269,"English Lang & Lit/Lett, Oth"
+270,Botany
+271,"Biological Sci/Life Sci, Oth"
+272,Military Technologies
+273,"Historic Pres, Cons, Arch Hist"
+274,"Parks, Rec, Leisure Fac Mgmt"
+275,Personal Awareness/Self-Improv
+276,Religious Education
+277,"Physical Sciences, Gen"
+278,"Physical Sciences, Oth"
+279,"Agriculture, Gen"
+280,"Agricultural Public Serv, Gen"
+281,Animal Sciences
+282,Food Science & Technology
+283,Plant Sciences
+284,Soil Sciences
+285,Architect Hist & Criticism
+286,Architect Tech/Technician
+287,"Orgnztnl Comm, PR, & Advert"
+288,Publishing
+289,Audiovisl Comm Tech/Technician
+290,Graphic Communications
+291,"Communic Tech/Technician, Oth"
+292,Data Entry/Microcomputer App
+293,Computer Software & Media App
+294,Computer Sys Networkg & Telecm
+295,Computer/Info Tech Admin & Mgt
+296,Construction Engineering
+297,Forest Engineering
+298,Industrial Engineering
+299,Manufacturing Engineering
+300,Operations Research
+301,Surveying Engineering
+302,Geological/Geophys Engineering
+303,"Engineering Technology, Gen"
+304,Computer Engnrg Tech/Technicn
+305,Draftg/Dsgn Engnrg Tech/Tchncn
+306,Nuclear Engnrg Tech/Technician
+307,Engineering-Related Fields
+308,"African Lang, Lit & Linguist"
+309,Amer Ind/Native Am Lang/Lit
+310,Celtic Lang & Lit
+311,"SE Asian, Aust/Pacif Lang/Lit"
+312,Turkic/Central Asian Lang/Lit
+313,American Sign Lang
+314,"Work & Family Studies, Gen"
+315,Non-profess Legal Studies (UG)
+316,Legal Rsrch/Adv Prof Studies
+317,Legal Support Serv
+318,"Legal Professions/Studies, Oth"
+319,Genetics
+320,"Physiology/Pathology, Rltd Sci"
+321,Pharmacology & Toxicology
+322,Biomath & Bioinformatics
+323,Biotechnology
+324,"Ecology, Evolutn, Popultn Biol"
+325,Accounting & Computer Science
+326,Behavioral Sciences
+327,Natural Sciences
+328,Nutrition Sciences
+329,International/Global Studies
+330,Holocaust & Related Studies
+331,Classical & Ancient Studies
+332,Inter/Multicult & Divers Study
+333,Neuroscience
+334,Cognitive Science
+335,Comparative Psychology
+336,Personality Psychology
+337,Educational Psychology
+338,Psychometrics/Quant Psychology
+339,Clinical Child Psychology
+340,Environmental Psychology
+341,Geropsychology
+342,Health Psychology
+343,Psychopharmacology
+344,Family Psychology
+345,Forensic Psychology
+346,"Human Services, Gen"
+347,"Construction Trades, Gen"
+348,"Mechanics & Repairers, Gen"
+349,"Precision Productn Trades, Gen"
+350,Boilermaking/Boilermaker
+351,"Hlth Serv/Allied Hlth/Sci, Gen"
+352,Dietetics/Clinical Nutr Serv
+353,Bioethics/Medical Ethics
+354,Alterntv/Complemntry Medicine
+355,Altern/Cmplemntry Medicl Supp
+356,Somatic Bodywork/Reltd Serv
+357,"Movement, Mind-Body Therapies"
+358,Energy & Biol-Based Therapies
+359,Insurance
+360,"Gen Sales, Merch, Mrktg Oper"
+361,"Speclzd Sales, Merch, Mktg Op"
+362,Construction Management
+363,History
+364,"Langue & Lit Francaise, Gen"
+365,Litterature Comparative
+366,Composition Francaise
+367,Ecriture Creative en Franc
+368,Lit Canadienne Francaise
+369,Lit Francaise (France)
+370,Discours et Rhetorique
+371,Redaction Technique
+372,"Lang et Lit Francaise, Autres"
+373,Dental/Oral Surgery Specialty
+374,Medical Residency Programs
+375,Veterinary Residency Programs
+376,Slavic/Balt/Albanian Lang/Lit
+377,"Germanic Lang & Lit, Gen"
+378,"South Asian Lang & Lit, Gen"
+379,Iranian/Persian Lang & Lit
+380,"Romance Lang & Lit, Gen"
+381,Middle/Near Eastern Lang & Lit
+382,Classics/Classical Lang & Lit
+383,Agriculture/Agri Operations
+384,"Cooking & Culinary Arts, Gen"
+385,"East Asian Lang & Lit, Gen"

@@ -1,0 +1,101 @@
+id,title
+0,sample bug
+1,fmt uses set-cdr!
+2,support for v3 and v4
+3,stream-split-at
+4,stream-partition unusable
+5,API requests
+6,make-response/xhtml/full
+7,Unit test fails because of problem with reverse!
+8,eof error
+9,audit duplicate-variable errors/non-errors
+10,make-filter-input-port hopelessly broken
+11,possible semantic issues with exceptions
+12,Incompatible with mzscheme 4+
+13,setup fails on hash store; hash-store.plt/1/4/hash-store.ss:9:3: expand: unbound identifier in module in: base64-filename-safe
+14,Doc warnings
+15,binding arrows in DrScheme broken
+16,errors on initial compile
+17,Use of set-cdr!
+18,stack trace is often mostly unusable
+19,Use of {{{set-cdr!}}}
+20,Doesn't work in Current Version of PLT
+21,Doesn't work in Current Version of PLT
+22,Doesn't work in Current Version of PLT
+23,support unicode
+24,Planet breakage? Some surprising dependencies from xmlrpc.plt
+25,Cannot load package in 4.1.4
+26,_ pattern succeeds on end of input?
+27,Pressing end causes error
+28,Pressing unicode in command mode causes insertion
+29,srfi.plt does not install cleanly due to error in info.ss
+30,First line blank -> broken indenting
+31,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+32,dracula rename export example from reference docs does not work
+33,"modular acl2 unresolved import problem, useless error message"
+34,Dracula errors on (just) + or - at REPL
+35,Warnings and a crash while installing on Windows
+36,apparent Scribble error during package installation
+37,Parsing of missing closing HTML tags duplicates HTML elements
+38,Sudoku example doesn't work
+39,"error: ""car: expects argument of type ; given ()"" on specific input"
+40,Fails to compile with 4.2.2
+41,"Depends on Schemeunit 1:2, which doesn't compile"
+42,scribble warnings
+43,segments->painter return is failing on being passed to paint
+44,error on require
+45,warnings from documentation
+46,slide/stage
+47,add name? to staged
+48,scribble text renderer dies with a type error
+49,Digest contexts are leaked.
+50,wrong compile-omit-paths entry in info.ss
+51,permissive?
+52,incomplete folders
+53,build-path: absolute path
+54,Unable to make 4.2.5 with shared libraries enabled.
+55,incorrect `declare-exporting'
+56,Fails to compile
+57,png_set_gray_1_2_4_to_8 not found while compiling
+58,Cannot typecheck (equal? (list) (list))
+59,define/memo doesn't save time for funs of arity > 1
+60,(rsound-play ding) does not play in Debian sid
+61,"claims to install successfully, but doesn't seem to actually work"
+62,Looks like this language extension is broken on latest version of Racket and PLT-Scheme
+63,Error with Racket 5.1.2 and bzlib
+64,socket.plt fails to install
+65,Upgrade bindings to the current Cairo release
+66,Hello world doesn't compile
+67,writing comment inserts extra spaces
+68,Running example code produces no sound
+69,Unbound identifier
+70,compilation error on racket v5.1.3
+71,compilation error
+72,Negative numbers unsupported
+73,Growing memory consumption when using ryanc/db.plt
+74,bug in firmata.scrbl
+75,static-page won't load for 5.2.1
+76,Subquotes break the csv-reader
+77,install complains
+78,install complains
+79,JSON parser incorrectly parses '[' with newline and then ']'
+80,stty on mac doesn't support -F
+81,Doc bug in csv->list applied to a string
+82,can't bind commands to capital letters
+83,i need rosetta
+84,Unable to install
+85,Problem finding files - package setup/internal links
+86,Font lock doesn't work for subsubsubsection
+87,Doesnt' run
+88,Fixing the test files
+89,Problem installing Whalesong
+90,"Bad typecheck in map, foldl, foldr"
+91,transform-painter fails on non-rectangle configuration
+92,charterm event not ready when bytes are available
+93,charterm event not ready when bytes are available
+94,charterm event not ready when bytes are available
+95,Channel mask should be 0xf instead of 0x7
+96,memoization is not thread-safe
+97,make sets sequences
+98,optional and keyword args
+99,Function.prototype.toString should produce source

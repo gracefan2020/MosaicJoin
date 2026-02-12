@@ -1,0 +1,101 @@
+id,title
+0,No CSRF protection for auth system logout view
+1,Small typo in django-admin doc
+2,Admin refuses multiple NULL values for fields marked unique
+3,'utf8' codec can't decode byte 0x97 in position 11: unexpected code byte
+4,Installation docs should clarify that Django doesn't run under Python 3.0.
+5,Django admin: prepopulated_fields does not update on javascript (calendar) change
+6,PasswordInput widget's max_length wrong output.
+7,Make user profile a property
+8,compiled settings.py file can't be imported from Jython when using manage.py.
+9,URLField's validation does not support in-URL basic AUTH
+10,SPAM
+11,GeoDjango Distance Test Failures on Oracle 11g
+12,One-to-one relation causes inappropriate filtering of other relations
+13,Aggregate classes unnescarily use instance attributes.
+14,.count() should use aggregates internally
+15,django.db.models.sql.query.BaseQuery.get_count() works wrong with GROUP BY
+16,spam
+17,SPAM
+18,AuthenticationForm not showing errors.
+19,sqlflush fails for ManyToMany with inherited intermediary
+20,reverse() does not add SCRIPT_NAME to the returned URL if called from middleware modules
+21,GeometryField crashes contrib.gis.admin
+22,GeometryField crashes contrib.gis.admin
+23,spam
+24,spam
+25,SPAM
+26,SPAM
+27,spam
+28,spam
+29,Python 2.6's sqlite refuses 8-bit SafeStrings
+30,SPAM
+31,ModelForm with only FileField or ImageField can not pass validation
+32,SPAM
+33,SPAM
+34,spam
+35,spam
+36,SPAM
+37,spam
+38,First app tutorial Part 3 disables admin
+39,Files missing after changing from poll to object
+40,timesince/timeuntil output should include seconds
+41,spam
+42,spam
+43,spam
+44,spam
+45,tRPctCLbOUzoVfpbE
+46,fZklpOBRmKjX
+47,create_test_db doesn't respect caching parameters for db backend
+48,Aggregation classes can use class attributes for their type as well
+49,spam
+50,spam
+51,spam
+52,Determine UPDATE or INSERT without running a SELECT statement
+53,spam
+54,spam
+55,spam
+56,Aggregate regression tests fail against SQLite 3.5.9
+57,spam
+58,QuerySet.update() can cause data corruption if the QuerySet filters only on fields in other tables
+59,spam
+60,spam
+61,DateField and DateTimeField documentation incomplete
+62,A more flexible help_text proposal
+63,SetFromUserInput is not available to SpatialReference
+64,spam
+65,Add POSTGIS_TEMPLATE setting for GIS Test Runner
+66,Tutorial part 3: decoupling the urlconfs
+67,Non-standard SQL generated in column definition for nullable columns in create table DDL
+68,Error message regarding mysql version is never used in the code added by r9650
+69,403 Permission denied on trying to add user
+70,Test client login requires sessions framework to be installed
+71,Test client login return values should be improved
+72,"Exclude option in ModelAdmin requires a list, not a tuple"
+73,When querying aross a many to many field if the target is the primary key only join to the intermediary table
+74,MyModel.object.values('mygeometryfield') doesn't work
+75,error in example for sessions page
+76,urls.py instructions incomplete
+77,Incorrect max_length specification
+78,More Pythonic mutations of geometry objects
+79,Database backend leaves idling connections when used in multiple threads
+80,spam
+81,Spaces in assignment of values of named parameters for 'url' template function raise 'TypeError'
+82,"Auth login should pass current_site to template, not current_site.name"
+83,ModelForm.save() method must have alters_data=True
+84,post_batch_update Signal on QuerySets
+85,File-like interface for HttpRequest
+86,Testclient user have not enough permissions to create another users.
+87,Updated Japanese(ja) translation for trunk and 1.0.X branch(r9660).
+88,EmailField bug
+89,Add entity2unicode in `django.utils.html`
+90,Support KyngChaos OSX Frameworks
+91,Give the FileField 'upload_to' callable access to an UploadedFile's contents.
+92,Error message and mistake in documentation
+93,Misleading model formsets docs
+94,Typo on http://docs.djangoproject.com/en/dev/topics/forms/modelforms/
+95,Problem with url tag
+96,Documentation page has misspelled word
+97,Model._meta._name_map is missing unless you load an object from the database
+98,Incorrect function name in files.txt documentation
+99,SQLite case-insensitive problem

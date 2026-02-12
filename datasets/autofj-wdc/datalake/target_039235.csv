@@ -1,0 +1,56 @@
+id,title
+0,Square Bracket Operator (element)
+1,Square Bracket Operator (row or col)
+2,Square Bracket Operator (subrange)
+3,Inversion
+4,Transpose
+5,Element powering
+6,Matrix multiplication
+7,Element multiplication (Hadamard product)
+8,Kronecker product
+9,Kronecker exponent
+10,Quadratic product1
+11,Element division
+12,Addition
+13,Subtraction (binary)
+14,Subtraction (unary)
+15,Horizontal adhesion
+16,Vertical adhesion
+17,Determinant
+18,Trace1
+19,Sum
+20,Product
+21,Maximum
+22,Minimum
+23,Absolute value
+24,Cosine
+25,Hyperbolic cosine
+26,Sine
+27,Hyperbolic sine
+28,Tangent
+29,Hyperbolic tangent
+30,Element Exponent
+31,Element Natural Log
+32,Element Square Root
+33,Half-vectorization
+34,Strict half-vectorization
+35,Diagonal to vector
+36,Vector to diagonal
+37,Multivariate normal integration
+38,All cells multivariate number integration
+39,Vectorize by row
+40,Vectorize by column
+41,Real Eigenvectors
+42,Real Eigenvalues
+43,Imaginary Eigenvectors
+44,Imaginary Eigenvalues
+45,Mean
+46,Logical Negation
+47,Logical Greater Than
+48,Logical Less Than
+49,Logical And
+50,Logical Or
+51,Approximate Equals
+52,Select Rows
+53,Select Cols
+54,Select Rows & Cols

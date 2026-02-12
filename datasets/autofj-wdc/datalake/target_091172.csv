@@ -1,0 +1,131 @@
+id,title
+0,Total
+1,Day
+2,Night
+3,Grass
+4,Turf
+5,Indoor
+6,Outdoor
+7,vs. Left
+8,vs. Right
+9,Inning 1-6
+10,Inning 7+
+11,Last seven days
+12,As LHB
+13,As RHB
+14,One-run games
+15,Extra-inning games
+16,Pre-All Star
+17,Post-All Star
+18,"vs P, 1st time in G"
+19,"vs P, 2nd time in G"
+20,"vs P, 3rd time in G"
+21,"vs P, 4th+ time in G"
+22,SPLIT
+23,April
+24,May
+25,June
+26,July
+27,August
+28,September
+29,SPLIT
+30,vs. Ana
+31,vs. Bal
+32,vs. Bos
+33,vs. CWS
+34,vs. Cle
+35,vs. Det
+36,vs. Min
+37,vs. NYY
+38,vs. Oak
+39,vs. Sea
+40,vs. TB
+41,vs. Tex
+42,vs. Tor
+43,vs. Atl
+44,vs. ChC
+45,vs. Cin
+46,vs. Fla
+47,vs. Hou
+48,vs. Mil
+49,vs. Phi
+50,vs. StL
+51,vs. SF
+52,SPLIT
+53,Home
+54,Away
+55,Arlington
+56,Camden Yards
+57,Comerica Park
+58,Edison Field
+59,Fenway Park
+60,Miller Park
+61,Minute Maid Park
+62,Network Associates
+63,Pro Player Stadium
+64,SAFECO Field
+65,SkyDome
+66,Tropicana Field
+67,U.S. Cellular Field
+68,Yankee Stadium
+69,SPLIT
+70,0-0 count
+71,0-1 Count
+72,0-2 Count
+73,1-0 Count
+74,1-1 Count
+75,1-2 Count
+76,2-0 Count
+77,2-1 Count
+78,2-2 Count
+79,3-0 Count
+80,3-1 Count
+81,3-2 Count
+82,After (0-1)
+83,After (0-2)
+84,After (1-0)
+85,After (1-1)
+86,After (1-2)
+87,After (2-0)
+88,After (2-1)
+89,After (2-2)
+90,After (3-0)
+91,After (3-1)
+92,After (3-2)
+93,SPLIT
+94,None on
+95,Runners on
+96,Scoring Posn
+97,Bases Loaded
+98,None on/out
+99,None on: 1/2 Out
+100,"Men on, 2 outs"
+101,"Man on 3rd, < 2 outs"
+102,ScPos/2 Out
+103,Runner on 2nd
+104,Runner on 3rd
+105,"Runners 1st, 2nd"
+106,"Runners 1st, 3rd"
+107,"Runners 2nd, 3rd"
+108,SB Opp
+109,SB Atd
+110,GDP Opp
+111,SPLIT
+112,Batting #1
+113,Batting #2
+114,Batting #3
+115,Batting #4
+116,Batting #5
+117,Batting #6
+118,Batting #7
+119,Batting #8
+120,Batting #9
+121,Leading Off Inning
+122,SPLIT
+123,As lf
+124,As cf
+125,As rf
+126,As dh (not ph)
+127,As ph (not dh)
+128,As ph for dh
+129,As pr

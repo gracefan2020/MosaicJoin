@@ -1,0 +1,138 @@
+id,title
+0,Total
+1,Postseason
+2,Day
+3,Night
+4,Grass
+5,Turf
+6,Indoor
+7,Outdoor
+8,vs. Left
+9,vs. Right
+10,Inning 1-6
+11,Inning 7+
+12,Last seven days
+13,As LHB
+14,As RHB
+15,One-run games
+16,Extra-inning games
+17,Pre-All Star
+18,Post-All Star
+19,"vs P, 1st time in G"
+20,"vs P, 2nd time in G"
+21,"vs P, 3rd time in G"
+22,SPLIT
+23,April
+24,May
+25,June
+26,July
+27,August
+28,September
+29,October
+30,SPLIT
+31,vs. Bal
+32,vs. Bos
+33,vs. CWS
+34,vs. Cle
+35,vs. Det
+36,vs. KC
+37,vs. NYY
+38,vs. Oak
+39,vs. Sea
+40,vs. TB
+41,vs. Tex
+42,vs. Tor
+43,vs. Ari
+44,vs. Atl
+45,vs. ChC
+46,vs. Cin
+47,vs. Col
+48,vs. Fla
+49,vs. Hou
+50,vs. LA
+51,vs. Mil
+52,vs. Mon
+53,vs. NYM
+54,vs. Phi
+55,vs. Pit
+56,vs. StL
+57,vs. SD
+58,vs. SF
+59,SPLIT
+60,Home
+61,Away
+62,Bank One Ballpark
+63,Busch Stadium
+64,Coors Field
+65,Dodger Stadium
+66,Great American
+67,Miller Park
+68,Minute Maid Park
+69,Olympic Stadium
+70,Pacific Bell Park
+71,PNC Park
+72,Pro Player Stadium
+73,Qualcomm Stadium
+74,Shea Stadium
+75,SkyDome
+76,Three Rivers
+77,Turner Field
+78,Veterans Stadium
+79,Wrigley Field
+80,SPLIT
+81,0-0 count
+82,0-1 Count
+83,0-2 Count
+84,1-0 Count
+85,1-1 Count
+86,1-2 Count
+87,2-0 Count
+88,2-1 Count
+89,2-2 Count
+90,3-0 Count
+91,3-1 Count
+92,3-2 Count
+93,After (0-1)
+94,After (0-2)
+95,After (1-0)
+96,After (1-1)
+97,After (1-2)
+98,After (2-0)
+99,After (2-1)
+100,After (2-2)
+101,After (3-0)
+102,After (3-1)
+103,After (3-2)
+104,SPLIT
+105,None on
+106,Runners on
+107,Scoring Posn
+108,Bases Loaded
+109,None on/out
+110,None on: 1/2 Out
+111,"Men on, 2 outs"
+112,"Man on 3rd, < 2 outs"
+113,ScPos/2 Out
+114,Runner on 2nd
+115,Runner on 3rd
+116,"Runners 1st, 2nd"
+117,"Runners 1st, 3rd"
+118,"Runners 2nd, 3rd"
+119,SB Opp
+120,SB Atd
+121,GDP Opp
+122,SPLIT
+123,Batting #1
+124,Batting #2
+125,Batting #3
+126,Batting #4
+127,Batting #5
+128,Batting #6
+129,Batting #7
+130,Batting #8
+131,Batting #9
+132,Leading Off Inning
+133,SPLIT
+134,As p
+135,As ph (not dh)
+136,As pr

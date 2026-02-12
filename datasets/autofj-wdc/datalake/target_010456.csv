@@ -1,0 +1,64 @@
+id,title
+0,Morphosyntax
+1,Noun
+2,noun type
+3,noun gender
+4,noun number
+5,noun case
+6,Verb
+7,verb person
+8,verb gender
+9,verb number
+10,verb finiteness
+11,verb form/mood
+12,verb tense
+13,verb voice
+14,verb status
+15,Adjective
+16,adjective degree
+17,adjective gender
+18,adjective number
+19,adjective case
+20,Pronoun/Det
+21,pronoun/det person
+22,pronoun/det gender
+23,pronoun/det number
+24,pronoun/det possessive
+25,pronoun/det case
+26,pronoun/det category
+27,pronoun-type
+28,determiner-type
+29,Article
+30,article type
+31,article gender
+32,article number
+33,article case
+34,Adverb
+35,adverb degree
+36,Adposition
+37,adposition type
+38,Conjunction
+39,conjunction type
+40,Numeral
+41,numeral type
+42,numeral gender
+43,numeral number
+44,numeral case
+45,numeral function
+46,Interjection
+47,Unique
+48,Residual
+49,residual type
+50,residual number
+51,residual gender
+52,Punctuation
+53,punctuation type
+54,Syntax
+55,Bracketing
+56,Sentence
+57,Clause
+58,Noun phrase
+59,Verb phrase
+60,Adjective phrase
+61,Adverbial phrase
+62,Prep phrase

@@ -1,0 +1,156 @@
+id,title
+0,Season Total
+1,Home
+2,Away
+3,vs. AFC
+4,vs. NFC
+5,vs. Own Division
+6,Grass
+7,Turf
+8,Outdoors
+9,Indoors
+10,Day Games
+11,Night Games
+12,Split
+13,September
+14,October
+15,November
+16,December
+17,On Sunday
+18,On Monday
+19,Games 1-8
+20,Games 9-16
+21,Outdoor Temp 21-40 F
+22,Outdoor Temp 41-60 F
+23,Outdoor Temp 61-80 F
+24,Outdoor Temp < 40 F
+25,Outdoor Temp 81+ F
+26,In High Wind
+27,Clear Weather
+28,As Starter
+29,As Substitute
+30,In Wins/Ties
+31,In Losses
+32,1st Half
+33,2nd Half
+34,1st Qtr
+35,2nd Qtr
+36,3rd Qtr
+37,4th Qtr
+38,Last 2 Min. Half
+39,"Score Diff=(7+ pts,2 min; 20+ pts, Q4; 40+ pts)"
+40,Score Diff > 7 points
+41,Final Margin 7 pts or less
+42,"4th Qtr, +/-3 pts"
+43,"4th Qtr, +/-7 Pts"
+44,1st Down
+45,2nd Down
+46,3rd Down
+47,4th Down
+48,Own 1-19
+49,Own 20-39
+50,Between 40s
+51,Opp 39-20
+52,Opp 19-Goal
+53,Opp 9-Goal
+54,"First down, 10 yds to go"
+55,Plays gaining 20+ yds
+56,vs. BUF
+57,vs. DAL
+58,vs. GB
+59,vs. MIA
+60,vs. NE
+61,vs. NO
+62,vs. PHI
+63,vs. ARI
+64,vs. SF
+65,vs. SEA
+66,vs. STL
+67,vs. WAS
+68,Louisiana Superdome
+69,3Com Park
+70,FedEx Field
+71,Split
+72,vs AFC East teams
+73,vs NFC East teams
+74,vs NFC West teams
+75,Split
+76,Line 2 yds or less yards from TD
+77,1st & Goal
+78,2nd & Goal
+79,3rd & Goal
+80,"1st Down, 0-2 To Go"
+81,"1st Down, 8-10 To Go"
+82,"1st Down, < 6 To Go"
+83,"1st Down, 6+ To Go"
+84,"2nd Down, 3-7 To Go"
+85,"2nd Down, 8-10 To Go"
+86,"2nd Down, 11+ To Go"
+87,"2nd Down, < 6 To Go"
+88,"2nd Down, 6+ To Go"
+89,"3rd Down, 0-2 To Go"
+90,"3rd Down, 3-7 To Go"
+91,"3rd Down, 8-10 To Go"
+92,"3rd Down, 11+ To Go"
+93,"3rd Down, < 6 To Go"
+94,"3rd Down, 6+ To Go"
+95,"4th Down, 0-2 To Go"
+96,"4th Down, < 6 To Go"
+97,Split
+98,Final Margin 0-7
+99,Final Margin 8-14
+100,Final Margin 15+
+101,Winning 8-14
+102,Winning 1-7
+103,When Tied
+104,Losing 1-7
+105,Losing 8-14
+106,Losing 15-21
+107,Losing 22+
+108,When Winning
+109,When Trailing
+110,In Winning Games Started
+111,In Losing Games Started
+112,Split
+113,0 Tight Ends
+114,1 Tight End
+115,2 Tight Ends
+116,3+ Tight Ends
+117,No Offensive Motion
+118,Offensive Motion
+119,< 4 on Def. line
+120,4 on Def. Line
+121,5 on Def. Line
+122,6 on Def. Line
+123,> 6 on Def. Line
+124,Shotgun
+125,Pro Form
+126,I-Formation
+127,Single Back
+128,0-1 Wide Receivers
+129,2 Wide Receivers
+130,3 Wide Receivers
+131,4+ Wide Receivers
+132,Right Side
+133,Left Side
+134,Middle
+135,Left Sideline
+136,Right Sideline
+137,Pass Thrown Behind Line of Scrimmage
+138,Pass Thrown 1-10 yds
+139,Pass Thrown 11-20 yds
+140,Pass Thrown 21-30 yds
+141,Pass Thrown 31-40 yds
+142,Blitz
+143,QB Under Pressure
+144,QB Knocked Down
+145,Pass Dropped
+146,QB Hit by Defender
+147,Receiver Hit by Defender
+148,Batted Down at Scrimmage
+149,Thrown Away Intentionally
+150,Pass Underthrown
+151,Pass Thrown Wide
+152,Pass Defensed
+153,Pass Caught-OOB
+154,Receiver Fell Down

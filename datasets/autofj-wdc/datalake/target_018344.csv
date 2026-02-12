@@ -1,0 +1,277 @@
+id,title
+0,AC Refrigerant
+1,AC Refrigent capacity
+2,Brake fluid
+3,Engine oil viscosity
+4,Engine oil capacity (w/ filter change)
+5,Engine coolant
+6,Engine coolant capacity (w/ heater core)
+7,Power steering fluid
+8,Trans auto & manual fluid
+9,Trans auto capacity dry fill
+10,Trans auto capacity drain & refill
+11,Trans manual capacity
+12,Trans manual clutch fluid
+13,Cooling system
+14,Radiator cap opening pressure
+15,Recovery tank filler cap pressure
+16,Pressure test
+17,Thermostat
+18,Radiator fan activation
+19,Radiator fan deactivation
+20,Temperature sensor
+21,Fuel system
+22,Fuel filter
+23,"Fuel pressure idle, regulator hose connected"
+24,Fuel system hold pressure
+25,Fuel injector resistance
+26,Idle control valve resistance
+27,Idle-increase solenoid valve resistance
+28,Ignition & electrical
+29,Firing order
+30,Cylinder & coil terminal order
+31,Spark plugs
+32,Gap
+33,Battery rating
+34,Ignition timing
+35,Ignition coil output min
+36,Ignition coil primary resistance
+37,Alternator output
+38,Alternator brush length min
+39,Alternator reg voltage at 2000 rpm
+40,Crank position sensor resistance
+41,Cam position sensor resistance
+42,Intake air temp sensor ±15%
+43,Throttle position sensor
+44,Power steering pressure switch
+45,Charcoal canister purge solenoid valve
+46,Pulse-air solenoid valve
+47,Manual trans MTX-75
+48,Gear ratio 1st
+49,Gear ratio 2nd
+50,Gear ratio 3rd
+51,Gear ratio 4th
+52,Gear ratio 5th
+53,Gear ratio reverse
+54,Gear ratio final drive
+55,Pressure plate runout max
+56,Disc lining thickness min (to rivet heads)
+57,Flywheel runout max
+58,Engine information
+59,Displacement
+60,Oil pressure (hot)
+61,Direction of crankshaft rotation
+62,Brakes
+63,Disc brake pad thickness (min)
+64,Drum brake shoe thickness - bonded (min)
+65,Drum brake shoe thickness - riveted (min)
+66,Front
+67,Front disc thickness
+68,Front disc run-out max
+69,Front disc thickness variation max
+70,Frong hub face runout max
+71,Rear drums
+72,Rear drum diameter
+73,Rear disc
+74,Rear disc thickness
+75,Rear disc run-out max
+76,Rear disc thickness variation max
+77,Rear hub run-out max
+78,Torque specifications
+79,Tensioner drivebelt mounting bolt
+80,Spark plugs
+81,Engine oil drain plug
+82,Wheel lug nuts
+83,Valve cover bolts
+84,Timing belt idler pulley bolts
+85,Camshaft cap bolts
+86,Cam rear seal retinaer
+87,Cylinder head bolts
+88,Timing belt cover fasteners
+89,Cover studs to cylinder head or block
+90,Timing belt tensioner bolt
+91,Timing belt tensioner back plate locating peg
+92,Timing belt tensioner spring retaining pin
+93,Timing belt sprocket to camshaft bolts
+94,Drivebelt idler pulley
+95,Intake manifold nuts & bolts
+96,Intake manifold studs
+97,Alternator output terminal
+98,Alternator pulley
+99,Alternator
+100,Alternator bracket
+101,Starter through-bolts
+102,Starter motor mount bracket
+103,Starter motor mount
+104,Starter solenoid
+105,Cylinder head support
+106,Front engine lifting eye bolt
+107,Exhaust manifold heat shield
+108,Exhaust manifold nuts
+109,Crank pulley
+110,Oil pump
+111,Oil pickup
+112,Oil filter adapter
+113,Oil pressure sensor adapter
+114,Oil pan baffle
+115,Oil pan
+116,Oil pan to trans
+117,Rear main oil seal retainer
+118,Coolant tube to oil pan
+119,Flywheel/driveplate
+120,Trans manual to engine
+121,Trans manual linkage support rod
+122,Trans manual linkage clamp bolt
+123,Trans manual shift assembly rear mounting
+124,Trans manual linkage to selector shaft
+125,Clutch slave cylinder bleed screw
+126,Driveaxle support bearing bracket
+127,Driveaxle hub retaining nut
+128,Release cylinder bolts
+129,Rlease cylinder hydraulic fitting
+130,Clutch master cylinder nuts
+131,Pressure plate
+132,Trans auto selector cable bracket
+133,Trans auto torque converter
+134,Trans auto to engine
+135,Trans auto oil cooler lines
+136,Trans auto selector lever
+137,Trans auto selector lever sensor
+138,Trans auto speed sensor
+139,Trans auto drain plug
+140,Trans auto cooler lines
+141,Engine/trans mount front
+142,Engine/trans mount rear man
+143,Engine/trans mount rear auto
+144,Engine/trans mount left-hand
+145,Engine/trans mount right-hand
+146,Engine/trans mount centerbolts
+147,Timing chain guide & tensioner
+148,Cap bolts & studs main bearing
+149,Cap bolts connecting rods
+150,Piston cooling oil-jet blanking plug
+151,Crank case lower to block
+152,Radiator lower support
+153,Thermostat housing
+154,Coolant temperature gauge sensor
+155,Coolant temperature sensor
+156,Water pump
+157,Air conditioning condenser
+158,Air conditioning compressor
+159,Radiator fan shroud
+160,Water crossover retainers
+161,Plenum chamber
+162,Throttle body
+163,Idle control valve
+164,Fuel injector retainer
+165,Fuel pressure regulator
+166,Fuel rail
+167,Fuel rail couplings
+168,Exhaust all
+169,Crank position sensor
+170,Cam position sensor
+171,Intake air temp sensor
+172,Oxygen sensor
+173,EGR valve mounting
+174,EGR valve to exhaust manifold
+175,Filter housing
+176,Exhaust manifold piping sleve nuts
+177,Throttle position sensor
+178,Caliper bracket
+179,Front caliper guide bolts
+180,Rear caliper guide bolts
+181,Rear drum brake backing plate
+182,Rear disc brake splash shield
+183,Vacuum booster unit
+184,Master cylinder
+185,ABS hydraulic unit
+186,Wheel cylinder bolts
+187,Front subframe
+188,Front lower arm ball joint to lower arm
+189,Front lower arm ball joint to steering knuckle
+190,Front lower arm to subframe
+191,Front sway/stabilizer bar
+192,Front sway/stabilizer bar link
+193,Front suspesnion strut to knuckle
+194,Front suspension strut upper mount nuts
+195,Front suspension strut thrust bearing nut
+196,Rear crossmember
+197,Rear front lower arm to knuckle & crossmember
+198,Rear lower arm to knucklke
+199,Rear lower arm to crossmember
+200,Rear sway/stabilizer bar
+201,Rear sway/stabilizer bar link
+202,Rear suspension strut to knuckle
+203,Rear hub nut
+204,Rear tie bar & tie bar bracket
+205,Rear strut upper mount
+206,Rear strut upper nut
+207,Steering rack mounts
+208,Tie-rod end to knuckle
+209,Tie-rod end to locknut
+210,Steering wheel
+211,Flex coupling
+212,Power steering pipe unions
+213,Steering column to coupling
+214,Steering column mounts
+215,Steering pump mount
+216,Steering pump pressure line
+217,Hood & trunk hinges
+218,Trunk-lid
+219,Front seat & seat belts
+220,Bumper
+221,Rebuild info
+222,Cam bearing inside diameter
+223,Cam bearing journal diameter
+224,Cam bearing clearance
+225,Cam endplay
+226,Cam lifter diameter
+227,Cam lifter clearance
+228,Cam lifter collapsed gap
+229,Cam rocker arm ratio
+230,Cam lobe lift
+231,Cylinder head warpage limit
+232,Cylinder head combustion chamber vol
+233,Valve lift
+234,Valve clearance at room temp
+235,Valve head diam
+236,Valve stem diam
+237,Valve stem clearance
+238,Valve seat max face runout
+239,Valve spring free length
+240,Valve spring installed height
+241,Valve spring pressure opened
+242,Valve spring pressure closed
+243,Valve face angle
+244,Valve seat angle
+245,Valve seat width
+246,Valve seat max runout
+247,Cylinder block bore diam
+248,Cylinder block max out-of-round
+249,Cylinder block max out-of-taper
+250,Piston diameter
+251,Piston to bore clearance
+252,Piston ring 1 end gap
+253,Piston ring 2 end gap
+254,Piston ring oil end gap
+255,Piston ring 1 side clearance
+256,Piston ring 2 side clearance
+257,Piston ring oil side clearance
+258,Piston pin diam
+259,Piston pin bore diam
+260,Piston pin clerance
+261,Crank max out-of-round
+262,Crank max taper
+263,Crank main bearing oil clearance
+264,Crank main bearing undersizes
+265,Crank main bearing journal diam
+266,Crank endplay
+267,Connecting rod journal diam
+268,Connecting rod bore diameter
+269,Connecting rod max out-of-round
+270,Connecting rod max out-of-taper
+271,Connecting rod bearing oil clearance
+272,Connecting rod bearing undersizes
+273,Connecting rod length center to center
+274,Connecting rod to crank side clearance
+275,Connecting rod to piston side clearance

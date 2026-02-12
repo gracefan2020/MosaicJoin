@@ -1,0 +1,141 @@
+id,title
+0,"Improve the ""Caching with Rails"" guide's introduction [c..."
+1,Merge pull request #21054 from yui-knk/fix/doc_field_err...
+2,Merge pull request #20909 from yui-knk/fix/test-commnad
+3,Merge pull request #20905 from imtayadeway/tw/fix-db-poo...
+4,Merge pull request #20842 from TheBlasfem/removed_usage_...
+5,Merge pull request #20843 from zamith/activemodel-remove...
+6,"[ci skip] Don't use TrueClass, FalseClass in docs"
+7,Merge pull request #20726 from yui-knk/fix/doc_controller
+8,Merge pull request #20664 from vngrs/remove_mistaken_end...
+9,Merge pull request #20375 from yoongkang/docfix
+10,Merge pull request #20323 from jakegavin/initialization-...
+11,Merge pull request #20297 from gouravtiwari/patch-9
+12,Merge pull request #20270 from imtayadeway/tw/associatio...
+13,Merge pull request #20278 from dleve123/cleanup-contribu...
+14,[ci skip] Fix typo you/your
+15,Merge pull request #20146 from karanarora/Doc-fixes
+16,[ci skip] Don’t encourage `sudo gem install`
+17,[ci skip] Remove comments about Rails 3.1
+18,"[ci skip] Fix comment, since Rails 3.1 is out"
+19,Stop skipping a test that now works on Rubinius
+20,[ci skip] Stop explaining finders for Rails 3
+21,Merge pull request #19888 from imtayadeway/tw/attribute-...
+22,Fix doc: set_callback also accepts an array of if:
+23,Merge pull request #19504 from y-yagi/fix_digest_explain
+24,Merge pull request #19398 from akshay-vishnoi/docs
+25,Merge pull request #19340 from keepcosmos/association-do...
+26,Accept a collection in fresh_when and stale?
+27,"Fix wrong kwarg ""record"" from #18872"
+28,Do not use the same name for two `:belongs_to`
+29,Merge pull request #18480 from karpah/patch-1
+30,Merge pull request #18479 from mechanicles/change-a-to-a...
+31,Remove unused AV fixtures from AP tests
+32,"Remove unused ""deprecated_reload"" method"
+33,Add test for AM::Validation::Callbacks with :on
+34,Fix assertion that was never run
+35,Add test/doc for :if/:except in skip_before_action
+36,Better docs for AM::Lint::Tests
+37,"Fix typo ""you can be disable"""
+38,Better examples for fresh_when and stale?
+39,Remove LoadError#path hack for Ruby 1.9
+40,Remove Psych hack for Ruby 1.9
+41,Remove Thread hack for Ruby 1.9
+42,Remove hack to support BigDecimal in Ruby 1.9
+43,Remove unneeded `require 'as/deprecation'`
+44,Remove deprecated ActionMailer deliver & deliver!
+45,Fix docs for ActiveSupport::Inflector methods
+46,Add config to halt callback chain on return false
+47,Deprecate `false` as the way to halt AM validation callb...
+48,Deprecate `false` as the way to halt AM callbacks
+49,Deprecate `false` as the way to halt AR callbacks
+50,Throw :abort halts default CallbackChains
+51,Deprecate `false` as the way to halt AS callbacks
+52,Loosen test about order of initializers
+53,"Use Active Model, not ActiveModel in plain English"
+54,Add --skip-action-mailer (or -M) to rails generate
+55,Fix doc formatting for `count_by_sql`
+56,Add doc for `:touch` option of AR::Base#save
+57,Require Ruby 2.2 for Rails 5.0
+58,"Fix ""Rendering"" not to link to AV::Rendering"
+59,Better docs for NameError
+60,Remove ActionController::ModelNaming
+61,Better docs for AV::RecordIdentifier
+62,Better tests for AV::RecordIdentifier
+63,Remove unused Sheep fixture from AV
+64,Better docs for AbstractController
+65,Add docs for `Rails.env` and `Rails.env=`
+66,Add docs for `Object.nil!`
+67,Replace guides.ror.org/v4.2.0 with guides.ror.org
+68,Add docs for ActionDispatch::Http::URL methods
+69,Add docs for AS::TestCase::test_order
+70,Add docs for Numeric time-related methods
+71,Replace `#=>` with `# =>` [ci skip]
+72,Add docs for Numeric#*_bytes methods
+73,Add docs for Time#find_zone
+74,Fix docs for AS::Notifications::Event#duration
+75,Add docs for AS::Notifications::Event#duration
+76,Replace AS::TimeWithZone#since with alias to +
+77,Minor typos/fixes to autoloading guide
+78,Minor typos/fixes to autoloading guide
+79,Remove misleading test: around_action return false
+80,Minor typos/fixes to autoloading guide
+81,Fix minor typos in autoloading guide
+82,Add AM test: after/around callback returning false
+83,Add AM test for after_validation returning false
+84,Add test for `:skip_after_callbacks_if_terminated`
+85,"Remove unused ""Developer"" fixtures from tests"
+86,Better doc for AS::DateTime#seconds_since_midnight
+87,Merge branch 'document-time-with-zone-plus-and-minus'
+88,Add docs for AS::TimeWithZone + and -
+89,Fix MessageVerifier's #verified in CHANGELOG
+90,Add documentation to six AS::TimeWithZone methods
+91,"Remove ""rescue"" clause around ""require 'openssl'"""
+92,Add documentation to MessageVerifier
+93,Remove unused AV/test/fixtures/scope
+94,Remove unused AV/test/fixtures/happy_path
+95,Remove one AV fixture (duplicate of an AP fixture)
+96,Remove unused AV/test/fixtures/blog_public
+97,Bump required Ruby version to 2.1.0
+98,Remove a reference to Ruby 1.9 in Guides
+99,Mark comments that should not be in the docs
+100,Move test that depends on ActiveRecord
+101,"Wrap code snippets in +, not backticks, in sdoc"
+102,"Wrap code snippets in +, not backticks, in sdoc"
+103,Add `:enforce_utf8` option to form_for
+104,Document *all* the options accepted by form_for
+105,Remove unnecessary double space
+106,Remove redundant `to_s` in interpolation
+107,Remove redundant `to_s` in interpolation
+108,Remove duplicate 'select' database statement
+109,Replace (slower) block.call with (faster) yield
+110,Replace (slower) block.call with (faster) yield
+111,Add necessary 'require reverse_merge' to HAWI.rb
+112,Fix how file_ and password_field_tag edit options
+113,Remove duplicate stringify_keys in text_field_tag
+114,Remove broken http://tore.darell.no link
+115,"Link to ActiveModel’s README in ""Welcome to Rails"""
+116,"Add ActiveJob to ""Welcome to Rails"" section"
+117,"Remove duplicate error message ""Couldn't find..."""
+118,Remove RUNNING UNIT TESTS from ActionPack
+119,Don’t require already required modules
+120,Remove wrapping in form helpers from doc
+121,Add +capitalize+ option to Inflector.humanize
+122,Add documentation for after_touch [ci skip]
+123,Remove HelperyTestHelper not used in any test
+124,Remove unused AV helper fixtures from e10a2531
+125,Remove unused raw email fixtures
+126,Remove helper fixtures not used in any test
+127,Add release dates to documentation [ci skip]
+128,Update guides/source/getting_started.md
+129,Add release date of Rails 3.2.9 to documentation
+130,Update activesupport/lib/active_support/deprecation/prox...
+131,Document the types of arguments accepted by AR#not
+132,Update #where rdoc to match 6ba0f97 [ci skip]
+133,Replace comments' non-breaking spaces with spaces
+134,Remove references to AR::Observer from docs
+135,"Revert ""rails gem has no lib directory to require"""
+136,Add release date of Rails 3.2.9 to documentation
+137,Remove duplicate 'the' article in commented line
+138,Add release dates to documentation
+139,Add release date of Rails 3.2.0 to documentation

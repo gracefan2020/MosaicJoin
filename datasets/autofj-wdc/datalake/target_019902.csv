@@ -1,0 +1,447 @@
+id,title
+0,Total for All Industries
+1,23814 / Masonry Contractors
+2,"81112 / Automotive Body, Paint, Interior, and Glass Repair"
+3,32311 / Printing
+4,33271 / Machine Shops
+5,23816 / Roofing Contractors
+6,33231 / Plate Work and Fabricated Structural Product Manufacturing
+7,"33281 / Coating, Engraving, Heat Treating, and Allied Activities"
+8,23611 / Residential Building Construction
+9,23622 / Commercial and Institutional Building Construction
+10,33299 / All Other Fabricated Metal Product Manufacturing
+11,32799 / All Other Nonmetallic Mineral Product Manufacturing
+12,72111 / Hotels (except Casino Hotels) and Motels
+13,42393 / Recyclable Material Merchant Wholesalers
+14,81119 / Other Automotive Repair and Maintenance
+15,81111 / Automotive Mechanical and Electrical Repair and Maintenance
+16,62311 / Nursing Care Facilities (Skilled Nursing Facilities)
+17,32619 / Other Plastics Product Manufacturing
+18,"23822 / Plumbing, Heating, and Air-Conditioning Contractors"
+19,33232 / Ornamental and Architectural Metal Products Manufacturing
+20,49311 / General Warehousing and Storage
+21,33711 / Wood Kitchen Cabinet and Countertop Manufacturing
+22,44111 / New Car Dealers
+23,23832 / Painting and Wall Covering Contractors
+24,21311 / Support Activities for Mining
+25,62121 / Offices of Dentists
+26,56173 / Landscaping Services
+27,23899 / All Other Specialty Trade Contractors
+28,32739 / Other Concrete Product Manufacturing
+29,33661 / Ship and Boat Building
+30,32192 / Wood Container and Pallet Manufacturing
+31,44131 / Automotive Parts and Accessories Stores
+32,33351 / Metalworking Machinery Manufacturing
+33,33211 / Forging and Stamping
+34,23831 / Drywall and Insulation Contractors
+35,32199 / All Other Wood Product Manufacturing
+36,32191 / Millwork
+37,72251 / Restaurants and Other Eating Places
+38,23811 / Poured Concrete Foundation and Structure Contractors
+39,23891 / Site Preparation Contractors
+40,23839 / Other Building Finishing Contractors
+41,71399 / All Other Amusement and Recreation Industries
+42,33621 / Motor Vehicle Body and Trailer Manufacturing
+43,"48411 / General Freight Trucking, Local"
+44,72221 / Limited-Service Eating Places
+45,32521 / Resin and Synthetic Rubber Manufacturing
+46,81232 / Drycleaning and Laundry Services (except Coin-Operated)
+47,33639 / Other Motor Vehicle Parts Manufacturing
+48,56172 / Janitorial Services
+49,23812 / Structural Steel and Precast Concrete Contractors
+50,44511 / Supermarkets and Other Grocery (except Convenience) Stores
+51,62111 / Offices of Physicians
+52,11212 / Dairy Cattle and Milk Production
+53,81131 / Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance
+54,33721 / Office Furniture (including Fixtures) Manufacturing
+55,"33341 / Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing"
+56,"48412 / General Freight Trucking, Long-Distance"
+57,71394 / Fitness and Recreational Sports Centers
+58,81291 / Pet Care (except Veterinary) Services
+59,23821 / Electrical Contractors and Other Wiring Installation Contractors
+60,32611 / Plastics Packaging Materials and Unlaminated Film and Sheet Manufacturing
+61,32111 / Sawmills and Wood Preservation
+62,48832 / Marine Cargo Handling
+63,33399 / All Other General Purpose Machinery Manufacturing
+64,56211 / Waste Collection
+65,23834 / Tile and Terrazzo Contractors
+66,"33243 / Metal Can, Box, and Other Metal Container (Light Gauge) Manufacturing"
+67,53131 / Real Estate Property Managers
+68,56132 / Temporary Help Services
+69,33392 / Material Handling Equipment Manufacturing
+70,"33272 / Turned Product and Screw, Nut, and Bolt Manufacturing"
+71,33313 / Mining and Oil and Gas Field Machinery Manufacturing
+72,44112 / Used Car Dealers
+73,33712 / Household and Institutional Furniture Manufacturing
+74,33641 / Aerospace Product and Parts Manufacturing
+75,23833 / Flooring Contractors
+76,"44122 / Motorcycle, Boat, and Other Motor Vehicle Dealers"
+77,33152 / Nonferrous Metal Foundries
+78,31161 / Animal Slaughtering and Processing
+79,33999 / All Other Miscellaneous Manufacturing
+80,42469 / Other Chemical and Allied Products Merchant Wholesalers
+81,33324 / Industrial Machinery Manufacturing
+82,"81211 / Hair, Nail, and Skin Care Services"
+83,23711 / Water and Sewer Line and Related Structures Construction
+84,32721 / Glass and Glass Product Manufacturing
+85,33911 / Medical Equipment and Supplies Manufacturing
+86,44711 / Gasoline Stations with Convenience Stores
+87,71393 / Marinas
+88,31181 / Bread and Bakery Product Manufacturing
+89,44411 / Home Centers
+90,33121 / Iron and Steel Pipe and Tube Manufacturing from Purchased Steel
+91,11331 / Logging
+92,56179 / Other Services to Buildings and Dwellings
+93,92811 / National Security
+94,42451 / Grain and Field Bean Merchant Wholesalers
+95,56221 / Waste Treatment and Disposal
+96,31211 / Soft Drink and Ice Manufacturing
+97,"23731 / Highway, Street, and Bridge Construction"
+98,33122 / Rolling and Drawing of Purchased Steel
+99,33331 / Commercial and Service Industry Machinery Manufacturing
+100,44132 / Tire Dealers
+101,32561 / Soap and Cleaning Compound Manufacturing
+102,"92219 / Other Justice, Public Order, and Safety Activities"
+103,32221 / Paperboard Container Manufacturing
+104,11531 / Support Activities for Forestry
+105,"32733 / Concrete Pipe, Brick, and Block Manufacturing"
+106,32629 / Other Rubber Product Manufacturing
+107,54138 / Testing Laboratories
+108,33599 / All Other Electrical Equipment and Component Manufacturing
+109,32222 / Paper Bag and Coated and Treated Paper Manufacturing
+110,44211 / Furniture Stores
+111,42491 / Farm Supplies Merchant Wholesalers
+112,31171 / Seafood Product Preparation and Packaging
+113,32599 / All Other Chemical Product and Preparation Manufacturing
+114,31199 / All Other Food Manufacturing
+115,42481 / Beer and Ale Merchant Wholesalers
+116,72211 / Full-Service Restaurants
+117,31111 / Animal Food Manufacturing
+118,56292 / Materials Recovery Facilities
+119,33311 / Agricultural Implement Manufacturing
+120,42351 / Metal Service Centers and Other Metal Merchant Wholesalers
+121,71391 / Golf Courses and Country Clubs
+122,54194 / Veterinary Services
+123,"42345 / Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers"
+124,62211 / General Medical and Surgical Hospitals
+125,33242 / Metal Tank (Heavy Gauge) Manufacturing
+126,49111 / Postal Service
+127,62331 / Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly
+128,"33451 / Navigational, Measuring, Electromedical, and Control Instruments Manufacturing"
+129,33131 / Alumina and Aluminum Production and Processing
+130,32615 / Urethane and Other Foam Product (except Polystyrene) Manufacturing
+131,"23819 / Other Foundation, Structure, and Building Exterior Contractors"
+132,42311 / Automobile and Other Motor Vehicle Merchant Wholesalers
+133,81142 / Reupholstery and Furniture Repair
+134,23835 / Finish Carpentry Contractors
+135,33221 / Cutlery and Handtool Manufacturing
+136,45399 / All Other Miscellaneous Store Retailers
+137,56191 / Packaging and Labeling Services
+138,92412 / Administration of Conservation Programs
+139,23813 / Framing Contractors
+140,32541 / Pharmaceutical and Medicine Manufacturing
+141,33441 / Semiconductor and Other Electronic Component Manufacturing
+142,56291 / Remediation Services
+143,33251 / Hardware Manufacturing
+144,"33142 / Copper Rolling, Drawing, Extruding, and Alloying"
+145,23829 / Other Building Equipment Contractors
+146,62149 / Other Outpatient Care Centers
+147,33261 / Spring and Wire Product Manufacturing
+148,33111 / Iron and Steel Mills and Ferroalloy Manufacturing
+149,32732 / Ready-Mix Concrete Manufacturing
+150,49312 / Refrigerated Warehousing and Storage
+151,31331 / Textile and Fabric Finishing Mills
+152,33512 / Lighting Fixture Manufacturing
+153,71219 / Nature Parks and Other Similar Institutions
+154,33531 / Electrical Equipment Manufacturing
+155,33631 / Motor Vehicle Gasoline Engine and Engine Parts Manufacturing
+156,33291 / Metal Valve Manufacturing
+157,53249 / Other Commercial and Industrial Machinery and Equipment Rental and Leasing
+158,42399 / Other Miscellaneous Durable Goods Merchant Wholesalers
+159,33992 / Sporting and Athletic Goods Manufacturing
+160,"32412 / Asphalt Paving, Roofing, and Saturated Materials Manufacturing"
+161,48851 / Freight Transportation Arrangement
+162,23799 / Other Heavy and Civil Engineering Construction
+163,32551 / Paint and Coating Manufacturing
+164,"42332 / Brick, Stone, and Related Construction Material Merchant Wholesalers"
+165,"42331 / Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers"
+166,11142 / Nursery and Floriculture Production
+167,45431 / Fuel Dealers
+168,"32121 / Veneer, Plywood, and Engineered Wood Product Manufacturing"
+169,42373 / Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers
+170,42314 / Motor Vehicle Parts (Used) Merchant Wholesalers
+171,21111 / Oil and Gas Extraction
+172,42312 / Motor Vehicle Supplies and New Parts Merchant Wholesalers
+173,32518 / Other Basic Inorganic Chemical Manufacturing
+174,33151 / Ferrous Metal Foundries
+175,81233 / Linen and Uniform Supply
+176,48541 / School and Employee Bus Transportation
+177,23815 / Glass and Glazing Contractors
+178,32562 / Toilet Preparation Manufacturing
+179,45331 / Used Merchandise Stores
+180,81149 / Other Personal and Household Goods Repair and Maintenance
+181,53112 / Lessors of Nonresidential Buildings (except Miniwarehouses)
+182,"31142 / Fruit and Vegetable Canning, Pickling, and Drying"
+183,54132 / Landscape Architectural Services
+184,71213 / Zoos and Botanical Gardens
+185,"54199 / All Other Professional, Scientific, and Technical Services"
+186,31529 / Other Cut and Sew Apparel Manufacturing
+187,"48422 / Specialized Freight (except Used Goods) Trucking, Local"
+188,31151 / Dairy Product (except Frozen) Manufacturing
+189,32229 / Other Converted Paper Product Manufacturing
+190,44419 / Other Building Material Dealers
+191,49313 / Farm Product Warehousing and Storage
+192,48849 / Other Support Activities for Road Transportation
+193,44819 / Other Clothing Stores
+194,32513 / Synthetic Dye and Pigment Manufacturing
+195,31499 / All Other Textile Product Mills
+196,42512 / Wholesale Trade Agents and Brokers
+197,62151 / Medical and Diagnostic Laboratories
+198,53229 / Other Consumer Goods Rental
+199,42313 / Tire and Tube Merchant Wholesalers
+200,53111 / Lessors of Residential Buildings and Dwellings
+201,51111 / Newspaper Publishers
+202,"33361 / Engine, Turbine, and Power Transmission Equipment Manufacturing"
+203,56121 / Facilities Support Services
+204,33391 / Pump and Compressor Manufacturing
+205,62419 / Other Individual and Family Services
+206,33593 / Wiring Device Manufacturing
+207,44529 / Other Specialty Food Stores
+208,33329 / Other Industrial Machinery Manufacturing
+209,62412 / Services for the Elderly and Persons with Disabilities
+210,48833 / Navigational Services to Shipping
+211,48811 / Airport Operations
+212,31122 / Starch and Vegetable Fats and Oils Manufacturing
+213,23712 / Oil and Gas Pipeline and Related Structures Construction
+214,44831 / Jewelry Stores
+215,"54171 / Research and Development in the Physical, Engineering, and Life Sciences"
+216,72112 / Casino Hotels
+217,33995 / Sign Manufacturing
+218,23621 / Industrial Building Construction
+219,44611 / Pharmacies and Drug Stores
+220,42448 / Fresh Fruit and Vegetable Merchant Wholesalers
+221,62191 / Ambulance Services
+222,42339 / Other Construction Material Merchant Wholesalers
+223,"33149 / Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding, and Alloying"
+224,42449 / Other Grocery and Related Products Merchant Wholesalers
+225,44121 / Recreational Vehicle Dealers
+226,49319 / Other Warehousing and Storage
+227,48551 / Charter Bus Industry
+228,42421 / Drugs and Druggists' Sundries Merchant Wholesalers
+229,33611 / Automobile and Light Duty Motor Vehicle Manufacturing
+230,48841 / Motor Vehicle Towing
+231,22131 / Water Supply and Irrigation Systems
+232,"32613 / Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing"
+233,42344 / Other Commercial Equipment Merchant Wholesalers
+234,11115 / Corn Farming
+235,92113 / Public Finance Activities
+236,31322 / Narrow Fabric Mills and Schiffli Machine Embroidery
+237,32712 / Clay Building Material and Refractories Manufacturing
+238,"61131 / Colleges, Universities, and Professional Schools"
+239,21231 / Stone Mining and Quarrying
+240,56131 / Employment Placement Agencies and Executive Search Services
+241,48821 / Support Activities for Rail Transportation
+242,45211 / Department Stores
+243,54143 / Graphic Design Services
+244,33637 / Motor Vehicle Metal Stamping
+245,45111 / Sporting Goods Stores
+246,42441 / General Line Grocery Merchant Wholesalers
+247,42381 / Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers
+248,81221 / Funeral Homes and Funeral Services
+249,81141 / Home and Garden Equipment and Appliance Repair and Maintenance
+250,61151 / Technical and Trade Schools
+251,56199 / All Other Support Services
+252,42447 / Meat and Meat Product Merchant Wholesalers
+253,"44422 / Nursery, Garden Center, and Farm Supply Stores"
+254,62139 / Offices of All Other Health Practitioners
+255,23817 / Siding Contractors
+256,31599 / Apparel Accessories and Other Apparel Manufacturing
+257,71111 / Theater Companies and Dinner Theaters
+258,42382 / Farm and Garden Machinery and Equipment Merchant Wholesalers
+259,32622 / Rubber and Plastics Hoses and Belting Manufacturing
+260,72241 / Drinking Places (Alcoholic Beverages)
+261,31621 / Footwear Manufacturing
+262,48819 / Other Support Activities for Air Transportation
+263,31194 / Seasoning and Dressing Manufacturing
+264,56299 / All Other Waste Management Services
+265,45421 / Vending Machine Operators
+266,"48423 / Specialized Freight (except Used Goods) Trucking, Long-Distance"
+267,32519 / Other Basic Organic Chemical Manufacturing
+268,11511 / Support Activities for Crop Production
+269,54149 / Other Specialized Design Services
+270,33651 / Railroad Rolling Stock Manufacturing
+271,32616 / Plastics Bottle Manufacturing
+272,"32711 / Pottery, Ceramics, and Plumbing Fixture Manufacturing"
+273,"53212 / Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing"
+274,71321 / Casinos (except Casino Hotels)
+275,51791 / Other Telecommunications
+276,33612 / Heavy Duty Truck Manufacturing
+277,44229 / Other Home Furnishings Stores
+278,42321 / Furniture Merchant Wholesalers
+279,54161 / Management Consulting Services
+280,"31182 / Cookie, Cracker, and Pasta Manufacturing"
+281,"56161 / Investigation, Guard, and Armored Car Services"
+282,11199 / All Other Crop Farming
+283,42372 / Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers
+284,31213 / Wineries
+285,72232 / Caterers
+286,48321 / Inland Water Transportation
+287,42442 / Packaged Frozen Food Merchant Wholesalers
+288,62221 / Psychiatric and Substance Abuse Hospitals
+289,44719 / Other Gasoline Stations
+290,81321 / Grantmaking and Giving Services
+291,"42394 / Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers"
+292,56149 / Other Business Support Services
+293,33994 / Office Supplies (except Paper) Manufacturing
+294,33312 / Construction Machinery Manufacturing
+295,54141 / Interior Design Services
+296,92612 / Regulation and Administration of Transportation Programs
+297,31183 / Tortilla Manufacturing
+298,33322 / Plastics and Rubber Industry Machinery Manufacturing
+299,32791 / Abrasive Product Manufacturing
+300,72231 / Food Service Contractors
+301,"32612 / Plastics Pipe, Pipe Fitting, and Unlaminated Profile Shape Manufacturing"
+302,32621 / Tire Manufacturing
+303,32223 / Stationery Product Manufacturing
+304,31132 / Chocolate and Confectionery Manufacturing from Cacao Beans
+305,42472 / Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)
+306,45291 / Warehouse Clubs and Supercenters
+307,31121 / Flour Milling and Malt Manufacturing
+308,11521 / Support Activities for Animal Production
+309,32614 / Polystyrene Foam Product Manufacturing
+310,54189 / Other Services Related to Advertising
+311,32212 / Paper Mills
+312,32419 / Other Petroleum and Coal Products Manufacturing
+313,"92313 / Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)"
+314,81222 / Cemeteries and Crematories
+315,48599 / Other Transit and Ground Passenger Transportation
+316,44521 / Meat Markets
+317,"42361 / Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers"
+318,42349 / Other Professional Equipment and Supplies Merchant Wholesalers
+319,51114 / Directory and Mailing List Publishers
+320,48831 / Port and Harbor Operations
+321,42374 / Refrigeration Equipment and Supplies Merchant Wholesalers
+322,"44531 / Beer, Wine, and Liquor Stores"
+323,33521 / Small Electrical Appliance Manufacturing
+324,81331 / Social Advocacy Organizations
+325,32531 / Fertilizer Manufacturing
+326,11239 / Other Poultry Production
+327,42391 / Sporting and Recreational Goods and Supplies Merchant Wholesalers
+328,45439 / Other Direct Selling Establishments
+329,42432 / Men's and Boys' Clothing and Furnishings Merchant Wholesalers
+330,"71151 / Independent Artists, Writers, and Performers"
+331,31611 / Leather and Hide Tanning and Finishing
+332,54133 / Engineering Services
+333,53231 / General Rental Centers
+334,81231 / Coin-Operated Laundries and Drycleaners
+335,"42431 / Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers"
+336,92614 / Regulation of Agricultural Marketing and Commodities
+337,71395 / Bowling Centers
+338,62132 / Offices of Optometrists
+339,22132 / Sewage Treatment Facilities
+340,54131 / Architectural Services
+341,"48711 / Scenic and Sightseeing Transportation, Land"
+342,81411 / Private Households
+343,48532 / Limousine Service
+344,31134 / Nonchocolate Confectionery Manufacturing
+345,44421 / Outdoor Power Equipment Stores
+346,44312 / Computer and Software Stores
+347,22111 / Electric Power Generation
+348,"53241 / Construction, Transportation, Mining, and Forestry Machinery and Equipment Rental and Leasing"
+349,31332 / Fabric Coating Mills
+350,33632 / Motor Vehicle Electrical and Electronic Equipment Manufacturing
+351,33321 / Sawmill and Woodworking Machinery Manufacturing
+352,33991 / Jewelry and Silverware Manufacturing
+353,42482 / Wine and Distilled Alcoholic Beverage Merchant Wholesalers
+354,45391 / Pet and Pet Supplies Stores
+355,"42495 / Paint, Varnish, and Supplies Merchant Wholesalers"
+356,31191 / Snack Food Manufacturing
+357,32213 / Paperboard Mills
+358,31321 / Broadwoven Fabric Mills
+359,31141 / Frozen Food Manufacturing
+360,"22112 / Electric Power Transmission, Control, and Distribution"
+361,92119 / Other General Government Support
+362,48421 / Used Household and Office Goods Moving
+363,81219 / Other Personal Care Services
+364,54185 / Outdoor Advertising
+365,42499 / Other Miscellaneous Nondurable Goods Merchant Wholesalers
+366,72119 / Other Traveler Accommodation
+367,31528 / Other Cut and Sew Apparel Manufacturing
+368,32511 / Petrochemical Manufacturing
+369,42446 / Fish and Seafood Merchant Wholesalers
+370,31152 / Ice Cream and Frozen Dessert Manufacturing
+371,71329 / Other Gambling Industries
+372,42371 / Hardware Merchant Wholesalers
+373,31193 / Flavoring Syrup and Concentrate Manufacturing
+374,62322 / Residential Mental Health and Substance Abuse Facilities
+375,"42333 / Roofing, Siding, and Insulation Material Merchant Wholesalers"
+376,53119 / Lessors of Other Real Estate Property
+377,33699 / Other Transportation Equipment Manufacturing
+378,81121 / Electronic and Precision Equipment Repair and Maintenance
+379,53121 / Offices of Real Estate Agents and Brokers
+380,52599 / Other Financial Vehicles
+381,11231 / Chicken Egg Production
+382,92411 / Administration of Air and Water Resource and Solid Waste Management Programs
+383,56192 / Convention and Trade Show Organizers
+384,56143 / Business Service Centers
+385,53113 / Lessors of Miniwarehouses and Self-Storage Units
+386,48111 / Scheduled Air Transportation
+387,55111 / Management of Companies and Enterprises
+388,33592 / Communication and Energy Wire and Cable Manufacturing
+389,11121 / Vegetable and Melon Farming
+390,62411 / Child and Youth Services
+391,71112 / Dance Companies
+392,31523 / Women's and Girls' Cut and Sew Apparel Manufacturing
+393,23721 / Land Subdivision
+394,"11211 / Beef Cattle Ranching and Farming, including Feedlots"
+395,11141 / Food Crops Grown Under Cover
+396,92212 / Police Protection
+397,44523 / Fruit and Vegetable Markets
+398,61169 / All Other Schools and Instruction
+399,92812 / International Affairs
+400,92214 / Correctional Institutions
+401,33633 / Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing
+402,42386 / Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers
+403,42322 / Home Furnishing Merchant Wholesalers
+404,32512 / Industrial Gas Manufacturing
+405,22133 / Steam and Air-Conditioning Supply
+406,61111 / Elementary and Secondary Schools
+407,51741 / Satellite Telecommunications
+408,33522 / Major Appliance Manufacturing
+409,32552 / Adhesive Manufacturing
+410,49211 / Couriers and Express Delivery Services
+411,33791 / Mattress Manufacturing
+412,22121 / Natural Gas Distribution
+413,32411 / Petroleum Refineries
+414,56171 / Exterminating and Pest Control Services
+415,33636 / Motor Vehicle Seating and Interior Trim Manufacturing
+416,72121 / RV (Recreational Vehicle) Parks and Recreational Camps
+417,44221 / Floor Covering Stores
+418,44413 / Hardware Stores
+419,45299 / All Other General Merchandise Stores
+420,45411 / Electronic Shopping and Mail-Order Houses
+421,48531 / Taxi Service
+422,48839 / Other Support Activities for Water Transportation
+423,48899 / Other Support Activities for Transportation
+424,51119 / Other Publishers
+425,51213 / Motion Picture and Video Exhibition
+426,"52412 / Direct Insurance (except Life, Health, and Medical) Carriers"
+427,54186 / Direct Mail Advertising
+428,56162 / Security Systems Services
+429,62199 / All Other Ambulatory Health Care Services
+430,62231 / Specialty (except Psychiatric and Substance Abuse) Hospitals
+431,71392 / Skiing Facilities
+432,42471 / Petroleum Bulk Stations and Terminals
+433,42443 / Dairy Product (except Dried or Canned) Merchant Wholesalers
+434,42385 / Service Establishment Equipment and Supplies Merchant Wholesalers
+435,"33993 / Doll, Toy, and Game Manufacturing"
+436,33634 / Motor Vehicle Brake System Manufacturing
+437,33241 / Power Boiler and Heat Exchanger Manufacturing
+438,32741 / Lime Manufacturing
+439,32591 / Printing Ink Manufacturing
+440,32522 / Artificial and Synthetic Fibers and Filaments Manufacturing
+441,31192 / Coffee and Tea Manufacturing
+442,23713 / Power and Communication Line and Related Structures Construction
+443,92314 / Administration of Veterans' Affairs
+444,11113 / Dry Pea and Bean Farming
+445,11311 / Timber Tract Operations

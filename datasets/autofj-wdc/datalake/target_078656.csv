@@ -1,0 +1,155 @@
+id,title
+0,explore each distribution in a minicpan repository
+1,Perl port of the Ylastic Cost Agent for Amazon Web Services
+2,Command-line tool to help build and test bleadperl
+3,Extract module requirements from MYMETA files
+4,Salted Challenge Response Authentication Mechanism (RFC 5802)
+5,"Common library for searching CPAN modules, authors and distributions"
+6,the distribution metadata for a CPAN dist
+7,a set of version requirements for a CPAN dist
+8,Read and write a subset of YAML for CPAN Meta files
+9,Create CPAN::Mini mirror with developer releases
+10,Create CPAN::Mini mirror with recent developer releases
+11,Adds CPAN Testers reporting to CPAN.pm
+12,Turnkey CPAN Testers smoking
+13,CPAN Test Dummy
+14,CPAN Test Dummy
+15,CPAN Test Dummy
+16,CPAN Test Dummy that fails to find a required version of Perl
+17,CPAN test dummy with optional prereqs
+18,Utility functions for CPAN Testers modules
+19,Manage CPAN Testers configuration data
+20,Instantiate a Metabase backend for CPAN Testers
+21,Metabase backend on Amazon Web Services
+22,Generate Atom feed for CPAN Testers Reports
+23,Metabase backend on MongoDB
+24,CPAN Testers report object
+25,Generic traversal of distributions in a CPAN repository
+26,"Capture STDOUT and STDERR from Perl, XS or external programs"
+27,"a safe, simple inside-out object construction kit"
+28,Minimalist class construction
+29,Random passphrase generator loosely based on the Diceware algorithm
+30,Wrap any simple class as a service for Dancer
+31,Require logged-in user for specified routes
+32,Defer messages or data across redirections
+33,Dancer plugin for message queue abstractions
+34,Dancer::Plugin::Queue backend using MongoDB
+35,Syntactic sugar for GET+POST handlers
+36,Dancer2 plugin for message queue abstractions
+37,Dancer2::Plugin::Queue backend using MongoDB
+38,Syntactic sugar for GET+POST handlers
+39,Dancer 2 session storage in files with JSON
+40,Dancer 2 session storage with Cache::Memcached
+41,Dancer 2 session storage with MongoDB
+42,Dancer 2 session storage in files with Sereal
+43,Declaratively generate fake structured data for testing
+44,Generic interface for GUID/UUID creation
+45,Check a password against a list of common passwords
+46,Fast random UUID generator using the Mersenne Twister algorithm
+47,Set autoflush from the command line
+48,Override CORE::GLOBAL::require safely
+49,Append data to gathered files
+50,Bump module versions after distribution release
+51,DEPRECATED -- use Dist::Zilla::Plugin::Git::NextVersion instead
+52,Ensure Changes has content before releasing
+53,check xt tests before release
+54,Ensure META includes resources
+55,BeforeRelease plugin to check for a strict version number
+56,"Copy files from build directory, but filter out lines"
+57,Creates an evil twin of a CPAN distribution
+58,Insert copyright statement into source code files
+59,There can be only one
+60,Generate an x_contributors section in distribution metadata
+61,List prereqs conditional on operating system
+62,"Generate README from Pod, as simply as possible"
+63,Add Dist::Zilla authordeps to META files as develop prereqs
+64,Dist::Zilla plugin to set a minimum allowed version for prerequisites
+65,Remove gathered prereqs from particular phases
+66,Add Test::DiagINC to all .t files
+67,Report on prerequisite versions during automated testing
+68,Dist::Zilla release plugin to upload via scp
+69,Dist::Zilla configuration the way DAGOLDEN does it
+70,Syntactic try/catch sugar for use with Exception::Class
+71,Makes skeleton modules with Template Toolkit templates (UNMAINTAINED)
+72,Set and jump between named position markers on a filehandle
+73,Retrieve random lines from a file
+74,return name and handle of a temporary file safely
+75,a more sensible way to change directories
+76,change directory temporarily for a limited scope
+77,"Clear, readable syntax for command line processing"
+78,A minimalist HTTP user agent cookie jar
+79,"A small, simple, correct HTTP/1.1 client"
+80,Higher-level UA features for HTTP::Tiny
+81,Create objects from hashes on the fly
+82,"A fast, pure-Perl ordered hash class"
+83,"Iterative, recursive file finder with IO::All"
+84,"capture STDOUT and STDERR from Perl code, subprocesses or XS"
+85,Prompt for user input with a default option
+86,Bringing loggers and listeners together
+87,Log::Any adapter for Log::Log4perl
+88,handle IMAP4 folders with SSL
+89,Consistent object-oriented interface for generating random numbers
+90,Manage MongoDB documents as Moose objects
+91,Metabase backend implemented using Amazon Web Services
+92,Metabase backend implemented using MongoDB
+93,Metabase backend role for SQL-based backends
+94,a client that submits to Metabase servers
+95,base class for Metabase Facts
+96,A message queue implemented with MongoDB
+97,Provide logging via Log::Any
+98,"Provide MongoDB connections, databases and collections"
+99,More powerful coercion than MooseX::Types::Path::Class
+100,Moose type constraints for strings or string-like objects
+101,Manage Amazon Web Services credentials
+102,Outside-in objects with local aliasing of $self and object variables
+103,Minimalist PBKDF2 (RFC 2898) with HMAC-SHA1 or HMAC-SHA2
+104,Convert data to/from the PGP word list
+105,Sends events for new articles posted to an NNTP newsgroup
+106,(Minor) XS acceleration for PPI
+107,Configuration management tool for chef-solo
+108,Parse META.yml and META.json CPAN metadata files
+109,"Iterative, recursive file finder with Path::Class"
+110,"Iterative, recursive file finder"
+111,File path utility
+112,Map Perl operating system names to generic types
+113,"a transformer to replace ""wikidoc"" data regions with Pod5 elements"
+114,Generate Pod from inline wiki style text
+115,Add words for spell checking POD (DEPRECATED)
+116,Translate SQL LIKE pattern to a regular expression
+117,look - search for key in dictionary file
+118,"Encrypted, expiring, compressed, serialized session data with integrity"
+119,A general-purpose sensitivity analysis tool for user-supplied calculations and parameters
+120,Algorithms for determining overall rankings from a panel of judges
+121,apparently run a function in a higher stack frame
+122,Skip some test files
+123,DAGOLDEN's frequently-used or favorite modules
+124,Install CPAN::Reporter and related dependencies
+125,Install Metabase server related modules
+126,Pure Perl emulation of GNU tee
+127,Portable API to set the terminal titlebar
+128,Test a list of subroutines provided by a module
+129,List modules and versions loaded if tests fail
+130,Add test failures if warnings are caught
+131,Portable filename comparison
+132,Replaces random number generation with non-random number generation
+133,Prevent a module from loading its XS code
+134,Compare the difference between numbers against a given tolerance
+135,sends test results to cpan-testers@perl.org
+136,Legacy Test::Reporter::Transport modules
+137,Metabase transport for Test::Reporter
+138,"Composable, reusable tests with roles and Moo"
+139,Temporary directories that stick around when tests fail
+140,Render ASCII box and whisker charts
+141,Tied handle that hides the beginning of a file
+142,Olson time zone clusters based on similar offset and DST changes
+143,Load your commonly-used modules in a single import
+144,Extends Try::Tiny to allow retries
+145,Path::Tiny types and coercions for Moose and Moo
+146,Load a module when you call the new method on it
+147,increment module version numbers simply and correctly
+148,Minimalist exception hierarchy generator
+149,use modules bundled in inc/ if they are newer than installed ones
+150,Dummy module that prevents unexpected results from the CPAN shell
+151,Load recommended modules on demand when available
+152,"Like parent, but with version checks"
+153,Add paths to @INC from a config file

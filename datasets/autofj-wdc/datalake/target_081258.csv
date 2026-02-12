@@ -1,0 +1,55 @@
+id,title
+0,Zoom +/-
+1,Zoom +/-
+2,Zoom +/-
+3,Sélection d'objet
+4,Dé-sélectionne un objet
+5,Auto-zoom moins
+6,Auto-zoom plus sur l'objet sélectionné
+7,Centre sur l'objet sélectionné
+8,Bascule entre monture équatoriale ou azimuthale
+9,Affichage en plein écran/fenêtre (indisponible sur certaines architectures)
+10,Affichage du dessin des constellations
+11,Affichage du dessin des limites des constellations ?
+12,Affichage des noms des constellations
+13,Affichage des dessins artistiques des constellations
+14,Affichage du nom des étoiles
+15,Toggle nebulae names off / on (short) / on (long?)
+16,Toggle drawing of RA/Dec grid
+17,Cycle through: show meridian line; show Alt/Azi grid; neigher
+18,Cycle through: no planet labels; planet labels; planet labels with orbits
+19,Active/Désactive l'affichage du sol
+20,Active/Désactive l'affichage de l'atmosphère
+21,Active/Désactive l'affichage de la brume sur l'horizon
+22,"Active/Désactive l'affichage des points cardinaux (N, S, E, W)"
+23,Active/Désactive l'affichage de l'échelle de la lune (4x /1x)
+24,Toggle object tracking (moves the view to keep selected object in the centre)
+25,Active/Désactive l'affichage des étoiles
+26,Cycle through: draw ecliptic; draw ecliptic & planet trails; draw neither
+27,Active/Désactive l'affichage de la ligne équatoriale
+28,Take a screenshot (will be written to stellarium*.bmp)
+29,Active/Désactive l'enregistrement de script
+30,Active/Désactive l'affichage de la fenêtre de recherche
+31,Active/Désactive l'affichage de la fenêtre d'aide
+32,Active/Désactive l'affichage de la fenêtre d'information
+33,Active/Désactive l'affichage de la fenêtre de configuration
+34,Active/Désactive le menu textuel
+35,"Ferme toutes les fenêtres ouvertes (help, info, & configuration)"
+36,Time rate pause (or script pause when a script is running)
+37,Set time rate to zero (time stands still)
+38,Set time to current time
+39,Decrease time rate (or decrease script speed if a script is running)
+40,Repositionne la vitesse de l'écoulement du temps à sa valeur normale (1 seconde pour seconde)
+41,Augmente la vitesse de l'écoulement du temps (ou augmente la vitesse d'un script si un script est en cours d'exécution)
+42,Recule de 24 heures dans le temps
+43,Avance de 24 heures dans le temps
+44,Recule de 7 jours dans le temps
+45,Avance de 7 jours dans le temps
+46,Arrête l'exécution d'un script
+47,Quitte Stellarium. (command+Q sur un Mac)
+48,Baisse le volume (seulement si un script est en cours d'exécution)
+49,Baisse le volume (seulement si un script est en cours d'exécution)
+50,Cycle through meteor shower rates: low; medium; high; very high
+51,Toggle horizontal image flipping
+52,Toggle vertical image flipping
+53,Make telescope [num] point at currently selected object

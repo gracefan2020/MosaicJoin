@@ -1,0 +1,97 @@
+id,title
+0,LISTFREEZE MAILS
+1,ARexx - REQUESTFILE : doc
+2,KillDuplicates.yam cause DSI and crash
+3,Crash while checking new mail on single account
+4,HTML mails are not opend in browser
+5,RFC2047 decoding writes one byte too much for certain strings
+6,Difficulties with addresssbook
+7,Partly broken Mail-Reply-To and Mail-Followup-To header handling
+8,NB 27/11 takes very long to open a msg with big attachment
+9,PGP Problem when sending Mail
+10,"The trash folder shouldn't be spam checked, IMHO."
+11,Packing Attachements should show the progress
+12,Crash in search on gravatar button
+13,creating and delete a group crash YAM
+14,support for mailnglists is brooken
+15,charset issue in mail listviews
+16,Handling of charsets (e.g. UTF-8) when using external editor.
+17,Wrong UTF-8 Support
+18,Wrong german umlauts in Mail subject and body
+19,YAM crash when editing a Folder
+20,Missing ENTER() Macro in UpdateCheck.c -> Function BuildUpdateRequest()
+21,Edit a mail creates a new mail and add a space into the body
+22,"Jump to bottom with ""more"" in filters"
+23,Allow removal of compar. not only from the bottom of filter
+24,"Config item ""AltReplyBye"" isn't loaded/saved correctly"
+25,filter condition (Match...) isn't saved correctly
+26,Yam doesn't save the Filter part in config correctly.
+27,YAM NB 17/11/2013 overrwrites filter settings
+28,"Add section ""file name pit falls"" in YAM.guide"
+29,Crash on drag&drop (copy) of more than 15 mails
+30,Spellchecking with new TextEditor does not work anymore
+31,Add TO: field column in mail transfer window
+32,Implement a special Archive folder
+33,"Identities mixup problem (YAM 2.8p1, MorphOS)"
+34,"Trace of Filtered & moved mails do remain in ""incoming"" folder"
+35,"Identities are not working properly (YAM 2.8p1, MorphOS)"
+36,Bug when renaming Directory name
+37,Add low memory handler to flush folder indexes automatically
+38,folder index update
+39,Discarding changes in an edited draft mail deletes the mail
+40,"Fail to login your site with OWB, cannot commit new Finnish catalog!"
+41,wrong german translation
+42,Search without searching in pgp mails
+43,"""Un-spam"" mail when d&d'ed out of spam-folder"
+44,Add option for queued download
+45,GR (DSI) on starting YAM2.9dev (9.07.2013)
+46,Display search doesn't stop and YAM must be quit to abort
+47,"ClearFolderMails : DSI after a ""After download"" event"
+48,version 18/9 crashes when typing new message
+49,"Crash whe using ""Find"" button"
+50,yam nightly grim reaper when jumping to next new mail
+51,Crash when quiting YAM
+52,"When hitting send, YAM crashes ans the system also"
+53,folders lose their index
+54,"Crash when selecting ""Send later"""
+55,YAM crashes during sending of an e-mail
+56,Crash when creating new folder (too hastily)
+57,DST changes *every* time in main window listview
+58,Thought about placing filter-gadgets below the nlist?
+59,Jump to oldest unread msg on a per folder basis
+60,Modified date field when reading
+61,"Can all search data be treated equally, as strings?"
+62,Save attachments - jump to file via number key
+63,Add underline-feature for URL in readwin
+64,Adapt default order of next mail to reversed display
+65,When printing e-mails a list of attachments is also printed
+66,"Move folder directories in own ""folders"" subdirectory, rename spam folder to ""Junk"""
+67,"Ghost/disable ""get mail"" when there is no active account"
+68,Sorting options/GUI layout not saved on exit
+69,"A folder added after ""search"" was open will never be displayed"
+70,Make addressbook entries sort by clicking column titles
+71,Show Attachmentlist in first pagegroup of write window
+72,Show attachment reminders upon keyword matches
+73,YAM locks up or crashes when un-iconifying
+74,Allow to set alternative default folder on a per account basis
+75,"grim reaper when starting yam nightly (09.07.2013 (GCC 4.7.1, r6681))"
+76,Remember selection choice across sessions.
+77,ISI crash on Reload arrangement
+78,YAM name and version to be showed on titlebar
+79,Nightly builds crash (at startup)
+80,Ghost the cycle gadget too if SPAM filter is turned off
+81,DSI with YAMdev2.9 2013-09-18
+82,GR/DSI when clicking on SendNow or SendLater on write window
+83,"Cannot enter adresses from the message window (button next to addressline, cc)"
+84,Clicking on a line in address book window does not enable the possibility to enter selected line in messag
+85,GR at startup (QuickSearchBar)
+86,YAM craashed after opeinng Find window
+87,Crash while typing in write window
+88,"YAM doesn't close the write window in a message without a ""to"" entry"
+89,"format also the ""Mail account"" column in the mainlistview"
+90,Autosave every 2mins and closes write window too!
+91,Doubleclick on interenet adresses does not work anymore
+92,Highlight selected links
+93,"Change ""Mail Transfer..."" to ""Checking for mails..."""
+94,confusing ghosted buttons on the filter page
+95,YAM delete a mail because the user gets wrong information in a requester

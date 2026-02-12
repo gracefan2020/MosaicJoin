@@ -1,0 +1,69 @@
+id,title
+0,TrackResponse
+1,"TrackResponse / TrackInfo ID=""#######"""
+2,TrackResponse / TrackInfo / AdditionalInfo
+3,TrackResponse / TrackInfo / ARCHDATA
+4,TrackResponse / TrackInfo / ArchiveRestoreInfo
+5,TrackResponse / TrackInfo / AssociatedLabel
+6,TrackResponse / TrackInfo / CarrierRelease
+7,TrackResponse / TrackInfo / Class
+8,TrackResponse / TrackInfo / ClassOfMailCode
+9,TrackResponse / TrackInfo / DeliveryNotificationDate
+10,TrackResponse / TrackInfo / DestinationCity
+11,TrackResponse / TrackInfo / DestinationCountryCode
+12,TrackResponse / TrackInfo / DestinationState
+13,TrackResponse / TrackInfo / DestinationZip
+14,TrackResponse / TrackInfo / EditedLabelID
+15,TrackResponse / TrackInfo / EmailEnabled
+16,TrackResponse / TrackInfo / ExpectedDeliveryDate
+17,TrackResponse / TrackInfo / ExpectedDeliveryTime
+18,TrackResponse / TrackInfo / GuaranteedDeliveryDate
+19,TrackResponse / TrackInfo / GuaranteedDeliveryTime
+20,TrackResponse / TrackInfo / GuaranteedDetails
+21,TrackResponse / TrackInfo / KahalaIndicator
+22,TrackResponse / TrackInfo / MailTypeCode
+23,TrackResponse / TrackInfo / MPDATE
+24,TrackResponse / TrackInfo / MPSUFFIX
+25,TrackResponse / TrackInfo / OriginCity
+26,TrackResponse / TrackInfo / OriginCountryCode
+27,TrackResponse / TrackInfo / OriginState
+28,TrackResponse / TrackInfo / OriginZip
+29,TrackResponse / TrackInfo / PodEnabled
+30,TrackResponse / TrackInfo / PredictedDeliveryDate
+31,TrackResponse / TrackInfo / RestoreEnabled
+32,TrackResponse / TrackInfo / RreEnabled
+33,TrackResponse / TrackInfo / Service
+34,TrackResponse / TrackInfo / ServiceTypeCode
+35,TrackResponse / TrackInfo / Status
+36,TrackResponse / TrackInfo / StatusCategory
+37,TrackResponse / TrackInfo / StatusSummary
+38,TrackResponse / TrackInfo / TABLECODE
+39,TrackResponse / TrackInfo / ValueofArticle
+40,TrackResponse / TrackInfo / TrackSummary
+41,TrackResponse / TrackInfo / TrackSummary / EventTime
+42,TrackResponse / TrackInfo / TrackSummary / EventDate
+43,TrackResponse / TrackInfo / TrackSummary / Event
+44,TrackResponse / TrackInfo / TrackSummary / EventCity
+45,TrackResponse / TrackInfo / TrackSummary / EventState
+46,TrackResponse / TrackInfo / TrackSummary / EventZIPCode
+47,TrackResponse / TrackInfo / TrackSummary / EventCountry
+48,TrackResponse / TrackInfo / TrackSummary / FirmName
+49,TrackResponse / TrackInfo / TrackSummary / Name
+50,TrackResponse / TrackInfo / TrackSummary / AuthorizedAgent
+51,TrackResponse / TrackInfo / TrackSummary / EventCode
+52,TrackResponse / TrackInfo / TrackSummary / ActionCode
+53,TrackResponse / TrackInfo / TrackSummary / ReasonCode
+54,TrackResponse / TrackInfo / TrackDetail
+55,TrackResponse / TrackInfo / TrackDetail / EventTime
+56,TrackResponse / TrackInfo / TrackDetail / EventDate
+57,TrackResponse / TrackInfo / TrackDetail / Event
+58,TrackResponse / TrackInfo / TrackDetail / EventCity
+59,TrackResponse / TrackInfo / TrackDetail / EventState
+60,TrackResponse / TrackInfo / TrackDetail / EventZIPCode
+61,TrackResponse / TrackInfo / TrackDetail / EventCountry
+62,TrackResponse / TrackInfo / TrackDetail / FirmName
+63,TrackResponse / TrackInfo / TrackDetail / Name
+64,TrackResponse / TrackInfo / TrackDetail / AuthorizedAgent
+65,TrackResponse / TrackInfo / TrackDetail / EventCode
+66,TrackResponse / TrackInfo / TrackDetail / ActionCode
+67,TrackResponse / TrackInfo / TrackDetail / ReasonCode

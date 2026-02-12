@@ -1,0 +1,80 @@
+id,title
+0,timestampOffset
+1,PhysicalDirectory
+2,UseHeaders
+3,FileType
+4,Recursive
+5,PhysicalArchiveDirectory
+6,PhysicalErrorArchiveDirectory
+7,UseRemoteArchive
+8,UseNlst
+9,DeleteFile
+10,IncludeFiles
+11,ExcludeFiles
+12,PollingFrequency
+13,MinimumAge
+14,PublishSize
+15,TriggerFilePhysicalDirectory
+16,TriggerFile
+17,TriggerFileStrategy
+18,MaxRaiseSize
+19,DirectorySeparator
+20,AsAttachment
+21,CharacterSet
+22,Encoding
+23,ContentType
+24,ListSorter
+25,SingleThreadModel
+26,ThreadCount
+27,recoveryInterval
+28,jca.message.encoding
+29,oracle.tip.adapter. file.debatching. rejection.quantum
+30,useFileSystem
+31,oracle.tip.adapter. file.timeout.recover picked.minutes
+32,oracle.tip.adapter. file.timeout. recoverunpicked.minutes
+33,purgeIntervalMillis
+34,oracle.tip.adapter.file. highavailability. maxRetryInterval
+35,oracle.tip.adapter.file. highavailability.maxRetry
+36,oracle.tip.adapter. file.rejectOriginalContent
+37,notifyEachBatchFailure
+38,PhysicalDirectory
+39,FileType
+40,NumberMessages
+41,ElapsedTime
+42,FileSize
+43,FileNamingConvention
+44,FileName
+45,Append
+46,UseStaging
+47,ConcurrentThreshold
+48,SequenceName
+49,oracle.tip.adapter. file.mutex
+50,serializeTranslation
+51,inMemoryTranslation
+52,FileType
+53,UseRemoteArchive
+54,DeleteFile
+55,IgnoreZeroByteFile
+56,IncludeFiles
+57,ExcludeFiles
+58,Recursive
+59,MaxRaiseSize
+60,DirectorySeparator
+61,UseNlst
+62,timestampOffset
+63,SourceFileName
+64,SourcePhysicalDirectory
+65,SourceType
+66,SourceSchema
+67,SourceSchemaRoot
+68,TargetFileName
+69,TargetPhysicalDirectory
+70,TargetType
+71,TargetSchema
+72,TargetSchemaRoot
+73,Xsl
+74,Type
+75,BatchSize
+76,SourceIsRemote
+77,TargetIsRemote
+78,ChunkSize

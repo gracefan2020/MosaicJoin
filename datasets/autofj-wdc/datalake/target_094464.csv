@@ -1,0 +1,58 @@
+id,title
+0,"category filterable, sortable, updatable"
+1,code
+2,"columns filterable, sortable"
+3,"created filterable, sortable"
+4,"credits filterable, sortable"
+5,"credits_per_prediction filterable, sortable, updatable"
+6,"dataset filterable, sortable"
+7,dataset_field_types
+8,"dataset_status filterable, sortable"
+9,description updatable
+10,dev
+11,"ensemble filterable, sortable"
+12,"ensemble_id filterable, sortable"
+13,"ensemble_index filterable, sortable"
+14,excluded_fields
+15,fields_meta
+16,input_fields
+17,locale
+18,"max_columns filterable, sortable"
+19,"max_rows filterable, sortable"
+20,"missing_splits filerable, sortable"
+21,model
+22,"name filterable, sortable, updatable"
+23,"node_threshold filterable, sortable"
+24,"number_of_batchpredictions filterable, sortable"
+25,"number_of_evaluations filterable, sortable"
+26,"number_of_predictions filterable, sortable"
+27,"number_of_public_predictions filterable, sortable"
+28,objective_field
+29,objective_fields
+30,"ordering filterable, sortable"
+31,"out_of_bag filterable, sortable"
+32,"price filterable, sortable, updatable"
+33,"private filterable, sortable, updatable"
+34,"project updatable, filterable, sortable"
+35,"randomize filterable, sortable"
+36,"random_candidates filterable, sortable"
+37,"random_candidate_ratio filterable, sortable"
+38,range
+39,"replacement filterable, sortable"
+40,resource
+41,"rows filterable, sortable"
+42,"sample_rate filterable, sortable"
+43,"seed filterable, sortable"
+44,"selective_pruning filterable, sortable"
+45,"shared filterable, sortable, updatable"
+46,shared_hash
+47,sharing_key
+48,"size filterable, sortable"
+49,"source filterable, sortable"
+50,"source_status filterable, sortable"
+51,"stat_pruning filterable, sortable"
+52,status
+53,"subscription filterable, sortable"
+54,tags updatable
+55,"updated filterable, sortable"
+56,"white_box filterable, sortable"

@@ -1,0 +1,89 @@
+id,title
+0,Ambient blackbody temperature - apex
+1,Ambient blackbody temperature
+2,Ambient blackbody temperature - rim top
+3,Ambient blackbody temperature - apex
+4,Ambient blackbody temperature
+5,Ambient blackbody temperature - rim top
+6,Observation Altitude
+7,Blackbody controller Unit 1 power supply temperature
+8,Blackbody controller Unit 2 power supply temperature
+9,Temperature of the AERI blackbody support structure
+10,Blackbody controller Unit 1 power supply temperature
+11,Blackbody controller Unit 2 power supply temperature
+12,Temperature of the AERI blackbody support structure
+13,Hot blackbody temperature - apex
+14,Hot blackbody temperature - rim bottom
+15,Hot blackbody temperature - rim top
+16,Hot blackbody temperature - apex
+17,Hot blackbody temperature - rim bottom
+18,Hot blackbody temperature - rim top
+19,Julian Day including day and fraction of day
+20,Observation latitude
+21,Observation longitude
+22,Signal conditioning electronics inside air temperature
+23,Time at center of AERI sky observation period
+24,Ambient air temperature near blackbodies
+25,Ambient air temperature near blackbodies
+26,Altitude above mean sea level
+27,Observation atmospheric pressure in AERI electronics
+28,Relative humidity measured near Blackbodies. Use with Air Temperature Near BBs only.
+29,Observation atmospheric pressure in AERI electronics
+30,Relative humidity measured near Blackbodies. Use with Air Temperature Near BBs only.
+31,Base time in Epoch
+32,Ambient temperature used in calibration
+33,Cold blackbody temperature used in calibration
+34,Hot blackbody temperature used in calibration
+35,Cold blackbody temperature used in calibration
+36,Hot blackbody temperature used in calibration
+37,Ambient temperature used in calibration
+38,AERI ingest computer temperature measured at back panel of computer
+39,AERI ingest computer temperature measured at back panel of computer
+40,Stirling cooler compressor temperature measured at compressor heatsink
+41,Stirling cycle cooler current
+42,Stirling cycle cooler expander temperature
+43,Stirling cooler power supply temperature measured at power supply frame
+44,Stirling cooler compressor temperature measured at compressor heatsink
+45,Stirling cycle cooler current
+46,Stirling cycle cooler expander temperature
+47,Stirling cooler power supply temperature measured at power supply frame
+48,Detector temperature sensed via diode near detector
+49,Detector temperature sensed via diode near detector
+50,Resistive temperature of 12 Kohm fixed resistor located in SCE-P3 shell
+51,Resistive temperature of 97 Kohm fixed resistor located in SCE-P4 shell
+52,Resistive temperature of 2500 Ohm fixed resistor - banana plug mounted
+53,"AERI instrument hatch indicator (open, closed, neither)"
+54,AERI instrument hatch indicator
+55,AERI interferometer temperature at second port
+56,AERI interferometer temperature at second port
+57,North latitude
+58,East longitude
+59,Longwave spectral radiance Downwelling radiance interpolated to standard wavenumber scale
+60,Scene mirror motor case temperature
+61,Scene mirror motor case temperature
+62,Logical flag indicating that a data record is missing (true/false)
+63,Logical flag indicating that a data record is missing
+64,Scene mirror motor driver heat sink temperature
+65,Scene mirror motor driver heat sink temperature
+66,Ambient air temperature at hatch opening
+67,Ambient air temperature at hatch opening
+68,Electronics rack ambient temperature measured at inside top of rack
+69,Electronics rack ambient temperature measured at inside top of rack
+70,Downwelling radiance interpolated to standard wavenumber scale
+71,Difference between the sky view's radiance variance and the hot black body view's variance
+72,Time at end of interferometer data collection
+73,Resistive temperature of 12 Kohm fixed resistor located in SCE-P3 shell
+74,Resistive temperature of 97 Kohm fixed resistor located in SCE-P4 shell
+75,Resistive temperature of 2500 Ohm fixed resistor - banana plug mounted
+76,Scene mirror position encoder value
+77,Scene mirror position encoder value
+78,Signal conditioning electronics inside air temperature
+79,Spare temperature sensor (location TBD)
+80,Spare temperature sensor (location TBD)
+81,Difference between the sky view's radiance variance and the hot black body view's variance
+82,Time offset from midnight
+83,Time in hhmmss format at center of AERI sky observation period
+84,Time cell bounds
+85,Time offset from base_time
+86,Wave number in reciprocal centimeters
+87,Wave number for sky and hot view's radiance variance difference

@@ -1,0 +1,490 @@
+id,title
+0,striated muscle cell differentiation
+1,replacement ossification
+2,pigmentation
+3,phyllome development
+4,flower development
+5,endochondral ossification
+6,striated muscle tissue development
+7,reproductive process
+8,shoot system development
+9,regulation of shoot system development
+10,floral organ development
+11,cellular response to calcium ion
+12,floral whorl development
+13,positive regulation of nitrogen compound metabolic process
+14,regulation of post-embryonic development
+15,reproductive structure development
+16,RNA biosynthetic process
+17,positive regulation of RNA metabolic process
+18,positive regulation of cellular metabolic process
+19,organ formation
+20,regulation of RNA metabolic process
+21,regulation of biosynthetic process
+22,regulation of protein homodimerization activity
+23,single-organism developmental process
+24,regulation of cellular metabolic process
+25,chondrocyte differentiation
+26,pollen development
+27,single-multicellular organism process
+28,positive regulation of biosynthetic process
+29,muscle cell differentiation
+30,bone morphogenesis
+31,blood vessel remodeling
+32,gametophyte development
+33,regulation of myeloid cell apoptotic process
+34,osteoblast differentiation
+35,cellular response to inorganic substance
+36,positive regulation of leukocyte apoptotic process
+37,positive regulation of macromolecule metabolic process
+38,cellular developmental process
+39,regulation of megakaryocyte differentiation
+40,neuroepithelial cell differentiation
+41,nucleobase-containing compound biosynthetic process
+42,regulation of flower development
+43,bone development
+44,regulation of nitrogen compound metabolic process
+45,pollination
+46,regulation of cardiac muscle cell proliferation
+47,cell tip growth
+48,positive regulation of binding
+49,regulation of cardiac muscle tissue growth
+50,B cell proliferation
+51,B cell homeostasis
+52,positive regulation of cardiac muscle cell proliferation
+53,"regulation of transcription, DNA-dependent"
+54,regulation of protein binding
+55,determination of left/right symmetry
+56,negative regulation of reproductive process
+57,response to temperature stimulus
+58,regulation of myoblast differentiation
+59,positive regulation of transcription from RNA polymerase II promoter
+60,cellular response to glucose stimulus
+61,regulation of leukocyte apoptotic process
+62,cardiac muscle cell differentiation
+63,positive regulation of muscle cell differentiation
+64,mitochondrial genome maintenance
+65,heart development
+66,cellular response to hexose stimulus
+67,cellular response to monosaccharide stimulus
+68,regulation of phosphatase activity
+69,nephron epithelium development
+70,determination of bilateral symmetry
+71,regulation of dephosphorylation
+72,positive regulation of B cell activation
+73,multicellular organismal development
+74,embryonic heart tube development
+75,macromolecule biosynthetic process
+76,lymphocyte homeostasis
+77,cartilage development
+78,pollen tube development
+79,cardiac cell development
+80,cellular glucose homeostasis
+81,mitochondrion localization
+82,muscle cell fate commitment
+83,biological regulation
+84,cardiac chamber morphogenesis
+85,regulation of RNA biosynthetic process
+86,tissue remodeling
+87,positive regulation of behavior
+88,cardiac chamber development
+89,positive regulation of neuron differentiation
+90,mononuclear cell proliferation
+91,antigen receptor-mediated signaling pathway
+92,regulation of B cell activation
+93,epithelial cell proliferation
+94,columnar/cuboidal epithelial cell differentiation
+95,response to external stimulus
+96,epithelial tube morphogenesis
+97,cognition
+98,negative regulation of neuron apoptotic process
+99,positive regulation of biological process
+100,developmental pigmentation
+101,skeletal system morphogenesis
+102,pollen tube growth
+103,cellular response to molecule of bacterial origin
+104,positive regulation of lymphocyte proliferation
+105,cellular response to drug
+106,positive regulation of mononuclear cell proliferation
+107,kidney epithelium development
+108,regulation of heart growth
+109,regulation of muscle cell differentiation
+110,cellular response to carbohydrate stimulus
+111,response to glucose stimulus
+112,regulation of adaptive immune response
+113,unidimensional cell growth
+114,actin cytoskeleton organization
+115,regulation of macromolecule metabolic process
+116,myofibril assembly
+117,positive regulation of striated muscle cell differentiation
+118,stem cell differentiation
+119,cellular response to organic cyclic compound
+120,response to hexose stimulus
+121,regulation of transmission of nerve impulse
+122,intracellular protein kinase cascade
+123,response to monosaccharide stimulus
+124,cell wall organization
+125,regulation of cardiac muscle tissue development
+126,cellular response to lipid
+127,adaptive immune response based on somatic recombination of immune receptors built from immunoglobuli
+128,regulation of synapse structure and activity
+129,glucose homeostasis
+130,lymphocyte proliferation
+131,regulation of lymphocyte proliferation
+132,regulation of neuron death
+133,cell fate determination
+134,regulation of primary metabolic process
+135,immune response-regulating signaling pathway
+136,response to transforming growth factor beta stimulus
+137,activation of immune response
+138,positive regulation of lymphocyte activation
+139,urogenital system development
+140,morphogenesis of an epithelium
+141,regulation of response to stress
+142,regulation of response to stimulus
+143,positive regulation of cell differentiation
+144,positive regulation of apoptotic process
+145,positive regulation of cell death
+146,regulation of cell death
+147,regulation of programmed cell death
+148,regulation of apoptotic process
+149,negative regulation of biological process
+150,nephron development
+151,kidney development
+152,response to growth factor stimulus
+153,cellular response to organic substance
+154,cellular response to hormone stimulus
+155,cellular homeostasis
+156,response to antibiotic
+157,response to biotic stimulus
+158,response to molecule of bacterial origin
+159,response to other organism
+160,cellular component assembly
+161,positive regulation of cell proliferation
+162,multicellular organismal signaling
+163,regulation of heart contraction
+164,membrane organization
+165,regulation of multicellular organismal development
+166,regulation of organ growth
+167,cell-cell signaling
+168,system development
+169,cell development
+170,cardiac muscle cell development
+171,cellular macromolecule localization
+172,regulation of neurological system process
+173,response to metal ion
+174,positive regulation of leukocyte activation
+175,regulation of lymphocyte activation
+176,regulation of leukocyte activation
+177,neurological system process
+178,regulation of immune system process
+179,signaling
+180,single organism signaling
+181,cell surface receptor signaling pathway
+182,immune response-activating cell surface receptor signaling pathway
+183,cell communication
+184,regulation of signaling
+185,regulation of cell communication
+186,transmission of nerve impulse
+187,multi-organism reproductive process
+188,neurogenesis
+189,neuron projection morphogenesis
+190,neuron development
+191,neuron differentiation
+192,cell morphogenesis involved in neuron differentiation
+193,cell projection morphogenesis
+194,regulation of muscle organ development
+195,post-embryonic morphogenesis
+196,post-embryonic organ morphogenesis
+197,lymphocyte activation
+198,cell activation
+199,regulation of biological process
+200,regulation of muscle tissue development
+201,regulation of cell differentiation
+202,regulation of neuron differentiation
+203,regulation of neurogenesis
+204,regulation of skeletal muscle tissue development
+205,regulation of skeletal muscle fiber development
+206,cellular metabolic process
+207,metabolic process
+208,negative regulation of programmed cell death
+209,chemical homeostasis
+210,cell morphogenesis
+211,cellular response to stimulus
+212,response to nitrogen compound
+213,cellular response to organonitrogen compound
+214,regulation of phosphorus metabolic process
+215,embryo development
+216,organic substance metabolic process
+217,response to chemical stimulus
+218,cell proliferation
+219,organic substance biosynthetic process
+220,cellular nitrogen compound metabolic process
+221,nucleobase-containing compound metabolic process
+222,nucleic acid metabolic process
+223,regulation of leukocyte proliferation
+224,muscle cell development
+225,striated muscle cell development
+226,myeloid cell differentiation
+227,hemopoiesis
+228,immune system development
+229,cellular biosynthetic process
+230,primary metabolic process
+231,mesenchymal cell differentiation
+232,regulation of molecular function
+233,positive regulation of catalytic activity
+234,regulation of hydrolase activity
+235,macromolecule metabolic process
+236,stem cell maintenance
+237,anatomical structure development
+238,cellular component organization
+239,biological_process
+240,cellular process
+241,single-organism process
+242,developmental cell growth
+243,specification of symmetry
+244,developmental growth involved in morphogenesis
+245,meiotic cell cycle
+246,cell cycle
+247,response to radiation
+248,response to stress
+249,behavior
+250,response to extracellular stimulus
+251,regulation of cellular macromolecule biosynthetic process
+252,circulatory system development
+253,cardiac ventricle morphogenesis
+254,cardiac ventricle development
+255,tube morphogenesis
+256,regionalization
+257,positive regulation of immune response
+258,adaptive immune response
+259,epithelial cell differentiation
+260,endochondral bone morphogenesis
+261,homeostasis of number of cells
+262,homeostatic process
+263,developmental process
+264,multicellular organismal process
+265,regulation of metabolic process
+266,single-organism cellular process
+267,localization
+268,nitrogen compound metabolic process
+269,response to stimulus
+270,cellular macromolecule metabolic process
+271,cellular aromatic compound metabolic process
+272,heterocycle metabolic process
+273,biosynthetic process
+274,organic cyclic compound metabolic process
+275,regulation of cellular process
+276,cellular component organization or biogenesis
+277,regulation of gene expression
+278,reproduction
+279,positive regulation of metabolic process
+280,regulation of cellular biosynthetic process
+281,regulation of macromolecule biosynthetic process
+282,positive regulation of cellular process
+283,regulation of nucleobase-containing compound metabolic process
+284,regulation of developmental process
+285,organ development
+286,cellular nitrogen compound biosynthetic process
+287,heterocycle biosynthetic process
+288,aromatic compound biosynthetic process
+289,cellular macromolecule biosynthetic process
+290,organic cyclic compound biosynthetic process
+291,RNA metabolic process
+292,tissue development
+293,gene expression
+294,response to abiotic stimulus
+295,regulation of multicellular organismal process
+296,negative regulation of cellular process
+297,cellular response to stress
+298,response to endogenous stimulus
+299,cellular response to chemical stimulus
+300,response to organic substance
+301,cellular component biogenesis
+302,organelle organization
+303,cell differentiation
+304,macromolecule localization
+305,cellular localization
+306,positive regulation of molecular function
+307,system process
+308,positive regulation of response to stimulus
+309,immune system process
+310,signal transduction
+311,multi-organism process
+312,nervous system development
+313,regulation of phosphate metabolic process
+314,response to oxygen-containing compound
+315,regulation of catalytic activity
+316,anatomical structure morphogenesis
+317,regulation of biological quality
+318,positive regulation of gene expression
+319,positive regulation of nucleobase-containing compound metabolic process
+320,reproductive system development
+321,positive regulation of macromolecule biosynthetic process
+322,developmental process involved in reproduction
+323,"transcription, DNA-dependent"
+324,cell wall organization or biogenesis
+325,positive regulation of cellular biosynthetic process
+326,muscle structure development
+327,response to light stimulus
+328,muscle tissue development
+329,anatomical structure formation involved in morphogenesis
+330,cellular process involved in reproduction
+331,organelle assembly
+332,response to inorganic substance
+333,intracellular signal transduction
+334,cellular component morphogenesis
+335,actin filament-based process
+336,response to lipid
+337,organ morphogenesis
+338,tube development
+339,epithelium development
+340,tissue morphogenesis
+341,regulation of defense response
+342,response to organic cyclic compound
+343,response to hormone stimulus
+344,cellular response to endogenous stimulus
+345,cellular chemical homeostasis
+346,cellular response to oxygen-containing compound
+347,response to bacterium
+348,regulation of cell proliferation
+349,regulation of system process
+350,regulation of growth
+351,positive regulation of multicellular organismal process
+352,organelle localization
+353,regulation of cell activation
+354,positive regulation of immune system process
+355,synaptic transmission
+356,multi-multicellular organism process
+357,cell projection organization
+358,positive regulation of developmental process
+359,negative regulation of developmental process
+360,mitochondrion organization
+361,leukocyte activation
+362,regulation of transcription from RNA polymerase II promoter
+363,generation of neurons
+364,regulation of cell development
+365,regulation of nervous system development
+366,negative regulation of cell death
+367,response to organonitrogen compound
+368,cellular response to nitrogen compound
+369,embryonic organ development
+370,cytoskeleton organization
+371,hematopoietic or lymphoid organ development
+372,positive regulation of hydrolase activity
+373,growth
+374,single-organism behavior
+375,response to nutrient levels
+376,cardiovascular system development
+377,embryonic morphogenesis
+378,regulation of immune response
+379,immune response
+380,post-embryonic organ development
+381,transcription from RNA polymerase II promoter
+382,regulation of reproductive process
+383,external encapsulating structure organization
+384,response to cold
+385,post-embryonic development
+386,response to calcium ion
+387,cardiocyte differentiation
+388,"positive regulation of transcription, DNA-dependent"
+389,MAPK cascade
+390,negative regulation of multicellular organismal process
+391,response to UV
+392,ossification
+393,cardiac muscle tissue development
+394,cellular response to metal ion
+395,leukocyte homeostasis
+396,regulation of adaptive immune response based on somatic recombination of immune receptors built from
+397,regulation of binding
+398,membrane fusion
+399,leukocyte proliferation
+400,cellular component assembly involved in morphogenesis
+401,positive regulation of defense response
+402,negative regulation of neuron death
+403,regulation of striated muscle tissue development
+404,actomyosin structure organization
+405,connective tissue development
+406,regulation of synaptic transmission
+407,cellular response to biotic stimulus
+408,humoral immune response
+409,regulation of neuron apoptotic process
+410,response to toxic substance
+411,regulation of behavior
+412,pattern specification process
+413,immune response-activating signal transduction
+414,cell growth
+415,carbohydrate homeostasis
+416,regulation of mononuclear cell proliferation
+417,learning or memory
+418,muscle organ development
+419,positive regulation of leukocyte proliferation
+420,immune response-regulating cell surface receptor signaling pathway
+421,skeletal system development
+422,renal system development
+423,regulation of striated muscle cell differentiation
+424,positive regulation of programmed cell death
+425,response to carbohydrate stimulus
+426,regulation of developmental growth
+427,positive regulation of cell activation
+428,neuron projection development
+429,cell part morphogenesis
+430,regulation of myeloid cell differentiation
+431,negative regulation of apoptotic process
+432,cell fate commitment
+433,B cell activation
+434,cell morphogenesis involved in differentiation
+435,response to drug
+436,mesenchyme development
+437,stem cell development
+438,negative regulation of cell differentiation
+439,developmental growth
+440,heart morphogenesis
+441,embryonic organ morphogenesis
+442,molecular_function
+443,histone deacetylase binding
+444,transcription regulatory region sequence-specific DNA binding
+445,regulatory region nucleic acid binding
+446,heterocyclic compound binding
+447,organic cyclic compound binding
+448,sequence-specific DNA binding
+449,RNA polymerase II regulatory region DNA binding
+450,regulatory region DNA binding
+451,protein binding
+452,binding
+453,nucleic acid binding
+454,nucleic acid binding transcription factor activity
+455,DNA binding
+456,chromatin binding
+457,enzyme binding
+458,RNA binding
+459,transcription regulatory region DNA binding
+460,sequence-specific DNA binding transcription factor activity
+461,transcription factor binding
+462,nucleus
+463,nuclear lumen
+464,nucleoplasm
+465,cellular_component
+466,membrane-bounded organelle
+467,intracellular organelle
+468,organelle
+469,cell part
+470,cell
+471,intracellular part
+472,intracellular
+473,organelle lumen
+474,membrane-enclosed lumen
+475,organelle part
+476,nuclear chromosome
+477,chromosomal part
+478,non-membrane-bounded organelle
+479,intracellular membrane-bounded organelle
+480,intracellular organelle part
+481,intracellular non-membrane-bounded organelle
+482,intracellular organelle lumen
+483,nuclear part
+484,nucleoplasm part
+485,chromosome
+486,nuclear body
+487,chromatin
+488,nuclear chromosome part

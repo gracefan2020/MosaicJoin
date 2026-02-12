@@ -1,0 +1,278 @@
+id,title
+0,64-bit large objects
+1,Advisory locks
+2,ALTER object IF EXISTS
+3,ALTER SYSTEM
+4,ALTER TABLE ... ADD UNIQUE/PRIMARY KEY USING INDEX
+5,ALTER TABLE ... SET LOGGED / UNLOGGED
+6,Autovacuum enabled by default
+7,Cascading streaming replication
+8,Changing column types (ALTER TABLE .. ALTER COLUMN TYPE)
+9,Checksum on data pages
+10,Column level permissions
+11,Common Table Expressions (WITH RECURSIVE)
+12,Concurrent GiST indexes
+13,COPY from/to STDIN/STDOUT
+14,COPY with arbitrary SELECT
+15,Crash-safe GiST indexes
+16,"CREATE TABLE ... (LIKE) with foreign tables, views and composite types"
+17,CSV support for COPY
+18,Custom background workers
+19,Default permissions
+20,Deferrable unique constraints
+21,Disk based FSM
+22,Dollar Quoting
+23,DROP object IF EXISTS
+24,Dynamic Background Workers
+25,Exclusion constraints
+26,EXPLAIN (BUFFERS) support
+27,Extension package installation
+28,Foreign data wrappers
+29,Foreign table inheritance
+30,Foreign Tables
+31,Full code coverage generation support
+32,GRANT/REVOKE ON ALL TABLES/SEQUENCES/FUNCTIONS
+33,"GROUPING SETS, CUBE and ROLLUP support"
+34,Holdable cursors
+35,Hot Standby
+36,IMPORT FOREIGN SCHEMA
+37,Improved set of JSON functions and operators
+38,INSERT ... ON CONFLICT DO NOTHING/UPDATE
+39,INSERT/UPDATE/DELETE RETURNING
+40,Integrated autovacuum daemon
+41,Join removal support
+42,JSONB-modifying operators and functions
+43,LATERAL clause
+44,Loadable plugin infrastructure for monitoring the planner
+45,Materialized views
+46,Materialized views with concurrent refresh
+47,min_wal_size / max_wal_size
+48,Multiple autovacuum workers
+49,Multiple input aggregates
+50,Multirow VALUES
+51,MVCC safe CLUSTER
+52,Named restore points
+53,ON COMMIT clause for CREATE TEMPORARY TABLE
+54,ORDER BY NULLS FIRST/LAST
+55,Parallel pg_dump
+56,Payload support for LISTEN/NOTIFY
+57,Per tablespace support for GUCs
+58,Per user/database server configuration settings
+59,Pg_basebackup tool
+60,pg_receivexlog tool
+61,Point-in-Time Recovery
+62,Prefix support for text search synonym dictionary
+63,Replication Slots
+64,Row-wise comparison
+65,Savepoints
+66,SELECT FOR NO KEY UPDATE/SELECT FOR KEY SHARE lock modes
+67,Serializable Snapshot Isolation
+68,SP-GiST indexes for range types
+69,SQLDA support for ECPG
+70,SQL-standard information schema
+71,SQL standard interval handling
+72,Streaming-only cascading replication
+73,Streaming Replication
+74,Support for anonymous shared memory
+75,Synchronous replication
+76,TABLE statement
+77,Temporary VIEWs
+78,Time-delayed Standbys
+79,Two Phase commit
+80,Txid functions
+81,Typed tables
+82,UNNEST/array_agg
+83,Updatable views
+84,Updateable cursors
+85,Version aware psql
+86,Visibility map
+87,WAL-safe B-Tree Indexes
+88,Warm Standby
+89,Window functions
+90,WITH CHECK clause
+91,WITHIN GROUP clause
+92,WITH ORDINALITY clause
+93,Writable Common Table Expressions
+94,Writable Foreign Data Wrappers
+95,"XML, JSON and YAML output for EXPLAIN"
+96,Performance
+97,Abbreviated Keys
+98,Asynchronous Commit
+99,Automatic plan invalidation
+100,Background Checkpointer
+101,Background Writer
+102,Base backup throttling
+103,Block-range indexes
+104,Cross datatype hashing support
+105,Distributed checkpointing
+106,Foreign keys marked as NOT VALID
+107,Full Text Search
+108,GIN (Generalized Inverted Index) Indexes
+109,GIN indexes partial match
+110,GIN Index performance and size improvements
+111,GiST (Generalized Search Tree) Indexes
+112,Hashing support for DISTINCT/UNION/INTERSECT/EXCEPT
+113,"Hashing support for FULL OUTER JOIN, LEFT OUTER JOIN and RIGHT OUTER JOIN"
+114,Hashing support for NUMERIC
+115,Heap Only Tuples (HOT)
+116,Indexes on expressions
+117,Index-only scans
+118,Index-only scans on GiST
+119,Index support for IS NULL
+120,Inlining of SQL-functions
+121,In-memory Bitmap Indexes
+122,K-nearest neighbor GiST support
+123,Lazy XID allocation
+124,Multi-core scalability for read-only workloads
+125,Multiple temporary tablespaces
+126,Non-blocking CREATE INDEX
+127,Outer Join reordering
+128,Parallel restore
+129,Parallel VACUUM
+130,Partial sort capability (top-n sorting)
+131,pg_prewarm
+132,Reduced lock levels for ALTER TABLE commands
+133,SELECT ... FOR UPDATE/SHARE NOWAIT
+134,Semi- and Antijoins
+135,Shared row level locking
+136,SKIP LOCKED clause
+137,Space-Partitioned GiST Indexes
+138,Synchronized sequential scanning
+139,Table partitioning
+140,TABLESAMPLE clause
+141,Tablespaces
+142,Unlogged tables
+143,WAL Buffer auto-tuning
+144,Security
+145,GSSAPI support
+146,krb5 authentication (without gssapi)
+147,Large object access controls
+148,Native LDAP authentication
+149,Native RADIUS authentication
+150,Per user/database connection limits
+151,ROLES
+152,Row-Level Security
+153,Search+bind mode operation for LDAP authentication
+154,security_barrier option on views
+155,Security Service Provider Interface (SSPI)
+156,SSL certificate validation in libpq
+157,SSL client certificate authentication
+158,SSPI authentication via GSSAPI
+159,Network
+160,Full SSL support
+161,IPv6 Support
+162,V2 client protocol
+163,V3 client protocol
+164,Internationalisation
+165,Column-level collation support
+166,Database level Collation
+167,EUC_JIS_2004/ SHIFT_JIS_2004 support
+168,"Multibyte encoding support, incl. UTF8"
+169,Multiple language support
+170,Unicode string literals and identifiers
+171,UTF8 support on Windows
+172,Platforms
+173,Microsoft Visual C++ Support
+174,Native Windows Port
+175,Spinlock support for the SuperH hardware platform
+176,Sun Studio compiler on Linux
+177,Windows x64 support
+178,Datatypes
+179,Arrays of compound types
+180,Array support
+181,ENUM data type
+182,GUID/UUID data type
+183,IS0 8601 interval syntax
+184,JSONB data type
+185,JSON data type
+186,NULLs in Array
+187,Range types
+188,smallserial type
+189,Type modifier support
+190,XML data type
+191,Functions and triggers
+192,ALTER TABLE ENABLE/DISABLE TRIGGER
+193,ALTER TABLE / ENABLE REPLICA TRIGGER/RULE
+194,Column level triggers
+195,Event triggers
+196,FILTER clause for aggregate functions
+197,Function argument names
+198,ORDER BY support within aggregates
+199,Per function GUC settings
+200,Per function statistics
+201,RETURN QUERY EXECUTE
+202,RETURNS TABLE
+203,Statement level triggers
+204,Statement level TRUNCATE triggers
+205,Triggers on views
+206,Variadic functions
+207,WHEN clause for CREATE TRIGGER
+208,Procedural Languages
+209,CASE in pl/pgsql
+210,CONTINUE statement for PL/pgSQL
+211,CREATE TRANSFORM
+212,DO statement for pl/perl
+213,DO statement for pl/pgsql
+214,EXCEPTION support in PL/pgSQL
+215,EXECUTE USING in PL/pgSQL
+216,FOREACH IN ARRAY in pl/pgsql
+217,IN/OUT/INOUT parameters for pl/pgsql and PL/SQL
+218,Named parameters
+219,Non-superuser language creation
+220,Number of function arguments increased to 100
+221,pl/pgsql installed by default
+222,Polymorphic functions
+223,Python 3 support for pl/python
+224,Qualified function parameters
+225,RETURN QUERY in pl/pgsql
+226,ROWS and COST specification for functions
+227,Scrollable and updatable cursor support for pl/pgsql
+228,SQLERRM/SQLSTATE for pl/pgsql
+229,Unicode object support in PL/python
+230,User defined exceptions
+231,Validator function for pl/perl
+232,contrib modules
+233,contrib/adminpack
+234,contrib/auth_delay
+235,contrib/autoexplain
+236,contrib/btree_gin
+237,contrib/btree_gist
+238,contrib/citext
+239,contrib/dblink
+240,contrib/dblink asyncronous notification support
+241,contrib/dbsize
+242,contrib/file_fdw
+243,contrib/fuzzystrmatch
+244,contrib/hstore
+245,contrib/hstore improvements
+246,contrib/intarray
+247,contrib/isn (ISBN)
+248,contrib/ltree
+249,contrib/pageinspect
+250,contrib/passwordcheck
+251,contrib/pg_autovacuum
+252,contrib/pgbench
+253,contrib/pg_buffercache
+254,contrib/pg_freespacemap
+255,contrib/pg_rewind
+256,contrib/pg_standby
+257,contrib/pg_stat_statements
+258,contrib/pg_stat_statements improvements
+259,contrib/pgstattuple
+260,contrib/pg_trgm
+261,contrib/pg_trgm regular expressions indexing
+262,contrib/pg_upgrade
+263,contrib/pg_xlogdump
+264,contrib/postgres_fdw
+265,contrib/seg
+266,contrib/sepgsql
+267,contrib/sslinfo
+268,contrib/tablefunc
+269,contrib/tcn
+270,contrib/tsearch2
+271,contrib/tsearch2 compat wrapper
+272,contrib/tsearch2 UTF8 support
+273,contrib/unaccent
+274,contrib/userlocks
+275,contrib/uuid-ossp
+276,contrib/xml2

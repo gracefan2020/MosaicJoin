@@ -1,0 +1,179 @@
+id,title
+0,Numeric data types
+1,INTEGER and SMALLINT data types (including all spellings)
+2,"REAL, DOUBLE PRECISON, and FLOAT data types"
+3,DECIMAL and NUMERIC data types
+4,Arithmetic operators
+5,Numeric comparison
+6,Implicit casting among the numeric data types
+7,Character string types
+8,CHARACTER data type (including all its spellings)
+9,CHARACTER VARYING data type (including all its spellings)
+10,Character literals
+11,CHARACTER_LENGTH function
+12,OCTET_LENGTH function
+13,SUBSTRING function
+14,Character concatenation
+15,UPPER and LOWER functions
+16,TRIM function
+17,Implicit casting among the fixed-length and variable-length character string types
+18,POSITION function
+19,Character comparison
+20,Identifiers
+21,Delimited identifiers
+22,Lower case identifiers
+23,Trailing underscore
+24,Basic query specification
+25,SELECT DISTINCT
+26,GROUP BY clause
+27,GROUP BY can contain columns not in
+28,Select list items can be renamed
+29,HAVING clause
+30,Qualified * in select list
+31,Correlation names in the FROM clause
+32,Rename columns in the FROM clause
+33,Basic predicates and search conditions
+34,Comparison predicate
+35,BETWEEN predicate
+36,IN predicate with list of values
+37,LIKE predicate
+38,LIKE predicate: ESCAPE clause
+39,NULL predicate
+40,Quantified comparison predicate
+41,EXISTS predicate
+42,Subqueries in comparison predicate
+43,Subqueries in IN predicate
+44,Subqueries in quantified comparison predicate
+45,Correlated subqueries
+46,Search condition
+47,Basic query expressions
+48,UNION DISTINCT table operator
+49,UNION ALL table operator
+50,EXCEPT DISTINCT table operator
+51,Columns combined via table operators need not have exactly the same data type
+52,Table operators in subqueries
+53,Basic Privileges
+54,SELECT privilege at the table level
+55,DELETE privilege
+56,INSERT privilege at the table level
+57,UPDATE privilege at the table level
+58,UPDATE privilege at the column level
+59,REFERENCES privilege at the table level
+60,REFERENCES privilege at the column level
+61,WITH GRANT OPTION
+62,USAGE privilege
+63,EXECUTE privilege
+64,Set functions
+65,AVG
+66,COUNT
+67,MAX
+68,MIN
+69,SUM
+70,ALL quantifier
+71,DISTINCT quantifier
+72,Basic data manipulation
+73,INSERT statement
+74,Searched UPDATE statement
+75,Searched DELETE statement
+76,Single row SELECT statement
+77,Basic cursor support
+78,DECLARE CURSOR
+79,ORDER BY columns need not be in select list
+80,Value expressions in ORDER BY clause
+81,OPEN statement
+82,Positioned UPDATE statement
+83,Positioned DELETE statement
+84,CLOSE statement
+85,FETCH statement: implicit NEXT
+86,WITH HOLD cursors
+87,Null value support (nulls in lieu of values)
+88,Basic integrity constraints
+89,NOT NULL constraints
+90,UNIQUE constraints of NOT NULL columns
+91,PRIMARY KEY constraints
+92,Basic FOREIGN KEY constraint with the NO ACTION default for both referential delete action and referential update action
+93,CHECK constraints
+94,Column defaults
+95,NOT NULL inferred on PRIMARY KEY
+96,Names in a foreign key can be specified in any order
+97,Transaction support
+98,COMMIT statement
+99,ROLLBACK statement
+100,Basic SET TRANSACTION statement
+101,SET TRANSACTION statement: ISOLATION LEVEL SERIALIZABLE clause
+102,SET TRANSACTION statement: READ ONLY and READ WRITE clauses
+103,Updatable queries with subqueries
+104,SQL comments using leading double minus
+105,SQLSTATE support
+106,"Host language Binding (previously ""Module Language"") NOTE-2)"
+107,Basic information schema
+108,COLUMNS view
+109,TABLES view
+110,VIEWS view
+111,TABLE_CONSTRAINTS view
+112,REFERENTIAL_CONSTRAINTS view
+113,CHECK_CONSTRAINTS view
+114,Basic schema manipulation
+115,CREATE TABLE statement to create persistent base tables
+116,CREATE VIEW statement
+117,GRANT statement
+118,ALTER TABLE statement: ADD COLUMN clause
+119,DROP TABLE statement: RESTRICT clause
+120,DROP VIEW statement: RESTRICT clause
+121,REVOKE statement: RESTRICT clause
+122,Basic joined table
+123,Inner join (but not necessarily the INNER keyword)
+124,INNER keyword
+125,LEFT OUTER JOIN
+126,RIGHT OUTER JOIN
+127,Outer joins can be nested
+128,The inner table in a left or right outer join can also be used in an inner join
+129,All comparison operators are supported (rather than just =)
+130,Basic date and time
+131,DATE data type (including support of DATE literal)
+132,TIME data type (including support of TIME literal) with fractional seconds precision of at least 0
+133,TIMESTAMP data type (including support of TIMESTAMP literal) with fractional seconds precision of at least 0 and 6
+134,"Comparison predicate on DATE, TIME, and TIMESTAMP data types"
+135,Explicit CAST between datetime types and character string types
+136,CURRENT_DATE
+137,LOCALTIME
+138,LOCALTIMESTAMP
+139,UNION and EXCEPT in views
+140,Grouped operations
+141,"WHERE, GROUP BY, and HAVING clauses supported in queries with grouped views"
+142,Multiple tables supported in queries with grouped views
+143,Set functions supported in queries with grouped views
+144,Subqueries with GROUP BY and HAVING clauses and grouped views
+145,Single row SELECT with GROUP BY and HAVING clauses and grouped views
+146,Multiple module support NOTE-3)
+147,CAST function NOTE-4)
+148,Explicit defaults NOTE-5)
+149,CASE expression
+150,Simple CASE
+151,Searched CASE
+152,NULLIF
+153,COALESCE
+154,Schema definition statement
+155,CREATE SCHEMA
+156,CREATE TABLE for persistent base tables
+157,CREATE VIEW
+158,CREATE VIEW: WITH CHECK OPTION
+159,GRANT statement
+160,Scalar subquery values
+161,Expanded NULL predicate
+162,Features and conformance views
+163,SQL_FEATURES view
+164,SQL_SIZING view
+165,SQL_LANGUAGES view
+166,Basic flagging NOTE-6)
+167,Distinct data types
+168,USER_DEFINED_TYPES view
+169,Basic SQL-invoked routines NOTE-8)
+170,User-defined functions with no overloading
+171,User-defined stored procedures with no overloading
+172,Function invocation
+173,CALL statement
+174,RETURN statement
+175,ROUTINES view
+176,PARAMETERS view
+177,IN predicate with one list element

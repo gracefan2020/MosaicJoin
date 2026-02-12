@@ -1,0 +1,51 @@
+id,title
+0,Mollom API UTC incorrect time
+1,Add support for HHVM with no SimpleXMLIterator bundle
+2,Drupal 8: Bypass permissions list for form not updated
+3,Lock on mollom table for high performance website
+4,D8: Convert refresh captcha ajax to remove setCached().
+5,Update.php fails with AJAX error
+6,Remove content moderation platform
+7,Spammers from domain drupaler.org
+8,Make Mollom Language Editable
+9,W3C markup validation fails on a protected form
+10,Integrate with Views Bulk Operations for User Accounts
+11,Connect to Mollom whitelist API
+12,Don't show CAPTCHA on multipage forms when a page is left blank
+13,Provide exportables for Mollom forms
+14,Port Mollom to Drupal 8
+15,Page not found
+16,Mollom for Classrooms and/or [many] requests from a single IP
+17,Mollom not showing CAPTCHA on embedded webforms in panels
+18,Make it easier to see why comment was blocked
+19,Allow to protect the user login form with a CAPTCHA (to prevent flood lock-outs caused by spambots)
+20,"D8: Allow filtering of blacklist based on ""reason"""
+21,Add ability to ping mollom
+22,Do not perform text analysis if a CAPTCHA has beed solved
+23,Automatically protect the comment form of new content types
+24,Clarify privacy policy link
+25,D8: Remove open id support
+26,Forcing user to save multiple times
+27,Spambot bypass User registration
+28,Installation test fails on latest version of Drupal
+29,watchdog() not being called with arguments
+30,Schema module reports schema/database mismatch
+31,Allow custom bypass access callback in hook_mollom_form_info()
+32,Allow spam to optionally fallback to captcha instead of discarding
+33,Mollom disappears after submitting a node form in panels
+34,Administration incapable of handling large amounts of (sub-)forms of a module
+35,Run mollom on comments already posted
+36,Support for Security Review module
+37,"Change CAPTCHA switch links from ""verify using audio|image"" to ""Get an audio|visual challenge"""
+38,Add Views integration
+39,Allow the import or bulk addition of terms to blacklists
+40,Integrate with Flag to allow users to flag spam for submission to Mollom
+41,Protect all webforms
+42,Rules support
+43,Provide option to exclude author information
+44,Improve test coverage for switching to audio captcha
+45,Retrieve only one CAPTCHA per form submission attempt
+46,Rethink/simplify UI to protect/configure a form
+47,Integrate actions with reporting functionality on delete confirmation forms
+48,Provide API to programmatically validate content (integration with Trackback module)
+49,Evaluate free tags for spam and offensive content

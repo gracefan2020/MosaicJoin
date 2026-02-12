@@ -1,0 +1,50 @@
+id,title
+0,"automate setup of access to OAuth-secured resources. Intended especially for use in console scripts, ad hoc applications etc."
+1,Simple implementation of Google's noCAPTCHA reCAPTCHA for perl
+2,Looking up module information / loading at runtime
+3,Markdown-based slidedeck server app
+4,A wrapper for installing the SVN Perl bindings
+5,"Modular Perl Debugger (akin to Ruby ""Trepanning"" Debuggers)."
+6,Google's noCAPTCHA reCAPTCHA for HTML::FormHandler
+7,MIME Types and their file extensions
+8,Sets up Log::Deep for Catalyst logging
+9,Translate a ECMAScript source to an AST
+10,turn on Unicode - all of it
+11,Declare constants for export.
+12,Determine British holidays - UK public and bank holiday dates
+13,Instantiate Moo classes with failover
+14,Fix as much of Perl 5 as possible in one pragma
+15,RJRAY's favorite modules
+16,Perl module for generating simple text-based graphs.
+17,Create random person data.
+18,Client for JSON RPC 2.0 over HTTP
+19,JSON RPC 2.0 over HTTP
+20,ease non-blocking I/O streams based on EV
+21,Asynchronous MySQL queries
+22,Secure conversion of CGI params hash to SQL
+23,Track dirtied attributes
+24,XML view of a Pod Object Model
+25,get the titles of things on the web in a sensible way
+26,Almost all of the modules required for installing OTRS Help Desk.
+27,A unified CLI for CA Harvest SCM
+28,CJM's plugins for Dist::Zilla
+29,add throttling support to Mojo::UserAgent
+30,Intelligently generate a README file from POD
+31,Simple percent Encoding/Decoding
+32,Expand range-like strings
+33,Read and Write Java Jar Manifests
+34,Read and write Apache Commons Configuration style Properties
+35,Run CA-SCM (Harvest) commands
+36,Check whether Perl files compile correctly.
+37,Compile and render templates
+38,Make sure no Smart::Comments escape into the wild
+39,Make sure no Smart::Comments escape into the wild
+40,Override directories returned by File::ShareDir
+41,Flexible Perl Process Scheduler
+42,Generate Kwalitee ratings for a distribution
+43,Perl Critic hooks for git
+44,Test required module is really used and vice versa between lib/t and META.yml
+45,simple email creation with auto text and html multipart body
+46,Retrieve information from Kickstarter
+47,XS implementation of parts of Class::Load
+48,Metaclass trait to *attempt* to demystify generated anonymous class names

@@ -1,0 +1,49 @@
+id,title
+0,An open source web-based network management tool.
+1,"List objects, kitchen sink included"
+2,Interact with your client side code via PhantomJS
+3,Lightweight yet powerful web application framework
+4,Fast and featureful data structure validation
+5,BETA Perl API for MaxMind's minFraud Score and Insights web services
+6,OS Package Management System
+7,Format your Changes file ( or a section of it ) in Markdown
+8,Useful IRC objects and utilities
+9,Keep imports out of your namespace
+10,Test PSGI apps using Test::Mojo
+11,Identify IPs that fall within collections of network blocks
+12,Read MaxMind DB files and look up IP addresses
+13,Perinci::CmdLine::Any (lump dist)
+14,Perl language kernel for IPython
+15,Dump a textual representation of each phase's parts.
+16,Test::Mojo role that provides element count tests
+17,Core library as Role (Moo) to process map data.
+18,Moo eXtension to inject plugins to exist objects as a role
+19,NativeTrait-like behavior for Moo.
+20,Pluggable authentication and authorization server.
+21,Explicit Options eXtension for Object Class
+22,Use Test::Mojo roles cleanly and safely
+23,DBI Authentication back end for PlugAuth
+24,Session-based logging platform on top of SQL/NoSQL databases
+25,"Log with Pye into MySQL, PostgreSQL or SQLite"
+26,Log with Pye on top of MongoDB
+27,Check for uncleaned imports
+28,An immutable subclass of DateTime
+29,Intelligently generate a README file from POD
+30,Makes HTTP::Response objects stringable
+31,Reconstruct Moo Objects
+32,function signatures with the lure of the animal
+33,declare class attributes Moose-style... but without Moose
+34,introspection for roles
+35,Moose-like sugar for Class::Tiny
+36,automatically apply roles at object creation time
+37,a selection of utility methods that can be called on blessed objects
+38,access a JSON/Sereal/etc scalar string in a hash-like manner
+39,"adds ""override method => sub {...}"" support to Class::Method::Modifiers"
+40,"Moo s{imple,peedy,ingle}"
+41,Determine if a given Path resembles a development source tree
+42,Base classes wrapping fundamental Perl data types.
+43,Type constraints and coercions for Perl
+44,fuzzy role constraints
+45,a simple oop module inspired from Mojo::Base and Moo
+46,LDAP back end for PlugAuth
+47,A Lazy Façade to simplify your code/life

@@ -1,0 +1,50 @@
+id,title
+0,Dist::Zilla plugin bundle used by Plicease
+1,Add contributor names from git to your distribution
+2,Transform :verbatim regions into verbatim paragraphs
+3,Subroutine signatures with no source filter
+4,Interface to perl's parser variables
+5,Read/Write YAML files with as little code as possible
+6,Specify dynamic (user-side) prerequisites for your distribution
+7,Generate a Makefile.PL containing a warning for legacy users
+8,"(EXPERIMENTAL, DANGEROUS) Identify a distribution as eligible for static installation"
+9,A plugin bundle for distributions built by ETHER
+10,Ease the transition to [RewriteVersion] in your distribution
+11,Command-line interface to Software::License
+12,"Build a Build.PL that uses Module::Build::Tiny, falling back to Module::Build as needed"
+13,DROLSKY's plugin bundle
+14,Maintain session IDs using the stash
+15,Be like Yanick when you build your dists
+16,"Create files in the build, based on a template located in a dist sharedir"
+17,Tail calls for subroutines and methods
+18,A Path::Class type library for Moose
+19,Run HTTP tests on external live servers
+20,(DEPRECATED) Add an encoding command to your POD
+21,We are non-human CPAN authors
+22,Receive notification when something changes a file's contents
+23,"A working (require ""Class::Name"") and more"
+24,Run external commands and code at specific phases of Dist::Zilla
+25,Check at build/release time if modules are out of date
+26,"Copy files from a release (for SCM inclusion, etc.)"
+27,Attempt to recover from people calling UNIVERSAL::isa as a function
+28,(DEPRECATED) Wrapper Class for the various JSON classes
+29,Keep imports out of your namespace
+30,A Test::Deep plugin for comparing an unordered list of tuples
+31,Parse various dpkg files into Perl Objects
+32,(DEPRECATED) Declarative syntax for Moose
+33,make NEXT suck less
+34,"Common tests to check syntax of your modules, only using core modules"
+35,Author tests that ensure hard tabs are not used
+36,Fine-grained cloning support for Moose objects.
+37,Hayo Baan's Dist::Zilla configuration
+38,A LWP::UserAgent suitable for simulating and testing network calls
+39,Mashes up MooseX::Getopt and App::Cmd
+40,A more awesome MakeMaker plugin for Dist::Zilla
+41,ISO8601 date and duration string type constraints and coercions for Moose
+42,(DEPRECATED) Temporary files support for testing
+43,Execute code after a scope finished compilation
+44,MaxMind's plugin bundle
+45,Erlang-inspired babysitting
+46,Build your distributions like I do
+47,Dist::Zilla plugins for AJGB
+48,Compare data and files at different phases of the distribution build process

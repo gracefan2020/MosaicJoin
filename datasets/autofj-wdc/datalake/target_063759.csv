@@ -1,0 +1,95 @@
+id,title
+0,audio/video viewing
+1,audit suppression
+2,"backup theft, corruption, or destruction"
+3,below-threshold attacks
+4,breaking key management systems
+5,bribes and extortion
+6,cable cuts
+7,call forwarding fakery
+8,cascade failures
+9,collaborative misuse
+10,combinations and sequences
+11,content-based attacks
+12,covert channels
+13,cryptanalysis
+14,data aggregation
+15,data diddling
+16,dependency analysis and exploitation
+17,desynchronization and time-based attacks
+18,device access exploitation
+19,distributed coordinated attacks
+20,dumpster diving
+21,earth movement
+22,electronic interference
+23,emergency procedure exploitation
+24,environmental control loss
+25,environment corruption
+26,error-induced mis-operation
+27,error insertion and analysis
+28,errors and omissions
+29,excess privilege exploitation
+30,false updates
+31,fictitious people
+32,fire
+33,flood
+34,get a job
+35,hangup hooking
+36,hardware failure - system flaw exploitation
+37,illegal value insertion
+38,imperfect daemon exploits
+39,implied trust exploitation
+40,inadequate maintenance
+41,inadequate notice exploitation
+42,inappropriate defaults
+43,induced stress failures
+44,infrastructure interference
+45,infrastructure observation
+46,input overflow
+47,insertion in transit
+48,interprocess communication attacks
+49,interrupt sequence mishandling
+50,invalid values on calls
+51,kiting
+52,man-in-the-middle
+53,modeling mismatches
+54,modification in transit
+55,multiple error inducement
+56,network service and protocol attacks
+57,observation in transit
+58,password guessing
+59,PBX bugging
+60,peer relationship exploitation
+61,perception management a.k.a. human engineering
+62,piggybacking
+63,power failure
+64,privileged program misuse
+65,process bypassing
+66,protection missetting exploitation
+67,race conditions
+68,reflexive control
+69,relocation
+70,repair-replace-remove information
+71,replay attacks
+72,repudiation
+73,residual data gathering
+74,resource availability manipulation
+75,restoration process corruption or misuse
+76,salami attacks
+77,selected plaintext
+78,severe weather
+79,shoulder surfing
+80,simultaneous access exploitations
+81,solar flares
+82,spoofing and masquerading
+83,static
+84,strategic or tactical deceptions
+85,sympathetic vibration
+86,system maintenance
+87,testing
+88,Trojan horses
+89,undocumented or unknown function exploitation
+90,van Eck bugging
+91,viruses
+92,volcanos
+93,wire closet attacks

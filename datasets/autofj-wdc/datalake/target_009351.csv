@@ -1,0 +1,70 @@
+id,title
+0,Age [units: participants]
+1,<=18 years
+2,Between 18 and 65 years
+3,>=65 years
+4,Age [units: years] Mean (Standard Deviation)
+5,"Age, Customized [1] [units: participants]"
+6,3 to <4 years
+7,4 to <5 years
+8,5 to <6 years
+9,6 to <7 years
+10,7 to 8 years
+11,Gender [units: participants]
+12,Female
+13,Male
+14,"Race/Ethnicity, Customized [units: participants]"
+15,White
+16,Black/African American
+17,Hispanic
+18,Asian
+19,More than one race
+20,Region of Enrollment [units: participants]
+21,United States
+22,United Kingdom
+23,Canada
+24,Enrollment Disposition [2] [units: participants]
+25,No current treatment
+26,On treatment
+27,Ready for randomization
+28,Duration of patching prior to randomization (weeks) [units: participants]
+29,12 to <16 weeks
+30,16 to <25 weeks
+31,25 weeks or more
+32,Duration of patching prior to randomization (weeks) [units: Weeks] Mean (Standard Deviation)
+33,Amblyopia Cause [3] [units: participants]
+34,Strabismus
+35,Anisometropia
+36,Strabismus and Anisometropia
+37,Best distance visual acuity in the amblyopic eye at randomization [4] [units: participants]
+38,20/160
+39,20/125
+40,20/100
+41,20/80
+42,20/63
+43,20/50
+44,20/40
+45,20/32
+46,Best distance visual acuity in the amblyopic eye at randomization [4] [units: logMAR] Mean (Standard Deviation)
+47,Best distance visual acuity in the fellow eye at randomization [5] [units: participants]
+48,20/32
+49,20/25
+50,20/20
+51,20/16
+52,Best distance visual acuity in the fellow eye at randomization [5] [units: logMAR] Mean (Standard Deviation)
+53,Best interocular eye visual acuity difference at randomization [6] [units: logMAR lines] Mean (Standard Deviation)
+54,Refractive error in amblyopic eye at enrollment [units: participants]
+55,0 to <+1.00D
+56,+1.00 D to <+2.00 D
+57,+2.00 D to <+3.00 D
+58,+3.00 D to <+4.00 D
+59,+4.00 D or more
+60,Refractive error in amblyopic eye at enrollment [units: Diopters] Mean (Standard Deviation)
+61,Refractive error in fellow eye at enrollment [units: participants]
+62,<0 D
+63,0 to <+1.00D
+64,+1.00 D to <+2.00 D
+65,+2.00 D to <+3.00 D
+66,+3.00 D to <+4.00 D
+67,+4.00 D or more
+68,Refractive error in fellow eye at enrollment [units: Diopters] Mean (Standard Deviation)

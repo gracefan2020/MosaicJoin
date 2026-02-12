@@ -1,0 +1,52 @@
+id,title
+0,Why automatic control? Categorization of control systems
+1,"Block diagrams, the effect of feedback"
+2,Modeling principles
+3,Feedback diagram problems
+4,"Block diagram manipulations, Mason' rule"
+5,Dynamic response of closed-loop systems
+6,Time-domain specifications
+7,Step response problems
+8,Effect of zeros
+9,The Routh criterion
+10,Routh array problems
+11,"Effect of noise, steady-state errors"
+12,PID control
+13,The root locus method
+14,Root locus problems
+15,Root locus rules
+16,"Root locus rules, lead compensation"
+17,Lag compensation
+18,Zero degree root locus
+19,Frequency response design
+20,Root locus problems
+21,Quiz 1
+22,Bode plot problems
+23,Bode plots (cont.)
+24,Bode diagram problems
+25,"Complex poles and zeros, unstable poles, and non-minimum phase zeros"
+26,The Nyquist stability criterion
+27,The Nyquist stability criterion (cont.)
+28,Nyquist plot problems
+29,Nyquist with poles on imaginary axis
+30,"Stability margins, Bode gain-phase theorem"
+31,Bode compensation
+32,PD controller design problem
+33,Lead compensation
+34,Lag compensation (cont.)
+35,Lead compensator design problem
+36,NMP systems
+37,The Nichols chart
+38,"Digital control, the z-transform"
+39,Compensation strategy design problem
+40,Quiz 2
+41,"The z‐transform, design by emulation, the Tustin transform"
+42,Nichols plot problem
+43,"Compensator design examples, time delay of ZOH"
+44,Discrete design
+45,The w-transform
+46,Discrete-time controller design problem
+47,"Design examples, pre‐warping, direct design"
+48,Higher harmonic control
+49,Discrete-time controller design problem and review
+50,Final exam

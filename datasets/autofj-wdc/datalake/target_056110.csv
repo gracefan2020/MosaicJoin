@@ -1,0 +1,201 @@
+id,title
+0,Oleprn
+1,Envelope 10x13
+2,Envelope 10x14
+3,Envelope 10x15
+4,Envelope 6x9
+5,Envelope 7x9
+6,Envelope 9x11
+7,Envelope 9x12
+8,Engineering A
+9,Engineering B
+10,Engineering C
+11,Engineering D
+12,Engineering E
+13,Envelope #10
+14,Envelope #9
+15,Legal
+16,Letter
+17,No Error
+18,The SNMP agent could not place the results of the requested operation into a single SNMP message
+19,The requested SNMP operation identified an unknown variable
+20,The requested SNMP operation tried to change a variable but it specified either a syntax or value error.
+21,The requested SNMP operation tried to change a variable that was not allowed to change according to the community profile of the variable
+22,An error other than one of those listed here occurred during the requested SNMP operation
+23,The requested SNMP operation had no access to the variable
+24,Wrong Type in SNMP Request
+25,Wrong Length in SNMP Request
+26,Wrong Encoding in SNMP Request
+27,Wrong Value in SNMP Request
+28,No Creation in SNMP Request
+29,Inconsistent Value in SNMP Request
+30,Resource Unavailable in SNMP Request
+31,Commit Failed in SNMP Request
+32,Undo Failed in SNMP Request
+33,Authorization Error in SNMP Request
+34,Not Writable in SNMP Request
+35,Inconsistent Name in SNMP Request
+36,WinSNMP API Error: Error allocating memory
+37,WinSNMP API Error: Invalid context parameter
+38,WinSNMP API Error: Unknown context parameter
+39,WinSNMP API Error: Invalid entity parameter
+40,WinSNMP API Error: Unknown entity parameter
+41,WinSNMP API Error: Invalid VBL index parameter
+42,WinSNMP API Error: No operation performed (the destination may not be reachable)
+43,WinSNMP API Error: Invalid OID parameter
+44,WinSNMP API Error: Invalid/unsupported operation
+45,WinSNMP API Error: Insufficient output buf len
+46,WinSNMP API Error: Invalid PDU parameter
+47,WinSNMP API Error: Invalid session parameter
+48,WinSNMP API Error: Invalid syntax in smiVALUE
+49,WinSNMP API Error: Invalid VBL parameter
+50,WinSNMP API Error: Invalid mode parameter
+51,WinSNMP API Error: Invalid size/length parameter
+52,WinSNMP API Error: SnmpStartup failed/not called
+53,WinSNMP API Error: Invalid SNMP message format
+54,WinSNMP API Error: Invalid Window handle
+55,WinSNMP API Error: For internal/undefined errors
+56,WinSNMP API Error: Transport layer not initialized
+57,WinSNMP API Error: Transport layer does not support protocol
+58,WinSNMP API Error: Network subsystem has failed
+59,WinSNMP API Error: Transport layer resource error
+60,WinSNMP API Error: Destination unreachable
+61,WinSNMP API Error: Source endpoint invalid
+62,WinSNMP API Error: Input parameter invalid
+63,WinSNMP API Error: Source endpoint in use
+64,WinSNMP API Error: No response before timeout
+65,WinSNMP API Error: PDU too big for send/receive
+66,WinSNMP API Error: Undefined Transport layer error
+67,Opening
+68,Get ADSI Printers
+69,Access Denied
+70,All Printers on %1
+71,Name
+72,Status
+73,Location
+74,Jobs
+75,Model
+76,Comment
+77,Prev %1 printers
+78,Next %1 printers
+79,Open Printer: %1
+80,Ready
+81,Paused
+82,Error
+83,Deleting
+84,Paper Jam
+85,Out of Paper
+86,Manual Feed Required
+87,Paper Problem
+88,Printer Offline
+89,IO Active
+90,Busy
+91,Printing
+92,Output Bin Full
+93,Not Available
+94,Waiting
+95,Processing
+96,Initializing
+97,Warming Up
+98,Toner Low
+99,No Toner
+100,Page Punt
+101,User Intervention Required
+102,Out of Memory
+103,Door Open
+104,Server Status Unknown
+105,Power Save Mode
+106,%1 bytes
+107,%1 Kb
+108,%1 Mb
+109,Invalid Parameter
+110,<b>Error Code:</b>
+111,<b>Description:</b>
+112,<b>Note:</b>
+113,Internet Printing Error
+114,The error occurred in <b>%1</b>
+115,An <b>error</b> occurred processing your request.
+116,Internet Printing Authentication Error
+117,Authentication Failed
+118,The error indicates that the action you chose requires a higher privilege than what you have with your account.
+119,Please contact your system administrator to verify that you have the privilege on the requested action.
+120,"Printer not found on server, unable to connect."
+121,<b>Printer Queue:</b> %1
+122,%1 page(s)
+123,> 8 hr
+124,about %1 hr
+125,about %1 min
+126,Waiting Time:
+127,Unknown
+128,<b>Pending Documents:</b> %1
+129,Average size:
+130,Printer Action
+131,Job Action
+132,"The document could not be cancelled. It might have been printed already, or cancelled by another user."
+133,Open Helper: %1
+134,Open Helper
+135,%1 on %2
+136,"This web page uses frames, but your browser doesn't support them."
+137,Connect %1 from
+138,Document List
+139,Properties
+140,Device Status
+141,Go to the document list on the printer
+142,Please go to document list!
+143,Go to the property page of the printer
+144,Go to the device status of the printer
+145,Please select a document!
+146,List all the printers on %1
+147,All Printers
+148,Pause the printer
+149,Resume the printer
+150,Cancel all the documents on the printer
+151,Cancel All Documents
+152,Pause the selected document
+153,Resume the selected document
+154,Cancel/Delete the selected document
+155,Pause
+156,Resume
+157,Connect
+158,DOCUMENT ACTIONS
+159,Cancel
+160,Left nav Bar
+161,PRINTER ACTIONS
+162,VIEW
+163,No printers are currently open
+164,Out of memory
+165,Data name not supported
+166,Transceive data not available
+167,One of the arguments is invalid
+168,No SNMP session is currently open
+169,Failed to open SNMP session
+170,Open Printer
+171,Supported
+172,Not Supported
+173,Printer Property of %1 on %2
+174,Printer Model:
+175,Location:
+176,Comment:
+177,Network Name:
+178,Documents:
+179,Speed:
+180,Print on Both Sides:
+181,Color:
+182,Max Resolution:
+183,PPM (Number of Pages Per Minute)
+184,CPS (Number of Characters Per Second)
+185,LPM (Number of Lines Per Minute)
+186,IPM (Number of Inches Per Minute)
+187,DPI (Dots Per Inch)
+188,Open Queue
+189,Get Jobs
+190,Paused
+191,Error
+192,Deleting
+193,Spooling
+194,Printing
+195,Offline
+196,Out of Paper
+197,Printed
+198,Deleted
+199,Blocked

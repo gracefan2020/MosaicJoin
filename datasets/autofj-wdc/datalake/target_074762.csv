@@ -1,0 +1,51 @@
+id,title
+0,"""Anonymous"" flaggings & cache"
+1,"""Display checkbox on entity edit form"" not implemented - hook_field_attach_form removed in D8"
+2,"""Display link on user profile page"" field value is not saved"
+3,"""Fetch content flagged by user"" only returns nodes, not other entities"
+4,"""Integrity constraint violation"" when updating from 7.x-2.0 beta 6 to 7.x-3.5"
+5,"""Node is flagged"" rules condition doesn't respect global flags"
+6,"""User is flagged"" condition throws error when used for user flags"
+7,$flag->options() called multiple times per flag
+8,'Add flag' & 'Edit flag' pages gives WSOD
+9,'Unflag not allowed text' not translatable
+10,.flag-message styling
+11,403 Access Denied reports seen on server
+12,[D8] Flags as plugins / config entities
+13,[meta] Decoupling flag links from Flag
+14,[Meta] Flagging refactoring roadmap.
+15,[Meta] Implement Rules 8.x Support
+16,[meta] Implement Tours; slim down hook_help() texts
+17,[meta] Make flag module pass coder review
+18,[meta] refactor and trim down FlagService
+19,[Meta] Refactor tests to reduce code duplication
+20,[meta] Treat flags like fields for more flexible backend and frontend design
+21,"[Policy, No Patch] Use PHP 5.4 short array syntax"
+22,"[Policy, No Patch] Where did the Flag 7.x hooks go in 8.x?"
+23,[regression] load all flagging data on an entity when viewing it
+24,[regression] Reimplement Entity and Contextual Link Display
+25,[regression] subtypes option should not be required: leaving empty means it appliest to all
+26,"Ability to get a flag link array, not a string."
+27,Action inactive
+28,Actual Flag Value -> Preprocess
+29,Add $flag->get_users($entity_id) to class flag_flag
+30,Add Ability to Create View of Flags
+31,Add API for bulk flagging
+32,add calls to field_attach_*_bundle()
+33,Add Checkboxes as Display Type
+34,add comment explaining why we have seemingly redundant entity_type field on Flaggings
+35,Add composer.json
+36,Add Drupal Console Generate Commands
+37,Add explanations for the flag_get_sid() default parameter flip-flop
+38,add global field to Flagging entity
+39,Add index on {flagging} for uid and entity_id
+40,Add new function: flag_delete
+41,Add requirement for Entity API.
+42,Add tests for Flag access for own/others' content
+43,Add tests for rules
+44,Add uid as optional parameter to flag_reset_flag()
+45,Adding relationship to user views does not work
+46,Additional flags in a view have the same replacement pattern
+47,After deleting field collection rule Unflag taxonomy term is not working
+48,"After update from 3.0, Missing handler: views_entity_node flag_ops_entity field"
+49,After user flag item Filter by user and nid

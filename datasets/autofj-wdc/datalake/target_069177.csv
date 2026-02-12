@@ -1,0 +1,50 @@
+id,title
+0,Abbreviation
+1,Offensive Batting Metric Used
+2,Fielding #'s Used
+3,Starting Point for Pitching WAR
+4,Batting Details
+5,Adjusted for park
+6,Park Factor Applied to Batter or League Average
+7,Computes Batting Lg Avgs using entire MLB or individual leagues
+8,Includes P's in Lg Avg
+9,Includes ROE
+10,Estimates CS for seasons it is unknown
+11,Includes SB/CS in Batting or Baserunning
+12,Includes Positional Adjustments
+13,Varies Replacement Level by Lg's Quality of Competition
+14,Caps total contribution by Replacement Level Runs to prevent overvaluing of leadoff hitters
+15,Counts SO and non-SO outs separately
+16,Directly uses the PythagenPat WL% estimator to compute Wins Above Avg
+17,Runs to win calculation includes the league run environment
+18,Runs to wins calculation includes the runs the player adds or subtracts
+19,Differentiates between infield and outfield singles from 2003 on.
+20,Adjusts for ability to avoid double plays
+21,Adjusts for Non-basestealing baserunning
+22,Available in a form with fielding metrics excluded
+23,Fielding Details
+24,Uses measures for player range
+25,Uses measures for OF arms and DP ability
+26,Uses measures for catcher throwing
+27,Uses measures for good plays and misplays like relay throws or missing the cutoff man
+28,Uses measures for catcher defense including blocking pitches and framing
+29,Pitching Details
+30,Years Available
+31,Uses Park Factors
+32,Adjusts Park Factors to parks actually pitched in
+33,Park Factor applied to pitcher or run support?
+34,Adjusts league average by teams pitched against
+35,Adjusts league average for interleague play
+36,Adjusts replacement level by quality of league
+37,Recent replacement level
+38,Directly uses the PythagenPat WL% estimator to compute Wins Above Avg
+39,Runs to win calculation includes the league run environment
+40,Runs to wins calculation includes the runs the player adds or subtracts
+41,Adjusts runs to win calculation by length of pitcher's outings
+42,Adjusts runs above replacement level for when pitcher is starter or reliever
+43,Adjusts performance by team defense
+44,Adjusts Reliever WAR by Leverage Index
+45,Credits starting pitcher for effect on saving/taxing bullpen
+46,Other Details
+47,Converts WAR into FA Salary Values
+48,Downloadable

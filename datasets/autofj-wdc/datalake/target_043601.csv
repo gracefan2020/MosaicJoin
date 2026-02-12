@@ -1,0 +1,78 @@
+id,title
+0,'execute in external window' doesn't work
+1,(wishlist) Preferences: Use regex editor for the TODO regex
+2,76_preferences.t fails on Windows
+3,Add preference options to Quick Menu Access
+4,Autocomplete: Make Pos1 & End work
+5,CPAN-Explorer Search - always stays empty
+6,Copy and Paste onto highlighted text
+7,Ctrl for hotkeys should be disabled on OS X
+8,Ctrl-Tab is using tab display order rather than last-used order
+9,Cycle through tabs (ctrl-tab) in most-recently-used order
+10,DWIMPerl Unable to run Scripts
+11,Debugger hangs with 'Show Local Variables' and very deep data-structures
+12,Default Project Folder option non-operational on Windows 7
+13,Disable highligher during mass open
+14,Don't show unncecessary windows
+15,Embed a web browser in Padre
+16,Explain idomatic perl what is !! (in Perl 5)
+17,F2 help on foreach is missing
+18,F2 on push - no example
+19,F2 should be able to explain what is a scalar variable
+20,Fix TDD flow in Padre Testing
+21,"I now have ""add"", ""delete"", ""commit"", ""revert"" and ""status"" working for hg and svn in the version control sidebar."
+22,Just an idea: integrate Dist::Zilla for project management
+23,Make beginner-error checks cool
+24,Make readonly files visually distinct via different background
+25,No option for hooking up in Padre
+26,"Not able to install, Padre on Win7 with Active perl 5.14.2 from CPAN"
+27,OSX Unsupported window created of class: NSNavOpenPanel
+28,Padre::Plugin::Autoformat not compatible with recent padre
+29,"Padre::Plugin::Catalyst Crash after pressing ""New Catalyst Application"""
+30,Padre::Plugin::Catalyst crash
+31,Padre::Plugin::Catalyst feature
+32,Padre::Plugin::Catalyst warning when closing Catalyst panel
+33,Padre::Plugin::HG error messages and warnings
+34,Padre::Plugin::Moose Undefined Subroutine Error on launching Moose Assistant
+35,"Padre::Plugin::Plack, fix for missing version, api change"
+36,"Padre::Plugin::REPL Can't locate object method ""menu_actions"""
+37,Padre::Plugin::SpellCheck Add to dictionary
+38,Padre::Plugin::SpellCheck allow replacing a word by typing in a new word
+39,Padre::Plugin::Vi - Crashed while loading
+40,Plugin cache needs to be invalidated when a new (version of a) plugin has been installed
+41,"Preferences dialog: ""Indentation"" is confusing"
+42,Proper plural handling with Wx::gettext()
+43,Refactoring tool: replace indirect calls by direct calls
+44,Remove value from display
+45,Run Parameters: Possible extensions
+46,Show list of available functions and methods
+47,Stand-alone executabel of Padre for Linux
+48,Switch if-Syntax
+49,Syntax checking disturbs autocomplete
+50,Type of new document
+51,[Perl 5 syntax highlighting] delimiter used in extended regular expressions displays wrong
+52,[REPL plugin] Devel::REPL::Plugin::MultiLine::PPI does not work with Padre::Plugin::REPL
+53,[REPL plugin] The REPL window keeps coming up open even though the plugin is not loaded
+54,[REPL plugin] does not pass tests.
+55,[osx] Could not find system(darwin) default encoding
+56,allow the Project (directory tree) window to be linked with the editor
+57,autocompletion triggered on ctrl+tab
+58,catch common errors by beginners
+59,change font size in other windows as well
+60,"code analyzis: find code not in subs, rearrange code"
+61,"could not find encoding on OS X 10.5, fails tests"
+62,diffs!
+63,highlight # TODO
+64,missing perl58.dl
+65,osx Padre icon toolbar default should be same as linux (default to true)
+66,osx Wx::Scintilla .21_04 causes Padre to scroll poorly
+67,padre goes crazy and does not allow saving file after a few seconds
+68,padre not on path after build in Mac OS X 10.8.1
+69,provide help on $_[0] (in Perl 5)
+70,refactoring: list conversions
+71,reordering tabs does not change their order with ctrl+tab
+72,strange behavior of syntax check
+73,test expects directory Documents in home directory
+74,the prereq Test::NoWarnings hides warnings in Makefile.PL
+75,unable to compile with strawberry perl 5.12.3
+76,unnecessary horizontal scrollbar

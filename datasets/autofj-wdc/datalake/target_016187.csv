@@ -1,0 +1,57 @@
+id,title
+0,Gets the number of affected rows in a previous MySQL operation
+1,Returns the MySQL client version as a string
+2,Returns MySQL client version info as an integer
+3,Returns the error code from last connect call
+4,Returns a string description of the last connect error
+5,Returns the error code for the most recent function call
+6,Returns a string description of the last error
+7,Returns the number of columns for the most recent query
+8,Returns a string representing the type of connection used
+9,Returns the version of the MySQL protocol used
+10,Returns the version of the MySQL server
+11,Returns the version of the MySQL server as an integer
+12,Retrieves information about the most recently executed query
+13,Returns the auto generated id used in the last query
+14,Returns the SQLSTATE error from previous MySQL operation
+15,Returns the number of warnings from the last query for the given link
+16,Turns on or off auto-committing database modifications
+17,Changes the user of the specified database connection
+18,Returns the default character set for the database connection
+19,Closes a previously opened database connection
+20,Commits the current transaction
+21,Open a new connection to the MySQL server [Note: static (i.e. class) method]
+22,Performs debugging operations
+23,Dump debugging information into the log
+24,Returns a character set object
+25,Returns client connection statistics. Available only with mysqlnd.
+26,Returns the MySQL client version as a string
+27,Returns client per-process statistics. Available only with mysqlnd.
+28,Returns client Zval cache statistics. Available only with mysqlnd.
+29,NOT DOCUMENTED
+30,NOT DOCUMENTED
+31,"Initializes MySQLi and returns a resource for use with mysqli_real_connect. [Not called on an object, as it returns a $mysqli object.]"
+32,Asks the server to kill a MySQL thread
+33,Check if there are any more query results from a multi query
+34,Performs a query on the database
+35,Prepare next result from multi_query
+36,Set options
+37,"Pings a server connection, or tries to reconnect if the connection has gone down"
+38,Prepare an SQL statement for execution
+39,Performs a query on the database
+40,Opens a connection to a mysql server
+41,"Escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection"
+42,Execute an SQL query
+43,"Flushes tables or caches, or resets the replication server information"
+44,Rolls back current transaction
+45,Selects the default database for database queries
+46,Sets the default client character set
+47,Unsets user defined handler for load local infile command
+48,Set callback function for LOAD DATA LOCAL INFILE command
+49,Used for establishing secure connections using SSL
+50,Gets the current system status
+51,Initializes a statement and returns an object for use with mysqli_stmt_prepare
+52,Transfers a result set from the last query
+53,Returns the thread ID for the current connection
+54,Returns whether thread safety is given or not
+55,Initiate a result set retrieval

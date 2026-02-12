@@ -1,0 +1,51 @@
+id,title
+0,Fixed some '{' and added some history info
+1,Declare trivfs hooks external and provide defaults
+2,fix a bug in init: initialize 'flags' in reboot_system
+3,fix remaining extern inlines
+4,rpctrace: handle mach_port_insert_right()
+5,rpctrace traces all tasks and threads
+6,glibc privdes environment variables to ovrride the default pfinet server.
+7,pfinet uses the BPF filter
+8,pfinet sets the mach device into the promiscuous mode.
+9,pfinet changes its filter rules with its IP address
+10,pfinet uses the virtual interface
+11,Enable boot to use the device file created by devnode.
+12,Entropy Patch
+13,Three pages translated to Polish
+14,Very small cleanups.
+15,rpctrace: more readable output
+16,Implementation of condition_timedwait() in libthreads
+17,Support for Reading and Writing Extended Attributes
+18,Update documentation to reflect current libihash API
+19,Reassigned item: Related projects patch
+20,Reassigned item: Parts of a Portuguese translation
+21,Reassigned item: Parts of a French translation
+22,Dynamic memory allocation for Linux Device drivers in glue.
+23,ioctl() incorrectly decodes argument
+24,Patch consider_lmm_collect: Test always true
+25,POSIX Shared Memory
+26,"Support ""get the root capability"" in capability server"
+27,libpager/data-request.c: missing call to _pager_allow_termination; elide unlock relock sequence in the fast path
+28,HURD_IHASH_ITERATE_KEYS
+29,Starting XFree from the new console
+30,Add an argument to diskfs_cached_lookup so it can detect if the directory of the node was already locked
+31,diskfs.h doc fixes
+32,ext2fs support for large store (> 1.5G)
+33,rpctrace: Don't assert that local port names are valid
+34,"Add ""SVGA"" support to the console client."
+35,Many small fixes in dir-rename.c and dir-renamed.c
+36,"Adds support for bell broadcasting (console, libcons)"
+37,Add support for task_basic_info without creation_time
+38,clean up some more crypt() things in idvec-verify.c
+39,Implements the routing interfaces in pfinet
+40,Add interface for routing support (pfinet.defs)
+41,Terminated with C-c rpctrace:d programs hang
+42,simple nfs cleanups
+43,POSIX record file locking
+44,TASK_BASIC_INFO members virtual/resident size in bytes
+45,getting a console early at bootstrap in parsing arguments
+46,remap store of multiple runs without store class support
+47,convert hook variables into callback functions
+48,"libmemdir, for servers providing mostly static directories"
+49,idvec_merge_implied_gids does not merge in secondary IDs

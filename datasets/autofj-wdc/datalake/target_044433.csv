@@ -1,0 +1,66 @@
+id,title
+0,class MetalRootPaneUI
+1,MetalRootPaneUI (): void
+2,createUI (JComponent): ComponentUI
+3,installUI (JComponent): void
+4,installWindowDecorations (JRootPane): void
+5,propertyChange (PropertyChangeEvent): void
+6,uninstallUI (JComponent): void
+7,uninstallWindowDecorations (JRootPane): void
+8,class MetalRootPaneUI$MetalFrameBorder
+9,MetalRootPaneUI$MetalFrameBorder (): void
+10,getBorderInsets (Component): Insets
+11,"getBorderInsets (Component, Insets): Insets"
+12,"paintBorder (Component, Graphics, int, int, int, int): void"
+13,class MetalRootPaneUI$MetalRootLayout
+14,MetalRootPaneUI$MetalRootLayout (MetalRootPaneUI$MetalTitlePane): void
+15,"addLayoutComponent (Component, Object): void"
+16,"addLayoutComponent (String, Component): void"
+17,getLayoutAlignmentX (Container): float
+18,getLayoutAlignmentY (Container): float
+19,invalidateLayout (Container): void
+20,layoutContainer (Container): void
+21,maximumLayoutSize (Container): Dimension
+22,minimumLayoutSize (Container): Dimension
+23,preferredLayoutSize (Container): Dimension
+24,removeLayoutComponent (Component): void
+25,class MetalRootPaneUI$MetalTitlePane
+26,MetalRootPaneUI$MetalTitlePane (JRootPane): void
+27,addSubComponents (): void
+28,addSystemMenuItems (JMenu): void
+29,assembleSystemMenu (): void
+30,createActions (): void
+31,createButtons (): void
+32,createLayout (): LayoutManager
+33,createSystemMenu (): JMenu
+34,createSystemMenuBar (): JMenuBar
+35,enableActions (): void
+36,installDefaults (): void
+37,installListeners (): void
+38,installTitlePane (): void
+39,paintComponent (Graphics): void
+40,paintTitleBackground (Graphics): void
+41,setButtonIcons (): void
+42,class MetalRootPaneUI$MetalTitlePane$CloseAction
+43,MetalRootPaneUI$MetalTitlePane$CloseAction (MetalRootPaneUI$MetalTitlePane): ...
+44,actionPerformed (ActionEvent): void
+45,class MetalRootPaneUI$MetalTitlePane$IconifyAction
+46,MetalRootPaneUI$MetalTitlePane$IconifyAction (MetalRootPaneUI$MetalTitlePane)...
+47,actionPerformed (ActionEvent): void
+48,class MetalRootPaneUI$MetalTitlePane$MaximizeAction
+49,MetalRootPaneUI$MetalTitlePane$MaximizeAction (MetalRootPaneUI$MetalTitlePane...
+50,actionPerformed (ActionEvent): void
+51,class MetalRootPaneUI$MetalTitlePane$MetalTitlePaneLayout
+52,MetalRootPaneUI$MetalTitlePane$MetalTitlePaneLayout (MetalRootPaneUI$MetalTit...
+53,"addLayoutComponent (String, Component): void"
+54,layoutContainer (Container): void
+55,minimumLayoutSize (Container): Dimension
+56,preferredLayoutSize (Container): Dimension
+57,removeLayoutComponent (Component): void
+58,class MetalRootPaneUI$MetalTitlePane$MouseHandler
+59,MetalRootPaneUI$MetalTitlePane$MouseHandler (MetalRootPaneUI$MetalTitlePane):...
+60,mouseDragged (MouseEvent): void
+61,mousePressed (MouseEvent): void
+62,class MetalRootPaneUI$MetalTitlePane$PaneButton
+63,"MetalRootPaneUI$MetalTitlePane$PaneButton (MetalRootPaneUI$MetalTitlePane, Ac..."
+64,isFocusable (): boolean

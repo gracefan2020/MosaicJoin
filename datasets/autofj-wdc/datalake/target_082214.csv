@@ -1,0 +1,51 @@
+id,title
+0,incorrect behaviour in terminal mode
+1,REGRESSION syntax difference between SPSS and PSPP (method parameter is required)
+2,No type check in value label setting dialog.
+3,.ods import failure in GUI
+4,gtk3 - remove deprecation warnings
+5,gtk3 - remove GTK3_TRANSITION code
+6,"After typing new data in a cell in the rightmost column, the new focus cell has not selected all text."
+7,No Splash Screen
+8,"""Windows"" menu checkbox items do not correspond to the focused window."
+9,linear regression... program crash
+10,Boxplot y axis too tight
+11,MEANS procedure produces surprising and incompatible output
+12,Crash when changing type of spreadsheet imported dataset
+13,FACTOR command needs to have the /SAVE subcommand
+14,"examine crashes when VARIABLE is named ""Variable"""
+15,Test suite failure while building on os x yosemite
+16,Implement GLM
+17,Implent Shapiro–Wilk test
+18,difference between syntax and dictionary encoding is confusing
+19,no icons in about box in mswindows
+20,"""DATASET COPY"" don't copy cases"
+21,Windows builds cannot open files with non-ASCII names
+22,Truncated text in histograms
+23,"Text files are not displayed in file selection window, then using ""text file"" filter"
+24,"Pasting data: Automatically add new cases and variables, if necesary"
+25,exporting data
+26,Spurious error message when entering data.
+27,QUICK CLUSTER should indicate to which clusters the cases belong
+28,make check is not working when cross-compiling
+29,Implement machine-parseable data definition format
+30,Figure out exact treatment of line ends in text files
+31,Support SET UNICODE=ON
+32,GUI should display encoding in status bar
+33,Data sheet should require second click to edit
+34,Cut and paste in data editor works in unexpected way
+35,Add toolbar in the syntax editor and output windows
+36,New functions in the toolbar to the data editor
+37,Add dialog box for Non-Parametric 2-Sample Independent Tests
+38,save translate type=csv ignores crlf settings
+39,Copy and paste of charts only pastes the name of a temporary file
+40,Odd formatting in DISPLAY DICTIONARY with very long value labels
+41,GUI displays warning when entering a value by value label in data sheet
+42,Case number column in GUI only holds 5 digits
+43,Text Data Import Dialog should read more of the data
+44,Add a warning dialog when attempting to close output window without exporting data
+45,Add margin (limits) in the representation of charts
+46,Add context menu in the sidebar PSPP output window
+47,Ability to copy images of charts from the output window in PSPP
+48,Make GUI usable when working
+49,Regression - Method

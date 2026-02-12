@@ -1,0 +1,57 @@
+id,title
+0,Core.Reconstruct isn't using the PCtor defs.
+1,Compilation time is exponential in depth of constructor nesting
+2,ellipsis in list generator expressions not comprehensive enough
+3,TinyPTC-X11 doesn't build on Debian unstable
+4,Fix build dependencies
+5,Improve warning message output and extend war driver to check for warnings.
+6,Type mismatch during unification
+7,Bad pattern match code generated for list comprehension
+8,Configure does not correctly detect 32 bit user space on 64 bit kernel
+9,ddc: Bad code generated for statement containing nothing but a curried function.
+10,Segmentation fault on updating a Ref
+11,Fix Order4-5 example
+12,Check that top level CAFs don't have side effects.
+13,Combine function bindings in projection dictionaries
+14,Don't try and make a module that doesn't include main
+15,Panic in type inferencer
+16,Parsing fails when a block comment ends on an import line
+17,Desugaring pattern matches with guards is broken
+18,Parsing or desugaring of field initialisers is broken
+19,Parsing problems with when/irrefutable patterns
+20,Parsing problems with where/irrefutable patterns
+21,Fix parsing and printing of Bot for effect and closures.
+22,Better error message when region and closure vars appear in terms
+23,Kind error with projections in recursive function
+24,Unresolved TApp during inference
+25,crushProjClassT panics when there are type errors
+26,Renamer problems in data type defs
+27,Allow projections to be added foreign imported unboxed types
+28,Shape crusher isn't preserving effect and closure terms
+29,Fix postgeneralisation check.
+30,Better error message when trying to define an instance of an unknown class
+31,Module names need to be filtred in generated C code
+32,Fix option parser to be more forgiving
+33,Parse error with lists
+34,Error in parsing end of {- -} comments
+35,Finding which modules needs to be rebuilt is grossly inefficient.
+36,Output gets printed twice
+37,Closure/IntFun test produces bad core when compiled with -O
+38,Renamer problem with class functions
+39,Export type followed by data definition incorrectly results in ErrorRdefinedData
+40,Type signature without implementation should be an error
+41,Need better error message when source file does not exist
+42,Parse error on let
+43,PANIC in Type.Crush.Unify
+44,PANIC in Type.Location
+45,PANIC in Source.DefixApps ($ do)
+46,Merge Core.Util.Pack with Type.Util.Pack
+47,Merge Core.Util.Trim with Type.Util.Trim
+48,Refactor TFetters to TConstrained
+49,PANIC in Type.Solve : floatBranch: can't find branch for index
+50,Infix quotes have wrong precedence
+51,Handle patterns in left of list comprehension generators.
+52,Infixl/Infixr do not accept backtick quote names
+53,Parse error on list comprehension
+54,Fix minimumBy thing in raytracer
+55,ddc doesn't find modules in current directory

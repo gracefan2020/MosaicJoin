@@ -1,0 +1,79 @@
+id,title
+0,spawn monster_zombie_fat
+1,spawn monster_zombie_maint
+2,spawn monster_zombie_commando_cgun
+3,spawn monster_zombie_commando
+4,spawn monster_demon_imp
+5,spawn monster_demon_pinky
+6,spawn monster_demon_trite
+7,spawn monster_demon_maggot
+8,spawn monster_demon_hellknight
+9,spawn monster_demon_tick
+10,spawn monster_demon_archvile
+11,spawn monster_demon_mancubus
+12,spawn monster_flying_cacodemon
+13,spawn weapon_pistol
+14,spawn weapon_bfg
+15,spawn weapon_shotgun
+16,spawn weapon_chaingun
+17,spawn weapon_machinegun
+18,spawn weapon_rocketlauncher
+19,spawn weapon_plasmagun
+20,spawn weapon_soulcube
+21,spawn monster_boss_cyberdemon
+22,spawn monster_demon_cherub
+23,spawn monster_demon_imp_crawler
+24,spawn monster_demon_imp_crawl_armdoor
+25,spawn monster_demon_revenant
+26,spawn monster_flying_lostsoul
+27,spawn monster_zombie_bernie
+28,spawn monster_zombie_boney
+29,spawn monster_boss_guardian
+30,spawn monster_boss_guardian_spawner
+31,spawn monster_boss_guardian_seeker
+32,spawn monster_boss_maledict_cinematic
+33,spawn monster_boss_sabaoth
+34,spawn monster_boss_Vagary
+35,spawn char_campbell_bfgcase
+36,spawn char_betruger
+37,spawn char_swann
+38,spawn char_campbell
+39,spawn char_hazmat
+40,spawn char_campbell_bfg
+41,spawn env_gibs_spine
+42,spawn env_gibs_torso
+43,spawn env_gibs_leftleg (or right)
+44,spawn env_gibs_leftarm (or right)
+45,"spawn moveable_chair (1,2 or 5)"
+46,spawn moveable_ktable
+47,spawn moveable_computer
+48,spawn moveable_base_fixed
+49,spawn moveable_base_barrel
+50,spawn moveable_base_domino
+51,spawn moveable_base_boulder
+52,spawn moveable_burgerboxopen
+53,spawn moveable_burgerboxclose
+54,spawn moveable_paperwad
+55,spawn moveable_burger
+56,spawn moveable_base_brick
+57,spawn moveable_wrench
+58,spawn moveable_base
+59,spawn moveable_cannister
+60,spawn moveable_blaptop
+61,spawn moveable_cartonbox (1-8)
+62,spawn moveable_cokecan
+63,spawn moveable_monitor
+64,spawn moveable_gizmo (1-3)
+65,spawn moveable_item_(any weapon here)
+66,spawn marscity_marine_helmet_p90_walking
+67,spawn char_security_goggles_pistol
+68,spawn moveable_burningtank
+69,spawn moveable_explodingtank
+70,spawn moveable_burningbarrel
+71,spawn moveable_explodingbarrel
+72,spawn env_ragdoll_skeleton2
+73,spawn env_ragdoll_skeleton
+74,spawn monster_zsec_pistol_slowfire
+75,spawn monster_zsec_shotgun
+76,spawn monster_zsec_machinegun
+77,spawn monster_zsec_pistol

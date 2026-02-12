@@ -1,0 +1,249 @@
+id,title
+0,Cisco IOS FTP Server Authentication Bypass Vulnerability
+1,KnFTP Server 'FEAT' Command Remote Denial of Service Vulnerability
+2,Ricoh DC Software DL-10 FTP Server 'USER' Command Buffer Overflow Vulnerability
+3,Telnet-FTP Server 'RETR' Command Remote Denial of Service Vulnerability
+4,Smallftpd FTP Server Multiple Requests Denial of Service Vulnerability
+5,SmartFTP Client Information Disclosure Vulnerability
+6,Home FTP Server Multiple Directory Traversal Vulnerabilities
+7,FTPx Corp FTP Explorer Directory Traversal Vulnerability
+8,3D FTP Client Directory Traversal Vulnerability
+9,FTPGetter FTP Client Directory Traversal Vulnerability
+10,Ipswitch WS_FTP Professional 'HTTP' Response Format String Vulnerability
+11,Trellian FTP Version Detection
+12,Trellian FTP 'PASV' Response Buffer Overflow Vulnerability
+13,tnftpd 'ftp://' Cross-Site Request Forgery Vulnerability
+14,tnftpd Version Detection
+15,ProFTPD Server Remote Version Detection
+16,WS_FTP Version Detection
+17,Anonymous FTP Checking
+18,FileZilla Server Version Detection
+19,RaidenFTPD Server Version Detection
+20,WS_FTP Server Manager Security Bypass Vulnerability
+21,SpoonFTP 'RETR' Command Remote Denial of Service Vulnerability
+22,ActFax FTP Server Post Auth 'RETR' Command Denial of Service Vulnerability
+23,Home FTp Server DOS And Multiple Directory Traversal Vulnerabilities
+24,Core FTP Server 'Type' Command Remote Denial of Service Vulnerability
+25,TYPSoft FTP Server Multiple Commands Remote Denial of Service Vulnerabilities
+26,War FTP Daemon 'USER' and 'PASS' Remote Format String Vulnerability
+27,KnFTPd FTP Server Multiple Commands Remote Buffer Overflow Vulnerabilities
+28,BisonFTP Multiple Commands Remote Buffer Overflow Vulnerabilities
+29,Golden FTP PASS Command Buffer Overflow Vulnerability
+30,Easy FTP Server POST Auth 'MKD' Command Buffer Overflow Vulnerability
+31,Quick 'n Easy FTP Login Denial of Service Vulnerability
+32,SolarFTP PASV Command Remote Denial of Service Vulnerability
+33,SolarFTP USER Command Remote Denial of Service Vulnerability
+34,SmartFTP Filename Processing Unspecified Vulnerability
+35,Surge-FTP Admin Multiple Reflected Cross-site Scripting Vulnerabilities
+36,FTPGetter 'PASV' Command Remote Stack Buffer Overflow Vulnerability
+37,TYPSoft FTP Server RETR CMD Denial Of Service Vulnerability
+38,ProFTPD Denial of Service Vulnerability
+39,ProFTPD Multiple Remote Vulnerabilities
+40,pyftpdlib FTP Server Information Disclosure Vulnerability
+41,pyftpdlib FTP Server Multiple Vulnerabilities
+42,pyftpdlib FTP Server Multiple Directory Traversal Vulnerabilities
+43,pyftpdlib FTP Server Multiple Vulnerabilities
+44,pyftpdlib FTP Server Denial of Service Vulnerability
+45,pyftpdlib FTP Server Multiple Vulnerabilities
+46,Home FTP Server Multiple Directory Traversal Vulnerabilities
+47,FileCOPA FTP Server Multiple Directory Traversal Vulnerabilities
+48,Femitter FTP Server Multiple Directory Traversal Vulnerabilities
+49,FreshWebMaster Fresh FTP Filename Directory Traversal Vulnerability
+50,Small FTPD Server Directory Traversal Vulnerability
+51,AutoFTP Manager FTP Client Directory Traversal Vulnerability
+52,Open-FTPD Authentication Bypass Vulnerability
+53,FileCopa FTP Server 'NOOP' Command DoS Vulnerability
+54,XM Easy Personal FTP Server 'LIST' And 'NLST' Command DoS Vulnerability
+55,Golden FTP Server 'DELE' Command Directory Traversal Vulnerability
+56,TYPSoft FTP Server Version Detection
+57,Fake FTP server does not accept any command
+58,Fake FTP server accepts a bad sequence of commands
+59,Fake FTP server accepts any command
+60,Null FTP Server SITE Command Execution Vulnerability
+61,NULL FTP Server Version Detection
+62,FFFTP LIST Command Directory Traversal Vulnerability
+63,DataWizard FTPXQ Default Accounts
+64,AceFTP LIST Command Directory Traversal Vulnerability
+65,QuickShare File Share FTP Server Directory Traversal Vulnerability
+66,Blackmoon FTP PORT Command Denial Of Service Vulnerability
+67,Freefloat FTP Server Directory Directory Traversal Vulnerability
+68,FileCopa FTP Server Directory Traversal Vulnerability
+69,ArGoSoft FTP Server RNTO Command Remote Buffer Overflow
+70,ProFTPD < 1.3.0rc2 Multiple Vulnerabilities
+71,Home FTP Server Multiple Vulnerabilities
+72,WhitSoft SlimFTPd Buffer Overflow Vulnerabilities(2)
+73,WhitSoft SlimFTPd Buffer Overflow Vulnerability
+74,WhitSoft SlimFTPd Denial of Service Vulnerability
+75,SurgeFTP Malformed Request Denial of Service
+76,SurgeFTP Server Information Disclosure
+77,SurgeFTP MS-DOS Device Denial Of Service
+78,SurgeFTP Weak Password Encryption Vulnerability
+79,SurgeFTP Surgeftpmgr.CGI Denial Of Service
+80,SurgeFTP LEAK Command Denial of Service
+81,ArGoSoft FTP DELE Buffer Overflow(2)
+82,ProFTPD Long Path Buffer Overflow Vulnerability
+83,ProFTPD Remote Buffer Overflow
+84,ProFTPD STAT Command Denial Of Service Vulnerability
+85,ProFTPD 1.2.0rc2 log_pri() Format String Vulnerability
+86,ProFTPD SQL Injection mod_sql Vulnerability
+87,ProFTPD ASCII File Transfer Buffer Overrun
+88,ProFTPD Authentication Delay Username Enumeration
+89,ArGoSoft Brute Force Attack
+90,ArGoSoft FTP Weak encryption
+91,ArGoSoft FTP Server Shortcut File Upload Vulnerability
+92,ArGoSoft FTP Server User Database Corruption
+93,ArGoSoft FTP Shortcut Extension Filter Bypass
+94,ArGoSoft FTP Server Shortcut File Upload Vulnerability
+95,ArGoSoft FTP Server XCWD Buffer Overrun Vulnerability
+96,3Com 3CServer Multiple Buffer Overflows
+97,ArGoSoft FTP DELE Buffer Overflow
+98,ArGoSoft FTP Server Username Disclosure
+99,FTP Writeable Directories
+100,RaidenFTPD Unauthorized File Access flaw
+101,RaidenFTPD Directory Traversal flaw
+102,FTPD glob (too many *) denial of service
+103,WS FTP server multiple flaws (2)
+104,GuildFTPd Long SITE Command Overflow
+105,Ability Server Remote FTP Buffer Overflow
+106,proftpd < 1.2.11 remote user enumeration
+107,TYPSoft empty username DoS
+108,TYPSoft directory traversal flaw
+109,Titan FTP Server directory traversal
+110,WS FTP server FTP bounce attack and PASV connection hijacking flaw
+111,WS FTP server multiple flaws
+112,Titan FTP Server CWD heap overflow
+113,WS FTP CWD DoS
+114,WS FTP STAT buffer overflow0
+115,WS FTP server DoS
+116,wu-ftpd S/KEY authentication overflow
+117,wu-ftpd MAIL_ADMIN overflow
+118,wu-ftpd rnfr file overwrite
+119,wu-ftpd ABOR priviledge escalation
+120,BlackJumboDog FTP server multiple command overflow
+121,oftpd denial of service
+122,wu-ftpd restricted-gid unauthorized access
+123,DreamFTP format string
+124,WFTP 3.21 multiple remote overflows
+125,FTP Serv-U Server MDTM Stack Overflow Vulnerability
+126,SAMI FTP Server DoS
+127,CROB FTP Server multiple connections DoS
+128,xlight FTP Server RETR Stack Overflow Vulnerability
+129,Serv-U FTP Server SITE CHMOD Command Stack Overflow Vulnerability
+130,Flash FTP Server Directory Traversal Vulnerability
+131,wu-ftpd ls -W memory exhaustion
+132,wu-ftpd fb_realpath() off-by-one overflow
+133,NGC ActiveFTP Denial of Service
+134,hpux ftpd REST vulnerability
+135,CrobFTP format string
+136,VisNetic and Titan FTP Server traversal
+137,ST FTP traversal
+138,BlackMoon FTP user disclosure
+139,webweaver FTP DoS
+140,SmallFTP traversal
+141,.rhosts in FTP root
+142,.forward in FTP root
+143,NB1300 router default FTP account
+144,NiteServer FTP directory traversal
+145,Debian proftpd 1.2.0 runs as root
+146,Serv-U path disclosure
+147,BSD ftpd setproctitle() format string
+148,SunFTP directory traversal
+149,SunFTP Buffer Overflow
+150,HP-UX ftpd glob() Expansion STAT Buffer Overflow
+151,BSD ftpd Single Byte Buffer Overflow
+152,wu-ftpd glob vulnerability (2)
+153,wu-ftpd PASV format string
+154,War FTP Daemon USER/PASS Overflow
+155,War FTP Daemon Directory Traversal
+156,War FTP Daemon CWD/MKD Buffer Overflow
+157,Platinum FTP Server
+158,vxworks ftpd buffer overflow
+159,Windows Administrator NULL FTP password
+160,Generic FTP traversal
+161,WS_FTP SITE CPWD Buffer Overflow
+162,TypSoft FTP STOR/RETR DoS
+163,WS FTP overflows
+164,EFTP installation directory disclosure
+165,Passwordless Zaurus FTP server
+166,FTP Service Allows Any Username
+167,MS FTPd DoS
+168,EFTP tells if a given file exists
+169,Multiple WarFTPd DoS
+170,FTPD glob Heap Corruption
+171,GuildFTPd Directory Traversal
+172,ftpd strtok() stack overflow
+173,Solaris FTPd tells if a user exists
+174,ftp 'glob' overflow
+175,bftpd chown overflow
+176,bftpd format string vulnerability
+177,Serv-U Directory traversal
+178,Broker FTP files listing
+179,EFTP carriage return DoS
+180,PFTP login check
+181,hpux ftpd PASS vulnerability
+182,WFTP 2.41 rc11 multiple DoS
+183,Guild FTPd tells if a given file exists
+184,WFTP RNTO DoS
+185,wu-ftpd SITE EXEC vulnerability
+186,vsftpd '__tzfile_read()' Function Heap Based Buffer Overflow Vulnerability
+187,Serv-U FTP Server Jail Break
+188,ProFTPD Prior To 1.3.3g Use-After-Free Remote Code Execution Vulnerability
+189,wu-ftpd SITE NEWER vulnerability
+190,wu-ftpd buffer overflow
+191,vsftpd FTP Server 'ls.c' Remote Denial of Service Vulnerability
+192,VicFTPS 'LIST' Command Remote Denial of Service Vulnerability
+193,XM Easy Personal FTP Server 'TYPE' Command Remote Denial of Service Vulnerability
+194,WFTP login check
+195,Golden FTP Server Malformed Message Denial Of Service Vulnerability
+196,SolarFTP 'PASV' Command Remote Buffer Overflow Vulnerability
+197,vftpd buffer overflow
+198,FileZilla Server Port Command Denial of Service
+199,Windows NT ftp 'guest' account
+200,Microsoft IIS FTPd NLST stack overflow
+201,FTP site exec
+202,Buffy 'comb' Command Directory Traversal Vulnerability
+203,Writeable FTP root
+204,FTP real path
+205,Ftp PASV on connect crashes the FTP server
+206,Ftp PASV denial of service
+207,"ftp USER, PASS or HELP overflow"
+208,FTP CWD ~root
+209,FTPd tells if a user exists
+210,FTP bounce check
+211,Linux FTP backdoor
+212,Serv-U Denial of Service and Security Bypass Vulnerabilities
+213,Wing FTP Server Denial of Service Vulnerability and Information Disclosure Vulnerability
+214,pyftpd Multiple Vulnerabilities
+215,Core FTP Server Directory Traversal Vulnerability
+216,VicFTPS Directory Traversal Vulnerability
+217,CompleteFTP Directory Traversal Vulnerability
+218,Wing FTP Server Versions Prior to 3.4.1 Multiple Information Disclosure Vulnerabilities
+219,Serv-U Multiple Security Vulnerabilities
+220,ArGoSoft FTP Server .NET Directory Traversal Vulnerability
+221,httpdx Multiple Remote Denial Of Service Vulnerabilities
+222,FreeBSD and OpenBSD 'ftpd' NULL Pointer Dereference Denial Of Service Vulnerability
+223,httpdx 'MKD' Command Directory Traversal Vulnerability
+224,Open-FTPD Multiple Buffer Overflow Vulnerabilities
+225,SurgeFTP 'surgeftpmgr.cgi' Multiple Cross Site Scripting Vulnerabilities
+226,TurboFTP 'DELE' FTP Command Remote Buffer Overflow Vulnerability
+227,Serv-U File Server User Directory Information Disclosure Vulnerability
+228,RhinoSoft Serv-U FTP Server TEA Decoder Remote Stack Buffer Overflow Vulnerability
+229,Home FTP Server 'SITE INDEX' Command Remote Denial of Service Vulnerability
+230,Home FTP Server 'MKD' Command Directory Traversal Vulnerability
+231,XM Easy Personal FTP Server 'NLST' Command Remote Denial of Service Vulnerability
+232,Serv-U 'SITE SET TRANSFERPROGRESS ON' Command Remote Denial of Service Vulnerability
+233,Serv-U Web Client HTTP Request Remote Buffer Overflow Vulnerability
+234,Bftpd Unspecified Remote Denial of Service Vulnerability
+235,ProFTPD mod_tls Module NULL Character CA SSL Certificate Validation Security Bypass Vulnerability
+236,DataWizard FtpXQ Remote Denial of Service Vulnerability
+237,Cerberus FTP Server Long Command Remote Denial of Service Vulnerability
+238,WarFTPD Multiple Format String Vulnerabilities
+239,Cerberus FTP Server 'ALLO' Command Buffer Overflow Vulnerability
+240,NcFTPD Symbolic Link Information Disclosure Vulnerability
+241,XM Easy Personal FTP Server Multiple Command Remote Buffer Overflow Vulnerabilities
+242,httpdx Multiple Commands Remote Buffer Overflow Vulnerabilities
+243,TYPSoft FTP Server 'ABORT' Command Remote Denial of Service Vulnerability
+244,Acritum Femitter Server Remote File Disclosure Vulnerability
+245,FTPDMIN 'RNFR' Command Buffer Overflow Vulnerability
+246,Ftpdmin Detection
+247,AIX FTPd buffer overflow

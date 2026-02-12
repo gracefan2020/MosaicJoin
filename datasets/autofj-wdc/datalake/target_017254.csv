@@ -1,0 +1,51 @@
+id,title
+0,Page title doesn't show.
+1,"Compatibility with ""Title override"" module"
+2,Can not get taxonomy title module working with i18n
+3,Call to undefined function _taxonomy_title_get_title()
+4,Permitting italics in the Term Title
+5,Ad configure link on modules page
+6,"Field ""Term page heading"" in Views"
+7,Be able to create global pattern for terms
+8,"Warning: htmlspecialchars() expects parameter 1 to be string, array given in check_plain()"
+9,Fatal error: Call to undefined function dpm()
+10,Inconsistent database schema
+11,use hook_field_extra_fields to control position of taxonomy title field on edit form
+12,dpm output still in module
+13,No Title Showing with Taxonomy Term View
+14,Error when adding tags to an article
+15,taxonomy_term_delete parameters
+16,"Update the screenshots on the admin page to show the ""seven"" theme"
+17,It will be great if I can customize h1 and title meta differently
+18,Update tokens for use with Drupal 7
+19,Consider moving admin settings page
+20,Taxonomy Page Title not showing
+21,Use a true update instead of deleteing and re-inserting the title.
+22,Duplicate entry error when title is empty
+23,Tokens are not returning translated term name in case a term title is not defined
+24,TT not working in forums titles
+25,Error when adding tags to an article
+26,Error when submitting an empty title
+27,Cannot save term title
+28,Doesn't work with multi-lingual
+29,* Notice: Undefined variable: term in taxonomy_title_taxonomy_term_update()
+30,Ubercart Catalog unsupported
+31,"Provide option to disable use as term page title, and only use as meta title."
+32,Domain-specific settings won't save correctly on multi-lingual/multi-domain site
+33,heading data lost when terms rearranged on term list
+34,Taxonomy title not translatable
+35,Release is missing translations!
+36,Provide token for taxonomy title - code
+37,Upgrade to Drupal 7 #dcnyc8 woot
+38,Show the title in the term list
+39,Full module review findings
+40,Fatal error: Cannot break/continue 1 level in /site/modules/taxonomy_title/taxonomy_title.module...
+41,"h1 changed, page title not"
+42,6.x-1.2 gives 500 error when term is saved
+43,Fatal error when term is saved
+44,Add title calculation by a vocabulary string
+45,This module messed up poll
+46,title tag not working
+47,Conflict with unpublished comments
+48,Module didn't change title
+49,Change title for all link in taxonomy page

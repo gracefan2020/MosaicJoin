@@ -1,0 +1,75 @@
+id,title
+0,IMP maintenance should apply to a configurable folder set.
+1,Support wildcard email aliases
+2,S/MIME Sign using browser capabilities
+3,Conversation view of threads
+4,Generic method to attach resources from other Horde apps
+5,add 'to' column in mail window
+6,progress bar when importing folders
+7,Add event from email
+8,Add support for mod_sendfile and vfs-direct
+9,exact match address book expansion on field exit
+10,One PGP key pair and S/MIME certificate per identity
+11,Selected message improvements when deleting messages
+12,Add pref UI to define keyboard navigation bindings
+13,Support for PGP keysigning
+14,Folder creation on the fly when composing e-mail
+15,itip: can't add event / shared calendar
+16,Unable to send smime encrypted mail unless 'email' attribute is set
+17,Add attachments through compose link
+18,Add an option to use horde auth for user list in ACL screen
+19,Add undo link to blacklisting notification
+20,Allow re-submission of PGP keys
+21,Re-order virtual inbox and virtual trash
+22,Learning (adaptive) autocomplete
+23,Allow sorting of search results
+24,Add key navigation for folder tree
+25,Optimize viewport update when deleting many messages
+26,Add task list/notepad support to dynamic interface
+27,Support multiple mailboxes in IMAP search command
+28,"Add ""Other Actions"" to Dynamic mail separate window"
+29,Support LaTeX Rendering
+30,"Add ""save to same folder"" for sent messages"
+31,copy/move messages from context menu
+32,Scroll message list while dragging scroller
+33,Non-UTF-8 content in PGP signatures break preview
+34,"Enhancement of ""add to adressbook"" function in imp"
+35,Add keyboard shortcuts in dynamic view
+36,Hybrid preview
+37,shift-N in search mailboxes
+38,Allow custom headers in message preview
+39,remove Bcc lines when forwarding messages
+40,Automatic S/MIME encryption
+41,Update filters when folders are moved
+42,import of large keyfiles fails
+43,Trash for remote accounts
+44,New type of special folder
+45,"Import, renew public S/MIME Cert"
+46,S/MIME: need of more than only one cert/keypair per address
+47,Archive button
+48,Add MathML Support
+49,Show containing folder in multi-folder search results
+50,"""Address is missing domain"" when sending mail"
+51,Linked attachment lost when saving as draft
+52,double newlines in html mails
+53,Chrome browser tray notification timeout
+54,Incorrect charset from inline PGP data
+55,No Virtual Trash
+56,Imp swiches to dynamic view when basic view is selected
+57,Message drafts are not automatically saved in basic mode
+58,Linked attachments
+59,add alt+HOME and alt+END shortcuts for previewPane
+60,Inconsistent address autocomplete display filter
+61,Inconsistent message for SMTP error 554
+62,can't empty virtual trash in dynamic mode
+63,"Horde Invalid Token error causing ""Error when communicating with the Server"""
+64,unable to access special folder sent if sub folder exists
+65,filename becomes ???.txt if not English of .txt
+66,Can't store PGP passphrase + tests are failing
+67,Virtual Folder display / sorting by root folder
+68,Select or mark multiple messages in IMP's mobile view
+69,read notification message from wrong identity
+70,saved new message gets deleted on forced logut
+71,Could smtp auth be integer?
+72,forwarding messages in the smartmobile view breaks mime boundaries and encoding
+73,Date parsing causes invites not to be displayed (exception is being ignored)

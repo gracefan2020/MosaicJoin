@@ -1,0 +1,77 @@
+id,title
+0,Inferencing on graph patterns
+1,Comments on Query 1.1 FPWD
+2,Comments on Service Description 1.1 FPWD
+3,Comments onSPARQL 1.1 Uniform HTTP Protocol FPWD
+4,Comments on general directions of FPWD
+5,Comments on SPARQL 1.1
+6,Comments on Entailment Regimes
+7,"LET or AS for ""assignment"""
+8,Missing LET assignment
+9,Comments on SPARQL 1.1 Aggregates
+10,Comments on SPARQL 1.1 Update
+11,SPARQL paths and N3 paths: some quick thoughts
+12,Comments on SPARQL 1.1 Property Paths
+13,non-formal question on SPARQL 1.1 Property Paths
+14,SPARQL 1.1 Query Aggregates syntax
+15,Comments on latest SPARQL 1.1 Working Drafts
+16,"Comments on Property Paths FPWD (not indented as formal comment, though)"
+17,"Request for named graph templates ""everywhere"" (e.g. named graph creation/modification in CONSTRUCT like in INSERT)"
+18,way of describing the supported results formats in SPARQL 1.1 Service Description (like e.g. in SADDLE)
+19,Aggregates and property paths further comments
+20,Update syntax
+21,Aggregates and property paths more comments
+22,abstract syntax for Update
+23,ISSUE-49
+24,"suggested addition to SPARQL 1.1 Service Description ""well-known endpoint"""
+25,IRI creation and encoding
+26,wrong example in the Fed.Ext. document
+27,semantics of DESCRIBE
+28,Brief comment on sd:name
+29,RIF review of Entailment Regimes
+30,Feedback to some SPARQL 1.1 Working Drafts
+31,"Comments on ""SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs"""
+32,Comments on aggregation in SPARQL 1.1
+33,SPARQL 1.1 Protocol: HTTP status code for QueryRequestRefused
+34,SPARQL 1.1 Protocol: Format of fault messages
+35,Explanation of OPTIONAL vs { OPTIONAL }
+36,Comments about the semantics of property paths
+37,Comments about the semantics of property paths
+38,Comments about the semantics of property paths (cont)
+39,Comments about functions and LET
+40,"No content-type on payload, What to do if no payload? Proper escaping of URIs and payload on update operations, HTTP DELETE"
+41,"No content-type on payload, What to do if no payload? Proper escaping of URIs and payload on update operations, HTTP DELETE"
+42,Behavior of SPARQL Update INSERT on default graphs
+43,Permit LOAD from a SPARQL CONSTRUCT endpoint
+44,"Aggregates, Bindings and other comments"
+45,Comments on SPARQL 1.1 Uniform HTTP Protocol Working Draft 14 October 2010
+46,"""RDF Knowledge"" (Uniform HTTP Protocol for Managing RDF Graphs)"
+47,DELETE and INSERT redundant vs. DELETE/INSERT?
+48,comments on SPARQL 1.1 14 October 2010 Working Draft (editorial comments)
+49,[Query-errata] error in example query in SPARQL recommendation
+50,HTTP DELETE operation
+51,Uniqueness of blank node labels
+52,NOT EXISTS vs. MINUS
+53,LC comments on 'Serializing SPARQL Query Results in JSON'
+54,Comments on SPARQL Results in JSON
+55,Implementing SPARQL 1.1 Query - feedback on Oct 14 WD
+56,RE: Comments on SPARQL 1.1 Uniform HTTP Protocol and Service Description
+57,Fwd: Further Comment on SPARQL 1.1 Service Description
+58,Re: Comments on SPARQL 1.1 Uniform HTTP Protocol Working Draft 14 October 2010
+59,Re: Comments on SPARQL 1.1 Uniform HTTP Protocol Working Draft 14 October 2010
+60,s/URI/IRI/ in http://www.w3.org/TR/sparql11-http-rdf-update/#indirect-graph-identification
+61,avg testcase issues
+62,Re: Further Feedback on SPARQL 1.1 Test Cases
+63,RDF notes
+64,SPARQL 1.1 Federation Extensions
+65,"Comments on ""SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs"""
+66,"!=, NOT IN and type errors"
+67,Comments about property paths
+68,Comments about property paths
+69,Service description spec - service name
+70,"Comment on ""Dataset HTTP Protocol"": Uses of ""indirect"""
+71,HTTP status codes when no result is responded
+72,Comments about blank nodes in Editors' draft of SPARQL update
+73,Proposal for simplifying FILTER semantics
+74,File not found: http://www.w3.org/TR/rdf-sparql-XMLres/result2.xsd
+75,Syntax problem in Fed document

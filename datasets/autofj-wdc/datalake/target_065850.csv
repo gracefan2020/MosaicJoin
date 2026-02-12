@@ -1,0 +1,51 @@
+id,title
+0,cannot type data after a display-data and then segmentation fault
+1,mixing source and disassembly (i.e. disassemble /m) should be an option
+2,problem with opening file in ddd
+3,Machine Code Window does not work with newer GDBs
+4,DDD 3.3.12 doesn't build on OS X Mavericks
+5,"Unable to run bashdb via ddd, 3.3.12"
+6,SourceView.C:8724: assertion `*proc_id == *id' failed
+7,layout.C: 2 * bad if test ?
+8,DDD 3.3.12 interworking with gdb 7.x python is slow
+9,ddd hangs when using Edit->Copy
+10,ddd.texi contains ISO-8859-1 characters
+11,"DDD Hangs when ""disassembly-flavor"" is set to INTEL via GDB Option."
+12,reserved identifier violation
+13,Execution Window runs program with incorrect arguments
+14,"dbx debugger mouseover ""Run"" command causes 100% CPU usage"
+15,X86_64 RHE5 platform doesn't show threads correctly
+16,strclass.C:1546: error: ‘EOF’ was not declared in this scope
+17,DDD 3.3.12 (i486-pc-linux-gnu) gets `BadWindow' error
+18,Should prompt for tab completion on extremely large lists
+19,Threads window discards function name
+20,DDD has problems parsing Temporary breakpoints
+21,ddd caches user functions
+22,"""waiting until GDB gets ready"" on Run"
+23,"fixes for many warnings, one fatal error (duplicate bug#30862)"
+24,broken links on www.gnu.org/software/ddd/#Doc
+25,Right Click on variable is off by two characters.
+26,perl hash key incorrectly parsed for display of item value
+27,gcc 4.4.4 needs #include in cstrclass.C
+28,having difficulty building from SVN trunk
+29,incorrect gdb 'disassemble' command
+30,display of complex variables of form A[][]
+31,ddd huge fonts when using UTF-8 Cannot convert string to type FontStruct
+32,ddd SVN fails to compile on Ubuntu lucid; patch included
+33,DDD with remake
+34,DDD 3.3.12 (i386-apple-darwin10.3.0) gets `Abort trap' signal
+35,Session does not startup to the saved source file.
+36,Multible breakpoints on the same address
+37,ddd/Ddd gets overwritten by ddd/ddd when building on os x
+38,internal error
+39,Tab completion for filenames
+40,If you work in the Data Window the System crashes
+41,DDD Hangs on operations using gdb on OpenBSD and NetBSD amd64 architectures.
+42,control over including libelf
+43,Cannot move button window
+44,unable to resize Backtrace window
+45,multiple display pointers while displaying struct pointers
+46,DDD Build Fails Undeclared EOF when Building with GCC 4.4.0
+47,ddd does ignore all letters `s' in commands and file names/paths
+48,Bus Error - Unresolved Inheritance Operation
+49,"--args does not work with ""Run Program in Execution Window"""

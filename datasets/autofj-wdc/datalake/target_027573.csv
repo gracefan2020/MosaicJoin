@@ -1,0 +1,69 @@
+id,title
+0,"Don't just remove ""two-chars:"" on reply"
+1,Avoid folder corruption by updating more often
+2,"Additional feature for ""Max. age"""
+3,Attach 'Scripts' menu to read/write window
+4,use .config to select .addressbook
+5,Support of IMAP4
+6,New 'On double click of attachment' event
+7,Filters' scope
+8,Allow folders icon (.fimage) management in folder properties
+9,individual folder group icons
+10,mail list => threaded listtree
+11,Printing refinement
+12,Support MIME-specific save-dir
+13,Easy access to toggle embedded pane
+14,Add possibility to edit adressbook of current mail
+15,Implement format=flowed support!
+16,"Mailing list feature to clone a thread to avoid ""hijacking"""
+17,GnuPG support in YAM
+18,RFC-2369 compliant reply-to-list feature
+19,Send mail in outoing folder
+20,Add a display delay for crsr-scrolling in folderlist
+21,Add support for .fimage_new and global .fimage
+22,Enhancement for Finding messages
+23,Add email phishing campaigns detection
+24,ARexx - MAILIMPORT / MAILEXPORT : return FILENAME
+25,ARexx - FOLDERNEW
+26,"Filter by categories, address book lists, groups"
+27,User-definable toolbars
+28,User-definable context menus
+29,Rework/Improvement of mailing-list functionality
+30,Completly reworked address book GUI
+31,HTML read mail support
+32,S/MIME support
+33,Implement a stronger password encryption mechanisms
+34,"Add ""Stop"" Toolbar button which aborts e.g. filtering"
+35,Rework internal Error handler (window) to be a notification agent
+36,Replace flex-based scanner with re2c based one
+37,Hidden config editor in YAM configuration GUI
+38,Embedded mail pane to be displayed vertically
+39,Mark E-Mails with different priority
+40,"Remove selection/highlight in ""found""-list when mail is deleted"
+41,Investigate possibility to use sqlite for mail indexing/storing
+42,"Add ""Quick-Reply"" feature to read window (readmailgroup)"
+43,Complete overhaul of global configuration implementation
+44,UpdateCheck mechanism should allow to also directly install updates
+45,Progress bar (uploading/downloading mail) in YAM's main window
+46,How about toggable status icons
+47,PGP Problem when sending Mail
+48,Accents not show correctly in mails
+49,Restructure folder tree loading process
+50,Switch image file handling to guigfx.library
+51,Change build environment to use 'cmake'
+52,"Remove the ""Read"" button from the main window's toolbar"
+53,Rework the removal of attachments
+54,"Initialize TLSv1/SSLv3 session error during ""GetMail"""
+55,"Add option to ""GetMail"" one account after another"
+56,Implement an account setup wizard
+57,GUI improvement (Configuration window)
+58,YAM crashes sometimes during sending of e-mail
+59,IMAP 'download' support
+60,Can't download messages form one of my providers anymore
+61,Proxy Server support
+62,crash during sending of e-mail
+63,Search listview does not reopen properly
+64,Crash at startup (bsdsocket.library)
+65,"in html files sent as attachments, non-breaking-spaces (typed in with alt_space) are transformed"
+66,Missing Reply-to address in Information window
+67,"Forwarded messages with a html view, have an unreadable attachment part1.2"

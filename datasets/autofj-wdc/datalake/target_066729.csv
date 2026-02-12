@@ -1,0 +1,50 @@
+id,title
+0,padding
+1,margin
+2,width
+3,height
+4,minWidth
+5,minHeight
+6,maxWidth
+7,maxHeight
+8,autoSize
+9,autoHeight
+10,autoWidth
+11,autoResize
+12,autoCenter
+13,fitToView
+14,aspectRatio
+15,topRatio
+16,leftRatio
+17,scrolling
+18,wrapCSS
+19,arrows
+20,closeBtn
+21,closeClick
+22,nextClick
+23,mouseWheel
+24,autoPlay
+25,playSpeed
+26,preload
+27,modal
+28,loop
+29,ajax
+30,iframe
+31,swf
+32,keys
+33,direction
+34,scrollOutside
+35,index
+36,type
+37,href
+38,content
+39,title
+40,tpl
+41,openEffect / closeEffect / nextEffect / prevEffect
+42,openSpeed / closeSpeed / nextSpeed / prevSpeed
+43,openEasing / closeEasing / nextEasing / prevEasing
+44,openOpacity / closeOpacity
+45,openMethod / closeMethod / nextMethod / prevMethod
+46,helpers
+47,live
+48,parent

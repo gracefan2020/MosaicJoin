@@ -1,0 +1,50 @@
+id,title
+0,Backend for Codecov reporting of coverage statistics
+1,Perl::Critic policies inspired by #perl on freenode IRC
+2,Database::Migrator implementation for Postgres
+3,testing TCP program
+4,API for MaxMind minFraud Services
+5,Produce a GraphViz graph showing meta-information about classes and roles
+6,Form HTML generator/validator
+7,Perl IDE backend with Emacs frontend
+8,Validate method/function parameters
+9,Define validation through subroutine attributes
+10,Test all modules which depend on your module
+11,Create MaxMind DB database files
+12,modules used by JMATES (not for work)
+13,"A Fey-based ORM (If you like SQL, you might like Fey::ORM)"
+14,Determine MIME types of data or files using libmagic
+15,DROLSKY's plugin bundle
+16,"Restricted Perl, The Optimizing Perl 5 Compiler"
+17,Lock down the set of warnings active in a lexical scope
+18,Pcore - perl applications development environment
+19,A Perl port of Webmachine
+20,"Engine for tidyall, your all-in-one code tidier and validator"
+21,A date and time object for Perl
+22,Perl API for MaxMind's GeoIP2 web services and databases
+23,Apply tidyall to files in Dist::Zilla
+24,Domain parser and puny encoder/decoder.
+25,Time zone object base class and factory
+26,Better SQL Generation Through Perl
+27,Dispatches messages to one or more outputs
+28,A Cleaner API for Net::AMQP::RabbitMQ
+29,An event-based Markdown parser toolkit
+30,Policies for Perl::Critic concerned with using Moose
+31,Read MaxMind DB files and look up IP addresses
+32,Localization support for DateTime.pm
+33,MaxMind's plugin bundle
+34,Manipulate 64 bits integers in Perl
+35,Domain and host name validation
+36,Sane APIs for IP addresses and networks
+37,Code shared by the MaxMind DB reader and writer modules
+38,A mock RabbitMQ implementation for use when testing.
+39,Manage deprecation warnings for your distribution
+40,build your dist and run Perl::Critic on the built files.
+41,Modules RSRCHBOY uses!
+42,Manipulate 128 bits integers in Perl
+43,sugar for using JSON::XS
+44,dzil pod coverage tests with configurable parameters
+45,"Run all your tests twice, once with XS code and once with pure Perl"
+46,allow $$foo
+47,Some add-on policies for Perl::Critic.
+48,A collection of Perl::Critic policies from Lokku

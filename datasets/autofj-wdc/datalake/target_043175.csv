@@ -1,0 +1,102 @@
+id,title
+0,fnm
+1,lnm
+2,uid
+3,prfnum
+4,phnum
+5,ctctuid
+6,grpnme
+7,grpnum
+8,tzcode
+9,abbprmpts
+10,anndpart
+11,annentry
+12,pwdreq
+13,screntry
+14,bcode
+15,uactive
+16,utype
+17,cndial
+18,shrtmnus
+19,pwdonoutdial
+20,whocanattnd
+21,whocanlstn
+22,canrecord
+23,recordmtgs
+24,WFPasswordLastChanged
+25,VUPasswordLastChanged
+26,ODXLatTableNum
+27,MaxImmedMtgsPerDay
+28,DayOfLastImmedMtg
+29,NumImmedMtgsOnThatDay
+30,MaximumMeetingLength
+31,MaxVUIODsPerMtg
+32,faxnum
+33,pgrnum
+34,mxattsprmtg
+35,rcvnotifs
+36,attndprf
+37,prmrynotifprf altnotifprf
+38,pgrtype
+39,emailtype
+40,site
+41,preferredunit
+42,emailaddr
+43,faxxlattblnum
+44,sndnotifs
+45,autodistatts
+46,dfltnotifprio
+47,sndnotifonmtgch
+48,sndinvlstwnotif
+49,sndmtgpwdwnotif
+50,rcvattswnotif
+51,playattlstfifo schedprefunitonly
+52,autostrtrcrd
+53,disablerollcall
+54,schedhomesiteonly
+55,concurrentquestions
+56,announceqarr
+57,announceqdep
+58,fqnadisabled
+59,ftellpartpos
+60,fadvanceinfo
+61,fautoproenabled
+62,fstartpeopleinwr
+63,publiculallowed groupulallowed privateulallowed
+64,meetingcategory
+65,numdataparts chatclienttype
+66,fallowdataconf
+67,fchatsession fismtgseminartype
+68,fallowguestview
+69,qnanotify
+70,InternetEmailAddr
+71,EncryptedUserPWD or upwd
+72,EncryptedProfilePWD or prfpwd or ProfilePWD
+73,fCanInviteRemoteServers
+74,altphnum
+75,1stSearch 2ndSearch 3rdSearch
+76,canallowguestoutdial allowguestoutdial
+77,VLanguage
+78,fEndMtgWarn fMtgExtendPrompts SSI_SystemID SSI_RollMapID SSI_SiteID
+79,CanChangeMtgID
+80,RsvnlessCnfg
+81,RsvnlessCnfgGD
+82,AllowVideoSched
+83,AllowInternetAccess
+84,VideoEndPtBandwidth
+85,bountyUser
+86,isLocalUser
+87,EmailFormat
+88,ReserveVoiceLicenses
+89,LockedProfileTime
+90,CanReserveVideoPorts PreferVideo
+91,PreferDataConf
+92,FRsvnlessAllowInternetAcc
+93,FStartPeopleInWR
+94,attendMode
+95,attendPasswdRequired
+96,announceQArr
+97,videoTypes
+98,mtgEntryMode
+99,dataConfClientType
+100,CCMpkid

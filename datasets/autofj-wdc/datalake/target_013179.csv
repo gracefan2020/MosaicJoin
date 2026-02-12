@@ -1,0 +1,59 @@
+id,title
+0,Line 1
+1,# atactl
+2,S.M.A.R.T. is a monitoring tool for hard disks. With NetBSD you can show the smart values using following command:
+3,# atactl wd0 smart status
+4,"SMART supported, SMART enabled"
+5,id value thresh crit collect reliability description raw
+6,1 100 0 no online positive Raw read error rate 2446
+7,4 98 0 no online positive Start/stop count 2492
+8,5 253 9 yes online positive Reallocated sector count 0
+9,7 253 51 yes online positive Seek error rate 0
+10,8 253 0 no offline positive Seek time performance 0
+11,9 99 0 no online positive Power-on hours count 1112403
+12,12 99 0 no online positive Device power cycle count 1418
+13,194 161 0 no online positive Temperature 53 Lifetime max/min 0/0
+14,197 253 9 yes online positive Current pending sector 0
+15,198 253 9 yes offline positive Offline uncorrectable 0
+16,199 100 0 no online positive Ultra DMA CRC error count 0
+17,200 100 51 yes online positive Write error rate 0
+18,201 100 51 yes online positive Soft read error rate 0
+19,# smartctl
+20,Another utility to monitor hard disks is smartctl. This utility is part of the sysutils/smartmontools package.
+21,# cd /usr/pkgsrc/sysutils/smartmontools/
+22,# make package
+23,With smartctl you can show the smart values using following command:
+24,# smartctl -s on /dev/sd0d
+25,smartctl version 5.36 [i386--netbsdelf] Copyright (C) 2002-6 Bruce Allen
+26,Home page is http://smartmontools.sourceforge.net/
+27,Informational Exceptions (SMART) enabled
+28,Temperature warning enabled
+29,# smartctl -a /dev/sd0d
+30,smartctl version 5.36 [i386--netbsdelf] Copyright (C) 2002-6 Bruce Allen
+31,Home page is http://smartmontools.sourceforge.net/
+32,Device: MAXTOR ATLAS10K5_300WLS Version: HPM7
+33,Serial number: J8033RSK
+34,Device type: disk
+35,Transport protocol: Parallel SCSI (SPI-4)
+36,Local Time is: Sun Nov 18 19:39:10 2007 CET
+37,Device supports SMART and is Enabled
+38,Temperature Warning Enabled
+39,SMART Health Status: OK
+40,Current Drive Temperature: 47 C
+41,Manufactured in week 05 of year
+42,Current start stop count: 1074003968 times
+43,Recommended maximum start stop count: 1124401151 times
+44,Elements in grown defect list: 0
+45,Error counter log:
+46,Errors Corrected by Total Correction Gigabytes Total
+47,ECC rereads/ errors algorithm processed uncorrected
+48,fast | delayed rewrites corrected invocations [10^9 bytes] errors
+49,read: 0 0 0 0 0 0.000 0
+50,write: 0 0 0 0 0 0.000 0
+51,Non-medium error count: 1115
+52,Last n error events log page
+53,No self-tests have been logged
+54,Long (extended) Self Test duration: 5760 seconds [96.0 minutes]
+55,# smartd
+56,Smartd is a SMART Disk Monitoring Daemon (part of the smartmontools).
+57,The data may be useful to detect defective or old hard drives.

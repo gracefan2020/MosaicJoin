@@ -1,0 +1,101 @@
+id,title
+0,Remove Millstone references
+1,license.txt
+2,Guide chapter: Intro must be written
+3,Approve final 4.0 theme design
+4,Integrate OpenAjax Hub
+5,Corporate theme implementation
+6,JS optimization and obfuscation
+7,Client certificate test: plan and testrun
+8,Client certificate test: IE 6.x
+9,Client certificate test: IE 7.x
+10,Client certificate test: Firefox 2.x
+11,Client certificate test: Safari 2.x
+12,Plan 3rd party software testing
+13,Server certificate test: Sun JDK 1.4.x
+14,Server certificate test: Sun JDK 1.5.x
+15,Server certificate test: JBoss + Tomcat
+16,Plus sign is not encoded
+17,"""Ajax push"" features (aka ""Comet"")"
+18,Toolkit QA system: Automated test framework
+19,Validate terminology on rendering modes
+20,Evaluate latest package
+21,Decide which demos to drop from beta-1
+22,terminal.web.ThemeFunctionLibrary has millstone related code
+23,Base theme contains 219 occurences of millstone related terms
+24,Make scrolling (and other changes) in scroll table to only render changed elements (cells)
+25,Check lisense with professionals
+26,High CPU usage on IE
+27,Memory leak (severe) on IE
+28,FeatureBrowser gives empty screen with FF
+29,Copy release to USB sticks
+30,Starting demo is user friendly
+31,Deploy Toolkit demos to www.itmill.com
+32,"Feature Browser display UIDL on some menu items, e.g. UI Components"
+33,FeatureBrowser bugs
+34,Add itmill-toolkit-license.xml to lib directory also
+35,Contact emails must work
+36,Feature Browser customlayout is halved with IE7
+37,FeatureBrowser is full of descriptions saying TODO
+38,Pricelist.pdf
+39,IT Mill Toolkit and SOA.pdf
+40,autorun.inf
+41,itmill-toolkit-4.0.0-beta1.zip
+42,Server certificate test: Application Servers
+43,Table loops in debug mode
+44,Client testing: All supported browsers
+45,HTML-mode is broken
+46,Update links on index.html
+47,CustomLayout relocation and bugfixes
+48,NPE when running any demo first time
+49,Table: application crash
+50,Client certificate test: Konqueror 3.x
+51,Client certificate test: Opera 9.x
+52,Client certificate test: Camino 1.x
+53,Client certificate test: Series60 3.1
+54,Server certificate test: Sun JDK 1.6.x
+55,Add set of icons
+56,ITMill Toolkit 4.0.1-rc1 demos not start (Server side problem / JRE 1.4.2_13-b06)
+57,TextFields are broken: changes to textfields doesn't update unless user clicks focus away
+58,Option groups and switch buttons in div windows don't work correctly with Firefox
+59,Client certificate test: IE 6.x
+60,Client certificate test: IE 7.x
+61,Client certificate test: Firefox 2.x
+62,Server certificate test: Sun JDK 1.4.x
+63,Server certificate test: Sun JDK 1.5.x
+64,Server certificate test: Sun JDK 1.6.x
+65,Client certificate test: Opera 9.x
+66,Table: loss of functionality with Opera 9
+67,Google Web Toolkit (GWT) integration prototype
+68,Toolkit documentation: Enhance Toolkit examples
+69,Setting multiple styles for UI component
+70,ContainerHierarchicalWrapper MethodInvocationException
+71,"Package: add readme.txt / howto start, explain package contents"
+72,Developer's Guide
+73,TinyMCE doesn't work with 4.0.2-rc2
+74,Server certificate test: Sun JDK 1.4/1.5/1.6
+75,Client certificate test: IE 6
+76,Client certificate test: IE 7
+77,Client certificate test: FF 1.5
+78,Client certificate test: FF 2
+79,Server certificate test: Application Servers
+80,Business example for TK5
+81,Feature Gallery for TK5
+82,TK5 core maturation
+83,Manual for TK4
+84,Product packaging for TK5
+85,index.html bugs with IE6
+86,part2 for manual needs to be activated
+87,Table enhancements / fixes as specified by -removed- project
+88,"Customer tickets: -removed-, -removed-, -removed-"
+89,Server-side windowing API and implementation
+90,DateField doesn't send a valueChange event when it is emptied
+91,Uploads are broken when using tabindex
+92,ATF: basic raport for regression tests
+93,ATF Server: task orchestrator implementation (no GUI)
+94,ATF: feature robustness test
+95,Scands broken
+96,ATF: Comments brake testcase commands
+97,ATF Server: task scheduler GUI
+98,"API refactor: UI components, setStyle"
+99,Conform to JDK 1.4

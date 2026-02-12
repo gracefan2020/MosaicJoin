@@ -1,0 +1,56 @@
+id,title
+0,Enable shadow passwords
+1,Disable shadow passwords
+2,Enable MD5 passwords
+3,Disable MD5 passwords
+4,Enable NIS
+5,Disable NIS
+6,Specify NIS domain
+7,Specify NIS server
+8,Enable LDAP for user information
+9,Disable LDAP for user information
+10,Enable use of TLS with LDAP
+11,Disable use of TLS with LDAP
+12,Enable LDAP for authentication
+13,Disable LDAP for authentication
+14,Specify LDAP server
+15,Specify LDAP base DN
+16,Enable Kerberos
+17,Disable Kerberos
+18,Specify Kerberos KDC
+19,Specify Kerberos administration server
+20,Specify Kerberos realm
+21,Enable use of DNS to find Kerberos KDCs
+22,Disable use of DNS to find Kerberos KDCs
+23,Enable use of DNS to find Kerberos realms
+24,Disable use of DNS to find Kerberos realms
+25,Enable SMB
+26,Disable SMB
+27,Specify SMB workgroup
+28,Specify SMB servers
+29,Enable winbind for user information by default
+30,Disable winbind for user information by default
+31,Enable winbindauth for authentication by default
+32,Disable winbindauth for authentication by default
+33,Security mode to use for Samba and winbind
+34,Default realm for Samba and winbind when security=ads
+35,UID range winbind assigns to domain or ADS users
+36,GID range winbind assigns to domain or ADS users
+37,Character used to separate the domain and user part of winbind usernames if winbindusedefaultdomain is not enabled
+38,Directory that winbind users have as their home
+39,Group that winbind users have as their primary group
+40,Shell that winbind users have as their default login shell
+41,Configures winbind to assume that users with no domain in their usernames are domain users
+42,Configures winbind to assume that users with no domain in their usernames are not domain users
+43,Joins the winbind domain or ADS realm now as this administrator
+44,Enable WINS for hostname resolution
+45,Disable WINS for hostname resolution
+46,Enable Hesiod
+47,Disable Hesiod
+48,Specify Hesiod LHS
+49,Specify Hesiod RHS
+50,Enable nscd
+51,Disable nscd
+52,"Do not start or stop the portmap, ypbind, or nscd services even if they are configured"
+53,Do not display the user interface
+54,Probe and display network defaults

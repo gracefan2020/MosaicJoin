@@ -1,0 +1,51 @@
+id,title
+0,many PHP undefined index errors on node view after upgrade
+1,Upgrade path from 7.x-1.0-beta3 to 7.x-3.x
+2,typo errors in D7
+3,Switching to Media: oEmbed
+4,How to embed a whole youtube playlist - not just a video from the playlist - in 7.x?
+5,YouTube Upload Widget support? (for uploading to youtube)
+6,Video Duration
+7,List 1.0-beta3 until Media has a recommended 2.x release?
+8,YouTube Image cache is not flushed when the youtube media file is removed/updated.
+9,No exception handling when error from YouTube oEmbed
+10,Fatal error: Call to a member function get_parameters() on a non-object in .../includes/themes/media_youtube.theme.inc
+11,Update to 3.0 disabled Media Browser
+12,Support for HTML 5-compatible YouTube embed
+13,Using Javascript API
+14,Warning: filesize(): stat failed for youtube://
+15,Not all live stream videos work normally
+16,Add an option to force the HTML5 player when available
+17,"Suppressing YouTube logo, link, and viral sharing"
+18,Allow video to be embedded with HTTPS url
+19,HTML5 YouTube Embed
+20,Playlist embeds still broken
+21,Adding unlisted YouTube videos
+22,hook_file_default_displays_alter causes Features to always appear overridden
+23,Player parameters
+24,Full clear HTTPS (SSL) support for YouTube player
+25,Replace video ID with video title in Youtube search results
+26,"Exception: Error Processing Request. (Error: -1002, missing schema)"
+27,Show Youtube Video Title and Allow Opening Video to preview in youtube search results
+28,Add version dependency information
+29,Make media_youtube depend on media instead of media_internet
+30,The YouTube video ID is invalid or the video was deleted.
+31,YouTube iframe tag missing name attribute
+32,Error with some youtube links
+33,gd getimagesize error
+34,YouTube search is not getting the title but rather only using the id
+35,Make YouTube preview image work with Picture module
+36,Unsupported type of youtube link
+37,"No preview image, 403 error"
+38,Video not embedded for videos with underscore in YouTube ID
+39,Embed Video: Found no valid media with that url.
+40,Can the size of the video display be flexible?
+41,Setting Rel
+42,Deep linking to parts of a video
+43,Youtube video is not loaded Android and ios.
+44,Attributes added by the WYSIWYG on YouTube preview images are not preserved
+45,videos in media_youtube_add are missing clearfix.
+46,Use drupal_realpath() instead of file_create_url()
+47,"Four ""Undefined index"" errors every time a YouTube video is displayed"
+48,"Theme YouTube thumbnail image with ""Image Formatter"""
+49,Remove annotation option

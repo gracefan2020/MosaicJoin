@@ -1,0 +1,61 @@
+id,title
+0,branch mergedefault tip
+1,updated to new version and FreeSans no longer included
+2,branch merge
+3,year
+4,branch merge
+5,updated for newer doxygen version
+6,don't generate LaTeX output by default
+7,branch 'default'
+8,year
+9,branch merge
+10,update boost version
+11,branch merge
+12,cygwin-build
+13,rearrange
+14,branch merge
+15,branch merge
+16,info updated
+17,year updated
+18,adjusted path
+19,branch merge
+20,ignore dependency files
+21,adjusts for deprecated include file
+22,replace incomplete hard-wired depedencies with generated ones (similare to xaifBooster dep generator)
+23,updated page to reflect move to svn
+24,fix up ownership to reflect initial EPSRC funding
+25,avoid deprecation warning
+26,license clarification
+27,shouldn't hard code the boost lib location
+28,added angel example
+29,branch merge
+30,clarify
+31,relocate xaifBooster guards
+32,branch merge
+33,actually compare the cost of edge with vertex eliminations if the latter could run
+34,Added tag newHeuristics for changeset c97fd2cd2c5e
+35,branch merge
+36,"Added postProccessRemainderGraph, which performs scarcity-preserving, no-cost edge eliminations subsequent to the running of the heuristic. It currently does not consider eliminations that reduce the nontrivial edge count, with the idea that these reflect a deficiency in the heuristic which must be corrected later. The postprocessing step is intended as a stupid/trivial bit that shouldnt find an improvement to the heuristic.newHeuristics"
+37,typos
+38,updated info once more
+39,update on SF
+40,update as requested by sourceforge
+41,branch merge
+42,parameters are no longer in the interface and doxygen complains
+43,rename macros to avoid clash with newer boost versions
+44,branch merge
+45,namespace updates after moving AwarenessLevel to xaifBoosterCrossCountryInterface
+46,version update
+47,branch merge
+48,removed call to now-gone function (getLCG)
+49,update interface for xaifBooster changes
+50,"cleanup, consolidate into replay_transformation_seq, and reinstate default angel heuristics"
+51,minor debugging output fix
+52,Removed AwarenessLevel from determination of computational costs
+53,new random walk for min. ops
+54,big change- moved to new types for old scarcity heuristics
+55,moved AwarenessLevel to its own class within xaifBoosterBasicBlockPreacumulation
+56,"removed temperature, and added restarting process for multiple passes"
+57,SA with reroutings and new representation-independent transformation types
+58,removed extraneous comment
+59,changes to debugging output

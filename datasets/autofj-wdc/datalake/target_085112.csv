@@ -1,0 +1,50 @@
+id,title
+0,Provides a set of Catalyst modules
+1,Synchronise text notes with simplenoteapp.com
+2,Log::Dispatch::Perl - Use core Perl functions for logging
+3,Log::Dispatch wrapper around Log::Syslog::Fast
+4,Log messages to a remote UDP socket
+5,Log to Test::More's diagnostic output
+6,Log messages via Growl
+7,Automatically add debugging output with a role
+8,Log::Dispatch glue for Amon2
+9,Logging to Growl
+10,Abstract Configurator class
+11,Log module of Catalyst that uses Log::Dispatch
+12,A MongoDB backend for Log::Dispatch
+13,a simple dispatcher to send logging data to LinkedIn's Kafka
+14,"cpan module baker, backup your whole cpan module files"
+15,base API class for Net::Flickr::* libraries
+16,Single interface for log output
+17,OOP for the del.icio.us API
+18,Log messages via Twitter
+19,A POE logging class
+20,"A simple, web-based, payments/receipts manager"
+21,attached color for Log::Dispatch::Screen
+22,Object for logging to SNMP servers
+23,Worker/Manager worker pool system
+24,Logging via Facebook's Scribe server software
+25,Run generic actions in an OO way
+26,send log messages to a desktop notification daemon
+27,Fetch Cantella::Worker jobs from beanstalkd
+28,Moose type-constraints and coercions for Log::Dispatch.
+29,Adapter to use Log::Dispatch with Log::Any
+30,Object for logging to screen.
+31,Object for logging to the iPhone
+32,Log::Dispatch For Mojo
+33,An interface to the Joker.com DMAPI
+34,Announce your PM meeting via Meetup and LinkedIn
+35,Perl extension for provisioning or reconfiguring network devices.
+36,A web application framework.
+37,Log::Dispatch appender for sending log messages to the FogBugz bug tracking system
+38,Adds separate logging channels to Log::Dispatch
+39,Log to files that archive/rotate themselves
+40,Yet Another High Performance Web Crawler Framework
+41,Storable based binary logs.
+42,OOP wrapper for the Moo.com API
+43,A module that provides methods for the perfSONAR-PS SNMP based Measurement Archive (MA).
+44,"This is a stub module to make it easier for installing the Lookup Service. This allows them install ""perfSONAR_PS::Services::LS"" instead of having to install ""perfSONAR_PS::Services::LS::LS"""
+45,A module that provides an object to register event and message handlers for a perfSONAR Service.
+46,The base module for periodic collectors.
+47,Action to un-tar an archive.
+48,A framework for compositing and sequencing steps of execution.

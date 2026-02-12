@@ -1,0 +1,148 @@
+id,title
+0,a (represents a hyperlink)
+1,a (no href attribrute)
+2,abbr
+3,address
+4,area (represents a hyperlink)
+5,area (no href attribute)
+6,article
+7,aside
+8,audio
+9,b
+10,base
+11,bdo
+12,blockquote
+13,body
+14,br
+15,button
+16,canvas
+17,caption
+18,cite
+19,code
+20,col
+21,colgroup
+22,command (in the command state whose parent is a menu)
+23,command (in the command state whose parent is NOT a menu)
+24,command (in the checkbox state whose parent is a menu)
+25,command (in the checkbox state whose parent is NOT a menu)
+26,command (in the radio state whose parent is a menu)
+27,command (in the radio state parent is NOT a menu)
+28,"Command: an element that defines a command, whose Type facet is ""checkbox"", and that is a descendant of a menu element whose type attribute is in the list state"
+29,"Command: an element that defines a command, whose Type facet is ""command"", and that is a descendant of a menu element whose type attribute is in the list state"
+30,"Command: an element that defines a command, whose Type facet is ""radio"", and that is a descendant of a menu element whose type attribute is in the list state"
+31,datalist
+32,dd
+33,del
+34,details
+35,dfn
+36,dl
+37,dt
+38,div
+39,em
+40,embed
+41,fieldset
+42,figcaption
+43,figure
+44,footer
+45,form
+46,frame
+47,frameset
+48,head
+49,header
+50,hgroup
+51,h1 to h6 (with an hgroup ancestor)
+52,h1 to h6 (with NO hgroup ancestor)
+53,hr
+54,HTML
+55,i
+56,iframe
+57,img
+58,img (alt attribute is empty)
+59,input (type attribute in the Button state)
+60,input (type attribute in the Button state and parent is a menu)
+61,input (type attribute in the Color state)
+62,input (type attribute in the Checkbox state)
+63,input (type attribute in the Checkbox state and parent is a menu)
+64,input (type attribute in the Date state)
+65,input (type attribute in the Date and Time state)
+66,input (type attribute in the Local Date and Time state)
+67,input (type attribute in the E-mail state with no suggestions source element)
+68,input (type attribute in the File Upload state)
+69,input (type attribute in the Hidden state)
+70,input (type attribute in the Image Button state)
+71,input (type attribute in the Image Button state and parent is a menu)
+72,input (type attribute in the Month state)
+73,input (type attribute in the Number state)
+74,input (type attribute in the Password state)
+75,input (type attribute in the Radio Button state)
+76,input (type attribute in the Radio Button state and parent is a menu)
+77,input (type attribute in the Range state)
+78,input (type attribute in the Reset Button state)
+79,input (type attribute in the Search state with no suggestions source element)
+80,input (type attribute in the Submit Button state)
+81,input (type attribute in the Telephone state with no suggestions source element)
+82,input (type attribute in the Text state with no suggestions source element)
+83,"input (type attribute in the Text, Search, Telephone, URL, or E-mail states with a suggestions source element)"
+84,input (type attribute in the Time state)
+85,input (type attribute in the URL state with no suggestions source element)
+86,input (type attribute in the Week state)
+87,ins
+88,keygen
+89,keygen
+90,label
+91,legend
+92,li (parent is an ol or ul)
+93,li (parent is a menu)
+94,link
+95,map
+96,mark
+97,menu (type attribute in the context menu state)
+98,menu (type attribute in the list state)
+99,menu (type attribute in the toolbar state)
+100,meta
+101,meter element
+102,nav
+103,noscript
+104,object
+105,ol
+106,optgroup
+107,option (in a list of options or represents a suggestion in a datalist)
+108,output
+109,p
+110,param
+111,pre
+112,progress
+113,q
+114,rp
+115,rt
+116,ruby
+117,s
+118,samp
+119,script
+120,section
+121,select (with a multiple attribute)
+122,select (with NO multiple attribute)
+123,small
+124,source
+125,span
+126,strong
+127,style
+128,sub
+129,summary
+130,sup
+131,table
+132,tbody
+133,td
+134,textarea
+135,tfoot
+136,th (is neither a column header nor a row header)
+137,th (is a column header)
+138,th (is a row header)
+139,thead
+140,time
+141,title
+142,tr
+143,ul
+144,var
+145,video
+146,wbr

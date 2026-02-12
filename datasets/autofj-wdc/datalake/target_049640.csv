@@ -1,0 +1,55 @@
+id,title
+0,Additional transport headers
+1,Archival Directory
+2,Cache Connections
+3,Channel mask
+4,Cipher suites
+5,Connection factory
+6,Connection Mode
+7,Consumer
+8,Content type
+9,Control port
+10,Data port
+11,Datasource
+12,Destination name
+13,Destination Provider
+14,Directory name format
+15,Email ID
+16,Email Server
+17,Enable CCC
+18,Enable Marker
+19,Encoding
+20,Filename formatFoot 1
+21,Filename Separator
+22,Folder
+23,Folder name
+24,Host name
+25,Is Map Payload Alone
+26,Is topic
+27,Is Van Mailbox
+28,Message type
+29,Minimum Age
+30,Pass phrase and Confirm pass phrase
+31,Password and Confirm Password
+32,Path
+33,Permanent Connection
+34,Polling interval
+35,Port number (or Port)
+36,Preserve Filename
+37,Private key
+38,Queue name
+39,Recipient
+40,Send as attachment
+41,Sequence (Sequencing)
+42,SID
+43,Subject
+44,Subscriber ID
+45,Timeout
+46,"Timestamp Format About the timestamp format, timestamp offset, and timestamp source parameters: When the minimum age of the parameter receiver file has a value greater than zero, B2B ensures that the file has not been modified before picking up the file for processing. In other words, the system timestamp of the FTP server may differ from the system timestamp of the B2B server. The timestamp format, timestamp offset, and timestamp source parameters are used to get the last modified time for the receiver file. (See also the Minimum Age parameter in this table.)"
+47,Timestamp Offset
+48,Timestamp Source
+49,Transfer Type
+50,URL
+51,Use JMS ID
+52,User name
+53,Use proxy

@@ -1,0 +1,133 @@
+id,title
+0,Output your benchmarks as test diagnostics
+1,Benchmark accessor generators
+2,Find Perl module distributions within a directory hierarchy
+3,munge the Bash PATH environment variable
+4,A more knowledgeable perldoc
+5,Sync CPAN testers failure reports to local directories
+6,Attribute that makes overloading easier
+7,Naming anonymous subroutines via attributes
+8,Attribute wrappers for CPAN Tie classes
+9,Bash completion plugin for vim tags
+10,Plugin system based on roles
+11,A bundle to install Perl6-related modules
+12,Check whether an address looks like a P.O.Box
+13,Load CPAN command plugins
+14,Warn of errors with stack backtrace and source context
+15,Framework for Catalyst-based CMS Web Applications
+16,"Arrays, hashes, booleans, integers, sets and more"
+17,Constructor generator
+18,Accessors whose values come from a factory
+19,Install an accessor subroutine
+20,More functionality for Class::Factory
+21,Trace who is calling accessors
+22,Implements the Null Class design pattern
+23,Large-scale OOP application support
+24,Implements the Value Object Design Pattern
+25,Contact-related value objects
+26,Network-related value objects
+27,Adapter for Data::Semantic objects
+28,Value class for URIs
+29,Add plugin support for the Perl debugger
+30,Add debugger command to see stack trace as HTML
+31,Create a lookup hash from a database table
+32,Present your object for comparison purposes
+33,Base class for objects containing a list of items
+34,Stage-based conveyor-belt-like ticket handling system
+35,Data domain classes for IP addresses
+36,Adapter for Data::Semantic objects
+37,Data domain classes for URIs
+38,Hierarchy-wide accumulation of list and hash results
+39,Collection of miscellaneous subroutines
+40,Pack data structures so only real content remains
+41,Common API for data with semantics attached to them
+42,Semantic data classes for net-related data
+43,Semantic data classes for URI-related data
+44,"Munge scalars, hashes and arrays in flexible ways"
+45,Base class for storages
+46,Time line represented as an object
+47,Build a timeline from tracks recorded by iScrobbler
+48,Builds a timeline from an 'svk log'
+49,Loading Perl modules from their development directories
+50,Tools for the prolific module author
+51,show your distribution's dependencies
+52,run smoke tests for your distribution
+53,Automatically sets the bugtracker URL and mailto
+54,A regex-based FileFinder plugin
+55,Release tests for version numbers
+56,Automatically sets the homepage URL
+57,Write a test that reports used module versions
+58,Support for hierarchical exception classes
+59,Really return() from a try/catch-block
+60,Easier set-up of module exports
+61,Look for a file in the current directory and upwards
+62,Represents a board coordinate in the game of Go
+63,Represents a player's rank in the game of Go
+64,Attribute wrapper for Getopt::Long
+65,Handling inherited command-line options
+66,Graphing class hierarchies at run-time
+67,Log to FirePHP from within HTTP::Engine
+68,Access hash entries through methods
+69,Rename hash keys
+70,Making pluggable applications easy
+71,An LWP user agent that can display a progress bar
+72,FIRST and NEXT functions for loops
+73,mostly RFC822-compliant parser of Received headers
+74,Machine-readable Changes file
+75,Generates a tag cloud for modules used in given code
+76,automatically sets the homepage URL
+77,create README.mkdn from POD
+78,generate standard tests for installation
+79,Treat module source code as a template
+80,"Just load plugins, aware of development directories"
+81,Efficiently match IP addresses against IP ranges
+82,Optimize a list of values into ranges
+83,PerlIO layer to filter input through a Text::Pipe
+84,log to FirePHP via an PerlIO layer
+85,permute multiple-valued key-value pairs
+86,"Generate POD documentation during ""make"" time"
+87,Build POD documentation like MARCEL
+88,Section to gather specific commands and add auto-generated documentation
+89,Object property lookup across multiple layers
+90,Defines patterns for nic.at person handles
+91,Provide regexes for profanity in Austrian German
+92,Run-time properties on scalar variables
+93,apply version from YAML Changes file to modules and scripts
+94,ShipIt step for YAML Changes files
+95,ShipIt step for cleaning the distribution
+96,Like the DistTest step but also runs extra tests
+97,ShipIt step to announce the upload on Jaiku
+98,ShipIt step for recreating the MANIFEST
+99,ShipIt step to announce the upload on Twitter
+100,Match a string against a blacklist and a whitelist
+101,Flexible ways to match a string
+102,Support for user-defined character properties
+103,Collect documentation for subroutines
+104,Install modules I like
+105,Template plugin to help generate CPAN bundles
+106,Filter plugin adapter for Text::Pipe
+107,Using Google::Chart as a template plugin
+108,More functionality for Term::Shell
+109,Command-line control of test class execution
+110,Run tests defined in companion classes
+111,Common text filter API
+112,Text pipes that can encode and decode in various ways
+113,Text pipes that can encode and decode HTML entities
+114,Translate text from one language to another
+115,Text pipes that convert W3CDTF date-time strings and objects
+116,Scalar variables that time out
+117,Generate auto completion information for vim
+118,Generate perl tags for vim
+119,Manager for wrappers around client-side libraries
+120,Distribution wrapper around Backbone.js
+121,Distribution wrapper around Bootstrap
+122,Distribution wrapper around D3
+123,Distribution wrapper around DataTables
+124,Distribution wrapper around UnderscoreJS
+125,Distribution wrapper around jQuery
+126,Distribution wrapper around jQueryUI
+127,Combine data and logic in YAML
+128,Backwards-compatible handling of new syntactic features
+129,support recursive anonymous functions
+130,"Dynamic instrumentation like DTrace, using aspects"
+131,Execute code only once throughout the program's lifetime

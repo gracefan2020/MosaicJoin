@@ -1,0 +1,63 @@
+id,title
+0,Drupal-related
+1,Drupal 7.x
+2,Drupal 6.x
+3,Drupal 5.x
+4,Drupal 4.7.x
+5,Drupal 4.6.x
+6,Earlier Drupal versions
+7,AJAX
+8,Storage
+9,Revision support
+10,Simpletest
+11,Services provided
+12,multiple glossaries on one site
+13,RSS feeds on entries
+14,RSS feeds on additional vocabularies
+15,classify entries
+16,commenting on entries
+17,private editorial information
+18,alphabar maintenance
+19,remote glossaries
+20,steganographic content protection
+21,RDF information
+22,i18n
+23,Translation template supplied
+24,Multilingual blocks
+25,Translatable content
+26,Feature blocks
+27,Alphabar
+28,Daily
+29,Latest
+30,Random
+31,Search glossary
+32,Content filtering
+33,"Input, automatic"
+34,"Input, automatic, stop list"
+35,"Input, explicit"
+36,"Output, automatic"
+37,auto “title” on links
+38,Disambiguation pages
+39,Disambiguation targeting in links
+40,3rd party integration
+41,Quality Agent
+42,Views: basic
+43,Views: default views
+44,Wikipedia
+45,Zeitgeist
+46,Performance
+47,memory needs/number of entries
+48,speed on small glossaries
+49,speed on large glossaries
+50,Themeing
+51,- home page
+52,- search form
+53,- node overview
+54,- definition fields
+55,- each feature block
+56,Specific class on glossary links
+57,Implementation
+58,Developer features
+59,XML-RPC API
+60,Web services security
+61,UI module separate from Data API

@@ -1,0 +1,87 @@
+id,title
+0,/* -*-c++-*- OpenSceneGraph - Copyright (C) 1998-2006 Robert Osfield
+1,*
+2,* This library is open source and may be redistributed and/or modified under
+3,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+4,* This library is open source and may be redistributed and/or modified under
+5,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+6,* (at your option) any later version. The full license is in LICENSE file
+7,"* included with this distribution, and on the openscenegraph.org website."
+8,*
+9,*
+10,"* This library is distributed in the hope that it will be useful,"
+11,* but WITHOUT ANY WARRANTY; without even the implied warranty of
+12,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+13,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+14,* OpenSceneGraph Public License for more details.
+15,*
+16,typedef StandardShadowMap ThisClass;
+17,/** Convenient typedef used in definition of ViewData struct and methods */
+18,typedef DebugShadowMap BaseClass;
+19,typedef DebugShadowMap BaseClass;
+20,/** Classic OSG constructor */
+21,/** Classic OSG cloning constructor */
+22,"StandardShadowMap(const StandardShadowMap& ssm,"
+23,"StandardShadowMap(const StandardShadowMap& ssm,"
+24,const osg::CopyOp& copyop=osg::CopyOp::SHALLOW_COPY);
+25,// Texture Indices are changed by search and replace on shader source
+26,// Carefully order these calls when changing both base and shadow indices
+27,// In worst case when intend to swap indices
+28,// one will have to call these methods more than once
+29,// with one extra pass to change index to unused value to avoid
+30,// In worst case when intend to swap indices
+31,// one will have to call these methods more than once
+32,// with one extra pass to change index to unused value to avoid
+33,// unwanted superfluous replace:
+34,//
+35,// Example: Imagine we want to swap base(0) and shadow(1) indices:
+36,// We have to do an extra step to make sure both do not end up as 1
+37,//
+38,//
+39,// // initialy change base to something else than 1
+40,// setBaseTextureCoordIndex( 100 );
+41,// setBaseTextureCoordIndex( 100 );
+42,// // now search and replace all gl_TexCord[1] to gl_TexCord[0]
+43,// setShadowTextureCoordIndex( 0 );
+44,// // finally change base from 100 to 0
+45,// setBaseTextureCoordIndex( 1 );
+46,// setBaseTextureCoordIndex( 1 );
+47,void setBaseTextureCoordIndex( unsigned int index )
+48,"{ updateTextureCoordIndices( _baseTextureCoordIndex, index );"
+49,_baseTextureCoordIndex = index; }
+50,_baseTextureCoordIndex = index; }
+51,unsigned int getBaseTextureCoordIndex( void ) const
+52,osg::Light* getLight( void )
+53,{ return _light.get(); }
+54,const osg::Light* getLight( void ) const
+55,{ return _light.get(); }
+56,osg::Shader * getShadowVertexShader()
+57,osg::Shader * getShadowVertexShader()
+58,{ return _shadowVertexShader.get(); }
+59,osg::Shader * getShadowFragmentShader()
+60,osg::Shader * getShadowFragmentShader()
+61,{ return _shadowFragmentShader.get(); }
+62,{ _shadowVertexShader = shader; }
+63,void setShadowFragmentShader( osg::Shader * shader )
+64,void setShadowFragmentShader( osg::Shader * shader )
+65,{ _shadowFragmentShader = shader; }
+66,void setMainVertexShader( osg::Shader * shader )
+67,void setMainVertexShader( osg::Shader * shader )
+68,{ _mainVertexShader = shader; }
+69,virtual void cull( );
+70,virtual void aimShadowCastingCamera(
+71,virtual void aimShadowCastingCamera(
+72,"const osg::BoundingSphere &bounds,"
+73,"const osg::Light *light,"
+74,"const osg::Vec4 &worldLightPos,"
+75,"const osg::Vec3 &worldLightDir,"
+76,"const osg::Vec3 &worldLightDir,"
+77,"const osg::Vec3 &worldLightUp = osg::Vec3(0,1,0) );"
+78,"virtual void aimShadowCastingCamera( const osg::Light *light,"
+79,"const osg::Vec4 &worldLightPos,"
+80,"const osg::Vec3 &worldLightDir,"
+81,"const osg::Vec3 &worldLightDir,"
+82,const osg::Vec3 &worldLightUp
+83,"= osg::Vec3(0,1,0) );"
+84,};
+85,friend struct ViewData;

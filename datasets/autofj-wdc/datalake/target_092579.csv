@@ -1,0 +1,46 @@
+id,title
+0,autoTimestamp true
+1,"sort ""title"""
+2,// Workaround for bug http://jira.codehaus.org/browse/GRAILS-6754
+3,* returns all events and sampling events that do not belong to a group
+4,*/
+5,def Set getOrphanEvents() {
+6,def List getOrphanEvents() {
+7,def orphans = events.findAll { event -> !event.belongsToGroup(eventGroups) } +
+8,samplingEvents.findAll { event -> !event.belongsToGroup(eventGroups) }
+9,* Return the unique Subject templates that are used in this study
+10,*/
+11,def Set giveSubjectTemplates() {
+12,def List giveSubjectTemplates() {
+13,TemplateEntity.giveTemplates(subjects)
+14,}
+15,* @return Set
+16,*/
+17,Set giveAllAssayTemplates() {
+18,List giveAllAssayTemplates() {
+19,TemplateEntity.giveTemplates(( (assays) ? assays : [] ))
+20,}
+21,* Return the unique Event and SamplingEvent templates that are used in this study
+22,*/
+23,Set giveAllEventTemplates() {
+24,List giveAllEventTemplates() {
+25,"// For some reason, giveAllEventTemplates() + giveAllSamplingEventTemplates()"
+26,// gives trouble when asking .size() to the result
+27,* Return the unique Event templates that are used in this study
+28,*/
+29,Set giveEventTemplates() {
+30,List giveEventTemplates() {
+31,TemplateEntity.giveTemplates(events)
+32,}
+33,* Return the unique SamplingEvent templates that are used in this study
+34,*/
+35,Set giveSamplingEventTemplates() {
+36,List giveSamplingEventTemplates() {
+37,TemplateEntity.giveTemplates(samplingEvents)
+38,}
+39,* Returns the unique Sample templates that are used in the study
+40,*/
+41,Set giveSampleTemplates() {
+42,List giveSampleTemplates() {
+43,TemplateEntity.giveTemplates(samples)
+44,}

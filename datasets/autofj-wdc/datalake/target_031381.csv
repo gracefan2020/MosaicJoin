@@ -1,0 +1,76 @@
+id,title
+0,Fix closure trimming of data types containing functions.
+1,Allow resumption of tests in bin/war test driver
+2,Check profiling and ticky counters in runtime system and add tests
+3,Source.Defix.hs: Non-exhaustive patterns in lambda
+4,"Write tests for Data,ArrayU module."
+5,"Package DDC into Cabal, and streamline install process."
+6,Check format of source pragmas.
+7,Check Shape witnesses in core
+8,Check for unsound erasure of type lambdas in core to sea translation
+9,Check well-formedness of bound witnesses in letregion
+10,Don't panic if user Control-C's GCC
+11,Compile base libraries into .so
+12,Create large pinned memory blocks automatically
+13,Add a point free case expression
+14,Refactor Core.Exp to push XPrim calls into new data type
+15,Refactor Util.Pretty to use Data.Seq instead of Data.List
+16,Refactor function ddcCompile to use ddcMake
+17,Emit a better error message when reading an empty interface file.
+18,Fix elaboration of recursive data types.
+19,Add a full set of unboxed casting operators.
+20,Share GC stack slots in Sea code
+21,Implement full laziness transform
+22,Mask mutability constraints on fresh data
+23,Mask effects on fresh data
+24,"When defining projections, auto-open the other fns in the projection"
+25,Implement dictionary passing.
+26,Allow embedded mutually recursive definitions.
+27,Add monadic do expressions.
+28,Implement operator sectioning
+29,Rewrite primitive functions from RTS in Disciple
+30,Revisit exception mechanism
+31,Investigate support for polymorphic recursion
+32,Make a better graphics library
+33,Allow non-effectful CAFs to be recursive.
+34,Mask closure terms which are constant
+35,Check class instances against their definitions.
+36,Merge projection dictionaries from different modules.
+37,Bad core generated for recursive function with projections
+38,Bug in core type checker
+39,"PANIC ""mergeClasses: classes have differing kinds"" in my Hashtable first cut"
+40,Runtime crash with recursive bindings
+41,Elaboration of class constructors isn't respecting their kinds
+42,Missing constraints in interface files.
+43,Module exporter re-exports projections it has imported
+44,Lexer generates incorrect token sequence
+45,Faliure to parse type annotations within list defintion
+46,Fix display of node effects in type error messages
+47,"Bad quantifier in type for ""undefined"""
+48,Add type bindings
+49,Check for missing quantifiers in type class definitions.
+50,Bad parser error message
+51,Implement let qualifiers for list comprehensions
+52,Ensure we're sharing constant values of enumeration type.
+53,Check for partial application of functions to unboxed args.
+54,Compiler panic applying polymorphic functions to unboxed values
+55,Do kind checking during constraint generation.
+56,Check inferred type against signatures.
+57,Check for overlapping projection dictionaries during type inference
+58,Erase calls to prim.force on objects in direct regions during Core.Simplify
+59,Refactor occurance checker to improve speed.
+60,Disallow unboxed data being present in function closures.
+61,Kind inference checking problem for mutable tuples
+62,Look in data definition when checking dangerous vars
+63,Use Haskell/GHC style pragma instead of a pragma keyword
+64,Emit error for dangerous vars at top level.
+65,Resurrect Core.Inline
+66,Implement the rest of the primitive types.
+67,Auto export class instance functions
+68,Support type constraints on constructor
+69,Allow data fields to be listed with the offside rule
+70,Support default instances in type class declarations.
+71,Do a more fine-grained dangerous variables check
+72,Test out effect constructors with interesting kinds
+73,Definition order should not be important in where block
+74,No support for infix operator definitions

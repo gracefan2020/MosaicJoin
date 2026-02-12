@@ -1,0 +1,101 @@
+id,title
+0,[IE] Kama skin toolbar broken in RTL+quirks
+1,The editing area flashes on gray when loading
+2,Opera: Enter at the end of paragraph doesn't move the caret
+3,Opera: Dialogs can be resized
+4,Backspace does not work in Opera
+5,Opera : FCKeditor is not loading on MacOS
+6,Opera: FCKeditor is not loading
+7,Opera: extra paragraph space when loading
+8,Opera: Element names are uppercased in the output
+9,Opera: ctrl-b twice will output bold text
+10,Opera: Enter is misplaced
+11,Opera: New table cells don't get expanded
+12,Opera: Page scrolls on ENTER
+13,Opera: strange line break behavior when applying/removing styles
+14,Opera: Check Spelling button is disabled
+15,"Opera: when SCAYT is enabled, it is impossible to create new paragraph"
+16,Opera: using tab key makes input fields undeitable
+17,Opera: Can't place cursor at the end of paragraphs
+18,Opera: empty paragraphs are appended to the top of document on startup
+19,[Opera] Discards entities when switchng to source view and back
+20,Opera: context menu doesn't work
+21,"JAWS reads all items in Font Size drop down box as ""8 Link"" in ""office2003"" skin"
+22,plugin:maximize porting from v2
+23,JAWS not reading tool bar controls properperly while navigating with arrow keys
+24,Setting DocType to Standards Compliant Collapses in IE
+25,Toolbar layout is messed up in IE6 quirks mode
+26,Event to indicate that the editor is ready for full interaction
+27,Accessibility: Menu
+28,Dialogs open out of the window
+29,Enhance 'Paste As Text'
+30,Deprecate the dialog of 'Paste from Word'
+31,Nested BODY tags
+32,[IE] Image dialog has scrollbar in quirksmode
+33,pathBlockElements contains a 'de' elements
+34,"After replaced success, the popup window couldn't been closed and a js error occured"
+35,IE: Paste from Word dialog doesn't accept imput
+36,Generic EMBED and OBJECT placeholder
+37,File browser does not work under domain relaxation mode
+38,FCKeditor extension does not recognize tags registered by other extensions
+39,V3: The skin file make specific dialog stuff by using the global CKEDITOR.dialog
+40,Toolbar combos panels are a bit mispositioned
+41,Rename documentFragment.js to lower case
+42,Insertion with content deleted not working
+43,'CKEDITOR.dom.node.getPreviousSourceNode/getNextSourceNode' bug
+44,Add documentation for all configuration options
+45,Fake comment plugin
+46,Ajax sample: undo behaves improperly
+47,SCAYT breaks cursor position after insert image
+48,SCAYT set focus on mode switch
+49,V3: Make it possible to serialize range bookmark
+50,V3 : Toolbar reorganization
+51,plugin:form doesn't work with 'edit' mode
+52,Need to move input focus to the dialog panels
+53,HTML Parser: Out of memory
+54,Indenting list item remove subsequent item
+55,Enter key on empty document is broken
+56,Disabled items have wrong style in menus
+57,CKEditor 3.0 Beta 2 - Brazilian Portuguese Language File
+58,startupFocus doesn't work if editor starts in Source mode
+59,[IE] Behavior for pasting from Excel is changed in 'pasting' branch
+60,Image dialog requests HTML page
+61,Jquery adapter sample file is incorrect
+62,'menubutton' force focus
+63,"Default ""mailto"" links look ugly"
+64,"[ContentEditable] Read only blocks should not be ""undeletable"""
+65,[ContentEditable] List creation across read only blocks is broken
+66,[ContentEditable] Infinite script loop can be easily fired
+67,Microsoft Asp.net 2.0 AJAX UpdatePanel Bug
+68,FF: Image preview doesn't display
+69,Style Selection checking of parent elements
+70,Open properties dialog when double clicking on objects
+71,Enter key after placeholder starts a new colored span in the next line
+72,Tab key behavior
+73,"The ""Clean Up Box"" button in Paste from Word is confusing"
+74,Button for signature
+75,should be merged when applied to multiple paragraphs
+76,Nested comments break the compressed output
+77,Comments are not always stripped when compressing
+78,Support for conditional compilation comments
+79,Rename variables declared in single var statement
+80,Error loading fckstyles.xml
+81,Remove format doesn't remove attributes
+82,FCK class should have a function that returns FCKeditor version and revision
+83,"""Replace"" and ""Replace All"" buttons are disabled"
+84,Forced on paste
+85,CF: Height parameter for editor instance is not working
+86,"IE: The sampleposteddata pages are not wrapping the ""Value"" collumn"
+87,Difference between FCKConfig.BasePath and .FullBasePath
+88,Proposal: remove references to cursor: hand; in css
+89,Selecting a Format while in a Bulleted/Numbered list fails to make new Bullets/Numbers
+90,Smilieys dialog could look better
+91,Check for invalid temp directory in ColdFusion filemanager connector
+92,Filemanager not returning error message (Javascript)
+93,ShowDropDialog must be considered only when ForcePasteAsPlainText = true
+94,Table inside of Div producing unresponsive script
+95,E.tagName has no properties when using tablecommands plugin.
+96,Paste dialog is not working
+97,Filename escape/encode problem causes XML error in file browser
+98,ShiftEnterMode don't work
+99,Indentation don't work inside table

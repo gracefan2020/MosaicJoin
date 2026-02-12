@@ -1,0 +1,51 @@
+id,title
+0,Use radio buttons instead of checkboxes
+1,Exporting individual field placements
+2,"Clean up master branch, create branch 6.x-1.x"
+3,Taxonomy fields
+4,No show collapesd option?
+5,"""Show collased"" is ineffective for OG Audience"
+6,Unable to administer certain fields when using with Biblio
+7,deleting a CCK fieldgroup doesn't delete that field group from the manage form tab
+8,great and very useful module. can we get this into cck core?
+9,Image FUpload order problem
+10,Switching Form Format for Mobile Phones - switch configuration by theme ?
+11,Invalid argument nodeformcols line 124
+12,Possible Conflict with Image Module - Hiding some form fields causes Image to fail
+13,fix implementation of hook_features_pipe_component_alter
+14,No change for no admin user
+15,Add collapsible options
+16,Variant links and node types containing dashes
+17,Warning message after hiding CCK-Date field
+18,Region not hidden if nothing is rendered in it
+19,Nodewords 6.x.1.13 Fields not hidden
+20,Hiding Attached images Field Cause Page Submit Error
+21,Multistep Compatibility
+22,Commerce product type
+23,Is it possible to manage the create user form?
+24,node form in ctools modal incompatibility
+25,Other Module?
+26,Nothing should be hidden from the Administrator
+27,How to write support for other modules?
+28,Footer should be rendered after right column
+29,Can't transform vertical tabs into accordions once in the right column
+30,Allow per-item visibility control of the Vertical tabs
+31,Default Value
+32,Support forms for entities other than nodes
+33,Module disables teaser view for blog posts
+34,Compatibility with rel module
+35,Disable block regions
+36,Support for Contextual Administration module.
+37,can not save be selected taxonomy term
+38,Breaks layout of Vertical Tabs
+39,Modifications are not saved for some content types
+40,Can't control taxonomy position
+41,Some content types cannot be re-arranged
+42,Item 'menu' occurring under 'Main column'
+43,Allow modules to assign region to form elements
+44,CCK Field groups cannot be hidden
+45,"""Domain Access settings"" - field not available in the ""manage form"" tab of Node form columns"
+46,not working with nodewords
+47,Support for hook_content_extra_fields?
+48,What if I need to show a field in node/add but unset or hide it in node/edit?
+49,Add Features.module integration

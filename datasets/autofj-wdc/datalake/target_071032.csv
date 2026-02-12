@@ -1,0 +1,95 @@
+id,title
+0,PCM Volume
+1,ADC Capture Volume
+2,Headphone Playback Volume
+3,Speaker Playback Volume
+4,Mono Playback Volume
+5,Bypass Playback Volume
+6,Sidetone Playback Volume
+7,Voice Playback Volume
+8,Headphone Playback ZC Switch
+9,Speaker Playback ZC Switch
+10,Mono Bypass Playback Volume
+11,Mono Sidetone Playback Volume
+12,Mono Voice Playback Volume
+13,Mono Playback ZC Switch
+14,Bass Boost
+15,Bass Filter
+16,Bass Volume
+17,Treble Volume
+18,Treble Cut-off
+19,Sidetone Capture Volume
+20,Voice Sidetone Capture Volume
+21,Capture Volume
+22,Capture ZC Switch
+23,Capture Switch
+24,Capture Filter Select
+25,Capture Filter Cut-off
+26,Capture Filter Switch
+27,ALC Capture Target Volume
+28,ALC Capture Max Volume
+29,ALC Capture Function
+30,ALC Capture ZC Switch
+31,ALC Capture Hold Time
+32,ALC Capture Decay Time
+33,ALC Capture Attack Time
+34,ALC Capture NG Threshold
+35,ALC Capture NG Type
+36,ALC Capture NG Switch
+37,3D Function
+38,3D Upper Cut-off
+39,3D Lower Cut-off
+40,3D Volume
+41,3D Switch
+42,Capture 6dB Attenuate
+43,Playback 6dB Attenuate
+44,De-emphasis
+45,Playback Mono Mix
+46,Playback Phase
+47,Mic2 Capture Volume
+48,Mic1 Capture Volume
+49,DAI Mode
+50,ADC Data Select
+51,ROUT2 Phase
+52,Mic Selection Mux
+53,Rx Mixer
+54,Line Mixer
+55,Line Mono Mux
+56,Line Right Mux
+57,Line Left Mux
+58,ALC Mixer Line Capture Switch
+59,ALC Mixer Mic2 Capture Switch
+60,ALC Mixer Mic1 Capture Switch
+61,ALC Mixer Rx Capture Switch
+62,Mic Sidetone Mux
+63,Capture Right Mux
+64,Capture Left Mux
+65,Capture Right Mixer
+66,Capture Left Mixer
+67,Playback Mixer Voice Capture Switch
+68,Playback Mixer Left Capture Switch
+69,Playback Mixer Right Capture Switch
+70,Out4 Mux
+71,Out3 Mux
+72,Mono 2 Mux
+73,Mono Mixer Left Playback Switch
+74,Mono Mixer Right Playback Switch
+75,Mono Mixer Voice Playback Switch
+76,Mono Mixer Sidetone Playback Switch
+77,Mono Mixer Bypass Playback Switch
+78,Right Mixer Voice Playback Switch
+79,Right Mixer Sidetone Playback Switch
+80,Right Mixer Right Playback Switch
+81,Right Mixer Bypass Playback Switch
+82,Left Mixer Voice Playback Switch
+83,Left Mixer Sidetone Playback Switch
+84,Left Mixer Left Playback Switch
+85,Left Mixer Bypass Playback Switch
+86,Stereo Out Switch
+87,GSM Line Out Switch
+88,GSM Line In Switch
+89,Headset Mic Switch
+90,Handset Mic Switch
+91,Handset Spk Switch
+92,Amp State Switch
+93,Amp Spk Switch

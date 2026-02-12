@@ -1,0 +1,50 @@
+id,title
+0,Install all Git::Repository plugins at once
+1,Run your test suite continuously when developing.
+2,Notify Slack channels of new releases pushed from a repository.
+3,Extensible plugins system for git hooks.
+4,Patch CPAN modules using Git
+5,Add a blame() method to Git::Repository.
+6,Connect git and Perl::Lint to blame the right people for violations.
+7,Require branch names to match a given pattern before they can be pushed to the origin.
+8,Shortcuts for common Git commands
+9,Require git version tags to have a matching changelog entry.
+10,"Simple, git based blog tool"
+11,Scan git repositories in your workspace for local changes not synced up.
+12,Require a ticket ID in the commit message.
+13,Prevent commits in a production environment.
+14,Verify that Perl files compile without errors.
+15,Require a commit message.
+16,Derive a ticket ID from the branch name and prepend it to the commit-message.
+17,Validate the format of changelog files.
+18,Tools for performing code review using Git as the backend
+19,Perl Framework for authoring Juju charms
+20,Force running a specific tool at regular intervals.
+21,a Perl based deployment system
+22,add code churn statistics to the changelog
+23,Show the working tree status
+24,Add a log() method to Git::Repository
+25,A module to parse the output of git-fast-export
+26,Prevent trailing whitespace from being committed.
+27,Enforce a specific Perl interpreter on the first line of Perl files.
+28,Verify that all changes and addition to the Perl files pass PerlCritic checks.
+29,Validate POD format in Perl and POD files.
+30,Verify that the syntax of PgBouncer auth files is correct.
+31,Detect discrepancies between the ticket ID specified by the branch name and the one in the commit message.
+32,Find out when someone uses --no-verify and append the pre-commit checks to the commit message.
+33,Prevent committing code with #NOCOMMIT mentions.
+34,Verify that staged Ruby files compile.
+35,time tracking for impatient and lazy command line lovers
+36,Work with hooks in a Git::Repository
+37,Work with Gerrit-specific features in a Git::Repository
+38,Bond git and Perl::Critic to blame the right people for violations.
+39,database migration utility for git managed SQL extended GitDDL
+40,Git subcommands as Git::Repository methods
+41,Information about a Git::Repository
+42,Yet Uh-nother wiki
+43,Run external commands at specific phases of Dist::Zilla on regex'd Git branches
+44,For automated file archiving with Git
+45,Class representing file on git repository
+46,database migration utility for git managed sql
+47,Manage a release repository of Git submodules
+48,Provide Git status via HTTP

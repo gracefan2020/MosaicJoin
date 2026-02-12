@@ -1,0 +1,229 @@
+id,title
+0,Access Services
+1,App Catalog (SharePoint)
+2,App Deployment: Cloud-Hosted Apps
+3,App Deployment: SharePoint-Hosted Apps
+4,App Management Services
+5,BCS: Alerts for External Lists
+6,BCS: App Scoped External Content Types (ECTs)
+7,BCS: Business Data Webparts
+8,BCS: External List
+9,BCS: OData connector
+10,BCS: Profile Pages
+11,BCS: Rich Client Integration
+12,BCS: Secure Store Service
+13,BCS: Tenant-level external data log
+14,Browser-based customizations
+15,Client Object Model (OM)
+16,Client-side rendering (CSR)
+17,Custom Site Definitions
+18,Custom Site Provisioning
+19,Developer Site
+20,Forms Based Applications
+21,Full-Trust Solutions
+22,InfoPath Forms Services
+23,JavaScript Object Model
+24,List and Library APIs
+25,Remote Event Receiver
+26,REST API
+27,Sandboxed Solutions
+28,SharePoint Design Manager
+29,SharePoint Designer
+30,SharePoint Store
+31,Workflow 2010 (.NET 3.5)
+32,Workflow 2010 (out of the box)
+33,Workflow 2013
+34,Workload API: ECM APIs
+35,Workload API: Search APIs
+36,Workload API: Social APIs
+37,IT Professional features
+38,Active Directory Synchronization
+39,Alternate Access Mapping (AAM)
+40,Analytics Platform
+41,Anti-malware protection
+42,Claims-Based Authentication Support
+43,Configuration Wizards
+44,Deferred Site Collection upgrade
+45,Distributed Cache
+46,Encryption at rest
+47,Host Header Site Collections
+48,Improved Permissions Management
+49,Improved Self-Service Site Creation
+50,Managed Accounts
+51,Minimal Download Strategy (MDS)
+52,OAuth
+53,Patch Management
+54,Quota Templates
+55,Read-Only Database Support
+56,Remote BLOB Storage
+57,Request Management
+58,Request throttling
+59,Resource throttling
+60,Service Application Platform
+61,SharePoint Health Analyzer
+62,SharePoint admin center
+63,Shredded Storage
+64,Site Collection Compliance Policies
+65,Site Collection Health Checks
+66,State Service
+67,Streamlined Central Administration
+68,System Status Notifications
+69,Unattached Content Database Recovery
+70,Upgrade evaluation site collections
+71,Usage Reporting and Logging
+72,Windows PowerShell Support
+73,Content features
+74,Accessibility Standards Support
+75,Asset Library Enhancements/Video Support
+76,Auditing
+77,"Auditing & Reporting (e.g. doc edits, policy edits, deletes)"
+78,Content Organizer
+79,Design Manager
+80,Document Sets
+81,Document Translation in Word Online
+82,eDiscovery Search
+83,eDiscovery Hold
+84,eDiscovery Export
+85,Email enabled lists and libraries
+86,External Sharing: External Access
+87,External Sharing: Guest Link
+88,Folder Sync
+89,IRM using Azure AD Rights Management
+90,IRM using Windows Server AD RMS
+91,Managed Metadata Service
+92,Metadata-driven Navigation
+93,Multi-stage Disposition
+94,Office Online (create/edit)
+95,Office Online (view)
+96,Office Web Apps Server integration
+97,PowerPoint Automation Services
+98,Preservation hold library
+99,Quick Edit
+100,Records management
+101,Recycle Bin (SharePoint admin center)
+102,Recycle Bin (site collection)
+103,Related Items
+104,Rich Media Management
+105,Shared Content Types
+106,SharePoint Translation Services
+107,Site mailbox
+108,Surveys
+109,Unique Document IDs
+110,Video Search
+111,WCM: Analytics
+112,WCM: Catalog
+113,WCM: Category page and catalog item page
+114,WCM: Search web parts
+115,WCM: Cross-Site publishing
+116,WCM: Designer Tools
+117,WCM: Faceted navigation
+118,WCM: Image Renditions
+119,WCM: Managed navigation
+120,WCM: Mobile and Device Rendering
+121,WCM: Multiple Domains
+122,WCM: Recommendations
+123,WCM: Search Engine Optimizations (SEO)
+124,Word Automation Services
+125,Insights features
+126,Business Intelligence Center
+127,Calculated Measures and Members
+128,Data Connection Library
+129,Decoupled PivotTables and PivotCharts
+130,Excel Services
+131,Field list and Field Support
+132,Filter Enhancements
+133,Filter Search
+134,PerformancePoint Services
+135,PerformancePoint Services (PPS) Dashboard Migration
+136,Power View for Excel in SharePoint
+137,Power Pivot for Excel in SharePoint
+138,Quick Explore
+139,Scorecards & Dashboards
+140,SQL Server Reporting Services (SSRS) Integrated Mode
+141,Timeline Slicer
+142,Visio Services
+143,Search features
+144,Advanced Content Processing
+145,Continuous crawls
+146,Custom entity extraction
+147,Deep links
+148,Event-based relevancy
+149,Expertise Search
+150,Extensible content processing
+151,Graphical refiners
+152,Hybrid search
+153,Manage search schema
+154,On-premises search index
+155,Phonetic name matching
+156,Query rules—Add promoted results
+157,Query rules—advanced actions
+158,Query spelling correction
+159,Query suggestions
+160,Query throttling
+161,Quick preview
+162,Ranking models
+163,Refiners
+164,RESTful Query API/Query OM
+165,Result sources
+166,Search connector framework
+167,Search results sorting
+168,Search vertical: “Conversations”
+169,Search vertical: “People”
+170,Search vertical: “Video”
+171,“This List” searches
+172,Sites features
+173,Change the look
+174,Connections to Microsoft Office Clients
+175,Cross Browser Support
+176,Custom Managed Paths
+177,Governance
+178,Large List Scalability and Management
+179,Mobile Connectivity
+180,Multi-Lingual User Interface
+181,My Tasks
+182,OOTB Web Parts
+183,Permissions Management
+184,Project functionality for team sites
+185,Project site template
+186,Project Summary web part
+187,Project workspace
+188,SharePoint Lists
+189,SharePoint Ribbon
+190,Site folders
+191,Task list
+192,Team Site: Drag & Drop
+193,Team Site: Notebook
+194,Team Site: Simplified Access
+195,Templates
+196,Themes
+197,Usage Analytics
+198,Variations
+199,Work Management Service
+200,Social features
+201,Ask Me About
+202,Blogs
+203,"Communities Reputation, Badging, and Moderation"
+204,Community
+205,Company Feed
+206,Document Conversations with Yammer
+207,Follow
+208,Microblogging
+209,Newsfeed
+210,One Click Sharing
+211,"People, Sites, Document Recommendations"
+212,Personal Site
+213,Photos and Presence
+214,Profile
+215,Ratings
+216,Shared with Me
+217,Site Feed
+218,OneDrive for Business
+219,Tag profiles
+220,Tasks integrated with Outlook
+221,Trending Tags
+222,Wikis
+223,Add-Ons
+224,Additional Storage
+225,Azure Provisioned Apps: Access Services
+226,Azure Provisioned Apps: Custom Code in Azure LWR
+227,Duet Online

@@ -1,0 +1,75 @@
+id,title
+0,Unknown
+1,Reserved
+2,Reserved
+3,Reserved
+4,Reserved
+5,Asynchronous mapping of E4
+6,Asynchronous mapping of DS3/T3
+7,Asynchronous mapping of E3
+8,Bit synchronous mapping of E3
+9,Byte synchronous mapping of E3
+10,Asynchronous mapping of DS2/T2
+11,Bit synchronous mapping of DS2/T2
+12,Reserved
+13,Asynchronous mapping of E1
+14,Byte synchronous mapping of E1
+15,Byte synchronous mapping of 31 * DS0
+16,Asynchronous mapping of DS1/T1
+17,Bit synchronous mapping of DS1/T1
+18,Byte synchronous mapping of DS1/T1
+19,VC-11 in VC-12
+20,Reserved
+21,Reserved
+22,DS1 SF Asynchronous
+23,DS1 ESF Asynchronous
+24,DS3 M23 Asynchronous
+25,DS3 C-Bit Parity Asynchronous
+26,VT/LOVC
+27,STS SPE/HOVC
+28,"POS - No Scrambling, 16 bit CRC"
+29,"POS - No Scrambling, 32 bit CRC"
+30,"POS - Scrambling, 16 bit CRC"
+31,"POS - Scrambling, 32 bit CRC"
+32,ATM mapping
+33,Ethernet PHY
+34,SONET/SDH
+35,Reserved (SONET deprecated)
+36,Digital Wrapper
+37,Lambda
+38,ANSI/ETSI PDH
+39,Reserved
+40,Link Access Protocol SDH (LAPS - X.85 and X.86)
+41,FDDI
+42,DQDB (ETSI ETS 300 216)
+43,FiberChannel-3 (Services)
+44,HDLC
+45,Ethernet V2/DIX (only)
+46,Ethernet 802.3 (only)
+47,G.709 ODU-2.5G
+48,G.709 OTUk(v)
+49,CBR/CBRa
+50,CBRb
+51,BSOT
+52,BSNT
+53,IP/PPP (GFP)
+54,Ethernet MAC (framed GFP)
+55,Ethernet PHY (transparent GFP)
+56,SBCON/ESCON
+57,FICON
+58,Fiber Channel
+59,Framed GFP
+60,STM-1
+61,STM-4
+62,InfiniBand
+63,SDI (Serial Digital Interface)
+64,SDI/1.001
+65,DVB_ASI
+66,G.709 ODU-1.25G
+67,G.709 ODU-Any
+68,Null Test
+69,Random Test
+70,64B/66B GFP-F Ethernet
+71,Unassigned
+72,Experimental Usage/temporarily
+73,Reserved

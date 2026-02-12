@@ -1,0 +1,71 @@
+id,title
+0,one column format on a new page
+1,two column format l=line length
+2,end abstract
+3,"Start automatic list type t=[1,A,a,I,i] 1=arabic numbers; A=uppercase letters a=lowercase letters; I=uppercase Roman numerals; i=lowercase Roman numerals indentation i; separation s"
+4,begin abstract
+5,author's name
+6,signature and date line of verifier x
+7,"embolden x; if no x, switch to boldface"
+8,end block text
+9,embolden x and underline y
+10,bullet list
+11,embolden x and use Roman font for y
+12,start block text
+13,same as .DE (nroff)
+14,cover sheet
+15,same as .DS I (nroff)
+16,end display
+17,"start floating display; position p=[L,C,CB] L=left; I=indent; C=center; CB=center block fill f=[N,Y]; right position rp (fill only)"
+18,start dash list
+19,begin static display (see .DF for argument descriptions)
+20,equation title; equation x; number n
+21,"even footer appears at the bottom of even-numbered pages; x=""l'c'r"" l=left; c=center; r=right"
+22,"even header appears at the top of even-numbered pages; x=""l'c'r"" l=left; c=center; r=right"
+23,end displayed equation produced by eqn
+24,break out equation produced by eqn
+25,exhibit title; exhibit x
+26,number n
+27,"set footnote style format f=[0-11]; renumber r=[0,1]"
+28,end footnote
+29,figure title; figure x; number n
+30,start footnote
+31,produce numbered heading level l=[1-7]; title t
+32,produce unnumbered heading; title t
+33,underline x
+34,underline x and embolden y
+35,underline x and use Roman font on y
+36,end list; separation s
+37,start new list item; mark m
+38,prefix p (mark only)
+39,"start marked list; mark m indentation i; separation s=[0,1]"
+40,memo title; title x
+41,no date in page footer; x is date on cover
+42,end block text
+43,start block text
+44,"odd footer appears at the bottom of odd-numbered pages; x=""l'c'r"" l=left; c=center; r=right"
+45,"odd header appears at the top of odd-numbered pages; x=""l'c'r"" l=left; c=center; r=right"
+46,skip to the top of an odd-number page
+47,"begin paragraph; t=[0,1] 0=justified; 1=indented"
+48,"page footer appears at the bottom of every page; x=""l'c'r"" l=left; c=center; r=right"
+49,"page header appears at the top of every page; x=""l'c'r"" l=left; c=center; r=right"
+50,return to Roman font
+51,use Roman on x and embolden y
+52,use Roman on x and underline y
+53,released paper format ? x=no stops title on first
+54,right shift: start level of relative indentation
+55,set character point size & vertical space character point size m; vertical space n
+56,"justification; x=[0,1]"
+57,skip x pages
+58,smaller; decrease point size by 2
+59,leave x blank lines
+60,table title; table x; number n
+61,print table of contents (put at end of input file)
+62,end of table processed by tbl
+63,end multi-page header of table
+64,title in boldface and two points larger
+65,UC Berkeley thesis mode
+66,"i=p.i. Begin indented paragraph, with the tag given on the next text line. Set prevailing indent to i."
+67,begin table; if x=H table has multi-page header
+68,display centered title CONTENTS
+69,start variable-item list; indentation i mark-indentation m; separation s

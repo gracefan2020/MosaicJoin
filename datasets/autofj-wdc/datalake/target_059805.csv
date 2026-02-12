@@ -1,0 +1,146 @@
+id,title
+0,Always On - User
+1,Device: Browser header substring
+2,Device: Check if device is of given type
+3,Device: Check if device is using Mobile Browser
+4,Device: Device first time for user
+5,Device: Device in group
+6,Device: Excessive use
+7,Device: Is registered
+8,Device: Timed not status
+9,Device: User count
+10,Device: Used count for User
+11,Device: User status count
+12,Device: Velocity from last login
+13,Location: ASN in group
+14,Location: Carrier in group
+15,Location: City in group
+16,Location: Domain in group
+17,Location: In Country group
+18,Location: IP Connection speed in group
+19,Location: IP Connection type
+20,Location: IP Connection type in group
+21,Location: IP Excessive use
+22,Location: IP in group
+23,Location: IP in Range group
+24,Location: IP is AOL
+25,Location: IP line speed type
+26,Location: IP Maximum logins
+27,Location: IP Maximum Users
+28,Location: IP Multiple Devices
+29,Location: IP routing type
+30,Location: IP Routing Type in group
+31,Location: IP type
+32,Location: Is IP from AOL
+33,Location: ISP in group
+34,Location: State in group
+35,Location: Timed not status
+36,Location: Top Level Domain in group
+37,Location: User status count
+38,Pattern (Authentication): Entity is a member of the pattern less than some percent of time
+39,Pattern (Authentication): Entity is a member of pattern bucket for the first time in a certain time period
+40,Pattern (Authentication): Entity is a member of the pattern bucket less than some percent with all entities in the picture
+41,Pattern (Authentication): Entity is a member of the pattern N times
+42,Pattern (Authentication): Entity is a member of the pattern N times in a given time period
+43,Transaction: Check Count of any entity or element of a Transaction using filter conditions
+44,Transaction: Check Current Transaction using the filter conditions
+45,Transaction: Check if consecutive Transactions in given duration satisfy the filter conditions
+46,Transaction: Check number of times entity used in transaction.
+47,Transaction: Check Transaction Aggregrate and Count using filter conditions
+48,Transaction: Check Transaction Count using filter conditions
+49,Transaction: Check Unique Transaction Entity Count with the specified count
+50,Transaction: Compare Transaction Aggregrates (Sum/Avg/Min/Max) across two different durations
+51,Transaction: Compare Transaction Counts across two different durations
+52,Transaction: Compare Transaction Entity or Element Counts across two different durations
+53,Session: Check parameter value
+54,Session: Check parameter value for regular expression
+55,Session: Check parameter value in group
+56,Session: Check Risk Score Classification
+57,Session: Check string parameter value
+58,Session: Check two string parameter value
+59,Session: Check value in comma separated values
+60,Session: Compare two parameter values
+61,Session: Check enough pattern data
+62,Session: Check enough any pattern data
+63,Session: Check Current Session using the filter conditions
+64,Session: Compare with current date time
+65,Session: Cookie Mismatch
+66,Session: IP Changed
+67,Session: Mismatch in Browser Fingerprint
+68,Session: Time Unit
+69,System - Check Boolean Property
+70,System: Check if enough data is available for any pattern
+71,System: Check if enough pattern data is available
+72,System - Check Integer Property
+73,System - Check Policy max score
+74,System - Check Policy min Score
+75,System - Check Request Date
+76,System - Check String Property
+77,System - Evaluate Policy
+78,User: Account Status
+79,User: Action Count
+80,User: Action Count Timed
+81,User: Action Timed
+82,User: ASN for first time
+83,User: Authentication Image Assigned
+84,User: Authentication Mode
+85,User: Challenge Channel Failure
+86,User: Challenge Failure Is Last Challenge Before
+87,User: Challenge Failure - Minimum Failures
+88,User: Challenge Maximum Failures
+89,User: Challenge Questions Failure
+90,User: Challenge timed
+91,User: Check Anomalous User Request
+92,USER: Check Devices of Certain Type are Used
+93,User: Check Devices Used
+94,User: Check first login time
+95,User: Check Fraudulent User Request
+96,User: Check Information
+97,User: Check Last Session Action
+98,User: Check login count
+99,User: Check Login Time
+100,User: Check OTP Failures
+101,User: Check User Data
+102,User: Checkpoint score
+103,User: City first time for user
+104,User: Client And Status
+105,User: Country failure count for user
+106,User: Country first time for user
+107,User: Country first time from group
+108,User: Distance from last successful login
+109,User: Distance from last successful login within limits
+110,User: Image Status
+111,User: In Group
+112,User: IP carrier for first time
+113,User: Is last IP match with current IP
+114,User: Is User Agent Match
+115,User: Last Login Status
+116,User: Last login within specified time
+117,User: Location Used Timed
+118,User: Login for first time
+119,User: Login in group
+120,User: Login time between specified times
+121,User: Maximum Cities
+122,User: Maximum Countries
+123,User: Maximum IPs Timed
+124,User: Maximum Locations Timed
+125,User: Maximum States
+126,User: Multiple failures
+127,User: Check Number of Registered Devices Of Given Type
+128,User: Phrase Status
+129,User: Preferences Configured
+130,User: Question Status
+131,User: Stale session
+132,User: State first time for user
+133,User: Status Count Timed
+134,User: User Agent Percentage Match
+135,User: User Carrier for first time
+136,User: User City for first time
+137,User: User Country for first time
+138,User: User Group in Group
+139,User: User IP for first time
+140,User: User ISP for first time
+141,User: User is member of pattern N times
+142,User: User state for first time
+143,User: Velocity from last successful login
+144,User: Velocity from last successful login within limits

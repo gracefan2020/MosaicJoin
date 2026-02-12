@@ -1,0 +1,321 @@
+id,title
+0,"User Interface, Synchronized Windows, etc"
+1,"Zoom Options, Dynamic Zoom, Fit to.."
+2,Auto Scroll
+3,Show / Hide Color Layers
+4,"Slow Redraw, Redraw Speed"
+5,"Ruler, Grid & Sub-Grid"
+6,Measuring Ruler
+7,Show Hoops
+8,Auxiliary References Lines
+9,Show / Hide Objects
+10,Highlight Objects
+11,Embroidery Simulation on Main Window
+12,Satellite View
+13,"Simulation View, Real Time, Print"
+14,Object Sequence View
+15,Object Sequence View: Drag & Drop Sequencing
+16,"Object Tree View, Simple/Advanced"
+17,"Object Tree View, Editable (Sequence & Properties)"
+18,Stitch List View
+19,Navigation Bar
+20,Editable Infocard
+21,Print from Infocard
+22,OI Quick
+23,OI Advanced
+24,Browse Designs
+25,Browse Images
+26,Motif Library
+27,Memory List
+28,Style Galery
+29,MDI (multiple design documents)
+30,AutoSave
+31,Undo Size: 4
+32,Undo Size: 40
+33,Redo
+34,Undo Mark
+35,Customize Toolbars & Shortcut Keys
+36,Lettering System
+37,"Multi-Line Text, Multi-Color Text"
+38,Auto Kerning & Character Spacing
+39,Text from Pre-Digitized Embroidery Fonts (close point)
+40,Text from True Type Fonts (TTF1)
+41,"TTF1 - Fill Objects: Borderline, Body, Both"
+42,"TTF1 - Borderlines with: Running Stitch, Zig-Zag, E, EE, SQ"
+43,TTF1 - Body with: Column Stitches (Zig-Zag)
+44,"TTF1 - Body with: Pattern, Programmable Stitch"
+45,Text from True Type Fonts (TTF2)
+46,"TTF2 - Borderlines with: Programable Stitch, Sequin"
+47,"TTF2 - Body with: Flexible Fill, Cross Stitch, Texture, Sequin"
+48,Break Up Text to sections
+49,"Layouts Std: Arcs, Stair, Regular box, Elastic Box"
+50,"Layouts Adv: User Baseline, Top and Bottom lines"
+51,Save new layouts
+52,Move Letters (manual kerning)
+53,Resize Individual Letters
+54,Edit Objects inside texts
+55,Edit Stitches Setting
+56,Adjustments & Compensation
+57,Save Custom Fill Stitches
+58,"Built In Effects: Shadow, Perspective, Offset, etc."
+59,Create Custom Effects for TTF
+60,Produce Monogram Design
+61,Break Up Monograms to sections
+62,Produce Team Names Designs
+63,Digitizing Modes
+64,"Manual, Click by Click"
+65,Geometric Shapes
+66,Tracing Box for Raster Complex Colors
+67,Automatic Tracing on Raster
+68,Auto-Interactive Tracing on Raster
+69,Shoot & Stitch (Auto-Capture + Fill) on Raster
+70,Automatic Tracing on Vectors
+71,Auto-Interactive Tracing on Vectors
+72,Shoot & Stitch (Auto-Capture + Fill) on Vectors
+73,Pattern Fill Only
+74,"Running Stitch, ZigZag & Pattern Fills"
+75,Photo-Stitching (B&W + Color)
+76,Cross Stitch
+77,Digitizing Methods & Objects
+78,Manual Stitches (on Creation Tools)
+79,Path w/ Running Stitch
+80,Path w/ Zig Zag
+81,"Path w/ E, EE, SQ"
+82,Path w/ Programable Stitches
+83,Path w/ Sequin
+84,Path w/ Longitudinal Stitches
+85,Column w/ Zig Zag
+86,"Column w/ E, EE, SQ"
+87,Column w/ Elastic Uniform Pattern (Hand)
+88,Column w/ Elastic Uniform Pattern (Math)
+89,Column w/ Elastic Graphic Pattern
+90,Column w/ Elastic Mixed Pattern
+91,Column w/ Elastic Programable Stitches
+92,Column w/ Longitudinal Stitches
+93,Area w/ Zig Zag
+94,"Area w/ E, EE, SQ"
+95,Area w/ Uniform Pattern (Hand)
+96,Area w/ Uniform Pattern (Math)
+97,Area w/ Graphic Pattern
+98,Area w/ Mixed Pattern
+99,Area w/ Elastic Uniform Pattern (Hand)
+100,Area w/ Elastic Uniform Pattern (Math)
+101,Area w/ Elastic Graphic Pattern
+102,Area w/ Elastic Mixed Pattern
+103,Area w/ Programable Stitches
+104,Area w/ Elastic Programmable Stitches
+105,Area w/ Longitudinal Stitches
+106,Area w/ Cross Stitch
+107,Area w/ Flexible Fill (straight & curve directions)
+108,Area w/ Spiral Fill
+109,Area w/ Sequin
+110,Area w/ Applique
+111,Area w/ Textures
+112,Area w/Photo B&W + Color
+113,Area w/Auto-Fill
+114,Digitizing Object Properties
+115,"Main Reference, Area Contour"
+116,Stitch Directions (Straight)
+117,Stitch Directions (Curve)
+118,User Defined Entry and Exit Point
+119,Close Point Connection on Entry and Exit Point
+120,Area Holes
+121,"Split-Stitches Line, Deviation"
+122,Center Spine
+123,Break-Object Line
+124,Corner Fill (custom type & auto-judge)
+125,Close with Mirrowed Nodes (simmetric)
+126,Use Arc & Bezier Curves
+127,"Snap Cursor to Entry Point, to Grid"
+128,Snap to Notable Points
+129,Randomize Borders
+130,BackStep & AdvanceStep on Running Stitch
+131,Shapes on Path End-Points
+132,Variable Width & Modulation on Path Borders
+133,Repetitions on zigzag (highlight stitches)
+134,Patterns on Holes
+135,Variable Density: Color Gradiation
+136,Variable Density: Color Blending
+137,"Underlay: Centered, Edge Walk, Zig Zag, Parallel"
+138,"Underlay: Double Zig Zag, Double Parallel"
+139,Underlay: Edge + ( ZZ or DZZ or Par or DPar)
+140,Pull Compensation
+141,Short Stitches Programable
+142,Zig-Zag Auto-Split
+143,Adjust Density vs. Stitch Length
+144,Filter Small Stitches
+145,"Fill w/ Running Stitch, Zig Zag, E"
+146,"Fill w/ Special Stitch, Sequin"
+147,"Other Props: Outline on Holes, Cuts"
+148,"Pull compensation, Short Stitches, Auto-Split"
+149,Filter Small Stitches
+150,Randomize Borders
+151,Modulation on Path Borders
+152,BackStep & AdvanceStep on Running Stitch
+153,Repetitions on Zig Zag
+154,Commands Inside Sections
+155,Commands Before/After Sections
+156,Lock Stitches at Start/End or Cut
+157,Select Stitch Settings by Fabric (material)
+158,Create or Edit Stitch Settings by Fabric
+159,Wireframe Editing
+160,Sort Sections by Index (en OI)
+161,Edit Object Shape & Elements
+162,"Copy Properties, Paste Special (clone fill)"
+163,Separate Outline from Area
+164,Divide/Split Object
+165,Contour Trap (new object)
+166,Add Outline (new object)
+167,Convert to Stitch Object
+168,"Convert to other Stitch Type (Pattern, ZigZag, etc)"
+169,"Convert to other Object Type (Path, Area)"
+170,Convert Object to Figure
+171,Object Block Editing
+172,"Select by Click, Color, by Rectangle, Freehand"
+173,"Cut, Copy, Paste, Delete Block"
+174,"Resize, Rotate, Mirror"
+175,Envelope Distortion
+176,"Object Block Repeat (dup, circle, grid, path)"
+177,Objects Alignment
+178,Insert Section Cursor
+179,"Sort Sections by 1,2,3"
+180,Block Grouping (handle together)
+181,"Objects Branching (connect objects, create paths)"
+182,Read / Write Blocks to Memory
+183,Export Block to Disk
+184,Convert Object to Figure
+185,Expanded Editing
+186,Select Stitch by click
+187,"Auto Select Stitch (Next, Prev)"
+188,"Move, Delete, Add Stitches (w/wo compensation)"
+189,"Add, Delete, Edit Control"
+190,Select All
+191,Select by Color
+192,"Select by Start-End Point, by Navigation"
+193,"Select by Rectangle, by Contourn"
+194,"Select by Object (RS, ZZ, Pattern Recognition)"
+195,"Cut, Copy, Paste, Delete, Keep selection (crop)"
+196,"Move, Rotate, Scale (wo/ density compensation)"
+197,"Mirror H, V, Fix Rotation, Angular Rotation"
+198,"Envelope distortion (bridge, panoramic, etc)"
+199,Scale Block (w/ density compensation)
+200,Filter Small stitches
+201,"Change ZigZag properties (density, width, angle)"
+202,Smooth ZigZag border
+203,Randomize ZigZag border
+204,"Change Patern properties (density, width, type)"
+205,Smooth Area-Pattern border
+206,Randomize Area-Pattern border
+207,Convert ZigZag to Pattern and viceversa
+208,Convert Stitch Block to Objects (exp 2 cnd)
+209,Object Recognition Settings
+210,Edit Object Wireframe
+211,"Globe, Len, Noise, Speed, Explosion, etc"
+212,Custom Grid
+213,Sort Sequence by Color
+214,Move Start & End Points
+215,Reconnect Block
+216,Repeat Designs (basic)
+217,Raster & Vector Images
+218,"Open, Save, Scan, etc"
+219,"Resize, Rotate"
+220,Vectorize (Raster to Vector)
+221,"Open, Save, etc"
+222,"Resize, Rotate"
+223,"Edit Box (resize, rotate, move, color, etc)"
+224,Edit Nodes
+225,Group & Ungroup
+226,"Combine (Merge, Trim, Simplify)"
+227,"Sort, Order (to back, to front)"
+228,Create new Figures
+229,Split Figure
+230,System & User Components
+231,Motifs
+232,Pre-Digitized Lettering Fonts
+233,Pre-Digitized Monogramming Fonts
+234,Uniform Patterns (Hand)
+235,Uniform Patterns (Math)
+236,Graphic Patterns
+237,Mixed Patterns
+238,Programmable Stitches
+239,Textures
+240,3D Models for 3D Space Simulation
+241,Hoops DB
+242,Thread Charts
+243,Fabrics
+244,Motifs Builder
+245,Hand Patterns Editor
+246,Math Patterns Editor
+247,Graphic Patterns Editor
+248,Mixed Patterns Editor (Masks & Mixed)
+249,Programmable Stitches Builder
+250,Font Builder Standard
+251,Font Builder from TTF
+252,Create new Fill Styles
+253,Hoops DB
+254,Thread Charts
+255,Fabrics
+256,Embroidery Explorer Module
+257,Folders tree
+258,Task Panel
+259,Search on Folders
+260,"View Options 1: as List, Details, Icons"
+261,"View Options 2: Small/Large Thumbnail, w/wo details"
+262,View image formats
+263,"Rename, Delete"
+264,"Cut, Copy, Paste or Drag (single)"
+265,"Cut, Copy, Paste or Drag (multiple)"
+266,Export to floppy (machine formats)
+267,Simple Printout
+268,Advanced Print Formats
+269,Print multiple designs per page
+270,"InfoCard, Read Only"
+271,"InfoCard, Editable Form"
+272,"InfoCard, Print Options"
+273,DL Classification
+274,View Options 1: as Table
+275,"View Options 2: Small/Large Thumbnail, w/wo details"
+276,Store on DL. Single / Multiple (from disk or other media)
+277,"Export to other medias (ex. FDD, HDD, Network, Book, etc.)"
+278,Advanced Search on DL
+279,Multiple Print as Catalog
+280,Compact DL DB
+281,Backup / Restore DL
+282,Read Book Documents
+283,Print Book Documents
+284,Create Standard Books (grid style) - Emb. Publisher 1
+285,Create Advanced Books (custom layout) - Emb. Publisher 2
+286,Export Book to Graphic Files
+287,Export Book to CD
+288,Export to HTML
+289,Load/Save from/to Web Folders
+290,Import Profiles ABM
+291,Export Profiles ABM
+292,EO-Net2 Standard
+293,EO-Net2 Advanced
+294,3D Space Module
+295,"MDI, Multiple Documents"
+296,Thread Colors Settings
+297,Background Color or Fabrics
+298,Simulation of Borer on Design
+299,Simulation of Applique/s on Design
+300,Print
+301,Export Simulation as Image
+302,EO-3D Models
+303,Edit EO-3D Models textures
+304,Add Embroidery on EO-3D Models
+305,Add Screenprinting on EO-3D Models
+306,Export Spacial Simulation as Image file
+307,Export Spacial Simulation as AVI file
+308,Imaging Module
+309,"Open, Save, etc."
+310,Drawing Tools
+311,Processing Tools
+312,"Open, Save, etc."
+313,Drawing Tools
+314,Processing Tools
+315,Vectorize (Raster to Vector)
+316,Rasterize (Vector to Raster)
+317,"Import, Export EOI Format (R+V)"
+318,"Import, Export SHC Format (R+V)"
+319,"Import, Export SHG Format (R+V)"

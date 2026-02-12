@@ -1,0 +1,59 @@
+id,title
+0,Active Max Flow Setpoint
+1,Active Min Flow Setpoint
+2,Air Valve Drive Max: Local Ovrd
+3,Air Valve Flow
+4,Air Valve Max Flow Stpnt: Local
+5,Air Valve Min Flow Stpnt: Local
+6,Air Valve Override Status
+7,Air Valve Position
+8,Air Valve Position Control Used
+9,Air Valve Size Index
+10,Air Vlv Min Heat Flow Stpnt: Loc
+11,Auxiliary Temperature
+12,Calibration in Effect
+13,Call Status
+14,Communication State
+15,Control Action
+16,Control Mode
+17,Control Offset Value
+18,Cooling Setpoint Low Limit
+19,Cooling Setpoint: Active
+20,Diag: Aux Sensor Fail
+21,Diag: Flow Sensor Fail
+22,Diag: Low Battery Exists
+23,Diag: Setpoint Fail Global
+24,Diag: Zone Sensor Fail Global
+25,Fan Control Method: Local
+26,Fan Control Offset
+27,Fan Control Setpoint: Local
+28,Fan Exists
+29,Fan Output
+30,Fan Type
+31,Heat Active
+32,Heat Exists
+33,Heat Setpoint High Limit
+34,Heat Setpoint Offset: Local
+35,Heat/Cool Vote Enable
+36,Heating Setpoint: Active
+37,Local Name
+38,Object Identifier
+39,Object Name
+40,Object Type
+41,Occupied Cool Setpoint: Local
+42,Occupied Heat Setpoint: Local
+43,Occupied OA Required Setpoint
+44,Parent ID
+45,Security Class
+46,Software Revision
+47,Thumbwheel Composite
+48,Thumbwheel Setpoint Enable
+49,UCM Number
+50,Unit Type
+51,Unit Type is Trane
+52,Unoccupied Cool Setpoint: Local
+53,Unoccupied Heat Setpoint: Local
+54,Unoccupied Override: Local
+55,Update Tag
+56,Ventilation Ratio Calc
+57,Zone Temp Composite

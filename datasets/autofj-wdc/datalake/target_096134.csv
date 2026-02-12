@@ -1,0 +1,153 @@
+id,title
+0,Total
+1,Postseason
+2,Day
+3,Night
+4,Grass
+5,Turf
+6,Indoor
+7,Outdoor
+8,vs. Left
+9,vs. Right
+10,Inning 1-6
+11,Inning 7+
+12,Last seven days
+13,As LHB
+14,As RHB
+15,One-run games
+16,Extra-inning games
+17,Pre-All Star
+18,Post-All Star
+19,"vs P, 1st time in G"
+20,"vs P, 2nd time in G"
+21,"vs P, 3rd time in G"
+22,"vs P, 4th+ time in G"
+23,SPLIT
+24,March
+25,April
+26,May
+27,June
+28,July
+29,August
+30,September
+31,October
+32,SPLIT
+33,vs. Ana
+34,vs. Bal
+35,vs. Bos
+36,vs. CWS
+37,vs. Cle
+38,vs. Det
+39,vs. Min
+40,vs. NYY
+41,vs. Oak
+42,vs. Sea
+43,vs. TB
+44,vs. Tex
+45,vs. Tor
+46,vs. Ari
+47,vs. Atl
+48,vs. ChC
+49,vs. Cin
+50,vs. Col
+51,vs. Fla
+52,vs. Hou
+53,vs. LA
+54,vs. Mil
+55,vs. Mon
+56,vs. NYM
+57,vs. Phi
+58,vs. Pit
+59,vs. StL
+60,vs. SD
+61,vs. SF
+62,SPLIT
+63,Home
+64,Away
+65,Arlington
+66,Bank One Ballpark
+67,Busch Stadium
+68,Camden Yards
+69,Comerica Park
+70,Coors Field
+71,Dodger Stadium
+72,Edison Field
+73,Fenway Park
+74,Great American
+75,Hiram Bithorn Stad.
+76,Jacobs Field
+77,Kauffman Stadium
+78,Metrodome
+79,Miller Park
+80,Minute Maid Park
+81,Network Associates
+82,Pacific Bell Park
+83,PNC Park
+84,Pro Player Stadium
+85,SAFECO Field
+86,Shea Stadium
+87,SkyDome
+88,Tropicana Field
+89,Turner Field
+90,U.S. Cellular Field
+91,Wrigley Field
+92,Yankee Stadium
+93,SPLIT
+94,0-0 count
+95,0-1 Count
+96,0-2 Count
+97,1-0 Count
+98,1-1 Count
+99,1-2 Count
+100,2-0 Count
+101,2-1 Count
+102,2-2 Count
+103,3-0 Count
+104,3-1 Count
+105,3-2 Count
+106,After (0-1)
+107,After (0-2)
+108,After (1-0)
+109,After (1-1)
+110,After (1-2)
+111,After (2-0)
+112,After (2-1)
+113,After (2-2)
+114,After (3-0)
+115,After (3-1)
+116,After (3-2)
+117,SPLIT
+118,None on
+119,Runners on
+120,Scoring Posn
+121,Bases Loaded
+122,None on/out
+123,None on: 1/2 Out
+124,"Men on, 2 outs"
+125,"Man on 3rd, < 2 outs"
+126,ScPos/2 Out
+127,Runner on 2nd
+128,Runner on 3rd
+129,"Runners 1st, 2nd"
+130,"Runners 1st, 3rd"
+131,"Runners 2nd, 3rd"
+132,SB Opp
+133,SB Atd
+134,GDP Opp
+135,SPLIT
+136,Batting #2
+137,Batting #3
+138,Batting #4
+139,Batting #5
+140,Batting #6
+141,Batting #7
+142,Batting #8
+143,Batting #9
+144,Leading Off Inning
+145,SPLIT
+146,As lf
+147,As cf
+148,As rf
+149,As dh (not ph)
+150,As ph (not dh)
+151,As pr

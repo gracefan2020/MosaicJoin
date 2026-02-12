@@ -1,0 +1,224 @@
+id,title
+0,blood vessel development
+1,cell activation
+2,vasculature development
+3,sphingolipid metabolic process
+4,coenzyme metabolic process
+5,NADP biosynthetic process
+6,phosphorus metabolic process
+7,cell communication
+8,"synaptic transmission, cholinergic"
+9,brain development
+10,blood coagulation
+11,metabolic process
+12,positive regulation of cell proliferation
+13,phospholipid biosynthetic process
+14,nucleotide metabolic process
+15,nicotinamide nucleotide biosynthetic process
+16,pyridine nucleotide metabolic process
+17,pyridine nucleotide biosynthetic process
+18,second-messenger-mediated signaling
+19,signaling
+20,platelet activation
+21,regulation of interleukin-1 production
+22,diol metabolic process
+23,nucleobase-containing compound biosynthetic process
+24,negative regulation of molecular function
+25,cellular metabolic process
+26,cellular lipid metabolic process
+27,single organism signaling
+28,cell-cell signaling involved in cell fate commitment
+29,membrane lipid biosynthetic process
+30,regulation of Ras protein signal transduction
+31,regulation of small GTPase mediated signal transduction
+32,positive regulation of small GTPase mediated signal transduction
+33,cofactor biosynthetic process
+34,protein complex biogenesis
+35,organophosphate biosynthetic process
+36,nucleoside phosphate biosynthetic process
+37,organonitrogen compound metabolic process
+38,protein complex assembly
+39,cellular component organization
+40,cellular component assembly
+41,macromolecular complex assembly
+42,protein complex subunit organization
+43,cellular process
+44,regulation of cell communication
+45,regulation of signaling
+46,positive regulation of cell communication
+47,positive regulation of signaling
+48,lipid biosynthetic process
+49,cellular developmental process
+50,cell-cell signaling
+51,negative regulation of biological process
+52,regulation of response to stimulus
+53,regulation of molecular function
+54,regulation of nucleotide metabolic process
+55,regulation of catabolic process
+56,regulation of nucleotide catabolic process
+57,regulation of cellular metabolic process
+58,regulation of purine nucleotide catabolic process
+59,regulation of GTP catabolic process
+60,regulation of GTPase activity
+61,regulation of nitrogen compound metabolic process
+62,regulation of phosphorus metabolic process
+63,regulation of hydrolase activity
+64,regulation of primary metabolic process
+65,response to external stimulus
+66,response to extracellular stimulus
+67,response to chemical stimulus
+68,cellular response to stimulus
+69,cellular biosynthetic process
+70,cellular nitrogen compound metabolic process
+71,organic substance biosynthetic process
+72,nucleobase-containing compound metabolic process
+73,nucleoside phosphate metabolic process
+74,small molecule metabolic process
+75,primary metabolic process
+76,response to stress
+77,organic substance metabolic process
+78,positive regulation of biological process
+79,single-multicellular organism process
+80,transmission of nerve impulse
+81,multicellular organismal signaling
+82,neurological system process
+83,regulation of biological process
+84,biological regulation
+85,cell surface receptor signaling pathway
+86,NADP metabolic process
+87,biological_process
+88,single-organism process
+89,multicellular organismal development
+90,system development
+91,anatomical structure development
+92,single-organism developmental process
+93,circulatory system development
+94,single-organism metabolic process
+95,nitrogen compound metabolic process
+96,cellular component organization or biogenesis
+97,regulation of metabolic process
+98,biosynthetic process
+99,heterocycle metabolic process
+100,organic cyclic compound metabolic process
+101,cellular aromatic compound metabolic process
+102,multicellular organismal process
+103,regulation of cellular process
+104,response to stimulus
+105,developmental process
+106,single-organism cellular process
+107,lipid metabolic process
+108,phosphate-containing compound metabolic process
+109,organophosphate metabolic process
+110,cofactor metabolic process
+111,nucleobase-containing small molecule metabolic process
+112,cellular component biogenesis
+113,macromolecular complex subunit organization
+114,positive regulation of cellular process
+115,positive regulation of response to stimulus
+116,regulation of signal transduction
+117,regulation of biological quality
+118,regulation of multicellular organismal process
+119,cell differentiation
+120,regulation of catalytic activity
+121,regulation of nucleobase-containing compound metabolic process
+122,regulation of phosphate metabolic process
+123,organic hydroxy compound metabolic process
+124,heterocycle biosynthetic process
+125,cellular nitrogen compound biosynthetic process
+126,organic cyclic compound biosynthetic process
+127,organonitrogen compound biosynthetic process
+128,aromatic compound biosynthetic process
+129,nervous system development
+130,organ development
+131,system process
+132,signal transduction
+133,regulation of cytokine production
+134,membrane lipid metabolic process
+135,oxidoreduction coenzyme metabolic process
+136,nucleotide biosynthetic process
+137,response to wounding
+138,phosphorylation
+139,negative regulation of catalytic activity
+140,regulation of body fluid levels
+141,protein oligomerization
+142,pyridine-containing compound metabolic process
+143,positive regulation of signal transduction
+144,regulation of locomotion
+145,regulation of nucleoside metabolic process
+146,regulation of cellular catabolic process
+147,regulation of purine nucleotide metabolic process
+148,response to nutrient levels
+149,intracellular signal transduction
+150,alcohol metabolic process
+151,coenzyme biosynthetic process
+152,phospholipid metabolic process
+153,regulation of cell proliferation
+154,central nervous system development
+155,synaptic transmission
+156,cardiovascular system development
+157,G-protein coupled receptor signaling pathway
+158,hemostasis
+159,polyol metabolic process
+160,lipid modification
+161,regulation of interleukin-1 beta production
+162,negative regulation of locomotion
+163,nicotinamide nucleotide metabolic process
+164,regulation of behavior
+165,coagulation
+166,pyridine-containing compound biosynthetic process
+167,regulation of multi-organism process
+168,regulation of reproductive process
+169,cell fate commitment
+170,regulation of Ras GTPase activity
+171,wound healing
+172,nucleoside binding
+173,purine nucleoside binding
+174,catalytic activity
+175,NAD+ kinase activity
+176,purine nucleotide binding
+177,adenyl nucleotide binding
+178,small GTPase binding
+179,ribonucleoside binding
+180,ribonucleotide binding
+181,purine ribonucleotide binding
+182,adenyl ribonucleotide binding
+183,small molecule binding
+184,ion binding
+185,coenzyme binding
+186,GTPase binding
+187,nucleoside phosphate binding
+188,protein binding
+189,organic cyclic compound binding
+190,heterocyclic compound binding
+191,molecular_function
+192,nucleoside-triphosphatase regulator activity
+193,metal ion binding
+194,transferase activity
+195,binding
+196,"transferase activity, transferring phosphorus-containing groups"
+197,anion binding
+198,enzyme regulator activity
+199,cation binding
+200,nucleotide binding
+201,magnesium ion binding
+202,enzyme inhibitor activity
+203,kinase activity
+204,enzyme binding
+205,purine ribonucleoside binding
+206,purine ribonucleoside triphosphate binding
+207,cofactor binding
+208,GTPase regulator activity
+209,"phosphotransferase activity, alcohol group as acceptor"
+210,ATP binding
+211,Ras GTPase binding
+212,NAD binding
+213,cytoplasm
+214,intracellular
+215,intracellular part
+216,macromolecular complex
+217,cellular_component
+218,cell
+219,cell part
+220,cytoplasmic part
+221,protein complex
+222,perinuclear region of cytoplasm

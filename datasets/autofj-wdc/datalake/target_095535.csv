@@ -1,0 +1,449 @@
+id,title
+0,# participants affected / at risk
+1,Blood and lymphatic system disorders
+2,Anaemia * 1
+3,# participants affected / at risk
+4,Leukocytosis * 1
+5,# participants affected / at risk
+6,Neutropenia * 1
+7,# participants affected / at risk
+8,Pancytopenia * 1
+9,# participants affected / at risk
+10,Cardiac disorders
+11,Acute myocardial infarction * 1
+12,# participants affected / at risk
+13,Angina unstable * 1
+14,# participants affected / at risk
+15,Cardiopulmonary failure * 1
+16,# participants affected / at risk
+17,Myocardial infarciton * 1
+18,# participants affected / at risk
+19,Pericardial effusion * 1
+20,# participants affected / at risk
+21,Pulseless electrical activity * 1
+22,# participants affected / at risk
+23,"Congenital, familial and genetic disorders"
+24,Bicuspid aortic valve * 1
+25,# participants affected / at risk
+26,Tinnitus * 1
+27,# participants affected / at risk
+28,Vertigo * 1
+29,# participants affected / at risk
+30,Ear and labyrinth disorders
+31,Haematotympanum * 1
+32,# participants affected / at risk
+33,Eye disorders
+34,Diabetic eye disease * 1
+35,# participants affected / at risk
+36,Uveitis * 1
+37,# participants affected / at risk
+38,Gastrointestinal disorders
+39,Abdominal pain * 1
+40,# participants affected / at risk
+41,Abdominal pain lower * 1
+42,# participants affected / at risk
+43,Anal fistula * 1
+44,# participants affected / at risk
+45,Ascites * 1
+46,# participants affected / at risk
+47,Colitis * 1
+48,# participants affected / at risk
+49,Diarrhoea * 1
+50,# participants affected / at risk
+51,Duodenal ulcer * 1
+52,# participants affected / at risk
+53,Gastric ulcer * 1
+54,# participants affected / at risk
+55,Gastritis * 1
+56,# participants affected / at risk
+57,Gastrointestinal haemorrhage * 1
+58,# participants affected / at risk
+59,Haemorrhoids * 1
+60,# participants affected / at risk
+61,Ileus * 1
+62,# participants affected / at risk
+63,Inguinal hernia * 1
+64,# participants affected / at risk
+65,Mesenteric vein thrombosis * 1
+66,# participants affected / at risk
+67,Nausea * 1
+68,# participants affected / at risk
+69,Pancreatitis * 1
+70,# participants affected / at risk
+71,Rectal haemorrhage * 1
+72,# participants affected / at risk
+73,Rectal polyp * 1
+74,# participants affected / at risk
+75,Small intestinal obstruction * 1
+76,# participants affected / at risk
+77,Vomiting * 1
+78,# participants affected / at risk
+79,Umbilical hernia * 1
+80,# participants affected / at risk
+81,General disorders
+82,Asthenia * 1
+83,# participants affected / at risk
+84,Chest pain * 1
+85,# participants affected / at risk
+86,Influenza like illness * 1
+87,# participants affected / at risk
+88,Pyrexia * 1
+89,# participants affected / at risk
+90,Sudden cardiac death * 1
+91,# participants affected / at risk
+92,Hepatobiliary disorders
+93,Biliary colic * 1
+94,# participants affected / at risk
+95,Cholelithiasis * 1
+96,# participants affected / at risk
+97,Hepatitis * 1
+98,# participants affected / at risk
+99,Hepatitis toxic * 1
+100,# participants affected / at risk
+101,Hypertransaminasaemia * 1
+102,# participants affected / at risk
+103,Immune system disorders
+104,Anaphylactic shock * 1
+105,# participants affected / at risk
+106,Drug hypersensitivity * 1
+107,# participants affected / at risk
+108,Hypersensitivity * 1
+109,# participants affected / at risk
+110,Infections and infestations
+111,Anal abscess * 1
+112,# participants affected / at risk
+113,Anal fistula infection * 1
+114,# participants affected / at risk
+115,Anogenital warts * 1
+116,# participants affected / at risk
+117,Appendicitis * 1
+118,# participants affected / at risk
+119,Appendicitis perforated * 1
+120,# participants affected / at risk
+121,Bronchitis * 1
+122,# participants affected / at risk
+123,Bronchopneumonia * 1
+124,# participants affected / at risk
+125,Cellulitis * 1
+126,# participants affected / at risk
+127,Cryptosporidiosis infection * 1
+128,# participants affected / at risk
+129,Disseminated tuberculosis * 1
+130,# participants affected / at risk
+131,Diverticulitis * 1
+132,# participants affected / at risk
+133,Hepatitis A * 1
+134,# participants affected / at risk
+135,Hepatitis C * 1
+136,# participants affected / at risk
+137,Herpes zoster * 1
+138,# participants affected / at risk
+139,Intervertebral discitis * 1
+140,# participants affected / at risk
+141,Lobar pneumonia * 1
+142,# participants affected / at risk
+143,Localised infection * 1
+144,# participants affected / at risk
+145,Lower respiratory tract infection * 1
+146,# participants affected / at risk
+147,Meningitis * 1
+148,# participants affected / at risk
+149,Meningitis bacterial * 1
+150,# participants affected / at risk
+151,Neurosyphilis * 1
+152,# participants affected / at risk
+153,Orchitis * 1
+154,# participants affected / at risk
+155,Osteomyelitis * 1
+156,# participants affected / at risk
+157,Parasitic gastroenteritis * 1
+158,# participants affected / at risk
+159,Pelvic inflamatory disease * 1
+160,# participants affected / at risk
+161,Penile infection * 1
+162,# participants affected / at risk
+163,Peritoneal abscess * 1
+164,# participants affected / at risk
+165,Pneumocystis jiroveci infection * 1
+166,# participants affected / at risk
+167,Pneumocystis jiroveci pneumonia * 1
+168,# participants affected / at risk
+169,Pneumonia * 1
+170,# participants affected / at risk
+171,Pneumonia staphylococcal * 1
+172,# participants affected / at risk
+173,Pulmonary tuberculosis * 1
+174,# participants affected / at risk
+175,Sepsis * 1
+176,# participants affected / at risk
+177,Sinobronchitis * 1
+178,# participants affected / at risk
+179,Sinusitis * 1
+180,# participants affected / at risk
+181,Staphylococcal bacteraemia * 1
+182,# participants affected / at risk
+183,Staphylococcal infection * 1
+184,# participants affected / at risk
+185,Subcutaneous abscess * 1
+186,# participants affected / at risk
+187,Syphilis * 1
+188,# participants affected / at risk
+189,Upper respiratory tract infection * 1
+190,# participants affected / at risk
+191,Urinary tract infection * 1
+192,# participants affected / at risk
+193,"Injury, poisoning and procedural complications"
+194,Ankle fracture * 1
+195,# participants affected / at risk
+196,Chest injury * 1
+197,# participants affected / at risk
+198,Concussion * 1
+199,# participants affected / at risk
+200,Femoral neck fracture * 1
+201,# participants affected / at risk
+202,Head injury * 1
+203,# participants affected / at risk
+204,Heart injury * 1
+205,# participants affected / at risk
+206,Hip fracture * 1
+207,# participants affected / at risk
+208,Human bite * 1
+209,# participants affected / at risk
+210,Injury * 1
+211,# participants affected / at risk
+212,Jaw fracture * 1
+213,# participants affected / at risk
+214,Laceration * 1
+215,# participants affected / at risk
+216,Limb injury * 1
+217,# participants affected / at risk
+218,Multiple fracture * 1
+219,# participants affected / at risk
+220,Overdose * 1
+221,# participants affected / at risk
+222,Pubis fracture * 1
+223,# participants affected / at risk
+224,Rib fracture * 1
+225,# participants affected / at risk
+226,Skull fracture * 1
+227,# participants affected / at risk
+228,Soft tissue injury * 1
+229,# participants affected / at risk
+230,Spinal compression fracture * 1
+231,# participants affected / at risk
+232,Tendon rupture * 1
+233,# participants affected / at risk
+234,Whiplash injury * 1
+235,# participants affected / at risk
+236,Injury * 1
+237,# participants affected / at risk
+238,Back injury * 1
+239,# participants affected / at risk
+240,Investigations
+241,Alanine aminotransferase increased * 1
+242,# participants affected / at risk
+243,Aspartate aminotransferase increased * 1
+244,# participants affected / at risk
+245,Blood creatine phosphokinase increased * 1
+246,# participants affected / at risk
+247,Blood lactate dehydrogenase increased * 1
+248,# participants affected / at risk
+249,Blood sodium decreased * 1
+250,# participants affected / at risk
+251,Gama-glutamytransferase increased * 1
+252,# participants affected / at risk
+253,Haemoglobin decreased * 1
+254,# participants affected / at risk
+255,Hepatic enzyme increased * 1
+256,# participants affected / at risk
+257,Transaminases increased * 1
+258,# participants affected / at risk
+259,Metabolism and nutrition disorders
+260,Decreased appetite * 1
+261,# participants affected / at risk
+262,Dehydration * 1
+263,# participants affected / at risk
+264,Hyperkalaemia * 1
+265,# participants affected / at risk
+266,Musculoskeletal and connective tissue disorders
+267,Arthralgia * 1
+268,# participants affected / at risk
+269,Back pain * 1
+270,# participants affected / at risk
+271,Flank pain * 1
+272,# participants affected / at risk
+273,Myalgia * 1
+274,# participants affected / at risk
+275,Osteoarthritis * 1
+276,# participants affected / at risk
+277,Pain in extremity * 1
+278,# participants affected / at risk
+279,Rhabdomyolysis * 1
+280,# participants affected / at risk
+281,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)"
+282,Basal cell carcinoma * 1
+283,# participants affected / at risk
+284,Breast cancer in situ * 1
+285,# participants affected / at risk
+286,Castleman's disease * 1
+287,# participants affected / at risk
+288,Diffuse large B-cell lymphoma * 1
+289,# participants affected / at risk
+290,Fibroma * 1
+291,# participants affected / at risk
+292,Hoadgkin's disease * 1
+293,# participants affected / at risk
+294,Kaposi's sarcoma * 1
+295,# participants affected / at risk
+296,Metastases to bone * 1
+297,# participants affected / at risk
+298,Metastatic neoplasm * 1
+299,# participants affected / at risk
+300,Multiple myeloma * 1
+301,# participants affected / at risk
+302,Nasopharyngeal cancer * 1
+303,# participants affected / at risk
+304,Neoplasm * 1
+305,# participants affected / at risk
+306,Non-Hodgkin's lymphoma * 1
+307,# participants affected / at risk
+308,Non-small cell lung cancer * 1
+309,# participants affected / at risk
+310,Rectal cancer * 1
+311,# participants affected / at risk
+312,Squamous cell carcinoma * 1
+313,# participants affected / at risk
+314,Thyroid cancer * 1
+315,# participants affected / at risk
+316,Thyroid neoplasm * 1
+317,# participants affected / at risk
+318,Vulval neoplasm * 1
+319,# participants affected / at risk
+320,Nervous system disorders
+321,Ataxia * 1
+322,# participants affected / at risk
+323,Balance disorder * 1
+324,# participants affected / at risk
+325,Cerebrovascular accident * 1
+326,# participants affected / at risk
+327,Convulsion * 1
+328,# participants affected / at risk
+329,Cranial nerve paralysis * 1
+330,# participants affected / at risk
+331,Dysarthria * 1
+332,# participants affected / at risk
+333,Dyspraxia * 1
+334,# participants affected / at risk
+335,Encephalitis * 1
+336,# participants affected / at risk
+337,Grand mal convulsion * 1
+338,# participants affected / at risk
+339,Headache * 1
+340,# participants affected / at risk
+341,Ischaemic stroke * 1
+342,# participants affected / at risk
+343,Loss of consciousness * 1
+344,# participants affected / at risk
+345,Monoparesis * 1
+346,# participants affected / at risk
+347,Syncope * 1
+348,# participants affected / at risk
+349,Thoracic outlet syndrome * 1
+350,# participants affected / at risk
+351,Transient ischaemic attack * 1
+352,# participants affected / at risk
+353,Vascular demetia * 1
+354,# participants affected / at risk
+355,"Pregnancy, puerperium and perinatal conditions"
+356,Abortion * 1
+357,# participants affected / at risk
+358,Abortion spontaneous * 1
+359,# participants affected / at risk
+360,Pregnancy * 1
+361,# participants affected / at risk
+362,Psychiatric disorders
+363,Completed suicide * 1
+364,# participants affected / at risk
+365,Depression * 1
+366,# participants affected / at risk
+367,Depression suicidal * 1
+368,# participants affected / at risk
+369,Drug abuse * 1
+370,# participants affected / at risk
+371,Drug dependence * 1
+372,# participants affected / at risk
+373,Intentional self-injury * 1
+374,# participants affected / at risk
+375,Major depression * 1
+376,# participants affected / at risk
+377,Mental status changes * 1
+378,# participants affected / at risk
+379,Post-traumatic stress disorder * 1
+380,# participants affected / at risk
+381,Suicidal ideation * 1
+382,# participants affected / at risk
+383,Suicide attempt * 1
+384,# participants affected / at risk
+385,Renal and urinary disorders
+386,Calculus bladder * 1
+387,# participants affected / at risk
+388,Haematuria * 1
+389,# participants affected / at risk
+390,Nephrolithiasis * 1
+391,# participants affected / at risk
+392,Renal failure * 1
+393,# participants affected / at risk
+394,Renal failure acute * 1
+395,# participants affected / at risk
+396,Reproductive system and breast disorders
+397,Cervix haemorrhage uterine * 1
+398,# participants affected / at risk
+399,Epididymitis * 1
+400,# participants affected / at risk
+401,Ovarian cyst * 1
+402,# participants affected / at risk
+403,Testicular pain * 1
+404,# participants affected / at risk
+405,Uterine cervical laceration * 1
+406,# participants affected / at risk
+407,"Respiratory, thoracic and mediastinal disorders"
+408,Atelectasis * 1
+409,# participants affected / at risk
+410,Haemoptysis * 1
+411,# participants affected / at risk
+412,Pleural effusion * 1
+413,# participants affected / at risk
+414,Pneumothorax * 1
+415,# participants affected / at risk
+416,Pulmonary embolism * 1
+417,# participants affected / at risk
+418,Skin and subcutaneous tissue disorders
+419,Dermal cyst * 1
+420,# participants affected / at risk
+421,Drug eruption * 1
+422,# participants affected / at risk
+423,Penile ulceration * 1
+424,# participants affected / at risk
+425,Rash * 1
+426,# participants affected / at risk
+427,Rash erythematous * 1
+428,# participants affected / at risk
+429,Rash pruritic * 1
+430,# participants affected / at risk
+431,Stevens-Johnson syndrome * 1
+432,# participants affected / at risk
+433,Social circumstances
+434,Drug abuser * 1
+435,# participants affected / at risk
+436,Pregnancy of partner * 1
+437,# participants affected / at risk
+438,Surgical and medical procedures
+439,Cholecystectomy * 1
+440,# participants affected / at risk
+441,Finger amputation * 1
+442,# participants affected / at risk
+443,Vascular disorders
+444,Deep vein thrombosis * 1
+445,# participants affected / at risk
+446,Hypertension * 1
+447,# participants affected / at risk

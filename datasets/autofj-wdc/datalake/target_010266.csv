@@ -1,0 +1,50 @@
+id,title
+0,class that represents the moment in time
+1,utils for site https://allmychanges.com
+2,Throw an exception if store access surpass a timeout.
+3,Provides an interface to TestRail's REST api via HTTP
+4,normalize incoming Unicode parameters
+5,"(EXPERIMENTAL, DANGEROUS) Identify a distribution as eligible for static installation"
+6,add the results of `git describe` (roughly) to your main module
+7,individuality via conformity
+8,Swish3 Apache Lucy backend
+9,Declarative Inside-Out Syntax
+10,easy MIME message handling
+11,wrapper for PBKDF2 keys derivation function of the OpenSSL library
+12,a test module to test/assert response times
+13,script which generates a HTML table of music tags
+14,Danish telephone number validator/formatter
+15,Analyze the configuration of any SSL web server on the public Internet via ssllabs.com
+16,Build your distributions like FLORA does
+17,this class provides a simple abstraction layer between SOAP::Lite and Salesforce.com.
+18,a port to Perl of the syntax highlight engine of the Kate texteditor.
+19,The module detects the mobile device and passes the WURFL capabilities on to the other web application as environment variables
+20,Job queue handling using PostgreSQL.
+21,Filtering various things out of CPAN::Meta::Prereqs
+22,Role-Based Access Control system
+23,Generate inline Perinci::CmdLine CLI script
+24,"Common test suite for Perinci::CmdLine::{Lite,Classic,Inline}"
+25,Pack your dependencies onto your script file
+26,"Like Module::FatPack, but uses datapacking instead of fatpack"
+27,A postmodern object system for Perl 5
+28,Perl interface to interact with the Codeguard API
+29,Implementation independent persistent statefulness.
+30,gantry to hang a model layer onto Dancer2
+31,wrap a Dancer2 plack app in the configured Log::Contextual logger
+32,helper functions for creating Dancer2 AppRole plugins
+33,Just another HTML table generator.
+34,An object oriented interface to the REST API's provided by kubernetes
+35,Provide an interface to ZIP archive files.
+36,Check your Postbank.de bank account from Perl
+37,Install Devel::Cover and its recommended dependencies.
+38,Interface to compare directories.
+39,An object-oriented Mapper for the Marathon REST API
+40,RabbitMQ client (XS for librabbitmq v0.7.0)
+41,Validate Japanese zip-codes
+42,Logging queries for DBI
+43,Mojolicious Plugin to log requests to an Elasticsearch instance
+44,Openstreetmap XML dump parser
+45,Check module (e.g. check latest version) with CPAN (or equivalent repo)
+46,Perl's Web Services Toolkit
+47,Check the correct line endings in your project
+48,A PSGI engine for Perl based on EV/libev

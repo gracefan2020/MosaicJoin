@@ -1,0 +1,51 @@
+id,title
+0,Drupal 8 port of Galleria
+1,Undefined index: in theme_views_view_galleria() (line 92 of theme.inc). When entity doesn't have language.
+2,Language not defined on Field Collection entities
+3,"Galleria forces ""Default"" optionset, regardless of optionset selection."
+4,Translation of documentation in italian
+5,Field multiple limit not working with Galleria
+6,Multiple Galleria with different template on the same page
+7,Allow lightbox on touch devices
+8,D6 version with latest galleria
+9,Support with Picture module
+10,Show Galleria JS version on status report
+11,Which version of galleria.js is this module designed for?
+12,"Warning: rsort() expects parameter 1 to be array, boolean given in galleria_get_library_file()"
+13,Only first image is taken from image field when Galleria used in Views.
+14,"Load slides using json to get support for youtube, vimeo, links, and layers."
+15,Not displayed well in combination with adaptive themes
+16,Release stable version 7.x-1.0
+17,in Windows IE10 not switch pictures in browser
+18,Galleria Help adding Link
+19,"Add support for Galleria plugins (Picasa, Flickr, etc.)"
+20,Galleria Format not displaying gallery in views
+21,How to get the title of the image displayed in the twelve theme?
+22,The Gallery is not showing correctly!
+23,Add title and alt attributes to Galleria image and thumbnail
+24,Other galleria are not work...
+25,Galleria formatting not working in views
+26,Alternate settings for Image Fields
+27,"fatal error: ... could not load, check theme path"
+28,Problem loading Galleria Theme
+29,Panels integration
+30,Notice: Undefined property: stdClass::$plugins in galleria_form_optionset_edit()
+31,Lightbox on mobile
+32,Image fields to support alt and title field configuration
+33,Uncaught TypeError: Object [object Object] has no method 'galleria'
+34,Different image for thumbnail
+35,The Galleria JavaScript file was not found in its path. Please refer to README.txt for installation instructions.
+36,"IE9 doesn't display Gallery, just ""No theme CSS loaded"""
+37,Missing options
+38,Twelve theme- setting Variations Light
+39,Galleria library v1.3.3 requires jquery update
+40,Galleria images appear out of the container in IE8-10.
+41,Please help me set up Galleria
+42,"No theme CSS loaded in IE8,10"
+43,Add option to statically link the theme CSS
+44,"Galleria does not appear in ""Format"" column of ""Manage Display"" page"
+45,On IE 10: No theme CSS loaded:
+46,Images shown twice
+47,"Fatal error: Theme at /sites/all/libraries/galleria/themes/classic/galleria.classic.js could not load, check theme path"
+48,Galleria open in lighbox2 how to add a link in lightbox box??
+49,Can title/captions be derived from tokens?

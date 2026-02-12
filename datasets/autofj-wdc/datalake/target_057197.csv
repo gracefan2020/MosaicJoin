@@ -1,0 +1,172 @@
+id,title
+0,List of Tables
+1,Preface
+2,Acknowledgments
+3,Introduction
+4,Overview of Multiple Access Communication Networks
+5,Packet Communication Networks
+6,Local Area Networks
+7,Single Channel Networks
+8,Multichannel Networks
+9,Multi-Hop Networks
+10,Wireless Communication Networks
+11,Cellular Mobile Telecommunication Networks
+12,Mobile Packet Radio Networks
+13,Wireless Local Area Networks
+14,Multiple Access Protocols
+15,Fixed Assignment Protocols
+16,TDMA
+17,FDMA
+18,CDMA
+19,Random Access Protocols
+20,Pure ALOHA
+21,Slotted ALOHA
+22,CSMA and CSMA/CD
+23,Performance Comparisons for ALOHA and CSMA
+24,CSMA/CA
+25,Reservation Multiple Access Protocols
+26,Mobile Packet Radio Networks with Random Access Protocols
+27,CSMA
+28,CSMA/CD
+29,Capture
+30,Multichannel Networks with Random Access Protocols
+31,Slotted ALOHA
+32,CSMA and CSMA/CD
+33,Multi-Hop Networks with Random Access Protocols
+34,Slotted ALOHA
+35,CSMA and CSMA/CD
+36,CDMA
+37,Channel Assignment Schemes in Cellular Mobile Networks
+38,FCA Scheme
+39,DCA Scheme
+40,HCA Scheme
+41,Hand-Off
+42,Performance Analysis of Wireless Communication Networks
+43,Discrete-Time and Continuous-Time Markov Chains
+44,Probability Distributions
+45,System Models and Performance Analyses in the Book
+46,System Models and Performance Analyses
+47,Performance Measures and Common Definitions
+48,Multichannel and Multi-Traffic Networks with Slotted ALOHA Protocol
+49,Output and Delay Process Analysis of Slotted Aloha Multichannel Networks
+50,Introduction
+51,System Model
+52,Performance Analysis
+53,Stationary Probability Distribution
+54,Average Performance Measures
+55,Packet Interdeparture Time Distribution of Type [c]
+56,Joint Probability Distribution of Packet Interdeparture Time and Number of Packet Departures
+57,Packet Delay Distribution
+58,Numerical Results
+59,Conclusion
+60,Performance Analysis of Multichannel Slotted Aloha Networks with Capture
+61,Introduction
+62,System Model
+63,Performance Analysis
+64,Stationary Probability Distribution
+65,Average Performance Measures
+66,Numerical Results
+67,Conclusion
+68,Output and Delay Process Analysis of Multichannel Networks with Voice/Data
+69,Introduction
+70,System Model
+71,Performance Analysis
+72,Analysis of Nonreservation System
+73,Analysis of Reservation System
+74,Packet Departure Distribution
+75,Average Performance Measures
+76,Packet Delay Distribution
+77,Numerical Results
+78,Conclusion
+79,Performance Analysis of Prioritized Multihop Packet Radio Networks
+80,Introduction
+81,System Model
+82,Performance Analysis
+83,Joint Probability Generating Function
+84,Analysis for Three-Hop Network
+85,Fully Connected Three-Hop Network
+86,Tandem Three-Hop Network
+87,Analysis for N-Hop Network
+88,Queue Length Distribution
+89,Average Performance Measures
+90,Transmission State Distribution
+91,Two-Hop Parallel Network
+92,Numerical Results
+93,Conclusion
+94,Multichannel and Multi-Traffic Networks with CSMA Protocols
+95,Output and Delay Process Analysis of Slotted CSMA/CD Multichannel Lans
+96,Introduction
+97,System Model
+98,Performance Analysis
+99,Stationary Probability Distribution
+100,Average Performance Measures
+101,Packet Interdeparture Time Distribution of Type [c]
+102,Joint Probability Distribution of Packet Interdeparture Time and Number of Packet Departures
+103,Packet Delay Distribution
+104,Numerical Results
+105,Conclusion
+106,Performance Analysis of CSMA/CA Wireless Lans
+107,Introduction
+108,System Model
+109,Performance Analysis
+110,Analysis for Second State Transition
+111,Analysis of IFT for First State Transition
+112,Analysis of DFT for First State Transition
+113,Analysis for Third State Transition
+114,Stationary Probability Distribution
+115,Average Performance Measures
+116,Numerical Results
+117,Conclusion
+118,Output Process Analysis of Wireless CSMA/CA Lans with Voice/Data
+119,Introduction
+120,System Model
+121,Performance Analysis
+122,Analysis for Second State Transition
+123,Analysis of IFT for First State Transition
+124,Analysis of DFT for First State Transition
+125,Analysis for Third State Transition
+126,Stationary Probability Distribution
+127,Average Performance Measures
+128,Packet Interdeparture Time Distribution
+129,Numerical Results
+130,Conclusion
+131,Multichannel and Multi-Traffic in Wireless Communication Networks with CDMA Protocol and Hybrid Channel Assignment Scheme
+132,Output and Delay Process Analysis of CDMA Networks with Voice/Data
+133,Introduction
+134,System Model
+135,Performance Analysis
+136,Stationary Probability Distribution
+137,Packet Departure Distribution
+138,Average Performance Measures
+139,Packet Delay Distribution
+140,Numerical Results
+141,Conclusion
+142,Performance Analysis of Cellular Mobile Networks with HCA Scheme
+143,Introduction
+144,System Model
+145,Performance Analysis
+146,Interoverflow Time Distribution
+147,Analytical Method I
+148,Analytical Method II
+149,Blocking Probability
+150,Binomial Moment
+151,Numerical Results
+152,Conclusion
+153,Output and Delay Process Analysis of Cellular Mobile Networks with Hand-Off
+154,Introduction
+155,System Model
+156,Performance Analysis
+157,Stationary Probability Distribution
+158,Average Performance Measures
+159,Waiting Time Distribution
+160,Numerical Results
+161,Conclusion
+162,Concluding Remarks
+163,Summary of the Book
+164,Topics for Future Research
+165,Appendices
+166,Derivation of Equation (5.16)
+167,Derivation of Equation (8.4)
+168,Numerical Calculation Method to Solve Row Vector x in Chapter 11
+169,References
+170,Index

@@ -1,0 +1,63 @@
+id,title
+0,Input Document
+1,EPMF Correspondence
+2,First Taxpayer Correspondence
+3,Second Taxpayer Correspondence
+4,Correspondence to Other Than Taxpayer
+5,International Correspondence
+6,Taxpayer Correspondence (Signature Only)
+7,International Correspondence (Signature Only)
+8,Examination (Fuel Tax Credit)
+9,Statute Control
+10,Entity Control
+11,Frivolous Review
+12,QRDT (Questionable Refund Detection Team) Review
+13,Prompt Audit
+14,Joint Committee
+15,Frivolous Case
+16,QRDT Case
+17,Other CID (Criminal Investigation Division)
+18,Manual Refund
+19,Credit Verification
+20,Black Liquor
+21,Manual Refund - ERS
+22,Form 1120S - Form 2553 - First Year
+23,TIN Research
+24,Name Research
+25,Address Research
+26,Filing Requirements Research
+27,Other MFTRA Research
+28,Other In-House Research
+29,Examination
+30,Assistance Needed
+31,2006 tax return with Form 8913 credit (TETR)
+32,Management Suspense B
+33,Management Suspense C
+34,Management Suspense D
+35,Management Suspense E
+36,Complex Error Codes
+37,Early Filed Suspense
+38,System Problem
+39,Missing Document
+40,Missing Document - 1st Suspense
+41,Missing Document - 2nd Suspense
+42,Missing Document - 3rd Suspense
+43,Missing Document - Short Term
+44,Magnetic Tape Return - Check for Attachments
+45,Magnetic Tape - Inconsistent Data
+46,Renumber - Non-Remit
+47,Renumber - Remit
+48,NMF/Non-ADP
+49,Reinput
+50,Void
+51,International
+52,Data Control Delete
+53,Rejected Missing Document
+54,Duplicate Block DLN
+55,Duplicate Document DLN from Code & Edit
+56,Duplicate Document DLN from Error Correction
+57,Duplicate Document DLN from Unpostables
+58,Duplicate Document DLN from Unworkable Suspense
+59,Duplicate Document DLN from Workable Suspense
+60,NAP Linkage Problem
+61,Unpostable Record

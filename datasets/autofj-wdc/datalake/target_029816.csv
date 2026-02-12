@@ -1,0 +1,79 @@
+id,title
+0,clocks processor is not halted
+1,"all memory references, cachable and non"
+2,total lines allocated in the DCU
+3,number of M state lines allocated in DCU
+4,number of M lines evicted from the DCU
+5,number of cycles while DCU miss outstanding
+6,number of non/cachable instruction fetches
+7,number of instruction fetch misses
+8,number of ITLB misses
+9,cycles instruction fetch pipe is stalled
+10,cycles instruction length decoder is stalled
+11,number of L2 instruction fetches
+12,number of L2 data loads
+13,number of L2 data stores
+14,number of allocated lines in L2
+15,number of recovered lines from L2
+16,number of modified lines allocated in L2
+17,number of modified lines removed from L2
+18,number of L2 requests
+19,number of L2 address strobes
+20,number of cycles data bus was busy
+21,cycles data bus was busy in xfer from L2 to CPU
+22,number of clocks DRDY is asserted
+23,number of clocks LOCK is asserted
+24,number of outstanding bus requests
+25,number of burst read transactions
+26,number of read for ownership transactions
+27,number of write back transactions
+28,number of instruction fetch transactions
+29,number of invalidate transactions
+30,number of partial write transactions
+31,number of partial transactions
+32,number of I/O transactions
+33,number of deferred transactions
+34,number of burst transactions
+35,number of all transactions
+36,number of memory transactions
+37,bus cycles this processor is receiving data
+38,bus cycles this processor is driving BNR pin
+39,bus cycles this processor is driving HIT pin
+40,bus cycles this processor is driving HITM pin
+41,cycles during bus snoop stall
+42,number of computational FP operations retired
+43,number of computational FP operations executed
+44,number of FP exceptions handled by microcode
+45,number of multiplies
+46,number of divides
+47,cycles divider is busy
+48,number of store buffer blocks
+49,number of store buffer drain cycles
+50,number of misaligned data memory references
+51,number of KNI pre-fetch/weakly ordered insns dispatched
+52,number of KNI pre-fetch/weakly ordered insns that miss all caches
+53,number of instructions retired
+54,number of UOPs retired
+55,number of instructions decoded
+56,number of KNI instructions retired
+57,number of KNI computation instructions retired
+58,number of hardware interrupts received
+59,cycles interrupts are disabled
+60,cycles interrupts are disabled with pending interrupts
+61,number of branch instructions retired
+62,number of mispredicted branches retired
+63,number of taken branches retired
+64,number of taken mispredictions branches retired
+65,number of branch instructions decoded
+66,number of branches that miss the BTB
+67,number of bogus branches
+68,number of times BACLEAR is asserted
+69,cycles during resource related stalls
+70,cycles or events for partial stalls
+71,number of segment register loads
+72,number of MMX saturating instructions executed
+73,number of MMX UOPS executed
+74,number of MMX packing instructions
+75,MMX-floating point transitions
+76,number of EMMS instructions executed
+77,number of MMX instructions retired

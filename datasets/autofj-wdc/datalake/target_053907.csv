@@ -1,0 +1,52 @@
+id,title
+0,configurable DSN via smtp->recipient() broken
+1,Doc Change: Add note about working with UTF-8
+2,Failed to set attr before attached file
+3,Program code is executed twice while using the MIME-Lite Modul
+4,forks the process if sendmail not found
+5,Add Auto-Submitted to list of headers
+6,add the support for smtp tls with port 587
+7,Documentation request: Why is something 'dangerous'?
+8,Headers with \n wreak havoc
+9,Bug: exit code handling if sig chld is set to ignore
+10,Extra newline after boundary in multipart msg sent from mod_perl
+11,Field sort order different from 3.028
+12,MIME::Lite can not send to multiple people via SMTP if a list reference is used to specify the 'To'
+13,MIME::Lite changes setlocale LC_NUMERIC
+14,MIME-Lite-3.027 installation strangeness
+15,Inconsistency in MIME::Lite with/without Mail::Address
+16,MIME::Lite Suggestion
+17,Please remove unwanted \n
+18,$mail->attr('content-type.charset' => 'UTF-8'); is discarded
+19,Won't send mail through GMail SMTP server
+20,can't use string as HASH ref line 1690 in scrub()
+21,"""can't extract address"" regression"
+22,i add a more support compliant with this lib tls and ssl for MIME::Lite
+23,i add a more support compliant with this lib tls and ssl for MIME::Lite
+24,documentation error /
+25,i add a more support tls and ssl for MIME::Lite
+26,Subject is broken when text is encoded in UTF-8 nd using SENDMAIL
+27,unexplained 'no data in this part' in error
+28,content-type can be treated as a regex
+29,odd send_by_testfile behavior
+30,Improve MIME type detection
+31,"MIME ""binary"" encoding is default but illegal"
+32,"Emails sent as plain text, with visible MIME data"
+33,Unexpected work in encode_8bit and encode_7bit
+34,send_by_smtp : To override doesn't work
+35,Unicode issue when calling encode_qp() - somehow related to #39334
+36,End data with . Messages
+37,message/digest MIME type not functional
+38,minor feature request: support pass-thru of 'NOTIFY' option for 'RCPT TO'
+39,bug in v3.021 of MIME::LIte
+40,mod_perl - Pipe-Error
+41,Inconsistency in send_by_sendmail causes problems
+42,Insecure dependency with send_by_sendmail under taint mode
+43,sendmail '-f' should be called with just the mailbox name
+44,Handling rejected email address by SMTP server
+45,Line endings are wrong: test 4 in t/data fails
+46,"""make test"" failed in t/data test 4"
+47,Output for SMIME
+48,5.5.4 invalid address with send_by_smtp only
+49,The server's reply to DATAEND may be a usefull result to return from send_by_smtp
+50,send_by_sendmail() chooses incorrect default sendmail path

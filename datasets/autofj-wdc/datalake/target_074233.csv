@@ -1,0 +1,48 @@
+id,title
+0,Access a DBIx::Class Schema from a CGI::Application
+1,Auth::RBAC Permissions via DBIx::Class
+2,Migrate an existing database to another backend
+3,Auto-create NetAddr::IP objects from columns.
+4,Implicit Random Columns
+5,Automatic inflation/deflation of epoch-based columns to/from DateTime objects
+6,Log queries for later analysis.
+7,Modules AMD uses
+8,Auto-create boolean objects from columns.
+9,"Ability based authorization for Catalyst/DBIx::Class apps, based on Catalyst::Plugin::Authorization::Roles"
+10,"Create a schema for each unique calling context, defined by your model"
+11,Demo app for showing the synergy between perl and javascript
+12,Automatically set column default values on insert
+13,Apply FilterColumn by type instead of name
+14,Provides a set of Catalyst modules
+15,A standard DBIx::Class layer for the Chado database schema.
+16,Modules that DBR likes to use.
+17,A base controller implementing CRUD operations (EXPERIMENTAL!)
+18,Basic shopping cart
+19,Business Process Execution Engine
+20,An AtomPub server for messaging.
+21,command line pastebin
+22,Automatically set and update fields
+23,FreeRADIUS::Database - FreeRADIUS database manager
+24,KING OF CMS
+25,A cart/order/checkout framework with AxKit/TT/Catalyst support
+26,Represent a graph in a relational database using DBIC
+27,Implicit uuid columns
+28,Library for things around the prosody XMPP server
+29,Find a DBIC Results from Arguments
+30,Miniature Model Organism Sequence Aligner
+31,REST Controller for [% schema_class %]
+32,Index data via external indexing facilities.
+33,Manage trees of data using the nested set model
+34,Critique a database schema for best practices
+35,Speedier interface to HTML::FormFu for Catalyst
+36,MooseX::Types for DBIx::Class objects
+37,Optimistic locking support for DBIx::Class
+38,"Always update the result on ->update, independent of changes"
+39,cursor class with built-in caching support
+40,DBIx::Class profiler
+41,Generate automatic documentation of DBIx::Class::Schema objects
+42,Manage trees of data using the Möbius encoding (nested intervals with continued fraction)
+43,Short hand ResultSet Accessors
+44,Dancer::Plugin::Auth::RBAC authentication via DBIx::Class
+45,Yet another web framework
+46,Auto-inflate your decimal columns into solid floats

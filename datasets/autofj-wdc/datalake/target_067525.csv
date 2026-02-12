@@ -1,0 +1,101 @@
+id,title
+0,port upgrade -u py25-wxpython fails to deactivate old version
+1,py-pyodbc: can't find MacPorts ODBC drivers
+2,Python_select has been depreciated breaks install from mpkg or mdmg
+3,mpd crash on Lion when playing m4a files
+4,error: port install gst +nox-gtk-tcltk
+5,mail/dovecot - add postgresql90 postgresql91 variants
+6,grass does not ensure it's UsingTheRightCompiler
+7,request for ffmbc port
+8,postgresql91-server @9.1.2_0 initialization fails
+9,xsane not working with Canon Lide Scanner
+10,erlang: build error when /opt/local/bin/gcc exists
+11,swig-python build fails for non-default build_arch
+12,gimp segfaults when browsing an image folder
+13,gpsphoto port submission
+14,"""sudo port ex"" should extract"
+15,Can't start kde 3
+16,growl could not be installed on Mac OSX 10.7.3
+17,tin: port update to 2.0.1
+18,rabbitmq-server: launchctl script does not match created node
+19,arq_restore installs binaries into applications_dir
+20,ocamlsdl does not apply a needed patch
+21,cvsps needs to be UsingTheRightCompiler
+22,reduce: replaces reduce-algebra
+23,build of valgrind 3.7.0 on Leopard fails; gcc version not detected properly
+24,Pallet search and menus
+25,gmic: update to 1.5.0.9
+26,rb-rubygems out of date
+27,REQUEST: macchanger
+28,request port bfast
+29,background archiving
+30,cadabra: build fails with clang
+31,VICE (stable) port submission
+32,VICE (development) port submission
+33,sbcl @1.0.55 will not build on PPC under leopard 10.5.8
+34,xemacs 21.4.22_4 crash when entering font-lock-mode
+35,amarok: dyld: Symbol not found: __ZN6Amarok20qt_mac_set_dock_menuEP5QMenu
+36,db48: Valgrind-compatible variant
+37,"postgresql90,postgresql91 improvement to Unicode support"
+38,New port request: GCalDaemon
+39,x264 @20111023 +universal Build failure - MMX error on i386
+40,py-mat: add new port py27-mat 0.2.2
+41,fortune: limerick data file contains offensive fortunes
+42,kdeinit4 doesn't start: complains about dbus not running
+43,mysql5-server: sudo port load: child killed: trace trap
+44,ccaudio @1.1.1 build failure
+45,request: fsdb
+46,Package request: winexe
+47,GTK2 build fails in 10.4.11 because system CUPS is too old
+48,request: CCExtractor
+49,request: telxcc
+50,php5 build failure with distcc?
+51,request: view3dscene
+52,Amarok @2.4.3 will not build!
+53,--with-macports-user also sets the group
+54,Port request- shairport
+55,cyrus-sasl2 @2.1.23 +universal +kerberos: libsasl2.la differs and cannot be merged
+56,new port: py-pweave
+57,Pallet doesn't work (nothing happens); no documentation
+58,Requesting new port: scli (SNMP Command Line Interface)
+59,android @16 Problem with permissions folder
+60,encoding x264 with ffmpeg does not use CPU capabilities on 64bit 10.7.3
+61,please consider porting GTKremesher
+62,wget should use curl-ca-bundle by default
+63,Updating emacs-app-devel to truly recent snapshot
+64,gdbm @1.10 build failure
+65,kbuildsycoca4 error 88500 after installing kdewebdev
+66,New package py26-gtkglext
+67,Create single mpkg of all installed ports
+68,Portfile for mod_geoip
+69,gcc44 @4.4.6: malloc.h: No such file or directory
+70,avocadodb @0.1.2 submission ticket
+71,nut - 2.6.1 - new port for 'nut-client'
+72,request: glam2
+73,Proftpd: enable sftp and other modules
+74,AbiWord: ssize_t not defined?
+75,gcc46 4.6.3 internal compiler error: in objc_eh_runtime_type
+76,"selfupdate failed from 2.0.3 to 2.0.4 @ 10.6.8, xcode 3.2"
+77,mysql5 doesn't start
+78,Save binary packages to user-specified location
+79,py-ldap: Update python-ldap to 2.4.8
+80,tovid package does not currently work
+81,"bullet: The following variables are used in this project, but they are set to NOTFOUND: OPENCL_LIBRARY"
+82,"gcc48: Selecting 'mp-gcc48' for 'gcc' failed ... gcj"": target"
+83,criticalmass: memalloc errors
+84,"port -e, environment mode"
+85,perl p5 ports: 5.12.3: no such file or directory
+86,gcc47 @4.7-20120225 on 10.5.8 PPC - internal compiler error
+87,libpqxx: tests don't work
+88,autogen 5.15 fails shell.hlp test case on case-insensitive filesystems
+89,p5-mytop: update to 1.7
+90,ffmpeg: Cannot build with XCode 4.3.1 for 64 bit
+91,Incomplete uninstall script
+92,LyX spotlight plugin can't be loaded
+93,cuneiform @1.1.0_0 Error during execution: Abort trap: 6
+94,Awesome @3.4.11: cannot find default config
+95,keep machines from sleep during port building
+96,Cannot use non-ascii in the Python interactive shell
+97,ccl 1.7.1 fails to compile on darwin 9.8.0
+98,request: bluegriffon
+99,ipe @7.1.2 (graphics); build fails on image.o

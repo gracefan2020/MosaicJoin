@@ -1,0 +1,62 @@
+id,title
+0,Dracula errors on (just) + or - at REPL
+1,"Modular ACL2 reacts poorly to mixing of ""code"" and exports"
+2,"modular acl2 unresolved import problem, useless error message"
+3,dracula rename export example from reference docs does not work
+4,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+5,example from docs declares IDistributeLists as a module
+6,c.plt fails to install correctly
+7,First line blank -> broken indenting
+8,same name as another planet package - confusing version numbering
+9,srfi.plt does not install cleanly due to error in info.ss
+10,Pressing unicode in command mode causes insertion
+11,Pressing end causes error
+12,Port to typed-scheme
+13,Feature request: lang/this-package
+14,test-suite semantics change makes my code infinite loop
+15,schememodlang/this-package + defmodulelang/this-package
+16,_ pattern succeeds on end of input?
+17,Cannot load package in 4.1.4
+18,Planet breakage? Some surprising dependencies from xmlrpc.plt
+19,Request for docs on interaction model
+20,support unicode
+21,Doesn't work in Current Version of PLT
+22,Doesn't work in Current Version of PLT
+23,Doesn't work in Current Version of PLT
+24,Use of {{{set-cdr!}}}
+25,stack trace is often mostly unusable
+26,Use of set-cdr!
+27,audit duplicate-variable errors/non-errors
+28,errors on initial compile
+29,Docs link unavailable; .DS_Store file unnecessary
+30,rename require.ss to main.ss
+31,coverage for compiler tests
+32,test infrastructure for different compilation modes
+33,binding arrows in DrScheme broken
+34,long startup time
+35,Doc warnings
+36,setup fails on hash store; hash-store.plt/1/4/hash-store.ss:9:3: expand: unbound identifier in module in: base64-filename-safe
+37,add an expansion phase to the compiler
+38,make a csv-reader that takes in an input-port
+39,Incompatible with mzscheme 4+
+40,make prophecies sequences
+41,parameter for top-level let semantics
+42,"""use lexical scope"" pragma"
+43,implement read-only __proto__
+44,over-parenthesization in while-conditions
+45,regular expressions aren't implemented
+46,numbers are unfaithful to spec
+47,implement JavaScript library fully
+48,possible semantic issues with exceptions
+49,Function.prototype.toString should produce source
+50,make-filter-input-port hopelessly broken
+51,optional and keyword args
+52,make sets sequences
+53,memoization is not thread-safe
+54,make-response/xhtml/full
+55,stream-partition unusable
+56,stream-split-at
+57,support for v3 and v4
+58,API requests
+59,fmt uses set-cdr!
+60,sample bug

@@ -1,0 +1,239 @@
+id,title
+0,p:choose
+1,p:data
+2,p:declare-step
+3,p:document
+4,p:documentation
+5,p:empty
+6,p:for-each
+7,p:group
+8,p:import
+9,p:inline
+10,p:input
+11,p:iteration-source
+12,p:library
+13,p:log
+14,p:option
+15,p:otherwise
+16,p:output
+17,p:pipe
+18,p:pipeinfo
+19,p:pipeline
+20,p:serialization
+21,p:try
+22,p:variable
+23,p:viewport
+24,p:viewport-source
+25,p:when
+26,p:with-option
+27,p:with-param
+28,p:xpath-context
+29,p:add-attribute
+30,attribute-prefix
+31,attribute-namespace
+32,p:add-xml-base
+33,all
+34,= true
+35,= false
+36,default 'false'
+37,relative
+38,= true
+39,= false
+40,default 'true'
+41,p:compare
+42,fail-if-not-equal
+43,= true
+44,= false
+45,default 'false'
+46,p:count
+47,limit
+48,p:delete
+49,p:directory-list
+50,include-filter
+51,exclude-filter
+52,p:error
+53,code-prefix
+54,code-namespace
+55,p:escape-markup
+56,p:filter
+57,p:http-request
+58,p:identity
+59,p:insert
+60,match
+61,position
+62,= first-child
+63,= last-child
+64,= before
+65,= after
+66,p:label-elements
+67,attribute
+68,attribute-prefix
+69,attribute-namespace
+70,label
+71,match
+72,replace
+73,= true
+74,= false
+75,default 'true'
+76,p:load
+77,dtd-validate
+78,= true
+79,= false
+80,default 'false'
+81,p:make-absolute-uris
+82,base-uri
+83,p:namespace-rename
+84,from
+85,to
+86,apply-to
+87,= all
+88,= elements
+89,= attributes
+90,default 'all'
+91,p:pack
+92,wrapper-prefix
+93,wrapper-namespace
+94,p:parameters
+95,p:rename
+96,new-prefix
+97,new-namespace
+98,p:replace
+99,p:set-attributes
+100,p:sink
+101,p:split-sequence
+102,initial-only
+103,= true
+104,= false
+105,default 'false'
+106,p:store
+107,byte-order-mark
+108,= true
+109,= false
+110,cdata-section-elements
+111,doctype-public
+112,doctype-system
+113,encoding
+114,escape-uri-attributes
+115,= true
+116,= false
+117,default 'false'
+118,include-content-type
+119,= true
+120,= false
+121,default 'true'
+122,indent
+123,= true
+124,= false
+125,default 'false'
+126,media-type
+127,method
+128,normalization-form
+129,omit-xml-declaration
+130,= true
+131,= false
+132,default 'true'
+133,standalone
+134,= true
+135,= false
+136,= omit
+137,default 'omit'
+138,undeclare-prefixes
+139,= true
+140,= false
+141,version
+142,p:string-replace
+143,p:unescape-markup
+144,namespace
+145,content-type
+146,charset
+147,p:unwrap
+148,p:wrap
+149,wrapper-prefix
+150,wrapper-namespace
+151,group-adjacent
+152,p:wrap-sequence
+153,wrapper-prefix
+154,wrapper-namespace
+155,group-adjacent
+156,p:xinclude
+157,fixup-xml-base
+158,= true
+159,= false
+160,default 'false'
+161,fixup-xml-lang
+162,= true
+163,= false
+164,default 'false'
+165,p:xslt
+166,initial-mode
+167,template-name
+168,output-base-uri
+169,p:exec
+170,args
+171,cwd
+172,source-is-xml
+173,= true
+174,= false
+175,default 'true'
+176,result-is-xml
+177,= true
+178,= false
+179,default 'true'
+180,wrap-result-lines
+181,= true
+182,= false
+183,default 'false'
+184,errors-is-xml
+185,= true
+186,= false
+187,default 'false'
+188,wrap-error-lines
+189,= true
+190,= false
+191,default 'false'
+192,path-separator
+193,failure-threshold
+194,arg-separator
+195,p:hash
+196,p:uuid
+197,p:validate-with-relax-ng
+198,dtd-attribute-values
+199,= true
+200,= false
+201,default 'false'
+202,dtd-id-idref-warnings
+203,= true
+204,= false
+205,default 'false'
+206,assert-valid
+207,= true
+208,= false
+209,default 'true'
+210,p:validate-with-schematron
+211,phase
+212,assert-valid
+213,= true
+214,= false
+215,default 'true'
+216,p:validate-with-xml-schema
+217,use-location-hints
+218,= true
+219,= false
+220,default 'false'
+221,try-namespaces
+222,= true
+223,= false
+224,default 'false'
+225,assert-valid
+226,= true
+227,= false
+228,default 'true'
+229,mode
+230,= strict
+231,= lax
+232,default 'strict'
+233,p:www-form-urldecode
+234,p:www-form-urlencode
+235,p:xquery
+236,p:xsl-formatter
+237,content-type

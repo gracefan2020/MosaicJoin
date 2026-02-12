@@ -1,0 +1,55 @@
+id,title
+0,Zoom in/out
+1,Zoom in/out
+2,Zoom in/out
+3,Select object
+4,De-select object
+5,Auto-zoom out
+6,Auto-zoom in on selected object
+7,Centre on selected object
+8,Swap between equatorial and azimuthal mount
+9,Toggle full-screen mode (not available on some architectures)
+10,Toggle drawing of constellations
+11,Toggle drawing of constellations boundaries?
+12,Toggle drawing of constellation names
+13,Toggle drawing of constellation art
+14,Toggle star names
+15,Toggle nebulae names off / on (short) / on (long?)
+16,Toggle drawing of RA/Dec grid
+17,Cycle through: show meridian line; show Alt/Azi grid; neigher
+18,Cycle through: no planet labels; planet labels; planet labels with orbits
+19,Toggle drawing of ground
+20,Toggle drawing of atmosphere
+21,Toggle drawing of horizon fog
+22,"Toggle drawing of cardinal points (N, S, E, W)"
+23,Toggle moon scaling (4x /1x)
+24,Toggle object tracking (moves the view to keep selected object in the centre)
+25,Toggle drawing of stars
+26,Cycle through: draw ecliptic; draw ecliptic & planet trails; draw neither
+27,Toggle drawing of equator line
+28,Take a screenshot (will be written to stellarium*.bmp)
+29,Toggle script recording
+30,Toggle search window
+31,Toggle help window
+32,Toggle information window
+33,Toggle configuration window
+34,Toggle text menu
+35,"Close any open windows (help, info, & configuration)"
+36,Time rate pause (or script pause when a script is running)
+37,Set time rate to zero (time stands still)
+38,Set time to current time
+39,Decrease time rate (or decrease script speed if a script is running)
+40,Set time rate to normal (1 second per second)
+41,Increase time rate (or increase script speed if a script is running)
+42,Move back in time 24 hours
+43,Move forward in time 24 hours
+44,Move back in time 7 days
+45,Move forward in time 7 days
+46,Stop a running script
+47,Quit Stellarium. (command+Q on the Mac)
+48,Volume down (only when a script is playing)
+49,Volume up (only when a script is playing)
+50,Cycle through meteor shower rates: low; medium; high; very high
+51,Toggle horizontal image flipping
+52,Toggle vertical image flipping
+53,Make telescope [num] point at currently selected object

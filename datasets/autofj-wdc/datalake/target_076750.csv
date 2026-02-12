@@ -1,0 +1,114 @@
+id,title
+0,1000 - No Reason
+1,1001 - No Disconnect
+2,1002 - Unknown
+3,1003 - Call Disconnect
+4,1004 - CLID Auth Fail
+5,1009 - No Modem Available
+6,1010 - No Carrier
+7,1011 - Lost Carrier
+8,1012 - No Modem Results
+9,1020 - TS User Exit
+10,1021 - Idle Timeout
+11,1022 - TS Exit Telnet
+12,1023 - TS No IP Addr
+13,1024 - TS TCP Raw Exit
+14,1025 - TS Bad Password
+15,1026 - TS No TCP Raw
+16,1027 - TS CNTL-C
+17,1028 - TS Session End
+18,1029 - TS Close Vconn
+19,1030 - TS End Vconn
+20,1031 - TS Rlogin Exit
+21,1032 - TS Rlogin Opt Invalid
+22,1033 - TS Insuff Resources
+23,1040 - PPP LCP Timeout
+24,1041 - PPP LCP Fail
+25,1042 - PPP Pap Fail
+26,1043 - PPP CHAP Fail
+27,1044 - PPP Remote Fail
+28,1045 - PPP Receive Term
+29,PPP LCP Close (1046)
+30,1047 - PPP No NCP
+31,1048 - PPP MP Error
+32,1049 - PPP Max Channels
+33,1050 - TS Tables Full
+34,1051 - TS Resource Full
+35,1052 - TS Invalid IP Addr
+36,1053 - TS Bad Hostname
+37,1054 - TS Bad Port
+38,1060 - TCP Reset
+39,1061 - TCP Connection Refused
+40,1062 - TCP Timeout
+41,1063 - TCP Foreign Host Close
+42,1064 - TCP Net Unreachable
+43,1065 - TCP Host Unreachable
+44,1066 - TCP Net Admin Unreachable
+45,1067 - TCP Host Admin Unreachable
+46,1068 - TCP Port Unreachable
+47,1100 - Session Timeout
+48,1101 - Security Fail
+49,1102 - Callback
+50,1120 - Unsupported
+51,1150 - Radius Disc
+52,1151 - Local Admin Disc
+53,1152 - SNMP Disc
+54,1160 - V110 Retries
+55,1170 - PPP Auth Timeout
+56,1180 - Local Hangup
+57,1185 - Remote Hangup
+58,1190 - T1 Quiesced
+59,1195 - Call Duration
+60,1600 - VPDN User Disconnect
+61,1601 - VPDN Carrier Loss
+62,1602 - VPDN No Resources
+63,1603 - VPDN Bad Control Packet
+64,1604 - VPDN Admin Disconnect
+65,1605 - VPDN Tunnel Down/Setup Fail
+66,1606 - VPDN Local PPP Disconnect
+67,1607 - VPDN Softshut/Session Limit
+68,1608 - VPDN Call Redirected
+69,1801 - Q850 Unassigned Number
+70,1802 - Q850 No Route
+71,1803 - Q850 No Route To Destination
+72,1806 - Q850 Channel Unacceptable
+73,1816 - Q850 Normal Clearing
+74,1817 - Q850 User Busy
+75,1818 - Q850 No User Responding
+76,1819 - Q850 No User Answer
+77,1821 - Q850 Call Rejected
+78,1822 - Q850 Number Changed
+79,1827 - Q850 Destination Out of Order
+80,1828 - Q850 Invalid Number Format
+81,1829 - Q850 Facility Rejected
+82,1830 - Q850 Responding to Status Enquiry
+83,1831 - Q850 Unspecified Cause
+84,1834 - Q850 No Circuit Available
+85,1838 - Q850 Network Out of Order
+86,1841 - Q850 Temporary Failure
+87,1842 - Q850 Network Congestion
+88,1843 - Q850 Access Info Discarded
+89,1844 - Q850 Requested Channel Not Available
+90,1845 - Q850 Call Pre-empted
+91,1847 - Q850 Resource Unavailable
+92,1850 - Q850 Facility Not Subscribed
+93,1852 - Q850 Outgoing Call Barred
+94,Q850 Incoming Call Barred (1854)
+95,1858 - Q850 Bearer Capability Not Available
+96,1863 - Q850 Service Not Available
+97,1865 - Q850 Bearer Capability Not Implemented
+98,1866 - Q850 Channel Not Implemented
+99,1869 - Q850 Facility Not Implemented
+100,1881 - Q850 Invalid Call Reference
+101,1882 - Q850 Channel Does Not Exist
+102,1888 - Q850 Incompatible Destination
+103,1896 - Q850 Mandatory Info Element Is Missing
+104,1897 - Q850 Non Existent Message Type
+105,1898 - Q850 Invalid Message
+106,1899 - Q850 Bad Info Element
+107,1900 - Q850 Invalid Element Contents
+108,1901 - Q850 Wrong Message for State
+109,1902 - Q850 Recovery on Timer Expiration
+110,1903 - Q850 Info Element Error
+111,1911 - Q850 Protocol Error
+112,1927 - Q850 Unspecified Internetworking Event

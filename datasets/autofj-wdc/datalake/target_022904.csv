@@ -1,0 +1,51 @@
+id,title
+0,Import/export terms with uuid
+1,"Broken link ""Disable Double Tree"""
+2,Notice: Notice: Undefined variable: root_term_index in _taxonomy_manager_tree_get_first_path() (line 483 of taxonomy_manager.module)
+3,Port to Drupal 8
+4,Validation is called when terms are selected in tree.
+5,Typo exisiting -> existing
+6,"How to keep term relationship to node, when term changes vocabulary in Drupal 7?"
+7,Map source item's parents to translation item
+8,Double tree default vocabulary
+9,"""Expand all"" and ""Collapse all"" buttons"
+10,Automated testing is not enabled?
+11,Log warnings with i18n taxonomy translation enabled
+12,Double tree - wrong tree language reset
+13,Tree Always Resetting To Default Language 7.x
+14,Ajax error with redirect module
+15,Autocomplete parent field - tagging suggestions issue with i18n translation enabled
+16,Tree Always Resetting To Default Language
+17,"""No language"" option should list undefined terms"
+18,Make Content Taxonomy Fields compatible with Merge feature
+19,Unable to move terms to other vocabularies using double tree
+20,403 Forbidden - Access to this resource on the server is denied!
+21,Checkout the Taxonomy Edge module and provide support for it when installed.
+22,Taxonomy AJAX term viewer overwrite url path!!!
+23,Term merging does not include synonym data
+24,Unable to save multiple parents to a term
+25,Improve redirect mechanism for merged terms
+26,Support for Meta tag or Page title module
+27,Code style
+28,Ajax error in combination with taxonomy_menu
+29,Access control on vocabulary
+30,Renaming a term with Taxonomy Manager module doesn't trigger menu update
+31,Terms save with LANGUAGE_NONE with entity_translation module installed
+32,Taxonomy_menu'ed term's menu item loses hierarchy when term is edited in TaxMan
+33,Add new vocabulary permissions
+34,Sort terms by original input order instead of alphabetic when mass adding
+35,No pagination with double tree
+36,Term operations wrap and displace checkboxes for long taxonomy term names
+37,Compatibility with Taxonomy Revision module
+38,Problem editing addressfields
+39,Merge
+40,Taxonomy manager should fire hook_entity_delete when deleting terms
+41,Can't save if there are too many terms in vocabulary
+42,Taxonomy Delegate and Manager working together?
+43,Clicking Add button does nothing - incompatibility with Devel module and Tao based themes (like Rubik)
+44,Mass delete of all taxonomy items
+45,Offering to maintain Taxonomy_Manager
+46,"Typo ""selecte"" -> ""select"""
+47,Support for i18n localized vocabularies
+48,How to find and delete all taxonomy terms that are made of 1 WORD and MORE THAN 3 WORDS
+49,Data base error!!! DatabaseStatementBase->fetchAllKeyed()

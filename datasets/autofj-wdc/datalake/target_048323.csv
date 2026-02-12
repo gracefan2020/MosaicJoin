@@ -1,0 +1,80 @@
+id,title
+0,Rewrite of the classic test writing/taking application
+1,Number support
+2,Theme manager
+3,Add a Open File action
+4,Integrate an editor
+5,Plasmoid
+6,Theme manager
+7,Visual Indicator when letter is wrong
+8,Port Kalzium's periodic table to use new QGraphicsView.
+9,"Remove the libavogadro snapshot, depend on libavogadro directly."
+10,Plasmoid to access Kalzium database
+11,Improve GUI for creating softbody
+12,Use common constraints handling code for collisions
+13,New parser (using QLALR) and new lexer
+14,Import capability for MathML Presentation Markup in libanalitza
+15,Export to MathML Presentation Markup
+16,Some integration with the new KFormula widget
+17,Declensions
+18,Rework main window infrastructure
+19,Display millions of stars
+20,Tool to predict Conjunctions
+21,Support of Non-western Constellations
+22,"Include HD Catalog Numbers (in search, in display)"
+23,Earth Satellites
+24,Sky Calendar Tool
+25,Marble widget for Geolocation tool
+26,Better printed star charts
+27,Separate INDI From KStars
+28,Sync KStars time from device
+29,Better rendering of comets/asteroids
+30,Texture mapping of the skymap???
+31,Improve Observing List Wizard
+32,Display Comet Magnitudes whenever possible
+33,Information links in-place for each technical term
+34,Tool to suggest star-hopping techniques???
+35,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+36,Export map to MxN pixel bitmap
+37,Bookmarks
+38,Support for MarbleWidget::setEnabled( bool )
+39,Map Contents translation
+40,Editing GeoDataFeatures
+41,Layer Management Class
+42,Plugin architecture for map layers
+43,Extending GeoPainter
+44,Marble Runners
+45,GeoClue Integration
+46,Routing
+47,More map providers (WMS?)
+48,Winkel Triple projection / equivalent
+49,Marble WorldClock Plasmoid
+50,Qt-Version settings dialog
+51,Panoramio Support
+52,Twitter Plugin
+53,TimeZone Support
+54,Support for other planets and the moon
+55,DGML2 Support
+56,Support for imperial units
+57,Graticule plugin
+58,MeasureTool plugin
+59,Port authors list from the Qt-About dialog to the KDE-About dialog
+60,Basic KML support
+61,GeoData Model/View Visualization
+62,More generic projection support
+63,Python bindings to the Marble widget and classes
+64,Network plugins
+65,Properties dialog for objects.
+66,Improve construction of bisect lines.
+67,Improve feedback when constructing objects.
+68,More geometric objects.
+69,Script objects as macros (to be reused more than once).
+70,Improve the Cabri import filter.
+71,Improve the new/edit script wizard.
+72,Export canvas as image
+73,Optional rulers/grid for canvas units
+74,Add command line
+75,Add a color picker
+76,Usability Improvements
+77,Merging KPercentage functionalities into KBruch
+78,Visualization of Schemes and Gradients at same time

@@ -1,0 +1,182 @@
+id,title
+0,CACHE - Autorefresh cycles completed successfully on TimesTen
+1,CACHE - Number of autorefresh cycles that failed due to errors
+2,CACHE - Rows deleted in TimesTen during autorefresh from Oracle
+3,CACHE - Full refreshes triggered during autorefresh operations
+4,CACHE - Rows inserted in TimesTen during autorefresh from Oracle
+5,CACHE - Rows updated in TimesTen during autorefresh from Oracle
+6,CACHE - Number of AWT transactions committed on Oracle database
+7,CACHE - Number of calls made to Oracle database for AWT
+8,CACHE - Number of rollbacks on Oracle database because of errors
+9,CACHE - Number of PL/SQL block batches sent to Oracle database
+10,CACHE - Number of bytes sent to Oracle database in PL/SQL mode
+11,CACHE - Number of rows deleted on Oracle database in PL/SQL mode
+12,CACHE - Number of rows inserted on Oracle database - PL/SQL mode
+13,CACHE - Number of rows updated on Oracle database in PL/SQL mode
+14,CACHE - Times AWT transactions re-tried in case of an error
+15,CACHE - Number of batches sent to Oracle database in SQL mode
+16,CACHE - Number of bytes sent to Oracle database in SQL mode
+17,CACHE - Delete batches sent to Oracle database in SQL mode
+18,CACHE - Number of rows deleted on Oracle database in SQL mode
+19,CACHE - Insert batches sent to Oracle database in SQL mode
+20,CACHE - Rows inserted on Oracle database in SQL mode
+21,CACHE - Update batches sent to Oracle database in SQL mode
+22,CACHE - Rows updated on Oracle database in SQL mode
+23,CACHE - TimesTen transactions propagated to Oracle database
+24,CACHE - Global dynamic cachegroup cache hits
+25,CACHE - Global dynamic cachegroup cache misses
+26,CACHE - Times dynamic load miss load from Oracle DB
+27,CACHE - Bytes loaded from Oracle servicing dynamic load misses
+28,CACHE - Dynamic loads where not local but remote load ok
+29,CACHE - Data requests because of dynamic load on remote grid mem
+30,CACHE - Data requests received where the data requested is dirty
+31,CACHE - Data requests received where locked by transaction
+32,CACHE - Data requests received where data not present
+33,CACHE - Local dynamic cachegroup cache hits
+34,CACHE - Local dynamic cachegroup misses
+35,CACHE - Bytes loaded from Oracle servicing dyn load miss-local
+36,CACHE - Data loads from Oracle DB servicing dynamic load misses
+37,CACHE - Number of bytes flushed to Oracle
+38,CACHE - Number of flush cache group executes
+39,CACHE - Number of rows flushed to Oracle
+40,CACHE - Number of bytes sent to Oracle for SWT cache groups ops
+41,CACHE - Number of rows in SWT cache groups deleted on Oracle
+42,CACHE - Number of rows in SWT cache groups inserted on Oracle
+43,CACHE - Number of rows in SWT cache groups updated on Oracle
+44,CKPT - Number of bytes of checkpoint files written
+45,CKPT - Number of checkpoint bytes written during DB recovery
+46,CKPT - Number of checkpoints completed
+47,CKPT - Number of fuzzy checkpoints completed
+48,CKPT - Number of checkpoint writes
+49,CKPT - Start time of last checkpoint begun
+50,CKPT - End time of last checkpoint begun
+51,CKPT - Type of last checkpoint begun
+52,CKPT - Status of last checkpoint begun
+53,CKPT - Whether last checkpoint begun had an error
+54,CKPT - Bytes written during last checkpoint
+55,CONNECTIONS - Number of database disconnects
+56,CONNECTIONS - Number of database connects established
+57,CONNECTIONS - Number of client-server connections established
+58,CONNECTIONS - Number of direct linked DB conns established
+59,CONNECTIONS - DB connects exceeding configured number of conns
+60,DB - Number of rows deleted from hash indexes
+61,DB - Number of rows inserted into hash indexes
+62,DB - Inserts into hash indexes during DB recovery index rebuild
+63,DB - Number of rows fetched from hash indexes
+64,DB - Rows fetched from hash indexes during replication ops
+65,DB - Number of hash indexes scanned
+66,DB - Number of hash indexes scanned during replication ops
+67,DB - Number of deletes from range indexes
+68,DB - Number of inserts into range indexes
+69,DB - Inserts into range indexes during DB recovery index rebuild
+70,DB - Number of tuples fetched from range indexes
+71,DB - Rows fetched from range indexes during replication ops
+72,DB - Number of range indexes scanned
+73,DB - Range indexes scanned during replication operations
+74,DB - Number of updates on range indexes
+75,DB - Number of indexes rebuilt
+76,DB - Number of temporary indexes created
+77,DB - Number of rows fetched from temporary indexes
+78,DB - Rows fetched from temp indexes during replication ops
+79,DB - Number of temporary indexes scanned
+80,DB - Number temp indexes scanned during replication operations
+81,DB - Number of merge joins done
+82,DB - Number of nested loop joins done
+83,DB - Number of sorts done
+84,DB - Number of full table scans
+85,DB - Number of table rows deleted
+86,DB - Number of table rows inserted
+87,DB - Number of table rows read
+88,DB - Number of table rows updated
+89,GRID - Number of grid members that have attached so far
+90,GRID - Number of detach operations
+91,LOCK - Number of deadlocks
+92,LOCK - Number of lock requests denied due to timeouts
+93,LOCK - Number of locks acquired for DML activity
+94,LOCK - Number of locks acquired for table scans
+95,LOCK - Number of locks granted immediately
+96,LOCK - Number of locks granted that required waiting
+97,LOG - Last log file number
+98,LOG - Number of bytes inserted into the log buffer
+99,LOG - Number of log records inserted into the log buffer
+100,LOG - Total waits for inserts
+101,LOG - Earliest log file currently
+102,LOG - Most recent log file present
+103,LOG - Number of file system reads
+104,LOG - Number of file system writes
+105,LOG - Number of log files generated so far
+106,LOG - Number of times the log is synched to disk
+107,LOG - Bytes read from log for commits
+108,LOG - File system reads for commits
+109,LOG - Number of bytes of log read during DB recovery
+110,MEMORY - MB of permanent space in use
+111,MEMORY - Highest amount of permanent partition in use - MB
+112,MEMORY - Percent of permanent space in use
+113,MEMORY - MB of temporary space in use
+114,MEMORY - Highest amount of temporary partition in use - MB
+115,MEMORY - Percent of temporary space in use
+116,PLSQL - Number of times lock requested for a PL/SQL object
+117,PLSQL - Number of times PL/SQL object's handle found in memory
+118,PLSQL - Ratio of ttplsql_GetHits to ttplsql_Gets
+119,PLSQL - Number of times a PIN was requested for PL/SQL objects
+120,PLSQL - Times all metadata pieces of library obj found in mem
+121,PLSQL - Ratio of ttplsql_PinHits to ttplsql_Pins
+122,PLSQL - PINs of objs not 1st performed since obj handle created
+123,PLSQL - Times objs marked invalid because dependent obj modified
+124,PLSQL - Total heap (MB) allocated to PL/SQL on this DB conn
+125,PLSQL - Total number of times a deferred cleanup occurred
+126,REP - Number of xacts replicated from this database
+127,REP - Last log file number held by replication
+128,STMT - Number of statement prepares
+129,STMT - Number of cmd cache misses during statement prepare
+130,STMT - Number of ALTER statements executed
+131,STMT - Total number of SQL statements executed
+132,STMT - Number of CREATE statements executed
+133,STMT - Number of DELETE statements executed
+134,STMT - Number of DROP statements executed
+135,STMT - Number of INSERT statements executed
+136,STMT - Number of MERGE statements executed
+137,STMT - Number of SELECT statements executed
+138,STMT - Number of UPDATE statements executed
+139,STMT - Number of statement reprepares (forced or automatic)
+140,STMT - Number of automatic statement reprepares
+141,WORKLOAD - Total number of connections
+142,WORKLOAD - System connections
+143,WORKLOAD - Client/Server connections
+144,WORKLOAD - Direct linked connections
+145,WORKLOAD - Number of commands prepared
+146,WORKLOAD - Number of commands reprepared
+147,WORKLOAD - Number of cursor opens
+148,WORKLOAD - Number of cursors closed
+149,WORKLOAD - tpl fetches
+150,WORKLOAD - tpl execs
+151,WORKLOAD - cache hits
+152,WORKLOAD - passthrough count
+153,WORKLOAD - most commonly executed SQL statement
+154,WORKLOAD - 2nd most commonly executed SQL statement
+155,WORKLOAD - 3rd most commonly executed SQL statement
+156,WORKLOAD - 4th most commonly executed SQL statement
+157,WORKLOAD - 5th most commonly executed SQL statement
+158,WORKLOAD - 6th most commonly executed SQL statement
+159,WORKLOAD - 7th most commonly executed SQL statement
+160,WORKLOAD - 8th most commonly executed SQL statement
+161,WORKLOAD - 9th most commonly executed SQL statement
+162,WORKLOAD - 10th most commonly executed SQL statement
+163,WORKLOAD - most commonly prepared SQL statement
+164,WORKLOAD - 2nd most commonly prepared SQL statement
+165,WORKLOAD - 3rd most commonly prepared SQL statement
+166,WORKLOAD - 4th most commonly prepared SQL statement
+167,WORKLOAD - 5th most commonly prepared SQL statement
+168,WORKLOAD - most commonly reprepared SQL statement
+169,WORKLOAD - 2nd most commonly reprepared SQL statement
+170,WORKLOAD - 3rd most commonly reprepared SQL statement
+171,WORKLOAD - 4th most commonly reprepared SQL statement
+172,WORKLOAD - 5th most commonly reprepared SQL statement
+173,XACT - Number of transactions committed
+174,XACT - Number of durable transaction commits
+175,XACT - Number of replication initiated transaction commits
+176,XACT - Number of XLA initiated transaction commits
+177,XACT - Number of nondurable transaction commits
+178,XACT - Number of durable replicated transaction commits
+179,XACT - Number of nondurable replicated transaction commits
+180,XACT - Number of transaction rollbacks

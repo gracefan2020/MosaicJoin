@@ -1,0 +1,88 @@
+id,title
+0,"git: kernel/libutil: UNIX98_PTYS has been default long enough, remove defines."
+1,git: doc: Update porting_drivers.txt
+2,git: ttm porting: Small changes (3/3)
+3,git: ttm porting: Small changes (2/3)
+4,git: ttm porting: Small changes (1/3)
+5,git: ttm porting: Fix vm_page_alloc_contig() calls
+6,git: ttm porting: msleep => lksleep
+7,git: ttm porting: Translate locking primitives
+8,git: ttm porting: malloc / free / printf
+9,git: ttm porting: MPASS -> KKASSERT
+10,git: ttm porting: Fix include files
+11,git: drm: Import the ttm memory manager from FreeBSD
+12,git: drm: Locally implement VM_OBJECT_LOCK variants
+13,git: drm: Move PROC_LOCK define to common file
+14,git: kernel: Add a memattr argument to vm_page_alloc_contig()
+15,git: route/inet: Add comment about read/write shared global variables
+16,git: route/inet: Dispatch PRCLONed route expiration to netisr
+17,git: pmap/i386: Unbreak buildkernel
+18,git: libc/db: Add missing MLINK for mpool_delete().
+19,git: Avoid potentially freeing NULL pointers in dmi_found()
+20,git: kernel: Add pmap_page_set_memattr()
+21,git: drm: Improve dmi_found()
+22,git: kernel: Add VM_MAX_ADDRESS and VM_MIN_ADDRESS constants
+23,git: drm: Use NELEM() in dmi_check_system()
+24,git: drm: Implement dmi_check_system()
+25,git: igb.4: This driver is not much related to em/emx
+26,git: bnx.4: Add missing .El
+27,git: bnx.4: Add HARDWARE section
+28,"git: bnx.4: Mention 5717C, which is quite similar to 5720"
+29,git: share/man/man9/Makefile: Keep MLINKS lines sorted.
+30,git: DragonFly_RELEASE_3_4 kernel/amr: Move amrd (disk) adding before amrp (cam passthrough).
+31,git: DragonFly_RELEASE_3_4 kernel: Add DRIVER_MODULE_ORDERED macro
+32,git: hammer2 - Add missing bzero() (2)
+33,git: hammer2 - Add missing bzero()
+34,git: hammer2 - Add missing bqrelse()
+35,"git: kprintf.9: %D was removed, so don't mention it."
+36,git: arp: Dispatch arp cache expiration operation to netisr
+37,git: pthread.3: Fix typo from previous commit.
+38,git: pthread.3: add pthread barrier routines
+39,git: kernel - Adjust impossible conditions in kdmsg_state_*()
+40,git: hammer2 - Fix freemap bugs
+41,git: hammer2 - fix crash in temporary code
+42,git: hammer2 - temorarily track free space (3)
+43,git: hammer2 - temorarily track free space (2)
+44,git: hammer2 - temorarily track free space
+45,git: hammer2 - Adjustments for freemap changes
+46,"git: hammer2 - Change freemap segment delineation, other stuff"
+47,git: usb4bsd: Next attempt at fixing BIOS handoff for XHCI
+48,git: usb4bsd: more cleanup of superflous debug messages
+49,git: usb4bsd: fix breakage caused by earlier commit
+50,git: usb4bsd: xhci cleanup
+51,git: usb4bsd: Bring in fix for endpoint setup on Etron XHCI
+52,"git: usb4bsd, pci: pull in bios takeover code from FreeBSD"
+53,git: usb4bsd: Fix EHCI
+54,git: usb4bsd: Fix scsi sense handling in umass
+55,git: usb4bsd: sync with FreeBSD svn r242385
+56,git: usb4bsd: Add detection for Etron EJ168 controller
+57,git: kernel: Move some header files to the drivers that only need them.
+58,git: kernel: Remove some unused externs.
+59,git: socket: SO_LINGER only affects sockets that have been connected
+60,git: Update UPDATING a bit.
+61,git: Remove some unused externs.
+62,"git: rp(4): Remove ISA attachment and some dead code, too."
+63,git: kernel/raid: Match xpt_alloc_ccb() and xpt_free_ccb() for rescan callbacks.
+64,git: kernel/drm2: Remove two unused externs.
+65,git: drm/i915: Do not check only primary displays
+66,git: acpi/pstate: AMD CPUs' Family >= 10h use same P-State controls
+67,git: drm2: Synchronize with FreeBSD
+68,git: bce.4: Mention the tranmission queue arbitration
+69,git: loader.conf - Clarify kernel early boot comport operation
+70,git: Fix typo in some manpages: specifed -> specified
+71,git: kernel: Use TABs to indent in 'files'.
+72,git: kernel - Fix panic when usched is used to force a cpu w/the dfly scheduler (2)
+73,git: kernel - Fix sendfile() based deadlock
+74,git: kernel/amr: Move amrd (disk) adding before amrp (cam passthrough).
+75,git: kernel - Fix panic when usched is used to force a cpu w/the dfly scheduler
+76,git: kernel - Fix /dev/mem
+77,git: kernel: Fix bus_dmamem_alloc()
+78,git: igb.4: Mention the tranmission queue arbitration
+79,git: bnx.4: Mention the tranmission queue arbitration
+80,git: em/emx.4: Mention the tranmission queue arbitration
+81,git: kernel - Fix pageout algorithm regression
+82,git: kernel/drm2: Add a missing #include (for drm_free()).
+83,git: make_dev.9: Adjust make_dev_covering() description too.
+84,git: Adjust two devfs manual pages and some comments to match reality.
+85,git: tcp: Allow socket/syncache inheritance between SO_REUSEPORT listen sockets
+86,git: nrelease: Install a default pkg.conf from pkg(8)

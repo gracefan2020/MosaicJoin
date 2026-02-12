@@ -1,0 +1,122 @@
+id,title
+0,page-break-before/after not distinguished in page breaking rules
+1,box-sizing note does not mention HTML tables using border-box
+2,box-sizing note mentions images as being border-box should probably be content-box
+3,Point to ED drafts from TR drafts?
+4,"Can a slot have a border and if so, where is it drawn?"
+5,"Align content in a column on decimal points, etc."
+6,Where is content displayed if the next page doesn't have a slot for it?
+7,Add cmyk() color notation
+8,block vertical alignment
+9,Allow negative border-spacing
+10,Define list-item display for replaced elements
+11,Define position: relative for internal table elements
+12,Cap-height unit proposal
+13,"Biblio ref for marquee should be CSS3MARQUEE, not CSS3BOX"
+14,The biblio ref for Mobile BP is out of date
+15,"Various Issues, Editor needs to split out."
+16,Ability to wrap table rows
+17,Unicode Normalization of CSS
+18,Unicode Normalization of Selectors
+19,Unicode Normalization of CSS user-defined identifiers
+20,Make sure justification allows not justifying between various bits of punctuation
+21,max-count() function for counters
+22,ruby-position: undesirable default value 'before' for complex ruby
+23,CSSOM should define when 'scroll' and 'resize' events fire
+24,Define various kinds of overflow
+25,calc() grammar needs flexibility about units
+26,Clarify whether comments are allowed inside :nth-child() pseudoclass
+27,Template Syntax Lacks Clue and Experimentability
+28,Add #rgba / #rrggbbaa notation to Color
+29,Non-rectangular slots
+30,Chaining regions
+31,Abbreviations for large templates
+32,clarify whether :lang() arguments are compared via ASCII case-insensitivity or Unicode case-folding
+33,URI normalization
+34,"Define ""may become narrower"""
+35,Control padding at box break
+36,define interaction of white space processing and ruby
+37,Clarify application of 'clear' to run-ins.
+38,Clarify interaction of run-ins and â€œelements earlier in the source documentâ€.
+39,Run-ins should not run in across text
+40,Should text-shadow support a spread radius
+41,Lots of hyphenation properties
+42,Various minor issues with run-in definition
+43,Interaction of run-ins and float positioning
+44,"Interaction of percentages, intrinsic sizes, and shrinkwrap"
+45,Should text-shadow support inset
+46,Define containing block formed by relpos'd inline split across multiple lines
+47,Ability to tweak complex value components via cascade
+48,Add dB (decibel) and other CSS Speech units to Values and Units
+49,Add anonymous box selector for block-in-inline splits
+50,Unit for ideographic advance
+51,Add CIE Lab color scheme hlc()
+52,Comma to separate rows in template (accessibility)
+53,Use numbers in a template to refer directly to the nth child?
+54,Add random() function
+55,Reintroduce min() and max()
+56,element() conflicts with tag name selector
+57,Honoring EXIF data for images
+58,round() function
+59,Define animation of box-shadow from inset to outset
+60,Add background-repeat: extend
+61,12-slice border images
+62,"css3-multicol should use ""block containers"" in Applies to fields for forwards-compatibility"
+63,Define normalization for matching CSS identifiers
+64,Rename text-wrap: none to text-wrap: nowrap
+65,Improve CSSWG website
+66,ltr/rtl annotations should be per-image() not per URL
+67,Address remaining Level 3 LC issues against element()
+68,Clarify sibling/parent relationships
+69,last-line-length
+70,multiples of line height
+71,Selectors3 nth-child grammar is wrong
+72,Page breaks before/after root element
+73,Behavior of fill-available for extents
+74,define break type created by 'always'
+75,text-fill or something
+76,overwite cursor with
+77,Clarify 'voice-family: neutral': Gender-neutral or UA-chosen
+78,text-underline-width / text-underline-offset
+79,SVG's white space rules are weird
+80,"Add a ""responsive pixel"" unit"
+81,Clarify that IRIs are included in the URLs in css3-values
+82,talk about selection of text-overflow: ellipsis
+83,copyfit text
+84,Allow more flexibility in box-shadow syntax
+85,Add more shorthands for border-radius
+86,"Define relation of pages in space, and how this interrelates with bleed"
+87,Handle in object negotiation algorithm
+88,character based alignment ambiguously defined
+89,alphachannel-based shape-outside property needs positioning and sizing
+90,Make sure repeat keywords match flex alignment option terminology
+91,Sync against latest css3-background CR
+92,marks and bleed
+93,Conflicting requirements for the initial containing block
+94,@page size declarations qualified by Media Queries
+95,Media Queries based on the page size
+96,Viewport-percentages units in the page context
+97,Allow child-index pseudos to select unparented elements
+98,Make specificity of :matches() / :not() depend on what was matched
+99,Usable selector for empty elements
+100,Profile :matches() / :not() for fast vs. complete implementation
+101,Discontinuous behavior of box-shadow at rounded corners exposes implementation precision
+102,Scinot on
+103,Ensure height of column boxes is well-defined
+104,Fixed positioning on content-empty pages?
+105,Clarify where calc() is allowed
+106,Box-shadow blending
+107,letter-spacing: and justification
+108,Allow custom line-breaking indicators
+109,text-outline
+110,More control over deleting white space
+111,Should text-align-last require text-align: justify?
+112,counter-reset: page
+113,Rewrite stacking in terms of Appendix E
+114,Page box: rectangle vs. CSS box
+115,Simplify page-margin box layout
+116,Interactions with user settings in printing UI
+117,Http://lists.w3.org/Archives/Public/www-style/2013May/0578.html
+118,Define which ::pseudo:pseudo combinations are invalid and which just never match
+119,omitted flex-basis should default to 0% not 0 length
+120,Define canonical order of shorthand expansions

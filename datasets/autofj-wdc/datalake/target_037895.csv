@@ -1,0 +1,50 @@
+id,title
+0,Module to load PS1 status line elements
+1,Parse files in Standard Test Data Format into Perl objects
+2,Filtering various things out of CPAN::Meta::Prereqs
+3,An open source web-based network management tool.
+4,More tools for testing Moose packages
+5,create/store an object in a JSON-like hash
+6,detect outdated CPAN modules in your environment.
+7,Convert Perl5 source to compile under Perl6.
+8,Deep Logging of information about a script state
+9,Tags repositories as containing Ruby code for Group::Git
+10,Write Dist::Zilla plugin directly in dist.ini
+11,The base object for WADL clients.
+12,Test double framework with method stubs and behaviour verification
+13,Gets the number of commits each repository is ahead of the last release
+14,Have annotated MANIFEST in your distribution
+15,Configure and query the Brocade SDN controller.
+16,"Use Perl code in distribution ""resource"" metadata"
+17,Have text templating capabilities in your Dist::Zilla plugin
+18,Filter and validate data values
+19,CPAN module authoring tool
+20,Wrapper module for aws-cli
+21,Generate a Makefile.PL containing a warning for legacy users
+22,Generically interface with version control systems
+23,what modules shipped with versions of perl
+24,The DuckDuckGo DuckPAN client
+25,Base module for group of git repository operations.
+26,Perl bindings for the Blackboard Collaborate Standard Bridge (V3)
+27,Locale::CLDR - Data Package Locales::Fr
+28,Locale::CLDR - Data Package Locales::En
+29,Locale::CLDR - Data Package Locales::Cy
+30,Locale::CLDR - Data Package Locales::Cs
+31,Locale::CLDR - Data Package Locales::Br
+32,Locale::CLDR - Data Package Locales::Bg
+33,Hard-coded replacements for perl-core/ dependencies and dependencies with odd names in Gentoo
+34,A Module to create locale objects with localisation data from the CLDR
+35,Convert arbitrary Perl Modules' versions into normalized Gentoo versions.
+36,Compare dependencies between releases using CPAN::Meta.
+37,Locale::CLDR - Data Package Transformations
+38,Report on prerequisite versions during automated testing
+39,A Perl implementation of BEM
+40,Find modules used or required in perl files or directories of perl files
+41,Yet another DarkPAN manager.
+42,Official MongoDB Driver for Perl
+43,Have error logging capabilities in your Dist::Zilla plugin
+44,Configuration data with context
+45,Data::Page::Pagination - calculates the pagination view
+46,Role for a formattable section
+47,Zilla your distributions like RSRCHBOY!
+48,Group-Git tools to show combined markdown TODOs

@@ -1,0 +1,233 @@
+id,title
+0,'#' and '##' as the name of temporary tables and stored procedures
+1,'::' function calling syntax
+2,'@' and names that start with '@@' as Transact-SQL identifiers
+3,ADDING TAPE DEVICE
+4,ALL Permission
+5,ALTER DATABASE WITH TORN_PAGE_DETECTION
+6,ALTER LOGIN WITH SET CREDENTIAL
+7,Azeri_Cyrilllic_90
+8,Azeri_Latin_90
+9,BACKUP DATABASE or LOG TO TAPE
+10,BACKUP DATABASE or LOG WITH MEDIAPASSWORD
+11,BACKUP DATABASE or LOG WITH PASSWORD
+12,COMPUTE [BY]
+13,CREATE FULLTEXT CATLOG IN PATH
+14,CREATE TRIGGER WITH APPEND
+15,CREATE_DROP_DEFAULT
+16,CREATE_DROP_RULE
+17,Data types: text ntext or image
+18,Database compatibility level 80
+19,Database compatibility level 90
+20,DATABASE_MIRRORING
+21,database_principal_aliases
+22,DATABASEPROPERTY
+23,DATABASEPROPERTYEX('IsFullTextEnabled')
+24,DBCC [UN]PINTABLE
+25,DBCC DBREINDEX
+26,DBCC INDEXDEFRAG
+27,DBCC SHOWCONTIG
+28,DEFAULT keyword as a default value
+29,Deprecated encryption algorithm
+30,DESX algorithm
+31,dm_fts_active_catalogs
+32,dm_fts_active_catalogs.is_paused
+33,dm_fts_active_catalogs.previous_status
+34,dm_fts_active_catalogs.previous_status_description
+35,dm_fts_active_catalogs.row_count_in_thousands
+36,dm_fts_active_catalogs.status
+37,dm_fts_active_catalogs.status_description
+38,dm_fts_active_catalogs.worker_count
+39,dm_fts_memory_buffers
+40,dm_fts_memory_buffers.row_count
+41,DROP INDEX with two-part name
+42,EXT_CREATE_ALTER_SOAP_ENDPOINT
+43,EXT_endpoint_webmethods
+44,EXT_soap_endpoints
+45,EXTPROP_LEVEL0TYPE
+46,EXTPROP_LEVEL0USER
+47,FASTFIRSTROW
+48,FILE_ID
+49,fn_get_sql
+50,fn_servershareddrives
+51,fn_virtualservernodes
+52,fulltext_catalogs
+53,fulltext_catalogs.data_space_id
+54,fulltext_catalogs.file_id
+55,fulltext_catalogs.path
+56,FULLTEXTCATALOGPROPERTY('LogSize')
+57,FULLTEXTCATALOGPROPERTY('PopulateStatus')
+58,FULLTEXTSERVICEPROPERTY('ConnectTimeout')
+59,FULLTEXTSERVICEPROPERTY('DataTimeout')
+60,FULLTEXTSERVICEPROPERTY('ResourceUsage')
+61,GROUP BY ALL
+62,Hindi
+63,HOLDLOCK table hint without parentheses
+64,IDENTITYCOL
+65,Index view select list without COUNT_BIG(*)
+66,INDEX_OPTION
+67,INDEXKEY_PROPERTY
+68,Indirect TVF hints
+69,INSERT NULL into TIMESTAMP columns
+70,INSERT_HINTS
+71,Korean_Wansung_Unicode
+72,Lithuanian_Classic
+73,Macedonian
+74,MODIFY FILEGROUP READONLY
+75,MODIFY FILEGROUP READWRITE
+76,More than two-part column name
+77,Multiple table hints without comma
+78,NOLOCK or READUNCOMMITTED in UPDATE or DELETE
+79,Non-ANSI *= or =* outer join operators
+80,numbered_stored_procedures
+81,numbered_procedure_parameters
+82,numbered_procedures
+83,Oldstyle RAISEERROR
+84,OLEDB for ad hoc connections
+85,PERMISSIONS
+86,ProcNums
+87,READTEXT
+88,RESTORE DATABASE or LOG WITH DBO_ONLY
+89,RESTORE DATABASE or LOG WITH MEDIAPASSWORD
+90,RESTORE DATABASE or LOG WITH PASSWORD
+91,Returning results from trigger
+92,ROWGUIDCOL
+93,SET ANSI_NULLS OFF
+94,SET ANSI_PADDING OFF
+95,SET CONCAT_NULL_YIELDS_NULL OFF
+96,SET DISABLE_DEF_CNST_CHK
+97,SET FMTONLY ON
+98,SET OFFSETS
+99,SET REMOTE_PROC_TRANSACTIONS
+100,SET ROWCOUNT
+101,SETUSER
+102,sp_addapprole
+103,sp_addextendedproc
+104,sp_addlogin
+105,sp_addremotelogin
+106,sp_addrole
+107,sp_addserver
+108,sp_addtype
+109,sp_adduser
+110,sp_approlepassword
+111,sp_attach_db
+112,sp_attach_single_file_db
+113,sp_bindefault
+114,sp_bindrule
+115,sp_bindsession
+116,sp_certify_removable
+117,sp_changeobjectowner
+118,sp_change_users_login
+119,sp_configure 'allow updates'
+120,sp_configure 'disallow results from triggers'
+121,sp_configure 'ft crawl bandwidth (max)'
+122,sp_configure 'ft crawl bandwidth (min)'
+123,sp_configure 'ft notify bandwidth (max)'
+124,sp_configure 'ft notify bandwidth (min)'
+125,sp_configure 'locks'
+126,sp_configure 'open objects'
+127,sp_configure 'priority boost'
+128,sp_configure 'remote proc trans'
+129,sp_configure 'set working set size'
+130,sp_control_dbmasterkey_password
+131,sp_create_removable
+132,sp_db_vardecimal_storage_format
+133,sp_dbcmptlevel
+134,sp_dbfixedrolepermission
+135,sp_dboption
+136,sp_dbremove
+137,sp_defaultdb
+138,sp_defaultlanguage
+139,sp_denylogin
+140,sp_depends
+141,sp_detach_db @keepfulltextindexfile
+142,sp_dropalias
+143,sp_dropapprole
+144,sp_dropextendedproc
+145,sp_droplogin
+146,sp_dropremotelogin
+147,sp_droprole
+148,sp_droptype
+149,sp_dropuser
+150,sp_estimated_rowsize_reduction_for_vardecimal
+151,sp_fulltext_catalog
+152,sp_fulltext_column
+153,sp_fulltext_database
+154,sp_fulltext_service @action=clean_up
+155,sp_fulltext_service @action=connect_timeout
+156,sp_fulltext_service @action=data_timeout
+157,sp_fulltext_service @action=resource_usage
+158,sp_fulltext_table
+159,sp_getbindtoken
+160,sp_grantdbaccess
+161,sp_grantlogin
+162,sp_help_fulltext_catalog_components
+163,sp_help_fulltext_catalogs
+164,sp_help_fulltext_catalogs_cursor
+165,sp_help_fulltext_columns
+166,sp_help_fulltext_columns_cursor
+167,sp_help_fulltext_tables
+168,sp_help_fulltext_tables_cursor
+169,sp_helpdevice
+170,sp_helpextendedproc
+171,sp_helpremotelogin
+172,sp_indexoption
+173,sp_lock
+174,sp_password
+175,sp_remoteoption
+176,sp_renamedb
+177,sp_resetstatus
+178,sp_revokedbaccess
+179,sp_revokelogin
+180,sp_srvrolepermission
+181,sp_unbindefault
+182,sp_unbindrule
+183,SQL_AltDiction_CP1253_CS_AS
+184,String literals as column aliases
+185,sys.sql_dependencies
+186,sysaltfiles
+187,syscacheobjects
+188,syscolumns
+189,syscomments
+190,sysconfigures
+191,sysconstraints
+192,syscurconfigs
+193,sysdatabases
+194,sysdepends
+195,sysdevices
+196,sysfilegroups
+197,sysfiles
+198,sysforeignkeys
+199,sysfulltextcatalogs
+200,sysindexes
+201,sysindexkeys
+202,syslockinfo
+203,syslogins
+204,sysmembers
+205,sysmessages
+206,sysobjects
+207,sysoledbusers
+208,sysopentapes
+209,sysperfinfo
+210,syspermissions
+211,sysprocesses
+212,sysprotects
+213,sysreferences
+214,sysremotelogins
+215,sysservers
+216,systypes
+217,sysusers
+218,Table hint without WITH
+219,Text in row table option
+220,TEXTPTR
+221,TEXTVALID
+222,TIMESTAMP
+223,UPDATETEXT or WRITETEXT
+224,USER_ID
+225,Using OLEDB for linked servers
+226,Vardecimal storage format
+227,XMLDATA
+228,XP_API
+229,xp_grantlogin
+230,xp_loginconfig
+231,xp_revokelogin

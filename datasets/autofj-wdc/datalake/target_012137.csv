@@ -1,0 +1,101 @@
+id,title
+0,XOrg GUI
+1,Re-write PC-BSD Online Updater to grab .tbz packages to update base system
+2,Fix i18n Support
+3,Merge PBI tools & PC-BSD Software tools
+4,Fix the bug [622] fixes properly
+5,Error with install modifying hard disk.
+6,Improve sound detection script
+7,Add BSSID support to WiFi tool
+8,Add NTP configuration to GUI
+9,Allow PBI script to abort installation
+10,Impove look-n-feel
+11,Allow scan_ssid to be set if AP isn't broadcasting its ssid.
+12,Ability to remove multiple PBIs in one go
+13,Add several neat options to the contextual menu
+14,"Typo: OpenOffice.org named ""OpenOffice"""
+15,french keyboard not configured
+16,System update asked even when update diable in KDE
+17,Missing Italian translation strings in installer
+18,Configuration Wizzard after install.
+19,RAID support
+20,Services problem
+21,Not proper bahavior of network status in systray
+22,"Interrupt of upgrade, corrupt old version"
+23,Unable to continue installation
+24,Changes with wireless network
+25,Non-english version should have layot switching enabled
+26,Signal strength are negative. Why????
+27,Missing 3rd CD results in broken install
+28,"sysinstaller - inactive ""save"" button for swap partition"
+29,sysinstaller - extra check-box for auto-login when installation type is FreeBSD
+30,Inactivity about 30 minutes produce error
+31,Automatic mirror not working
+32,Broken downloaded PBI produce problem to SoftManager
+33,No context-menu when PBI are downloads
+34,Network Tray crashed after system idle a while
+35,Swap encrypted not always installs as encrypted
+36,Encrypted partitions - not enough warning to users
+37,Installer shows incorrect numbers of slices
+38,User not allowed to change icon for himself
+39,Fresh install with russian language provides Changeme layout
+40,Software manager allowed to leave pbidir.com
+41,FreeBSD installation from PCBSD DVD on zfs root
+42,PCBSD Installer won't recognize new AHCI disks (/dev/ada*) as system disk
+43,New Network System strange behavior
+44,unable to start PCBSD 8.0-RC amd64 graphical installer
+45,Ukrainian translation is missed in 8.0 RC
+46,Boot splash is absent
+47,PCBSD-8
+48,Update manager icon
+49,Booting Wireless 3945ABG error
+50,Wireless network not connecting in Live mode
+51,Missing Network Settings in KDE Start Menu (KDE 4.3.5) on PCBSD 8.0 RC2
+52,Duplicate Sound Devices Detected...Sound Not Working
+53,BTX loader hang on after detecting a SATA drive
+54,Netlink BCM57780 support & Brightness Problem
+55,Marvell 88E8042 doensn't work with PC-BSD 8.0
+56,destination directory for backups
+57,virtualbox: installation freezes at early stage of booting up
+58,PC-BSD i386 8.0 does not create correct device fot logical NTFS-partition in catalog /dev
+59,Instalação em Português do Brasil
+60,Key index became -1 instead of 0
+61,Automount of NTFS filesystems from /etc/fstab
+62,Installer fails
+63,Crypted slice
+64,Cannot boot from mirrored zfs setup
+65,Installing with GELI w/o passphrase fail
+66,Downloading PCBSD_8.1-RC1 impossible
+67,Can't unlock screen in Live mode
+68,powerd flags hiadaptive
+69,Update to Nvidia 256.35 driver for Nvidia GTX 460/480/465/470
+70,installation: freezes on macbook pro
+71,gjournal'ed fstab entries don't have async option
+72,Installation error claims /var is too small when it isn't
+73,Green tint on screen during installation
+74,Installation failed
+75,no boot with radeon hybrid graphics
+76,GUI Installer Missing Text for German
+77,system freezes shortly after startup
+78,Bug with latest RC (8.2 RC)
+79,PPPoE doesn't work
+80,"kbdcontrol: keymap file ""us"" not found"
+81,default pf.conf is incorrect for avahi(bonjour)
+82,Cannot update phonon-gstreamer port
+83,Conky window disappears
+84,Temporary files should be cleaned at boot
+85,Load non-essential modules later
+86,Installer Problem on Bsd Partitions
+87,Login with incorrect symbols
+88,mount_ntfs doesn't work/mount
+89,Firewall restart OK window
+90,Error during cleanup of pbi-hashdir for spaces inside file path
+91,Can't use non latin keyaboad layout in installer
+92,Partitioner: partition size edit box limit is too low
+93,Mixing case in login in installer triggers warning
+94,"""portjail delete"" kills /usr/home"
+95,mouse pointer and system stops and only starts when key is pressed (shift)
+96,Language selection should be in native language
+97,Installer should show download speed
+98,pc-sysinstall fails to sort datasets/mountpoints properly; fails on nested datasets
+99,User Manager deletes home directory without prompt

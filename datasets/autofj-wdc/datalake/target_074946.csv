@@ -1,0 +1,71 @@
+id,title
+0,Intel(R) HD Graphics
+1,Intel(R) 5 Series/3400 Series Chipset Family 2 port Serial ATA Storage Controller - 3B2D
+2,Intel(R) 5 Series/3400 Series Chipset Family 4 port Serial ATA Storage Controller - 3B28
+3,USB Video Device
+4,Intel(R) Display Audio
+5,High Definition Audio Device
+6,Synaptics PS/2 Port TouchPad
+7,JMB38X xD Host Controller
+8,JMB38X MS Host Controller
+9,JMB38X SD Host Controller
+10,JMB38X SD/MMC Host Controller
+11,Broadcom NetLink (TM) Gigabit Ethernet
+12,Intel(R) WiFi Link 1000 BGN
+13,Bluetooth Device (Personal Area Network)
+14,Reserved - 2D13
+15,Reserved - 2D12
+16,QPI Physical 0 - 2D11
+17,QPI Link 0 - 2D10
+18,QuickPath Architecture System Address Decoder - 2D01
+19,QuickPath Architecture Generic Non-core Registers - 2C62
+20,Lenovo ACPI-Compliant Virtual Power Controller
+21,Intel(R) processor DRAM Controller - 0044
+22,USB Composite Device
+23,Generic USB Hub
+24,Intel(R) 5 Series/3400 Series Chipset Family USB Enhanced Host Controller - 3B34
+25,Intel(R) 5 Series/3400 Series Chipset Family USB Enhanced Host Controller - 3B3C
+26,Microsoft ACPI-Compliant Control Method Battery
+27,Microsoft AC Adapter
+28,Microsoft Bluetooth Enumerator
+29,Generic Bluetooth Adapter
+30,IDE Channel
+31,USB Input Device
+32,Standard PS/2 Keyboard
+33,Standard Modem over Bluetooth link
+34,Generic PnP Monitor
+35,HID-compliant mouse
+36,Bluetooth Device (RFCOMM Protocol TDI)
+37,Standard Serial over Bluetooth link
+38,Standard Serial over Bluetooth link
+39,Intel Processor
+40,UMBus Enumerator
+41,ACPI Fixed Feature Button
+42,Microsoft Windows Management Interface for ACPI
+43,ACPI Sleep Button
+44,ACPI Power Button
+45,ACPI Thermal Zone
+46,ACPI Lid
+47,PCI bus
+48,Direct Application Launch Button
+49,Motherboard resources
+50,Intel(R) Turbo Boost Technology Driver
+51,Intel(R) 5 Series/3400 Series Chipset Family SMBus Controller - 3B30
+52,Microsoft ACPI-Compliant Embedded Controller
+53,System timer
+54,System CMOS/real time clock
+55,Numeric data processor
+56,Programmable interrupt controller
+57,High precision event timer
+58,Intel(R) 82802 Firmware Hub Device
+59,Direct memory access controller
+60,Intel(R) HM55 Express Chipset LPC Interface Controller - 3B09
+61,Intel(R) 82801 PCI Bridge - 2448
+62,Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 5 - 3B4A
+63,Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 4 - 3B48
+64,Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 2 - 3B44
+65,Intel(R) 5 Series/3400 Series Chipset Family PCI Express Root Port 1 - 3B42
+66,High Definition Audio Controller
+67,Intel(R) Management Engine Interface
+68,PCI bus
+69,Microsoft ACPI-Compliant System

@@ -1,0 +1,87 @@
+id,title
+0,Frequency counting benchmark hash-for-each bug
+1,Unable to create unique indices
+2,Struct creation failure leaves orphan document in collection
+3,Looks like this language extension is broken on latest version of Racket and PLT-Scheme
+4,Type Predicate For Connection - Typed/Racket
+5,Play nice with Check Syntax
+6,Better error messages
+7,MzScheme not running on OS X 10.6.8+10.7/MBP Early 2011 (Sandy Bridge)
+8,Error with Racket 5.1.2 and bzlib
+9,ryanc/db 1.3 reports warnings on installation
+10,Probiotics Side Effects scoops
+11,"file not found error "".../collects/unstable/planet.rkt"""
+12,socket.plt fails to install
+13,Three operands to unsafe-fl* in statistics.rkt
+14,Documentation uses quartile instead of quantile
+15,Upgrade bindings to the current Cairo release
+16,Hello world doesn't compile
+17,insert-new-line-previous doesn't work
+18,Revision to previous ticket
+19,writing comment inserts extra spaces
+20,Running example code produces no sound
+21,Unbound identifier
+22,compilation error on racket v5.1.3
+23,compilation error
+24,Racket identifiers not recognized
+25,Negative numbers unsupported
+26,Growing memory consumption when using ryanc/db.plt
+27,Querying malformed ObjectId fails to return
+28,Support vectors
+29,bug in firmata.scrbl
+30,New scripts doesn't show up after updating
+31,Documentation bug
+32,The show signatures menu item shows an error message
+33,Test
+34,static-page won't load for 5.2.1
+35,"procedure application: expected procedure, received #"
+36,Subquotes break the csv-reader
+37,works only for small integers.
+38,install complains
+39,install complains
+40,Reg Fixers
+41,Package description doesn't load
+42,Crashes when using text-fields without label
+43,JSON parser incorrectly parses '[' with newline and then ']'
+44,stty on mac doesn't support -F
+45,(open ...) should accept a string
+46,Doc bug in csv->list applied to a string
+47,can't bind commands to capital letters
+48,segfault when failing to clean up database connections
+49,i need rosetta
+50,Empty file reports wrong error
+51,Unable to install
+52,tabexpand is too awesome
+53,"""not a procedure"" problem on Windows"
+54,"Request for adding parser combinator ""zero"""
+55,Problem finding files - package setup/internal links
+56,keyword #:limit of function mongo-collection-find doesn't work
+57,Implicit passing of monad argument
+58,Get and put
+59,Font lock doesn't work for subsubsubsection
+60,Doesnt' run
+61,Fixing the test files
+62,Problem installing Whalesong
+63,"Bad typecheck in map, foldl, foldr"
+64,transform-painter fails on non-rectangle configuration
+65,ZeroMQ integration with Racket 5.3.2 on Windows broken in FFI-lib
+66,generate-racket can't work on windows [2]
+67,`prime?' function does not check if x < 2.
+68,"(string->yaml ""a:"") throws a non-scanner-error"
+69,doesn't recognize octal number
+70,"cannot hande ""..."""
+71,string->yaml: broke its contract
+72,string: contract violation expected: char? given: #
+73,"could not determine a constructor for the tag tag:yaml.org,2002:merge"
+74,charterm event not ready when bytes are available
+75,charterm event not ready when bytes are available
+76,charterm event not ready when bytes are available
+77,unexpected result when parsing YAML file
+78,Channel mask should be 0xf instead of 0x7
+79,Protocol Buffers
+80,Protocol Buffers two deserializes
+81,contract violation in merge example
+82,document error in value example
+83,document error in null example
+84,Unit test fails because of problem with reverse!
+85,Besser fühlen Calriphen

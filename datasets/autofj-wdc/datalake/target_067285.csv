@@ -1,0 +1,58 @@
+id,title
+0,ACL (Access Control List) support in UFS
+1,journaling support through gjournal(8) for UFS
+2,UFS disk quotas support
+3,64-bit UFS disk quotas support
+4,FFS soft-updates support
+5,FFS snapshot support
+6,NFS client (old implementation)
+7,NFS client (new implementation)
+8,NFS server (old implementation)
+9,NFS server (new implementation)
+10,Kernel DTrace hooks which are required to load DTrace kernel modules
+11,Kernel support for KTR kernel tracing facility
+12,Kernel support for system call tracing
+13,Kernel support for HW PMC
+14,System V message queues support
+15,System V semaphores support
+16,POSIX P1003.1B message queues support
+17,POSIX P1003.1B semaphores support
+18,POSIX P1003.1B real-time extensions
+19,Support for capturing the kernel stack
+20,System V shared memory segments support
+21,Support usage of external PPS signal by kernel PLL
+22,Kernel support for interfaces necessary for regression testing
+23,Support for modules compiled with the INVARIANTS option
+24,Zero copy sockets support
+25,mchain library
+26,SCSI devices support
+27,Mandatory Access Control Framework support
+28,BSM audit support
+29,GEOM Gate module
+30,GEOM uzip read-only compressed disks support
+31,GEOM cache module
+32,GEOM mirroring support
+33,GEOM striping support
+34,GEOM concatenation support
+35,GEOM RAID-3 functionality
+36,GEOM FOX redundant path mitigation support
+37,GEOM multipath support
+38,GEOM virtual storage support
+39,GEOM-based Disk Encryption
+40,GEOM crypto module
+41,GEOM journaling support
+42,GEOM shared secret device support
+43,GEOM support for volume names from UFS superblocks
+44,GEOM labeling support
+45,GEOM Sun/Solaris partitioning support
+46,GEOM BSD disklabels support
+47,GEOM NEC PC9800 partitioning support
+48,GEOM Linux LVM partitioning support
+49,GEOM partitioning class for PC-9800 disk partitions
+50,GEOM partitioning class for SMI VTOC8 disk labels
+51,GEOM partitioning class for BSD disklabels
+52,GEOM partitioning class for extended boot records support
+53,GEOM EBR partitioning class: backward-compatible partition names
+54,GEOM partitioning class for GPT partitions support
+55,GEOM partitioning class for Apple-style partitions
+56,GEOM partitioning class for MBR support

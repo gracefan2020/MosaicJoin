@@ -1,0 +1,89 @@
+id,title
+0,No memory
+1,No buffers
+2,CPU high
+3,Low memory
+4,No dial peer match
+5,No DSP resource
+6,Socket error
+7,RTP inactivity error
+8,Invalid arguments
+9,Invalid state
+10,Timeout
+11,Inter-process communication
+12,Software error
+13,Gateway or interface OOS
+14,H323 interworking error
+15,"No usr responding, H225 timeout"
+16,No answer from user
+17,ARQ wait timeout
+18,BRQ wait timeout
+19,ANNEX E restart remote
+20,H225 invalid msg
+21,Setup no called no
+22,H225 ASN error
+23,Wait RAS Cfm msg bad
+24,"ACF, call redirected"
+25,"Setup, DNS fail"
+26,Setup no alternate
+27,"Setup, GW not registered"
+28,"SETUP, next CRV invalid"
+29,TCS encode send
+30,End session ack send
+31,End session send
+32,Userinput send
+33,Userinput upd send
+34,Userinput alpha send
+35,TCS ack fail
+36,TCS rej send fail
+37,TCS rel sent
+38,SETUP send resource fail
+39,ALERT send failed
+40,CallProc send failed
+41,PROGRESS send failed
+42,NOTIFY send failed
+43,INFO send failed
+44,USER INFO send failed
+45,FACILITY send failed
+46,SUSPEND send failed
+47,SUSPEND REJ send failed
+48,RESUME send failed
+49,PASSTHRU send failed
+50,CONNECT send failed
+51,SETUP ACK send failed
+52,RSCMSM interface unavail
+53,H245 sock start fail
+54,Call entry no mem
+55,Timeout h245 conn
+56,TCS ack wait timeout
+57,MS status indetermine
+58,MSD result disagreement
+59,MSD/MSD ACK Timeout
+60,MSD ACK timeout
+61,MSD rej received
+62,MSD rel received
+63,OLC ACK T103 timeout
+64,IPIP QoS Failure
+65,"BW > config, min QoS not best"
+66,NonStd min QoS not best
+67,RSVP fail treat abort
+68,Fast QoS mismatch
+69,Slow QoS mismatch
+70,"H225, QoS release"
+71,Fallback chk fail
+72,"H225 chn, sock fail"
+73,Alt h225 chn sock fail
+74,"H225 chn, sock fail in RAS"
+75,"H245, chn sock fail"
+76,SETUP send sock fail
+77,Preauth fail
+78,OLC bandwidth exceeded
+79,OLC ind asymmetric codec
+80,Received OLC rej
+81,Fast codec mismatch
+82,"OLC m/c, rcvd bw rej"
+83,TCS ACK neg codec none
+84,Cap not supported
+85,TCS rej received
+86,Negotiated codec/T-man none
+87,MSD send fail

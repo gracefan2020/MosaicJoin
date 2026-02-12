@@ -1,0 +1,128 @@
+id,title
+0,Reserved
+1,CLNS
+2,T1-Carrier
+3,IEEE802.3
+4,IEEE802.5
+5,DECNet-PHIV
+6,Interface
+7,IEEE802.4
+8,FDDI
+9,LANMGR-1
+10,LANMGR-TRAPS
+11,Views
+12,SNMP-AUTH
+13,BGP
+14,Bridge
+15,DS3
+16,SIP
+17,Appletalk
+18,PPP
+19,Character MIB
+20,RS-232 MIB
+21,Parallel MIB
+22,atsign-proxy
+23,OSPF
+24,Alert-Man
+25,FDDI-Synoptics
+26,Frame Relay
+27,rmon
+28,IDPR
+29,HUBMIB
+30,IPFWDTBLMIB
+31,LATM MIB
+32,SONET MIB
+33,IDENT
+34,MIME-MHS
+35,MAUMIB
+36,Host Resources
+37,ISIS-MIB
+38,Chassis
+39,ups
+40,App-Mon
+41,ATM UNI
+42,FC
+43,DNS
+44,X.25
+45,Frame Relay Serv.
+46,Madman-Applications
+47,Madman-MTA
+48,Madman-DSA
+49,Modem
+50,SNA NAU
+51,SDLC
+52,DNS
+53,network-objects
+54,printmib
+55,rdbmsmib
+56,sipMIB
+57,stIImib
+58,802.5 SSR MIB
+59,igmpMIB
+60,ipRouteMIB
+61,pimMIB
+62,dvmrpMIB
+63,dot12MIB
+64,vgRptrMIB
+65,schema
+66,hippi-ep
+67,hippi-sd
+68,dlsw
+69,mip
+70,secModelMIB
+71,rsvp
+72,intSrv
+73,Madman-Alarm-Generation
+74,IPv6 MIB
+75,rdrrn
+76,aris
+77,rtpmib
+78,ipOverAtm
+79,radius
+80,TN3270E-MIB
+81,TN3270E-RT-MIB
+82,docsif
+83,docsDev
+84,REMOPS-MIB
+85,scriptMIB
+86,ipv6TcpMIB
+87,ipv6UdpMIB
+88,SLAPM-MIB
+89,ADSLLINE-MIB
+90,XGCP-MIB
+91,nmrg-MIB
+92,MSDP-MIB
+93,MLD-MIB
+94,FCMGMT-MIB
+95,MPLS-TE-MIB
+96,MPLS-LSR-MIB
+97,FR/ATM-PVC-MIB
+98,IPSEC-Monitor-MIB
+99,ISAKMP-Monitor-MIB
+100,IPSEC-ISAKMP-IKE-DOI-TC-MIB
+101,DHKEY-CHANGE
+102,OSPFv3
+103,usbMIB
+104,frsldMIB
+105,mfrMIB
+106,IKE-MON-MIB
+107,Snmpconf Policy MIB
+108,Snmpconf Diffserv Policy MIB
+109,HDSL2-SHDSL MIB
+110,Euromodem MIB
+111,MPLS-FTN-MIB
+112,PGM-MIB
+113,LMP-MIB
+114,TE-LINK-MIB
+115,finisherMIB
+116,experimental pib
+117,infinibandMIB
+118,mplsVpnMIB
+119,diameterMIB
+120,mplsFrrMIB
+121,ppvpnTcMIB
+122,bldgHVACMIB
+123,aggrMIB
+124,tAggrMIB
+125,rserpoolMIB
+126,smfMib

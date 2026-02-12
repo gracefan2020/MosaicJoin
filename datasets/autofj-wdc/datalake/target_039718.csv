@@ -1,0 +1,84 @@
+id,title
+0,Acknowledgments
+1,Introductory Concepts and Calculus Review
+2,Basic Tools of Calculus
+3,"Error, Approximate Equality, and Asymptotic Order Notation"
+4,A Primer on Computer Arithmetic
+5,A Word on Computer Languages and Software
+6,Simple Approximations
+7,Application: Approximating the Natural Logarithm
+8,A Survey of Simple Methods and Tools
+9,Homer's Rule and Nested Multiplication
+10,Difference Approximations to the Derivative
+11,Application: Euler's Method for Initial Value Problems
+12,Linear Interpolation
+13,Application: The Trapezoid Rule
+14,Solution of Tridiagonal Linear Systems
+15,Application: Simple Two-Point Boundary Value Problems
+16,Root Finding
+17,The Bisection Method
+18,Newton's Method: Derivation and Examples
+19,How to Stop Newton's Method
+20,Application: Division Using Newton's Method
+21,The Newton Error Formula
+22,Newton's Method: Theory and Convergence
+23,Application: Computation of the Square Root
+24,The Secant Method: Derivation and Example
+25,Fixed-Point Iteration
+26,Special Topics in Root-Finding Methods
+27,Interpolation and Approximation
+28,Lagrange Interpolation
+29,Newton Interpolation and Divided Differences
+30,Interpolation Error
+31,Application: Muller's Method and Inverse Quadratic
+32,Application: More Approximation to the Derivative
+33,Hermite Interpolation
+34,Piecewise Polynomial Interpolation
+35,An Introduction to Splines
+36,Application: Solution of Boundary Value Problems
+37,Least Squares Concepts in Approximation
+38,Advanced Topics in Interpolation Error
+39,Literature and Software Discussion
+40,Numerical Integration
+41,A Review of the Definite Integral
+42,Improving the Trapezoid Rule
+43,Simpson's Rule and Degree of Precision
+44,The Midpoint Rule
+45,Application: Stirling's Formula
+46,Gaussian Quadrature
+47,Extrapolation Methods
+48,Special Topics in Numerical Integration
+49,Numerical Methods for Ordinary Differential Equations
+50,The Initial Value Problem: Background
+51,Euler's Method
+52,Analysis of Euler's Method
+53,Variants of Euler's Method
+54,Single Step Methods: Runge-Kutta
+55,Multistep Methods
+56,Stability Issues
+57,Application to Systems of Equations
+58,Adaptive Solvers
+59,Boundary Value Problems
+60,Literature and Software Discussion
+61,Numerical Methods for the Solution of Systems
+62,Linear Algebra Review
+63,Linear Systems and Gaussian Elimination
+64,Operation Counts
+65,The LU Factorization
+66,"Perturbation, Conditioning, and Stability"
+67,SPD Matrices and the Cholesky Decomposition
+68,Iterative Methods for Linear Systems: A Brief Survey
+69,Nonlinear Systems: Newton's Method and Related Ideas
+70,Application: Numerical Solution of Nonlinear BVPs
+71,Literature and Software Discussion
+72,Approximate Solution of the Algebraic Eigenvalue Problem
+73,Eigenvalue Review
+74,Reduction to Hessenberg Form
+75,Power Methods
+76,An Overview of the QR Iteration
+77,A Survey of Finite Difference Methods for Partial Differential Equations
+78,Difference Methods for the Diffusion Equation
+79,Difference Methods for Poisson Equations
+80,"Proofs of Selected Theorems, and other Additional Material"
+81,"Proofs of Selected Theorems, and other Additional Material"
+82,Index

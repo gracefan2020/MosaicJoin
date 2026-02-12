@@ -1,0 +1,113 @@
+id,title
+0,successful completion
+1,warning
+2,cursor operation conflict
+3,disconnect error
+4,NULL value eliminated in set function
+5,string data-right truncation
+6,insufficient item descriptor areas
+7,privilege not revoked
+8,privilege not granted
+9,implicit zero-bit padding
+10,search condition too long for info schema
+11,query expression too long for info schema
+12,no data
+13,dynamic SQL error
+14,using clause does not match parameter specs
+15,using clause does not match target specs
+16,cursor specification cannot be executed
+17,using clause required for dynamic parameters
+18,prepared statement not a cursor specification
+19,restricted datatype attribute violation
+20,using clause required for result components invalid descriptor count
+21,invalid descriptor count
+22,invalid descriptor index
+23,connection exception
+24,SQL-client unable to establish SQL-connection
+25,connection name is use
+26,connection does not exist
+27,SQL-server rejected SQL-connection
+28,connection failure
+29,transaction resolution unknown
+30,feature not supported
+31,multiple server transactions
+32,cardinality violation
+33,data exception
+34,string data - right truncation
+35,NULL value-no indicator parameter
+36,numeric value out of range
+37,error in assignment
+38,invalid datetime format
+39,datetime field overflow
+40,invalid time zone displacement value
+41,substring error
+42,division by zero
+43,interval field overflow
+44,invalid character value for cast
+45,invalid escape character
+46,character not in repertoire
+47,indicator overflow
+48,invalid parameter value
+49,unterminated C string
+50,invalid escape sequence
+51,string data-length mismatch
+52,trim error
+53,integrity constraint violation
+54,invalid cursor state
+55,invalid transaction state
+56,invalid SQL statement name
+57,triggered data change violation
+58,invalid authorization specification
+59,direct SQL syntax error or access rule violation
+60,dependent privilege descriptors still exist
+61,invalid character set name
+62,invalid transaction termination
+63,invalid connection name
+64,invalid SQL descriptor name
+65,invalid cursor name
+66,invalid condition number
+67,dynamic SQL syntax error or access rule violation
+68,ambiguous cursor name
+69,invalid catalog name
+70,invalid schema name
+71,transaction rollback
+72,serialization failure
+73,integrity constraint violation
+74,statement completion unknown
+75,syntax error or access rule violation
+76,with check option violation
+77,system error
+78,shared server and detached process errors
+79,shared server and detached process errors
+80,Oracle*XA and two-task interface errors
+81,"control file, database file, and redo file errors; archival and media recovery errors"
+82,PL/SQL errors
+83,Oracle Net driver errors
+84,licensing errors
+85,SQL*Connect errors
+86,SQL execute phase errors
+87,out of memory (could not allocate)
+88,inconsistent cursor cache (UCE/CUC mismatch)
+89,inconsistent cursor cache (no CUC entry for UCE)
+90,inconsistent cursor cache (out-or-range CUC ref)
+91,inconsistent cursor cache (no CUC available)
+92,inconsistent cursor cache (no CUC entry in cache)
+93,inconsistent cursor cache (invalid cursor number)
+94,program too old for runtime library; re-precompile
+95,invalid descriptor passed to runtime library
+96,inconsistent host cache (out-or-range SIT ref)
+97,inconsistent host cache (invalid SQL type)
+98,heap consistency error
+99,code generation internal consistency failed
+100,reentrant code generator gave invalid context
+101,invalid OPEN or PREPARE for this connection
+102,application context not found
+103,unable to obtain error message text
+104,Precompiler/SQLLIB version mismatch
+105,NCHAR error; fetched number of bytes is odd
+106,EXEC TOOLS interface not available
+107,runtime context in use
+108,unable to allocate runtime context
+109,unable to initialize process for use with threads
+110,invalid runtime context
+111,remote database access

@@ -1,0 +1,66 @@
+id,title
+0,Line 11 pcregrep - a grep with Perl-compatible r
+1,"grep commands do, but it uses the PCRE regular expression library to support"
+2,patterns that are compatible with the regular expressions of Perl 5. See
+3,".\"" HREF"
+4,\fBpcrepattern\fP(3)
+5,".\"""
+6,for a full description of syntax and semantics of the regular expressions
+7,that PCRE supports.
+8,.P
+9,"Patterns, whether supplied on the command line or in a separate file, are given"
+10,without delimiters. For example:
+11,Line 220 the previous 8K characters (or all the p
+12,are guaranteed to be available for lookbehind assertions.
+13,.TP
+14,"\fB-N\fP \fInewline-type\fP, \fB--newline=\fP\fInewline-type\fP"
+15,The PCRE library supports four different conventions for indicating
+16,the ends of lines. They are the single-character sequences CR (carriage return)
+17,"and LF (linefeed), the two-character sequence CRLF, and an ""any"" convention, in"
+18,which any Unicode line ending sequence is assumed to end a line. The Unicode
+19,"sequences are the three just mentioned, plus VT (vertical tab, U+000B), FF"
+20,"(formfeed, U+000C), NEL (next line, U+0085), LS (line separator, U+2028), and"
+21,"PS (paragraph separator, U+0029)."
+22,.sp
+23,"When the PCRE library is built, a default line-ending sequence is specified."
+24,This is normally the standard sequence for the operating system. Unless
+25,"otherwise specified by this option, \fBpcregrep\fP uses the library's default."
+26,"The possible values for this option are CR, LF, CRLF, or ANY. This makes it"
+27,possible to use \fBpcregrep\fP on files that have come from other environments
+28,without having to modify their line endings. If the data that is being scanned
+29,"does not agree with the convention set by this option, \fBpcregrep\fP may"
+30,behave in strange ways.
+31,.TP
+32,"\fB-n\fP, \fB--line-number\fP"
+33,"Precede each output line by its line number in the file, followed by a colon"
+34,"Line 345 in the first form, using an equals chara"
+35,it has no data.
+36,.
+37,.
+38,".SH ""MATCHING ERRORS"""
+39,.rs
+40,.sp
+41,It is possible to supply a regular expression that takes a very long time to
+42,Line 367 suppress error messages about inaccessbl
+43,code.
+44,.
+45,.
+46,".SH ""SEE ALSO"""
+47,.rs
+48,.sp
+49,"\fBpcrepattern\fP(3), \fBpcretest\fP(1)."
+50,.
+51,.
+52,.SH AUTHOR
+53,.rs
+54,.sp
+55,Line 380 Philip Hazel
+56,.br
+57,University Computing Service
+58,.br
+59,"Cambridge CB2 3QH, England."
+60,.P
+61,.in 0
+62,Last updated: 29 November 2006
+63,.br
+64,Copyright (c) 1997-2006 University of Cambridge.

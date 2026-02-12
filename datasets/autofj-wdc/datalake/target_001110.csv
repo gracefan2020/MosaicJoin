@@ -1,0 +1,164 @@
+id,title
+0,"Re[2]: OutOfMemory with search(Query, Sort)"
+1,"Re[2]: OutOfMemory with search(Query, Sort)"
+2,"Re: Re[2]: OutOfMemory with search(Query, Sort)"
+3,"Re: Re[2]: OutOfMemory with search(Query, Sort)"
+4,"Re[4]: OutOfMemory with search(Query, Sort)"
+5,"Re[4]: OutOfMemory with search(Query, Sort)"
+6,"Re[4]: OutOfMemory with search(Query, Sort)"
+7,"Re: Re[4]: OutOfMemory with search(Query, Sort)"
+8,Use two Analyzers in Lucene
+9,Re: Use two Analyzers in Lucene
+10,RE: Regarding Indexes
+11,RE: Regarding Indexes
+12,RE: Regarding Indexes
+13,Re: Spellchecker bug (or feature?)
+14,Re: Spellchecker bug (or feature?)
+15,RE: Should I reindex with remove then add or can I add then remove?
+16,Re: Update or Delete Document for Lucene 1.4.x
+17,Re: Update or Delete Document for Lucene 1.4.x
+18,Re: Lucene 1.9.1 - How to determine from which machine the hit comes?
+19,Re: Lucene 1.9.1 - How to determine from which machine the hit comes?
+20,Re: What is the largest index(s) size lucene can support
+21,Re: What is the largest index(s) size lucene can support
+22,Custom hit score
+23,Re: Custom hit score
+24,QueryParser error
+25,QueryParser error
+26,Re: QueryParser error
+27,Re: QueryParser error
+28,Re: QueryParser error
+29,QueryParser error
+30,Re: QueryParser error
+31,Re: QueryParser error + solution
+32,Re: QueryParser error + solution
+33,Re: QueryParser error + solution
+34,Re: QueryParser error + solution
+35,Re: QueryParser error + solution
+36,highlighting - fuzzy search
+37,Re: highlighting - fuzzy search
+38,Re: highlighting - fuzzy search
+39,Re: highlighting - fuzzy search
+40,Re: highlighting - fuzzy search
+41,Re: highlighting - fuzzy search
+42,Re: highlighting - fuzzy search
+43,Re: highlighting - fuzzy search
+44,Re: highlighting - fuzzy search
+45,Re: highlighting - fuzzy search
+46,Re: highlighting - fuzzy search
+47,Re: highlighting - fuzzy search
+48,Re: highlighting - fuzzy search
+49,problem Indexing path of files
+50,RE: problem Indexing path of files
+51,Lucene or Nutch ?
+52,FS lock on NFS mounted filesystem for indexing
+53,Re: Lucene or Nutch ?
+54,Re: Lucene or Nutch ?
+55,Re: Lucene or Nutch ?
+56,RE: FS lock on NFS mounted filesystem for indexing
+57,Optimize completely in memory with a FSDirectory?
+58,Re: Optimize completely in memory with a FSDirectory?
+59,RE: Optimize completely in memory with a FSDirectory?
+60,RE: Optimize completely in memory with a FSDirectory?
+61,Which Analyzer to use when searching on Keyword fields
+62,Re: Which Analyzer to use when searching on Keyword fields
+63,RE: Which Analyzer to use when searching on Keyword fields
+64,searching offline
+65,RE: searching offline
+66,Re: searching offline
+67,WRITE_LOCK_TIMEOUT
+68,Re: WRITE_LOCK_TIMEOUT
+69,Re: WRITE_LOCK_TIMEOUT
+70,Lucene Document order not being maintained?
+71,Re: Lucene Document order not being maintained?
+72,Re: Lucene Document order not being maintained?
+73,Re: Lucene Document order not being maintained?
+74,Re: Lucene Document order not being maintained?
+75,Re: Lucene Document order not being maintained?
+76,Re: Lucene Document order not being maintained?
+77,Re: Lucene Document order not being maintained?
+78,Re: Lucene Document order not being maintained?
+79,Re: Lucene Document order not being maintained?
+80,Re: Lucene Document order not being maintained?
+81,Re: Lucene Document order not being maintained?
+82,Re: Lucene Document order not being maintained?
+83,Re: Lucene Document order not being maintained?
+84,Re: Lucene Document order not being maintained?
+85,Re: Lucene Document order not being maintained?
+86,Re: Lucene Document order not being maintained?
+87,Re: Lucene Document order not being maintained?
+88,Re: Lucene Document order not being maintained?
+89,lucene sorting
+90,Re: lucene sorting
+91,Re: Throughput doesn't increase when using more concurrent threads
+92,Re: Throughput doesn't increase when using more concurrent threads
+93,nested phrase queries
+94,Re: nested phrase queries
+95,Re: nested phrase queries
+96,Re: nested phrase queries
+97,*easy* way to perform range searches on numeric values
+98,StopAnalyzer and apostrophes
+99,Re: StopAnalyzer and apostrophes
+100,Re: StopAnalyzer and apostrophes
+101,Re: StopAnalyzer and apostrophes
+102,Multiple Indexes Search
+103,DateField vs DateTools
+104,Re: DateField vs DateTools
+105,Question related to using FieldCacheImpl
+106,Re: Question related to using FieldCacheImpl
+107,Re: Question related to using FieldCacheImpl
+108,RE: Data structure of a Lucene Index
+109,RE: Data structure of a Lucene Index
+110,Re: Data structure of a Lucene Index
+111,RE: Distributed Lucene.. - clustering as a requirement
+112,RE: Distributed Lucene.. - clustering as a requirement
+113,Re: Distributed Lucene.. - clustering as a requirement
+114,RE: Distributed Lucene.. - clustering as a requirement
+115,Re: Distributed Lucene.. - clustering as a requirement
+116,Re: Distributed Lucene.. - clustering as a requirement
+117,RE: Distributed Lucene.. - clustering as a requirement
+118,Question about Lucene's search algorithm
+119,"doc.get(""contents"")"
+120,"Re: doc.get(""contents"")"
+121,"Re: doc.get(""contents"")"
+122,Getting count of documents matching a query?
+123,Re: Getting count of documents matching a query?
+124,Re: Getting count of documents matching a query?
+125,Re: Getting count of documents matching a query?
+126,Indexing Problems
+127,Calling addDocument twice for the same document
+128,I just don't get wildcards at all.
+129,Re: I just don't get wildcards at all.
+130,Re: I just don't get wildcards at all.
+131,Re: I just don't get wildcards at all.
+132,Re: I just don't get wildcards at all.
+133,Re: I just don't get wildcards at all.
+134,Re: I just don't get wildcards at all.
+135,Re: I just don't get wildcards at all.
+136,Re: I just don't get wildcards at all.
+137,Re: I just don't get wildcards at all.
+138,Re: I just don't get wildcards at all.
+139,Tuning Indexing performance question ..
+140,lucene indexing
+141,Re: lucene indexing
+142,Exception in WildCardQuery
+143,Re: Exception in WildCardQuery
+144,Re: Exception in WildCardQuery
+145,Re: Exception in WildCardQuery
+146,Re: Exception in WildCardQuery
+147,Re: Exception in WildCardQuery
+148,Re: Exception in WildCardQuery
+149,Re: Exception in WildCardQuery
+150,Lucene Sandbox - SearchBean
+151,Re: Lucene Sandbox - SearchBean
+152,Re: Lucene Sandbox - SearchBean
+153,HOT SPOT VIRTUAL MACHINE aleatory crash while index documents
+154,Fwd: HOT SPOT VIRTUAL MACHINE aleatory crash while index documents
+155,Exact date search doesn't work with 1.9.1?
+156,Re: Exact date search doesn't work with 1.9.1?
+157,Re: Exact date search doesn't work with 1.9.1?
+158,Re: Exact date search doesn't work with 1.9.1?
+159,Fetch Documents Without Retrieveing All Fields
+160,Re: Fetch Documents Without Retrieveing All Fields
+161,Re: Exact date search doesn't work with 1.9.1?
+162,1 · 2 · 3 · 4 · Next »

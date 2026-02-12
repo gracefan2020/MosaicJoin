@@ -1,0 +1,172 @@
+id,title
+0,ClmType
+1,Date
+2,Plan Name
+3,Plan ID
+4,Contact Name
+5,Contact Phone
+6,Email
+7,Patient Name
+8,CIN
+9,TCN
+10,Benefit Year
+11,Ttl Stays
+12,Stop Loss Threshold
+13,Amt Over Threshold
+14,Plan Liability
+15,Liability Type
+16,Net Amt Due
+17,HCO
+18,HCO Stays
+19,HCO Date From1
+20,HCO Date To1
+21,HCO Date From2
+22,HCO Date To2
+23,HCO Date From3
+24,HCO Date To3
+25,HCO Date From4
+26,HCO Date To4
+27,HCO Date From5
+28,HCO Date To5
+29,HCO Date From6
+30,HCO Date To6
+31,HCO Date From7
+32,HCO Date To7
+33,HCO Date From8
+34,HCO Date To8
+35,HCO Date From9
+36,HCO Date To9
+37,HCO Date From10
+38,HCO Date To10
+39,HCO Date From11
+40,HCO Date To11
+41,Hospital Name
+42,Out Of State
+43,Out of State Address
+44,MMIS ID
+45,NPI
+46,Admit Date
+47,Discharge Date
+48,LOS
+49,Acute Care Days
+50,ALC Days
+51,DOB
+52,Age
+53,Sex
+54,Birth Wgt
+55,Disposition
+56,Admitting Dx
+57,Ttl Hospital Charges
+58,Plan Per Diem Rate
+59,RHCF Per Diem Rate
+60,Principal DX
+61,POAP
+62,Other DX1
+63,POA1
+64,Other DX2
+65,POA2
+66,Other DX3
+67,POA3
+68,Other DX4
+69,POA4
+70,Other DX5
+71,POA5
+72,Other DX6
+73,POA6
+74,Other DX7
+75,POA7
+76,Other DX8
+77,POA8
+78,Other DX9
+79,POA9
+80,Other DX10
+81,POA10
+82,Other DX11
+83,POA11
+84,Other DX12
+85,POA12
+86,Other DX13
+87,POA13
+88,Other DX14
+89,POA14
+90,Other DX15
+91,POA15
+92,Other DX16
+93,POA16
+94,Other DX17
+95,POA17
+96,Other DX18
+97,POA18
+98,Other DX19
+99,POA19
+100,Other DX20
+101,POA20
+102,Other DX21
+103,POA21
+104,Other DX22
+105,POA22
+106,Other DX23
+107,POA23
+108,Other DX24
+109,POA24
+110,Permanent
+111,Temporary
+112,Principal Proc
+113,Other Proc1
+114,Other Proc2
+115,Other Proc3
+116,Other Proc4
+117,Other Proc5
+118,Other Proc6
+119,Other Proc7
+120,Other Proc8
+121,Other Proc9
+122,Other Proc10
+123,Other Proc11
+124,Other Proc12
+125,Other Proc13
+126,Other Proc14
+127,Other Proc15
+128,Other Proc16
+129,Other Proc17
+130,Other Proc18
+131,Other Proc19
+132,Other Proc20
+133,Other Proc21
+134,Other Proc22
+135,Other Proc23
+136,Other Proc24
+137,APRDRG
+138,SevLevel
+139,SIW
+140,Low
+141,High
+142,Upstate ALOS
+143,Downstate ALOS
+144,ALOS
+145,APR ExcInc
+146,Amt Paid
+147,Detox Code
+148,Blank2
+149,Inlier
+150,Long Stay
+151,Short Stay
+152,Transfer
+153,Exempt Unit
+154,Exempt Desc
+155,Top 20 DRG
+156,HCO
+157,DRG
+158,Per Diem
+159,Other
+160,Other Desc
+161,Respite Days
+162,Reservation Days
+163,Reserve Date From
+164,Reserve DateTo
+165,Occupy Rate
+166,Reserve Per Diem
+167,adjust
+168,adjustnbr
+169,resubmit
+170,resubmitnbr

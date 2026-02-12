@@ -1,0 +1,51 @@
+id,title
+0,browse IMCECCK images for the current node
+1,"""All file extensions allowed"" conflicts with Drupal 7 extensions management"
+2,"""Browse"" button only appears for user 1"
+3,"""Browse"" in Chrome no longer working"
+4,"""Disable serving of private files"" as default"
+5,"""Error copying the file"""
+6,"""file could not be saved. An unknown error has occurred."""
+7,"""Maximum image size"" settings not honored"
+8,"""Select"" button disappears when editing a translation of a node"
+9,"""The image is too large"""
+10,#default_values for checkboxes with thumbnails
+11,'Add' button missing in imce/browse when used with Wysiwyg's CKeditor and IMCE Wysiwyg Bridge
+12,'Browse server' button disappeared in FCKEditor
+13,'Undefined' is not an object (evaluation 'imce.tree[dir].li')
+14,'use a shared folder' not working for UID1
+15,(Duplicate) Conflict with WebFM?
+16,404 when navigating
+17,508 Keyboard Accessibility
+18,7.1-1.0 cannot send to ckeditor
+19,:P
+20,is set to the private path
+21,[PATCH] Add compatibility with the azure_blob module
+22,A general place for IMCE in the admin area?
+23,Absolute URL
+24,absolute URL's are printed by unchecked option
+25,Access Denied for administrators (image upload w/ CKeditor
+26,Access denied for link-folders
+27,Access Denied in IE6
+28,Accessing images uploaded with IMCE using views
+29,Accessing root not possible
+30,Accessing themes/Mytheme folder with imce
+31,"Add ""Link to file"" button"
+32,"Add a form field for class=""colorbox"" in Image popup Dialog (Link Tab)"
+33,Add a hook for accessing profiles at IMCE load time
+34,Add a hook to IMCE to allow files to be deleted even if the appear to be managed elsewhere.
+35,"Add ability for ""editors"" to edit users files"
+36,Add ability to change file names on the server
+37,add as attachment
+38,Add as attachment for nodes and comments (forum/advanced forum)
+39,Add base-relative path for file URLS
+40,Add does not work
+41,Add fid (from files table) to the uploaded file information
+42,"Add filter for $_GET param ""jsop"""
+43,Add image button missing in firefox
+44,Add IMCE inline image/file insertion to textfields
+45,add node id to file name
+46,Add option to filter browser to only images
+47,add text to images when images browse from my computer (use fck editor)
+48,Add unzip functionality
+49,Adding a class to IMCE images

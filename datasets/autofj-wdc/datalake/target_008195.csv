@@ -1,0 +1,64 @@
+id,title
+0,Rewrite of the classic test writing/taking application
+1,Number support
+2,Theme manager
+3,Add a Open File action
+4,Integrate an editor
+5,Plasmoid
+6,Theme manager
+7,Visual indicator when letter is wrong
+8,Port Kalzium's periodic table to use new QGraphicsView.
+9,Plasmoid to access Kalzium database
+10,Improve GUI for creating softbody
+11,Use common constraints handling code for collisions
+12,New parser (using QLALR) and new lexer
+13,Import capability for MathML Presentation Markup in libanalitza
+14,Export to MathML Presentation Markup
+15,Some integration with the new KFormula widget
+16,Declensions
+17,Rework main window infrastructure
+18,Display millions of stars
+19,Tool to predict Conjunctions
+20,Earth Satellites
+21,Sky Calendar Tool
+22,"Include HD Catalog Numbers (in search, in display)"
+23,Marble widget for Geolocation tool
+24,Better printed star charts
+25,Separate INDI From KStars
+26,Sync KStars time from device
+27,Better rendering of comets/asteroids
+28,Texture mapping of the skymap???
+29,Improve Observing List Wizard
+30,Display Comet Magnitudes whenever possible
+31,Information links in-place for each technical term
+32,Tool to suggest star-hopping techniques???
+33,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+34,Export map to MxN pixel bitmap
+35,Support for MarbleWidget::setEnabled( bool )
+36,Map Contents translation
+37,Layer Management Class
+38,Plugin architecture for map layers
+39,DGML2 Support
+40,KDE-Version settings dialog
+41,Port authors list from the Qt-About dialog to the KDE-About dialog
+42,Qt-Version settings dialog
+43,Basic KML support
+44,GeoData Model/View Visualization
+45,OpenStreetMap support using original OSM tiles
+46,Real Time Cloud-Cover
+47,Mercator Projection
+48,More generic projection support
+49,Usage of Marble in non-widgets
+50,Properties dialog for objects.
+51,Improve construction of bisect lines.
+52,Improve feedback when constructing objects.
+53,More geometric objects.
+54,Script objects as macros (to be reused more than once).
+55,Improve the Cabri import filter.
+56,Export canvas as image
+57,Optional rulers/grid for canvas units
+58,Add command line
+59,Add a color picker
+60,Usability Improvements
+61,Merging KPercentage functionalities into KBruch
+62,Visualization of Schemes and Gradients at same time

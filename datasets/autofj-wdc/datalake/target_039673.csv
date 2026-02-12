@@ -1,0 +1,50 @@
+id,title
+0,"(EXPERIMENTAL, DANGEROUS) Identify a distribution as eligible for static installation"
+1,Add contributor names from git to your distribution
+2,Transform :verbatim regions into verbatim paragraphs
+3,Subroutine signatures with no source filter
+4,Interface to perl's parser variables
+5,Read/Write YAML files with as little code as possible
+6,Build a distribution like CJM
+7,Specify dynamic (user-side) prerequisites for your distribution
+8,Generate a Makefile.PL containing a warning for legacy users
+9,A plugin bundle for distributions built by ETHER
+10,RWSTAUNER's Dist::Zilla config
+11,Ease the transition to [RewriteVersion] in your distribution
+12,Dist::Zilla configuration the way DAGOLDEN does it
+13,Command-line interface to Software::License
+14,"Build a Build.PL that uses Module::Build::Tiny, falling back to Module::Build as needed"
+15,Zilla your distributions like RSRCHBOY!
+16,DROLSKY's plugin bundle
+17,Maintain session IDs using the stash
+18,"Create files in the build, based on a template located in a dist sharedir"
+19,BeLike::KENTNL when you build your distributions.
+20,Tail calls for subroutines and methods
+21,A Path::Class type library for Moose
+22,Run HTTP tests on external live servers
+23,(DEPRECATED) Add an encoding command to your POD
+24,We are non-human CPAN authors
+25,Receive notification when something changes a file's contents
+26,"A working (require ""Class::Name"") and more"
+27,Check at build/release time if modules are out of date
+28,"Copy files from a release (for SCM inclusion, etc.)"
+29,Attempt to recover from people calling UNIVERSAL::isa as a function
+30,(DEPRECATED) Wrapper Class for the various JSON classes
+31,Keep imports out of your namespace
+32,A Test::Deep plugin for comparing an unordered list of tuples
+33,Parse various dpkg files into Perl Objects
+34,(DEPRECATED) Declarative syntax for Moose
+35,make NEXT suck less
+36,Dist::Zilla plugin configuration for me
+37,"Common tests to check syntax of your modules, only using core modules"
+38,Dist::Zilla configuration the way BAREFOOT does it
+39,Nothing to be done
+40,Dist Zilla Plugin Bundle the way I like to use it
+41,Author tests that ensure hard tabs are not used
+42,Fine-grained cloning support for Moose objects.
+43,Hayo Baan's Dist::Zilla configuration
+44,A LWP::UserAgent suitable for simulating and testing network calls
+45,Mashes up MooseX::Getopt and App::Cmd
+46,A more awesome MakeMaker plugin for Dist::Zilla
+47,ISO8601 date and duration string type constraints and coercions for Moose
+48,(DEPRECATED) Temporary files support for testing

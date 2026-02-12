@@ -1,0 +1,51 @@
+id,title
+0,Multistep With Navigation
+1,Preserve state of accordions & tabs after reload
+2,"Multipage ""start"" vs. ""no-start"" does not work"
+3,Views Integration
+4,Merge Field Group List into Field Group
+5,Split content into Tabs only for display mode
+6,Fieldgroups harms reorder functin of field ui.
+7,Remember last opened tab
+8,What does field settings in multipage do?
+9,Theme function for entity view
+10,Multipage pane doesn't have ID property
+11,Selected tabs does not show the right color immediately
+12,Needed a way for horizontal tabs to be linked with # tag
+13,Markup field not shown on multipage
+14,Field group - hide label if there is no content
+15,Field groups do not work in display suite custom regions
+16,Collapsed fieldset just opening when clicking on the legend not the title
+17,Field group doesn’t align with other fields on Manage Fields
+18,Next and Previous button labels
+19,Fieldgroups no longer render groups only items inside
+20,508 Compliance
+21,Troubles getting multipage to work
+22,Vertical tabs do not respect field weight
+23,Easy way to hide a field group from UI on add/edit form
+24,Hide Tabs that are empty
+25,Full HTML in fieldset or tabs descriptions
+26,field_group_fields_nest() conflicts with field_attach_form()
+27,Fieldset of previous profile disappears
+28,Multipage steps AND Horizontal tabs
+29,Move Form controls after previous button on multipage
+30,PHP pass to field_group_group_save() ignores existence check
+31,Wrong order of the fields
+32,Horizontal tab - menu link
+33,Integration with I18n module
+34,"Can I use field_group for user edit form, but not for registration form?"
+35,Provide jQuery UI options in settings
+36,Conflict with Google PageSpeed Module - mod_pagespeed
+37,Insert a htab group in another htabs group
+38,Field group in a block
+39,Implementing field permission module
+40,theme function for group types
+41,Creating a group severe issue with Display Suite
+42,rendered entity mislead display inside field_group
+43,Repeat fields across multipage fieldgroup
+44,Option to provide separate field group labels for collapsed/expanded collapsible div states
+45,Fieldgroup breaks ckeditor
+46,Notice: Trying to get property of non-object in field_group_field_group_pre_render() (line 646
+47,Form API type = accordion and type = accordion-item (Custom Modules)
+48,Not working with User Profiles
+49,Entityform: 'Required field' option is set but not honored when inside a Multipage group

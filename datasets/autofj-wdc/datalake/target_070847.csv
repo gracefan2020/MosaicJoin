@@ -1,0 +1,58 @@
+id,title
+0,Tax Period
+1,Filing Status Code
+2,Returns Processing Code
+3,Special Processing Code
+4,Dependent Status Indicator
+5,Exemption Code Field
+6,Exemption Code Verified (ERS input only)
+7,Primary TIN
+8,Primary NAP Access Indicator
+9,Secondary TIN
+10,Secondary NAP Access Indicator
+11,Dependent 1 TIN
+12,Dependent 1 NAP Access Indicator
+13,Dependent 2 TIN
+14,Dependent 2 NAP Access Indicator
+15,Dependent 3 TIN
+16,Dependent 3 NAP Access Indicator
+17,Dependent 4 TIN
+18,Dependent 4 NAP Access Indicator
+19,Adjusted Gross Income
+20,Adjusted Gross Income Computer
+21,Income Tax before Credits
+22,Education Credit
+23,Education Credit Computer
+24,Gross Education Credit Computer
+25,Education Credit Verified (ERS input only)
+26,Tentative American Opportunity Credit Amount
+27,Lifetime Learning Credit Qualified Expenses Amount
+28,American Opportunity Eligible Student Computer Number
+29,American Opportunity Eligible Student Verified Number (ERS input only)
+30,Education Credit Student 1 Name Control
+31,Education Credit Student 1 TIN
+32,Education Institution Federal ID Number Student 1
+33,Second Education Institution Federal ID Number Student 1
+34,Prior-Year Hope Scholarship or AOT Credit Claimed Student Code 1
+35,Academic Eligibility Student 1 Code
+36,Post-Secondary Education Student 1 Code
+37,Felony Conviction Student 1 Code
+38,Education Credit Student 2 Name Control
+39,Education Credit Student 2 Name Control
+40,Education Institution Federal ID Number Student 2
+41,Second Education Institution Federal ID number Student 2
+42,Prior-Year Hope Scholarship or AOT Credit Claimed Student Code 2
+43,Academic Eligibility Student 2 Code
+44,Post-Secondary Education Student 2 Code
+45,Felony Conviction Student 2 Code
+46,Education Credit Student 3 Name Control
+47,Education Credit Student 3 SSN
+48,Education Institution Federal ID Number Student 3
+49,Second Education Institution Federal ID Number Student 3
+50,Prior-Year Hope Scholarship or AOT Credit Claimed Student Code 3
+51,Academic Eligibility Student 3 Code
+52,Post-Secondary Education Student 3 Code
+53,Felony Conviction Student 3 Code
+54,Refundable American Opportunity Credit
+55,Refundable American Opportunity Credit Computer
+56,Section XX Not Present

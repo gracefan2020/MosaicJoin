@@ -1,0 +1,309 @@
+id,title
+0,cell morphogenesis
+1,blood vessel development
+2,patterning of blood vessels
+3,vasculogenesis
+4,osteoblast differentiation
+5,urogenital system development
+6,ureteric bud development
+7,cell fate specification
+8,morphogenesis of a branching structure
+9,kidney development
+10,tissue homeostasis
+11,vasculature development
+12,regulation of immune system process
+13,regulation of leukocyte activation
+14,cell communication
+15,cell surface receptor signaling pathway
+16,smoothened signaling pathway
+17,cell-cell signaling
+18,blastoderm segmentation
+19,determination of left/right symmetry
+20,neuroblast proliferation
+21,axonogenesis
+22,foregut morphogenesis
+23,heart development
+24,sex differentiation
+25,biological_process
+26,steroid metabolic process
+27,androgen metabolic process
+28,cell proliferation
+29,positive regulation of cell proliferation
+30,embryo development
+31,determination of bilateral symmetry
+32,embryonic pattern specification
+33,mesenchymal cell proliferation
+34,regulation of cell communication
+35,positive regulation of cell communication
+36,regulation of cell death
+37,programmed cell death
+38,mesenchymal cell development
+39,cell migration
+40,reproductive process
+41,regulation of signaling
+42,signaling
+43,positive regulation of signaling
+44,lung development
+45,embryonic limb morphogenesis
+46,regulation of cell migration
+47,prostate gland development
+48,forebrain development
+49,pancreas development
+50,embryonic camera-type eye development
+51,embryonic heart tube development
+52,appendage morphogenesis
+53,embryonic appendage morphogenesis
+54,tube morphogenesis
+55,segmentation
+56,gliogenesis
+57,regulation of T cell proliferation
+58,taxis
+59,hormone metabolic process
+60,embryonic digit morphogenesis
+61,regulation of apoptotic process
+62,chordate embryonic development
+63,regulation of programmed cell death
+64,single organism signaling
+65,single-multicellular organism process
+66,single-organism developmental process
+67,development of primary sexual characteristics
+68,cell-cell signaling involved in cell fate commitment
+69,regulation of T cell differentiation
+70,negative regulation of T cell differentiation
+71,regulation of cell differentiation
+72,positive regulation of cell differentiation
+73,regulation of lymphocyte differentiation
+74,negative regulation of lymphocyte differentiation
+75,regulation of embryonic development
+76,regulation of alpha-beta T cell activation
+77,regulation of alpha-beta T cell differentiation
+78,male sex differentiation
+79,blood vessel morphogenesis
+80,digestive tract morphogenesis
+81,embryonic digestive tract morphogenesis
+82,digestive tract development
+83,embryonic digestive tract development
+84,regulation of response to stimulus
+85,neuron fate commitment
+86,appendage development
+87,genitalia development
+88,neuron projection morphogenesis
+89,cellular developmental process
+90,multicellular organismal homeostasis
+91,regulation of lymphocyte proliferation
+92,negative regulation of cell activation
+93,regulation of sequence-specific DNA binding transcription factor activity
+94,striated muscle cell differentiation
+95,positive regulation of muscle cell differentiation
+96,positive regulation of nitrogen compound metabolic process
+97,regulation of lymphocyte activation
+98,positive regulation of RNA metabolic process
+99,protein maturation
+100,digestive system development
+101,anatomical structure homeostasis
+102,somite development
+103,axon development
+104,regulation of leukocyte proliferation
+105,negative regulation of leukocyte proliferation
+106,regulation of stem cell proliferation
+107,circulatory system development
+108,neuron projection guidance
+109,negative regulation of leukocyte differentiation
+110,regulation of multicellular organismal development
+111,regulation of cell motility
+112,positive regulation of stem cell proliferation
+113,regulation of cellular localization
+114,neuron development
+115,cell projection morphogenesis
+116,neurogenesis
+117,cell development
+118,neuron differentiation
+119,specification of symmetry
+120,homeostatic process
+121,macromolecule metabolic process
+122,regulation of RNA metabolic process
+123,regulation of nitrogen compound metabolic process
+124,positive regulation of biological process
+125,regulation of cellular metabolic process
+126,positive regulation of cellular metabolic process
+127,positive regulation of macromolecule metabolic process
+128,regulation of muscle cell differentiation
+129,muscle cell differentiation
+130,"regulation of transcription, DNA-dependent"
+131,regulation of RNA biosynthetic process
+132,regulation of biosynthetic process
+133,regulation of cellular macromolecule biosynthetic process
+134,regulation of molecular function
+135,reproductive structure development
+136,cellular process
+137,single-organism process
+138,biological regulation
+139,regulation of biological process
+140,negative regulation of lymphocyte activation
+141,negative regulation of T cell activation
+142,response to external stimulus
+143,negative regulation of biological process
+144,positive regulation of leukocyte activation
+145,positive regulation of T cell activation
+146,positive regulation of lymphocyte activation
+147,positive regulation of leukocyte differentiation
+148,positive regulation of biosynthetic process
+149,eye development
+150,camera-type eye development
+151,brain development
+152,development of primary male sexual characteristics
+153,limb development
+154,regulation of macromolecule metabolic process
+155,regulation of primary metabolic process
+156,mesenchymal cell differentiation
+157,stem cell differentiation
+158,cell death
+159,death
+160,primary metabolic process
+161,cellular metabolic process
+162,organic substance metabolic process
+163,metabolic process
+164,cell morphogenesis involved in neuron differentiation
+165,regionalization
+166,cellular response to stimulus
+167,response to chemical stimulus
+168,morphogenesis of an epithelium
+169,epithelial tube morphogenesis
+170,cell motility
+171,anatomical structure development
+172,multicellular organismal development
+173,system development
+174,morphogenesis of a branching epithelium
+175,cellular component organization
+176,multicellular organismal process
+177,developmental process
+178,single-organism cellular process
+179,protein metabolic process
+180,regulation of cellular process
+181,regulation of metabolic process
+182,single-organism metabolic process
+183,organic cyclic compound metabolic process
+184,response to stimulus
+185,localization
+186,cellular component organization or biogenesis
+187,reproduction
+188,regulation of signal transduction
+189,cell differentiation
+190,negative regulation of cellular process
+191,positive regulation of response to stimulus
+192,regulation of developmental process
+193,regulation of multicellular organismal process
+194,regulation of localization
+195,positive regulation of cellular process
+196,regulation of nucleobase-containing compound metabolic process
+197,positive regulation of metabolic process
+198,regulation of cellular biosynthetic process
+199,regulation of gene expression
+200,regulation of macromolecule biosynthetic process
+201,organ development
+202,regulation of protein metabolic process
+203,nervous system development
+204,gene expression
+205,tissue development
+206,regulation of biological quality
+207,lipid metabolic process
+208,anatomical structure morphogenesis
+209,positive regulation of molecular function
+210,signal transduction
+211,negative regulation of immune system process
+212,apoptotic process
+213,positive regulation of macromolecule biosynthetic process
+214,positive regulation of cellular biosynthetic process
+215,tube development
+216,growth
+217,regulation of locomotion
+218,regulation of cell proliferation
+219,positive regulation of nucleobase-containing compound metabolic process
+220,embryonic organ development
+221,embryonic morphogenesis
+222,cellular process involved in reproduction
+223,generation of neurons
+224,tissue morphogenesis
+225,regulation of cell activation
+226,negative regulation of developmental process
+227,positive regulation of developmental process
+228,regulation of cellular component movement
+229,localization of cell
+230,epithelium development
+231,negative regulation of cell death
+232,cardiovascular system development
+233,regulation of protein localization
+234,cell projection organization
+235,cellular component morphogenesis
+236,muscle structure development
+237,developmental process involved in reproduction
+238,reproductive system development
+239,embryo development ending in birth or egg hatching
+240,organ morphogenesis
+241,positive regulation of gene expression
+242,positive regulation of signal transduction
+243,positive regulation of immune system process
+244,sensory organ development
+245,central nervous system development
+246,gland development
+247,regulation of hormone levels
+248,intracellular signal transduction
+249,cellular component movement
+250,locomotion
+251,anatomical structure formation involved in morphogenesis
+252,skeletal system development
+253,ossification
+254,angiogenesis
+255,heart morphogenesis
+256,chemotaxis
+257,pattern specification process
+258,protein processing
+259,telencephalon development
+260,neural tube development
+261,regulation of proteolysis
+262,respiratory tube development
+263,regulation of mononuclear cell proliferation
+264,cellular hormone metabolic process
+265,negative regulation of locomotion
+266,cell fate commitment
+267,negative regulation of cell differentiation
+268,"positive regulation of transcription, DNA-dependent"
+269,embryonic organ morphogenesis
+270,regulation of T cell activation
+271,positive regulation of cell activation
+272,positive regulation of sequence-specific DNA binding transcription factor activity
+273,negative regulation of cellular component movement
+274,mesenchyme development
+275,respiratory system development
+276,neural precursor cell proliferation
+277,renal system development
+278,stem cell proliferation
+279,regulation of protein localization to nucleus
+280,regulation of leukocyte differentiation
+281,neuron projection development
+282,cell part morphogenesis
+283,negative regulation of cell proliferation
+284,negative regulation of leukocyte activation
+285,limb morphogenesis
+286,stem cell development
+287,cell morphogenesis involved in differentiation
+288,branching morphogenesis of an epithelial tube
+289,ion binding
+290,metal ion binding
+291,extracellular matrix binding
+292,molecular_function
+293,protein binding
+294,binding
+295,cation binding
+296,receptor binding
+297,calcium ion binding
+298,extracellular region
+299,membrane raft
+300,cellular_component
+301,membrane part
+302,cell
+303,cell part
+304,membrane
+305,extracellular region part
+306,cell surface
+307,extracellular matrix

@@ -1,0 +1,51 @@
+id,title
+0,Node with multiple terms
+1,Integration with Taxonomy Menu 7.x-2.x is broken
+2,Extract terms from entity reference fields too
+3,active trail for more than one term in a menu
+4,Contextualize breadcrumb based off navigation
+5,Make a new release for stable live use.
+6,active-trail in theme_links__system_main_menu
+7,Give CSS class active to html a tag
+8,Taxonomy menu not expanding with custom path
+9,Thank you for this great module
+10,"Taxonomy term template (Panels) works on D6, but don't on D7"
+11,Support for Forums
+12,Integration with Taxonomy Menu 7.x-2.x is broken
+13,Multilanguage Nodes called by NID throws PDOExeption if wrong language is in URL
+14,Warning: Invalid argument supplied for foreach() in _taxonomy_menu_trails_process()
+15,Active trail in multiple menus
+16,change package on admin/modules page
+17,Automated tests
+18,menu_breadcrumb module weight
+19,ReadMe File
+20,Setting trails in several menus
+21,Menu trail gets incorrectly affected by weight.
+22,7.x-2.x README.TXT
+23,Configurable taxonomy term path pattern
+24,Compatibility with Menu Trails module
+25,Module doesn't work when custom menu is not in active menus list
+26,Configuration Question
+27,Add a hook to customize/override the term id to path mapping
+28,"When saving an entity, menu_cache_clear_all() is called too often."
+29,Breadcrumb is not getting set
+30,Drupal 7.12+ breaks Taxonomy Menu Trails
+31,Empty title for breadcrumb item
+32,Language aware term negotiation
+33,Configuration Issue: add a active-trail class in the node's page
+34,How to set url alias?
+35,Strict warning: taxonomy_menu_trails_init()
+36,Pass by reference error
+37,Configuring
+38,More efficient way to check if node has menu item
+39,Custom paths to nodes
+40,disappears in forums only
+41,Call to undefined function taxonomy_menu_trails_overview_form_submit()
+42,D7 port of Taxonomy Menu Trails
+43,Some guidance on config
+44,Can't get this to work
+45,Taxonomy menu not working here
+46,Problems in combination with the Revisoning module
+47,Vocabulary selection is not used
+48,"Also do the right trail on taxonomy pages instead of ALL and none expanded, like node pages."
+49,Getting Taxonomy Menu Trails to pick the same Taxonomy terms as Hierarchal Select / Pathauto

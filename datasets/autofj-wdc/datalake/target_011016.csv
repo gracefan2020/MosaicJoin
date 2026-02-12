@@ -1,0 +1,59 @@
+id,title
+0,Libraries for the binary compatibility a.out package (BCP)
+1,Location for standard system commands
+2,"SunView executables, part of BCP"
+3,The C compilation system
+4,Binaries
+5,Libraries and auxiliary files
+6,Demo programs and data
+7,Game binaries and data
+8,"Include header files (for C programs, and the like)"
+9,Additional modules
+10,Implementation architecture-specific binaries and libraries
+11,"Various program libraries, architecture-dependent databases, and binaries not invoked directly by the user"
+12,Accounting scripts and binaries
+13,Database files for the spell command
+14,Scheduling class-specific directories containing executables for priocntl and dispadmin commands
+15,Font description files for troff
+16,File system type dependent modules; not invoked directly by the user
+17,Conversion tables for iconv
+18,Profiled libraries
+19,Internationalization and localization databases
+20,Locale source file for localedef.
+21,Line printer subsystem databases and back-end executables
+22,Auxiliary programs for the mail subsystem
+23,Internet network services
+24,Auxiliary NFS-related programs and daemons
+25,PIC archives needed to build the runtime linker
+26,Preprocessor for nroff/troff
+27,Scripts and commands for the system activity report package
+28,Auxiliary programs and daemons related to the Service Access Facility (SAF)
+29,Auxiliary spell-related programs and databases
+30,Auxiliary uucp-related programs and daemons
+31,Commands local to a site
+32,Entry points for foreign name-service requests related by the listener
+33,Files pertaining to the optional FACE package
+34,Programs that are being phased out
+35,Mount or installation point for OpenWindows software
+36,Various files and directories related to system administration
+37,Binaries for use by FMLI scripts
+38,Executables and scripts for package management
+39,Executables for system administration
+40,Statically linked versions of selected programs from /usr/bin and /usr/sbin; used to recover from broken dynamic linking
+41,Architecture-independent databases
+42,Architecture-independent databases
+43,Keyboard layout description tables
+44,Help files for mailx
+45,Terminal tables for nroff
+46,Various data files
+47,Auxiliary spell-related databases and scripts
+48,Tab-setting escape sequences
+49,Terminal description files
+50,Macro packages for nroff and troff
+51,Time zone information
+52,"Source code for kernel, libraries, and utilities"
+53,Files associated with Administration Tool (admintool)
+54,Berkeley compatibility package binaries
+55,Berkeley compatibility package header files
+56,Berkeley compatibility package libraries
+57,Files pertaining to the optional FACE package

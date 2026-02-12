@@ -1,0 +1,229 @@
+id,title
+0,DNA packaging
+1,single-organism process
+2,nucleobase-containing compound metabolic process
+3,organelle fission
+4,cell cycle
+5,sister chromatid segregation
+6,nuclear division
+7,cellular nitrogen compound metabolic process
+8,cellular component organization
+9,nucleic acid metabolic process
+10,cellular process
+11,DNA conformation change
+12,mitotic sister chromatid segregation
+13,protein complex subunit organization
+14,microtubule cytoskeleton organization
+15,signal transduction in response to DNA damage
+16,stem cell maintenance
+17,macromolecule metabolic process
+18,sister chromatid cohesion
+19,primary metabolic process
+20,kinetochore organization
+21,meiotic cell cycle
+22,mitotic cell cycle checkpoint
+23,gene silencing by RNA
+24,organic substance metabolic process
+25,cell cycle checkpoint
+26,response to radiation
+27,regulation of cell cycle
+28,post-embryonic organ morphogenesis
+29,chromosome organization involved in meiosis
+30,stem cell differentiation
+31,ATP catabolic process
+32,purine ribonucleoside monophosphate catabolic process
+33,purine nucleoside monophosphate catabolic process
+34,ribonucleoside monophosphate catabolic process
+35,ATP metabolic process
+36,purine nucleoside monophosphate metabolic process
+37,post-embryonic morphogenesis
+38,ribonucleoside monophosphate metabolic process
+39,negative regulation of cell cycle process
+40,meiotic chromosome segregation
+41,chromosome separation
+42,metabolic process
+43,purine ribonucleoside triphosphate catabolic process
+44,nucleoside triphosphate catabolic process
+45,biological_process
+46,regulation of nitrogen compound metabolic process
+47,regulation of primary metabolic process
+48,cellular developmental process
+49,anatomical structure development
+50,single-organism developmental process
+51,multicellular organismal development
+52,system development
+53,purine nucleoside triphosphate metabolic process
+54,ribonucleoside triphosphate metabolic process
+55,nucleotide metabolic process
+56,glycosyl compound metabolic process
+57,organonitrogen compound metabolic process
+58,signaling
+59,single organism signaling
+60,cell communication
+61,regulation of macromolecule metabolic process
+62,negative regulation of biological process
+63,negative regulation of macromolecule metabolic process
+64,cell development
+65,regulation of cell differentiation
+66,single-multicellular organism process
+67,biological regulation
+68,regulation of biological process
+69,organic cyclic compound catabolic process
+70,phosphorus metabolic process
+71,nucleoside phosphate metabolic process
+72,cellular nitrogen compound catabolic process
+73,heterocycle catabolic process
+74,aromatic compound catabolic process
+75,small molecule metabolic process
+76,catabolic process
+77,cellular metabolic process
+78,nucleoside phosphate catabolic process
+79,regulation of mitotic cell cycle phase transition
+80,response to stress
+81,cellular response to stimulus
+82,regulation of cellular metabolic process
+83,regulation of cellular macromolecule biosynthetic process
+84,regulation of biosynthetic process
+85,purine nucleoside metabolic process
+86,ribonucleoside metabolic process
+87,nucleoside metabolic process
+88,purine nucleotide metabolic process
+89,ribonucleotide metabolic process
+90,ribose phosphate metabolic process
+91,purine-containing compound metabolic process
+92,purine nucleoside catabolic process
+93,ribonucleotide catabolic process
+94,ribonucleoside catabolic process
+95,purine nucleotide catabolic process
+96,nucleoside catabolic process
+97,nucleotide catabolic process
+98,glycosyl compound catabolic process
+99,purine-containing compound catabolic process
+100,regulation of cell cycle phase transition
+101,negative regulation of cell cycle phase transition
+102,cellular aromatic compound metabolic process
+103,single-organism cellular process
+104,heterocycle metabolic process
+105,organic cyclic compound metabolic process
+106,cellular component organization or biogenesis
+107,nitrogen compound metabolic process
+108,cellular macromolecule metabolic process
+109,developmental process
+110,regulation of metabolic process
+111,multicellular organismal process
+112,regulation of cellular process
+113,response to stimulus
+114,single-organism metabolic process
+115,organelle organization
+116,reproduction
+117,cellular response to stress
+118,macromolecular complex subunit organization
+119,cell differentiation
+120,anatomical structure morphogenesis
+121,organ development
+122,carbohydrate derivative metabolic process
+123,regulation of developmental process
+124,signal transduction
+125,regulation of gene expression
+126,negative regulation of metabolic process
+127,negative regulation of cellular process
+128,response to abiotic stimulus
+129,phosphate-containing compound metabolic process
+130,organophosphate metabolic process
+131,nucleobase-containing small molecule metabolic process
+132,cellular catabolic process
+133,organic substance catabolic process
+134,regulation of nucleobase-containing compound metabolic process
+135,regulation of cellular biosynthetic process
+136,regulation of macromolecule biosynthetic process
+137,chromosome organization
+138,DNA metabolic process
+139,cell cycle process
+140,cellular process involved in reproduction
+141,response to DNA damage stimulus
+142,nucleoside monophosphate metabolic process
+143,microtubule-based process
+144,organ morphogenesis
+145,intracellular signal transduction
+146,negative regulation of gene expression
+147,negative regulation of developmental process
+148,regulation of cell cycle process
+149,regulation of mitotic cell cycle
+150,mitotic cell cycle
+151,purine ribonucleoside metabolic process
+152,purine ribonucleotide metabolic process
+153,nucleoside triphosphate metabolic process
+154,organophosphate catabolic process
+155,nucleobase-containing compound catabolic process
+156,carbohydrate derivative catabolic process
+157,organonitrogen compound catabolic process
+158,cytoskeleton organization
+159,chromosome segregation
+160,mitosis
+161,regulation of DNA metabolic process
+162,"regulation of gene expression, epigenetic"
+163,meiosis
+164,stem cell development
+165,nucleoside monophosphate catabolic process
+166,purine ribonucleoside monophosphate metabolic process
+167,negative regulation of cell differentiation
+168,ribonucleoside triphosphate catabolic process
+169,purine nucleoside triphosphate catabolic process
+170,post-embryonic development
+171,post-embryonic organ development
+172,purine ribonucleoside triphosphate metabolic process
+173,gene silencing
+174,negative regulation of mitotic cell cycle phase transition
+175,purine ribonucleoside catabolic process
+176,purine ribonucleotide catabolic process
+177,protein binding
+178,molecular_function
+179,pyrophosphatase activity
+180,"hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+181,"hydrolase activity, acting on acid anhydrides"
+182,catalytic activity
+183,heterocyclic compound binding
+184,organic cyclic compound binding
+185,nucleoside phosphate binding
+186,small molecule binding
+187,binding
+188,hydrolase activity
+189,nucleic acid binding
+190,chromatin binding
+191,protein dimerization activity
+192,nucleotide binding
+193,DNA binding
+194,nucleoside-triphosphatase activity
+195,protein heterodimerization activity
+196,protein complex binding
+197,condensed chromosome
+198,chromosomal part
+199,organelle part
+200,membrane-enclosed lumen
+201,non-membrane-bounded organelle
+202,nucleus
+203,macromolecular complex
+204,organelle
+205,intracellular part
+206,intracellular
+207,cell part
+208,cell
+209,nuclear chromosome
+210,nuclear lumen
+211,intracellular organelle
+212,nuclear periphery
+213,membrane-bounded organelle
+214,cellular_component
+215,"chromosome, centromeric region"
+216,organelle lumen
+217,intracellular non-membrane-bounded organelle
+218,intracellular organelle part
+219,protein complex
+220,intracellular membrane-bounded organelle
+221,nuclear part
+222,cytoskeleton
+223,intracellular organelle lumen
+224,chromosome
+225,microtubule cytoskeleton
+226,kinetochore
+227,nuclear chromosome part

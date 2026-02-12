@@ -1,0 +1,101 @@
+id,title
+0,Adding support for Autocomplete in contrib.admin
+1,New Site.root field
+2,Model Field Order not influenced by MRO of superclasses
+3,URL resolving / reversing design doesn't allow alternate specs
+4,Admin inline templates need blocks
+5,Document connection-creation process
+6,Add support for translation backends other than gettext
+7,Ordinal numbers in English and in other locales
+8,delete_model on admin delete action
+9,[Feature request] NamedTupleQuerySet
+10,Implement template-based widget rendering
+11,Add support for Content-Security-Policy (CSP) to core
+12,Feature: JS Hooks for Dynamic Inlines
+13,Document what exception should be raised when trying to open non-existent file
+14,Support Origin header checking in the CSRF middleware
+15,IGNORED_PARAMS customization
+16,using negated F()-expression in update query
+17,Improve multiple sort UX
+18,Ability to change dismissRelatedLookupPopup on custom callback function
+19,Add configurable caching to FilePathField
+20,Provide real support for virtual fields
+21,Support server-side cursors for queryset iteration in database backends
+22,Queryset values should be aliasable
+23,Backtracking URL resolver
+24,contrib.admin should use a variable to select base_site template
+25,Add a template-based form rendering system
+26,adds Q objects for related fields.
+27,Fixture documentation should include non-numeric PK information
+28,CSRF fails in cross-domain iframes on IE
+29,Inverted F expression (negation)
+30,"DateDetailView should accept less specific dates, ie Year/Month or just Year"
+31,Add validation method for cache keys
+32,Missing ability to cast georaphy to geometry when using GeoDjango and PostgresSQL
+33,GeoDjango missing pyspatialite support
+34,Django Admin delete_view could benefit from extension points
+35,add DomainNameValidator to validate Internet Domain Names
+36,Make parts of the sessions API public
+37,Added hooks to Media for staticfiles app
+38,Allow retrieval of the signature age using the signing API
+39,Support for model properties that are not fields in LayerMapping
+40,Making it easier to customize Django Admin
+41,Shortcut to get users by permission
+42,persist a socket across reloads of the dev server
+43,Object tools improvements
+44,Add predicate functionality to Q objects
+45,"Use modern Python packaging metadata standard (1.2, PEP 345)"
+46,Save only one field to database which refereced to FieldFile
+47,Admin actions displayed as buttons instead of drop-down list
+48,Add django.contrib.redirects setting for turning redirect on/off.
+49,Link to object in message after creating/updating object in django admin
+50,bulk_create() can set the primary key
+51,Make javascript i18n view as CBV and more extensible.
+52,Incremental filter
+53,Stop TemplateView automatically passing kwargs into the context
+54,Document why/when of class-based views
+55,Add support for date_hierarchy across relations
+56,Upload handlers provide no way to retrieve previously parsed POST variables
+57,Minimize the risk of SECRET_KEY leaks
+58,Collectstatic ignore list expansion on a per project basis
+59,Allow allow_lazy to be used as a decorator
+60,BaseContext (and it's subclasses) lack emulation of dictionary items()
+61,django.utils.safestring.mark_safe forces evaluation of lazy objects
+62,Easier unit testing for class-based views
+63,loaddata - during import exclude some applications
+64,Provide official hooks for execution profiling
+65,Allow use of prepared statements
+66,Support DEFERRABLE INITIALLY DEFERRED for UNIQUE constraints
+67,Allow extending the default auth permissions
+68,Add reverse unique field
+69,Allow customizing the email field name for PasswordResetForm
+70,Add validation for type of Field.choices arguments
+71,A more Object-Oriented URLResolver
+72,Create a reference of public Manager methods
+73,Document how to use FastCGI via WSGI
+74,User Auth: A Complete Solution for Email Login Handling
+75,Increase contrib.auth's User.username length
+76,Prevent repetitive output to counter BREACH-type attacks
+77,Change the password hashers when testing
+78,Provide a way for CBVs to be called from instances
+79,DEFAULT_TABLESPACE should be part of DATABASES
+80,{% include %} uses get_template where it could select_template
+81,"Support Postgres ""CREATE INDEX CONCURRENTLY"" in migrations"
+82,Offer the ability to store a hash of session IDs rather than the ID itself
+83,django_admin_log table stores messages in different languages depending on which language was active while editing.
+84,Admin: Support for editing OneToOne related models in RELATED model
+85,Filter block on the right covers information in admin
+86,Limiting the number of variables and files that a POST request can contain
+87,Not all database backends support grouping by a column number
+88,Add login rate limiting to contrib.auth
+89,A how-to or tutorial document for using authentication views and forms is needed
+90,Add on_update support
+91,Remove contrib.redirects dependency on contrib.sites
+92,changepassword option to read from stdin
+93,BaseCommand should use logging instead of custom output wrappers
+94,Configurable request parsing.
+95,Add possibility to not perform redirect in set_language view
+96,Ignoring certain fields on INSERT and UPDATE queries
+97,Add pre_update and post_update signals
+98,BaseFormSet's empty_form isn't as extendable as _construct_form()
+99,Add the ability to limit file extensions for ImageField and FileField

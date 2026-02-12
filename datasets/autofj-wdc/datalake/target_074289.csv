@@ -1,0 +1,54 @@
+id,title
+0,DUChainBase
+1,DUContext
+2,TopDUContext
+3,AliasDeclaration
+4,Declaration
+5,ClassMemberDeclaration
+6,ForwardDeclaration
+7,ParsingEnvironmentFile
+8,FunctionDeclaration
+9,NamespaceAliasDeclaration
+10,ClassFunctionDeclaration
+11,Problem
+12,ClassDeclaration
+13,TemplateParameterDeclaration
+14,FunctionDefinition
+15,MethodDeclaration
+16,RubyDUContext (aka RubyNormalDUContext)
+17,ModuleDeclaration
+18,RubyDUContext (aka RubyTopDUContext)
+19,VariableDeclaration
+20,CppDUContext (aka CppNormalDUContext)
+21,PhpDUContext (aka PhpNormalDUContext)
+22,CppDUContext (aka CppTopDUContext)
+23,PhpDUContext (aka PhpTopDUContext)
+24,SpecialTemplateDeclaration
+25,SpecialTemplateDeclaration
+26,SpecialTemplateDeclaration
+27,SpecialTemplateDeclaration
+28,SpecialTemplateDeclaration
+29,SpecialTemplateDeclaration
+30,SpecialTemplateDeclaration
+31,SpecialTemplateDeclaration
+32,SpecialTemplateDeclaration
+33,EnvironmentFile
+34,QtFunctionDeclaration
+35,QPropertyDeclaration
+36,ConstantDeclaration (not used anymore)
+37,ClassDeclaration (not used anymore)
+38,VariableDeclaration
+39,ClassMethodDeclaration
+40,ClassDeclaration
+41,FunctionDeclaration
+42,NamespaceDeclaration
+43,NamespaceAliasDeclaration
+44,ElementDeclaration
+45,ImportDeclaration
+46,PythonDUContext (aka PythonTopDUContext)
+47,PythonDUContext (aka PythonNormalDUContext)
+48,QmlDUContext
+49,SpecialTemplateDeclaration
+50,ClassDeclaration
+51,FunctionDeclaration
+52,ClassFunctionDeclaration (not used anymore)

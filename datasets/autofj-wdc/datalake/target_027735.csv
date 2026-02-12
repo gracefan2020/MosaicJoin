@@ -1,0 +1,51 @@
+id,title
+0,Poker-eval for multiple decks
+1,"configure fails with ""configure: error: No python development environments found"""
+2,const keyword missing in some stringToCard functions (fixing patch included)
+3,mixed-convention #include directives in poker-eval includes
+4,Poker-eval incorrectly evaluates a 7-card hand with a joker deck
+5,All in players and muck
+6,Error when running seven_card_hands
+7,make check ending with following error despite successful ./configure
+8,old RAND
+9,How to compute odds with opponents unknow hole card?
+10,example pokenum returns strange result for omaha hi/lo
+11,debian/poker-engine-source/ directory not destroyed by a debuild clean
+12,"failure must quit, not hang"
+13,use twisted.conch.manhole instead of twisted.manhole
+14,pokersite single defered design flaw
+15,"use memcache for tourneyselect, tableselect and tourneymanager"
+16,add serial to packets for debugging
+17,Python-Poker-Network Server 1.6.0 does not work with Pok3d.exe (Win32 version)
+18,tourneyFinsh: more intelligent handling of PacketPokerTourneyFinish sending
+19,Possibility to hide the announced tourney.
+20,revert fr.po to previous fr_FR translation instead of earthquake fr_FX
+21,revert fr.po to previous fr_FR translation instead of earthquake fr_FX
+22,revert fr.po to previous fr_FR translation instead of earthquake fr_FX
+23,Developers corner link on pokersource.info point to a blank page
+24,poker-network service tourneyManager should send PokerError if tourney not found
+25,timestamp chat messages (hh:mm)
+26,multiple pokerstats instance should not be allowed to run at the same time
+27,jsonp handling in pokersite.py must be limited
+28,messages table loops forever in REST poll
+29,Uppercase problem in SOAP-returned XML packet's boolean values
+30,nothing get made in java
+31,No console output when compiled under Cygwin
+32,in poker2d about menu the links crash the client
+33,all players all in : show players card first
+34,when python installed in /usr/local ccpython.m4 fails to get it
+35,graph the number of users connected
+36,tournament rake is not accounted for
+37,Recommended Blind Structures
+38,poker2d crashes with no audio device
+39,poker2d crashes when clicking on a seat from the lobby
+40,poker2d/3d needs a command line option for server
+41,Should be possible to build noarch target
+42,Rebuy with max money
+43,network detection timeout too short (maybe)
+44,poker-network tests don't run if no database
+45,5s 5h 6s 6d 7h 7c 7d wins over 4h 4s 8c 8h 9h 9d 9s in razz
+46,poker2d should display previous hand #
+47,5566777 vs 4488999 bug in razz
+48,QUIT won't quit in poker2d
+49,bring-in ties : the player closest to the dealer wins

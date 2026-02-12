@@ -1,0 +1,65 @@
+id,title
+0,Displays the running configuration
+1,Displays the startup configuration
+2,-
+3,Displays the status for all of the interfaces
+4,Displays the status for a specific interface
+5,-
+6,Displays the current boot variables
+7,-
+8,Displays the system clock and time zone configuration
+9,Displays the summer-time configuration
+10,-
+11,Displays all environment parameters
+12,Displays clock status for A/B and active clock
+13,Displays fan status
+14,Displays power budget
+15,Displays environment data
+16,-
+17,Displays the local log
+18,Displays installed modules and their status
+19,Displays how long each module has be powered up
+20,Displays fabric modules and their current status
+21,Displays the % of fabric utilized per module
+22,Displays the processes running on the CPU
+23,-
+24,Displays the core dump files if present
+25,Displays last exception log
+26,Displays the supervisors High Availability status
+27,Displays CPU and memory usage data
+28,Displays system and kernel start time
+29,-
+30,"Displays running software version, basic hardware, CMP status and system uptime"
+31,-
+32,Displays console and auxiliary port information
+33,Displays terminal settings
+34,Displays current virtual terminal settings
+35,-
+36,Displays a list of all configured VRFs
+37,Displays an specified VRF
+38,Displays details for a specified
+39,Displays interface assignment for a specified VRF
+40,Displays a summary of the default VRF
+41,Displays details for all VRF's
+42,Displays VRF interface assignment
+43,Displays a summary of the management VRF
+44,-
+45,Displays all license file information
+46,Displays the license file names installed
+47,Displays license contents based on a specified name
+48,Displays the chassis Host-ID used for creating a license
+49,Displays all licenses used by the system
+50,Displays all licenses used by the system per type
+51,Displays all licenses used by the system for all VDCs
+52,Displays all license file information
+53,-
+54,Displays a list of the configured VDC's
+55,Displays a summary of the individual VDC
+56,Displays configuration details for a specific VDC
+57,Displays interface membership for a specific VDC
+58,Displays resource allocation for a specific VDC
+59,Displays the VDC that the user is currently in
+60,Displays details information for all VDCs
+61,Displays interface membership for all VDCs
+62,Displays resource allocation for all VDCs
+63,Displays a list of the configured VDCs

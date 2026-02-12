@@ -1,0 +1,108 @@
+id,title
+0,"Revert ""Updated with where functional/helper tests go"""
+1,Reword Post model to note there are lines not shown
+2,"We should use post_path, not post_url"
+3,Updated with where functional/helper tests go
+4,Moved position of has_many
+5,Added new line to make it more readable
+6,Changed the Using Partials section to read a little better
+7,"Modified ""Allowing the update of fields"" section"
+8,Update version numbers of Ruby and Rails
+9,Updated link to RubyGems site
+10,Don't type cast values that don't respond to to_i to 1
+11,Remove empty lines.
+12,Fixed styling issues brought up by @jeremy
+13,Add ability to specify custom annotation directories
+14,Add documentation to command_line.textile explaining how...
+15,Add test coverage for rake notes
+16,Fix styling of example layout. Fixes #4461
+17,Remove redundant or
+18,Be explicit about where to add/remove stuff to the migra...
+19,Fix missing /ruby block
+20,Be explicit of where the constraints are.
+21,Change wording to be more understandable
+22,Improve readability
+23,"Be more friendly than ""shut up"""
+24,A table format makes this section easier to read
+25,This section is more about changing the output of runnin...
+26,Improve readability
+27,Readability improvements
+28,"Move this into a section so that ""Resetting the database..."
+29,Change wording to be more explicit on what migrating wit...
+30,"Migrations can also run the ""change"" method"
+31,Reword section to make it more readable.
+32,"We're using methods, not writing them"
+33,Constrained to 80 chars per line
+34,Re-word confusing section
+35,Rollback is used elsewhere in the tutorial
+36,Alphabetize fields to make reading easier
+37,"Improve wording, fix some formatting issues"
+38,Change The other... to Another...
+39,Reword confusing section
+40,Correct grammatical errors
+41,It's more that Rails needs to know how to recreate the c...
+42,"We're using the method, not writing it"
+43,"Added ""also"" to read better"
+44,Explain the t.timestamps method a little better
+45,Move tooltip on re-running rails new with a different --...
+46,Update guide to use Ruby 1.9 hash syntax
+47,Add output for add_index command
+48,Convert tables to table format
+49,Grammar change
+50,Be explicit on where the show.html.erb is located
+51,Make the guide more friendly
+52,Be explicit about changing code
+53,p.errors.full_messages is a little more human readable
+54,Add link to AR Validations and Callbacks to further expl...
+55,Update wording to read better
+56,Update wording to be more explicit on what the timestamp...
+57,Update order so they show up in the order they do in the...
+58,Update wording to flow better
+59,Fix typo
+60,Move Tip up higher so users who are fine with SQLite can...
+61,Updated wording to read better
+62,Updated wording on what 'rails new blog' did for the user
+63,Use rails help new instead of rails new -h
+64,Move paragraphs to flow better
+65,Add Tip about skipping to Section 3 if they want to come...
+66,Add in a tip about opening two command prompt windows
+67,Fix two spaces after end of sentence.
+68,Extend description of rails generate scaffold and what i...
+69,Make the rails not found tip more explanatory.
+70,Updated rails_welcome.png to latest Rails welcome page.
+71,Update wording of TIP about --database option for rails new
+72,"Remove ""bundle install"" section, as rails new ______ run..."
+73,Fix TIP formatting issue
+74,Add a note about the fact that the Windows prompt will l...
+75,Reformatted to 80 chars.
+76,Wrapped text content to 120 chars
+77,Add in a tip about opening two command prompt windows
+78,Extend description of rails generate scaffold and what i...
+79,Fix two spaces after end of sentence.
+80,Make the rails not found tip more explanatory.
+81,Updated rails_welcome.png to latest Rails welcome page.
+82,Update wording of TIP about --database option for rails new
+83,"Remove ""bundle install"" section, as rails new ______ run..."
+84,Fix TIP formatting issue
+85,Add a note about the fact that the Windows prompt will l...
+86,Reformatted to 80 chars.
+87,Wrapped text content to 120 chars
+88,"Moved ActionController, ActionView and ActionDispatch se..."
+89,Add link to the Layouts and Rendering guide to explain m...
+90,Modified the content based on vijaydev's comment
+91,Update guide to be based on Rails 3.1.
+92,Added link to the RubyGems User's Guide
+93,Added explanation to Components of Rails to help users n...
+94,"Added some context for rack apps, linked to the Rails on..."
+95,"Moved ActionController, ActionView and ActionDispatch se..."
+96,Add link to the Layouts and Rendering guide to explain m...
+97,Modified the content based on vijaydev's comment
+98,Update guide to be based on Rails 3.1.
+99,Added link to the RubyGems User's Guide
+100,Added explanation to Components of Rails to help users n...
+101,"Added some context for rack apps, linked to the Rails on..."
+102,Change ActiveRecord and ActionPack links to point to the...
+103,Change ActiveRecord and ActionPack links to point to the...
+104,Change ActiveRecord and ActionPack links to point to the...
+105,Added deprecation warning for Fixture(s) (Use ActiveReco...
+106,Namespace Fixtures in ActiveRecord

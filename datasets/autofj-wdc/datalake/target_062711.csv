@@ -1,0 +1,51 @@
+id,title
+0,from elements not rendered always
+1,Replace custom JS with the bootstrap-anchor plugin
+2,Add messages region to page template
+3,bootstrap_button prevents core form functionality
+4,label / accessibility label missing from search block
+5,Use of filter_xss_admin necessary?
+6,Less: Wrap numbers in parentheses when calculating percentage
+7,Update to 3.3.5
+8,Clarification on ScrollSpy support
+9,Add/fix starterkits for 8.x
+10,Checkbox and radio elements are missing #label_attributes
+11,head_title is not an array in html.html.twig
+12,Using $GLOBALS in code
+13,CDN provider settings form not saved
+14,Wrong settings checboxes default value for child theme
+15,Support Autocomplete Wordwraping
+16,Row weights on multiple value fields not showing
+17,Better Exposed Filters Checkboxes
+18,CSS overrides isn't compatible with Bootswatch themes
+19,Update documentation
+20,Release 7.x-3.1
+21,Refactor navigation/menus
+22,Support menu block module
+23,Menu link weights are disregarded in main menu
+24,"User Login displayed in Navigation Region, even though Region is set to None."
+25,Management sub-menus not rendered properly using Commerce Kickstart
+26,Improve IE support documentation
+27,Create LESS starterkit (with Grunt and Bower support)
+28,Keep Bootstrap 'core' lean
+29,Convert deprecated attributes in html.tpl.php
+30,jQuery Update module and Migrate Plugin
+31,Support Twig engine in 7.x
+32,Breakpoints module support: breakpoints are wrong
+33,Semantic Menus
+34,Show grid preview overlay
+35,.container-fluid fix not in overrides.less for navbar
+36,"Create SASS starterkit (with Bundle, Compass and Bower support)"
+37,"_bootstrap_colorize_text should look for words, not substrings"
+38,Error when print render($primary_nav) twice
+39,Add Drush support for creating sub-themes
+40,Containers (`.container` and `.container-fluid`) are not nestable
+41,Add new variables to variables.less
+42,Inline webform elements missing form-inline class
+43,bootstrap_preprocess_bootstrap_panel() overwrites element id
+44,An example on how to theme the field-widget-entityreference-autocomplete ?
+45,Alert links color on hover and focus
+46,Mini pager options
+47,Make vertical tabs responsive (or don't render them at all for mobile)
+48,Backdrop port
+49,Provide multiple favicon/meta icon settings

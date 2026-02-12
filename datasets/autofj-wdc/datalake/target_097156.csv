@@ -1,0 +1,63 @@
+id,title
+0,Trace Console option flag for UI accessibility
+1,Trace Console option flag for Firebug activation
+2,Trace Console option flag for the Net Panel's activity observer
+3,Trace Console option flag for page annotations
+4,Trace Console option flag for breakpoints
+5,Trace Console option flag for the source cache
+6,Trace Console option flag for the Command Line
+7,Trace Console option flag for the Console Panel
+8,Trace Console option flag for the CSS Panel/Style Side Panel
+9,Trace Console option flag for the CSS parser
+10,-
+11,Trace Console option flag for event dispatching
+12,Trace Console option flag for the DOM Panel
+13,Trace Console option flag for Domplate
+14,Trace Console option flag for the text editor
+15,Trace Console option flag for errors
+16,Trace Console option flag for error log
+17,Trace Console option flag for eval() calls
+18,Trace Console option flag for event listeners inside Firebug
+19,Trace Console option flag for browser generated events
+20,Trace Console option flag for breakpoints in JavaScript Debugger
+21,Trace Console option flag for script creation in JavaScript Debugger creation
+22,Trace Console option flag for errors in JavaScript Debugger
+23,Trace Console option flag for the Firefox start
+24,Trace Console option flag for the Find Debugger in JavaScript Debugger
+25,-
+26,-
+27,Trace Console option flag for the JavaScript Debugger context
+28,Trace Console option flag for source units in JavaScript Debugger
+29,Trace Console option flag for stepping in JavaScript Debugger
+30,Trace Console option flag for tracked files in JavaScript Debugger
+31,Trace Console option flag for the fonts module
+32,Trace Console option flag for function names
+33,Trace Console option flag for UI navigation history
+34,Trace Console option flag for the HTML Panel
+35,Trace Console option flag for the HTTP observer
+36,Trace Console option flag for Info Tips
+37,Trace Console option flag for Firebug initialization
+38,Trace Console option flag for the Inspector
+39,Trace Console option flag for the JSON viewer
+40,Trace Console option flag for the line table of source files in JavaScript Debugger
+41,Trace Console option flag for internationalization
+42,Trace Console option flag for the UI element locator
+43,Trace Console option flag for the Memory Profiler
+44,Trace Console option flag for module loading
+45,Trace Console option flag for the Net Panel
+46,Trace Console option flag for network events
+47,Trace Console option flag for preference changes
+48,Trace Console option flag for panels
+49,Trace Console option flag for the Profiler
+50,Trace Console option flag for module registration
+51,Trace Console option flag for shortcuts
+52,Trace Console option flag for source files in JavaScript Debugger
+53,Trace Console option flag for the XMLHttpRequest observer
+54,Trace Console option flag for the JavaScript call stack
+55,Trace Console option flag for the SVG viewer
+56,Trace Console option flag for Status Icon Info Tooltip
+57,Trace Console option flag for top level JavaScript Debugger scripts
+58,Trace Console option flag for UI events in JavaScript Debugger
+59,Trace Console option flag for browser windows/tabs
+60,Trace Console option flag for the Watch Side Panel
+61,Trace Console option flag for the XML viewer

@@ -1,0 +1,53 @@
+id,title
+0,implement JavaScript library fully
+1,implement read-only __proto__
+2,incomplete folders
+3,incorrect `declare-exporting'
+4,install complains
+5,install complains
+6,long startup time
+7,make a csv-reader that takes in an input-port
+8,make prophecies sequences
+9,make sets sequences
+10,make-filter-input-port hopelessly broken
+11,make-response/xhtml/full
+12,memoization is not thread-safe
+13,"modular acl2 unresolved import problem, useless error message"
+14,mzsocket fails to install cleanly on OS X (10.5 and 10.6)
+15,numbers are unfaithful to spec
+16,optional and keyword args
+17,over-parenthesization in while-conditions
+18,parameter for top-level let semantics
+19,permissive?
+20,pict-* from scheme/slideshow should combine in the order of the clauses
+21,please convert comments in xml file to *COMMENT* sxml nodes
+22,png_set_gray_1_2_4_to_8 not found while compiling
+23,possible semantic issues with exceptions
+24,prime? of neg. number doesn't end
+25,problem including this file from planeT
+26,regular expressions aren't implemented
+27,rename require.ss to main.ss
+28,require error on installing
+29,same name as another planet package - confusing version numbering
+30,sample bug
+31,schememodlang/this-package + defmodulelang/this-package
+32,scribble text renderer dies with a type error
+33,scribble warnings
+34,segments->painter return is failing on being passed to paint
+35,setup fails on hash store; hash-store.plt/1/4/hash-store.ss:9:3: expand: unbound identifier in module in: base64-filename-safe
+36,slide/stage
+37,socket.plt fails to install
+38,srfi.plt does not install cleanly due to error in info.ss
+39,stack trace is often mostly unusable
+40,static-page won't load for 5.2.1
+41,stream-partition unusable
+42,stream-split-at
+43,stty on mac doesn't support -F
+44,support for v3 and v4
+45,support unicode
+46,test infrastructure for different compilation modes
+47,transform-painter fails on non-rectangle configuration
+48,warnings from documentation
+49,writing comment inserts extra spaces
+50,wrong compile-omit-paths entry in info.ss
+51,xpath-parser.ss problem w/ abbreviated xpath syntax

@@ -1,0 +1,59 @@
+id,title
+0,Do nothing.
+1,Basic working environment.
+2,A Perl implementation of the reCAPTCHA Mailhide API
+3,Provide signals and slots for standard classes.
+4,"redo, last, next for closure based loops"
+5,Steve Gibson's Perfect Paper Passwords
+6,Encode or decode a BISON stream
+7,Find data in arbitrary data structures
+8,Autogenerate accessors for R/O object data
+9,Change nature of data within a structure
+10,Easy YAML serialisation of Perl data structures
+11,"Enable dtrace probes for subroutine entry, exit"
+12,Identify where print output comes from
+13,Scoped checks for object leaks
+14,indicate where leaked variables are coming from.
+15,Discover which modules a Perl program loads.
+16,Simulate the non-availability of modules
+17,MD6 Keyed-Hashing for Message Authentication
+18,Perl interface to the MD6 Algorithm
+19,Traverse a number of similar directories in parallel
+20,Monitor files and directories for changes.
+21,Perl interface to gpsbabel
+22,Convert coordinates between lat/lon and Irish Transverse Mercator
+23,Create and parse GPX files.
+24,Encode / decode geohash.org locations.
+25,Lookup location by time
+26,"Lightweight, dependency free HTML/XML generation"
+27,Run GreaseMonkey scripts in any browser
+28,Read unseekable filehandles non-destructively.
+29,Lightweight interface to shared memory
+30,"Easy setting, getting of an image's location information"
+31,Shorten verbose namespaces
+32,Manipulate sets of IP addresses
+33,Simple parallel execution
+34,Iterate lines in a file
+35,Fast handling of sets containing integer spans.
+36,Faster Set::IntSpan::Fast
+37,Sort arrays by some score and organise into ranks.
+38,Strings that know how to escape themselves.
+39,Syntactic sugar to allow a sub to replace itself
+40,Convert TAP to TET
+41,Filter TAP stream within TAP::Harness
+42,Generate TextMate compatible test output
+43,Parse TAP output
+44,Conditionally add YAML diagnostics to Test::More's output
+45,Enforce policies on test results
+46,Execute test scripts conditionally
+47,"Tell TextMate to jump to a particular file, line"
+48,The geo URI scheme.
+49,Interface to the ernestmarples.com UK postcode lookup API
+50,An interface to MySociety.org's Gazetteer service
+51,Interface to notifo.com notification service
+52,Unoffical plurk.com API
+53,An interface to tarpipe.com's REST based web service.
+54,Recursive descent XML parsing
+55,Create a PicLens compatible RSS feed
+56,Use the latest Perl features
+57,Declare support for an interface

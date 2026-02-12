@@ -1,0 +1,55 @@
+id,title
+0,any character (assuming Perl's /s modifier).
+1,sequencing of a and b sub-expressions.
+2,alternation of a and b sub-expressions.
+3,group and capture a back-reference.
+4,group and do not capture a back-reference.
+5,a previously captured back-reference.
+6,"zero or more times, greedy."
+7,"one or more times, greedy."
+8,"zero or one time, greedy."
+9,"between n and m times, greedy."
+10,"zero or more times, non-greedy."
+11,"one or more times, non-greedy."
+12,"zero or one time, non-greedy."
+13,"between n and m times, non-greedy."
+14,beginning of sequence assertion.
+15,end of sequence assertion.
+16,word boundary assertion.
+17,not word boundary assertion.
+18,literal newline.
+19,any character except a literal newline (without Perl's /s modifier).
+20,logical newline.
+21,any single character not a logical newline.
+22,"a word character, equivalent to set[alnum | '_']."
+23,"not a word character, equivalent to ~set[alnum | '_']."
+24,a digit character.
+25,not a digit character.
+26,a space character.
+27,not a space character.
+28,an alpha-numeric character.
+29,an alphabetic character.
+30,a horizontal white-space character.
+31,a control character.
+32,a digit character.
+33,a graphable character.
+34,a lower-case character.
+35,a printing character.
+36,a punctuation character.
+37,a white-space character.
+38,an upper-case character.
+39,a hexadecimal digit character.
+40,characters in range '0' through '9'.
+41,"characters 'a', 'b', or 'c'."
+42,same as above
+43,"characters 'a', 'b', 'c' or in range '0' through '9'."
+44,same as above
+45,"not characters 'a', 'b', or 'c'."
+46,match stuff disregarding case.
+47,"independent sub-expression, match stuff and turn off backtracking."
+48,"positive look-ahead assertion, match if before stuff but don't include stuff in the match."
+49,"negative look-ahead assertion, match if not before stuff."
+50,"positive look-behind assertion, match if after stuff but don't include stuff in the match. (stuff must be constant-width.)"
+51,"negative look-behind assertion, match if not after stuff. (stuff must be constant-width.)"
+52,Create a named capture.
+53,Refer back to a previously created named capture.

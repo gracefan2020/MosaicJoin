@@ -1,0 +1,61 @@
+id,title
+0,Select All.
+1,Justify.
+2,Double Underline.
+3,Centred.
+4,Find and Replace.
+5,Superscript.
+6,Align Left.
+7,Align Right.
+8,Subscript.
+9,Redo last action.
+10,Apply Default paragraph style.
+11,Apply Heading 1 paragraph style.
+12,Apply Heading 2 paragraph style.
+13,Apply Heading 3 paragraph style.
+14,1.5 Line Spacing.
+15,Calculates the selected text and copies the result to the clipboard.
+16,Custom hyphens; hyphenation set by you.
+17,Non-breaking dash (is not used for hyphenation).
+18,Run macro field.
+19,Non-breaking spaces. Non-breaking spaces are not used for hyphenation and are not expanded if the text is justified.
+20,Line break without paragraph change.
+21,Manual page break.
+22,Column break in multi-columnar texts.
+23,Inserting a new paragraph without numbering.
+24,Inserting a new paragraph directly before or after a section or a table.
+25,Move cursor to left.
+26,Move cursor with selection to the left.
+27,Go to beginning of word.
+28,Selecting to the left word by word.
+29,Move cursor to right.
+30,Move cursor with selection to the right.
+31,Go to end of word.
+32,Selecting to the right word by word.
+33,Move up one line.
+34,Selecting lines in an upwards direction.
+35,Move cursor down one line.
+36,Selecting lines in a downward direction.
+37,Go to beginning of line.
+38,Go and select to the beginning of a line.
+39,Go to end of line.
+40,Go and select to end of line.
+41,Go to start of document.
+42,Go and select text to start of document.
+43,Go to end of document.
+44,Go and select text to end of document.
+45,Switch cursor between text and header.
+46,Switch cursor between text and footer.
+47,Insert mode on/off.
+48,Screen page up.
+49,Move up screen page with selection.
+50,Move down screen page.
+51,Move down screen page with selection.
+52,Delete text to end of word.
+53,Delete text to beginning of word.
+54,Delete text to end of sentence.
+55,Delete text to beginning of sentence.
+56,Next suggestion with Automatic Word Completion.
+57,Use previous suggestion with Automatic Word Completion.
+58,Spell checker dialog: Call back the original unknown word into the text box.
+59,"Dock or un-dock the Navigator, Styles and Formatting window, or other windows."

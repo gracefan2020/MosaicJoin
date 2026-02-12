@@ -1,0 +1,51 @@
+id,title
+0,Tab Delimited CSV Format
+1,"Get ""This webpage is not available"" when clicking on XLS button at bottom of the screen"
+2,"MySQL error for 'input_required' exposed filters, if no filter value is present in the URL"
+3,How to programmatically save a views data export file to a repository/a node field/etc.
+4,Option for non-image link display
+5,Disable theme_debug when rendering the view
+6,Add an option to not strip tags from CSV export
+7,Porting module to Drupal 8
+8,Labels get translated
+9,CSV export UTF-8 & windows - BOM
+10,Array to String error when exporting date exposed options
+11,Export icons not showing with PHP 5.5
+12,PHP 5.4 E_STRICT warning - declaration compatibility
+13,Advanced theming for doc export
+14,Drush interface exporting only 10 records
+15,Add integrations with Views Bulk Operations (sample VBO action to expose selected records to CSV export included herein)
+16,Wrong encoding management in CSV export
+17,"Export Button, make it styleable with CSS"
+18,D7 multiple value field support
+19,Missing join when used with commerce module and contextual filters
+20,Corrupted file after exporting in from voew into XLS?
+21,Body with and messes up excel table
+22,Data exported with Views Data Export is not secured from other users with access to export data
+23,Multiple line fields cause extra rows in XLS Export
+24,Option for CSV export to force text formatting
+25,"Leading Zeros and exporting ""Excel"" files"
+26,Only 64 lines exported
+27,Root and item nodes in Drush
+28,title and header not output?
+29,"Provide default page formatting for .doc files (portrait / landscape, margins, page view, zoom, etc.)"
+30,SQL Server Compatibility
+31,Styling the data in desired way for doc format
+32,How to customize in php the data export view
+33,Drush File Contains Only Header Row
+34,XLS Export renders Lists items incorrectly
+35,Export is incomplete when using batch mode
+36,Views Data Export showing address field as concatenated string
+37,Exposed filter replacement pattern not working
+38,Restrict to adding to SQL base table
+39,Add hook_preprocess
+40,"If system temp directory isn't writable, views_plugin_display directory is never created"
+41,"Fields missing from .csv, .xml exports in batch mode"
+42,Uniform URL for XML export
+43,Unable to export content of current page.
+44,field labels don't match those set in the ui
+45,Export broken when using User Data
+46,Non-responsive when adding new fields to the views_data_export
+47,keep html tags deletes all quotes
+48,Add rel = nofollow to export links
+49,Grouping?

@@ -1,0 +1,294 @@
+id,title
+0,1/1 O2 Sensor Heater Relay Circuit
+1,1/2 O2 Sensor Heater Relay Circuit
+2,Barometric Pressure Out of Range
+3,Map Sensor Voltage Too Low
+4,Map Sensor Voltage Too High
+5,Intake Air Temp Sensor Voltage Low
+6,Intake Air Temp Sensor Voltage High
+7,No Message
+8,ECT Sensor Voltage Too Low
+9,ECT Sensor Voltage Too High
+10,TPS Voltage Does Not Agree With MAP
+11,Accelerator Position Sensor (APPS) Signal Voltage Too Low
+12,Throttle Position Sensor Voltage Low
+13,Accelerator Position Sensor (APPS) Signal Voltage Too Low
+14,Throttle Position Sensor Voltage High
+15,Accelerator Position Sensor (APPS) Signal Voltage Too High
+16,Closed Loop Temp Not Reached
+17,Engine is Cold Too Long
+18,1/1 O2 Sensor Heater Circuit Malfunction
+19,1/1 O2 Sensor Shorted To Ground
+20,1/1 O2 Sensor Shorted To Voltage
+21,1/1 O2 Sensor Slow Response
+22,1/1 O2 Sensor Stays at Center
+23,1/1 O2 Sensor Heater Failure
+24,1/2 O2 Sensor Heater Circuit Malfunction
+25,1/2 O2 Sensor Shorted To Ground
+26,1/2 O2 Sensor Shorted To Voltage
+27,1/2 O2 Sensor Slow Response
+28,1/2 O2 Sensor Stays at Center
+29,1/2 O2 Sensor Heater Failure
+30,1/2 O2 Sensor Shorted To Ground
+31,1/2 O2 Sensor Shorted To Voltage
+32,1/2 O2 Sensor Slow Response
+33,1/2 O2 Sensor Stays at Center
+34,1/2 O2 Sensor Heater Failure
+35,2/1 O2 Sensor Shorted To Ground
+36,2/1 Sensor Shorted To Voltage
+37,2/1 Sensor Slow Response
+38,2/1 Sensor Stays at Center
+39,2/1 O2 Sensor Heater Failure
+40,2/2 O2 Sensor Shorted To Ground
+41,2/2 O2 Sensor Shorted To Voltage
+42,2/2 Sensor Slow Response
+43,2/2 Sensor Stays at Center
+44,2/2 O2 Sensor Heater Failure
+45,Decreased Engine Performance Due To High Injection Pump Fuel Temp
+46,1/1 Fuel System Lean
+47,1/1 Fuel System Rich
+48,2/1 Fuel System Lean
+49,2/1 Fuel System Rich
+50,Loss of Flex Fuel Calibration Signal
+51,Water In Fuel
+52,Flex Fuel Sensor Volts Too Low
+53,Water In Fuel Sensor Voltage Too Low
+54,Flex Fuel Sensor Volts Too High
+55,Fuel Injection Pump Failure
+56,CNG Temp Sensor Voltage Too Low
+57,CNG Temp Sensor Voltage Too High
+58,Injector #1 Control Circuit
+59,Injector #2 Control Circuit
+60,Injector #3 Control Circuit
+61,Injector #4 Control Circuit
+62,Injector #5 Control Circuit
+63,Injector #6 Control Circuit
+64,Injector #7 Control Circuit
+65,Injector #8 Control Circuit
+66,Injector #9 Control Circuit
+67,Injector #10 Control Circuit
+68,Fuel Injection Pump Control Circuit
+69,Fuel Injection Pump Timing Failure
+70,Decreased Engine Performance Due To Engine Overheat Condition
+71,Crankshaft Position Sensor Overspeed Signal
+72,Idle Validation Signals Both Low
+73,Idle Validation Signals Both High (Above 5 Volts)
+74,Transfer Pump (Lift Pump) Circuit Out of Range
+75,Fuel Shutoff Signal Voltage Too High
+76,Turbo Boost Limit Exceeded
+77,Map Sensor Too High Too Long
+78,Map Sensor Voltage Too Low
+79,Map Sensor Voltage Too High
+80,Fuel Inj. Pump Mech. Failure Fuel Valve Feedback Circuit
+81,Fuel Injection Pump Fuel Valve Open Circuit
+82,Fuel Injection Pump Fuel Valve Current Too High
+83,Multiple Cylinder Mis-fire
+84,CYLINDER #1 MISFIRE
+85,CYLINDER #2 MISFIRE
+86,CYLINDER #3 MISFIRE
+87,CYLINDER #4 MISFIRE
+88,CYLINDER #5 MISFIRE
+89,CYLINDER #6 MISFIRE
+90,CYLINDER #7 MISFIRE
+91,CYLINDER #8 MISFIRE
+92,CYLINDER #9 MISFIRE
+93,CYLINDER #10 MISFIRE
+94,No Crank Reference Signal at PCM
+95,No RPM Signal to PCM (Crankshaft Position Sensor Signal to JTEC)
+96,Knock Sensor #1 Circuit
+97,Knock Sensor #2 Circuit
+98,Crankshaft Position (CKP) Sensor Signal
+99,No Cam Signal At PCM
+100,Camshaft Position (CMP) Sensor Signal
+101,Ignition Coil Draws Too Much Current
+102,Ignition Coil # 1 Primary Circuit
+103,Ignition Coil # 2 Primary Circuit
+104,Ignition Coil # 3 Primary Circuit
+105,Ignition Coil # 4 Primary Circuit
+106,Ignition Coil # 5 Primary Circuit
+107,Ignition Coil # 6 Primary Circuit
+108,Ignition Coil # 7 Primary Circuit
+109,Ignition Coil # 8 Primary Circuit
+110,Fuel Injection Pump Speed/Position Sensor Sig Lost
+111,Intake Air Heater Relay #1 Control Circuit
+112,Wait To Start Lamp Inoperative
+113,Intake Air Heater Relay #2 Control Circuit
+114,Crankshaft Position Sensor Supply Voltage Too Low
+115,Crankshaft Position Sensor Supply Voltage Too High
+116,EGR System Failure
+117,EGR Solenoid Circuit
+118,EGR Position Sensor Rationality
+119,EGR Position Sensor Volts Too Low
+120,EGR Position Sensor Volts Too High
+121,Secondary Air Solenoid Circuit
+122,1/1 Catalytic Converter Efficiency
+123,1/2 Catalytic Converter Efficiency
+124,Evap Purge Flow Monitor
+125,Evap Leak Monitor Medium Leak Detected
+126,Evap Purge Solenoid Circuit
+127,Evap Leak Monitor Large Leak Detected
+128,Evap Leak Monitor Small Leak Detected
+129,Fuel Level Unit No Change Over Miles
+130,Fuel Level Unit No Change Over Miles
+131,Fuel Level Sending Unit Volts Too Low
+132,Fuel Level Sending Unit Volts Too Low
+133,Fuel Level Sending Unit Volts Too High
+134,Fuel Level Sending Unit Volts Too High
+135,No Vehicle Speed Sensor Signal
+136,No Vehicle Speed Sensor Signal
+137,Idle Air Control Motor Circuits
+138,Oil Pressure Voltage Too Low
+139,Oil Pressure Voltage Too High
+140,Oil Pressure Too Low
+141,A/C Clutch Relay Circuit
+142,Power Steering Switch Failure
+143,Charging System Voltage Too Low
+144,Charging System Voltage Too High
+145,PCM Failure SPI Communications
+146,Internal Controller Failure
+147,ECM Fueling Calibration Error
+148,RAM Check Failure
+149,ROM Check Failure
+150,ECM Failure
+151,Starter Relay Control Circuit
+152,Generator Field Not Switching Properly
+153,A/C Clutch Relay Circuit
+154,EATX Controller DTC Present
+155,Brake Switch Stuck Pressed or Released
+156,"Trans Temp Sensor, No Temp Rise After Start"
+157,Trans Temp Sensor Voltage Too Low
+158,Trans Temp Sensor Voltage Too Low
+159,Trans Temp Sensor Voltage Too High
+160,Trans Temp Sensor Voltage Too High
+161,"Low Output SPD Sensor RPM, Above 15 mph"
+162,Low Output Spd Sensor RPM Above 15 mph
+163,"Torq Con Clu, No RPM Drop at Lockup"
+164,Torque Converter Clutch Solenoid/ Trans Relay Circuits
+165,Torque Converter Clutch Solenoid/ Trans Relay Circuits
+166,Governor Pressure Sol Control/Trans Relay Circuits
+167,Governor Pressure Sol Control/Trans Relay Circuits
+168,O/D Switch Pressed (Lo) More Than 5 Minutes
+169,O/D Switch Pressed (LO) More Than 5 Minutes
+170,Trans 3-4 Shift Sol/Trans Relay Circuits
+171,Trans 3-4 Shift Sol/Trans Relay Circuits
+172,AW4 Shift Sol B (2-3) Functional Failure
+173,"3-4 Shift Sol, No RPM Drop at Lockup"
+174,Reverse Gear Lockout circuit Open or Short
+175,Clutch Depressed Switch Circuit
+176,Clutch Released Switch Circuit
+177,Decrease Engine Performance Due To High Intake Air Temperature
+178,Decreased Engine Performance Due To High Injection Pump Fuel Temp
+179,1/1 O2 Sensor Slow During Catalyst Monitor
+180,2/1 O2 Sensor Slow During Catalyst Monitor
+181,1/2 O2 Sensor Slow During Catalyst Monitor
+182,Radiator Temperature Sensor Volts Too High
+183,Radiator Temperature Sensor Volts Too Low
+184,Engine is Cold Too Long
+185,Fuel Pump Relay Control Circuit
+186,Idle Select Signal Invalid
+187,Fuel Injection Pump Battery Voltage Out-Of-Range
+188,Fuel Injection Pump Controller Always On
+189,Accelerator Position Sensor (APPS) Supply Voltage High
+190,Fuel Injection Pump Controller Supply Voltage Low
+191,Intake Manifold Short Runner Solenoid Circuit
+192,Manifold Tune Valve Solenoid Circuit
+193,CNG Fuel System Pressure Too High
+194,No Temp Rise Seen From Intake Heaters
+195,No Temperature Rise Seen From Intake Air Heaters
+196,CNG Pressure Sensor Voltage Too High
+197,CNG Pressure Sensor Voltage Too Low
+198,Target Idle Not Reached
+199,No 5 Volts to TP Sensor
+200,Accelerator Position Sensor (APPS) Supply Voltage Too Low
+201,No 5 Volts to MAP Sensor
+202,No Change in MAP From Start To Run
+203,Lean Operation at Wide Open Throttle
+204,Vacuum Leak Found (IAC Fully Seated)
+205,Auto Shutdown Relay Control Circuit
+206,Auto Shutdown Relay Control Circuit
+207,No ASD Relay Output Voltage At PCM
+208,No ASD Relay Output Voltage At PCM
+209,Timing Belt Skipped 1 Tooth or More
+210,Intermittent Loss of CMP or CKP
+211,Mis-Fire Adaptive Numerator at Limit
+212,Wait To Start Lamp Circuit
+213,No 5V to EGR Sensor
+214,Aux 5 Volt Supply Voltage High
+215,Aux 5 Volt Supply Voltage High
+216,Too Little Secondary Air
+217,Too Much Secondary Air
+218,Battery Temp Sensor Volts Out of Limit
+219,Transmission Fan Relay Circuit
+220,PCV Solenoid Circuit
+221,EATX RPM Pulse Perf
+222,Catalyst Temperature Sensor Circuit Shorted Low
+223,Catalyst Temperature Sensor Circuit Shorted High
+224,Catalytic Converter Overheat Detected
+225,Air Injection Solenoid Circuit
+226,Evap Leak Monitor Pinched Hose Found
+227,Hi Speed Rad Fan CtrL Relay Circuit
+228,Auxiliary 5 Volt Supply Output Too Low
+229,High Speed Fan CtrL Relay Circuit
+230,Low Speed Fan CtrL Relay Circuit
+231,Rad Fan Control Relay Circuit
+232,Ambient/Batt Temp Sensor Volts Too High
+233,Ambient/Batt Temp Sensor Volts Too High
+234,Ambient/Batt Temp Sensor Volts Too Low
+235,Ambient/Batt Temp Sensor Volts Too Low
+236,Leak Detection Pump Sw or Mechanical Fault
+237,Leak Detection Pump Solenoid Circuit
+238,"5 Volt Supply, Output Too Low"
+239,High Speed Rad Fan Ground CtrL Relay Circuit
+240,Hydraulic cooling fan solenoid circuit
+241,Charging System Voltage Too High
+242,Charging System Voltage Too High
+243,Speed Control Solenoid Circuits
+244,Speed Control Solenoid Circuits
+245,Speed Control Switch Always High
+246,Speed Control Switch Always Low
+247,Speed Control Switch Always Low
+248,A/C Pressure Sensor Volts Too High
+249,A/C Sensor Input High
+250,A/C Pressure Sensor Volts Too Low
+251,A/C Sensor Input Low
+252,Clutch Released Switch Circuit
+253,No I/P Cluster CCD/J1850 Messages Received
+254,Charging System Voltage Too Low
+255,Charging System Voltage Too Low
+256,SPD CtrL PWR Relay; or S/C 12V Driver Circuit
+257,SPD CtrL PWR Relay; or S/C 12V Driver Circuit
+258,Batt Loss in 50 Starts
+259,SKIM Invalid Key
+260,No SKIM BUS Messages Received
+261,No MIC BUS Message
+262,Internal Fuel Injection Pump Controller Failure
+263,No Communication Between ECM and Injection Pump Module
+264,Fuel Injection Pump CKP Sensor Does Not Agree With ECM CKP Sensor
+265,Fuel Injection Pump Controller Calibration Error
+266,DTC Set In ECM
+267,DTC Detected In Companion Module
+268,DTC Detected In PCM/ECM or DTC Detected in ECM
+269,Fault In Companion Module
+270,No CCD Messages Received From ECM
+271,No CCD/J1850 Message From Body Control Module
+272,PCM Failure EEPROM Write Denied
+273,PCM Failure SRI Mile Not Stored
+274,No CCD/J1850 Message From TCM
+275,No CCD Messages Received From PCM
+276,Skip Shift Solenoid Circuit
+277,TCC or OD Sol Perf
+278,TCC OR O/D Solenoid Performance
+279,GOV Press Not Equal to Target @ 15-20 PSI
+280,GOV Press Not Equal to Target @ 15-20 PSI
+281,GOV Press Not Equal to Target @ 15-20 PSI
+282,Governor Pressure Above 3 PSI in Gear With 0 MPH
+283,Gov Press Sen Offset Volts Too Lo or High
+284,Governor Press Sen Offset Volts Too Low or High
+285,Governor Pressure Sensor Volts Too Hi
+286,Governor Pressure Sensor Volts Too Hi
+287,Governor Pressure Sensor Volts Too Low
+288,Governor Pressure Sensor Volts Too Low
+289,Trans 12 Volt Supply Relay CtrL Circuit
+290,Trans 12 Volt Supply Relay CtrL Circuit
+291,P/N Switch Stuck in Park or in Gear
+292,P/N Switch Stuck in Park or in Gear

@@ -1,0 +1,88 @@
+id,title
+0,Address types
+1,Address interpretation
+2,Alternate channels
+3,Brightmail
+4,Routing information in addresses
+5,Short circuiting rewriting of routing addresses
+6,Address rewriting upon message dequeue
+7,Channel-specific rewrite rules
+8,Channel directionality
+9,Message size affection priority
+10,Channel connection information caching
+11,Address and message file processing amounts
+12,Multiple addresses
+13,Expansion of multiple addresses
+14,Multiple subdirectories
+15,Service job queue scheduling
+16,Deferred delivery dates
+17,Undeliverable message notification times
+18,Returned messages
+19,Warning messages
+20,Postmaster returned message content
+21,Including altered addresses in notification messages
+22,Protocol streaming
+23,Triggering new threads in multithreaded channels
+24,Channel protocol selection
+25,SMTP EHLO command
+26,Receiving an SMTP ETRN command
+27,Sending an SMTP ETRN command
+28,SMTP VRFY commands
+29,Responding to SMTP VRFY commands
+30,SMTP EXPN commands
+31,TCP/IP port number
+32,TCP/IP MX record support
+33,Last resort host specification
+34,Reverse DNS and IDENT lookups on incoming SMTP connections
+35,Alternate channels for incoming mail
+36,Host name for incomplete addresses
+37,Illegal blank recipient headers
+38,Messages without recipient header
+39,Eight-bit capability
+40,Character set labeling
+41,Message line length restrictions
+42,Channel-specific use of the reverse database
+43,Inner header rewriting
+44,Restricted mailbox encoding
+45,Message header line trimming
+46,Encoding: header line
+47,X-Envelope-to: Header Lines generation
+48,Return-path: header line generation
+49,Envelope To: and From: Addresses in Received: Header Lines
+50,Postmaster address
+51,Blank envelope return addresses
+52,Comments in address header lines
+53,Personal names in address header lines
+54,Alias file and alias database probes
+55,Subaddresses
+56,Addresses produced by aliases
+57,Two or four digit date conversion
+58,Day of week in date specifications
+59,Automatic splitting of long header lines
+60,Header alignment and folding
+61,Automatic defragmentation of messages and partial messages
+62,Automatic fragmentation of large messages
+63,Absolute message size limits
+64,Maximum length header
+65,Mail delivery to over quota users
+66,Gateway daemons
+67,Processing of account or message router mailbox
+68,Message logging
+69,Debugging channel master and slave programs
+70,Sensitivity checking
+71,SASL configuration
+72,Verify the domain on mail From: is in the DNS
+73,Channel operation type
+74,Filter file location
+75,Authenticated address from SMTP AUTH in header
+76,Transport layer security
+77,MS Exchange Gateway channels
+78,Remove source routes
+79,Default language
+80,Loopcheck
+81,Service
+82,Deferred delivery
+83,Lines over 1000 characters
+84,Process Channel Overrides
+85,NO-SOLICIT SMTP extension support
+86,Limits the number of bad RCPT TO: addresses

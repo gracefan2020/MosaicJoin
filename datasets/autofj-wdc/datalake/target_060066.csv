@@ -1,0 +1,51 @@
+id,title
+0,"Netbsd can't compile parrot on alpha platform, due to va_list type confusion"
+1,Netbsd gets SIGFPE on alpha platform when calculating Inf
+2,Parrot lexicals won't accept unicode identifiers
+3,"Add a configure step, --pirc"
+4,"add ""--no-line-directives"" switch to Configure.pl"
+5,Parrot can't handle linker scripts
+6,tools/dev/create_language.pl hardcodes the language name perl6 in harness
+7,make segfaults with PGE.pbc on fedora (r38365)
+8,auto::sizes: Complete development of maxmin probes
+9,http download links should be exposed on download page
+10,ftp download links to should point to actual file...
+11,PGE alpha rule should match underscore
+12,tools/dev/install_files.pl: bug masked by missing file in MANIFEST.generated
+13,PGE Longest token match
+14,PGE proto regex
+15,Panic when rethrowing null
+16,Create a graphical installer for parrot
+17,"parrot_config with multiple options, bad output"
+18,dynlexpad doesn't work with installed parrot.
+19,Win64 build fails with 64-bit CL
+20,exception from :immediate sub bus errors.
+21,src/dynext.c uses STRING's ->strstart
+22,[RFC] Clean-up PMC generated files.
+23,Test failures in make -k fulltest at r38415
+24,sizeof_i_i opcode uses old integer types.
+25,Docs to html incorrect in pdd07_codingstd.pod
+26,Status of Event PMC
+27,Off-end-of-array access in Parrot_OrderedHash_visit
+28,smolder: server error on submission
+29,[PMC] inheritance of abstract PMC is broken
+30,Usage information for command line options
+31,Some vtable functions stil used externally
+32,Crash when loading PIR file
+33,voting system for parrot foundation
+34,Segfault while compiling fperrad's lua
+35,target 'make hello' broken
+36,"[PATCH] remove ""."" from architecture names"
+37,const STRING problems
+38,[PATCH] src/call/pcc.c compile on hpux
+39,[PATCH] src/gc/system.c compile on HPUX
+40,[PMC] cannot share functions between PMC
+41,non-constant initializations in src/pmc/*.c
+42,"[PATCH] remove ""."" from architecture names"
+43,[bug] Parrot named arguments choke on unicode names
+44,Kill non-working GC cores
+45,Optimization in src/pmc/RetContinuation.pmc:invoke causes segfault
+46,libparrot.dll missing entry points
+47,[PATCH] Rewrite of t/pmc/ro.t to PIR
+48,Tidy failure cases for PIR implementation of t/pmc/ro.t
+49,[PATCH] Add more dependencies on parrot.h

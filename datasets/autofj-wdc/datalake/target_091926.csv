@@ -1,0 +1,51 @@
+id,title
+0,admin theme does not show up
+1,Devel User Switch does not work as expected
+2,Can't login to new site after uploading from local
+3,Admin Menu 'leaf' items show 'expanded' icon.
+4,Plus buttons to expand menu conflict with overlay
+5,Remove useless files[] directive from .info files
+6,Compatibility with XML Sitemap Menu
+7,Conflict with Advanced CSS/JS Aggregation module
+8,"Admin panel not opening with ""Aggregate JavaScript files"" on"
+9,jquery drilldown : unrecognized expression ul.menu a[href=/my/path]
+10,jquery.drilldown.js Breadcrumb error
+11,Border radius needs to loss the vendor for Mozilla Firefox.
+12,"Admin contains no Administration Links, only content creation and theme selection."
+13,My Account block in 'Word Case'
+14,"Button text partially hidden, overflow when text too big."
+15,"Use relative values for height, width, etc"
+16,jquery-cookie loaded later than expected
+17,Admin_menu links disappear when Admin module enabled
+18,Update Module Description to indicate that it puts a wrench icon in the top left corner
+19,Is admin inline still available?
+20,No titles shown for custom blocks added to the admin toolbar
+21,Module Filter module doesn't work with Admin Module
+22,Possible undefined variable with jquery 1.7
+23,Blocks appear even if user does not have permissions to see them
+24,Admin button not visible
+25,Status of this project?
+26,Administration Menu disappears / is overridden by another item.
+27,My websites Admin menu is missing(mistakenly it was hidden)
+28,Uncompressed javascript fails with admin module enabled
+29,jQuery 1.7 and adminToolbar.toggle
+30,Admin toolbar not working overlay disabled.
+31,"custom menus per role, without automatically adding pages with permissions."
+32,Errors on the Features Page.
+33,$.cookie undefined in Drupal.adminToolbar.getState
+34,+/- Expand/Collapse not working since beta5 update
+35,Does not work in IE9
+36,bug with jquery plagin
+37,"In installation documentation, mention that Menu module must be enabled for admin links to show up"
+38,Make admin compatible with jquery 1.6+
+39,Fix for a couple of interface issues when using Admin in RTL Languages
+40,"After upgrade D6>D7 , JS is broken,nothing work as designed"
+41,sidebar is hidden by admin_menu
+42,Administration toolbar gets obscured by Administration Menu
+43,Admin description added
+44,blocks content disappear after adding the eleventh block
+45,How to use MyPhpAdmin database to get a site out of maintenance mode in Drupal 7.15?
+46,Suppress Admin Menu on certain frontend pages
+47,Newly created content types not showing under create content
+48,how to view drupal site users
+49,Adding admin links in views adds tab but no title to admin menu

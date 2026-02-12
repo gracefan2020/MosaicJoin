@@ -1,0 +1,59 @@
+id,title
+0,/* -*-c++-*- OpenSceneGraph - Copyright (C) 1998-2006 Robert Osfield
+1,*
+2,* This library is open source and may be redistributed and/or modified under
+3,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+4,* This library is open source and may be redistributed and/or modified under
+5,* the terms of the OpenSceneGraph Public License (OSGPL) version 0.0 or
+6,* (at your option) any later version. The full license is in LICENSE file
+7,"* included with this distribution, and on the openscenegraph.org website."
+8,*
+9,*
+10,"* This library is distributed in the hope that it will be useful,"
+11,* but WITHOUT ANY WARRANTY; without even the implied warranty of
+12,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+13,* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+14,* OpenSceneGraph Public License for more details.
+15,*/
+16,SceneGraphBuilder();
+17,//
+18,//
+19,// OpenGL 1.0 style building methods
+20,//
+21,"void Scaled(GLdouble x, GLdouble y, GLdouble z);"
+22,"void Rotated(GLdouble angle, GLdouble x, GLdouble y, GLdouble z);"
+23,"void BlendFunc(GLenum srcFactor, GLenum dstFactor);"
+24,void CullFace(GLenum mode);
+25,void PolygonStipple(const GLubyte* mask);
+26,void ShadeModel(GLenum mode);
+27,void Enable(GLenum mode);
+28,void Disable(GLenum mode);
+29,"void Color4f(GLfloat red, GLfloat green, GLfloat blue, GLfloat alpha);"
+30,"void Color4fv(GLfloat* c) { Color4f(c[0], c[1], c[2], c[3]); }"
+31,protected:
+32,typedef std::vector Matrices;
+33,void matrixChanged();
+34,void addAttribute(osg::StateAttribute* attribute);
+35,"void addMode(GLenum mode, bool enabled);"
+36,"void addMode(GLenum mode, bool enabled);"
+37,"void addTextureAttribute(unsigned int unit, osg::StateAttribute* attribute);"
+38,"void addTextureMode(unsigned int unit, GLenum mode, bool enabled);"
+39,"void addTextureMode(unsigned int unit, GLenum mode, bool enabled);"
+40,void addShape(osg::Shape* shape);
+41,void addDrawable(osg::Drawable* drawable);
+42,void newGeometry();
+43,void allocateGeometry();
+44,void completeGeometry();
+45,void allocateStateSet();
+46,Matrices _matrixStack;
+47,osg::ref_ptr _stateset;
+48,bool _statesetAssigned;
+49,bool _normalSet;
+50,osg::Vec3f _normal;
+51,osg::ref_ptr _colors;
+52,osg::ref_ptr _texCoords;
+53,struct QuadricState
+54,{
+55,osg::ref_ptr _transform;
+56,osg::ref_ptr _group;
+57,};

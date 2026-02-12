@@ -1,0 +1,51 @@
+id,title
+0,Overriding text format order does not work when editing node or user fields
+1,Hide filter selection for non-field elements
+2,Drupal 8 version
+3,Empty DIV rendered if no format elements displayed
+4,Legend Needed for Fieldset
+5,Text Editor Is Missing For All Users Except Admin
+6,wysiwyg not shown when no permission to select text format
+7,hidden input field for wysiwyg editor is removed under certain circumstances
+8,"Option to hide ""More information about text formats"" fieldset when only one format is selected for one field"
+9,Admin should not need permissions
+10,7.x-1.0 release
+11,Features Integration?
+12,Notice: Undefined index: format in better_formats_text_process()
+13,Support for blocks in D7
+14,"Show format selection for ,,, Privatemsg Modul"
+15,Change default text processing to filtered text
+16,"Fix for a notice: index not found ""fieldable'"
+17,Defaults not used when imported with feeds
+18,Text format field is required
+19,Offering to maintain BETTER_FORMATS
+20,Override default order also on edit forms
+21,Strange blank border under the element with enabled better formats
+22,Help tips collapsible fieldset
+23,Default settings per entity type
+24,Bug in show format tips
+25,Show format selection for metatags_path_baseds required for functional search box?
+26,Better positioning of help text for textareas that are text-format-enabled
+27,support for hiding info about select format for private message textarea
+28,Should not show format chooser when node type has no body field
+29,Wrong config link in .info
+30,Per field format settings with full BF options via CCK widget
+31,Add classes to the filter selection wrapper when hiding elements
+32,Features integration
+33,hide format tips in signature field
+34,"Require ""show more format tips link"" permission to access /filter/tips"
+35,Set preferred format per content type
+36,add per user default input filter
+37,"Support for Panels ""Custom node content"""
+38,Make use of theme_table and theme_fieldset render admin form
+39,Perserve weight when overwriting existing format
+40,BF requires node editing form to have ['format'] inside ['body_field'] element
+41,integrate with role weights
+42,Does not work with install profiles
+43,Hiding Guidelines of CCK Table Fields
+44,Work with ecard module
+45,Break up features into smaller modules
+46,Comment defaults should not be visible when comment module is disabled
+47,API for register & get a default input format assigned
+48,not hide fielset Input format of the ubercart form
+49,"Support body field of ""project-issue"" type"

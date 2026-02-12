@@ -1,0 +1,101 @@
+id,title
+0,YAM crashes sometimes during sending of e-mail
+1,Can't download messages form one of my providers anymore
+2,crash during sending of e-mail
+3,Search listview does not reopen properly
+4,Crash at startup (bsdsocket.library)
+5,Missing Reply-to address in Information window
+6,"Forwarded messages with a html view, have an unreadable attachment part1.2"
+7,All existing files in inbox folder doubled
+8,YAM cannot send attached emails
+9,Edit window left opened makes Yam lose track of the source file
+10,Fenster für Passworteingabe nicht sichtbar
+11,trac error
+12,smtp send on port 587 impossible ?
+13,StartYam2.9p1MOS3.7
+14,Couldn't initialize TLSv1/SSLv3 session with host
+15,DSI crash at exit
+16,Couldn't initialize TLSv1/SSLv3 session with host 'mx.freenet.de'
+17,User guide won't open with Finnish locale
+18,German catalog file doesn't work
+19,MUI window gadget for popup menu don`t work
+20,"""Apply remote filter"" config entry is lost"
+21,Crash on opening YAM
+22,No Catalogs in YAM210dev-AmigaOS3.lha
+23,YAM crash while (auto) saving Indexes
+24,YAM crashes after edit a mail
+25,clone Attachment list will not be opened with drag and drop a email from maillist
+26,"MUI4 and YAM tabs/groups show ""minimun"" width"
+27,'NList.mcc' v20.136 ???
+28,NB 20/11/2013 overwrites language settings
+29,"YAM in German: Shortcut Amiga-C for ""Ansicht"" is very annoying"
+30,address book gets deleted when deleting one entry?
+31,launching YAM outputs TZ: 'Europe/Berlin'
+32,Crash when click Config
+33,"YAm 2.8 beta, build from 20.12.12 on AROS. Open window problem."
+34,Crash of yam configuration under morphos 3.1
+35,Deleting multiple messages at once no longer works
+36,update notification window always pops up after iconify
+37,OS3 version doesn't load theme images anymore
+38,OS3 Debug Version is corrupt
+39,yam produces a gr when opening config window
+40,Trying to Download an update wants to save file called Tsf.net
+41,Crash after downloading mail
+42,Window borders overwrittin when window size minimized
+43,YAM crashes when deleting mails from trashcan by hand
+44,"indexing bug: subfolder ""topmost"" overflow"
+45,DSI-error while writing long e-mail
+46,YAM overwrites the settings of my incoming folder on startup
+47,YAM overwrites/removes liked .index files
+48,grim reaper when reading a mail
+49,yam nightly (29.09.2011) crashes when opening a mail
+50,Yam 2.7
+51,Birthday feature broken
+52,"""IN"" filters do not work in YAM nightly build"
+53,Email not Base64 decoding
+54,"""Preview"" of sound played for new mail not working in prefs"
+55,Crash when checking for nightly update
+56,URL highlighting fails with special chars (like Umlaute)
+57,MAILTO doesn't work if YAM is already running.
+58,"Move or delete a selection defined after a ""find"""
+59,Unexpected EOF
+60,Crashes on exit
+61,Updatecheck crashes when new update is available
+62,"Use of the ""find"" messages window"
+63,Morphos Bug in archive
+64,Problems to navigate with cursor keys on the configuration window YAM2.7dev-20100901
+65,Mail preview locks up
+66,Yam nightbuild from 13/08/2010 to 21/08/2010 crash on loading on OS4upd2
+67,"Add option to ""GetMail"" one account after another"
+68,GUI improvement (Configuration window)
+69,Proxy Server support
+70,Option to clear spam folder on exit automatically
+71,Nightly build and debug archive
+72,"How about changing the two buttons below the ""search in""-list"
+73,Missing from field
+74,Double clicking an URL does highlight/mark parts of the string
+75,"Select ""incoming"" folder when search is opened for the first time"
+76,Remove necessity to double-hit Enter in To: field
+77,"""Mark as read"" filter action"
+78,Perform notifications only when all download-tasks are done
+79,Improve error message when attachment loading fails
+80,Notification: Add an icon to the Notification requester
+81,Docky: Make Docky icon text changable
+82,Crash on deleting mail
+83,Cursor not remaining on selected folder
+84,Write window crashed during editing. NListtree.mcc the culprit!
+85,Crash while supposedly running an arexx script in the background.
+86,YAM tried to open file with previous message subject as name before crashing when sending mail
+87,"A list of emails will cancel ""pop up selection"""
+88,Recoverable Alert on closing a ListTree/NewListTree
+89,english-british catalog wrong version
+90,YAM 2.8 doesn't use signatures and erased mine!
+91,Recoverable alert on OS 3.9 when clicking inbox list
+92,cc gone on 2.9 ?
+93,"Getting mails from gmail,"
+94,Update notify without text
+95,Prefs/Read --> Selecting colors cause freeze
+96,Reload arrangement crash
+97,Can't add a photo in address book/Alias
+98,Warning with signatures
+99,Missing .taglines files in 2.6 release archive

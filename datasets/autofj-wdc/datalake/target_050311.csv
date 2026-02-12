@@ -1,0 +1,137 @@
+id,title
+0,IDBG in DFU mode
+1,IDBG in normal mode
+2,"Neo1973/FreeRunner kernel usbnet (g_ether, CDC Ethernet) Mode"
+3,Debug Board (FT2232D) for Neo1973/FreeRunner
+4,Neo1973/FreeRunner u-boot usbtty CDC ACM Mode
+5,HXD8 u-boot usbtty CDC ACM Mode
+6,SMDK2440 u-boot usbtty CDC ACM mode
+7,SMDK2443 u-boot usbtty CDC ACM mode
+8,QT2410 u-boot usbtty CDC ACM mode
+9,Reserved
+10,Reserved
+11,Neo1973/FreeRunner u-boot generic serial Mode
+12,Neo1973/FreeRunner kernel mass storage (g_storage) Mode
+13,"Neo1973/FreeRunner kernel usbnet (g_ether, RNDIS) Mode"
+14,Neo1973/FreeRunner internal USB Bluetooth CSR4 module
+15,Neo1973/FreeRunner Bluetooth Device ID service
+16,TBD
+17,TBD
+18,Ubertooth Zero
+19,Ubertooth Zero DFU
+20,Ubertooth One
+21,Ubertooth One DFU
+22,LeoLipo (Arduino Leonardo clone with LiPo charger)
+23,LED Flower S
+24,LED Cube
+25,LED Flower
+26,Kisbee 802.15.4 transceiver
+27,Adjacent Reality Tracker
+28,AVR Programmer
+29,Hypna Go Go
+30,CatNip LPC1343 development board
+31,Enhanced RoboBrrd Brain Board
+32,OpenRISC Ordb2a-ep4ce22 development board
+33,Paparazzi Lisa/M (DFU)
+34,OpenPipe: OSHW Bagpipes MIDI controller
+35,LeoLipo (DFU)
+36,Universal C64 Cartridge
+37,DiscFerret magnetic disc analyser (Bootloader)
+38,DiscFerret magnetic disc analyser (Active/run)
+39,Smoothieboard
+40,phInterface
+41,Black Magic Debug Probe (DFU)
+42,Black Magic Debug Probe (Application)
+43,4pi 5 axis motion controller
+44,Paparazzi Lisa/M (Application)
+45,IST-2 chronograph for bullet speeds
+46,EPOSMote II
+47,UDS18B20 USB Temperature Sensor
+48,5x5 STM32 prototyping board
+49,uNSF - Portable NSF Player
+50,Toad3 - 4 Axis CNC controller
+51,AlphaSphere - USB peripheral music controller
+52,LightPack - monitor light for presence effect strengthening
+53,Pixelkit - turn old game controllers into USB HID
+54,Illucia - connect computer programs by physical jacks + cables
+55,Keyglove - Keyboard glove (HID)
+56,Keyglove - Keyboard glove (USB Serial)
+57,Key64 Keyboard
+58,ErgoDox ergonomic keyboard
+59,Marlin 2.0 (USB Serial)
+60,Marlin 2.0 (Mass Storage)
+61,FPGALink USB FPGA communication
+62,5nes5snes Nintendo / Supernintendo Controller USB Adapter (5x8)
+63,5nes5snes Nintendo / Supernintendo Controller USB Adapter (4x12)
+64,Flexibity Open Sensors Toolkit for home and environment monitoring
+65,K-copter Open Source multicopter project
+66,USB-oscope simply DIY USB scope
+67,handmade gsm gps tracker
+68,ncrmnt.org USB Device
+69,frobiac / adnw keyboard
+70,Tiflomag Ergo 2 MP3 player for visually impaired people
+71,FreeLaserTag Gun game based on IR (Infra Red) toy guns
+72,FreeLaserTag Big Brother game based on IR (Infra Red) toy guns
+73,FreeLaserTag Node game based on IR (Infra Red) toy guns
+74,Monaka MIDI-based physical computing platform
+75,XFD eXtreme Feedback Device for continuous integration
+76,TiLDA badge for emfcamp
+77,Raspiface Interface Raspberry Pi with Arduino Leonardo
+78,Paparazzi LPCUSB Bootloader
+79,Paparazzi LPCUSB Serial
+80,Paparazzi LPCUSB Mass Storage
+81,airGuitar USB-MIDI guitar like interface
+82,moco MIDI IN/OUT converter
+83,AlphaSphere - USB peripheral music controller (bootloader)
+84,Dspace robot controller
+85,pc-power PC Power Consumption Registrator
+86,open-usb-can Open Source USB CANBUS converter (DFU Mode)
+87,open-usb-can Open Source USB CANBUS converter (Normal Mode)
+88,mimus-weigand AVR-based device to control Weigand Protocol RFID reader
+89,RfCat Chronos Dongle
+90,RfCat Dons Dongle
+91,RfCat Chronos Bootloader
+92,RfCat Dons Bootloader
+93,HackRF Jawbreaker
+94,Makibox A6
+95,Paella Pulse height analyzer
+96,Miniscope v2b
+97,Miniscope v2c
+98,GoodFET
+99,pinocc.io
+100,APB Team Robotic Development Board
+101,Darkgame Controller
+102,Satlab/AAUSAT3 BlueBox
+103,RADiuS USB Dongle with SMA Connector
+104,The Glitch
+105,OpenPipe MIDI-USB Shield
+106,Novena USB OTG Port
+107,xser USB-Serial dongle
+108,Daisho USB test
+109,RfCat YARD Stick One
+110,YARD Stick One Bootloader
+111,Funky Sensor v2
+112,Blinkiverse Analog LED Fader
+113,Small DIP package Cypress FX2
+114,Data logger using the Cypress FX2
+115,Power Manager
+116,WhiteRabbit console and USB-Wishbone bridge
+117,CPC FPGA
+118,CPC FPGA (DFU)
+119,CPC FPGA (serial)
+120,Nuand BladeRF
+121,Orbotron 9000 (serial)
+122,Orbotron 9000 (HID)
+123,xser (DFU mode)
+124,xser (legacy mode)
+125,"S08-245, urJtag compatible firmware for S08JS"
+126,Blinkytape full-color light tape
+127,TinyG open source motion controller
+128,Reefangel Evolution 1.0
+129,Geschwister Schneider USB to CAN adapter
+130,Open Pinball Project
+131,The Glitch HID
+132,The Glitch Disk
+133,The Glitch Serial
+134,The Glitch MIDI
+135,The Glitch RawHID

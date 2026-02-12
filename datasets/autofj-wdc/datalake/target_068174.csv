@@ -1,0 +1,52 @@
+id,title
+0,a format for the what string:
+1,branch number
+2,body
+3,branch flag
+4,ceiling boundary
+5,comments for delta
+6,date delta created
+7,day delta created
+8,deltas ignored (seq #)
+9,"seq-no. of deltas included, excluded, ignored"
+10,delta line statistics
+11,month delta created
+12,deltas included (seq #)
+13,predecessor delta seq-no.
+14,default SID
+15,delta sequence number
+16,delta information
+17,delta type
+18,deltas excluded (seq #)
+19,year delta created
+20,s.file name
+21,floor boundary
+22,file descriptive text
+23,flag list
+24,gotten body
+25,SCCS delta ID (SID)
+26,joint edit flag
+27,keyword error/warning flag
+28,level number
+29,lines deleted by delta
+30,lines inserted by delta
+31,locked releases
+32,lines unchanged by delta
+33,module name
+34,MR validation flag
+35,MR validation program
+36,MR numbers for delta
+37,null delta flag
+38,user defined keyword
+39,user who created delta
+40,s.file's pathname
+41,release number
+42,sequence number
+43,time delta created
+44,hour delta created
+45,minutes delta created
+46,seconds delta created
+47,user names
+48,a form of what string
+49,module type flag
+50,what string delimiter

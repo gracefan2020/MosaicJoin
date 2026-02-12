@@ -1,0 +1,73 @@
+id,title
+0,Altitude above mean sea level
+1,Altitude
+2,Altitude above ground level
+3,"Antenna transition indicator, 1 if between sweeps, otherwise 0"
+4,Azimuth angle from true north
+5,Base time in Epoch
+6,Copol to cross-polar correlation coefficient (also known as rhocx)
+7,Copolar correlation coefficient (also known as rhohv)
+8,Cross-polar propagation phase shift
+9,Differential propagation phase shift
+10,Differential reflectivity
+11,Elevation angle from horizontal plane
+12,Target angle for sweep
+13,Follow mode
+14,Operating frequency
+15,Instrument type
+16,North latitude
+17,Latitude
+18,Radar polarization Linear depolarization ratio H
+19,"Linear depolarization ratio, horizontal channel"
+20,"Linear depolarization ratio, vertical channel"
+21,East longitude
+22,Longitude
+23,"Hydrometeor fall velocity Radial mean Doppler velocity, positive for motion away from the instrument"
+24,Number of samples used to compute moments
+25,Unambiguous Doppler velocity
+26,Platform type
+27,Polarization mode
+28,Primary axis of rotation
+29,Pulse repetition time
+30,PRT mode
+31,Pulse width
+32,Index for the calibration that applies to each ray
+33,Noise floor power for horizontal copolar channel1
+34,Noise power in noise source region for horizontal copolar channel 1
+35,Noise power in noise source region for vertical cross-polar channel
+36,Noise floor for vertical cross-polar channel 2
+37,Pulse width for this calibration
+38,"Radar constant, horizontal copolar channel 1"
+39,"Radar constant, vertical cross-polar channel 2"
+40,Receiver gain for horizontal copolar channel 1
+41,Receiver gain for vertical cross-polar channel 2
+42,Time of the calibration that applies to each ray
+43,Two-way radome loss
+44,Transmit power
+45,"Nominal radar antenna gain, h channel"
+46,"Nominal radar antenna gain, v channel"
+47,"Half-power radar beam width, horizontal channel"
+48,"Half-power radar beam width, vertical channel"
+49,"Radar measured transmit power, h channel"
+50,Range to measurement volume
+51,Radar reflectivity Equivalent reflectivity factor
+52,"Antenna scan rate, positive for clockwise or increasing elevation"
+53,"Sky noise, copolar"
+54,"Filtered sky noise, horizontal channel"
+55,"Filtered sky noise, vertical channel"
+56,"Sky noise, cross-polar"
+57,"Sky power, copolar"
+58,"Sky power, cross-polar"
+59,Signal-to-noise-ratio
+60,Cloud particle size distribution Spectral width
+61,Sweep number
+62,"Time index of last ray in sweep, 0-based"
+63,Sweep mode
+64,"Sweep number, zero-based count"
+65,"Time index of first ray in sweep, 0-based"
+66,Time in seconds since volume start
+67,Time corresponding to last radial in file
+68,Time corresponding to first radial in file
+69,Time offset from base_time
+70,Unambiguous range
+71,Volume number

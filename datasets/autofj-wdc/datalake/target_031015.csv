@@ -1,0 +1,76 @@
+id,title
+0,acks for commit broadcast(actual)
+1,acks for commit broadcast(logical)
+2,broadcast msgs on commit(actual)
+3,broadcast msgs on commit(logical)
+4,broadcast msgs on commit(wasted)
+5,dynamically allocated gcs resources
+6,dynamically allocated gcs shadows
+7,false posts waiting for scn acks
+8,flow control messages received
+9,flow control messages sent
+10,gcs assume cvt
+11,gcs assume no cvt
+12,gcs ast xid
+13,gcs blocked converts
+14,gcs blocked cr converts
+15,gcs compatible basts
+16,gcs compatible cr basts (global)
+17,gcs compatible cr basts (local)
+18,gcs cr basts to PIs
+19,gcs cr serve without current lock
+20,gcs dbwr flush pi msgs
+21,gcs dbwr write request msgs
+22,gcs error msgs
+23,gcs forward cr to pinged instance
+24,gcs immediate (compatible) converts
+25,gcs immediate (null) converts
+26,gcs immediate cr (compatible) converts
+27,gcs immediate cr (null) converts
+28,gcs indirect ast
+29,gcs lms flush pi msgs
+30,gcs lms write request msgs
+31,gcs msgs process time(ms)
+32,gcs msgs received
+33,gcs out-of-order msgs
+34,gcs pings refused
+35,gcs queued converts
+36,gcs recovery claim msgs
+37,gcs refuse xid
+38,gcs regular cr
+39,gcs retry convert request
+40,gcs side channel msgs actual
+41,gcs side channel msgs logical
+42,gcs undo cr
+43,gcs write notification msgs
+44,gcs writes refused
+45,ges msgs process time(ms)
+46,ges msgs received
+47,global posts dropped
+48,global posts queue time
+49,global posts queued
+50,global posts requested
+51,global posts sent
+52,implicit batch messages received
+53,implicit batch messages sent
+54,lmd msg send time(ms)
+55,lms(s) msg send time(ms)
+56,messages flow controlled
+57,messages queue sent actual
+58,messages queue sent logical
+59,messages received actual
+60,messages received logical
+61,messages sent directly
+62,messages sent indirectly
+63,messages sent not implicit batched
+64,messages sent pbatched
+65,msgs causing lmd to send msgs
+66,msgs causing lms(s) to send msgs
+67,msgs received queue time (ms)
+68,msgs received queued
+69,msgs sent queue time (ms)
+70,msgs sent queue time on ksxp (ms)
+71,msgs sent queued
+72,msgs sent queued on ksxp
+73,process batch messages received
+74,process batch messages sent

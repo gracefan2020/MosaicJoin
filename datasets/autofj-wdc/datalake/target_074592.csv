@@ -1,0 +1,82 @@
+id,title
+0,Revised Metadata delivered into system
+1,Web Services Deployed
+2,Service Report and Revised Infrastructure
+3,Difference Engine Implementation
+4,Web Service Implementations
+5,Revised Infrastructure
+6,Review system requirements document
+7,Mapping Variables to Components: Obvious
+8,Medata data governance
+9,Present quality package slides from year 1 meeting at future telco
+10,Interactions with policy makers
+11,Questionnaire Approval Procedure
+12,Create roadmap for navigating the questionnaire
+13,need to add the progress status bar to the summary page
+14,baseview assign needs to be laid out better for multiple entities
+15,rationalise the use of IDs & Version w/in CIM instances
+16,Highlight mandatory fields
+17,Write questionnaire FAQ
+18,Numerical Requirements for Interesting Transitions
+19,check that data container lists are filtered to the centre ...
+20,logout button needed in base template
+21,Need configurable URL prefix for case where Questionnaire run from non-root location
+22,Provide a complete example of questionnaire output for ESG
+23,Liaise with Karl about guidelines and examples for questionnaire on CMIP5 website
+24,Draft questionnaire launch email announcement for CMIP5
+25,Governance of CIM and associated software
+26,Questionnaire support
+27,Controlled vocabulary for zero level model type
+28,mandatory vs. optional entries in the questionnaire
+29,"Update input details for ""Input resolution"""
+30,Document TAMIP experiments in questionnaire
+31,"Documenting non-overlapping ""ensembles"" for CMIP5"
+32,possible hole in questionnaire cardinality checks
+33,SERVICES SPRINT 07 - Resolution Service
+34,SERVICES SPRINT 10 - Connection between CIM objects especially dataObject <--> simulationRun / experiment
+35,"""top level"" component uses ""Attributes"" rather than ""General Attributes"""
+36,Compile udunits lists for qn unit entries
+37,METAFOR search engine front end integration in partners portal (UoC first)
+38,Live updates to definitions in the mindmaps ?
+39,"Files: ""mostly used in experiment"" list not working"
+40,No Scroll bar on cf netcdf dropdown list for file variables
+41,questionnaire error if you delete a reference
+42,Incorporate CIM schema and CMIP5 validation into Questionnaire
+43,workaround for lxml bug exposed by validation code
+44,implement Controlled Vocabularies
+45,Example Questionnaire Content
+46,delete dummy CNRM/CERFACS entries
+47,branded start and help pages for the questionnaire.
+48,Demonstration Telcos
+49,Consider improving the logic on the model mods from simulation page
+50,Update ConCIM and ApCIM for quality control changes
+51,Allow reference to already described components/grid components
+52,Do we want to ask ensemble information for ensemble member 1?
+53,Need to add an 'There are errors on this page' at the top of each page
+54,Support direct upload of XML for the report page
+55,(python) command line tool for creating reports
+56,XML Quality records don't show subissues
+57,Allow copying of models with/without bindings
+58,put the 'export text' button on the key properties page
+59,"update the ""about.html"" tab"
+60,Introduce 'pop-up box' style functionality for adding/attaching
+61,Warning/Information messages
+62,Restructuring of the QN general layout
+63,CV updates to platforms
+64,Fix experiment XML files for ESG ingest and display
+65,Model mods for perturbed physics ensembles
+66,When is a document sets are ready to send to CMIP5?
+67,bias correction in the questionnaire?
+68,Questionnaire Reporting - model description league table
+69,questionnaire to gather info about both platforms and deployments
+70,questionnaire and CIM need to be able to handle deployments
+71,mock up a DOI landing page
+72,what happened Mark's descriptions and references?
+73,CIM2 Data Model
+74,simulation duration Days or Years display error
+75,simulation start date can be empty
+76,ancil bindings can not be saved
+77,viewer fails with latest translator code
+78,how to handle the extra information in component descriptions
+79,CIM 1.92 open issues - placeholder ticket
+80,Issues with project in CIM 1.9.3

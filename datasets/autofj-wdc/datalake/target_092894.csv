@@ -1,0 +1,101 @@
+id,title
+0,Update nightly tests to determine if cplex tests are using cplex
+1,COIN/Harwell library issue
+2,Soplex goes into infinite loop
+3,COIN configuration
+4,PICO with cplex incorrectly calling flugpl integer infeasible
+5,Handle interrupts in 'setup'
+6,Rework management of test problems
+7,Give users more information when doing root pseudocost intialization
+8,Copy parameter settings when copying an LP object
+9,Error checking when initializing EA with points
+10,Arguments after the mps input file are silently ignored
+11,Resolve accuracy of LP object copy constructor.
+12,Comparative MIP solver paper
+13,COLIN interface to OS
+14,Implement views for caches
+15,Implement PIDOMS solver
+16,Support DAKOTA-style format for shell application interface
+17,Define scope of acro userapps
+18,Migrate TMF to software.sandia.gov
+19,Integrate TMF into acro-coliny nightly builds
+20,Acro command-line interface with dynamic linking
+21,Add per-project/package documentation
+22,Finalize SACache integration with COLIN 3.0
+23,Standardize callback mechanism
+24,Configuration of mumps with ipopt
+25,Migrate colin::ObjectType to UTILIB
+26,max_neval semantics
+27,accuracy semantics and management
+28,Document semantics of OptSolver API
+29,deprecate ContextMngr()
+30,Managing exceptions in the optimize() method
+31,Setup support for specifying hybrid optimizers on the coliny command-line
+32,Update PICO to allow cuts in LP-only objects
+33,Revisit requirements for hybrized solvers in COLIN
+34,Adapt finite differencing in COLIN near bound constraints
+35,COLIN application reformulation for fixed variables
+36,Parallel enumeration causes segfault in PICO
+37,Update copyright statements in TMF and SACache
+38,Extend ipconvert capabilities
+39,AMPL Application
+40,Disable generation of *sol.txt files when solving *.nl files
+41,pico_convert - export name
+42,pico_convert
+43,Support inheritable options
+44,"Add ""DEVELOPMENT_MODE"" #define"
+45,Generalized the optimize() capability to use callbacks
+46,Update colin/test/driver tests
+47,Clean out depricated headers
+48,Add support for options in OptApplications
+49,Performance testing on PICO preprocessor
+50,Use appropriate types for internal counters
+51,parse_xml_data() incorrectly guesses data type
+52,"""svn.a rcommit"" should aggregate commits to the same repository"
+53,Add COLIN supported needed for NLP2 applications
+54,pico_convert help summary should say what the format options are
+55,Reconstitute the MultiStart solvers
+56,Reconstitute the EAminlp solver
+57,Revisit all userapps examples
+58,Resolve glpk build issue when building with gcov
+59,Challenging water test case
+60,Delete the colin/README
+61,Delete colin/TODO
+62,Pre-Release Checklist
+63,Release Components Review
+64,Release Process Checklist
+65,Post-Release Checklist
+66,Remove obsolete BestIncumbentRepository code from PICO
+67,Remove MIPHeurisitc module from PICO
+68,PICO failure when compiled without glpk
+69,Check useAbort semantics
+70,Documentation and tutorial for PicoLPInterface cloning process
+71,Validate pico_convert semantics
+72,coliny options
+73,Acro wiki documentation - External packages
+74,acro-coliny getting started documentation
+75,Make milp initialization clearer
+76,MILPSymbol# n=4..9
+77,Add support for evaluating neighbors of a solution
+78,make target for running code tests
+79,Add PICO option to specify the *.sol file
+80,Add option to interpret MPS files with cplex bounds defaults
+81,PICO Example
+82,Extend the 'setup build' syntax to support specification of parallel builds
+83,Pure hubs hang in PICO
+84,Large MPS file causes PICO to segfault
+85,Update PICO documentation
+86,Support annotated application properties
+87,Verbose XML processing
+88,Adapt new_application to support MINLP
+89,Create a pure-integer application?
+90,Screwy variable naming in PICO solution generated within AMPL
+91,Document the role of ColinSolver
+92,COLINize LHS
+93,Configuration-based project management
+94,Enable tests in out-of-source builds
+95,Coliny SAND report
+96,'make distclean' fails for acro-coliny
+97,configuring with --with-optimization=no doesn't disable optimization
+98,Update GLPK snapshot used in acro-pico
+99,Rework the bootstrapping

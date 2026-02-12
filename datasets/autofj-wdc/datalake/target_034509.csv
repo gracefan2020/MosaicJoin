@@ -1,0 +1,71 @@
+id,title
+0,begin abstract; if x=no do not label abstract
+1,end abstract
+2,author's institution
+3,better accent mark definitions
+4,author's name
+5,"embolden x; if no x, switch to boldface"
+6,begin text to be enclosed in a box
+7,end boxed text and print it
+8,"bottom title, printed at foot of page"
+9,print word x in a box
+10,cut mark between pages
+11,chapter title: page number moved to CF (TM only)
+12,force date x at bottom of page; today if no x
+13,end display (unfilled text) of any kind
+14,"begin display with keep; x=I, L, C, B; y=indent"
+15,indented display with no keep; y=indent
+16,left display with no keep
+17,centered display with no keep
+18,block display; center entire block
+19,even page footer x (3 part as for .tl)
+20,even page header x (3 part as for .tl)
+21,end displayed equation produced by eqn
+22,"break out equation; x=L,I,C; y=equation number"
+23,end footnote to be placed at bottom of page
+24,numbered footnote paragraph; may be redefined
+25,start footnote; x is optional footnote label
+26,optional page header below header margin
+27,"italicize x; if no x, switch to italics"
+28,"indented paragraph, with hanging tag x; y=indent"
+29,index words x y and so on (up to 5 levels)
+30,end keep of any kind
+31,begin floating keep; text fills remainder of page
+32,begin keep; unit kept together on a single page
+33,larger; increase point size by 2
+34,left (block) paragraph.
+35,multiple columns; x=column width
+36,no date in page footer; x is date on cover
+37,"numbered header; x=level, x=0 resets, x=S sets to y"
+38,set point size back to normal
+39,odd page footer x (3 part as for .tl)
+40,odd page header x (3 part as for .tl)
+41,print header on first page
+42,paragraph with first line indented
+43,"page title, printed at head of page"
+44,print index (table of contents); x=no suppresses title
+45,quote paragraph (indented and shorter)
+46,return to Roman font
+47,retreat: end level of relative indentation
+48,released paper format; x=no stops title on first page
+49,right shift: start level of relative indentation
+50,"section header, in boldface"
+51,smaller; decrease point size by 2
+52,set TAB characters to 8n 16n . . . (nroff) or 5n 10n . . . (troff)
+53,print table of contents at end; x=no suppresses title
+54,end of table processed by tbl
+55,end multi-page header of table
+56,title in boldface and two points larger
+57,UC Berkeley thesis mode
+58,begin table; if x=H table has multi-page header
+59,"underline x, even in troff"
+60,UNIX; trademark message first time; x appended
+61,another index entry; x=page or no for none; y=indent
+62,end index entry (or series of .IX entries)
+63,"paragraph with first line indented, others indented"
+64,begin index entry; x=page or no for none; y=indent
+65,"one column format, on a new page"
+66,begin two column format
+67,beginning of refer reference
+68,end of unclassifiable type of reference
+69,"N= 1:journal-article, 2:book, 3:book-article, 4:report"

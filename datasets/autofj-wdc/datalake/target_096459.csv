@@ -1,0 +1,51 @@
+id,title
+0,Found Minor Bug in SQL Upgrade Script
+1,user text incorrectly converted for diffent language
+2,Assigned field in ticket history is not localized
+3,Wiki does not impliment all Textile markup
+4,expand/collapse the additional text box.
+5,DB Upgrade failure - 0.8.0.3 to 0.8.6
+6,Tasks in calendar do not have correct due date.
+7,Upgrade: Migration script has missing semicolon on line 41
+8,Ticket remains as open after changed status to closed
+9,"Links on the ""Tags"" tab are broken"
+10,All Wiki gifs are missing
+11,Comments are never displayed
+12,kampPro: broken layout of links
+13,Private comments are not displayed
+14,User Permissions wrong displayed format
+15,Display bugs
+16,Some Images are Missed
+17,Fix permissions after upgrade
+18,Errors from posting/deleting messages in Projects
+19,Cannot upload Project logo
+20,Wiki edit dialog buttons
+21,Make changing default main page easier
+22,Comments on private tasks should not generate notifications for clients.
+23,Search module
+24,File attachements for private comments show up in Files view for clients
+25,double Text / Text overlayed in several menue lines
+26,ERROR in task download process
+27,add_comment.php not needed.
+28,add_comment.php not needed.
+29,"Milestones ""hint"" block lists private messages"
+30,Not alle phrases are translatet - all languages
+31,ERROR in task_list download process
+32,Picking date visualization problem with kamppro
+33,Login only works on firefox
+34,Login page
+35,Ticket Comment Notifications
+36,The edit message view does not show the collapse/expand-field for additonal text
+37,Upgrade from project pier 8.5.0
+38,trying to change permissions for individual company or client members
+39,Editing finished projects
+40,Error in Gantt chart code
+41,Wiki Page - Query failed with message 'Unknown column 'publish' in 'field list''
+42,Time tracking
+43,add task list KO ?
+44,Disabling links plugin & deleting content makes site unusable
+45,Cannot convert from DB to FS
+46,Cannot attach files with comment
+47,Task ordering not working
+48,Page about installing translation is outdated
+49,correct error in installation documentation

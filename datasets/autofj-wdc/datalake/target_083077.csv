@@ -1,0 +1,51 @@
+id,title
+0,sorting is not working when using the POST parameter
+1,PDF Grid Fields and page break
+2,Images missing when image style is used after migration
+3,views pdf blank screen
+4,Module compatiblity with views 6.x-3.x
+5,Include View Duplicates Content
+6,"Contextual filter + ""Display PDF in browser"" disabled causes pdf's to be downloaded without file names and with an incorrect file extension"
+7,Pager missing
+8,"PDF Table: rows overlap on pages 2,3... if a row takes more than one line"
+9,Views Append displays external pdf files multiple times and erratically
+10,Blank PDF on some computers
+11,No PDF Style in Views
+12,Total number of pages
+13,Views PDF Module Issue for Global: views result counter
+14,Page number not shown for large rows
+15,Grouping field doesn't work in the PDF
+16,Typo in hook_views_plugins()
+17,PHP Code Before After Output
+18,Display mode panelized
+19,Add a custom layout hook
+20,Changing output filename - append a field value
+21,Is page number positioning in the footer possible for PDF Table?
+22,choose a display on the views_field_view module
+23,[META] views_pdf 7.x-2.x issue list
+24,[V2] Remove views_append module and merge it to views_pdf
+25,[V2] Add testing
+26,better admin interface
+27,Heading with PDF page
+28,Token filter support
+29,Merge pdf files attached to nodes with created pdf from Views PDF
+30,branch for working with mPDF
+31,caching support
+32,Can Views_PDF handle digital signatures through TCPDF?
+33,"optional page break, starting page number accessible by php and join views already pdf"
+34,multipage template repeat all pages of template (not just last page)
+35,Support footnotes
+36,Delete a template file
+37,Generates PDF but only saves Blank PDF
+38,Pagebreak only active if filed has content
+39,Positioning Field Output for Columns
+40,Update PDF template files without going inside the view settings
+41,Remove element styles from Views Include field table
+42,Included view doesn't have dimensions: wrong position of following fields
+43,Unable to use tokens with Views PDF
+44,Header&Footer wrong generated with global php fields
+45,The purpose of the included modules
+46,Undefined index in views_pdf_plugin_style_table.inc
+47,Issues with rewriting output on 2nd display
+48,Views PDF Display breaks for anonymous user
+49,internal links are not working...

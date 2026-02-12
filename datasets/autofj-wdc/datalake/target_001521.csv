@@ -1,0 +1,465 @@
+id,title
+0,Manufacturing
+1,Food manufacturing
+2,Bakeries & tortilla manufacturing
+3,Textile mills
+4,Textile & fabric finishing & fabric coating mills
+5,Textile & fabric finishing mills
+6,Broadwoven fabric finishing mills
+7,Apparel manufacturing
+8,Cut & sew apparel manufacturing
+9,Men's & boys' cut & sew apparel manufacturing
+10,Men's & boys' cut & sew shirt (exc work shirt) manufacturing
+11,"Men's & boys' cut & sew trouser, slack & jean manufacturing"
+12,Women's & girls' cut & sew apparel manufacturing
+13,Women's & girls' cut & sew other outerwear manufacturing
+14,Leather & allied product manufacturing
+15,Footwear manufacturing
+16,Footwear manufacturing
+17,Men's footwear (except athletic) manufacturing
+18,Paper manufacturing
+19,Converted paper product manufacturing
+20,Paperboard container manufacturing
+21,Corrugated & solid fiber box manufacturing
+22,Printing & related support activities
+23,Printing & related support activities
+24,Printing
+25,Plastics & rubber products manufacturing
+26,Plastics product manufacturing
+27,Other plastics product manufacturing
+28,All other plastics product manufacturing
+29,Nonmetallic mineral product manufacturing
+30,Primary metal manufacturing
+31,Nonferrous metal (except aluminum) production & processing
+32,"Copper rolling, drawing, extruding & alloying"
+33,Fabricated metal product manufacturing
+34,Architectural & structural metals manufacturing
+35,Computer & electronic product manufacturing
+36,Semiconductor & other electronic component manufacturing
+37,Semiconductor & other electronic component manufacturing
+38,Semiconductor & related device manufacturing
+39,Mfg & reproducing magnetic & optical media
+40,Mfg & reproducing magnetic & optical media
+41,"Prerecorded CD (except software), tape & record reproducing"
+42,"Electrical equipment, appliance & component manufacturing"
+43,Household appliance manufacturing
+44,Small electrical appliance manufacturing
+45,Household vacuum cleaner manufacturing
+46,Transportation equipment manufacturing
+47,Motor vehicle parts manufacturing
+48,Motor vehicle electrical & electronic equipment manufacturing
+49,Other motor vehicle electrical & electronic equipment manufacturing
+50,Furniture & related product manufacturing
+51,Household & institutional furniture & kitchen cabinet manufacturing
+52,Miscellaneous manufacturing
+53,Medical equipment & supplies manufacturing
+54,Wholesale trade
+55,Durable goods merchant wholesalers
+56,Mtr vehicle & parts & supplies merchant wholesalers
+57,Automobile & other mtr vehicle merchant wholesalers
+58,Mtr vehicle supplies & new parts merchant wholesalers
+59,Furniture & home furnishing merchant wholesalers
+60,Home furnishing merchant wholesalers
+61,Lumber & other const material merchant wholesalers
+62,"Lumber, plywood & wood panel merchant wholesalers"
+63,"Brick, stone & const material merchant wholesalers"
+64,Prof & commercial equip & supp merchant wholesalers
+65,Comp & perphl equip & software merchant wholesalers
+66,"Med, dental & hosp equip & supp merchant wholesalers"
+67,Metal & mineral (exc petrol) merchant wholesalers
+68,Metal service centers & other metal merchant wholesalers
+69,Electrical goods merchant wholesalers
+70,Elec appar & equip & wiring supp merchant wholesalers
+71,"Electric appliance, TV & radio merchant wholesalers"
+72,Other electronic parts & equip merchant wholesalers
+73,"Hrdwr, plumb & heat equip & supp merchant wholesalers"
+74,Warm air heating & AC equip merchant wholesalers
+75,"Machinery, equipment & supplies merchant wholesalers"
+76,Industrial machinery & equipment merchant wholesalers
+77,Industrial supplies merchant wholesalers
+78,Service estab equipment & supp merchant wholesalers
+79,Miscellaneous durable goods merchant wholesalers
+80,Recyclable material merchant wholesalers
+81,"Jewelry, watch, prec stone & prec metal merchant wholesalers"
+82,Other misc durable goods merchant wholesalers
+83,Nondurable goods merchant wholesalers
+84,Paper & paper product merchant wholesalers
+85,"Apparel, piece goods & notions merchant wholesalers"
+86,Men's & boys' clothing & access merchant wholesalers
+87,Grocery & related product merchant wholesalers
+88,Confectionery merchant wholesalers
+89,Other grocery & related products merchant wholesalers
+90,Farm products raw materials merchant wholesalers
+91,Other farm product raw materials merchant wholesalers
+92,Chemicals & allied products merchant wholesalers
+93,Petroleum & petroleum products merchant wholesalers
+94,Petroleum bulk stations & terminals
+95,"Beer, wine & alcoholic beverage merchant wholesalers"
+96,Beer & ale merchant wholesalers
+97,Miscellaneous nondurable goods merchant wholesalers
+98,Tobacco & tobacco product merchant wholesalers
+99,Other misc nondurable goods merchant wholesalers
+100,Wholesale electronic markets and agents and brokers
+101,Wholesale electronic markets and agents and brokers
+102,Wholesale trade agents & brokers
+103,Retail trade
+104,Motor vehicle & parts dealers
+105,Automobile dealers
+106,New car dealers
+107,Used car dealers
+108,Other motor vehicle dealers
+109,Recreational vehicle dealers
+110,"Motorcycle, boat & other motor vehicle dealers"
+111,Motorcycle dealers
+112,All other motor vehicle dealers
+113,"Automotive parts, accessories & tire stores"
+114,Automotive parts & accessories stores
+115,Tire dealers
+116,Furniture & home furnishings stores
+117,Furniture stores
+118,Home furnishings stores
+119,Floor covering stores
+120,Other home furnishings stores
+121,All other home furnishings stores
+122,Electronics & appliance stores
+123,Electronics & appliance stores
+124,"Appliance, television & other electronics stores"
+125,Household appliance stores
+126,"Radio, television & other electronics stores"
+127,Computer & software stores
+128,Building material & garden equipment & supplies dealers
+129,Building material & supplies dealers
+130,Home centers
+131,Paint & wallpaper stores
+132,Hardware stores
+133,Other building material dealers
+134,Lawn & garden equipment & supplies stores
+135,"Nursery, garden center & farm supply stores"
+136,Food & beverage stores
+137,Grocery stores
+138,Supermarkets & other grocery (except convenience) stores
+139,Convenience stores
+140,Specialty food stores
+141,"Beer, wine & liquor stores"
+142,Health & personal care stores
+143,Health & personal care stores
+144,Pharmacies & drug stores
+145,"Cosmetics, beauty supplies & perfume stores"
+146,Optical goods stores
+147,Other health & personal care stores
+148,Food (health) supplement stores
+149,All other health & personal care stores
+150,Gasoline stations
+151,Gasoline stations
+152,Gasoline stations with convenience stores
+153,Other gasoline stations
+154,Clothing & clothing accessories stores
+155,Clothing stores
+156,Men's clothing stores
+157,Women's clothing stores
+158,Children's & infants' clothing stores
+159,Family clothing stores
+160,Clothing accessories stores
+161,Other clothing stores
+162,Shoe stores
+163,"Jewelry, luggage & leather goods stores"
+164,Jewelry stores
+165,Luggage & leather goods stores
+166,"Sporting goods, hobby, book & music stores"
+167,"Sporting goods, hobby & musical instrument stores"
+168,Sporting goods stores
+169,"Hobby, toy & game stores"
+170,"Sewing, needlework & piece goods stores"
+171,Musical instrument & supplies stores
+172,"Book, periodical & music stores"
+173,Book stores & news dealers
+174,Book stores
+175,"Prerecorded tape, compact disc & record stores"
+176,General merchandise stores
+177,Department stores
+178,Department stores
+179,Department stores (expt discount dept stores)
+180,Discount department stores
+181,Other general merchandise stores
+182,Warehouse clubs & supercenters
+183,All other general merchandise stores
+184,Miscellaneous store retailers
+185,Florists
+186,"Office supplies, stationery & gift stores"
+187,Office supplies & stationery stores
+188,"Gift, novelty & souvenir stores"
+189,Used merchandise stores
+190,Other miscellaneous store retailers
+191,Pet & pet supplies stores
+192,Art dealers
+193,Manufactured (mobile) home dealers
+194,All other miscellaneous store retailers
+195,Nonstore retailers
+196,Electronic shopping & mail-order houses
+197,Vending machine operators
+198,Direct selling establishments
+199,Fuel dealers
+200,Liquefied petroleum gas (bottled gas) dealers
+201,Other fuel dealers
+202,Other direct selling establishments
+203,Information
+204,Publishing industries (except Internet)
+205,"Newspaper, periodical, book & directory publishers"
+206,Newspaper publishers
+207,Motion picture & sound recording industries
+208,Motion picture & video industries
+209,Motion picture & video exhibition
+210,Motion picture theaters (except drive-ins)
+211,Broadcasting (except Internet)
+212,Radio & television broadcasting
+213,Radio broadcasting
+214,Radio stations
+215,Telecommunications
+216,Wired telecommunications carriers
+217,Wireless telecommunications carriers (except satellite)
+218,Wireless telecommunications carriers (except satellite)
+219,Cellular & other wireless telecommunications
+220,Cable & other program distribution
+221,"Internet service providers, web search portals & data processing"
+222,"Data processing, hosting & related services"
+223,Real estate & rental & leasing
+224,Real estate
+225,Lessors of real estate
+226,Lessors of residential buildings & dwellings
+227,Lessors of nonresidential buildings (except miniwarehouses)
+228,Lessors of miniwarehouses & self-storage units
+229,Lessors of other real estate property
+230,Offices of real estate agents & brokers
+231,Activities related to real estate
+232,Real estate property managers
+233,Residential property managers
+234,Nonresidential property managers
+235,Offices of real estate appraisers
+236,Other activities related to real estate
+237,Rental & leasing services
+238,Automotive equipment rental & leasing
+239,Passenger car rental & leasing
+240,Passenger car rental
+241,"Truck, utility trailer & RV rental & leasing"
+242,Consumer goods rental
+243,Consumer electronics & appliances rental
+244,Video tape & disc rental
+245,Other consumer goods rental
+246,All other consumer goods rental
+247,General rental centers
+248,Commercial & industrial machinery & equipment rental & leasing
+249,Oth commercial/industrial machinery & equipment rental & leasing
+250,Lessors of nonfinancial intangible assets (exc copyrighted works)
+251,"Professional, scientific & technical services"
+252,"Professional, scientific & technical services"
+253,Legal services
+254,Offices of lawyers
+255,"Accounting, tax preparation, bookkeeping & payroll services"
+256,"Accounting, tax preparation, bookkeeping & payroll services"
+257,Offices of certified public accountants
+258,Tax preparation services
+259,Other accounting services
+260,"Architectural, engineering & related services"
+261,Architectural services
+262,Engineering services
+263,Surveying & mapping (except geophysical) services
+264,Specialized design services
+265,Interior design services
+266,Graphic design services
+267,Computer systems design & related services
+268,Computer systems design & related services
+269,Custom computer programming services
+270,Computer systems design services
+271,Other computer related services
+272,"Management, scientific & technical consulting services"
+273,Management consulting services
+274,Admin management & general management consulting services
+275,Human resources & executive search consulting services
+276,"Process, physical distribution & logistics consulting services"
+277,Other management consulting services
+278,Environmental consulting services
+279,Scientific research & development services
+280,"Research & development in the phys, engineering & life sciences"
+281,Advertising & related services
+282,Advertising agencies
+283,"Other professional, scientific & technical services"
+284,Photographic services
+285,"Photography studios, portrait"
+286,Veterinary services
+287,Administrative & support & waste management & remediation service
+288,Administrative & support services
+289,Office administrative services
+290,Employment services
+291,Employment placement agencies
+292,Temporary help services
+293,Professional employer organizations
+294,Business support services
+295,Document preparation services
+296,Telephone call centers
+297,Telemarketing bureaus
+298,Business service centers
+299,Private mail centers
+300,Collection agencies
+301,Other business support services
+302,Court reporting & stenotype services
+303,Travel arrangement & reservation services
+304,Travel agencies
+305,Investigation & security services
+306,"Investigation, guard & armored car services"
+307,Investigation services
+308,Security guards & patrol services
+309,Security systems services
+310,Security systems services (except locksmiths)
+311,Locksmiths
+312,Services to buildings & dwellings
+313,Exterminating & pest control services
+314,Janitorial services
+315,Landscaping services
+316,Carpet & upholstery cleaning services
+317,Other services to buildings & dwellings
+318,Other support services
+319,All other support services
+320,Waste management & remediation services
+321,Waste treatment & disposal
+322,Remediation & other waste management services
+323,All other waste management services
+324,Septic tank & related services
+325,Educational services
+326,Educational services
+327,Business schools & computer & management training
+328,Business & secretarial schools
+329,Technical & trade schools
+330,Technical & trade schools
+331,Beauty & cosmetology schools
+332,Other technical & trade schools
+333,Other schools & instruction
+334,Fine arts schools
+335,Sports & recreation instruction
+336,All other schools & instruction
+337,Health care & social assistance
+338,Ambulatory health care services
+339,Offices of physicians
+340,Offices of physicians
+341,Offices of physicians (except mental health specialists)
+342,"Offices of physicians, mental health specialists"
+343,Offices of dentists
+344,Offices of other health practitioners
+345,Offices of chiropractors
+346,Offices of optometrists
+347,Offices of mental health practitioners (except physicians)
+348,"Offices of physical, occupational & speech therapists, and audiol"
+349,"Offices of physical, occupational & speech therapists and audiol"
+350,Offices of all other health practitioners
+351,Offices of podiatrists
+352,Offices of all other miscellaneous health practitioners
+353,Outpatient care centers
+354,Family planning centers
+355,Outpatient mental health & substance abuse centers
+356,Other outpatient care centers
+357,Kidney dialysis centers
+358,Freestanding ambulatory surgical & emergency centers
+359,All other outpatient care centers
+360,Medical & diagnostic laboratories
+361,Medical & diagnostic laboratories
+362,Medical laboratories
+363,Diagnostic imaging centers
+364,Home health care services
+365,Other ambulatory health care services
+366,Ambulance services
+367,All other ambulatory health care services
+368,Hospitals
+369,General medical & surgical hospitals
+370,Nursing & residential care facilities
+371,Nursing care facilities
+372,Residential mental retardation/health & substance abuse facility
+373,Residential mental retardation facilities
+374,Residential mental health & substance abuse facilities
+375,Community care facilities for the elderly
+376,Community care facilities for the elderly
+377,Homes for the elderly
+378,Other residential care facilities
+379,Social assistance
+380,Individual & family services
+381,Child & youth services
+382,Services for the elderly & persons with disabilities
+383,Other individual & family services
+384,Community food & housing/emergency & other relief services
+385,Community housing services
+386,Temporary shelters
+387,Other community housing services
+388,Vocational rehabilitation services
+389,Child day care services
+390,"Arts, entertainment & recreation"
+391,"Performing arts, spectator sports & related industries"
+392,Performing arts companies
+393,Musical groups & artists
+394,Spectator sports
+395,"Promoters of performing arts, sports & similar events"
+396,"Promoters of performing arts, sports & similar events w/o facil"
+397,"Museums, historical sites & similar institutions"
+398,"Amusement, gambling & recreation industries"
+399,Amusement parks & arcades
+400,Gambling industries
+401,Other gambling industries
+402,Other amusement & recreation services
+403,Golf courses & country clubs
+404,Fitness & recreational sports centers
+405,Bowling centers
+406,All other amusement & recreation industries
+407,Accommodation & food services
+408,Accommodation
+409,Traveler accommodation
+410,Hotels (except casino hotels) & motels
+411,RV (recreational vehicle) parks & recreational camps
+412,RV (recreational vehicle) parks & recreational camps
+413,RV (recreational vehicle) parks & campgrounds
+414,Food services & drinking places
+415,Full-service restaurants
+416,Limited-service eating places
+417,Limited-service eating places
+418,Limited-service restaurants
+419,"Cafeterias, buffets & grill buffets"
+420,Snack & nonalcoholic beverage bars
+421,Special food services
+422,Drinking places (alcoholic beverages)
+423,Other services (except public administration)
+424,Repair & maintenance
+425,Automotive repair & maintenance
+426,Automotive mechanical & electrical repair & maintenance
+427,General automotive repair
+428,Automotive transmission repair
+429,Other automotive mechanical & electrical repair & maintenance
+430,"Automotive body, paint, interior & glass repair"
+431,"Automotive body, paint & interior repair & maintenance"
+432,Automotive glass replacement
+433,Other automotive repair & maintenance
+434,Automotive oil change & lubrication
+435,Car washes
+436,All other automotive repair & maintenance
+437,Electronic & precision equipment repair & maintenance
+438,Electronic & precision equipment repair & maintenance
+439,Other electronic & precision equipment repair & maintenance
+440,Com & industrial mach & equip (exc auto/elect) repair & maint
+441,Personal & household goods repair & maintenance
+442,Home & garden equipment & appliance repair & maintenance
+443,Other personal & household goods repair & maintenance
+444,Personal & laundry services
+445,Personal care services
+446,"Hair, nail & skin care services"
+447,Barber shops
+448,Beauty salons
+449,Other personal care services
+450,All other personal care services
+451,Death care services
+452,Funeral homes & funeral services
+453,Cemeteries & crematories
+454,Drycleaning & laundry services
+455,Coin-operated laundries & drycleaners
+456,Drycleaning & laundry services (except coin-operated)
+457,Linen & uniform supply
+458,Linen supply
+459,Other personal services
+460,Pet care (except veterinary) services
+461,Photofinishing
+462,Parking lots & garages
+463,All other personal services

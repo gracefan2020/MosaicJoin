@@ -1,0 +1,50 @@
+id,title
+0,Debug panel to inspect the Catalyst Session
+1,Catalyst session plugin via Starch.
+2,Turnkey ajaxy webapps
+3,CSV view class
+4,Catalyst view to resize images for thumbnails
+5,Maintain session IDs using the stash
+6,mechanize javascript in your catalyst apps
+7,is a ready to use Codio box. Start coding now!
+8,Helper for Twitter Bootstrap and TT view which builds a skeleton web site
+9,Dependency Injection via method signatures
+10,experimental method signature dependency injection
+11,Return a DBIC row based on the current Catalyst context
+12,Templating using pure Perl code
+13,General-purpose content-addressed storage (CAS) for Catalyst
+14,Encapsulate a common Catalyst Pattern for getting a path
+15,Allow components to depend on other components
+16,"XML+XSLT file based ""CMS"""
+17,Catch application errors and emit them somewhere
+18,Enhance Catalyst component injection
+19,Proxy a directory of HTML::Formhandler forms
+20,Automatic asset serving via sha1-based URLs
+21,Dispatch rules using query parameters
+22,Controller that serves files from a directory
+23,"Mostly, Controller's Moose::Roles for easy CRUD/Validation API's"
+24,Helpers to set the current model or view instance
+25,Controller that serves files from a directory
+26,methods for your request object to assist in content negotiation
+27,Request logging from within Catalyst
+28,A safer stash for Catalyst
+29,Delay setup of application scoped Catalyst Components
+30,Impend all the doom you could ever want ⚔
+31,PSGI engine for Catalyst
+32,use Panda::Config::Perl with catalyst.
+33,"Catalyst view for RSS, Atom, or other XML feeds"
+34,A Catalyst model base-class for using WWW::MenuGrinder
+35,Regex DispatchType
+36,Template::Alloy (TT) View Class
+37,College Basketball Tournament Bracket Web Application
+38,Store session data in the client cookie
+39,Easily set a Catalyst redirect response to an action object or private path
+40,Sitemap support for Catalyst.
+41,Per request clone of a DBIC model with additional parameters
+42,Instant AJAX web front-end for DBIx::Class
+43,Catalyst support for JA-SIG's Central Authentication Service.
+44,Automated REST Method Dispatching
+45,be like GETTY (without the insanity hopefully) -- use what drives his gears
+46,(DEPRECATED) Apply roles to action instances
+47,Generic Session plugin - ties together server side storage and client side state required to maintain session data.
+48,custom error handling in your controller.

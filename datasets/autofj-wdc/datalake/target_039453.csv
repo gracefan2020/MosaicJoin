@@ -1,0 +1,66 @@
+id,title
+0,Export to MathML Presentation Markup
+1,Some integration with the new KFormula widget
+2,Add ability to draw 3D plots in cylindrical and spherical coordinates.
+3,Port Kalzium's periodic table to use new QGraphicsView.
+4,"Remove the libavogadro snapshot, depend on libavogadro directly."
+5,Plasmoid to access Kalzium database
+6,Rewrite of the classic test writing/taking application
+7,Integrate an editor
+8,Plasmoid
+9,Theme manager
+10,Properties dialog for objects.
+11,Improve construction of bisect lines.
+12,Improve feedback when constructing objects.
+13,More geometric objects.
+14,Script objects as macros (to be reused more than once).
+15,Improve the Cabri import filter.
+16,Improve the new/edit script wizard.
+17,Visual Indicator when letter is wrong
+18,Number support
+19,Theme manager
+20,Marble widget for Geolocation tool
+21,Better printed star charts
+22,Sync KStars time from device
+23,Better rendering of comets/asteroids
+24,Texture mapping of the skymap???
+25,Improve Observing List Wizard
+26,Display Comet Magnitudes whenever possible
+27,Information links in-place for each technical term
+28,Tool to suggest star-hopping techniques???
+29,"Extend conjunction tool to have one object unspecified, but have a genre of objects specified instead"
+30,Simulate Lunar Eclipses
+31,Simulate Satellites and Iridium Flares
+32,Social and Geographical Integration for KStars
+33,Optional rulers/grid for canvas units
+34,Export map to MxN pixel bitmap
+35,Bookmarks
+36,Support for MarbleWidget::setEnabled( bool )
+37,Map Contents translation
+38,Editing GeoDataFeatures
+39,Layer Management Class
+40,Plugin architecture for map layers
+41,Extending GeoPainter
+42,Marble Runners
+43,GeoClue Integration
+44,Routing
+45,More map providers (WMS?)
+46,Winkel Triple projection / equivalent
+47,Marble WorldClock Plasmoid
+48,Qt-Version settings dialog
+49,Panoramio Support
+50,Twitter Plugin
+51,TimeZone Support
+52,Support for other planets and the moon
+53,DGML2 Support
+54,Support for imperial units
+55,Graticule plugin
+56,MeasureTool plugin
+57,Port authors list from the Qt-About dialog to the KDE-About dialog
+58,Basic KML support
+59,GeoData Model/View Visualization
+60,More generic projection support
+61,Network plugins
+62,Declensions
+63,Improve GUI for creating softbody
+64,Use common constraints handling code for collisions

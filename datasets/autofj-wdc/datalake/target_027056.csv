@@ -1,0 +1,51 @@
+id,title
+0,"Work with other CCK fields besides FileField/ImageField (Node Reference, Text, Emfield, etc)"
+1,Insert » package name
+2,turn selected text into a link to file
+3,Pass node objects to Insert widget to allow for 3rd party functionality
+4,Why use $field['widget'] and not simply $field for insert_content() function?
+5,Insert does not get autodetected by Features
+6,Switch includes to use DRUPAL_ROOT instead of dirname(__FILE__)
+7,Plup integration
+8,I get duplicate images when using insert
+9,Multiple field doesn't work when user selects first file via IMCE
+10,Editing / saving nodes using insert module throws off illegal offset type PHP warning
+11,Insert Image into multiple Textfields not possible
+12,Add imagecache option to link to a preset
+13,Choosing a custom formatter for multi-value field to use with Insert
+14,open inserted links (pdf files) in new window
+15,Fill PDF integration tips?
+16,Insert only works on first imagefield
+17,Use original filename as link text
+18,Automatic Preset should open in Colorbox
+19,Dimensions undefined using Colorbox
+20,Unable to use Insert w/ Adaptive Image
+21,After insert image to body image don't save to cck field.
+22,Double roles in user admin when create new user
+23,Additional options for inserted images like float?
+24,Document template file theme (admin vs. front-end)
+25,Absolute urls inserted with CDN module enabled
+26,Module to improve user interface of insert with wysiwyg
+27,Can I stop paths breaking in edit view when I move a site?
+28,Resonsive image with height:auto
+29,simplify process of inserting an image that links to a larger image in a lightbox
+30,Add support for Field Group module tabs
+31,Insert Configuration and use not available when image field widget type is media selector
+32,"Support for Widget ""Media file selector"" and Multiupload"
+33,"Mention the ""insert_video""-Module as add-on"
+34,Insert Incompatible with WYSIWYG 7.x-2.2-dev and Ckeditor 4.1
+35,Using title field as caption - issue with placeholder
+36,username and password
+37,show other Image style in edit-mode than in rendered node
+38,Style options have disappeared
+39,Drupal 8 version
+40,Not able to insert file into edited page
+41,How to work with File Entity Preview
+42,"Insert, Colorbox and CKeditor 4.2+"
+43,Template file per text format
+44,Remove automate dimensions
+45,"""Sync"" changes to title/alt fields"
+46,Insert Module does not show Lightbox2 styles
+47,Moving the insert button to the file operatings column
+48,target _blank option for insert file
+49,Don't post image dimensions when using Insert?

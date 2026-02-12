@@ -1,0 +1,50 @@
+id,title
+0,Examine perl files and report dependency metadata
+1,"Sorry I can't dance, I'm hanging on to my friend's purse"
+2,OS Package Management System
+3,Test Perl Data Language arrays (a.k.a. piddles) for equality
+4,GeoHex implementation with XS. (c-geohex3 Perl5 binding.)
+5,mruby binding for perl5.
+6,"Utilities related to prime numbers, including fast sieves and factoring"
+7,Scrypt password based key derivation function
+8,"Utilities related to prime numbers, using GMP"
+9,Verify requirements in a CPAN::Meta object
+10,Returns your ip address with failsafe mechanism
+11,Returns your ip address using http://perltricks.com/services/echo_ip
+12,Returns your ip address using http://curlmyip.com
+13,Remote Execution
+14,lightweight web application framework
+15,"General purpose, MongoDB-style query and update language"
+16,Better SQL Generation Through Perl
+17,A pure Perl HTTP proxy
+18,Find the path to your perl
+19,Automatic text wrapping and reformatting
+20,Dispatches messages to one or more outputs
+21,Curate a repository of Perl modules
+22,Meta-Wrapper for reading spreadsheet data
+23,Template Toolkit dumper plugin using Data::Printer
+24,RFC 7564 PRECIS Framework - Preparation
+25,parser and builder for application/x-www-form-urlencoded
+26,XS implementation of parser and builder for application/x-www-form-urlencoded
+27,Test functions for Moose roles
+28,Object methods to create a DHCP packet.
+29,Pure Perl Implementation of the Rijndael Cipher
+30,Parse META.yml and META.json CPAN metadata files
+31,Generate POD for directory contents.
+32,Tie Redis to HashRef or ArrayRef
+33,Convert Spreadsheet::ParseXLSX formats to Excel::Writer::XLSX
+34,Keep imports out of your namespace
+35,A Test::Deep plugin for comparing an unordered list of tuples
+36,Test exception-based code
+37,"Portable, event-loop agnostic eventy networking and multitasking."
+38,Shorten text to minimum syllables by using hash table lookup and vowel deletion
+39,An event-based Markdown parser toolkit
+40,"Specifications for modules needed for building www.shlomifish.org , whose sources are publically available, and which serves as examples for several technologies."
+41,Perl extension for 32 bit Jenkins Hashing Algorithm
+42,regular expressions for handling British postcodes
+43,a tool to scan your Perl code for its prerequisites
+44,an SQL object for holding AGA TDList data
+45,a library for sending email
+46,Read MaxMind DB files and look up IP addresses
+47,Perl Client for Selenium Remote Driver
+48,Download satellite orbital elements from Space Track

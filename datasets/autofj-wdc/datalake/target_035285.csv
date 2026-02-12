@@ -1,0 +1,102 @@
+id,title
+0,helix - Build # 989 - Fixed
+1,Incubator PMC/Board report for Jul 2013 ([ppmc])
+2,helix - Build # 990 - Failure
+3,helix - Build # 990 - Failure
+4,Re: Consider adding helix to whirr/bigtop?
+5,helix - Build # 991 - Fixed
+6,helix - Build # 992 - Unstable
+7,helix - Build # 993 - Still Unstable
+8,helix - Build # 994 - Fixed
+9,helix - Build # 997 - Unstable
+10,helix - Build # 998 - Still Unstable
+11,helix - Build # 999 - Fixed
+12,helix - Build # 1001 - Unstable
+13,helix - Build # 1002 - Failure
+14,helix - Build # 1003 - Still Failing
+15,helix - Build # 1004 - Still unstable
+16,helix - Build # 1004 - Still unstable
+17,helix - Build # 1005 - Still Unstable
+18,helix - Build # 1006 - Still Unstable
+19,helix - Build # 1007 - Still Unstable
+20,helix - Build # 1008 - Failure
+21,Incubator PMC/Board report for Jul 2013 ([ppmc])
+22,helix - Build # 1009 - Still Failing
+23,helix - Build # 1010 - Still unstable
+24,helix - Build # 1010 - Still unstable
+25,helix - Build # 1011 - Failure
+26,Helix quarterly report due
+27,helix - Build # 1012 - Fixed
+28,[jira] [Created] (HELIX-136) Write IdealState back to ZK when computed by custom Rebalancer
+29,helix - Build # 1017 - Unstable
+30,Review Request 12477: code change for handling zk session expiry
+31,Re: Review Request 12477: code change for handling zk session expiry
+32,[jira] [Created] (HELIX-137) Add a resource in Helix whose state is governed by the state of other resources
+33,"[jira] [Created] (HELIX-138) StateModel should be stored in StateModelFactory using (resourceName, partitionName) instead of using partitonName only"
+34,helix - Build # 1018 - Still Unstable
+35,helix - Build # 1019 - Fixed
+36,helix - Build # 1020 - Unstable
+37,helix - Build # 1020 - Unstable
+38,helix - Build # 1021 - Still Unstable
+39,helix - Build # 1022 - Still Unstable
+40,helix - Build # 1022 - Still Unstable
+41,helix - Build # 1023 - Fixed
+42,helix - Build # 1027 - Failure
+43,helix - Build # 1028 - Unstable
+44,helix - Build # 1028 - Unstable
+45,helix - Build # 1029 - Fixed
+46,helix - Build # 1030 - Failure
+47,helix - Build # 1030 - Failure
+48,helix - Build # 1031 - Fixed
+49,helix - Build # 1035 - Unstable
+50,helix - Build # 1035 - Unstable
+51,helix - Build # 1036 - Fixed
+52,[jira] [Created] (HELIX-139) Need to double check the logic to prevent 2 controllers to control the same cluster
+53,"[jira] [Created] (HELIX-140) In ClusterSetup.java, the removeConfig is wrong wired to getConfig"
+54,"[jira] [Commented] (HELIX-140) In ClusterSetup.java, the removeConfig is wrong wired to getConfig"
+55,helix - Build # 1039 - Unstable
+56,helix - Build # 1039 - Unstable
+57,helix - Build # 1040 - Fixed
+58,Handling for unregistered state model
+59,helix - Build # 1041 - Failure
+60,Re: Handling for unregistered state model
+61,Re: Handling for unregistered state model
+62,Re: Handling for unregistered state model
+63,Re: Handling for unregistered state model
+64,Re: Handling for unregistered state model
+65,helix - Build # 1042 - Fixed
+66,[jira] [Created] (HELIX-141) Autorebalance does not work reliably and fails when replica>1
+67,[jira] [Created] (HELIX-142) Prevent misalignment of state model definition with registered state model factory
+68,[jira] [Created] (HELIX-143) upgrade to latest version of Zookeeper (3.4.5)
+69,helix - Build # 1044 - Unstable
+70,helix - Build # 1044 - Unstable
+71,helix - Build # 1045 - Fixed
+72,helix - Build # 1048 - Unstable
+73,helix - Build # 1048 - Unstable
+74,helix - Build # 1049 - Fixed
+75,helix - Build # 1050 - Unstable
+76,helix - Build # 1050 - Unstable
+77,[jira] [Created] (HELIX-144) Need to validate StateModelDefinition when adding new StateModelDefinition to Cluster
+78,[jira] [Created] (HELIX-145) alert when controller fails to find transitions to reach best possible states
+79,helix - Build # 1051 - Still Unstable
+80,helix - Build # 1052 - Still Unstable
+81,helix - Build # 1053 - Still Unstable
+82,helix - Build # 1053 - Still Unstable
+83,helix - Build # 1054 - Fixed
+84,[jira] [Created] (HELIX-146) Add a method in routing table provider to get all replicas of a partition
+85,[jira] [Created] (HELIX-147) Fix typo in Idealstate property max_partitions_per_instance
+86,[jira] [Commented] (HELIX-144) Need to validate StateModelDefinition when adding new StateModelDefinition to Cluster
+87,helix - Build # 1057 - Unstable
+88,helix - Build # 1057 - Unstable
+89,helix - Build # 1058 - Still Unstable
+90,helix - Build # 1059 - Still Unstable
+91,helix - Build # 1059 - Still Unstable
+92,Review Request 12955: HELIX-141: Auto rebalancer works for multiple replicas
+93,Re: Review Request 12955: HELIX-141: Auto rebalancer works for multiple replicas
+94,Re: Review Request 12955: HELIX-141: Auto rebalancer works for multiple replicas
+95,Re: Review Request 12955: HELIX-141: Auto rebalancer works for multiple replicas
+96,[jira] [Commented] (HELIX-141) Autorebalance does not work reliably and fails when replica>1
+97,Re: Review Request 12955: HELIX-141: Auto rebalancer works for multiple replicas
+98,helix - Build # 1060 - Failure
+99,[jira] [Commented] (HELIX-54) make helix-admin operations atomic
+100,1 · 2 · Next »

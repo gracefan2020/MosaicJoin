@@ -1,0 +1,51 @@
+id,title
+0,Fatal Error on updating Date
+1,Date Popup inserts wrong dates for empty dates
+2,Calendar view input description format error in IE
+3,Date repeat error
+4,Repeating dates store wrong value
+5,Conflict with Auto Node Titles
+6,Date argument returns no results
+7,date_ical_date deletes the date when trying to convert
+8,Filtering for nodes of a particular day
+9,repeating birthday(dates) error
+10,"Time zone handling seems broken for ""User's Time zone"""
+11,Filter on Datefield
+12,Date Filtering
+13,"""is invalid"" error in Views filter"
+14,FROM_UNIXTIME called on datetime field when generating view
+15,Only some granularity fields mandatory
+16,don't display 00:00 when no time is selected
+17,Allow All Day Events when hour:minute granularity is defined
+18,Views filter does nothing
+19,"""now"" reported as invalid date"
+20,Override_module broke site
+21,All day events
+22,views module after January 2008
+23,Cannot create a datestamp field under postgres
+24,Date filters prior to 1970
+25,Bug cause date repeat to behave crazily
+26,Date field outputted with leading comma
+27,Date pre-fill is invalid
+28,'0' prepended to hours in all situations.
+29,PHP4 date_format() doesn't use timezone
+30,postgres not detected correctly in set_db_timezone function
+31,Does not complete
+32,"How to filter ""Ongoing"" Events?"
+33,month/day fields confused
+34,"Possibility to have blank date fields, instead of changing to Day 1 Time 00:00"
+35,Month and day optional?
+36,Can't filter using more than one Date field in Views
+37,Date as exposed filter to views doesn't work
+38,PHP4? Problem using 'Date repeat' and 'To date' simultaniusly
+39,"fix for: date popup, array_intersect warning and date popup not saveable"
+40,Use of API is inconsisent with code.
+41,date module fails update script at #6000
+42,Date repeat loses an hour
+43,Less than filter not working
+44,How to Setup a repeating Date every third Friday every Month
+45,preg_match() expects parameter 2 to be string
+46,Major issue after upgrade to RC2
+47,Errors in Watchdog after running Cron
+48,wrong variables types
+49,reduce redundancy in from-to displays

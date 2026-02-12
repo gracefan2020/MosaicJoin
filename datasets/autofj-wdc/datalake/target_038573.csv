@@ -1,0 +1,51 @@
+id,title
+0,Drupal core issue blockers
+1,Add a hook_metatag_access() for controlling access for viewing and editing metatags
+2,Use the export_ui plugin
+3,Keywords Input Text Limit
+4,Add new meta tags: POWDER meta tags
+5,Upgrade path: Meta tags quick
+6,Allow public:// for entering image paths
+7,Index metatags for core search
+8,Need some direction with Content Analysis
+9,Document all Metatag's hooks
+10,Panels integration - mechanism to assign meta tags from variant content
+11,Add new meta tag: Expires
+12,Canonical URL is invalid on multilingual site
+13,Preview of search engine results
+14,Update documentation with official list of supported meta tags
+15,"""Profile"" meta tags not assigned"
+16,Add support views bulk operations for mass updating metatags
+17,title on secondary display in View not showing up in title tag
+18,Upgrade path: Page_Title
+19,Support forum pages until forums supports hook_entity_view()
+20,Pages & videos to review to help identify meta tag best practices
+21,Improve meta tags form usability
+22,No easy/clear way to revert meta tags on an object to their defaults
+23,Meta tag forms show on node/edit even though they're set to be hidden
+24,Add a customizable pager token to extend the normal Token pager
+25,Support entity module's property info api
+26,The Open Graph image is using the following invalid tokens: [node:field_article_image]
+27,Add an API for adding the fields to a given form & saving/loading data
+28,Get rid of metatag_taxonomy_term_view_alter
+29,"Either enable entity tokens in Context, or disable those tokens in Context"
+30,How to load node information within hook_metatag_metatags_view_alter
+31,Upgrade path: Context Metadata
+32,Update project page
+33,Support for custom og:types and properties
+34,Taxonomy term parent information is lost causing term not to appear in relevant vocabulary
+35,Duplicate Page Title's custom tokens
+36,Document how to use Metatag's functions
+37,pragma / cache control meta
+38,Implement beanstag style of meta management
+39,Purge records from {metatag} that match default settings (legacy data)
+40,Add a new meta tag class that only allows for numerical values
+41,Add a new meta tag class that only allows URLs
+42,Support Schema.org
+43,Path Based Meta Tags
+44,CiviCRM Event Titles
+45,Define metatags for paginated Pages
+46,Image fields - option to upload a new file
+47,Problem with ctools_export:metatag_config query
+48,Add new meta tags: Windows 8 pinned sites
+49,Expose meta tag data as a Views field (sandbox)

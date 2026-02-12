@@ -1,0 +1,51 @@
+id,title
+0,Scheduled node appears in view for anonymous users
+1,Parallel processing causing munged status of unpublished content
+2,Can't save permissions
+3,Release notes for Scheduler 7.x-1.4 release
+4,Store empty scheduling dates as null not zero
+5,"Use Utility\SafeMarkup class instead of Utility\String for placeholder(), checkPlain(),format() functions"
+6,Relocate automated tests in PSR-4 namespaces
+7,Convert the overview of scheduled nodes into a view
+8,Clearer instructions regarding scheduler lightweight cron
+9,Keep unpublish date after unpublishing
+10,Try Catch please
+11,Settings do not persist on Content Type
+12,Validate that the unpublish field is filled in when unpublication is required
+13,Validate that the unpublication date is later than the publication date
+14,Validate that the 'unpublish on' value matches the expected format
+15,Validate that the unpublication date is in the future
+16,Validate that the publication date is in the future
+17,Validate that the 'publish on' value matches the expected format
+18,How to enable lightweight cron
+19,Don't published a node if body have any html-tags
+20,_scheduler_run_cron should not be cached
+21,Custom countdown timer format
+22,VBO: Access denied to non authors for the first content from the list of publishing content
+23,"Provide timezone selector, default to user's timezone > system timezone"
+24,Drupal 8 Port of the Scheduler Module
+25,Convert 'scheduler/cron' to a route controller
+26,Images going missing when using entity translation when published
+27,Missing validation allows Unpublish date to be blank
+28,[meta] Convert all page callbacks to routes
+29,Replace variable_get() with config
+30,Replace variable_set() with config
+31,Provide a unit test for saving scheduled nodes
+32,hook_scheduler_allow_publishing() is ignored
+33,Provide separate tab for node scheduling
+34,"Allow manual changes to ""Published"" status if a node is scheduled for publishing"
+35,Convert default time to users timezone during node edit
+36,Publish and Unpublish as a specific user
+37,Normalize and extend schema
+38,'Sticky at top of lists' on/off via Scheduler
+39,Scheduled promotion / demotion from Front page
+40,How to set up Scheduler with Multisite
+41,Support for non-node entities
+42,Introduce an option to cache_clear_all() on Scheduler cron
+43,Perform a test coverage analysis
+44,Coding standards - countdown class name
+45,"Views: Hide ""Scheduler: Publish countdown"" field when node is published?"
+46,Why should unpublishing date be later than publishing one?
+47,"Set time period for expiration (hours, days, weeks, months)"
+48,Scheduler and job scheduler
+49,Programmatically Adding a Publish On value during node creation

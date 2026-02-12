@@ -1,0 +1,61 @@
+id,title
+0,Kickoff orientation dependent layout
+1,Restore menu system
+2,Configure autostart desktop file
+3,improve fail to launch and needs config
+4,UI for selecting WMs
+5,polish kickoff
+6,toolbox improvements
+7,GHNS2 plasma themes
+8,"Resizable, relocatable panel"
+9,Refactor Solid::Control networking
+10,Backend for NetworkManager 0.7
+11,Filtering/Lazy load category modules
+12,Monitor process I/O
+13,Mac-like menu bar plasmoid
+14,Add 'smart setting' of extended colors
+15,Add KDE3 scheme import
+16,Query kwin for supported colors; add full set of kwin colors
+17,Administrator mode support
+18,Revamp GUI.
+19,keyboard shortcuts
+20,webkit widget
+21,shared timer in engines
+22,welcome plasmoid
+23,dashboard widget support
+24,Plasmagik packaging (and package classes)
+25,QtScript scriptengine
+26,Filebrowser Plasmoid
+27,Improve QtScript support
+28,Zooming User Interface
+29,Multiple Desktop Containments
+30,Networkmanager Plasmoid and DataEngine
+31,API changes Projects/Plasma/Tokamak1
+32,Panel Toolbox
+33,Panel changes to make it work with the new default theme
+34,"Generic folder view applet/containment, that can also be used as the desktop background (showing the desktop folder)."
+35,"Configuration options for blacklisting, user ranking, runner ranking, learning"
+36,Simple learning
+37,Simple GUI for above options
+38,Runners able to share parsing
+39,Configuration dialog for KRunner
+40,Noun-Verb support
+41,Temperature sensing in the device engine
+42,Video data in the device engine
+43,New plasma themes
+44,physics-based animator
+45,Improve the base set of plasmoids
+46,New wallpapers
+47,"New way of handling wallpapers and different sizes (package format, and so on...)"
+48,Top-level windows plasmoids
+49,change showConfigurationInterfaction to createConfigurationInterface
+50,Plasma::Service
+51,panel hiding
+52,non-linear animations also for KWin
+53,Compiz's wobbly like effect for KWin
+54,Theme KDM (login manager) by default
+55,New default splashscreen
+56,Simple Desktop Search client based on Nepomuk search
+57,Add a dataengine that implements galago-project Notifications DBus interface and a plasmoid which provides cute visualization of notifications along with nice and easy way to interact with them
+58,"loadDefaultSetup from a file, not hardcoded"
+59,Make the fade-to-gray logout effect work even when composite is disabled

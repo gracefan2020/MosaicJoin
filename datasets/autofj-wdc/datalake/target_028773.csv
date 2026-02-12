@@ -1,0 +1,60 @@
+id,title
+0,Add time values (intervals) to a date value
+1,Add time
+2,Convert from one timezone to another
+3,Return the current date
+4,Synonyms for CURDATE()
+5,Synonyms for CURTIME()
+6,Synonyms for NOW()
+7,Return the current time
+8,Add time values (intervals) to a date value
+9,Format date as specified
+10,Subtract a time value (interval) from a date
+11,Extract the date part of a date or datetime expression
+12,Subtract two dates
+13,Synonym for DAYOFMONTH()
+14,Return the name of the weekday
+15,Return the day of the month (0-31)
+16,Return the weekday index of the argument
+17,Return the day of the year (1-366)
+18,Extract part of a date
+19,Convert a day number to a date
+20,Format UNIX timestamp as a date
+21,Return a date format string
+22,Extract the hour
+23,Return the last day of the month for the argument
+24,Synonym for NOW()
+25,Synonym for NOW()
+26,Create a date from the year and day of year
+27,"Create time from hour, minute, second"
+28,Return the microseconds from argument
+29,Return the minute from the argument
+30,Return the month from the date passed
+31,Return the name of the month
+32,Return the current date and time
+33,Add a period to a year-month
+34,Return the number of months between periods
+35,Return the quarter from a date argument
+36,Converts seconds to 'HH:MM:SS' format
+37,Return the second (0-59)
+38,Convert a string to a date
+39,Synonym for DATE_SUB() when invoked with three arguments
+40,Subtract times
+41,Return the time at which the function executes
+42,Format as time
+43,Return the argument converted to seconds
+44,Extract the time portion of the expression passed
+45,Subtract time
+46,"With a single argument, this function returns the date or datetime expression; with two arguments, the sum of the arguments"
+47,Add an interval to a datetime expression
+48,Subtract an interval from a datetime expression
+49,Return the date argument converted to days
+50,Return a UNIX timestamp
+51,Return the current UTC date
+52,Return the current UTC time
+53,Return the current UTC date and time
+54,Return the week number
+55,Return the weekday index
+56,Return the calendar week of the date (1-53)
+57,Return the year
+58,Return the year and week

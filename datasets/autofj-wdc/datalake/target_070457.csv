@@ -1,0 +1,50 @@
+id,title
+0,Create a database handle
+1,Associate a secondary index
+2,Associate a foreign index
+3,Close a database
+4,Compact a database
+5,Create a cursor
+6,Delete items from a database
+7,Error message
+8,Return if an item appears in a database
+9,Return a file descriptor from a database
+10,Get items from a database
+11,Return if the underlying database is in host order
+12,Return the database type
+13,Perform a database join on cursors
+14,Return estimate of key location
+15,Open a database
+16,Store items into a database
+17,Remove a database
+18,Rename a database
+19,Set cache page priority
+20,Database statistics
+21,Flush a database to stable storage
+22,Empty a database
+23,Upgrade a database
+24,Verify/salvage a database
+25,Set local space allocation functions
+26,Set the database cache size
+27,Set a duplicate comparison function
+28,Set the database cryptographic key
+29,Set error and informational message callback
+30,Set error and informational message FILE
+31,Set error message prefix
+32,Set feedback callback
+33,General database configuration
+34,Set the database byte order
+35,Set the underlying database page size
+36,Set record append callback
+37,Set a Btree comparison function
+38,Set the minimum number of keys per Btree page
+39,Set a Btree prefix comparison function
+40,Set the variable-length record delimiter
+41,Set the fixed-length record length
+42,Set the fixed-length record pad byte
+43,Set the backing Recno text file
+44,Set a Hash comparison function
+45,Set the Hash table density
+46,Set a hashing function
+47,Set the Hash table size
+48,Set Queue database extent size

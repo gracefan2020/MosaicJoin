@@ -1,0 +1,56 @@
+id,title
+0,Generate a LRM/LRM on a bidi keyboard
+1,Tab
+2,Select all
+3,Select all
+4,Select all
+5,Center alignment
+6,Justify alignment
+7,Right alignment
+8,Left alignment
+9,Copy
+10,Paste
+11,Cut
+12,Undo
+13,Redo
+14,Superscript
+15,Subscript
+16,Line spacing = 1 line.
+17,Line spacing = 2 lines.
+18,Line spacing = 1.5 lines.
+19,Accent acute
+20,Accent grave
+21,Accent tilde
+22,Accent umlaut
+23,Accent caret (circumflex)
+24,Accent cedilla
+25,Activate smart quotes
+26,"If text is protected, beep and do not delete it. Otherwise, delete previous character."
+27,Delete previous word. This generates a VK_F16 code.
+28,Same as Backspace.
+29,Copy
+30,Paste
+31,Overwrite
+32,Move cursor one word to the left.
+33,Move cursor one word to the right.
+34,Left alignment
+35,Right alignment
+36,Move to the line above.
+37,Move to the line below.
+38,Move to the beginning of the document.
+39,Move to the end of the document.
+40,Move one page up.
+41,Move one page down.
+42,Delete the next word or selected characters.
+43,Cut the selected characters.
+44,Stop drag-drop.
+45,Change the active application.
+46,Converts the Unicode hexadecimal value preceding the insertion point to the corresponding Unicode character.
+47,Converts the Unicode character preceding the insertion point to the corresponding Unicode hexadecimal value.
+48,"Inserts Unicode values if xxx is greater than 255. When xxx is less than 256, ASCI range text is inserted based on the current keyboard."
+49,Hex to Unicode.
+50,Selected text will be output to the debugger window and saved to %temp%\DumpFontInfo.txt.
+51,Set all caps.
+52,Fiddle bullet style.
+53,Increase font size.
+54,Decrease font size.

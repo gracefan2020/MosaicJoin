@@ -1,0 +1,44 @@
+id,title
+0,a non-blocking server (client socket acceptor)
+1,"Base class for reactive (aka, event driven) objects."
+2,Generic callback adapters to simplify calling back
+3,Callback adapter for plain code references
+4,Callback adapter for class and object methods
+5,"Non-callback, inline Promise adapter"
+6,Convenience functions for creating and using callbacks
+7,A non-blocking socket client.
+8,Autmatically manage a collection of collectible objects
+9,non-blocking client socket connector
+10,A stand-alone multi-shot periodic callback
+11,Watch the exit of a subprocess by its SIGCHLD signal.
+12,Communicate with POE components expecting events.
+13,Communicate with POE components expecting postbacks.
+14,Watch events from a POE::Session object.
+15,Base class for POE::Wheel wrappers.
+16,Represent POE::Wheel::Run as a Reflex class.
+17,define a Reflex paramaterized role
+18,add connection accepting to a class
+19,add manageability by Reflex::Collection
+20,add non-blocking client connecting to a class
+21,add streaming input behavior to a class
+22,"set a periodic, recurring timer"
+23,add streaming input behavior to a class
+24,add async process reaping behavior to a class
+25,"Make an object reactive (aka, event driven)."
+26,add readable-watching behavior to a class
+27,add standard sysread() behavior to a class
+28,Mix standard send/recv code into a class.
+29,add signal catching behavior to a class
+30,add streaming I/O behavior to a class
+31,set a wakeup callback for a relative delay
+32,set a wakeup callback for a particular UNIX time
+33,add writable-watching behavior to a class
+34,add buffered non-blocking syswrite() to a class
+35,receive callbacks when signals arrive
+36,"Buffered, translated I/O on non-blocking handles."
+37,A stand-alone single-shot delayed callback
+38,Emit an event when an attribute's value changes.
+39,Automaticall watch Reflex objects.
+40,Automatically watch Reflex objects.
+41,Base class for non-blocking UDP networking peers.
+42,A stand-alone single-shot callback at an absolute time

@@ -1,0 +1,55 @@
+id,title
+0,Line 182 The following sections describe the use
+1,.rs
+2,.sp
+3,"The backslash character has several uses. Firstly, if it is followed by a"
+4,"non-alphanumeric character, it takes away any special meaning that character"
+5,may have. This use of backslash as an escape character applies both inside and
+6,outside character classes.
+7,.P
+8,"For example, if you want to match a * character, you write \e* in the pattern."
+9,This escaping action applies whether or not the following character would
+10,Line 192 otherwise be interpreted as a metacharac
+11,non-alphanumeric with backslash to specify that it stands for itself. In
+12,"particular, if you want to match a backslash, you write \e\e."
+13,.P
+14,"If a pattern is compiled with the PCRE_EXTENDED option, whitespace in the"
+15,pattern (other than in a character class) and characters between a # outside
+16,a character class and the next newline are ignored. An escaping backslash can
+17,Line 225 but when a pattern is being prepared by
+18,one of the following escape sequences than the binary character it represents:
+19,.sp
+20,"\ea alarm, that is, the BEL character (hex 07)"
+21,"\ecx ""control-x"", where x is any character"
+22,\ee escape (hex 1B)
+23,\ef formfeed (hex 0C)
+24,\en linefeed (hex 0A)
+25,Line 237 one of the following escape sequences th
+26,.sp
+27,"The precise effect of \ecx is as follows: if x is a lower case letter, it"
+28,is converted to upper case. Then bit 6 of the character (hex 40) is inverted.
+29,"Thus \ecz becomes hex 1A, but \ec{ becomes hex 3B, while \ec; becomes hex"
+30,7B.
+31,.P
+32,"After \ex, from zero to two hexadecimal digits are read (letters can be in"
+33,upper or lower case). Any number of hexadecimal digits may appear between \ex{
+34,"Line 1044 characters in both cases. In UTF-8 mode,"
+35,characters with values greater than 128 only when it is compiled with Unicode
+36,property support.
+37,.P
+38,"The character types \ed, \eD, \eh, \eH, \ep, \eP, \es, \eS, \ev, \eV, \ew, and"
+39,"\eW may also appear in a character class, and add the characters that they"
+40,"match to the class. For example, [\edABCDEF] matches any hexadecimal digit. A"
+41,circumflex can conveniently be used with the upper case character types to
+42,specify a more restricted set of characters than the matching lower case type.
+43,"For example, the class [^\eW_] matches any letter or digit, but not underscore."
+44,.P
+45,"The only metacharacters that are recognized in character classes are backslash,"
+46,"hyphen (only where it can be interpreted as specifying a range), circumflex"
+47,"Line 2718 Cambridge CB2 3QH, England."
+48,.rs
+49,.sp
+50,.nf
+51,Last updated: 17 November 2010
+52,Copyright (c) 1997-2010 University of Cambridge.
+53,.fi

@@ -1,0 +1,118 @@
+id,title
+0,Document Hash#extract!.
+1,Prefer Time.current over Time.now on example code
+2,Add Time#all_* to AS guides.
+3,Add example for rails server port option.
+4,Fix font styling on associations.rb
+5,"Revert this, commited by mistake."
+6,Fix grammar mistake. Lets vs let's.
+7,Fix fixed-fonts stlye on rails_on_rack guide.
+8,Remove extra white spaces.
+9,Better doc styling in ActiveRecord::Locking
+10,Add doc to #attribute_names
+11,Follow code conventions on some tests
+12,Follow code conventions on docs
+13,Fix styiling issues on DateHelper docs
+14,Fix styiling issues on AtomFeedHelper docs
+15,Remove extra whitespace.
+16,Fix styiling issue on TranslationHelper docs
+17,Fix styiling issue on ActionView::Template docs
+18,impact guides with no CSV fixture support
+19,more fixed-fonts here
+20,added some fixed fonts
+21,Better use #remove_possible_method here
+22,better styling on #available_action? docs
+23,Improve doc styles for ActiveModel::Conversion
+24,Fix punctuation errors.
+25,Use #remove_possible_method instead here
+26,Use #remove_possible_method instead
+27,Remove extra whitespaces
+28,Improves Mysql2 adapter docs
+29,Added #recreate_database docs
+30,Fixes on schema_definitions docs
+31,fixed-fonts on SchemaDefinitions
+32,Fix ParamsWrapper docs errors
+33,Remove extra whitespaces
+34,Update security guide with #new and #create respect mass...
+35,Added some docs on ActiveResource::HttpMock
+36,Documented ActiveResource#observing
+37,Remove extra whitespaces.
+38,Fix punctuation errors.
+39,Bring this back on the contributing guide.
+40,Improved ActiveModel Observing docs.
+41,Added missing word on guide
+42,"Upload patches is for LH, we use pull requests on GitHub..."
+43,Rephrased Dirty#changed? docs
+44,Removed extra whitespace
+45,Better formatting on ActiveModel::Translation
+46,Fix #update_attributes api format error
+47,Better formatting here
+48,Added missing docs to mysql2_adapter
+49,Fixed punctuation errors.
+50,Better docs formatting
+51,Fix #postgresql_version docs
+52,Added docs for #version on mysql_adapter
+53,Added some docs on SQLite adapter
+54,Make this docs more consistent with the rest of the docs...
+55,dot missing here
+56,Added doc for #table_exists?
+57,Added docs for #rename_table on some adapters
+58,Added docs for #columns on some adapters
+59,Added docs for #indexes on adapters
+60,Added docs for #drop_database on MySQL adapter
+61,Added docs for #disconnect! on adapters
+62,Added missing docs for clear_cache! on adapters
+63,Added missing docs for +supports_primary_key?+ on some a...
+64,Added missing docs for +support_migrations?+ on some ada...
+65,Have a more connection specific rdoc for +supports_state...
+66,Removed ON() on distinct comment
+67,Fix 'FIXME' annotation typo
+68,docs for ActionMailer::Base.default_i18n_subject
+69,Formated docs
+70,oops fixed typo
+71,Fixed docs for NilClass#try
+72,Formatting docs
+73,Docs for +duplicable?+
+74,Docs for NilClass#try
+75,Formatting examples
+76,Documented String#blank?
+77,Documented Hash#blank?
+78,Documented Array#blank?
+79,Documented TrueClass#blank?
+80,Documented FalseClass#blank?
+81,Documented NilClass#blank?
+82,Remove 2.3 since guides are supposed to be for Rails 3
+83,Added CHANGELOG entry for new section additions on Actio...
+84,Better formatting
+85,Added Templates section on ActionView guide.
+86,Added Spacer Templates on Partials section of ActionView...
+87,Added Partials section to ActionView guide.
+88,Added Using Action View with Rails guide section.
+89,Added an example of exception situation on Array#sample ...
+90,Improved Array#sample documentation
+91,Added more detailed use of the +list+ command on debuggi...
+92,Remove extra whitespaces from guides
+93,Update guide mentioning that +in?+ may raise an +Argumen...
+94,Move [#ticket_number state:commited] to the end of the c...
+95,change to use the Sass file extension .scss
+96,Remove extra whitespace
+97,Update guides with controller generator producing asset ...
+98,Update Contributing to the Rails Code guide for automati...
+99,Fix patch file name to make it consistent with the rest ...
+100,Documented +ActiveSupport::Notifications+ module.
+101,Update guides with new scaffold.css path
+102,Removed Object#among? from guides
+103,Update test name to the corresponding method name
+104,Changed Object#either? to Object#among? on guides
+105,Update guides reflecting that scaffold_controller genera...
+106,Updated AS guide with new Object#in? and Object#either? ...
+107,Remove 'warning: ambiguous first argument' when running ...
+108,Fix Basic Authentication examples
+109,Updated Basic Authentication guides to reflect new Base....
+110,Bring #reorder back
+111,Added new #update_column method.
+112,"Revert ""Removed #update_attribute method. New #update_co..."
+113,Updated guides for new #update_column.
+114,Removed #update_attribute method. New #update_column met...
+115,impact recent updates to #first! and #last! methods
+116,Update AR querying guide with #first! and #last! new met...

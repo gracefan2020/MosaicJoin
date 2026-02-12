@@ -1,0 +1,90 @@
+id,title
+0,Moosic client library for Perl
+1,Interface to the xmms2 music player
+2,XMLRPC interface to xmms2
+3,Expose PL_compiling to perl
+4,Invoke callbacks when the stash code is being compiled in changes
+5,Hook into opcode execution
+6,PL_check hacks using Perl callbacks
+7,Dispatch actions based on HTTP request methods
+8,Authenticate your Catalyst application's users using Facebook's OAuth 2.0
+9,Adjust parameters of authentication processes on the fly
+10,Catalyst Apache Engines
+11,KiokuX::User wrapper for Catalyst::Plugin::Authentication.
+12,use Bread::Board to configure your Catalyst app
+13,DEPRECATED: Browser Detection
+14,FillInForm for Catalyst
+15,run code after the response has been sent.
+16,store sessions in a berkeleydb
+17,Store your sessions in a database
+18,File storage backend for session data.
+19,Browser detection for Catalyst::Requests
+20,A request trait for XMLHttpRequest detection support
+21,Petal View Class
+22,Shortcut functions for Catalyst controllers
+23,Debug memory leaks in Catalyst applications
+24,read-eval-print-loop for debugging your Catalyst application
+25,XS speedups for Class::C3
+26,Manipulate Perl's method resolution cache
+27,Perl interface to libgpgme
+28,Inflate/deflate columns to Authen::Passphrase instances
+29,Automatically hash password/passphrase columns
+30,An interface to a Riak server.
+31,A sneakier Scalar::Defer ;-)
+32,make selected sub calls evaluate at compile time
+33,"create core dumps of the running perl interpreter, without terminating"
+34,a DEPRECATED Perl code profiler
+35,generate stubs for a SelfLoading module
+36,Automatic gdb backtraces on errors
+37,DEPRECATED - Release tests to avoid insanity
+38,provides screen dump of Perl data.
+39,perl module that imports environment variables as scalars or arrays
+40,Perl interface to GNU autoconf
+41,Extract meta-data from arbitrary files
+42,load Graphs from class hierarchies
+43,widget to control volume and similar values
+44,Perl interface to libnotify
+45,Perl interface to the Phat widget collection
+46,Perl interface to the sexy widget collection
+47,Web content engine library for Gtk2
+48,Set up a CGI environment from an HTTP::Request
+49,compare 8-bit scalar data according to the current locale
+50,IO::Dir working recursive
+51,A generic role for user objects stored in KiokuDB
+52,Speak HTTP through UNIX sockets
+53,Perl interface to libsysfs
+54,send log messages to a desktop notification daemon
+55,Define your own method resolution order
+56,What BigInts are before they become big
+57,Plug-in module to specify which return values should be memoized
+58,Statically check for named methods
+59,declare author-only dependencies
+60,notify users of possible conflicts with the distribution they're installing
+61,Emulate Class::Accessor::Fast behavior using Moose attributes
+62,automatically validate lexicals against Moose type constraints
+63,Apply roles for a lexical scope only
+64,Force coercion when validating type constraints
+65,Multi Method Dispatch based on Moose type constraints
+66,Moose types to check against Moose's meta objects
+67,Type constraint based variant table
+68,Provide a pseudo-class NEXT (et al) that allows method redispatch
+69,Perl wrapper for talking with Bullfinch
+70,Perl interface for the loudmouth jabber library
+71,Simple Service Discovery Protocol implementation
+72,User interfaces with embedded multimedia
+73,Cross-platform functions emulating common shell commands
+74,"The Do What The Fuck You Want To Public License, Version 2"
+75,Set a subs prototype
+76,Perl extension for the intellegent battery monitor
+77,Modules FLORA uses
+78,libraries deprecated from the core in 5.14.0
+79,Perl word completion module
+80,"Perl interface to various readline packages. If no real package is found, substitutes stubs instead of basic functions."
+81,abbrev - create an abbreviation table from a list
+82,use references as hash keys
+83,Callbacks for value destruction
+84,wpa_supplicant/hostapd control interface library
+85,"Opaque, extensible XS pointer backed objects using sv_magic"
+86,Lexical aliasing of namespaces
+87,Emacs major mode for editing .pod-files
+88,Lock down the set of warnings active in a lexical scope

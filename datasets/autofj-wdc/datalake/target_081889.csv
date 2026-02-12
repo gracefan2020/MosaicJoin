@@ -1,0 +1,101 @@
+id,title
+0,BlueGene/L - eServer Blue Gene Solution IBM
+1,Jaguar - Cray XT4/XT3 Cray Inc.
+2,"Red Storm - Sandia/ Cray Red Storm, Opteron 2.4 GHz dual core Cray Inc."
+3,BGW - eServer Blue Gene Solution IBM
+4,New York Blue - eServer Blue Gene Solution IBM
+5,ASC Purple - eServer pSeries p5 575 1.9 GHz IBM
+6,eServer Blue Gene Solution IBM
+7,"Abe - PowerEdge 1955, 2.33 GHz, Infiniband, Windows Server 2008/Red Hat Enterprise Linux 4 Dell"
+8,"MareNostrum - BladeCenter JS21 Cluster, PPC 970, 2.3 GHz, Myrinet IBM"
+9,HLRB-II - Altix 4700 1.6 GHz SGI
+10,"Thunderbird - PowerEdge 1850, 3.6 GHz, Infiniband Dell"
+11,"Tera-10 - NovaScale 5160, Itanium2 1.6 GHz, Quadrics Bull, Atos Group"
+12,"Columbia - SGI Altix 1.5 GHz, Voltaire Infiniband SGI"
+13,"TSUBAME Grid Cluster - Sun Fire x4600 Cluster, Opteron 2.4/2.6 GHz and ClearSpeed Accelerator, Infiniband NEC/Sun"
+14,"Lonestar - PowerEdge 1955, 2.66 GHz, Infiniband Dell"
+15,"Jaws - PowerEdge 1955, 3.0 GHz, Infiniband Dell"
+16,Michael J. Muuss Cluster (MJM) - Evolocity II (LS Supersystem) Xeon 51xx 3.0 GHz IB Linux Networx
+17,JUBL - eServer Blue Gene Solution IBM
+18,Atlas - Appro Xtreme Server - Quad Opteron Dual Core 2.4GHz Infiniband Cray Inc.
+19,Earth-Simulator NEC
+20,"Sapphire - Cray XT3, 2.6 GHz dual Core Cray Inc."
+21,"CEA-CCRT-Platine - Novascale 3045, Itanium2 1.6 GHz, Infiniband Bull, Atos Group"
+22,"Queen Bee - PowerEdge 1950, 2.33 GHz, Infiniband Dell"
+23,"Cray XT3, 2.6 GHz dual Core Cray Inc."
+24,"Topsail - PowerEdge 1955, 2.33 GHz, Cisco/Topspin Infiniband Dell"
+25,Stella - eServer Blue Gene Solution IBM
+26,Altix 4700 1.6 GHz SGI
+27,Altix 4700 1.6 GHz SGI
+28,"CITerra - PowerEdge 1950, 2.33 GHz, Myrinet Dell"
+29,"Big Red - BladeCenter JS21 Cluster, PPC 970, 2.5 GHz, Myrinet IBM"
+30,Blue Gene/P Solution IBM
+31,eServer pSeries p5 575 1.9 GHz IBM
+32,eServer pSeries p5 575 1.9 GHz IBM
+33,Thunder - Intel Itanium2 Tiger4 1.4GHz - Quadrics California Digital Corporation
+34,"xSeries x3550 Cluster Xeon, 3 GHz, Infiniband IBM"
+35,"BladeCenter JS21 Cluster, PPC 970, 2.3 GHz, Myrinet IBM"
+36,Blue Protein - eServer Blue Gene Solution IBM
+37,eServer Blue Gene Solution IBM
+38,Frontier - eServer Blue Gene Solution IBM
+39,KEK/BG MOMO - eServer Blue Gene Solution IBM
+40,KEK/BG Sakura - eServer Blue Gene Solution IBM
+41,eServer Blue Gene Solution IBM
+42,"BladeCenter HS21 Cluster, Xeon dual core, 2.33 GHz, GigEthernet IBM"
+43,"Darwin - PowerEdge 1950, 3.0 GHz, Infinipath ClusterVision/Dell"
+44,"Calhoun - SGI Altix XE 1300 Cluster Solutions, 2.66GHZ, Infiniband SGI"
+45,"BigBen - Cray XT3, 2.6 GHz dual Core Cray Inc."
+46,"T3 - PowerEdge 1955, 2.66 GHz, Infiniband Dell"
+47,eServer pSeries p5 575 1.9 GHz IBM
+48,eServer pSeries p5 575 1.9 GHz IBM
+49,"MACH5 - Apple XServe, 2.0 GHz, Myrinet Self-made"
+50,SR11000-J2 Hitachi
+51,"HPC - Pentium4 Xeon, EM64T, Opteron, Opteron dual core, Cluster, Myrinet Oracle"
+52,Cray X1E (4GB) Cray Inc.
+53,"Bio-X2 - PowerEdge 1950, 2.33 GHz, Infiniband Dell"
+54,eServer pSeries p5 575 1.9 GHz IBM
+55,eServer pSeries p5 575 1.9 GHz IBM
+56,Humvee - Evolocity II (LS Supersystem) Linux Networx
+57,Cray X1E (2GB) Cray Inc.
+58,Altix 4700 1.6 GHz SGI
+59,"Cray XT3, 2.6 GHz dual Core Cray Inc."
+60,"BladeCenter JS20 Cluster, PPC 970, 2.2 GHz, Myrinet IBM"
+61,"ASCI Q - AlphaServer SC45, 1.25 GHz Hewlett-Packard"
+62,Intimidata - eServer Blue Gene Solution IBM
+63,"Cray XT4, 2.8 GHz Cray Inc."
+64,eServer pSeries p5 575 1.5 GHz IBM
+65,"BladeCenter HS21 Cluster, Xeon dual core 3.0 GHz, Infiniband IBM"
+66,"BCX - eServer 326 Cluster, Opteron Dual Core 2.6 GHz, Infiniband IBM"
+67,eServer pSeries p5 575 1.9 GHz IBM
+68,"Marylou4 - PowerEdge 1955, 2.66 GHz, GigEthernet Dell"
+69,"BladeCenter LS20, Opteron 2.2 GHz Dual core, GigEthernet IBM"
+70,System X - 1100 Dual 2.3 GHz Apple XServe/Mellanox Infiniband 4X/Cisco GigE Self-made
+71,"Cluster Platform 3000 BL460c, Xeon 51xx 3.0GHz, Infiniband Hewlett-Packard"
+72,Altix 4700 1.6 GHz SGI
+73,Cluster Platform 4000 DL145 Opteron Dual Core 2.6 GHz Infiniband Hewlett-Packard
+74,"SGI Altix 3700 Bx2, 1.6 GHz, NUMALink SGI"
+75,"SGI Altix 3700 Bx2, 1.6 GHz, NUMALink SGI"
+76,"Huygens - eServer pSeries 575, p5+ 1.9 GHz, Infiniband IBM"
+77,blueice - eServer pSeries p5 575 1.9 GHz IBM
+78,"Deimos - Opteron dual core 2.6 GHz, Infiniband Linux Networx"
+79,"Cluster Platform 3000 BL460c, Xeon 51xx 3.0GHz, Infiniband Hewlett-Packard"
+80,"Endeavor - Intel Cluster, Xeon 3.0 GHz dual core, Infiniband Intel"
+81,"John Von Neumann - LNX Cluster, Xeon 3.6 GHz, Myrinet Linux Networx"
+82,"HP DL140, Xeon 53xx 2.33GHz, GigEthernet Hewlett-Packard"
+83,"HP DL140, Xeon 53xx 2.33GHz, GigEthernet Hewlett-Packard"
+84,"Cluster Platform 3000 BL460c, Xeon 51xx 3.0GHz, GigEthernet Hewlett-Packard"
+85,"PACS-CS - PACS-CS, low voltage Xeon 2.8 GHz, 3D Hyper-Crossbar Hitachi/Fujitsu"
+86,eServer pSeries 655 (1.7 GHz Power4+) IBM
+87,eServer pSeries 655 (1.7 GHz Power4+) IBM
+88,"Razor - PowerEdge 1950, 3 GHz, Voltaire Infiniband Dell"
+89,"Tungsten - PowerEdge 1750, P4 Xeon 3.06 GHz, Myrinet Dell"
+90,"Albert - Dalco Cluster, Intel Xeon 3.0 Ghz, Quadrics DALCO AG Switzerland"
+91,eServer Blue Gene Solution IBM
+92,KEK/BG UME - eServer Blue Gene Solution IBM
+93,eServer Blue Gene Solution IBM
+94,eServer Blue Gene Solution IBM
+95,eServer Blue Gene Solution IBM/ LLNL
+96,Ocracoke - eServer Blue Gene Solution IBM
+97,eServer Blue Gene Solution IBM
+98,Blue Fern - eServer Blue Gene Solution IBM
+99,"spray cooled xSeries x3550 Cluster Xeon quad core, 2.333 GHz, GigEthernet IBM"

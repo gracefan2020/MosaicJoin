@@ -1,0 +1,127 @@
+id,title
+0,anchor_() Not used.
+1,anchor(String name) Starts an element which defines an anchor.
+2,"anchor(String name, SinkEventAttributes attributes) Starts an element which defines an anchor."
+3,author_() Not used.
+4,author() Not used.
+5,author(SinkEventAttributes attributes) Starts an author element.
+6,body_() Not used.
+7,body() Not used.
+8,body(SinkEventAttributes attributes) Starts the body of a document.
+9,bold_() Ends a bold element.
+10,bold() Starts a bold element.
+11,"close() Close the writer or the stream, if needed."
+12,comment(String comment) Not used.
+13,content(String text) Write HTML escaped text to output.
+14,date_() Not used.
+15,date() Not used.
+16,date(SinkEventAttributes attributes) Starts the date element.
+17,definedTerm_() Not used.
+18,definedTerm() Not used.
+19,definedTerm(SinkEventAttributes attributes) Starts a definition term element within a definition list.
+20,definition_() Ends a definition element within a definition list.
+21,definition() Starts a definition element within a definition list.
+22,definition(SinkEventAttributes attributes) Starts a definition element within a definition list.
+23,definitionList_() Not used.
+24,definitionList() Not used.
+25,definitionList(SinkEventAttributes attributes) Starts a definition list.
+26,definitionListItem_() Not used.
+27,definitionListItem() Starts a list item element within a definition list.
+28,definitionListItem(SinkEventAttributes attributes) Starts a list item element within a definition list.
+29,escapeHTML(String text) Forward to HtmlTools.escapeHTML( text ).
+30,figure_() Not used.
+31,figure() Starts a basic image embedding element.
+32,figure(SinkEventAttributes attributes) Starts a basic image embedding element.
+33,figureCaption_() Not used.
+34,figureCaption() Not used.
+35,figureCaption(SinkEventAttributes attributes) Starts a figure caption.
+36,figureGraphics(String name) Adding a source of a graphic.
+37,"figureGraphics(String src, SinkEventAttributes attributes) Adds a graphic element."
+38,"flush() Flush the writer or the stream, if needed."
+39,head_() Ends the head element.
+40,head() Starts the head element.
+41,head(SinkEventAttributes attributes) Starts the head element.
+42,horizontalRule() Adding a separator of sections from a text to each other.
+43,horizontalRule(SinkEventAttributes attributes) Adds a horizontal separator rule.
+44,"init() This is called in Sink.head() or in Sink.close(), and can be used to set the sink into a clear state so it can be re-used."
+45,italic_() Ends an italic element.
+46,italic() Starts an italic element.
+47,lineBreak() Not used.
+48,lineBreak(SinkEventAttributes attributes) Adds a line break.
+49,link_() Ends a link element.
+50,link(String name) Starts an element which defines a link.
+51,"link(String name, SinkEventAttributes attributes) Starts a link."
+52,list_() Ends an unordered list element.
+53,list() Starts an unordered list element.
+54,list(SinkEventAttributes attributes) Starts an unordered list.
+55,listItem_() Ends a list item element within an unordered list.
+56,listItem() Starts a list item element within an unordered list.
+57,listItem(SinkEventAttributes attributes) Starts a list item element within an unordered list.
+58,monospaced_() Ends a monospaced element.
+59,monospaced() Starts a monospaced element.
+60,nonBreakingSpace() Not used.
+61,numberedList_() Ends an ordered list element.
+62,numberedList(int numbering) Starts an ordered list element.
+63,"numberedList(int numbering, SinkEventAttributes attributes) Starts an ordered list element."
+64,numberedListItem_() Ends a list item element within an ordered list.
+65,numberedListItem() Starts a list item element within an ordered list.
+66,numberedListItem(SinkEventAttributes attributes) Starts a list item element within an ordered list.
+67,pageBreak() Not used.
+68,paragraph_() Ends a paragraph element.
+69,paragraph() Not used.
+70,paragraph(SinkEventAttributes attributes) Starts a paragraph.
+71,rawText(String text) Not used.
+72,section_(int level) Not used.
+73,"section(int level, SinkEventAttributes attributes) Not used."
+74,section1_() Not used.
+75,section1() Not used.
+76,section2_() Not used.
+77,section2() Not used.
+78,section3_() Not used.
+79,section3() Not used.
+80,section4_() Not used.
+81,section4() Not used.
+82,section5_() Not used.
+83,section5() Not used.
+84,sectionTitle_() Not used.
+85,sectionTitle_(int level) Ends a section title at the given level.
+86,sectionTitle() Not used.
+87,"sectionTitle(int level, SinkEventAttributes attributes) Start a new section title at the given level."
+88,sectionTitle1_() Ends a first title heading element.
+89,sectionTitle1() Starts a first title heading element.
+90,sectionTitle2_() Ends a second title heading element.
+91,sectionTitle2() Starts a second title heading element.
+92,sectionTitle3_() Ends a third title heading element.
+93,sectionTitle3() Starts a third title heading element.
+94,sectionTitle4_() Ends a 4th title heading element.
+95,sectionTitle4() Starts a 4th title heading element.
+96,sectionTitle5_() Ends a 5th title heading element.
+97,sectionTitle5() Starts a 5th title heading element.
+98,table_() Not used.
+99,table() Not used.
+100,table(SinkEventAttributes attributes) Starts a table.
+101,tableCaption_() Not used.
+102,tableCaption() Not used.
+103,tableCaption(SinkEventAttributes attributes) Starts a table caption.
+104,tableCell_() Ends a cell element.
+105,tableCell() Starts a cell element which defines a cell that contains data.
+106,tableCell(SinkEventAttributes attributes) Starts a table cell.
+107,tableCell(String width) Starts a cell element which defines a cell that contains data.
+108,tableHeaderCell_() Ends a cell header element.
+109,tableHeaderCell() Starts a cell element which defines a cell that contains header information.
+110,tableHeaderCell(SinkEventAttributes attributes) Starts a table header cell.
+111,tableHeaderCell(String width) Starts a cell element which defines a cell that contains header information.
+112,tableRow_() Ends a row element.
+113,tableRow() Starts a row element which acts as a container for a row of table cells.
+114,tableRow(SinkEventAttributes attributes) Starts a table row.
+115,tableRows_() Not used.
+116,"tableRows(int[] justification, boolean grid) Not used."
+117,text(String text) Adding a text.
+118,"text(String text, SinkEventAttributes attributes) Adds a text."
+119,title_() Not used.
+120,title() Not used.
+121,title(SinkEventAttributes attributes) Starts the title element.
+122,"unknown(String name, Object[] requiredParams, SinkEventAttributes attributes) Not used."
+123,verbatim_() Ends a verbatim element.
+124,verbatim(boolean boxed) Starts an element which indicates that whitespace in the enclosed text has semantic relevance.
+125,"verbatim(SinkEventAttributes attributes) Starts a verbatim block, ie a block where whitespace has semantic relevance."

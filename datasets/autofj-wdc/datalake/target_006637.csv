@@ -1,0 +1,242 @@
+id,title
+0,AQ deq hash table latch
+1,ASM db client latch
+2,ASM map operation hash table
+3,ASM network state latch
+4,AWR Alerted Metric Element list
+5,Change Notification Hash table latch
+6,Consistent RBA
+7,DML lock allocation
+8,Event Group Locks
+9,FOB s.o list latch
+10,File State Object Pool Parent Latch
+11,I/O Staticstics latch
+12,IPC stats buffer allocation latch
+13,In memory undo latch
+14,JOX SGA heap latch
+15,JS Sh mem access
+16,JS queue access latch
+17,JS queue state obj latch
+18,JS slv state obj latch
+19,KFC FX Hash Latch
+20,KFC Hash Latch
+21,KFCL LE Freelist
+22,KGNFS-NFS:SHM structure
+23,KGNFS-NFS:SVR LIST
+24,KJC message pool free list
+25,KJCT flow control latch
+26,KMG MMAN ready and startup request latch
+27,KMG resize request state object freelist
+28,KTF sga latch
+29,KWQMN job cache list latch
+30,KWQP Prop Status
+31,KWQS pqsubs latch
+32,KWQS pqueue ctx latch
+33,Locator state objects pool parent latch
+34,Lsod array latch
+35,MQL Tracking Latch
+36,Memory Management Latch
+37,Memory Queue
+38,Memory Queue Message Subscriber #1
+39,Memory Queue Message Subscriber #2
+40,Memory Queue Message Subscriber #3
+41,Memory Queue Message Subscriber #4
+42,Memory Queue Subscriber
+43,MinActiveScn Latch
+44,Mutex
+45,Mutex Stats
+46,OS process
+47,OS process allocation
+48,OS process: request allocation
+49,PL/SQL warning settings
+50,PX hash array latch
+51,QMT
+52,Real-time plan statistics latch
+53,SGA IO buffer pool latch
+54,SGA blob parent
+55,SGA bucket locks
+56,SGA heap locks
+57,SGA pool locks
+58,SQL memory manager latch
+59,SQL memory manager workarea list latch
+60,Shared B-Tree
+61,Streams Generic
+62,Testing
+63,Token Manager
+64,WCR: sync
+65,Write State Object Pool Parent Latch
+66,X$KSFQP
+67,XDB NFS Security Latch
+68,XDB unused session pool
+69,XDB used session pool
+70,active checkpoint queue latch
+71,active service list
+72,address list
+73,begin backup scn array
+74,bq:time manger info latch
+75,buffer pool
+76,bufq statistics
+77,business card
+78,cache buffer handles
+79,cache buffers chains
+80,cache buffers lru chain
+81,cache table scan latch
+82,call allocation
+83,cas latch
+84,change notification client cache latch
+85,channel handle pool latch
+86,channel operations parent latch
+87,checkpoint queue latch
+88,client/application info
+89,compile environment latch
+90,corrupted undo seg latch
+91,cp cmon/server latch
+92,cp pool latch
+93,cp server hash latch
+94,cp sga latch
+95,cvmap freelist lock
+96,deferred cleanup latch
+97,dml lock allocation
+98,done queue latch
+99,dummy allocation
+100,enqueue freelist latch
+101,enqueue hash chains
+102,enqueues
+103,fifth spare latch
+104,file cache latch
+105,flashback copy
+106,fourth Audit Vault latch
+107,gc element
+108,gcs commit scn state
+109,gcs partitioned table hash
+110,gcs pcm hashed value bucket hash
+111,gcs resource freelist
+112,gcs resource hash
+113,gcs resource scan list
+114,gcs shadows freelist
+115,ges domain table
+116,ges enqueue table freelist
+117,ges group table
+118,ges process hash list
+119,ges process parent latch
+120,ges resource hash list
+121,ges resource scan list
+122,ges resource table freelist
+123,ges value block free list
+124,global KZLD latch for mem in SGA
+125,global ctx hash table latch
+126,global tx hash mapping
+127,granule operation
+128,hash table column usage latch
+129,hash table modification latch
+130,heartbeat check
+131,intra txn parallel recovery
+132,io pool granule metadata list
+133,job workq parent latch
+134,job_queue_processes free list latch
+135,job_queue_processes parameter latch
+136,k2q lock allocation
+137,kdlx hb parent latch
+138,kgb parent
+139,kgnfs mount latch
+140,kokc descriptor allocation latch
+141,ksfv messages
+142,ksim group membership cache
+143,kss move lock
+144,ksuosstats global area
+145,ksv allocation latch
+146,ksv class latch
+147,ksv msg queue latch
+148,ksz_so allocation latch
+149,ktm global data
+150,kwqbsn:qsga
+151,lgwr LWN SCN
+152,list of block allocation
+153,loader state object freelist
+154,lob segment dispenser latch
+155,lob segment hash table latch
+156,lob segment query latch
+157,lock DBA buffer during media recovery
+158,logical standby cache
+159,logminer context allocation
+160,logminer work area
+161,longop free list parent
+162,mapped buffers lru chain
+163,message pool operations parent latch
+164,messages
+165,mostly latch-free SCN
+166,msg queue latch
+167,multiblock read objects
+168,name-service namespace bucket
+169,ncodef allocation latch
+170,object queue header heap
+171,object queue header operation
+172,object stats modification
+173,parallel query alloc buffer
+174,parallel query stats
+175,parameter list
+176,parameter table management
+177,peshm
+178,pesom_free_list
+179,pesom_hash_node
+180,pesom_heap_alloc
+181,post/wait queue
+182,process allocation
+183,process group creation
+184,process queue
+185,process queue reference
+186,qmn task queue latch
+187,query server freelists
+188,queued dump request
+189,queuing load statistics
+190,recovery domain hash list
+191,redo allocation
+192,redo copy
+193,redo writing
+194,resmgr group change latch
+195,resmgr:active threads
+196,resmgr:actses change group
+197,resmgr:actses change state
+198,resmgr:free threads list
+199,resmgr:plan CPU method
+200,resmgr:resource group CPU method
+201,resmgr:schema config
+202,resmgr:session queuing
+203,rm cas latch
+204,row cache objects
+205,rules engine aggregate statistics
+206,rules engine rule set statistics
+207,rules engine rule statistics
+208,second Audit Vault latch
+209,second spare latch
+210,sequence cache
+211,session allocation
+212,session idle bit
+213,session queue latch
+214,session state list latch
+215,session switching
+216,session timer
+217,shared pool
+218,shared pool sim alloc
+219,shared pool simulator
+220,sim partition latch
+221,simulator hash latch
+222,simulator lru latch
+223,sort extent pool
+224,space background state object latch
+225,space background task latch
+226,state object free list
+227,statistics aggregation
+228,tablespace key chain
+229,temp lob duration state obj allocation
+230,temporary table state object allocation
+231,test excl. parent l0
+232,test excl. parent2 l0
+233,third spare latch
+234,threshold alerts latch
+235,transaction allocation
+236,undo global data
+237,virtual circuit buffers
+238,virtual circuit holder
+239,virtual circuit queues
+240,virtual circuits

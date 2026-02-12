@@ -1,0 +1,51 @@
+id,title
+0,lib: check for libusb init failureHEADmaster
+1,tools: allow built-in functions for newer versions of MSVC
+2,Merge pull request #20 from lcl7/correct-e4k_reg_write
+3,New functions rtlsdr_set_tuner_bandwidth()
+4,Allow setting bandwidth for R820T
+5,Correct return code of e4k_reg_write().
+6,cmake: include resource file for MSVC builds
+7,rtl_tcp: make all global variables static
+8,lib: change default number of transfers to 15
+9,lib: handle events after canceling transfers
+10,lib: only print to stderr in tuner_r82xx_set_pll()
+11,change version to 0.5.3git
+12,change version to 0.5.3v0.5.3
+13,add configuration file for Travis CI
+14,"remove unused variables, type fixes"
+15,rtl_test: update copyright header
+16,rtl_sdr: clean up getopt-string
+17,rtl_test: refactoring and optimization for PPM error
+18,lib: add missing 'goto' in tuner detection code
+19,unbreak 'make distcheck' with automake
+20,cflags: add -Wdeclaration-after-statement
+21,rtl_tcp: fix warning
+22,rtl_fm/rtl_test: fix build with MSVC after recent changes
+23,unbreak automake build
+24,lib/cmake: check for libusb_handle_events_timeout_completed()
+25,"lib: add SVEON STV27, sort device list"
+26,lib: speed up exiting from async handler
+27,rtl_fm: overhaul
+28,rtl_power: fix dBm math
+29,rtl_test: useful ppm
+30,rtl_adsb: fix threading
+31,utils: convenience functions
+32,lib: check for validity of sample rates
+33,"lib: abort if submitting transfer fails, don't deadlock when cancelling fails"
+34,rtl_power: MSVC 2010 doesn't have log2()
+35,rtl_tcp: clean up error handling
+36,lib: add yet another Terratec OEM stick
+37,rtl_power: apply first series of patches
+38,lib: add OEM versions of Terratec NOXON sticks
+39,change device name of OEM dongles
+40,change version to 0.5.2git
+41,change version to 0.5.2v0.5.2
+42,lib: add KWorld KW-UB450-T to device list
+43,lib: use FIR coefficients instead of magic + documentation
+44,rtl_test: use static instead of global var
+45,rtl_eeprom: add note regarding necessary replug of device
+46,rtl_fm/power: unbreak MinGW build
+47,cmake: detect libusb on FreeBSD
+48,tuner_r82xx: enable multi-byte I2C transfers
+49,add Sveon STV21 stick to device list

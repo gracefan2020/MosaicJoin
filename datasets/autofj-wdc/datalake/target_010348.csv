@@ -1,0 +1,51 @@
+id,title
+0,Add options to improve domain checking
+1,Handle domains that have Unicode characters
+2,Provide a better UI for the global user verification page
+3,Add options for the initial test
+4,Add an OS check before including windows_compat.inc
+5,Inactivate module before disabling
+6,Add debugging logging
+7,Allow for more flexible form verification
+8,Greylist + Multiline responses + Timeouts
+9,Support for Commerce's Checkout module's form
+10,Cache bad e-amils
+11,Allow quick access to users w/invalid email addresses from the user check page
+12,Allow permission to bypass e-mail validation
+13,Cannot delete user accounts with bad email addresses
+14,Bypass email validation in case of account created by admin
+15,Update README.txt to clarify need for Reverse DNS Setup
+16,Bug in module Error SQL Need your help
+17,"Email host gmail.com is invalid, please contact us for clarification."
+18,Backdrop port
+19,Support for Entity Registration module's Registration Form
+20,Change email_verify check results page from plain HTML to Drupal themed page
+21,Use of module_load_include instead of include_once
+22,Collection of patches
+23,Check own server/webspace before rejecting email
+24,"fsockopen() is properly configured on your server, and that port 25 is open"
+25,"New user registration Email host gmail.com is invalid, please contact us for clarification. error"
+26,Check with your hosting provider that the function fscokopen() i
+27,Yahoo failing ?
+28,"Email host lycos.com does not seem valid, it does not answer..."
+29,can I enable email_verify on different forms
+30,Domain/host exist check failing
+31,Rejecting good email addresses
+32,Fatal error for db_fetch_object
+33,fsockopen function
+34,Email Verify requires the server of a version of PHP 5.3 on Windows?
+35,A bad call to watchdog() breaks the error logging system.
+36,Fix watchdog arguments in _email_verify_check function
+37,Remove Package from .Info file
+38,Integration with other modules (especially webform and simplenews)
+39,Progress Bar for admin/user/user/email_verify
+40,Valid emails do not pass
+41,"Error message when enabling module. Email verify has tried contacting the mail host but did not receive a reply. Check with..."""
+42,Verify email-adresses in guest comments
+43,Email_verify for D7
+44,"Rejected email address, Reason: 530 SMTP authentication is required."
+45,Add partial whitelist support for email domains
+46,Cache valid $hosts for a period of time
+47,"always shows ""The sender's email address you supplied is not valid."""
+48,Offering to maintain Email Verification
+49,webform module

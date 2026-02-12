@@ -1,0 +1,323 @@
+id,title
+0,Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 300MHz) 100MHz
+1,AMD K6 233 MHz
+2,Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 300MHz) 99.9MHz
+3,Sun Ultra 60 UPA/PCI (2 X UltraSPARC-II 296MHz) 98.6MHz
+4,Celeron (Mendocino) 300MHz
+5,Sun Enterprise 250 (2 X UltraSPARC-II 296MHz) 98.6MHz
+6,Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 300MHz) 100MHz
+7,Pentium II 233 oc 3.5x75
+8,Dual UltraSPARC-II 296 MHz
+9,Sun Ultra 30 UPA/PCI (UltraSPARC-II 296MHz) 98.6MHz
+10,Dual Pentium II 266 MHz Klamath (Dell WorkStation 400)
+11,Sun Enterprise 250 (UltraSPARC-II 296MHz) 98.6MHz
+12,Pentium II 266 MHz
+13,Pentium II 300 MHz
+14,IP27
+15,Pentium II 266 MHz w/ 66 MHz SDRAM
+16,IP32
+17,IP32
+18,IP30
+19,Pentium II 266 MHz; Toshiba 4015CDT laptop
+20,IP30
+21,CentaurHauls VIA Samuel 2 468MHz
+22,IP30
+23,IP30
+24,Pentium II 266 MHz
+25,Sun Ultra 30 UPA/PCI (UltraSPARC-II 296MHz) 98.6MHz
+26,TI UltraSparc II (Blackbird)
+27,Pentium II 266 (Dual)
+28,MV88F5182 500MHz ARM9 CPU
+29,Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 270MHz) 89.9MHz
+30,Cyrix MII PR300 (233MHz)
+31,Intel PXA255 XScale (400MHz)
+32,AMD K6 200 oc 2.5x83
+33,IP27
+34,sparc Ultra-IIi 270MHz
+35,Amiga dual CPU: PPC 603e 166MHz and 68040-25MHz
+36,Nokia 770 OMAP1710 (252 Mhz)
+37,IP28
+38,AMD K6 200 MHz
+39,AMD K6 200 MHz
+40,Sun Ultra 5 UPA/PCI (UltraSPARC-IIi 270MHz)
+41,IP30
+42,Pentium 233MMX (Tillamook) Ampro LittleBoard P5x
+43,AMD K6 200 MHz
+44,AMD K6 200 MHz Stepping 2
+45,AMD K6 200 MHz
+46,Pentium II (Klamath) 264MHz
+47,AMD K6 200 MHz
+48,4-slot Sun Enterprise 3000 82MHz
+49,4-slot Sun Enterprise 3000 82MHz
+50,Cyrix MII 300MHz (UC to 233MHz)
+51,Pentium 266MMX (Tillamook) Ampro LittleBoard P5x
+52,AMD K6 200 oc 210
+53,CentaurHauls VIA Samuel 2 401MHz
+54,"WRT350N Router, Broadcom BCM4785 chip rev 2, BCM3302 V1.10"
+55,Pentium II (Klamath) 233 MHz
+56,Embedian ASR-7110 S3C2440A (400Mhz)
+57,AMD K6 188 (2.5x75)
+58,Cyrix 6x86MX PR233 187 MHz
+59,Pentium MMX 233 MHz
+60,Pentium Pro 200 MHz
+61,Pentium Pro 200 MHz
+62,Pentium II (Klamath) 267MHz
+63,IP32
+64,Pentium Pro 200 MHz
+65,Intel P233MMX; Ampro LittleBoard P5e (single-board PC)
+66,Pentium 200 MMX (oc 3x75MHz)
+67,"Silicon Graphics O2; CPU: MIPS R5000, FPU: MIPS R5000, 180MHZ IP32"
+68,IP32
+69,"Silicon Graphics Indigo2; CPU: MIPS R4000, FPU: MIPS R4400, 250MHZ IP22"
+70,HP 9000/803/D320 (PA-7300LC 132MHz)
+71,IP32
+72,ATM Sub configured with 1
+73,IP32
+74,Pentium 233MMX (Tillamook) Ampro LittleBoard P5e
+75,GenuineIntel Mobile Pentium MMX 233MHz
+76,sun ultrasparc 143 MHz
+77,Cyrix 6x86 M2 PR200 166MHz
+78,Sun Ultra 2 UPA/SBus (2 X UltraSPARC 200MHz) 100MHz
+79,Pentium 233 MMX (Dual)
+80,Pentium MMX 200MHz
+81,Pentium Pro 200 (Dual)
+82,Sun Ultra 2 UPA/SBus (2 X UltraSPARC 200MHz) 100MHz
+83,Pentium 166 MMX oc 2.5 x 83 = 200 MHz
+84,Pentium 200 MHz
+85,Pentium Pro 180 MHz
+86,Pentium Pro 180MHz
+87,Sun Ultra 2 UPA/SBus (2 X UltraSPARC 200MHz) 100MHz
+88,Pentium Pro 199MHz
+89,Pentium 200 Dual
+90,SGI workstation MIPS R4400 150MHz (SGI IRIS INDIGO)
+91,Intel Pentium MMX 199MHz
+92,IP22
+93,HP 9000/777/C110 (PA-7200 120MHz)
+94,IP22
+95,Pentium 200MMX
+96,IP32
+97,Intel Pentium 166 oc 190MHz@2.5x75 (no MMX)
+98,IP32
+99,Pentium 200MMX
+100,IP32
+101,IP32
+102,IP32
+103,Geode by NSC 267MHz
+104,IP32
+105,Cyrix 6x86L PR200+ 150 MHz
+106,Cyrix 6x86L PR200+ 150 MHz
+107,Pentium 166MMX oc 187
+108,Pentium 200 MHz
+109,Pentium 166 MMX oc 2.5x75
+110,Pentium 200
+111,Pentium 166MMX oc 187
+112,Alpha EV45 (DEC 2000 4/233)
+113,Alpha
+114,"Sun SPARCstation 10 MP, 2x125 MHz HyperSPARC"
+115,Sun Ultra 1 UPA/SBus (UltraSPARC 167MHz) 83.5MHz
+116,Sun Ultra 2 UPA/SBus (2 X UltraSPARC 168MHz) 84MHz
+117,4-slot Ultra Enterprise 3000 84MHz
+118,Sun Ultra 1 SBus (UltraSPARC 167MHz) 83.4MHz
+119,Sun Ultra 1 UPA/SBus (UltraSPARC 167MHz) 83.5MHz
+120,AlphaStation 200 4/233
+121,Sun Ultra 1 SBus (UltraSPARC 167MHz) 83.4MHz
+122,AlphaStation 200 4/233
+123,AlphaStation 200 4/233
+124,AlphaStation 200 4/233
+125,AlphaStation 400 4/233
+126,AlphaStation 200 4/233
+127,AlphaStation 200 4/233
+128,Sun Ultra 1 UPA/SBus (UltraSPARC 167MHz) 83.5MHz
+129,Sun Ultra 1 SBus (UltraSPARC 167MHz) 83.5MHz
+130,4-slot Ultra Enterprise 3000 83MHz
+131,AlphaStation 200 4/233
+132,Sun Ultra 1 SBus (UltraSPARC 167MHz) 83.5MHz
+133,AlphaStation 200 4/233
+134,AlphaStation 200 4/233
+135,AlphaStation 200 4/233
+136,6 Model 170 UltraSPARC
+137,Sun Ultra 1 SBus (UltraSPARC 167MHz) 83.5MHz
+138,AlphaStation 200 4/233
+139,4 CPU GenuineIntel Pentium 75 - 200 167Mhz
+140,Cyrix 6x86 PR200
+141,Sun Ultra 1 UPA/SBus (UltraSPARC 167MHz) 83.5MHz
+142,SUN-Ultra-Enterprise-2 sparc
+143,SUN-Ultra-Enterprise sparc
+144,Cyrix 6x86L PR200+ 150 MHz
+145,Pentium 150 oc to 166
+146,HP 9000/777/C100 (PA-7200 100MHz)
+147,Pentium 166 MMX
+148,HP 9000/735/125
+149,HP 9000/735/125
+150,Sun Ultra 1 SBus (UltraSPARC 167MHz) 83.5MHz
+151,IP22
+152,IP22
+153,IP22
+154,IP22
+155,IP22
+156,IP22
+157,Pentium MMX 166MHz
+158,IP22
+159,Sun SPARC Ultra1-140
+160,SPARCstation 5 170MHz
+161,Pentium 150 MHz
+162,Pentium 166 MHz
+163,GenuineIntel Pentium 75 - 200 167MHz
+164,Sun Ultra 1 SBus (UltraSPARC 143MHz) 71.5MHz
+165,SPARCstation 5 170MHz
+166,Sun Ultra 1 SBus (UltraSPARC 143MHz) 71.5MHz
+167,Sun Ultra 1 UPA/SBus (UltraSPARC 143MHz) 71.4MHz
+168,Sun Ultra 1 SBus (UltraSPARC 143MHz) 71.5MHz
+169,Sun Ultra 1 SBus (UltraSPARC 143MHz) 71.5MHz
+170,Sun Ultra 1 SBus (UltraSPARC 143MHz) 71.5MHz
+171,Sun Ultra 1 SBus (UltraSPARC 143MHz) 71.5MHz
+172,HP 9000/735/99 (PA7100 99MHz)
+173,Mobile Pentium MMX 166 (NEC Versa 6200MX)
+174,Pentium 133 MHz
+175,Pentium P54C 150MHz
+176,"SGI Indigo II, CPU: MIPS R4600, FPU: MIPS R4600, 1 133 MHZ IP22 Processor"
+177,Pentium 133 MHz
+178,Cyrix 6x86-P150+
+179,Pentium 133 MHz
+180,IDT RC32434 SoC (MIPS 4Kc 264MHz) in Mikrotik RB500
+181,IP22
+182,Pentium 75 - 200 132MHz
+183,HP 9000/735/90
+184,HP 9000/735/90
+185,IP22
+186,Intel Pentium 75 - 200 134MHz
+187,HP 9000/712/80 (PA-7100LC 80MHz)
+188,Pentium II-300: Dell Inspiron 7000 Laptop
+189,AlphaStation 200 4/166
+190,AlphaStation 200 4/166
+191,AlphaStation 200 4/166
+192,AlphaStation 200 4/166
+193,Pentium 133 MHz
+194,Pentium 75 - 200 132MHz
+195,Pentium 133 MHz
+196,Pentium 120 MHz
+197,IP22
+198,IP22
+199,BCM3302 v0.8 200Mhz (Linksys WRT54GL)
+200,Pentium 100 oc to 125
+201,HP 9000/715
+202,Pentium 120 MHz
+203,Pentium 133 MHz
+204,Cyrix MediaGXm 133MHz
+205,"21064 Alpha 150 MHz (DEC 3000 MODEL 300, year 1993)"
+206,"Linksys WRT54gs, Broadcom BCM94712 (MIPS R4000) 200Mhz"
+207,SPARCstation 20 MP (2 X SuperSPARC-II) (2 X Texas Instruments TMS390Z55 1MB S.Cache cpus) 75MHz
+208,SPARCstation 20 MP (2 X SuperSPARC-II) (2 X Texas Instruments TMS390Z55 1MB S.Cache cpus) 75MHz
+209,Alpha 21066@166MHz
+210,SPARCstation 20 MP (2 X SuperSPARC-II) (2 X Texas Instruments TMS390Z55 1MB S.Cache cpus) 75MHz
+211,SPARCstation 20 (1 X SuperSPARC-II) 75MHz
+212,IP26
+213,IP26
+214,Pentium 120 classic stepping 5
+215,ASUS WL500G Deluxe router + wifi Broadcom BCM947XX BCM3302 V0.7
+216,IBM RS6000 PPC 601 50MHz
+217,HP Apollo 715/75 PA-RISC 75MHz
+218,DEC 3000 - M400
+219,HP 9000/712/60 (PA-7100LC 60MHz)
+220,Sun SPARCstation 10 sparc TMS390Z55 50MHz
+221,DEC 3000 - M300LX
+222,AMD 5x86P75 133 MHz
+223,AMD 5x86P75 133 MHz
+224,Cyrix 5x86 120MHz
+225,Intel Pentium 75 - 200 90MHz
+226,SPARCstation 20 (1 X 390Z55) (Model 61) 60MHz
+227,SPARCstation 20 (1 X 390Z55) (Model 61) 60MHz
+228,SPARCstation 20 MP (2 X 390Z55) (Model 612) 60MHz
+229,SPARCstation 20 (1 X 390Z55) (Model 61) 60MHz
+230,SPARCstation 20 MP (2 X 390Z55) (Model 612) 60MHz
+231,SPARCstation 5 110MHz
+232,SPARCstation 5 110MHz
+233,IP20
+234,AMD 5x86P75 133 MHz
+235,SPARCstation 5 110MHz
+236,IP22
+237,SPARCstation 5 110MHz
+238,IP20
+239,AMD 5x86P75 133 MHz
+240,Apple Power MacIntosh 601 66MHz
+241,HP 9000/715/50 (PA7100 50MHz)
+242,SUN JavaStation-1 (Mr. Coffee) 110 Mhz MicroSPARC IIe CPU
+243,SPARCstation 20 MP (3 X 390Z55) (Model 513) 50MHz
+244,Intel 486 100MHz
+245,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+246,AMD 486DX4-100MHz
+247,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+248,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+249,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+250,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+251,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+252,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+253,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+254,Amiga with Motorola 68060 50 MHz CPU
+255,HP 9000/710
+256,Intel 486DX4/100
+257,SPARCstation 5 85MHz
+258,SPARCstation 10BSX MP (2 X 390Z55) (Model 512) 50MHz
+259,SPARCstation 10 (1 X 390Z55) (Model 51) 50MHz
+260,SPARCstation 20 (1 X 390Z50) (Model 51) 50MHz
+261,HP 9000/715/50
+262,HP 9000/715/50
+263,HP 9000/715/50
+264,SPARCstation 5 85MHz
+265,Realtek RTL8181 SoC (MIPS R3000) in Ovislink WL-1120AP
+266,SPARCstation 10 MP (2 X 390Z55) (Model 512) 50MHz
+267,SPARCstation 5 85MHz
+268,SPARCstation 5 85MHz
+269,SPARCstation 5 85MHz
+270,SPARCstation 5 85MHz
+271,Sun SPARCserver 630 MP 2xsparc TMS390Z55 40MHz
+272,Intel 486/100 overdrive
+273,SPARCstation 5 70MHz
+274,SPARCstation 5 70MHz
+275,SPARCstation 5 70MHz
+276,SPARCstation 5 70MHz
+277,SPARCstation 5 70MHz
+278,SPARCstation 10 (1 X 390Z55) (Model 41) 40.3MHz
+279,SPARCstation 10 (1 X 390Z55) (Model 41) 40.3MHz
+280,SPARCstation 5 70MHz
+281,SPARCstation 20 (1 X 390Z50) 40MHz
+282,SPARCstation 20 (1 X 390Z50) 40MHz
+283,SPARCstation 10 (1 X 390Z50) 40MHz
+284,SPARCstation 2 40MHz
+285,SPARCstation 10 (1 X 390Z50) (Model 30) 36MHz
+286,SPARCstation 10 (1 X 390Z50) (Model 30) 36MHz
+287,"SuperSparc 50 - Texas Instruments, Inc."
+288,Intel 486DX2 66 MHz
+289,Intel 486DX2 66 MHz
+290,"SPARCclassic, generic sun4m sparc SUNW"
+291,SPARCclassic 50MHz
+292,SPARCclassic 50MHz
+293,SPARCclassic 50MHz
+294,SPARCclassic 50MHz
+295,SPARCclassic 50MHz
+296,SPARCclassic 50MHz
+297,SPARCclassic 50MHz
+298,SPARCclassic 50MHz
+299,SPARCclassic 50MHz
+300,SPARCstation LX 50MHz
+301,SPARCclassic 50MHz
+302,SPARCclassic 50MHz
+303,SPARCclassic 50MHz
+304,486 50 MHz
+305,486 50 MHz
+306,AMD 486DX2 80MHz
+307,Sun SPARCstation IPX MB86903 40 MHz
+308,Apple Macintosh LC575 w 68040/40MHz
+309,SPARCstation 2 40MHz
+310,SPARCstation IPX 40MHz
+311,SPARCstation 2 40MHz
+312,Intel 486DX/40 MHz
+313,Intel 486DX/40 MHz
+314,SPARCstation ELC (ROM Rev. 2.4)
+315,Amiga 4000-MC68040 (oc 33MHz)
+316,486DX 33 MHz
+317,mips R6000
+318,Amiga1200 030/68882 50MHz
+319,Amiga1200 68030@50MHz 68882@50MHz
+320,unknown 386
+321,Apple Macintosh SE/30

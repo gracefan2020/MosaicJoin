@@ -1,0 +1,224 @@
+id,title
+0,Authentication
+1,Apple-SASL
+2,auth
+3,Kerberos
+4,kerberos-adm
+5,klogin
+6,kpasswd
+7,kshell
+8,TACACS
+9,tell
+10,Backup (monitored)
+11,Amanda
+12,BackupExpress
+13,CommVault
+14,connected
+15,IBM-TSM
+16,Legato-NetWorker
+17,Legato-RepliStor
+18,Veritas-BackupExec
+19,Veritas-NetBackup
+20,Call Management
+21,Cisco-CallManager
+22,cisco-q931-backhaul
+23,cisco-sccp
+24,h323hostcall
+25,h323hostcallsc
+26,mgcp-callagent
+27,mgcp-gateway
+28,sip
+29,sip-tls
+30,VoIP-Control
+31,Computer-Aided Design (CAD)
+32,PDMWorks
+33,Conferencing
+34,cuseeme
+35,ezMeeting
+36,MS-NetMeeting
+37,proshare
+38,PSOM-MTLS
+39,VocalTec
+40,Console
+41,cmd
+42,exec
+43,login
+44,sshell
+45,Telnet
+46,Telnets
+47,Content Management (monitored)
+48,dmdocbroker
+49,Filenet
+50,Directory Services (monitored)
+51,LDAP
+52,ldaps
+53,msft-gc
+54,msft-gc-ssl
+55,E-mail and Messaging
+56,ccmail
+57,groupwise
+58,imap
+59,imap3
+60,imaps
+61,iso-tsap
+62,lotusnote
+63,MDaemon
+64,NNTP
+65,nntps
+66,openmail
+67,pcmail-srv
+68,pop3
+69,pop3s
+70,QMTP
+71,smtp
+72,smtps
+73,Enterprise Applications (monitored)
+74,MS-GROOVE
+75,SAP
+76,Siebel
+77,File System (monitored)
+78,afpovertcp
+79,afs3
+80,ncp
+81,NFS
+82,sunrpc
+83,File Transfer (monitored)
+84,BFTP
+85,ftp
+86,ftps-data1
+87,FTPS2
+88,ftps
+89,sftp
+90,TFTP
+91,TFTPS
+92,Instant Messaging
+93,AOL
+94,Apple-iChat
+95,ircs
+96,ircu
+97,msnp
+98,sametime
+99,talk
+100,xmpp-client
+101,xmpp-server
+102,Yahoo-Messenger
+103,Name Services
+104,DNS
+105,isns
+106,nameserver
+107,netbios
+108,svrloc
+109,WINS
+110,Other (monitored)
+111,Basic-TCP-services
+112,BGP
+113,corba-iiop-ssl
+114,epmap
+115,msmq
+116,NTP
+117,Other-Secure
+118,ssc-agent
+119,Peer-to-peer (P2P) (monitored)
+120,BitTorrent
+121,eDonkey
+122,Gnutella
+123,Grouper
+124,HotLine
+125,Kazaa
+126,Laplink-ShareDirect
+127,Napster
+128,Qnext
+129,SoulSeek
+130,WASTE
+131,WinMX
+132,Printing (monitored)
+133,hp-pdl-datastr
+134,IPP
+135,printer
+136,print-srv
+137,xprint-server
+138,Remote Desktop (monitored)
+139,Altiris-CarbonCopy
+140,citrixadmin
+141,citrixima
+142,citriximaclient
+143,ControlIT
+144,Danware-NetOp
+145,ica
+146,laplink
+147,Laplink-surfup-HTTPS
+148,ms-wbt-server
+149,net-assistant
+150,netrjs-3
+151,pcanywheredata
+152,radmin-port
+153,Remote-Anything
+154,timbuktu
+155,timbuktu-srv
+156,Vmware-VMConsole
+157,VNC
+158,x11
+159,Replication (monitored)
+160,Double-Take
+161,EMC-Celerra-Replicator
+162,ms-content-repl-srv
+163,netapp-snapmirror
+164,pcsync-http
+165,pcsync-https
+166,rrac
+167,Rsync
+168,Secure Sockets Layer (SSL) (monitored)
+169,HTTPS
+170,Secure Shell (SSH)
+171,SSH
+172,Storage (monitored)
+173,EMC-SRDFA-IP
+174,FCIP
+175,iFCP
+176,iSCSI
+177,Streaming (monitored)
+178,Liquid-Audio
+179,ms-streaming
+180,RTSP
+181,Structured Query Language (SQL) (monitored)
+182,gds_db
+183,IBM-DB2
+184,intersys-cache
+185,ms-olap4
+186,ms-sql-m
+187,ms-sql-s
+188,MySQL
+189,Oracle
+190,orasrv
+191,Pervasive-SQL
+192,PostgreSQL
+193,sqlexec
+194,sql-net
+195,sqlserv
+196,sqlsrv
+197,ssql
+198,sybase-sqlany
+199,UniSQL
+200,Systems Management (monitored)
+201,BMC-Patrol
+202,eTrust-policy-Compliance
+203,flowmonitor
+204,HP-OpenView
+205,LANDesk
+206,NetIQ
+207,Netopia-netOctopus
+208,netviewdm
+209,novadigm
+210,novell-zen
+211,objcall
+212,WBEM
+213,Version Management (monitored)
+214,Clearcase
+215,cvspserver
+216,VPN
+217,CIFS
+218,HTTP
+219,HTTPS
+220,L2TP
+221,OpenVPN
+222,PPTP

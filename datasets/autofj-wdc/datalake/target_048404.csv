@@ -1,0 +1,50 @@
+id,title
+0,upload things to the CPAN
+1,Perl Client for Selenium Remote Driver
+2,Download satellite orbital elements from Space Track
+3,Simple syslog line parser
+4,Perl implementation of DMARC
+5,SQL parsing and processing engine
+6,A NoSQL document store with full text search for Moose objects using Elasticsearch as a backend.
+7,Add a blame() method to Git::Repository.
+8,"Support for creating standard ""inside-out"" classes"
+9,Perl extension to reduce boilerplate in Perl shell scripts
+10,Perl extension for calling system commands as if they were Perl functions
+11,Perl extension to parse configuration files written in a subset of Perl and (limited) undumping of data structures (safer than eval thanks to parsing via PPI)
+12,A better Perl API for ServiceNow
+13,XPath or JSONPath for Sereal
+14,Mashes up MooseX::Getopt and App::Cmd
+15,Connect git and Perl::Lint to blame the right people for violations.
+16,Thrift Transport allowing Kerberos auth/encryption through GSSAPI
+17,"A small, simple, correct HTTP/1.1 client"
+18,A Cxn implementation which uses libcurl via Net::Curl
+19,Async API for Elasticsearch using Promises
+20,The official client for Elasticsearch
+21,Flexible and prowerful class and object mocking library for perl
+22,Airbrake Notifier API V3 Client
+23,Memory-efficient approximate descriptive
+24,Release 2 of Marpa
+25,Flexible change tracking framework for DBIx::Class
+26,repositor.io is a tool to create and manage linux repositories.
+27,A collection of tools for the analysis of CLIP-Seq data.
+28,Repeatedly consume a data resource in a robust way
+29,A serialization framework for Moose classes
+30,nested hashref serializable to the file
+31,A simple utility package for storing and manipulating glucose values
+32,generate a string generator from a grammar
+33,provision hosting accounts on unix systems
+34,Very simple PSGI web framework
+35,a modular policy daemon for postfix
+36,Some sugar for Rose::DBx::CannedQuery
+37,IPv6 Address Manipulation Library
+38,Write Perl subs and classes in Python.
+39,Akter is a Perl5 task runner
+40,Conveniently manage a specific SQL query
+41,turns baubles into trinkets
+42,Interface to DataDog's REST API.
+43,The CPAN Testers Reports Administration website
+44,Scripts to create the CPAN Testers Statistics website
+45,Multilocus sequence type checking using blast
+46,ODBC DBD for Perl DBI
+47,A tool to make it easier to manage multiple code repositories using different VCSen
+48,A client for Amazon DynamoDB

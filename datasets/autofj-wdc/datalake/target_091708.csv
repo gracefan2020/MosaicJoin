@@ -1,0 +1,138 @@
+id,title
+0,gc cr block 2-way
+1,db file sequential read
+2,gc current block 2-way
+3,gc cr block busy
+4,SQL*Net more data from client
+5,enq: UL - contention
+6,gc buffer busy
+7,latch: cache buffers chains
+8,log file sync
+9,gc current grant busy
+10,buffer busy waits
+11,gcs log flush sync
+12,enq: TX - row lock contention
+13,gc cr grant 2-way
+14,log file parallel write
+15,gc current grant 2-way
+16,wait for scn ack
+17,latch: library cache
+18,enq: TX - index contention
+19,gc current block busy
+20,LGWR wait for redo copy
+21,cr request retry
+22,db file parallel write
+23,row cache lock
+24,gc cr multi block request
+25,latch: undo global data
+26,latch: library cache pin
+27,latch: cache buffers lru chain
+28,read by other session
+29,enq: HW - contention
+30,enq: FB - contention
+31,gc current multi block request
+32,latch: session allocation
+33,SQL*Net break/reset to client
+34,DFS lock handle
+35,cursor: pin S wait on X
+36,latch: row cache objects
+37,latch: enqueue hash chains
+38,db file scattered read
+39,latch: redo allocation
+40,cursor: pin S
+41,enq: US - contention
+42,SQL*Net message to client
+43,enq: RO - fast object reuse
+44,control file sequential read
+45,KJC: Wait for msg sends to complete
+46,latch: ges resource hash list
+47,PX Deq Credit: send blkd
+48,SQL*Net more data to client
+49,library cache lock
+50,latch free
+51,enq: SQ - contention
+52,enq: DV - contention
+53,enq: TX - contention
+54,gc current retry
+55,IPC send completion sync
+56,library cache pin
+57,latch: library cache lock
+58,reliable message
+59,undo segment extension
+60,control file parallel write
+61,enq: WF - contention
+62,latch: KCL gc element parent latch
+63,latch: cache buffer handles
+64,buffer deadlock
+65,library cache load lock
+66,rdbms ipc reply
+67,latch: object queue header operation
+68,local write wait
+69,name-service call wait
+70,log file switch completion
+71,ksxr poll remote instances
+72,os thread startup
+73,db file parallel read
+74,latch: shared pool
+75,enq: TM - contention
+76,enq: CF - contention
+77,enq: PS - contention
+78,enq: TS - contention
+79,CGS wait for IPC msg
+80,global enqueue expand wait
+81,PX Deq: reap credit
+82,gc current split
+83,gc cr failure
+84,PX Deq: Signal ACK
+85,enq: TT - contention
+86,switch logfile command
+87,direct path read
+88,lock escalate retry
+89,ges inquiry response
+90,enq: MD - contention
+91,enq: TX - allocate ITL entry
+92,latch: gcs resource hash
+93,latch: redo writing
+94,enq: DL - contention
+95,latch: checkpoint queue latch
+96,gc current block unknown
+97,enq: TD - KTF dump entries
+98,enq: TO - contention
+99,enq: IR - contention
+100,enq: TA - contention
+101,enq: KM - contention
+102,gc cr grant congested
+103,gc current block congested
+104,gc cr block congested
+105,direct path write
+106,enq: DR - contention
+107,enq: MW - contention
+108,gc cr disk read
+109,lock deadlock retry
+110,log file single write
+111,log file sequential read
+112,cursor: mutex S
+113,enq: AF - task serialization
+114,cursor: mutex X
+115,direct path write temp
+116,SQL*Net message from client
+117,Streams AQ: waiting for messages in the queue
+118,pipe get
+119,gcs remote message
+120,PX Idle Wait
+121,PL/SQL lock timer
+122,DIAG idle wait
+123,ges remote message
+124,Streams AQ: qmn slave idle wait
+125,Streams AQ: qmn coordinator idle wait
+126,Streams AQ: waiting for time management or cleanup tasks
+127,jobq slave wait
+128,PX Deq: Execution Msg
+129,PX Deq: Parse Reply
+130,PX Deq: Msg Fragment
+131,PX Deq: Execute Reply
+132,PX Deq: Table Q Normal
+133,PX Deq: Join ACK
+134,PX Deq Credit: need buffer
+135,class slave wait
+136,Streams AQ: RAC qmn coordinator idle wait

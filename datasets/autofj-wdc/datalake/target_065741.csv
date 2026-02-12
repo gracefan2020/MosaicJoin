@@ -1,0 +1,64 @@
+id,title
+0,KeyField1
+1,KeyField2
+2,KeyField1
+3,KeyField2
+4,KeyField1
+5,KeyField2
+6,KeyField1
+7,KeyField2
+8,Pim Transport Implementation Class
+9,Extract Response Batch Size
+10,Pim Xsd
+11,PimToHubUrl
+12,HubToPimUrl
+13,Domain Class Type
+14,Exchange Domain Batch Size
+15,Folder Class
+16,Body Type
+17,Conflict Resolution Type
+18,Disposal Type
+19,Pim Domain id
+20,Exchange Domain Batch Size
+21,Folder Class
+22,Pim Domain Id
+23,Pim Xsd
+24,PimToHubUrl
+25,HubToPimUrl
+26,Time Zone Xsd
+27,VEvent Xsd
+28,PimToHubUrl
+29,Pim Xsd
+30,Calendar Item Type Xsd
+31,Time Zone Xml
+32,HubToPimUrl
+33,CalendarItemToVEvent Xsl
+34,VEventToCalendarItem Xsl
+35,Body Type
+36,Conflict Resolution Type
+37,Disposal Type
+38,Domain Class Type
+39,Exchange Domain Batch Size
+40,Fanning Limit
+41,Folder Class
+42,Pim Domain id
+43,ServerN (where N is a ordinal >= 0)
+44,Referral
+45,Max Query Result Size
+46,Max Query Time
+47,Read Timeout
+48,Connect Timeout
+49,Use SSL
+50,Using Client Certificates
+51,Client Certificate Path
+52,SCPN where N is an ordinal >= 0
+53,Remove Domain From Urls
+54,Read Timeout
+55,Connect Timeout
+56,Use SSL
+57,Client Certificate Path
+58,Client Certificate Key Path
+59,Port
+60,CHANGE_ME
+61,Status Frequency
+62,Subscription Status Factor

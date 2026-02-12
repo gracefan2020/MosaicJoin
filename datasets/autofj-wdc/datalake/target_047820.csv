@@ -1,0 +1,101 @@
+id,title
+0,Unit test fails because of problem with reverse!
+1,eof error
+2,audit duplicate-variable errors/non-errors
+3,make-filter-input-port hopelessly broken
+4,possible semantic issues with exceptions
+5,Incompatible with mzscheme 4+
+6,Doc warnings
+7,binding arrows in DrScheme broken
+8,errors on initial compile
+9,stack trace is often mostly unusable
+10,Use of {{{set-cdr!}}}
+11,Doesn't work in Current Version of PLT
+12,Doesn't work in Current Version of PLT
+13,support unicode
+14,Planet breakage? Some surprising dependencies from xmlrpc.plt
+15,Cannot load package in 4.1.4
+16,_ pattern succeeds on end of input?
+17,srfi.plt does not install cleanly due to error in info.ss
+18,First line blank -> broken indenting
+19,example from docs defines MDistributive module twice (and MDistributeLists not at all)
+20,dracula rename export example from reference docs does not work
+21,"modular acl2 unresolved import problem, useless error message"
+22,Dracula errors on (just) + or - at REPL
+23,apparent Scribble error during package installation
+24,Parsing of missing closing HTML tags duplicates HTML elements
+25,"error: ""car: expects argument of type ; given ()"" on specific input"
+26,Fails to compile with 4.2.2
+27,scribble warnings
+28,segments->painter return is failing on being passed to paint
+29,error on require
+30,warnings from documentation
+31,slide/stage
+32,add name? to staged
+33,scribble text renderer dies with a type error
+34,Digest contexts are leaked.
+35,wrong compile-omit-paths entry in info.ss
+36,permissive?
+37,incomplete folders
+38,build-path: absolute path
+39,Unable to make 4.2.5 with shared libraries enabled.
+40,incorrect `declare-exporting'
+41,Fails to compile
+42,png_set_gray_1_2_4_to_8 not found while compiling
+43,Cannot typecheck (equal? (list) (list))
+44,define/memo doesn't save time for funs of arity > 1
+45,(rsound-play ding) does not play in Debian sid
+46,Looks like this language extension is broken on latest version of Racket and PLT-Scheme
+47,Error with Racket 5.1.2 and bzlib
+48,socket.plt fails to install
+49,Upgrade bindings to the current Cairo release
+50,Hello world doesn't compile
+51,writing comment inserts extra spaces
+52,Running example code produces no sound
+53,Unbound identifier
+54,compilation error on racket v5.1.3
+55,compilation error
+56,Negative numbers unsupported
+57,Growing memory consumption when using ryanc/db.plt
+58,bug in firmata.scrbl
+59,static-page won't load for 5.2.1
+60,Subquotes break the csv-reader
+61,install complains
+62,install complains
+63,JSON parser incorrectly parses '[' with newline and then ']'
+64,stty on mac doesn't support -F
+65,Doc bug in csv->list applied to a string
+66,can't bind commands to capital letters
+67,i need rosetta
+68,Unable to install
+69,Problem finding files - package setup/internal links
+70,Font lock doesn't work for subsubsubsection
+71,Doesnt' run
+72,Fixing the test files
+73,Problem installing Whalesong
+74,"Bad typecheck in map, foldl, foldr"
+75,transform-painter fails on non-rectangle configuration
+76,charterm event not ready when bytes are available
+77,charterm event not ready when bytes are available
+78,charterm event not ready when bytes are available
+79,Channel mask should be 0xf instead of 0x7
+80,memoization is not thread-safe
+81,make sets sequences
+82,optional and keyword args
+83,Function.prototype.toString should produce source
+84,parameter for top-level let semantics
+85,make prophecies sequences
+86,long startup time
+87,Request for docs on interaction model
+88,schememodlang/this-package + defmodulelang/this-package
+89,Feature request: lang/this-package
+90,SchemeUnit checks for syntax errors
+91,Start function doesn't allow for changing fps
+92,World object doesn't export get-objects
+93,compile: unbound identifier in module
+94,enhance define-datatype to handle #:property prop:equal+hash
+95,current-print is inactive
+96,"Request for adding parser combinator ""zero"""
+97,Implicit passing of monad argument
+98,Get and put
+99,Adding support for a testing ticket status

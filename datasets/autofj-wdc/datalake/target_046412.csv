@@ -1,0 +1,101 @@
+id,title
+0,merge map doesnt work as it should ... I think
+1,Making it easier to use libyaml in PyYAML
+2,YAML-RPC
+3,"dump(): Insert a ""blank line"" after the end of an element"
+4,PySyck does not work on 64 bit machine
+5,Sets are dumped with null values
+6,Enable libyaml be built as shared library (DLL)
+7,Building libyaml with CMake
+8,Invalid sequence handling
+9,easy_install b0rked
+10,[bug] nested dictionnary load works dump doesn't
+11,Multiple scalar values used as key creates Python hash error
+12,"yaml.load(""a: n"") raises exception (problem with bool)"
+13,Incorrect handling of strings with trailing spaces
+14,Python-yaml crashes on unhashable key
+15,Dictionary output not sorted.
+16,Inf and NaN handling needs re-vamp
+17,really slow on large input ...
+18,yaml.dump and indentation:
+19,Constructor and representer for datetimes with timezone do not match
+20,Python 3.1 support?
+21,Use on socket connections with non blocking flag set
+22,"PySyck handles non-alphanumeric strings as references, others not"
+23,Aliases break if there are temporary objects
+24,"PyYAML 3.09 + Python 2.7 — easy_install installation broken, binary installer absent"
+25,PyYAML fails to load mapping keys of sequence type
+26,PyYaml 3.08 w/ python 3.1 os x
+27,Incorrect Unicode BOM generation
+28,Reader can be an instance variable in Scanner
+29,typo in yaml.__init__.py
+30,yaml.load doesn't work as i suspect it to according to the documentation
+31,ScannerError TypeError
+32,the order of keys is important
+33,Internal emitter error caused by yaml_emitter_set_output_string
+34,PyYAML is slow
+35,remove confusing comment
+36,% character cannot start a scalar value token
+37,Pyyaml using easy_install on Mac OS X
+38,pyyaml discards '-' sign on negative floats
+39,PySyck does not dump dictionaries
+40,porting yaml to python 3000
+41,scalar value of escaped double-newline parsed as a single newline
+42,PyYaml and WebWare Don't Play Nicely...
+43,ScannerError in fetch_more_tokens
+44,importing gtk breaks unicode loading
+45,PYYAML3000 does not load recursive structures.
+46,PyYAML raises exception on empty files
+47,yaml.load does not call __init__ of objects
+48,test program crashes on test file with multiple documents
+49,Libyaml svn revision 298 does not compile
+50,yaml.dump seems to be broken
+51,Comparison operations fail with floats (NaN and +/- Inf) in PyYAML3000 on WinXP (SP2)
+52,dictionaries without at least one list element as values seem not to work
+53,Windows install broken
+54,Dumping long strings results in bogus document marker insertion
+55,Appengine query models
+56,SIGSEGV if certain ints are not declared
+57,PyYAML don't load datetime objects dumped with PySyck
+58,pyyaml 3.09 fails to build with gcc4.6
+59,Noise in output
+60,Inf and NaN handling needs re-vamp
+61,"value token of single period ('.') is parsed incorrectly, throws wrong exception"
+62,PyYAML should use libyaml if libyaml available
+63,Load yaml data as utf-8 strings into a dictionary
+64,libyaml fails to identify simple keys in very long files on 32-bit platforms
+65,Trunk build fail
+66,Error loading timestamps
+67,setup.py install --record-rpm lists _yaml.so even if not build
+68,does not compile on os x intel ld not of required architecture
+69,PyYAML installer for windows with libYAML binding
+70,Strange case where yaml.load should error but actually loads
+71,"Nested lists seems to be ""dumped"" incorrectly"
+72,syck.dump is not here !
+73,patch to make libyaml compile in visual studio
+74,pyyaml 3000 is not in the Python cheese shop
+75,syck.dump is broken
+76,remove unused variable in representer
+77,how to install PyYaml to a linux
+78,Allow for immutable subclasses of YAMLObject
+79,PROPOSED FIX:memory corruption and bad aliases
+80,Please help saving dict to yaml
+81,Cannot compile under gcc version 3.3.5
+82,path resolver has bug
+83,PyYaml don't have a version
+84,Secirity risk: easy_install reads a wiki page to get tarball path
+85,Python regular expression named groups breaks (?) pyyaml
+86,Simple event generated code fails with MemoryError while around 100 bytes yaml is expected as output
+87,front page example has broken delete for yaml_event_delete
+88,No symbols exported from yaml.dll
+89,PyYAML is not installable with Jython
+90,Loader and Dumper leave circular references around
+91,Is there a way??
+92,Timestamp support has floating-point roundoff
+93,Cant seem to install pyyaml on mac os x lion
+94,Initialisation not ANSI compliant
+95,Unicode support
+96,yaml emitter bug
+97,numpy arrays ...
+98,Forcing block style
+99,PyYAML + libyyaml shouldn't need PyRex

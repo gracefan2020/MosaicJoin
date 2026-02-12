@@ -1,0 +1,101 @@
+id,title
+0,add support for offline routing
+1,show ISS and other orbiting satellites on the map
+2,give more info when saving options fails
+3,show whole world on the screen
+4,retimestamp a gpx file from the master timestamp
+5,add clories/fuel estimation function
+6,send position by sms
+7,add social network iteraction
+8,clikable tracklogs
+9,quick POI adding
+10,draw a custom route
+11,add quick search widget
+12,voice: messages with empty distance string
+13,"""pixel zooming"" - like in tangogps"
+14,add jump-to-zoomlevel widget
+15,add batch import of tiles to db
+16,"""burn"" tracks to map tiles"
+17,edit the Espeak substitution list from GUI
+18,store directions when saving route
+19,special mode for batch downloads
+20,map data management tool
+21,add support for knots
+22,Point to Point distance measurement
+23,"boat: add weather, moonphase & tide info"
+24,free navigation (arrow + distance to a given POI/coordinates)
+25,export POI as a GPX file
+26,Maemo@N900+possibly other: remember and restore internet connection state
+27,ask to enable GPS
+28,list all navigation steps
+29,improve the GPX example tracks
+30,"UI: only show ""route"" button when applicable"
+31,Routing: make start/destination indicators dragable
+32,anchor alarm
+33,batch download: add download visible mode
+34,batch download: around view -> around point + imporvements
+35,tile loding/download: Loading tiles stuck after switching network access rules
+36,Add optional GPS shutdown timeout
+37,show onscreen menu/widget when track logging is in progress
+38,SHR@Neo automatic GPS start/stop
+39,Show whole tracklog on map
+40,cancel download of no longer visible tiles
+41,combine close turns to one message
+42,Pressing pause when logging does not stop the time
+43,Better readable and configurable scale indicator
+44,smart tile preloading
+45,TBT Navigation - move position indicator location to show maximum of the route ahead on the screen
+46,modrana remote data client/server
+47,download upper zoom levels first during batch download
+48,"QML UI: center the loading Loading... label, remove Ready label"
+49,QML UI: show tile debugging info
+50,GTK UI: on map logging trace broken
+51,add map storage path dialog to to GUI
+52,N900: notify users without CSSU when they try to launch the QML GUI
+53,GTK UI: point2point routing - show feedback if only one point or no points are selected
+54,simple position publishing
+55,Way bounding box
+56,check out Marbles trace drawing algorithm
+57,"tracklog: if logging is paused, rename ""start"" to ""resume"""
+58,return Point coordiantes in more formats as string
+59,notifications sent during startup are not displayed
+60,P2P Route : missing trace from start and destination marker
+61,network mode: only when needed
+62,Harmattan: add spash screen
+63,Monav: add option for selecting Monav server path
+64,Monav: more robust monav-server shutdown
+65,Farsi (Persian) support for Voice navigation
+66,option: shut down GPS when in standby for X minutes
+67,use zsync to update offline routing data
+68,CLI: option for redirecting the profile path
+69,GTK GUI: options: support for disabling option buttons
+70,manual mass POI input
+71,overhaul the POI menu
+72,add info menu
+73,after a big tile download modRana GUI crashes
+74,automatic rerouting
+75,N900: add direct calling of local search result numbers
+76,substitute wrong terms in routing service output
+77,widget system overhaul
+78,"add ""button pressed"" feedback"
+79,add easy jumping to track/route start/destination
+80,"tracklog renaming, route naming"
+81,use source zoomlevel for batch download while scaled
+82,"add tracklog re/naming, deleting"
+83,Add more routing messages + improve the routing message box
+84,add a boat mode
+85,voice directions
+86,POI: sort by distance & search by typing
+87,Maemo@N900: switch between turns with the volume rocker
+88,SHR@NEO: wrong speed displayed due to FSO-GPSD
+89,Routing: add support for waypoints
+90,Add more features for working with POI
+91,make routing box position configurable
+92,weather info integration
+93,barometer support
+94,better voice navigation messages
+95,batch download tiles around current route
+96,tile update
+97,QML UI: improve point display
+98,QML UI: pinch gesture in icon grid
+99,QML UI: Map layer gallery

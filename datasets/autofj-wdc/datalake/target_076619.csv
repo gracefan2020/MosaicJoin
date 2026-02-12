@@ -1,0 +1,96 @@
+id,title
+0,"name: testOntologyName,"
+1,"description: testOntologyDescription,"
+2,"url: testOntologyUrl,"
+3,"versionNumber: testOntologyVersionNumber,"
+4,"ncboId: testOntologyNcboId,"
+5,ncboVersionedId: testOntologyNcboVersionedId
+6,"name: testOntologyName,"
+7,"description: testOntologyDescription,"
+8,"url: testOntologyUrl,"
+9,"versionNumber: testOntologyVersionNumber,"
+10,"ncboId: testOntologyNcboId,"
+11,ncboVersionedId: testOntologyNcboVersionedId
+12,);
+13,// Validate and save ontology
+14,assert ontology.validate()
+15,assert ontology.save(flush: true)
+16,assert ontology.save(flush: true)
+17,}
+18,* Test if ontology was properly saved
+19,*/
+20,void testSave () {
+21,void testSave () {
+22,// Try to retrieve the ontology and make sure it's the same
+23,/**
+24,* Test saving and retrieving a term within the ontology and test giveTermByName(name) and giveTerms()
+25,*/
+26,* Test saving and retrieving a term within the ontology and test giveTermByName(name) and giveTerms()
+27,*/
+28,void testTermSave() {
+29,// Create a new term
+30,def term = new Term(
+31,"name: testTermName,"
+32,"accession: testAccession,"
+33,ontology: testOntology
+34,"name: testTermName,"
+35,"accession: testAccession,"
+36,ontology: testOntology
+37,)
+38,assert term.validate()
+39,assert term.save(flush: true)
+40,assert term.save(flush: true)
+41,// Try to retrieve the term from the ontology and make sure it's the same
+42,/**
+43,* Ontocat test for debug purposes: show all properties of a certain ontology
+44,*/
+45,* Ontocat test for debug purposes: show all properties of a certain ontology
+46,*/
+47,private void testOntocatBioPortalDebug() {
+48,// Instantiate OLS service
+49,String codingScheme = bean.codingScheme
+50,"sb.append(""OntologyBean:\n"")"
+51,"sb.append(""property codingScheme="" +codingScheme+""\n"")"
+52,"sb.append(""property codingScheme="" + codingScheme + ""\n"")"
+53,"sb.append(""Bean.properties:\n"")"
+54,bean.properties.each {
+55,"sb.append(it.key + ""="" + it.value +""\n"")"
+56,"sb.append(it.key + ""="" + it.value + ""\n"")"
+57,}
+58,"sb.append ""Bean:\t"" + bean.dump()"
+59,"sb.append(""Ontology meta properties:\n"")"
+60,o.getVersionNumber() + o.getMetaPropertyValues().each {
+61,"sb.append(it.name + ""="" + it.value +""\n"")"
+62,"sb.append(it.name + ""="" + it.value + ""\n"")"
+63,}
+64,"sb.append(""Ontology properties:\n"");"
+65,o.getProperties().each {
+66,"sb.append(it.key + ""="" + it.value +""\n"")"
+67,"sb.append(it.key + ""="" + it.value + ""\n"")"
+68,}
+69,"sb.append(""Ontology root terms:\n"");"
+70,// Instantiate ontology
+71,def ontology = new Ontology(
+72,"name: o.label,"
+73,"description: o.description,"
+74,"url: bean.properties['homepage'],"
+75,"//url: 'http://bioportal.bioontology.org/ontologies/' + versionedId,"
+76,"versionNumber: o.versionNumber,"
+77,"ncboId: o.ontologyAccession,"
+78,ncboVersionedId: versionedId
+79,"name: o.label,"
+80,"description: o.description,"
+81,"url: bean.properties['homepage'],"
+82,"//url: 'http://bioportal.bioontology.org/ontologies/' + versionedId,"
+83,"versionNumber: o.versionNumber,"
+84,"ncboId: o.ontologyAccession,"
+85,ncboVersionedId: versionedId
+86,);
+87,// Validate and save ontology
+88,assert ontology.validate()
+89,assert ontology.save(flush: true)
+90,assert ontology.save(flush: true)
+91,//println ontology.dump()
+92,}
+93,}
+94,}

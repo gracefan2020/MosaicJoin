@@ -1,0 +1,216 @@
+id,title
+0,Batched IO (bound) vector count
+1,Batched IO (full) vector count
+2,Batched IO block miss count
+3,Batched IO buffer defrag count
+4,Batched IO double miss count
+5,Batched IO same unit count
+6,Batched IO single block count
+7,Batched IO slow jump count
+8,Batched IO vector block count
+9,Batched IO vector read count
+10,Block Cleanout Optim referenced
+11,CCursor + sql area evicted
+12,CPU used by this session
+13,CPU used when call started
+14,CR blocks created
+15,Cached Commit SCN referenced
+16,Commit SCN cached
+17,DB time
+18,DBWR checkpoint buffers written
+19,DBWR checkpoints
+20,DBWR object drop buffers written
+21,DBWR parallel query checkpoint buffers written
+22,DBWR revisited being-written buffer
+23,DBWR tablespace checkpoint buffers written
+24,DBWR thread checkpoint buffers written
+25,DBWR transaction table writes
+26,DBWR undo block writes
+27,DFO trees parallelized
+28,HSC Heap Segment Block Changes
+29,Heap Segment Array Inserts
+30,LOB table id lookup cache misses
+31,Number of read IOs issued
+32,PX local messages recv'd
+33,PX local messages sent
+34,Parallel operations downgraded 1 to 25 pct
+35,Parallel operations downgraded 25 to 50 pct
+36,Parallel operations downgraded to serial
+37,RowCR - row contention
+38,RowCR attempts
+39,RowCR hits
+40,SMON posted for undo segment shrink
+41,SQL*Net roundtrips to/from client
+42,TBS Extension: tasks created
+43,TBS Extension: tasks executed
+44,active txn count during cleanout
+45,application wait time
+46,background checkpoints completed
+47,background checkpoints started
+48,background timeouts
+49,buffer is not pinned count
+50,buffer is pinned count
+51,bytes received via SQL*Net from client
+52,bytes sent via SQL*Net to client
+53,calls to get snapshot scn: kcmgss
+54,calls to kcmgas
+55,calls to kcmgcs
+56,cell physical IO interconnect bytes
+57,change write time
+58,cleanout - number of ktugct calls
+59,cleanouts and rollbacks - consistent read gets
+60,cleanouts only - consistent read gets
+61,cluster key scan block gets
+62,cluster key scans
+63,commit batch performed
+64,commit batch requested
+65,commit batch/immediate performed
+66,commit batch/immediate requested
+67,commit cleanout failures: buffer being written
+68,commit cleanout failures: callback failure
+69,commit cleanout failures: cannot pin
+70,commit cleanouts
+71,commit cleanouts successfully completed
+72,commit immediate performed
+73,commit immediate requested
+74,commit txn count during cleanout
+75,concurrency wait time
+76,consistent changes
+77,consistent gets
+78,consistent gets - examination
+79,consistent gets direct
+80,consistent gets from cache
+81,consistent gets from cache (fastpath)
+82,cursor authentications
+83,data blocks consistent reads - undo records applied
+84,db block changes
+85,db block gets
+86,db block gets direct
+87,db block gets from cache
+88,db block gets from cache (fastpath)
+89,deferred (CURRENT) block cleanout applications
+90,dirty buffers inspected
+91,enqueue conversions
+92,enqueue releases
+93,enqueue requests
+94,enqueue timeouts
+95,enqueue waits
+96,exchange deadlocks
+97,execute count
+98,failed probes on index block reclamation
+99,file io service time
+100,file io wait time
+101,flashback log write bytes
+102,flashback log writes
+103,free buffer inspected
+104,free buffer requested
+105,heap block compress
+106,hot buffers moved to head of LRU
+107,immediate (CR) block cleanout applications
+108,immediate (CURRENT) block cleanout applications
+109,index crx upgrade (positioned)
+110,index fast full scans (full)
+111,index fetch by key
+112,index scans kdiixs1
+113,leaf node 90-10 splits
+114,leaf node splits
+115,lob reads
+116,lob writes
+117,lob writes unaligned
+118,logons cumulative
+119,max cf enq hold time
+120,messages received
+121,messages sent
+122,min active SCN optimization applied on CR
+123,no buffer to keep pinned count
+124,no work - consistent read gets
+125,non-idle wait count
+126,non-idle wait time
+127,opened cursors cumulative
+128,parse count (describe)
+129,parse count (failures)
+130,parse count (hard)
+131,parse count (total)
+132,parse time cpu
+133,parse time elapsed
+134,physical read IO requests
+135,physical read bytes
+136,physical read total IO requests
+137,physical read total bytes
+138,physical read total multi block requests
+139,physical reads
+140,physical reads cache
+141,physical reads cache prefetch
+142,physical reads direct
+143,physical reads direct (lob)
+144,physical reads direct temporary tablespace
+145,physical reads for flashback new
+146,physical reads prefetch warmup
+147,physical write IO requests
+148,physical write bytes
+149,physical write total IO requests
+150,physical write total bytes
+151,physical write total multi block requests
+152,physical writes
+153,physical writes direct
+154,physical writes direct (lob)
+155,physical writes direct temporary tablespace
+156,physical writes from cache
+157,physical writes non checkpoint
+158,pinned buffers inspected
+159,prefetch warmup blocks aged out before use
+160,process last non-idle time
+161,queries parallelized
+162,recursive calls
+163,recursive cpu usage
+164,redo blocks checksummed by FG (exclusive)
+165,redo blocks written
+166,redo buffer allocation retries
+167,redo entries
+168,redo k-bytes read total
+169,redo log space requests
+170,redo log space wait time
+171,redo ordering marks
+172,redo size
+173,redo size for direct writes
+174,redo subscn max counts
+175,redo synch time
+176,redo synch writes
+177,redo wastage
+178,redo write time
+179,redo writes
+180,rollback changes - undo records applied
+181,rollbacks only - consistent read gets
+182,rows fetched via callback
+183,session connect time
+184,session cursor cache hits
+185,session logical reads
+186,shared hash latch upgrades - no wait
+187,shared hash latch upgrades - wait
+188,sorts (memory)
+189,sorts (rows)
+190,sql area evicted
+191,sql area purged
+192,summed dirty queue length
+193,switch current to new buffer
+194,table fetch by rowid
+195,table fetch continued row
+196,table scan blocks gotten
+197,table scan rows gotten
+198,table scans (direct read)
+199,table scans (long tables)
+200,table scans (rowid ranges)
+201,table scans (short tables)
+202,total cf enq hold time
+203,total number of cf enq holders
+204,total number of times SMON posted
+205,transaction rollbacks
+206,undo change vector size
+207,user I/O wait time
+208,user calls
+209,user commits
+210,user rollbacks
+211,workarea executions - onepass
+212,workarea executions - optimal
+213,write clones created in background
+214,write clones created in foreground

@@ -1,0 +1,285 @@
+id,title
+0,ls
+1,rm
+2,str
+3,unz
+4,getwd
+5,dir
+6,sprintf
+7,c
+8,regexpr
+9,diag
+10,col
+11,lapply
+12,sapply
+13,mapply
+14,tapply
+15,apply
+16,MARGIN = 1 or 2 in apply
+17,rmvnorm
+18,rle
+19,ftable
+20,xtabs
+21,xtable
+22,formatC
+23,Sweave
+24,cor
+25,ancova
+26,manova
+27,aov
+28,TukeyHSD
+29,hclust
+30,cmdscale
+31,factanal
+32,princomp
+33,prcomp
+34,lme
+35,resid
+36,ranef
+37,anova
+38,fixef
+39,vcov
+40,logLik
+41,BIC
+42,mcmcsamp
+43,eval
+44,cat
+45,apropos
+46,read.csv
+47,read.fwf
+48,seq
+49,rep
+50,dim
+51,gl
+52,rbind
+53,cbind
+54,is.na
+55,nrow
+56,ncol
+57,attr
+58,rev
+59,diff
+60,prod
+61,var
+62,sd
+63,cumsum
+64,cumprod
+65,setdiff
+66,intersect
+67,Re
+68,Im
+69,Mod
+70,t
+71,substr
+72,strsplit
+73,grep
+74,sub
+75,gsub
+76,pmatch
+77,nchar
+78,ps.options
+79,win.metafile
+80,dev.off
+81,dev.cur
+82,dev.set
+83,hist
+84,pie
+85,coplot
+86,matplot
+87,assocplot
+88,plot.ts
+89,qqnorm
+90,persp
+91,xlim
+92,ylim
+93,xlab
+94,ylab
+95,main
+96,sub
+97,mtext
+98,abline
+99,h argument in abline
+100,v argument in abline
+101,par
+102,adj as par
+103,bg as par
+104,bty as par
+105,cex as par
+106,cex.sub as par
+107,cex.axis as par
+108,cex.lab as par
+109,cex.main as par
+110,col as par
+111,las as par
+112,lty as par
+113,lwd as par
+114,mar as par
+115,mfg as par
+116,mfcol as par
+117,mfrow as par
+118,pch as par
+119,ps as par
+120,pty as par
+121,tck as par
+122,tcl as par
+123,xaxs as par
+124,yaxs as par
+125,xaxt as par
+126,yaxt as par
+127,asp as par
+128,xlog as par
+129,ylog as par
+130,omi as par
+131,mai as par
+132,pin as par
+133,xpd as par
+134,xyplot
+135,bwplot
+136,qq
+137,splom
+138,optim
+139,lm
+140,glm
+141,nls
+142,loess
+143,prop.test
+144,rnorm
+145,dnorm
+146,pnorm
+147,qnorm
+148,rexp
+149,rgamma
+150,rpois
+151,rweibull
+152,rcauchy
+153,rbeta
+154,rt
+155,rf
+156,rchisq
+157,rbinom
+158,rgeom
+159,rhyper
+160,rlogis
+161,rlnorm
+162,rnbinom
+163,runif
+164,rwilcox
+165,ggplot in ggplot2
+166,aes in ggplot2
+167,geom_ in ggplot2
+168,stat_ in ggplot2
+169,coord_ in ggplot2
+170,qplot in ggplot2
+171,x as argument
+172,FUN as argument
+173,pos as argument
+174,lib.loc in library
+175,sep as argument
+176,comment.char in read.table
+177,I
+178,T value
+179,F value
+180,na.rm as argument
+181,fivenum
+182,IQR
+183,coef
+184,dist
+185,df as argument
+186,mad
+187,sink
+188,eol in write.table
+189,R as software
+190,CRAN as word
+191,Sexpr
+192,ls.str
+193,browseEnv
+194,envir as argument
+195,q
+196,cancor
+197,ave
+198,min
+199,max
+200,sqrt
+201,%o%
+202,&
+203,|
+204,:
+205,nlevels
+206,det
+207,crossprod
+208,gls
+209,dwtest in lmtest
+210,sem in sem
+211,betareg in betareg
+212,log
+213,log10
+214,fft
+215,exp
+216,df.residual
+217,sin
+218,cos
+219,tan
+220,asin
+221,acos
+222,atan
+223,deriv
+224,chol
+225,chol2inv
+226,svd
+227,eigen
+228,lower.tri
+229,upper.tri
+230,acf
+231,pacf
+232,ccf
+233,Rattle as software
+234,StatET as software
+235,JGR as software
+236,ESS as software
+237,Rcmdr package
+238,prettyNum
+239,Inf value
+240,NaN value
+241,is.nan
+242,S3
+243,S4
+244,Rterm as program
+245,R CMD as program
+246,repos as option
+247,bin folder
+248,etc folder
+249,src folder
+250,doc folder
+251,RGUI program
+252,.site file extension
+253,Hmisc package
+254,n in debug
+255,c in debug
+256,Q in debug
+257,MASS package
+258,plyr package
+259,aaply
+260,daply
+261,laply
+262,adply
+263,alply
+264,a_ply
+265,RODBC package
+266,psych package
+267,zelig package
+268,strucchange package
+269,relaimpo package
+270,car package
+271,OpenMx packge
+272,df in write.foreign
+273,GNU S word
+274,R FAQ word
+275,DVI format
+276,devel word
+277,GPL word
+278,utils package
+279,mle
+280,rpart package
+281,sna package
+282,ergm package
+283,rbugs package

@@ -1,0 +1,216 @@
+id,title
+0,Re: [issue1063] keyboard doesn't work on -DEVEL snapshot
+1,ohci related panic
+2,Re: ohci related panic
+3,Re: [issue1101] ohci related panic
+4,Sqlite hangs on fsync on Hammer partition
+5,Re: Sqlite hangs on fsync on Hammer partition
+6,Re: Sqlite hangs on fsync on Hammer partition
+7,Re: Sqlite hangs on fsync on Hammer partition
+8,Re: Sqlite hangs on fsync on Hammer partition
+9,Re: Sqlite hangs on fsync on Hammer partition
+10,Re: Sqlite hangs on fsync on Hammer partition
+11,Re: Sqlite hangs on fsync on Hammer partition
+12,Re: Sqlite hangs on fsync on Hammer partition
+13,Re: Sqlite hangs on fsync on Hammer partition
+14,Re: Sqlite hangs on fsync on Hammer partition
+15,panic while booting
+16,Re: panic while booting
+17,Re: panic while booting
+18,panic: assertion: layer2->zone == zone in hammer_blockmap_free
+19,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+20,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+21,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+22,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+23,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+24,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+25,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+26,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+27,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+28,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+29,Re: panic: assertion: layer2->zone == zone in hammer_blockmap_free
+30,mysql-client-5.0.51b requires libreadline.so.6
+31,Re: mysql-client-5.0.51b requires libreadline.so.6
+32,Re: mysql-client-5.0.51b requires libreadline.so.6
+33,Re: mysql-client-5.0.51b requires libreadline.so.6
+34,Re: mysql-client-5.0.51b requires libreadline.so.6
+35,Re: mysql-client-5.0.51b requires libreadline.so.6
+36,Re: mysql-client-5.0.51b requires libreadline.so.6
+37,Re: mysql-client-5.0.51b requires libreadline.so.6
+38,Re: mysql-client-5.0.51b requires libreadline.so.6
+39,Re: mysql-client-5.0.51b requires libreadline.so.6
+40,Re: [issue1105] mysql-client-5.0.51b requires libreadline.so.6
+41,Re: [issue1105] mysql-client-5.0.51b requires libreadline.so.6
+42,Network-related crash on boot
+43,Re: Network-related crash on boot
+44,Re: [issue1106] Network-related crash on boot
+45,Re: [issue1106] Network-related crash on boot
+46,Re: [issue1106] Network-related crash on boot
+47,Re: [issue1106] Network-related crash on boot
+48,Re: [issue1106] Network-related crash on boot
+49,Re: [issue1106] Network-related crash on boot
+50,Re: [issue1106] Network-related crash on boot
+51,Re: [issue1106] Network-related crash on boot
+52,Re: [issue1106] Network-related crash on boot
+53,Re: [issue1106] Network-related crash on boot
+54,Network crash
+55,Re: Network crash
+56,Re: [issue1123] Network crash
+57,Re: [issue1123] Network crash
+58,Re: [issue1123] Network crash
+59,Re: [issue1123] Network crash
+60,Re: [issue1123] Network crash
+61,Re: Frequent X11 Fatal server errors (caught signal 11)
+62,firefox3
+63,Re: firefox3
+64,Re: firefox3
+65,Hammer: rmdir deletes regular files
+66,Re: Hammer: rmdir deletes regular files
+67,HAMMER fs space problem
+68,Re: HAMMER fs space problem
+69,Re: [issue1109] HAMMER fs space problem
+70,Re: HAMMER fs space problem
+71,Hammer: df used space output wrong
+72,Re: Hammer: df used space output wrong
+73,Re: Hammer: df used space output wrong
+74,Re: Hammer: df used space output wrong
+75,Re: Hammer: df used space output wrong
+76,Re: [issue1110] Hammer: df used space output wrong
+77,Re: DragonFly ISO release build failure for 2CSNAP-20080806-2330-Devel
+78,Re: DragonFly ISO release build failure for 2CSNAP-20080806-2330-Devel
+79,HAMMER:rmdir deletes regular files is not be fiexed
+80,Re: HAMMER:rmdir deletes regular files is not be fiexed
+81,Re: HAMMER:rmdir deletes regular files is not be fiexed
+82,Re: Reading DVD video broken in recent current
+83,Re: DVD playback not working
+84,Re: DVD playback not working
+85,Re: [issue1068] DVD playback not working
+86,Re: [issue1068] DVD playback not working
+87,Re: [issue1068] DVD playback not working
+88,Re: DVD playback not working
+89,Re: DVD playback not working
+90,Re: DVD playback not working
+91,Re: DVD playback not working
+92,Re: DVD playback not working
+93,Re: DVD playback not working
+94,Re: DVD playback not working
+95,Re: DVD playback not working
+96,Re: DVD playback not working
+97,How to patch HAMMER patches?
+98,HAMMER FS:still rmdir deletes regular files
+99,[issue1114] HAMMER FS:still rmdir deletes regular files
+100,HAMMER:hammer prune-everything's problem
+101,Re: HAMMER:hammer prune-everything's problem
+102,Re: [issue1115] HAMMER:hammer prune-everything's problem
+103,Re: [issue1115] HAMMER:hammer prune-everything's problem
+104,Re: HAMMER:hammer prune-everything's problem
+105,Re: HAMMER:hammer prune-everything's problem
+106,Re: [issue1115] HAMMER:hammer prune-everything's problem
+107,HAMMER:file read speed
+108,Re: HAMMER:file read speed
+109,fsck coredumps under QEMU-KVM
+110,Re: fsck coredumps under QEMU-KVM
+111,Fatal trap 12: page fault while in kernel mode
+112,[issue1116] HAMMER:file read speed
+113,[issue1116] HAMMER:file read speed
+114,Re: [issue1116] HAMMER:file read speed
+115,Re: [issue1116] HAMMER:file read speed
+116,Re: [issue1116] HAMMER:file read speed
+117,Re: [issue1116] HAMMER:file read speed
+118,Re: [issue1116] HAMMER:file read speed
+119,Re: [issue1116] HAMMER:file read speed
+120,Re: [issue1116] HAMMER:file read speed
+121,Re: [issue1116] HAMMER:file read speed
+122,[issue1116] HAMMER:file read speed
+123,Re: [issue1116] HAMMER:file read speed
+124,Re: [issue1116] HAMMER:file read speed
+125,AMD64 buildword error
+126,Re: AMD64 buildword error
+127,[issue1119] AMD64 buildword error
+128,[issue1119] AMD64 buildword error
+129,Re: [issue1119] AMD64 buildword error
+130,Re: [issue1119] AMD64 buildword error
+131,Re: [issue1119] AMD64 buildword error
+132,Problems with HUAWEI E220 rev 1.10
+133,Re: Problems with HUAWEI E220 rev 1.10
+134,Re: Problems with HUAWEI E220 rev 1.10
+135,Re: Problems with HUAWEI E220 rev 1.10
+136,Re: Problems with HUAWEI E220 rev 1.10
+137,Re: Problems with HUAWEI E220 rev 1.10
+138,Re: Problems with HUAWEI E220 rev 1.10
+139,Re: Problems with HUAWEI E220 rev 1.10
+140,Script failure checking kernel IPFILTER support
+141,Re: Script failure checking kernel IPFILTER support
+142,Re: Script failure checking kernel IPFILTER support
+143,"Problems with absolute root path to ""hammer pfs-*"""
+144,"[issue1122] Problems with absolute root path to ""hammer pfs-*"""
+145,[issue1124] ugensa.c: patch: new vendor/device code
+146,[issue1121] Script failure checking kernel IPFILTER support
+147,[issue1100] /usr/Makefile needs to be updated for 2.0 (release-src-cvsup)
+148,[issue1067] asf patch
+149,[issue1061] buildworld breakage (?) - newfs_hamer
+150,[issue1092] dfly-2.0.0-REL: pkg_info shows cdrtools-ossdvd but commands missing
+151,[issue1065] Yacc patch
+152,[issue1080] Segfault in the 2.0.0 installer
+153,[issue1111] DragonFly ISO release build failure for 2CSNAP-20080806-2330-Devel
+154,[issue1075] update sys/vfs/hammer/hammer.txt
+155,[issue1068] DVD playback not working
+156,[issue1097] DragonFly ISO release build failure for 2CSNAP-20080728-2330-Devel
+157,[issue1056] cvs commit: src/sys/kern vfs_bio.c
+158,[issue1012] added IEEE80211_FC1_PROTECTED from OpenBSD
+159,[issue1110] Hammer: df used space output wrong
+160,[issue1117] fsck coredumps under QEMU-KVM
+161,Re: [issue1117] fsck coredumps under QEMU-KVM
+162,[issue1117] fsck coredumps under QEMU-KVM
+163,[issue1117] fsck coredumps under QEMU-KVM
+164,[issue1076] HAMMER kernel panic on git-clone
+165,[issue546] panic: getblk: vnode 0xce889690 has no object!
+166,"[issue210] another SSP bug? (Re: userland ppp (""No context"" errors))"
+167,[issue521] HEAD: no rootfs in jail
+168,[issue724] ccd on NATA problem - ata0: FAILURE - oversized DMA transfer attempt 73728 > 65536
+169,[issue1054] HAMMER crash again
+170,[issue1047] buildworld fails on just updated source
+171,[issue1045] CARP missing sysctl options
+172,[issue1044] bios0sio
+173,[issue1034] code comment update for set_tls_area/get_tls_area
+174,[issue1021] Hammer: file owner set to root
+175,[issue987] an0: device timeout on x31
+176,"[issue1014] panic when umounting a msdosfs mount: ""VOP_STDCLOSE: BAD WRITECOUNT 0xf2629e68 0"""
+177,[issue1106] Network-related crash on boot
+178,[issue1023] panic: assertion: !IS_SERIALIZED((s)) in lwkt_serialize_enter
+179,[issue1019] in_ifinit() fix for SIOCSIFADDR
+180,[issue1011] added a definition for IEEE80211_FC1_PROTECTED
+181,[issue1005] network forwarding patch
+182,[issue1002] adaptive serialize enter
+183,[issue1001] spinlock random exponential backoff
+184,"[issue993] ifq spinlock, if_start dispatch and push serializer holding down into if_output"
+185,[issue982] bge0 watchdog timeout
+186,[issue940] dispatch tcp_close to the correct CPU to run
+187,[issue933] em(4) hardware error after ACPI suspend
+188,[issue922] my 3com nic is not working propely under 1.11-development!
+189,[issue1050] nfe0 ping and dhclient problems
+190,[issue1036] Typo in PCI ID in 'sln' driver for Silan sc92031 pci ethernet card
+191,[issue956] CARP panic
+192,[issue608] if_ndis with rt2400 causes fatal trap
+193,[issue520] em(4) on thinkpad t60
+194,[issue162] bfe(4) patch for phymem > 1GB box
+195,[issue596] jumbo buffer slots tunable for ti(4)
+196,[issue592] ti(4) fixes
+197,panic: assertion: iou->io.lock.refs == 0 in hammer_io_inval
+198,Re: panic: assertion: iou->io.lock.refs == 0 in hammer_io_inval
+199,panic: assertion: volume->io.lock.refs == 0 in hammer_unload_volume
+200,kernel panic under install CD boot (cd9660-related)
+201,Re: kernel panic under install CD boot (cd9660-related)
+202,Re: kernel panic under install CD boot (cd9660-related)
+203,Re: kernel panic under install CD boot (cd9660-related)
+204,Re: kernel panic under install CD boot (cd9660-related)
+205,Re: kernel panic under install CD boot (cd9660-related)
+206,Re: kernel panic under install CD boot (cd9660-related)
+207,[issue1128] iir driver can not find any disk drives on an Intel SRCU42L
+208,hammer-inodes: malloc limit exceeded
+209,Re: hammer-inodes: malloc limit exceeded
+210,Re: hammer-inodes: malloc limit exceeded
+211,Re: hammer-inodes: malloc limit exceeded
+212,Re: hammer-inodes: malloc limit exceeded
+213,Re: hammer-inodes: malloc limit exceeded
+214,[issue995] DFly doesnt work on Vmware and Virtualbox

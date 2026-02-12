@@ -1,0 +1,134 @@
+id,title
+0,Char Type Name
+1,Outer Join Clause
+2,Binary Type Name
+3,Clob Type Name
+4,Supports Locking With Distinct Clause
+5,Simulate Locking
+6,System Tables
+7,Concatenate Function
+8,Sub Function Name
+9,Supports Query Timeout
+10,Use Set Bytes For Blobs
+11,Max Constraint Name Length
+12,Search Escape
+13,Supports Cascade Update Action
+14,String Length Function
+15,get Long Varbinary Type Name
+16,Supports Unique Constraints
+17,Supports Restrict Delete Action
+18,Trim Leading Function
+19,Supports Default Delete Action
+20,Next Sequence Query
+21,Long Varchar Type Name
+22,Cross Join Clause
+23,Max Embedded Clob Size
+24,Date Type Name
+25,Supports Schema For Get Tables
+26,Supports Alter Table With Drop Column
+27,Current Time Function
+28,Requires Condition For Cross Join
+29,Ref Type Name
+30,Concatenate Delimiter
+31,Catalog Separator
+32,Supports Mod Operator
+33,Schema Case
+34,Java Object Type Name
+35,Driver Vendor
+36,Supports Locking With Multiple Tables
+37,Max Column Name Length
+38,Double Type Name
+39,Use Get String For Clobs
+40,Decimal Type Name
+41,Smallint Type Name
+42,Date Precision
+43,Supports Alter Table With Add Column
+44,Bit Type Name
+45,Supports Null Table For Get Columns
+46,To Upper Case Function
+47,Supports Select End Index
+48,Supports Auto Assign
+49,Store Large Numbers As Strings
+50,Constraint Name Mode
+51,Allows Alias In Bulk Clause
+52,Supports Select For Update
+53,Distinct Count Column Separator
+54,Supports Subselect
+55,Time Type Name
+56,Auto Assign Type Name
+57,Use Get Object For Blobs
+58,Max Auto Assign Name Length
+59,Validation SQL
+60,Struct Type Name
+61,Varchar Type Name
+62,Range Position
+63,Supports Restrict Update Action
+64,Auto Assign Clause
+65,Supports Multiple Nontransactional Result Sets
+66,Bit Length Function
+67,Create Primary Keys
+68,Null Type Name
+69,Float Type Name
+70,Use Get Bytes For Blobs
+71,Table Types
+72,Numeric Type Name
+73,Table For Update Clause
+74,Integer Type Name
+75,Blob Type Name
+76,For Update Clause
+77,Boolean Type Name
+78,Use Get Best Row Identifier For Primary Keys
+79,Supports Foreign Keys
+80,Drop Table SQL
+81,Use Set String For Clobs
+82,Supports Locking With Order Clause
+83,Platform
+84,Fixed Size Type Names
+85,Store Chars As Numbers
+86,Max Indexes Per Table
+87,Requires Cast For Comparisons
+88,Supports Having
+89,Supports Locking With Outer Join
+90,Supports Correlated Subselect
+91,Supports Null Table For Get Imported Keys
+92,Bigint Type Name
+93,Last Generated Key Query
+94,Reserved Words
+95,Supports Null Update Action
+96,Use Schema Name
+97,Supports Deferred Constraints
+98,Real Type Name
+99,Requires Alias For Subselect
+100,Supports Null Table For Get Index Info
+101,Trim Trailing Function
+102,Supports Locking With Select Range
+103,Storage Limitations Fatal
+104,Supports Locking With Inner Join
+105,Current Timestamp Function
+106,Cast Function
+107,Other Type Name
+108,Max Index Name Length
+109,Distinct Type Name
+110,Character Column Size
+111,Varbinary Type Name
+112,Max Table Name Length
+113,Close Pool SQL
+114,Current Date Function
+115,Join Syntax
+116,Max Embedded Blob Size
+117,Trim Both Function
+118,Supports Select Start Index
+119,To Lower Case Function
+120,Array Type Name
+121,Inner Join Clause
+122,Supports Default Update Action
+123,Supports Schema For Get Columns
+124,Tinyint Type Name
+125,Supports Null Table For Get Primary Keys
+126,System Schemas
+127,Requires Cast For Math Functions
+128,Supports Null Delete Action
+129,Requires Auto Commit For Meta Data
+130,Timestamp Type Name
+131,Initialization SQL
+132,Supports Cascade Delete Action

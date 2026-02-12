@@ -1,0 +1,50 @@
+id,title
+0,Perl bindings for Apache ZooKeeper
+1,resolve DNS queries using IO::Async
+2,use Matrix with IO::Async
+3,serve HTTP with IO::Async
+4,perl bindings for Apache Mesos
+5,use SSL/TLS with IO::Async
+6,Run commands on a bunch of git repositories without having to deal with git subrepositories.
+7,asyncronously check remote host for reachability
+8,system() in background for IO::Async
+9,a trivial caching layer around an IO::Async::Resolver
+10,Perl language kernel for IPython
+11,IO::Async support for the AMQP protocol
+12,IO::Async backend for Mojo::Reactor
+13,A client for Amazon DynamoDB
+14,See charon
+15,IO::Async support for dealing with UWSGI requests
+16,terminal emulation for Tickit
+17,use WebSockets with IO::Async
+18,"DHL API client, non-blocking"
+19,sendfile support for IO::Async
+20,HTTP useragent abstraction for webservices
+21,use pusher.com with IO::Async
+22,wrapper for using an IO::Async loop inside an IO::Async subprocess
+23,use Cassandra databases with IO::Async using CQL
+24,Implementation of UPS Online Tools API in Perl
+25,database support for IO::Async via DBI
+26,Low-accuracy shared timers for IO::Async
+27,pretty print adb logcat output
+28,AI::MicroStructure Creates Concepts for words
+29,A Glimpse at an Enlightened Perl: Async Programming
+30,server backend for the Circle application host
+31,basic SOCKS5 connection support for IO::Async
+32,IO::Async support for statsd/graphite
+33,send handles between processes
+34,send or receive lines of JSON data in IO::Async
+35,IO::Async implementation for simple key/value protocol
+36,Asynchronous support for the Extensible Message Passing Protocol
+37,Some common classes to write async webservice clients
+38,use Tangence with IO::Async
+39,use Gearman with IO::Async
+40,use IRC with IO::Async
+41,SMTP support for IO::Async
+42,Terminal frontend for the Circle application host
+43,use FTP with IO::Async
+44,use libasyncns for IO::Async resolver queries
+45,Dispatch SAX events from an XML stream.
+46,use ArtNet with IO::Async
+47,use Amazon's S3 web service with IO::Async
+48,use IO::Async with Mojolicious

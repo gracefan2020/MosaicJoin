@@ -1,0 +1,357 @@
+id,title
+0,Alabama
+1,Alaska
+2,Arizona
+3,Arkansas
+4,California
+5,Colorado
+6,Connecticut
+7,Delaware
+8,District of Columbia
+9,Florida
+10,Georgia
+11,Hawaii
+12,Idaho
+13,Illinois
+14,Indiana
+15,Iowa
+16,Kansas
+17,Kentucky
+18,Louisiana
+19,Maine
+20,Maryland
+21,Massachusetts
+22,Michigan
+23,Minnesota
+24,Mississippi
+25,Missouri
+26,Montana
+27,Nebraska
+28,Nevada
+29,New Hampshire
+30,New Jersey
+31,New Mexico
+32,New York
+33,North Carolina
+34,North Dakota
+35,Ohio
+36,Oklahoma
+37,Oregon
+38,Pennsylvania
+39,Rhode Island
+40,South Carolina
+41,South Dakota
+42,Tennessee
+43,Texas
+44,Utah
+45,Vermont
+46,Virginia
+47,Washington
+48,West Virginia
+49,Wisconsin
+50,Wyoming
+51,US OUTLYING AREAS/TERRITORIES
+52,American Samoa
+53,Guam
+54,Puerto Rico
+55,U.S. Virgin Islands
+56,Other US Possessions
+57,Johnston Atoll (See code 71090)
+58,Midway Islands (See code 71090)
+59,Wake Island (See code 71090)
+60,Navassa Island (See code 29999)
+61,Baker Island (See code 71090)
+62,Howland Island (See code 71090)
+63,Jarvis Island
+64,Kingman Reef
+65,Palmyra Atoll (See code 71090)
+66,"US territory, n.s."
+67,OTHER NORTH AMERICA
+68,Canada
+69,St. Pierre and Miquelon (See code 29999)
+70,Atlantic Islands
+71,Bermuda
+72,Cape Verde
+73,Falkland Islands (See code 30090)
+74,Greenland (See code 29999)
+75,St. Helena and Ascension (See code 60099)
+76,"North America, n.s. (See code 29999)"
+77,CENTRAL AMERICA AND CARIBBEAN
+78,Mexico
+79,Central America
+80,Belize/British Honduras
+81,Costa Rica
+82,El Salvador
+83,Guatemala
+84,Honduras
+85,Nicaragua
+86,Panama
+87,"Central America, n.s. (See code 29999)"
+88,Caribbean:
+89,Cuba
+90,West Indies
+91,Dominican Republic
+92,Haiti
+93,Jamaica
+94,Anguilla (See code 29999)
+95,Antigua-Barbuda
+96,Bahamas
+97,Barbados
+98,British Virgin Islands (See code 26094)
+99,Cayman Isles (See code 26094)
+100,Dominica
+101,Grenada
+102,Montserrat (See code 26094)
+103,St. Kitts-Nevis
+104,St. Lucia
+105,St. Vincent
+106,Trinidad & Tobago
+107,Turks & Caicos (See code 26094)
+108,Dutch West Indies:
+109,Aruba (See code 26094)
+110,Netherlands Antilles (See code 26094)
+111,French West Indies:
+112,Guadeloupe (See code 26094)
+113,Martinique (See code 26094)
+114,St. Barthelemy (See code 29999)
+115,"West Indies, n.s. (Includes 26071, 26045, 26053, 26081, 26082, 26056, 26072, 26061)"
+116,"Americas, n.s. (Includes 12041, 16040, 15500, 19900, 21090, 26041, 26083, 90020)"
+117,SOUTH AMERICA
+118,Argentina
+119,Bolivia
+120,Brazil
+121,Chile
+122,Colombia
+123,Ecuador
+124,French Guiana (See code 30090)
+125,Guyana/British Guiana
+126,Paraguay
+127,Peru
+128,Suriname (See code 30090)
+129,Uruguay
+130,Venezuela
+131,"South America, n.s. (Includes 16030, 30035, 30055)"
+132,EUROPE
+133,Northern Europe:
+134,Denmark
+135,Faroe Islands (See code 49900)
+136,Finland
+137,Iceland (See code 49900)
+138,Norway
+139,Svalbard
+140,Jan Meyen (See code 49900)
+141,Sweden
+142,United Kingdom and Ireland:
+143,England
+144,Guernsey (See code 41300)
+145,Jersey (See code 41300)
+146,Isle of Man (See code 41300)
+147,Scotland
+148,Wales
+149,"United Kingdom, n.s. (Includes 41011-41020)"
+150,Ireland
+151,Northern Ireland
+152,Western Europe:
+153,Belgium
+154,France
+155,Liechtenstein (See code 49900)
+156,Luxembourg (See code 49900)
+157,Monaco (See code 49900)
+158,Netherlands
+159,Switzerland
+160,Southern Europe:
+161,Albania
+162,Andorra (See code 49900)
+163,Gibraltar (See code 49900)
+164,Greece
+165,Macedonia
+166,Italy
+167,Malta (See code 49900)
+168,Portugal (Includes 43620)
+169,Azores
+170,Madeira Islands (See code 43600)
+171,San Marino (See code 49900)
+172,Spain
+173,Vatican City (See code 49900)
+174,Central/Eastern Europe:
+175,Austria
+176,Bulgaria
+177,Czechoslovakia
+178,Slovakia
+179,Czech Republic
+180,Germany
+181,Hungary
+182,Poland
+183,Romania
+184,Yugoslavia
+185,Croatia
+186,Serbia
+187,Bosnia
+188,Slovenia (See code 49900)
+189,Kosovo
+190,Russian Empire:
+191,Baltic States:
+192,Estonia (See code 49900)
+193,Latvia
+194,Lithuania
+195,Byelorussia
+196,Moldavia
+197,Ukraine
+198,Armenia
+199,Azerbaijan
+200,Georgia
+201,Kazakhstan (See code 51910)
+202,Kirghizia (See code 51910)
+203,Tadzhik (See code 51910)
+204,Turkmenistan (See code 51910)
+205,Uzbekistan
+206,"USSR, n.s."
+207,"Europe, n.s. (Includes 43100, 40010, 43200, 40200, 40412, 42200, 42300, 42400, 43700, 43900, 45780, 46000)"
+208,ASIA
+209,East Asia:
+210,China (Includes 59900)
+211,Hong Kong
+212,Macau (See code 51910)
+213,Mongolia (See code 51910)
+214,Taiwan
+215,Japan
+216,Korea (Includes 50210)
+217,North Korea (See code 50200)
+218,South Korea
+219,Southeast Asia:
+220,Brunei (See code 51910)
+221,Cambodia (Kampuchea)
+222,Indonesia
+223,Laos
+224,Malaysia
+225,Philippines
+226,Singapore
+227,Thailand
+228,Vietnam
+229,"Indochina, n.s. (Includes 53000, 52120, 51000, 46543, 46544, 50020, 52300, 50030, 53800, 53900, 46545, 46546, 54300)"
+230,India/Southwest Asia:
+231,Afghanistan
+232,India
+233,Bangladesh
+234,Bhutan (See code 51910)
+235,Burma (Myanmar)
+236,Pakistan
+237,Sri Lanka (Ceylon)
+238,Iran
+239,Maldives (See code 51910)
+240,Nepal
+241,Middle East/Asia Minor:
+242,Bahrain (See code 51910)
+243,Cyprus
+244,Iraq
+245,Neutral Zone
+246,Israel/Palestine
+247,Jordan
+248,Kuwait
+249,Lebanon
+250,Oman (See code 51910)
+251,Qatar (See code 51910)
+252,Saudi Arabia
+253,Syria
+254,Turkey
+255,United Arab Emirates (See code 51910)
+256,Yemen Arab Republic (North)
+257,(Paracel Islands--no population) (See code 50000)
+258,(Spratley Islands--no population)
+259,AFRICA
+260,Algeria
+261,Egypt/United Arab Rep.
+262,Libya (See code 60099)
+263,Morocco
+264,Sudan
+265,Tunisia (See code 60099)
+266,Western Sahara (See code 60099)
+267,West Africa:
+268,Benin (See code 60099)
+269,Burkina Faso (See code 60099)
+270,Gambia (See code 60099)
+271,Ghana
+272,Guinea (See code 60099)
+273,Guinea-Bissau (See code 60099)
+274,Ivory Coast (See code 60099)
+275,Liberia
+276,Mali (See code 60099)
+277,Mauritania (See code 60099)
+278,Niger (See code 60099)
+279,Nigeria
+280,Senegal
+281,Sierra Leone
+282,Togo (See code 60099)
+283,East Africa:
+284,British Indian Ocean Territory (See code 60099)
+285,Burundi (See code 60099)
+286,Comoros (See code 60099)
+287,Djibouti (See code 60099)
+288,Ethiopia
+289,Kenya
+290,Madagascar (See code 60099)
+291,Malawi (See code 60099)
+292,Mauritius (See code 60099)
+293,Mozambique (See code 60099)
+294,Reunion (See code 60099)
+295,Rwanda (See code 60099)
+296,Seychelles (See code 60099)
+297,Somalia
+298,Tanzania
+299,Uganda
+300,Zambia (See code 60099)
+301,Zimbabwe
+302,Europa (See code 60099)
+303,Gloriosos
+304,Juan de Nova (See code 60099)
+305,Mayotte (See code 60099)
+306,Tromelin (See code 60099)
+307,Eritrea
+308,Angola (See code 60099)
+309,Cameroon
+310,Central African Republic (See code 60099)
+311,Chad (See code 60099)
+312,Congo (See code 60099)
+313,Equatorial Guinea (See code 60099)
+314,Gabon (See code 60099)
+315,Sao Tome and Principe (See code 60099)
+316,Zaire (See code 60099)
+317,Botswana (See code 60099)
+318,Lesotho (See code 60099)
+319,Namibia (See code 60099)
+320,South Africa (Union of)
+321,Swaziland (See code 60099)
+322,"Africa, n.s./n.e.c. (Includes 60071, 60020, 60091, 60040, 60021, 60041, 60073, 60074, 60042, 60075, 60043, 60076, 60059, 60077, 60022, 60024, 60025, 60026, 60061, 60092, 60013, 60046, 60047, 60028, 60029, 60062, 60049, 60093, 60030, 60050, 60051, 60078, 60048, 60052, 16050, 60095, 60034, 60063, 60016, 60017, 60079, 60056)"
+323,OCEANA
+324,Australia and New Zealand
+325,"Australia (Includes 70012, pumscode_507, 71011)"
+326,Coral Sea Islands Territory (See code 70010)
+327,New Zealand
+328,Pacific Islands
+329,Melanesia:
+330,New Caledonia (See code 71090)
+331,Norfolk Islands (See code 70010)
+332,Papua New Guinea (See code 71090)
+333,Solomon Islands (See code 71090)
+334,Vanuatu (New Hebrides) (See code 71090)
+335,Polynesia:
+336,Cook Islands (See code 71090)
+337,Fiji
+338,French Polynesia (See code 71090)
+339,Tonga
+340,Wallis and Futuna Islands
+341,Western Samoa
+342,Micronesia:
+343,Christmas Island
+344,Kiribati (See code 71090)
+345,Nauru (See code 71090)
+346,Niue (See code 71090)
+347,Pitcairn Island (See code 71090)
+348,Tokelau (See code 71090)
+349,Tuvalu (See code 71090)
+350,Marshall Islands (See code 71090)
+351,Micronesia (See code 71090)
+352,Northern Mariana Islands (See code 71090)
+353,Palau (See code 71090)
+354,"Oceania, n.s./n.e.c. (Includes 12010, 71047, 12020, 12030, 12051, 12052, 12055, 71020, 71022, 71032, 71041, 71042, 71034, 71010, 71035, 71048, 71012, 71036, 71013, 71037, 71038, 71014, 71090)"
+355,At sea (See code 29999)

@@ -1,0 +1,57 @@
+id,title
+0,Merchant account id is too long.
+1,Merchant account is is not valid.
+2,Merchant account id is in use.
+3,Merchant account id is not allowed.
+4,Master merchant account id is required.
+5,Master merchant account id is invalid.
+6,Master merchant account must be active.
+7,TOS accepted is required.
+8,Id cannot be updated.
+9,Master merchant account id cannot be updated.
+10,Cannot be updated.
+11,First name is required.
+12,Last name is required.
+13,Date of birth is required.
+14,Routing number is required.
+15,Account number is required.
+16,SSN is invalid.
+17,Email address is invalid.
+18,First name is invalid.
+19,Last name is invalid.
+20,Company name is invalid.
+21,Tax id is invalid.
+22,Company name is required with tax id.
+23,Tax id is required with company name.
+24,Routing number is invalid.
+25,Declined OFAC.
+26,Declined Mastercard MATCH.
+27,Declined failed KYC.
+28,Declined SSN invalid.
+29,Declined SSN matches deceased.
+30,Declined.
+31,Street address is required.
+32,Locality is required.
+33,Postal code is required.
+34,Region is required.
+35,Street address is invalid.
+36,Region is invalid.
+37,Postal code is invalid.
+38,Phone is invalid.
+39,Date of birth is invalid.
+40,Account number is invalid.
+41,Email address is required.
+42,Tax id must be blank.
+43,Dba name is invalid.
+44,Legal name is invalid.
+45,Legal name is required with tax id.
+46,Tax id is required with legal name.
+47,Business street address is invalid.
+48,Business postal code is invalid.
+49,Business region is invalid.
+50,Funding destination is invalid.
+51,Funding destination is required.
+52,Funding email is invalid.
+53,Funding email is required.
+54,Funding mobile phone is invalid.
+55,Funding mobile phone is required.
