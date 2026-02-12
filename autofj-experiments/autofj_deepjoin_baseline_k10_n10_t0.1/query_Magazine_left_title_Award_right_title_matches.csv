@@ -1,5 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-Magazine_left.csv,title,Sporting News,Award_right.csv,title,Sporting News Player of the Year Award,0.664
-Magazine_left.csv,title,Sporting News,Award_right.csv,title,Sporting News Pitcher of the Year Award,0.664
-Magazine_left.csv,title,Nickelodeon Magazine,Award_right.csv,title,Nickelodeon HALO Awards,0.664
-Magazine_left.csv,title,Men's World,Award_right.csv,title,FIFA World Coach of the Year for Men's Football,0.664

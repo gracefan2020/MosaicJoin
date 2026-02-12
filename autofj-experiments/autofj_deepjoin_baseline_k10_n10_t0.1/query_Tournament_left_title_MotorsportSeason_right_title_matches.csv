@@ -1,3 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-Tournament_left.csv,title,2010 Sporting Challenger,MotorsportSeason_right.csv,title,2010 Continental Tire Sports Car Challenge,0.6983
-Tournament_left.csv,title,2009 Sporting Challenger,MotorsportSeason_right.csv,title,2009 KONI Sports Car Challenge,0.6983

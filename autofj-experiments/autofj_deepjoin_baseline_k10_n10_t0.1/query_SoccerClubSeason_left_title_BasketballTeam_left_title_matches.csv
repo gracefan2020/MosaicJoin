@@ -1,3 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-SoccerClubSeason_left.csv,title,2008 Tokyo Verdy season,BasketballTeam_left.csv,title,Pallacanestro Virtus Roma,0.749
-SoccerClubSeason_left.csv,title,2010 FC Tampa Bay season,BasketballTeam_left.csv,title,FEU Tamaraws men's basketball,0.749

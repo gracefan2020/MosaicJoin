@@ -1,6 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-EthnicGroup_left.csv,title,Ruthenians,ClericalAdministrativeRegion_right.csv,title,Ruthenian Catholic Archeparchy of Pittsburgh,0.6042
-EthnicGroup_left.csv,title,Ruthenians,ClericalAdministrativeRegion_right.csv,title,Ruthenian Catholic Eparchy of Passaic,0.6042
-EthnicGroup_left.csv,title,Ruthenians,ClericalAdministrativeRegion_right.csv,title,Ruthenian Catholic Eparchy of Parma,0.6042
-EthnicGroup_left.csv,title,Ruthenians,ClericalAdministrativeRegion_right.csv,title,Ruthenian Catholic Eparchy of Mukacheve,0.6042
-EthnicGroup_left.csv,title,Ruthenians,ClericalAdministrativeRegion_right.csv,title,Ruthenian Catholic Apostolic Exarchate of Czech Republic,0.6042

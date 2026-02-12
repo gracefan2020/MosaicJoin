@@ -1,8 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-SoccerLeague_left.csv,title,Queensland Australian Football League,RugbyLeague_left.csv,title,Super League (Australia),0.7505
-SoccerLeague_left.csv,title,Foxtel Cup,RugbyLeague_left.csv,title,Hopetoun Cup,0.7505
-SoccerLeague_left.csv,title,Gwent County League,RugbyLeague_left.csv,title,Group 3 Rugby League,0.7505
-SoccerLeague_left.csv,title,Anglo-Scottish Cup,RugbyLeague_left.csv,title,Castlereagh Cup,0.7505
-SoccerLeague_left.csv,title,Queensland Australian Football League,RugbyLeague_left.csv,title,Australian Sevens,0.7505
-SoccerLeague_left.csv,title,Midlands Rugby League Division One,RugbyLeague_left.csv,title,Goulburn Murray Rugby League,0.7505
-SoccerLeague_left.csv,title,West Australian Football League,RugbyLeague_left.csv,title,Italia Rugby Football League,0.7505

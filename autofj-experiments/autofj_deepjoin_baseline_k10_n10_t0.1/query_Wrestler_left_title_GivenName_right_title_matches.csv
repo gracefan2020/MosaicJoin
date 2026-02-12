@@ -1,4 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-Wrestler_left.csv,title,Damien Sandow,GivenName_right.csv,title,Dalia (given name),0.6728
-Wrestler_left.csv,title,Damien Kane,GivenName_right.csv,title,Pia (given name),0.6728
-Wrestler_left.csv,title,Butch Reed,GivenName_right.csv,title,Kaede,0.6728

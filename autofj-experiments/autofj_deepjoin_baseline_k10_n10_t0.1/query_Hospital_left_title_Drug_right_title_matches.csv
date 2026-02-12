@@ -1,3 +1,0 @@
-query_table,query_column,query_value,candidate_table,candidate_column,candidate_value,similarity_score
-Hospital_left.csv,title,Toronto Grace Health Centre,Drug_right.csv,title,Politor,0.5803
-Hospital_left.csv,title,Crawley Hospital,Drug_right.csv,title,Clazakizumab,0.5803
