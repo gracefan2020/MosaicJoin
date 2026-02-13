@@ -4,3 +4,10 @@ __pycache__
 **/*_chunk_*
 **/*.log
 **/*.sh
+
+venv
+.venv
+penv
+.penv
+*.ext3
+slurm-*.out

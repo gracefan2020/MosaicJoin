@@ -4,6 +4,7 @@ import csv
 import os
 import pickle
 import sys
+import time
 
 import pandas as pd
 import torch
@@ -13,6 +14,42 @@ from sentence_transformers import SentenceTransformer, util
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if REPO_ROOT not in sys.path:
     sys.path.insert(0, REPO_ROOT)
+
+_TOKENIZER_WARNING_SHOWN = False
+
+
+def resolve_device(requested: str) -> str:
+    requested = (requested or "auto").lower()
+    if requested == "auto":
+        if torch.cuda.is_available():
+            return "cuda"
+        mps_backend = getattr(torch.backends, "mps", None)
+        if mps_backend is not None and mps_backend.is_available():
+            return "mps"
+        return "cpu"
+    if requested == "cuda" and not torch.cuda.is_available():
+        print("CUDA requested but not available. Falling back to CPU.")
+        return "cpu"
+    if requested == "mps":
+        mps_backend = getattr(torch.backends, "mps", None)
+        if mps_backend is None or not mps_backend.is_available():
+            print("MPS requested but not available. Falling back to CPU.")
+            return "cpu"
+    return requested
+
+
+def _safe_tokenize(text):
+    global _TOKENIZER_WARNING_SHOWN
+    try:
+        return nltk.word_tokenize(text)
+    except LookupError as e:
+        if not _TOKENIZER_WARNING_SHOWN:
+            print(
+                "NLTK tokenizer resource missing; using whitespace tokenization fallback. "
+                f"Original error: {e}"
+            )
+            _TOKENIZER_WARNING_SHOWN = True
+        return text.split()
 
 
 # FROM https://github.com/mutong184/deepjoin
@@ -30,13 +67,18 @@ def analyze_column_values(df, column_name):
 
     # 统计列值的最大、最小和平均长度
     lengths = [len(str(value)) for value in sorted_values]
-    max_len = max(lengths)
-    min_len = min(lengths)
-    avg_len = sum(lengths) / len(lengths)
+    if lengths:
+        max_len = max(lengths)
+        min_len = min(lengths)
+        avg_len = sum(lengths) / len(lengths)
+    else:
+        max_len = 0
+        min_len = 0
+        avg_len = 0
     tokens = f"{column_name} contains {str(n)} values ({str(max_len)}, {str(min_len)}, {str(avg_len)}): {col}"
     # 返回结果
 
-    tokens = nltk.word_tokenize(tokens)
+    tokens = _safe_tokenize(tokens)
     truncated_tokens = tokens[:512]
     truncated_sentence = ' '.join(truncated_tokens)
     return truncated_sentence
@@ -328,7 +370,14 @@ def main():
         action="store_true",
         help="Write a CSV header row.",
     )
+    parser.add_argument(
+        "--device",
+        default="auto",
+        help="Inference device: auto (default), cpu, cuda, or mps.",
+    )
     args = parser.parse_args()
+    resolved_device = resolve_device(args.device)
+    print(f"Device selected: {resolved_device}")
 
     datalake_dir = resolve_datalake_dir(args.datalake_dir)
     if datalake_dir != args.datalake_dir:
@@ -357,19 +406,28 @@ def main():
         )
         return 1
     try:
-        model = SentenceTransformer(args.model_name, local_files_only=True)
+        model = SentenceTransformer(
+            args.model_name,
+            local_files_only=True,
+            device=resolved_device,
+        )
     except TypeError:
-        model = SentenceTransformer(args.model_name)
+        model = SentenceTransformer(args.model_name, device=resolved_device)
 
     items = None
     embeddings = None
+    offline_generation_seconds = 0.0
+    used_cached_index = False
     if args.index_path and os.path.isfile(args.index_path) and not args.rebuild_index:
         items, embeddings, meta = load_index(args.index_path)
         if not items:
             print(f"No items found in index {args.index_path}; rebuilding.")
             items = None
             embeddings = None
+        else:
+            used_cached_index = True
     if items is None:
+        offline_start = time.perf_counter()
         items, texts = collect_table_columns(
             datalake_dir, column_name=column_name, use_table_name=args.use_table_name
         )
@@ -392,14 +450,24 @@ def main():
                 "model_name": args.model_name,
             }
             save_index(args.index_path, items, embeddings, meta)
+        offline_generation_seconds = time.perf_counter() - offline_start
 
     if args.build_index_only:
+        if used_cached_index:
+            print("[TIMING] offline_datalake_embedding_seconds=0.000 (loaded cached index)")
+        else:
+            print(
+                "[TIMING] offline_datalake_embedding_seconds="
+                f"{offline_generation_seconds:.3f}"
+            )
+        print("[TIMING] online_query_seconds=0.000")
         return 0
 
     if not args.out_csv:
         print("Missing --out_csv for query inference.")
         return 1
 
+    online_start = time.perf_counter()
     if query_dir and os.path.isfile(query_dir):
         query_items, query_texts = collect_query_columns_from_file(
             query_dir, datalake_dir, use_table_name=args.use_table_name
@@ -422,6 +490,8 @@ def main():
     query_embeddings = model.encode(
         query_texts, convert_to_tensor=True, batch_size=args.batch_size
     )
+    if embeddings.device.type != resolved_device:
+        embeddings = embeddings.to(resolved_device)
     if embeddings.device != query_embeddings.device:
         query_embeddings = query_embeddings.to(embeddings.device)
 
@@ -455,6 +525,16 @@ def main():
                 kept += 1
                 if args.top_k > 0 and kept >= args.top_k:
                     break
+
+    online_seconds = time.perf_counter() - online_start
+    if used_cached_index:
+        print("[TIMING] offline_datalake_embedding_seconds=0.000 (loaded cached index)")
+    else:
+        print(
+            "[TIMING] offline_datalake_embedding_seconds="
+            f"{offline_generation_seconds:.3f}"
+        )
+    print(f"[TIMING] online_query_seconds={online_seconds:.3f}")
 
     return 0
 
