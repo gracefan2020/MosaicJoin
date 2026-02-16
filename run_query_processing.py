@@ -78,7 +78,7 @@ def main():
     parser.add_argument("--device", type=str, default="auto",
                         help="Device for MPNet model (auto, cpu, cuda, mps)")
     parser.add_argument("--similarity-method", type=str, default="mean",
-                        choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer"],
+                        choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"],
                         help="Similarity computation method")
     parser.add_argument("--top-k-for-mean", type=int, default=100,
                         help="Number of top pairs to average (for top_k_mean method)")
@@ -94,6 +94,12 @@ def main():
     parser.add_argument("--embedding-dim", type=int, default=128,
                         choices=[16,128, 256, 512, 768],
                         help="Embedding dimension for embeddinggemma (default: 128)")
+    parser.add_argument("--debug-matches", action="store_true",
+                        help="Print detailed match info for debugging (shows best/worst matches per query)")
+    parser.add_argument("--debug-top-n", type=int, default=10,
+                        help="Number of top/worst matches to print when debugging (default: 10)")
+    parser.add_argument("--chamfer-top-m", type=int, default=1,
+                        help="Top-m for chamfer similarity: 1=max (traditional), >1=mean of top-m (default: 1)")
     
     args = parser.parse_args()
     
@@ -143,7 +149,9 @@ def main():
         similarity_method=args.similarity_method,
         top_k_for_mean=args.top_k_for_mean,
         embedding_model=args.embedding_model,
-        embedding_dim=args.embedding_dim
+        embedding_dim=args.embedding_dim,
+        debug_matches=args.debug_matches,
+        debug_top_n=args.debug_top_n
     )
     
     processor = SemanticJoinQueryProcessor(

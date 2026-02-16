@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
 """
-General Evaluation Script for Semantic Join Retrieval Results
+Semantic Join Retrieval Evaluation Script
 
-Supports both table-level and column-level evaluation with:
-- HITS@K, Precision@K, Recall@K, NDCG@K, MRR@K
-- All metrics use MACRO-AVERAGING (per-query score averaged over all queries)
-- Auto-detects evaluation level from ground truth format
-- Optional comparison between two methods (e.g., SemSketch vs DeepJoin)
+Modes:
+  1. Single/comparison mode: evaluate results against ground truth
 
 Usage:
-    # Single method evaluation (auto-detects level from ground truth)
+    # Single method evaluation
     python evaluate_retrieval.py --results results.csv --ground-truth gt.csv
 
-    # Compare two methods
-    python evaluate_retrieval.py --results semsketch.csv --baseline deepjoin.csv --ground-truth gt.csv
+    # Combined experiments (CSV output for Google Sheets)
+    python evaluate_retrieval.py --combined --experiments autofj freyja wt
 """
 
 import math
@@ -25,539 +22,498 @@ from collections import defaultdict
 
 
 # =============================================================================
-# Ground Truth Loading
+# Data Loading
 # =============================================================================
 
-def detect_ground_truth_level(gt_file: str) -> str:
-    """Auto-detect whether ground truth is column-level or table-level based on columns.
-    
-    Column-level formats (has column info):
-        - GDC: source_table, source_column, target_table, target_column
-        - Freyja: target_ds, target_attr, candidate_ds, candidate_attr
-    
-    Table-level formats (no column info):
-        - AutoFJ: left_table, right_table
-    """
+def detect_level(gt_file: str) -> str:
+    """Auto-detect column vs table level from ground truth."""
     df = pd.read_csv(gt_file, nrows=1)
     cols = set(df.columns)
-    
-    # Check for column-level indicators
-    column_level_indicators = [
-        {'source_column', 'target_column'},  # GDC format
-        {'target_attr', 'candidate_attr'},   # Freyja format
-    ]
-    
-    for indicators in column_level_indicators:
-        if indicators.issubset(cols):
-            return 'column'
-    
-    # Otherwise it's table-level
+    if {'source_column', 'target_column'}.issubset(cols) or {'target_attr', 'candidate_attr'}.issubset(cols):
+        return 'column'
     return 'table'
 
 
-def load_ground_truth_column_level(gt_file: str) -> Dict[Tuple[str, str], Set[Tuple[str, str]]]:
-    """Load column-level ground truth (e.g., GDC, Freyja benchmarks).
-    
-    Supports multiple column name formats:
-        - GDC: source_table, source_column, target_table, target_column
-        - Freyja: target_ds, target_attr, candidate_ds, candidate_attr
-    """
+def load_ground_truth(gt_file: str, level: str) -> Dict:
+    """Load ground truth for column or table level."""
     df = pd.read_csv(gt_file)
     ground_truth = defaultdict(set)
     
-    # Detect column naming convention
-    if 'source_table' in df.columns:
-        # GDC format
-        src_table_col, src_col_col = 'source_table', 'source_column'
-        tgt_table_col, tgt_col_col = 'target_table', 'target_column'
-    elif 'target_ds' in df.columns:
-        # Freyja format
-        src_table_col, src_col_col = 'target_ds', 'target_attr'
-        tgt_table_col, tgt_col_col = 'candidate_ds', 'candidate_attr'
+    if level == 'column':
+        if 'source_table' in df.columns:
+            for _, row in df.iterrows():
+                src = (str(row['source_table']).replace('.csv', '').lower(), str(row['source_column']).lower())
+                tgt = (str(row['target_table']).replace('.csv', '').lower(), str(row['target_column']).lower())
+                ground_truth[src].add(tgt)
+        elif 'target_ds' in df.columns:
+            for _, row in df.iterrows():
+                src = (str(row['target_ds']).replace('.csv', '').lower(), str(row['target_attr']).lower())
+                tgt = (str(row['candidate_ds']).replace('.csv', '').lower(), str(row['candidate_attr']).lower())
+                ground_truth[src].add(tgt)
     else:
-        raise ValueError(f"Unknown column-level ground truth format. Columns: {df.columns.tolist()}")
-    
-    for _, row in df.iterrows():
-        src_table = str(row[src_table_col]).replace('.csv', '').lower()
-        src_col = str(row[src_col_col]).lower()
-        tgt_table = str(row[tgt_table_col]).replace('.csv', '').lower()
-        tgt_col = str(row[tgt_col_col]).lower()
-        ground_truth[(src_table, src_col)].add((tgt_table, tgt_col))
+        if 'left_table' in df.columns:
+            for _, row in df.iterrows():
+                ground_truth[str(row['left_table']).replace('.csv', '').lower()].add(
+                    str(row['right_table']).replace('.csv', '').lower())
+        elif 'source_table' in df.columns:
+            for _, row in df.iterrows():
+                ground_truth[str(row['source_table']).replace('.csv', '').lower()].add(
+                    str(row['target_table']).replace('.csv', '').lower())
     
     return dict(ground_truth)
 
 
-def load_ground_truth_table_level(gt_file: str) -> Dict[str, Set[str]]:
-    """Load table-level ground truth (e.g., AutoFJ benchmark).
+def load_results(results_file: str, level: str) -> Dict:
+    """Load results for column or table level."""
+    df = pd.read_csv(results_file)
     
-    Supports multiple column name formats:
-        - AutoFJ: left_table, right_table
-        - Alternative: target_ds, candidate_ds (without column attrs)
-    """
-    df = pd.read_csv(gt_file)
-    ground_truth = defaultdict(set)
-    
-    if 'left_table' in df.columns:
+    if level == 'column':
+        results = defaultdict(list)
         for _, row in df.iterrows():
-            left = str(row['left_table']).replace('.csv', '').lower()
-            right = str(row['right_table']).replace('.csv', '').lower()
-            ground_truth[left].add(right)
-    elif 'target_ds' in df.columns:
-        for _, row in df.iterrows():
-            query = str(row['target_ds']).replace('.csv', '').lower()
-            candidate = str(row['candidate_ds']).replace('.csv', '').lower()
-            ground_truth[query].add(candidate)
-    elif 'source_table' in df.columns:
-        # Column-level format but used for table-level eval (ignore columns)
-        for _, row in df.iterrows():
-            src = str(row['source_table']).replace('.csv', '').lower()
-            tgt = str(row['target_table']).replace('.csv', '').lower()
-            ground_truth[src].add(tgt)
+            query = (str(row['query_table']).replace('.csv', '').lower(), str(row['query_column']).lower())
+            candidate = (str(row['candidate_table']).replace('.csv', '').lower(), str(row['candidate_column']).lower())
+            score = float(row['similarity_score'])
+            if query != candidate:
+                results[query].append((candidate, score))
+        for q in results:
+            results[q] = sorted(results[q], key=lambda x: -x[1])
+        return dict(results)
     else:
-        raise ValueError(f"Unknown table-level ground truth format. Columns: {df.columns.tolist()}")
-    
-    return dict(ground_truth)
+        results_dict = defaultdict(dict)
+        for _, row in df.iterrows():
+            query = str(row['query_table']).replace('.csv', '').lower()
+            candidate = str(row['candidate_table']).replace('.csv', '').lower()
+            score = float(row['similarity_score'])
+            if query != candidate:
+                if candidate not in results_dict[query] or score > results_dict[query][candidate]:
+                    results_dict[query][candidate] = score
+        return {q: sorted([(c, s) for c, s in cands.items()], key=lambda x: -x[1]) 
+                for q, cands in results_dict.items()}
 
 
 # =============================================================================
-# Results Loading
+# Metrics Computation
 # =============================================================================
 
-def load_results_column_level(results_file: str, exclude_self: bool = True) -> Dict[Tuple[str, str], List[Tuple[str, str, float]]]:
-    """Load column-level results."""
-    df = pd.read_csv(results_file)
-    results = defaultdict(list)
-    
-    for _, row in df.iterrows():
-        query_table = str(row['query_table']).replace('.csv', '').lower()
-        query_column = str(row['query_column']).lower()
-        candidate_table = str(row['candidate_table']).replace('.csv', '').lower()
-        candidate_column = str(row['candidate_column']).lower()
-        score = float(row['similarity_score'])
-        
-        if exclude_self and query_table == candidate_table and query_column == candidate_column:
-            continue
-        
-        results[(query_table, query_column)].append((candidate_table, candidate_column, score))
-    
-    for query in results:
-        results[query] = sorted(results[query], key=lambda x: -x[2])
-    
-    return dict(results)
+def compute_dcg(relevance: List[int], k: int) -> float:
+    return sum(rel / math.log2(i + 2) for i, rel in enumerate(relevance[:k]) if rel > 0)
 
 
-def load_results_table_level(results_file: str, exclude_self: bool = True) -> Dict[str, List[Tuple[str, float]]]:
-    """Load table-level results, deduplicating by keeping max score per candidate."""
-    df = pd.read_csv(results_file)
-    # Use nested dict to track max score per (query, candidate) pair
-    results_dict = defaultdict(dict)
-    
-    for _, row in df.iterrows():
-        query_table = str(row['query_table']).replace('.csv', '').lower()
-        candidate_table = str(row['candidate_table']).replace('.csv', '').lower()
-        score = float(row['similarity_score'])
-        
-        if exclude_self and query_table == candidate_table:
-            continue
-        
-        # Keep max score for each candidate
-        if candidate_table not in results_dict[query_table] or score > results_dict[query_table][candidate_table]:
-            results_dict[query_table][candidate_table] = score
-    
-    # Convert to sorted list format
-    results = {}
-    for query, candidates in results_dict.items():
-        results[query] = sorted([(c, s) for c, s in candidates.items()], key=lambda x: -x[1])
-    
-    return results
-
-
-# =============================================================================
-# NDCG Computation
-# =============================================================================
-
-def compute_dcg(relevance_list: List[int], k: int) -> float:
-    """Compute Discounted Cumulative Gain at k."""
-    dcg = 0.0
-    for i, rel in enumerate(relevance_list[:k]):
-        if rel > 0:
-            dcg += rel / math.log2(i + 2)
-    return dcg
-
-
-def compute_ndcg(relevance_list: List[int], k: int, num_relevant: int) -> float:
-    """Compute Normalized Discounted Cumulative Gain at k."""
-    dcg = compute_dcg(relevance_list, k)
-    ideal_relevance = [1] * min(k, num_relevant) + [0] * max(0, k - num_relevant)
-    idcg = compute_dcg(ideal_relevance, k)
+def compute_ndcg(relevance: List[int], k: int, num_relevant: int) -> float:
+    dcg = compute_dcg(relevance, k)
+    idcg = compute_dcg([1] * min(k, num_relevant), k)
     return dcg / idcg if idcg > 0 else 0.0
 
 
-# =============================================================================
-# Metrics Evaluation (Macro-Averaged)
-# =============================================================================
-
-def evaluate_metrics(ground_truth: Dict, results: Dict, k_values: List[int], level: str) -> Tuple[Dict, int, Dict]:
+def evaluate_metrics(gt: Dict, results: Dict, k_values: List[int], level: str) -> Tuple[Dict, int, Dict]:
     """Evaluate HITS@K, Precision@K, Recall@K, NDCG@K, MRR using MACRO-AVERAGING."""
-    hits_sum = {k: 0.0 for k in k_values}
-    precision_sum = {k: 0.0 for k in k_values}
-    recall_sum = {k: 0.0 for k in k_values}
-    ndcg_sum = {k: 0.0 for k in k_values}
-    mrr_sum = {k: 0.0 for k in k_values}
-    
+    metrics = {m: {k: 0.0 for k in k_values} for m in ['hits', 'precision', 'recall', 'ndcg', 'mrr']}
+    gt_metrics = {'hits_at_gt': 0.0, 'precision_at_gt': 0.0, 'recall_at_gt': 0.0, 'ndcg_at_gt': 0.0, 'mrr': 0.0}
+    per_query = {}
     total = 0
-    mrr_full_sum = 0.0  # MRR over all results (not truncated at K)
-    precision_at_gt_sum = 0.0
-    recall_at_gt_sum = 0.0
-    ndcg_at_gt_sum = 0.0
-    hits_at_gt_sum = 0.0
-    per_query_metrics = {}
     
-    for query, expected_set in ground_truth.items():
+    for query, expected in gt.items():
         if query not in results:
             continue
         total += 1
+        gt_size = len(expected)
         
-        if not isinstance(expected_set, set):
-            expected_set = {expected_set}
+        # Build relevance list
+        seen, relevance = set(), []
+        for item in results[query]:
+            c = item[0] if level == 'table' else (item[0][0], item[0][1]) if isinstance(item[0], tuple) else item[0]
+            if level == 'column':
+                c = (item[0], item[1]) if len(item) == 3 else item[0]
+            relevance.append(1 if c in expected and c not in seen else 0)
+            if c in expected:
+                seen.add(c)
         
-        gt_size = len(expected_set)
-        
-        if level == 'column':
-            # Column-level: only count each unique (table, column) once (avoid over-counting)
-            candidates = [(c[0], c[1]) for c in results[query]]
-            seen_candidates = set()
-            relevance = []
-            for c in candidates:
-                if c in expected_set and c not in seen_candidates:
-                    relevance.append(1)
-                    seen_candidates.add(c)
-                else:
-                    relevance.append(0)
-        else:
-            # Table-level: only count each unique table once (avoid over-counting)
-            candidates = [c[0] for c in results[query]]
-            seen_tables = set()
-            relevance = []
-            for c in candidates:
-                if c in expected_set and c not in seen_tables:
-                    relevance.append(1)
-                    seen_tables.add(c)
-                else:
-                    relevance.append(0)
+        first_rel = next((i + 1 for i, r in enumerate(relevance) if r > 0), None)
+        rr = 1.0 / first_rel if first_rel else 0.0
         
         # Metrics at |GT| size
-        num_correct_at_gt = sum(relevance[:gt_size])
-        precision_at_gt = num_correct_at_gt / gt_size
-        recall_at_gt = num_correct_at_gt / gt_size
-        ndcg_at_gt = compute_ndcg(relevance, gt_size, gt_size)
-        hit_at_gt = 1.0 if num_correct_at_gt > 0 else 0.0
+        correct_at_gt = sum(relevance[:gt_size])
+        gt_metrics['hits_at_gt'] += 1.0 if correct_at_gt > 0 else 0.0
+        gt_metrics['precision_at_gt'] += correct_at_gt / gt_size
+        gt_metrics['recall_at_gt'] += correct_at_gt / gt_size
+        gt_metrics['ndcg_at_gt'] += compute_ndcg(relevance, gt_size, gt_size)
+        gt_metrics['mrr'] += rr
         
-        precision_at_gt_sum += precision_at_gt
-        recall_at_gt_sum += recall_at_gt
-        ndcg_at_gt_sum += ndcg_at_gt
-        hits_at_gt_sum += hit_at_gt
-        
-        # Compute reciprocal rank (find first relevant result)
-        first_relevant_rank = None
-        for i, rel in enumerate(relevance):
-            if rel > 0:
-                first_relevant_rank = i + 1  # 1-indexed rank
-                break
-        rr_full = 1.0 / first_relevant_rank if first_relevant_rank else 0.0
-        mrr_full_sum += rr_full
-        
-        per_query_metrics[query] = {
-            'gt_size': gt_size,
-            'num_correct_at_gt': num_correct_at_gt,
-            'precision_at_gt': precision_at_gt,
-            'recall_at_gt': recall_at_gt,
-            'ndcg_at_gt': ndcg_at_gt,
-            'reciprocal_rank': rr_full
-        }
+        per_query[query] = {'gt_size': gt_size, 'reciprocal_rank': rr}
         
         for k in k_values:
-            num_correct = sum(relevance[:k])
-            hits_sum[k] += 1.0 if num_correct > 0 else 0.0
-            precision_sum[k] += num_correct / k
-            recall_sum[k] += num_correct / gt_size
-            ndcg_sum[k] += compute_ndcg(relevance, k, gt_size)
-            # MRR@K: only count if first relevant is within top K
-            if first_relevant_rank and first_relevant_rank <= k:
-                mrr_sum[k] += 1.0 / first_relevant_rank
+            correct = sum(relevance[:k])
+            metrics['hits'][k] += 1.0 if correct > 0 else 0.0
+            metrics['precision'][k] += correct / k
+            metrics['recall'][k] += correct / gt_size
+            metrics['ndcg'][k] += compute_ndcg(relevance, k, gt_size)
+            if first_rel and first_rel <= k:
+                metrics['mrr'][k] += rr
     
-    metrics = {
-        'hits': {k: hits_sum[k] / total if total > 0 else 0.0 for k in k_values},
-        'precision': {k: precision_sum[k] / total if total > 0 else 0.0 for k in k_values},
-        'recall': {k: recall_sum[k] / total if total > 0 else 0.0 for k in k_values},
-        'ndcg': {k: ndcg_sum[k] / total if total > 0 else 0.0 for k in k_values},
-        'mrr': {k: mrr_sum[k] / total if total > 0 else 0.0 for k in k_values}
-    }
+    # Average
+    for m in metrics:
+        for k in k_values:
+            metrics[m][k] /= total if total > 0 else 1
+    for m in gt_metrics:
+        if m != 'per_query':
+            gt_metrics[m] /= total if total > 0 else 1
+    gt_metrics['hits_at_gt_count'] = int(gt_metrics['hits_at_gt'] * total)
+    gt_metrics['per_query'] = per_query
     
-    gt_size_metrics = {
-        'precision_at_gt': precision_at_gt_sum / total if total > 0 else 0.0,
-        'recall_at_gt': recall_at_gt_sum / total if total > 0 else 0.0,
-        'ndcg_at_gt': ndcg_at_gt_sum / total if total > 0 else 0.0,
-        'hits_at_gt': hits_at_gt_sum / total if total > 0 else 0.0,
-        'hits_at_gt_count': int(hits_at_gt_sum),
-        'mrr': mrr_full_sum / total if total > 0 else 0.0,  # Full MRR (not truncated)
-        'per_query': per_query_metrics
-    }
-    
-    return metrics, total, gt_size_metrics
+    return metrics, total, gt_metrics
 
 
 # =============================================================================
-# Output
+# Output Functions
 # =============================================================================
 
 def print_metrics(metrics: Dict, total: int, name: str, k_values: List[int]):
-    """Print formatted metrics table."""
     print(f"\n{'=' * 90}")
     print(f"{name} (n={total} queries, macro-averaged)")
     print(f"{'=' * 90}")
     print(f"{'K':>4} {'HITS@K':>14} {'Precision@K':>14} {'Recall@K':>12} {'NDCG@K':>12} {'MRR@K':>10}")
     print("-" * 80)
     for k in k_values:
-        h = metrics['hits'][k]
-        p = metrics['precision'][k]
-        r = metrics['recall'][k]
-        n = metrics['ndcg'][k]
-        m = metrics['mrr'][k]
-        hit_count = int(h * total)
-        print(f"{k:>4} {h:>8.3f} ({hit_count:>3}) {p:>12.3f} {r:>12.3f} {n:>12.3f} {m:>10.3f}")
+        h, p, r, n, m = metrics['hits'][k], metrics['precision'][k], metrics['recall'][k], metrics['ndcg'][k], metrics['mrr'][k]
+        print(f"{k:>4} {h:>8.3f} ({int(h*total):>3}) {p:>12.3f} {r:>12.3f} {n:>12.3f} {m:>10.3f}")
 
 
-def print_gt_size_metrics(gt_size_metrics: Dict, total: int):
-    """Print metrics at ground truth size."""
-    per_query = gt_size_metrics['per_query']
+def print_gt_metrics(gt_metrics: Dict, total: int):
+    per_query = gt_metrics['per_query']
     gt_sizes = [pq['gt_size'] for pq in per_query.values()]
-    avg_gt_size = sum(gt_sizes) / len(gt_sizes) if gt_sizes else 0
-    
     print(f"\n{'=' * 60}")
     print(f"METRICS AT GROUND TRUTH SIZE (K = |GT| per query)")
     print(f"{'=' * 60}")
-    print(f"Average |GT| size: {avg_gt_size:.2f} (min: {min(gt_sizes)}, max: {max(gt_sizes)})")
-    print(f"")
-    print(f"  HITS@|GT|:      {gt_size_metrics['hits_at_gt']:>8.3f} ({gt_size_metrics['hits_at_gt_count']:>3}/{total})")
-    print(f"  Precision@|GT|: {gt_size_metrics['precision_at_gt']:>8.3f}")
-    print(f"  Recall@|GT|:    {gt_size_metrics['recall_at_gt']:>8.3f}")
-    print(f"  NDCG@|GT|:      {gt_size_metrics['ndcg_at_gt']:>8.3f}")
-    print(f"  MRR (full):     {gt_size_metrics['mrr']:>8.3f}")
+    print(f"Average |GT| size: {sum(gt_sizes)/len(gt_sizes):.2f} (min: {min(gt_sizes)}, max: {max(gt_sizes)})")
+    print(f"  HITS@|GT|:      {gt_metrics['hits_at_gt']:>8.3f} ({gt_metrics['hits_at_gt_count']:>3}/{total})")
+    print(f"  Precision@|GT|: {gt_metrics['precision_at_gt']:>8.3f}")
+    print(f"  Recall@|GT|:    {gt_metrics['recall_at_gt']:>8.3f}")
+    print(f"  NDCG@|GT|:      {gt_metrics['ndcg_at_gt']:>8.3f}")
+    print(f"  MRR (full):     {gt_metrics['mrr']:>8.3f}")
 
 
-def print_comparison(metrics1: Dict, metrics2: Dict, name1: str, name2: str, k_values: List[int]):
-    """Print comparison table between two methods."""
-    print(f"\n{'=' * 75}")
-    print(f"COMPARISON: {name1} vs {name2}")
-    print(f"{'=' * 75}")
-    
-    for metric_name, metric_key in [("HITS@K", "hits"), ("Precision@K", "precision"), 
-                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg"), ("MRR@K", "mrr")]:
-        print(f"\n--- {metric_name} ---")
-        print(f"{'K':>4} {name1:>12} {name2:>12} {'Δ':>10} {'Winner':>12}")
-        print("-" * 55)
-        for k in k_values:
-            v1 = metrics1[metric_key][k]
-            v2 = metrics2[metric_key][k]
-            diff = v1 - v2
-            winner = name1 if diff > 0.001 else (name2 if diff < -0.001 else "Tie")
-            print(f"{k:>4} {v1:>12.3f} {v2:>12.3f} {diff:>+10.3f} {winner:>12}")
+# =============================================================================
+# Combined Experiments Configuration
+# =============================================================================
+
+EXPERIMENTS = {
+    'autofj': {
+        'level': 'table',
+        'base': {
+            'gt': 'datasets/autofj/groundtruth-joinable.csv',
+            'Q128': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_inverse': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_symmetric': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_harmonic': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64_symmetric': 'autofj-experiments/autofj_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            # 'deepjoin': 'autofj-experiments/deepjoin_ft_autofj_grace.csv',
+            'deepjoin': 'baselines/deepjoin/deepjoin_autofj.csv',
+            # 'pexeso': 'baselines/pexeso/deepjoin_ft_autofj.csv',
+        },
+        'wdc': {
+            'gt': 'datasets/autofj-wdc/groundtruth-joinable.csv',
+            'Q128': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_inverse': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_symmetric': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_harmonic': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64_symmetric': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D64_Q0_chamfer_topm5_top50_slurmall_query_results.csv',
+            'deepjoin': 'baselines/deepjoin/deepjoin_autofj-wdc.csv',
+            # 'pexeso': 'baselines/pexeso/deepjoin_ft_autofj-wdc.csv',
+            # 'deepjoin': 'autofj-wdc-experiments/deepjoin_autofj-wdc.csv',
+
+        },
+    },
+    'freyja': {
+        'level': 'column',
+        'base': {
+            'gt': 'datasets/freyja/groundtruth-joinable.csv',
+            'Q128': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
+            # 'deepjoin': 'freyja-experiments/deepjoin_ft_freyja.csv',
+            'deepjoin': 'baselines/deepjoin/deepjoin_freyja.csv',
+            'pexeso': 'baselines/pexeso/deepjoin_ft_freyja.csv',
+        },
+        'wdc': {
+            'gt': 'datasets/freyja-wdc/groundtruth-joinable.csv',
+            'Q128': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
+            # 'deepjoin': 'freyja-wdc-experiments/deepjoin_ft_freyja-wdc.csv',
+            'deepjoin': 'baselines/deepjoin/deepjoin_freyja-wdc.csv',
+            'pexeso': 'baselines/pexeso/deepjoin_ft_freyja-wdc.csv',
+        },
+    },
+    'wt': {
+        'level': 'column',
+        'base': {
+            'gt': 'datasets/wt/groundtruth-joinable.csv',
+            'Q128': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
+            # 'deepjoin': 'wt-experiments/deepjoin_ft_wt_no_col_names.csv',
+            'deepjoin': 'baselines/deepjoin/deepjoin_wt.csv',
+            'pexeso': 'baselines/pexeso/deepjoin_ft_wt.csv',
+        },
+        'wdc': {
+            'gt': 'datasets/wt-wdc/groundtruth-joinable.csv',
+            'Q128': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
+            # 'deepjoin': 'wt-wdc-experiments/deepjoin_ft_wt-wdc.csv',
+            'deepjoin': 'baselines/deepjoin/deepjoin_wt-wdc.csv',
+            'pexeso': 'baselines/pexeso/deepjoin_ft_wt-wdc.csv',
+        },
+    },
+    'gdc': {
+        'level': 'column',
+        'base': {
+            'gt': 'datasets/gdc/groundtruth-joinable.csv',
+            'Q128': 'gdc-experiments/gdc_query_results_embeddinggemma_D64_Q64_chamfer_top50_slurm/all_query_results.csv',
+            'Q0': None,
+            'deepjoin': 'gdc-experiments/deepjoin_ft_gdc.csv',
+            'pexeso': 'gdc-experiments/pexeso-gdc-full-ranked.csv',
+        },
+        'wdc': None,
+    },
+}
 
 
-def print_multi_comparison(all_metrics: List[Tuple[str, Dict, int, Dict]], k_values: List[int]):
-    """Print condensed comparison table with all methods side-by-side for each metric.
+def load_data(config: dict, base_path: Path, level: str) -> Tuple[Dict, Dict[str, Dict]]:
+    """Load ground truth and all result variants for a config."""
+    gt_path = base_path / config['gt']
+    if not gt_path.exists():
+        print(f"    ⚠️  GT not found: {gt_path}")
+        return {}, {}
     
-    Args:
-        all_metrics: List of (name, metrics, total, gt_size_metrics) tuples
-        k_values: List of K values to evaluate
-    """
-    if len(all_metrics) < 2:
-        return
+    gt = load_ground_truth(str(gt_path), level)
+    results = {}
     
-    names = [m[0] for m in all_metrics]
-    metrics_list = [m[1] for m in all_metrics]
-    gt_metrics_list = [m[3] for m in all_metrics]
+    for variant in ['Q128', 'Q0', 'Q0_inverse', 'Q0_symmetric', 'Q0_harmonic', 'Q0_D64_symmetric', 'deepjoin', 'pexeso']:
+        if config.get(variant) is None:
+            continue
+        path = base_path / config[variant]
+        if path.exists():
+            results[variant] = load_results(str(path), level)
+        else:
+            print(f"    ⚠️  {variant} not found: {path}")
     
-    # Calculate column width based on method names
-    col_width = max(12, max(len(n) for n in names) + 2)
+    return gt, results
+
+
+def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, k_values: List[int], metrics_list: List[str]):
+    """Print CSV table for combined experiments."""
     
-    print(f"\n{'=' * (10 + col_width * len(names))}")
-    print("CONDENSED COMPARISON (All Methods)")
-    print(f"{'=' * (10 + col_width * len(names))}")
-    
-    for metric_name, metric_key in [("HITS@K", "hits"), ("Precision@K", "precision"), 
-                                      ("Recall@K", "recall"), ("NDCG@K", "ndcg"), ("MRR@K", "mrr")]:
-        print(f"\n--- {metric_name} ---")
-        header = f"{'K':>4}"
-        for name in names:
-            header += f" {name:>{col_width}}"
-        print(header)
-        print("-" * (6 + col_width * len(names)))
+    for metric in metrics_list:
+        mkey = metric.lower()
+        print(f"\n{'='*100}")
+        print(f"{metric}@K - {name}")
+        print(f"{'='*100}")
+
         
-        for k in k_values:
-            row = f"{k:>4}"
-            values = [m[metric_key][k] for m in metrics_list]
-            best_val = max(values)
-            for i, v in enumerate(values):
-                # Mark best with asterisk
-                marker = "*" if abs(v - best_val) < 0.001 and len(set(values)) > 1 else " "
-                row += f" {v:>{col_width-1}.3f}{marker}"
-            print(row)
-    
-    # Print metrics at ground truth size
-    print(f"\n{'=' * (10 + col_width * len(names))}")
-    print("METRICS AT GROUND TRUTH SIZE (K = |GT| per query)")
-    print(f"{'=' * (10 + col_width * len(names))}")
-    
-    # Show average |GT| size from first method
-    if gt_metrics_list[0] and 'per_query' in gt_metrics_list[0]:
-        per_query = gt_metrics_list[0]['per_query']
-        gt_sizes = [pq['gt_size'] for pq in per_query.values()]
-        if gt_sizes:
-            print(f"Average |GT| size: {sum(gt_sizes)/len(gt_sizes):.2f} (min: {min(gt_sizes)}, max: {max(gt_sizes)})")
-    
-    header = f"{'Metric':>16}"
-    for name in names:
-        header += f" {name:>{col_width}}"
-    print(header)
-    print("-" * (18 + col_width * len(names)))
-    
-    for metric_name, metric_key in [("HITS@|GT|", "hits_at_gt"), ("Precision@|GT|", "precision_at_gt"), 
-                                      ("Recall@|GT|", "recall_at_gt"), ("NDCG@|GT|", "ndcg_at_gt"),
-                                      ("MRR (full)", "mrr")]:
-        row = f"{metric_name:>16}"
-        values = [m.get(metric_key, 0.0) if m else 0.0 for m in gt_metrics_list]
-        best_val = max(values) if values else 0.0
-        for v in values:
-            marker = "*" if abs(v - best_val) < 0.001 and len(set(values)) > 1 else " "
-            row += f" {v:>{col_width-1}.3f}{marker}"
-        print(row)
+        
+        if name == 'autofj':
+            cols = [f"SemSketch ({name})", f"SemSketch ({name} - no |Q|)", f"SemSketch ({name} - inverse)", f"SemSketch ({name} - symmetric)", f"SemSketch ({name} - harmonic)", f"SemSketch ({name} - |D|64, symmetric)",f"DeepJoin ({name})", f"Pexeso ({name})"]
+            print("K," + ",".join(cols))
+            for k in k_values:
+                row = [str(k)]
+                # Base Q128
+                val = base_metrics.get('Q128', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Base Q0
+                val = base_metrics.get('Q0', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Base Q0_inverse
+                val = base_metrics.get('Q0_inverse', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Base Q0_symmetric
+                val = base_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Base Q0_harmonic
+                val = base_metrics.get('Q0_harmonic', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Base Q0_D64_symmetric
+                val = base_metrics.get('Q0_D64_symmetric', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # DeepJoin (base)
+                val = base_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Pexeso (base)
+                val = base_metrics.get('pexeso', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                print(",".join(row))
+
+            # wdc_cols = [f"SemSketch ({name}+WDC)", f"SemSketch ({name}+WDC - no |Q|)", f"SemSketch ({name}+WDC - inverse)", f"SemSketch ({name}+WDC - symmetric)", f"SemSketch ({name}+WDC - harmonic)", f"SemSketch ({name}+WDC - |D|64, symmetric)", f"DeepJoin ({name} + WDC)", f"Pexeso ({name} + WDC)"]
+            # print("K," + ",".join(wdc_cols))
+            # for k in k_values:
+            #     row = [str(k)]
+            #     # Combined Q128
+            #     val = combined_metrics.get('Q128', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # Combined Q0
+            #     val = combined_metrics.get('Q0', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # Combined Q0_inverse
+            #     val = combined_metrics.get('Q0_inverse', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # Combined Q0_symmetric
+            #     val = combined_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # Combined Q0_harmonic
+            #     val = combined_metrics.get('Q0_harmonic', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # Combined Q0_D64_symmetric
+            #     val = combined_metrics.get('Q0_D64_symmetric', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # DeepJoin (combined)
+            #     val = combined_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     # Pexeso (combined)
+            #     val = combined_metrics.get('pexeso', {}).get(mkey, {}).get(k)
+            #     row.append(f"{val:.3f}" if val is not None else "")
+            #     print(",".join(row))
+        else:
+            cols = [f"SemSketch ({name})", f"SemSketch ({name} - no |Q|)", 
+                f"SemSketch ({name}+WDC)", f"SemSketch ({name}+WDC - no |Q|)", f"DeepJoin ({name})"
+                , f"DeepJoin ({name} + WDC)", f"Pexeso ({name})", f"Pexeso ({name} + WDC)"]
+            print("K," + ",".join(cols))
+            for k in k_values:
+                row = [str(k)]
+                # Base Q128
+                val = base_metrics.get('Q128', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Base Q0
+                val = base_metrics.get('Q0', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Combined Q128
+                val = combined_metrics.get('Q128', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Combined Q0
+                val = combined_metrics.get('Q0', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # DeepJoin (base)
+                val = base_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # DeepJoin (combined)
+                val = combined_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Pexeso (base)
+                val = base_metrics.get('pexeso', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Pexeso (combined)
+                val = combined_metrics.get('pexeso', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                print(",".join(row))
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description='Evaluate semantic join retrieval results',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Examples:
-  # Single method (auto-detects level from ground truth)
-  python evaluate_retrieval.py --results results.csv --ground-truth gt.csv
-
-  # Compare SemSketch vs DeepJoin
-  python evaluate_retrieval.py --results semsketch.csv --baseline deepjoin.csv --ground-truth gt.csv
-
-  # Compare SemSketch vs multiple baselines (condensed output)
-  python evaluate_retrieval.py --results semsketch.csv \\
-      --baselines deepjoin_base.csv deepjoin_ft.csv \\
-      --baseline-names "DeepJoin-Base" "DeepJoin-FT" \\
-      --ground-truth gt.csv
-        """
-    )
-    parser.add_argument('--results', type=str, required=True, help='Path to results CSV (SemSketch)')
-    parser.add_argument('--baseline', type=str, help='Path to baseline results CSV (single baseline)')
-    parser.add_argument('--baselines', type=str, nargs='+', help='Paths to multiple baseline CSVs')
-    parser.add_argument('--ground-truth', type=str, required=True, help='Path to ground truth CSV')
-    parser.add_argument('--level', type=str, choices=['table', 'column', 'auto'], default='auto',
-                       help='Evaluation level: auto-detect from ground truth (default), table, or column')
-    parser.add_argument('--k-values', type=int, nargs='+', default=[1, 3, 5, 10],
-                       help='K values for evaluation (default: 1 3 5 10)')
-    parser.add_argument('--name', type=str, default='SemSketch', help='Name for the main results')
-    parser.add_argument('--baseline-name', type=str, default='DeepJoin', help='Name for single baseline')
-    parser.add_argument('--baseline-names', type=str, nargs='+', help='Names for multiple baselines')
-    args = parser.parse_args()
-    
-    # Validate paths
+def run_single(args):
+    """Run single/comparison evaluation."""
     if not Path(args.ground_truth).exists():
         print(f"❌ Ground truth not found: {args.ground_truth}")
         return 1
-    
     if not Path(args.results).exists():
         print(f"❌ Results not found: {args.results}")
         return 1
     
-    # Auto-detect level if needed
-    level = args.level
-    if level == 'auto':
-        level = detect_ground_truth_level(args.ground_truth)
-        print(f"Auto-detected evaluation level: {level.upper()}")
+    level = args.level if args.level != 'auto' else detect_level(args.ground_truth)
+    print(f"Evaluation level: {level.upper()}")
     
-    print("=" * 70)
-    print(f"SEMANTIC JOIN RETRIEVAL EVALUATION ({level.upper()}-LEVEL)")
-    print("=" * 70)
+    gt = load_ground_truth(args.ground_truth, level)
+    print(f"\nGround truth: {len(gt)} queries")
     
-    # Load ground truth
-    if level == 'column':
-        gt = load_ground_truth_column_level(args.ground_truth)
-        load_results = load_results_column_level
-    else:
-        gt = load_ground_truth_table_level(args.ground_truth)
-        load_results = load_results_table_level
-    
-    total_pairs = sum(len(v) if isinstance(v, set) else 1 for v in gt.values())
-    print(f"\nGround truth: {len(gt)} queries with {total_pairs} total join pairs")
-    
-    # Evaluate main results
-    results = load_results(args.results)
+    results = load_results(args.results, level)
     print(f"{args.name} results: {len(results)} queries")
-    metrics, total, gt_size_metrics = evaluate_metrics(gt, results, args.k_values, level)
+    metrics, total, gt_metrics = evaluate_metrics(gt, results, args.k_values, level)
     
-    # Collect all metrics for multi-comparison (name, metrics, total, gt_size_metrics)
-    all_metrics = [(args.name, metrics, total, gt_size_metrics)]
+    print_metrics(metrics, total, args.name, args.k_values)
+    print_gt_metrics(gt_metrics, total)
     
-    # Handle multiple baselines (new feature)
-    if args.baselines:
-        baseline_names = args.baseline_names if args.baseline_names else [f"Baseline-{i+1}" for i in range(len(args.baselines))]
-        if len(baseline_names) < len(args.baselines):
-            baseline_names.extend([f"Baseline-{i+1}" for i in range(len(baseline_names), len(args.baselines))])
-        
-        for baseline_path, baseline_name in zip(args.baselines, baseline_names):
-            if Path(baseline_path).exists():
-                baseline_results = load_results(baseline_path)
-                print(f"{baseline_name} results: {len(baseline_results)} queries")
-                baseline_metrics, baseline_total, baseline_gt_metrics = evaluate_metrics(
-                    gt, baseline_results, args.k_values, level
-                )
-                all_metrics.append((baseline_name, baseline_metrics, baseline_total, baseline_gt_metrics))
-            else:
-                print(f"⚠️  Baseline not found: {baseline_path}")
-        
-        # Print condensed multi-comparison table
-        print_multi_comparison(all_metrics, args.k_values)
-    
-    # Handle single baseline (legacy behavior)
-    elif args.baseline and Path(args.baseline).exists():
-        baseline_results = load_results(args.baseline)
+    if args.baseline and Path(args.baseline).exists():
+        baseline_results = load_results(args.baseline, level)
         print(f"\n{args.baseline_name} results: {len(baseline_results)} queries")
-        baseline_metrics, baseline_total, baseline_gt_metrics = evaluate_metrics(
-            gt, baseline_results, args.k_values, level
-        )
-        print_metrics(metrics, total, args.name, args.k_values)
-        print_gt_size_metrics(gt_size_metrics, total)
-        print_metrics(baseline_metrics, baseline_total, args.baseline_name, args.k_values)
-        print_gt_size_metrics(baseline_gt_metrics, baseline_total)
-        
-        # Print comparison
-        print_comparison(metrics, baseline_metrics, args.name, args.baseline_name, args.k_values)
-    elif args.baseline:
-        print(f"\n⚠️  Baseline not found: {args.baseline}")
-        print_metrics(metrics, total, args.name, args.k_values)
-        print_gt_size_metrics(gt_size_metrics, total)
-    else:
-        # No baselines, just print main results
-        print_metrics(metrics, total, args.name, args.k_values)
-        print_gt_size_metrics(gt_size_metrics, total)
-    
-    # Coverage info
-    queries_in_gt = set(gt.keys())
-    queries_in_results = set(results.keys())
-    missing = queries_in_gt - queries_in_results
-    if missing:
-        print(f"\n⚠️  {len(missing)} ground truth queries not found in results")
+        bl_metrics, bl_total, bl_gt_metrics = evaluate_metrics(gt, baseline_results, args.k_values, level)
+        print_metrics(bl_metrics, bl_total, args.baseline_name, args.k_values)
+        print_gt_metrics(bl_gt_metrics, bl_total)
     
     print("\n" + "=" * 70)
     return 0
 
 
+def run_combined_experiments(args):
+    """Run combined experiments evaluation (CSV output)."""
+    base_path = Path(args.base_path)
+    
+    for exp_name in args.experiments:
+        exp = EXPERIMENTS.get(exp_name)
+        if not exp:
+            print(f"Unknown experiment: {exp_name}")
+            continue
+        
+        level = exp['level']
+        print(f"\n{'#' * 80}")
+        print(f"# {exp_name.upper()} (level: {level})")
+        print(f"{'#' * 80}")
+        
+        # Load base data
+        base_config = exp.get('base', {})
+        base_gt, base_results = load_data(base_config, base_path, level)
+        
+        # Load WDC data if available
+        wdc_config = exp.get('wdc')
+        if wdc_config:
+            wdc_gt, wdc_results = load_data(wdc_config, base_path, level)
+        else:
+            wdc_gt, wdc_results = {}, {}
+        
+        # Compute metrics for base
+        base_metrics = {}
+        for variant, results in base_results.items():
+            metrics, total, _ = evaluate_metrics(base_gt, results, args.k_values, level)
+            base_metrics[variant] = metrics
+        
+        # Compute metrics for WDC (combined)
+        combined_metrics = {}
+        for variant, results in wdc_results.items():
+            metrics, total, _ = evaluate_metrics(wdc_gt, results, args.k_values, level)
+            combined_metrics[variant] = metrics
+        
+        # Print combined table
+        print_combined_table(exp_name, base_metrics, combined_metrics, args.k_values, args.metrics)
+    
+    return 0
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Semantic Join Retrieval Evaluation')
+    
+    # Mode selection
+    parser.add_argument('--combined', action='store_true', help='Run combined experiments evaluation')
+    
+    # Combined mode args
+    parser.add_argument('--experiments', nargs='+', choices=['autofj', 'freyja', 'wt', 'gdc'],
+                       default=['autofj', 'freyja', 'wt'])
+    parser.add_argument('--metrics', nargs='+', choices=['HITS', 'Precision', 'Recall', 'NDCG', 'MRR'],
+                       default=['HITS', 'Precision', 'Recall', 'NDCG', 'MRR'])
+    parser.add_argument('--base-path', type=str, default='.')
+    
+    # Single mode args
+    parser.add_argument('--results', type=str, help='Results CSV file')
+    parser.add_argument('--ground-truth', type=str, help='Ground truth CSV file')
+    parser.add_argument('--level', choices=['table', 'column', 'auto'], default='auto')
+    parser.add_argument('--name', type=str, default='Method')
+    parser.add_argument('--baseline', type=str, help='Optional baseline results CSV')
+    parser.add_argument('--baseline-name', type=str, default='Baseline')
+    
+    # Common args
+    parser.add_argument('--k-values', type=int, nargs='+', default=[1, 3, 5, 10, 20, 30, 40, 50])
+    
+    args = parser.parse_args()
+    
+    if args.combined:
+        return run_combined_experiments(args)
+    else:
+        if not args.results or not args.ground_truth:
+            parser.error("--results and --ground-truth required for single evaluation mode")
+        return run_single(args)
+
+
 if __name__ == "__main__":
-    exit(main())
+    exit(main() or 0)

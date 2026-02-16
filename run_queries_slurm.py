@@ -12,7 +12,7 @@ import pandas as pd
 import torch
 import argparse
 
-def main(experiment: str, embedding_model: str = "embeddinggemma", d_sketch_size: int = 128, sketch_size: int = 128, similarity_method: str = "chamfer", top_k_return: int = 50):
+def main(experiment: str, embedding_model: str = "embeddinggemma", d_sketch_size: int = 128, sketch_size: int = 128, similarity_method: str = "chamfer", top_k_return: int = 50, embedding_dim: int = 128, debug_matches: bool = False, debug_top_n: int = 10):
     print(f"Running queries for {experiment} with {embedding_model} embeddings, d_sketch_size {d_sketch_size}, sketch_size {sketch_size}, similarity_method {similarity_method}, top_k_return {top_k_return}")
     exp_dir = f"{experiment}-experiments"
     datalake_dir = f"datasets/{experiment}/datalake"
@@ -70,14 +70,14 @@ done
 python run_query_processing.py "{datalake_dir}" "{sketches_dir}" "{query_file}" \\
     --output-dir "{output_dir}/job_$SLURM_ARRAY_TASK_ID" \\
     --top-k-return {top_k_return} \\
-    --similarity-threshold {similarity_threshold} \\
+    --similarity-threshold 0.1 \\
     --similarity-method "{similarity_method}" \\
     --sketch-size {sketch_size} \\
     --device {device_setting} \\
     --embeddings-dir "{embeddings_dir}" \\
     --embedding-model "{embedding_model}" \\
     --embedding-dim {embedding_dim} \\
-    --query-indices ${{QUERY_INDICES}}
+    --query-indices ${{QUERY_INDICES}}{"" if not debug_matches else f" --debug-matches --debug-top-n {debug_top_n}"}
 """
     
     with open(slurm_script, 'w') as f:
@@ -103,10 +103,13 @@ if __name__ == "__main__":
     argparser.add_argument("--experiment", choices=["autofj", "wt", "freyja", "gdc", "autofj-wdc", "wt-wdc", "freyja-wdc"], type=str, required=True)
     argparser.add_argument("--embedding_model", choices=["embeddinggemma", "mpnet"], default="embeddinggemma", type=str, required=False)
     argparser.add_argument("--d_sketch_size", type=int, default=128, required=False)
-    argparser.add_argument("--sketch_size", type=int, default=128, required=False)
-    argparser.add_argument("--similarity_method", choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer"], default="chamfer", type=str, required=False)
+    argparser.add_argument("--sketch_size", type=int, default=0, required=False)
+    argparser.add_argument("--similarity_method", choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"], default="chamfer", type=str, required=False)
     argparser.add_argument("--top_k_return", type=int, default=50, required=False)
+    argparser.add_argument("--embedding_dim", type=int, default=128, required=False)
+    argparser.add_argument("--debug_matches", action="store_true", help="Print detailed match info for debugging")
+    argparser.add_argument("--debug_top_n", type=int, default=10, help="Number of top/worst matches to print")
     args = argparser.parse_args()
-    main(args.experiment, args.embedding_model, args.d_sketch_size, args.sketch_size, args.similarity_method, args.top_k_return)
+    main(args.experiment, args.embedding_model, args.d_sketch_size, args.sketch_size, args.similarity_method, args.top_k_return, args.embedding_dim, args.debug_matches, args.debug_top_n)
 
 

@@ -14,6 +14,11 @@ Supports multiple similarity computation methods:
            to datalake sketch vectors. Reference: https://arxiv.org/abs/2405.19504
 - inverse_chamfer: Inverse Chamfer - for each datalake sketch vector, find max similarity
            to query embeddings.
+- symmetric_chamfer: Arithmetic mean of chamfer and inverse_chamfer. Balanced combination.
+- harmonic_chamfer: Harmonic mean of both directions. More conservative - penalizes when
+           either direction has low similarity. Good for reducing false positives.
+- min_chamfer: Minimum of both directions. Most conservative - requires both directions
+           to have high similarity.
 """
 
 from __future__ import annotations
@@ -45,7 +50,7 @@ class QueryConfig:
     similarity_threshold: float = 0.7
     sketch_size: int = 1024
     query_sketch_size: int = 0  # 0 = no sketching (use all query embeddings), >0 = sketch to this size
-    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer", "inverse_chamfer"
+    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer", "min_chamfer"
     top_k_for_mean: int = 100
     enable_early_stopping: bool = True
     early_subset_size: int = 256
@@ -54,6 +59,8 @@ class QueryConfig:
     device: str = "auto"  # "auto", "cpu", "cuda" - used for embeddings AND chamfer similarity
     embedding_model: str = "mpnet"  # "mpnet" | "embeddinggemma"
     embedding_dim: int = 128  # Output dimension for embeddinggemma
+    debug_matches: bool = False  # Print detailed match info for debugging
+    debug_top_n: int = 10  # Number of top matches to print per query/datalake vector
 
 
 @dataclass
@@ -322,10 +329,14 @@ class SemanticJoinQueryProcessor:
         elif use_cache:
             self.logger.info(f"Using pre-loaded sketches cache ({len(self.sketches_cache)} sketches)")
         
+        # Normalize query table name once (remove .csv extension)
+        query_table_normalized = query.table_name.replace('.csv', '')
+        
         for (table_name, column_name, column_index), sketch_path in self.available_sketches.items():
             try:
                 # Skip the query table itself
-                if table_name == query.table_name:
+                table_name_normalized = table_name.replace('.csv', '')
+                if table_name_normalized == query_table_normalized:
                     continue
                 
                 # Get candidate sketch from the appropriate source
@@ -341,7 +352,8 @@ class SemanticJoinQueryProcessor:
                     continue
                 
                 semantic_matches, semantic_density = self._estimate_semantic_joinability(
-                    query_embeddings, candidate_sketch, min_score_threshold
+                    query_embeddings, candidate_sketch, min_score_threshold,
+                    candidate_info=(table_name, column_name) if self.config.debug_matches else None
                 )
                 
                 processed += 1
@@ -386,8 +398,128 @@ class SemanticJoinQueryProcessor:
         
         return results
     
+    def _load_column_values_for_debug(self, table_name: str, column_name: str, 
+                                       representative_ids: List[int]) -> Optional[List[str]]:
+        """Load column values on-demand for debugging.
+        
+        Args:
+            table_name: Name of the table
+            column_name: Name of the column
+            representative_ids: Indices into the unique values to select
+            
+        Returns:
+            List of representative value strings, or None if loading fails
+        """
+        if self.datalake_dir is None:
+            return None
+        
+        try:
+            csv_file = self.datalake_dir / f"{table_name}.csv"
+            if not csv_file.exists():
+                return None
+            
+            df = pd.read_csv(csv_file)
+            if column_name not in df.columns:
+                return None
+            
+            # Get unique values in order (same as during embedding)
+            unique_values = df[column_name].dropna().astype(str).str.strip().str.lower()
+            unique_values = unique_values[unique_values != ''].drop_duplicates().tolist()
+            
+            # Use representative_ids to get the selected values
+            selected_values = []
+            for idx in representative_ids:
+                if 0 <= idx < len(unique_values):
+                    selected_values.append(unique_values[idx])
+                else:
+                    selected_values.append(f"d_{idx}")
+            
+            return selected_values
+        except Exception as e:
+            self.logger.debug(f"Could not load values for {table_name}.{column_name}: {e}")
+            return None
+    
+    def _print_debug_matches(self, similarity_matrix: np.ndarray, 
+                              query_emb: SemanticSketch, datalake_sketch: SemanticSketch,
+                              direction: str = "chamfer",
+                              candidate_info: Optional[Tuple[str, str]] = None) -> None:
+        """Print detailed match information for debugging.
+        
+        Args:
+            similarity_matrix: (num_query, num_datalake) similarity scores
+            query_emb: Query embeddings with representative_names
+            datalake_sketch: Datalake sketch with representative_names
+            direction: "chamfer" (query->datalake) or "inverse" (datalake->query)
+            candidate_info: Optional (table_name, column_name) tuple for context
+        """
+        top_n = self.config.debug_top_n
+        q_names = query_emb.representative_names or [f"q_{i}" for i in range(query_emb.k)]
+        
+        # Try to get datalake names: from sketch, or load on-demand from CSV
+        d_names = datalake_sketch.representative_names
+        if d_names is None and candidate_info is not None:
+            d_names = self._load_column_values_for_debug(
+                candidate_info[0], candidate_info[1], datalake_sketch.representative_ids
+            )
+        if d_names is None:
+            d_names = [f"d_{i}" for i in range(datalake_sketch.k)]
+        
+        if candidate_info:
+            print(f"\n  [DEBUG] Candidate: {candidate_info[0]}.{candidate_info[1]}")
+        
+        if direction == "chamfer":
+            # For each query embedding, show best datalake matches
+            print(f"\n  === CHAMFER DEBUG: Query -> Datalake (top {top_n} per query) ===")
+            max_sims = np.max(similarity_matrix, axis=1)
+            best_indices = np.argmax(similarity_matrix, axis=1)
+            
+            # Sort by max similarity descending
+            sorted_q_idx = np.argsort(max_sims)[::-1][:top_n]
+            for q_idx in sorted_q_idx:
+                d_idx = best_indices[q_idx]
+                sim = max_sims[q_idx]
+                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
+                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
+                print(f"    Q[{q_idx}] '{q_val[:50]}' -> D[{d_idx}] '{d_val[:50]}' | sim={sim:.4f}")
+            
+            # Also show worst matches (lowest max similarity)
+            print(f"  --- Worst {top_n} query matches (lowest max sim) ---")
+            worst_q_idx = np.argsort(max_sims)[:top_n]
+            for q_idx in worst_q_idx:
+                d_idx = best_indices[q_idx]
+                sim = max_sims[q_idx]
+                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
+                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
+                print(f"    Q[{q_idx}] '{q_val[:50]}' -> D[{d_idx}] '{d_val[:50]}' | sim={sim:.4f}")
+                
+        elif direction == "inverse":
+            # For each datalake embedding, show best query matches
+            print(f"\n  === INVERSE CHAMFER DEBUG: Datalake -> Query (top {top_n} per datalake) ===")
+            max_sims = np.max(similarity_matrix, axis=0)
+            best_indices = np.argmax(similarity_matrix, axis=0)
+            
+            # Sort by max similarity descending
+            sorted_d_idx = np.argsort(max_sims)[::-1][:top_n]
+            for d_idx in sorted_d_idx:
+                q_idx = best_indices[d_idx]
+                sim = max_sims[d_idx]
+                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
+                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
+                print(f"    D[{d_idx}] '{d_val[:50]}' -> Q[{q_idx}] '{q_val[:50]}' | sim={sim:.4f}")
+            
+            # Also show worst matches
+            print(f"  --- Worst {top_n} datalake matches (lowest max sim) ---")
+            worst_d_idx = np.argsort(max_sims)[:top_n]
+            for d_idx in worst_d_idx:
+                q_idx = best_indices[d_idx]
+                sim = max_sims[d_idx]
+                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
+                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
+                print(f"    D[{d_idx}] '{d_val[:50]}' -> Q[{q_idx}] '{q_val[:50]}' | sim={sim:.4f}")
+
     def _estimate_semantic_joinability(self, query_emb: SemanticSketch, datalake_sketch: SemanticSketch, 
-                                        min_score_threshold: float = 0.0) -> Tuple[int, float]:
+                                        min_score_threshold: float = 0.0,
+                                        candidate_info: Optional[Tuple[str, str]] = None) -> Tuple[int, float]:
         """Estimate semantic joinability between query embeddings and datalake sketch.
         
         Compares all query embeddings against datalake sketch vectors (no query sketching).
@@ -402,6 +534,11 @@ class SemanticJoinQueryProcessor:
                      Reference: https://arxiv.org/abs/2405.19504
         - "inverse_chamfer": Inverse Chamfer - iterates over datalake sketch
                      Chamfer(D, Q) = mean over d in D of max over q in Q of sim(d, q)
+        - "symmetric_chamfer": Arithmetic mean of chamfer and inverse_chamfer.
+                     Balanced combination of both directions.
+        - "harmonic_chamfer": Harmonic mean of both directions.
+                     More conservative - penalizes when either direction has low similarity.
+                     Good for reducing false positives across different benchmark sizes.
         
         Args:
             query_emb: All query embeddings (not sketched)
@@ -453,6 +590,9 @@ class SemanticJoinQueryProcessor:
                 max_sims_per_query = np.max(similarity_matrix, axis=1)
                 semantic_density = float(np.mean(max_sims_per_query))
             semantic_matches = query_emb.k
+            
+            if self.config.debug_matches:
+                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "chamfer", candidate_info)
         
         elif method == "inverse_chamfer":
             # Inverse Chamfer: for each datalake sketch vector, find max sim to query embeddings
@@ -482,6 +622,65 @@ class SemanticJoinQueryProcessor:
                 max_sims_per_datalake = np.max(similarity_matrix, axis=0)
                 semantic_density = float(np.mean(max_sims_per_datalake))
             semantic_matches = datalake_sketch.k
+            
+            if self.config.debug_matches:
+                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "inverse", candidate_info)
+        
+        elif method in ("symmetric_chamfer", "harmonic_chamfer"):
+            # Combined Chamfer methods: compute both directions and combine
+            # This reduces false positives by requiring good coverage in BOTH directions
+            
+            # Early stopping: quick check on both directions
+            early_check_size = min(10, similarity_matrix.shape[0], similarity_matrix.shape[1])
+            early_max_query = np.max(similarity_matrix[:early_check_size, :], axis=1)
+            early_max_datalake = np.max(similarity_matrix[:, :early_check_size], axis=0)
+            early_chamfer = float(np.mean(early_max_query))
+            early_inv_chamfer = float(np.mean(early_max_datalake))
+            
+            if early_chamfer < self.config.similarity_threshold * 0.8 or early_inv_chamfer < self.config.similarity_threshold * 0.8:
+                return 0, 0.0
+
+            # Also skip if all early similarities are very low
+            if np.all(early_max_query < self.config.similarity_threshold) or np.all(early_max_datalake < self.config.similarity_threshold):
+                return 0, 0.0
+            
+            use_gpu = (TORCH_AVAILABLE and 
+                       self.config.device in ("cuda", "auto") and 
+                       torch.cuda.is_available())
+            
+            # Traditional chamfer: max similarity
+            if use_gpu:
+                sim_tensor = torch.from_numpy(similarity_matrix).cuda()
+                max_sims_per_query = torch.max(sim_tensor, dim=1).values
+                chamfer_score = float(torch.mean(max_sims_per_query).cpu())
+                max_sims_per_datalake = torch.max(sim_tensor, dim=0).values
+                inv_chamfer_score = float(torch.mean(max_sims_per_datalake).cpu())
+            else:
+                max_sims_per_query = np.max(similarity_matrix, axis=1)
+                chamfer_score = float(np.mean(max_sims_per_query))
+                max_sims_per_datalake = np.max(similarity_matrix, axis=0)
+                inv_chamfer_score = float(np.mean(max_sims_per_datalake))
+            
+            # Combine the two scores
+            if method == "symmetric_chamfer":
+                # Arithmetic mean: balanced combination
+                semantic_density = (chamfer_score + inv_chamfer_score) / 2.0
+            elif method == "harmonic_chamfer":
+                # Harmonic mean: penalizes when either score is low
+                # More conservative - good for reducing false positives
+                if chamfer_score > 0 and inv_chamfer_score > 0:
+                    semantic_density = 2.0 * chamfer_score * inv_chamfer_score / (chamfer_score + inv_chamfer_score)
+                else:
+                    semantic_density = 0.0
+            else:  # traditional chamfer
+                semantic_density = chamfer_score
+            
+            semantic_matches = min(query_emb.k, datalake_sketch.k)
+            
+            if self.config.debug_matches:
+                print(f"  [DEBUG] chamfer={chamfer_score:.4f}, inv_chamfer={inv_chamfer_score:.4f}")
+                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "chamfer", candidate_info)
+                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "inverse", candidate_info)
         
         elif method == "top_k_mean":
             flat = similarity_matrix.ravel()
