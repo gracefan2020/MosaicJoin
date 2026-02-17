@@ -90,3 +90,8 @@ This is directly compatible with `evaluate_retrieval.py`.
 - Cache payload stores `items`, `embeddings`, and metadata.
 - Cache is reused only when metadata matches (dataset, checkpoint signature, precomputed signatures, etc.).
 - For merged `*-wdc` datasets, `target_<id>.csv` / `query_<id>.csv` can reuse Snoopy precomputed `.npy` vectors when available.
+
+## References
+
+- GitHub: https://github.com/ZJU-DAILY/Snoopy
+- Paper: https://arxiv.org/abs/2502.16813
