@@ -197,6 +197,13 @@ class Pair:
     matched_grids: Set[Grid]
 
 
+@dataclass
+class QueryGpuRuntime:
+    device: torch.device
+    # Cache per-grid tensors to avoid repeated host->device copies in verify().
+    grid_tensor_cache: Dict[int, Tuple[torch.Tensor, torch.Tensor]]
+
+
 def _add_pair(
     pairs: Dict[int, Pair],
     q_id: int,
@@ -301,6 +308,7 @@ def verify(
     index_sets: Sequence[Set[int]],
     query_size: int,
     time_threshold: float,
+    gpu_runtime: Optional[QueryGpuRuntime] = None,
 ) -> Tuple[List[int], List[int], bool]:
     start = time.perf_counter()
     over_time = False
@@ -324,6 +332,15 @@ def verify(
     for q_id, pair in pairs.items():
         if over_time:
             break
+        q_point_t = None
+        q_embedding_t = None
+        if gpu_runtime is not None:
+            q_point_t = torch.as_tensor(pair.q_point, device=gpu_runtime.device, dtype=torch.float64)
+            q_embedding_t = torch.as_tensor(
+                pair.q_embedding,
+                device=gpu_runtime.device,
+                dtype=torch.float32,
+            )
         grid_cols: List[Tuple[Grid, Set[int]]] = []
         candidate_cols: Set[int] = set()
         for grid in pair.candidate_grids:
@@ -358,6 +375,9 @@ def verify(
                     query_embedding=pair.q_embedding,
                     tau=tau,
                     inverted_index=inverted_index,
+                    query_point_t=q_point_t,
+                    query_embedding_t=q_embedding_t,
+                    gpu_runtime=gpu_runtime,
                 ):
                     is_match = True
                 if over_time or is_match:
@@ -374,6 +394,23 @@ def verify(
 
     result = [idx for idx, cnt in enumerate(match_count) if cnt >= threshold_count]
     return result, match_count, over_time
+
+
+def _grid_cuda_tensors(
+    grid: Grid,
+    gpu_runtime: QueryGpuRuntime,
+) -> Tuple[torch.Tensor, torch.Tensor]:
+    cache_key = id(grid)
+    cached = gpu_runtime.grid_tensor_cache.get(cache_key)
+    if cached is not None:
+        return cached
+
+    assert grid.vector_arr is not None
+    assert grid.embeddings_arr is not None
+    points_t = torch.as_tensor(grid.vector_arr, device=gpu_runtime.device, dtype=torch.float64)
+    embs_t = torch.as_tensor(grid.embeddings_arr, device=gpu_runtime.device, dtype=torch.float32)
+    gpu_runtime.grid_tensor_cache[cache_key] = (points_t, embs_t)
+    return points_t, embs_t
 
 
 def build_hierarchical_grid(
@@ -454,6 +491,9 @@ def _grid_col_match_fast(
     query_embedding: np.ndarray,
     tau: float,
     inverted_index: InvertedIndex,
+    query_point_t: Optional[torch.Tensor] = None,
+    query_embedding_t: Optional[torch.Tensor] = None,
+    gpu_runtime: Optional[QueryGpuRuntime] = None,
 ) -> bool:
     idx = inverted_index.local_indices(grid, col)
     if idx.size == 0:
@@ -461,6 +501,25 @@ def _grid_col_match_fast(
 
     assert grid.vector_arr is not None
     assert grid.embeddings_arr is not None
+
+    if gpu_runtime is not None and query_point_t is not None and query_embedding_t is not None:
+        points_t, embs_t = _grid_cuda_tensors(grid, gpu_runtime)
+        idx_t = torch.as_tensor(idx, device=gpu_runtime.device, dtype=torch.int64)
+        points = torch.index_select(points_t, 0, idx_t)
+
+        axis_ok = torch.all(torch.abs(points - query_point_t.unsqueeze(0)) <= tau, dim=1)
+        if not bool(torch.any(axis_ok).item()):
+            return False
+
+        candidates = points[axis_ok]
+        if bool(torch.any(torch.any(candidates + query_point_t.unsqueeze(0) <= tau, dim=1)).item()):
+            return True
+
+        rem_idx = idx_t[axis_ok]
+        embs = torch.index_select(embs_t, 0, rem_idx)
+        diff = embs - query_embedding_t.unsqueeze(0)
+        dist2 = torch.sum(diff * diff, dim=1)
+        return bool(torch.any(dist2 <= float(tau * tau)).item())
 
     points = grid.vector_arr[idx]
     # Filter1: if any axis is outside tau window, that point cannot match.
@@ -1157,7 +1216,19 @@ def _select_lof_pivots(points: np.ndarray, num_pivots: int, seed: int) -> np.nda
     return np.asarray(selected[:num_pivots], dtype=np.float64)
 
 
-def _map_points_to_pivots(points: np.ndarray, pivots: np.ndarray) -> np.ndarray:
+def _map_points_to_pivots(
+    points: np.ndarray,
+    pivots: np.ndarray,
+    gpu_device: Optional[torch.device] = None,
+) -> np.ndarray:
+    if points.size == 0 or pivots.size == 0:
+        return np.empty((points.shape[0], pivots.shape[0]), dtype=np.float64)
+    if gpu_device is not None:
+        points_t = torch.as_tensor(points, device=gpu_device, dtype=torch.float32)
+        pivots_t = torch.as_tensor(pivots, device=gpu_device, dtype=torch.float32)
+        distances = torch.cdist(points_t, pivots_t, p=2)
+        return distances.detach().cpu().numpy().astype(np.float64, copy=False)
+
     # shape: (num_points, num_pivots)
     # Broadcasting distance computation without external dependencies.
     diff = points[:, np.newaxis, :] - pivots[np.newaxis, :, :]
@@ -1372,6 +1443,18 @@ def run_baseline(args: argparse.Namespace) -> int:
         else:
             LOGGER.info("embedding_mode=fasttext runs on CPU")
 
+    query_gpu_runtime: Optional[QueryGpuRuntime] = None
+    query_map_device: Optional[torch.device] = None
+    if embedder.device.startswith("cuda") and torch.cuda.is_available():
+        query_map_device = torch.device(embedder.device)
+        query_gpu_runtime = QueryGpuRuntime(
+            device=query_map_device,
+            grid_tensor_cache={},
+        )
+        LOGGER.info("query-time GPU path enabled on %s", query_map_device)
+    else:
+        LOGGER.info("query-time GPU path disabled; using CPU for query verify/map")
+
     payload: Optional[Dict] = None
     offline_generation_seconds = 0.0
     used_cached_index = False
@@ -1485,7 +1568,11 @@ def run_baseline(args: argparse.Namespace) -> int:
                 continue
 
             query_matrix = np.asarray(query_embeddings, dtype=np.float32)
-            query_points = _map_points_to_pivots(query_matrix, pivots)
+            query_points = _map_points_to_pivots(
+                query_matrix,
+                pivots,
+                gpu_device=query_map_device,
+            )
             query_grid, _, _ = build_hierarchical_grid(
                 query_points,
                 query_matrix,
@@ -1527,6 +1614,7 @@ def run_baseline(args: argparse.Namespace) -> int:
                 index_sets=column_sets,
                 query_size=len(query_embeddings),
                 time_threshold=args.time_threshold,
+                gpu_runtime=query_gpu_runtime,
             )
             t_verify = time.perf_counter() - t_verify_start
             total_verify_sec += t_verify
