@@ -84,6 +84,19 @@ reinstall from source or use conda:
 
 - Default mode is `--embedding_mode mpnet` and requires `sentence-transformers` and `torch`.
 - Paper-faithful mode is `--embedding_mode glove`, which requires GloVe pickle.
+- Paper-faithful structural defaults are now enabled:
+  - `--num_pivots 3`
+  - `--num_layers 4`
+  - `--containment_threshold 0.4`
+  - `--time_threshold 30`
+  - `--score_mode containment`
+  - `--prune_multiplier 2.0`
+- If you prefer the prior hybrid ranking behavior, set `--score_mode hybrid`.
+- To reduce query latency on very high-cardinality attributes, cap sampled unique values:
+  - `--max_unique_values N` applies to both index/query attributes.
+  - `--max_index_unique_values N` overrides index cap only.
+  - `--max_query_unique_values N` overrides query cap only.
+  - `0` means disabled (use all unique values).
 - Pivot selection default is `--pivot_method lof`, matching the author code and requires `scikit-learn`.
 - The script auto-detects query source in this order:
   1. `autofj_query_columns.csv`
