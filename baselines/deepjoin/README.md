@@ -38,3 +38,8 @@ python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/autofj-g
 ```bash
 python baselines/deepjoin/infer_full_dataset.py --datalake_dir datasets/autofj_join_benchmark/datalake/ --model_name baselines/deepjoin/all-mpnet-base-v2 --out_csv deepjoin_ft_autofj.csv --with_header --query_dir datasets/autofj_join_benchmark/groundtruth-joinable.csv
 ```
+
+## References
+
+- GitHub: https://github.com/mutong184/deepjoin
+- Paper: https://dl.acm.org/doi/10.14778/3603581.3603587

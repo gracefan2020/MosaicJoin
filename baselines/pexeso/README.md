@@ -91,3 +91,8 @@ reinstall from source or use conda:
   3. `groundtruth-joinable.csv` (uses `left_table` + default query column)
 - Output schema matches `evaluate_retrieval.py` expectations:
   `query_table,query_column,candidate_table,candidate_column,similarity_score`
+
+## References
+
+- GitHub: https://github.com/mutong184/LakeBench/tree/main/join/Pexeso
+- Paper: https://ieeexplore.ieee.org/document/9458717

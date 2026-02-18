@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=8
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:l40s:1
 #SBATCH --mem 128GB
 #SBATCH --time 24:00:00
 #SBATCH --mail-user=yfw215@nyu.edu
@@ -29,7 +29,54 @@ conda activate "${ENV_PREFIX}"
 echo "=== GPU CHECK ==="
 nvidia-smi || true
 
+# Optional keep-alive for clusters that terminate low-GPU-util jobs.
+# Toggle with: export GPU_KEEPALIVE_ENABLE=0
+GPU_KEEPALIVE_ENABLE="${GPU_KEEPALIVE_ENABLE:-1}"
+GPU_KEEPALIVE_INTERVAL_SEC="${GPU_KEEPALIVE_INTERVAL_SEC:-5}"
+GPU_KEEPALIVE_WORK_MS="${GPU_KEEPALIVE_WORK_MS:-4500}"
+GPU_KEEPALIVE_MATRIX_SIZE="${GPU_KEEPALIVE_MATRIX_SIZE:-4096}"
+GPU_KEEPALIVE_TARGET_MEM_FRAC="${GPU_KEEPALIVE_TARGET_MEM_FRAC:-0.55}"
+GPU_KEEPALIVE_RESERVE_MEM_GB="${GPU_KEEPALIVE_RESERVE_MEM_GB:-8}"
+GPU_KEEPALIVE_LOG="${SCRIPT_DIR}/gpu_keepalive-${SLURM_JOB_ID:-manual}.log"
+KEEPALIVE_PID=""
+
+start_gpu_keepalive () {
+  if [[ "${GPU_KEEPALIVE_ENABLE}" != "1" ]]; then
+    echo "GPU keep-alive disabled (GPU_KEEPALIVE_ENABLE=${GPU_KEEPALIVE_ENABLE})"
+    return 0
+  fi
+  if ! python -c "import torch; print(int(torch.cuda.is_available()))" 2>/dev/null | grep -q "^1$"; then
+    echo "GPU keep-alive not started (CUDA unavailable)"
+    return 0
+  fi
+
+  echo "Starting GPU keep-alive: interval=${GPU_KEEPALIVE_INTERVAL_SEC}s work=${GPU_KEEPALIVE_WORK_MS}ms matrix=${GPU_KEEPALIVE_MATRIX_SIZE} mem_frac=${GPU_KEEPALIVE_TARGET_MEM_FRAC}"
+  python "${SCRIPT_DIR}/gpu_keepalive.py" \
+    --device cuda \
+    --interval_sec "${GPU_KEEPALIVE_INTERVAL_SEC}" \
+    --work_ms "${GPU_KEEPALIVE_WORK_MS}" \
+    --matrix_size "${GPU_KEEPALIVE_MATRIX_SIZE}" \
+    --target_mem_frac "${GPU_KEEPALIVE_TARGET_MEM_FRAC}" \
+    --reserve_mem_gb "${GPU_KEEPALIVE_RESERVE_MEM_GB}" \
+    > "${GPU_KEEPALIVE_LOG}" 2>&1 &
+  KEEPALIVE_PID=$!
+  echo "GPU keep-alive PID=${KEEPALIVE_PID}, log=${GPU_KEEPALIVE_LOG}"
+}
+
+stop_gpu_keepalive () {
+  if [[ -n "${KEEPALIVE_PID}" ]]; then
+    if kill -0 "${KEEPALIVE_PID}" 2>/dev/null; then
+      echo "Stopping GPU keep-alive PID=${KEEPALIVE_PID}"
+      kill "${KEEPALIVE_PID}" 2>/dev/null || true
+      wait "${KEEPALIVE_PID}" 2>/dev/null || true
+    fi
+  fi
+}
+
+trap stop_gpu_keepalive EXIT INT TERM
+
 cd "${SCRIPT_DIR}"
+start_gpu_keepalive
 
 run_benchmark () {
   local bench="$1"
@@ -97,7 +144,7 @@ run_benchmark () {
     --device auto \
     --tau 0.6 \
     --containment_threshold "${SMALL_THRESHOLD}" \
-    --time_threshold 600 \
+    --time_threshold 120 \
     --log_level INFO \
     --index_cache "${index_cache}" \
     --out_csv "${out_csv}"
