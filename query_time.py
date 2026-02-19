@@ -6,10 +6,6 @@ datalake sketches to find top-k joinable tables. No sketching is performed on th
 side - all query embeddings are used directly.
 
 Supports multiple similarity computation methods:
-- mean: Average of all pairwise similarities
-- greedy_match: Greedy 1-to-1 bipartite matching
-- top_k_mean: Average of top-k highest similarities
-- max: Maximum similarity only
 - chamfer: Chamfer similarity (MaxSim) - for each query embedding, find max similarity
            to datalake sketch vectors. Reference: https://arxiv.org/abs/2405.19504
 - inverse_chamfer: Inverse Chamfer - for each datalake sketch vector, find max similarity
@@ -50,7 +46,7 @@ class QueryConfig:
     similarity_threshold: float = 0.7
     sketch_size: int = 1024
     query_sketch_size: int = 0  # 0 = no sketching (use all query embeddings), >0 = sketch to this size
-    similarity_method: str = "mean"  # "mean", "greedy_match", "top_k_mean", "max", "chamfer", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer", "min_chamfer"
+    similarity_method: str = "chamfer"  # "chamfer", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"
     top_k_for_mean: int = 100
     enable_early_stopping: bool = True
     early_subset_size: int = 256
@@ -525,10 +521,6 @@ class SemanticJoinQueryProcessor:
         Compares all query embeddings against datalake sketch vectors (no query sketching).
         
         Similarity methods:
-        - "mean": Average of all pairwise similarities
-        - "greedy_match": Greedy 1-to-1 bipartite matching (principled, no double-counting)
-        - "top_k_mean": Average of top-k highest similarities
-        - "max": Maximum similarity only
         - "chamfer": Chamfer similarity (MaxSim) - iterates over query embeddings
                      Chamfer(Q, D) = mean over q in Q of max over d in D of sim(q, d)
                      Reference: https://arxiv.org/abs/2405.19504
@@ -557,12 +549,7 @@ class SemanticJoinQueryProcessor:
         
         method = self.config.similarity_method
         
-        if method == "greedy_match":
-            # Greedy 1-to-1 bipartite matching
-            semantic_density = self._greedy_match_similarity(similarity_matrix)
-            semantic_matches = min(query_emb.k, datalake_sketch.k)
-        
-        elif method == "chamfer":
+        if method == "chamfer":
             # Chamfer similarity (MaxSim): for each query embedding, find max sim to datalake sketch
             # Chamfer(Q, D) = mean over q in Q of max over d in D of sim(q, d)
             
@@ -572,8 +559,8 @@ class SemanticJoinQueryProcessor:
             early_estimate = float(np.mean(early_max_sims))
             
             # If early estimate is way below threshold, skip full computation
-            if early_estimate < min_score_threshold * 0.8:
-                return 0, early_estimate
+            if early_estimate < self.config.similarity_threshold * 0.8:
+                return 0, 0.0
             
             # Also skip if all early similarities are very low
             if np.all(early_max_sims < self.config.similarity_threshold):
@@ -604,8 +591,8 @@ class SemanticJoinQueryProcessor:
             early_estimate = float(np.mean(early_max_sims))
             
             # If early estimate is way below threshold, skip full computation
-            if early_estimate < min_score_threshold * 0.8:
-                return 0, early_estimate
+            if early_estimate < self.config.similarity_threshold * 0.8:
+                return 0, 0.0
             
             # Also skip if all early similarities are very low
             if np.all(early_max_sims < self.config.similarity_threshold):
@@ -620,7 +607,6 @@ class SemanticJoinQueryProcessor:
                 semantic_density = float(torch.mean(max_sims_per_datalake).cpu())
             else:
                 max_sims_per_datalake = np.max(similarity_matrix, axis=0)
-                semantic_density = float(np.mean(max_sims_per_datalake))
             semantic_matches = datalake_sketch.k
             
             if self.config.debug_matches:
@@ -682,68 +668,8 @@ class SemanticJoinQueryProcessor:
                 self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "chamfer", candidate_info)
                 self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "inverse", candidate_info)
         
-        elif method == "top_k_mean":
-            flat = similarity_matrix.ravel()
-            k = min(self.config.top_k_for_mean, len(flat))
-            top_k_values = np.partition(flat, -k)[-k:]
-            semantic_density = float(np.mean(top_k_values))
-            semantic_matches = k
-        
-        elif method == "max":
-            semantic_density = float(np.max(similarity_matrix))
-            semantic_matches = 1
-        
-        else:  # "mean"
-            if self.config.similarity_threshold <= 0.1:
-                semantic_density = float(np.mean(similarity_matrix))
-                semantic_matches = int(np.sum(similarity_matrix > 0))
-            else:
-                semantic_matches = np.sum(similarity_matrix > self.config.similarity_threshold)
-                semantic_density = semantic_matches / min(query_emb.k, datalake_sketch.k)
-        
         return int(semantic_matches), float(semantic_density)
     
-    def _greedy_match_similarity(self, similarity_matrix: np.ndarray) -> float:
-        """Compute similarity using greedy 1-to-1 bipartite matching.
-        
-        This is a greedy approximation to optimal bipartite matching (Hungarian algorithm).
-        Each row (query vector) matches to at most one column (candidate vector).
-        
-        Algorithm:
-        1. Sort all pairs by similarity (descending)
-        2. Greedily select pairs, skipping if either endpoint already used
-        3. Return mean of selected similarities
-    
-        
-        The greedy approach typically achieves >95% of optimal matching quality.
-        """
-        if similarity_matrix.size == 0:
-            return 0.0
-        
-        n_rows, n_cols = similarity_matrix.shape
-        n_matches = min(n_rows, n_cols)
-        
-        # Flatten and get indices sorted by similarity (descending)
-        flat = similarity_matrix.ravel()
-        sorted_indices = np.argsort(flat)[::-1]
-        
-        used_rows: Set[int] = set()
-        used_cols: Set[int] = set()
-        matched_similarities = []
-        
-        for flat_idx in sorted_indices:
-            row = flat_idx // n_cols
-            col = flat_idx % n_cols
-            
-            if row not in used_rows and col not in used_cols:
-                matched_similarities.append(flat[flat_idx])
-                used_rows.add(row)
-                used_cols.add(col)
-                
-                if len(matched_similarities) >= n_matches:
-                    break
-        
-        return float(np.mean(matched_similarities)) if matched_similarities else 0.0
     
     def print_stats(self) -> None:
         """Print query processing statistics."""

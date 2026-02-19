@@ -78,7 +78,7 @@ def main():
     parser.add_argument("--device", type=str, default="auto",
                         help="Device for MPNet model (auto, cpu, cuda, mps)")
     parser.add_argument("--similarity-method", type=str, default="mean",
-                        choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"],
+                        choices=["chamfer", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"],
                         help="Similarity computation method")
     parser.add_argument("--top-k-for-mean", type=int, default=100,
                         help="Number of top pairs to average (for top_k_mean method)")

@@ -119,8 +119,8 @@ def main(experiment: str, embedding_model: str = "embeddinggemma", sketch_size: 
             f.write("#!/bin/bash\n")
             f.write("# Consolidate sketches for faster loading at query time\n")
             f.write(f'echo "Starting sketch consolidation..."\n')
-            f.write(f'python offline_sketch.py consolidate "{sketches_output_dir}"\n')
-            f.write(f'echo "Consolidation complete!"\n')
+            f.write(f'python offline_sketch.py consolidate "{sketches_output_dir}" --remove-originals\n')
+            f.write(f'echo "Consolidation complete! Original folders removed to save disk space."\n')
         
         os.chmod(consolidate_script, 0o755)
         

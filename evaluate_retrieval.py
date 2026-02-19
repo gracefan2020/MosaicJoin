@@ -206,10 +206,12 @@ EXPERIMENTS = {
             'Q0_inverse': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
             'Q0_symmetric': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'Q0_harmonic': 'autofj-experiments/autofj_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
-            'Q0_D64_symmetric': 'autofj-experiments/autofj_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64': 'autofj-experiments/autofj_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D32': 'autofj-experiments/autofj_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             # 'deepjoin': 'autofj-experiments/deepjoin_ft_autofj_grace.csv',
             'deepjoin': 'baselines/deepjoin/deepjoin_autofj.csv',
-            # 'pexeso': 'baselines/pexeso/deepjoin_ft_autofj.csv',
+            'pexeso': 'baselines/pexeso/pexeso_fasttext_autofj.csv',
+            'snoopy': 'baselines/snoopy/snoopy_ft_autofj.csv',
         },
         'wdc': {
             'gt': 'datasets/autofj-wdc/groundtruth-joinable.csv',
@@ -218,11 +220,12 @@ EXPERIMENTS = {
             'Q0_inverse': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
             'Q0_symmetric': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'Q0_harmonic': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
-            'Q0_D64_symmetric': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D64_Q0_chamfer_topm5_top50_slurmall_query_results.csv',
+            'Q0_D64': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D32': 'autofj-wdc-experiments/autofj-wdc_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'deepjoin': 'baselines/deepjoin/deepjoin_autofj-wdc.csv',
-            # 'pexeso': 'baselines/pexeso/deepjoin_ft_autofj-wdc.csv',
+            # 'pexeso': 'baselines/pexeso/pexeso_autofj-wdc.csv',
             # 'deepjoin': 'autofj-wdc-experiments/deepjoin_autofj-wdc.csv',
-
+            'snoopy': 'baselines/snoopy/snoopy_ft_autofj-wdc.csv',
         },
     },
     'freyja': {
@@ -231,17 +234,26 @@ EXPERIMENTS = {
             'gt': 'datasets/freyja/groundtruth-joinable.csv',
             'Q128': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
             'Q0': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
-            # 'deepjoin': 'freyja-experiments/deepjoin_ft_freyja.csv',
+            'Q0_inverse': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_symmetric': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_harmonic': 'freyja-experiments/freyja_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64': 'freyja-experiments/freyja_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D32': 'freyja-experiments/freyja_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'deepjoin': 'baselines/deepjoin/deepjoin_freyja.csv',
-            'pexeso': 'baselines/pexeso/deepjoin_ft_freyja.csv',
+            'pexeso': 'baselines/pexeso/pexeso_fasttext_freyja.csv',
+            'snoopy': 'baselines/snoopy/snoopy_ft_freyja.csv',
         },
         'wdc': {
             'gt': 'datasets/freyja-wdc/groundtruth-joinable.csv',
             'Q128': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
             'Q0': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
-            # 'deepjoin': 'freyja-wdc-experiments/deepjoin_ft_freyja-wdc.csv',
+            'Q0_inverse': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_symmetric': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_harmonic': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D32': 'freyja-wdc-experiments/freyja-wdc_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'deepjoin': 'baselines/deepjoin/deepjoin_freyja-wdc.csv',
-            'pexeso': 'baselines/pexeso/deepjoin_ft_freyja-wdc.csv',
+            'snoopy': 'baselines/snoopy/snoopy_ft_freyja-wdc.csv',
         },
     },
     'wt': {
@@ -250,17 +262,26 @@ EXPERIMENTS = {
             'gt': 'datasets/wt/groundtruth-joinable.csv',
             'Q128': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
             'Q0': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
-            # 'deepjoin': 'wt-experiments/deepjoin_ft_wt_no_col_names.csv',
+            'Q0_inverse': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_symmetric': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_harmonic': 'wt-experiments/wt_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64': 'wt-experiments/wt_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D32': 'wt-experiments/wt_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'deepjoin': 'baselines/deepjoin/deepjoin_wt.csv',
-            'pexeso': 'baselines/pexeso/deepjoin_ft_wt.csv',
+            'pexeso': 'baselines/pexeso/pexeso_fasttext_wt.csv',
+            'snoopy': 'baselines/snoopy/snoopy_ft_wt.csv',
         },
         'wdc': {
             'gt': 'datasets/wt-wdc/groundtruth-joinable.csv',
             'Q128': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q128_chamfer_top50_slurm/all_query_results.csv',
             'Q0': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q0_chamfer_top50_slurm/all_query_results.csv',
-            # 'deepjoin': 'wt-wdc-experiments/deepjoin_ft_wt-wdc.csv',
+            'Q0_inverse': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q0_inverse_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_symmetric': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_harmonic': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D128_Q0_harmonic_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D64': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D64_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
+            'Q0_D32': 'wt-wdc-experiments/wt-wdc_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/all_query_results.csv',
             'deepjoin': 'baselines/deepjoin/deepjoin_wt-wdc.csv',
-            'pexeso': 'baselines/pexeso/deepjoin_ft_wt-wdc.csv',
+            'snoopy': 'baselines/snoopy/snoopy_ft_wt-wdc.csv',
         },
     },
     'gdc': {
@@ -287,7 +308,7 @@ def load_data(config: dict, base_path: Path, level: str) -> Tuple[Dict, Dict[str
     gt = load_ground_truth(str(gt_path), level)
     results = {}
     
-    for variant in ['Q128', 'Q0', 'Q0_inverse', 'Q0_symmetric', 'Q0_harmonic', 'Q0_D64_symmetric', 'deepjoin', 'pexeso']:
+    for variant in ['Q128', 'Q0', 'Q0_inverse', 'Q0_symmetric', 'Q0_harmonic', 'Q0_D64_symmetric', 'Q0_D64', 'Q0_D32', 'deepjoin', 'pexeso', 'snoopy']:
         if config.get(variant) is None:
             continue
         path = base_path / config[variant]
@@ -299,95 +320,84 @@ def load_data(config: dict, base_path: Path, level: str) -> Tuple[Dict, Dict[str
     return gt, results
 
 
-def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, k_values: List[int], metrics_list: List[str]):
+def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, k_values: List[int], metrics_list: List[str], ablation: bool = False):
     """Print CSV table for combined experiments."""
-    
+    ablation_study = 'd_sketch_size'
+    # ablation_study = 'similarity_method'
     for metric in metrics_list:
         mkey = metric.lower()
         print(f"\n{'='*100}")
         print(f"{metric}@K - {name}")
         print(f"{'='*100}")
 
-        
-        
-        if name == 'autofj':
-            cols = [f"SemSketch ({name})", f"SemSketch ({name} - no |Q|)", f"SemSketch ({name} - inverse)", f"SemSketch ({name} - symmetric)", f"SemSketch ({name} - harmonic)", f"SemSketch ({name} - |D|64, symmetric)",f"DeepJoin ({name})", f"Pexeso ({name})"]
-            print("K," + ",".join(cols))
-            for k in k_values:
-                row = [str(k)]
-                # Base Q128
-                val = base_metrics.get('Q128', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Base Q0
-                val = base_metrics.get('Q0', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Base Q0_inverse
-                val = base_metrics.get('Q0_inverse', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Base Q0_symmetric
-                val = base_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Base Q0_harmonic
-                val = base_metrics.get('Q0_harmonic', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Base Q0_D64_symmetric
-                val = base_metrics.get('Q0_D64_symmetric', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # DeepJoin (base)
-                val = base_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Pexeso (base)
-                val = base_metrics.get('pexeso', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                print(",".join(row))
-
-            # wdc_cols = [f"SemSketch ({name}+WDC)", f"SemSketch ({name}+WDC - no |Q|)", f"SemSketch ({name}+WDC - inverse)", f"SemSketch ({name}+WDC - symmetric)", f"SemSketch ({name}+WDC - harmonic)", f"SemSketch ({name}+WDC - |D|64, symmetric)", f"DeepJoin ({name} + WDC)", f"Pexeso ({name} + WDC)"]
-            # print("K," + ",".join(wdc_cols))
-            # for k in k_values:
-            #     row = [str(k)]
-            #     # Combined Q128
-            #     val = combined_metrics.get('Q128', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # Combined Q0
-            #     val = combined_metrics.get('Q0', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # Combined Q0_inverse
-            #     val = combined_metrics.get('Q0_inverse', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # Combined Q0_symmetric
-            #     val = combined_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # Combined Q0_harmonic
-            #     val = combined_metrics.get('Q0_harmonic', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # Combined Q0_D64_symmetric
-            #     val = combined_metrics.get('Q0_D64_symmetric', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # DeepJoin (combined)
-            #     val = combined_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     # Pexeso (combined)
-            #     val = combined_metrics.get('pexeso', {}).get(mkey, {}).get(k)
-            #     row.append(f"{val:.3f}" if val is not None else "")
-            #     print(",".join(row))
+        if ablation:
+            if ablation_study == 'similarity_method':
+                cols = [f"SemSketch ({name} - chamfer)", f"SemSketch ({name} - inverse chamfer)", f"SemSketch ({name} - average chamfer)", f"SemSketch ({name} - harmonic mean chamfer)",
+                        f"SemSketch ({name}+WDC - chamfer)", f"SemSketch ({name}+WDC - inverse chamfer)", f"SemSketch ({name}+WDC - average chamfer)", f"SemSketch ({name}+WDC - harmonic mean chamfer)"]
+                print("K," + ",".join(cols))
+                for k in k_values:
+                    row = [str(k)]
+                    # Base Q0
+                    val = base_metrics.get('Q0', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Base Q0_inverse
+                    val = base_metrics.get('Q0_inverse', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Base Q0_symmetric
+                    val = base_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Base Q0_harmonic
+                    val = base_metrics.get('Q0_harmonic', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0
+                    val = combined_metrics.get('Q0', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0_inverse
+                    val = combined_metrics.get('Q0_inverse', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0_symmetric
+                    val = combined_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0_harmonic
+                    val = combined_metrics.get('Q0_harmonic', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    print(",".join(row))
+            if ablation_study == 'd_sketch_size':
+                cols = [f"SemSketch ({name} - |D|=128)", f"SemSketch ({name} - |D|=64)", f"SemSketch ({name} - |D|=32)"
+                        f"SemSketch ({name}+WDC - |D|=128)", f"SemSketch ({name}+WDC - |D|=64)", f"SemSketch ({name}+WDC - |D|=32)"]
+                print("K," + ",".join(cols))
+                for k in k_values:
+                    row = [str(k)]
+                    # Base Q0
+                    val = base_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Base Q0_D64
+                    val = base_metrics.get('Q0_D64', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Base Q0_D32
+                    val = base_metrics.get('Q0_D32', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0
+                    val = combined_metrics.get('Q0_symmetric', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0_D64
+                    val = combined_metrics.get('Q0_D64', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    # Combined Q0_D32
+                    val = combined_metrics.get('Q0_D32', {}).get(mkey, {}).get(k)
+                    row.append(f"{val:.3f}" if val is not None else "")
+                    print(",".join(row))
         else:
-            cols = [f"SemSketch ({name})", f"SemSketch ({name} - no |Q|)", 
-                f"SemSketch ({name}+WDC)", f"SemSketch ({name}+WDC - no |Q|)", f"DeepJoin ({name})"
-                , f"DeepJoin ({name} + WDC)", f"Pexeso ({name})", f"Pexeso ({name} + WDC)"]
+            cols = [f"SemSketch ({name})", f"SemSketch ({name}+WDC)", f"DeepJoin ({name})"
+                    , f"DeepJoin ({name} + WDC)", f"Pexeso ({name})", f"Pexeso ({name} + WDC)", f"Snoopy ({name})", f"Snoopy ({name} + WDC)"]
             print("K," + ",".join(cols))
             for k in k_values:
                 row = [str(k)]
-                # Base Q128
-                val = base_metrics.get('Q128', {}).get(mkey, {}).get(k)
+                # Base Q0_D64
+                val = base_metrics.get('Q0_D64', {}).get(mkey, {}).get(k)
                 row.append(f"{val:.3f}" if val is not None else "")
-                # Base Q0
-                val = base_metrics.get('Q0', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Combined Q128
-                val = combined_metrics.get('Q128', {}).get(mkey, {}).get(k)
-                row.append(f"{val:.3f}" if val is not None else "")
-                # Combined Q0
-                val = combined_metrics.get('Q0', {}).get(mkey, {}).get(k)
+                # Combined Q0_D64
+                val = combined_metrics.get('Q0_D64', {}).get(mkey, {}).get(k)
                 row.append(f"{val:.3f}" if val is not None else "")
                 # DeepJoin (base)
                 val = base_metrics.get('deepjoin', {}).get(mkey, {}).get(k)
@@ -400,6 +410,12 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                 row.append(f"{val:.3f}" if val is not None else "")
                 # Pexeso (combined)
                 val = combined_metrics.get('pexeso', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Snoopy (base)
+                val = base_metrics.get('snoopy', {}).get(mkey, {}).get(k)
+                row.append(f"{val:.3f}" if val is not None else "")
+                # Snoopy (combined)
+                val = combined_metrics.get('snoopy', {}).get(mkey, {}).get(k)
                 row.append(f"{val:.3f}" if val is not None else "")
                 print(",".join(row))
 
@@ -476,7 +492,7 @@ def run_combined_experiments(args):
             combined_metrics[variant] = metrics
         
         # Print combined table
-        print_combined_table(exp_name, base_metrics, combined_metrics, args.k_values, args.metrics)
+        print_combined_table(exp_name, base_metrics, combined_metrics, args.k_values, args.metrics, ablation=args.ablation)
     
     return 0
 
@@ -493,6 +509,7 @@ def main():
     parser.add_argument('--metrics', nargs='+', choices=['HITS', 'Precision', 'Recall', 'NDCG', 'MRR'],
                        default=['HITS', 'Precision', 'Recall', 'NDCG', 'MRR'])
     parser.add_argument('--base-path', type=str, default='.')
+    parser.add_argument('--ablation', action='store_true', help='Run ablation studies')
     
     # Single mode args
     parser.add_argument('--results', type=str, help='Results CSV file')

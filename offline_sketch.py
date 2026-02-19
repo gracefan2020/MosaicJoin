@@ -31,7 +31,8 @@ class SketchConfig:
     selection_method: str = "k_closest"  # "k_closest", "farthest_point", "centroid_distance"
     skip_empty_columns: bool = True
     output_dir: str = "offline_sketches"
-    save_metadata: bool = True
+    save_metadata: bool = False  # Disabled by default to save disk space
+    save_representative_names: bool = False  # Disabled by default - saves significant disk space
 
 
 @dataclass
@@ -299,7 +300,7 @@ class OfflineSketchBuilder:
             idx_sorted, _ = self._k_closest_to_origin(embeddings, k)
         
         representative_vectors = embeddings[idx_sorted]
-        representative_ids = list(range(len(idx_sorted)))
+        representative_ids = idx_sorted.tolist()  # Store actual indices for on-demand value loading
         distances_to_origin = np.linalg.norm(representative_vectors, axis=1)
         
         representative_names = None
@@ -336,15 +337,18 @@ class OfflineSketchBuilder:
             table_dir.mkdir(exist_ok=True)
             
             sketch_file = table_dir / f"{column_name}_{column_index}.pkl"
+            # Minimal sketch data - distances_to_origin can be recomputed from vectors
             sketch_data = {
                 'representative_vectors': sketch.representative_vectors,
                 'representative_ids': sketch.representative_ids,
-                'distances_to_origin': sketch.distances_to_origin,
                 'embedding_dim': sketch.embedding_dim,
                 'k': sketch.k,
                 'centroid': sketch.centroid,
-                'representative_names': sketch.representative_names
             }
+            # Only save representative_names if explicitly enabled (uses significant disk space)
+            if self.config.save_representative_names and sketch.representative_names is not None:
+                sketch_data['representative_names'] = sketch.representative_names
+            
             with open(sketch_file, 'wb') as f:
                 pickle.dump(sketch_data, f)
             
@@ -373,10 +377,18 @@ def load_offline_sketch(table_name: str, column_name: str, column_index: int,
         with open(sketch_file, 'rb') as f:
             data = pickle.load(f)
         
+        representative_vectors = data["representative_vectors"]
+        # Compute distances_to_origin on-demand if not stored (saves disk space)
+        distances_to_origin = data.get("distances_to_origin")
+        if distances_to_origin is None and len(representative_vectors) > 0:
+            distances_to_origin = np.linalg.norm(representative_vectors, axis=1)
+        elif distances_to_origin is None:
+            distances_to_origin = np.zeros(0)
+        
         return SemanticSketch(
-            representative_vectors=data["representative_vectors"],
+            representative_vectors=representative_vectors,
             representative_ids=data["representative_ids"],
-            distances_to_origin=data["distances_to_origin"],
+            distances_to_origin=distances_to_origin,
             embedding_dim=data["embedding_dim"],
             k=data["k"],
             centroid=data["centroid"],
@@ -602,9 +614,7 @@ class ConsolidatedSketchStore:
                     'end_row': end_row,
                     'k': k,
                     'embedding_dim': embedding_dim,
-                    'centroid_idx': centroid_idx,
-                    'distances_to_origin': data.get('distances_to_origin', np.linalg.norm(vectors, axis=1)).tolist(),
-                    'representative_names': data.get('representative_names', None)
+                    'centroid_idx': centroid_idx
                 }
                 
                 current_row = end_row
@@ -664,6 +674,10 @@ def main():
                               help="Sketch selection method")
     build_parser.add_argument("--save-metadata", action="store_true", default=True,
                               help="Save metadata for each sketch")
+    build_parser.add_argument("--save-representative-names", action="store_true", default=False,
+                              help="Save representative names for each sketch")
+    build_parser.add_argument("--datalake-dir", type=str, default=None,
+                              help="Path to datalake directory")
     
     # Consolidate command (new functionality)
     consolidate_parser = subparsers.add_parser('consolidate', 
@@ -674,6 +688,8 @@ def main():
                                     help="Output directory for consolidated files (default: same as sketches_dir)")
     consolidate_parser.add_argument("--sketch-size", type=int,
                                     help="Truncate/pad all sketches to this size for uniform matrix")
+    consolidate_parser.add_argument("--remove-originals", action="store_true",
+                                    help="Remove original sketch folders after consolidation to save disk space")
     
     args = parser.parse_args()
     
@@ -694,12 +710,17 @@ def main():
                                 help="Sketch selection method")
             parser.add_argument("--save-metadata", action="store_true", default=True,
                                 help="Save metadata for each sketch")
+            parser.add_argument("--save-representative-names", action="store_true", default=False,
+                                help="Save representative names for each sketch")
+            parser.add_argument("--datalake-dir", type=str, default=None,
+                                help="Path to datalake directory")
             args = parser.parse_args()
         
         config = SketchConfig(
             sketch_size=args.sketch_size,
             selection_method=args.selection_method,
             save_metadata=args.save_metadata,
+            save_representative_names=getattr(args, 'save_representative_names', False),
             output_dir=args.output_dir
         )
         
@@ -710,12 +731,15 @@ def main():
             print(f"Error: Embeddings directory {embeddings_path} does not exist")
             return 1
         
-        stats = builder.build_sketches_for_embeddings(embeddings_path, args.tables)
+        datalake_path = Path(args.datalake_dir) if args.datalake_dir else None
+        stats = builder.build_sketches_for_embeddings(embeddings_path, args.tables, datalake_path)
         
         print(f"\nCompleted! Processed {stats.processed_columns} columns")
         print(f"Sketches saved to: {args.output_dir}")
         
     elif args.command == 'consolidate':
+        import shutil
+        
         sketches_dir = Path(args.sketches_dir)
         output_dir = Path(args.output_dir) if args.output_dir else sketches_dir
         
@@ -734,6 +758,30 @@ def main():
         
         print(f"\nConsolidation complete!")
         print(f"To use the consolidated store, the query processor will automatically detect it.")
+        
+        # Remove original sketch folders to save disk space
+        print(f"\nRemoving original sketch folders to save disk space...")
+        removed_count = 0
+        removed_bytes = 0
+        for table_dir in sketches_dir.iterdir():
+            if not table_dir.is_dir():
+                continue
+            # Skip the consolidated files themselves
+            if table_dir.name in ("sketches_consolidated.npy", "sketches_index.pkl", "sketches_centroids.npy"):
+                continue
+            # Calculate size before removal
+            for f in table_dir.rglob("*"):
+                if f.is_file():
+                    removed_bytes += f.stat().st_size
+            # Remove the directory
+            try:
+                shutil.rmtree(table_dir)
+                removed_count += 1
+            except Exception as e:
+                print(f"  Warning: Could not remove {table_dir}: {e}")
+        
+        removed_mb = removed_bytes / (1024 * 1024)
+        print(f"Removed {removed_count} table folders, freed ~{removed_mb:.1f} MB")
     
     return 0
 

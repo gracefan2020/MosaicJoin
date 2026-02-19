@@ -104,7 +104,7 @@ if __name__ == "__main__":
     argparser.add_argument("--embedding_model", choices=["embeddinggemma", "mpnet"], default="embeddinggemma", type=str, required=False)
     argparser.add_argument("--d_sketch_size", type=int, default=128, required=False)
     argparser.add_argument("--sketch_size", type=int, default=0, required=False)
-    argparser.add_argument("--similarity_method", choices=["chamfer", "mean", "greedy_match", "top_k_mean", "max", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"], default="chamfer", type=str, required=False)
+    argparser.add_argument("--similarity_method", choices=["chamfer", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"], default="chamfer", type=str, required=False)
     argparser.add_argument("--top_k_return", type=int, default=50, required=False)
     argparser.add_argument("--embedding_dim", type=int, default=128, required=False)
     argparser.add_argument("--debug_matches", action="store_true", help="Print detailed match info for debugging")
