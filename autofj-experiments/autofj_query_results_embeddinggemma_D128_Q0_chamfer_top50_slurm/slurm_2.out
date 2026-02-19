@@ -1,4 +1,4 @@
-Loading query specifications from datasets/autofj_join_benchmark/autofj_query_columns.csv
+Loading query specifications from datasets/autofj/query_columns.csv
 Found 50 query specifications
 Processing 10 specified queries
 
@@ -44,14 +44,14 @@ Combined results saved to: autofj-experiments/autofj_query_results_embeddinggemm
 Total queries: 10
 Successful queries: 10
 Failed queries: 0
-Total processing time: 10.66s
-Total query time (embedding + search): 10.66s
-  - Query embedding time: 9.85s
-  - Semantic search time: 0.81s
+Total processing time: 10.88s
+Total query time (embedding + search): 10.88s
+  - Query embedding time: 10.05s
+  - Semantic search time: 0.82s
 Total candidates found: 500
-Average time per query (embedding + search): 1.0660s
-  - Avg embedding time per query: 0.9853s
-  - Avg search time per query: 0.0807s
+Average time per query (embedding + search): 1.0875s
+  - Avg embedding time per query: 1.0054s
+  - Avg search time per query: 0.0821s
 Average candidates per query: 50.00
 
 Query processing completed!

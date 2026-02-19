@@ -1,0 +1,9 @@
+metric,value_seconds
+datalake_columns,100
+query_columns,50
+datalake_embedding_time,6.5527
+query_embedding_time,0.0308
+search_time,0.1926
+avg_total_time_per_query,0.0045
+avg_embedding_time_per_query,0.0006
+avg_search_time_per_query,0.0039

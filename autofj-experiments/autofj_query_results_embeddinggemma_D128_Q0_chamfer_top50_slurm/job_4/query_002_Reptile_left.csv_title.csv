@@ -1,5 +1,4 @@
 candidate_table,candidate_column,similarity_score
-Reptile_left,title,0.6622268557548523
 Reptile_right,title,0.632089376449585
 Amphibian_right,title,0.5517366528511047
 Amphibian_left,title,0.5324860215187073
@@ -49,3 +48,4 @@ GivenName_right,title,0.42772912979125977
 Venue_right,title,0.42768722772598267
 GovernmentAgency_left,title,0.42690518498420715
 SoccerLeague_left,title,0.42684558033943176
+MemberOfParliament_right,title,0.4253780245780945

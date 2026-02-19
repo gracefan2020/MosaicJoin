@@ -1,5 +1,4 @@
 candidate_table,candidate_column,similarity_score
-TennisTournament_left,title,0.7072222828865051
 Tournament_left,title,0.5638934373855591
 Tournament_right,title,0.5627075433731079
 TennisTournament_right,title,0.5492344498634338
@@ -49,3 +48,4 @@ Song_left,title,0.4331379532814026
 SportFacility_left,id,0.432611346244812
 Hospital_left,id,0.43212929368019104
 Venue_left,title,0.4311728775501251
+ArtificialSatellite_left,title,0.4309068024158478

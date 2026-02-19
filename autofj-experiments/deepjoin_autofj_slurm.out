@@ -1,0 +1,33 @@
+==============================================
+DeepJoin Inference: autofj
+==============================================
+Start time: Thu Feb 12 09:57:55 PM EST 2026
+Node: gl049
+GPU: 0
+
+Using device: cuda:0
+GPU: NVIDIA L40S
+Encoding 100 datalake columns...
+  Datalake embedding time: 6.5527s
+Encoding 50 query columns...
+  Query embedding time: 0.0308s
+Searching top-50 candidates...
+  Search time: 0.1926s
+
+============================================================
+TIMING STATISTICS
+============================================================
+  Datalake columns: 100
+  Query columns: 50
+  Datalake embedding time: 6.5527s
+  Query embedding time: 0.0308s
+  Search time: 0.1926s
+
+  Average time per query (embedding + search): 0.0045s
+    - Avg embedding time per query: 0.0006s
+    - Avg search time per query: 0.0039s
+============================================================
+📊 Runtime stats saved to autofj-experiments/deepjoin_autofj_runtime_stats.csv
+
+End time: Thu Feb 12 09:58:50 PM EST 2026
+==============================================

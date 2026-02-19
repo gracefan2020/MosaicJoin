@@ -1,0 +1,60 @@
+Loading query specifications from datasets/autofj/query_columns.csv
+Found 50 query specifications
+Processing 10 specified queries
+
+Processing 10 queries with similarity_method=symmetric_chamfer...
+Processing query 1/10: Monarch_left.csv.title
+  Loaded 2033 values
+Device selected: cuda
+Embedding model: embeddinggemma
+EmbeddingGemma output dimension: 128
+EmbeddingGemma initialized with output_dim=128
+  Found 50 similar columns
+Processing query 2/10: NationalFootballLeagueSeason_left.csv.title
+  Loaded 3003 values
+  Found 50 similar columns
+Processing query 3/10: Race_left.csv.title
+  Loaded 2382 values
+  Found 50 similar columns
+Processing query 4/10: ClericalAdministrativeRegion_left.csv.title
+  Loaded 2547 values
+  Found 50 similar columns
+Processing query 5/10: Museum_left.csv.title
+  Loaded 3982 values
+  Found 50 similar columns
+Processing query 6/10: Election_left.csv.title
+  Loaded 6565 values
+  Found 50 similar columns
+Processing query 7/10: NCAATeamSeason_left.csv.title
+  Loaded 5619 values
+  Found 50 similar columns
+Processing query 8/10: Case_left.csv.title
+  Loaded 2474 values
+  Found 50 similar columns
+Processing query 9/10: Device_left.csv.title
+  Loaded 6933 values
+  Found 50 similar columns
+Processing query 10/10: Venue_left.csv.title
+  Loaded 4079 values
+  Found 50 similar columns
+
+Combined results saved to: autofj-experiments/autofj_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/job_3/all_query_results.csv
+
+=== QUERY PROCESSING STATISTICS ===
+Total queries: 10
+Successful queries: 10
+Failed queries: 0
+Total processing time: 10.77s
+Total query time (embedding + search): 10.77s
+  - Query embedding time: 10.04s
+  - Semantic search time: 0.73s
+Total candidates found: 500
+Average time per query (embedding + search): 1.0766s
+  - Avg embedding time per query: 1.0040s
+  - Avg search time per query: 0.0726s
+Average candidates per query: 50.00
+
+Query processing completed!
+Successful queries: 10/10
+Total results: 500
+Results saved to: autofj-experiments/autofj_query_results_embeddinggemma_D32_Q0_symmetric_chamfer_top50_slurm/job_3
