@@ -9,6 +9,7 @@ Workflow:
    pairs across methods per benchmark.
 5. Optionally apply lexical filtering on sampled unique values.
 6. Export annotation-ready CSVs with sampled unique values (64 by default).
+To run: python prune_wdc_top_k_for_annotation.py   --benchmarks wt-wdc   --lexical-filter   --lexical-threshold 0.9 --top-k 10
 """
 
 from __future__ import annotations
@@ -27,7 +28,7 @@ except Exception:
     rapidfuzz_fuzz = None
 
 
-TOPK_FILE_RE = re.compile(r"^(?P<method>.+?)_ft_(?P<benchmark>.+)\.csv$")
+TOPK_FILE_RE = re.compile(r"^(?P<method>.+?)_(?:ft|D64_avg_chamfer)_(?P<benchmark>.+)\.csv$")
 TOKEN_RE = re.compile(r"[a-z0-9]+")
 
 
