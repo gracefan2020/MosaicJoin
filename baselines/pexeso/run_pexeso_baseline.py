@@ -16,6 +16,7 @@ import pickle
 import time
 import urllib.request
 import zipfile
+import zlib
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
@@ -193,8 +194,8 @@ class InvertedIndex:
 class Pair:
     q_point: np.ndarray
     q_embedding: np.ndarray
-    candidate_grids: Set[Grid]
-    matched_grids: Set[Grid]
+    candidate_grids: List[Grid]
+    matched_grids: List[Grid]
 
 
 @dataclass
@@ -217,14 +218,14 @@ def _add_pair(
         pair = Pair(
             q_point=q_point,
             q_embedding=q_embedding,
-            candidate_grids=set(),
-            matched_grids=set(),
+            candidate_grids=[],
+            matched_grids=[],
         )
         pairs[q_id] = pair
     if matched:
-        pair.matched_grids.add(grid)
+        pair.matched_grids.append(grid)
     else:
-        pair.candidate_grids.add(grid)
+        pair.candidate_grids.append(grid)
 
 
 def _add_pairs(
@@ -240,14 +241,14 @@ def _add_pairs(
         pair = Pair(
             q_point=q_point,
             q_embedding=q_embedding,
-            candidate_grids=set(),
-            matched_grids=set(),
+            candidate_grids=[],
+            matched_grids=[],
         )
         pairs[q_id] = pair
     if matched:
-        pair.matched_grids.update(grids)
+        pair.matched_grids.extend(grids)
     else:
-        pair.candidate_grids.update(grids)
+        pair.candidate_grids.extend(grids)
 
 
 def _filter_point_grid(query: np.ndarray, grid: Grid, tau: float) -> bool:
@@ -309,27 +310,21 @@ def verify(
     query_size: int,
     time_threshold: float,
     gpu_runtime: Optional[QueryGpuRuntime] = None,
+    prune_multiplier: float = 2.0,
 ) -> Tuple[List[int], List[int], bool]:
     start = time.perf_counter()
     over_time = False
 
     match_count = [0] * len(index_sets)
     mismatch_count = [0] * len(index_sets)
-    matched_qids: List[Set[int]] = [set() for _ in index_sets]
-    mismatched_qids: List[Set[int]] = [set() for _ in index_sets]
 
-    for q_id, pair in pairs.items():
+    # Original PEXESO behavior: every M-grid hit contributes directly.
+    for pair in pairs.values():
         for grid in pair.matched_grids:
             for col in inverted_index.search(grid):
-                if q_id in matched_qids[col]:
-                    continue
-                matched_qids[col].add(q_id)
-                if q_id in mismatched_qids[col]:
-                    mismatched_qids[col].remove(q_id)
-                    mismatch_count[col] -= 1
                 match_count[col] += 1
 
-    for q_id, pair in pairs.items():
+    for pair in pairs.values():
         if over_time:
             break
         q_point_t = None
@@ -341,59 +336,128 @@ def verify(
                 device=gpu_runtime.device,
                 dtype=torch.float32,
             )
-        grid_cols: List[Tuple[Grid, Set[int]]] = []
-        candidate_cols: Set[int] = set()
         for grid in pair.candidate_grids:
-            cols = inverted_index.search(grid)
-            if not cols:
-                continue
-            grid_cols.append((grid, cols))
-            candidate_cols.update(cols)
-
-        for col in candidate_cols:
             if time.perf_counter() - start > time_threshold:
                 over_time = True
                 break
-            if q_id in matched_qids[col] or q_id in mismatched_qids[col]:
+            cols = inverted_index.search(grid)
+            if not cols:
                 continue
-            # Lemma 7: if even the best-case remaining matches cannot reach
-            # threshold, this column can be pruned for current verification.
-            if query_size - mismatch_count[col] < threshold_count:
-                continue
-
-            is_match = False
-            for grid, cols in grid_cols:
+            for col in cols:
                 if time.perf_counter() - start > time_threshold:
                     over_time = True
                     break
-                if col not in cols:
+
+                # Lemma 7 pruning (paper code uses T*2 in filter7).
+                if query_size - mismatch_count[col] < (prune_multiplier * threshold_count):
                     continue
-                if _grid_col_match_fast(
+
+                idx = inverted_index.local_indices(grid, col)
+                if idx.size == 0:
+                    continue
+                if match_count[col] >= threshold_count:
+                    continue
+
+                point_match = _grid_col_match_mask(
                     grid=grid,
-                    col=col,
                     query_point=pair.q_point,
                     query_embedding=pair.q_embedding,
                     tau=tau,
-                    inverted_index=inverted_index,
+                    local_indices=idx,
                     query_point_t=q_point_t,
                     query_embedding_t=q_embedding_t,
                     gpu_runtime=gpu_runtime,
-                ):
-                    is_match = True
-                if over_time or is_match:
-                    break
+                )
+
+                if point_match.size == 0:
+                    continue
+                needed = float(threshold_count - match_count[col])
+                if needed <= 0:
+                    continue
+
+                point_match_i = point_match.astype(np.int32, copy=False)
+                cum_match = np.cumsum(point_match_i, dtype=np.int64)
+                if cum_match[-1] >= needed:
+                    prefix_len = int(np.argmax(cum_match >= needed)) + 1
+                else:
+                    prefix_len = int(point_match.size)
+
+                if prefix_len <= 0:
+                    continue
+                added_match = int(cum_match[prefix_len - 1])
+                added_total = int(prefix_len)
+                added_mismatch = added_total - added_match
+                match_count[col] += added_match
+                mismatch_count[col] += added_mismatch
 
             if over_time:
                 break
-            if is_match:
-                matched_qids[col].add(q_id)
-                match_count[col] += 1
-            else:
-                mismatched_qids[col].add(q_id)
-                mismatch_count[col] += 1
 
     result = [idx for idx, cnt in enumerate(match_count) if cnt >= threshold_count]
     return result, match_count, over_time
+
+
+def _grid_col_match_mask(
+    grid: Grid,
+    query_point: np.ndarray,
+    query_embedding: np.ndarray,
+    tau: float,
+    local_indices: np.ndarray,
+    query_point_t: Optional[torch.Tensor] = None,
+    query_embedding_t: Optional[torch.Tensor] = None,
+    gpu_runtime: Optional[QueryGpuRuntime] = None,
+) -> np.ndarray:
+    if local_indices.size == 0:
+        return np.empty((0,), dtype=np.bool_)
+
+    assert grid.vector_arr is not None
+    assert grid.embeddings_arr is not None
+
+    if gpu_runtime is not None and query_point_t is not None and query_embedding_t is not None:
+        points_t, embs_t = _grid_cuda_tensors(grid, gpu_runtime)
+        idx_t = torch.as_tensor(local_indices, device=gpu_runtime.device, dtype=torch.int64)
+        points = torch.index_select(points_t, 0, idx_t)
+
+        axis_ok = torch.all(torch.abs(points - query_point_t.unsqueeze(0)) <= tau, dim=1)
+        out = torch.zeros((int(local_indices.size),), device=gpu_runtime.device, dtype=torch.bool)
+        if bool(torch.any(axis_ok).item()):
+            axis_idx = torch.nonzero(axis_ok, as_tuple=False).squeeze(1)
+            axis_points = points[axis_idx]
+            guaranteed = torch.any(axis_points + query_point_t.unsqueeze(0) <= tau, dim=1)
+            if bool(torch.any(guaranteed).item()):
+                out[axis_idx[guaranteed]] = True
+
+            remaining = axis_idx[~guaranteed]
+            if int(remaining.numel()) > 0:
+                rem_idx = idx_t[remaining]
+                embs = torch.index_select(embs_t, 0, rem_idx)
+                diff = embs - query_embedding_t.unsqueeze(0)
+                dist2 = torch.sum(diff * diff, dim=1)
+                out[remaining[dist2 <= float(tau * tau)]] = True
+        return out.detach().cpu().numpy()
+
+    points = grid.vector_arr[local_indices]
+    axis_ok = np.all(np.abs(points - query_point[None, :]) <= tau, axis=1)
+    out = np.zeros((int(local_indices.size),), dtype=np.bool_)
+    if not np.any(axis_ok):
+        return out
+
+    axis_idx = np.where(axis_ok)[0]
+    axis_points = points[axis_ok]
+    guaranteed = np.any(axis_points + query_point[None, :] <= tau, axis=1)
+    if np.any(guaranteed):
+        out[axis_idx[guaranteed]] = True
+
+    remaining = axis_idx[~guaranteed]
+    if remaining.size == 0:
+        return out
+
+    rem_local = local_indices[remaining]
+    embs = grid.embeddings_arr[rem_local]
+    diff = embs - query_embedding[None, :]
+    dist2 = np.sum(diff * diff, axis=1, dtype=np.float32)
+    out[remaining[dist2 <= float(tau * tau)]] = True
+    return out
 
 
 def _grid_cuda_tensors(
@@ -934,6 +998,26 @@ def _normalize_text(value: str) -> str:
     return (value or "").strip().lower()
 
 
+def _sample_unique_values(
+    values: Set[str],
+    max_unique_values: int,
+    seed: int,
+    key: str,
+) -> Tuple[Set[str], int]:
+    cap = int(max(0, max_unique_values))
+    original_size = len(values)
+    if cap == 0 or original_size <= cap:
+        return values, original_size
+
+    value_list = sorted(values)
+    key_salt = zlib.crc32(key.encode("utf-8")) & 0xFFFFFFFF
+    local_seed = (int(seed) + key_salt) % (2 ** 32)
+    rng = np.random.default_rng(local_seed)
+    selected_idx = rng.choice(original_size, size=cap, replace=False)
+    sampled = {value_list[int(i)] for i in selected_idx.tolist()}
+    return sampled, original_size
+
+
 def _has_csv_files(path: Path) -> bool:
     if not path.is_dir():
         return False
@@ -963,6 +1047,11 @@ def _canonical_column_name(fieldnames: Sequence[str], target: str) -> Optional[s
 def _read_columns(
     csv_path: Path,
     selected_columns: Sequence[str],
+    *,
+    max_unique_values: int = 0,
+    sample_seed: int = 0,
+    sample_scope: str = "",
+    log_sampling: bool = False,
 ) -> Dict[str, Set[str]]:
     values: Dict[str, Set[str]] = {col: set() for col in selected_columns}
     with csv_path.open("r", encoding="utf-8", errors="replace", newline="") as f:
@@ -975,6 +1064,27 @@ def _read_columns(
                 norm = _normalize_text(raw)
                 if norm:
                     values[col].add(norm)
+
+    if int(max_unique_values) > 0:
+        for col in selected_columns:
+            scope = sample_scope or "column"
+            sampled, original_size = _sample_unique_values(
+                values[col],
+                max_unique_values=max_unique_values,
+                seed=sample_seed,
+                key=f"{scope}|{csv_path}|{col}",
+            )
+            if original_size > len(sampled):
+                log_fn = LOGGER.info if log_sampling else LOGGER.debug
+                log_fn(
+                    "sampled unique values for %s.%s [%s]: %s -> %s",
+                    csv_path.name,
+                    col,
+                    scope,
+                    original_size,
+                    len(sampled),
+                )
+            values[col] = sampled
     return values
 
 
@@ -1244,10 +1354,12 @@ def _build_index_payload(
     num_layers: int,
     seed: int,
     pivot_method: str,
+    max_unique_values_per_attr: int,
 ) -> Dict:
     LOGGER.info("Building PEXESO index from %s", datalake_dir)
     column_items: List[Tuple[str, str]] = []
     column_sets: List[Set[int]] = []
+    column_raw_values: List[Set[str]] = []
     value_to_id: Dict[str, int] = {}
     value_embeddings: List[np.ndarray] = []
 
@@ -1257,10 +1369,18 @@ def _build_index_payload(
         selected_cols = _discover_selected_columns(csv_path, column_name)
         if not selected_cols:
             continue
-        values_by_col = _read_columns(csv_path, selected_cols)
+        values_by_col = _read_columns(
+            csv_path,
+            selected_cols,
+            max_unique_values=max_unique_values_per_attr,
+            sample_seed=seed,
+            sample_scope="index",
+            log_sampling=False,
+        )
         for col in selected_cols:
             ids: Set[int] = set()
-            values = list(values_by_col.get(col, set()))
+            raw_values = set(values_by_col.get(col, set()))
+            values = list(raw_values)
             if not values:
                 continue
             embeddings = embedder.embed_values(values)
@@ -1276,6 +1396,7 @@ def _build_index_payload(
             if ids:
                 column_items.append((csv_path.name, col))
                 column_sets.append(ids)
+                column_raw_values.append(raw_values)
         if (idx + 1) % 500 == 0 or idx + 1 == len(csv_files):
             LOGGER.info("indexed %s/%s tables", idx + 1, len(csv_files))
 
@@ -1332,9 +1453,11 @@ def _build_index_payload(
             "pivot_method": pivot_method,
             "column_name": column_name,
             "seed": seed,
+            "max_index_unique_values": int(max_unique_values_per_attr),
         },
         "column_items": column_items,
         "column_sets": column_sets,
+        "column_raw_values": column_raw_values,
         "value_to_id": value_to_id,
         "embedding_matrix": embedding_matrix,
         "pivots": pivots,
@@ -1347,21 +1470,33 @@ def _build_index_payload(
     }
 
 
-def _load_query_values(csv_path: Path, query_column: str) -> Tuple[Optional[str], List[str]]:
+def _load_query_values(
+    csv_path: Path,
+    query_column: str,
+    max_unique_values_per_attr: int,
+    seed: int,
+) -> Tuple[Optional[str], List[str]]:
     selected_cols = _discover_selected_columns(csv_path, query_column)
     if not selected_cols:
         return None, []
     canonical = selected_cols[0]
-    values_by_col = _read_columns(csv_path, [canonical])
+    values_by_col = _read_columns(
+        csv_path,
+        [canonical],
+        max_unique_values=max_unique_values_per_attr,
+        sample_seed=seed,
+        sample_scope="query",
+        log_sampling=True,
+    )
     values = sorted(values_by_col.get(canonical, set()))
     return canonical, values
 
 
-def _containment_score(query_ids: Set[int], candidate_ids: Set[int]) -> float:
-    if not query_ids:
+def _containment_score(query_values: Set[str], candidate_values: Set[str]) -> float:
+    if not query_values:
         return 0.0
-    inter = len(query_ids.intersection(candidate_ids))
-    return float(inter) / float(len(query_ids))
+    inter = len(query_values.intersection(candidate_values))
+    return float(inter) / float(len(query_values))
 
 
 def run_baseline(args: argparse.Namespace) -> int:
@@ -1380,6 +1515,18 @@ def run_baseline(args: argparse.Namespace) -> int:
     LOGGER.info("dataset_dir=%s", dataset_dir)
     LOGGER.info("datalake_dir=%s", datalake_dir)
 
+    global_max_unique_values = max(0, int(args.max_unique_values))
+    max_index_unique_values = (
+        int(args.max_index_unique_values)
+        if int(args.max_index_unique_values) > 0
+        else global_max_unique_values
+    )
+    max_query_unique_values = (
+        int(args.max_query_unique_values)
+        if int(args.max_query_unique_values) > 0
+        else global_max_unique_values
+    )
+
     query_source = Path(args.query_source) if args.query_source else None
     query_specs, query_source_desc = _discover_query_specs(
         dataset_dir=dataset_dir,
@@ -1393,7 +1540,8 @@ def run_baseline(args: argparse.Namespace) -> int:
     LOGGER.info(
         "run config: embedding_mode=%s, column_name=%s, tau=%s, "
         "containment_threshold=%s, num_pivots=%s, num_layers=%s, "
-        "time_threshold=%s, top_k=%s",
+        "time_threshold=%s, top_k=%s, score_mode=%s, prune_multiplier=%s, "
+        "max_index_unique_values=%s, max_query_unique_values=%s",
         args.embedding_mode,
         args.column_name,
         args.tau,
@@ -1402,6 +1550,10 @@ def run_baseline(args: argparse.Namespace) -> int:
         args.num_layers,
         args.time_threshold,
         args.top_k,
+        args.score_mode,
+        args.prune_multiplier,
+        max_index_unique_values,
+        max_query_unique_values,
     )
 
     embedding_pickle = Path(args.embedding_pickle) if args.embedding_pickle else None
@@ -1477,6 +1629,7 @@ def run_baseline(args: argparse.Namespace) -> int:
             "pivot_method": args.pivot_method,
             "column_name": args.column_name,
             "seed": args.seed,
+            "max_index_unique_values": int(max_index_unique_values),
         }
         if not isinstance(meta, dict):
             LOGGER.warning("index cache missing metadata; rebuilding to avoid mismatched embeddings")
@@ -1499,6 +1652,7 @@ def run_baseline(args: argparse.Namespace) -> int:
             num_layers=args.num_layers,
             seed=args.seed,
             pivot_method=args.pivot_method,
+            max_unique_values_per_attr=max_index_unique_values,
         )
         offline_generation_seconds = time.perf_counter() - offline_start
         if args.index_cache:
@@ -1512,6 +1666,7 @@ def run_baseline(args: argparse.Namespace) -> int:
 
     column_items: List[Tuple[str, str]] = payload["column_items"]
     column_sets: List[Set[int]] = payload["column_sets"]
+    column_raw_values: Optional[List[Set[str]]] = payload.get("column_raw_values")
     value_to_id: Dict[str, int] = payload["value_to_id"]
     pivots: np.ndarray = payload["pivots"]
     x_min: float = payload["x_min"]
@@ -1520,6 +1675,11 @@ def run_baseline(args: argparse.Namespace) -> int:
     index_grid: HierarchicalGrid = payload["index_grid"]
     inverted_index: InvertedIndex = payload["inverted_index"]
     ensure_index_runtime_structures(index_grid, inverted_index, column_sets)
+    if column_raw_values is None:
+        id_to_value = {vid: val for val, vid in value_to_id.items()}
+        column_raw_values = []
+        for ids in column_sets:
+            column_raw_values.append({id_to_value[i] for i in ids if i in id_to_value})
 
     out_csv = Path(args.out_csv)
     out_csv.parent.mkdir(parents=True, exist_ok=True)
@@ -1544,10 +1704,16 @@ def run_baseline(args: argparse.Namespace) -> int:
         )
 
         for idx, spec in enumerate(query_specs):
-            canonical_col, query_values = _load_query_values(spec.csv_path, spec.query_column)
+            canonical_col, query_values = _load_query_values(
+                spec.csv_path,
+                spec.query_column,
+                max_unique_values_per_attr=max_query_unique_values,
+                seed=args.seed,
+            )
             if not query_values or canonical_col is None:
                 skipped += 1
                 continue
+            query_value_set = set(query_values)
 
             query_embeddings: List[np.ndarray] = []
             query_known_ids: Set[int] = set()
@@ -1604,7 +1770,8 @@ def run_baseline(args: argparse.Namespace) -> int:
                     t_block,
                 )
 
-            threshold_count = args.containment_threshold * len(query_embeddings)
+            # Paper-faithful threshold: T * |query raw distinct values|.
+            threshold_count = args.containment_threshold * len(query_values)
             t_verify_start = time.perf_counter()
             candidate_indices, match_count, over_time = verify(
                 pairs=pairs,
@@ -1612,9 +1779,11 @@ def run_baseline(args: argparse.Namespace) -> int:
                 tau=args.tau,
                 threshold_count=threshold_count,
                 index_sets=column_sets,
+                # Paper code's filter7 uses qlen=len(query_embs).
                 query_size=len(query_embeddings),
                 time_threshold=args.time_threshold,
                 gpu_runtime=query_gpu_runtime,
+                prune_multiplier=args.prune_multiplier,
             )
             t_verify = time.perf_counter() - t_verify_start
             total_verify_sec += t_verify
@@ -1644,9 +1813,18 @@ def run_baseline(args: argparse.Namespace) -> int:
                 cand_table, cand_col = column_items[col_idx]
                 if not args.include_same_table and cand_table == spec.query_table:
                     continue
-                overlap_score = _containment_score(query_known_ids, column_sets[col_idx])
-                pexeso_score = float(match_count[col_idx]) / float(max(1, len(query_embeddings)))
-                score = max(overlap_score, pexeso_score)
+                if column_raw_values is not None and col_idx < len(column_raw_values):
+                    containment = _containment_score(query_value_set, column_raw_values[col_idx])
+                else:
+                    # Fallback for old caches without raw value sets.
+                    cand_ids = {str(v) for v in column_sets[col_idx]}
+                    query_ids = {str(v) for v in query_known_ids}
+                    containment = _containment_score(query_ids, cand_ids)
+                if args.score_mode == "hybrid":
+                    pexeso_score = float(match_count[col_idx]) / float(max(1, len(query_embeddings)))
+                    score = max(containment, pexeso_score)
+                else:
+                    score = containment
                 scored.append((cand_table, cand_col, score))
             t_score = time.perf_counter() - t_score_start
             total_score_sec += t_score
@@ -1744,8 +1922,8 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Include candidates from the same table as query.",
     )
-    parser.add_argument("--num_pivots", type=int, default=8, help="Number of PEXESO pivots.")
-    parser.add_argument("--num_layers", type=int, default=6, help="Hierarchical grid depth.")
+    parser.add_argument("--num_pivots", type=int, default=3, help="Number of PEXESO pivots.")
+    parser.add_argument("--num_layers", type=int, default=4, help="Hierarchical grid depth.")
     parser.add_argument(
         "--pivot_method",
         choices=["lof", "farthest"],
@@ -1756,14 +1934,44 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--containment_threshold",
         type=float,
-        default=0.01,
+        default=0.4,
         help="Minimum matched-ratio threshold used in verification.",
     )
     parser.add_argument(
         "--time_threshold",
         type=float,
-        default=300,
+        default=30,
         help="Per-query verification timeout (seconds).",
+    )
+    parser.add_argument(
+        "--score_mode",
+        choices=["containment", "hybrid"],
+        default="containment",
+        help="Final ranking score mode (paper-faithful: containment).",
+    )
+    parser.add_argument(
+        "--prune_multiplier",
+        type=float,
+        default=2.0,
+        help="Lemma-7 pruning multiplier (paper-faithful: 2.0).",
+    )
+    parser.add_argument(
+        "--max_unique_values",
+        type=int,
+        default=0,
+        help="Global cap for unique values per attribute (0 disables sampling).",
+    )
+    parser.add_argument(
+        "--max_index_unique_values",
+        type=int,
+        default=0,
+        help="Index-time cap for unique values per attribute (overrides --max_unique_values when >0).",
+    )
+    parser.add_argument(
+        "--max_query_unique_values",
+        type=int,
+        default=0,
+        help="Query-time cap for unique values per attribute (overrides --max_unique_values when >0).",
     )
     parser.add_argument(
         "--embedding_mode",
