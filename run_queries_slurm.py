@@ -30,7 +30,7 @@ def paths_for_experiment(exp: str, embedding_model: str, embedding_dim: int,
                          d_sketch_size: int, query_sample_size: int,
                          similarity_method: str, top_k_return: int) -> dict:
     """Infer datalake, sketches, query file, output from experiment (same pattern as run_offline_sketch)."""
-    exp_dir = f"{exp}-experiments-2"
+    exp_dir = f"{exp}-experiments"
     return {
         "datalake_dir": Path(f"datasets/{exp}/datalake"),
         "query_file": Path(f"datasets/{exp}/query_columns.csv"),
