@@ -485,9 +485,9 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
 
         if ablation:
             if ablation_study == 'similarity_method':
-                # cols = [f"SemSketch ({name} - chamfer)", f"SemSketch ({name} - inverse chamfer)", f"SemSketch ({name} - average chamfer)", f"SemSketch ({name} - harmonic mean chamfer)",
-                        # f"SemSketch ({name}+WDC - chamfer)", f"SemSketch ({name}+WDC - inverse chamfer)", f"SemSketch ({name}+WDC - average chamfer)", f"SemSketch ({name}+WDC - harmonic mean chamfer)"]
-                cols = [f"SemSketch ({name} - chamfer)", f"SemSketch ({name} - inverse chamfer)", f"SemSketch ({name} - average chamfer)", f"SemSketch ({name} - harmonic mean chamfer)"]
+                # cols = [f"MosaicJoin ({name} - chamfer)", f"MosaicJoin ({name} - inverse chamfer)", f"MosaicJoin ({name} - average chamfer)", f"MosaicJoin ({name} - harmonic mean chamfer)",
+                        # f"MosaicJoin ({name}+WDC - chamfer)", f"MosaicJoin ({name}+WDC - inverse chamfer)", f"MosaicJoin ({name}+WDC - average chamfer)", f"MosaicJoin ({name}+WDC - harmonic mean chamfer)"]
+                cols = [f"MosaicJoin ({name} - chamfer)", f"MosaicJoin ({name} - inverse chamfer)", f"MosaicJoin ({name} - average chamfer)", f"MosaicJoin ({name} - harmonic mean chamfer)"]
 
                 print("K," + ",".join(cols))
                 for k in k_values:
@@ -518,7 +518,7 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                     # row.append(f"{val:.3f}" if val is not None else "")
                     print(",".join(row))
             elif ablation_study == 'embedding_model':
-                cols = [f"SemSketch (Gemma128)", f"SemSketch (Gemma256)", f"SemSketch (Gemma512)", f"SemSketch (Gemma768)", f"SemSketch (MPNet768)", f"SemSketch (BGe768)", f"SemSketch (BGe384)"]
+                cols = [f"MosaicJoin (Gemma128)", f"MosaicJoin (Gemma256)", f"MosaicJoin (Gemma512)", f"MosaicJoin (Gemma768)", f"MosaicJoin (MPNet768)", f"MosaicJoin (BGe768)", f"MosaicJoin (BGe384)"]
                 print("K," + ",".join(cols))
                 for k in k_values:
                     row = [str(k)]
@@ -538,7 +538,7 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                     row.append(f"{val:.3f}" if val is not None else "")
                     print(",".join(row))
             elif ablation_study == 'query_sample_size':
-                cols = [f"SemSketch"]
+                cols = [f"MosaicJoin"]
                 print("Sample Size," + ",".join(cols))
                 k = 10
                 print(f"Evaluating at K={k}")
@@ -552,8 +552,8 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                 row.append(f"{val:.3f}" if val is not None else "")
                 print(",".join(row))
             elif ablation_study == 'd_sketch_size':
-                cols = [f"SemSketch ({name} - |D|=128)", f"SemSketch ({name} - |D|=64)", f"SemSketch ({name} - |D|=32)", f"SemSketch ({name} - |D|=0)",
-                        f"SemSketch ({name}+WDC - |D|=128)", f"SemSketch ({name}+WDC - |D|=64)", f"SemSketch ({name}+WDC - |D|=32)"]
+                cols = [f"MosaicJoin ({name} - |D|=128)", f"MosaicJoin ({name} - |D|=64)", f"MosaicJoin ({name} - |D|=32)", f"MosaicJoin ({name} - |D|=0)",
+                        f"MosaicJoin ({name}+WDC - |D|=128)", f"MosaicJoin ({name}+WDC - |D|=64)", f"MosaicJoin ({name}+WDC - |D|=32)"]
                 print("K," + ",".join(cols))
                 for k in k_values:
                     row = [str(k)]
@@ -580,8 +580,8 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                     row.append(f"{val:.3f}" if val is not None else "")
                     print(",".join(row))
             elif ablation_study == 'selection_method':
-                # cols = [f"SemSketch ({name} - k-center)", f"SemSketch ({name} - origin)", f"SemSketch ({name} - random)"]
-                cols = [f"SemSketch ({name} - first-k)"]
+                # cols = [f"MosaicJoin ({name} - k-center)", f"MosaicJoin ({name} - origin)", f"MosaicJoin ({name} - random)"]
+                cols = [f"MosaicJoin ({name} - first-k)"]
 
                 print("K," + ",".join(cols))
                 for k in k_values:
@@ -603,14 +603,14 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                 # Use a specific K value for comparison (e.g., K=10 or first available)
                 target_k = 10 if 10 in k_values else k_values[0]
                 print(f"\n(Using K={target_k})")
-                cols = ["Bucket", "SemSketch", "SemSketch (no sketching)", "DeepJoin", "Snoopy", "PEXESO", "TabSketchFM"]
+                cols = ["Bucket", "MosaicJoin", "MosaicJoin (no sketching)", "DeepJoin", "Snoopy", "PEXESO", "TabSketchFM"]
                 print(",".join(cols))
                 for bucket in [1, 2, 3, 4, 5]:
                     row = [str(bucket)]
-                    # SemSketch with sketching (D64_bucket_X)
+                    # MosaicJoin with sketching (D64_bucket_X)
                     val = base_metrics.get(f'D64_bucket_{bucket}', {}).get(mkey, {}).get(target_k)
                     row.append(f"{val:.3f}" if val is not None else "")
-                    # SemSketch no sketching (D0_bucket_X)
+                    # MosaicJoin no sketching (D0_bucket_X)
                     val = base_metrics.get(f'D0_bucket_{bucket}', {}).get(mkey, {}).get(target_k)
                     row.append(f"{val:.3f}" if val is not None else "")
                     # DeepJoin (bucket-specific if available, otherwise empty)
@@ -627,7 +627,7 @@ def print_combined_table(name: str, base_metrics: Dict, combined_metrics: Dict, 
                     row.append(f"{val:.3f}" if val is not None else "")
                     print(",".join(row))
         else:
-            cols = [f"SemSketch ({name})",f"SemSketch ({name} - no sketching)", f"DeepJoin ({name})", f"Pexeso ({name})", f"Snoopy ({name})", f"TabSketchFM ({name})"]
+            cols = [f"MosaicJoin ({name})",f"MosaicJoin ({name} - no sketching)", f"DeepJoin ({name})", f"Pexeso ({name})", f"Snoopy ({name})", f"TabSketchFM ({name})"]
             print("K," + ",".join(cols))
             for k in k_values:
                 row = [str(k)]
@@ -665,8 +665,8 @@ LLM_ANNOTATION_CONFIG = {
 
         'gt': 'datasets/autofj-wdc/groundtruth-joinable.csv',
         'results': {
-            'semsketch': 'scripts/wdc_top_k/semsketch_D64_avg_chamfer_autofj-wdc.csv',
-            'semsketch_D0': 'scripts/wdc_top_k/semsketch_D0_autofj-wdc.csv',
+            'MosaicJoin': 'scripts/wdc_top_k/semsketch_D64_avg_chamfer_autofj-wdc.csv',
+            'MosaicJoin_D0': 'scripts/wdc_top_k/semsketch_D0_autofj-wdc.csv',
             'deepjoin': 'scripts/wdc_top_k/deepjoin_ft_autofj-wdc.csv',
             'snoopy': 'scripts/wdc_top_k/snoopy_ft_autofj-wdc.csv',
         },
@@ -680,8 +680,8 @@ LLM_ANNOTATION_CONFIG = {
 
         'gt': 'datasets/freyja-wdc/groundtruth-joinable.csv',
         'results': {
-            'semsketch': 'scripts/wdc_top_k/semsketch_D64_avg_chamfer_freyja-wdc.csv',
-            'semsketch_D0': 'scripts/wdc_top_k/semsketch_D0_freyja-wdc.csv',
+            'MosaicJoin': 'scripts/wdc_top_k/semsketch_D64_avg_chamfer_freyja-wdc.csv',
+            'MosaicJoin_D0': 'scripts/wdc_top_k/semsketch_D0_freyja-wdc.csv',
             'deepjoin': 'scripts/wdc_top_k/deepjoin_ft_freyja-wdc.csv',
             'snoopy': 'scripts/wdc_top_k/snoopy_ft_freyja-wdc.csv',
         },
@@ -694,8 +694,8 @@ LLM_ANNOTATION_CONFIG = {
 
         'gt': 'datasets/wt-wdc/groundtruth-joinable.csv',
         'results': {
-            'semsketch': 'scripts/wdc_top_k/semsketch_D64_avg_chamfer_wt-wdc.csv',
-            'semsketch_D0': 'scripts/wdc_top_k/semsketch_D0_wt-wdc.csv',
+            'MosaicJoin': 'scripts/wdc_top_k/semsketch_D64_avg_chamfer_wt-wdc.csv',
+            'MosaicJoin_D0': 'scripts/wdc_top_k/semsketch_D0_wt-wdc.csv',
             'deepjoin': 'scripts/wdc_top_k/deepjoin_ft_wt-wdc.csv',
             'snoopy': 'scripts/wdc_top_k/snoopy_ft_wt-wdc.csv',
         },
@@ -866,7 +866,7 @@ def print_llm_annotation_metrics(
     print(f"LLM Annotation Evaluation: {benchmark}")
     print(f"{'=' * 90}")
     
-    methods = ['semsketch', 'semsketch_D0', 'deepjoin', 'snoopy']
+    methods = ['MosaicJoin', 'MosaicJoin_D0', 'deepjoin', 'snoopy']
     header = "K," + ",".join(methods)
     # # Print Hits@K table
     # print(f"\nHits@K:")
