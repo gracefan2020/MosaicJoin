@@ -1,30 +1,20 @@
 """
 Query Time Module
 
-Given a query table, embeds all query column values and compares against pre-computed
-datalake sketches to find top-k joinable tables. No sketching is performed on the query
-side - all query embeddings are used directly.
-
-Supports multiple similarity computation methods:
-- chamfer: Chamfer similarity (MaxSim) - for each query embedding, find max similarity
-           to datalake sketch vectors. Reference: https://arxiv.org/abs/2405.19504
-- inverse_chamfer: Inverse Chamfer - for each datalake sketch vector, find max similarity
-           to query embeddings.
-- symmetric_chamfer: Arithmetic mean of chamfer and inverse_chamfer. Balanced combination.
-- harmonic_chamfer: Harmonic mean of both directions. More conservative - penalizes when
-           either direction has low similarity. Good for reducing false positives.
-- min_chamfer: Minimum of both directions. Most conservative - requires both directions
-           to have high similarity.
+Embeds query column values and compares against pre-computed datalake sketches
+or full embeddings to find top-k joinable tables. Supports chamfer, inverse_chamfer,
+symmetric_chamfer (avg chamfer), harmonic_chamfer similarity methods.
 """
 
 from __future__ import annotations
 
+import logging
 import heapq
+import random
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Set
-import logging
+from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
@@ -35,29 +25,24 @@ try:
 except ImportError:
     TORCH_AVAILABLE = False
 
-from offline_embedding import MPNetEmbedder, create_mpnet_embedder, create_embedder, load_column_embedding
+from offline_embedding import create_embedder, load_column_embedding
 from offline_sketch import SemanticSketch, load_offline_sketch, ConsolidatedSketchStore, farthest_point_sampling
 
+# =============================================================================
+# Config & Data Types
+# =============================================================================
 
 @dataclass
 class QueryConfig:
-    """Configuration for query processing."""
     top_k_return: int = 50
     similarity_threshold: float = 0.7
-    sketch_size: int = 1024
-    query_sketch_size: int = 0  # 0 = no sketching (use all query embeddings), >0 = sketch to this size
-    similarity_method: str = "chamfer"  # "chamfer", "inverse_chamfer", "symmetric_chamfer", "harmonic_chamfer"
-    top_k_for_mean: int = 100
-    enable_early_stopping: bool = True
-    early_subset_size: int = 256
-    enable_large_table_sampling: bool = True
-    large_table_sample_size: int = 1000
-    device: str = "auto"  # "auto", "cpu", "cuda" - used for embeddings AND chamfer similarity
-    embedding_model: str = "mpnet"  # "mpnet" | "embeddinggemma"
-    embedding_dim: int = 128  # Output dimension for embeddinggemma
-    debug_matches: bool = False  # Print detailed match info for debugging
-    debug_top_n: int = 10  # Number of top matches to print per query/datalake vector
-
+    query_sketch_size: int = 0
+    d_sketch_size: int = 64
+    similarity_method: str = "symmetric_chamfer"
+    device: str = "auto"
+    embedding_model: str = "embeddinggemma"
+    embedding_dim: int = 128
+    large_table_sample_size: int = 0
 
 @dataclass
 class QueryColumn:
@@ -66,18 +51,14 @@ class QueryColumn:
     column_name: str
     values: List[str]
 
-
 @dataclass
 class QueryResult:
-    """Result of a semantic join query."""
     candidate_table: str
     candidate_column: str
     similarity_score: float
 
-
 @dataclass
 class QueryStats:
-    """Statistics for query processing."""
     total_queries: int = 0
     successful_queries: int = 0
     failed_queries: int = 0
@@ -85,173 +66,119 @@ class QueryStats:
     total_embedding_time: float = 0.0
     total_search_time: float = 0.0
     total_candidates_found: int = 0
-    total_high_quality_candidates: int = 0
+
+# =============================================================================
+# Query Processor
+# =============================================================================
+
+def discover_columns(base_dir: Path, ext: str = "*.pkl") -> Dict[Tuple[str, str, int], Path]:
+    """Discover (table, column, index) from dir structure."""
+    out = {}
+    if not base_dir.exists():
+        return out
+    for table_dir in base_dir.iterdir():
+        if not table_dir.is_dir():
+            continue
+        for f in table_dir.glob(ext):
+            if "_metadata" in f.name:
+                continue
+            parts = f.stem.rsplit("_", 1)
+            if len(parts) == 2 and parts[1].isdigit():
+                out[(table_dir.name, parts[0], int(parts[1]))] = f
+    return out
+
+
+def embeddings_to_sketch(emb: np.ndarray) -> SemanticSketch:
+    return SemanticSketch(
+        representative_vectors=emb,
+        representative_ids=list(range(len(emb))),
+        distances_to_origin=np.array([]),
+        embedding_dim=emb.shape[1] if len(emb) > 0 else 0,
+        k=len(emb),
+        centroid=np.array([]),
+        representative_names=None
+    )
 
 
 class SemanticJoinQueryProcessor:
-    """Processes semantic join queries using pre-built sketches."""
-    
-    def __init__(self, config: QueryConfig, sketches_dir: Path, 
+    """Processes semantic join queries. Uses sketches or full embeddings (d_sketch_size=0)."""
+
+    def __init__(self, config: QueryConfig, sketches_dir: Path,
                  embeddings_dir: Optional[Path] = None,
                  datalake_dir: Optional[Path] = None,
-                 preload_sketches: bool = True,
+                 preload: bool = True,
                  use_consolidated: bool = True,
-                 mmap_mode: Optional[str] = 'r'):
-        """
-        Args:
-            config: Query configuration
-            sketches_dir: Path to sketches directory (individual files or consolidated store)
-            embeddings_dir: Optional path to embeddings directory
-            datalake_dir: Optional path to datalake directory
-            preload_sketches: Whether to preload all sketches into memory
-            use_consolidated: Try to use consolidated sketch store if available (much faster)
-            mmap_mode: Memory-map mode for consolidated store ('r', 'r+', 'c', None)
-                       'r' = read-only mmap (fastest startup, lowest memory)
-                       None = load fully into RAM (faster query access)
-        """
+                 mmap_mode: Optional[str] = "r"):
         self.config = config
-        self.sketches_dir = sketches_dir
-        self.embeddings_dir = embeddings_dir
+        self.sketches_dir = Path(sketches_dir)
+        self.embeddings_dir = Path(embeddings_dir) if embeddings_dir else None
         self.datalake_dir = datalake_dir
         self.stats = QueryStats()
         self.embedder = None
-        self.logger = self._setup_logging()
-        self.mmap_mode = mmap_mode
-        
-        # Try to use consolidated store if available
-        self.consolidated_store: Optional[ConsolidatedSketchStore] = None
-        consolidated_path = sketches_dir / "sketches_consolidated.npy"
-        
-        if use_consolidated and consolidated_path.exists():
-            self.logger.info("Found consolidated sketch store, using fast loading...")
-            self._load_consolidated_store()
-            self.available_sketches = {key: None for key in self.consolidated_store.keys()}
+        self.logger = logging.getLogger(__name__)
+        self.use_full_embeddings = config.d_sketch_size == 0
+
+        if self.use_full_embeddings:
+            if not self.embeddings_dir or not self.embeddings_dir.exists():
+                raise ValueError("embeddings_dir required when d_sketch_size=0")
+            self.available_columns = discover_columns(self.embeddings_dir)
+            self.consolidated_store = None
+            self.available_sketches = {}
+            self.sketches_cache = {}
+            self.embeddings_cache: Dict[Tuple[str, str, int], np.ndarray] = {}
+            if preload and len(self.available_columns) > 0:
+                self._preload_all_embeddings()
         else:
-            if use_consolidated:
-                self.logger.info("No consolidated store found. Consider running consolidate_sketches() for faster loading.")
-            self.available_sketches = self._discover_available_sketches()
-        
-        # Pre-loaded sketches cache (only used when not using consolidated store)
-        self.sketches_cache: Dict[Tuple[str, str, int], SemanticSketch] = {}
-        if preload_sketches and self.consolidated_store is None and len(self.available_sketches) > 0:
-            self._preload_all_sketches()
-    
-    def _setup_logging(self) -> logging.Logger:
-        logger = logging.getLogger("SemanticJoinQueryProcessor")
-        logger.setLevel(logging.INFO)
-        console_handler = logging.StreamHandler()
-        console_handler.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        console_handler.setFormatter(formatter)
-        if not logger.handlers:
-            logger.addHandler(console_handler)
-        return logger
-    
-    def _load_consolidated_store(self) -> None:
-        """Load the consolidated sketch store."""
-        start_time = time.time()
-        self.consolidated_store = ConsolidatedSketchStore(self.sketches_dir)
-        self.consolidated_store.load(mmap_mode=self.mmap_mode)
-        elapsed = time.time() - start_time
-        self.logger.info(f"Loaded consolidated store with {len(self.consolidated_store)} sketches in {elapsed:.2f}s")
-    
-    def _discover_available_sketches(self) -> Dict[Tuple[str, str, int], Path]:
-        sketches = {}
-        if not self.sketches_dir.exists():
-            return sketches
-        
-        for table_dir in self.sketches_dir.iterdir():
-            if not table_dir.is_dir():
-                continue
-            table_name = table_dir.name
-            
-            for sketch_file in table_dir.glob("*.pkl"):
-                if "_metadata" in sketch_file.name:
-                    continue
-                try:
-                    filename = sketch_file.stem
-                    parts = filename.rsplit('_', 1)
-                    if len(parts) == 2 and parts[1].isdigit():
-                        column_name = parts[0]
-                        column_index = int(parts[1])
-                        sketches[(table_name, column_name, column_index)] = sketch_file
-                except Exception as e:
-                    continue
-        
-        if len(sketches) > 0:
-            self.logger.info(f"Found {len(sketches)} available sketches")
-        return sketches
-    
-    def _preload_all_sketches(self) -> None:
-        """Pre-load all sketches into memory for faster query processing."""
-        self.logger.info(f"Pre-loading {len(self.available_sketches)} sketches into memory...")
-        start_time = time.time()
-        
-        loaded = 0
-        failed = 0
-        
-        for (table_name, column_name, column_index), sketch_path in self.available_sketches.items():
-            try:
-                sketch = load_offline_sketch(table_name, column_name, column_index, self.sketches_dir)
-                if sketch is not None:
-                    self.sketches_cache[(table_name, column_name, column_index)] = sketch
-                    loaded += 1
-                else:
-                    failed += 1
-            except Exception as e:
-                failed += 1
-                continue
-            
-            # Log progress every 50000 sketches
-            if (loaded + failed) % 50000 == 0:
-                self.logger.info(f"  Loaded {loaded} sketches ({failed} failed)...")
-        
-        elapsed = time.time() - start_time
-        self.logger.info(f"Pre-loaded {loaded} sketches in {elapsed:.2f}s ({failed} failed)")
-        
-    
+            self.available_columns = {}
+            self.embeddings_cache = {}
+            consolidated_path = self.sketches_dir / "sketches_consolidated.npy"
+            if use_consolidated and consolidated_path.exists():
+                self.consolidated_store = ConsolidatedSketchStore(self.sketches_dir)
+                self.consolidated_store.load(mmap_mode=mmap_mode)
+                self.available_sketches = {k: None for k in self.consolidated_store.keys()}
+            else:
+                self.consolidated_store = None
+                self.available_sketches = discover_columns(self.sketches_dir)
+            self.sketches_cache = {}
+            if preload and self.consolidated_store is None and self.available_sketches:
+                for (tn, cn, ci) in self.available_sketches:
+                    sk = load_offline_sketch(tn, cn, ci, self.sketches_dir)
+                    if sk is not None:
+                        self.sketches_cache[(tn, cn, ci)] = sk
+
     def process_query(self, query: QueryColumn) -> List[QueryResult]:
-        """Process a semantic join query."""
-        start_time = time.time()
+        """Embed query, find similar columns, return top-k."""
+        start = time.time()
         self.stats.total_queries += 1
-        
         try:
-            # Time embedding
-            embed_start = time.time()
-            query_embeddings = self._build_query_embeddings(query)
-            embed_time = time.time() - embed_start
-            
-            if query_embeddings is None:
+            if self.config.large_table_sample_size > 0 and len(query.values) > self.config.large_table_sample_size:
+                query.values = random.sample(query.values, self.config.large_table_sample_size)
+
+            # Query Embedding Time
+            t0 = time.time()
+            query_emb = self._build_query_embeddings(query)
+            self.stats.total_embedding_time += time.time() - t0
+            if query_emb is None:
                 self.stats.failed_queries += 1
                 return []
-            
-            # Time search
-            search_start = time.time()
-            results = self._find_similar_columns(query_embeddings, query)
+
+            # Search Time
+            t1 = time.time()
+            results = self._find_similar_columns(query_emb, query)
             results.sort(key=lambda x: x.similarity_score, reverse=True)
-            final_results = results[:self.config.top_k_return]
-            search_time = time.time() - search_start
-            
-            processing_time = time.time() - start_time
+            final = results[:self.config.top_k_return]
+            self.stats.total_search_time += time.time() - t1
+
             self.stats.successful_queries += 1
-            self.stats.total_processing_time += processing_time
-            self.stats.total_embedding_time += embed_time
-            self.stats.total_search_time += search_time
-            self.stats.total_candidates_found += len(final_results)
-            
-            self.logger.info(f"Query processed in {processing_time:.2f}s (embed: {embed_time:.2f}s, search: {search_time:.2f}s), found {len(final_results)} candidates")
-            return final_results
-            
-        except Exception as e:
-            self.logger.error(f"Error processing query: {e}")
+            self.stats.total_processing_time += time.time() - start
+            self.stats.total_candidates_found += len(final)
+            return final
+        except Exception:
             self.stats.failed_queries += 1
             return []
     
     def _build_query_embeddings(self, query: QueryColumn) -> Optional[SemanticSketch]:
         """Embed query values and optionally sketch them.
-        
-        If query_sketch_size > 0, applies K-means clustering to reduce query embeddings
-        to a fixed-size sketch. Otherwise, returns all query embeddings.
         
         Returns query embeddings (optionally sketched) to compare against datalake sketches.
         """
@@ -264,9 +191,9 @@ class SemanticJoinQueryProcessor:
             )
         
         values = query.values
-        if self.config.enable_large_table_sampling and len(values) > self.config.large_table_sample_size:
-            import random
-            values = random.sample(values, self.config.large_table_sample_size)
+        # if len(values) > self.config.large_table_sample_size:
+        #     import random
+        #     values = random.sample(values, self.config.large_table_sample_size)
         
         embeddings = self.embedder.embed_values(values, query.column_name)
         if embeddings is None or len(embeddings) == 0:
@@ -306,8 +233,17 @@ class SemanticJoinQueryProcessor:
     
     def _find_similar_columns(self, query_embeddings: SemanticSketch, 
                               query: QueryColumn) -> List[QueryResult]:
-        """Find similar columns by comparing query embeddings against datalake sketches."""
-        self.logger.info(f"Comparing {query_embeddings.k} query embeddings against {len(self.available_sketches)} datalake sketches")
+        """Find similar columns by comparing query embeddings against datalake sketches or full embeddings."""
+        
+        # Determine data source based on mode
+        if self.use_full_embeddings:
+            num_candidates = len(self.available_columns)
+            candidate_items = self.available_columns.items()
+            self.logger.info(f"Comparing {query_embeddings.k} query embeddings against {num_candidates} datalake columns (full embeddings)")
+        else:
+            num_candidates = len(self.available_sketches)
+            candidate_items = self.available_sketches.items()
+            self.logger.info(f"Comparing {query_embeddings.k} query embeddings against {num_candidates} datalake sketches")
         
         # Use a min-heap to track top-k results (heap stores negative scores for max behavior)
         # Format: (negative_score, table_name, column_name)
@@ -316,40 +252,57 @@ class SemanticJoinQueryProcessor:
         processed = 0
         skipped_early = 0
         
-        # Determine the sketch source
+        # Determine the sketch source (only used when not in full embeddings mode)
         use_consolidated = self.consolidated_store is not None
-        use_cache = len(self.sketches_cache) > 0
+        use_sketch_cache = len(self.sketches_cache) > 0
+        use_embedding_cache = len(self.embeddings_cache) > 0
         
-        if use_consolidated:
-            self.logger.info(f"Using consolidated sketch store ({len(self.consolidated_store)} sketches)")
-        elif use_cache:
-            self.logger.info(f"Using pre-loaded sketches cache ({len(self.sketches_cache)} sketches)")
+        if self.use_full_embeddings:
+            if use_embedding_cache:
+                self.logger.info(f"Using pre-loaded embeddings cache ({len(self.embeddings_cache)} embeddings)")
+        else:
+            if use_consolidated:
+                self.logger.info(f"Using consolidated sketch store ({len(self.consolidated_store)} sketches)")
+            elif use_sketch_cache:
+                self.logger.info(f"Using pre-loaded sketches cache ({len(self.sketches_cache)} sketches)")
         
         # Normalize query table name once (remove .csv extension)
         query_table_normalized = query.table_name.replace('.csv', '')
         
-        for (table_name, column_name, column_index), sketch_path in self.available_sketches.items():
+        for (table_name, column_name, column_index), file_path in candidate_items:
             try:
                 # Skip the query table itself
                 table_name_normalized = table_name.replace('.csv', '')
                 if table_name_normalized == query_table_normalized:
                     continue
                 
-                # Get candidate sketch from the appropriate source
+                # Get candidate data from the appropriate source
                 cache_key = (table_name, column_name, column_index)
-                if use_consolidated:
-                    candidate_sketch = self.consolidated_store.get_sketch(table_name, column_name, column_index)
-                elif use_cache and cache_key in self.sketches_cache:
-                    candidate_sketch = self.sketches_cache[cache_key]
+                
+                if self.use_full_embeddings:
+                    # Full embeddings mode
+                    if use_embedding_cache and cache_key in self.embeddings_cache:
+                        embeddings = self.embeddings_cache[cache_key]
+                    else:
+                        embeddings = load_column_embedding(table_name, column_name, column_index, self.embeddings_dir)
+                    
+                    if embeddings is None:
+                        continue
+                    candidate_sketch = embeddings_to_sketch(embeddings)
                 else:
-                    candidate_sketch = load_offline_sketch(table_name, column_name, column_index, self.sketches_dir)
+                    # Sketch mode
+                    if use_consolidated:
+                        candidate_sketch = self.consolidated_store.get_sketch(table_name, column_name, column_index)
+                    elif use_sketch_cache and cache_key in self.sketches_cache:
+                        candidate_sketch = self.sketches_cache[cache_key]
+                    else:
+                        candidate_sketch = load_offline_sketch(table_name, column_name, column_index, self.sketches_dir)
                 
                 if candidate_sketch is None:
                     continue
                 
                 semantic_matches, semantic_density = self._estimate_semantic_joinability(
-                    query_embeddings, candidate_sketch, min_score_threshold,
-                    candidate_info=(table_name, column_name) if self.config.debug_matches else None
+                    query_embeddings, candidate_sketch, min_score_threshold
                 )
                 
                 processed += 1
@@ -435,84 +388,6 @@ class SemanticJoinQueryProcessor:
             self.logger.debug(f"Could not load values for {table_name}.{column_name}: {e}")
             return None
     
-    def _print_debug_matches(self, similarity_matrix: np.ndarray, 
-                              query_emb: SemanticSketch, datalake_sketch: SemanticSketch,
-                              direction: str = "chamfer",
-                              candidate_info: Optional[Tuple[str, str]] = None) -> None:
-        """Print detailed match information for debugging.
-        
-        Args:
-            similarity_matrix: (num_query, num_datalake) similarity scores
-            query_emb: Query embeddings with representative_names
-            datalake_sketch: Datalake sketch with representative_names
-            direction: "chamfer" (query->datalake) or "inverse" (datalake->query)
-            candidate_info: Optional (table_name, column_name) tuple for context
-        """
-        top_n = self.config.debug_top_n
-        q_names = query_emb.representative_names or [f"q_{i}" for i in range(query_emb.k)]
-        
-        # Try to get datalake names: from sketch, or load on-demand from CSV
-        d_names = datalake_sketch.representative_names
-        if d_names is None and candidate_info is not None:
-            d_names = self._load_column_values_for_debug(
-                candidate_info[0], candidate_info[1], datalake_sketch.representative_ids
-            )
-        if d_names is None:
-            d_names = [f"d_{i}" for i in range(datalake_sketch.k)]
-        
-        if candidate_info:
-            print(f"\n  [DEBUG] Candidate: {candidate_info[0]}.{candidate_info[1]}")
-        
-        if direction == "chamfer":
-            # For each query embedding, show best datalake matches
-            print(f"\n  === CHAMFER DEBUG: Query -> Datalake (top {top_n} per query) ===")
-            max_sims = np.max(similarity_matrix, axis=1)
-            best_indices = np.argmax(similarity_matrix, axis=1)
-            
-            # Sort by max similarity descending
-            sorted_q_idx = np.argsort(max_sims)[::-1][:top_n]
-            for q_idx in sorted_q_idx:
-                d_idx = best_indices[q_idx]
-                sim = max_sims[q_idx]
-                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
-                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
-                print(f"    Q[{q_idx}] '{q_val[:50]}' -> D[{d_idx}] '{d_val[:50]}' | sim={sim:.4f}")
-            
-            # Also show worst matches (lowest max similarity)
-            print(f"  --- Worst {top_n} query matches (lowest max sim) ---")
-            worst_q_idx = np.argsort(max_sims)[:top_n]
-            for q_idx in worst_q_idx:
-                d_idx = best_indices[q_idx]
-                sim = max_sims[q_idx]
-                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
-                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
-                print(f"    Q[{q_idx}] '{q_val[:50]}' -> D[{d_idx}] '{d_val[:50]}' | sim={sim:.4f}")
-                
-        elif direction == "inverse":
-            # For each datalake embedding, show best query matches
-            print(f"\n  === INVERSE CHAMFER DEBUG: Datalake -> Query (top {top_n} per datalake) ===")
-            max_sims = np.max(similarity_matrix, axis=0)
-            best_indices = np.argmax(similarity_matrix, axis=0)
-            
-            # Sort by max similarity descending
-            sorted_d_idx = np.argsort(max_sims)[::-1][:top_n]
-            for d_idx in sorted_d_idx:
-                q_idx = best_indices[d_idx]
-                sim = max_sims[d_idx]
-                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
-                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
-                print(f"    D[{d_idx}] '{d_val[:50]}' -> Q[{q_idx}] '{q_val[:50]}' | sim={sim:.4f}")
-            
-            # Also show worst matches
-            print(f"  --- Worst {top_n} datalake matches (lowest max sim) ---")
-            worst_d_idx = np.argsort(max_sims)[:top_n]
-            for d_idx in worst_d_idx:
-                q_idx = best_indices[d_idx]
-                sim = max_sims[d_idx]
-                q_val = q_names[q_idx] if q_idx < len(q_names) else f"q_{q_idx}"
-                d_val = d_names[d_idx] if d_idx < len(d_names) else f"d_{d_idx}"
-                print(f"    D[{d_idx}] '{d_val[:50]}' -> Q[{q_idx}] '{q_val[:50]}' | sim={sim:.4f}")
-
     def _estimate_semantic_joinability(self, query_emb: SemanticSketch, datalake_sketch: SemanticSketch, 
                                         min_score_threshold: float = 0.0,
                                         candidate_info: Optional[Tuple[str, str]] = None) -> Tuple[int, float]:
@@ -578,8 +453,6 @@ class SemanticJoinQueryProcessor:
                 semantic_density = float(np.mean(max_sims_per_query))
             semantic_matches = query_emb.k
             
-            if self.config.debug_matches:
-                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "chamfer", candidate_info)
         
         elif method == "inverse_chamfer":
             # Inverse Chamfer: for each datalake sketch vector, find max sim to query embeddings
@@ -608,9 +481,7 @@ class SemanticJoinQueryProcessor:
             else:
                 max_sims_per_datalake = np.max(similarity_matrix, axis=0)
             semantic_matches = datalake_sketch.k
-            
-            if self.config.debug_matches:
-                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "inverse", candidate_info)
+
         
         elif method in ("symmetric_chamfer", "harmonic_chamfer"):
             # Combined Chamfer methods: compute both directions and combine
@@ -663,11 +534,6 @@ class SemanticJoinQueryProcessor:
             
             semantic_matches = min(query_emb.k, datalake_sketch.k)
             
-            if self.config.debug_matches:
-                print(f"  [DEBUG] chamfer={chamfer_score:.4f}, inv_chamfer={inv_chamfer_score:.4f}")
-                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "chamfer", candidate_info)
-                self._print_debug_matches(similarity_matrix, query_emb, datalake_sketch, "inverse", candidate_info)
-        
         return int(semantic_matches), float(semantic_density)
     
     
