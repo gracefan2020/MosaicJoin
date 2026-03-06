@@ -1,9 +1,0 @@
-{
-  "table_name": "NCAATeamSeason_left",
-  "column_name": "title",
-  "column_index": 1,
-  "total_embeddings": 5619,
-  "sketch_k": 1024,
-  "processing_time": 11.755455017089844,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/NCAATeamSeason_left/title_1.npz"
-}

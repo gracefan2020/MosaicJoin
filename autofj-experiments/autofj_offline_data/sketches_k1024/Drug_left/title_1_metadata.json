@@ -1,9 +1,0 @@
-{
-  "table_name": "Drug_left",
-  "column_name": "title",
-  "column_index": 1,
-  "total_embeddings": 5356,
-  "sketch_k": 1024,
-  "processing_time": 6.695207834243774,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/Drug_left/title_1.npz"
-}

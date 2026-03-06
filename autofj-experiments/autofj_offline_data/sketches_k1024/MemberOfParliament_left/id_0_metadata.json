@@ -1,9 +1,0 @@
-{
-  "table_name": "MemberOfParliament_left",
-  "column_name": "id",
-  "column_index": 0,
-  "total_embeddings": 5774,
-  "sketch_k": 1024,
-  "processing_time": 7.086354494094849,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/MemberOfParliament_left/id_0.npz"
-}

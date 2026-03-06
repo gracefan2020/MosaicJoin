@@ -1,9 +1,0 @@
-{
-  "table_name": "HistoricBuilding_left",
-  "column_name": "title",
-  "column_index": 1,
-  "total_embeddings": 5064,
-  "sketch_k": 1024,
-  "processing_time": 5.809164762496948,
-  "file_path": "entity-linking-experiments/autofj_offline_data/embeddings/HistoricBuilding_left/title_1.npz"
-}
