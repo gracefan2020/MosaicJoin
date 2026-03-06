@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-california-govs-1_target_Native_State",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 37,
-  "sketch_k": 37,
-  "processing_time": 0.0016939640045166016,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-california-govs-1_target_Native_State/title_0.npz"
-}

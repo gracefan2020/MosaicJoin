@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-us-presidents-5_source_Birth_Name",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 29,
-  "sketch_k": 29,
-  "processing_time": 0.0012590885162353516,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-presidents-5_source_Birth_Name/title_0.npz"
-}

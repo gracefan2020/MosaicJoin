@@ -1,9 +1,0 @@
-{
-  "table_name": "names200_source_fullname",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 200,
-  "sketch_k": 128,
-  "processing_time": 0.009798765182495117,
-  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/names200_source_fullname/title_0.npz"
-}

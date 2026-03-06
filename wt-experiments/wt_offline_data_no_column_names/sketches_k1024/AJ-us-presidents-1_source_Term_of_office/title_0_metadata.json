@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-us-presidents-1_source_Term_of_office",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 67,
-  "sketch_k": 67,
-  "processing_time": 0.004532814025878906,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-presidents-1_source_Term_of_office/title_0.npz"
-}

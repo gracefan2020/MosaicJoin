@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-duke-cs-profs_target_JoinYear",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 1772,
-  "sketch_k": 128,
-  "processing_time": 0.03060626983642578,
-  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-duke-cs-profs_target_JoinYear/title_0.npz"
-}

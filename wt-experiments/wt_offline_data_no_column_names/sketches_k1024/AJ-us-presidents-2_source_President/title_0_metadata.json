@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-us-presidents-2_source_President",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 46,
-  "sketch_k": 46,
-  "processing_time": 0.0023505687713623047,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-presidents-2_source_President/title_0.npz"
-}

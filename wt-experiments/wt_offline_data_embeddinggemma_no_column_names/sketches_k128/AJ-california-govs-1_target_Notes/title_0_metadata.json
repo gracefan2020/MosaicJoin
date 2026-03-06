@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-california-govs-1_target_Notes",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 4,
-  "sketch_k": 4,
-  "processing_time": 0.004573822021484375,
-  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-california-govs-1_target_Notes/title_0.npz"
-}

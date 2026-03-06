@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-us-presidents-3_source_State",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 44,
-  "sketch_k": 44,
-  "processing_time": 0.0021729469299316406,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-presidents-3_source_State/title_0.npz"
-}

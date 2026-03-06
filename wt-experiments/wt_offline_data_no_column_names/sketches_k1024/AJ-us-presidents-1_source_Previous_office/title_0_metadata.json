@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-us-presidents-1_source_Previous_office",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 67,
-  "sketch_k": 67,
-  "processing_time": 0.004109382629394531,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-us-presidents-1_source_Previous_office/title_0.npz"
-}

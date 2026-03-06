@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-california-govs-2_source_Term_in_office",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 64,
-  "sketch_k": 64,
-  "processing_time": 0.003971099853515625,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/AJ-california-govs-2_source_Term_in_office/title_0.npz"
-}

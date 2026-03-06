@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-new-york-govs-2_source_Governor",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 60,
-  "sketch_k": 60,
-  "processing_time": 0.00506281852722168,
-  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-new-york-govs-2_source_Governor/title_0.npz"
-}

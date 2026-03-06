@@ -1,9 +1,0 @@
-{
-  "table_name": "AJ-us-presidents-6_source_State_of_Birth",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 44,
-  "sketch_k": 44,
-  "processing_time": 0.007693052291870117,
-  "file_path": "wt-experiments/wt_offline_data_embeddinggemma_no_column_names/embeddings/AJ-us-presidents-6_source_State_of_Birth/title_0.npz"
-}

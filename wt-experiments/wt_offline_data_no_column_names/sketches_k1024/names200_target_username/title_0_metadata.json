@@ -1,9 +1,0 @@
-{
-  "table_name": "names200_target_username",
-  "column_name": "title",
-  "column_index": 0,
-  "total_embeddings": 200,
-  "sketch_k": 200,
-  "processing_time": 0.0398106575012207,
-  "file_path": "wt-experiments/wt_offline_data_no_column_names/embeddings/names200_target_username/title_0.npz"
-}
