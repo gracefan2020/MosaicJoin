@@ -1,0 +1,6 @@
+# run_koios_baseline.py uses only the Python standard library unless
+# --candidate_mode faiss is enabled. Install FAISS GPU with conda for that mode.
+# build_koios_embedding_db.py needs these to create ft.sqlite3.
+numpy
+sentence-transformers
+torch
