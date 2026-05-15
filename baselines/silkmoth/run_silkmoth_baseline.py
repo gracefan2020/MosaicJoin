@@ -877,6 +877,7 @@ def run(args: argparse.Namespace) -> int:
         LOGGER.info("Using %s CPU workers for candidate verification", score_workers)
 
     total_written = 0
+    online_start = time.perf_counter()
     try:
         with out_path.open("w", encoding="utf-8", newline="") as f:
             writer = csv.writer(f)
@@ -940,7 +941,9 @@ def run(args: argparse.Namespace) -> int:
             score_pool.close()
             score_pool.join()
 
+    online_seconds = time.perf_counter() - online_start
     LOGGER.info("Wrote ranked results: %s (%s rows)", out_path, total_written)
+    LOGGER.info("[TIMING] online_query_seconds=%.3f", online_seconds)
     return 0
 
 
