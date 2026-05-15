@@ -1,0 +1,13 @@
+{
+  "include_ranking": [
+    "HAMMING",
+    "VALUE_SEMANTICS",
+    "METADATA_SEMANTICS",
+    "CONTAINMENT",
+    "JOIN_SIZE",
+    "OVERLAP_SIZE"
+  ],
+  "ranking_weights": [1, 1, 1, 1, 1, 1],
+  "ranking_order": [false, true, true, true, false, true],
+  "support_numeric": [true, false, true, true, true, true]
+}
