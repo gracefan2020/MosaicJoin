@@ -8,6 +8,7 @@ import csv
 import logging
 import pickle
 import re
+import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -18,6 +19,17 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+BASELINES_ROOT = Path(__file__).resolve().parents[1]
+if str(BASELINES_ROOT) not in sys.path:
+    sys.path.insert(0, str(BASELINES_ROOT))
+
+from resource_monitor import (
+    ResourceMonitor,
+    add_resource_monitor_args,
+    default_resource_log_path,
+    log_resource_summary,
+)
 
 LOGGER = logging.getLogger(__name__)
 TARGET_TABLE_RE = re.compile(r"^target_(\d+)\.csv$", re.IGNORECASE)
@@ -792,6 +804,8 @@ def run_baseline(args: argparse.Namespace) -> int:
         raise ValueError("No query columns discovered")
     LOGGER.info("Query source: %s (%s query columns)", query_source_desc, len(query_specs))
 
+    resource_log_csv = default_resource_log_path(args.out_csv, args.resource_log_csv)
+    resources = ResourceMonitor(resource_log_csv, args.resource_sample_interval).start()
     t_online = time.perf_counter()
     query_items, query_embeddings, skipped_queries, _ = encode_queries(
         query_specs=query_specs,
@@ -854,6 +868,7 @@ def run_baseline(args: argparse.Namespace) -> int:
                 rows_written += 1
 
     online_seconds = time.perf_counter() - t_online
+    resources.stop()
     LOGGER.info(
         "Done. Wrote %s rows to %s (queries=%s, skipped=%s)",
         rows_written,
@@ -867,6 +882,7 @@ def run_baseline(args: argparse.Namespace) -> int:
     else:
         LOGGER.info("[TIMING] offline_datalake_embedding_seconds=%.3f", offline_seconds)
     LOGGER.info("[TIMING] online_query_seconds=%.3f", online_seconds)
+    log_resource_summary(resources.summary(), LOGGER.info)
 
     return 0
 
@@ -959,6 +975,7 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Logging level.",
     )
+    add_resource_monitor_args(parser)
     return parser
 
 

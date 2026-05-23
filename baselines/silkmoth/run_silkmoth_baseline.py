@@ -25,6 +25,17 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
+BASELINES_ROOT = Path(__file__).resolve().parents[1]
+if str(BASELINES_ROOT) not in sys.path:
+    sys.path.insert(0, str(BASELINES_ROOT))
+
+from resource_monitor import (
+    ResourceMonitor,
+    add_resource_monitor_args,
+    default_resource_log_path,
+    log_resource_summary,
+)
+
 LOGGER = logging.getLogger(__name__)
 TOKEN_RE = re.compile(r"[A-Za-z0-9]+")
 EPS = 1e-12
@@ -877,6 +888,8 @@ def run(args: argparse.Namespace) -> int:
         LOGGER.info("Using %s CPU workers for candidate verification", score_workers)
 
     total_written = 0
+    resource_log_csv = default_resource_log_path(str(out_path), args.resource_log_csv)
+    resources = ResourceMonitor(resource_log_csv, args.resource_sample_interval).start()
     online_start = time.perf_counter()
     try:
         with out_path.open("w", encoding="utf-8", newline="") as f:
@@ -942,8 +955,10 @@ def run(args: argparse.Namespace) -> int:
             score_pool.join()
 
     online_seconds = time.perf_counter() - online_start
+    resources.stop()
     LOGGER.info("Wrote ranked results: %s (%s rows)", out_path, total_written)
     LOGGER.info("[TIMING] online_query_seconds=%.3f", online_seconds)
+    log_resource_summary(resources.summary(), LOGGER.info)
     return 0
 
 
@@ -1026,6 +1041,7 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Logging level.",
     )
+    add_resource_monitor_args(parser)
     return parser
 
 

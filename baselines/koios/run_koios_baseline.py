@@ -24,7 +24,17 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Set, Tuple
 
+BASELINES_ROOT = Path(__file__).resolve().parents[1]
+if str(BASELINES_ROOT) not in sys.path:
+    sys.path.insert(0, str(BASELINES_ROOT))
+
 from build_koios_embedding_db import normalize_text, resolve_datalake_dir
+from resource_monitor import (
+    ResourceMonitor,
+    add_resource_monitor_args,
+    default_resource_log_path,
+    log_resource_summary,
+)
 
 LOGGER = logging.getLogger("koios-baseline")
 EPS = 1e-12
@@ -629,6 +639,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--out_csv", default="", help="Output CSV path.")
     parser.add_argument("--log_level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+    add_resource_monitor_args(parser)
     return parser
 
 
@@ -709,86 +720,89 @@ def run(args: argparse.Namespace) -> int:
         )
 
     total_written = 0
-    online_start = time.perf_counter()
-    try:
-        with out_path.open("w", encoding="utf-8", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(["query_table", "query_column", "candidate_table", "candidate_column", "similarity_score"])
+    resource_log_csv = default_resource_log_path(str(out_path), args.resource_log_csv)
+    with ResourceMonitor(resource_log_csv, args.resource_sample_interval) as resources:
+        online_start = time.perf_counter()
+        try:
+            with out_path.open("w", encoding="utf-8", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerow(["query_table", "query_column", "candidate_table", "candidate_column", "similarity_score"])
 
-            for query_idx, spec in enumerate(query_specs, start=1):
-                query = available.get((spec.query_table, spec.query_column))
-                if query is None:
-                    LOGGER.warning("Skipping query not found in KOIOS sets: %s.%s", spec.query_table, spec.query_column)
-                    continue
+                for query_idx, spec in enumerate(query_specs, start=1):
+                    query = available.get((spec.query_table, spec.query_column))
+                    if query is None:
+                        LOGGER.warning("Skipping query not found in KOIOS sets: %s.%s", spec.query_table, spec.query_column)
+                        continue
 
-                start = time.perf_counter()
-                candidates = columns
-                valid_edges = None
-                if candidate_index is not None:
-                    candidate_search = candidate_index.candidates(query)
-                    valid_edges = candidate_search.edges
-                    results = score_query_parallel(
-                        query=query,
-                        candidate_ids=candidate_search.ids,
-                        columns=columns,
-                        pool=score_pool,
-                        workers=score_workers,
-                        alpha=args.alpha,
-                        top_k=args.top_k,
-                        include_self_matches=args.include_self_matches,
-                        valid_edges=valid_edges,
-                    )
-                    candidates = [columns[idx] for idx in candidate_search.ids]
-                else:
-                    results = score_query(
-                        query=query,
-                        candidates=candidates,
-                        embeddings=embeddings,
-                        alpha=args.alpha,
-                        top_k=args.top_k,
-                        include_self_matches=args.include_self_matches,
-                        valid_edges=valid_edges,
-                    )
-                if candidate_index is not None:
-                    results = fill_zero_results(
-                        results=results,
-                        query=query,
-                        columns=columns,
-                        top_k=args.top_k,
-                        include_self_matches=args.include_self_matches,
-                    )
-                for candidate, score in results:
-                    writer.writerow(
-                        [
-                            query.table_name,
-                            query.column_name,
-                            candidate.table_name,
-                            candidate.column_name,
-                            f"{score:.6f}",
-                        ]
-                    )
-                    total_written += 1
+                    start = time.perf_counter()
+                    candidates = columns
+                    valid_edges = None
+                    if candidate_index is not None:
+                        candidate_search = candidate_index.candidates(query)
+                        valid_edges = candidate_search.edges
+                        results = score_query_parallel(
+                            query=query,
+                            candidate_ids=candidate_search.ids,
+                            columns=columns,
+                            pool=score_pool,
+                            workers=score_workers,
+                            alpha=args.alpha,
+                            top_k=args.top_k,
+                            include_self_matches=args.include_self_matches,
+                            valid_edges=valid_edges,
+                        )
+                        candidates = [columns[idx] for idx in candidate_search.ids]
+                    else:
+                        results = score_query(
+                            query=query,
+                            candidates=candidates,
+                            embeddings=embeddings,
+                            alpha=args.alpha,
+                            top_k=args.top_k,
+                            include_self_matches=args.include_self_matches,
+                            valid_edges=valid_edges,
+                        )
+                    if candidate_index is not None:
+                        results = fill_zero_results(
+                            results=results,
+                            query=query,
+                            columns=columns,
+                            top_k=args.top_k,
+                            include_self_matches=args.include_self_matches,
+                        )
+                    for candidate, score in results:
+                        writer.writerow(
+                            [
+                                query.table_name,
+                                query.column_name,
+                                candidate.table_name,
+                                candidate.column_name,
+                                f"{score:.6f}",
+                            ]
+                        )
+                        total_written += 1
 
-                LOGGER.info(
-                    "[%s/%s] %s.%s candidates=%s written=%s t=%.3fs",
-                    query_idx,
-                    len(query_specs),
-                    query.table_name,
-                    query.column_name,
-                    len(candidates),
-                    len(results),
-                    time.perf_counter() - start,
-                )
-    finally:
-        if score_pool is not None:
-            score_pool.close()
-            score_pool.join()
-        embeddings.close()
+                    LOGGER.info(
+                        "[%s/%s] %s.%s candidates=%s written=%s t=%.3fs",
+                        query_idx,
+                        len(query_specs),
+                        query.table_name,
+                        query.column_name,
+                        len(candidates),
+                        len(results),
+                        time.perf_counter() - start,
+                    )
+        finally:
+            if score_pool is not None:
+                score_pool.close()
+                score_pool.join()
+            embeddings.close()
 
-    online_seconds = time.perf_counter() - online_start
+        online_seconds = time.perf_counter() - online_start
     LOGGER.info("Wrote KOIOS baseline results: %s (%s rows)", out_path, total_written)
     LOGGER.info("[TIMING] offline_datalake_embedding_seconds=0.000 (loaded cached index)")
     LOGGER.info("[TIMING] online_query_seconds=%.3f", online_seconds)
+    log_resource_summary(resources.summary(), LOGGER.info)
     return 0
 
 

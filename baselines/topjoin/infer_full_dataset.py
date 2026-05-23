@@ -8,10 +8,19 @@ import time
 
 TOPJOIN_ROOT = os.path.join(os.path.dirname(__file__), "ContextAwareJoin")
 TOPJOIN_SRC = os.path.join(TOPJOIN_ROOT, "src")
+BASELINES_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASELINES_ROOT not in sys.path:
+    sys.path.insert(0, BASELINES_ROOT)
 if TOPJOIN_SRC not in sys.path:
     sys.path.insert(0, TOPJOIN_SRC)
 
 from myutils.logging_util import setup_logger
+from resource_monitor import (
+    ResourceMonitor,
+    add_resource_monitor_args,
+    default_resource_log_path,
+    log_resource_summary,
+)
 from topjoin import create_index
 from topjoin.query_helper import Joinable_QueryHelper
 
@@ -116,6 +125,7 @@ def main():
     parser.add_argument("--candidate_k", type=int, default=100)
     parser.add_argument("--include_same_table", action="store_true")
     parser.add_argument("--log_dir", default=os.path.join(os.path.dirname(__file__), "results"))
+    add_resource_monitor_args(parser)
     args = parser.parse_args()
     validate_model(args.model)
 
@@ -142,10 +152,13 @@ def main():
         git_infos=[],
     )
     config["index_path"] = create_index(config)
-    online_start = time.perf_counter()
-    write_results(config, load_query_columns(args.query_file), args.out_csv, args.include_same_table)
-    online_seconds = time.perf_counter() - online_start
+    resource_log_csv = default_resource_log_path(args.out_csv, args.resource_log_csv)
+    with ResourceMonitor(resource_log_csv, args.resource_sample_interval) as resources:
+        online_start = time.perf_counter()
+        write_results(config, load_query_columns(args.query_file), args.out_csv, args.include_same_table)
+        online_seconds = time.perf_counter() - online_start
     print(f"[TIMING] online_query_seconds={online_seconds:.3f}")
+    log_resource_summary(resources.summary(), print)
     return 0
 
 

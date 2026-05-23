@@ -9,6 +9,8 @@ from __future__ import annotations
 import argparse
 import csv
 import logging
+import sys
+import time
 from pathlib import Path
 from typing import List, Optional, Sequence, Tuple
 
@@ -16,6 +18,17 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+BASELINES_ROOT = Path(__file__).resolve().parents[1]
+if str(BASELINES_ROOT) not in sys.path:
+    sys.path.insert(0, str(BASELINES_ROOT))
+
+from resource_monitor import (
+    ResourceMonitor,
+    add_resource_monitor_args,
+    default_resource_log_path,
+    log_resource_summary,
+)
 
 LOGGER = logging.getLogger(__name__)
 
@@ -207,6 +220,9 @@ def run(args: argparse.Namespace) -> int:
     LOGGER.info("Loaded target columns: %s", len(target_mats))
     LOGGER.info("Loaded query columns: %s", len(query_mats))
 
+    resource_log_csv = default_resource_log_path(args.out_csv, args.resource_log_csv)
+    resources = ResourceMonitor(resource_log_csv, args.resource_sample_interval).start()
+    online_start = time.perf_counter()
     target_emb = encode_matrices(
         model=model,
         mats=target_mats,
@@ -252,6 +268,10 @@ def run(args: argparse.Namespace) -> int:
         recall = compute_recall_at_k(top_indices.cpu().numpy(), gt_rows, k=min(25, k))
         LOGGER.info("Recall@%s (index.csv): %.4f", min(25, k), recall)
 
+    online_seconds = time.perf_counter() - online_start
+    resources.stop()
+    LOGGER.info("[TIMING] online_query_seconds=%.3f", online_seconds)
+    log_resource_summary(resources.summary(), LOGGER.info)
     return 0
 
 
@@ -278,6 +298,7 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["DEBUG", "INFO", "WARNING", "ERROR"],
         help="Logging level",
     )
+    add_resource_monitor_args(parser)
     return parser
 
 

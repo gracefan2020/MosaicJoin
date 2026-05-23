@@ -15,6 +15,13 @@ REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if REPO_ROOT not in sys.path:
     sys.path.insert(0, REPO_ROOT)
 
+from resource_monitor import (
+    ResourceMonitor,
+    add_resource_monitor_args,
+    default_resource_log_path,
+    log_resource_summary,
+)
+
 _TOKENIZER_WARNING_SHOWN = False
 
 
@@ -375,6 +382,7 @@ def main():
         default="auto",
         help="Inference device: auto (default), cpu, cuda, or mps.",
     )
+    add_resource_monitor_args(parser)
     args = parser.parse_args()
     resolved_device = resolve_device(args.device)
     print(f"Device selected: {resolved_device}")
@@ -467,66 +475,68 @@ def main():
         print("Missing --out_csv for query inference.")
         return 1
 
-    online_start = time.perf_counter()
-    if query_dir and os.path.isfile(query_dir):
-        query_items, query_texts = collect_query_columns_from_file(
-            query_dir, datalake_dir, use_table_name=args.use_table_name
-        )
-    else:
-        query_items, query_texts = collect_table_columns(
-            query_dir, column_name=column_name, use_table_name=args.use_table_name
-        )
-        if not query_items and column_name:
-            print(
-                f"No query columns matched '{column_name}' in {query_dir}; falling back to all columns."
+    resource_log_csv = default_resource_log_path(args.out_csv, args.resource_log_csv)
+    with ResourceMonitor(resource_log_csv, args.resource_sample_interval) as resources:
+        online_start = time.perf_counter()
+        if query_dir and os.path.isfile(query_dir):
+            query_items, query_texts = collect_query_columns_from_file(
+                query_dir, datalake_dir, use_table_name=args.use_table_name
             )
+        else:
             query_items, query_texts = collect_table_columns(
-                query_dir, column_name=None, use_table_name=args.use_table_name
+                query_dir, column_name=column_name, use_table_name=args.use_table_name
             )
-    if not query_items:
-        print(f"No query columns found in {query_dir}.")
-        return 1
+            if not query_items and column_name:
+                print(
+                    f"No query columns matched '{column_name}' in {query_dir}; falling back to all columns."
+                )
+                query_items, query_texts = collect_table_columns(
+                    query_dir, column_name=None, use_table_name=args.use_table_name
+                )
+        if not query_items:
+            print(f"No query columns found in {query_dir}.")
+            return 1
 
-    query_embeddings = model.encode(
-        query_texts, convert_to_tensor=True, batch_size=args.batch_size
-    )
-    if embeddings.device.type != resolved_device:
-        embeddings = embeddings.to(resolved_device)
-    if embeddings.device != query_embeddings.device:
-        query_embeddings = query_embeddings.to(embeddings.device)
+        query_embeddings = model.encode(
+            query_texts, convert_to_tensor=True, batch_size=args.batch_size
+        )
+        if embeddings.device.type != resolved_device:
+            embeddings = embeddings.to(resolved_device)
+        if embeddings.device != query_embeddings.device:
+            query_embeddings = query_embeddings.to(embeddings.device)
 
-    hits = semantic_search(query_embeddings, embeddings, args.top_k)
+        hits = semantic_search(query_embeddings, embeddings, args.top_k)
 
-    os.makedirs(os.path.dirname(args.out_csv) or ".", exist_ok=True)
-    with open(args.out_csv, "w", encoding="utf-8", newline="") as fout:
-        writer = csv.writer(fout)
-        if args.with_header:
-            writer.writerow(
-                [
-                    "query_table",
-                    "query_column",
-                    "candidate_table",
-                    "candidate_column",
-                    "similarity_score",
-                ]
-            )
-        for q_idx, hit_list in enumerate(hits):
-            q_table, q_col = query_items[q_idx]
-            if hit_list:
-                hit_list = sorted(hit_list, key=lambda h: h["score"], reverse=True)
-            kept = 0
-            for hit in hit_list:
-                cand_idx = hit["corpus_id"]
-                score = hit["score"]
-                cand_table, cand_col = items[cand_idx]
-                if not args.include_same_table and q_table == cand_table:
-                    continue
-                writer.writerow([q_table, q_col, cand_table, cand_col, f"{score:.6f}"])
-                kept += 1
-                if args.top_k > 0 and kept >= args.top_k:
-                    break
+        os.makedirs(os.path.dirname(args.out_csv) or ".", exist_ok=True)
+        with open(args.out_csv, "w", encoding="utf-8", newline="") as fout:
+            writer = csv.writer(fout)
+            if args.with_header:
+                writer.writerow(
+                    [
+                        "query_table",
+                        "query_column",
+                        "candidate_table",
+                        "candidate_column",
+                        "similarity_score",
+                    ]
+                )
+            for q_idx, hit_list in enumerate(hits):
+                q_table, q_col = query_items[q_idx]
+                if hit_list:
+                    hit_list = sorted(hit_list, key=lambda h: h["score"], reverse=True)
+                kept = 0
+                for hit in hit_list:
+                    cand_idx = hit["corpus_id"]
+                    score = hit["score"]
+                    cand_table, cand_col = items[cand_idx]
+                    if not args.include_same_table and q_table == cand_table:
+                        continue
+                    writer.writerow([q_table, q_col, cand_table, cand_col, f"{score:.6f}"])
+                    kept += 1
+                    if args.top_k > 0 and kept >= args.top_k:
+                        break
 
-    online_seconds = time.perf_counter() - online_start
+        online_seconds = time.perf_counter() - online_start
     if used_cached_index:
         print("[TIMING] offline_datalake_embedding_seconds=0.000 (loaded cached index)")
     else:
@@ -535,6 +545,7 @@ def main():
             f"{offline_generation_seconds:.3f}"
         )
     print(f"[TIMING] online_query_seconds={online_seconds:.3f}")
+    log_resource_summary(resources.summary(), print)
 
     return 0
 
