@@ -149,7 +149,7 @@ python evaluate_retrieval.py --llm-annotation --benchmarks autofj-wdc wt-wdc [OP
 | `--combined` | Run combined experiments | `False` |
 | `--experiments` | Experiments to evaluate | — |
 | `--metrics` | Metrics to compute | — |
-| `--k-values` | Top-k values for metrics | `1 3 5 10 20 30 40 50` |
+| `--k-values` | Top-k values for metrics | `1 3 5 10 20` |
 | `--results` | Results CSV (single mode) | — |
 | `--ground-truth` | Ground truth CSV (single mode) | — |
 | `--llm-annotation` | WDC LLM-verified evaluation | `False` |
@@ -195,3 +195,7 @@ python evaluate_retrieval.py --combined --experiments wt --metrics HITS NDCG MRR
 ```
 
 ---
+
+## License
+
+MosaicJoin is released under the [MIT License](LICENSE).
